@@ -1,0 +1,48 @@
+# --- dependencies ---
+node_modules/
+.pnpm-store/
+
+# --- build output ---
+dist/
+build/
+out/
+*.tsbuildinfo
+# single-file binaries and release staging (ADR-0007)
+release/
+*.blob
+
+# --- docs site (Phase 6) ---
+site/.astro/
+site/dist/
+
+# --- test & coverage ---
+coverage/
+.vitest-cache/
+# throwaway sandboxes, snapshot stores and fake secrets created by tests
+.tmp/
+tmp/
+
+# --- secrets: real values NEVER live in this repo ---
+# Mooring exists to stop secrets leaking. A secret committed here would be
+# the most embarrassing bug the project could ship.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+!**/fixtures/**/*.pem
+!**/fixtures/**/*.key
+
+# --- logs ---
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# --- editors & OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
