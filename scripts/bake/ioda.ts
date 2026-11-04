@@ -197,3 +197,46 @@ export async function fetchIoda(
   const copyright = IodaResponse.parse(json).copyright ?? IODA_COPYRIGHT_FALLBACK;
   return { signal: parseIoda(json, signal), copyright };
 }
+
+// ── Outage events: which countries IODA flagged on a given day ─────────────────
+// Verified 2026-11-04: GET /v2/outages/events?from&until&entityType=country&format=codf returns
+// data[{ location: "country/KW", location_name, start (unix s), duration (s), datasource, score }].
+// Events are algorithmic detections and some run for weeks; we only use them to choose
+// candidate countries, then show each country's own baselined signal.
+
+const OutageEvent = z.object({
+  location: z.string(),
+  location_name: z.string(),
+  start: z.number(),
+  duration: z.number(),
+  datasource: z.string(),
+  score: z.number().nullable(),
+});
+
+const OutageEvents = z.object({ data: z.array(OutageEvent) });
+
+export interface OutageCandidate {
+  code: string;
+  name: string;
+  start: number;
+  score: number;
+}
+
+/** Countries whose outage events began during [from, until), strongest first, one per country. */
+export function parseOutageEvents(json: unknown, from: number, until: number): OutageCandidate[] {
+  const best = new Map<string, OutageCandidate>();
+  for (const e of OutageEvents.parse(json).data) {
+    const code = /^country\/([A-Z]{2})$/.exec(e.location)?.[1];
+    if (!code || e.start < from || e.start >= until) continue;
+    const score = e.score ?? 0;
+    const prev = best.get(code);
+    if (!prev || score > prev.score)
+      best.set(code, { code, name: e.location_name, start: e.start, score });
+  }
+  return [...best.values()].sort((a, b) => b.score - a.score);
+}
+
+export async function fetchOutageCandidates(from: number, until: number) {
+  const url = `https://api.ioda.inetintel.cc.gatech.edu/v2/outages/events?from=${from}&until=${until}&entityType=country&format=codf`;
+  return parseOutageEvents(await fetchJson(url), from, until);
+}

@@ -6,10 +6,14 @@ Guidance for Claude Code, and any human, working in this repo. Read it before pr
 
 ## 1. Purpose
 
-**Earthlog is the planet's black box.** It replays real world events (earthquakes, blackouts, internet shutdowns, fires, storms) **minute by minute on a cinematic 3D globe**, from data that was recorded at the time. A narrator explains what you see, and **every sentence links to the evidence behind it**.
+**Earthlog: yesterday's world, explained in 3D.** Every morning, Earthlog turns the previous day's hottest stories (every topic, everywhere) into short, cinematic explainers on a 3D globe. **Each story gets the analysis its kind deserves** (a *lens*: red and blue states for an election, a flight to the headquarters for a tech story, a life drawn across the globe for a person), and **every claim links to its source**. Full concept: [docs/CONCEPT.md](docs/CONCEPT.md).
 
-- God's Eye View and World Monitor show **now**. Earthlog reconstructs **then**, and shows how we know.
-- It works for anything that has already happened, from an earthquake in 1960 to yesterday's news. How rich a replay is depends on what was recorded (docs/DATA-SOURCES.md).
+- **Editions:** one per day, built nightly, kept forever as an archive (ADR-0009, ADR-0012).
+- **Stories:** discovered from what the news reported (Wikipedia Current events) and what the world read (Wikipedia most-read), typed via Wikidata, ranked by heat.
+- **Lenses:** one analysis module per kind of story; they ship one per phase ([PLAN.md](PLAN.md)).
+- **Story films:** chapters, captions with citations, globe layers and chart panels; exportable as video clips.
+- **Classics:** hand-made deep replays of landmark events (the planet's black box) use the same player.
+- **Not God's Eye View, not World Monitor:** they show the world *now*, as a spy simulator and an intelligence dashboard. Earthlog is the newsroom's data team: depth over breadth, editorial calm, proof everywhere.
 - **Open source (MIT), free, no accounts, no backend.** Visitors only download static files.
 
 ## 2. Architecture in one picture
@@ -17,22 +21,26 @@ Guidance for Claude Code, and any human, working in this repo. Read it before pr
 Full detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ```
- OFFLINE (a developer's machine, once per event)                ONLINE (every visitor, free)
- ┌─────────────────────────────────────────────┐               ┌──────────────────────────────┐
- │ scripts/bake/*   free public data ──► JSON  │               │ Next.js site on Vercel (SSG)  │
- │ scripts/direct   evidence ──► scene.json    │──commit──►    │ CesiumJS globe + React UI     │
- │   template mode (free) | Claude mode (key)  │  public/      │ plays scene.json, no AI calls │
- └─────────────────────────────────────────────┘  scenes/      └──────────────────────────────┘
+ OFFLINE (nightly GitHub Action, or a developer's machine)       ONLINE (every visitor, free)
+ ┌──────────────────────────────────────────────────┐          ┌──────────────────────────────┐
+ │ scripts/edition  discover + type + rank stories  │          │ Next.js site on Vercel (SSG)  │
+ │ scripts/lenses/* bake each story with its lens   │─commit─► │ CesiumJS globe + React UI     │
+ │ director         template (free) | Claude (key)  │ public/  │ plays story films, no AI      │
+ │ validator        every sentence cited            │ editions │ calls, no keys, no backend    │
+ └──────────────────────────────────────────────────┘          └──────────────────────────────┘
 ```
 
-**The AI runs once per event, never once per visitor.** A replay is a validated `scene.json` plus data files. Watching costs nothing.
+**The AI runs once per story (nightly for editions), never once per visitor.** A story film is a validated `scene.json` plus data files. Watching costs nothing.
+
+The nightly edition runs the same scripts in a scheduled GitHub Action, which commits the new edition (`data:` commits) and triggers a Vercel deploy (ADR-0009).
 
 ## 3. Non-negotiable principles
 
 1. **Every claim is cited.**
    - Every narration sentence (a "beat") cites ≥ 1 evidence ID that exists in the bundle and falls inside the scene's time window.
    - The validator rejects anything else, whether a template or Claude wrote it.
-   - **No invented facts, ever.** If the data doesn't show it, the narrator doesn't say it.
+   - **No invented facts, ever.** If the data or a cited report doesn't show it, the narrator doesn't say it.
+   - News enters as `report` evidence (a source, a link, and the exact text it rests on). The narrator may summarise it in its own words, but the sentence still cites it.
 2. **Honest data.**
    - Show what each source measures. IODA shows *internet connectivity signals*, not "people offline".
    - Label estimates and interpolations as such.
@@ -43,7 +51,8 @@ Full detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
    - Claude-written narration is marked "AI-written narration, every sentence checked against cited data".
    - **No AI calls at runtime for visitors.**
 4. **The API key never ships.**
-   - Keys live only in a local `.env` (gitignored) and are used by `scripts/` at bake and direct time.
+   - Keys live only in a local `.env` (gitignored) and, for the nightly replay, in an encrypted **GitHub Actions secret** (ADR-0010). Only `scripts/` read them, at bake and direct time.
+   - If the key is missing, expired or failing, the director falls back to the free template, so nothing breaks.
    - CI greps the build output for key patterns.
    - Never put a key in client code, a public proxy or a committed file.
 5. **Respect every data licence.**
@@ -53,7 +62,7 @@ Full detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
    - no tracking of private individuals, private aircraft or homes;
    - no imitating news outlets;
    - disasters are narrated with care, never as entertainment for its own sake;
-   - **war and politics: sensors only.** Cause, blame, actors and casualties enter narration only as quoted, cited `report` evidence, never in Earthlog's own voice. No conflict replay of anything less than 30 days old, and no election results.
+   - **all news is in scope** (politics, elections, war, sports, science, business, culture, disasters), stated plainly and neutrally, **every sentence cited** (ADR-0011). Casualty figures and contested claims are attributed to their source ("according to…"). No tactical detail (live positions of forces).
 7. **Free everything.** Only free tiers and open-source dependencies with compatible licences. If something has no free option, say so first.
 
 ## 4. Stack
@@ -91,11 +100,11 @@ Full detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## 7. Working with Abdelah
 
-- **Abdelah commits and pushes, always.** Never run `git commit`, `git push`, `git tag` or anything that rewrites history. End each phase with a summary and a suggested conventional-commit message.
-- **Phase by phase** ([PLAN.md](PLAN.md)): build → self-check → checkpoint → he reviews and commits → next phase. **Today's deadline is real:** time-box, and use the cut list rather than cutting quality.
+- **Abdelah commits and pushes, always.** Never run `git commit`, `git push`, `git tag` or anything that rewrites history. End each phase with a summary and a suggested conventional-commit message. The one exception is the nightly GitHub Action, which commits only the new daily bundle as a `data:` commit (ADR-0009).
+- **Phase by phase** ([PLAN.md](PLAN.md)): build → self-check → checkpoint → he reviews and commits → next phase. **The ship date is real** (2026-11-05): time-box, and use the cut list rather than cutting quality.
 - **Explain real design choices before implementing them:** the options, the cost of each, the recommendation. Small reversible choices: decide, and mention them.
 - **Prefer the simplest thing that works.** One person maintains this.
-- **His API budget is small.** Use Claude only through `scripts/direct.ts`, Haiku by default, with prompt caching. Print the cost every run.
+- **His API budget is small.** Use Claude only through `scripts/direct.ts`, Haiku by default, with prompt caching. Print the cost every run, and keep a hard cost ceiling per run.
 
 ## 8. Rules for Claude
 

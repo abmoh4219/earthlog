@@ -1,70 +1,84 @@
 # Earthlog: concept
 
-> **The planet's black box.** Replay what happened, minute by minute, and see how we know.
+> **Yesterday's world, explained in 3D.**
+> Every morning, Earthlog turns the previous day's hottest stories (every topic, everywhere) into short, cinematic explainers on a 3D globe. Each story gets the analysis its kind deserves, and every claim links to its source.
 
-## The idea
+## The idea in one scenario
 
-When a plane crashes, investigators replay the black box. When the world has a bad day (a blackout, an earthquake, an internet shutdown, a firestorm), there's no black box to replay. The recordings exist, though. They're scattered across NASA, USGS, internet observatories, Wikipedia and many others, each in its own format.
+It's the morning of 4 November 2026. You open Earthlog.
 
-Earthlog collects those recordings for one place and one time window, and plays them back **together, in sync, on a cinematic 3D globe**. A narrator tells the story, and every sentence carries a citation you can click.
+1. **The front page.** The globe turns slowly at dawn. Yesterday's stories glow on it as beacons: a large violet light over Washington (the US midterms), a green one over Tenerife (a footballer's death), white over Florida (a Learjet crash), gold over Sydney (an interest-rate rise), pink over India (*Jailer 2*, an Indian film). The bigger the beacon, the hotter the story: how many people read about it, how many outlets reported it.
+2. **You click the midterms.** The camera falls toward the United States. States fill in **red or blue, race by race**. Flipped seats pulse, and races not yet called stay hatched grey. A panel builds the **Senate and House seat bars**, before and after. A chart shows which candidates the world was reading about. Every number has a citation chip.
+3. **You click the footballer.** The camera draws **his life across the globe**, from his birthplace through the clubs he played for, as Wikidata records them. A **curiosity map** shows where the world read about him: Spanish-language readers went from 33 to 1,006 in a day, and other language editions followed.
+4. **You click a tech story.** The camera flies to **the company's headquarters** (for example San Francisco, for OpenAI). A panel shows what's on record about the company (founded, staff, revenue over time) and how attention spiked.
+5. **You press Export.** A 20-second vertical clip with captions and sources goes straight to your phone.
 
-## A replay, scene by scene: the Iberian blackout
+Tomorrow there's a new edition. Every edition is kept: **the archive is a 3D record of the planet, day by day.**
 
-1. The camera falls from orbit toward Spain on **NASA's real satellite image of 28 April 2025**. The clock reads 12:25 local time (10:25 UTC).
-2. 12:33. Spain and Portugal **start to glow red**: internet connectivity signals collapse across the peninsula within minutes. The caption says so and cites the IODA measurements.
-3. Elsewhere in the frame, the world notices: a small chart shows Wikipedia views of the blackout article exploding.
-4. Night falls. A wipe compares **the peninsula from space on 27 April and 28 April**: the lights are out.
-5. The timeline lets you scrub, pause and click any citation to see the raw value and its source.
-
-## Why it's different
+## What makes it ours (and not God's Eye View or World Monitor)
 
 | | God's Eye View | World Monitor | **Earthlog** |
 | --- | --- | --- | --- |
-| Time | Live, now | Live, now | **Any past moment** |
-| Question | What's happening? | What's the situation? | **What exactly happened, and how do we know?** |
-| Story | You explore | AI headline brief | **A narrated replay, every sentence cited** |
-| Cost to visitors | Free (bring your own keys for extras) | Free core, paid Pro | **Free, no keys, no account** |
+| Feels like | A spy-satellite simulator | An intelligence dashboard | **A newsroom's data team, in 3D** |
+| Time | Live, now | Live, now | **Yesterday, explained (and every day before it)** |
+| Unit | Feeds and objects (planes, ships, satellites) | Layers and alerts | **Stories**, each with an analysis built for its kind |
+| Depth | Track one object | Many layers at once | **One story, explained end to end** |
+| Trust | Labels simulations | AI briefs | **Every sentence cites its source; click to check** |
+| Sharing | Links to a view | Links to a view | **One-click video clips**, vertical or landscape |
 
-Research (2026-11-04):
+**Our taste:**
 
-- God's Eye View (MIT, about 62k stars) has said publicly that a "4D time machine" is its next direction, and has shown hand-made replays.
-- Nobody we found does **evidence-cited narration** or focuses on **infrastructure failures** (internet, power).
+- **Editorial, not tactical.** We borrow the best of data journalism: clear charts, calm motion, generous type, honest labels. No military HUD, no surveillance vibe.
+- **Depth over breadth.** Fewer things on screen, each one explained. A story film runs 60–90 seconds and you understand it.
+- **Ice.** Deep space black, glacier blue, glass panels, letterbox, a slow confident camera. Colour carries meaning.
+- **Proof everywhere.** Every number has a chip; every chip opens its source.
 
-Those two things are Earthlog's identity. We move fast and stay honest.
+## The lenses: an analysis for every kind of story
+
+A **lens** is the analysis template for one kind of story. The lens is chosen from what the story's main Wikipedia/Wikidata entry *is* (an election, a person, a company, a film, an accident…).
+
+| Lens | On the globe | Panels and charts | Data (free) |
+| --- | --- | --- | --- |
+| 🗳️ **Election** | States or districts filled by winning party; flips pulse; uncalled races hatched grey | Seat bars before → after, flips list, vote-share bars per race, candidate attention | Wikipedia election articles (per-state and per-district result tables), Natural Earth states, US Census district shapes |
+| 👤 **Person** (deaths, awards, appointments, arrests) | Their life drawn as arcs: birthplace, education, work, death place | Life timeline, key works, attention spike, curiosity map | Wikidata (places with coordinates and dates), Wikipedia pageviews in every language |
+| 🏢 **Organization and tech** | Fly to headquarters; arcs to the places in the story | What's on record: founded, staff, revenue over time; attention spike; tech-community heat | Wikidata (HQ coordinates, revenue series), Wikipedia pageviews, Hacker News |
+| 💹 **Economy** | The institution, then the country, then its neighbours compared | Indicator charts (inflation, growth, rates) with the decision marked | Cited report, World Bank indicators (CC BY 4.0) |
+| ⚽ **Sports** | The venue; arcs from teams' and athletes' home cities | Result card, where the world followed it | Wikipedia/Wikidata, pageviews by language |
+| 🎬 **Culture** (film, TV, music, games) | Country of origin, filming locations, studio | Release and box office on record, curiosity map | Wikidata, pageviews by language |
+| ✈️ **Accident** | The exact site; route arcs where known | Vehicle facts (type, maker, age), timeline | Wikipedia article coordinates, Wikidata |
+| 🌋 **Disaster** (quake, storm, fire, outage) | Minute-by-minute sensor replay: fault rupture and shaking, **satellite clouds moving every 10 minutes**, fire detections, provinces losing internet | Intensity, exposure, wind, signal charts | USGS ShakeMap/DYFI/PAGER, NASA GIBS geostationary, EONET, FIRMS, IODA |
+| ⚔️ **Conflict and security** | Every place mentioned, day by day | How it unfolded over previous days; attributed figures | Wikipedia Current events archive, IODA, FIRMS |
+| 🚀 **Science and space** | Launch site, mission path, institution | Mission facts, attention | Launch Library 2, Wikidata |
+| 📰 **General** (fallback) | The place and the places linked | How it unfolded, attention | Current events, pageviews |
+
+## Signature features (used across lenses)
+
+- **The front page:** yesterday's stories as beacons on the globe, sized by heat.
+- **The curiosity map:** where the world read about a story, from Wikipedia's language editions. Shown as approximate, because a language isn't a country.
+- **How it unfolded:** a story's thread through previous days of the news.
+- **Evidence chips** on every sentence and every number.
+- **Clip export:** any story as a captioned video, landscape or vertical.
+- **The archive:** every edition kept; open any day.
+- **Classics:** hand-made deep replays of landmark events (the Iberian blackout, the 2022 World Cup final, Iran's 2025 shutdown, the Myanmar earthquake) stay as showcases.
+
+## Which stories make an edition
+
+- **Candidates:** every item in Wikipedia's *Current events* for the day (reported news, with sources) and every article in Wikipedia's *most read* list (what people actually looked up).
+- **Heat:** readers that day (and how far above that article's normal), number of sources, and sensor size for disasters.
+- **Noise filter:** evergreen pages (lists, "Deaths in 2026", perennial favourites) are dropped unless their readership spiked or the news mentions them.
+- **Balance:** about 10 stories, spread across topics so no single field takes the whole edition.
 
 ## Look and feel: as cool as ice
 
-- **Palette:** deep space black, glacier blue UI (`#9ad9ff`), white type. Accent colours carry meaning: red is loss (outage, damage), amber is energy (quakes, fire), cyan is attention.
-- **Type:** a clean grotesk for prose and a monospace for data (time codes, values, IDs). Both are open fonts.
-- **Motion:**
-  - slow and confident camera moves with eased arcs, never jerky;
-  - data appears *at its real time*, with short, physical animations (shockwave rings, outages bleeding across borders, light fading);
-  - cinema mode adds letterbox bars and captions that type in.
-- **Honesty in the UI:** every layer shows its source in the corner, estimates are labelled, and gaps in the data are shown as gaps.
-- **Restraint:** these are real disasters with real victims. The tone is documentary, never thrill-seeking. There's no "bombshell" framing.
-
-## Which events Earthlog covers
-
-**The rule:** an event fits if the planet's sensors (connectivity, satellites, seismometers, attention) recorded it **in minutes or hours, in a way you can see on a map**. That covers far more than disasters.
-
-| Category | Examples | What the sensors show | When |
-| --- | --- | --- | --- |
-| 🌋 **Nature** | Earthquakes, tsunamis, volcanoes, wildfires, hurricanes, floods | Seismic events, thermal anomalies, storm tracks, before/after imagery | v0.1 |
-| ⚡ **Infrastructure** | Blackouts, internet shutdowns, cable cuts, big tech outages | Connectivity collapse, night lights going dark | v0.1 |
-| ⚔️ **War and conflict** | Wartime shutdowns (Iran, Jun 2025), strikes seen from space | Connectivity, thermal anomalies (FIRMS), airspace (later). **Sensors only; see the rules in RESPONSIBLE-USE.md** | v0.1 (one replay) |
-| 🏛️ **Politics** | Government-ordered shutdowns during protests or exams, coups | Connectivity plus cited reporting for the cause | After launch |
-| ⚽ **Sports and culture** | World Cup finals, the Olympics, eclipses, moon landings | **"The world watching"**: national internet traffic dipping while a country watches, attention waves by language | v0.1 (one replay) |
-| 🦠 **Slow events** | COVID-19, Ebola, climate | Daily case or measurement data. Needs a separate days-per-second player mode | Later |
-| ✈️ **Flights layer** | CrowdStrike 2024, airspace closures | Aircraft tracks (2023 on) | After launch |
-
-**Not in scope:** election results and campaign content (misinformation risk and usage-policy limits), single air crashes as spectacle, and any replay of a conflict less than 30 days old.
+- **Palette:** deep space black, glacier blue UI (`#9ad9ff`), white type. Colour carries meaning: lens colours for stories, party colours for elections, red for loss, amber for energy, cyan for attention.
+- **Type:** Geist for prose, Geist Mono for data.
+- **Motion:** slow, eased camera arcs; data appears when it happens; panels build in sync with narration.
+- **Honesty in the UI:** sources in every panel, estimates and approximations labelled, gaps shown as gaps, uncalled races shown as uncalled.
+- **Respect:** deaths and disasters are told with care. No mockery, no spectacle.
 
 ## Who it's for
 
-- **The curious:** "What actually happened in Spain that day?"
-- **Journalists, teachers and analysts:** a shareable, citable reconstruction.
-- **Developers:** an open, hackable example of fusing real data on a 3D globe. Contributing an event is a pull request.
-
-## Ship today, grow later
-
-Today: three hero replays and the player. Next: flights, "type any event", in-browser bring-your-own-key Claude, video export, voice narration, community replays. See [PLAN.md](../PLAN.md).
+- **Everyone, every morning:** "What happened yesterday, and why does it matter?"
+- **People who share:** clips that explain a story in 20 seconds, with sources.
+- **Journalists, teachers, analysts:** a citable visual explainer and a daily archive.
+- **Developers:** an open, hackable pipeline. A new lens or classic is a pull request.

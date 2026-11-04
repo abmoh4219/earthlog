@@ -14,7 +14,35 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 | Internet connectivity | **IODA** v2 API (Georgia Tech) ✅ (CORS allows browser fetch) | No key; at most 31 days per query (unverified) | Several years | 5–30 min signals: Google traffic (`gtr`, `gtr-norm`), telescope (`merit-nt`), BGP, active probing | **No explicit licence found**, copyright Georgia Tech Research Corp. → **verify**; see "Open question" | See below |
 | Public attention | **Wikimedia** pageviews REST API ✅ | No key; requires a `User-Agent` | Jul 2015 on (REST), Dec 2007 on (dumps) | **Daily** via REST (hourly only via dumps) | CC0 | **Yes** |
 | Country outlines | **Natural Earth** 1:110m admin-0 | Download once | n/a | 1:110m | Public domain | **Yes** |
+| News (daily replay) | **Wikipedia, Portal:Current events/<date>** via the MediaWiki API (`action=parse&prop=wikitext`) ✅ | No key; `User-Agent` sent | Daily pages back to 1990s | Per story, **date only, no time of day** | **CC BY-SA 4.0**: story text bundled with attribution and a link to the exact revision; captions adapted from it are shared under the same licence | **Yes** |
+| News places | **Wikipedia GeoData** (`prop=coordinates&colimit=max&coprop=type\|dim\|country`) ✅ | No key | n/a | Place coordinates of linked pages, with a place type (city, adm1st, landmark, country…) | Facts; credited with Wikipedia | **Yes** (coordinates only) |
+| Storms | **NASA EONET v3** `events` ✅ | No key | 2015 on | 6-hourly fixes from the tracking agency (e.g. JTWC), with wind in knots | NASA, no copyright; credit EONET and the agency | **Yes** |
+| Outage detection | **IODA** `/v2/outages/events` ✅ | No key | As IODA | Algorithmic outage events per country, with a score | As IODA | Only to pick countries; we show each country's own signal |
 | Fires (if a key exists) | **NASA FIRMS** VIIRS 375 m | Free `MAP_KEY`, used at bake time only; 5,000 transactions per 10 min | 2012 on (VIIRS) | Per satellite pass | NASA, no copyright; credit NASA FIRMS | **Yes** |
+
+## Story sources for editions and lenses (verified 2026-11-04)
+
+| Use | Source | Access | Verified with | Licence | Bundled? |
+| --- | --- | --- | --- | --- | --- |
+| **What the world read** (story discovery, heat) | Wikimedia feed API `api.wikimedia.org/feed/v1/wikipedia/en/featured/YYYY/MM/DD` → `mostread` (the *previous* day's top articles with view counts) | No key; `User-Agent` | 4 Nov feed → 3 Nov list: Jesús de Miguel 585k, 2026 United States elections 455k, a Learjet crash, *Jailer 2*, Patrick Stewart… | Pageview counts CC0; article descriptions CC BY-SA | Yes (counts, titles) |
+| **What the news reported** | Wikipedia *Current events* (above) | No key | 14 sourced stories for 3 Nov | CC BY-SA 4.0 | Yes |
+| **Readers by language** (curiosity map, attention spikes) | `prop=langlinks` + Wikimedia REST `metrics/pageviews/per-article/<lang>.wikipedia/all-access/user/<title>/daily/…` | No key | Spanish Wikipedia, Jesús de Miguel: 33 → 1,006 views (2 → 3 Nov) | CC0 | Yes |
+| **Facts about people, companies, works, places** | Wikidata SPARQL `query.wikidata.org/sparql` | No key; `User-Agent`; 60 s query limit | OpenAI: HQ San Francisco (with coordinates), founded 2015-12-08, 4,500 staff, revenue series with dates | **CC0** | Yes |
+| **Story type** (lens choice) | Wikipedia `pageprops` → Wikidata item → `instance of` (P31) | No key | Patrick Stewart → Q16296; *Jailer 2* → Q133255153; the Learjet crash → Q141966885 | CC0 | n/a |
+| **Accident and event sites** | Wikipedia GeoData on the event's own article | No key | 2026 Palm Beach County Learjet 60 crash: 26.633°N, 80.113°W | Facts | Yes |
+| **Election results** | Wikipedia election articles, e.g. `2026_United_States_Senate_elections` (per-state rows: winner, party, "hold"/"gain") and the House article (per district) | No key | Senate article: per-state winners and "Republican hold" marks; races not yet called are marked as such | CC BY-SA 4.0 (results cite their outlets) | Yes |
+| **State and province shapes** | Natural Earth 1:50m admin-1 | Download once (2.3 MB) | GeoJSON reachable | Public domain | Yes (simplified) |
+| **US congressional districts** | US Census cartographic boundaries `cb_2024_us_cd119_5m.zip` | Download once (2.1 MB) | Reachable | Public domain | Yes (simplified) |
+| **Country indicators** | World Bank API `api.worldbank.org/v2/country/<ISO>/indicator/<id>?format=json` | No key | Australia inflation series | **CC BY 4.0** | Yes |
+| **Tech heat** | Hacker News API (`hacker-news.firebaseio.com/v0/…`) | No key | Top stories list | No licence stated: **links and counts only, no text** (unverified) | Counts only |
+| **Space launches** | Launch Library 2 (`ll.thespacedevs.com/2.3.0/launches/…`) | No key; free tier rate-limited (about 15 requests/hour, unverified) | Previous launches list | **Unverified**: check terms before bundling | TBD |
+
+**Deep-replay sources (verified 2026-11-04):**
+
+- **USGS event detail** (`/fdsnws/event/1/query?eventid=<id>&format=geojson`) lists products per quake: `shakemap` (`cont_mmi.json` intensity contours, `rupture.json`, `stationlist.json`), `finite-fault` (`FFM.geojson`), `dyfi` (`dyfi_geo_10km.geojson`, `dyfi_plot_numresp.json` responses over time), `losspager` (`exposures.json`, `cities.json`, `alerts.json`). Public domain.
+- **GIBS geostationary imagery** at exact times (5–10 minute steps): `GOES-East_ABI_GeoColor`, `GOES-West_ABI_GeoColor` (`GoogleMapsCompatible_Level7`, PNG), `Himawari_AHI_Band3_Red_Visible_1km` (Level7). A **rolling window**: 2026-08-01 works, March 2025 and October 2024 return 404. About one request in three returns a spurious 404, so clients must retry.
+
+**Not used (verified 2026-11-04):** **GDELT DOC API** answered HTTP 429 ("one request every 5 seconds") to every request, even when paced, so a nightly job can't rely on it. News is ranked by category and source count instead. Revisit with GDELT's bulk files.
 
 **Decision: IODA (2026-11-04, Abdelah).** We bundle the small, normalised series with clear attribution and a link to IODA, in a free, non-commercial, open-source project. We don't email first. **If IODA ever asks**, we switch to having the browser fetch their API at view time (CORS echoes the requesting origin, verified 2026-11-04), so nothing is redistributed.
 
@@ -29,6 +57,9 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 - **Natural Earth `ISO_A2` is "-99" for France and Norway.** Use `ISO_A2_EH`. Two disputed areas have no code at all and are skipped.
 - **Night passes don't always exist.** For the Iberian blackout night, Suomi NPP's day-night band returns no data over Spain on 2025-04-29, and NOAA-20's pass (around 01:30 local) shows Madrid already lit. A replay with no usable pass shows the Black Marble composite, **labelled on screen** as "a typical night, not this one".
 - **The best minute-by-minute outage signal is `ping-slash24`** (responsive /24 address blocks, every 10 min). `gtr-norm` (Google traffic, every 30 min) is better for attention events like a final, because people stop searching to watch.
+- **Wikipedia's coordinates lookup returns at most 10 results per request** unless `colimit=max` is set; without it, most stories fell back to country level.
+- **Country pages don't always carry coordinates** ("United States" has none). Bakers fall back to Natural Earth's label point, matching names through aliases ("United States" = "United States of America").
+- **News digests give dates, not times.** Report evidence carries `precision: "day"`; captions for news state no clock time, and the story card says "time of day not recorded".
 - **The MODIS sensors are ending** (Terra around February 2027, Aqua around September 2027). Prefer VIIRS layers.
 
 ## Later sources (backlog)

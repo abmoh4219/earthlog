@@ -5,8 +5,8 @@ import { useMemo } from "react";
 import { cn } from "@/lib/cn";
 import { usePlayer } from "@/player/store";
 import { clockText } from "@/scene/format";
-import { heldSample } from "@/scene/layers";
-import type { QuakeLayer, SignalLayer, SignalSeries } from "@/scene/schema";
+import { heldSample, stormAt } from "@/scene/layers";
+import type { QuakeLayer, SignalLayer, SignalSeries, StormLayer } from "@/scene/schema";
 import { ms } from "@/scene/schema";
 
 const W = 220;
@@ -21,7 +21,8 @@ export function DataPanel() {
   if (!bundle) return null;
   const signal = bundle.layers.find((l): l is SignalLayer => l.kind === "outages");
   const quakes = bundle.layers.find((l): l is QuakeLayer => l.kind === "quakes");
-  if (!signal && !quakes) return null;
+  const storms = bundle.layers.find((l): l is StormLayer => l.kind === "storms");
+  if (!signal && !quakes && !storms) return null;
 
   return (
     <AnimatePresence>
@@ -36,6 +37,7 @@ export function DataPanel() {
         >
           {signal && <SignalBlock layer={signal} timezone={bundle.scene.timezone} />}
           {quakes && <QuakeBlock layer={quakes} />}
+          {storms && <StormBlock layer={storms} />}
         </motion.aside>
       )}
     </AnimatePresence>
@@ -189,6 +191,44 @@ function QuakeBlock({ layer }: { layer: QuakeLayer }) {
           <div className="text-[10px] text-ice/50">largest</div>
         </div>
       </div>
+    </section>
+  );
+}
+
+function StormBlock({ layer }: { layer: StormLayer }) {
+  // Storm fixes are 6-hourly; re-render every scene 10 minutes is plenty.
+  const tick = usePlayer((s) => Math.floor(s.clock.t / 600_000));
+  const t = tick * 600_000;
+  const live = layer.storms.flatMap((s) => {
+    const at = stormAt(s, t);
+    return at ? [{ name: s.name, at }] : [];
+  });
+  return (
+    <section className="mt-4 border-t border-ice/10 pt-3 first:mt-0 first:border-0 first:pt-0">
+      <h2 className="font-mono text-[10px] tracking-[0.3em] text-ice/60 uppercase">
+        Storms · NASA EONET
+      </h2>
+      {live.length === 0 ? (
+        <p className="mt-2 text-xs text-ice/50">No tracked storm at this moment.</p>
+      ) : (
+        <ul className="mt-2 space-y-1.5">
+          {live.map(({ name, at }) => (
+            <li key={name} className="flex items-baseline justify-between gap-2">
+              <span className="truncate text-sm text-frost">{name}</span>
+              <span
+                className="shrink-0 font-mono text-sm tabular-nums"
+                style={{ color: "var(--color-energy)" }}
+              >
+                {at.windKt ? `${at.windKt} kt` : "—"}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+      <p className="mt-2 text-[10px] leading-snug text-ice/45">
+        Positions every 6 hours from the tracking agency; the marker moves in a straight line
+        between them.
+      </p>
     </section>
   );
 }

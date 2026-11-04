@@ -5,6 +5,7 @@ import type * as CesiumNS from "cesium";
 import { z } from "zod";
 import type { SceneBundle } from "@/player/store";
 import { usePlayer } from "@/player/store";
+import { activeBeatIndex } from "@/scene/beats";
 import { cameraAt } from "@/scene/camera";
 import { Country } from "@/scene/schema";
 import {
@@ -124,6 +125,8 @@ export async function createGlobe(
   }
 
   let last = performance.now();
+  let lastBeat = -2;
+  let active: ReadonlySet<string> = new Set();
   let directing = false;
   const julian = new C.JulianDate();
   const target = new C.Cartesian3();
@@ -141,7 +144,12 @@ export async function createGlobe(
 
     nightLights.show = layers.nightLights;
     eventDay.show = layers.eventDay;
-    overlays.update(clock.t, { labels: layers.labels });
+    const beatIndex = activeBeatIndex(clock.t, scene.beats);
+    if (beatIndex !== lastBeat) {
+      active = new Set(scene.beats[beatIndex]?.cites ?? []);
+      lastBeat = beatIndex;
+    }
+    overlays.update(clock.t, { labels: layers.labels, active });
 
     if (director) {
       const pose = cameraAt(clock.t, scene.camera);

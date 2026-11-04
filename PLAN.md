@@ -1,38 +1,35 @@
-# Earthlog: ship-in-a-day plan
+# Earthlog: roadmap
 
-> **Goal for today:** a public, open-source website where anyone can watch **cinematic, minute-by-minute replays of real world events on a 3D globe**. Every narrated sentence links to the recorded data behind it.
+> **Yesterday's world, explained in 3D.** Every morning, Earthlog turns the previous day's hottest stories (every topic, everywhere) into short, cinematic explainers on a 3D globe. Each story gets the analysis its kind deserves, and every claim links to its source.
 
 - **Started:** 2026-11-04
-- **Ship:** end of day
-- **Rules:** [CLAUDE.md](CLAUDE.md)
-- **Design:** [docs/CONCEPT.md](docs/CONCEPT.md), [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-- **Data:** [docs/DATA-SOURCES.md](docs/DATA-SOURCES.md)
+- **Ship:** when Phase 20 is done (estimated 4–6 working days). Moved twice by Abdelah: build it properly, phase by phase, without overlooking any part.
+- **Rules:** [CLAUDE.md](CLAUDE.md) · **Concept:** [docs/CONCEPT.md](docs/CONCEPT.md) · **Architecture:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · **Data:** [docs/DATA-SOURCES.md](docs/DATA-SOURCES.md) · **Decisions:** [docs/decisions.md](docs/decisions.md)
 
 ---
 
-## What ships today (v0.1)
+## What v0.1 is
 
-1. **A cinematic globe player** (CesiumJS):
-   - NASA's real satellite imagery *for the day of the event*;
-   - night lights;
-   - smooth director-driven camera moves;
-   - a timeline scrubber with event markers;
-   - captions where every sentence carries clickable evidence.
-2. **Four hero replays across categories**, baked from real data and committed as static files. **None of them needs a key.** In ship priority order:
-   1. ⚡ **Iberian blackout, 28 Apr 2025:** Spain and Portugal's internet collapsing within minutes, and the peninsula dark from space that night.
-   2. ⚽ **World Cup final, 18 Dec 2022: "a nation holds its breath".** Argentina's internet traffic dips while the country watches. Attention waves roll across languages, hour by hour, ending with the penalty shootout.
-   3. ⚔️ **Iran goes dark, Jun 2025:** during the Israel–Iran war, connectivity falls to about 4% of normal. Sensors only, with the cause quoted from cited reporting (RESPONSIBLE-USE.md §6).
-   4. 🌋 **Myanmar earthquake, 28 Mar 2025:** the M7.7 mainshock and aftershocks rippling out, connectivity dropping, the world's attention spiking.
-3. **The director:**
-   - It turns baked evidence into a scene: camera path, timing and narration.
-   - The **template mode** is free and deterministic.
-   - The **Claude mode** runs offline, once per event, on Abdelah's key, for better prose.
-   - Both are validated, so **no sentence ships without a citation**.
-4. **Deployed free on Vercel** (`*.vercel.app` today, `earthlog.abdelah.dev` later), with a README, a GIF and a launch post.
+1. **The front page:** yesterday's stories glowing on the globe, sized by heat.
+2. **Daily editions:** about 10 stories a day across every topic, built nightly, kept forever.
+3. **Lenses:** a deep analysis for each kind of story: election, person, organization and tech, economy, sports, culture, accident, disaster, conflict, science and space, general.
+4. **Story films:** chapters, citations on every claim, globe layers and chart panels; exportable as video clips.
+5. **Classics:** four hand-made deep replays (Iberian blackout, 2022 World Cup final, Iran 2025 shutdown, Myanmar 2025 earthquake).
+6. **Free and open:** static site on Vercel, no accounts, no keys for visitors.
 
-**Not today** (the post-launch list, see the end of this file): live flights, "type any event", bring-your-own-key in the browser, video export, voice narration, news pins.
+## Roadmap at a glance
 
-## How we work today
+| Stage | Phases | Outcome |
+| --- | --- | --- |
+| **Foundation** ✅ | 1–3 | Cinematic globe, data bakers, evidence and validator, classics, day at a glance |
+| **The story engine** | 4–5 | Editions discover and rank yesterday's stories; story films with chapters and panels |
+| **The lenses** | 6–13 | One deep analysis per kind of story, each shipped with a real story from a real day |
+| **Intelligence and signature** | 14–15 | Claude director; the curiosity map and "how it unfolded" |
+| **The experience** | 16–17 | Front page and archive; evidence drawer, click-to-explore, share links |
+| **Reach** | 18–19 | Nightly automation; video clip export |
+| **Launch** | 20 | Polish, performance, deploy, README, launch posts |
+
+## How we work
 
 ```
  Phase N:  build ──► self-check (typecheck, tests, build, look at it) ──► CHECKPOINT
@@ -40,20 +37,21 @@
              Abdelah reviews, commits, pushes ──► next phase
 ```
 
-- **Five checkpoints, about two to three hours apart.** Never more than one phase of uncommitted work.
+- **One checkpoint per phase, about two to three hours apart.** Never more than one phase of uncommitted work.
 - **Time-box every phase.** If a phase overruns by 30 minutes, cut from the **cut list**, never from quality.
 - **Parallel track for Abdelah** (no coding needed). Each item unblocks a later phase:
 
 | When | Abdelah does | Unblocks |
 | --- | --- | --- |
 | Optional, Claude will prompt | A **NASA FIRMS MAP_KEY** (free) adds thermal anomalies. **None of the four v0.1 events needs it** | Later |
-| Before Phase 3 | `ANTHROPIC_API_KEY=` in the local `.env` (gitignored). A monthly spend limit in the Anthropic console is recommended | Phase 3: Claude director |
-| By Phase 5 | Import the GitHub repo into **Vercel** (free Hobby plan; framework preset: Next.js, defaults are fine) | Phase 5: deploy |
-| By Phase 5 | Decide: make the repo public at launch? (Recommended: yes) | Launch |
+| ✅ Done | `ANTHROPIC_API_KEY=` in the local `.env` (gitignored). A monthly spend limit in the Anthropic console is recommended | Phase 14: Claude director |
+| By Phase 18 | Add the same key as a GitHub **repository secret** named `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions) | Phase 18: nightly editions |
+| By Phase 20 | Import the GitHub repo into **Vercel** (free Hobby plan; framework preset: Next.js, defaults are fine) | Phase 20: deploy |
+| By Phase 20 | Decide: make the repo public at launch? (Recommended: yes) | Launch |
 
 ---
 
-## Phase 1 · Foundation and the cinematic globe (about 2.5 h)
+## Phase 1 · Foundation and the cinematic globe (about 2.5 h) ✅
 
 **Build:**
 
@@ -79,7 +77,7 @@
 
 **Checkpoint 1:** `feat: cinematic globe player with dated NASA imagery`
 
-## Phase 2 · Data bakers and evidence (about 2.5 h)
+## Phase 2 · Data bakers and evidence (about 2.5 h) ✅
 
 **Build:** `scripts/bake/*.ts` (run with Node's built-in TypeScript support). Each baker fetches **free, key-less** sources (FIRMS uses Abdelah's key, at bake time only) and writes compact JSON into `public/scenes/<event>/`, plus an **evidence index**: every fact gets a stable ID.
 
@@ -110,90 +108,209 @@
 
 **Checkpoint 2:** `feat: data bakers for quakes, outages, attention and imagery`
 
-## Phase 3 · The director: scenes that tell the story (about 2 h)
+## Phase 3 · The world, yesterday: day at a glance (about 3 h) ✅
 
 **Build:**
 
-- **`scripts/direct.ts --event <id> [--ai] [--model haiku|sonnet]`.**
-- **Template mode:**
-  - finds the key moments from the evidence: mainshock, steepest outage drop, peak attention, night-lights comparison;
-  - places camera keyframes and writes narration from templates filled with real values.
-- **Claude mode:**
-  - sends the evidence index (compact, at most about 30k tokens);
-  - gets back a scene as **structured JSON**;
-  - the result is validated by Zod: every sentence must cite IDs that exist, inside the time window, in time order;
-  - on failure it retries up to 2×, then falls back to the template.
-  - It prints the token count and cost, and refuses to run if the estimated cost is over $0.50.
-  - Read the `claude-api` skill before writing this code.
-- **The evidence drawer:** click a citation in a caption to see the source, value, time and link, and the camera flies to it.
+- **Verify the sources first** (shapes, licences, rate limits), and record them in DATA-SOURCES.md.
+- **Bakers:**
+  - `news`: the day's stories from Wikipedia's *Current events* portal (human-curated, categorised, each linked to its sources), placed on the map and ranked by how much the world covered them (GDELT, if verified usable).
+  - `quakes` worldwide (USGS, M4.5+), `outages` (IODA alerts), `natural` (NASA EONET: fires, storms, volcanoes).
+- **A daily scene:** a world tour that visits the day's top stories in time order, with sensor layers underneath. Stories pulse on the globe, by category colour.
+- `pnpm bake daily [YYYY-MM-DD]` (default: yesterday, UTC), writing `public/scenes/daily-YYYY-MM-DD/`.
+- The player shows news pins and a story card (headline, category, source links).
 
 **Acceptance:**
 
-- [ ] Both events have a template scene that plays end to end, as a coherent 60–120 s story at default speed.
-- [ ] `--ai` produces a validated scene for one event. The run's cost is printed and is under $0.25.
-- [ ] A test proves an uncited sentence or an unknown ID is rejected.
-- [ ] No API key appears in any built file (`grep` check in CI).
+- [x] `pnpm bake daily 2026-11-03` produces a valid bundle covering at least five categories, every sentence cited. *(14 stories in 8 categories, 12 quakes, 2 storms, 2 outages; 15 beats.)*
+- [x] Bakers are tested against recorded fixtures.
+- [x] Each news item links to its source, and the licence of every text we bundle is honoured (attribution shown).
 
-**Checkpoint 3:** `feat: evidence-grounded director with template and Claude modes`
+**Done differently (2026-11-04):** GDELT was cut (rate-limited to the point of being unusable; see DATA-SOURCES.md). Stories are ranked by category, round-robin, so every kind of news gets a turn.
 
-## Phase 4 · Polish: as cool as ice (about 2 h)
-
-**Build:**
-
-- **A landing experience:** the globe slowly turning at night, with the three replays as cards; hovering one previews its region.
-- **The intro sequence:** title card, the camera falling from orbit, the date counter rolling to the event time.
-- **Visual effects:** shockwave rings, outage "heat" bleeding across borders, a before/after night-lights wipe, and a mini line chart for each layer synced to the clock.
-- **Share links:** `?t=` and `?event=`, with OpenGraph image tags.
-- **A small-screen fallback.**
-- **A credits panel** with all data attributions.
-- **Performance:** lazy-load Cesium, keep bundles small, check with a Lighthouse pass.
-
-**Acceptance:**
-
-- [ ] A first-time visitor understands what Earthlog is within 5 seconds, without reading.
-- [ ] Replays run smoothly on a mid-range laptop. The first globe frame appears in under 3 s on a good connection.
-- [ ] A share link opens at the exact moment.
-- [ ] Attribution is visible for every layer on screen.
-
-**Checkpoint 4:** `feat: cinematic landing, intro, effects and share links`
-
-## Phase 5 · Ship (about 1.5 h)
-
-**Build:**
-
-- Deploy on Vercel.
-- Write the final README: hero GIF, what it is, how it works, a "how is this different" section, run locally, add your own event, data credits.
-- Repo furniture: `CONTRIBUTING.md` (how to add an event via PR), issue templates, `CHANGELOG.md`.
-- Record the 30–60 s launch video (free screen recorder).
-- Draft the X post and Show HN text.
-
-**Acceptance:**
-
-- [ ] The Vercel URL serves every replay. A fresh browser with no keys works.
-- [ ] The README runs from clone to `pnpm dev` in under 2 minutes on a clean machine.
-- [ ] The launch text claims nothing the app doesn't do.
-
-**Checkpoint 5:** `docs: launch README, contributing guide and deploy` (plus the tag `v0.1.0`, done by Abdelah)
+**Checkpoint 3:** `feat: the world, yesterday — daily news and sensor replay`
 
 ---
 
-## Cut list (cut in this order if behind; never cut the top three things that ship)
+## Phase 4 · The edition builder: finding yesterday's stories (about 3 h)
 
-1. The fourth event, then the third (cut from the bottom of the priority list; keep at least two)
-2. Small-screen fallback (show "best on desktop")
-3. OpenGraph images
-4. The night-lights before/after wipe (keep the plain toggle)
-5. Claude mode (ship template-only; Claude scenes come next day)
-6. The intro sequence (keep the landing cards)
+**Build:**
 
-**Never cut:** the cinematic globe, two polished replays (the Iberian blackout plus the World Cup final), cited captions, the deploy.
+- `pnpm edition [YYYY-MM-DD]` (default: yesterday, UTC) → `public/editions/<date>/edition.json`.
+- **Discover:** Current events items (reported, with sources) + the most-read list (what people read).
+- **Merge:** a most-read article and a news item are the same story when the news item links that article.
+- **Filter noise:** drop evergreen pages (lists, the Main Page, perennial favourites) unless their readers spiked at least 3× their 30-day median or the news mentions them.
+- **Type:** the main article's Wikidata `instance of` → a lens (a tested mapping table, with a `general` fallback).
+- **Rank:** heat = readers × spike × sources (+ sensor size for disasters); balanced across lenses; about 10 stories.
+- Each story records why it's in the edition (its heat inputs), as evidence.
+
+**Acceptance:**
+
+- [ ] For 3 Nov 2026 the edition includes the midterms (election), Jesús de Miguel (person), the Learjet crash (accident), *Jailer 2* (culture), the RBA rate rise (economy) and Patrick Stewart (person), each with its lens.
+- [ ] Recorded fixtures for every source; the typing table has tests.
+
+**Checkpoint 4:** `feat: edition builder discovers, types and ranks yesterday's stories`
+
+## Phase 5 · The story-film engine (about 3 h)
+
+**Build:**
+
+- **Story time** (ADR-0013): chapters with shots, captions, layers and panels; the HUD shows chapter titles instead of a clock.
+- **Panels:** `facts`, `bars`, `line`, `seats` chart blocks in plain SVG and Motion, synced to the narration, every value with a chip.
+- **New globe layers:** choropleth (filled regions with a legend), arcs (place to place), labelled places.
+- **Routes:** `/story/[date]/[slug]` and a first plain `/edition/[date]` list.
+- The `general` lens (place, linked places, attention) as the first lens on the engine.
+
+**Acceptance:**
+
+- [ ] Every story of the 3 Nov edition plays as a `general` story film with at least one panel.
+- [ ] Panel values and captions pass the validator; no clock is shown in story time.
+
+**Checkpoint 5:** `feat: story films with chapters, panels and new globe layers`
+
+## Phase 6 · Election lens: the midterms in red and blue (about 4 h)
+
+**Build:**
+
+- Parsers for Wikipedia's US Senate, House and governor results tables (winner, party, hold or gain, vote shares where given), pinned to the exact revision baked.
+- **Globe:** states (Senate, governors) and congressional districts (House) filled by winning party; flips pulse; uncalled races hatched grey; a "called as of HH:MM UTC per Wikipedia" stamp.
+- **Panels:** chamber seat bars before → after, flips list, vote-share bars for the closest races, readers per candidate.
+- **Film:** establish the chamber stakes, tour the flips, close on the new balance.
+- Geometry: Natural Earth admin-1 states and Census districts, simplified to fit the 5 MB budget.
+
+**Acceptance:**
+
+- [ ] The 2026 midterms story film shows every Senate and governor race and every House district, coloured from the baked revision, with uncalled races shown as uncalled.
+- [ ] Parser tests against recorded wikitext, including "hold", "gain" and uncalled rows.
+
+**Checkpoint 6:** `feat: election lens with the 2026 midterms`
+
+## Phase 7 · Person lens: a life across the globe (about 3 h)
+
+- Wikidata life places (birth, education, clubs or employers, residences, death) with dates → chronological arcs across the globe.
+- Panels: life timeline, notable works, the reader spike.
+- Respect rules for deaths (RESPONSIBLE-USE §8).
+- Stories: Jesús de Miguel, Patrick Stewart.
+
+**Checkpoint 7:** `feat: person lens`
+
+## Phase 8 · Organization and tech lens (about 3 h)
+
+- Fly to the headquarters (Wikidata P159 → P625); arcs to the places the story names.
+- Panels: what's on record (founded, staff, industry, leadership), revenue over time (labelled "as recorded in Wikidata"; outliers flagged, not hidden), the reader spike, tech-community heat (Hacker News counts) for tech stories.
+- Stories: the day's company and tech stories (e.g. the .xyz domain, Elizabeth Holmes).
+
+**Checkpoint 8:** `feat: organization and tech lens`
+
+## Phase 9 · Economy lens (about 2 h)
+
+- The institution → its country → neighbours compared on a choropleth.
+- Panels: World Bank indicators (inflation, growth, rates) with the decision marked; the cited figure from the report.
+- Story: the Reserve Bank of Australia rate rise.
+
+**Checkpoint 9:** `feat: economy lens`
+
+## Phase 10 · Sports lens (about 2 h)
+
+- The venue; arcs from the teams' or athletes' home cities.
+- Panels: result card (from the cited report or article), where the world followed it (readers by language).
+- Stories: the Melbourne Cup, football.
+
+**Checkpoint 10:** `feat: sports lens`
+
+## Phase 11 · Culture lens (about 2 h)
+
+- Country of origin, studio, filming locations (Wikidata).
+- Panels: release and box office as recorded, readers by language.
+- Stories: *Jailer 2*, *Dancing with the Stars*.
+
+**Checkpoint 11:** `feat: culture lens`
+
+## Phase 12 · Accident and disaster lenses (about 4 h)
+
+- **Accident:** the exact site; route arcs where known; vehicle facts (type, maker, first flight); timeline. Story: the Palm Beach County Learjet crash.
+- **Disaster (sensor films, real time):** quakes (ShakeMap rupture and intensity, felt reports over time, PAGER exposure), storms (**geostationary clouds every 10 minutes**, frames archived with the bundle), outages (province-level IODA). Story: Super Typhoon In-fa.
+
+**Checkpoint 12:** `feat: accident and disaster lenses`
+
+## Phase 13 · Conflict, science and space lenses (about 3 h)
+
+- **Conflict:** every place mentioned, day by day; attributed figures; sensors where they exist (IODA, FIRMS). Story: the Strait of Hormuz ship attack.
+- **Science and space:** launch site, mission path (labelled as estimated), institutions.
+
+**Checkpoint 13:** `feat: conflict, science and space lenses`
+
+## Phase 14 · The director: Claude mode for every lens (about 3 h)
+
+- `pnpm direct <story> [--ai]`: Claude (Haiku) picks chapters and writes captions from the lens's evidence, as structured JSON; validated; up to 2 retries; **template fallback** on any failure; cost printed; hard ceiling per edition.
+- Claude also double-checks the lens choice for ambiguous stories.
+- Recorded responses for tests; no tokens spent in CI.
+
+**Checkpoint 14:** `feat: Claude director for story films`
+
+## Phase 15 · Signature features: the curiosity map and "how it unfolded" (about 3 h)
+
+- **Curiosity map:** readers per Wikipedia language edition, drawn as glowing language regions, clearly labelled as languages, not countries.
+- **How it unfolded:** a story's thread through previous days of Current events, as a timeline panel and day-by-day places.
+
+**Checkpoint 15:** `feat: curiosity map and story threads`
+
+## Phase 16 · The front page and the archive (about 3 h)
+
+- `/`: the latest edition. The globe at dawn, story beacons sized by heat and coloured by lens, a story rail; click a beacon to fly into its film.
+- `/edition/[date]`: any day, with a calendar strip; the day at a glance links to every story.
+- The intro: the camera falling from orbit onto the morning's edition.
+
+**Checkpoint 16:** `feat: front page, editions archive and intro`
+
+## Phase 17 · Interaction: evidence drawer, click-to-explore, share links (about 2 h)
+
+- Click any chip: the evidence drawer (value, time, source, link), and the camera flies to it.
+- Click anything on the globe (a state, a beacon, a place): it focuses and a detail card opens.
+- Share links to a story, a chapter or a moment; share cards (OpenGraph images).
+
+**Checkpoint 17:** `feat: evidence drawer, click-to-explore and share links`
+
+## Phase 18 · Nightly editions (about 1.5 h)
+
+- `.github/workflows/edition.yml`: build yesterday's edition, direct it (Claude, falling back to the template), validate, commit only `public/editions/<date>/` as a `data:` commit; Vercel deploys on push.
+
+**Checkpoint 18:** `ci: nightly editions`
+
+## Phase 19 · Video clip export (about 3 h)
+
+- Record any story film or a chosen span in the browser, with captions, chapter titles and sources burned in; landscape (16:9) and vertical (9:16). Free, no server.
+
+**Checkpoint 19:** `feat: video clip export`
+
+## Phase 20 · Launch (about 4 h)
+
+- Polish: sensor looks for disaster films (thermal, night), small-screen layout, performance pass.
+- Deploy on Vercel; add the repository secret; run the nightly workflow once.
+- README with a hero clip made by Earthlog itself, CONTRIBUTING (how to add a lens or a classic), CHANGELOG, launch posts.
+
+**Checkpoint 20:** `docs: launch` (plus the tag `v0.1.0`, done by Abdelah)
+
+---
+
+## Cut list (cut in this order if behind)
+
+1. Small-screen layout (show "best on desktop")
+2. Sensor looks
+3. Share cards (OpenGraph images)
+4. Science and space lens (fold into `general`)
+5. Vertical clip format (keep landscape)
+6. The intro (keep the front page)
+
+**Never cut:** the edition builder, story films, the election, person and organization lenses, citations, the archive, clip export, the deploy.
 
 ## After launch (backlog, roughly in order)
 
-1. **Flights layer** (adsb.lol archives, ODbL; heavy data, needs a pre-processing step)
-2. **"Type any event"**: a catalogue search over USGS, storm-track archives, IODA and Cloudflare outage records, and Wikipedia current events
-3. **Bring-your-own-key Claude in the browser**, plus Ollama support, for custom scenes
-4. **Video export** (WebCodecs + Mediabunny) and **voice narration** (kokoro-js)
-5. **News pins** (GDELT bulk files)
-6. **Community replays** submitted by pull request (a scene validator in CI)
-7. **More events:** CrowdStrike 2024, Hurricane Helene, Red Sea cable cuts…
+1. **More countries' elections** in the election lens (generic Wikipedia results parsing)
+2. **Flights layer** for accidents and airspace (adsb.lol archives, ODbL; heavy data)
+3. **Voice narration** (kokoro-js, in the browser)
+4. **Weather at the time** for accidents and disasters (Open-Meteo archive, CC BY 4.0; verify)
+5. **Images** from Wikimedia Commons, with their licences
+6. **Bring-your-own-key Claude in the browser** for custom stories
+7. **Community lenses and classics** by pull request
+8. **More classics:** CrowdStrike 2024, Hurricane Helene, Red Sea cable cuts…

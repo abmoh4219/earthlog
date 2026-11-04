@@ -1,6 +1,6 @@
 // Pure layer maths: what a data layer looks like at scene time t.
 // The globe adapter and the UI both call these, so the picture and the numbers agree.
-import { ms, type Quake, type SignalSeries } from "./schema.ts";
+import { ms, type Quake, type SignalSeries, type Storm } from "./schema.ts";
 
 export interface Sample {
   /** Time of the recorded sample, ms since epoch. */
@@ -76,4 +76,54 @@ export function quakeLook(quake: Quake, t: number): QuakeLook | null {
   const grow = 1 - (1 - life) ** 3;
   const maxRing = 24 + Math.max(0, quake.mag - 4) * 28;
   return { core, ring: core + grow * maxRing, ringAlpha: 1 - life };
+}
+
+export interface StormPosition {
+  lon: number;
+  lat: number;
+  /** Index of the last fix at or before t. */
+  passed: number;
+  /** True between fixes, where the position is a straight-line estimate. */
+  interpolated: boolean;
+  windKt?: number;
+}
+
+/** Where a storm is at t, between its first and last fix; null outside that span. */
+export function stormAt(storm: Storm, t: number): StormPosition | null {
+  const { track } = storm;
+  const first = track[0];
+  const last = track.at(-1);
+  if (!first || !last || t < ms(first.t) || t > ms(last.t)) return null;
+  for (let i = 0; i < track.length; i++) {
+    const a = track[i];
+    const b = track[i + 1];
+    if (!a) break;
+    if (!b || t < ms(b.t)) {
+      if (!b || t === ms(a.t)) {
+        return {
+          lon: a.lon,
+          lat: a.lat,
+          passed: i,
+          interpolated: false,
+          ...(a.windKt ? { windKt: a.windKt } : {}),
+        };
+      }
+      const f = (t - ms(a.t)) / (ms(b.t) - ms(a.t));
+      // Longitude across the antimeridian: take the short way round.
+      let dLon = b.lon - a.lon;
+      if (dLon > 180) dLon -= 360;
+      if (dLon < -180) dLon += 360;
+      let lon = a.lon + dLon * f;
+      if (lon > 180) lon -= 360;
+      if (lon < -180) lon += 360;
+      return {
+        lon,
+        lat: a.lat + (b.lat - a.lat) * f,
+        passed: i,
+        interpolated: true,
+        ...(a.windKt ? { windKt: a.windKt } : {}),
+      };
+    }
+  }
+  return null;
 }

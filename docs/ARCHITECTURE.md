@@ -2,6 +2,44 @@
 
 If the code and this document disagree, one of them is a bug. Fix it in the same change.
 
+## 0. The model: editions, stories, lenses, story films
+
+Earthlog's unit is the **story**, not the feed. Everything below serves one pipeline:
+
+```
+ EDITION (one UTC day)                          STORY FILM (what a visitor watches)
+ ┌──────────────────────────────────────┐      ┌────────────────────────────────────────┐
+ │ discover   Current events (reported)  │      │ chapters: shot → caption → panel        │
+ │            + Most read (attention)    │      │ globe layers chosen by the lens         │
+ │ merge      by shared Wikipedia links  │ ───► │ panels (charts) synced to the narration │
+ │ type       Wikidata "instance of"     │      │ evidence chips on every claim           │
+ │            → lens                     │      │ exportable as a video clip              │
+ │ rank       heat = readers × spike ×   │      └────────────────────────────────────────┘
+ │            sources (+ sensor size)    │
+ │ bake       each story with its lens   │
+ └──────────────────────────────────────┘
+```
+
+- **Edition:** one UTC day, `public/editions/YYYY-MM-DD/`: `edition.json` (the ranked story list) plus one bundle per story. Built nightly and kept forever (ADR-0009, ADR-0012).
+- **Story:** one topic of that day, with a lens, a place, a heat score and its evidence.
+- **Lens:** the analysis template for one kind of story (`election`, `person`, `organization`, `economy`, `sports`, `culture`, `accident`, `disaster`, `conflict`, `science`, `general`). A lens is code in `scripts/lenses/<lens>/`: its bakers (what data to fetch), its director (chapters, captions, panels) and its globe layers. The concept doc lists each lens's data and visuals.
+- **Story film:** a scene with **chapters**: each chapter has a camera shot, captions with citations, globe layers to show, and panels (charts) to build. Two time modes (ADR-0013):
+  - **Real time** for sensor stories (quakes, storms, outages): the clock is the real UTC clock, as in the classics.
+  - **Story time** for explainers (elections, people, companies): the timeline is the story's chapters; the HUD shows chapter titles, not a clock, so nothing implies a time of day we don't know.
+- **Panels:** typed chart blocks fed by bundle data: `seats` (chamber bars), `bars` (vote shares, rankings), `line` (revenue, indicators, attention), `facts` (key facts with chips), `curiosity` (readers by language), `thread` (how it unfolded), `result` (sports). Every value in a panel is evidence-backed.
+- **Classics:** the hand-made deep replays (`public/scenes/<id>/`, `events/<id>.ts`) remain, using the same player.
+
+### Routes
+
+| Route | What |
+| --- | --- |
+| `/` | The front page: the latest edition's globe with story beacons and a story rail |
+| `/edition/[date]` | Any day's edition (the archive) |
+| `/story/[date]/[slug]` | A story film, with its own share card and clip export |
+| `/replay/[id]` | Classics |
+
+Every route is statically generated; the nightly build adds the new day's pages.
+
 ## 1. Two halves
 
 ```
@@ -24,6 +62,19 @@ If the code and this document disagree, one of them is a bug. Fix it in the same
  │    CesiumJS: NASA GIBS imagery (dated) + our primitives                        │
  │    No backend · no accounts · no AI calls · no keys                            │
  └────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### The daily replay ("the world, yesterday")
+
+```
+ GitHub Action (nightly, Phase 5) or `pnpm bake daily [YYYY-MM-DD]`
+   Wikipedia Current events ──► news.json      stories, category, place (GeoData)
+   USGS worldwide M4.5+     ──► quakes.json
+   NASA EONET               ──► storms.json    6-hourly fixes, interpolated in the player
+   IODA outage events       ──► outages.json   only countries whose own signal fell ≥15%
+   scripts/director/daily.ts ─► scene.json     world tour: news spread across the day,
+                                               sensor beats at their real times
+   ──► public/scenes/daily-YYYY-MM-DD/  (kept: the archive, ADR-0009)
 ```
 
 ## 2. Event definitions
@@ -124,16 +175,20 @@ A scene is **rejected** if:
 
 | Path | What |
 | --- | --- |
-| `src/app/` | Next.js routes: `/` (landing), `/replay/[id]` (statically generated per event, with its own metadata and share card) |
+| `src/app/` | Next.js routes: `/` (front page), `/edition/[date]`, `/story/[date]/[slug]`, `/replay/[id]` (all statically generated, each with its own metadata and share card) |
+| `src/components/panels/` | Chart panels (seats, bars, line, facts, curiosity, thread, result) |
 | `src/components/player/` | React HUD: title, clock, captions, timeline, transport, credits, letterbox |
 | `src/player/store.ts` | Zustand store shared by the engine and the HUD |
 | `src/lib/bundles.ts` | Build-time bundle loading, Zod-validated (server only) |
 | `src/scene/` | Schema, clock, camera, beats, formatting, validator: pure, shared with scripts |
 | `src/globe/` | Cesium adapter and layer renderers |
 | `src/config.ts` | Site URL and app constants (**the** site URL lives here) |
-| `events/` | Event definitions |
-| `scripts/bake/` | One baker per source |
-| `scripts/direct.ts` | Director |
-| `public/scenes/<id>/` | Baked, committed bundles |
-| `public/static/` | Natural Earth country outlines |
+| `events/` | Classic event definitions |
+| `scripts/bake/` | One baker per source (shared by lenses) |
+| `scripts/edition/` | Story discovery, typing, ranking, edition assembly |
+| `scripts/lenses/<lens>/` | Each lens: its bakers, director and layer config |
+| `scripts/director/` | Template directors (classics, day at a glance) |
+| `public/editions/<date>/` | Baked, committed daily editions (`edition.json` + one bundle per story) |
+| `public/scenes/<id>/` | Classics and the day-at-a-glance bundles |
+| `public/geo/` | Shared shapes: Natural Earth countries (and later states, US districts) |
 | `test/` | Unit tests and recorded fixtures |

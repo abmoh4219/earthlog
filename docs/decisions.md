@@ -223,3 +223,119 @@ Every "X% of normal" figure divides a reading by its **baseline**: the median of
 
 - **Previous 7 days, same time** (first implementation): biased by weekday rhythm, as above.
 - **A single reference day:** one holiday or outage on that day would distort everything.
+
+---
+
+## ADR-0009: "The world, yesterday", baked nightly and archived
+
+- **Date:** 2026-11-04
+- **Status:** Accepted (Abdelah)
+
+### Decision
+
+- Every night a scheduled **GitHub Action** bakes the previous UTC day into a replay: the day's news stories, earthquakes, internet outages and natural events, worldwide.
+- Each day is **kept** in `public/scenes/daily-YYYY-MM-DD/`. Hero replays stay as they are. The landing page opens on the newest day and offers the archive.
+- The Action validates the bundle, then **commits only that folder** (`data: daily replay YYYY-MM-DD`), which triggers a Vercel deploy. If validation fails, nothing is committed.
+
+### Why
+
+Replays of old events compete with polished YouTube documentaries. A fresh, automatic, checkable replay of yesterday competes with nothing, gives people a reason to return daily, and builds a unique archive over time.
+
+### Consequences
+
+- An exception to "only Abdelah commits": a bot commits daily data, never code.
+- Repository growth: roughly 0.2–0.5 MB per day (about 100–200 MB per year). Revisit with a separate data branch or object storage if it grows past that.
+- GitHub Actions minutes: a few per night, well inside the free tier.
+
+### Alternatives considered
+
+- **Replace yesterday each night (no archive):** simpler, but loses the record, which is the long-term value.
+- **Bake during the Vercel build:** no bot commits, but no archive and slower deploys.
+
+---
+
+## ADR-0010: Claude in the nightly Action, with template fallback
+
+- **Date:** 2026-11-04
+- **Status:** Accepted (Abdelah)
+
+### Decision
+
+- The nightly director runs Claude (Haiku by default) with the key stored as an encrypted GitHub Actions secret.
+- If the key is missing, expired, rate-limited or over the cost ceiling, or if Claude's scene fails validation twice, the director **falls back to the template** and the replay ships anyway.
+- Each run records its method, model and cost in `scene.json` (`generatedBy`).
+
+### Why
+
+Better prose every day for about a cent per night, with no single point of failure.
+
+### Consequences
+
+- The key now lives in two places: the local `.env` and the GitHub secret. Neither is ever readable by the site. CI still greps the build output for key patterns.
+
+---
+
+## ADR-0011: All news in scope, cited and neutral
+
+- **Date:** 2026-11-04
+- **Status:** Accepted (Abdelah), replacing the "sensors only" rule for war and politics
+
+### Decision
+
+- The daily replay covers the day's hottest news in every field: politics and elections, conflicts, sports, science, business, culture, health and disasters.
+- The narrator may phrase news in its own words. **Every sentence still cites a report**, and the validator is unchanged.
+- Contested claims, casualty figures and blame are attributed to their source. No tactical detail.
+
+### Why
+
+Abdelah: a replay of yesterday that leaves out the biggest stories wouldn't be worth sharing. The citation rule keeps the trust that makes Earthlog different.
+
+### Risks and mitigations
+
+- **A wrong or one-sided sentence going viral.** Mitigated by mandatory citations, attribution of contested claims, neutral wording rules in the director's prompt, and evidence drawers that let anyone check.
+- **Election and war coverage draws scrutiny.** Mitigated by quoting reputable sources and showing them on screen.
+
+---
+
+## ADR-0012: Editions of stories, each with a lens
+
+- **Date:** 2026-11-04
+- **Status:** Accepted (Abdelah), refining ADR-0009
+
+### Decision
+
+- Earthlog's main product is the **daily edition**: yesterday's hottest stories across **every topic**, each explained by a **lens** built for its kind (election, person, organization, economy, sports, culture, accident, disaster, conflict, science, general).
+- Stories come from two signals: **what the news reported** (Wikipedia Current events, with sources) and **what the world read** (Wikipedia's most-read list). A story's lens comes from its Wikidata "instance of".
+- The Phase 3 "world on one day" montage becomes the edition's **day at a glance**, not the product. The four hand-made replays become **classics**.
+
+### Why
+
+Abdelah: one montage of headlines isn't a product, and replays of last year compete with YouTube documentaries. A deep, story-specific explanation of *yesterday* (red and blue states for an election, a flight to the headquarters for a tech story) is something neither God's Eye View nor World Monitor does, and it is shareable every day.
+
+### Consequences
+
+- A lens is a self-contained module (bakers, director, layers, panels). Lenses ship one per phase.
+- Wikidata and Wikipedia carry most enrichment: free and CC0/CC BY-SA, but community-edited, so every value is cited to its exact revision or item and labelled "as recorded in Wikidata/Wikipedia".
+- Election results come from Wikipedia: we show **called/projected** races as Wikipedia recorded them at bake time, never "certified", and uncalled races as uncalled.
+
+### Alternatives considered
+
+- **A live dashboard** (World Monitor's model): crowded and not ours.
+- **Object tracking** (God's Eye View's model): already done well, and surveillance-flavoured.
+
+---
+
+## ADR-0013: Story films with chapters and panels
+
+- **Date:** 2026-11-04
+- **Status:** Proposed (to be finalised in the story-film engine phase)
+
+### Decision
+
+- A scene can run in **real time** (the clock is UTC: sensor stories, classics) or **story time** (the timeline is a sequence of chapters: explainers).
+- In story time the HUD shows chapter titles, not a clock, so no caption implies a time of day the data doesn't have.
+- Chapters carry a shot, captions with citations, the globe layers to show and the panels to build. Panels are typed chart blocks whose every value is evidence-backed.
+
+### Why
+
+Most stories (an election, a death, a company announcement) are understood through structure and comparison, not minute-by-minute time. Forcing them onto a 24-hour clock (as the Phase 3 overview does) implies timings we don't know.

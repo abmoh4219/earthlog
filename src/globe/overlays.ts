@@ -2,13 +2,22 @@
 // pulses. Built once with batched primitives (not thousands of Entities), then restyled
 // every frame from the player clock through the pure functions in src/scene/layers.ts.
 import type * as CesiumNS from "cesium";
-import { heldSample, quakeLook, smoothRatio, tintAlpha } from "@/scene/layers";
-import type { Country, LayerData, QuakeLayer, SignalLayer } from "@/scene/schema";
+import { heldSample, quakeLook, smoothRatio, stormAt, tintAlpha } from "@/scene/layers";
+import { categoryByKey } from "@/scene/news";
+import type {
+  Country,
+  LayerData,
+  NewsLayer,
+  QuakeLayer,
+  SignalLayer,
+  StormLayer,
+} from "@/scene/schema";
 
 type Cesium = typeof CesiumNS;
 
 export interface Overlays {
-  update: (t: number, opts: { labels: boolean }) => void;
+  /** `active`: evidence IDs cited by the caption on screen, to highlight their stories. */
+  update: (t: number, opts: { labels: boolean; active: ReadonlySet<string> }) => void;
   destroy: () => void;
 }
 
@@ -139,12 +148,115 @@ export function createOverlays(
     return { q, ring, core };
   });
 
+  // 5. News pins: every story of the day, coloured by category. The story being told
+  //    gets a pulse and its place name. The pulse follows the scene clock (one clock).
+  const news = layers.find((l): l is NewsLayer => l.kind === "news");
+  const pins = (news?.stories ?? []).flatMap((story) => {
+    if (!story.place) return [];
+    const color = C.Color.fromCssColorString(categoryByKey(story.category).color);
+    const position = C.Cartesian3.fromDegrees(story.place.lon, story.place.lat, 6_000);
+    const pulse = points.add({
+      position,
+      color: C.Color.TRANSPARENT,
+      outlineColor: color,
+      outlineWidth: 2,
+      show: false,
+    });
+    const dot = points.add({
+      position,
+      pixelSize: 9,
+      color,
+      outlineColor: C.Color.BLACK.withAlpha(0.7),
+      outlineWidth: 1.5,
+    });
+    const name = labels.add({
+      position,
+      text: story.place.name.toUpperCase(),
+      font: `600 13px ${font}`,
+      fillColor: color,
+      outlineColor: C.Color.BLACK.withAlpha(0.9),
+      outlineWidth: 3,
+      style: C.LabelStyle.FILL_AND_OUTLINE,
+      verticalOrigin: C.VerticalOrigin.BOTTOM,
+      pixelOffset: new C.Cartesian2(0, -14),
+      show: false,
+    });
+    return [{ story, color, pulse, dot, name }];
+  });
+
+  // 6. Storms: the whole track faint, the stretch already travelled bright, and the storm
+  //    itself moving between 6-hourly fixes (interpolated, and the panel says so).
+  const storms = layers.find((l): l is StormLayer => l.kind === "storms");
+  const stormLines = scene.primitives.add(new C.PolylineCollection());
+  const stormMarks = (storms?.storms ?? []).map((storm) => {
+    const all = storm.track.map((f) => C.Cartesian3.fromDegrees(f.lon, f.lat, 8_000));
+    stormLines.add({
+      positions: all,
+      width: 1.5,
+      material: C.Material.fromType("Color", { color: energy.withAlpha(0.25) }),
+    });
+    const travelled = stormLines.add({
+      positions: all.slice(0, 1),
+      width: 2.5,
+      material: C.Material.fromType("Color", { color: energy.withAlpha(0.85) }),
+    });
+    // Positions are set every frame; start anywhere on the track.
+    const start = all[0] ?? C.Cartesian3.ZERO;
+    const eye = points.add({
+      position: start,
+      pixelSize: 14,
+      color: C.Color.WHITE.withAlpha(0.9),
+      outlineColor: energy,
+      outlineWidth: 3,
+      show: false,
+    });
+    const label = labels.add({
+      position: start,
+      text: storm.name.toUpperCase(),
+      font: `600 12px ${font}`,
+      fillColor: energy,
+      outlineColor: C.Color.BLACK.withAlpha(0.9),
+      outlineWidth: 3,
+      style: C.LabelStyle.FILL_AND_OUTLINE,
+      verticalOrigin: C.VerticalOrigin.BOTTOM,
+      pixelOffset: new C.Cartesian2(0, -16),
+      show: false,
+    });
+    return { storm, all, travelled, eye, label, shown: -1 };
+  });
+
   const scratch = new C.Color();
   const lastText = new Map<string, string>();
 
   return {
-    update: (t, { labels: showLabels }) => {
+    update: (t, { labels: showLabels, active }) => {
       labels.show = showLabels;
+      // A slow heartbeat in scene time: one beat every 40 scene-minutes.
+      const beat = ((t / 60_000) % 40) / 40;
+      for (const pin of pins) {
+        const on = active.has(pin.story.evidence);
+        pin.pulse.show = on;
+        pin.name.show = on;
+        pin.dot.pixelSize = on ? 12 : 8;
+        if (on) {
+          pin.pulse.pixelSize = 12 + beat * 46;
+          pin.pulse.outlineColor = pin.color.withAlpha(1 - beat, scratch);
+        }
+      }
+      for (const m of stormMarks) {
+        const at = stormAt(m.storm, t);
+        m.eye.show = at !== null;
+        m.label.show = at !== null;
+        if (!at) continue;
+        const pos = C.Cartesian3.fromDegrees(at.lon, at.lat, 8_000);
+        m.eye.position = pos;
+        m.label.position = pos;
+        // Rebuild the bright trail only when a new fix is passed.
+        if (at.passed !== m.shown) {
+          m.travelled.positions = [...m.all.slice(0, at.passed + 1), pos];
+          m.shown = at.passed;
+        }
+      }
       if (signal && fills?.ready) {
         for (const s of signal.series) {
           const alpha = tintAlpha(smoothRatio(s, t));
@@ -178,7 +290,7 @@ export function createOverlays(
       }
     },
     destroy: () => {
-      for (const p of [borders, fills, labels, points]) {
+      for (const p of [borders, fills, labels, points, stormLines]) {
         if (p && !p.isDestroyed()) scene.primitives.remove(p);
       }
     },

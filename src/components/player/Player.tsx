@@ -9,6 +9,7 @@ import { GlobeView } from "./GlobeView";
 import { Help } from "./Help";
 import { Hud } from "./Hud";
 import { Letterbox } from "./Letterbox";
+import { StoryCard } from "./StoryCard";
 import { Transport } from "./Transport";
 import { useKeyboard } from "./useKeyboard";
 import { Vignette } from "./Vignette";
@@ -36,6 +37,7 @@ export function Player({ bundle }: { bundle: SceneBundle }) {
       <Letterbox />
       <Hud scene={bundle.scene} />
       <DataPanel />
+      <StoryCard />
       <Captions />
       <Transport />
       <Credits />

@@ -12,6 +12,10 @@ const Ring = z.array(z.tuple([z.number(), z.number()]).rest(z.number()));
 const Feature = z.object({
   properties: z.object({
     NAME: z.string(),
+    NAME_LONG: z.string().nullable().optional(),
+    ADMIN: z.string().nullable().optional(),
+    NAME_EN: z.string().nullable().optional(),
+    FORMAL_EN: z.string().nullable().optional(),
     ISO_A2_EH: z.string(),
     LABEL_X: z.number(),
     LABEL_Y: z.number(),
@@ -44,6 +48,14 @@ export function reduceCountries(json: unknown): Country[] {
       name: f.properties.NAME,
       label: [r2(f.properties.LABEL_X), r2(f.properties.LABEL_Y)],
       rings,
+      // Lets news place names ("United States") match Natural Earth's ("United States of America").
+      aliases: [
+        ...new Set(
+          [f.properties.NAME_LONG, f.properties.ADMIN, f.properties.NAME_EN, f.properties.FORMAL_EN]
+            .filter((x): x is string => typeof x === "string" && x.length > 0)
+            .filter((x) => x !== f.properties.NAME),
+        ),
+      ],
     });
   }
   return out.sort((a, b) => a.code.localeCompare(b.code));

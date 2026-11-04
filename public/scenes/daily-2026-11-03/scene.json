@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-03",
+  "title": "The world on 3 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-04T00:00:00Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 139.3,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:46:56Z",
+      "lon": 139.3,
+      "lat": 21.900000000000002,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T01:25:20Z",
+      "lon": 80.3,
+      "lat": 14.3,
+      "range": 3000000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T02:12:16Z",
+      "lon": 80.3,
+      "lat": 14.3,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T02:50:40Z",
+      "lon": -77.00888889,
+      "lat": 38.248888889999996,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T03:37:36Z",
+      "lon": -77.00888889,
+      "lat": 38.248888889999996,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T04:16:00Z",
+      "lon": 56.28333333,
+      "lat": 25.27666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T05:02:56Z",
+      "lon": 56.28333333,
+      "lat": 25.27666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T05:41:20Z",
+      "lon": 56.28333333,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T07:06:40Z",
+      "lon": 86.58333333,
+      "lat": 26.86,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T07:53:36Z",
+      "lon": 86.58333333,
+      "lat": 26.86,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T08:32:00Z",
+      "lon": 86.58333333,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T09:57:20Z",
+      "lon": -75.7198,
+      "lat": 2.8586,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T10:44:16Z",
+      "lon": -75.7198,
+      "lat": 2.8586,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T11:22:40Z",
+      "lon": 151.2117,
+      "lat": -34.5081,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T12:22:48Z",
+      "lon": 151.2117,
+      "lat": -34.5081,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T13:12:00Z",
+      "lon": -3.46,
+      "lat": 38.81,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T13:58:56Z",
+      "lon": -3.46,
+      "lat": 38.81,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T14:37:20Z",
+      "lon": -3.46,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T16:02:40Z",
+      "lon": 120.964453,
+      "lat": 13.822422,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T17:07:12Z",
+      "lon": 120.964453,
+      "lat": 13.822422,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T18:00:00Z",
+      "lon": -77.00888889,
+      "lat": 38.248888889999996,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T19:19:12Z",
+      "lon": -77.00888889,
+      "lat": 38.248888889999996,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T20:24:00Z",
+      "lon": 6.25,
+      "lat": 11.52666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T21:43:12Z",
+      "lon": 6.25,
+      "lat": 11.52666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-03T22:48:00Z",
+      "lon": 144.9125,
+      "lat": -38.43027778,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-03T23:27:36Z",
+      "lon": 144.9125,
+      "lat": -38.43027778,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": 144.9125,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 640
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "00:00 UTC. Super Typhoon In-fa at 23.1°N, 139.3°E, sustained winds of 70 knots.",
+      "cites": [
+        "eonet:EONET_25728:2026-11-03T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-03T01:25:20Z",
+      "text": "00:00 UTC. Tropical Cyclone Murasu at 15.5°N, 80.3°E, sustained winds of 85 knots.",
+      "cites": [
+        "eonet:EONET_25964:2026-11-03T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-03T02:50:40Z",
+      "text": "Politics: The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives…",
+      "cites": [
+        "wiki:2026-11-03:10"
+      ]
+    },
+    {
+      "t": "2026-11-03T04:16:00Z",
+      "text": "Conflict: A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member…",
+      "cites": [
+        "wiki:2026-11-03:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T05:41:20Z",
+      "text": "05:30 UTC. Internet outage signal in Sierra Leone: responsive address blocks down to 80% of normal.",
+      "cites": [
+        "ioda:SL:ping:2026-11-03T05:30Z",
+        "ioda:SL:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-03T07:06:40Z",
+      "text": "Disaster: Two helicopters operated by Air Dynasty and Fishtail Air collide while landing in Solukhumbu District, Nepal, near Mount Everest…",
+      "cites": [
+        "wiki:2026-11-03:5"
+      ]
+    },
+    {
+      "t": "2026-11-03T08:32:00Z",
+      "text": "Sports: In association football, CD Tenerife striker Jesús de Miguel dies following an in-game collision with FC Andorra goalkeeper Jesús Owono the…",
+      "cites": [
+        "wiki:2026-11-03:12"
+      ]
+    },
+    {
+      "t": "2026-11-03T09:57:20Z",
+      "text": "09:13 UTC. The day's strongest earthquake: magnitude 5.4, 10 km deep, 24 km NNW of Rioblanco, Colombia.",
+      "cites": [
+        "usgs:us7000tv4i"
+      ]
+    },
+    {
+      "t": "2026-11-03T11:22:40Z",
+      "text": "Business: The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008…",
+      "cites": [
+        "wiki:2026-11-03:4"
+      ]
+    },
+    {
+      "t": "2026-11-03T13:12:00Z",
+      "text": "Culture: Spanish author Cristina Fernández Cubas is awarded the Cervantes Prize.",
+      "cites": [
+        "wiki:2026-11-03:3"
+      ]
+    },
+    {
+      "t": "2026-11-03T14:37:20Z",
+      "text": "13:50 UTC. Internet outage signal in Algeria: responsive address blocks down to 71% of normal.",
+      "cites": [
+        "ioda:DZ:ping:2026-11-03T13:50Z",
+        "ioda:DZ:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-03T16:02:40Z",
+      "text": "Law & crime: Five suspected robbers, including two former police personnel, are killed in shootouts with police in Bacoor, Cavite, Philippines.",
+      "cites": [
+        "wiki:2026-11-03:6"
+      ]
+    },
+    {
+      "t": "2026-11-03T18:00:00Z",
+      "text": "Politics: U.S. news organizations project that the Democratic Party will control the House of Representatives and the Senate in the upcoming 120th…",
+      "cites": [
+        "wiki:2026-11-03:11"
+      ]
+    },
+    {
+      "t": "2026-11-03T20:24:00Z",
+      "text": "Conflict: Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria…",
+      "cites": [
+        "wiki:2026-11-03:2"
+      ]
+    },
+    {
+      "t": "2026-11-03T22:48:00Z",
+      "text": "Sports: In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria…",
+      "cites": [
+        "wiki:2026-11-03:13"
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T13:02:22Z"
+  }
+}

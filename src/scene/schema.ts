@@ -36,7 +36,7 @@ export const PaceMark = z.object({
   speed: z.number().positive(),
 });
 
-export const LayerKind = z.enum(["outages", "quakes"]);
+export const LayerKind = z.enum(["outages", "quakes", "news", "storms"]);
 
 export const LayerRef = z.object({
   kind: LayerKind,
@@ -49,7 +49,15 @@ export const Scene = z.object({
   id: z.string().regex(/^[a-z0-9_][a-z0-9-]*$/),
   title: z.string().min(1),
   subtitle: z.string(),
-  category: z.enum(["nature", "infrastructure", "conflict", "politics", "sports", "sample"]),
+  category: z.enum([
+    "nature",
+    "infrastructure",
+    "conflict",
+    "politics",
+    "sports",
+    "daily",
+    "sample",
+  ]),
   window: z.object({ start: IsoUtc, end: IsoUtc }),
   focus: IsoUtc,
   /** IANA zone for display only; all scene times are UTC. */
@@ -93,8 +101,15 @@ export const Evidence = z.object({
   value: z.number().optional(),
   unit: z.string().optional(),
   url: z.url().optional(),
-  /** Exact quote, required for kind "report". */
+  /** Exact text the evidence rests on; required for kind "report". */
   quote: z.string().optional(),
+  /**
+   * "day": the source gives a date but no time of day (e.g. a daily news digest);
+   * t is then the day's start and the UI says "time of day not recorded".
+   */
+  precision: z.enum(["exact", "day"]).optional(),
+  /** Further sources behind a report, e.g. the outlets a news digest cites. */
+  links: z.array(z.object({ name: z.string().min(1), url: z.url() })).optional(),
 });
 
 export const Source = z.object({
@@ -161,7 +176,54 @@ export const QuakeLayer = z.object({
   quakes: z.array(Quake),
 });
 
-export const LayerData = z.discriminatedUnion("kind", [SignalLayer, QuakeLayer]);
+/** A news story from a daily digest, placed on the map where it happened. */
+export const NewsStory = z.object({
+  id: z.string().min(1),
+  /** Key into NEWS_CATEGORIES (src/scene/news.ts). */
+  category: z.string().min(1),
+  /** The running story it belongs to, e.g. "2026 United States elections". */
+  topic: z.string().optional(),
+  text: z.string().min(1),
+  /** Most specific place we could locate; absent when the story has no single place. */
+  place: z
+    .object({ name: z.string().min(1), lon: z.number(), lat: z.number(), country: z.boolean() })
+    .optional(),
+  evidence: EvidenceId,
+});
+
+export const NewsLayer = z.object({
+  kind: z.literal("news"),
+  date: z.iso.date(),
+  stories: z.array(NewsStory),
+});
+
+export const StormFix = z.object({
+  t: IsoUtc,
+  lon: z.number(),
+  lat: z.number(),
+  /** Sustained wind, knots, when the tracker reports it. */
+  windKt: z.number().optional(),
+  evidence: EvidenceId,
+});
+
+export const Storm = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  /** Positions in time order; the player interpolates between fixes and says so. */
+  track: z.array(StormFix).min(1),
+});
+
+export const StormLayer = z.object({
+  kind: z.literal("storms"),
+  storms: z.array(Storm),
+});
+
+export const LayerData = z.discriminatedUnion("kind", [
+  SignalLayer,
+  QuakeLayer,
+  NewsLayer,
+  StormLayer,
+]);
 
 /** Natural Earth outlines, shared by all scenes (public/geo/countries.json). */
 export const Country = z.object({
@@ -171,6 +233,8 @@ export const Country = z.object({
   label: z.tuple([z.number(), z.number()]),
   /** Outer rings as flat [lon, lat, lon, lat, …] arrays (holes dropped at 1:110m). */
   rings: z.array(z.array(z.number())),
+  /** Other names for matching, e.g. "United States" for "United States of America". */
+  aliases: z.array(z.string()).default([]),
 });
 
 export type Keyframe = z.infer<typeof Keyframe>;
@@ -180,6 +244,10 @@ export type Quake = z.infer<typeof Quake>;
 export type QuakeLayer = z.infer<typeof QuakeLayer>;
 export type LayerData = z.infer<typeof LayerData>;
 export type Country = z.infer<typeof Country>;
+export type NewsStory = z.infer<typeof NewsStory>;
+export type NewsLayer = z.infer<typeof NewsLayer>;
+export type Storm = z.infer<typeof Storm>;
+export type StormLayer = z.infer<typeof StormLayer>;
 export type Beat = z.infer<typeof Beat>;
 export type PaceMark = z.infer<typeof PaceMark>;
 export type LayerRef = z.infer<typeof LayerRef>;
