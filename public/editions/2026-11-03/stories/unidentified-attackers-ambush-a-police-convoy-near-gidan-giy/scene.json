@@ -199,29 +199,29 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard…",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "Unidentified attackers ambushed a police convoy near Gidan-Giye village in Zamfara State, Nigeria. According to the article, at least five police officers and three Zamfara Community Protection Guard members were killed.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
       "t": "2026-11-03T00:00:09Z",
-      "text": "The most impacted states are those of the Nigerian Middle Belt like Benue, Taraba and Plateau.",
+      "text": "As the article records, the Nigerian Middle Belt states of Benue, Taraba and Plateau are the most impacted.",
       "cites": [
         "wiki:rev:1383141847:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:17Z",
-      "text": "On the map: Zamfara State, Nigeria, where the reports place it.",
+      "t": "2026-11-03T00:00:18Z",
+      "text": "The incident is located in Zamfara State, Nigeria, as the reports place it.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
-      "t": "2026-11-03T00:00:25Z",
-      "text": "The article lists three sides: Christians, Adara, Berom, Jukun, Tiv and Tarok farmers; Muslims, Fulani and Hausa herders; Nigerian Armed Forces, Nigeria Police Force.",
+      "t": "2026-11-03T00:00:26Z",
+      "text": "The article lists three sides: Christians, Adara, Berom, Jukun, Tiv and Tarok farmers; Muslims, Fulani and Hausa herders; and Nigerian Armed Forces, Nigeria Police Force.",
       "cites": [
         "wiki:box:1383141847:side-1",
         "wiki:box:1383141847:side-2",
@@ -230,29 +230,29 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Status, as the article records it: Ongoing.",
+      "text": "The status is recorded as ongoing.",
       "cites": [
         "wiki:box:1383141847:status"
       ]
     },
     {
       "t": "2026-11-03T00:00:40Z",
-      "text": "Figures as the article records them, each attributed there to its sources: casualties (side 1), 4,877–28,551 civilians killed; casualties (side 2), 10,519 civilians killed.",
+      "text": "As the article records, casualties on side 1 are 4,877–28,551 civilians killed, and on side 2, 10,519 civilians killed.",
       "cites": [
         "wiki:box:1383141847:casualties-side-1-",
         "wiki:box:1383141847:casualties-side-2-"
       ]
     },
     {
-      "t": "2026-11-03T00:00:48Z",
-      "text": "Also named in the reports: Nigeria.",
+      "t": "2026-11-03T00:00:49Z",
+      "text": "The reports also name Nigeria.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
-      "t": "2026-11-03T00:00:57Z",
-      "text": "Reported by Reuters.",
+      "t": "2026-11-03T00:00:58Z",
+      "text": "Reuters is named as the reporting source for this account.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
@@ -290,9 +290,11 @@
   "panels": [
     {
       "id": "sides",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:26Z",
+      "until": "2026-11-03T00:00:48Z",
       "title": "As the article records them",
       "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
       "items": [
         {
           "label": "Side 1",
@@ -343,15 +345,15 @@
             "wiki:box:1383141847:casualties"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:26Z",
-      "until": "2026-11-03T00:00:48Z"
+      ]
     },
     {
       "id": "sources",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:58Z",
+      "until": "2026-11-03T00:01:05Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
       "items": [
         {
           "label": "Reuters",
@@ -361,13 +363,13 @@
             "wiki:2026-11-03:2"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:58Z",
-      "until": "2026-11-03T00:01:05Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:15:15Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.001425
   }
 }

@@ -129,6 +129,12 @@ function StoryHud({
         <p className="mt-1 font-mono text-[10px] tracking-[0.2em] text-ice/45 uppercase">
           Data as of {asOf(scene.generatedBy.at)}
         </p>
+        {/* CLAUDE.md §3.3: AI narration is always labelled. */}
+        {scene.generatedBy.method === "claude" && (
+          <p className="mt-1 text-[11px] text-ice/55">
+            AI-written narration, every sentence checked against cited data
+          </p>
+        )}
       </div>
       <div className="text-right">
         <div className="font-mono text-[11px] tracking-[0.3em] text-ice/55 uppercase tabular-nums">

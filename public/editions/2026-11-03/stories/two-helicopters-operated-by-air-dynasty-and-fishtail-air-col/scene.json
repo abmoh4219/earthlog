@@ -176,29 +176,36 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "Two helicopters operated by Air Dynasty and Fishtail Air collide while landing in Solukhumbu District, Nepal, near Mount Everest, killing an Indian tourist and injuring a New Zealand national.",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "Two helicopters operated by Air Dynasty and Fishtail Air collided while landing in Solukhumbu District, Nepal, near Mount Everest.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
     },
     {
-      "t": "2026-11-03T00:00:10Z",
-      "text": "On the map: Solukhumbu District, Nepal, where the reports place it.",
+      "t": "2026-11-03T00:00:05Z",
+      "text": "The collision killed an Indian tourist and injured a New Zealand national.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
     },
     {
-      "t": "2026-11-03T00:00:18Z",
-      "text": "Also named in the reports: Mount Everest.",
+      "t": "2026-11-03T00:00:11Z",
+      "text": "The events took place in Solukhumbu District, Nepal, where the reports place them.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
     },
     {
-      "t": "2026-11-03T00:00:27Z",
-      "text": "Reported by AFP via Times of Malta.",
+      "t": "2026-11-03T00:00:19Z",
+      "text": "Mount Everest is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-03:5"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "The story was reported by AFP and carried by Times of Malta.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
@@ -232,9 +239,11 @@
   "panels": [
     {
       "id": "sources",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:28Z",
+      "until": "2026-11-03T00:00:35Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
       "items": [
         {
           "label": "AFP via Times of Malta",
@@ -244,13 +253,13 @@
             "wiki:2026-11-03:5"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:28Z",
-      "until": "2026-11-03T00:00:35Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.000463
   }
 }

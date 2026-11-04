@@ -319,7 +319,7 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
+      "t": "2026-11-03T00:00:01Z",
       "text": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States.",
       "cites": [
         "wiki:rev:1383777197:0"
@@ -327,21 +327,21 @@
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "John I. Leonard Community High School, a public high school located near the crash site, was closed on November 2 as emergency crews and investigators continued operations in the vicinity.",
+      "text": "John I. Leonard Community High School, a public school near the crash site, was closed on November 2 while emergency crews and investigators continued their work nearby.",
       "cites": [
         "wiki:rev:1383777197:27"
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "During a second press briefing on November 3, Chapman confirmed that the elevator had separated prior to impact.",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "At a second press briefing on November 3, Chapman confirmed that the elevator had separated before impact.",
       "cites": [
         "wiki:rev:1383777197:40"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
-      "text": "It set out from Austin–Bergstrom International Airport, bound for North Eleuthera Airport.",
+      "t": "2026-11-03T00:00:25Z",
+      "text": "The flight set out from Austin–Bergstrom International Airport, bound for North Eleuthera Airport.",
       "cites": [
         "wiki:box:1383777197:origin",
         "wiki:box:1383777197:destination"
@@ -349,7 +349,7 @@
     },
     {
       "t": "2026-11-03T00:00:32Z",
-      "text": "It came down about 1,760 km from Austin–Bergstrom International Airport in a straight line, with about 370 km still to go.",
+      "text": "The aircraft came down about 1,760 km from Austin–Bergstrom in a straight line, with about 370 km still to go.",
       "cites": [
         "wiki:box:1383777197:origin",
         "wiki:box:1383777197:destination",
@@ -357,26 +357,32 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:39Z",
-      "text": "Palm Beach County: crashed en route, in-flight structural failure; under investigation.",
+      "t": "2026-11-03T00:00:40Z",
+      "text": "The aircraft crashed en route, and according to the article, the cause was an in-flight structural failure, which is under investigation.",
       "cites": [
         "wiki:box:1383777197:summary",
         "wiki:box:1383777197:coordinates"
       ]
     },
     {
-      "t": "2026-11-03T00:00:48Z",
-      "text": "The aircraft was a Learjet 60, built by Bombardier Aerospace; the type first flew in 1990, operated by Aurora Aviation (dba Upper Jets).",
+      "t": "2026-11-03T00:00:49Z",
+      "text": "The aircraft was a Learjet 60, manufactured by Bombardier Aerospace.",
       "cites": [
         "wiki:box:1383777197:aircraft",
-        "wd:Q1267393:P176",
+        "wd:Q1267393:P176"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
+      "text": "The type first flew in 1990, and this aircraft was operated by Aurora Aviation, doing business as Upper Jets.",
+      "cites": [
         "wd:Q1267393:P606",
         "wiki:box:1383777197:operator"
       ]
     },
     {
-      "t": "2026-11-03T00:00:57Z",
-      "text": "All 9 people on board died: 7 passengers and 2 crew, according to the article.",
+      "t": "2026-11-03T00:00:58Z",
+      "text": "According to the article, all 9 people on board died: 7 passengers and 2 crew.",
       "cites": [
         "wiki:box:1383777197:occupants",
         "wiki:box:1383777197:fatalities",
@@ -387,13 +393,13 @@
     },
     {
       "t": "2026-11-03T00:01:06Z",
-      "text": "On the ground: 1 injured.",
+      "text": "On the ground, 1 person was injured.",
       "cites": [
         "wiki:box:1383777197:ground-injuries"
       ]
     },
     {
-      "t": "2026-11-03T00:01:14Z",
+      "t": "2026-11-03T00:01:15Z",
       "text": "The aircraft departed Austin–Bergstrom International Airport at 10:37 EST (15:37 UTC).",
       "cites": [
         "wiki:timeline:1383777197:0"
@@ -401,50 +407,50 @@
     },
     {
       "t": "2026-11-03T00:01:22Z",
-      "text": "At 12:48 EST (17:48 UTC), the first officer radioed a \"mayday\" call to ATC, reporting a deteriorating situation.",
+      "text": "At 12:48 EST (17:48 UTC), the first officer radioed a \"mayday\" call to air traffic control, reporting a deteriorating situation.",
       "cites": [
         "wiki:timeline:1383777197:1"
       ]
     },
     {
-      "t": "2026-11-03T00:01:30Z",
-      "text": "The Palm Beach County Sheriff's Office closed Military Trail near the impact site to facilitate the emergency response and investigation.",
+      "t": "2026-11-03T00:01:31Z",
+      "text": "The Palm Beach County Sheriff's Office closed Military Trail near the impact site to support the emergency response and investigation.",
       "cites": [
         "wiki:investigation:1383777197:0"
       ]
     },
     {
-      "t": "2026-11-03T00:01:37Z",
-      "text": "Thunderstorms were affecting the Palm Beach area around the time of the crash, with visibility ranging from 2 to 10 mi and surface wind gusts of 20 to 30 mph.",
+      "t": "2026-11-03T00:01:38Z",
+      "text": "Thunderstorms were affecting the Palm Beach area around the time of the crash, with visibility of 2 to 10 mi and surface wind gusts of 20 to 30 mph.",
       "cites": [
         "wiki:investigation:1383777197:1"
       ]
     },
     {
       "t": "2026-11-03T00:01:45Z",
-      "text": "According to recorded air traffic control communications, the crew reported light clear icing and moderate turbulence while flying at approximately 35,000 ft, with altitude fluctuations of up to 700 ft.",
+      "text": "According to recorded air traffic control communications, the crew reported light clear icing and moderate turbulence at approximately 35,000 ft, with altitude fluctuations up to 700 ft.",
       "cites": [
         "wiki:investigation:1383777197:2"
       ]
     },
     {
-      "t": "2026-11-03T00:01:52Z",
-      "text": "Readers also turned to Learjet 60 (121,648).",
+      "t": "2026-11-03T00:01:53Z",
+      "text": "Readers also looked up the Learjet 60 article, which drew 121,648 readers on 3 November 2026.",
       "cites": [
         "views:en:Learjet_60:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:02:01Z",
-      "text": "132,447 people read the article on 3 November 2026. It hadn't existed weeks before.",
+      "t": "2026-11-03T00:02:02Z",
+      "text": "The article drew 132,447 readers on 3 November 2026, and it had no readers in the 8 to 60 days before, as a new article.",
       "cites": [
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:02:10Z",
-      "text": "Read in 10 languages; after English, most in German (9,654).",
+      "t": "2026-11-03T00:02:08Z",
+      "text": "The article is available in 10 languages, and after English, the German edition drew the most readers, with 9,654 on 3 November 2026.",
       "cites": [
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
         "views:de:Flugzeugabsturz_am_1._November_2026_in_Palm_Beach:2026-11-03"
@@ -499,9 +505,11 @@
   "panels": [
     {
       "id": "vehicle",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:49Z",
+      "until": "2026-11-03T00:00:57Z",
       "title": "The aircraft",
       "note": "From the article's infobox (revision of 2026-11-04) and Wikidata.",
+      "kind": "facts",
       "items": [
         {
           "label": "Aircraft",
@@ -545,21 +553,21 @@
             "wd:Q1267393:P606"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:49Z",
-      "until": "2026-11-03T00:00:57Z"
+      ]
     },
     {
       "id": "on-board",
-      "kind": "bars",
+      "t": "2026-11-03T00:00:58Z",
+      "until": "2026-11-03T00:01:14Z",
       "title": "People",
-      "unit": "people",
       "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
       "items": [
         {
           "label": "Occupants",
-          "value": 9,
           "text": "9",
+          "value": 9,
           "color": "#9ad9ff",
           "cites": [
             "wiki:box:1383777197:occupants"
@@ -567,8 +575,8 @@
         },
         {
           "label": "Passengers",
-          "value": 7,
           "text": "7",
+          "value": 7,
           "color": "#9ad9ff",
           "cites": [
             "wiki:box:1383777197:passengers"
@@ -576,8 +584,8 @@
         },
         {
           "label": "Crew",
-          "value": 2,
           "text": "2",
+          "value": 2,
           "color": "#9ad9ff",
           "cites": [
             "wiki:box:1383777197:crew"
@@ -585,8 +593,8 @@
         },
         {
           "label": "Fatalities",
-          "value": 9,
           "text": "9",
+          "value": 9,
           "color": "#ff5a5f",
           "cites": [
             "wiki:box:1383777197:fatalities"
@@ -594,8 +602,8 @@
         },
         {
           "label": "Survivors",
-          "value": 0,
           "text": "0",
+          "value": 0,
           "color": "#9ad9ff",
           "cites": [
             "wiki:box:1383777197:survivors"
@@ -603,23 +611,23 @@
         },
         {
           "label": "Ground injuries",
-          "value": 1,
           "text": "1",
+          "value": 1,
           "color": "#9ad9ff",
           "cites": [
             "wiki:box:1383777197:ground-injuries"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:58Z",
-      "until": "2026-11-03T00:01:14Z"
+      ]
     },
     {
       "id": "readers",
-      "kind": "line",
+      "t": "2026-11-03T00:02:02Z",
+      "until": "2026-11-03T00:02:19Z",
       "title": "Readers on English Wikipedia",
-      "unit": "readers a day",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
       "series": [
         {
           "label": "2026 Palm Beach County Learjet 60 crash",
@@ -768,21 +776,21 @@
           ]
         }
       ],
-      "mark": 1,
-      "t": "2026-11-03T00:02:02Z",
-      "until": "2026-11-03T00:02:19Z"
+      "mark": 1
     },
     {
       "id": "languages",
-      "kind": "bars",
+      "t": "2026-11-03T00:02:02Z",
+      "until": "2026-11-03T00:02:19Z",
       "title": "Readers by language",
-      "unit": "readers",
       "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
       "items": [
         {
           "label": "English",
-          "value": 132447,
           "text": "132,447",
+          "value": 132447,
           "color": "#e8f6ff",
           "cites": [
             "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03"
@@ -790,8 +798,8 @@
         },
         {
           "label": "German",
-          "value": 9654,
           "text": "9,654",
+          "value": 9654,
           "color": "#9ad9ff",
           "cites": [
             "views:de:Flugzeugabsturz_am_1._November_2026_in_Palm_Beach:2026-11-03"
@@ -799,8 +807,8 @@
         },
         {
           "label": "Russian",
-          "value": 6849,
           "text": "6,849",
+          "value": 6849,
           "color": "#9ad9ff",
           "cites": [
             "views:ru:Катастрофа_Learjet_60_в_Гринэйкрсе:2026-11-03"
@@ -808,8 +816,8 @@
         },
         {
           "label": "Chinese",
-          "value": 5560,
           "text": "5,560",
+          "value": 5560,
           "color": "#9ad9ff",
           "cites": [
             "views:zh:2026年佛罗里达州Learjet_60坠毁事故:2026-11-03"
@@ -817,8 +825,8 @@
         },
         {
           "label": "French",
-          "value": 2955,
           "text": "2,955",
+          "value": 2955,
           "color": "#9ad9ff",
           "cites": [
             "views:fr:Crash_d'un_Learjet_60_à_Palm_Beach:2026-11-03"
@@ -826,8 +834,8 @@
         },
         {
           "label": "Spanish",
-          "value": 1486,
           "text": "1,486",
+          "value": 1486,
           "color": "#9ad9ff",
           "cites": [
             "views:es:Accidente_del_Learjet_60_de_LR60271_LLC_en_2026:2026-11-03"
@@ -835,20 +843,20 @@
         },
         {
           "label": "Portuguese",
-          "value": 757,
           "text": "757",
+          "value": 757,
           "color": "#9ad9ff",
           "cites": [
             "views:pt:Queda_do_Learjet_60_em_Palm_Beach_em_2026:2026-11-03"
           ]
         }
-      ],
-      "t": "2026-11-03T00:02:02Z",
-      "until": "2026-11-03T00:02:19Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.002793
   }
 }

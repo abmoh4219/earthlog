@@ -287,11 +287,13 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 **Checkpoint 13:** `feat: conflict, science and space lenses`
 
-## Phase 14 · The director: Claude mode for every lens (about 3 h)
+## Phase 14 · The director: Claude mode for every lens (about 3 h) ✅
 
 - `pnpm direct <story> [--ai]`: Claude (Haiku) picks chapters and writes captions from the lens's evidence, as structured JSON; validated; up to 2 retries; **template fallback** on any failure; cost printed; hard ceiling per edition.
 - Claude also double-checks the lens choice for ambiguous stories.
 - Recorded responses for tests; no tokens spent in CI.
+
+**Done (2026-11-05):** `pnpm direct <date> [slug] --ai` rewrites every film's captions with Claude Haiku 5.5 from the evidence each chapter cites, chapter by chapter, with grounding checks (cites, numbers, no dropped facts) and a template fallback per chapter. The 2026-11-03 edition: 15 films, 77 of 79 chapters by Claude, **$0.031 in total** (about $0.002 a film). The lens check runs in the same request and is printed when Claude thinks a lens doesn't fit. Nightly order: `pnpm edition` → `pnpm stories` → `pnpm direct --ai`.
 
 **Checkpoint 14:** `feat: Claude director for story films`
 

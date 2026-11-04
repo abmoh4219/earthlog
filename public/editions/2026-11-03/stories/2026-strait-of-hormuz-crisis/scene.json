@@ -232,65 +232,65 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "According to the reports, a commercial vessel was hit by an unidentified object in waters off Musandam Governorate, Oman, killing an Indian crew member, and 13 others were rescued.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On November 2, alongside what the U.S. military described as \"defensive strikes\" in the Strait of Hormuz, multiple explosions were reported on Iran's Qeshm Island.",
+      "text": "On November 2, as the U.S. military described what it called \"defensive strikes\" in the Strait of Hormuz, multiple explosions were reported on Iran's Qeshm Island.",
       "cites": [
         "wiki:rev:1383733327:263"
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026…",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Since 28 February 2026, shipping through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran.",
       "cites": [
         "wiki:rev:1383733327:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
-      "text": "On the map: Musandam Governorate, Oman, where the reports place it.",
+      "t": "2026-11-03T00:00:25Z",
+      "text": "The reports place the incident in Musandam Governorate, Oman.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
-      "t": "2026-11-03T00:00:32Z",
-      "text": "On 28 October, the Dutch Title Transfer Facility (TTF) front-month natural gas futures contract briefly reached €100 per megawatt-hour, approximately three times its pre-war level, according to Reuters.",
+      "t": "2026-11-03T00:00:33Z",
+      "text": "On 28 October, the Dutch TTF front-month natural gas futures contract briefly reached €100 per megawatt-hour, approximately three times its pre-war level, according to Reuters.",
       "cites": [
         "wiki:week:1383733327:424"
       ]
     },
     {
       "t": "2026-11-03T00:00:41Z",
-      "text": "The Nakilat-operated LNG carrier \"Al Mayeda\" was hit by \"unidentified objects\" in the Persian Gulf on the evening of 30 October 2026.",
+      "text": "On the evening of 30 October 2026, the Nakilat-operated LNG carrier \"Al Mayeda\" was hit by \"unidentified objects\" in the Persian Gulf.",
       "cites": [
         "wiki:week:1383733327:264"
       ]
     },
     {
-      "t": "2026-11-03T00:00:49Z",
-      "text": "Figures as the article records them, each attributed there to its sources: casualties, 24 seafarers; 1 port worker; injured, 35+.",
+      "t": "2026-11-03T00:00:50Z",
+      "text": "According to the article's figures, casualties are 24 seafarers and 1 port worker, and injured are recorded as 35+.",
       "cites": [
         "wiki:box:1383733327:casualties",
         "wiki:box:1383733327:injured"
       ]
     },
     {
-      "t": "2026-11-03T00:01:00Z",
-      "text": "Also named in the reports: Strait of Hormuz.",
+      "t": "2026-11-03T00:01:01Z",
+      "text": "The reports also name the Strait of Hormuz.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
-      "t": "2026-11-03T00:01:09Z",
-      "text": "Reported by Reuters.",
+      "t": "2026-11-03T00:01:10Z",
+      "text": "Reuters is named as the reporting source.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
@@ -332,9 +332,11 @@
   "panels": [
     {
       "id": "week",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:49Z",
       "title": "Places in the week's reports",
       "note": "Places the article's dated sentences of the past seven days link to. Red: the latest; amber: a week ago.",
+      "kind": "facts",
       "items": [
         {
           "label": "Persian Gulf",
@@ -343,15 +345,15 @@
             "wiki:week:1383733327:264"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:49Z"
+      ]
     },
     {
       "id": "sides",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:50Z",
+      "until": "2026-11-03T00:01:00Z",
       "title": "As the article records them",
       "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
       "items": [
         {
           "label": "Casualties",
@@ -367,15 +369,15 @@
             "wiki:box:1383733327:injured"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:50Z",
-      "until": "2026-11-03T00:01:00Z"
+      ]
     },
     {
       "id": "sources",
-      "kind": "facts",
+      "t": "2026-11-03T00:01:10Z",
+      "until": "2026-11-03T00:01:17Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
       "items": [
         {
           "label": "Reuters",
@@ -385,13 +387,13 @@
             "wiki:2026-11-03:1"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:10Z",
-      "until": "2026-11-03T00:01:17Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:15:14Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.001401
   }
 }

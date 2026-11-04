@@ -248,7 +248,7 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
+      "t": "2026-11-03T00:00:01Z",
       "text": "Stewart died at his home in Los Angeles on 28 October 2026, aged 86.",
       "cites": [
         "wiki:rev:1383779868:231"
@@ -256,20 +256,20 @@
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award…",
+      "text": "Over a career of more than 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award.",
       "cites": [
         "wiki:rev:1383779868:1"
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "Sir Patrick Stewart (13 July 1940 – 28 October 2026) was an English actor.",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Sir Patrick Stewart was an English actor, born on 13 July 1940.",
       "cites": [
         "wiki:rev:1383779868:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
+      "t": "2026-11-03T00:00:25Z",
       "text": "Patrick Stewart was born on 13 July 1940 in Mirfield.",
       "cites": [
         "wd:Q16296:P569",
@@ -277,8 +277,8 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:32Z",
-      "text": "Educated at Bristol Old Vic Theatre School, Crowlees Junior and Infant School and The Mirfield Free Grammar.",
+      "t": "2026-11-03T00:00:33Z",
+      "text": "He was educated at Bristol Old Vic Theatre School, Crowlees Junior and Infant School and The Mirfield Free Grammar.",
       "cites": [
         "wd:Q16296:P69:Q608723",
         "wd:Q16296:P69:Q5189254",
@@ -287,7 +287,7 @@
     },
     {
       "t": "2026-11-03T00:00:38Z",
-      "text": "Worked with University of Oxford and University of Huddersfield.",
+      "text": "He has worked for the University of Oxford and the University of Huddersfield.",
       "cites": [
         "wd:Q16296:P108:Q34433",
         "wd:Q16296:P108:Q3056815"
@@ -295,15 +295,15 @@
     },
     {
       "t": "2026-11-03T00:00:44Z",
-      "text": "8 awards on record, including Laurence Olivier Award for Best Actor in a Supporting Role (2009) and honorary doctorate of the Vrije Universiteit Brussel (2015).",
+      "text": "The record lists 8 awards, including the Laurence Olivier Award for Best Actor in a Supporting Role (2009) and an honorary doctorate of the Vrije Universiteit Brussel (2015).",
       "cites": [
         "wd:Q16296:P166:Q6500772",
         "wd:Q16296:P166:Q55139818"
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
-      "text": "Known for X-Men and Star Trek: The Next Generation.",
+      "t": "2026-11-03T00:00:50Z",
+      "text": "He is known for X-Men and Star Trek: The Next Generation.",
       "cites": [
         "wd:Q16296:P800:Q2006869",
         "wd:Q16296:P800:Q16290"
@@ -311,7 +311,7 @@
     },
     {
       "t": "2026-11-03T00:00:58Z",
-      "text": "Patrick Stewart died on 28 October 2026 in Los Angeles, aged 86.",
+      "text": "He died in Los Angeles on 28 October 2026, aged 86.",
       "cites": [
         "wd:Q16296:P570",
         "wd:Q16296:P20",
@@ -320,15 +320,15 @@
     },
     {
       "t": "2026-11-03T00:01:15Z",
-      "text": "82,458 people read about it on 3 November 2026: about 21× the usual.",
+      "text": "On 3 November 2026, 82,458 people read the English article, about 21 times the usual level.",
       "cites": [
         "views:en:Patrick_Stewart:2026-11-03",
         "views:en:Patrick_Stewart:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:24Z",
-      "text": "Read in 11 languages; after English, most in German (6,690).",
+      "t": "2026-11-03T00:01:21Z",
+      "text": "The article was read in 11 languages, and after English, German had the most readers, at 6,690.",
       "cites": [
         "views:en:Patrick_Stewart:2026-11-03",
         "views:de:Patrick_Stewart:2026-11-03"
@@ -375,9 +375,11 @@
   "panels": [
     {
       "id": "life",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:43Z",
       "title": "A life on record",
       "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
       "items": [
         {
           "label": "1940 born",
@@ -428,15 +430,15 @@
             "wd:Q16296:P20"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:43Z"
+      ]
     },
     {
       "id": "recognition",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:44Z",
+      "until": "2026-11-03T00:00:57Z",
       "title": "Recognition",
       "note": "As recorded in Wikidata.",
+      "kind": "facts",
       "items": [
         {
           "label": "1979",
@@ -494,16 +496,16 @@
             "wd:Q16296:P800:Q16290"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:44Z",
-      "until": "2026-11-03T00:00:57Z"
+      ]
     },
     {
       "id": "readers",
-      "kind": "line",
+      "t": "2026-11-03T00:01:15Z",
+      "until": "2026-11-03T00:01:32Z",
       "title": "Readers on English Wikipedia",
-      "unit": "readers a day",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
       "series": [
         {
           "label": "Patrick Stewart",
@@ -635,21 +637,21 @@
           ]
         }
       ],
-      "mark": 29,
-      "t": "2026-11-03T00:01:15Z",
-      "until": "2026-11-03T00:01:32Z"
+      "mark": 29
     },
     {
       "id": "languages",
-      "kind": "bars",
+      "t": "2026-11-03T00:01:15Z",
+      "until": "2026-11-03T00:01:32Z",
       "title": "Readers by language",
-      "unit": "readers",
       "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
       "items": [
         {
           "label": "English",
-          "value": 82458,
           "text": "82,458",
+          "value": 82458,
           "color": "#f5c2a0",
           "cites": [
             "views:en:Patrick_Stewart:2026-11-03"
@@ -657,8 +659,8 @@
         },
         {
           "label": "German",
-          "value": 6690,
           "text": "6,690",
+          "value": 6690,
           "color": "#9ad9ff",
           "cites": [
             "views:de:Patrick_Stewart:2026-11-03"
@@ -666,8 +668,8 @@
         },
         {
           "label": "Russian",
-          "value": 4307,
           "text": "4,307",
+          "value": 4307,
           "color": "#9ad9ff",
           "cites": [
             "views:ru:Стюарт,_Патрик:2026-11-03"
@@ -675,8 +677,8 @@
         },
         {
           "label": "Spanish",
-          "value": 3249,
           "text": "3,249",
+          "value": 3249,
           "color": "#9ad9ff",
           "cites": [
             "views:es:Patrick_Stewart:2026-11-03"
@@ -684,8 +686,8 @@
         },
         {
           "label": "French",
-          "value": 3115,
           "text": "3,115",
+          "value": 3115,
           "color": "#9ad9ff",
           "cites": [
             "views:fr:Patrick_Stewart:2026-11-03"
@@ -693,8 +695,8 @@
         },
         {
           "label": "Italian",
-          "value": 1753,
           "text": "1,753",
+          "value": 1753,
           "color": "#9ad9ff",
           "cites": [
             "views:it:Patrick_Stewart:2026-11-03"
@@ -702,20 +704,20 @@
         },
         {
           "label": "Japanese",
-          "value": 1574,
           "text": "1,574",
+          "value": 1574,
           "color": "#9ad9ff",
           "cites": [
             "views:ja:パトリック・スチュワート:2026-11-03"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:15Z",
-      "until": "2026-11-03T00:01:32Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.003608
   }
 }

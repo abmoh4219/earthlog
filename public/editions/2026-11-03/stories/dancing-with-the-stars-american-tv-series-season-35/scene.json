@@ -205,8 +205,8 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "To avoid conflicts with the U.S. midterm elections, held on November 3, 2026, Dancing with the Stars moved the air date of this episode to Monday, one day earlier.",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "To avoid conflicts with the U.S. midterm elections on November 3, 2026, the network moved this episode's air date to Monday, one day earlier.",
       "cites": [
         "wiki:rev:1383796648:111"
       ]
@@ -219,15 +219,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026.",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Season thirty-five premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026.",
       "cites": [
         "wiki:rev:1383796648:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
-      "text": "On ABC and Disney+, hosted by Alfonso Ribeiro and Julianne Hough, judged by Derek Hough, Carrie Ann Inaba and Bruno Tonioli.",
+      "t": "2026-11-03T00:00:25Z",
+      "text": "The season airs on ABC and Disney+, with Alfonso Ribeiro and Julianne Hough as hosts and Derek Hough, Carrie Ann Inaba and Bruno Tonioli as judges.",
       "cites": [
         "wiki:box:1383796648:network",
         "wiki:box:1383796648:hosts",
@@ -235,8 +235,8 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:36Z",
-      "text": "20 of the people credited have a birthplace on record; 14 were born in the United States.",
+      "t": "2026-11-03T00:00:37Z",
+      "text": "Birthplaces are on record for 20 of the people credited, and 14 of them were born in the United States.",
       "cites": [
         "wd:Q1189327:P19",
         "wd:Q15955943:P19",
@@ -262,7 +262,7 @@
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "Born further afield: Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia and Sasha Farber in Russia.",
+      "text": "Among those born further afield are Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia, and Sasha Farber in Russia.",
       "cites": [
         "wd:Q16200956:P19",
         "wd:Q21285529:P19",
@@ -270,15 +270,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:54Z",
-      "text": "Readers also turned to Jenna Dewan (64,103).",
+      "t": "2026-11-03T00:00:55Z",
+      "text": "Readers also turned to the article on Jenna Dewan, with 64,103 readers on 3 Nov 2026.",
       "cites": [
         "views:en:Jenna_Dewan:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:01:03Z",
-      "text": "135,810 people read about it on 3 November 2026: about 10× the usual.",
+      "t": "2026-11-03T00:01:04Z",
+      "text": "On 3 November 2026, 135,810 people read about the season, about 10× the usual median of 14,156 readers a day.",
       "cites": [
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:prior"
@@ -311,9 +311,11 @@
   "panels": [
     {
       "id": "credits",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:36Z",
       "title": "The credits",
       "note": "From the Wikipedia infobox (revision of 2026-11-04).",
+      "kind": "facts",
       "items": [
         {
           "label": "Hosts",
@@ -350,21 +352,21 @@
             "wiki:box:1383796648:episodes"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:25Z",
-      "until": "2026-11-03T00:00:36Z"
+      ]
     },
     {
       "id": "born-in",
-      "kind": "bars",
+      "t": "2026-11-03T00:00:37Z",
+      "until": "2026-11-03T00:00:54Z",
       "title": "Born in",
-      "unit": "people",
       "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
       "items": [
         {
           "label": "United States",
-          "value": 14,
           "text": "14",
+          "value": 14,
           "color": "#ff8fd0",
           "cites": [
             "wd:Q1189327:P19",
@@ -385,8 +387,8 @@
         },
         {
           "label": "Russia",
-          "value": 2,
           "text": "2",
+          "value": 2,
           "color": "#ffd38a",
           "cites": [
             "wd:Q21285529:P19",
@@ -395,8 +397,8 @@
         },
         {
           "label": "Australia",
-          "value": 1,
           "text": "1",
+          "value": 1,
           "color": "#ffd38a",
           "cites": [
             "wd:Q16200956:P19"
@@ -404,8 +406,8 @@
         },
         {
           "label": "Mexico",
-          "value": 1,
           "text": "1",
+          "value": 1,
           "color": "#ffd38a",
           "cites": [
             "wd:Q3247863:P19"
@@ -413,8 +415,8 @@
         },
         {
           "label": "Italy",
-          "value": 1,
           "text": "1",
+          "value": 1,
           "color": "#ffd38a",
           "cites": [
             "wd:Q4979416:P19"
@@ -422,23 +424,23 @@
         },
         {
           "label": "Ireland",
-          "value": 1,
           "text": "1",
+          "value": 1,
           "color": "#ffd38a",
           "cites": [
             "wd:Q81878423:P19"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:37Z",
-      "until": "2026-11-03T00:00:54Z"
+      ]
     },
     {
       "id": "readers",
-      "kind": "line",
+      "t": "2026-11-03T00:01:04Z",
+      "until": "2026-11-03T00:01:15Z",
       "title": "Readers on English Wikipedia",
-      "unit": "readers a day",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
       "series": [
         {
           "label": "Dancing with the Stars (American TV series) season 35",
@@ -699,13 +701,13 @@
           ]
         }
       ],
-      "mark": 29,
-      "t": "2026-11-03T00:01:04Z",
-      "until": "2026-11-03T00:01:15Z"
+      "mark": 29
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.002527
   }
 }

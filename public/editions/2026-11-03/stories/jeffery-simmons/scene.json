@@ -194,37 +194,37 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "Simmons and a 2028 fifth-round draft pick were traded to the Chicago Bears on October 29 in exchange for the Bears' 2027 and 2028 first-round selections and a 2027 fourth rounder.",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "Simmons and a 2028 fifth-round draft pick were traded to the Chicago Bears on October 29, in exchange for the Bears' 2027 and 2028 first-round selections and a 2027 fourth-rounder.",
       "cites": [
         "wiki:rev:1383781566:111"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "In his Bears debut, on Monday Night Football against the reigning champion Seattle Seahawks, Simmons recorded a sack, six tackles, and a pass deflection as Chicago won 34–17.",
+      "text": "In his Bears debut on Monday Night Football against the reigning champion Seattle Seahawks, Simmons recorded a sack, six tackles and a pass deflection as Chicago won 34–17.",
       "cites": [
         "wiki:rev:1383781566:112"
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "Jeffery Bernard Simmons Jr. (born July 28, 1997) is an American professional football defensive tackle for the Chicago Bears of the National Football League (NFL).",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Jeffery Bernard Simmons Jr., born July 28, 1997, is an American professional football defensive tackle for the Chicago Bears of the National Football League.",
       "cites": [
         "wiki:rev:1383781566:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
-      "text": "Jeffery Simmons was born on 28 July 1997 in LaSalle Parish.",
+      "t": "2026-11-03T00:00:25Z",
+      "text": "Simmons was born on 28 July 1997 in LaSalle Parish.",
       "cites": [
         "wd:Q45146310:P569",
         "wd:Q45146310:P19"
       ]
     },
     {
-      "t": "2026-11-03T00:00:32Z",
-      "text": "Played for 2 clubs: from Mississippi State Bulldogs football to Chicago Bears.",
+      "t": "2026-11-03T00:00:33Z",
+      "text": "Records list him as having played for 2 clubs, the Mississippi State Bulldogs football team and the Chicago Bears.",
       "cites": [
         "wd:Q45146310:P54:Q6879318",
         "wd:Q45146310:P54:Q205033"
@@ -232,25 +232,25 @@
     },
     {
       "t": "2026-11-03T00:00:37Z",
-      "text": "Educated at Noxubee County High School.",
+      "text": "He was educated at Noxubee County High School.",
       "cites": [
         "wd:Q45146310:P69:Q48977020"
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
-      "text": "111,232 people read about it on 3 November 2026: about 251× the usual.",
+      "t": "2026-11-03T00:00:52Z",
+      "text": "On 3 November 2026, the English article drew 111,232 readers, about 251 times its usual daily median of 444.",
       "cites": [
         "views:en:Jeffery_Simmons:2026-11-03",
         "views:en:Jeffery_Simmons:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:00Z",
-      "text": "Read in 9 languages; after English, most in German (722).",
+      "t": "2026-11-03T00:00:58Z",
+      "text": "The article was read in 9 languages, and after English the largest audience was on German Wikipedia, with 722 readers.",
       "cites": [
-        "views:en:Jeffery_Simmons:2026-11-03",
-        "views:de:Jeffery_Simmons:2026-11-03"
+        "views:de:Jeffery_Simmons:2026-11-03",
+        "views:en:Jeffery_Simmons:2026-11-03"
       ]
     }
   ],
@@ -286,9 +286,11 @@
   "panels": [
     {
       "id": "life",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:42Z",
       "title": "A life on record",
       "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
       "items": [
         {
           "label": "1997 born",
@@ -318,16 +320,16 @@
             "wd:Q45146310:P54:Q205033"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:42Z"
+      ]
     },
     {
       "id": "readers",
-      "kind": "line",
+      "t": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:09Z",
       "title": "Readers on English Wikipedia",
-      "unit": "readers a day",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
       "series": [
         {
           "label": "Jeffery Simmons",
@@ -459,21 +461,21 @@
           ]
         }
       ],
-      "mark": 29,
-      "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z"
+      "mark": 29
     },
     {
       "id": "languages",
-      "kind": "bars",
+      "t": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:09Z",
       "title": "Readers by language",
-      "unit": "readers",
       "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
       "items": [
         {
           "label": "English",
-          "value": 111232,
           "text": "111,232",
+          "value": 111232,
           "color": "#f5c2a0",
           "cites": [
             "views:en:Jeffery_Simmons:2026-11-03"
@@ -481,8 +483,8 @@
         },
         {
           "label": "German",
-          "value": 722,
           "text": "722",
+          "value": 722,
           "color": "#9ad9ff",
           "cites": [
             "views:de:Jeffery_Simmons:2026-11-03"
@@ -490,8 +492,8 @@
         },
         {
           "label": "Spanish",
-          "value": 614,
           "text": "614",
+          "value": 614,
           "color": "#9ad9ff",
           "cites": [
             "views:es:Jeffery_Simmons:2026-11-03"
@@ -499,8 +501,8 @@
         },
         {
           "label": "French",
-          "value": 210,
           "text": "210",
+          "value": 210,
           "color": "#9ad9ff",
           "cites": [
             "views:fr:Jeffery_Simmons:2026-11-03"
@@ -508,8 +510,8 @@
         },
         {
           "label": "Portuguese",
-          "value": 209,
           "text": "209",
+          "value": 209,
           "color": "#9ad9ff",
           "cites": [
             "views:pt:Jeffery_Simmons:2026-11-03"
@@ -517,8 +519,8 @@
         },
         {
           "label": "Japanese",
-          "value": 125,
           "text": "125",
+          "value": 125,
           "color": "#9ad9ff",
           "cites": [
             "views:ja:ジェフェリー・シモンズ:2026-11-03"
@@ -526,20 +528,20 @@
         },
         {
           "label": "Italian",
-          "value": 97,
           "text": "97",
+          "value": 97,
           "color": "#9ad9ff",
           "cites": [
             "views:it:Jeffery_Simmons:2026-11-03"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.003144
   }
 }

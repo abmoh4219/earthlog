@@ -223,8 +223,8 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "It is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "The film is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
       "cites": [
         "wiki:rev:1383739722:9"
       ]
@@ -237,15 +237,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar.",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Jailer 2 is a 2026 Indian Tamil-language action comedy written and directed by Nelson Dilipkumar.",
       "cites": [
         "wiki:rev:1383739722:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
-      "text": "Jailer 2 stars Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu among others; with music by Anirudh Ravichander.",
+      "t": "2026-11-03T00:00:25Z",
+      "text": "Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu star among others, and 2 more are listed, with music by Anirudh Ravichander.",
       "cites": [
         "wiki:box:1383739722:starring",
         "wiki:box:1383739722:music"
@@ -253,15 +253,15 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Released: 15 October 2026. Box office, as Wikipedia records it: ₹808 crore.",
+      "text": "The film was released on 15 October 2026, and as Wikipedia records it, its box office is ₹808 crore.",
       "cites": [
         "wiki:box:1383739722:released",
         "wiki:box:1383739722:box-office"
       ]
     },
     {
-      "t": "2026-11-03T00:00:42Z",
-      "text": "The article places the filming in Sathyam Cinemas, Royapettah, Attappadi, Kerala, Coimbatore, Kozhikode and 4 more places.",
+      "t": "2026-11-03T00:00:43Z",
+      "text": "The article places filming at Sathyam Cinemas in Royapettah, in Attappadi and Kerala, Coimbatore and Kozhikode, and 4 more places.",
       "cites": [
         "wiki:film:1383739722:1",
         "wiki:film:1383739722:3",
@@ -273,7 +273,7 @@
     },
     {
       "t": "2026-11-03T00:01:02Z",
-      "text": "8 of the people credited have a birthplace on record; all were born in India.",
+      "text": "8 of the credited people have a birthplace on record, and all were born in India.",
       "cites": [
         "wd:Q13564588:P19",
         "wd:Q159166:P19",
@@ -287,15 +287,15 @@
     },
     {
       "t": "2026-11-03T00:01:14Z",
-      "text": "96,128 people read about it on 3 November 2026: about 8× the usual.",
+      "text": "On 3 November 2026, 96,128 people read the English article, about 8× the usual.",
       "cites": [
         "views:en:Jailer_2:2026-11-03",
         "views:en:Jailer_2:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:23Z",
-      "text": "Read in 5 languages; after English, most in Tamil (210).",
+      "t": "2026-11-03T00:01:20Z",
+      "text": "The article was read in 5 languages that day, and after English, the most readers were in Tamil, with 210.",
       "cites": [
         "views:en:Jailer_2:2026-11-03",
         "views:ta:ஜெயிலர்_2:2026-11-03"
@@ -334,9 +334,11 @@
   "panels": [
     {
       "id": "credits",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:42Z",
       "title": "The credits",
       "note": "From the Wikipedia infobox (revision of 2026-11-04).",
+      "kind": "facts",
       "items": [
         {
           "label": "Directed by",
@@ -401,21 +403,21 @@
             "wiki:box:1383739722:box-office"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:25Z",
-      "until": "2026-11-03T00:00:42Z"
+      ]
     },
     {
       "id": "born-in",
-      "kind": "bars",
+      "t": "2026-11-03T00:01:02Z",
+      "until": "2026-11-03T00:01:13Z",
       "title": "Born in",
-      "unit": "people",
       "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
       "items": [
         {
           "label": "India",
-          "value": 8,
           "text": "8",
+          "value": 8,
           "color": "#ff8fd0",
           "cites": [
             "wd:Q13564588:P19",
@@ -428,16 +430,16 @@
             "wd:Q7387554:P19"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:02Z",
-      "until": "2026-11-03T00:01:13Z"
+      ]
     },
     {
       "id": "readers",
-      "kind": "line",
+      "t": "2026-11-03T00:01:14Z",
+      "until": "2026-11-03T00:01:31Z",
       "title": "Readers on English Wikipedia",
-      "unit": "readers a day",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
       "series": [
         {
           "label": "Jailer 2",
@@ -569,21 +571,21 @@
           ]
         }
       ],
-      "mark": 29,
-      "t": "2026-11-03T00:01:14Z",
-      "until": "2026-11-03T00:01:31Z"
+      "mark": 29
     },
     {
       "id": "languages",
-      "kind": "bars",
+      "t": "2026-11-03T00:01:14Z",
+      "until": "2026-11-03T00:01:31Z",
       "title": "Readers by language",
-      "unit": "readers",
       "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
       "items": [
         {
           "label": "English",
-          "value": 96128,
           "text": "96,128",
+          "value": 96128,
           "color": "#ff8fd0",
           "cites": [
             "views:en:Jailer_2:2026-11-03"
@@ -591,8 +593,8 @@
         },
         {
           "label": "Tamil",
-          "value": 210,
           "text": "210",
+          "value": 210,
           "color": "#9ad9ff",
           "cites": [
             "views:ta:ஜெயிலர்_2:2026-11-03"
@@ -600,8 +602,8 @@
         },
         {
           "label": "Bengali",
-          "value": 19,
           "text": "19",
+          "value": 19,
           "color": "#9ad9ff",
           "cites": [
             "views:bn:জেলার_২:2026-11-03"
@@ -609,8 +611,8 @@
         },
         {
           "label": "Malay",
-          "value": 12,
           "text": "12",
+          "value": 12,
           "color": "#9ad9ff",
           "cites": [
             "views:ms:Jailer_2:2026-11-03"
@@ -618,20 +620,20 @@
         },
         {
           "label": "Persian",
-          "value": 10,
           "text": "10",
+          "value": 10,
           "color": "#9ad9ff",
           "cites": [
             "views:fa:زندانبان_۲:2026-11-03"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:14Z",
-      "until": "2026-11-03T00:01:31Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.002639
   }
 }

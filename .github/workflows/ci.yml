@@ -30,7 +30,7 @@ jobs:
       # The site must never ship an API key (CLAUDE.md §3.4).
       - name: No secrets in the build output
         run: |
-          if grep -rEq "sk-ant-[A-Za-z0-9_-]{10,}" .next/static public/scenes; then
+          if grep -rEq "sk-ant-[A-Za-z0-9_-]{10,}" .next/static public/scenes public/editions; then
             echo "::error::Something that looks like an Anthropic API key is in the build output."
             exit 1
           fi

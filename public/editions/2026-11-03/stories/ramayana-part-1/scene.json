@@ -223,8 +223,8 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "On 3 November, special media screening took place across Mumbai.",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "A special media screening took place across Mumbai on 3 November.",
       "cites": [
         "wiki:rev:1383775061:108"
       ]
@@ -237,15 +237,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan.",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film, directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan.",
       "cites": [
         "wiki:rev:1383775061:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
-      "text": "Ramayana: Part 1 stars Ranbir Kapoor, Yash, Sai Pallavi and Sunny Deol among others; with music by Hans Zimmer and A. R. Rahman.",
+      "t": "2026-11-03T00:00:25Z",
+      "text": "Ramayana: Part 1 stars Ranbir Kapoor, Yash, Sai Pallavi and Sunny Deol, among others, with music by Hans Zimmer and A. R. Rahman.",
       "cites": [
         "wiki:box:1383775061:starring",
         "wiki:box:1383775061:music"
@@ -253,21 +253,21 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Released: 27 October 2026 (Academy Museum), 5 November 2026 (worldwide).",
+      "text": "It was released on 27 October 2026 at the Academy Museum, and on 5 November 2026 worldwide.",
       "cites": [
         "wiki:box:1383775061:released"
       ]
     },
     {
-      "t": "2026-11-03T00:00:42Z",
-      "text": "On 30 April, the second schedule commenced in Mumbai.",
+      "t": "2026-11-03T00:00:43Z",
+      "text": "The second schedule commenced in Mumbai on 30 April.",
       "cites": [
         "wiki:film:1383775061:6"
       ]
     },
     {
-      "t": "2026-11-03T00:00:52Z",
-      "text": "The article places the filming in Film City, Ayodhya and Mumbai.",
+      "t": "2026-11-03T00:00:51Z",
+      "text": "Filming took place in Film City, Ayodhya and Mumbai, as the article records.",
       "cites": [
         "wiki:film:1383775061:1",
         "wiki:film:1383775061:2",
@@ -276,7 +276,7 @@
     },
     {
       "t": "2026-11-03T00:01:01Z",
-      "text": "6 of the people credited have a birthplace on record; 5 were born in India.",
+      "text": "6 of the credited people have a birthplace on record; 5 were born in India.",
       "cites": [
         "wd:Q108560:P19",
         "wd:Q16908467:P19",
@@ -287,23 +287,23 @@
       ]
     },
     {
-      "t": "2026-11-03T00:01:10Z",
-      "text": "Born further afield: Hans Zimmer in Frankfurt, Germany.",
+      "t": "2026-11-03T00:01:09Z",
+      "text": "Hans Zimmer was born further afield, in Frankfurt, Germany.",
       "cites": [
         "wd:Q76364:P19"
       ]
     },
     {
       "t": "2026-11-03T00:01:19Z",
-      "text": "72,890 people read about it on 3 November 2026: about 10× the usual.",
+      "text": "On 3 November 2026, 72,890 people read the English article, about 10× the usual daily figure of 7,342.",
       "cites": [
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:en:Ramayana:_Part_1:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:28Z",
-      "text": "Read in 10 languages; after English, most in Hindi (2,972).",
+      "t": "2026-11-03T00:01:25Z",
+      "text": "The article was read in 10 languages, and after English, Hindi had the most readers with 2,972.",
       "cites": [
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:hi:रामायणम्_(2026_फिल्म):2026-11-03"
@@ -342,9 +342,11 @@
   "panels": [
     {
       "id": "credits",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:42Z",
       "title": "The credits",
       "note": "From the Wikipedia infobox (revision of 2026-11-04).",
+      "kind": "facts",
       "items": [
         {
           "label": "Directed by",
@@ -409,21 +411,21 @@
             "wiki:box:1383775061:budget"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:25Z",
-      "until": "2026-11-03T00:00:42Z"
+      ]
     },
     {
       "id": "born-in",
-      "kind": "bars",
+      "t": "2026-11-03T00:01:02Z",
+      "until": "2026-11-03T00:01:18Z",
       "title": "Born in",
-      "unit": "people",
       "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
       "items": [
         {
           "label": "India",
-          "value": 5,
           "text": "5",
+          "value": 5,
           "color": "#ff8fd0",
           "cites": [
             "wd:Q108560:P19",
@@ -435,23 +437,23 @@
         },
         {
           "label": "Germany",
-          "value": 1,
           "text": "1",
+          "value": 1,
           "color": "#ffd38a",
           "cites": [
             "wd:Q76364:P19"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:02Z",
-      "until": "2026-11-03T00:01:18Z"
+      ]
     },
     {
       "id": "readers",
-      "kind": "line",
+      "t": "2026-11-03T00:01:20Z",
+      "until": "2026-11-03T00:01:36Z",
       "title": "Readers on English Wikipedia",
-      "unit": "readers a day",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
       "series": [
         {
           "label": "Ramayana: Part 1",
@@ -583,21 +585,21 @@
           ]
         }
       ],
-      "mark": 29,
-      "t": "2026-11-03T00:01:20Z",
-      "until": "2026-11-03T00:01:36Z"
+      "mark": 29
     },
     {
       "id": "languages",
-      "kind": "bars",
+      "t": "2026-11-03T00:01:20Z",
+      "until": "2026-11-03T00:01:36Z",
       "title": "Readers by language",
-      "unit": "readers",
       "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
       "items": [
         {
           "label": "English",
-          "value": 72890,
           "text": "72,890",
+          "value": 72890,
           "color": "#ff8fd0",
           "cites": [
             "views:en:Ramayana:_Part_1:2026-11-03"
@@ -605,8 +607,8 @@
         },
         {
           "label": "Hindi",
-          "value": 2972,
           "text": "2,972",
+          "value": 2972,
           "color": "#9ad9ff",
           "cites": [
             "views:hi:रामायणम्_(2026_फिल्म):2026-11-03"
@@ -614,8 +616,8 @@
         },
         {
           "label": "German",
-          "value": 343,
           "text": "343",
+          "value": 343,
           "color": "#9ad9ff",
           "cites": [
             "views:de:Ramayana:_Rise_of_a_Legend:2026-11-03"
@@ -623,8 +625,8 @@
         },
         {
           "label": "French",
-          "value": 322,
           "text": "322",
+          "value": 322,
           "color": "#9ad9ff",
           "cites": [
             "views:fr:Ramayana_:_L'Avènement_d'une_légende:2026-11-03"
@@ -632,8 +634,8 @@
         },
         {
           "label": "Chinese",
-          "value": 125,
           "text": "125",
+          "value": 125,
           "color": "#9ad9ff",
           "cites": [
             "views:zh:羅摩衍那：傳奇崛起:2026-11-03"
@@ -641,8 +643,8 @@
         },
         {
           "label": "Telugu",
-          "value": 72,
           "text": "72",
+          "value": 72,
           "color": "#9ad9ff",
           "cites": [
             "views:te:రామాయణం_(2026_సినిమా):2026-11-03"
@@ -650,20 +652,20 @@
         },
         {
           "label": "Bengali",
-          "value": 37,
           "text": "37",
+          "value": 37,
           "color": "#9ad9ff",
           "cites": [
             "views:bn:রামায়ণ:_পার্ট_ওয়ান:2026-11-03"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:20Z",
-      "until": "2026-11-03T00:01:36Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.002665
   }
 }

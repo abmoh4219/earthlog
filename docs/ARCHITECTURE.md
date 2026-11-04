@@ -178,12 +178,13 @@ A scene is **rejected** if:
   - picks key moments from the evidence with simple rules: the mainshock, the largest aftershock, the steepest outage drop and recovery, peak attention, the night comparison;
   - places keyframes (wide establishing shot → dive to the epicentre → pull back to the region);
   - fills narration templates with real values and citations.
-- **Claude mode** (`--ai`):
-  - sends the event definition plus a compact evidence digest;
-  - asks for a scene as **structured JSON**;
-  - validates it, retrying up to 2× with the validator's errors, then falls back to the template;
-  - logs model, tokens and cost into `generatedBy`;
-  - has a hard cost ceiling per run.
+- **Claude mode** (`pnpm direct <date> [slug] --ai [--max-usd=0.25]`, story films):
+  - runs after `pnpm stories`, on the lens's template film: one request per story (Claude Haiku 5.5, low effort, structured output, cached system prompt);
+  - per chapter it sends the template captions and only the evidence that chapter cites; Claude rewrites the captions and judges whether the lens fits;
+  - `scripts/director/claude.ts` (pure, tested on recorded inputs) checks every chapter: 1–3 captions, each cited, only that chapter's evidence, every number found in the cited evidence or the template, no number the template said dropped, no coordinates read out; failures go back to Claude with the reasons (up to 2 retries), then that chapter keeps the template;
+  - the whole scene still passes `validateBundle` before it is written; cost goes into `generatedBy.costUsd` and is printed per story and per run; past `--max-usd` the remaining films stay template;
+  - no key, an expired key or any API error: the template stays, nothing breaks;
+  - the player labels these films "AI-written narration, every sentence checked against cited data".
 - **Claude never sees or creates data.** It only chooses, orders and phrases facts that are already in `evidence.json`.
 
 ## 6. Folder map

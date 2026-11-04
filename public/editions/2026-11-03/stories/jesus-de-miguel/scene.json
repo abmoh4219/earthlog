@@ -248,28 +248,28 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:00Z",
-      "text": "In association football, CD Tenerife striker Jesús de Miguel dies following an in-game collision with FC Andorra goalkeeper Jesús Owono the previous day.",
+      "t": "2026-11-03T00:00:01Z",
+      "text": "In association football, CD Tenerife striker Jesús de Miguel died after an in-game collision with FC Andorra goalkeeper Jesús Owono the previous day.",
       "cites": [
         "wiki:2026-11-03:12"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono which caused him to go into cardiac arrest.",
+      "text": "On 2 November 2026, according to the Wikipedia article, de Miguel suffered a blunt cardiac injury in the collision, which caused him to go into cardiac arrest.",
       "cites": [
         "wiki:rev:1383776690:26"
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
-      "text": "Jesús de Miguel Alameda (21 September 1996 – 3 November 2026) was a Spanish professional footballer who played as a striker.",
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Jesús de Miguel Alameda, born 21 September 1996 and died 3 November 2026, was a Spanish professional footballer who played as a striker.",
       "cites": [
         "wiki:rev:1383776690:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:24Z",
+      "t": "2026-11-03T00:00:25Z",
       "text": "Jesús de Miguel Alameda was born on 21 September 1996 in Madrid.",
       "cites": [
         "wd:Q116992476:P569",
@@ -277,22 +277,16 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:32Z",
-      "text": "Played for 8 clubs from 2015 to 2026: from CD Leganés B to C.D. Tenerife.",
+      "t": "2026-11-03T00:00:33Z",
+      "text": "Between 2015 and 2026 he played for 8 clubs, starting with CD Leganés B and ending with C.D. Tenerife.",
       "cites": [
         "wd:Q116992476:P54:Q9196665",
-        "wd:Q116992476:P54:Q9008987",
-        "wd:Q116992476:P54:Q108708",
-        "wd:Q116992476:P54:Q4651246",
-        "wd:Q116992476:P54:Q840620",
-        "wd:Q116992476:P54:Q20278773",
-        "wd:Q116992476:P54:Q743557",
         "wd:Q116992476:P54:Q216661"
       ]
     },
     {
-      "t": "2026-11-03T00:00:42Z",
-      "text": "Jesús de Miguel Alameda died on 3 November 2026 in Hospital Universitario Nuestra Señora de Candelaria, aged 30.",
+      "t": "2026-11-03T00:00:43Z",
+      "text": "Jesús de Miguel Alameda died on 3 November 2026 at Hospital Universitario Nuestra Señora de Candelaria, aged 30.",
       "cites": [
         "wd:Q116992476:P570",
         "wd:Q116992476:P20",
@@ -300,32 +294,44 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:50Z",
-      "text": "Readers also turned to Jesús Owono (297,789), CD Tenerife (70,752).",
+      "t": "2026-11-03T00:00:51Z",
+      "text": "Readers also turned to the article on Jesús Owono, which had 297,789 readers on 3 November 2026.",
       "cites": [
-        "views:en:Jesús_Owono:2026-11-03",
+        "views:en:Jesús_Owono:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:55Z",
+      "text": "The article on CD Tenerife had 70,752 readers on the same day.",
+      "cites": [
         "views:en:CD_Tenerife:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:00:59Z",
-      "text": "585,060 people read about it on 3 November 2026. In the weeks before, almost nobody did: a median of 4 a day.",
+      "t": "2026-11-03T00:01:00Z",
+      "text": "585,060 people read about it on 3 November 2026.",
       "cites": [
-        "views:en:Jesús_de_Miguel:2026-11-03",
+        "views:en:Jesús_de_Miguel:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:05Z",
+      "text": "In the weeks before, the article was read a median of 4 times a day.",
+      "cites": [
         "views:en:Jesús_de_Miguel:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:08Z",
-      "text": "Read in 8 languages; after English, most in Spanish (367,049).",
+      "t": "2026-11-03T00:01:10Z",
+      "text": "The article was read in 8 languages, and after English the most readers were in Spanish, with 367,049.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-03",
         "views:es:Jesús_de_Miguel_Alameda:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:01:17Z",
-      "text": "Reported by CNN.",
+      "t": "2026-11-03T00:01:18Z",
+      "text": "The report was carried by CNN.",
       "cites": [
         "wiki:2026-11-03:12"
       ]
@@ -371,9 +377,11 @@
   "panels": [
     {
       "id": "life",
-      "kind": "facts",
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:42Z",
       "title": "A life on record",
       "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
       "items": [
         {
           "label": "1996 born",
@@ -438,16 +446,16 @@
             "wd:Q116992476:P54:Q216661"
           ]
         }
-      ],
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:42Z"
+      ]
     },
     {
       "id": "readers",
-      "kind": "line",
+      "t": "2026-11-03T00:01:00Z",
+      "until": "2026-11-03T00:01:17Z",
       "title": "Readers on English Wikipedia",
-      "unit": "readers a day",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
       "series": [
         {
           "label": "Jesús de Miguel",
@@ -837,21 +845,21 @@
           ]
         }
       ],
-      "mark": 29,
-      "t": "2026-11-03T00:01:00Z",
-      "until": "2026-11-03T00:01:17Z"
+      "mark": 29
     },
     {
       "id": "languages",
-      "kind": "bars",
+      "t": "2026-11-03T00:01:00Z",
+      "until": "2026-11-03T00:01:17Z",
       "title": "Readers by language",
-      "unit": "readers",
       "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
       "items": [
         {
           "label": "English",
-          "value": 585060,
           "text": "585,060",
+          "value": 585060,
           "color": "#f5c2a0",
           "cites": [
             "views:en:Jesús_de_Miguel:2026-11-03"
@@ -859,8 +867,8 @@
         },
         {
           "label": "Spanish",
-          "value": 367049,
           "text": "367,049",
+          "value": 367049,
           "color": "#9ad9ff",
           "cites": [
             "views:es:Jesús_de_Miguel_Alameda:2026-11-03"
@@ -868,8 +876,8 @@
         },
         {
           "label": "German",
-          "value": 58126,
           "text": "58,126",
+          "value": 58126,
           "color": "#9ad9ff",
           "cites": [
             "views:de:Jesús_de_Miguel:2026-11-03"
@@ -877,8 +885,8 @@
         },
         {
           "label": "Arabic",
-          "value": 29800,
           "text": "29,800",
+          "value": 29800,
           "color": "#9ad9ff",
           "cites": [
             "views:ar:خيسوس_دي_ميغيل:2026-11-03"
@@ -886,8 +894,8 @@
         },
         {
           "label": "French",
-          "value": 9682,
           "text": "9,682",
+          "value": 9682,
           "color": "#9ad9ff",
           "cites": [
             "views:fr:Jesús_de_Miguel:2026-11-03"
@@ -895,8 +903,8 @@
         },
         {
           "label": "Russian",
-          "value": 7680,
           "text": "7,680",
+          "value": 7680,
           "color": "#9ad9ff",
           "cites": [
             "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-03"
@@ -904,22 +912,22 @@
         },
         {
           "label": "Persian",
-          "value": 6538,
           "text": "6,538",
+          "value": 6538,
           "color": "#9ad9ff",
           "cites": [
             "views:fa:خسوس_د_میگل:2026-11-03"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:00Z",
-      "until": "2026-11-03T00:01:17Z"
+      ]
     },
     {
       "id": "sources",
-      "kind": "facts",
+      "t": "2026-11-03T00:01:18Z",
+      "until": "2026-11-03T00:01:25Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
       "items": [
         {
           "label": "CNN",
@@ -929,13 +937,13 @@
             "wiki:2026-11-03:12"
           ]
         }
-      ],
-      "t": "2026-11-03T00:01:18Z",
-      "until": "2026-11-03T00:01:25Z"
+      ]
     }
   ],
   "generatedBy": {
-    "method": "template",
-    "at": "2026-11-04T23:14:52Z"
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-04T23:28:45Z",
+    "costUsd": 0.002825
   }
 }

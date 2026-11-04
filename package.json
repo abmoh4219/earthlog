@@ -24,9 +24,11 @@
     "bake": "node scripts/bake.ts",
     "validate:scenes": "node scripts/validate-scenes.ts",
     "edition": "node scripts/edition.ts",
-    "stories": "node scripts/stories.ts"
+    "stories": "node scripts/stories.ts",
+    "direct": "node scripts/direct.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0",
     "cesium": "^1.147.0",
     "clsx": "^2.1.1",
     "geist": "^1.9.0",
