@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:40Z"
+    "end": "2026-11-03T00:01:12Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -27,9 +27,10 @@
       "from": "2026-11-03T00:00:24Z"
     },
     {
-      "kind": "regions",
-      "file": "data/regions.json",
-      "from": "2026-11-03T00:00:24Z"
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-03T00:00:50Z"
     }
   ],
   "camera": [
@@ -70,42 +71,96 @@
     },
     {
       "t": "2026-11-03T00:00:26Z",
-      "lon": 151.2117,
-      "lat": -34.5556,
-      "range": 1100000,
-      "heading": 12,
-      "pitch": -42,
-      "move": "glide"
+      "lon": 151.2,
+      "lat": -34.666666666667,
+      "range": 800000,
+      "heading": 16,
+      "pitch": -36,
+      "move": "flight"
     },
     {
       "t": "2026-11-03T00:00:29Z",
-      "lon": 151.2117,
-      "lat": -34.5556,
-      "range": 996092.3651951158,
-      "heading": 3.0999999999999996,
-      "pitch": -39.5,
+      "lon": 151.2,
+      "lat": -34.666666666667,
+      "range": 724430.8110509933,
+      "heading": 7.1,
+      "pitch": -33.5,
       "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:31Z",
-      "lon": 151.2117,
-      "lat": -34.5556,
-      "range": 902000,
-      "heading": -5.800000000000001,
-      "pitch": -37,
+      "lon": 151.2,
+      "lat": -34.666666666667,
+      "range": 656000,
+      "heading": -1.8000000000000007,
+      "pitch": -31,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:34Z",
+      "t": "2026-11-03T00:00:35Z",
+      "lon": 134.05,
+      "lat": -32.129999999999995,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:42Z",
+      "lon": 134.05,
+      "lat": -32.129999999999995,
+      "range": 4346584.866305959,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:49Z",
+      "lon": 134.05,
+      "lat": -32.129999999999995,
+      "range": 3935999.9999999995,
+      "heading": 16,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
+      "lon": 131.50240000000002,
+      "lat": -17.842399999999998,
+      "range": 4449760.922664498,
+      "heading": -20.293086057300243,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:58Z",
+      "lon": 131.50240000000002,
+      "lat": -17.842399999999998,
+      "range": 4029429.892736073,
+      "heading": -33.993086057300246,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:03Z",
+      "lon": 131.50240000000002,
+      "lat": -17.842399999999998,
+      "range": 3648803.956584888,
+      "heading": -47.69308605730025,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:07Z",
       "lon": 151.2117,
       "lat": -34.5556,
       "range": 1430000,
       "heading": -10,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:35Z",
+      "t": "2026-11-03T00:01:08Z",
       "lon": 151.2117,
       "lat": -34.5556,
       "range": 1294920.0747536505,
@@ -114,7 +169,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:36Z",
+      "t": "2026-11-03T00:01:09Z",
       "lon": 151.2117,
       "lat": -34.5556,
       "range": 1172600,
@@ -123,7 +178,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:40Z",
+      "t": "2026-11-03T00:01:12Z",
       "lon": 126.21170000000006,
       "lat": -34.5556,
       "range": 14000000,
@@ -148,7 +203,7 @@
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On November 3, oil prices fell following an announcement by U.S.",
+      "text": "On November 3, oil prices fell following an announcement by U.S. President Donald Trump that the United States would no longer provide billions of dollars in annual military support to Israel.",
       "cites": [
         "wiki:rev:1383586478:48"
       ]
@@ -162,13 +217,36 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
-      "text": "On the map: Reserve Bank of Australia, Australia, where the reports place it.",
+      "text": "The decision came from the Reserve Bank of Australia, in Sydney.",
       "cites": [
+        "wd:Q1506724:P159",
         "wiki:2026-11-03:4"
       ]
     },
     {
       "t": "2026-11-03T00:00:32Z",
+      "text": "Inflation in Australia was 2.9% in 2025, down from 6.6% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:AU"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:41Z",
+      "text": "The economy grew 1.4% in 2025; unemployment stood at 4.1%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:AU",
+        "wb:SL.UEM.TOTL.ZS:AU"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:50Z",
+      "text": "Across East Asia & Pacific, Australia's 2.9% compares with a median of 2.1%; the highest is Mongolia at 8.6%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:04Z",
       "text": "Reported by AFP via France 24.",
       "cites": [
         "wiki:2026-11-03:4"
@@ -183,14 +261,362 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
-      "title": "Where"
+      "title": "Who decided"
     },
     {
       "t": "2026-11-03T00:00:32Z",
+      "title": "Australia in numbers"
+    },
+    {
+      "t": "2026-11-03T00:00:50Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-03T00:01:04Z",
       "title": "Reported by"
     }
   ],
   "panels": [
+    {
+      "id": "inflation",
+      "kind": "line",
+      "title": "Inflation, consumer prices, Australia",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Australia",
+          "color": "#ffd95e",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.9183370211222
+            },
+            {
+              "x": "2011",
+              "y": 3.30384784681081
+            },
+            {
+              "x": "2012",
+              "y": 1.76278299052228
+            },
+            {
+              "x": "2013",
+              "y": 2.44988248109259
+            },
+            {
+              "x": "2014",
+              "y": 2.48792932080492
+            },
+            {
+              "x": "2015",
+              "y": 1.50836803138463
+            },
+            {
+              "x": "2016",
+              "y": 1.27699365720306
+            },
+            {
+              "x": "2017",
+              "y": 1.94864309065653
+            },
+            {
+              "x": "2018",
+              "y": 1.91140002818579
+            },
+            {
+              "x": "2019",
+              "y": 1.610770929127
+            },
+            {
+              "x": "2020",
+              "y": 0.846900734607273
+            },
+            {
+              "x": "2021",
+              "y": 2.86391284709318
+            },
+            {
+              "x": "2022",
+              "y": 6.59409658717841
+            },
+            {
+              "x": "2023",
+              "y": 5.59701792296707
+            },
+            {
+              "x": "2024",
+              "y": 3.16656665428797
+            },
+            {
+              "x": "2025",
+              "y": 2.87403791660173
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AU"
+          ]
+        }
+      ],
+      "mark": 15,
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:50Z"
+    },
+    {
+      "id": "growth",
+      "kind": "line",
+      "title": "GDP growth, Australia",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Australia",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.21004795300735
+            },
+            {
+              "x": "2011",
+              "y": 2.39473494330615
+            },
+            {
+              "x": "2012",
+              "y": 3.95247138119184
+            },
+            {
+              "x": "2013",
+              "y": 2.65445302592404
+            },
+            {
+              "x": "2014",
+              "y": 2.60118978187332
+            },
+            {
+              "x": "2015",
+              "y": 2.16434780647852
+            },
+            {
+              "x": "2016",
+              "y": 2.75564065529868
+            },
+            {
+              "x": "2017",
+              "y": 2.29331030192918
+            },
+            {
+              "x": "2018",
+              "y": 2.87417039499501
+            },
+            {
+              "x": "2019",
+              "y": 2.19401703622717
+            },
+            {
+              "x": "2020",
+              "y": -0.133531904304775
+            },
+            {
+              "x": "2021",
+              "y": 2.00694844335034
+            },
+            {
+              "x": "2022",
+              "y": 4.25304559238732
+            },
+            {
+              "x": "2023",
+              "y": 3.58382100798981
+            },
+            {
+              "x": "2024",
+              "y": 1.37340773365975
+            },
+            {
+              "x": "2025",
+              "y": 1.35039785076631
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:AU"
+          ]
+        }
+      ],
+      "mark": 15,
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:50Z"
+    },
+    {
+      "id": "unemployment",
+      "kind": "line",
+      "title": "Unemployment, Australia",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Australia",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 5.214
+            },
+            {
+              "x": "2011",
+              "y": 5.083
+            },
+            {
+              "x": "2012",
+              "y": 5.225
+            },
+            {
+              "x": "2013",
+              "y": 5.663
+            },
+            {
+              "x": "2014",
+              "y": 6.078
+            },
+            {
+              "x": "2015",
+              "y": 6.055
+            },
+            {
+              "x": "2016",
+              "y": 5.711
+            },
+            {
+              "x": "2017",
+              "y": 5.592
+            },
+            {
+              "x": "2018",
+              "y": 5.345
+            },
+            {
+              "x": "2019",
+              "y": 5.143
+            },
+            {
+              "x": "2020",
+              "y": 6.394
+            },
+            {
+              "x": "2021",
+              "y": 5.022
+            },
+            {
+              "x": "2022",
+              "y": 3.728
+            },
+            {
+              "x": "2023",
+              "y": 3.668
+            },
+            {
+              "x": "2024",
+              "y": 3.942
+            },
+            {
+              "x": "2025",
+              "y": 4.09
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:AU"
+          ]
+        }
+      ],
+      "mark": 15,
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:50Z"
+    },
+    {
+      "id": "region",
+      "kind": "bars",
+      "title": "Inflation, East Asia & Pacific",
+      "unit": "%",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "items": [
+        {
+          "label": "Mongolia",
+          "value": 8.60536487369694,
+          "text": "8.6%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MN"
+          ]
+        },
+        {
+          "label": "Laos",
+          "value": 7.74226936553694,
+          "text": "7.7%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LA"
+          ]
+        },
+        {
+          "label": "Papua New Guinea",
+          "value": 4.42141364166485,
+          "text": "4.4%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PG"
+          ]
+        },
+        {
+          "label": "Solomon Islands",
+          "value": 3.36462189317824,
+          "text": "3.4%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SB"
+          ]
+        },
+        {
+          "label": "Vietnam",
+          "value": 3.30999314219739,
+          "text": "3.3%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:VN"
+          ]
+        },
+        {
+          "label": "Japan",
+          "value": 3.17253034260247,
+          "text": "3.2%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:JP"
+          ]
+        },
+        {
+          "label": "Australia",
+          "value": 2.87403791660173,
+          "text": "2.9%",
+          "color": "#ffd95e",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AU"
+          ]
+        },
+        {
+          "label": "New Zealand",
+          "value": 2.8397963180572,
+          "text": "2.8%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NZ"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.12309421458659,
+        "label": "median 2.1%"
+      },
+      "t": "2026-11-03T00:00:51Z",
+      "until": "2026-11-03T00:01:04Z"
+    },
     {
       "id": "sources",
       "kind": "facts",
@@ -206,12 +632,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:40Z"
+      "t": "2026-11-03T00:01:05Z",
+      "until": "2026-11-03T00:01:12Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:24:47Z"
+    "at": "2026-11-04T20:51:13Z"
   }
 }

@@ -48,7 +48,7 @@ export interface ChapterDraft {
 
 /** A layer's key and file: "regions-senate" → data/regions-senate.json. */
 export function layerKey(l: LayerData): string {
-  return l.kind === "regions" && l.name ? `${l.kind}-${l.name}` : l.kind;
+  return (l.kind === "regions" || l.kind === "columns") && l.name ? `${l.kind}-${l.name}` : l.kind;
 }
 
 export interface FilmInput {
@@ -175,7 +175,7 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     return {
       kind: l.kind,
       file: `data/${key}.json`,
-      ...(l.kind === "regions" && l.name ? { name: l.name } : {}),
+      ...((l.kind === "regions" || l.kind === "columns") && l.name ? { name: l.name } : {}),
       ...(from !== undefined ? { from: iso(from) } : {}),
       ...(until !== undefined ? { until: iso(until) } : {}),
     };

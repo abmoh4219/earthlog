@@ -56,6 +56,22 @@ export async function fetchRevision(title: string, before?: string): Promise<Rev
 const SKIP =
   /^(plot|synopsis|premise|cast|characters|episodes|track listing|discography|filmography|bibliography|references|notes|citations|sources|external links|further reading|see also|gallery|statistics|career statistics|honours|honors|awards and nominations)$/i;
 
+/** Abbreviations whose full stop does not end a sentence ("an announcement by U.S. officials"). */
+const ABBREV =
+  /(?:\b(?:[A-Z]\.){1,3}|\b(?:Mr|Mrs|Ms|Dr|St|Jr|Sr|No|Inc|Ltd|Co|Corp|vs|etc|e\.g|i\.e|approx|Gen|Gov|Sen|Rep|Lt|Col|Capt|Prof|Fr|Rev|Mt|Ft)\.)$/;
+
+/** Split prose into sentences, without breaking after abbreviations or initials. */
+export function splitSentences(text: string): string[] {
+  const parts = text.split(/(?<=[.!?])\s+(?=[A-Z"“(])/);
+  const out: string[] = [];
+  for (const part of parts) {
+    const last = out.at(-1);
+    if (last !== undefined && ABBREV.test(last)) out[out.length - 1] = `${last} ${part}`;
+    else out.push(part);
+  }
+  return out;
+}
+
 export interface Sentence {
   /** Section heading ("" for the lead). */
   section: string;
@@ -92,7 +108,7 @@ export function sentences(wikitext: string): Sentence[] {
       continue;
     }
     if (!line || /^[|{}!*#:;[]/.test(line) || SKIP.test(section)) continue;
-    for (const s of line.split(/(?<=[.!?])\s+(?=[A-Z"“(])/)) {
+    for (const s of splitSentences(line)) {
       const text = s
         .replace(/\(\s*[;,]?\s*\)/g, "")
         .replace(/\s+/g, " ")

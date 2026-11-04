@@ -227,11 +227,13 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 **Next for 3D: terrain.** Free elevation tiles (AWS Terrain Tiles) send no CORS header, so the browser can't read them. Plan: bake heights per story at build time and feed Cesium a custom heightmap provider, blending to sea level at the edges.
 
-## Phase 9 · Economy lens (about 2 h)
+## Phase 9 · Economy lens (about 2 h) ✅
 
 - The institution → its country → neighbours compared on a choropleth.
 - Panels: World Bank indicators (inflation, growth, rates) with the decision marked; the cited figure from the report.
 - Story: the Reserve Bank of Australia rate rise.
+
+**Done (2026-11-04):** Who decided (the institution among the story's links, at its headquarters) → the country in numbers (World Bank inflation, growth, unemployment since 2010) → The neighbourhood (the World Bank region as **3D columns** of inflation rising from each country, the camera standing behind the story's country and looking across them; a ranked panel with the regional median). New reusable layer: `columns`. Also: a camera-following key light so story globes read as spheres, sentences no longer split at "U.S.", "Dr." and the like.
 
 **Checkpoint 9:** `feat: economy lens`
 

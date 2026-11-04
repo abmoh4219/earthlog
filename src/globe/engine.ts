@@ -78,9 +78,18 @@ export async function createGlobe(
   // terminator. Story time (explainers) has no time of day, so the whole globe is lit
   // with the day's satellite image and no night is implied (ADR-0013).
   const storyTime = scene.time === "story";
-  globe.enableLighting = !storyTime;
+  // Story time: a studio key light that follows the camera from the upper left. The side we
+  // see is always lit (no terminator, so no time of day is implied), but the globe gets real
+  // shading toward its limb and reads as a sphere instead of a flat disc.
+  globe.enableLighting = true;
   globe.dynamicAtmosphereLighting = !storyTime;
   globe.dynamicAtmosphereLightingFromSun = !storyTime;
+  const keyLight = storyTime
+    ? new C.DirectionalLight({ direction: new C.Cartesian3(0, 0, -1), intensity: 2.2 })
+    : undefined;
+  if (keyLight) s.light = keyLight;
+  const lightDir = new C.Cartesian3();
+  const lightTmp = new C.Cartesian3();
   globe.showGroundAtmosphere = true;
   globe.baseColor = C.Color.BLACK;
   s.backgroundColor = C.Color.BLACK;
@@ -158,6 +167,14 @@ export async function createGlobe(
     widget.clock.currentTime = julian;
 
     nightLights.show = layers.nightLights && !storyTime;
+    if (keyLight) {
+      // Camera direction, nudged right and down: light from over the viewer's left shoulder.
+      C.Cartesian3.multiplyByScalar(s.camera.rightWC, 0.35, lightTmp);
+      C.Cartesian3.add(s.camera.directionWC, lightTmp, lightDir);
+      C.Cartesian3.multiplyByScalar(s.camera.upWC, -0.45, lightTmp);
+      C.Cartesian3.add(lightDir, lightTmp, lightDir);
+      C.Cartesian3.normalize(lightDir, keyLight.direction);
+    }
     eventDay.show = layers.eventDay;
     const beatIndex = activeBeatIndex(clock.t, scene.beats);
     if (beatIndex !== lastBeat) {

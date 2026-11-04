@@ -50,6 +50,7 @@ export const LayerKind = z.enum([
   "places",
   "arcs",
   "regions",
+  "columns",
 ]);
 
 export const LayerRef = z.object({
@@ -370,7 +371,34 @@ export const RegionsLayer = z.object({
   legend: z.array(z.object({ label: z.string(), color: z.string() })).default([]),
 });
 
+/**
+ * Values as glowing columns rising from the globe (a 3D bar chart on the map). Heights are
+ * proportional to |value| (the tallest is `maxHeight` metres); they grow when revealed.
+ */
+export const ColumnsLayer = z.object({
+  kind: z.literal("columns"),
+  name: z
+    .string()
+    .regex(/^[a-z0-9-]+$/)
+    .optional(),
+  unit: z.string(),
+  maxHeight: z.number().positive().default(900_000),
+  columns: z.array(
+    z.object({
+      id: z.string().min(1),
+      name: z.string(),
+      lon: z.number(),
+      lat: z.number(),
+      value: z.number(),
+      color: z.string(),
+      /** Show the label at the tip (the story's own country, the extremes). */
+      label: z.boolean().optional(),
+    }),
+  ),
+});
+
 export const LayerData = z.discriminatedUnion("kind", [
+  ColumnsLayer,
   SignalLayer,
   QuakeLayer,
   NewsLayer,
@@ -407,6 +435,7 @@ export type PanelItem = z.infer<typeof PanelItem>;
 export type PlacesLayer = z.infer<typeof PlacesLayer>;
 export type ArcsLayer = z.infer<typeof ArcsLayer>;
 export type RegionsLayer = z.infer<typeof RegionsLayer>;
+export type ColumnsLayer = z.infer<typeof ColumnsLayer>;
 export type NewsStory = z.infer<typeof NewsStory>;
 export type NewsLayer = z.infer<typeof NewsLayer>;
 export type Storm = z.infer<typeof Storm>;

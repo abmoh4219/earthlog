@@ -108,14 +108,14 @@ function PanelBody({ panel, evidence }: { panel: Panel; evidence: Map<string, Ev
     const max = Math.max(...panel.items.map((i) => i.value), panel.marker?.value ?? 0, 1);
     const markerAt = panel.marker ? (panel.marker.value / max) * 100 : undefined;
     return (
-      <ul className="relative mt-3 space-y-2">
+      <ul className={`relative mt-3 space-y-2 ${panel.marker ? "mb-4" : ""}`}>
         {markerAt !== undefined && panel.marker && (
           <li
             aria-hidden
             className="pointer-events-none absolute -top-1 bottom-0 z-10 w-px bg-frost/60"
             style={{ left: `${markerAt}%` }}
           >
-            <span className="absolute -top-3 -translate-x-1/2 font-mono text-[9px] whitespace-nowrap text-frost/70">
+            <span className="absolute -bottom-4 -translate-x-1/2 font-mono text-[9px] whitespace-nowrap text-frost/70">
               {panel.marker.label}
             </span>
           </li>

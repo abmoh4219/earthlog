@@ -112,3 +112,21 @@ describe("pickNews", () => {
     expect(contextIsTheEvent(found, DATE)).toBe(false);
   });
 });
+
+describe("splitSentences", () => {
+  it("does not break after abbreviations or initials", async () => {
+    const { splitSentences } = await import("../scripts/lenses/news-context.ts");
+    expect(
+      splitSentences(
+        "On November 3, oil prices fell following an announcement by U.S. President Smith. Markets rose.",
+      ),
+    ).toEqual([
+      "On November 3, oil prices fell following an announcement by U.S. President Smith.",
+      "Markets rose.",
+    ]);
+    expect(splitSentences("It was led by Dr. Jones. Then it ended.")).toEqual([
+      "It was led by Dr. Jones.",
+      "Then it ended.",
+    ]);
+  });
+});

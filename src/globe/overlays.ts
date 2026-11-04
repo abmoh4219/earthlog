@@ -413,6 +413,48 @@ export function createOverlays(
     return [{ index, from, until, fill, outline, colors, alpha: -1 }];
   });
 
+  // 10. Columns: values rising out of the globe as glowing beams, growing one after another
+  //     when revealed (scene clock), with a label at the tip of the highlighted ones.
+  const columnSets = layers.flatMap((l, index) => {
+    if (l.kind !== "columns" || l.columns.length === 0) return [];
+    const ref = refs[index];
+    const from = ref?.from ? ms(ref.from) : Number.NEGATIVE_INFINITY;
+    const until = ref?.until ? ms(ref.until) : Number.POSITIVE_INFINITY;
+    const lines = scene.primitives.add(new C.PolylineCollection());
+    const max = Math.max(...l.columns.map((c) => Math.abs(c.value)), 1e-9);
+    const items = l.columns.map((c, k) => {
+      const color = C.Color.fromCssColorString(c.color);
+      const height = (Math.abs(c.value) / max) * l.maxHeight;
+      const base = C.Cartesian3.fromDegrees(c.lon, c.lat, 0);
+      const line = lines.add({
+        positions: [base, C.Cartesian3.fromDegrees(c.lon, c.lat, 1)],
+        width: c.label ? 14 : 10,
+        material: C.Material.fromType("PolylineGlow", {
+          color: color.withAlpha(0.95),
+          glowPower: 0.28,
+          taperPower: 1,
+        }),
+        show: false,
+      });
+      const tip = c.label
+        ? labels.add({
+            position: C.Cartesian3.fromDegrees(c.lon, c.lat, height),
+            text: `${c.name.toUpperCase()}  ${c.value.toFixed(1)}${l.unit}`,
+            font: `600 13px ${font}`,
+            fillColor: C.Color.WHITE,
+            outlineColor: C.Color.BLACK.withAlpha(0.9),
+            outlineWidth: 3,
+            style: C.LabelStyle.FILL_AND_OUTLINE,
+            verticalOrigin: C.VerticalOrigin.BOTTOM,
+            pixelOffset: new C.Cartesian2(0, -8),
+            show: false,
+          })
+        : undefined;
+      return { c, line, tip, height, delay: k * 90, grown: -1 };
+    });
+    return [{ from, until, lines, items }];
+  });
+
   const scratch = new C.Color();
   const lastText = new Map<string, string>();
 
@@ -503,6 +545,25 @@ export function createOverlays(
         map.alpha = rv;
       }
 
+      for (const set of columnSets) {
+        const inside = t >= set.from && t < set.until;
+        for (const it of set.items) {
+          // Each column grows over 1.4 s, staggered, with an ease-out (fast then settling).
+          const since = set.from === Number.NEGATIVE_INFINITY ? 1e9 : t - set.from - it.delay;
+          const g = inside ? Math.min(1, Math.max(0, since / 1400)) : 0;
+          const eased = 1 - (1 - g) ** 3;
+          it.line.show = eased > 0;
+          if (it.tip) it.tip.show = eased >= 1 && showLabels;
+          if (eased > 0 && Math.abs(eased - it.grown) > 0.004) {
+            it.line.positions = [
+              C.Cartesian3.fromDegrees(it.c.lon, it.c.lat, 0),
+              C.Cartesian3.fromDegrees(it.c.lon, it.c.lat, Math.max(1, it.height * eased)),
+            ];
+            it.grown = eased;
+          }
+        }
+      }
+
       for (const m of stormMarks) {
         const at = stormAt(m.storm, t);
         m.eye.show = at !== null;
@@ -559,6 +620,7 @@ export function createOverlays(
         arcLines,
         beacons,
         ...regionMaps.flatMap((m) => [m.fill, m.outline]),
+        ...columnSets.map((c) => c.lines),
       ]) {
         if (p && !p.isDestroyed()) scene.primitives.remove(p);
       }
