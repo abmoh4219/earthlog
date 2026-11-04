@@ -12,6 +12,7 @@ import { fetchPortal, parsePortal } from "./bake/wikinews.ts";
 import { electionLens } from "./lenses/election/index.ts";
 import { layerKey } from "./lenses/film.ts";
 import { generalLens, type LensContext, type LensResult } from "./lenses/general.ts";
+import { organizationLens } from "./lenses/organization.ts";
 import { personLens } from "./lenses/person.ts";
 
 /** Which lens films which kind of story. Specialised lenses replace `general` phase by phase. */
@@ -24,7 +25,7 @@ const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
   economy: generalLens,
   science: generalLens,
   culture: generalLens,
-  organization: generalLens,
+  organization: organizationLens,
   person: personLens,
   general: generalLens,
 };

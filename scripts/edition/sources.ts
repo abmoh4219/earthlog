@@ -113,12 +113,17 @@ export interface WdEntity {
    * P582 (end time) and P585 (point in time).
    */
   dated?: Record<string, { item: string; start?: string; end?: string; at?: string }[]>;
+  /**
+   * Numbers with their date and unit, per property: e.g. P2139 (revenue) →
+   * [{ value: 4097860000, unit: "Q4917", at: "2007" }]. Unit "1" means a plain count.
+   */
+  series?: Record<string, { value: number; unit?: string; at?: string }[]>;
 }
 
 const ItemValue = z.object({ id: z.string() });
 const CoordValue = z.object({ latitude: z.number(), longitude: z.number() });
 const TimeValue = z.object({ time: z.string(), precision: z.number().optional() });
-const QuantityValue = z.object({ amount: z.string() });
+const QuantityValue = z.object({ amount: z.string(), unit: z.string().optional() });
 
 /** Wikidata time → "YYYY-MM-DD", or "YYYY" at year precision (9) and coarser. */
 function wdDate(time: string, precision?: number): string {
@@ -138,6 +143,7 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
     const quantities: Record<string, number[]> = {};
     const strings: Record<string, string[]> = {};
     const dated: Record<string, { item: string; start?: string; end?: string; at?: string }[]> = {};
+    const series: Record<string, { value: number; unit?: string; at?: string }[]> = {};
     for (const [prop, claims] of Object.entries(e.claims ?? {})) {
       for (const c of claims) {
         const v = c.mainsnak.datavalue?.value;
@@ -174,7 +180,15 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
         }
         const qv = QuantityValue.safeParse(v);
         if (qv.success && Number.isFinite(Number(qv.data.amount))) {
-          quantities[prop] = [...(quantities[prop] ?? []), Number(qv.data.amount)];
+          const value = Number(qv.data.amount);
+          quantities[prop] = [...(quantities[prop] ?? []), value];
+          const unit = qv.data.unit?.split("/").at(-1);
+          const t = TimeValue.safeParse(c.qualifiers?.P585?.[0]?.datavalue?.value);
+          const at = t.success ? wdDate(t.data.time, t.data.precision) : undefined;
+          series[prop] = [
+            ...(series[prop] ?? []),
+            { value, ...(unit ? { unit } : {}), ...(at ? { at } : {}) },
+          ];
         }
       }
     }
@@ -190,6 +204,7 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
       ...(Object.keys(quantities).length ? { quantities } : {}),
       ...(Object.keys(strings).length ? { strings } : {}),
       ...(Object.keys(dated).length ? { dated } : {}),
+      ...(Object.keys(series).length ? { series } : {}),
     });
   }
   return out;

@@ -2,6 +2,7 @@
 // pulses. Built once with batched primitives (not thousands of Entities), then restyled
 // every frame from the player clock through the pure functions in src/scene/layers.ts.
 import type * as CesiumNS from "cesium";
+import { countryName } from "@/scene/geo";
 import { heldSample, quakeLook, smoothRatio, stormAt, tintAlpha } from "@/scene/layers";
 import { categoryByKey } from "@/scene/news";
 import type {
@@ -114,7 +115,7 @@ export function createOverlays(
     const isTracked = tracked.has(c.code);
     const label = labels.add({
       position: C.Cartesian3.fromDegrees(c.label[0], c.label[1], 20_000),
-      text: c.name.toUpperCase(),
+      text: countryName(c).toUpperCase(),
       font: `${isTracked ? 600 : 500} ${isTracked ? 15 : 11}px ${font}`,
       fillColor: isTracked ? C.Color.WHITE : ice.withAlpha(0.6),
       outlineColor: C.Color.BLACK.withAlpha(0.85),

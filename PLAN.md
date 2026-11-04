@@ -211,11 +211,13 @@
 
 Abdelah: films said *what* something is, not *why* it was in the news, and jumped to reader counts. Every film now opens with **What happened**: the reported news, or what the article says happened around the day (dated or newly added sentences, compared across revisions), in time order, then who or what it is. Readers moved to the end; the edition page shows each story's headline.
 
-## Phase 8 · Organization and tech lens (about 3 h)
+## Phase 8 · Organization and tech lens (about 3 h) ✅
 
 - Fly to the headquarters (Wikidata P159 → P625); arcs to the places the story names.
 - Panels: what's on record (founded, staff, industry, leadership), revenue over time (labelled "as recorded in Wikidata"; outliers flagged, not hidden), the reader spike, tech-community heat (Hacker News counts) for tech stories.
 - Stories: the day's company and tech stories (e.g. the .xyz domain, Elizabeth Holmes).
+
+**Done (2026-11-04):** chapters Headquarters (a website or project follows its operator) → On record (founded, founders, CEO, chair, industry, owner, parent, exchange, staff, website link) → The numbers (revenue and net income in the claim's currency, staff, each by year; values inconsistent with the rest are flagged, not charted) → Footprint (subsidiaries and holdings arcing out from headquarters) → Tech talk (Hacker News stories a day and the most discussed one, under the name and the opening's short name, e.g. "AO3"). Tried on Nvidia (19 years of revenue), OpenAI (3 inconsistent values flagged) and Archive of Our Own (its outage spike on Hacker News). Month-only dates ("In October 2026") now count as news.
 
 **Checkpoint 8:** `feat: organization and tech lens`
 

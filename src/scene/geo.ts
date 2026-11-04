@@ -37,3 +37,13 @@ export function nearestCountry(
   }
   return best;
 }
+
+/**
+ * How to write a country in a sentence: the shortest of its names that isn't abbreviated.
+ * Natural Earth's NAME is "United States of America" or "Dem. Rep. Congo"; people write
+ * "United States" and "Democratic Republic of the Congo".
+ */
+export function countryName(c: Pick<Country, "name" | "aliases">): string {
+  const options = [c.name, ...(c.aliases ?? [])].filter((n) => !n.includes("."));
+  return options.sort((a, b) => a.length - b.length)[0] ?? c.name;
+}

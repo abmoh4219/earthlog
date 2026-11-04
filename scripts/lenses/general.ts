@@ -4,6 +4,7 @@
 // person, …) replace or extend these chapters in later phases.
 import { z } from "zod";
 import { type EditionStory, LENS_INFO } from "../../src/scene/edition.ts";
+import { countryName } from "../../src/scene/geo.ts";
 import type { Country, Evidence, LayerData, Panel, Scene, Source } from "../../src/scene/schema.ts";
 import { fetchJson } from "../bake/lib.ts";
 import { fetchCoordinates, type RawStory } from "../bake/wikinews.ts";
@@ -283,12 +284,13 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
   // 2. Where.
   if (story.place) {
     const placeId = story.place.evidence ? use(story.place.evidence) : undefined;
-    const countryName = story.place.country
-      ? countries.find((c) => c.code === story.place?.country)?.name
+    const placeCountry = story.place.country
+      ? countries.find((k) => k.code === story.place?.country)
       : undefined;
+    const inCountry = placeCountry ? countryName(placeCountry) : undefined;
     const where =
-      countryName && countryName !== story.place.name
-        ? `${story.place.name}, ${countryName}`
+      inCountry && inCountry !== story.place.name && placeCountry?.name !== story.place.name
+        ? `${story.place.name}, ${inCountry}`
         : story.place.name;
     const text =
       story.place.role && placeId && !placeId.startsWith("wiki:")

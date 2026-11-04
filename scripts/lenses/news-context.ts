@@ -94,8 +94,8 @@ export function sentences(wikitext: string): Sentence[] {
     if (!line || /^[|{}!*#:;[]/.test(line) || SKIP.test(section)) continue;
     for (const s of line.split(/(?<=[.!?])\s+(?=[A-Z"“(])/)) {
       const text = s
+        .replace(/\(\s*[;,]?\s*\)/g, "")
         .replace(/\s+/g, " ")
-        .replace(/\(\s*\)/g, "")
         .replace(/\s+([,.;:])/g, "$1")
         .trim();
       if (text.length >= 40 && text.length <= 320 && /[.!?]$/.test(text))
@@ -120,6 +120,7 @@ const MONTHS = [
   "december",
 ];
 const MONTH = MONTHS.join("|");
+const MONTH_YEAR_RE = new RegExp(`\\b(${MONTH}) (\\d{4})\\b`, "gi");
 const DATE_RE = new RegExp(
   `\\b(?:(\\d{1,2}) (${MONTH})(?:,? (\\d{4}))?|(${MONTH}) (\\d{1,2})(?:,? (\\d{4}))?)\\b`,
   "gi",
@@ -137,10 +138,10 @@ export function dateDistance(text: string, date: string): number | undefined {
 export function dateMatch(
   text: string,
   date: string,
-): { days: number; withYear: boolean } | undefined {
+): { days: number; withYear: boolean; month?: boolean } | undefined {
   const day = Date.parse(`${date}T00:00:00Z`);
   const year = Number(date.slice(0, 4));
-  let best: { days: number; withYear: boolean } | undefined;
+  let best: { days: number; withYear: boolean; month?: boolean } | undefined;
   for (const m of text.matchAll(DATE_RE)) {
     const d = Number(m[1] ?? m[5]);
     const month = MONTHS.indexOf((m[2] ?? m[4] ?? "").toLowerCase());
@@ -150,6 +151,18 @@ export function dateMatch(
     const dist = (t - day) / 86_400_000;
     const withYear = Boolean(m[3] ?? m[6]);
     if (best === undefined || Math.abs(dist) < Math.abs(best.days)) best = { days: dist, withYear };
+  }
+  if (best) return best;
+  // A month and year only ("In October 2026"): the distance to that month's middle, so this
+  // month and last month count as recent (capped inside the window); exact dates rank first.
+  for (const m of text.matchAll(MONTH_YEAR_RE)) {
+    const month = MONTHS.indexOf((m[1] ?? "").toLowerCase());
+    const y = Number(m[2]);
+    if (month < 0 || !y) continue;
+    const dist = (Date.UTC(y, month, 15) - day) / 86_400_000;
+    if (dist >= -40 && dist <= 15 && (!best || Math.abs(dist) < Math.abs(best.days))) {
+      best = { days: Math.sign(dist) * Math.min(Math.abs(dist), 9), withYear: true, month: true };
+    }
   }
   return best;
 }
@@ -188,14 +201,18 @@ export function pickNews(
   const near = all
     .map((s) => ({ s, m: dateMatch(s.text, date) }))
     .filter(
-      (x): x is { s: Sentence; m: { days: number; withYear: boolean } } =>
+      (x): x is { s: Sentence; m: { days: number; withYear: boolean; month?: boolean } } =>
         x.m !== undefined && x.m.days >= -10 && x.m.days <= 3,
     )
     .filter(({ s }) => !LIFESPAN.test(s.text))
     .sort((a, b) => Math.abs(a.m.days) - Math.abs(b.m.days) || a.s.index - b.s.index);
   const isNew = (s: Sentence) => previous !== undefined && !old.has(s.text);
   // A year-less date in a sentence editors just added is recent news ("traded … on October 29").
-  const dated = near.filter((x) => x.m.withYear || isNew(x.s)).map((x) => x.s);
+  // Exact dates first, then month-only ones ("In October 2026").
+  const dated = [
+    ...near.filter((x) => (x.m.withYear || isNew(x.s)) && !x.m.month),
+    ...near.filter((x) => x.m.month),
+  ].map((x) => x.s);
   const yearless = near.filter((x) => !x.m.withYear && !isNew(x.s)).map((x) => x.s);
   const added = previous
     ? all

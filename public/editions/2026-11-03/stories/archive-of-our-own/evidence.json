@@ -78,5 +78,43 @@
     "precision": "day",
     "label": "Wikidata, \"Archive of Our Own\": founded 2008-10-00",
     "url": "https://www.wikidata.org/wiki/Q27764876#P571"
+  },
+  {
+    "id": "hn:2026-11-03:Q27764876",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 6 stories with \"Archive of Our Own\" in the title in the 14 days to 3 November 2026",
+    "value": 6,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=Archive%20of%20Our%20Own&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q27764876:P137",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": operated by Organization for Transformative Works, headquartered in Arlington County",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P137"
+  },
+  {
+    "id": "wd:Q27764876:P127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": owned by: Organization for Transformative Works",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P127"
+  },
+  {
+    "id": "wd:Q27764876:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": official website http://archiveofourown.org/",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P856"
   }
 ]

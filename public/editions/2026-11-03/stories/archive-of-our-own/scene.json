@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:35Z"
+    "end": "2026-11-03T00:01:02Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -20,7 +20,18 @@
     "day": "2026-11-03",
     "nights": []
   },
-  "layers": [],
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:24Z"
+    }
+  ],
   "camera": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -48,6 +59,54 @@
     },
     {
       "t": "2026-11-03T00:00:26Z",
+      "lon": -77.108333333333,
+      "lat": 38.530277777778,
+      "range": 1100000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:31Z",
+      "lon": -77.108333333333,
+      "lat": 38.530277777778,
+      "range": 1177000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:34Z",
+      "lon": -77.108333333333,
+      "lat": 37.880277777778,
+      "range": 3200000,
+      "heading": 12,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:41Z",
+      "lon": -77.108333333333,
+      "lat": 37.880277777778,
+      "range": 3424000,
+      "heading": 18,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:44Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 6000000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:50Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 6420000,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
       "lon": 0,
       "lat": 20,
       "range": 24000000,
@@ -55,7 +114,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:34Z",
+      "t": "2026-11-03T00:01:01Z",
       "lon": 0,
       "lat": 20,
       "range": 25680000,
@@ -63,7 +122,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:35Z",
+      "t": "2026-11-03T00:01:02Z",
       "lon": 0,
       "lat": 20,
       "range": 41088000,
@@ -101,6 +160,27 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
+      "text": "Archive of Our Own is run by Organization for Transformative Works, based in Arlington County, United States.",
+      "cites": [
+        "wd:Q27764876:P137"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
+      "text": "Founded in 2008.",
+      "cites": [
+        "wd:Q27764876:P571"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:42Z",
+      "text": "6 Hacker News stories mentioned Archive of Our Own in the two weeks to 3 November 2026.",
+      "cites": [
+        "hn:2026-11-03:Q27764876"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
       "text": "85,012 people read about it on 3 November 2026: about 60× the usual.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
@@ -116,10 +196,155 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-03T00:00:42Z",
+      "title": "Tech talk"
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
       "title": "Readers"
     }
   ],
   "panels": [
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Archive of Our Own",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "2008",
+          "cites": [
+            "wd:Q27764876:P571"
+          ]
+        },
+        {
+          "label": "Operator",
+          "text": "Organization for Transformative Works",
+          "cites": [
+            "wd:Q27764876:P137"
+          ]
+        },
+        {
+          "label": "Owned by",
+          "text": "Organization for Transformative Works",
+          "cites": [
+            "wd:Q27764876:P127"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "archiveofourown.org",
+          "url": "http://archiveofourown.org/",
+          "cites": [
+            "wd:Q27764876:P856"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:42Z"
+    },
+    {
+      "id": "hn",
+      "kind": "line",
+      "title": "Hacker News stories a day",
+      "unit": "stories",
+      "note": "Stories with \"Archive of Our Own\" in the title, over 14 days.",
+      "series": [
+        {
+          "label": "Archive of Our Own",
+          "color": "#5ef2ff",
+          "points": [
+            {
+              "x": "10-21",
+              "y": 0
+            },
+            {
+              "x": "10-22",
+              "y": 0
+            },
+            {
+              "x": "10-23",
+              "y": 0
+            },
+            {
+              "x": "10-24",
+              "y": 0
+            },
+            {
+              "x": "10-25",
+              "y": 0
+            },
+            {
+              "x": "10-26",
+              "y": 0
+            },
+            {
+              "x": "10-27",
+              "y": 0
+            },
+            {
+              "x": "10-28",
+              "y": 0
+            },
+            {
+              "x": "10-29",
+              "y": 2
+            },
+            {
+              "x": "10-30",
+              "y": 2
+            },
+            {
+              "x": "10-31",
+              "y": 1
+            },
+            {
+              "x": "11-01",
+              "y": 0
+            },
+            {
+              "x": "11-02",
+              "y": 0
+            },
+            {
+              "x": "11-03",
+              "y": 1
+            }
+          ],
+          "cites": [
+            "hn:2026-11-03:Q27764876"
+          ]
+        }
+      ],
+      "mark": 13,
+      "t": "2026-11-03T00:00:43Z",
+      "until": "2026-11-03T00:00:51Z"
+    },
+    {
+      "id": "hn-top",
+      "kind": "facts",
+      "title": "Most discussed",
+      "items": [
+        {
+          "label": "130 points",
+          "text": "AO3 Down for Maintenance",
+          "url": "https://news.ycombinator.com/item?id=50310258",
+          "cites": [
+            "hn:2026-11-03:Q27764876"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:43Z",
+      "until": "2026-11-03T00:00:51Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -258,12 +483,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:25Z",
-      "until": "2026-11-03T00:00:35Z"
+      "t": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:02Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:45:53Z"
+    "at": "2026-11-04T20:01:29Z"
   }
 }
