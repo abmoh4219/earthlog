@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:55Z"
+    "end": "2026-11-03T00:01:03Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -27,14 +27,9 @@
       "from": "2026-11-03T00:00:09Z"
     },
     {
-      "kind": "regions",
-      "file": "data/regions.json",
-      "from": "2026-11-03T00:00:09Z"
-    },
-    {
       "kind": "arcs",
       "file": "data/arcs.json",
-      "from": "2026-11-03T00:00:38Z"
+      "from": "2026-11-03T00:00:17Z"
     }
   ],
   "camera": [
@@ -64,22 +59,54 @@
     },
     {
       "t": "2026-11-03T00:00:11Z",
-      "lon": -16.28472222,
-      "lat": 27.88555556,
-      "range": 1800000,
+      "lon": -3.703333333333333,
+      "lat": 40.01694444444445,
+      "range": 1300000,
       "heading": 0,
       "pitch": -55
     },
     {
       "t": "2026-11-03T00:00:16Z",
-      "lon": -16.28472222,
-      "lat": 27.88555556,
-      "range": 1926000,
+      "lon": -3.703333333333333,
+      "lat": 40.01694444444445,
+      "range": 1391000,
       "heading": 6,
       "pitch": -55
     },
     {
       "t": "2026-11-03T00:00:19Z",
+      "lon": -8.16175711,
+      "lat": 34.21649064045451,
+      "range": 4327915.810608,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:26Z",
+      "lon": -8.16175711,
+      "lat": 34.21649064045451,
+      "range": 4630869.9173505595,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:29Z",
+      "lon": -16.28472222,
+      "lat": 28.04805556,
+      "range": 1300000,
+      "heading": 0,
+      "pitch": -50
+    },
+    {
+      "t": "2026-11-03T00:00:34Z",
+      "lon": -16.28472222,
+      "lat": 28.04805556,
+      "range": 1391000,
+      "heading": 6,
+      "pitch": -50
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
       "lon": -16.28472222,
       "lat": 27.88555556,
       "range": 2700000,
@@ -87,7 +114,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:27Z",
+      "t": "2026-11-03T00:00:45Z",
       "lon": -16.28472222,
       "lat": 27.88555556,
       "range": 2889000,
@@ -95,23 +122,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:30Z",
-      "lon": -16.28472222,
-      "lat": 27.88555556,
-      "range": 1800000,
-      "heading": 20,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:37Z",
-      "lon": -16.28472222,
-      "lat": 27.88555556,
-      "range": 1926000,
-      "heading": 26,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:40Z",
+      "t": "2026-11-03T00:00:48Z",
       "lon": -9.994027776666666,
       "lat": 34.06009089117689,
       "range": 3351681.9994079997,
@@ -119,7 +130,7 @@
       "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:46Z",
+      "t": "2026-11-03T00:00:54Z",
       "lon": -9.994027776666666,
       "lat": 34.06009089117689,
       "range": 3586299.73936656,
@@ -127,7 +138,7 @@
       "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:49Z",
+      "t": "2026-11-03T00:00:57Z",
       "lon": -16.28472222,
       "lat": 27.88555556,
       "range": 2340000,
@@ -135,7 +146,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:54Z",
+      "t": "2026-11-03T00:01:02Z",
       "lon": -16.28472222,
       "lat": 27.88555556,
       "range": 2503800,
@@ -143,7 +154,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:55Z",
+      "t": "2026-11-03T00:01:03Z",
       "lon": -16.28472222,
       "lat": 27.88555556,
       "range": 6000000,
@@ -166,23 +177,46 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:17Z",
-      "text": "585,060 people read about it on 3 November 2026: about 146265× the usual.",
-      "cites": [
-        "views:en:Jesús_de_Miguel:2026-11-03",
-        "views:en:Jesús_de_Miguel:prior"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:28Z",
-      "text": "Born: 21 September 1996. Birthplace: Madrid.",
+      "t": "2026-11-03T00:00:09Z",
+      "text": "Jesús de Miguel Alameda was born on 21 September 1996 in Madrid.",
       "cites": [
         "wd:Q116992476:P569",
         "wd:Q116992476:P19"
       ]
     },
     {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:00:17Z",
+      "text": "Played for 8 clubs from 2015 to 2026: from CD Leganés B to C.D. Tenerife.",
+      "cites": [
+        "wd:Q116992476:P54:Q9196665",
+        "wd:Q116992476:P54:Q9008987",
+        "wd:Q116992476:P54:Q108708",
+        "wd:Q116992476:P54:Q4651246",
+        "wd:Q116992476:P54:Q840620",
+        "wd:Q116992476:P54:Q20278773",
+        "wd:Q116992476:P54:Q743557",
+        "wd:Q116992476:P54:Q216661"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "text": "Jesús de Miguel Alameda died on 3 November 2026 in Hospital Universitario Nuestra Señora de Candelaria, aged 30.",
+      "cites": [
+        "wd:Q116992476:P570",
+        "wd:Q116992476:P20",
+        "wd:Q116992476:P569"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:35Z",
+      "text": "585,060 people read about it on 3 November 2026. In the weeks before, almost nobody did: a median of 4 a day.",
+      "cites": [
+        "views:en:Jesús_de_Miguel:2026-11-03",
+        "views:en:Jesús_de_Miguel:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:46Z",
       "text": "Readers also turned to Jesús Owono (297,789), CD Tenerife (70,752).",
       "cites": [
         "views:en:Jesús_Owono:2026-11-03",
@@ -190,7 +224,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:47Z",
+      "t": "2026-11-03T00:00:55Z",
       "text": "Reported by CNN.",
       "cites": [
         "wiki:2026-11-03:12"
@@ -205,26 +239,103 @@
     },
     {
       "t": "2026-11-03T00:00:09Z",
-      "title": "Where"
+      "title": "Born"
     },
     {
       "t": "2026-11-03T00:00:17Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-03T00:00:35Z",
       "title": "Readers"
     },
     {
-      "t": "2026-11-03T00:00:28Z",
-      "title": "On record"
-    },
-    {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:00:46Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:00:47Z",
+      "t": "2026-11-03T00:00:55Z",
       "title": "Reported by"
     }
   ],
   "panels": [
+    {
+      "id": "life",
+      "kind": "facts",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "items": [
+        {
+          "label": "1996 born",
+          "text": "Madrid",
+          "cites": [
+            "wd:Q116992476:P19"
+          ]
+        },
+        {
+          "label": "2015–16",
+          "text": "CD Leganés B",
+          "cites": [
+            "wd:Q116992476:P54:Q9196665"
+          ]
+        },
+        {
+          "label": "2017–18",
+          "text": "Internacional de Madrid CF",
+          "cites": [
+            "wd:Q116992476:P54:Q9008987"
+          ]
+        },
+        {
+          "label": "2018–19",
+          "text": "CF Fuenlabrada",
+          "cites": [
+            "wd:Q116992476:P54:Q108708"
+          ]
+        },
+        {
+          "label": "2019",
+          "text": "AD Unión Adarve Barrio del Pilar",
+          "cites": [
+            "wd:Q116992476:P54:Q4651246"
+          ]
+        },
+        {
+          "label": "2019–21",
+          "text": "CDA Navalcarnero",
+          "cites": [
+            "wd:Q116992476:P54:Q840620"
+          ]
+        },
+        {
+          "label": "2021–23",
+          "text": "Unionistas de Salamanca CF",
+          "cites": [
+            "wd:Q116992476:P54:Q20278773"
+          ]
+        },
+        {
+          "label": "2023–25",
+          "text": "CD Castellón",
+          "cites": [
+            "wd:Q116992476:P54:Q743557"
+          ]
+        },
+        {
+          "label": "2025–26",
+          "text": "C.D. Tenerife",
+          "cites": [
+            "wd:Q116992476:P54:Q216661"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:27Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -621,60 +732,8 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:18Z",
-      "until": "2026-11-03T00:00:28Z"
-    },
-    {
-      "id": "record",
-      "kind": "facts",
-      "title": "On record: Jesús de Miguel Alameda",
-      "note": "As recorded in Wikidata (CC0).",
-      "items": [
-        {
-          "label": "Born",
-          "text": "21 September 1996",
-          "cites": [
-            "wd:Q116992476:P569"
-          ]
-        },
-        {
-          "label": "Birthplace",
-          "text": "Madrid",
-          "cites": [
-            "wd:Q116992476:P19"
-          ]
-        },
-        {
-          "label": "Died",
-          "text": "3 November 2026",
-          "cites": [
-            "wd:Q116992476:P570"
-          ]
-        },
-        {
-          "label": "Place of death",
-          "text": "Hospital Universitario Nuestra Señora de Candelaria",
-          "cites": [
-            "wd:Q116992476:P20"
-          ]
-        },
-        {
-          "label": "Occupation",
-          "text": "association football player",
-          "cites": [
-            "wd:Q116992476:P106"
-          ]
-        },
-        {
-          "label": "Citizenship",
-          "text": "Spain",
-          "cites": [
-            "wd:Q116992476:P27"
-          ]
-        }
-      ],
-      "t": "2026-11-03T00:00:29Z",
-      "until": "2026-11-03T00:00:38Z"
+      "t": "2026-11-03T00:00:36Z",
+      "until": "2026-11-03T00:00:46Z"
     },
     {
       "id": "sources",
@@ -691,12 +750,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:48Z",
-      "until": "2026-11-03T00:00:55Z"
+      "t": "2026-11-03T00:00:56Z",
+      "until": "2026-11-03T00:01:03Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T18:36:14Z"
+    "at": "2026-11-04T19:22:08Z"
   }
 }

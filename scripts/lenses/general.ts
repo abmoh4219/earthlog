@@ -302,9 +302,11 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     const text =
       prior?.value === 0
         ? `${fmt(leadViews.value)} people read the article on ${dayLabel}. It hadn't existed weeks before.`
-        : spike && spike >= 2
-          ? `${fmt(leadViews.value)} people read about it on ${dayLabel}: about ${spike}× the usual.`
-          : `${fmt(leadViews.value)} people read about it on ${dayLabel}.`;
+        : prior?.value !== undefined && prior.value < 50
+          ? `${fmt(leadViews.value)} people read about it on ${dayLabel}. In the weeks before, almost nobody did: a median of ${fmt(prior.value)} a day.`
+          : spike && spike >= 2
+            ? `${fmt(leadViews.value)} people read about it on ${dayLabel}: about ${fmt(spike)}× the usual.`
+            : `${fmt(leadViews.value)} people read about it on ${dayLabel}.`;
     chapters.push({
       title: "Readers",
       seconds: 11,
@@ -490,7 +492,7 @@ function list(names: string[]): string {
 }
 
 /** A shot that frames every place, or undefined for fewer than two. */
-function wideShot(places: { lon: number; lat: number }[]): Shot | undefined {
+export function wideShot(places: { lon: number; lat: number }[]): Shot | undefined {
   if (places.length < 2) return undefined;
   const lons = places.map((p) => p.lon);
   const lats = places.map((p) => p.lat);

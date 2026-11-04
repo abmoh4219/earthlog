@@ -27,14 +27,9 @@
       "from": "2026-11-03T00:00:09Z"
     },
     {
-      "kind": "regions",
-      "file": "data/regions.json",
-      "from": "2026-11-03T00:00:09Z"
-    },
-    {
       "kind": "arcs",
       "file": "data/arcs.json",
-      "from": "2026-11-03T00:00:38Z"
+      "from": "2026-11-03T00:00:17Z"
     }
   ],
   "camera": [
@@ -64,22 +59,38 @@
     },
     {
       "t": "2026-11-03T00:00:11Z",
-      "lon": -97.48,
-      "lat": 38.2275,
-      "range": 4200000,
+      "lon": -92.16,
+      "lat": 31.28,
+      "range": 1300000,
       "heading": 0,
       "pitch": -55
     },
     {
       "t": "2026-11-03T00:00:16Z",
-      "lon": -97.48,
-      "lat": 38.2275,
-      "range": 4494000,
+      "lon": -92.16,
+      "lat": 31.28,
+      "range": 1391000,
       "heading": 6,
       "pitch": -55
     },
     {
       "t": "2026-11-03T00:00:19Z",
+      "lon": -90.35839999999999,
+      "lat": 35.521600001568,
+      "range": 2175600.0008879993,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:26Z",
+      "lon": -90.35839999999999,
+      "lat": 35.521600001568,
+      "range": 2327892.0009501595,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:29Z",
       "lon": -97.48,
       "lat": 38.2275,
       "range": 6300000,
@@ -87,28 +98,12 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:27Z",
+      "t": "2026-11-03T00:00:37Z",
       "lon": -97.48,
       "lat": 38.2275,
       "range": 6741000,
       "heading": 6,
       "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:00:30Z",
-      "lon": -97.48,
-      "lat": 38.2275,
-      "range": 4200000,
-      "heading": 20,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:37Z",
-      "lon": -97.48,
-      "lat": 38.2275,
-      "range": 4494000,
-      "heading": 26,
-      "pitch": -55
     },
     {
       "t": "2026-11-03T00:00:40Z",
@@ -150,19 +145,34 @@
       ]
     },
     {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "Jeffery Simmons was born on 28 July 1997 in LaSalle Parish.",
+      "cites": [
+        "wd:Q45146310:P569",
+        "wd:Q45146310:P19"
+      ]
+    },
+    {
       "t": "2026-11-03T00:00:17Z",
+      "text": "Played for 2 clubs: from Mississippi State Bulldogs football to Chicago Bears.",
+      "cites": [
+        "wd:Q45146310:P54:Q6879318",
+        "wd:Q45146310:P54:Q205033"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:22Z",
+      "text": "Educated at Noxubee County High School.",
+      "cites": [
+        "wd:Q45146310:P69:Q48977020"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
       "text": "111,232 people read about it on 3 November 2026: about 251× the usual.",
       "cites": [
         "views:en:Jeffery_Simmons:2026-11-03",
         "views:en:Jeffery_Simmons:prior"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:28Z",
-      "text": "Born: 28 July 1997. Birthplace: LaSalle Parish.",
-      "cites": [
-        "wd:Q45146310:P569",
-        "wd:Q45146310:P19"
       ]
     }
   ],
@@ -174,15 +184,15 @@
     },
     {
       "t": "2026-11-03T00:00:09Z",
-      "title": "Where"
+      "title": "Born"
     },
     {
       "t": "2026-11-03T00:00:17Z",
-      "title": "Readers"
+      "title": "A life across the globe"
     },
     {
-      "t": "2026-11-03T00:00:28Z",
-      "title": "On record"
+      "t": "2026-11-03T00:00:27Z",
+      "title": "Readers"
     },
     {
       "t": "2026-11-03T00:00:38Z",
@@ -190,6 +200,44 @@
     }
   ],
   "panels": [
+    {
+      "id": "life",
+      "kind": "facts",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "items": [
+        {
+          "label": "1997 born",
+          "text": "LaSalle Parish",
+          "cites": [
+            "wd:Q45146310:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Noxubee County High School",
+          "cites": [
+            "wd:Q45146310:P69:Q48977020"
+          ]
+        },
+        {
+          "label": "played for",
+          "text": "Mississippi State Bulldogs football",
+          "cites": [
+            "wd:Q45146310:P54:Q6879318"
+          ]
+        },
+        {
+          "label": "played for",
+          "text": "Chicago Bears",
+          "cites": [
+            "wd:Q45146310:P54:Q205033"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:27Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -328,57 +376,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:18Z",
-      "until": "2026-11-03T00:00:28Z"
-    },
-    {
-      "id": "record",
-      "kind": "facts",
-      "title": "On record: Jeffery Simmons",
-      "note": "As recorded in Wikidata (CC0).",
-      "items": [
-        {
-          "label": "Born",
-          "text": "28 July 1997",
-          "cites": [
-            "wd:Q45146310:P569"
-          ]
-        },
-        {
-          "label": "Birthplace",
-          "text": "LaSalle Parish",
-          "cites": [
-            "wd:Q45146310:P19"
-          ]
-        },
-        {
-          "label": "Occupation",
-          "text": "American football player",
-          "cites": [
-            "wd:Q45146310:P106"
-          ]
-        },
-        {
-          "label": "Citizenship",
-          "text": "United States",
-          "cites": [
-            "wd:Q45146310:P27"
-          ]
-        },
-        {
-          "label": "Sport",
-          "text": "American football",
-          "cites": [
-            "wd:Q45146310:P641"
-          ]
-        }
-      ],
-      "t": "2026-11-03T00:00:29Z",
+      "t": "2026-11-03T00:00:28Z",
       "until": "2026-11-03T00:00:38Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T18:36:14Z"
+    "at": "2026-11-04T19:22:08Z"
   }
 }

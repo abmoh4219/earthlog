@@ -317,6 +317,8 @@ export const PlacesLayer = z.object({
       lat: z.number(),
       color: z.string().optional(),
       primary: z.boolean().optional(),
+      /** Dot without a name, for pins that would crowd a neighbour's label. */
+      quiet: z.boolean().optional(),
     }),
   ),
 });
@@ -324,6 +326,8 @@ export const PlacesLayer = z.object({
 /** Arcs between places, drawn as lifted great circles. */
 export const ArcsLayer = z.object({
   kind: z.literal("arcs"),
+  /** Draw the arcs one after another (a journey) instead of all at once. */
+  sequence: z.boolean().optional(),
   arcs: z.array(
     z.object({
       from: z.tuple([z.number(), z.number()]),

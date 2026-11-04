@@ -79,7 +79,10 @@ export async function fetchMostRead(date: string): Promise<MostRead[]> {
 const Snak = z.object({
   datavalue: z.object({ value: z.unknown() }).optional(),
 });
-const Claim = z.object({ mainsnak: Snak });
+const Claim = z.object({
+  mainsnak: Snak,
+  qualifiers: z.record(z.string(), z.array(Snak)).optional(),
+});
 const Entity = z.object({
   id: z.string(),
   labels: z.record(z.string(), z.object({ value: z.string() })).optional(),
@@ -104,6 +107,12 @@ export interface WdEntity {
   quantities?: Record<string, number[]>;
   /** Plain string values per property, e.g. P465 → "003CBA" (sRGB colour). */
   strings?: Record<string, string[]>;
+  /**
+   * Item claims with their dates, per property: e.g. P54 (sports team) →
+   * [{ item: "Q9196665", start: "2015", end: "2016" }]. From the qualifiers P580 (start time),
+   * P582 (end time) and P585 (point in time).
+   */
+  dated?: Record<string, { item: string; start?: string; end?: string; at?: string }[]>;
 }
 
 const ItemValue = z.object({ id: z.string() });
@@ -128,11 +137,30 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
     const times: Record<string, string[]> = {};
     const quantities: Record<string, number[]> = {};
     const strings: Record<string, string[]> = {};
+    const dated: Record<string, { item: string; start?: string; end?: string; at?: string }[]> = {};
     for (const [prop, claims] of Object.entries(e.claims ?? {})) {
       for (const c of claims) {
         const v = c.mainsnak.datavalue?.value;
         const item = ItemValue.safeParse(v);
-        if (item.success) items[prop] = [...(items[prop] ?? []), item.data.id];
+        if (item.success) {
+          items[prop] = [...(items[prop] ?? []), item.data.id];
+          const when = (q: string) => {
+            const t = TimeValue.safeParse(c.qualifiers?.[q]?.[0]?.datavalue?.value);
+            return t.success ? wdDate(t.data.time, t.data.precision) : undefined;
+          };
+          const start = when("P580");
+          const end = when("P582");
+          const at = when("P585");
+          dated[prop] = [
+            ...(dated[prop] ?? []),
+            {
+              item: item.data.id,
+              ...(start ? { start } : {}),
+              ...(end ? { end } : {}),
+              ...(at ? { at } : {}),
+            },
+          ];
+        }
         if (prop === "P625" && !coord) {
           const cv = CoordValue.safeParse(v);
           if (cv.success) coord = { lat: cv.data.latitude, lon: cv.data.longitude };
@@ -161,6 +189,7 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
       ...(Object.keys(times).length ? { times } : {}),
       ...(Object.keys(quantities).length ? { quantities } : {}),
       ...(Object.keys(strings).length ? { strings } : {}),
+      ...(Object.keys(dated).length ? { dated } : {}),
     });
   }
   return out;

@@ -196,12 +196,14 @@
 
 **Checkpoint 6:** `feat: election lens for any election, with a US adapter`
 
-## Phase 7 · Person lens: a life across the globe (about 3 h)
+## Phase 7 · Person lens: a life across the globe (about 3 h) ✅
 
 - Wikidata life places (birth, education, clubs or employers, residences, death) with dates → chronological arcs across the globe.
 - Panels: life timeline, notable works, the reader spike.
 - Respect rules for deaths (RESPONSIBLE-USE §8).
 - Stories: Jesús de Miguel, Patrick Stewart.
+
+**Done (2026-11-04):** chapters Born → A life across the globe (journey arcs drawn leg by leg, a dated "life on record" panel) → Recognition (awards with years, notable works) → In memory (date, place, age; no cause unless a cited report gives one). Organisations are placed at their home ground, headquarters or city. Jesús de Miguel: 9 clubs, 2015–2026; Patrick Stewart: schools, awards, *X-Men* and *Star Trek*; Jeffery Simmons: school to Chicago Bears.
 
 **Checkpoint 7:** `feat: person lens`
 

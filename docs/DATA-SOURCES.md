@@ -68,6 +68,8 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 - **Infobox totals run ahead of race tables:** at 9:15 AM ET on 4 Nov the House infobox showed 231–139 while the race tables still had 97 districts uncalled. Films show both, each labelled with its own timestamp.
 - **US Census TIGERweb** (`tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb`): `Legislative/MapServer/0` is the 120th Congress (2026) districts, `State_County/MapServer/0` the states; `f=geojson` with `maxAllowableOffset` returns simplified lon/lat polygons (districts 269 KB, states 64 KB). Public domain.
 - **Party colours:** Wikidata P465 ("sRGB colour hex triplet") on the party's item, e.g. Democratic `003CBA`, Republican `E9151E`. Dark colours are lightened for the dark globe.
+- **Wikidata claim qualifiers carry a life's dates:** P580 (start time), P582 (end time), P585 (point in time), e.g. each club on P54 "member of sports team". Organisations rarely have coordinates themselves: use P115 (home venue), P159 (headquarters), P276 (location) or P131 (located in), then the country.
+- **Page-view spikes on brand-new or obscure articles are meaningless as ratios** (585,060 vs a usual 3 a day). Captions say "almost nobody read it in the weeks before" when the normal level is under 50 a day.
 - **The MODIS sensors are ending** (Terra around February 2027, Aqua around September 2027). Prefer VIIRS layers.
 
 ## Later sources (backlog)

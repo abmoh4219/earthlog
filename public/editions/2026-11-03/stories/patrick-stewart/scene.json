@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:47Z"
+    "end": "2026-11-03T00:01:10Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -27,14 +27,9 @@
       "from": "2026-11-03T00:00:09Z"
     },
     {
-      "kind": "regions",
-      "file": "data/regions.json",
-      "from": "2026-11-03T00:00:09Z"
-    },
-    {
       "kind": "arcs",
       "file": "data/arcs.json",
-      "from": "2026-11-03T00:00:38Z"
+      "from": "2026-11-03T00:00:17Z"
     }
   ],
   "camera": [
@@ -64,22 +59,70 @@
     },
     {
       "t": "2026-11-03T00:00:11Z",
-      "lon": -118.24368,
-      "lat": 33.48973,
-      "range": 1800000,
+      "lon": -1.6888,
+      "lat": 53.2807,
+      "range": 1300000,
       "heading": 0,
       "pitch": -55
     },
     {
       "t": "2026-11-03T00:00:16Z",
-      "lon": -118.24368,
-      "lat": 33.48973,
-      "range": 1926000,
+      "lon": -1.6888,
+      "lat": 53.2807,
+      "range": 1391000,
       "heading": 6,
       "pitch": -55
     },
     {
       "t": "2026-11-03T00:00:19Z",
+      "lon": -59.74934,
+      "lat": 41.42490805555556,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "lon": -59.74934,
+      "lat": 41.42490805555556,
+      "range": 23540000,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:31Z",
+      "lon": -59.74934,
+      "lat": 41.42490805555556,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:42Z",
+      "lon": -59.74934,
+      "lat": 41.42490805555556,
+      "range": 23540000,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:45Z",
+      "lon": -118.24368,
+      "lat": 33.65223,
+      "range": 1300000,
+      "heading": 0,
+      "pitch": -50
+    },
+    {
+      "t": "2026-11-03T00:00:50Z",
+      "lon": -118.24368,
+      "lat": 33.65223,
+      "range": 1391000,
+      "heading": 6,
+      "pitch": -50
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
       "lon": -118.24368,
       "lat": 33.48973,
       "range": 2700000,
@@ -87,7 +130,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:27Z",
+      "t": "2026-11-03T00:01:01Z",
       "lon": -118.24368,
       "lat": 33.48973,
       "range": 2889000,
@@ -95,23 +138,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:30Z",
-      "lon": -118.24368,
-      "lat": 33.48973,
-      "range": 1800000,
-      "heading": 20,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:37Z",
-      "lon": -118.24368,
-      "lat": 33.48973,
-      "range": 1926000,
-      "heading": 26,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:40Z",
+      "t": "2026-11-03T00:01:04Z",
       "lon": -59.96624,
       "lat": 41.42202055555556,
       "range": 22000000,
@@ -119,20 +146,12 @@
       "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:46Z",
+      "t": "2026-11-03T00:01:10Z",
       "lon": -59.96624,
       "lat": 41.42202055555556,
       "range": 23540000,
       "heading": 6,
       "pitch": -68
-    },
-    {
-      "t": "2026-11-03T00:00:47Z",
-      "lon": -59.96624,
-      "lat": 41.42202055555556,
-      "range": 37664000,
-      "heading": 6,
-      "pitch": -80
     }
   ],
   "pacing": [
@@ -150,19 +169,61 @@
       ]
     },
     {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "Patrick Stewart was born on 13 July 1940 in Mirfield.",
+      "cites": [
+        "wd:Q16296:P569",
+        "wd:Q16296:P19"
+      ]
+    },
+    {
       "t": "2026-11-03T00:00:17Z",
+      "text": "Educated at Bristol Old Vic Theatre School, Crowlees Junior and Infant School and The Mirfield Free Grammar.",
+      "cites": [
+        "wd:Q16296:P69:Q608723",
+        "wd:Q16296:P69:Q5189254",
+        "wd:Q16296:P69:Q7751661"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:23Z",
+      "text": "Worked with University of Oxford and University of Huddersfield.",
+      "cites": [
+        "wd:Q16296:P108:Q34433",
+        "wd:Q16296:P108:Q3056815"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:29Z",
+      "text": "8 awards on record, including Laurence Olivier Award for Best Actor in a Supporting Role (2009) and honorary doctorate of the Vrije Universiteit Brussel (2015).",
+      "cites": [
+        "wd:Q16296:P166:Q6500772",
+        "wd:Q16296:P166:Q55139818"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:36Z",
+      "text": "Known for X-Men and Star Trek: The Next Generation.",
+      "cites": [
+        "wd:Q16296:P800:Q2006869",
+        "wd:Q16296:P800:Q16290"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:43Z",
+      "text": "Patrick Stewart died on 28 October 2026 in Los Angeles, aged 86.",
+      "cites": [
+        "wd:Q16296:P570",
+        "wd:Q16296:P20",
+        "wd:Q16296:P569"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
       "text": "82,458 people read about it on 3 November 2026: about 21× the usual.",
       "cites": [
         "views:en:Patrick_Stewart:2026-11-03",
         "views:en:Patrick_Stewart:prior"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:28Z",
-      "text": "Born: 13 July 1940. Birthplace: Mirfield.",
-      "cites": [
-        "wd:Q16296:P569",
-        "wd:Q16296:P19"
       ]
     }
   ],
@@ -174,22 +235,155 @@
     },
     {
       "t": "2026-11-03T00:00:09Z",
-      "title": "Where"
+      "title": "Born"
     },
     {
       "t": "2026-11-03T00:00:17Z",
-      "title": "Readers"
+      "title": "A life across the globe"
     },
     {
       "t": "2026-11-03T00:00:28Z",
-      "title": "On record"
+      "title": "Recognition"
     },
     {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-03T00:00:50Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:01Z",
       "title": "Connected"
     }
   ],
   "panels": [
+    {
+      "id": "life",
+      "kind": "facts",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "items": [
+        {
+          "label": "1940 born",
+          "text": "Mirfield",
+          "cites": [
+            "wd:Q16296:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Bristol Old Vic Theatre School",
+          "cites": [
+            "wd:Q16296:P69:Q608723"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Crowlees Junior and Infant School",
+          "cites": [
+            "wd:Q16296:P69:Q5189254"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "The Mirfield Free Grammar",
+          "cites": [
+            "wd:Q16296:P69:Q7751661"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "University of Oxford",
+          "cites": [
+            "wd:Q16296:P108:Q34433"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "University of Huddersfield",
+          "cites": [
+            "wd:Q16296:P108:Q3056815"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Los Angeles",
+          "cites": [
+            "wd:Q16296:P20"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "recognition",
+      "kind": "facts",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "items": [
+        {
+          "label": "1979",
+          "text": "Laurence Olivier Award for Best Actor in a Supporting Role",
+          "cites": [
+            "wd:Q16296:P166:Q6500772"
+          ]
+        },
+        {
+          "label": "2000",
+          "text": "Officer of the Order of the British Empire",
+          "cites": [
+            "wd:Q16296:P166:Q10762848"
+          ]
+        },
+        {
+          "label": "2009",
+          "text": "Knight Bachelor",
+          "cites": [
+            "wd:Q16296:P166:Q833163"
+          ]
+        },
+        {
+          "label": "2009",
+          "text": "Laurence Olivier Award for Best Actor in a Supporting Role",
+          "cites": [
+            "wd:Q16296:P166:Q6500772"
+          ]
+        },
+        {
+          "label": "2015",
+          "text": "honorary doctorate of the Vrije Universiteit Brussel",
+          "cites": [
+            "wd:Q16296:P166:Q55139818"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Grammy Awards",
+          "cites": [
+            "wd:Q16296:P166:Q41254"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "X-Men",
+          "cites": [
+            "wd:Q16296:P800:Q2006869"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "Star Trek: The Next Generation",
+          "cites": [
+            "wd:Q16296:P800:Q16290"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:42Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -328,64 +522,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:18Z",
-      "until": "2026-11-03T00:00:28Z"
-    },
-    {
-      "id": "record",
-      "kind": "facts",
-      "title": "On record: Patrick Stewart",
-      "note": "As recorded in Wikidata (CC0).",
-      "items": [
-        {
-          "label": "Born",
-          "text": "13 July 1940",
-          "cites": [
-            "wd:Q16296:P569"
-          ]
-        },
-        {
-          "label": "Birthplace",
-          "text": "Mirfield",
-          "cites": [
-            "wd:Q16296:P19"
-          ]
-        },
-        {
-          "label": "Died",
-          "text": "28 October 2026",
-          "cites": [
-            "wd:Q16296:P570"
-          ]
-        },
-        {
-          "label": "Place of death",
-          "text": "Los Angeles",
-          "cites": [
-            "wd:Q16296:P20"
-          ]
-        },
-        {
-          "label": "Occupation",
-          "text": "television actor, film actor",
-          "cites": [
-            "wd:Q16296:P106"
-          ]
-        },
-        {
-          "label": "Citizenship",
-          "text": "United Kingdom",
-          "cites": [
-            "wd:Q16296:P27"
-          ]
-        }
-      ],
-      "t": "2026-11-03T00:00:29Z",
-      "until": "2026-11-03T00:00:38Z"
+      "t": "2026-11-03T00:00:51Z",
+      "until": "2026-11-03T00:01:01Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T18:36:14Z"
+    "at": "2026-11-04T19:22:08Z"
   }
 }

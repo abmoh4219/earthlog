@@ -277,15 +277,18 @@ export function createOverlays(
       style: C.LabelStyle.FILL_AND_OUTLINE,
       verticalOrigin: C.VerticalOrigin.BOTTOM,
       pixelOffset: new C.Cartesian2(0, -14),
+      // Secondary names fade out in wide shots, where neighbours' labels would pile up.
+      ...(p.primary ? {} : { translucencyByDistance: new C.NearFarScalar(2.5e6, 1, 6e6, 0) }),
       show: false,
     });
-    return { color, ring, dot, name };
+    return { color, ring, dot, name, quiet: p.quiet === true };
   });
 
   // 8. Arcs: great circles lifted off the surface, drawn in from start to end.
   const arcsLayer = layers.find((l): l is ArcsLayer => l.kind === "arcs");
   const arcLines = scene.primitives.add(new C.PolylineCollection());
   const ARC_STEPS = 64;
+  const ARC_LEG_MS = 1400;
   const arcs = (arcsLayer?.arcs ?? []).map((a) => {
     const geo = new C.EllipsoidGeodesic(
       C.Cartographic.fromDegrees(a.from[0], a.from[1]),
@@ -396,7 +399,7 @@ export function createOverlays(
       const pv = reveal("places", t);
       for (const m of placeMarks) {
         m.dot.show = pv > 0;
-        m.name.show = pv > 0 && showLabels;
+        m.name.show = pv > 0 && showLabels && !m.quiet;
         if (pv > 0) m.dot.color = m.color.withAlpha(pv, m.dot.color);
         if (m.ring) {
           m.ring.show = pv > 0;
@@ -405,14 +408,21 @@ export function createOverlays(
         }
       }
       const av = reveal("arcs", t);
-      for (const a of arcs) {
-        const n = Math.max(2, Math.round(av * ARC_STEPS) + 1);
-        a.line.show = av > 0;
-        if (av > 0 && n !== a.drawn) {
+      const sinceArcs = t - span("arcs").from;
+      arcs.forEach((a, i) => {
+        // A journey draws leg by leg (1.4 s each on the scene clock); otherwise all together.
+        const progress = arcsLayer?.sequence
+          ? av > 0
+            ? Math.min(1, Math.max(0, (sinceArcs - i * ARC_LEG_MS) / ARC_LEG_MS))
+            : 0
+          : av;
+        const n = Math.max(2, Math.round(progress * ARC_STEPS) + 1);
+        a.line.show = progress > 0;
+        if (progress > 0 && n !== a.drawn) {
           a.line.positions = a.full.slice(0, n);
           a.drawn = n;
         }
-      }
+      });
       for (const map of regionMaps) {
         const inside = t >= map.from && t < map.until;
         const rv = !inside

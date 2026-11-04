@@ -94,5 +94,32 @@
     "precision": "day",
     "label": "Wikidata, \"Jeffery Simmons\": sport American football",
     "url": "https://www.wikidata.org/wiki/Q45146310#P641"
+  },
+  {
+    "id": "wd:Q45146310:P69:Q48977020",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": educated at Noxubee County High School",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P69"
+  },
+  {
+    "id": "wd:Q45146310:P54:Q6879318",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": played for Mississippi State Bulldogs football",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P54"
+  },
+  {
+    "id": "wd:Q45146310:P54:Q205033",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": played for Chicago Bears",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P54"
   }
 ]

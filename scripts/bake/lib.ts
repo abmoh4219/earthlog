@@ -29,7 +29,15 @@ export async function fetchJson(
   }
   for (let attempt = 1; ; attempt++) {
     console.log(`  fetch ${url}`);
-    const res = await fetch(url, { headers: { "user-agent": USER_AGENT } });
+    let res: Response;
+    try {
+      res = await fetch(url, { headers: { "user-agent": USER_AGENT } });
+    } catch (err) {
+      // Network hiccups (reset, timeout) are retried a few times before giving up.
+      if (attempt >= 4) throw err;
+      await new Promise((r) => setTimeout(r, 1500 * attempt));
+      continue;
+    }
     if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
     const text = await res.text();
     const json: unknown = JSON.parse(text);
