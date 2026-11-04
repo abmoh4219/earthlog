@@ -57,3 +57,23 @@ body {
   scrollbar-width: thin;
   scrollbar-color: rgb(154 217 255 / 0.25) transparent;
 }
+
+/* The reticle's brackets settle in with a slow quarter turn, like a lock being acquired. */
+[data-on="1"] .reticle-spin {
+  animation: reticle-lock 1.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes reticle-lock {
+  from {
+    transform: rotate(45deg) scale(1.8);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-on="1"] .reticle-spin {
+    animation: none;
+  }
+}

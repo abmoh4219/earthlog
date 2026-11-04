@@ -172,6 +172,18 @@ export const Scene = z.object({
    * and the HUD shows chapter titles instead of a clock (ADR-0013).
    */
   time: z.enum(["real", "story"]).default("real"),
+  /**
+   * What the globe draws attention to in a story film: the country whose outline is traced
+   * and the point that gets radar rings and the on-screen reticle.
+   */
+  spotlight: z
+    .object({
+      country: z.string().length(2).optional(),
+      lon: z.number(),
+      lat: z.number(),
+      label: z.string().optional(),
+    })
+    .optional(),
   chapters: z.array(Chapter).default([]),
   panels: z.array(Panel).default([]),
   generatedBy: z.object({

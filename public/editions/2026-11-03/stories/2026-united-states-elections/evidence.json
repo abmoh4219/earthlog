@@ -253,6 +253,105 @@
     "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=James_Talarico&range=latest-30"
   },
   {
+    "id": "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 28,399 readers of \"انتخابات ۲۰۲۶ ایالات متحده آمریکا\" on 3 November 2026",
+    "value": 28399,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA_%DB%B2%DB%B0%DB%B2%DB%B6_%D8%A7%DB%8C%D8%A7%D9%84%D8%A7%D8%AA_%D9%85%D8%AA%D8%AD%D8%AF%D9%87_%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7"
+  },
+  {
+    "id": "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 18,159 readers of \"Eleições nos Estados Unidos em 2026\" on 3 November 2026",
+    "value": 18159,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_nos_Estados_Unidos_em_2026"
+  },
+  {
+    "id": "views:de:Wahlen_in_den_Vereinigten_Staaten_2026:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 17,375 readers of \"Wahlen in den Vereinigten Staaten 2026\" on 3 November 2026",
+    "value": 17375,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Wahlen_in_den_Vereinigten_Staaten_2026"
+  },
+  {
+    "id": "views:fr:Élections_de_2026_aux_États-Unis:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 16,692 readers of \"Élections de 2026 aux États-Unis\" on 3 November 2026",
+    "value": 16692,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89lections_de_2026_aux_%C3%89tats-Unis"
+  },
+  {
+    "id": "views:zh:2026年美國選舉:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 15,744 readers of \"2026年美國選舉\" on 3 November 2026",
+    "value": 15744,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E7%BE%8E%E5%9C%8B%E9%81%B8%E8%88%89"
+  },
+  {
+    "id": "views:it:Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 10,496 readers of \"Elezioni parlamentari negli Stati Uniti d'America del 2026\" on 3 November 2026",
+    "value": 10496,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026"
+  },
+  {
+    "id": "views:ja:2026年アメリカ合衆国選挙:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 2,536 readers of \"2026年アメリカ合衆国選挙\" on 3 November 2026",
+    "value": 2536,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/2026%E5%B9%B4%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD%E9%81%B8%E6%8C%99"
+  },
+  {
+    "id": "views:nl:Amerikaanse_congresverkiezingen_2026:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 366 readers of \"Amerikaanse congresverkiezingen 2026\" on 3 November 2026",
+    "value": 366,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Amerikaanse_congresverkiezingen_2026"
+  },
+  {
+    "id": "views:ru:Выборы_в_США_(2026):2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 338 readers of \"Выборы в США (2026)\" on 3 November 2026",
+    "value": 338,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%D1%8B_%D0%B2_%D0%A1%D0%A8%D0%90_(2026)"
+  },
+  {
     "id": "wd:Q115857612:P585",
     "kind": "sensor",
     "source": "wikidata",

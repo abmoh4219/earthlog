@@ -274,6 +274,32 @@ export async function economyLens(ctx: LensContext): Promise<LensResult> {
           label: `World Bank, inflation, latest year, ${region}: ${sorted.map((c) => `${c.name} ${pct(c.value)} (${c.year})`).join("; ")}`,
           url: `https://data.worldbank.org/indicator/${INDICATORS.inflation.id}`,
         });
+        // Comparison colours: each neighbour filled cool → warm by its value, under the columns.
+        const lo = sorted.at(-1)?.value ?? 0;
+        const hi = sorted[0]?.value ?? 1;
+        layers.push({
+          kind: "regions",
+          name: "inflation",
+          regions: cols.flatMap((c) => {
+            const ne = ctx.countries.find((k) => k.code === c.iso2);
+            return ne
+              ? [
+                  {
+                    id: c.iso2,
+                    name: c.name,
+                    rings: ne.rings,
+                    color: scale((c.value - lo) / Math.max(1e-9, hi - lo)),
+                    opacity: c.iso2 === iso ? 0.6 : 0.42,
+                  },
+                ]
+              : [];
+          }),
+          legend: [
+            { label: `Lowest: ${sorted.at(-1)?.name} ${pct(lo)}`, color: scale(0) },
+            { label: `Median: ${pct(med)}`, color: scale((med - lo) / Math.max(1e-9, hi - lo)) },
+            { label: `Highest: ${top?.name} ${pct(hi)}`, color: scale(1) },
+          ],
+        });
         layers.push({
           kind: "columns",
           name: "inflation",
@@ -317,7 +343,7 @@ export async function economyLens(ctx: LensContext): Promise<LensResult> {
               marker: { value: med, label: `median ${pct(med)}` },
             },
           ],
-          reveal: ["columns-inflation"],
+          reveal: ["columns-inflation", "regions-inflation"],
         });
       }
 
@@ -355,4 +381,20 @@ export function neighbourhoodShot(
     pitch: -38,
     heading,
   };
+}
+
+/** Cool → warm colour for a 0–1 position (low values icy blue, high values hot red). */
+export function scale(u: number): string {
+  const stops = [
+    [0, [79, 157, 222]],
+    [0.5, [255, 217, 94]],
+    [1, [255, 77, 94]],
+  ] as const;
+  const x = Math.min(1, Math.max(0, u));
+  const i = x <= 0.5 ? 0 : 1;
+  const [x0, a] = stops[i] as readonly [number, readonly number[]];
+  const [x1, b] = stops[i + 1] as readonly [number, readonly number[]];
+  const f = (x - x0) / (x1 - x0);
+  const rgb = a.map((v, k) => Math.round(v + ((b[k] ?? v) - v) * f));
+  return `#${rgb.map((v) => v.toString(16).padStart(2, "0")).join("")}`;
 }

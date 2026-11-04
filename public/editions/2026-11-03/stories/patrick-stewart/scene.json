@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:25Z"
+    "end": "2026-11-03T00:01:32Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -213,29 +213,29 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:20Z",
+      "t": "2026-11-03T00:01:23Z",
       "lon": -118.24368,
       "lat": 33.36473,
       "range": 1593747.7843121854,
-      "heading": -3.6999999999999993,
+      "heading": -1,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:22Z",
+      "t": "2026-11-03T00:01:29Z",
       "lon": -118.24368,
       "lat": 33.36473,
       "range": 1443200,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:25Z",
+      "t": "2026-11-03T00:01:32Z",
       "lon": -143.24367999999998,
       "lat": 33.36473,
       "range": 14000000,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -88,
       "move": "flight"
     }
@@ -325,9 +325,23 @@
         "views:en:Patrick_Stewart:2026-11-03",
         "views:en:Patrick_Stewart:prior"
       ]
+    },
+    {
+      "t": "2026-11-03T00:01:24Z",
+      "text": "Read in 11 languages; after English, most in German (6,690).",
+      "cites": [
+        "views:en:Patrick_Stewart:2026-11-03",
+        "views:de:Patrick_Stewart:2026-11-03"
+      ]
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -118.24368,
+    "lat": 34.05223,
+    "label": "Los Angeles"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -623,11 +637,85 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:01:15Z",
-      "until": "2026-11-03T00:01:25Z"
+      "until": "2026-11-03T00:01:32Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 82458,
+          "text": "82,458",
+          "color": "#f5c2a0",
+          "cites": [
+            "views:en:Patrick_Stewart:2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 6690,
+          "text": "6,690",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Patrick_Stewart:2026-11-03"
+          ]
+        },
+        {
+          "label": "Russian",
+          "value": 4307,
+          "text": "4,307",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Стюарт,_Патрик:2026-11-03"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "value": 3249,
+          "text": "3,249",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Patrick_Stewart:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 3115,
+          "text": "3,115",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Patrick_Stewart:2026-11-03"
+          ]
+        },
+        {
+          "label": "Italian",
+          "value": 1753,
+          "text": "1,753",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Patrick_Stewart:2026-11-03"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "value": 1574,
+          "text": "1,574",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:パトリック・スチュワート:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:01:15Z",
+      "until": "2026-11-03T00:01:32Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

@@ -168,6 +168,21 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     });
   }
 
+  // The reticle names the spotlight place; a pin at the same spot keeps its dot, not its name.
+  const spot = story.place;
+  const quieted: LayerData[] = layers.map((l) =>
+    l.kind === "places" && spot
+      ? {
+          ...l,
+          places: l.places.map((p) =>
+            Math.abs(p.lon - spot.lon) < 0.05 && Math.abs(p.lat - spot.lat) < 0.05
+              ? { ...p, quiet: true }
+              : p,
+          ),
+        }
+      : l,
+  );
+  layers.splice(0, layers.length, ...quieted);
   const refs: LayerRef[] = layers.map((l) => {
     const key = layerKey(l);
     const from = revealAt.get(key) ?? revealAt.get(l.kind);
@@ -210,6 +225,16 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     pacing: [{ t: iso(start), speed: 1 }],
     beats,
     time: "story",
+    ...(story.place
+      ? {
+          spotlight: {
+            ...(story.place.country ? { country: story.place.country } : {}),
+            lon: story.place.lon,
+            lat: story.place.lat,
+            label: story.place.name,
+          },
+        }
+      : {}),
     chapters: outChapters,
     panels,
     generatedBy: { method: "template", at },

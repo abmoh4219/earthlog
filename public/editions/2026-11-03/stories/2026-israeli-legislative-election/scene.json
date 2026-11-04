@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:49Z"
+    "end": "2026-11-03T00:00:56Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -101,29 +101,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:46Z",
       "lon": 34.85,
       "lat": 28.785,
       "range": 4926129.515146755,
-      "heading": -3.6999999999999993,
+      "heading": -1,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:45Z",
+      "t": "2026-11-03T00:00:52Z",
       "lon": 34.85,
       "lat": 28.785,
       "range": 4460800,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:49Z",
+      "t": "2026-11-03T00:00:56Z",
       "lon": 9.850000000000023,
       "lat": 28.785,
       "range": 14000000,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -88,
       "move": "flight"
     }
@@ -178,9 +178,23 @@
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:en:2026_Israeli_legislative_election:prior"
       ]
+    },
+    {
+      "t": "2026-11-03T00:00:47Z",
+      "text": "Read in 11 languages; after English, most in French (3,789).",
+      "cites": [
+        "views:en:2026_Israeli_legislative_election:2026-11-03",
+        "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03"
+      ]
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "IL",
+    "lon": 34.85,
+    "lat": 30.91,
+    "label": "Israel"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -499,11 +513,85 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:00:39Z",
-      "until": "2026-11-03T00:00:49Z"
+      "until": "2026-11-03T00:00:56Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 60786,
+          "text": "60,786",
+          "color": "#b49bff",
+          "cites": [
+            "views:en:2026_Israeli_legislative_election:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 3789,
+          "text": "3,789",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "value": 3449,
+          "text": "3,449",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Elecciones_parlamentarias_de_Israel_de_2026:2026-11-03"
+          ]
+        },
+        {
+          "label": "Russian",
+          "value": 2120,
+          "text": "2,120",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Парламентские_выборы_в_Израиле_(2026):2026-11-03"
+          ]
+        },
+        {
+          "label": "Italian",
+          "value": 1896,
+          "text": "1,896",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Elezioni_parlamentari_in_Israele_del_2026:2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 1846,
+          "text": "1,846",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Parlamentswahl_in_Israel_2026:2026-11-03"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "value": 945,
+          "text": "945",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:الانتخابات_التشريعية_الإسرائيلية_2026:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:39Z",
+      "until": "2026-11-03T00:00:56Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

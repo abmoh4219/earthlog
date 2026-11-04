@@ -71,6 +71,94 @@
     "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jeffery_Simmons&range=latest-30"
   },
   {
+    "id": "views:de:Jeffery_Simmons:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 722 readers of \"Jeffery Simmons\" on 3 November 2026",
+    "value": 722,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Jeffery_Simmons"
+  },
+  {
+    "id": "views:es:Jeffery_Simmons:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 614 readers of \"Jeffery Simmons\" on 3 November 2026",
+    "value": 614,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Jeffery_Simmons"
+  },
+  {
+    "id": "views:fr:Jeffery_Simmons:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 210 readers of \"Jeffery Simmons\" on 3 November 2026",
+    "value": 210,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Jeffery_Simmons"
+  },
+  {
+    "id": "views:pt:Jeffery_Simmons:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 209 readers of \"Jeffery Simmons\" on 3 November 2026",
+    "value": 209,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Jeffery_Simmons"
+  },
+  {
+    "id": "views:ja:ジェフェリー・シモンズ:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 125 readers of \"ジェフェリー・シモンズ\" on 3 November 2026",
+    "value": 125,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%95%E3%82%A7%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%A2%E3%83%B3%E3%82%BA"
+  },
+  {
+    "id": "views:it:Jeffery_Simmons:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 97 readers of \"Jeffery Simmons\" on 3 November 2026",
+    "value": 97,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Jeffery_Simmons"
+  },
+  {
+    "id": "views:ru:Симмонс,_Джеффери:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 14 readers of \"Симмонс, Джеффери\" on 3 November 2026",
+    "value": 14,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BC%D0%BC%D0%BE%D0%BD%D1%81%2C_%D0%94%D0%B6%D0%B5%D1%84%D1%84%D0%B5%D1%80%D0%B8"
+  },
+  {
+    "id": "views:tr:Jeffery_Simmons:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Turkish Wikipedia: 6 readers of \"Jeffery Simmons\" on 3 November 2026",
+    "value": 6,
+    "unit": "readers",
+    "url": "https://tr.wikipedia.org/wiki/Jeffery_Simmons"
+  },
+  {
     "id": "wd:Q45146310:P569",
     "kind": "sensor",
     "source": "wikidata",

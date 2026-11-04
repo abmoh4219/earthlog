@@ -9,6 +9,7 @@ import { usePlayer } from "@/player/store";
  */
 export function Credits() {
   const bundle = usePlayer((s) => s.bundle);
+  const eventDay = usePlayer((s) => s.layers.eventDay);
   if (!bundle) return null;
   const { imagery } = bundle.scene;
   const night = imagery.nights.at(-1);
@@ -18,9 +19,9 @@ export function Credits() {
     ? `VIIRS night lights ${night}`
     : "Black Marble 2016 composite (a typical night, not this one)";
   const imageryCredit = [
-    `NASA GIBS: VIIRS true colour ${imagery.day}`,
+    ...(eventDay ? [`NASA GIBS: VIIRS true colour ${imagery.day}`] : []),
     ...(story ? [] : [nightCredit]),
-    "Blue Marble",
+    story ? "NASA Blue Marble: shaded relief and bathymetry" : "Blue Marble",
   ].join(" · ");
   const dataCredit = bundle.sources.map((s) => s.attribution).join(" · ");
 

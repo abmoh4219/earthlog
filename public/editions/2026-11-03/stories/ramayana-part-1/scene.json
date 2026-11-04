@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:53Z"
+    "end": "2026-11-03T00:01:00Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -132,29 +132,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:46Z",
+      "t": "2026-11-03T00:00:50Z",
       "lon": 79.36,
       "lat": 20.565,
       "range": 4926129.515146755,
-      "heading": -26.3,
+      "heading": -29,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:49Z",
+      "t": "2026-11-03T00:00:56Z",
       "lon": 79.36,
       "lat": 20.565,
       "range": 4460800,
-      "heading": -37.6,
+      "heading": -43,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:53Z",
+      "t": "2026-11-03T00:01:00Z",
       "lon": 54.360000000000014,
       "lat": 20.565,
       "range": 14000000,
-      "heading": -37.6,
+      "heading": -43,
       "pitch": -88,
       "move": "flight"
     }
@@ -202,9 +202,23 @@
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:en:Ramayana:_Part_1:prior"
       ]
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
+      "text": "Read in 10 languages; after English, most in Hindi (2,972).",
+      "cites": [
+        "views:en:Ramayana:_Part_1:2026-11-03",
+        "views:hi:रामायणम्_(2026_फिल्म):2026-11-03"
+      ]
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "IN",
+    "lon": 79.36,
+    "lat": 22.69,
+    "label": "India"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -401,11 +415,85 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:00:43Z",
-      "until": "2026-11-03T00:00:53Z"
+      "until": "2026-11-03T00:01:00Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 72890,
+          "text": "72,890",
+          "color": "#ff8fd0",
+          "cites": [
+            "views:en:Ramayana:_Part_1:2026-11-03"
+          ]
+        },
+        {
+          "label": "Hindi",
+          "value": 2972,
+          "text": "2,972",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:hi:रामायणम्_(2026_फिल्म):2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 343,
+          "text": "343",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Ramayana:_Rise_of_a_Legend:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 322,
+          "text": "322",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Ramayana_:_L'Avènement_d'une_légende:2026-11-03"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "value": 125,
+          "text": "125",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:羅摩衍那：傳奇崛起:2026-11-03"
+          ]
+        },
+        {
+          "label": "Telugu",
+          "value": 72,
+          "text": "72",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:te:రామాయణం_(2026_సినిమా):2026-11-03"
+          ]
+        },
+        {
+          "label": "Bengali",
+          "value": 37,
+          "text": "37",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:bn:রামায়ণ:_পার্ট_ওয়ান:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:43Z",
+      "until": "2026-11-03T00:01:00Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

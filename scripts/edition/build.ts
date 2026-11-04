@@ -18,7 +18,7 @@ import { isNotAStory, lensFromHeading, lensFromTypes } from "./lens.ts";
 import type { MostRead, WdEntity } from "./sources.ts";
 
 export const MAX_STORIES = 14;
-export const MAX_WITH_BALANCE = 16;
+export const MAX_WITH_BALANCE = 18;
 export const MAX_PER_LENS = 3;
 /** Readers that day ÷ the article's normal level; below this a page is "evergreen". */
 export const SPIKE_MIN = 2.5;
@@ -232,8 +232,14 @@ export function buildEdition(input: BuildInput): {
       ids.push(id);
     }
 
-    // News-only stories are titled by what happened, not by the broad topic they sit under.
-    const title = c.lead?.title ?? headline(firstNews?.raw?.text ?? c.topic ?? "Untitled");
+    // News-only stories are titled by what happened, not by the broad topic they sit under,
+    // unless the topic is the event itself (a race, an election, a crash: same lens).
+    const topicLens = c.topic ? lensFromTypes(typeLabels(topicQid)) : undefined;
+    const title =
+      c.lead?.title ??
+      (c.topic && topicLens && topicLens === lens
+        ? c.topic
+        : headline(firstNews?.raw?.text ?? c.topic ?? "Untitled"));
     const summary = firstNews?.raw?.text ?? c.lead?.description ?? "";
     const about = c.lead?.extract;
     const story: Omit<EditionStory, "slug" | "heat"> & { rawHeat: number } = {
@@ -288,6 +294,16 @@ export function buildEdition(input: BuildInput): {
       continue;
     picked.push(s);
     covered.add(s.continent);
+  }
+  // Every kind of story that had a candidate gets its best one too (a sports result, a film),
+  // so an edition is never all one kind of news.
+  const kinds = new Set(picked.map((s) => s.lens));
+  for (const s of scored) {
+    if (picked.length >= MAX_WITH_BALANCE) break;
+    if (kinds.has(s.lens) || s.lens === "general" || picked.includes(s) || !s.evidence.length)
+      continue;
+    picked.push(s);
+    kinds.add(s.lens);
   }
   picked.sort((a, b) => b.rawHeat - a.rawHeat);
 
@@ -457,7 +473,10 @@ function asContinent(name: string | undefined): Continent | undefined {
 
 /** A short title from a news sentence: up to the first clause, at most ~80 characters. */
 export function headline(text: string): string {
-  const first = text.split(/[,;:]| — /)[0]?.trim() ?? text;
+  // Sports items open with the sport ("In association football, …"): skip that lead-in.
+  const body = text.replace(/^In [^,]{3,40}, /, "");
+  const clean = body.charAt(0).toUpperCase() + body.slice(1);
+  const first = clean.split(/[,;:]| — /)[0]?.trim() ?? clean;
   return first.length <= 80 ? first : `${first.slice(0, first.lastIndexOf(" ", 78))}…`;
 }
 

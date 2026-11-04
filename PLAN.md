@@ -237,13 +237,17 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 **Checkpoint 9:** `feat: economy lens`
 
-## Phase 10 · Sports lens (about 2 h)
+## Phase 10 · Sports lens (about 2 h) ✅
 
 - The venue; arcs from the teams' or athletes' home cities.
 - Panels: result card (from the cited report or article), where the world followed it (readers by language).
 - Stories: the Melbourne Cup, football.
 
-**Checkpoint 10:** `feat: sports lens`
+**Done (2026-11-05):** The venue (from the event's infobox, any infobox type; arcs from the teams when the box names them) → The result (winner, runner-up, score, jockey, trainer, attendance, prize…, each cited to the exact revision) → Followed around the world (readers in each Wikipedia language edition). Readers by language now also appear in every film's Readers chapter. Editions get **lens balance** (every lens with a candidate gets its best story, up to 18). Inline templates (`convert`, `nowrap`, `lang`…) are expanded before narration.
+
+**A new globe look (all story films):** NASA Blue Marble shaded relief and bathymetry in an ice grade (the event-day satellite image is now a toggle, S); the focus country **traced in light** like a pen, then breathing, over a faint fill; **radar rings** from the focus point; a **lock-on reticle** with coordinates; a 15° graticule for wide views; **cool-to-warm comparison fills** with a legend (the economy lens compares the region's inflation). Bloom removed: Cesium's bloom turned the deep-blue ocean into noise.
+
+**Checkpoint 10:** `feat: sports lens and a new globe look`
 
 ## Phase 11 · Culture lens (about 2 h)
 

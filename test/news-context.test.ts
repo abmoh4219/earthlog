@@ -88,8 +88,18 @@ describe("pickNews", () => {
     expect(texts).not.toMatch(/fictional/);
   });
 
-  it("puts the title back when the lead's subject sat in a template", () => {
-    expect(found.context?.text).toMatch(/^Jeffery Simmons \(born July 28, 1997\) is an American/);
+  it("keeps a lead's subject written inside a template (expanded, not dropped)", () => {
+    expect(found.context?.text).toMatch(
+      /^Jeffery Bernard Simmons Jr\. \(born July 28, 1997\) is an American/,
+    );
+  });
+
+  it("expands inline templates that carry words", async () => {
+    const { expandTemplate } = await import("../scripts/lenses/news-context.ts");
+    expect(expandTemplate("convert|3200|m|abbr=on")).toBe("3200 m");
+    expect(expandTemplate("nowrap|Point Of Law")).toBe("Point Of Law");
+    expect(expandTemplate("lang|es|Jesús")).toBe("Jesús");
+    expect(expandTemplate("efn|a footnote")).toBe("");
   });
 
   it("tells chosen sentences in time order", () => {

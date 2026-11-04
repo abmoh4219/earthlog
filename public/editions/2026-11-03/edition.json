@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-11-03",
-  "generatedAt": "2026-11-04T14:35:29Z",
+  "generatedAt": "2026-11-04T21:40:10Z",
   "candidates": 34,
   "stories": [
     {
@@ -344,9 +344,9 @@
       ]
     },
     {
-      "slug": "a-commercial-vessel-is-hit-by-an-unidentified-object-in-the",
+      "slug": "2026-strait-of-hormuz-crisis",
       "lens": "conflict",
-      "title": "A commercial vessel is hit by an unidentified object in the waters of Musandam…",
+      "title": "2026 Strait of Hormuz crisis",
       "summary": "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
       "headline": "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
       "article": {
@@ -447,6 +447,34 @@
       "related": [],
       "evidence": [
         "wiki:2026-11-03:5"
+      ]
+    },
+    {
+      "slug": "2026-melbourne-cup",
+      "lens": "sports",
+      "title": "2026 Melbourne Cup",
+      "summary": "In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
+      "headline": "In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher…",
+      "article": {
+        "title": "2026 Melbourne Cup",
+        "url": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
+        "qid": "Q141736900"
+      },
+      "place": {
+        "name": "Flemington Racecourse",
+        "lon": 144.9125,
+        "lat": -37.79027778,
+        "country": "AU",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-03:13"
+      },
+      "continent": "Oceania",
+      "heat": 19,
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-03:13",
+        "wd:Q141736900:P31"
       ]
     }
   ]

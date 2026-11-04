@@ -73,7 +73,15 @@ export const usePlayer = create<PlayerState>((set, get) => ({
 
   load: (bundle) => {
     const window = { start: ms(bundle.scene.window.start), end: ms(bundle.scene.window.end) };
-    set({ bundle, window, clock: initialClock(window), director: true, globeReady: false });
+    set({
+      bundle,
+      window,
+      clock: initialClock(window),
+      director: true,
+      globeReady: false,
+      // Story films open on the clean relief globe; the day's satellite image is a toggle.
+      layers: { ...get().layers, eventDay: bundle.scene.time !== "story" },
+    });
   },
   tick: (dt) => {
     const { clock, window, bundle } = get();

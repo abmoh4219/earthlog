@@ -27,6 +27,12 @@
       "from": "2026-11-03T00:00:24Z"
     },
     {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-03T00:00:50Z"
+    },
+    {
       "kind": "columns",
       "file": "data/columns-inflation.json",
       "name": "inflation",
@@ -254,6 +260,12 @@
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "AU",
+    "lon": 151.2117,
+    "lat": -33.8681,
+    "label": "Reserve Bank of Australia"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -638,6 +650,6 @@
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

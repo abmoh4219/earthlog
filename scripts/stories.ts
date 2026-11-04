@@ -15,6 +15,7 @@ import { layerKey } from "./lenses/film.ts";
 import { generalLens, type LensContext, type LensResult } from "./lenses/general.ts";
 import { organizationLens } from "./lenses/organization.ts";
 import { personLens } from "./lenses/person.ts";
+import { sportsLens } from "./lenses/sports.ts";
 
 /** Which lens films which kind of story. Specialised lenses replace `general` phase by phase. */
 const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
@@ -22,7 +23,7 @@ const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
   conflict: generalLens,
   accident: generalLens,
   disaster: generalLens,
-  sports: generalLens,
+  sports: sportsLens,
   economy: economyLens,
   science: generalLens,
   culture: generalLens,

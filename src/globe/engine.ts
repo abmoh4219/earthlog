@@ -11,6 +11,7 @@ import { Country } from "@/scene/schema";
 import {
   BLACK_MARBLE,
   BLUE_MARBLE,
+  BLUE_MARBLE_RELIEF,
   type GibsLayer,
   gibsTemplate,
   STATIC_DATES,
@@ -18,6 +19,7 @@ import {
   VIIRS_TRUE_COLOR,
 } from "./gibs";
 import { createOverlays } from "./overlays";
+import { createSpotlight } from "./spotlight";
 
 declare global {
   interface Window {
@@ -41,6 +43,7 @@ export async function createGlobe(
   container: HTMLElement,
   creditContainer: HTMLElement,
   bundle: SceneBundle,
+  hud: { reticle?: HTMLElement | null } = {},
 ): Promise<GlobeEngine> {
   const { scene } = bundle;
   // Must be set before Cesium loads its workers and assets (copied to public/cesium).
@@ -63,8 +66,27 @@ export async function createGlobe(
     return p;
   };
 
+  // Story films stand on a timeless, cloud-free globe (relief and ocean floor) graded to the
+  // "ice" look so data glows on top; the day's satellite image is an optional layer there.
+  // Real-time replays keep the event-day imagery as their ground truth.
+  const story = scene.time === "story";
+  const storyBase = () => {
+    const layer = new C.ImageryLayer(
+      story
+        ? provider(BLUE_MARBLE_RELIEF, STATIC_DATES.blueMarble)
+        : provider(BLUE_MARBLE, STATIC_DATES.blueMarble),
+    );
+    if (story) {
+      // No gamma (pow of a colour that contrast pushed below zero is NaN in the shader),
+      // and gentle contrast, so the deepest ocean blues stay valid colours.
+      layer.brightness = 0.9;
+      layer.contrast = 1.06;
+      layer.saturation = 0.74;
+    }
+    return layer;
+  };
   const widget = new C.CesiumWidget(container, {
-    baseLayer: new C.ImageryLayer(provider(BLUE_MARBLE, STATIC_DATES.blueMarble)),
+    baseLayer: storyBase(),
     skyAtmosphere: new C.SkyAtmosphere(),
     creditContainer,
     shouldAnimate: false,
@@ -77,7 +99,7 @@ export async function createGlobe(
   // Real time: the real sun position from the scene clock gives an honest day/night
   // terminator. Story time (explainers) has no time of day, so the whole globe is lit
   // with the day's satellite image and no night is implied (ADR-0013).
-  const storyTime = scene.time === "story";
+  const storyTime = story;
   // Story time: a studio key light that follows the camera from the upper left. The side we
   // see is always lit (no terminator, so no time of day is implied), but the globe gets real
   // shading toward its limb and reads as a sphere instead of a flat disc.
@@ -94,18 +116,9 @@ export async function createGlobe(
   globe.baseColor = C.Color.BLACK;
   s.backgroundColor = C.Color.BLACK;
   s.highDynamicRange = true;
-  // Story films get a soft bloom so beams, comets and pins glow like light, not paint.
-  // Kept subtle (high contrast, low brightness): only the brightest pixels bloom.
-  if (scene.time === "story") {
-    const bloom = s.postProcessStages.bloom;
-    bloom.enabled = true;
-    bloom.uniforms.glowOnly = false;
-    bloom.uniforms.contrast = 160;
-    bloom.uniforms.brightness = -0.35;
-    bloom.uniforms.delta = 1.0;
-    bloom.uniforms.sigma = 2.6;
-    bloom.uniforms.stepSize = 1.0;
-  }
+  // No bloom: Cesium's bloom (with the contrast it needs to isolate highlights) turns the
+  // relief globe's deep-blue ocean into yellow-red noise. Beams and beacons glow by their
+  // own PolylineGlow material instead.
   if (s.sun) s.sun.glowFactor = 1.4;
 
   // Night side. Honesty rule: when the scene names an event night, show the REAL
@@ -134,6 +147,16 @@ export async function createGlobe(
   eventDay.colorToAlphaThreshold = 0.02;
 
   const overlays = createOverlays(C, s, countries, bundle.layers, scene.layers);
+  const spot =
+    story && scene.spotlight
+      ? createSpotlight(C, s, countries, scene.spotlight, Date.parse(scene.window.start))
+      : undefined;
+  // The reticle (a DOM overlay) locks onto the spotlight point on screen; hidden behind the Earth.
+  const spotPoint = scene.spotlight
+    ? C.Cartesian3.fromDegrees(scene.spotlight.lon, scene.spotlight.lat, 0)
+    : undefined;
+  const occluder = new C.EllipsoidalOccluder(C.Ellipsoid.WGS84, C.Cartesian3.ZERO);
+  const screen = new C.Cartesian2();
 
   // Any user input hands the camera to the user until they resume the director.
   const handler = new C.ScreenSpaceEventHandler(s.canvas);
@@ -182,6 +205,19 @@ export async function createGlobe(
       lastBeat = beatIndex;
     }
     overlays.update(clock.t, { labels: layers.labels, active });
+    spot?.update(clock.t);
+    if (hud.reticle && spotPoint) {
+      occluder.cameraPosition = s.camera.positionWC;
+      const seen =
+        clock.t - Date.parse(scene.window.start) > 3000 &&
+        occluder.isPointVisible(spotPoint) &&
+        C.SceneTransforms.worldToWindowCoordinates(s, spotPoint, screen) !== undefined;
+      hud.reticle.style.opacity = seen ? "1" : "0";
+      // Flag the moment it appears, so the lock-on animation plays when it can be seen.
+      const on = seen ? "1" : "0";
+      if (hud.reticle.dataset.on !== on) hud.reticle.dataset.on = on;
+      if (seen) hud.reticle.style.transform = `translate(${screen.x}px, ${screen.y}px)`;
+    }
 
     if (director) {
       const pose = cameraAt(clock.t, scene.camera);
@@ -203,6 +239,7 @@ export async function createGlobe(
       removePreUpdate();
       handler.destroy();
       overlays.destroy();
+      spot?.destroy();
       widget.destroy();
     },
   };

@@ -71,6 +71,116 @@
     "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Archive_of_Our_Own&range=latest-30"
   },
   {
+    "id": "views:de:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 762 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 762,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:fr:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 686 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 686,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:es:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 561 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 561,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:zh:AO3作品库:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 538 readers of \"AO3作品库\" on 3 November 2026",
+    "value": 538,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/AO3%E4%BD%9C%E5%93%81%E5%BA%93"
+  },
+  {
+    "id": "views:ru:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 498 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 498,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:pt:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 222 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 222,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:it:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 161 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 161,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:nl:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 71 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 71,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:ja:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 50 readers of \"Archive of Our Own\" on 3 November 2026",
+    "value": 50,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:fa:آرشیو_آف_آر_اون:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 6 readers of \"آرشیو آف آر اون\" on 3 November 2026",
+    "value": 6,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%A2%D8%B1%D8%B4%DB%8C%D9%88_%D8%A2%D9%81_%D8%A2%D8%B1_%D8%A7%D9%88%D9%86"
+  },
+  {
     "id": "wd:Q27764876:P571",
     "kind": "sensor",
     "source": "wikidata",

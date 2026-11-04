@@ -9,6 +9,7 @@ import type { Country, Evidence, LayerData, Panel, Scene, Source } from "../../s
 import { fetchJson } from "../bake/lib.ts";
 import { fetchCoordinates, type RawStory } from "../bake/wikinews.ts";
 import { fetchEntities, type WdEntity } from "../edition/sources.ts";
+import { fetchLanguageReaders, LANGUAGE } from "./attention.ts";
 import { buildFilm, type ChapterDraft, type PanelDraft, type Shot } from "./film.ts";
 import { chronological, contextIsTheEvent, fetchNews } from "./news-context.ts";
 
@@ -355,13 +356,39 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
           : spike && spike >= 2
             ? `${fmt(leadViews.value)} people read about it on ${dayLabel}: about ${fmt(spike)}× the usual.`
             : `${fmt(leadViews.value)} people read about it on ${dayLabel}.`;
+    // Beyond English: readers in each Wikipedia language that day (a language is not a country).
+    const langs = story.article
+      ? await fetchLanguageReaders(story.article.title, date).catch(() => [])
+      : [];
+    const others = langs.filter((l) => l.lang !== "en");
+    const langIds = langs.map((r) =>
+      add({
+        id: `views:${r.lang}:${r.title.replace(/\s+/g, "_")}:${date}`,
+        kind: "sensor",
+        source: "wikimedia",
+        t: dayStart,
+        precision: "day",
+        label: `${LANGUAGE[r.lang] ?? r.lang} Wikipedia: ${fmt(r.views)} readers of "${r.title}" on ${dayLabel}`,
+        value: r.views,
+        unit: "readers",
+        url: `https://${r.lang}.wikipedia.org/wiki/${encodeURIComponent(r.title.replace(/ /g, "_"))}`,
+      }),
+    );
+    const beatsR: ChapterDraft["beats"] = [
+      { text, cites: [leadViewsId, ...(prior && priorId ? [use(priorId) ?? priorId] : [])] },
+    ];
+    const topOther = others[0];
+    if (langs.length >= 3 && topOther) {
+      beatsR.push({
+        text: `Read in ${langs.length} languages; after English, most in ${LANGUAGE[topOther.lang] ?? topOther.lang} (${fmt(topOther.views)}).`,
+        cites: langIds.slice(0, 1).concat(langIds[langs.indexOf(topOther)] ?? []),
+      });
+    }
     chapters.push({
       title: "Readers",
-      seconds: 11,
+      seconds: 6 + beatsR.length * 6,
       shot: { ...home, range: home.range * 1.6, pitch: -52, heading: -15 },
-      beats: [
-        { text, cites: [leadViewsId, ...(prior && priorId ? [use(priorId) ?? priorId] : [])] },
-      ],
+      beats: beatsR,
       panels: [
         {
           id: "readers",
@@ -372,6 +399,24 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
           series,
           mark: (series[0]?.points.length ?? 1) - 1,
         } satisfies PanelDraft,
+        ...(langs.length >= 3
+          ? [
+              {
+                id: "languages",
+                kind: "bars",
+                title: "Readers by language",
+                unit: "readers",
+                note: "Wikipedia language editions that day. A language is not a country.",
+                items: langs.slice(0, 7).map((r, i) => ({
+                  label: LANGUAGE[r.lang] ?? r.lang,
+                  value: r.views,
+                  text: fmt(r.views),
+                  color: i === 0 ? color : "#9ad9ff",
+                  cites: [langIds[i] ?? leadViewsId],
+                })),
+              } satisfies PanelDraft,
+            ]
+          : []),
       ],
     });
     use(leadViewsId);

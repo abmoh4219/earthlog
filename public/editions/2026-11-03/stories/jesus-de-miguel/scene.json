@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:18Z"
+    "end": "2026-11-03T00:01:25Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -186,25 +186,25 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:06Z",
+      "t": "2026-11-03T00:01:09Z",
       "lon": -16.28472222,
       "lat": 27.76055556,
       "range": 1593747.7843121854,
-      "heading": -26.3,
+      "heading": -29,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:09Z",
+      "t": "2026-11-03T00:01:16Z",
       "lon": -16.28472222,
       "lat": 27.76055556,
       "range": 1443200,
-      "heading": -37.6,
+      "heading": -43,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:12Z",
+      "t": "2026-11-03T00:01:19Z",
       "lon": -16.28472222,
       "lat": 27.76055556,
       "range": 1430000,
@@ -213,7 +213,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:13Z",
+      "t": "2026-11-03T00:01:20Z",
       "lon": -16.28472222,
       "lat": 27.76055556,
       "range": 1294920.0747536505,
@@ -222,7 +222,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:14Z",
+      "t": "2026-11-03T00:01:21Z",
       "lon": -16.28472222,
       "lat": 27.76055556,
       "range": 1172600,
@@ -231,7 +231,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:18Z",
+      "t": "2026-11-03T00:01:25Z",
       "lon": -41.28472221999999,
       "lat": 27.76055556,
       "range": 14000000,
@@ -316,7 +316,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:01:10Z",
+      "t": "2026-11-03T00:01:08Z",
+      "text": "Read in 8 languages; after English, most in Spanish (367,049).",
+      "cites": [
+        "views:en:Jesús_de_Miguel:2026-11-03",
+        "views:es:Jesús_de_Miguel_Alameda:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:17Z",
       "text": "Reported by CNN.",
       "cites": [
         "wiki:2026-11-03:12"
@@ -324,6 +332,12 @@
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "ES",
+    "lon": -16.28472222,
+    "lat": 28.44805556,
+    "label": "Hospital Universitario Nuestra Señora de Candelaria"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -350,7 +364,7 @@
       "title": "Readers"
     },
     {
-      "t": "2026-11-03T00:01:10Z",
+      "t": "2026-11-03T00:01:17Z",
       "title": "Reported by"
     }
   ],
@@ -825,7 +839,81 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:01:00Z",
-      "until": "2026-11-03T00:01:10Z"
+      "until": "2026-11-03T00:01:17Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 585060,
+          "text": "585,060",
+          "color": "#f5c2a0",
+          "cites": [
+            "views:en:Jesús_de_Miguel:2026-11-03"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "value": 367049,
+          "text": "367,049",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Jesús_de_Miguel_Alameda:2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 58126,
+          "text": "58,126",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Jesús_de_Miguel:2026-11-03"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "value": 29800,
+          "text": "29,800",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:خيسوس_دي_ميغيل:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 9682,
+          "text": "9,682",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Jesús_de_Miguel:2026-11-03"
+          ]
+        },
+        {
+          "label": "Russian",
+          "value": 7680,
+          "text": "7,680",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-03"
+          ]
+        },
+        {
+          "label": "Persian",
+          "value": 6538,
+          "text": "6,538",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:خسوس_د_میگل:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:01:00Z",
+      "until": "2026-11-03T00:01:17Z"
     },
     {
       "id": "sources",
@@ -842,12 +930,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:01:11Z",
-      "until": "2026-11-03T00:01:18Z"
+      "t": "2026-11-03T00:01:18Z",
+      "until": "2026-11-03T00:01:25Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

@@ -141,6 +141,83 @@
     "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=CD_Tenerife&range=latest-30"
   },
   {
+    "id": "views:es:Jesús_de_Miguel_Alameda:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 367,049 readers of \"Jesús de Miguel Alameda\" on 3 November 2026",
+    "value": 367049,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel_Alameda"
+  },
+  {
+    "id": "views:de:Jesús_de_Miguel:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 58,126 readers of \"Jesús de Miguel\" on 3 November 2026",
+    "value": 58126,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
+    "id": "views:ar:خيسوس_دي_ميغيل:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 29,800 readers of \"خيسوس دي ميغيل\" on 3 November 2026",
+    "value": 29800,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AE%D9%8A%D8%B3%D9%88%D8%B3_%D8%AF%D9%8A_%D9%85%D9%8A%D8%BA%D9%8A%D9%84"
+  },
+  {
+    "id": "views:fr:Jesús_de_Miguel:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 9,682 readers of \"Jesús de Miguel\" on 3 November 2026",
+    "value": 9682,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
+    "id": "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 7,680 readers of \"Де Мигель, Хесус (футболист)\" on 3 November 2026",
+    "value": 7680,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5_%D0%9C%D0%B8%D0%B3%D0%B5%D0%BB%D1%8C%2C_%D0%A5%D0%B5%D1%81%D1%83%D1%81_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%B8%D1%81%D1%82)"
+  },
+  {
+    "id": "views:fa:خسوس_د_میگل:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 6,538 readers of \"خسوس د میگل\" on 3 November 2026",
+    "value": 6538,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%AE%D8%B3%D9%88%D8%B3_%D8%AF_%D9%85%DB%8C%DA%AF%D9%84"
+  },
+  {
+    "id": "views:pt:Jesús_de_Miguel:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 3,987 readers of \"Jesús de Miguel\" on 3 November 2026",
+    "value": 3987,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
     "id": "wd:Q116992476:P569",
     "kind": "sensor",
     "source": "wikidata",

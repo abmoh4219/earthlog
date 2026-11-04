@@ -163,7 +163,9 @@ A scene is **rejected** if:
 - **The Cesium adapter (thin):**
   - creates the `Viewer` with no default widgets and no ion, plus dated GIBS imagery layers;
   - draws layers with primitives (points, polylines, polygons), not thousands of Entities;
-  - applies the camera pose each frame.
+  - applies the camera pose each frame;
+  - in story films: a relief globe, a camera-following key light, and the **spotlight** (`src/globe/spotlight.ts`): the focus country traced in light, radar rings and a graticule, all driven by the scene clock. A DOM reticle locks onto the spotlight point;
+  - layers: places (with beacons), arcs (glowing, with comets), regions (named, timed, pulsing comparison fills) and columns (3D bars rising from the ground).
 - **React UI:** landing, timeline (scrubber, markers for beats and evidence), captions (cinema mode with letterbox), evidence drawer, credits, share link (`?event=&t=`).
 
 ## 5. Director (`scripts/direct.ts`)

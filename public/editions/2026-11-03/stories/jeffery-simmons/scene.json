@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:02Z"
+    "end": "2026-11-03T00:01:09Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -159,29 +159,29 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:56Z",
+      "t": "2026-11-03T00:00:59Z",
       "lon": -97.48,
       "lat": 37.415,
       "range": 4926129.515146755,
-      "heading": -3.6999999999999993,
+      "heading": -1,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:58Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": -97.48,
       "lat": 37.415,
       "range": 4460800,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:02Z",
+      "t": "2026-11-03T00:01:09Z",
       "lon": -122.48000000000002,
       "lat": 37.415,
       "range": 14000000,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -88,
       "move": "flight"
     }
@@ -244,9 +244,23 @@
         "views:en:Jeffery_Simmons:2026-11-03",
         "views:en:Jeffery_Simmons:prior"
       ]
+    },
+    {
+      "t": "2026-11-03T00:01:00Z",
+      "text": "Read in 9 languages; after English, most in German (722).",
+      "cites": [
+        "views:en:Jeffery_Simmons:2026-11-03",
+        "views:de:Jeffery_Simmons:2026-11-03"
+      ]
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -447,11 +461,85 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:02Z"
+      "until": "2026-11-03T00:01:09Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 111232,
+          "text": "111,232",
+          "color": "#f5c2a0",
+          "cites": [
+            "views:en:Jeffery_Simmons:2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 722,
+          "text": "722",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Jeffery_Simmons:2026-11-03"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "value": 614,
+          "text": "614",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Jeffery_Simmons:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 210,
+          "text": "210",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Jeffery_Simmons:2026-11-03"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "value": 209,
+          "text": "209",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Jeffery_Simmons:2026-11-03"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "value": 125,
+          "text": "125",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:ジェフェリー・シモンズ:2026-11-03"
+          ]
+        },
+        {
+          "label": "Italian",
+          "value": 97,
+          "text": "97",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Jeffery_Simmons:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:09Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

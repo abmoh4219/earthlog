@@ -163,3 +163,38 @@ function dateFrom(v: string): string {
   if (m?.[1] && m[2] && m[3]) return `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`;
   return plainText(v);
 }
+
+/** The body of the first infobox of any kind ({{Infobox horse race}}, {{Infobox football match}} …). */
+export function anyInfobox(
+  wikitext: string,
+): { type: string; params: Map<string, string> } | undefined {
+  const start = wikitext.search(/\{\{\s*Infobox\b/i);
+  if (start < 0) return undefined;
+  let depth = 0;
+  for (let i = start; i < wikitext.length - 1; i++) {
+    if (wikitext[i] === "{" && wikitext[i + 1] === "{") {
+      depth++;
+      i++;
+    } else if (wikitext[i] === "}" && wikitext[i + 1] === "}") {
+      depth--;
+      i++;
+      if (depth === 0) {
+        const body = wikitext.slice(start + 2, i - 1);
+        const type = (/^\s*Infobox\s*([^|\n]*)/i.exec(body)?.[1] ?? "").trim();
+        const p = params(body);
+        // Parameter names vary in spacing and case ("winning horse", "Winning_horse").
+        const norm = new Map(
+          [...p].map(([k, v]) => [
+            k
+              .toLowerCase()
+              .replace(/[_\s]+/g, " ")
+              .trim(),
+            v,
+          ]),
+        );
+        return { type, params: norm };
+      }
+    }
+  }
+  return undefined;
+}

@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-2026-melbourne-cup",
+  "title": "2026 Melbourne Cup",
+  "subtitle": "Sports · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:01:06Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 134.9125,
+    "south": -45.79027778,
+    "east": 154.9125,
+    "north": -29.790277779999997
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-03T00:00:24Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": -177.08749999999998,
+      "lat": -23.086666667999996,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:14Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:23Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:26Z",
+      "lon": 144.9125,
+      "lat": -38.29027778,
+      "range": 550000,
+      "heading": 20,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:29Z",
+      "lon": 144.9125,
+      "lat": -38.29027778,
+      "range": 498046.1825975579,
+      "heading": 11.1,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:31Z",
+      "lon": 144.9125,
+      "lat": -38.29027778,
+      "range": 451000,
+      "heading": 2.1999999999999993,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:34Z",
+      "lon": 144.9125,
+      "lat": -38.99027778,
+      "range": 1300000,
+      "heading": -14,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:41Z",
+      "lon": 144.9125,
+      "lat": -38.99027778,
+      "range": 1177200.0679578641,
+      "heading": 0,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:48Z",
+      "lon": 144.9125,
+      "lat": -38.99027778,
+      "range": 1066000,
+      "heading": 14,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
+      "lon": 144.596805555,
+      "lat": -37.622222224999994,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:54Z",
+      "lon": 144.596805555,
+      "lat": -37.622222224999994,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:57Z",
+      "lon": 144.596805555,
+      "lat": -37.622222224999994,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:00Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:01Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:02Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:06Z",
+      "lon": 119.91250000000002,
+      "lat": -38.47777778,
+      "range": 14000000,
+      "heading": 7.800000000000001,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher…",
+      "cites": [
+        "wiki:2026-11-03:13"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "text": "The race, ran over 3200 m, was held on 3 November 2026 at Melbourne's Flemington Racecourse.",
+      "cites": [
+        "wiki:rev:1383732467:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "text": "The 2026 Melbourne Cup, known commercially as the 2026 Lexus Melbourne Cup, was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
+      "cites": [
+        "wiki:rev:1383732467:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
+      "text": "2026 Melbourne Cup took place at Flemington Racecourse, Melbourne, Australia.",
+      "cites": [
+        "wiki:box:1383732467:venue"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
+      "text": "Point Of Law won, ridden by Ethan Brown and trained by Ciaron Maher.",
+      "cites": [
+        "wiki:box:1383732467:winner",
+        "wiki:box:1383732467:jockey",
+        "wiki:box:1383732467:trainer"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:41Z",
+      "text": "97,112 people were there.",
+      "cites": [
+        "wiki:box:1383732467:attendance"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:49Z",
+      "text": "Also named in the reports: Victoria.",
+      "cites": [
+        "wiki:2026-11-03:13"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:58Z",
+      "text": "Reported by AFP.",
+      "cites": [
+        "wiki:2026-11-03:13"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "AU",
+    "lon": 144.9125,
+    "lat": -37.79027778,
+    "label": "Flemington Racecourse"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
+      "title": "The venue"
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
+      "title": "The result"
+    },
+    {
+      "t": "2026-11-03T00:00:49Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-03T00:00:58Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "result",
+      "kind": "facts",
+      "title": "The result",
+      "note": "From the event's Wikipedia infobox (revision of 2026-11-04).",
+      "items": [
+        {
+          "label": "Winner",
+          "text": "Point Of Law",
+          "cites": [
+            "wiki:box:1383732467:winner"
+          ]
+        },
+        {
+          "label": "Jockey",
+          "text": "Ethan Brown",
+          "cites": [
+            "wiki:box:1383732467:jockey"
+          ]
+        },
+        {
+          "label": "Trainer",
+          "text": "Ciaron Maher",
+          "cites": [
+            "wiki:box:1383732467:trainer"
+          ]
+        },
+        {
+          "label": "Attendance",
+          "text": "97,112",
+          "cites": [
+            "wiki:box:1383732467:attendance"
+          ]
+        },
+        {
+          "label": "Distance",
+          "text": "3,200 metres",
+          "cites": [
+            "wiki:box:1383732467:distance"
+          ]
+        },
+        {
+          "label": "Dates",
+          "text": "3 November 2026",
+          "cites": [
+            "wiki:box:1383732467:dates"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:49Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/king-charless-former-horse-point-law-wins-melbourne-cup",
+          "cites": [
+            "wiki:2026-11-03:13"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:59Z",
+      "until": "2026-11-03T00:01:06Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T21:44:08Z"
+  }
+}

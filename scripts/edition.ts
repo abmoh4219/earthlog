@@ -67,7 +67,15 @@ if (process.argv.includes("--record")) {
       mostRead,
       news,
       qids: [...qids],
-      entities: [...entities.values()],
+      // Only what the builder reads: keeps the fixture small.
+      entities: [...entities.values()].map(({ id, label, items, coord, iso2, died }) => ({
+        id,
+        ...(label ? { label } : {}),
+        items,
+        ...(coord ? { coord } : {}),
+        ...(iso2 ? { iso2 } : {}),
+        ...(died ? { died } : {}),
+      })),
       links: [...links].map(([k, v]) => [k, [...v]]),
     },
     false,

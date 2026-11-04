@@ -128,6 +128,24 @@
     ]
   },
   {
+    "id": "wiki:2026-11-03:13",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "lon": 144.9125,
+    "lat": -37.79027778,
+    "label": "Sports: In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
+    "quote": "In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_3&oldid=1383727452",
+    "links": [
+      {
+        "url": "https://www.afp.com/en/king-charless-former-horse-point-law-wins-melbourne-cup",
+        "name": "AFP"
+      }
+    ]
+  },
+  {
     "id": "views:en:2026_United_States_elections:2026-11-03",
     "kind": "sensor",
     "source": "wikimedia",
@@ -683,5 +701,14 @@
     "precision": "day",
     "label": "Wikidata: \"2026 Iran war fuel crisis\" is an instance of energy crisis",
     "url": "https://www.wikidata.org/wiki/Q138843305"
+  },
+  {
+    "id": "wd:Q141736900:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"2026 Melbourne Cup\" is an instance of horse race, recurring sporting event edition",
+    "url": "https://www.wikidata.org/wiki/Q141736900"
   }
 ]

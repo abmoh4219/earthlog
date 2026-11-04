@@ -50,6 +50,8 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 
 - **Times:** IODA uses Unix seconds, and USGS uses epoch milliseconds or ISO. Everything is normalised to ISO UTC at bake time.
 - **The Wikipedia article title changes.** The REST API wants the *current* title (redirects resolved), and views on the event day may sit under an older title. Bakers resolve redirects and sum across them.
+- **Story-film base globe:** GIBS `BlueMarble_ShadedRelief_Bathymetry` (static, `GoogleMapsCompatible_Level8`, JPEG; NASA, no copyright). Graded in the client (brightness, contrast, saturation). Don't add Cesium's bloom on top: it turns the deep-blue ocean into yellow-red noise (seen 2026-11-04).
+- **Sports infoboxes vary by sport** (`Infobox horse race`, `Infobox football tournament`…). The sports lens reads any infobox and maps several key spellings to one label (`winning horse`, `winner`, `champion` → Winner).
 - **GIBS tile matrix sets differ per layer:** for example, the night-lights layer exists at `Level8`, not `Level7`. Layer metadata comes from GIBS `GetCapabilities`, not guesses.
 - **IODA signals measure connectivity, not people.** Narration says "internet traffic fell to 54% of normal", never "54% of people lost internet".
 - **IODA's copyright line**, verbatim in each response: "Copyright (c) 2021-2025 Georgia Tech Research Corporation. All Rights Reserved." Bakers copy it into `sources.json`, next to our attribution (see the decision above).

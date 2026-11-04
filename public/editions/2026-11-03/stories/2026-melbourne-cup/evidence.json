@@ -1,0 +1,156 @@
+[
+  {
+    "id": "wiki:2026-11-03:13",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-03T00:00:00Z",
+    "lon": 144.9125,
+    "lat": -37.79027778,
+    "label": "Sports: In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_3&oldid=1383727452",
+    "quote": "In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/king-charless-former-horse-point-law-wins-melbourne-cup"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q141736900:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"2026 Melbourne Cup\" is an instance of horse race, recurring sporting event edition",
+    "url": "https://www.wikidata.org/wiki/Q141736900",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383732467:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" (revision of 2026-11-04 13:42 UTC)",
+    "quote": "The race, ran over 3200 m, was held on 3 November 2026 at Melbourne's Flemington Racecourse.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "wiki:rev:1383732467:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" (revision of 2026-11-04 13:42 UTC)",
+    "quote": "The 2026 Melbourne Cup, known commercially as the 2026 Lexus Melbourne Cup, was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "views:en:2026_Melbourne_Cup:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Melbourne Cup\", 14 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Melbourne_Cup&range=latest-30"
+  },
+  {
+    "id": "wd:Q141736900:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Melbourne Cup\": date 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q141736900#P585"
+  },
+  {
+    "id": "wd:Q141736900:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Melbourne Cup\": sport horse racing",
+    "url": "https://www.wikidata.org/wiki/Q141736900#P641"
+  },
+  {
+    "id": "wd:Q141736900:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Melbourne Cup\": country Australia",
+    "url": "https://www.wikidata.org/wiki/Q141736900#P17"
+  },
+  {
+    "id": "wiki:box:1383732467:winner",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-04 13:42 UTC): winner: Point Of Law",
+    "quote": "winner: Point Of Law",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "wiki:box:1383732467:jockey",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-04 13:42 UTC): jockey: Ethan Brown",
+    "quote": "jockey: Ethan Brown",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "wiki:box:1383732467:trainer",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-04 13:42 UTC): trainer: Ciaron Maher",
+    "quote": "trainer: Ciaron Maher",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "wiki:box:1383732467:attendance",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-04 13:42 UTC): attendance: 97,112",
+    "quote": "attendance: 97,112",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "wiki:box:1383732467:distance",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-04 13:42 UTC): distance: 3,200 metres",
+    "quote": "distance: 3,200 metres",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "wiki:box:1383732467:dates",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-04 13:42 UTC): dates: 3 November 2026",
+    "quote": "dates: 3 November 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  },
+  {
+    "id": "wiki:box:1383732467:venue",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-04 13:42 UTC): venue: Flemington Racecourse, Melbourne, Australia",
+    "quote": "venue: Flemington Racecourse, Melbourne, Australia",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383732467"
+  }
+]

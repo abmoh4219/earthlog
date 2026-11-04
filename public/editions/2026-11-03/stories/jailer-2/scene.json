@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:53Z"
+    "end": "2026-11-03T00:01:00Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -132,29 +132,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:46Z",
+      "t": "2026-11-03T00:00:50Z",
       "lon": 79.36,
       "lat": 20.565,
       "range": 4926129.515146755,
-      "heading": -26.3,
+      "heading": -29,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:49Z",
+      "t": "2026-11-03T00:00:56Z",
       "lon": 79.36,
       "lat": 20.565,
       "range": 4460800,
-      "heading": -37.6,
+      "heading": -43,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:53Z",
+      "t": "2026-11-03T00:01:00Z",
       "lon": 54.360000000000014,
       "lat": 20.565,
       "range": 14000000,
-      "heading": -37.6,
+      "heading": -43,
       "pitch": -88,
       "move": "flight"
     }
@@ -202,9 +202,23 @@
         "views:en:Jailer_2:2026-11-03",
         "views:en:Jailer_2:prior"
       ]
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
+      "text": "Read in 5 languages; after English, most in Tamil (210).",
+      "cites": [
+        "views:en:Jailer_2:2026-11-03",
+        "views:ta:ஜெயிலர்_2:2026-11-03"
+      ]
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "IN",
+    "lon": 79.36,
+    "lat": 22.69,
+    "label": "India"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -401,11 +415,67 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:00:43Z",
-      "until": "2026-11-03T00:00:53Z"
+      "until": "2026-11-03T00:01:00Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 96128,
+          "text": "96,128",
+          "color": "#ff8fd0",
+          "cites": [
+            "views:en:Jailer_2:2026-11-03"
+          ]
+        },
+        {
+          "label": "Tamil",
+          "value": 210,
+          "text": "210",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ta:ஜெயிலர்_2:2026-11-03"
+          ]
+        },
+        {
+          "label": "Bengali",
+          "value": 19,
+          "text": "19",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:bn:জেলার_২:2026-11-03"
+          ]
+        },
+        {
+          "label": "Malay",
+          "value": 12,
+          "text": "12",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ms:Jailer_2:2026-11-03"
+          ]
+        },
+        {
+          "label": "Persian",
+          "value": 10,
+          "text": "10",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:زندانبان_۲:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:43Z",
+      "until": "2026-11-03T00:01:00Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

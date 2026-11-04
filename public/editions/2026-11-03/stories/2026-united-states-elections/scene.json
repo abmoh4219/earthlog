@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:34Z"
+    "end": "2026-11-03T00:01:41Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -196,25 +196,25 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:21Z",
+      "t": "2026-11-03T00:01:25Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1593747.7843121854,
-      "heading": -26.3,
+      "heading": -29,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:25Z",
+      "t": "2026-11-03T00:01:32Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1443200,
-      "heading": -37.6,
+      "heading": -43,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:28Z",
+      "t": "2026-11-03T00:01:35Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1430000,
@@ -223,7 +223,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:29Z",
+      "t": "2026-11-03T00:01:36Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1294920.0747536505,
@@ -232,7 +232,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:30Z",
+      "t": "2026-11-03T00:01:37Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1172600,
@@ -241,7 +241,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:34Z",
+      "t": "2026-11-03T00:01:41Z",
       "lon": -102.00888888999998,
       "lat": 38.20138889,
       "range": 14000000,
@@ -348,7 +348,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:01:26Z",
+      "t": "2026-11-03T00:01:24Z",
+      "text": "Read in 10 languages; after English, most in Persian (28,399).",
+      "cites": [
+        "views:en:2026_United_States_elections:2026-11-03",
+        "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:33Z",
       "text": "Reported by The Guardian and Reuters.",
       "cites": [
         "wiki:2026-11-03:10",
@@ -357,6 +365,12 @@
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -77.00888889,
+    "lat": 38.88888889,
+    "label": "United States House of Representatives"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -383,7 +397,7 @@
       "title": "Readers"
     },
     {
-      "t": "2026-11-03T00:01:26Z",
+      "t": "2026-11-03T00:01:33Z",
       "title": "Reported by"
     }
   ],
@@ -999,7 +1013,81 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:01:16Z",
-      "until": "2026-11-03T00:01:26Z"
+      "until": "2026-11-03T00:01:33Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 455194,
+          "text": "455,194",
+          "color": "#b49bff",
+          "cites": [
+            "views:en:2026_United_States_elections:2026-11-03"
+          ]
+        },
+        {
+          "label": "Persian",
+          "value": 28399,
+          "text": "28,399",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-03"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "value": 18159,
+          "text": "18,159",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 17375,
+          "text": "17,375",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Wahlen_in_den_Vereinigten_Staaten_2026:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 16692,
+          "text": "16,692",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Élections_de_2026_aux_États-Unis:2026-11-03"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "value": 15744,
+          "text": "15,744",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:2026年美國選舉:2026-11-03"
+          ]
+        },
+        {
+          "label": "Italian",
+          "value": 10496,
+          "text": "10,496",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:01:16Z",
+      "until": "2026-11-03T00:01:33Z"
     },
     {
       "id": "sources",
@@ -1032,12 +1120,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:01:27Z",
-      "until": "2026-11-03T00:01:34Z"
+      "t": "2026-11-03T00:01:34Z",
+      "until": "2026-11-03T00:01:41Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

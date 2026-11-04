@@ -13,6 +13,17 @@ export interface GibsLayer {
 }
 
 /** Cloud-free monthly composite: a calm, beautiful base for the whole planet. */
+/**
+ * Cloud-free Blue Marble with shaded relief and ocean-floor bathymetry (seamless, timeless):
+ * the base for story films, where the day's weather is not part of the story.
+ */
+export const BLUE_MARBLE_RELIEF: GibsLayer = {
+  id: "BlueMarble_ShadedRelief_Bathymetry",
+  maxLevel: 8,
+  ext: "jpeg",
+  credit: "NASA Blue Marble: shaded relief and bathymetry",
+};
+
 export const BLUE_MARBLE: GibsLayer = {
   id: "BlueMarble_NextGeneration",
   maxLevel: 8,

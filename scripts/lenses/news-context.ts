@@ -52,6 +52,28 @@ export async function fetchRevision(title: string, before?: string): Promise<Rev
   };
 }
 
+/** The text a few common inline templates stand for; everything else becomes "". */
+export function expandTemplate(body: string): string {
+  const parts = body.split("|").map((p) => p.trim());
+  const name = (parts[0] ?? "").toLowerCase();
+  const args = parts.slice(1).filter((p) => !p.includes("="));
+  if (name === "convert" || name === "cvt") return args.length >= 2 ? `${args[0]} ${args[1]}` : "";
+  if (["nowrap", "nobr", "small", "big", "sic", "lang-en"].includes(name)) return args.join(" ");
+  if (name === "lang" || name.startsWith("lang-")) return args.at(-1) ?? "";
+  if (name === "abbr") return args[0] ?? "";
+  if (name === "money" || name === "currency") return args.join(" ");
+  if (
+    /^(us|aus|au|nz|gb|can|ca|eur|inr|jpy)?\$|^(us\$|a\$|au\$|£|€|¥|₹)$/i.test(name) ||
+    name === "usd" ||
+    name === "aud" ||
+    name === "gbp" ||
+    name === "eur"
+  ) {
+    return args[0] ? `${name.toUpperCase()} ${args[0]}` : "";
+  }
+  return "";
+}
+
 /** Sections that never carry the news: plots, casts, lists and apparatus. */
 const SKIP =
   /^(plot|synopsis|premise|cast|characters|episodes|track listing|discography|filmography|bibliography|references|notes|citations|sources|external links|further reading|see also|gallery|statistics|career statistics|honours|honors|awards and nominations)$/i;
@@ -89,7 +111,10 @@ export function sentences(wikitext: string): Sentence[] {
     // Spacing templates and entities stand between words; keep the space when removing them.
     .replace(/\{\{\s*(?:nbsp|snd|spaced (?:en|em) dash|ndash|mdash)\s*\}\}/gi, " ")
     .replace(/&nbsp;|&#160;/g, " ");
-  for (let i = 0; i < 4; i++) w = w.replace(/\{\{[^{}]*\}\}/g, "");
+  // Templates that carry words are expanded, not dropped ("ran over {{convert|3200|m}}" →
+  // "ran over 3200 m"); the rest are removed.
+  for (let i = 0; i < 4; i++)
+    w = w.replace(/\{\{([^{}]*)\}\}/g, (_, body: string) => expandTemplate(body));
   w = w
     .replace(/\{\|[\s\S]*?\|\}/g, "")
     .replace(/\[\[(?:File|Image|Category):[^\]]*\]\]/gi, "")

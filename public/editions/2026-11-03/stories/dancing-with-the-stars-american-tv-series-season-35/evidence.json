@@ -101,5 +101,16 @@
     "label": "English Wikipedia daily readers of \"Jenna Dewan\", 5 October 2026 to 3 November 2026",
     "unit": "readers",
     "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jenna_Dewan&range=latest-30"
+  },
+  {
+    "id": "views:es:Anexo:Trigesimoquinta_temporada_de_Dancing_with_the_Stars_(Estados_Unidos):2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 310 readers of \"Anexo:Trigesimoquinta temporada de Dancing with the Stars (Estados Unidos)\" on 3 November 2026",
+    "value": 310,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Anexo%3ATrigesimoquinta_temporada_de_Dancing_with_the_Stars_(Estados_Unidos)"
   }
 ]

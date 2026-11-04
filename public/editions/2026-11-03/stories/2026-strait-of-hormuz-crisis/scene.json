@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "id": "story-2026-11-03-a-commercial-vessel-is-hit-by-an-unidentified-object-in-the",
-  "title": "A commercial vessel is hit by an unidentified object in the waters of Musandam…",
+  "id": "story-2026-11-03-2026-strait-of-hormuz-crisis",
+  "title": "2026 Strait of Hormuz crisis",
   "subtitle": "Conflict · 3 November 2026",
   "category": "daily",
   "window": {
@@ -250,6 +250,12 @@
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "OM",
+    "lon": 56.28333333,
+    "lat": 25.91666667,
+    "label": "Musandam Governorate"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -318,6 +324,6 @@
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

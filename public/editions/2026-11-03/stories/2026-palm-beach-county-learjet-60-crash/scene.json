@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:02Z"
+    "end": "2026-11-03T00:01:09Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -159,29 +159,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:55Z",
+      "t": "2026-11-03T00:00:59Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 1593747.7843121854,
-      "heading": -3.6999999999999993,
+      "heading": -1,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:58Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 1443200,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:02Z",
+      "t": "2026-11-03T00:01:09Z",
       "lon": -105.1131111111111,
       "lat": 25.94538888888889,
       "range": 14000000,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -88,
       "move": "flight"
     }
@@ -204,14 +204,14 @@
       "t": "2026-11-03T00:00:08Z",
       "text": "John I. Leonard Community High School, a public high school located near the crash site, was closed on November 2 as emergency crews and investigators continued operations in the vicinity.",
       "cites": [
-        "wiki:rev:1383766682:28"
+        "wiki:rev:1383766682:27"
       ]
     },
     {
       "t": "2026-11-03T00:00:16Z",
       "text": "During a second press briefing on November 3, Chapman confirmed that the elevator had separated prior to impact.",
       "cites": [
-        "wiki:rev:1383766682:41"
+        "wiki:rev:1383766682:40"
       ]
     },
     {
@@ -236,9 +236,23 @@
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:prior"
       ]
+    },
+    {
+      "t": "2026-11-03T00:01:00Z",
+      "text": "Read in 10 languages; after English, most in German (9,654).",
+      "cites": [
+        "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
+        "views:de:Flugzeugabsturz_am_1._November_2026_in_Palm_Beach:2026-11-03"
+      ]
     }
   ],
   "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -80.11311111111111,
+    "lat": 26.63288888888889,
+    "label": "Palm Beach County"
+  },
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -449,11 +463,85 @@
       ],
       "mark": 1,
       "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:02Z"
+      "until": "2026-11-03T00:01:09Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 132447,
+          "text": "132,447",
+          "color": "#e8f6ff",
+          "cites": [
+            "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 9654,
+          "text": "9,654",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Flugzeugabsturz_am_1._November_2026_in_Palm_Beach:2026-11-03"
+          ]
+        },
+        {
+          "label": "Russian",
+          "value": 6849,
+          "text": "6,849",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Катастрофа_Learjet_60_в_Гринэйкрсе:2026-11-03"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "value": 5560,
+          "text": "5,560",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:2026年佛罗里达州Learjet_60坠毁事故:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 2955,
+          "text": "2,955",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Crash_d'un_Learjet_60_à_Palm_Beach:2026-11-03"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "value": 1486,
+          "text": "1,486",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Accidente_del_Learjet_60_de_LR60271_LLC_en_2026:2026-11-03"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "value": 757,
+          "text": "757",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Queda_do_Learjet_60_em_Palm_Beach_em_2026:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:09Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }

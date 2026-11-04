@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:02Z"
+    "end": "2026-11-03T00:01:09Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -159,29 +159,29 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:56Z",
+      "t": "2026-11-03T00:01:00Z",
       "lon": 0,
       "lat": 20,
       "range": 23181785.953631785,
-      "heading": -3.6999999999999993,
+      "heading": -1,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:58Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": 0,
       "lat": 20,
       "range": 20992000,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:02Z",
+      "t": "2026-11-03T00:01:09Z",
       "lon": -25,
       "lat": 20,
       "range": 62976000,
-      "heading": 7.600000000000001,
+      "heading": 13,
       "pitch": -88,
       "move": "flight"
     }
@@ -241,6 +241,14 @@
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:en:Archive_of_Our_Own:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:00Z",
+      "text": "Read in 11 languages; after English, most in German (762).",
+      "cites": [
+        "views:en:Archive_of_Our_Own:2026-11-03",
+        "views:de:Archive_of_Our_Own:2026-11-03"
       ]
     }
   ],
@@ -540,11 +548,85 @@
       ],
       "mark": 29,
       "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:02Z"
+      "until": "2026-11-03T00:01:09Z"
+    },
+    {
+      "id": "languages",
+      "kind": "bars",
+      "title": "Readers by language",
+      "unit": "readers",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "items": [
+        {
+          "label": "English",
+          "value": 85012,
+          "text": "85,012",
+          "color": "#5ef2ff",
+          "cites": [
+            "views:en:Archive_of_Our_Own:2026-11-03"
+          ]
+        },
+        {
+          "label": "German",
+          "value": 762,
+          "text": "762",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Archive_of_Our_Own:2026-11-03"
+          ]
+        },
+        {
+          "label": "French",
+          "value": 686,
+          "text": "686",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Archive_of_Our_Own:2026-11-03"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "value": 561,
+          "text": "561",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Archive_of_Our_Own:2026-11-03"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "value": 538,
+          "text": "538",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:AO3作品库:2026-11-03"
+          ]
+        },
+        {
+          "label": "Russian",
+          "value": 498,
+          "text": "498",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Archive_of_Our_Own:2026-11-03"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "value": 222,
+          "text": "222",
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Archive_of_Our_Own:2026-11-03"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:09Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:51:13Z"
+    "at": "2026-11-04T21:44:08Z"
   }
 }
