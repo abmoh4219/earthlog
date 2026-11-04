@@ -1,0 +1,157 @@
+// The Cesium adapter. Thin on purpose: the scene maths lives in src/scene/ (pure),
+// this file only turns poses and toggles into Cesium calls.
+// No Cesium ion, no Google tiles, no keys: imagery comes from NASA GIBS (ADR-0002).
+import type * as CesiumNS from "cesium";
+import { usePlayer } from "@/player/store";
+import { cameraAt } from "@/scene/camera";
+import type { Scene } from "@/scene/schema";
+import {
+  BLACK_MARBLE,
+  BLUE_MARBLE,
+  type GibsLayer,
+  gibsTemplate,
+  STATIC_DATES,
+  VIIRS_NIGHT,
+  VIIRS_TRUE_COLOR,
+} from "./gibs";
+
+declare global {
+  interface Window {
+    CESIUM_BASE_URL?: string;
+  }
+}
+
+export interface GlobeEngine {
+  destroy: () => void;
+}
+
+const DEG = Math.PI / 180;
+
+export async function createGlobe(
+  container: HTMLElement,
+  creditContainer: HTMLElement,
+  scene: Scene,
+): Promise<GlobeEngine> {
+  // Must be set before Cesium loads its workers and assets (copied to public/cesium).
+  window.CESIUM_BASE_URL = "/cesium/";
+  const C = await import("cesium");
+
+  const provider = (layer: GibsLayer, date: string, rectangle?: CesiumNS.Rectangle) => {
+    const p = new C.UrlTemplateImageryProvider({
+      url: gibsTemplate(layer, date),
+      maximumLevel: layer.maxLevel,
+      credit: new C.Credit(`${layer.credit} · NASA GIBS`),
+      ...(rectangle ? { rectangle } : {}),
+    });
+    // GIBS answers 404 for tiles with no data (e.g. outside a night-lights swath).
+    // A listener stops Cesium logging every miss; one retry covers transient errors,
+    // then the tile simply stays empty and the layer below shows through.
+    p.errorEvent.addEventListener((err: CesiumNS.TileProviderError) => {
+      err.retry = err.timesRetried < 1;
+    });
+    return p;
+  };
+
+  const widget = new C.CesiumWidget(container, {
+    baseLayer: new C.ImageryLayer(provider(BLUE_MARBLE, STATIC_DATES.blueMarble)),
+    skyAtmosphere: new C.SkyAtmosphere(),
+    creditContainer,
+    shouldAnimate: false,
+    scene3DOnly: true,
+    msaaSamples: 4,
+  });
+
+  const s = widget.scene;
+  const globe = s.globe;
+  // Real sun position from the scene clock gives an honest day/night terminator.
+  globe.enableLighting = true;
+  globe.dynamicAtmosphereLighting = true;
+  globe.dynamicAtmosphereLightingFromSun = true;
+  globe.showGroundAtmosphere = true;
+  globe.baseColor = C.Color.BLACK;
+  s.backgroundColor = C.Color.BLACK;
+  s.highDynamicRange = true;
+  if (s.sun) s.sun.glowFactor = 1.4;
+
+  // Night side. Honesty rule: when the scene names an event night, show the REAL
+  // VIIRS pass of that night (opaque), never the pretty multi-year composite: a
+  // composite would paint city lights over a blackout. The composite is only used
+  // when no event night is given, and the credits say which one is on screen.
+  const eventNight = scene.imagery.nights.at(-1);
+  const nightLights = s.imageryLayers.addImageryProvider(
+    eventNight
+      ? provider(VIIRS_NIGHT, eventNight)
+      : provider(BLACK_MARBLE, STATIC_DATES.blackMarble),
+  );
+  nightLights.dayAlpha = 0;
+  nightLights.nightAlpha = 1;
+
+  // Day side: the actual satellite image of the event day, worldwide. Swath gaps in the
+  // daily mosaic are black; colorToAlpha turns them transparent so the Blue Marble
+  // shows through instead of black wedges.
+  const eventDay = s.imageryLayers.addImageryProvider(
+    provider(VIIRS_TRUE_COLOR, scene.imagery.day),
+  );
+  eventDay.dayAlpha = 1;
+  eventDay.nightAlpha = 0;
+  eventDay.colorToAlpha = C.Color.BLACK;
+  eventDay.colorToAlphaThreshold = 0.02;
+
+  // Any user input hands the camera to the user until they resume the director.
+  const handler = new C.ScreenSpaceEventHandler(s.canvas);
+  const takeOver = () => usePlayer.getState().setDirector(false);
+  for (const type of [
+    C.ScreenSpaceEventType.LEFT_DOWN,
+    C.ScreenSpaceEventType.RIGHT_DOWN,
+    C.ScreenSpaceEventType.MIDDLE_DOWN,
+    C.ScreenSpaceEventType.WHEEL,
+    C.ScreenSpaceEventType.PINCH_START,
+  ]) {
+    handler.setInputAction(takeOver, type);
+  }
+
+  let last = performance.now();
+  let directing = false;
+  const julian = new C.JulianDate();
+  const target = new C.Cartesian3();
+  const hpr = new C.HeadingPitchRange();
+
+  const removePreUpdate = s.preUpdate.addEventListener(() => {
+    const now = performance.now();
+    const store = usePlayer.getState();
+    store.tick(now - last);
+    last = now;
+
+    const { clock, director, layers } = usePlayer.getState();
+    C.JulianDate.fromDate(new Date(clock.t), julian);
+    widget.clock.currentTime = julian;
+
+    nightLights.show = layers.nightLights;
+    eventDay.show = layers.eventDay;
+
+    if (director) {
+      const pose = cameraAt(clock.t, scene.camera);
+      C.Cartesian3.fromDegrees(pose.lon, pose.lat, 0, undefined, target);
+      hpr.heading = pose.heading * DEG;
+      hpr.pitch = pose.pitch * DEG;
+      hpr.range = pose.range;
+      s.camera.lookAt(target, hpr);
+      directing = true;
+    } else if (directing) {
+      // Release the look-at frame so free navigation behaves normally.
+      s.camera.lookAtTransform(C.Matrix4.IDENTITY);
+      directing = false;
+    }
+  });
+
+  usePlayer.getState().setGlobeReady(true);
+
+  return {
+    destroy: () => {
+      removePreUpdate();
+      handler.destroy();
+      widget.destroy();
+      usePlayer.getState().setGlobeReady(false);
+    },
+  };
+}

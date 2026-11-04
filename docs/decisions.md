@@ -29,7 +29,7 @@ Short records of decisions that are expensive to reverse. Newest at the bottom.
 ### Decision
 
 - **All data fetching and all AI happen offline**, in `scripts/`, once per event.
-- The output is static files, committed and served from Cloudflare Pages.
+- The output is static files, committed, and served as statically generated pages on Vercel.
 - Visitors make **no** calls to any backend of ours, or to Claude.
 
 ### Consequences
@@ -131,14 +131,15 @@ AI narration of real disasters can be wrong, and wrong is harmful. Our different
 
 ---
 
-## ADR-0005: One package, Vite + React + TypeScript; scripts run as plain `.ts`
+## ADR-0005: One package, Next.js + React + TypeScript; scripts run as plain `.ts`
 
 - **Date:** 2026-11-04
 - **Status:** Proposed
 
 ### Decision
 
-- A single pnpm package (no monorepo): Vite + React 19 + TypeScript strict, Zod, Vitest, Biome.
+- A single pnpm package (no monorepo): **Next.js 16** (App Router, Turbopack) + React 19 + TypeScript strict, with Tailwind CSS 4, Motion, Zustand, Zod, Vitest and Biome.
+- **Revised 2026-11-04 (Abdelah):** originally Vite. Switched to Next.js because each replay becomes its own statically generated page (`/replay/<id>`) with its own title, description and **share card on X**, plus SEO, and Abdelah already knows Next.js from Armband. Still no backend: pages are generated at build time.
 - Scripts run with Node 24+'s built-in type stripping (`node scripts/bake.ts`), so there's no tsx or build step.
 
 ### Consequences
@@ -149,7 +150,7 @@ AI narration of real disasters can be wrong, and wrong is harmful. Our different
 ### Alternatives considered
 
 - **pnpm monorepo** (as Armband used). Overhead with no benefit yet.
-- **Next.js.** We have no server; a static Vite build is simpler.
+- **Vite + React** (the first proposal). Simpler for a pure client app, but one URL can't carry per-replay share cards without an extra prerendering step.
 - **Vanilla TS UI.** React pays for itself with the timeline, captions and drawer.
 
 ---
@@ -175,19 +176,24 @@ MIT for the code. Data keeps its own licences, listed per bundle and in docs/DAT
 
 ---
 
-## ADR-0007: Hosting on Cloudflare Pages at `earthlog.pages.dev`
+## ADR-0007: Hosting on Vercel; `earthlog.abdelah.dev` later
 
 - **Date:** 2026-11-04
-- **Status:** Proposed
+- **Status:** Proposed (revised from Cloudflare Pages by Abdelah)
 
 ### Decision
 
-- Cloudflare Pages, free, built from the GitHub repo (works while private).
-- The site URL lives only in `src/config.ts`.
-- Bundles stay under the Pages per-file limit (25 MiB); our budget is 5 MB per scene.
+- **Vercel Hobby** (free), deploying from the GitHub repo (works while private).
+- Today: a `*.vercel.app` subdomain. Later: Abdelah buys `abdelah.dev` and points `earthlog.abdelah.dev` at the project.
+- The site URL lives only in `src/config.ts` (overridable with `NEXT_PUBLIC_SITE_URL`), so the switch is one value.
+- Every page is statically generated; no serverless functions are needed for visitors.
+
+### Consequences
+
+- First-class Next.js support (share-card image generation, previews per branch).
+- Vercel Hobby is for **non-commercial** use. Earthlog is free and non-commercial, so that's fine; revisit if that ever changes.
 
 ### Alternatives considered
 
-- **GitHub Pages.** Needs a public repo on the free plan, so it's fine after launch, as a fallback.
-- **Vercel Hobby.** Non-commercial only.
-- **Netlify.** Credit caps.
+- **Cloudflare Pages** (the first proposal). No commercial clause, but less native for Next.js.
+- **GitHub Pages.** Needs a public repo on the free plan, and no Next.js server features.

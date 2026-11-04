@@ -19,7 +19,7 @@ Full detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 ```
  OFFLINE (a developer's machine, once per event)                ONLINE (every visitor, free)
  ┌─────────────────────────────────────────────┐               ┌──────────────────────────────┐
- │ scripts/bake/*   free public data ──► JSON  │               │ static site (Cloudflare Pages)│
+ │ scripts/bake/*   free public data ──► JSON  │               │ Next.js site on Vercel (SSG)  │
  │ scripts/direct   evidence ──► scene.json    │──commit──►    │ CesiumJS globe + React UI     │
  │   template mode (free) | Claude mode (key)  │  public/      │ plays scene.json, no AI calls │
  └─────────────────────────────────────────────┘  scenes/      └──────────────────────────────┘
@@ -60,16 +60,19 @@ Full detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 | Concern | Choice |
 | --- | --- |
-| App | Vite + React 19 + TypeScript (strict), single package, pnpm |
+| App | **Next.js 16** (App Router, Turbopack, statically generated replay pages) + React 19 + TypeScript (strict), single package, pnpm |
+| UI | **Tailwind CSS 4**, **Motion** (animation), **Zustand** (player state), **Lucide** icons, **Geist** fonts |
 | Globe | **CesiumJS** (Apache-2.0). **No Cesium ion, no Google tiles by default**; imagery from NASA GIBS (no key) |
 | Validation | **Zod** for scene and evidence schemas, at every boundary (fetched data, scene files, Claude output) |
 | Scripts | Node 24+ running `.ts` directly (built-in type stripping), no build step |
 | AI (offline only) | `@anthropic-ai/sdk`; Haiku 5.5 by default, Sonnet 5.5 for hero scenes. **Read the `claude-api` skill before touching director code** |
 | Tests | Vitest. Lint and format: Biome |
-| Hosting | Cloudflare Pages (free), `earthlog.pages.dev`. The site URL lives only in `src/config.ts` |
+| Hosting | **Vercel** (Hobby, free), `earthlog.vercel.app` today, `earthlog.abdelah.dev` later. The site URL lives only in `src/config.ts` |
 
 ## 5. Conventions
 
+- **Shared code in `src/scene/`** is imported by both Next.js and the Node scripts, so it uses explicit `.ts` import extensions and no `@/` alias. Everything else uses `@/`.
+- **Cesium is client-only:** it loads in the browser via dynamic `import()`, never during server rendering. Its runtime assets are copied to `public/cesium/` by `scripts/copy-cesium-assets.ts` (gitignored).
 - **Strict TypeScript:** `strict`, `noUncheckedIndexedAccess`, `exactOptionalPropertyTypes`. No `any`; no `as` on external data. Parse with Zod.
 - **Pure core:** scene math (camera interpolation, clock mapping, layer styling from values) and the validator are **pure functions** with unit tests. Rendering code stays thin.
 - **One clock:** every visual reads time from the single player clock. Nothing animates on its own timer.

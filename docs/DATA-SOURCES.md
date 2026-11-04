@@ -16,7 +16,7 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 | Country outlines | **Natural Earth** 1:110m admin-0 | Download once | n/a | 1:110m | Public domain | **Yes** |
 | Fires (if a key exists) | **NASA FIRMS** VIIRS 375 m | Free `MAP_KEY`, used at bake time only; 5,000 transactions per 10 min | 2012 on (VIIRS) | Per satellite pass | NASA, no copyright; credit NASA FIRMS | **Yes** |
 
-**Decision: IODA (2026-11-04, Abdelah).** We bundle the small, normalised series with clear attribution and a link to IODA, in a free, non-commercial, open-source project. We don't email first. **If IODA ever asks**, we switch to having the browser fetch their API at view time (CORS already allows `earthlog.pages.dev`), so nothing is redistributed.
+**Decision: IODA (2026-11-04, Abdelah).** We bundle the small, normalised series with clear attribution and a link to IODA, in a free, non-commercial, open-source project. We don't email first. **If IODA ever asks**, we switch to having the browser fetch their API at view time (CORS echoes the requesting origin, verified 2026-11-04), so nothing is redistributed.
 
 ## Gotchas found
 

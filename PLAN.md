@@ -28,7 +28,7 @@
    - The **template mode** is free and deterministic.
    - The **Claude mode** runs offline, once per event, on Abdelah's key, for better prose.
    - Both are validated, so **no sentence ships without a citation**.
-4. **Deployed free** at `earthlog.pages.dev` (Cloudflare Pages), with a README, a GIF and a launch post.
+4. **Deployed free on Vercel** (`*.vercel.app` today, `earthlog.abdelah.dev` later), with a README, a GIF and a launch post.
 
 **Not today** (the post-launch list, see the end of this file): live flights, "type any event", bring-your-own-key in the browser, video export, voice narration, news pins.
 
@@ -48,7 +48,7 @@
 | --- | --- | --- |
 | Optional, Claude will prompt | A **NASA FIRMS MAP_KEY** (free) adds thermal anomalies. **None of the four v0.1 events needs it** | Later |
 | Before Phase 3 | `ANTHROPIC_API_KEY=` in the local `.env` (gitignored). A monthly spend limit in the Anthropic console is recommended | Phase 3: Claude director |
-| By Phase 4 | Create a free Cloudflare account, then a Pages project connected to the GitHub repo (build `pnpm build`, output `dist`) | Phase 5: deploy |
+| By Phase 5 | Import the GitHub repo into **Vercel** (free Hobby plan; framework preset: Next.js, defaults are fine) | Phase 5: deploy |
 | By Phase 5 | Decide: make the repo public at launch? (Recommended: yes) | Launch |
 
 ---
@@ -57,7 +57,7 @@
 
 **Build:**
 
-- **Scaffold:** a single Vite + React + TypeScript (strict) app, pnpm, Vitest and Biome; CI on GitHub Actions (typecheck, lint, test, build); MIT `LICENSE`; `.env.example`.
+- **Scaffold:** a single Next.js 16 + React 19 + TypeScript (strict) app with Tailwind 4, Motion and Zustand; pnpm, Vitest and Biome; CI on GitHub Actions (typecheck, lint, test, build, no-secrets check); MIT `LICENSE`; `.env.example`.
 - **The globe:**
   - CesiumJS with **no Cesium ion and no keys**;
   - NASA GIBS imagery as the base layer, *dated*;
@@ -154,7 +154,7 @@
 
 **Build:**
 
-- Deploy on Cloudflare Pages.
+- Deploy on Vercel.
 - Write the final README: hero GIF, what it is, how it works, a "how is this different" section, run locally, add your own event, data credits.
 - Repo furniture: `CONTRIBUTING.md` (how to add an event via PR), issue templates, `CHANGELOG.md`.
 - Record the 30–60 s launch video (free screen recorder).
@@ -162,7 +162,7 @@
 
 **Acceptance:**
 
-- [ ] `https://earthlog.pages.dev` serves all three replays. A fresh browser with no keys works.
+- [ ] The Vercel URL serves every replay. A fresh browser with no keys works.
 - [ ] The README runs from clone to `pnpm dev` in under 2 minutes on a clean machine.
 - [ ] The launch text claims nothing the app doesn't do.
 

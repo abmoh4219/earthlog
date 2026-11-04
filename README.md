@@ -29,7 +29,7 @@ God's Eye View and World Monitor show the world **now**. Earthlog reconstructs *
 
 ```
 offline, once per event:   free public data ──► baked bundle ──► director ──► scene.json (every sentence cited)
-every visitor, free:       static site ──► CesiumJS globe plays scene.json (no AI, no keys, no backend)
+every visitor, free:       Next.js static pages ──► CesiumJS globe plays scene.json (no AI, no keys, no backend)
 ```
 
 Details are in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). The data and its licences are in [docs/DATA-SOURCES.md](docs/DATA-SOURCES.md).

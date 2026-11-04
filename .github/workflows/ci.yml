@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm test
+      - run: pnpm build
+      # The site must never ship an API key (CLAUDE.md §3.4).
+      - name: No secrets in the build output
+        run: |
+          if grep -rEq "sk-ant-[A-Za-z0-9_-]{10,}" .next/static public/scenes; then
+            echo "::error::Something that looks like an Anthropic API key is in the build output."
+            exit 1
+          fi

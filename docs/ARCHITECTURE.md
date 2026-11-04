@@ -18,7 +18,7 @@ If the code and this document disagree, one of them is a bug. Fix it in the same
  └────────────────────────────────────────────────┬───────────────────────────────┘
                                                   │ git commit (data: …)
  ┌──────────────────────── ONLINE: every visitor ─▼───────────────────────────────┐
- │  Cloudflare Pages (static) ──► browser                                         │
+ │  Vercel (statically generated Next.js pages) ──► browser                      │
  │    React UI: landing, timeline, captions, evidence drawer, credits             │
  │    Player core (pure): clock ─► camera pose, layer styles, active beats        │
  │    CesiumJS: NASA GIBS imagery (dated) + our primitives                        │
@@ -124,9 +124,12 @@ A scene is **rejected** if:
 
 | Path | What |
 | --- | --- |
-| `src/scene/` | Schema, validator, pure player math |
+| `src/app/` | Next.js routes: `/` (landing), `/replay/[id]` (statically generated per event, with its own metadata and share card) |
+| `src/components/player/` | React HUD: title, clock, captions, timeline, transport, credits, letterbox |
+| `src/player/store.ts` | Zustand store shared by the engine and the HUD |
+| `src/lib/bundles.ts` | Build-time bundle loading, Zod-validated (server only) |
+| `src/scene/` | Schema, clock, camera, beats, formatting, validator: pure, shared with scripts |
 | `src/globe/` | Cesium adapter and layer renderers |
-| `src/ui/` | React components |
 | `src/config.ts` | Site URL and app constants (**the** site URL lives here) |
 | `events/` | Event definitions |
 | `scripts/bake/` | One baker per source |

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sample:intro",
+    "kind": "sensor",
+    "source": "sample",
+    "t": "2025-04-28T09:30:00Z",
+    "label": "SAMPLE evidence item (not real data)"
+  },
+  {
+    "id": "sample:moment",
+    "kind": "sensor",
+    "source": "sample",
+    "t": "2025-04-28T10:33:00Z",
+    "label": "SAMPLE evidence item (not real data)"
+  },
+  {
+    "id": "sample:night",
+    "kind": "sensor",
+    "source": "sample",
+    "t": "2025-04-28T19:30:00Z",
+    "label": "SAMPLE evidence item (not real data)"
+  }
+]

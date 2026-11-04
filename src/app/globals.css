@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Earthlog design tokens: "as cool as ice". Accent colours carry meaning:
+   loss (outages, damage), energy (quakes, fire), attention (people watching). */
+@theme {
+  --color-void: #020409;
+  --color-ice: #9ad9ff;
+  --color-ice-dim: #4f7d99;
+  --color-frost: #e8f6ff;
+  --color-loss: #ff4d5e;
+  --color-energy: #ffb547;
+  --color-attention: #5ef2ff;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--color-void);
+  color: var(--color-frost);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+/* Frosted glass panels used across the HUD. */
+.glass {
+  background: linear-gradient(180deg, rgb(10 20 32 / 0.62), rgb(4 9 16 / 0.72));
+  backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgb(154 217 255 / 0.14);
+  box-shadow:
+    0 0 0 1px rgb(0 0 0 / 0.4),
+    0 18px 50px -20px rgb(0 0 0 / 0.8),
+    inset 0 1px 0 rgb(232 246 255 / 0.06);
+}
+
+/* The Cesium canvas fills its container. */
+.earthlog-globe .cesium-widget,
+.earthlog-globe .cesium-widget canvas {
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

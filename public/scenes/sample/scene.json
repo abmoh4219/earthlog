@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "id": "sample",
+  "title": "Player test scene",
+  "subtitle": "Placeholder narration and fake evidence — not real data",
+  "category": "sample",
+  "window": { "start": "2025-04-28T09:30:00Z", "end": "2025-04-28T22:00:00Z" },
+  "focus": "2025-04-28T10:33:00Z",
+  "timezone": "Europe/Madrid",
+  "region": { "west": -10.5, "south": 35.5, "east": 4.5, "north": 44.5 },
+  "imagery": { "day": "2025-04-28", "nights": ["2025-04-28"] },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2025-04-28T09:30:00Z",
+      "lon": 10,
+      "lat": 30,
+      "range": 16000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2025-04-28T10:15:00Z",
+      "lon": -4,
+      "lat": 40,
+      "range": 2600000,
+      "heading": 0,
+      "pitch": -80
+    },
+    {
+      "t": "2025-04-28T10:45:00Z",
+      "lon": -3.7,
+      "lat": 40.4,
+      "range": 650000,
+      "heading": 15,
+      "pitch": -45
+    },
+    {
+      "t": "2025-04-28T12:30:00Z",
+      "lon": -8.6,
+      "lat": 39.5,
+      "range": 900000,
+      "heading": -20,
+      "pitch": -50
+    },
+    {
+      "t": "2025-04-28T19:30:00Z",
+      "lon": -4,
+      "lat": 40,
+      "range": 2400000,
+      "heading": 0,
+      "pitch": -75
+    },
+    {
+      "t": "2025-04-28T22:00:00Z",
+      "lon": -4,
+      "lat": 40,
+      "range": 3200000,
+      "heading": 0,
+      "pitch": -88
+    }
+  ],
+  "pacing": [
+    { "t": "2025-04-28T09:30:00Z", "speed": 120 },
+    { "t": "2025-04-28T10:25:00Z", "speed": 30 },
+    { "t": "2025-04-28T11:00:00Z", "speed": 240 },
+    { "t": "2025-04-28T12:30:00Z", "speed": 1200 }
+  ],
+  "beats": [
+    {
+      "t": "2025-04-28T09:40:00Z",
+      "text": "SAMPLE — This is placeholder narration used to test the player.",
+      "cites": ["sample:intro"]
+    },
+    {
+      "t": "2025-04-28T10:33:00Z",
+      "text": "SAMPLE — A beat lands exactly at its time, with a citation chip.",
+      "cites": ["sample:moment"]
+    },
+    {
+      "t": "2025-04-28T11:10:00Z",
+      "text": "SAMPLE — The camera moves between keyframes while the clock runs.",
+      "cites": ["sample:moment", "sample:intro"]
+    },
+    {
+      "t": "2025-04-28T19:30:00Z",
+      "text": "SAMPLE — Night falls: watch the terminator sweep across the peninsula.",
+      "cites": ["sample:night"]
+    }
+  ],
+  "generatedBy": { "method": "hand", "at": "2026-11-04T12:00:00Z" }
+}
