@@ -12,6 +12,7 @@ import {
   signalEvidence,
   toSeries,
 } from "../scripts/bake/ioda.ts";
+import { maxAgeMs } from "../scripts/bake/lib.ts";
 import { parseQuakes } from "../scripts/bake/usgs.ts";
 import { templateScene } from "../scripts/director/template.ts";
 import type { SignalLayer, Source } from "../src/scene/schema.ts";
@@ -119,5 +120,33 @@ describe("Natural Earth baker", () => {
     const ring = spain?.rings[0] ?? [];
     expect(ring.length % 2).toBe(0);
     expect(ring.every((x) => Math.abs(x * 100 - Math.round(x * 100)) < 1e-9)).toBe(true);
+  });
+});
+
+describe("cache freshness", () => {
+  const now = Date.parse("2026-11-05T02:00:00Z");
+  it("expires answers about now and keeps the rest", () => {
+    expect(
+      maxAgeMs(
+        "https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content&titles=X",
+        now,
+      ),
+    ).toBe(3 * 3_600_000);
+    expect(
+      maxAgeMs(
+        "https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvstart=2026-11-01&titles=X",
+        now,
+      ),
+    ).toBe(Number.POSITIVE_INFINITY);
+    expect(maxAgeMs("https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1", now)).toBe(
+      24 * 3_600_000,
+    );
+    const views = (d: string) =>
+      `https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/X/daily/${d}/${d}`;
+    expect(maxAgeMs(views("20261104"), now)).toBe(6 * 3_600_000);
+    expect(maxAgeMs(views("20261001"), now)).toBe(Number.POSITIVE_INFINITY);
+    expect(maxAgeMs("https://tigerweb.geo.census.gov/arcgis/rest/services/x", now)).toBe(
+      Number.POSITIVE_INFINITY,
+    );
   });
 });

@@ -37,8 +37,31 @@ export interface Revision {
   wikitext: string;
 }
 
-/** The article's latest revision, or the last one before `before` (ISO). */
-export async function fetchRevision(title: string, before?: string): Promise<Revision | undefined> {
+let cutoff: string | undefined;
+
+/**
+ * Films read every article as it stood at this moment (ADR-0014). Undefined = the latest
+ * revision, which the cache re-checks every few hours while an edition is still fresh.
+ */
+export function setRevisionCutoff(iso: string | undefined): void {
+  cutoff = iso;
+}
+
+/**
+ * An edition follows the news for three days after its day, then freezes at the articles as
+ * they stood at the end of day 3: re-filming an old edition gives the same film, not one
+ * written with hindsight. Returns undefined while the edition is still fresh.
+ */
+export function revisionCutoff(date: string, now = Date.now()): string | undefined {
+  const freeze = Date.parse(`${date}T00:00:00Z`) + 4 * 86_400_000;
+  return freeze <= now ? new Date(freeze).toISOString().replace(/\.\d{3}Z$/, "Z") : undefined;
+}
+
+/** The article as of the film's cutoff (default), or the last revision before `before` (ISO). */
+export async function fetchRevision(
+  title: string,
+  before: string | undefined = cutoff,
+): Promise<Revision | undefined> {
   const at = before ? `&rvstart=${encodeURIComponent(before)}&rvdir=older` : "";
   const url = `https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&rvlimit=1&redirects=1&format=json&formatversion=2${at}&titles=${encodeURIComponent(title)}`;
   const page = Revisions.parse(await fetchJson(url)).query.pages[0];

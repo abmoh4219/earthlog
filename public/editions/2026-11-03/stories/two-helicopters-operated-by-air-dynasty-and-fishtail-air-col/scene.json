@@ -35,6 +35,10 @@
       "kind": "arcs",
       "file": "data/arcs.json",
       "from": "2026-11-03T00:00:18Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
     }
   ],
   "camera": [
@@ -76,28 +80,28 @@
     {
       "t": "2026-11-03T00:00:12Z",
       "lon": 86.58333333,
-      "lat": 26.8125,
-      "range": 1100000,
-      "heading": 12,
-      "pitch": -42,
-      "move": "glide"
+      "lat": 27.5,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
     },
     {
       "t": "2026-11-03T00:00:15Z",
       "lon": 86.58333333,
-      "lat": 26.8125,
-      "range": 996092.3651951158,
-      "heading": 3.0999999999999996,
-      "pitch": -39.5,
+      "lat": 27.5,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
       "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:17Z",
       "lon": 86.58333333,
-      "lat": 26.8125,
-      "range": 902000,
-      "heading": -5.800000000000001,
-      "pitch": -37,
+      "lat": 27.5,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
       "move": "glide"
     },
     {
@@ -107,7 +111,7 @@
       "range": 1500000,
       "heading": 0,
       "pitch": -55,
-      "move": "glide"
+      "move": "flight"
     },
     {
       "t": "2026-11-03T00:00:23Z",
@@ -247,6 +251,6 @@
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T22:14:19Z"
+    "at": "2026-11-04T22:54:47Z"
   }
 }

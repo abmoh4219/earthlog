@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:09Z"
+    "end": "2026-11-03T00:02:19Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -22,13 +22,30 @@
   },
   "layers": [
     {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
       "kind": "places",
-      "file": "data/places.json",
+      "file": "data/places-site.json",
+      "name": "site",
       "from": "2026-11-03T00:00:24Z"
     },
     {
-      "kind": "regions",
-      "file": "data/regions.json",
+      "kind": "places",
+      "file": "data/places-route.json",
+      "name": "route",
+      "from": "2026-11-03T00:00:24Z",
+      "until": "2026-11-03T00:00:39Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-route.json",
+      "name": "route",
       "from": "2026-11-03T00:00:24Z"
     }
   ],
@@ -69,70 +86,178 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:26Z",
-      "lon": -80.11311111111111,
-      "lat": 25.94538888888889,
-      "range": 1100000,
-      "heading": 12,
-      "pitch": -42,
-      "move": "glide"
+      "t": "2026-11-03T00:00:27Z",
+      "lon": -84.6259914922759,
+      "lat": 26.49061301261128,
+      "range": 6216399.586363247,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:29Z",
-      "lon": -80.11311111111111,
-      "lat": 25.94538888888889,
-      "range": 996092.3651951158,
-      "heading": 3.0999999999999996,
-      "pitch": -39.5,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-03T00:00:31Z",
-      "lon": -80.11311111111111,
-      "lat": 25.94538888888889,
-      "range": 902000,
-      "heading": -5.800000000000001,
-      "pitch": -37,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-03T00:00:34Z",
-      "lon": -80.11311111111111,
-      "lat": 25.94538888888889,
-      "range": 1100000,
-      "heading": 20,
-      "pitch": -42,
+      "t": "2026-11-03T00:00:33Z",
+      "lon": -84.6259914922759,
+      "lat": 26.49061301261128,
+      "range": 5629189.242707732,
+      "heading": -14,
+      "pitch": -52.5,
       "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:38Z",
-      "lon": -80.11311111111111,
-      "lat": 25.94538888888889,
-      "range": 996092.3651951158,
-      "heading": 30.5,
-      "pitch": -39.5,
+      "lon": -84.6259914922759,
+      "lat": 26.49061301261128,
+      "range": 5097447.660817862,
+      "heading": -28,
+      "pitch": -50,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:41Z",
+      "t": "2026-11-03T00:00:42Z",
       "lon": -80.11311111111111,
-      "lat": 25.94538888888889,
-      "range": 902000,
-      "heading": 41,
-      "pitch": -37,
+      "lat": 26.63288888888889,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:45Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 126775.39193392382,
+      "heading": 33.7,
+      "pitch": -21.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:44Z",
+      "t": "2026-11-03T00:00:47Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 114800,
+      "heading": 43.4,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:50Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 240000,
+      "heading": -30,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 217329.243315298,
+      "heading": -39.7,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:56Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 196800,
+      "heading": -49.4,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:59Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:06Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 81498.46624323675,
+      "heading": 84,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:13Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 73800,
+      "heading": 98,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:16Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 600000,
+      "heading": -10,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:22Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 543323.1082882449,
+      "heading": -24,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:29Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 491999.99999999994,
+      "heading": -38,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:32Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 350000,
+      "heading": 140,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:42Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 316938.47983480955,
+      "heading": 154,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:51Z",
+      "lon": -80.11311111111111,
+      "lat": 26.63288888888889,
+      "range": 287000,
+      "heading": 168,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:54Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 2200000,
       "heading": 12,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:47Z",
+      "t": "2026-11-03T00:01:57Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 1992184.7303902316,
@@ -141,7 +266,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:50Z",
+      "t": "2026-11-03T00:02:00Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 1804000,
@@ -150,7 +275,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:53Z",
+      "t": "2026-11-03T00:02:03Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 1760000,
@@ -159,7 +284,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:59Z",
+      "t": "2026-11-03T00:02:09Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 1593747.7843121854,
@@ -168,7 +293,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:05Z",
+      "t": "2026-11-03T00:02:15Z",
       "lon": -80.11311111111111,
       "lat": 25.94538888888889,
       "range": 1443200,
@@ -177,7 +302,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:09Z",
+      "t": "2026-11-03T00:02:19Z",
       "lon": -105.1131111111111,
       "lat": 25.94538888888889,
       "range": 14000000,
@@ -197,40 +322,120 @@
       "t": "2026-11-03T00:00:00Z",
       "text": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States.",
       "cites": [
-        "wiki:rev:1383766682:0"
+        "wiki:rev:1383777197:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
       "text": "John I. Leonard Community High School, a public high school located near the crash site, was closed on November 2 as emergency crews and investigators continued operations in the vicinity.",
       "cites": [
-        "wiki:rev:1383766682:27"
+        "wiki:rev:1383777197:27"
       ]
     },
     {
       "t": "2026-11-03T00:00:16Z",
       "text": "During a second press briefing on November 3, Chapman confirmed that the elevator had separated prior to impact.",
       "cites": [
-        "wiki:rev:1383766682:40"
+        "wiki:rev:1383777197:40"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
+      "text": "It set out from Austin–Bergstrom International Airport, bound for North Eleuthera Airport.",
+      "cites": [
+        "wiki:box:1383777197:origin",
+        "wiki:box:1383777197:destination"
       ]
     },
     {
       "t": "2026-11-03T00:00:32Z",
-      "text": "Date: 1 November 2026. Location: Greenacres.",
+      "text": "It came down about 1,760 km from Austin–Bergstrom International Airport in a straight line, with about 370 km still to go.",
       "cites": [
-        "wd:Q141966885:P585",
-        "wd:Q141966885:P276"
+        "wiki:box:1383777197:origin",
+        "wiki:box:1383777197:destination",
+        "wiki:box:1383777197:coordinates"
       ]
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:39Z",
+      "text": "Palm Beach County: crashed en route, in-flight structural failure; under investigation.",
+      "cites": [
+        "wiki:box:1383777197:summary",
+        "wiki:box:1383777197:coordinates"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:48Z",
+      "text": "The aircraft was a Learjet 60, built by Bombardier Aerospace; the type first flew in 1990, operated by Aurora Aviation (dba Upper Jets).",
+      "cites": [
+        "wiki:box:1383777197:aircraft",
+        "wd:Q1267393:P176",
+        "wd:Q1267393:P606",
+        "wiki:box:1383777197:operator"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:57Z",
+      "text": "All 9 people on board died: 7 passengers and 2 crew, according to the article.",
+      "cites": [
+        "wiki:box:1383777197:occupants",
+        "wiki:box:1383777197:fatalities",
+        "wiki:box:1383777197:passengers",
+        "wiki:box:1383777197:crew",
+        "wiki:box:1383777197:survivors"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:06Z",
+      "text": "On the ground: 1 injured.",
+      "cites": [
+        "wiki:box:1383777197:ground-injuries"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:14Z",
+      "text": "The aircraft departed Austin–Bergstrom International Airport at 10:37 EST (15:37 UTC).",
+      "cites": [
+        "wiki:timeline:1383777197:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:22Z",
+      "text": "At 12:48 EST (17:48 UTC), the first officer radioed a \"mayday\" call to ATC, reporting a deteriorating situation.",
+      "cites": [
+        "wiki:timeline:1383777197:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:30Z",
+      "text": "The Palm Beach County Sheriff's Office closed Military Trail near the impact site to facilitate the emergency response and investigation.",
+      "cites": [
+        "wiki:investigation:1383777197:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:37Z",
+      "text": "Thunderstorms were affecting the Palm Beach area around the time of the crash, with visibility ranging from 2 to 10 mi and surface wind gusts of 20 to 30 mph.",
+      "cites": [
+        "wiki:investigation:1383777197:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:45Z",
+      "text": "According to recorded air traffic control communications, the crew reported light clear icing and moderate turbulence while flying at approximately 35,000 ft, with altitude fluctuations of up to 700 ft.",
+      "cites": [
+        "wiki:investigation:1383777197:2"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:52Z",
       "text": "Readers also turned to Learjet 60 (121,648).",
       "cites": [
         "views:en:Learjet_60:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
+      "t": "2026-11-03T00:02:01Z",
       "text": "132,447 people read the article on 3 November 2026. It hadn't existed weeks before.",
       "cites": [
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
@@ -238,7 +443,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:01:00Z",
+      "t": "2026-11-03T00:02:10Z",
       "text": "Read in 10 languages; after English, most in German (9,654).",
       "cites": [
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
@@ -260,52 +465,154 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
-      "title": "Where"
+      "title": "The journey"
     },
     {
-      "t": "2026-11-03T00:00:32Z",
-      "title": "On record"
+      "t": "2026-11-03T00:00:39Z",
+      "title": "The site"
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:48Z",
+      "title": "The aircraft"
+    },
+    {
+      "t": "2026-11-03T00:00:57Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-03T00:01:14Z",
+      "title": "Minute by minute"
+    },
+    {
+      "t": "2026-11-03T00:01:30Z",
+      "title": "The investigation"
+    },
+    {
+      "t": "2026-11-03T00:01:52Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:00:51Z",
+      "t": "2026-11-03T00:02:01Z",
       "title": "Readers"
     }
   ],
   "panels": [
     {
-      "id": "record",
+      "id": "vehicle",
       "kind": "facts",
-      "title": "On record: 2026 Palm Beach County Learjet 60 crash",
-      "note": "As recorded in Wikidata (CC0).",
+      "title": "The aircraft",
+      "note": "From the article's infobox (revision of 2026-11-04) and Wikidata.",
       "items": [
         {
-          "label": "Date",
-          "text": "1 November 2026",
+          "label": "Aircraft",
+          "text": "Learjet 60",
           "cites": [
-            "wd:Q141966885:P585"
+            "wiki:box:1383777197:aircraft"
           ]
         },
         {
-          "label": "Location",
-          "text": "Greenacres",
+          "label": "Operator",
+          "text": "Aurora Aviation (dba Upper Jets)",
           "cites": [
-            "wd:Q141966885:P276"
+            "wiki:box:1383777197:operator"
           ]
         },
         {
-          "label": "Country",
-          "text": "United States",
+          "label": "Registration",
+          "text": "N722BD",
           "cites": [
-            "wd:Q141966885:P17"
+            "wiki:box:1383777197:registration"
+          ]
+        },
+        {
+          "label": "Callsign",
+          "text": "NOVEMBER 722 BRAVO DELTA",
+          "cites": [
+            "wiki:box:1383777197:callsign"
+          ]
+        },
+        {
+          "label": "Built by",
+          "text": "Bombardier Aerospace",
+          "cites": [
+            "wd:Q1267393:P176"
+          ]
+        },
+        {
+          "label": "Type first flew",
+          "text": "1990",
+          "cites": [
+            "wd:Q1267393:P606"
           ]
         }
       ],
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:42Z"
+      "t": "2026-11-03T00:00:49Z",
+      "until": "2026-11-03T00:00:57Z"
+    },
+    {
+      "id": "on-board",
+      "kind": "bars",
+      "title": "People",
+      "unit": "people",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "items": [
+        {
+          "label": "Occupants",
+          "value": 9,
+          "text": "9",
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383777197:occupants"
+          ]
+        },
+        {
+          "label": "Passengers",
+          "value": 7,
+          "text": "7",
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383777197:passengers"
+          ]
+        },
+        {
+          "label": "Crew",
+          "value": 2,
+          "text": "2",
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383777197:crew"
+          ]
+        },
+        {
+          "label": "Fatalities",
+          "value": 9,
+          "text": "9",
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1383777197:fatalities"
+          ]
+        },
+        {
+          "label": "Survivors",
+          "value": 0,
+          "text": "0",
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383777197:survivors"
+          ]
+        },
+        {
+          "label": "Ground injuries",
+          "value": 1,
+          "text": "1",
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383777197:ground-injuries"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:58Z",
+      "until": "2026-11-03T00:01:14Z"
     },
     {
       "id": "readers",
@@ -462,8 +769,8 @@
         }
       ],
       "mark": 1,
-      "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z"
+      "t": "2026-11-03T00:02:02Z",
+      "until": "2026-11-03T00:02:19Z"
     },
     {
       "id": "languages",
@@ -536,12 +843,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z"
+      "t": "2026-11-03T00:02:02Z",
+      "until": "2026-11-03T00:02:19Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T22:14:19Z"
+    "at": "2026-11-04T22:54:47Z"
   }
 }

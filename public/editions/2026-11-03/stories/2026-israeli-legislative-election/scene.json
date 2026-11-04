@@ -139,21 +139,21 @@
       "t": "2026-11-03T00:00:00Z",
       "text": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin…",
       "cites": [
-        "wiki:rev:1383763452:0"
+        "wiki:rev:1383792096:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
       "text": "The Democrats head Yair Golan announced on 2 November that it would also recommend Eisenkot.",
       "cites": [
-        "wiki:rev:1383763452:107"
+        "wiki:rev:1383792096:107"
       ]
     },
     {
       "t": "2026-11-03T00:00:16Z",
       "text": "President Isaac Herzog announced on 1 November that he would invite party leaders, beginning 4 November, to begin the consultation process to determine who should be given the first choice to form a government.",
       "cites": [
-        "wiki:rev:1383763452:105"
+        "wiki:rev:1383792096:105"
       ]
     },
     {
@@ -263,15 +263,15 @@
           "value": 8,
           "color": "#2caa2c",
           "cites": [
-            "elex:2026-israeli-legislative-election:party7"
+            "elex:2026-israeli-legislative-election:party6"
           ]
         },
         {
           "label": "Yisrael Beiteinu",
           "value": 7,
-          "color": "#5ef2ff",
+          "color": "#ff9ecb",
           "cites": [
-            "elex:2026-israeli-legislative-election:party6"
+            "elex:2026-israeli-legislative-election:party7"
           ]
         },
         {
@@ -367,7 +367,7 @@
           "text": "5.93%",
           "color": "#2caa2c",
           "cites": [
-            "elex:2026-israeli-legislative-election:party7"
+            "elex:2026-israeli-legislative-election:party6"
           ]
         }
       ],
@@ -592,6 +592,6 @@
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T22:14:19Z"
+    "at": "2026-11-04T22:54:47Z"
   }
 }

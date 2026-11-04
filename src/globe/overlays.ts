@@ -300,7 +300,7 @@ export function createOverlays(
         position,
         // Approximate label size for decluttering (uppercase Geist at 12–14 px).
         // (Measured on screenshots: about 8.6 px a character at 12 px, plus the outline.)
-      width: p.name.length * (p.primary ? 10 : 8.8) + 14,
+        width: p.name.length * (p.primary ? 10 : 8.8) + 14,
         height: p.primary ? 18 : 16,
         priority: (p.primary ? 1000 : 0) - index,
       };
@@ -334,12 +334,14 @@ export function createOverlays(
       // A glowing beam rather than a flat line, with a bright comet riding along it.
       const line = arcLines.add({
         positions: full.slice(0, 2),
-        width: 7,
-        material: C.Material.fromType("PolylineGlow", {
-          color: color.withAlpha(0.9),
-          glowPower: 0.22,
-          taperPower: 1,
-        }),
+        width: a.dashed ? 3 : 7,
+        material: a.dashed
+          ? C.Material.fromType("PolylineDash", { color: color.withAlpha(0.75), dashLength: 18 })
+          : C.Material.fromType("PolylineGlow", {
+              color: color.withAlpha(0.9),
+              glowPower: 0.22,
+              taperPower: 1,
+            }),
         show: false,
       });
       const comet = points.add({
@@ -360,6 +362,7 @@ export function createOverlays(
         show: false,
       });
       return {
+        dashed: a.dashed === true,
         full,
         line,
         comet,
@@ -396,6 +399,35 @@ export function createOverlays(
         return { line, color, span };
       }),
   );
+
+  // 8b. Lines on the ground (ShakeMap contours…): each glows in its own colour and fades in
+  //     after the one before it (180 ms apart), so the map spreads outward from the centre.
+  const LINE_STAGGER_MS = 180;
+  const lineSets = layers.flatMap((l, index) => {
+    if (l.kind !== "lines" || l.lines.length === 0) return [];
+    const span = spanOf(index);
+    const collection = scene.primitives.add(new C.PolylineCollection());
+    const items = l.lines.map((line, i) => {
+      const color = C.Color.fromCssColorString(line.color);
+      const positions: CesiumNS.Cartesian3[] = [];
+      for (let k = 0; k + 1 < line.points.length; k += 2)
+        positions.push(
+          C.Cartesian3.fromDegrees(line.points[k] ?? 0, line.points[k + 1] ?? 0, 2_500),
+        );
+      const pl = collection.add({
+        positions,
+        width: line.width + 3,
+        material: C.Material.fromType("PolylineGlow", {
+          color: color.withAlpha(0),
+          glowPower: 0.25,
+          taperPower: 1,
+        }),
+        show: false,
+      });
+      return { pl, color, order: i, tint: new C.Color() };
+    });
+    return [{ collection, items, span }];
+  });
 
   // 9. Regions: one or more filled maps (e.g. Senate states, House districts), each with thin
   //    outlines, revealed and hidden by its own LayerRef, fading over a second of scene time.
@@ -572,14 +604,15 @@ export function createOverlays(
           a.drawn = n;
         }
         // The comet leads the drawing, then keeps flowing along the finished arc.
-        a.comet.show = progress > 0;
+        // A dashed (never travelled) route has no comet and no landing ripple.
+        a.comet.show = progress > 0 && !a.dashed;
         if (progress > 0) {
           const flow = progress < 1 ? progress : ((sinceArcs + i * 700) % 3200) / 3200;
           a.comet.position =
             a.full[Math.min(ARC_STEPS, Math.round(flow * ARC_STEPS))] ?? a.comet.position;
         }
         // The ripple: 900 ms after each arrival (first landing, then every loop of the comet).
-        const sinceLanding = progress < 1 ? -1 : (sinceArcs + i * 700) % 3200;
+        const sinceLanding = progress < 1 || a.dashed ? -1 : (sinceArcs + i * 700) % 3200;
         a.splash.show = sinceLanding >= 0 && sinceLanding < 900;
         if (a.splash.show) {
           const u = sinceLanding / 900;
@@ -625,6 +658,25 @@ export function createOverlays(
         map.alpha = rv;
       }
 
+      for (const set of lineSets) {
+        const lv = reveal(set.span, t);
+        const since = t - set.span.from;
+        for (const it of set.items) {
+          const local =
+            lv <= 0
+              ? 0
+              : set.span.from === Number.NEGATIVE_INFINITY
+                ? 1
+                : Math.min(1, Math.max(0, (since - it.order * LINE_STAGGER_MS) / 700));
+          it.pl.show = local > 0;
+          if (local > 0) {
+            const breathe =
+              0.75 + 0.2 * Math.sin(((t % 3000) / 3000) * Math.PI * 2 - it.order * 0.4);
+            // Each line keeps its own Color: material uniforms hold a reference, not a copy.
+            it.pl.material.uniforms.color = it.color.withAlpha(local * breathe * lv, it.tint);
+          }
+        }
+      }
       for (const set of columnSets) {
         const inside = t >= set.from && t < set.until;
         for (const it of set.items) {
@@ -701,6 +753,7 @@ export function createOverlays(
         beacons,
         ...regionMaps.flatMap((m) => [m.fill, m.outline]),
         ...columnSets.map((c) => c.lines),
+        ...lineSets.map((l) => l.collection),
       ]) {
         if (p && !p.isDestroyed()) scene.primitives.remove(p);
       }

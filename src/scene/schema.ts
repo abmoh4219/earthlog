@@ -51,6 +51,8 @@ export const LayerKind = z.enum([
   "arcs",
   "regions",
   "columns",
+  "terrain",
+  "lines",
 ]);
 
 export const LayerRef = z.object({
@@ -362,6 +364,8 @@ export const ArcsLayer = z.object({
       from: z.tuple([z.number(), z.number()]),
       to: z.tuple([z.number(), z.number()]),
       color: z.string().optional(),
+      /** A dashed line with no comet: a route planned but never travelled. */
+      dashed: z.boolean().optional(),
     }),
   ),
 });
@@ -419,6 +423,47 @@ export const ColumnsLayer = z.object({
   ),
 });
 
+/**
+ * Lines drawn on the ground (e.g. ShakeMap intensity contours), each glowing in its own
+ * colour, revealed one after another in the order given (strongest shaking first, so the
+ * map spreads outward).
+ */
+export const LinesLayer = z.object({
+  kind: z.literal("lines"),
+  name: z
+    .string()
+    .regex(/^[a-z0-9-]+$/)
+    .optional(),
+  lines: z.array(
+    z.object({
+      /** Flat [lon, lat, lon, lat, …]. */
+      points: z.array(z.number()).min(4),
+      color: z.string(),
+      width: z.number().positive().default(3),
+    }),
+  ),
+});
+
+/**
+ * Elevation baked around a story's site (the browser can't read the free terrain tiles: no
+ * CORS). Nested grids, coarse and wide to fine and close; each is metres as little-endian
+ * Int16, row 0 at the north edge, base64. The coarsest grid fades to sea level at its edge.
+ */
+export const TerrainGrid = z.object({
+  west: z.number(),
+  south: z.number(),
+  east: z.number(),
+  north: z.number(),
+  width: z.number().int().min(2),
+  height: z.number().int().min(2),
+  heights: z.string(),
+});
+
+export const TerrainLayer = z.object({
+  kind: z.literal("terrain"),
+  grids: z.array(TerrainGrid).min(1),
+});
+
 export const LayerData = z.discriminatedUnion("kind", [
   ColumnsLayer,
   SignalLayer,
@@ -428,6 +473,8 @@ export const LayerData = z.discriminatedUnion("kind", [
   PlacesLayer,
   ArcsLayer,
   RegionsLayer,
+  TerrainLayer,
+  LinesLayer,
 ]);
 
 /** Natural Earth outlines, shared by all scenes (public/geo/countries.json). */
@@ -458,6 +505,9 @@ export type PlacesLayer = z.infer<typeof PlacesLayer>;
 export type ArcsLayer = z.infer<typeof ArcsLayer>;
 export type RegionsLayer = z.infer<typeof RegionsLayer>;
 export type ColumnsLayer = z.infer<typeof ColumnsLayer>;
+export type TerrainGrid = z.infer<typeof TerrainGrid>;
+export type TerrainLayer = z.infer<typeof TerrainLayer>;
+export type LinesLayer = z.infer<typeof LinesLayer>;
 export type NewsStory = z.infer<typeof NewsStory>;
 export type NewsLayer = z.infer<typeof NewsLayer>;
 export type Storm = z.infer<typeof Storm>;

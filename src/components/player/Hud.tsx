@@ -43,6 +43,10 @@ function ClockHud({
           {scene.title}
         </h1>
         <p className="mt-1.5 text-sm text-ice/70 md:text-base">{scene.subtitle}</p>
+        {/* Results and reports fill in for days: say when this film read its sources. */}
+        <p className="mt-1 font-mono text-[10px] tracking-[0.2em] text-ice/45 uppercase">
+          Data as of {asOf(scene.generatedBy.at)}
+        </p>
       </div>
 
       {second > 0 && (
@@ -74,6 +78,18 @@ function ClockHud({
  * Story time (ADR-0013): no clock, because explainers have no time of day. Instead the
  * chapter title, its number, and the edition's date.
  */
+/** "4 Nov 2026, 19:35 UTC" */
+function asOf(iso: string): string {
+  const d = new Date(iso);
+  const day = d.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+  return `${day}, ${iso.slice(11, 16)} UTC`;
+}
+
 function StoryHud({
   scene,
   back,
@@ -109,6 +125,10 @@ function StoryHud({
           {scene.title}
         </h1>
         <p className="mt-1.5 text-sm text-ice/70 md:text-base">{scene.subtitle}</p>
+        {/* Results and reports fill in for days: say when this film read its sources. */}
+        <p className="mt-1 font-mono text-[10px] tracking-[0.2em] text-ice/45 uppercase">
+          Data as of {asOf(scene.generatedBy.at)}
+        </p>
       </div>
       <div className="text-right">
         <div className="font-mono text-[11px] tracking-[0.3em] text-ice/55 uppercase tabular-nums">

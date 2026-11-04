@@ -140,3 +140,13 @@ describe("splitSentences", () => {
     ]);
   });
 });
+
+describe("revisionCutoff", () => {
+  it("follows the news for three days, then freezes", async () => {
+    const { revisionCutoff } = await import("../scripts/lenses/news-context.ts");
+    expect(revisionCutoff("2026-11-03", Date.parse("2026-11-05T02:00:00Z"))).toBeUndefined();
+    expect(revisionCutoff("2026-11-03", Date.parse("2026-11-08T00:00:00Z"))).toBe(
+      "2026-11-07T00:00:00Z",
+    );
+  });
+});

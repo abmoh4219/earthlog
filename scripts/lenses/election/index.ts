@@ -5,38 +5,17 @@
 //      winning party; flips stronger, uncalled races grey.
 // Results are "as recorded by Wikipedia at bake time", with that time on screen; never
 // "certified" (RESPONSIBLE-USE §7). Builds on the general lens (story, readers, sources).
-import { z } from "zod";
 import type { LayerData, Source } from "../../../src/scene/schema.ts";
-import { fetchJson } from "../../bake/lib.ts";
 import { slugify } from "../../edition/build.ts";
 import { fetchEntities, fetchQids } from "../../edition/sources.ts";
 import type { ChapterDraft, PanelDraft } from "../film.ts";
 import { generalLens, type LensContext, type LensResult } from "../general.ts";
+import { fetchRevision } from "../news-context.ts";
 import { type Infobox, type InfoboxParty, num, parseInfobox } from "./infobox.ts";
 import { fetchDistricts, fetchStates } from "./shapes.ts";
 import { type Party, parseHouseRaces, parseStateRaces, type Race, stateName, tally } from "./us.ts";
 
 // ── Fetching an article at an exact revision ───────────────────────────────────────
-
-const Revisions = z.object({
-  query: z.object({
-    pages: z.array(
-      z.object({
-        title: z.string(),
-        missing: z.boolean().optional(),
-        revisions: z
-          .array(
-            z.object({
-              revid: z.number(),
-              timestamp: z.string(),
-              slots: z.object({ main: z.object({ content: z.string() }) }),
-            }),
-          )
-          .optional(),
-      }),
-    ),
-  }),
-});
 
 export interface Article {
   title: string;
@@ -47,17 +26,14 @@ export interface Article {
 }
 
 export async function fetchArticle(title: string): Promise<Article | undefined> {
-  const url = `https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&format=json&formatversion=2&titles=${encodeURIComponent(title)}`;
-  const page = Revisions.parse(await fetchJson(url)).query.pages[0];
-  const rev = page?.revisions?.[0];
-  if (!page || page.missing || !rev) return undefined;
-  return {
-    title: page.title,
-    revid: rev.revid,
-    timestamp: rev.timestamp,
-    wikitext: rev.slots.main.content,
-    url: `https://en.wikipedia.org/w/index.php?title=${encodeURIComponent(page.title.replace(/ /g, "_"))}&oldid=${rev.revid}`,
-  };
+  // Through fetchRevision, so the edition's revision cutoff applies (ADR-0014).
+  const rev = await fetchRevision(title);
+  return rev
+    ? {
+        ...rev,
+        url: `https://en.wikipedia.org/w/index.php?title=${encodeURIComponent(rev.title.replace(/ /g, "_"))}&oldid=${rev.revid}`,
+      }
+    : undefined;
 }
 
 // ── Colours ──────────────────────────────────────────────────────────────────────
@@ -107,7 +83,6 @@ const PARTY_LABEL: Record<Party, string> = {
   O: "Other",
 };
 
-const fmt = (n: number) => n.toLocaleString("en-GB");
 const listOf = (xs: string[]) =>
   xs.length <= 1 ? (xs[0] ?? "") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`;
 

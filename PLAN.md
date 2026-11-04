@@ -261,12 +261,19 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 **Checkpoint 11:** `feat: culture lens, a camera with a lens`
 
-## Phase 12 · Accident and disaster lenses (about 4 h)
+## Phase 12 · Accident and disaster lenses (about 4 h) ✅
 
 - **Accident:** the exact site; route arcs where known; vehicle facts (type, maker, first flight); timeline. Story: the Palm Beach County Learjet crash.
 - **Disaster (sensor films, real time):** quakes (ShakeMap rupture and intensity, felt reports over time, PAGER exposure), storms (**geostationary clouds every 10 minutes**, frames archived with the bundle), outages (province-level IODA). Story: Super Typhoon In-fa.
 
-**Checkpoint 12:** `feat: accident and disaster lenses`
+**Done (2026-11-05):**
+- **Accident:** The journey (origin → the site in red, the rest of the route dashed; distance flown and left, straight-line, from the cited coordinates) → The site (low over real terrain) → The aircraft (type, maker and first flight from Wikidata, operator, registration) → On board (the infobox's counts, "according to the article") → Minute by minute (the article's own timed sentences) → The investigation. Stories with no article (the Nepal helicopters) get the general film on terrain.
+- **Disaster, earthquakes:** USGS ShakeMap intensity contours spreading outward, the fault's rupture model, 3D columns of estimated intensity over nearby towns, PAGER people exposed by intensity and its alert, "Did You Feel It?" reports; all labelled as USGS estimates. Tested on the M7.7 Panama quake (recorded fixtures); no disaster story in the 2026-11-03 edition.
+- **Terrain:** baked per story from the AWS Terrain Tiles (three nested grids, ~370 KB), fed to Cesium through a heightmap provider; the coarse grid fades to sea level at its edge.
+- **Fresh data (ADR-0014):** the cache expires answers about "now"; editions follow the news for three days, then freeze; every film shows "Data as of".
+- **Moved to later:** storms with geostationary frames and province-level outages in edition films (the classic replays already have both).
+
+**Checkpoint 12:** `feat: accident and disaster lenses on real terrain`
 
 ## Phase 13 · Conflict, science and space lenses (about 3 h)
 
@@ -310,6 +317,7 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 ## Phase 18 · Nightly editions (about 1.5 h)
 
 - `.github/workflows/edition.yml`: build yesterday's edition, direct it (Claude, falling back to the template), validate, commit only `public/editions/<date>/` as a `data:` commit; Vercel deploys on push.
+- Re-film the three previous editions too (ADR-0014): results and reports still fill in; from day 4 an edition is frozen.
 
 **Checkpoint 18:** `ci: nightly editions`
 
@@ -323,7 +331,7 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 - Polish: sensor looks for disaster films (thermal, night), small-screen layout, performance pass.
 - Deploy on Vercel; add the repository secret; run the nightly workflow once.
-- README with a hero clip made by Earthlog itself, CONTRIBUTING (how to add a lens or a classic), CHANGELOG, launch posts.
+- README and landing page with a hero clip made by Earthlog itself: the **2026 US elections film** (Abdelah's pick), recorded once the Claude director is in; CONTRIBUTING (how to add a lens or a classic), CHANGELOG, launch posts.
 
 **Checkpoint 20:** `docs: launch` (plus the tag `v0.1.0`, done by Abdelah)
 

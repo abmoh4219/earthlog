@@ -268,14 +268,14 @@
       "t": "2026-11-03T00:00:08Z",
       "text": "The war with Iran became a subject of Democratic campaigning ahead of the November 3 midterm elections.",
       "cites": [
-        "wiki:rev:1383770772:158"
+        "wiki:rev:1383797391:143"
       ]
     },
     {
       "t": "2026-11-03T00:00:16Z",
-      "text": "Elections were held in the United States on November 3, 2026.",
+      "text": "Midterm elections were held in the United States on November 3, 2026 during the second term of Republican president Donald Trump.",
       "cites": [
-        "wiki:rev:1383770772:0"
+        "wiki:rev:1383797391:0"
       ]
     },
     {
@@ -300,7 +300,7 @@
     },
     {
       "t": "2026-11-03T00:00:38Z",
-      "text": "36 governor's races this year: Democrats won 21, Republicans 12, 3 not yet called.",
+      "text": "36 governor's races this year: Democrats won 22, Republicans 12, 2 not yet called.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-table"
       ]
@@ -318,14 +318,14 @@
     },
     {
       "t": "2026-11-03T00:00:52Z",
-      "text": "The House: Democrats 231 seats, Republicans 139, 65 still to be called. 218 make a majority.",
+      "text": "The House: Democrats 237 seats, Republicans 139, 59 still to be called. 218 make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
       "t": "2026-11-03T00:00:59Z",
-      "text": "On the map: 30 districts changed party; 97 not yet called in the race tables.",
+      "text": "On the map: 37 districts changed party; 61 not yet called in the race tables.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
@@ -407,7 +407,7 @@
       "kind": "bars",
       "title": "Senate races won",
       "unit": "races",
-      "note": "As recorded by Wikipedia at 15:10 UTC, 2026-11-04. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 22:25 UTC, 2026-11-04. Called or projected, not certified.",
       "items": [
         {
           "label": "Democratic",
@@ -499,11 +499,11 @@
       "kind": "bars",
       "title": "Governor's races won",
       "unit": "races",
-      "note": "As recorded by Wikipedia at 15:06 UTC, 2026-11-04. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 22:29 UTC, 2026-11-04. Called or projected, not certified.",
       "items": [
         {
           "label": "Democratic",
-          "value": 21,
+          "value": 22,
           "color": "#6186d4",
           "cites": [
             "elex:2026-united-states-gubernatorial-elections:governors-table"
@@ -519,7 +519,7 @@
         },
         {
           "label": "Not yet called",
-          "value": 3,
+          "value": 2,
           "color": "#8a96a3",
           "cites": [
             "elex:2026-united-states-gubernatorial-elections:governors-table"
@@ -584,12 +584,12 @@
       "title": "The new House",
       "total": 435,
       "majority": 218,
-      "note": "One dot per seat. Infobox as of 9:15 AM, November 4, 2026; called or projected, not certified.",
+      "note": "One dot per seat. Infobox as of 3:54 PM, November 4, 2026; called or projected, not certified.",
       "items": [
         {
           "label": "Democratic",
-          "value": 231,
-          "text": "231 (was 214)",
+          "value": 237,
+          "text": "237 (was 214)",
           "color": "#6186d4",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -606,7 +606,7 @@
         },
         {
           "label": "Not yet called",
-          "value": 65,
+          "value": 59,
           "color": "#8a96a3",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -1126,6 +1126,6 @@
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T22:14:19Z"
+    "at": "2026-11-04T22:54:47Z"
   }
 }

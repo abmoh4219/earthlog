@@ -25,6 +25,8 @@ export function createSpotlight(
   countries: Country[],
   spotlight: NonNullable<Scene["spotlight"]>,
   start: number,
+  /** On real terrain a flat fill would float through the mountains: outline only. */
+  terrain = false,
 ): Spotlight {
   const accent = C.Color.fromCssColorString(ACCENT);
   const lines = scene.primitives.add(new C.PolylineCollection());
@@ -52,30 +54,31 @@ export function createSpotlight(
       });
       return { pts, line, drawn: -1 };
     });
-  const fill = country
-    ? scene.primitives.add(
-        new C.Primitive({
-          geometryInstances: country.rings.map(
-            (ring) =>
-              new C.GeometryInstance({
-                geometry: new C.PolygonGeometry({
-                  polygonHierarchy: new C.PolygonHierarchy(
-                    C.Cartesian3.fromDegreesArray(ring.slice(0, ring.length - (ring.length % 2))),
-                  ),
-                  height: 1_400,
-                  vertexFormat: C.PerInstanceColorAppearance.FLAT_VERTEX_FORMAT,
+  const fill =
+    country && !terrain
+      ? scene.primitives.add(
+          new C.Primitive({
+            geometryInstances: country.rings.map(
+              (ring) =>
+                new C.GeometryInstance({
+                  geometry: new C.PolygonGeometry({
+                    polygonHierarchy: new C.PolygonHierarchy(
+                      C.Cartesian3.fromDegreesArray(ring.slice(0, ring.length - (ring.length % 2))),
+                    ),
+                    height: 1_400,
+                    vertexFormat: C.PerInstanceColorAppearance.FLAT_VERTEX_FORMAT,
+                  }),
+                  attributes: {
+                    color: C.ColorGeometryInstanceAttribute.fromColor(accent.withAlpha(0.1)),
+                  },
                 }),
-                attributes: {
-                  color: C.ColorGeometryInstanceAttribute.fromColor(accent.withAlpha(0.1)),
-                },
-              }),
-          ),
-          appearance: new C.PerInstanceColorAppearance({ flat: true, translucent: true }),
-          asynchronous: false,
-          show: false,
-        }),
-      )
-    : undefined;
+            ),
+            appearance: new C.PerInstanceColorAppearance({ flat: true, translucent: true }),
+            asynchronous: false,
+            show: false,
+          }),
+        )
+      : undefined;
 
   // 2. Radar rings around the focus point.
   const center = C.Cartographic.fromDegrees(spotlight.lon, spotlight.lat);
@@ -154,6 +157,10 @@ export function createSpotlight(
   );
 
   const scratch = new C.Color();
+  // Material uniforms keep a reference to the Color they are given, so every line needs its
+  // own (one shared scratch colour would give all of them the last alpha written).
+  const ringTints = rings.map(() => new C.Color());
+  const sweepTints = sweep.map(() => new C.Color());
   return {
     update: (t) => {
       const since = t - start - TRACE_START_MS;
@@ -178,7 +185,7 @@ export function createSpotlight(
         if (since <= 0) return;
         const u = (((phase % RING_PERIOD_MS) + RING_PERIOD_MS) % RING_PERIOD_MS) / RING_PERIOD_MS;
         ring.positions = circle(20_000 + u * RING_MAX_M);
-        ring.material.uniforms.color = accent.withAlpha((1 - u) * 0.8, scratch);
+        ring.material.uniforms.color = accent.withAlpha((1 - u) * 0.8, ringTints[i]);
       });
 
       // The sweep turns once every SWEEP_MS, echoes lagging 2.5° each.
@@ -190,7 +197,7 @@ export function createSpotlight(
         const fadeIn = Math.min(1, since / 1200);
         beam.material.uniforms.color = accent.withAlpha(
           fadeIn * (k === 0 ? 0.85 : 0.32 * (1 - k / SWEEP_TRAIL)),
-          scratch,
+          sweepTints[k],
         );
       });
 

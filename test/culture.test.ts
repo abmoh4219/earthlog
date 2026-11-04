@@ -111,3 +111,18 @@ describe("wideShot", () => {
     expect(us?.lon ?? 0).toBeLessThan(-60);
   });
 });
+
+describe("accident helpers", () => {
+  it("reads registrations and coordinates", async () => {
+    const { parseCoord, km } = await import("../scripts/lenses/accident.ts");
+    expect(boxItems("{{Airreg|N|722BD}}")).toEqual(["N722BD"]);
+    expect(boxItems("{{Airreg|G|EUPT}}")).toEqual(["G-EUPT"]);
+    const c = parseCoord(
+      "{{Coord|26|37|58.4|N|80|06|47.2|W|type:event_region:US-FL|display=inline,title}}",
+    );
+    expect(c?.lat).toBeCloseTo(26.6329, 3);
+    expect(c?.lon).toBeCloseTo(-80.1131, 3);
+    expect(parseCoord("{{coord|27.98|86.92|display=title}}")).toEqual({ lon: 86.92, lat: 27.98 });
+    expect(km({ lon: 0, lat: 0 }, { lon: 1, lat: 0 })).toBe(110);
+  });
+});

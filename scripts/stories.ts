@@ -9,11 +9,14 @@ import { Country, Evidence, LayerData, Scene, Source } from "../src/scene/schema
 import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, writeJson } from "./bake/lib.ts";
 import { fetchPortal, parsePortal } from "./bake/wikinews.ts";
+import { accidentLens } from "./lenses/accident.ts";
 import { cultureLens } from "./lenses/culture.ts";
+import { disasterLens } from "./lenses/disaster.ts";
 import { economyLens } from "./lenses/economy.ts";
 import { electionLens } from "./lenses/election/index.ts";
 import { layerKey } from "./lenses/film.ts";
 import { generalLens, type LensContext, type LensResult } from "./lenses/general.ts";
+import { revisionCutoff, setRevisionCutoff } from "./lenses/news-context.ts";
 import { organizationLens } from "./lenses/organization.ts";
 import { personLens } from "./lenses/person.ts";
 import { sportsLens } from "./lenses/sports.ts";
@@ -22,8 +25,8 @@ import { sportsLens } from "./lenses/sports.ts";
 const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
   election: electionLens,
   conflict: generalLens,
-  accident: generalLens,
-  disaster: generalLens,
+  accident: accidentLens,
+  disaster: disasterLens,
   sports: sportsLens,
   economy: economyLens,
   science: generalLens,
@@ -37,7 +40,16 @@ const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const date = args[0] ?? new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
 const only = args[1];
 const dir = join(ROOT, "public", "editions", date);
-const at = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+// Fresh for three days, then frozen at the articles as of the end of day 3 (ADR-0014).
+const cutoff = revisionCutoff(date);
+// "Data as of": now while the edition is fresh, the freeze moment once it is frozen.
+const at = cutoff ?? new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+setRevisionCutoff(cutoff);
+console.log(
+  cutoff
+    ? `Articles as of ${cutoff} (frozen edition)`
+    : "Articles: latest revisions (fresh edition)",
+);
 
 const edition = Edition.parse(await readJson(join(dir, "edition.json")));
 const evidence = z.array(Evidence).parse(await readJson(join(dir, "evidence.json")));

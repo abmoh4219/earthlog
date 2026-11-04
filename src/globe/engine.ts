@@ -7,7 +7,8 @@ import type { SceneBundle } from "@/player/store";
 import { usePlayer } from "@/player/store";
 import { activeBeatIndex } from "@/scene/beats";
 import { cinematicPose, tiltShift } from "@/scene/camera";
-import { Country } from "@/scene/schema";
+import { Country, type TerrainLayer } from "@/scene/schema";
+import { decodeGrid, heightAt } from "@/scene/terrain";
 import {
   BLACK_MARBLE,
   BLUE_MARBLE,
@@ -97,6 +98,39 @@ export async function createGlobe(
 
   const s = widget.scene;
   const globe = s.globe;
+  // Terrain baked around the story's site (data/terrain.json): real mountains under the
+  // camera. A heightmap provider samples the nested grids; everywhere else is sea level.
+  const terrain = bundle.layers.find((l): l is TerrainLayer => l.kind === "terrain");
+  if (terrain) {
+    const grids = terrain.grids.map(decodeGrid);
+    const outer = grids[0];
+    const N = 33;
+    const tiling = new C.GeographicTilingScheme();
+    globe.terrainProvider = new C.CustomHeightmapTerrainProvider({
+      width: N,
+      height: N,
+      tilingScheme: tiling,
+      callback: (x, y, level) => {
+        const r = tiling.tileXYToRectangle(x, y, level);
+        const [w, so, e, n] = [r.west, r.south, r.east, r.north].map((v) => v / DEG) as [
+          number,
+          number,
+          number,
+          number,
+        ];
+        const out = new Float32Array(N * N);
+        // Tiles that don't touch the baked area are flat: skip the sampling.
+        if (!outer || e < outer.west || w > outer.east || n < outer.south || so > outer.north)
+          return out;
+        for (let row = 0; row < N; row++) {
+          const lat = n - ((n - so) * row) / (N - 1);
+          for (let col = 0; col < N; col++)
+            out[row * N + col] = heightAt(grids, w + ((e - w) * col) / (N - 1), lat);
+        }
+        return out;
+      },
+    });
+  }
   // Real time: the real sun position from the scene clock gives an honest day/night
   // terminator. Story time (explainers) has no time of day, so the whole globe is lit
   // with the day's satellite image and no night is implied (ADR-0013).
@@ -155,7 +189,14 @@ export async function createGlobe(
   const overlays = createOverlays(C, s, countries, bundle.layers, scene.layers);
   const spot =
     story && scene.spotlight
-      ? createSpotlight(C, s, countries, scene.spotlight, Date.parse(scene.window.start))
+      ? createSpotlight(
+          C,
+          s,
+          countries,
+          scene.spotlight,
+          Date.parse(scene.window.start),
+          terrain !== undefined,
+        )
       : undefined;
   // The reticle (a DOM overlay) locks onto the spotlight point on screen; hidden behind the Earth.
   const spotPoint = scene.spotlight

@@ -67,6 +67,8 @@ export function boxTemplate(body: string): string {
     return args.length >= 2 ? `${args[0]} by ${args.slice(1).join(" and ")}` : (args[0] ?? "");
   if (name === "en dash" || name === "ndash" || name === "snd") return "–";
   if (name === "inr") return `₹${args[0] ?? ""}`;
+  // Aircraft registrations: US marks have no hyphen (N722BD), others do (G-EUPT).
+  if (name === "airreg") return args[0] === "N" ? args.join("") : args.slice(0, 2).join("-");
   return expandTemplate(body);
 }
 

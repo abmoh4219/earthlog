@@ -166,6 +166,7 @@ A scene is **rejected** if:
   - applies the camera pose each frame;
   - in story films: a relief globe, a camera-following key light, and the **spotlight** (`src/globe/spotlight.ts`): the focus country traced in light, radar rings and a graticule, all driven by the scene clock. A DOM reticle locks onto the spotlight point;
   - layers: places (with beacons), arcs (glowing, with comets and a ripple where they land), regions (pulsing comparison fills) and columns (3D bars rising from the ground). Every kind may appear several times under a `name`, each revealed and hidden by its own chapter;
+  - terrain: a story bundle may carry `data/terrain.json` (nested height grids baked at build time); the engine feeds it to a `CustomHeightmapTerrainProvider` and everywhere else stays at sea level. Ground lines (`lines` layers, e.g. ShakeMap contours) fade in one after another;
   - place labels are decluttered on screen every frame (`src/scene/declutter.ts`, pure): primary places first, then the lens's order;
   - the lens (`src/globe/lens.ts`): one post-process pass with tilt-shift (strength from `tiltShift(pitch, range)`), a split tone, vignette and grain;
   - the camera pose is `cinematicPose`: the director's keyframes plus a bank into turns and a handheld drift, both on the scene clock.

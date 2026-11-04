@@ -346,3 +346,25 @@ Most stories (an election, a death, a company announcement) are understood throu
 - Lenses describe chapters (`scripts/lenses/film.ts` lays them out: captions, camera shots, panels from chapter start to end, layers revealed from a chapter on).
 - The globe is fully lit in story time: no terminator and no night lights, since no time of day is claimed.
 - Panels are validated like captions: every value cites evidence in the bundle.
+
+---
+
+## ADR-0014: Editions stay fresh for three days, then freeze
+
+- **Date:** 2026-11-05
+- **Status:** Accepted
+
+### Decision
+
+- A story film reads each article as it stands **now** for the first three days after its edition day, and is re-filmed during that time (nightly, Phase 18; or `pnpm stories <date>` by hand).
+- From the end of day 3 on (edition day + 4 days, 00:00 UTC) it reads each article **as it stood at that moment** (`rvstart`), so the archive is reproducible: re-filming an old edition gives the same film, never one written with hindsight.
+- Every film shows **"Data as of …"**: the time it read its sources (fresh) or the freeze time (frozen).
+- The download cache knows what goes stale: an article's latest revision (3 hours), Wikidata and Hacker News (1 day), the last three days' pageviews (6 hours), World Bank (30 days). Everything else (a revision by date, a past day's counts, map shapes) is kept forever.
+
+### Why
+
+Results fill in for days. The US election film baked on 4 November afternoon showed 97 districts not yet called; the same lens that evening showed 61. A cache that never expired would have frozen the first answer forever, and a film re-made a month later would quietly use a month of hindsight.
+
+### Cost
+
+The nightly job re-films the last three editions (minutes, all free APIs). Old editions never change.
