@@ -2,9 +2,11 @@
 // this file only turns poses and toggles into Cesium calls.
 // No Cesium ion, no Google tiles, no keys: imagery comes from NASA GIBS (ADR-0002).
 import type * as CesiumNS from "cesium";
+import { z } from "zod";
+import type { SceneBundle } from "@/player/store";
 import { usePlayer } from "@/player/store";
 import { cameraAt } from "@/scene/camera";
-import type { Scene } from "@/scene/schema";
+import { Country } from "@/scene/schema";
 import {
   BLACK_MARBLE,
   BLUE_MARBLE,
@@ -14,6 +16,7 @@ import {
   VIIRS_NIGHT,
   VIIRS_TRUE_COLOR,
 } from "./gibs";
+import { createOverlays } from "./overlays";
 
 declare global {
   interface Window {
@@ -27,14 +30,21 @@ export interface GlobeEngine {
 
 const DEG = Math.PI / 180;
 
+async function loadCountries(): Promise<Country[]> {
+  const res = await fetch("/geo/countries.json");
+  if (!res.ok) throw new Error(`countries.json: ${res.status}`);
+  return z.array(Country).parse(await res.json());
+}
+
 export async function createGlobe(
   container: HTMLElement,
   creditContainer: HTMLElement,
-  scene: Scene,
+  bundle: SceneBundle,
 ): Promise<GlobeEngine> {
+  const { scene } = bundle;
   // Must be set before Cesium loads its workers and assets (copied to public/cesium).
   window.CESIUM_BASE_URL = "/cesium/";
-  const C = await import("cesium");
+  const [C, countries] = await Promise.all([import("cesium"), loadCountries()]);
 
   const provider = (layer: GibsLayer, date: string, rectangle?: CesiumNS.Rectangle) => {
     const p = new C.UrlTemplateImageryProvider({
@@ -84,7 +94,8 @@ export async function createGlobe(
       : provider(BLACK_MARBLE, STATIC_DATES.blackMarble),
   );
   nightLights.dayAlpha = 0;
-  nightLights.nightAlpha = 1;
+  // The composite is "a typical night", not this one: shown dimmer, and labelled in Credits.
+  nightLights.nightAlpha = eventNight ? 1 : 0.55;
 
   // Day side: the actual satellite image of the event day, worldwide. Swath gaps in the
   // daily mosaic are black; colorToAlpha turns them transparent so the Blue Marble
@@ -96,6 +107,8 @@ export async function createGlobe(
   eventDay.nightAlpha = 0;
   eventDay.colorToAlpha = C.Color.BLACK;
   eventDay.colorToAlphaThreshold = 0.02;
+
+  const overlays = createOverlays(C, s, countries, bundle.layers);
 
   // Any user input hands the camera to the user until they resume the director.
   const handler = new C.ScreenSpaceEventHandler(s.canvas);
@@ -128,6 +141,7 @@ export async function createGlobe(
 
     nightLights.show = layers.nightLights;
     eventDay.show = layers.eventDay;
+    overlays.update(clock.t, { labels: layers.labels });
 
     if (director) {
       const pose = cameraAt(clock.t, scene.camera);
@@ -144,14 +158,12 @@ export async function createGlobe(
     }
   });
 
-  usePlayer.getState().setGlobeReady(true);
-
   return {
     destroy: () => {
       removePreUpdate();
       handler.destroy();
+      overlays.destroy();
       widget.destroy();
-      usePlayer.getState().setGlobeReady(false);
     },
   };
 }

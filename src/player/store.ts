@@ -13,18 +13,20 @@ import {
   setSpeed,
   type TimeWindow,
 } from "@/scene/clock";
-import type { Evidence, Scene, Source } from "@/scene/schema";
+import type { Evidence, LayerData, Scene, Source } from "@/scene/schema";
 import { ms } from "@/scene/schema";
 
 export interface SceneBundle {
   scene: Scene;
   evidence: Evidence[];
   sources: Source[];
+  layers: LayerData[];
 }
 
 export interface LayerToggles {
   nightLights: boolean;
   eventDay: boolean;
+  labels: boolean;
 }
 
 interface PlayerState {
@@ -34,6 +36,10 @@ interface PlayerState {
   /** True while the scene's director drives the camera; false once the user takes over. */
   director: boolean;
   cinema: boolean;
+  /** The live data readout on the right. */
+  panel: boolean;
+  /** The keyboard-shortcut sheet. */
+  help: boolean;
   layers: LayerToggles;
   globeReady: boolean;
 
@@ -46,6 +52,8 @@ interface PlayerState {
   setAuto: () => void;
   setDirector: (on: boolean) => void;
   toggleCinema: () => void;
+  togglePanel: () => void;
+  setHelp: (open: boolean) => void;
   toggleLayer: (key: keyof LayerToggles) => void;
   setGlobeReady: (ready: boolean) => void;
 }
@@ -58,7 +66,9 @@ export const usePlayer = create<PlayerState>((set, get) => ({
   clock: initialClock(EMPTY_WINDOW),
   director: true,
   cinema: true,
-  layers: { nightLights: true, eventDay: true },
+  panel: true,
+  help: false,
+  layers: { nightLights: true, eventDay: true, labels: true },
   globeReady: false,
 
   load: (bundle) => {
@@ -80,6 +90,8 @@ export const usePlayer = create<PlayerState>((set, get) => ({
   setAuto: () => set((s) => ({ clock: setAuto(s.clock) })),
   setDirector: (on) => set({ director: on }),
   toggleCinema: () => set((s) => ({ cinema: !s.cinema })),
+  togglePanel: () => set((s) => ({ panel: !s.panel })),
+  setHelp: (open) => set({ help: open }),
   toggleLayer: (key) => set((s) => ({ layers: { ...s.layers, [key]: !s.layers[key] } })),
   setGlobeReady: (ready) => set({ globeReady: ready }),
 }));

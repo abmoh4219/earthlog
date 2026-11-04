@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "id": "iran-2025",
+  "title": "Iran goes dark",
+  "subtitle": "Internet signals from Iran collapse · 18 June 2025",
+  "category": "conflict",
+  "window": {
+    "start": "2025-06-18T10:00:00Z",
+    "end": "2025-06-19T04:00:00Z"
+  },
+  "focus": "2025-06-18T13:00:00Z",
+  "timezone": "Asia/Tehran",
+  "region": {
+    "west": 38,
+    "south": 22,
+    "east": 66,
+    "north": 44
+  },
+  "imagery": {
+    "day": "2025-06-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2025-06-18T10:00:00Z",
+      "lon": 52,
+      "lat": 29,
+      "range": 6777129.125453382,
+      "heading": 0,
+      "pitch": -82
+    },
+    {
+      "t": "2025-06-18T12:50:00Z",
+      "lon": 52,
+      "lat": 33,
+      "range": 4170541.000279004,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2025-06-18T13:15:00Z",
+      "lon": 53,
+      "lat": 31,
+      "range": 2736917.5314330966,
+      "heading": 10,
+      "pitch": -52
+    },
+    {
+      "t": "2025-06-18T14:00:00Z",
+      "lon": 53,
+      "lat": 31.5,
+      "range": 3127905.750209253,
+      "heading": -8,
+      "pitch": -55
+    },
+    {
+      "t": "2025-06-18T22:36:00Z",
+      "lon": 52,
+      "lat": 31,
+      "range": 3388564.562726691,
+      "heading": -4,
+      "pitch": -62
+    },
+    {
+      "t": "2025-06-19T04:00:00Z",
+      "lon": 52,
+      "lat": 30,
+      "range": 4952517.437831317,
+      "heading": 0,
+      "pitch": -75
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2025-06-18T10:00:00Z",
+      "speed": 135
+    },
+    {
+      "t": "2025-06-18T10:15:45Z",
+      "speed": 1080
+    },
+    {
+      "t": "2025-06-18T12:55:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2025-06-18T13:25:00Z",
+      "speed": 135
+    },
+    {
+      "t": "2025-06-18T13:47:15Z",
+      "speed": 1080
+    },
+    {
+      "t": "2025-06-18T23:40:00Z",
+      "speed": 135
+    },
+    {
+      "t": "2025-06-18T23:55:45Z",
+      "speed": 1080
+    }
+  ],
+  "beats": [
+    {
+      "t": "2025-06-18T10:00:00Z",
+      "text": "13:30 GMT+3:30. Iran: responsive address blocks at 89% of normal.",
+      "cites": [
+        "ioda:IR:ping:2025-06-18T10:00Z",
+        "ioda:IR:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-06-18T13:00:00Z",
+      "text": "16:30 GMT+3:30. Iran: responsive address blocks fall from 88% to 73% of normal in 10 minutes.",
+      "cites": [
+        "ioda:IR:ping:2025-06-18T12:50Z",
+        "ioda:IR:ping:2025-06-18T13:00Z",
+        "ioda:IR:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-06-18T13:15:45Z",
+      "text": "Turkey, for comparison, holds steady: 100% of normal, never below 99%.",
+      "cites": [
+        "ioda:TR:ping:2025-06-18T13:10Z",
+        "ioda:TR:ping:2025-06-18T23:30Z",
+        "ioda:TR:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-06-18T13:31:30Z",
+      "text": "16:50 GMT+3:30. 20 minutes later, Iran is down to 22% of normal.",
+      "cites": [
+        "ioda:IR:ping:2025-06-18T13:20Z",
+        "ioda:IR:ping:2025-06-18T13:00Z",
+        "ioda:IR:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-06-18T23:40:00Z",
+      "text": "03:10 GMT+3:30. Lowest reading for Iran: 3% of normal.",
+      "cites": [
+        "ioda:IR:ping:2025-06-18T23:40Z",
+        "ioda:IR:ping:baseline"
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T12:00:52Z"
+  }
+}

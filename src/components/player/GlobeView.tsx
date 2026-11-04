@@ -3,10 +3,9 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import type { GlobeEngine } from "@/globe/engine";
-import { usePlayer } from "@/player/store";
-import type { Scene } from "@/scene/schema";
+import { type SceneBundle, usePlayer } from "@/player/store";
 
-export function GlobeView({ scene }: { scene: Scene }) {
+export function GlobeView({ bundle }: { bundle: SceneBundle }) {
   const globeRef = useRef<HTMLDivElement>(null);
   const creditsRef = useRef<HTMLDivElement>(null);
   const ready = usePlayer((s) => s.globeReady);
@@ -20,10 +19,15 @@ export function GlobeView({ scene }: { scene: Scene }) {
     let cancelled = false;
     // Cesium is heavy: load it only in the browser, after first paint.
     import("@/globe/engine")
-      .then(({ createGlobe }) => createGlobe(el, credits, scene))
+      .then(({ createGlobe }) => createGlobe(el, credits, bundle))
       .then((e) => {
+        // React dev mode mounts twice: the first globe resolves after its cleanup ran.
+        // Only the globe we keep may flip "ready", or a discarded one would hide it.
         if (cancelled) e.destroy();
-        else engine = e;
+        else {
+          engine = e;
+          usePlayer.getState().setGlobeReady(true);
+        }
       })
       .catch((err: unknown) => {
         setError(err instanceof Error ? err.message : String(err));
@@ -31,8 +35,9 @@ export function GlobeView({ scene }: { scene: Scene }) {
     return () => {
       cancelled = true;
       engine?.destroy();
+      usePlayer.getState().setGlobeReady(false);
     };
-  }, [scene]);
+  }, [bundle]);
 
   return (
     <>

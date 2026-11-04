@@ -1,0 +1,3536 @@
+[
+  {
+    "id": "ioda:ES:ping:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2025-04-28T09:30:00Z",
+    "label": "Spain: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T09:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:30:00Z",
+    "label": "Spain: responsive address blocks 49,322 vs normal 49,378 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T09:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:40:00Z",
+    "label": "Spain: responsive address blocks 49,340 vs normal 49,394 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T09:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:50:00Z",
+    "label": "Spain: responsive address blocks 49,357 vs normal 49,352.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T10:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:00:00Z",
+    "label": "Spain: responsive address blocks 49,329 vs normal 49,304.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T10:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:10:00Z",
+    "label": "Spain: responsive address blocks 49,322 vs normal 49,393.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T10:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:20:00Z",
+    "label": "Spain: responsive address blocks 49,284 vs normal 49,346 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T10:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:30:00Z",
+    "label": "Spain: responsive address blocks 30,267 vs normal 49,335.5 (61%)",
+    "value": 61,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T10:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:40:00Z",
+    "label": "Spain: responsive address blocks 18,007 vs normal 49,363 (36%)",
+    "value": 36,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T10:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:50:00Z",
+    "label": "Spain: responsive address blocks 16,317 vs normal 49,363 (33%)",
+    "value": 33,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T11:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:00:00Z",
+    "label": "Spain: responsive address blocks 15,601 vs normal 49,388.5 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T11:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:10:00Z",
+    "label": "Spain: responsive address blocks 15,283 vs normal 49,339 (31%)",
+    "value": 31,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T11:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:20:00Z",
+    "label": "Spain: responsive address blocks 14,989 vs normal 49,306 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T11:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:30:00Z",
+    "label": "Spain: responsive address blocks 14,799 vs normal 49,331 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T11:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:40:00Z",
+    "label": "Spain: responsive address blocks 14,686 vs normal 49,375.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T11:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:50:00Z",
+    "label": "Spain: responsive address blocks 14,680 vs normal 49,325 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T12:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:00:00Z",
+    "label": "Spain: responsive address blocks 14,638 vs normal 49,351.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T12:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:10:00Z",
+    "label": "Spain: responsive address blocks 14,539 vs normal 49,439 (29%)",
+    "value": 29,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T12:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:20:00Z",
+    "label": "Spain: responsive address blocks 14,579 vs normal 49,362 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T12:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:30:00Z",
+    "label": "Spain: responsive address blocks 14,560 vs normal 49,354 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T12:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:40:00Z",
+    "label": "Spain: responsive address blocks 14,557 vs normal 49,345.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T12:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:50:00Z",
+    "label": "Spain: responsive address blocks 14,643 vs normal 49,383.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T13:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:00:00Z",
+    "label": "Spain: responsive address blocks 14,721 vs normal 49,369.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T13:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:10:00Z",
+    "label": "Spain: responsive address blocks 14,997 vs normal 49,413.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T13:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:20:00Z",
+    "label": "Spain: responsive address blocks 15,102 vs normal 49,351.5 (31%)",
+    "value": 31,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:30:00Z",
+    "label": "Spain: responsive address blocks 15,212 vs normal 49,383 (31%)",
+    "value": 31,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T13:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:40:00Z",
+    "label": "Spain: responsive address blocks 15,502 vs normal 49,385 (31%)",
+    "value": 31,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T13:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:50:00Z",
+    "label": "Spain: responsive address blocks 15,616 vs normal 49,358 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:00:00Z",
+    "label": "Spain: responsive address blocks 15,705 vs normal 49,347 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T14:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:10:00Z",
+    "label": "Spain: responsive address blocks 15,777 vs normal 49,420.5 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T14:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:20:00Z",
+    "label": "Spain: responsive address blocks 15,813 vs normal 49,371.5 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:30:00Z",
+    "label": "Spain: responsive address blocks 15,911 vs normal 49,325 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T14:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:40:00Z",
+    "label": "Spain: responsive address blocks 16,006 vs normal 49,379.5 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T14:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:50:00Z",
+    "label": "Spain: responsive address blocks 16,056 vs normal 49,356.5 (33%)",
+    "value": 33,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:00:00Z",
+    "label": "Spain: responsive address blocks 15,903 vs normal 49,400 (32%)",
+    "value": 32,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T15:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:10:00Z",
+    "label": "Spain: responsive address blocks 16,073 vs normal 49,404 (33%)",
+    "value": 33,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T15:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:20:00Z",
+    "label": "Spain: responsive address blocks 16,286 vs normal 49,342 (33%)",
+    "value": 33,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:30:00Z",
+    "label": "Spain: responsive address blocks 16,268 vs normal 49,387.5 (33%)",
+    "value": 33,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T15:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:40:00Z",
+    "label": "Spain: responsive address blocks 17,004 vs normal 49,400.5 (34%)",
+    "value": 34,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T15:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:50:00Z",
+    "label": "Spain: responsive address blocks 17,682 vs normal 49,375 (36%)",
+    "value": 36,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:00:00Z",
+    "label": "Spain: responsive address blocks 18,163 vs normal 49,413.5 (37%)",
+    "value": 37,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T16:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:10:00Z",
+    "label": "Spain: responsive address blocks 17,060 vs normal 49,430 (35%)",
+    "value": 35,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T16:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:20:00Z",
+    "label": "Spain: responsive address blocks 17,533 vs normal 49,380.5 (36%)",
+    "value": 36,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:30:00Z",
+    "label": "Spain: responsive address blocks 18,293 vs normal 49,341.5 (37%)",
+    "value": 37,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T16:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:40:00Z",
+    "label": "Spain: responsive address blocks 18,579 vs normal 49,377 (38%)",
+    "value": 38,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T16:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:50:00Z",
+    "label": "Spain: responsive address blocks 18,587 vs normal 49,395 (38%)",
+    "value": 38,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:00:00Z",
+    "label": "Spain: responsive address blocks 18,563 vs normal 49,400 (38%)",
+    "value": 38,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T17:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:10:00Z",
+    "label": "Spain: responsive address blocks 18,330 vs normal 49,418 (37%)",
+    "value": 37,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T17:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:20:00Z",
+    "label": "Spain: responsive address blocks 17,961 vs normal 49,368.5 (36%)",
+    "value": 36,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:30:00Z",
+    "label": "Spain: responsive address blocks 17,966 vs normal 49,378.5 (36%)",
+    "value": 36,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T17:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:40:00Z",
+    "label": "Spain: responsive address blocks 17,080 vs normal 49,388 (35%)",
+    "value": 35,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T17:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:50:00Z",
+    "label": "Spain: responsive address blocks 12,150 vs normal 49,382.5 (25%)",
+    "value": 25,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T18:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:00:00Z",
+    "label": "Spain: responsive address blocks 16,545 vs normal 49,389 (34%)",
+    "value": 34,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T18:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:10:00Z",
+    "label": "Spain: responsive address blocks 18,690 vs normal 49,446.5 (38%)",
+    "value": 38,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T18:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:20:00Z",
+    "label": "Spain: responsive address blocks 20,023 vs normal 49,397 (41%)",
+    "value": 41,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T18:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:30:00Z",
+    "label": "Spain: responsive address blocks 21,155 vs normal 49,348.5 (43%)",
+    "value": 43,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T18:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:40:00Z",
+    "label": "Spain: responsive address blocks 21,851 vs normal 49,404 (44%)",
+    "value": 44,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T18:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:50:00Z",
+    "label": "Spain: responsive address blocks 22,643 vs normal 49,403.5 (46%)",
+    "value": 46,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T19:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:00:00Z",
+    "label": "Spain: responsive address blocks 23,071 vs normal 49,376 (47%)",
+    "value": 47,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T19:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:10:00Z",
+    "label": "Spain: responsive address blocks 23,327 vs normal 49,392 (47%)",
+    "value": 47,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T19:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:20:00Z",
+    "label": "Spain: responsive address blocks 22,570 vs normal 49,328.5 (46%)",
+    "value": 46,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T19:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:30:00Z",
+    "label": "Spain: responsive address blocks 21,125 vs normal 49,350 (43%)",
+    "value": 43,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T19:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:40:00Z",
+    "label": "Spain: responsive address blocks 21,437 vs normal 49,385.5 (43%)",
+    "value": 43,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T19:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:50:00Z",
+    "label": "Spain: responsive address blocks 22,196 vs normal 49,330.5 (45%)",
+    "value": 45,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T20:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:00:00Z",
+    "label": "Spain: responsive address blocks 22,942 vs normal 49,355 (46%)",
+    "value": 46,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T20:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:10:00Z",
+    "label": "Spain: responsive address blocks 23,832 vs normal 49,364 (48%)",
+    "value": 48,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T20:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:20:00Z",
+    "label": "Spain: responsive address blocks 24,334 vs normal 49,297.5 (49%)",
+    "value": 49,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T20:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:30:00Z",
+    "label": "Spain: responsive address blocks 24,794 vs normal 49,303 (50%)",
+    "value": 50,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T20:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:40:00Z",
+    "label": "Spain: responsive address blocks 25,113 vs normal 49,360 (51%)",
+    "value": 51,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T20:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:50:00Z",
+    "label": "Spain: responsive address blocks 25,459 vs normal 49,336.5 (52%)",
+    "value": 52,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T21:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:00:00Z",
+    "label": "Spain: responsive address blocks 25,938 vs normal 49,377.5 (53%)",
+    "value": 53,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T21:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:10:00Z",
+    "label": "Spain: responsive address blocks 26,595 vs normal 49,331 (54%)",
+    "value": 54,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T21:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:20:00Z",
+    "label": "Spain: responsive address blocks 27,034 vs normal 49,290 (55%)",
+    "value": 55,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T21:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:30:00Z",
+    "label": "Spain: responsive address blocks 27,497 vs normal 49,351 (56%)",
+    "value": 56,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T21:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:40:00Z",
+    "label": "Spain: responsive address blocks 27,825 vs normal 49,308.5 (56%)",
+    "value": 56,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T21:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:50:00Z",
+    "label": "Spain: responsive address blocks 28,143 vs normal 49,289 (57%)",
+    "value": 57,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T22:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:00:00Z",
+    "label": "Spain: responsive address blocks 28,789 vs normal 49,293 (58%)",
+    "value": 58,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T22:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:10:00Z",
+    "label": "Spain: responsive address blocks 29,307 vs normal 49,283.5 (59%)",
+    "value": 59,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T22:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:20:00Z",
+    "label": "Spain: responsive address blocks 30,193 vs normal 49,224 (61%)",
+    "value": 61,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T22:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:30:00Z",
+    "label": "Spain: responsive address blocks 31,303 vs normal 49,220.5 (64%)",
+    "value": 64,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T22:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:40:00Z",
+    "label": "Spain: responsive address blocks 32,010 vs normal 49,263 (65%)",
+    "value": 65,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T22:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:50:00Z",
+    "label": "Spain: responsive address blocks 32,562 vs normal 49,266.5 (66%)",
+    "value": 66,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T23:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:00:00Z",
+    "label": "Spain: responsive address blocks 32,999 vs normal 49,275 (67%)",
+    "value": 67,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T23:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:10:00Z",
+    "label": "Spain: responsive address blocks 34,122 vs normal 49,243 (69%)",
+    "value": 69,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T23:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:20:00Z",
+    "label": "Spain: responsive address blocks 34,810 vs normal 49,197.5 (71%)",
+    "value": 71,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T23:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:30:00Z",
+    "label": "Spain: responsive address blocks 35,158 vs normal 49,193.5 (71%)",
+    "value": 71,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T23:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:40:00Z",
+    "label": "Spain: responsive address blocks 35,240 vs normal 49,211 (72%)",
+    "value": 72,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-28T23:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:50:00Z",
+    "label": "Spain: responsive address blocks 35,705 vs normal 49,197.5 (73%)",
+    "value": 73,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T00:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:00:00Z",
+    "label": "Spain: responsive address blocks 35,910 vs normal 49,208 (73%)",
+    "value": 73,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T00:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:10:00Z",
+    "label": "Spain: responsive address blocks 36,166 vs normal 49,252 (73%)",
+    "value": 73,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T00:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:20:00Z",
+    "label": "Spain: responsive address blocks 36,343 vs normal 49,189.5 (74%)",
+    "value": 74,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T00:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:30:00Z",
+    "label": "Spain: responsive address blocks 37,075 vs normal 49,171.5 (75%)",
+    "value": 75,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T00:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:40:00Z",
+    "label": "Spain: responsive address blocks 37,625 vs normal 49,180.5 (77%)",
+    "value": 77,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T00:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:50:00Z",
+    "label": "Spain: responsive address blocks 38,001 vs normal 49,182 (77%)",
+    "value": 77,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T01:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:00:00Z",
+    "label": "Spain: responsive address blocks 38,373 vs normal 49,204.5 (78%)",
+    "value": 78,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T01:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:10:00Z",
+    "label": "Spain: responsive address blocks 38,504 vs normal 49,218 (78%)",
+    "value": 78,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T01:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:20:00Z",
+    "label": "Spain: responsive address blocks 38,745 vs normal 49,209.5 (79%)",
+    "value": 79,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T01:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:30:00Z",
+    "label": "Spain: responsive address blocks 38,960 vs normal 49,206.5 (79%)",
+    "value": 79,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T01:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:40:00Z",
+    "label": "Spain: responsive address blocks 39,200 vs normal 49,208 (80%)",
+    "value": 80,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T01:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:50:00Z",
+    "label": "Spain: responsive address blocks 39,590 vs normal 49,168 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T02:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:00:00Z",
+    "label": "Spain: responsive address blocks 39,601 vs normal 49,188.5 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T02:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:10:00Z",
+    "label": "Spain: responsive address blocks 39,611 vs normal 49,177 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T02:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:20:00Z",
+    "label": "Spain: responsive address blocks 39,793 vs normal 49,149 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T02:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:30:00Z",
+    "label": "Spain: responsive address blocks 40,059 vs normal 49,124.5 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T02:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:40:00Z",
+    "label": "Spain: responsive address blocks 40,367 vs normal 49,161 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T02:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:50:00Z",
+    "label": "Spain: responsive address blocks 40,551 vs normal 49,174 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T03:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:00:00Z",
+    "label": "Spain: responsive address blocks 40,648 vs normal 49,177.5 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T03:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:10:00Z",
+    "label": "Spain: responsive address blocks 40,818 vs normal 49,218.5 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T03:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:20:00Z",
+    "label": "Spain: responsive address blocks 40,860 vs normal 49,123 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T03:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:30:00Z",
+    "label": "Spain: responsive address blocks 40,590 vs normal 49,174.5 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T03:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:40:00Z",
+    "label": "Spain: responsive address blocks 40,880 vs normal 49,227 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T03:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:50:00Z",
+    "label": "Spain: responsive address blocks 41,127 vs normal 49,213 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T04:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:00:00Z",
+    "label": "Spain: responsive address blocks 41,274 vs normal 49,216.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T04:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:10:00Z",
+    "label": "Spain: responsive address blocks 41,415 vs normal 49,239.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T04:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:20:00Z",
+    "label": "Spain: responsive address blocks 41,623 vs normal 49,215 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T04:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:30:00Z",
+    "label": "Spain: responsive address blocks 41,816 vs normal 49,154 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T04:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:40:00Z",
+    "label": "Spain: responsive address blocks 42,002 vs normal 49,158 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:ES:ping:2025-04-29T04:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:50:00Z",
+    "label": "Spain: responsive address blocks 42,176 vs normal 49,210 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/ES?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2025-04-28T09:30:00Z",
+    "label": "Portugal: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T09:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:30:00Z",
+    "label": "Portugal: responsive address blocks 13,351 vs normal 13,511 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T09:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:40:00Z",
+    "label": "Portugal: responsive address blocks 13,319 vs normal 13,512.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T09:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:50:00Z",
+    "label": "Portugal: responsive address blocks 13,367 vs normal 13,446.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T10:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:00:00Z",
+    "label": "Portugal: responsive address blocks 13,288 vs normal 13,463 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T10:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:10:00Z",
+    "label": "Portugal: responsive address blocks 13,317 vs normal 13,444.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T10:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:20:00Z",
+    "label": "Portugal: responsive address blocks 13,264 vs normal 13,466 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T10:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:30:00Z",
+    "label": "Portugal: responsive address blocks 7,736 vs normal 13,486.5 (57%)",
+    "value": 57,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T10:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:40:00Z",
+    "label": "Portugal: responsive address blocks 4,456 vs normal 13,490.5 (33%)",
+    "value": 33,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T10:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:50:00Z",
+    "label": "Portugal: responsive address blocks 4,157 vs normal 13,496 (31%)",
+    "value": 31,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T11:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:00:00Z",
+    "label": "Portugal: responsive address blocks 4,002 vs normal 13,513.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T11:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:10:00Z",
+    "label": "Portugal: responsive address blocks 3,885 vs normal 13,490.5 (29%)",
+    "value": 29,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T11:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:20:00Z",
+    "label": "Portugal: responsive address blocks 3,876 vs normal 13,502.5 (29%)",
+    "value": 29,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T11:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:30:00Z",
+    "label": "Portugal: responsive address blocks 3,836 vs normal 13,460 (28%)",
+    "value": 28,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T11:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:40:00Z",
+    "label": "Portugal: responsive address blocks 3,793 vs normal 13,490 (28%)",
+    "value": 28,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T11:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:50:00Z",
+    "label": "Portugal: responsive address blocks 3,747 vs normal 13,445.5 (28%)",
+    "value": 28,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T12:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:00:00Z",
+    "label": "Portugal: responsive address blocks 3,741 vs normal 13,447 (28%)",
+    "value": 28,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T12:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:10:00Z",
+    "label": "Portugal: responsive address blocks 3,674 vs normal 13,500.5 (27%)",
+    "value": 27,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T12:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:20:00Z",
+    "label": "Portugal: responsive address blocks 3,652 vs normal 13,523 (27%)",
+    "value": 27,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T12:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:30:00Z",
+    "label": "Portugal: responsive address blocks 3,623 vs normal 13,513 (27%)",
+    "value": 27,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T12:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:40:00Z",
+    "label": "Portugal: responsive address blocks 3,623 vs normal 13,511.5 (27%)",
+    "value": 27,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T12:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:50:00Z",
+    "label": "Portugal: responsive address blocks 3,611 vs normal 13,516.5 (27%)",
+    "value": 27,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T13:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:00:00Z",
+    "label": "Portugal: responsive address blocks 3,548 vs normal 13,505 (26%)",
+    "value": 26,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T13:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:10:00Z",
+    "label": "Portugal: responsive address blocks 3,491 vs normal 13,482 (26%)",
+    "value": 26,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T13:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:20:00Z",
+    "label": "Portugal: responsive address blocks 3,465 vs normal 13,485.5 (26%)",
+    "value": 26,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:30:00Z",
+    "label": "Portugal: responsive address blocks 3,407 vs normal 13,488.5 (25%)",
+    "value": 25,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T13:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:40:00Z",
+    "label": "Portugal: responsive address blocks 3,398 vs normal 13,487.5 (25%)",
+    "value": 25,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T13:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:50:00Z",
+    "label": "Portugal: responsive address blocks 3,316 vs normal 13,479.5 (25%)",
+    "value": 25,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:00:00Z",
+    "label": "Portugal: responsive address blocks 3,284 vs normal 13,526.5 (24%)",
+    "value": 24,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T14:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:10:00Z",
+    "label": "Portugal: responsive address blocks 3,256 vs normal 13,534 (24%)",
+    "value": 24,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T14:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:20:00Z",
+    "label": "Portugal: responsive address blocks 3,192 vs normal 13,513.5 (24%)",
+    "value": 24,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:30:00Z",
+    "label": "Portugal: responsive address blocks 3,093 vs normal 13,509.5 (23%)",
+    "value": 23,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T14:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:40:00Z",
+    "label": "Portugal: responsive address blocks 3,022 vs normal 13,490 (22%)",
+    "value": 22,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T14:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:50:00Z",
+    "label": "Portugal: responsive address blocks 3,026 vs normal 13,449.5 (23%)",
+    "value": 23,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:00:00Z",
+    "label": "Portugal: responsive address blocks 2,991 vs normal 13,455.5 (22%)",
+    "value": 22,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T15:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:10:00Z",
+    "label": "Portugal: responsive address blocks 2,981 vs normal 13,512.5 (22%)",
+    "value": 22,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T15:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:20:00Z",
+    "label": "Portugal: responsive address blocks 2,851 vs normal 13,523.5 (21%)",
+    "value": 21,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:30:00Z",
+    "label": "Portugal: responsive address blocks 2,800 vs normal 13,532 (21%)",
+    "value": 21,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T15:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:40:00Z",
+    "label": "Portugal: responsive address blocks 2,775 vs normal 13,515 (21%)",
+    "value": 21,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T15:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:50:00Z",
+    "label": "Portugal: responsive address blocks 2,720 vs normal 13,480 (20%)",
+    "value": 20,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:00:00Z",
+    "label": "Portugal: responsive address blocks 2,633 vs normal 13,488.5 (20%)",
+    "value": 20,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T16:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:10:00Z",
+    "label": "Portugal: responsive address blocks 2,592 vs normal 13,462 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T16:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:20:00Z",
+    "label": "Portugal: responsive address blocks 2,544 vs normal 13,508.5 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:30:00Z",
+    "label": "Portugal: responsive address blocks 2,549 vs normal 13,500.5 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T16:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:40:00Z",
+    "label": "Portugal: responsive address blocks 2,532 vs normal 13,513.5 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T16:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:50:00Z",
+    "label": "Portugal: responsive address blocks 2,536 vs normal 13,506.5 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:00:00Z",
+    "label": "Portugal: responsive address blocks 2,484 vs normal 13,488 (18%)",
+    "value": 18,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T17:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:10:00Z",
+    "label": "Portugal: responsive address blocks 2,435 vs normal 13,460.5 (18%)",
+    "value": 18,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T17:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:20:00Z",
+    "label": "Portugal: responsive address blocks 2,415 vs normal 13,478 (18%)",
+    "value": 18,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:30:00Z",
+    "label": "Portugal: responsive address blocks 2,422 vs normal 13,485 (18%)",
+    "value": 18,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T17:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:40:00Z",
+    "label": "Portugal: responsive address blocks 2,491 vs normal 13,467 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T17:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:50:00Z",
+    "label": "Portugal: responsive address blocks 2,073 vs normal 13,452.5 (15%)",
+    "value": 15,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T18:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:00:00Z",
+    "label": "Portugal: responsive address blocks 2,336 vs normal 13,494 (17%)",
+    "value": 17,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T18:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:10:00Z",
+    "label": "Portugal: responsive address blocks 2,410 vs normal 13,493 (18%)",
+    "value": 18,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T18:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:20:00Z",
+    "label": "Portugal: responsive address blocks 2,488 vs normal 13,486.5 (18%)",
+    "value": 18,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T18:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:30:00Z",
+    "label": "Portugal: responsive address blocks 2,500 vs normal 13,473.5 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T18:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:40:00Z",
+    "label": "Portugal: responsive address blocks 2,516 vs normal 13,487 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T18:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:50:00Z",
+    "label": "Portugal: responsive address blocks 2,596 vs normal 13,461 (19%)",
+    "value": 19,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T19:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:00:00Z",
+    "label": "Portugal: responsive address blocks 2,809 vs normal 13,464 (21%)",
+    "value": 21,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T19:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:10:00Z",
+    "label": "Portugal: responsive address blocks 3,002 vs normal 13,450.5 (22%)",
+    "value": 22,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T19:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:20:00Z",
+    "label": "Portugal: responsive address blocks 3,136 vs normal 13,443.5 (23%)",
+    "value": 23,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T19:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:30:00Z",
+    "label": "Portugal: responsive address blocks 2,986 vs normal 13,434 (22%)",
+    "value": 22,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T19:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:40:00Z",
+    "label": "Portugal: responsive address blocks 3,333 vs normal 13,449 (25%)",
+    "value": 25,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T19:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:50:00Z",
+    "label": "Portugal: responsive address blocks 3,658 vs normal 13,414 (27%)",
+    "value": 27,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T20:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:00:00Z",
+    "label": "Portugal: responsive address blocks 3,977 vs normal 13,416.5 (30%)",
+    "value": 30,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T20:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:10:00Z",
+    "label": "Portugal: responsive address blocks 4,384 vs normal 13,415.5 (33%)",
+    "value": 33,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T20:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:20:00Z",
+    "label": "Portugal: responsive address blocks 4,748 vs normal 13,416.5 (35%)",
+    "value": 35,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T20:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:30:00Z",
+    "label": "Portugal: responsive address blocks 5,065 vs normal 13,444.5 (38%)",
+    "value": 38,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T20:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:40:00Z",
+    "label": "Portugal: responsive address blocks 5,395 vs normal 13,442.5 (40%)",
+    "value": 40,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T20:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:50:00Z",
+    "label": "Portugal: responsive address blocks 5,745 vs normal 13,413 (43%)",
+    "value": 43,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T21:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:00:00Z",
+    "label": "Portugal: responsive address blocks 6,137 vs normal 13,388.5 (46%)",
+    "value": 46,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T21:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:10:00Z",
+    "label": "Portugal: responsive address blocks 6,561 vs normal 13,400.5 (49%)",
+    "value": 49,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T21:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:20:00Z",
+    "label": "Portugal: responsive address blocks 6,885 vs normal 13,442.5 (51%)",
+    "value": 51,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T21:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:30:00Z",
+    "label": "Portugal: responsive address blocks 7,252 vs normal 13,396 (54%)",
+    "value": 54,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T21:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:40:00Z",
+    "label": "Portugal: responsive address blocks 7,648 vs normal 13,398 (57%)",
+    "value": 57,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T21:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:50:00Z",
+    "label": "Portugal: responsive address blocks 7,989 vs normal 13,386 (60%)",
+    "value": 60,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T22:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:00:00Z",
+    "label": "Portugal: responsive address blocks 8,475 vs normal 13,436 (63%)",
+    "value": 63,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T22:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:10:00Z",
+    "label": "Portugal: responsive address blocks 8,870 vs normal 13,433 (66%)",
+    "value": 66,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T22:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:20:00Z",
+    "label": "Portugal: responsive address blocks 9,139 vs normal 13,436.5 (68%)",
+    "value": 68,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T22:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:30:00Z",
+    "label": "Portugal: responsive address blocks 9,368 vs normal 13,450 (70%)",
+    "value": 70,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T22:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:40:00Z",
+    "label": "Portugal: responsive address blocks 9,591 vs normal 13,444.5 (71%)",
+    "value": 71,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T22:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:50:00Z",
+    "label": "Portugal: responsive address blocks 9,768 vs normal 13,424 (73%)",
+    "value": 73,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T23:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:00:00Z",
+    "label": "Portugal: responsive address blocks 9,934 vs normal 13,399.5 (74%)",
+    "value": 74,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T23:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:10:00Z",
+    "label": "Portugal: responsive address blocks 10,119 vs normal 13,396 (76%)",
+    "value": 76,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T23:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:20:00Z",
+    "label": "Portugal: responsive address blocks 10,423 vs normal 13,419.5 (78%)",
+    "value": 78,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T23:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:30:00Z",
+    "label": "Portugal: responsive address blocks 10,607 vs normal 13,403 (79%)",
+    "value": 79,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T23:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:40:00Z",
+    "label": "Portugal: responsive address blocks 10,772 vs normal 13,419.5 (80%)",
+    "value": 80,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-28T23:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:50:00Z",
+    "label": "Portugal: responsive address blocks 10,901 vs normal 13,375.5 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T00:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:00:00Z",
+    "label": "Portugal: responsive address blocks 10,971 vs normal 13,371 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T00:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:10:00Z",
+    "label": "Portugal: responsive address blocks 10,981 vs normal 13,376 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T00:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:20:00Z",
+    "label": "Portugal: responsive address blocks 11,005 vs normal 13,391.5 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T00:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:30:00Z",
+    "label": "Portugal: responsive address blocks 11,099 vs normal 13,428.5 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T00:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:40:00Z",
+    "label": "Portugal: responsive address blocks 11,202 vs normal 13,433 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T00:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:50:00Z",
+    "label": "Portugal: responsive address blocks 11,264 vs normal 13,373.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T01:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:00:00Z",
+    "label": "Portugal: responsive address blocks 11,196 vs normal 13,360 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T01:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:10:00Z",
+    "label": "Portugal: responsive address blocks 11,237 vs normal 13,342.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T01:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:20:00Z",
+    "label": "Portugal: responsive address blocks 11,244 vs normal 13,362 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T01:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:30:00Z",
+    "label": "Portugal: responsive address blocks 11,274 vs normal 13,380.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T01:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:40:00Z",
+    "label": "Portugal: responsive address blocks 11,277 vs normal 13,383.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T01:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:50:00Z",
+    "label": "Portugal: responsive address blocks 11,349 vs normal 13,358 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T02:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:00:00Z",
+    "label": "Portugal: responsive address blocks 11,384 vs normal 13,362.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T02:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:10:00Z",
+    "label": "Portugal: responsive address blocks 11,410 vs normal 13,351.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T02:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:20:00Z",
+    "label": "Portugal: responsive address blocks 11,421 vs normal 13,363.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T02:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:30:00Z",
+    "label": "Portugal: responsive address blocks 11,410 vs normal 13,287.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T02:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:40:00Z",
+    "label": "Portugal: responsive address blocks 11,399 vs normal 13,271 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T02:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:50:00Z",
+    "label": "Portugal: responsive address blocks 11,435 vs normal 13,312.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T03:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:00:00Z",
+    "label": "Portugal: responsive address blocks 11,439 vs normal 13,320.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T03:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:10:00Z",
+    "label": "Portugal: responsive address blocks 11,438 vs normal 13,283 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T03:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:20:00Z",
+    "label": "Portugal: responsive address blocks 11,410 vs normal 13,274 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T03:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:30:00Z",
+    "label": "Portugal: responsive address blocks 11,437 vs normal 13,333 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T03:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:40:00Z",
+    "label": "Portugal: responsive address blocks 11,440 vs normal 13,305.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T03:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:50:00Z",
+    "label": "Portugal: responsive address blocks 11,443 vs normal 13,289 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T04:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:00:00Z",
+    "label": "Portugal: responsive address blocks 11,420 vs normal 13,299 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T04:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:10:00Z",
+    "label": "Portugal: responsive address blocks 11,436 vs normal 13,277.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T04:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:20:00Z",
+    "label": "Portugal: responsive address blocks 11,409 vs normal 13,260.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T04:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:30:00Z",
+    "label": "Portugal: responsive address blocks 11,429 vs normal 13,285 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T04:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:40:00Z",
+    "label": "Portugal: responsive address blocks 11,447 vs normal 13,327 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:PT:ping:2025-04-29T04:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:50:00Z",
+    "label": "Portugal: responsive address blocks 11,443 vs normal 13,318 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/PT?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2025-04-28T09:30:00Z",
+    "label": "France: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T09:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:30:00Z",
+    "label": "France: responsive address blocks 66,437 vs normal 66,930 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T09:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:40:00Z",
+    "label": "France: responsive address blocks 66,467 vs normal 67,051 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T09:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T09:50:00Z",
+    "label": "France: responsive address blocks 66,479 vs normal 66,976 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T10:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:00:00Z",
+    "label": "France: responsive address blocks 66,463 vs normal 67,022.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T10:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:10:00Z",
+    "label": "France: responsive address blocks 66,399 vs normal 67,033 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T10:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:20:00Z",
+    "label": "France: responsive address blocks 66,347 vs normal 67,010.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T10:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:30:00Z",
+    "label": "France: responsive address blocks 66,404 vs normal 66,954 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T10:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:40:00Z",
+    "label": "France: responsive address blocks 66,531 vs normal 67,008 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T10:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T10:50:00Z",
+    "label": "France: responsive address blocks 66,392 vs normal 66,898 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T11:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:00:00Z",
+    "label": "France: responsive address blocks 66,484 vs normal 66,935 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T11:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:10:00Z",
+    "label": "France: responsive address blocks 66,408 vs normal 66,895 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T11:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:20:00Z",
+    "label": "France: responsive address blocks 66,301 vs normal 66,911.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T11:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:30:00Z",
+    "label": "France: responsive address blocks 66,189 vs normal 66,756 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T11:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:40:00Z",
+    "label": "France: responsive address blocks 66,210 vs normal 66,930 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T11:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T11:50:00Z",
+    "label": "France: responsive address blocks 66,223 vs normal 66,898.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T12:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:00:00Z",
+    "label": "France: responsive address blocks 66,356 vs normal 67,015 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T12:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:10:00Z",
+    "label": "France: responsive address blocks 66,443 vs normal 67,037 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T12:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:20:00Z",
+    "label": "France: responsive address blocks 66,443 vs normal 67,033.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T12:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:30:00Z",
+    "label": "France: responsive address blocks 66,405 vs normal 66,919 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T12:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:40:00Z",
+    "label": "France: responsive address blocks 66,505 vs normal 67,054.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T12:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T12:50:00Z",
+    "label": "France: responsive address blocks 66,384 vs normal 66,991 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T13:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:00:00Z",
+    "label": "France: responsive address blocks 66,438 vs normal 66,977.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T13:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:10:00Z",
+    "label": "France: responsive address blocks 66,323 vs normal 67,058 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T13:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:20:00Z",
+    "label": "France: responsive address blocks 66,516 vs normal 67,147.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:30:00Z",
+    "label": "France: responsive address blocks 66,429 vs normal 67,101 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T13:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:40:00Z",
+    "label": "France: responsive address blocks 66,469 vs normal 67,098 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T13:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T13:50:00Z",
+    "label": "France: responsive address blocks 66,551 vs normal 66,968 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:00:00Z",
+    "label": "France: responsive address blocks 66,542 vs normal 66,989 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T14:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:10:00Z",
+    "label": "France: responsive address blocks 66,489 vs normal 67,001.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T14:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:20:00Z",
+    "label": "France: responsive address blocks 66,482 vs normal 67,017.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:30:00Z",
+    "label": "France: responsive address blocks 66,415 vs normal 66,959 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T14:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:40:00Z",
+    "label": "France: responsive address blocks 66,515 vs normal 67,092 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T14:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T14:50:00Z",
+    "label": "France: responsive address blocks 66,409 vs normal 67,022 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:00:00Z",
+    "label": "France: responsive address blocks 66,425 vs normal 67,030.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T15:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:10:00Z",
+    "label": "France: responsive address blocks 66,473 vs normal 66,954.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T15:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:20:00Z",
+    "label": "France: responsive address blocks 66,491 vs normal 66,962 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:30:00Z",
+    "label": "France: responsive address blocks 66,368 vs normal 66,895 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T15:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:40:00Z",
+    "label": "France: responsive address blocks 66,428 vs normal 66,965.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T15:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T15:50:00Z",
+    "label": "France: responsive address blocks 66,426 vs normal 66,806 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:00:00Z",
+    "label": "France: responsive address blocks 66,418 vs normal 66,760.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T16:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:10:00Z",
+    "label": "France: responsive address blocks 66,340 vs normal 66,647 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T16:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:20:00Z",
+    "label": "France: responsive address blocks 66,325 vs normal 66,652.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:30:00Z",
+    "label": "France: responsive address blocks 66,349 vs normal 66,667.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T16:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:40:00Z",
+    "label": "France: responsive address blocks 66,404 vs normal 66,789.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T16:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T16:50:00Z",
+    "label": "France: responsive address blocks 66,320 vs normal 66,575.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:00:00Z",
+    "label": "France: responsive address blocks 66,271 vs normal 66,564.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T17:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:10:00Z",
+    "label": "France: responsive address blocks 66,213 vs normal 66,658 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T17:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:20:00Z",
+    "label": "France: responsive address blocks 66,326 vs normal 66,674 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:30:00Z",
+    "label": "France: responsive address blocks 66,254 vs normal 66,584 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T17:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:40:00Z",
+    "label": "France: responsive address blocks 66,337 vs normal 66,635.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T17:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T17:50:00Z",
+    "label": "France: responsive address blocks 66,223 vs normal 66,601.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T18:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:00:00Z",
+    "label": "France: responsive address blocks 66,218 vs normal 66,665 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T18:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:10:00Z",
+    "label": "France: responsive address blocks 66,160 vs normal 66,632.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T18:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:20:00Z",
+    "label": "France: responsive address blocks 66,056 vs normal 66,620 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T18:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:30:00Z",
+    "label": "France: responsive address blocks 66,082 vs normal 66,560 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T18:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:40:00Z",
+    "label": "France: responsive address blocks 66,155 vs normal 66,573 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T18:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T18:50:00Z",
+    "label": "France: responsive address blocks 66,095 vs normal 66,476.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T19:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:00:00Z",
+    "label": "France: responsive address blocks 66,099 vs normal 66,491.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T19:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:10:00Z",
+    "label": "France: responsive address blocks 66,210 vs normal 66,525 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T19:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:20:00Z",
+    "label": "France: responsive address blocks 66,266 vs normal 66,600 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T19:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:30:00Z",
+    "label": "France: responsive address blocks 66,205 vs normal 66,492.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T19:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:40:00Z",
+    "label": "France: responsive address blocks 66,302 vs normal 66,554 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T19:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T19:50:00Z",
+    "label": "France: responsive address blocks 66,291 vs normal 66,546 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T20:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:00:00Z",
+    "label": "France: responsive address blocks 66,236 vs normal 66,571 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T20:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:10:00Z",
+    "label": "France: responsive address blocks 66,168 vs normal 66,606 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T20:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:20:00Z",
+    "label": "France: responsive address blocks 66,158 vs normal 66,533 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T20:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:30:00Z",
+    "label": "France: responsive address blocks 66,076 vs normal 66,457 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T20:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:40:00Z",
+    "label": "France: responsive address blocks 66,248 vs normal 66,586.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T20:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T20:50:00Z",
+    "label": "France: responsive address blocks 66,199 vs normal 66,491.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T21:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:00:00Z",
+    "label": "France: responsive address blocks 66,131 vs normal 66,500 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T21:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:10:00Z",
+    "label": "France: responsive address blocks 66,104 vs normal 66,510.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T21:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:20:00Z",
+    "label": "France: responsive address blocks 66,110 vs normal 66,538.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T21:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:30:00Z",
+    "label": "France: responsive address blocks 66,156 vs normal 66,416.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T21:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:40:00Z",
+    "label": "France: responsive address blocks 66,164 vs normal 66,431 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T21:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T21:50:00Z",
+    "label": "France: responsive address blocks 66,101 vs normal 66,372 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T22:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:00:00Z",
+    "label": "France: responsive address blocks 66,133 vs normal 66,336 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T22:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:10:00Z",
+    "label": "France: responsive address blocks 65,970 vs normal 66,291 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T22:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:20:00Z",
+    "label": "France: responsive address blocks 66,045 vs normal 65,499 (101%)",
+    "value": 101,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T22:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:30:00Z",
+    "label": "France: responsive address blocks 66,012 vs normal 65,960 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T22:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:40:00Z",
+    "label": "France: responsive address blocks 66,104 vs normal 66,235 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T22:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T22:50:00Z",
+    "label": "France: responsive address blocks 66,103 vs normal 66,136 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T23:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:00:00Z",
+    "label": "France: responsive address blocks 65,968 vs normal 66,255 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T23:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:10:00Z",
+    "label": "France: responsive address blocks 65,947 vs normal 66,249.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T23:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:20:00Z",
+    "label": "France: responsive address blocks 66,021 vs normal 66,269.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T23:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:30:00Z",
+    "label": "France: responsive address blocks 66,036 vs normal 66,227 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T23:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:40:00Z",
+    "label": "France: responsive address blocks 66,105 vs normal 66,271 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-28T23:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-28T23:50:00Z",
+    "label": "France: responsive address blocks 66,129 vs normal 66,269 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T00:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:00:00Z",
+    "label": "France: responsive address blocks 66,007 vs normal 66,315.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T00:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:10:00Z",
+    "label": "France: responsive address blocks 65,776 vs normal 66,316 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T00:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:20:00Z",
+    "label": "France: responsive address blocks 65,891 vs normal 66,328.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T00:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:30:00Z",
+    "label": "France: responsive address blocks 65,805 vs normal 66,328 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T00:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:40:00Z",
+    "label": "France: responsive address blocks 65,854 vs normal 66,419 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T00:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T00:50:00Z",
+    "label": "France: responsive address blocks 65,799 vs normal 66,313.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T01:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:00:00Z",
+    "label": "France: responsive address blocks 65,927 vs normal 66,374.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T01:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:10:00Z",
+    "label": "France: responsive address blocks 65,930 vs normal 66,412 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T01:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:20:00Z",
+    "label": "France: responsive address blocks 65,993 vs normal 66,466 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T01:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:30:00Z",
+    "label": "France: responsive address blocks 66,001 vs normal 66,394.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T01:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:40:00Z",
+    "label": "France: responsive address blocks 66,091 vs normal 66,342 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T01:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T01:50:00Z",
+    "label": "France: responsive address blocks 66,054 vs normal 66,309 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T02:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:00:00Z",
+    "label": "France: responsive address blocks 66,071 vs normal 66,419.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T02:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:10:00Z",
+    "label": "France: responsive address blocks 66,000 vs normal 66,448.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T02:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:20:00Z",
+    "label": "France: responsive address blocks 65,895 vs normal 66,323.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T02:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:30:00Z",
+    "label": "France: responsive address blocks 65,897 vs normal 66,302.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T02:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:40:00Z",
+    "label": "France: responsive address blocks 66,059 vs normal 66,461 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T02:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T02:50:00Z",
+    "label": "France: responsive address blocks 65,980 vs normal 66,389.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T03:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:00:00Z",
+    "label": "France: responsive address blocks 66,036 vs normal 66,482.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T03:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:10:00Z",
+    "label": "France: responsive address blocks 65,972 vs normal 66,575 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T03:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:20:00Z",
+    "label": "France: responsive address blocks 66,123 vs normal 66,643.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T03:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:30:00Z",
+    "label": "France: responsive address blocks 66,005 vs normal 66,578 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T03:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:40:00Z",
+    "label": "France: responsive address blocks 66,003 vs normal 66,698 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T03:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T03:50:00Z",
+    "label": "France: responsive address blocks 65,972 vs normal 66,567.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T04:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:00:00Z",
+    "label": "France: responsive address blocks 66,059 vs normal 66,651.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T04:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:10:00Z",
+    "label": "France: responsive address blocks 66,016 vs normal 66,577.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T04:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:20:00Z",
+    "label": "France: responsive address blocks 66,088 vs normal 66,662 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T04:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:30:00Z",
+    "label": "France: responsive address blocks 66,018 vs normal 66,662 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T04:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:40:00Z",
+    "label": "France: responsive address blocks 66,019 vs normal 66,722 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  },
+  {
+    "id": "ioda:FR:ping:2025-04-29T04:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-04-29T04:50:00Z",
+    "label": "France: responsive address blocks 66,088 vs normal 66,568 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1745832600&until=1745902800"
+  }
+]

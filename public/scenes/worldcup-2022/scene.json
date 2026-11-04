@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "id": "worldcup-2022",
+  "title": "The World Cup final",
+  "subtitle": "Argentina v France · Lusail, Qatar · 18 December 2022",
+  "category": "sports",
+  "window": {
+    "start": "2022-12-18T13:30:00Z",
+    "end": "2022-12-18T20:00:00Z"
+  },
+  "focus": "2022-12-18T15:00:00Z",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "region": {
+    "west": -75,
+    "south": -56,
+    "east": 12,
+    "north": 52
+  },
+  "imagery": {
+    "day": "2022-12-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2022-12-18T13:30:00Z",
+      "lon": -31.5,
+      "lat": -6,
+      "range": 31168800,
+      "heading": 0,
+      "pitch": -82
+    },
+    {
+      "t": "2022-12-18T14:50:00Z",
+      "lon": -31.5,
+      "lat": -2,
+      "range": 19180800,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2022-12-18T15:15:00Z",
+      "lon": -63.5,
+      "lat": -35.5,
+      "range": 12587400,
+      "heading": 10,
+      "pitch": -52
+    },
+    {
+      "t": "2022-12-18T16:00:00Z",
+      "lon": -63.5,
+      "lat": -35,
+      "range": 14385600,
+      "heading": -8,
+      "pitch": -55
+    },
+    {
+      "t": "2022-12-18T18:03:00Z",
+      "lon": -31.5,
+      "lat": -4,
+      "range": 15584400,
+      "heading": -4,
+      "pitch": -62
+    },
+    {
+      "t": "2022-12-18T20:00:00Z",
+      "lon": -31.5,
+      "lat": -5,
+      "range": 22777200,
+      "heading": 0,
+      "pitch": -75
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2022-12-18T13:30:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2022-12-18T13:37:00Z",
+      "speed": 390
+    },
+    {
+      "t": "2022-12-18T14:55:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2022-12-18T15:25:00Z",
+      "speed": 390
+    },
+    {
+      "t": "2022-12-18T15:30:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2022-12-18T15:37:00Z",
+      "speed": 390
+    },
+    {
+      "t": "2022-12-18T18:00:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2022-12-18T18:07:00Z",
+      "speed": 390
+    },
+    {
+      "t": "2022-12-18T19:30:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2022-12-18T19:37:00Z",
+      "speed": 390
+    }
+  ],
+  "beats": [
+    {
+      "t": "2022-12-18T13:30:00Z",
+      "text": "10:30 GMT-3. Argentina: Google traffic at 100% of normal.",
+      "cites": [
+        "ioda:AR:gtr:2022-12-18T13:30Z",
+        "ioda:AR:gtr:baseline"
+      ]
+    },
+    {
+      "t": "2022-12-18T15:00:00Z",
+      "text": "12:00 GMT-3. Argentina: Google traffic falls from 92% to 83% of normal in 30 minutes.",
+      "cites": [
+        "ioda:AR:gtr:2022-12-18T14:30Z",
+        "ioda:AR:gtr:2022-12-18T15:00Z",
+        "ioda:AR:gtr:baseline"
+      ]
+    },
+    {
+      "t": "2022-12-18T15:30:00Z",
+      "text": "12:30 GMT-3. France: Google traffic falls to 81% of normal.",
+      "cites": [
+        "ioda:FR:gtr:2022-12-18T15:30Z",
+        "ioda:FR:gtr:baseline"
+      ]
+    },
+    {
+      "t": "2022-12-18T18:00:00Z",
+      "text": "15:00 GMT-3. Lowest reading for Argentina: 56% of normal.",
+      "cites": [
+        "ioda:AR:gtr:2022-12-18T18:00Z",
+        "ioda:AR:gtr:baseline"
+      ]
+    },
+    {
+      "t": "2022-12-18T19:30:00Z",
+      "text": "16:30 GMT-3. Argentina is still at 74% of normal.",
+      "cites": [
+        "ioda:AR:gtr:2022-12-18T19:30Z",
+        "ioda:AR:gtr:baseline"
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T12:00:52Z"
+  }
+}

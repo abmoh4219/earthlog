@@ -1,6 +1,16 @@
 "use client";
 
-import { Clapperboard, Moon, Pause, Play, Satellite, Video } from "lucide-react";
+import {
+  Activity,
+  Clapperboard,
+  Keyboard,
+  Moon,
+  Pause,
+  Play,
+  Satellite,
+  Tags,
+  Video,
+} from "lucide-react";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 import { usePlayer } from "@/player/store";
@@ -48,6 +58,7 @@ export function Transport() {
   const director = usePlayer((s) => s.director);
   const cinema = usePlayer((s) => s.cinema);
   const layers = usePlayer((s) => s.layers);
+  const panel = usePlayer((s) => s.panel);
   const a = usePlayer.getState();
 
   return (
@@ -93,7 +104,9 @@ export function Transport() {
               {speedText(s)}
             </button>
           ))}
-          <span className="w-16 text-right text-ice/40 tabular-nums">{speedText(speed)}</span>
+          <span className="w-20 text-right whitespace-nowrap text-ice/40 tabular-nums">
+            {speedText(speed)}
+          </span>
         </div>
 
         <div className="flex shrink-0 items-center gap-1 border-l border-ice/10 pl-2">
@@ -110,16 +123,29 @@ export function Transport() {
           <Toggle
             on={layers.eventDay}
             onClick={() => a.toggleLayer("eventDay")}
-            label="Satellite image of the event day"
+            label="Satellite image of the event day (S)"
           >
             <Satellite size={16} />
           </Toggle>
           <Toggle
             on={layers.nightLights}
             onClick={() => a.toggleLayer("nightLights")}
-            label="Night lights"
+            label="Night lights (N)"
           >
             <Moon size={16} />
+          </Toggle>
+          <Toggle
+            on={layers.labels}
+            onClick={() => a.toggleLayer("labels")}
+            label="Country names (L)"
+          >
+            <Tags size={16} />
+          </Toggle>
+          <Toggle on={panel} onClick={a.togglePanel} label="Live data panel (D)">
+            <Activity size={16} />
+          </Toggle>
+          <Toggle on={false} onClick={() => a.setHelp(true)} label="Keyboard shortcuts (?)">
+            <Keyboard size={16} />
           </Toggle>
         </div>
       </div>

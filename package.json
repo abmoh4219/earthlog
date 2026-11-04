@@ -20,7 +20,9 @@
     "lint": "biome check .",
     "format": "biome check --write .",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "bake": "node scripts/bake.ts",
+    "validate:scenes": "node scripts/validate-scenes.ts"
   },
   "dependencies": {
     "cesium": "^1.147.0",

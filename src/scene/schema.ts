@@ -36,11 +36,12 @@ export const PaceMark = z.object({
   speed: z.number().positive(),
 });
 
-export const LayerKind = z.enum(["quakes", "outages", "attention", "fires", "countries"]);
+export const LayerKind = z.enum(["outages", "quakes"]);
 
 export const LayerRef = z.object({
   kind: LayerKind,
-  file: z.string().min(1),
+  /** Path inside the bundle folder, e.g. "data/outages.json". */
+  file: z.string().regex(/^data\/[a-z0-9-]+\.json$/),
 });
 
 export const Scene = z.object({
@@ -114,7 +115,71 @@ export const SceneIndexEntry = z.object({
   listed: z.boolean(),
 });
 
+// ── Layer data files (public/scenes/<id>/data/*.json) ──────────────────────────
+
+/** IODA signals we bake. Each measures connectivity, never people (DATA-SOURCES.md). */
+export const SignalKind = z.enum(["ping-slash24", "gtr-norm", "bgp", "merit-nt"]);
+
+/** One country's signal as a ratio to its own baseline, on a fixed time grid. */
+export const SignalSeries = z.object({
+  /** ISO 3166-1 alpha-2, matches public/geo/countries.json. */
+  code: z.string().length(2),
+  name: z.string().min(1),
+  start: IsoUtc,
+  /** Seconds between samples. */
+  step: z.number().positive(),
+  /** value ÷ baseline per sample; null where the source recorded nothing (a real gap). */
+  ratio: z.array(z.number().nonnegative().nullable()),
+});
+
+export const SignalLayer = z.object({
+  kind: z.literal("outages"),
+  signal: SignalKind,
+  /** What the number measures, in plain words, e.g. "Responsive address blocks". */
+  label: z.string().min(1),
+  /** "loss" paints drops red (outages); "attention" paints them cyan (people busy elsewhere). */
+  tone: z.enum(["loss", "attention"]),
+  /** How the baseline was computed, shown in the UI next to the numbers. */
+  baseline: z.string().min(1),
+  series: z.array(SignalSeries).min(1),
+});
+
+export const Quake = z.object({
+  id: z.string().min(1),
+  t: IsoUtc,
+  lon: z.number(),
+  lat: z.number(),
+  mag: z.number(),
+  depthKm: z.number(),
+  place: z.string(),
+  /** The evidence item this quake comes from. */
+  evidence: EvidenceId,
+});
+
+export const QuakeLayer = z.object({
+  kind: z.literal("quakes"),
+  quakes: z.array(Quake),
+});
+
+export const LayerData = z.discriminatedUnion("kind", [SignalLayer, QuakeLayer]);
+
+/** Natural Earth outlines, shared by all scenes (public/geo/countries.json). */
+export const Country = z.object({
+  code: z.string().length(2),
+  name: z.string().min(1),
+  /** Label anchor [lon, lat] chosen by Natural Earth (inside the country, unlike a centroid). */
+  label: z.tuple([z.number(), z.number()]),
+  /** Outer rings as flat [lon, lat, lon, lat, …] arrays (holes dropped at 1:110m). */
+  rings: z.array(z.array(z.number())),
+});
+
 export type Keyframe = z.infer<typeof Keyframe>;
+export type SignalSeries = z.infer<typeof SignalSeries>;
+export type SignalLayer = z.infer<typeof SignalLayer>;
+export type Quake = z.infer<typeof Quake>;
+export type QuakeLayer = z.infer<typeof QuakeLayer>;
+export type LayerData = z.infer<typeof LayerData>;
+export type Country = z.infer<typeof Country>;
 export type Beat = z.infer<typeof Beat>;
 export type PaceMark = z.infer<typeof PaceMark>;
 export type LayerRef = z.infer<typeof LayerRef>;

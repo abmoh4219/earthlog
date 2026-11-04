@@ -4,7 +4,9 @@ import { useEffect } from "react";
 import { type SceneBundle, usePlayer } from "@/player/store";
 import { Captions } from "./Captions";
 import { Credits } from "./Credits";
+import { DataPanel } from "./DataPanel";
 import { GlobeView } from "./GlobeView";
+import { Help } from "./Help";
 import { Hud } from "./Hud";
 import { Letterbox } from "./Letterbox";
 import { Transport } from "./Transport";
@@ -29,13 +31,15 @@ export function Player({ bundle }: { bundle: SceneBundle }) {
 
   return (
     <main className="relative h-dvh w-full overflow-hidden bg-void select-none">
-      {loaded && <GlobeView scene={bundle.scene} />}
+      {loaded && <GlobeView bundle={bundle} />}
       <Vignette />
       <Letterbox />
       <Hud scene={bundle.scene} />
+      <DataPanel />
       <Captions />
       <Transport />
       <Credits />
+      <Help />
     </main>
   );
 }

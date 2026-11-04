@@ -1,0 +1,278 @@
+[
+  {
+    "id": "ioda:AR:gtr:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2022-12-18T13:30:00Z",
+    "label": "Argentina: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T13:30:00Z",
+    "label": "Argentina: Google traffic 0.404 vs normal 0.405 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T14:00:00Z",
+    "label": "Argentina: Google traffic 0.413 vs normal 0.424 (97%)",
+    "value": 97,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T14:30:00Z",
+    "label": "Argentina: Google traffic 0.412 vs normal 0.449 (92%)",
+    "value": 92,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T15:00:00Z",
+    "label": "Argentina: Google traffic 0.376 vs normal 0.456 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T15:30:00Z",
+    "label": "Argentina: Google traffic 0.286 vs normal 0.47 (61%)",
+    "value": 61,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T16:00:00Z",
+    "label": "Argentina: Google traffic 0.283 vs normal 0.467 (61%)",
+    "value": 61,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T16:30:00Z",
+    "label": "Argentina: Google traffic 0.297 vs normal 0.457 (65%)",
+    "value": 65,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T17:00:00Z",
+    "label": "Argentina: Google traffic 0.273 vs normal 0.456 (60%)",
+    "value": 60,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T17:30:00Z",
+    "label": "Argentina: Google traffic 0.29 vs normal 0.455 (64%)",
+    "value": 64,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T18:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T18:00:00Z",
+    "label": "Argentina: Google traffic 0.26 vs normal 0.461 (56%)",
+    "value": 56,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T18:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T18:30:00Z",
+    "label": "Argentina: Google traffic 0.28 vs normal 0.469 (60%)",
+    "value": 60,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T19:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T19:00:00Z",
+    "label": "Argentina: Google traffic 0.298 vs normal 0.478 (62%)",
+    "value": 62,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:AR:gtr:2022-12-18T19:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T19:30:00Z",
+    "label": "Argentina: Google traffic 0.36 vs normal 0.487 (74%)",
+    "value": 74,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/AR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2022-12-18T13:30:00Z",
+    "label": "France: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T13:30:00Z",
+    "label": "France: Google traffic 0.699 vs normal 0.72 (97%)",
+    "value": 97,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T14:00:00Z",
+    "label": "France: Google traffic 0.694 vs normal 0.723 (96%)",
+    "value": 96,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T14:30:00Z",
+    "label": "France: Google traffic 0.684 vs normal 0.721 (95%)",
+    "value": 95,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T15:00:00Z",
+    "label": "France: Google traffic 0.671 vs normal 0.726 (92%)",
+    "value": 92,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T15:30:00Z",
+    "label": "France: Google traffic 0.583 vs normal 0.717 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T16:00:00Z",
+    "label": "France: Google traffic 0.622 vs normal 0.741 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T16:30:00Z",
+    "label": "France: Google traffic 0.669 vs normal 0.752 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T17:00:00Z",
+    "label": "France: Google traffic 0.643 vs normal 0.785 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T17:30:00Z",
+    "label": "France: Google traffic 0.656 vs normal 0.822 (80%)",
+    "value": 80,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T18:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T18:00:00Z",
+    "label": "France: Google traffic 0.618 vs normal 0.832 (74%)",
+    "value": 74,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T18:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T18:30:00Z",
+    "label": "France: Google traffic 0.701 vs normal 0.812 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T19:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T19:00:00Z",
+    "label": "France: Google traffic 0.722 vs normal 0.8 (90%)",
+    "value": 90,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  },
+  {
+    "id": "ioda:FR:gtr:2022-12-18T19:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2022-12-18T19:30:00Z",
+    "label": "France: Google traffic 0.715 vs normal 0.793 (90%)",
+    "value": 90,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/FR?from=1671370200&until=1671393600"
+  }
+]

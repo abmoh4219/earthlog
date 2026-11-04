@@ -24,6 +24,8 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm test
+      # Every committed replay must parse, and every sentence must cite real evidence.
+      - run: pnpm validate:scenes
       - run: pnpm build
       # The site must never ship an API key (CLAUDE.md §3.4).
       - name: No secrets in the build output

@@ -3,13 +3,17 @@
 import { useEffect } from "react";
 import { usePlayer } from "@/player/store";
 
-/** Space play/pause · ←/→ seek 1% · C cinema · R resume director · A auto pacing. */
+/** Keyboard controls; the full list lives in Help.tsx (SHORTCUTS) and is shown with "?". */
 export function useKeyboard() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.metaKey || e.ctrlKey || e.altKey) return;
       const s = usePlayer.getState();
       const step = (s.window.end - s.window.start) / 100;
+      if (s.help && (e.key === "Escape" || e.key === "?")) {
+        s.setHelp(false);
+        return;
+      }
       switch (e.key) {
         case " ":
           e.preventDefault();
@@ -21,18 +25,33 @@ export function useKeyboard() {
         case "ArrowLeft":
           s.seekBy(-step);
           break;
-        case "c":
-        case "C":
-          s.toggleCinema();
+        case "?":
+          s.setHelp(true);
           break;
-        case "r":
-        case "R":
-          s.setDirector(true);
-          break;
-        case "a":
-        case "A":
-          s.setAuto();
-          break;
+        default:
+          switch (e.key.toLowerCase()) {
+            case "c":
+              s.toggleCinema();
+              break;
+            case "r":
+              s.setDirector(true);
+              break;
+            case "a":
+              s.setAuto();
+              break;
+            case "d":
+              s.togglePanel();
+              break;
+            case "l":
+              s.toggleLayer("labels");
+              break;
+            case "s":
+              s.toggleLayer("eventDay");
+              break;
+            case "n":
+              s.toggleLayer("nightLights");
+              break;
+          }
       }
     };
     window.addEventListener("keydown", onKey);

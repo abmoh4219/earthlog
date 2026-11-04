@@ -4,6 +4,10 @@ import { AnimatePresence, motion } from "motion/react";
 import { usePlayer } from "@/player/store";
 import { activeBeatIndex } from "@/scene/beats";
 
+const MAX_CHIPS = 3;
+const CHIP =
+  "pointer-events-auto ml-1 cursor-help rounded border border-ice/30 bg-ice/10 px-1 font-mono text-[0.55em] text-ice";
+
 /** Narration captions. Every beat carries numbered citation chips (Phase 3 opens the evidence drawer). */
 export function Captions() {
   const bundle = usePlayer((s) => s.bundle);
@@ -11,8 +15,10 @@ export function Captions() {
     s.bundle ? activeBeatIndex(s.clock.t, s.bundle.scene.beats) : -1,
   );
   const beat = bundle && index >= 0 ? bundle.scene.beats[index] : undefined;
-  const evidenceOrder = new Map(bundle?.evidence.map((e, i) => [e.id, i + 1]));
   const evidenceById = new Map(bundle?.evidence.map((e) => [e.id, e]));
+  // Chips are numbered within the sentence; long lists collapse to "+n" (all stay in the tooltip).
+  const shown = beat?.cites.slice(0, MAX_CHIPS) ?? [];
+  const hidden = beat?.cites.slice(MAX_CHIPS) ?? [];
 
   return (
     <div className="pointer-events-none absolute inset-x-0 bottom-[calc(9vh+7.5rem)] z-20 flex justify-center px-6">
@@ -27,15 +33,19 @@ export function Captions() {
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
             {beat.text}
-            {beat.cites.map((id) => (
-              <sup
-                key={id}
-                title={evidenceById.get(id)?.label ?? id}
-                className="pointer-events-auto ml-1 cursor-help rounded border border-ice/30 bg-ice/10 px-1 font-mono text-[0.55em] text-ice"
-              >
-                {evidenceOrder.get(id) ?? "?"}
+            {shown.map((id, i) => (
+              <sup key={id} title={evidenceById.get(id)?.label ?? id} className={CHIP}>
+                {i + 1}
               </sup>
             ))}
+            {hidden.length > 0 && (
+              <sup
+                title={hidden.map((id) => evidenceById.get(id)?.label ?? id).join("\n")}
+                className={CHIP}
+              >
+                +{hidden.length}
+              </sup>
+            )}
           </motion.p>
         )}
       </AnimatePresence>

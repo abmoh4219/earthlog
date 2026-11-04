@@ -24,6 +24,11 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 - **The Wikipedia article title changes.** The REST API wants the *current* title (redirects resolved), and views on the event day may sit under an older title. Bakers resolve redirects and sum across them.
 - **GIBS tile matrix sets differ per layer:** for example, the night-lights layer exists at `Level8`, not `Level7`. Layer metadata comes from GIBS `GetCapabilities`, not guesses.
 - **IODA signals measure connectivity, not people.** Narration says "internet traffic fell to 54% of normal", never "54% of people lost internet".
+- **IODA's copyright line**, verbatim in each response: "Copyright (c) 2021-2025 Georgia Tech Research Corporation. All Rights Reserved." Bakers copy it into `sources.json`, next to our attribution (see the decision above).
+- **IODA country names** are formal ("Iran (Islamic Republic Of)"); bakers use Natural Earth's names instead.
+- **Natural Earth `ISO_A2` is "-99" for France and Norway.** Use `ISO_A2_EH`. Two disputed areas have no code at all and are skipped.
+- **Night passes don't always exist.** For the Iberian blackout night, Suomi NPP's day-night band returns no data over Spain on 2025-04-29, and NOAA-20's pass (around 01:30 local) shows Madrid already lit. A replay with no usable pass shows the Black Marble composite, **labelled on screen** as "a typical night, not this one".
+- **The best minute-by-minute outage signal is `ping-slash24`** (responsive /24 address blocks, every 10 min). `gtr-norm` (Google traffic, every 30 min) is better for attention events like a final, because people stop searching to watch.
 - **The MODIS sensors are ending** (Terra around February 2027, Aqua around September 2027). Prefer VIIRS layers.
 
 ## Later sources (backlog)

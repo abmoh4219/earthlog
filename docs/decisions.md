@@ -197,3 +197,29 @@ MIT for the code. Data keeps its own licences, listed per bundle and in docs/DAT
 
 - **Cloudflare Pages** (the first proposal). No commercial clause, but less native for Next.js.
 - **GitHub Pages.** Needs a public repo on the free plan, and no Next.js server features.
+
+---
+
+## ADR-0008: "Normal" = same weekday, same time, median of 4 weeks
+
+- **Date:** 2026-11-04
+- **Status:** Proposed
+
+### Decision
+
+Every "X% of normal" figure divides a reading by its **baseline**: the median of the readings at the **same time on the same weekday over the 4 previous weeks**. A baseline needs at least 2 of those 4 weeks; otherwise the sample has no ratio and shows as a gap.
+
+### Why
+
+- **Same weekday:** traffic has a weekly rhythm. With a "previous 7 days" baseline, Argentina read 68% of normal before the 2022 final had even started, because a Sunday afternoon was compared with weekdays. With the weekday baseline it reads 100%.
+- **Median of 4:** one odd week can't move it. The Iberian blackout's week-earlier Monday was Easter Monday.
+
+### Consequences
+
+- Bakers fetch 4 weeks of history per country (small: about 30 KB per signal).
+- The baseline rule is shown in the live data panel and cited as `baseline` evidence in every sentence that gives a percentage.
+
+### Alternatives considered
+
+- **Previous 7 days, same time** (first implementation): biased by weekday rhythm, as above.
+- **A single reference day:** one holiday or outage on that day would distort everything.

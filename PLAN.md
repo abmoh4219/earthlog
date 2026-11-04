@@ -72,10 +72,10 @@
 
 **Acceptance:**
 
-- [ ] `pnpm dev` shows the globe with NASA imagery for a given date. The night-lights layer can be toggled.
-- [ ] The sample scene plays: the camera flies through 3 keyframes in sync with the clock, scrubbing jumps the camera correctly, and captions appear at their times.
-- [ ] No console errors and no ion token warnings. Interaction runs at 60 fps on the dev laptop.
-- [ ] `pnpm typecheck && pnpm lint && pnpm test && pnpm build` are green, locally and in CI.
+- [x] `pnpm dev` shows the globe with NASA imagery for a given date. The night-lights layer can be toggled.
+- [x] The sample scene plays: the camera flies through 3 keyframes in sync with the clock, scrubbing jumps the camera correctly, and captions appear at their times.
+- [ ] No console errors and no ion token warnings. Interaction runs at 60 fps on the dev laptop. *(Console clean. 60 fps not measured yet: headless tests use software rendering.)*
+- [x] `pnpm typecheck && pnpm lint && pnpm test && pnpm build` are green, locally and in CI.
 
 **Checkpoint 1:** `feat: cinematic globe player with dated NASA imagery`
 
@@ -95,11 +95,18 @@
 
 **Acceptance:**
 
-- [ ] `pnpm bake <id>` produces a valid bundle for all four events (`iberia-2025`, `worldcup-2022`, `iran-2025`, `myanmar-2025`), checked by `pnpm validate:scenes`.
-- [ ] Every "traffic fell X%" figure is computed against a **baseline** (the same hours on a reference day), and the baseline is cited too.
-- [ ] Every baker has a unit test against a **recorded fixture** response. Tests make no network calls.
-- [ ] Each bundle has a `sources` list with licence and attribution, and stays under 5 MB.
-- [ ] On the globe: quakes pulse at their real times, scaled by magnitude, and countries tint by internet drop as the clock runs.
+- [x] `pnpm bake <id>` produces a valid bundle for all four events (`iberia-2025`, `worldcup-2022`, `iran-2025`, `myanmar-2025`), checked by `pnpm validate:scenes`.
+- [x] Every "traffic fell X%" figure is computed against a **baseline** (the same time on the same weekday, median of the 4 previous weeks: ADR-0008), and the baseline is cited too.
+- [x] Every baker has a unit test against a **recorded fixture** response. Tests make no network calls.
+- [x] Each bundle has a `sources` list with licence and attribution, and stays under 5 MB (largest: 128 KB).
+- [x] On the globe: quakes pulse at their real times, scaled by magnitude, and countries tint by internet drop as the clock runs.
+
+**Done differently (2026-11-04):**
+
+- **Cut for v0.1:** the `attention` baker (Wikimedia pageviews). Daily values can't be placed honestly inside a few-hours window, and hourly dumps are 50 MB each. The World Cup replay uses IODA's Google-traffic signal instead. Back in the backlog.
+- **Pulled forward from Phase 3:** the **template director** (`scripts/director/template.ts`), because a bundle isn't playable without a scene. `pnpm bake` runs it. Phase 3 adds Claude mode and the evidence drawer.
+- **Added:** country borders and names (with live readings), the live data panel, and a `?` shortcut sheet.
+- **No real night pass for the Iberian blackout** (see DATA-SOURCES.md), so that replay uses the labelled "typical night" composite.
 
 **Checkpoint 2:** `feat: data bakers for quakes, outages, attention and imagery`
 

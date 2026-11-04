@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "id": "iberia-2025",
+  "title": "The Iberian blackout",
+  "subtitle": "Spain and Portugal lose power · 28 April 2025",
+  "category": "infrastructure",
+  "window": {
+    "start": "2025-04-28T09:30:00Z",
+    "end": "2025-04-29T05:00:00Z"
+  },
+  "focus": "2025-04-28T10:30:00Z",
+  "timezone": "Europe/Madrid",
+  "region": {
+    "west": -12,
+    "south": 34,
+    "east": 6,
+    "north": 46
+  },
+  "imagery": {
+    "day": "2025-04-28",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2025-04-28T09:30:00Z",
+      "lon": -3,
+      "lat": 36,
+      "range": 3979447.673114467,
+      "heading": 0,
+      "pitch": -82
+    },
+    {
+      "t": "2025-04-28T10:20:00Z",
+      "lon": -3,
+      "lat": 40,
+      "range": 2448890.875762749,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2025-04-28T10:45:00Z",
+      "lon": -4.2,
+      "lat": 38.7,
+      "range": 1607084.637219304,
+      "heading": 10,
+      "pitch": -52
+    },
+    {
+      "t": "2025-04-28T11:30:00Z",
+      "lon": -4.2,
+      "lat": 39.2,
+      "range": 1836668.1568220614,
+      "heading": -8,
+      "pitch": -55
+    },
+    {
+      "t": "2025-04-28T23:09:00Z",
+      "lon": -3,
+      "lat": 38,
+      "range": 1989723.8365572335,
+      "heading": -4,
+      "pitch": -62
+    },
+    {
+      "t": "2025-04-29T05:00:00Z",
+      "lon": -3,
+      "lat": 37,
+      "range": 2908057.914968264,
+      "heading": 0,
+      "pitch": -75
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2025-04-28T09:30:00Z",
+      "speed": 146
+    },
+    {
+      "t": "2025-04-28T09:47:02Z",
+      "speed": 1170
+    },
+    {
+      "t": "2025-04-28T10:25:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2025-04-28T10:55:00Z",
+      "speed": 146
+    },
+    {
+      "t": "2025-04-28T11:38:08Z",
+      "speed": 1170
+    },
+    {
+      "t": "2025-04-28T17:50:00Z",
+      "speed": 146
+    },
+    {
+      "t": "2025-04-28T18:07:02Z",
+      "speed": 1170
+    },
+    {
+      "t": "2025-04-28T22:30:00Z",
+      "speed": 146
+    },
+    {
+      "t": "2025-04-28T22:47:02Z",
+      "speed": 1170
+    }
+  ],
+  "beats": [
+    {
+      "t": "2025-04-28T09:30:00Z",
+      "text": "11:30 CEST. Spain: responsive address blocks at 100% of normal.",
+      "cites": [
+        "ioda:ES:ping:2025-04-28T09:30Z",
+        "ioda:ES:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-04-28T10:30:00Z",
+      "text": "12:30 CEST. Spain: responsive address blocks fall from 100% to 61% of normal in 10 minutes.",
+      "cites": [
+        "ioda:ES:ping:2025-04-28T10:20Z",
+        "ioda:ES:ping:2025-04-28T10:30Z",
+        "ioda:ES:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-04-28T10:47:02Z",
+      "text": "12:30 CEST. Portugal: responsive address blocks fall to 57% of normal.",
+      "cites": [
+        "ioda:PT:ping:2025-04-28T10:30Z",
+        "ioda:PT:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-04-28T11:04:04Z",
+      "text": "France, for comparison, holds steady at 99% of normal.",
+      "cites": [
+        "ioda:FR:ping:2025-04-28T10:40Z",
+        "ioda:FR:ping:2025-04-28T13:10Z",
+        "ioda:FR:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-04-28T11:21:06Z",
+      "text": "13:20 CEST. 50 minutes later, Spain is down to 30% of normal.",
+      "cites": [
+        "ioda:ES:ping:2025-04-28T11:20Z",
+        "ioda:ES:ping:2025-04-28T10:30Z",
+        "ioda:ES:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-04-28T17:50:00Z",
+      "text": "19:50 CEST. Lowest reading for Spain: 25% of normal.",
+      "cites": [
+        "ioda:ES:ping:2025-04-28T17:50Z",
+        "ioda:ES:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-04-28T22:30:00Z",
+      "text": "00:30 CEST. Spain is back to 64% of normal.",
+      "cites": [
+        "ioda:ES:ping:2025-04-28T22:30Z",
+        "ioda:ES:ping:baseline"
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T12:00:52Z"
+  }
+}

@@ -11,6 +11,8 @@ export function Hud({ scene }: { scene: Scene }) {
   const second = usePlayer((s) => Math.floor(s.clock.t / 1000));
   const t = second * 1000;
   const tz = scene.timezone;
+  // Honesty: when no real night pass exists, the night side is a composite. Say so on screen.
+  const typicalNight = usePlayer((s) => s.layers.nightLights) && scene.imagery.nights.length === 0;
 
   return (
     <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between p-6 md:p-8">
@@ -38,6 +40,14 @@ export function Hud({ scene }: { scene: Scene }) {
           <div className="mt-0.5 text-[11px] tracking-[0.2em] text-ice/45 uppercase">
             {clockText(t, "UTC")} UTC
           </div>
+          {typicalNight && (
+            <div
+              className="mt-3 inline-block rounded-md border border-energy/30 bg-energy/10 px-2 py-1 text-[10px] tracking-[0.15em] text-energy/90 uppercase"
+              title="No satellite night pass covers this event, so night lights show a 2016 composite."
+            >
+              Night lights: a typical night, not this one
+            </div>
+          )}
         </div>
       )}
     </header>

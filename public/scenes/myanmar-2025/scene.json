@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "id": "myanmar-2025",
+  "title": "The Myanmar earthquake",
+  "subtitle": "Magnitude 7.7 near Mandalay · 28 March 2025",
+  "category": "nature",
+  "window": {
+    "start": "2025-03-28T06:00:00Z",
+    "end": "2025-03-28T18:00:00Z"
+  },
+  "focus": "2025-03-28T06:20:00Z",
+  "timezone": "Asia/Yangon",
+  "region": {
+    "west": 88,
+    "south": 10,
+    "east": 106,
+    "north": 30
+  },
+  "imagery": {
+    "day": "2025-03-28",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2025-03-28T06:00:00Z",
+      "lon": 97,
+      "lat": 16,
+      "range": 5772000,
+      "heading": 0,
+      "pitch": -82
+    },
+    {
+      "t": "2025-03-28T06:10:00Z",
+      "lon": 97,
+      "lat": 20,
+      "range": 3552000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2025-03-28T06:35:00Z",
+      "lon": 95.94,
+      "lat": 20.51,
+      "range": 2331000,
+      "heading": 10,
+      "pitch": -52
+    },
+    {
+      "t": "2025-03-28T07:20:00Z",
+      "lon": 95.94,
+      "lat": 21.01,
+      "range": 2664000,
+      "heading": -8,
+      "pitch": -55
+    },
+    {
+      "t": "2025-03-28T14:24:00Z",
+      "lon": 97,
+      "lat": 18,
+      "range": 2886000,
+      "heading": -4,
+      "pitch": -62
+    },
+    {
+      "t": "2025-03-28T18:00:00Z",
+      "lon": 97,
+      "lat": 17,
+      "range": 4218000,
+      "heading": 0,
+      "pitch": -75
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2025-03-28T06:00:00Z",
+      "speed": 90
+    },
+    {
+      "t": "2025-03-28T06:10:30Z",
+      "speed": 720
+    },
+    {
+      "t": "2025-03-28T06:15:00Z",
+      "speed": 60
+    },
+    {
+      "t": "2025-03-28T06:45:00Z",
+      "speed": 720
+    },
+    {
+      "t": "2025-03-28T16:46:20Z",
+      "speed": 90
+    },
+    {
+      "t": "2025-03-28T16:56:50Z",
+      "speed": 720
+    }
+  ],
+  "beats": [
+    {
+      "t": "2025-03-28T06:00:00Z",
+      "text": "12:30 GMT+6:30. Myanmar: responsive address blocks at 100% of normal.",
+      "cites": [
+        "ioda:MM:ping:2025-03-28T06:00Z",
+        "ioda:MM:ping:baseline"
+      ]
+    },
+    {
+      "t": "2025-03-28T06:20:52Z",
+      "text": "12:50 GMT+6:30. A magnitude 7.7 earthquake, 10 km deep. USGS names it the \"2025 Mandalay, Burma (Myanmar) Earthquake\".",
+      "cites": [
+        "usgs:us7000pn9s"
+      ]
+    },
+    {
+      "t": "2025-03-28T06:32:04Z",
+      "text": "13:02 GMT+6:30. Another quake, magnitude 6.7, 11 minutes later: Burma (Myanmar).",
+      "cites": [
+        "usgs:us7000pn9z"
+      ]
+    },
+    {
+      "t": "2025-03-28T16:46:20Z",
+      "text": "23:16 GMT+6:30. 10 more quakes of magnitude 4.5 or above recorded in the region so far.",
+      "cites": [
+        "usgs:us7000pncy",
+        "usgs:us7000pncv",
+        "usgs:us7000pnb6",
+        "usgs:us6000q4ji",
+        "usgs:us7000pnb8",
+        "usgs:us7000pnba",
+        "usgs:us7000pnbe",
+        "usgs:us7000pnfz",
+        "usgs:us7000pnc5",
+        "usgs:us7000pne5"
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T12:00:52Z"
+  }
+}

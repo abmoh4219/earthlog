@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "ioda:IR:ping:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2025-06-18T10:00:00Z",
+    "label": "Iran: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T10:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:00:00Z",
+    "label": "Iran: responsive address blocks 11,045 vs normal 12,457.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T10:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:10:00Z",
+    "label": "Iran: responsive address blocks 10,965 vs normal 12,480.5 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T10:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:20:00Z",
+    "label": "Iran: responsive address blocks 10,961 vs normal 12,461 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T10:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:30:00Z",
+    "label": "Iran: responsive address blocks 10,997 vs normal 12,452 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T10:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:40:00Z",
+    "label": "Iran: responsive address blocks 11,020 vs normal 12,475.5 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T10:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:50:00Z",
+    "label": "Iran: responsive address blocks 11,014 vs normal 12,429 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T11:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:00:00Z",
+    "label": "Iran: responsive address blocks 10,976 vs normal 12,455 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T11:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:10:00Z",
+    "label": "Iran: responsive address blocks 11,039 vs normal 12,439 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T11:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:20:00Z",
+    "label": "Iran: responsive address blocks 11,107 vs normal 12,458 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T11:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:30:00Z",
+    "label": "Iran: responsive address blocks 11,050 vs normal 12,446.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T11:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:40:00Z",
+    "label": "Iran: responsive address blocks 11,090 vs normal 12,452.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T11:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:50:00Z",
+    "label": "Iran: responsive address blocks 11,087 vs normal 12,432.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T12:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:00:00Z",
+    "label": "Iran: responsive address blocks 11,066 vs normal 12,434 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T12:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:10:00Z",
+    "label": "Iran: responsive address blocks 11,073 vs normal 12,426 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T12:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:20:00Z",
+    "label": "Iran: responsive address blocks 11,046 vs normal 12,365.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T12:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:30:00Z",
+    "label": "Iran: responsive address blocks 11,047 vs normal 12,362.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T12:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:40:00Z",
+    "label": "Iran: responsive address blocks 11,049 vs normal 12,402.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T12:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:50:00Z",
+    "label": "Iran: responsive address blocks 10,954 vs normal 12,403 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T13:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:00:00Z",
+    "label": "Iran: responsive address blocks 8,998 vs normal 12,392.5 (73%)",
+    "value": 73,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T13:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:10:00Z",
+    "label": "Iran: responsive address blocks 5,396 vs normal 12,395.5 (44%)",
+    "value": 44,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T13:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:20:00Z",
+    "label": "Iran: responsive address blocks 2,783 vs normal 12,384 (22%)",
+    "value": 22,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:30:00Z",
+    "label": "Iran: responsive address blocks 975 vs normal 12,341.5 (8%)",
+    "value": 8,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T13:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:40:00Z",
+    "label": "Iran: responsive address blocks 746 vs normal 12,406.5 (6%)",
+    "value": 6,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T13:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:50:00Z",
+    "label": "Iran: responsive address blocks 562 vs normal 12,399.5 (5%)",
+    "value": 5,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:00:00Z",
+    "label": "Iran: responsive address blocks 423 vs normal 12,443 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T14:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:10:00Z",
+    "label": "Iran: responsive address blocks 426 vs normal 12,411 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T14:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:20:00Z",
+    "label": "Iran: responsive address blocks 421 vs normal 12,443 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:30:00Z",
+    "label": "Iran: responsive address blocks 417 vs normal 12,450 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T14:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:40:00Z",
+    "label": "Iran: responsive address blocks 415 vs normal 12,464 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T14:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:50:00Z",
+    "label": "Iran: responsive address blocks 418 vs normal 12,450 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:00:00Z",
+    "label": "Iran: responsive address blocks 422 vs normal 12,432.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T15:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:10:00Z",
+    "label": "Iran: responsive address blocks 414 vs normal 12,453.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T15:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:20:00Z",
+    "label": "Iran: responsive address blocks 415 vs normal 12,432.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:30:00Z",
+    "label": "Iran: responsive address blocks 421 vs normal 12,463 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T15:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:40:00Z",
+    "label": "Iran: responsive address blocks 426 vs normal 12,460.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T15:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:50:00Z",
+    "label": "Iran: responsive address blocks 432 vs normal 12,498 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:00:00Z",
+    "label": "Iran: responsive address blocks 422 vs normal 12,527 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T16:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:10:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,537.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T16:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:20:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,462 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:30:00Z",
+    "label": "Iran: responsive address blocks 432 vs normal 12,485.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T16:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:40:00Z",
+    "label": "Iran: responsive address blocks 439 vs normal 12,490.5 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T16:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:50:00Z",
+    "label": "Iran: responsive address blocks 479 vs normal 12,517.5 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:00:00Z",
+    "label": "Iran: responsive address blocks 452 vs normal 12,524 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T17:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:10:00Z",
+    "label": "Iran: responsive address blocks 444 vs normal 12,476 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T17:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:20:00Z",
+    "label": "Iran: responsive address blocks 444 vs normal 12,482 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:30:00Z",
+    "label": "Iran: responsive address blocks 445 vs normal 12,469 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T17:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:40:00Z",
+    "label": "Iran: responsive address blocks 442 vs normal 12,483 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T17:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:50:00Z",
+    "label": "Iran: responsive address blocks 451 vs normal 12,470.5 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T18:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:00:00Z",
+    "label": "Iran: responsive address blocks 443 vs normal 12,486 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T18:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:10:00Z",
+    "label": "Iran: responsive address blocks 1,861 vs normal 12,492 (15%)",
+    "value": 15,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T18:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:20:00Z",
+    "label": "Iran: responsive address blocks 3,812 vs normal 12,480.5 (31%)",
+    "value": 31,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T18:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:30:00Z",
+    "label": "Iran: responsive address blocks 1,426 vs normal 12,496.5 (11%)",
+    "value": 11,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T18:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:40:00Z",
+    "label": "Iran: responsive address blocks 470 vs normal 12,483.5 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T18:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:50:00Z",
+    "label": "Iran: responsive address blocks 472 vs normal 12,440.5 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T19:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:00:00Z",
+    "label": "Iran: responsive address blocks 438 vs normal 12,466 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T19:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:10:00Z",
+    "label": "Iran: responsive address blocks 445 vs normal 12,462 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T19:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:20:00Z",
+    "label": "Iran: responsive address blocks 447 vs normal 12,452 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T19:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:30:00Z",
+    "label": "Iran: responsive address blocks 445 vs normal 12,429 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T19:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:40:00Z",
+    "label": "Iran: responsive address blocks 435 vs normal 12,455 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T19:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:50:00Z",
+    "label": "Iran: responsive address blocks 427 vs normal 12,462.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T20:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:00:00Z",
+    "label": "Iran: responsive address blocks 424 vs normal 12,422.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T20:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:10:00Z",
+    "label": "Iran: responsive address blocks 431 vs normal 12,424.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T20:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:20:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,444.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T20:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:30:00Z",
+    "label": "Iran: responsive address blocks 414 vs normal 12,435.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T20:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:40:00Z",
+    "label": "Iran: responsive address blocks 420 vs normal 12,450.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T20:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:50:00Z",
+    "label": "Iran: responsive address blocks 486 vs normal 12,443.5 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T21:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:00:00Z",
+    "label": "Iran: responsive address blocks 518 vs normal 12,444 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T21:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:10:00Z",
+    "label": "Iran: responsive address blocks 436 vs normal 12,467 (4%)",
+    "value": 4,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T21:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:20:00Z",
+    "label": "Iran: responsive address blocks 415 vs normal 12,460.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T21:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:30:00Z",
+    "label": "Iran: responsive address blocks 425 vs normal 12,459.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T21:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:40:00Z",
+    "label": "Iran: responsive address blocks 425 vs normal 12,446 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T21:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:50:00Z",
+    "label": "Iran: responsive address blocks 426 vs normal 12,451.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T22:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:00:00Z",
+    "label": "Iran: responsive address blocks 418 vs normal 12,451 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T22:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:10:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,416.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T22:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:20:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,440.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T22:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:30:00Z",
+    "label": "Iran: responsive address blocks 417 vs normal 12,429.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T22:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:40:00Z",
+    "label": "Iran: responsive address blocks 418 vs normal 12,444.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T22:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:50:00Z",
+    "label": "Iran: responsive address blocks 422 vs normal 12,411.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T23:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:00:00Z",
+    "label": "Iran: responsive address blocks 416 vs normal 12,441.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T23:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:10:00Z",
+    "label": "Iran: responsive address blocks 423 vs normal 12,464.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T23:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:20:00Z",
+    "label": "Iran: responsive address blocks 423 vs normal 12,442 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T23:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:30:00Z",
+    "label": "Iran: responsive address blocks 414 vs normal 12,445 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T23:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:40:00Z",
+    "label": "Iran: responsive address blocks 411 vs normal 12,438 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-18T23:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:50:00Z",
+    "label": "Iran: responsive address blocks 421 vs normal 12,414 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T00:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:00:00Z",
+    "label": "Iran: responsive address blocks 418 vs normal 12,424 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T00:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:10:00Z",
+    "label": "Iran: responsive address blocks 416 vs normal 12,432 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T00:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:20:00Z",
+    "label": "Iran: responsive address blocks 420 vs normal 12,449.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T00:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:30:00Z",
+    "label": "Iran: responsive address blocks 413 vs normal 12,432.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T00:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:40:00Z",
+    "label": "Iran: responsive address blocks 418 vs normal 12,425 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T00:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:50:00Z",
+    "label": "Iran: responsive address blocks 418 vs normal 12,396 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T01:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:00:00Z",
+    "label": "Iran: responsive address blocks 417 vs normal 12,373.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T01:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:10:00Z",
+    "label": "Iran: responsive address blocks 423 vs normal 12,376.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T01:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:20:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,389 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T01:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:30:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,375.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T01:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:40:00Z",
+    "label": "Iran: responsive address blocks 417 vs normal 12,381 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T01:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:50:00Z",
+    "label": "Iran: responsive address blocks 424 vs normal 12,383.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T02:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:00:00Z",
+    "label": "Iran: responsive address blocks 425 vs normal 12,392.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T02:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:10:00Z",
+    "label": "Iran: responsive address blocks 421 vs normal 12,397.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T02:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:20:00Z",
+    "label": "Iran: responsive address blocks 419 vs normal 12,353.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T02:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:30:00Z",
+    "label": "Iran: responsive address blocks 415 vs normal 12,336.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T02:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:40:00Z",
+    "label": "Iran: responsive address blocks 424 vs normal 12,337.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T02:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:50:00Z",
+    "label": "Iran: responsive address blocks 424 vs normal 12,319 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T03:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:00:00Z",
+    "label": "Iran: responsive address blocks 412 vs normal 12,311.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T03:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:10:00Z",
+    "label": "Iran: responsive address blocks 422 vs normal 12,322.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T03:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:20:00Z",
+    "label": "Iran: responsive address blocks 423 vs normal 12,301.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T03:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:30:00Z",
+    "label": "Iran: responsive address blocks 420 vs normal 12,285 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T03:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:40:00Z",
+    "label": "Iran: responsive address blocks 418 vs normal 12,281 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:IR:ping:2025-06-19T03:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:50:00Z",
+    "label": "Iran: responsive address blocks 409 vs normal 12,292.5 (3%)",
+    "value": 3,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/IR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2025-06-18T10:00:00Z",
+    "label": "Turkey: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T10:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:00:00Z",
+    "label": "Turkey: responsive address blocks 11,985 vs normal 12,016 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T10:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:10:00Z",
+    "label": "Turkey: responsive address blocks 11,988 vs normal 12,057.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T10:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:20:00Z",
+    "label": "Turkey: responsive address blocks 11,990 vs normal 12,031.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T10:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:30:00Z",
+    "label": "Turkey: responsive address blocks 11,989 vs normal 12,046.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T10:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:40:00Z",
+    "label": "Turkey: responsive address blocks 12,022 vs normal 12,032.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T10:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T10:50:00Z",
+    "label": "Turkey: responsive address blocks 12,023 vs normal 12,044.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T11:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:00:00Z",
+    "label": "Turkey: responsive address blocks 12,019 vs normal 12,031.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T11:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:10:00Z",
+    "label": "Turkey: responsive address blocks 12,026 vs normal 12,064.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T11:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:20:00Z",
+    "label": "Turkey: responsive address blocks 11,967 vs normal 12,032 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T11:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:30:00Z",
+    "label": "Turkey: responsive address blocks 11,963 vs normal 12,046 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T11:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:40:00Z",
+    "label": "Turkey: responsive address blocks 12,002 vs normal 12,048.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T11:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T11:50:00Z",
+    "label": "Turkey: responsive address blocks 11,998 vs normal 12,058.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T12:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:00:00Z",
+    "label": "Turkey: responsive address blocks 11,965 vs normal 12,028 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T12:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:10:00Z",
+    "label": "Turkey: responsive address blocks 12,015 vs normal 12,032.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T12:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:20:00Z",
+    "label": "Turkey: responsive address blocks 11,979 vs normal 12,006 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T12:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:30:00Z",
+    "label": "Turkey: responsive address blocks 12,028 vs normal 12,041.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T12:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:40:00Z",
+    "label": "Turkey: responsive address blocks 11,984 vs normal 12,035 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T12:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T12:50:00Z",
+    "label": "Turkey: responsive address blocks 11,991 vs normal 12,027 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T13:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:00:00Z",
+    "label": "Turkey: responsive address blocks 12,009 vs normal 12,029.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T13:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:10:00Z",
+    "label": "Turkey: responsive address blocks 11,998 vs normal 12,034.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T13:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:20:00Z",
+    "label": "Turkey: responsive address blocks 12,054 vs normal 12,043.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:30:00Z",
+    "label": "Turkey: responsive address blocks 12,015 vs normal 12,040 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T13:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:40:00Z",
+    "label": "Turkey: responsive address blocks 11,970 vs normal 12,021 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T13:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T13:50:00Z",
+    "label": "Turkey: responsive address blocks 12,008 vs normal 12,028.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:00:00Z",
+    "label": "Turkey: responsive address blocks 11,987 vs normal 12,019 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T14:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:10:00Z",
+    "label": "Turkey: responsive address blocks 12,010 vs normal 12,035.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T14:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:20:00Z",
+    "label": "Turkey: responsive address blocks 11,989 vs normal 12,039 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:30:00Z",
+    "label": "Turkey: responsive address blocks 12,012 vs normal 12,043 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T14:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:40:00Z",
+    "label": "Turkey: responsive address blocks 12,018 vs normal 12,020.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T14:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T14:50:00Z",
+    "label": "Turkey: responsive address blocks 11,998 vs normal 12,024 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:00:00Z",
+    "label": "Turkey: responsive address blocks 12,007 vs normal 12,022 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T15:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:10:00Z",
+    "label": "Turkey: responsive address blocks 11,985 vs normal 12,034 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T15:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:20:00Z",
+    "label": "Turkey: responsive address blocks 11,985 vs normal 12,039 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:30:00Z",
+    "label": "Turkey: responsive address blocks 12,010 vs normal 12,045.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T15:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:40:00Z",
+    "label": "Turkey: responsive address blocks 11,998 vs normal 12,025 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T15:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T15:50:00Z",
+    "label": "Turkey: responsive address blocks 11,987 vs normal 12,008.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:00:00Z",
+    "label": "Turkey: responsive address blocks 11,990 vs normal 12,002.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T16:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:10:00Z",
+    "label": "Turkey: responsive address blocks 11,984 vs normal 12,024 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T16:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:20:00Z",
+    "label": "Turkey: responsive address blocks 11,959 vs normal 12,003 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:30:00Z",
+    "label": "Turkey: responsive address blocks 11,989 vs normal 12,021 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T16:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:40:00Z",
+    "label": "Turkey: responsive address blocks 12,028 vs normal 12,017 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T16:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T16:50:00Z",
+    "label": "Turkey: responsive address blocks 11,993 vs normal 12,021.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:00:00Z",
+    "label": "Turkey: responsive address blocks 11,956 vs normal 12,009.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T17:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:10:00Z",
+    "label": "Turkey: responsive address blocks 11,988 vs normal 12,001 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T17:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:20:00Z",
+    "label": "Turkey: responsive address blocks 12,020 vs normal 11,969 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:30:00Z",
+    "label": "Turkey: responsive address blocks 11,959 vs normal 11,991 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T17:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:40:00Z",
+    "label": "Turkey: responsive address blocks 11,983 vs normal 11,995.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T17:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T17:50:00Z",
+    "label": "Turkey: responsive address blocks 11,971 vs normal 12,010.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T18:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:00:00Z",
+    "label": "Turkey: responsive address blocks 11,964 vs normal 12,015.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T18:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:10:00Z",
+    "label": "Turkey: responsive address blocks 11,976 vs normal 12,006 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T18:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:20:00Z",
+    "label": "Turkey: responsive address blocks 11,998 vs normal 12,004 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T18:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:30:00Z",
+    "label": "Turkey: responsive address blocks 11,965 vs normal 12,021 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T18:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:40:00Z",
+    "label": "Turkey: responsive address blocks 12,009 vs normal 12,026 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T18:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T18:50:00Z",
+    "label": "Turkey: responsive address blocks 11,983 vs normal 12,023.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T19:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:00:00Z",
+    "label": "Turkey: responsive address blocks 11,996 vs normal 12,004.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T19:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:10:00Z",
+    "label": "Turkey: responsive address blocks 11,996 vs normal 12,012.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T19:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:20:00Z",
+    "label": "Turkey: responsive address blocks 11,966 vs normal 12,007 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T19:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:30:00Z",
+    "label": "Turkey: responsive address blocks 11,965 vs normal 11,989.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T19:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:40:00Z",
+    "label": "Turkey: responsive address blocks 11,943 vs normal 12,001.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T19:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T19:50:00Z",
+    "label": "Turkey: responsive address blocks 11,973 vs normal 11,992 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T20:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:00:00Z",
+    "label": "Turkey: responsive address blocks 11,978 vs normal 11,996 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T20:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:10:00Z",
+    "label": "Turkey: responsive address blocks 11,972 vs normal 12,006 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T20:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:20:00Z",
+    "label": "Turkey: responsive address blocks 11,978 vs normal 11,965 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T20:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:30:00Z",
+    "label": "Turkey: responsive address blocks 11,974 vs normal 11,991 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T20:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:40:00Z",
+    "label": "Turkey: responsive address blocks 11,949 vs normal 11,995.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T20:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T20:50:00Z",
+    "label": "Turkey: responsive address blocks 11,963 vs normal 12,007.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T21:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:00:00Z",
+    "label": "Turkey: responsive address blocks 11,959 vs normal 12,005 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T21:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:10:00Z",
+    "label": "Turkey: responsive address blocks 11,977 vs normal 12,002.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T21:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:20:00Z",
+    "label": "Turkey: responsive address blocks 11,952 vs normal 11,989 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T21:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:30:00Z",
+    "label": "Turkey: responsive address blocks 11,969 vs normal 11,989.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T21:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:40:00Z",
+    "label": "Turkey: responsive address blocks 11,955 vs normal 11,987 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T21:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T21:50:00Z",
+    "label": "Turkey: responsive address blocks 11,941 vs normal 11,974.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T22:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:00:00Z",
+    "label": "Turkey: responsive address blocks 11,899 vs normal 11,951 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T22:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:10:00Z",
+    "label": "Turkey: responsive address blocks 11,903 vs normal 11,961 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T22:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:20:00Z",
+    "label": "Turkey: responsive address blocks 11,927 vs normal 11,952 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T22:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:30:00Z",
+    "label": "Turkey: responsive address blocks 11,924 vs normal 11,962.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T22:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:40:00Z",
+    "label": "Turkey: responsive address blocks 11,934 vs normal 11,958.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T22:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T22:50:00Z",
+    "label": "Turkey: responsive address blocks 11,948 vs normal 11,965.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T23:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:00:00Z",
+    "label": "Turkey: responsive address blocks 11,923 vs normal 11,932 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T23:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:10:00Z",
+    "label": "Turkey: responsive address blocks 11,910 vs normal 11,957 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T23:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:20:00Z",
+    "label": "Turkey: responsive address blocks 11,950 vs normal 11,934 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T23:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:30:00Z",
+    "label": "Turkey: responsive address blocks 11,877 vs normal 11,989 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T23:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:40:00Z",
+    "label": "Turkey: responsive address blocks 11,941 vs normal 11,954.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-18T23:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-18T23:50:00Z",
+    "label": "Turkey: responsive address blocks 11,935 vs normal 11,958.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T00:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:00:00Z",
+    "label": "Turkey: responsive address blocks 11,924 vs normal 11,961.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T00:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:10:00Z",
+    "label": "Turkey: responsive address blocks 11,891 vs normal 11,984 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T00:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:20:00Z",
+    "label": "Turkey: responsive address blocks 11,904 vs normal 11,974 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T00:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:30:00Z",
+    "label": "Turkey: responsive address blocks 11,956 vs normal 11,964.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T00:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:40:00Z",
+    "label": "Turkey: responsive address blocks 11,933 vs normal 11,969.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T00:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T00:50:00Z",
+    "label": "Turkey: responsive address blocks 11,912 vs normal 11,985 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T01:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:00:00Z",
+    "label": "Turkey: responsive address blocks 11,925 vs normal 11,997 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T01:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:10:00Z",
+    "label": "Turkey: responsive address blocks 11,918 vs normal 11,995 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T01:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:20:00Z",
+    "label": "Turkey: responsive address blocks 11,917 vs normal 11,957 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T01:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:30:00Z",
+    "label": "Turkey: responsive address blocks 11,942 vs normal 11,983.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T01:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:40:00Z",
+    "label": "Turkey: responsive address blocks 11,901 vs normal 11,971 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T01:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T01:50:00Z",
+    "label": "Turkey: responsive address blocks 11,946 vs normal 11,962.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T02:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:00:00Z",
+    "label": "Turkey: responsive address blocks 11,958 vs normal 11,975 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T02:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:10:00Z",
+    "label": "Turkey: responsive address blocks 11,909 vs normal 11,987 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T02:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:20:00Z",
+    "label": "Turkey: responsive address blocks 11,933 vs normal 11,984 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T02:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:30:00Z",
+    "label": "Turkey: responsive address blocks 11,946 vs normal 11,983 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T02:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:40:00Z",
+    "label": "Turkey: responsive address blocks 11,954 vs normal 12,002 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T02:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T02:50:00Z",
+    "label": "Turkey: responsive address blocks 11,946 vs normal 11,969.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T03:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:00:00Z",
+    "label": "Turkey: responsive address blocks 11,934 vs normal 11,988.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T03:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:10:00Z",
+    "label": "Turkey: responsive address blocks 11,892 vs normal 11,958.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T03:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:20:00Z",
+    "label": "Turkey: responsive address blocks 11,964 vs normal 11,975 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T03:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:30:00Z",
+    "label": "Turkey: responsive address blocks 11,936 vs normal 12,014 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T03:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:40:00Z",
+    "label": "Turkey: responsive address blocks 11,902 vs normal 11,978 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  },
+  {
+    "id": "ioda:TR:ping:2025-06-19T03:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-06-19T03:50:00Z",
+    "label": "Turkey: responsive address blocks 11,958 vs normal 11,984.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TR?from=1750240800&until=1750305600"
+  }
+]

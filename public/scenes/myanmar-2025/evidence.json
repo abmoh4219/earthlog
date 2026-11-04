@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "ioda:MM:ping:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2025-03-28T06:00:00Z",
+    "label": "Myanmar: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T06:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:00:00Z",
+    "label": "Myanmar: responsive address blocks 375 vs normal 375.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T06:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:10:00Z",
+    "label": "Myanmar: responsive address blocks 373 vs normal 376.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T06:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:20:00Z",
+    "label": "Myanmar: responsive address blocks 334 vs normal 373 (90%)",
+    "value": 90,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T06:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:30:00Z",
+    "label": "Myanmar: responsive address blocks 343 vs normal 375.5 (91%)",
+    "value": 91,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T06:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:40:00Z",
+    "label": "Myanmar: responsive address blocks 348 vs normal 373 (93%)",
+    "value": 93,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T06:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:50:00Z",
+    "label": "Myanmar: responsive address blocks 338 vs normal 375.5 (90%)",
+    "value": 90,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T07:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:00:00Z",
+    "label": "Myanmar: responsive address blocks 337 vs normal 375 (90%)",
+    "value": 90,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T07:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:10:00Z",
+    "label": "Myanmar: responsive address blocks 337 vs normal 378.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T07:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:20:00Z",
+    "label": "Myanmar: responsive address blocks 334 vs normal 375 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T07:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:30:00Z",
+    "label": "Myanmar: responsive address blocks 335 vs normal 375.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T07:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:40:00Z",
+    "label": "Myanmar: responsive address blocks 332 vs normal 371.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T07:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:50:00Z",
+    "label": "Myanmar: responsive address blocks 328 vs normal 377.5 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T08:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:00:00Z",
+    "label": "Myanmar: responsive address blocks 331 vs normal 374 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T08:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:10:00Z",
+    "label": "Myanmar: responsive address blocks 333 vs normal 378 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T08:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:20:00Z",
+    "label": "Myanmar: responsive address blocks 332 vs normal 375.5 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T08:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:30:00Z",
+    "label": "Myanmar: responsive address blocks 327 vs normal 376 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T08:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:40:00Z",
+    "label": "Myanmar: responsive address blocks 328 vs normal 376.5 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T08:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:50:00Z",
+    "label": "Myanmar: responsive address blocks 332 vs normal 376 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T09:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:00:00Z",
+    "label": "Myanmar: responsive address blocks 329 vs normal 373 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T09:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:10:00Z",
+    "label": "Myanmar: responsive address blocks 330 vs normal 372.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T09:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:20:00Z",
+    "label": "Myanmar: responsive address blocks 326 vs normal 372.5 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T09:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:30:00Z",
+    "label": "Myanmar: responsive address blocks 327 vs normal 377 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T09:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:40:00Z",
+    "label": "Myanmar: responsive address blocks 320 vs normal 377.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T09:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:50:00Z",
+    "label": "Myanmar: responsive address blocks 322 vs normal 381 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T10:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:00:00Z",
+    "label": "Myanmar: responsive address blocks 316 vs normal 377.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T10:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:10:00Z",
+    "label": "Myanmar: responsive address blocks 327 vs normal 377 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T10:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:20:00Z",
+    "label": "Myanmar: responsive address blocks 325 vs normal 376.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T10:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:30:00Z",
+    "label": "Myanmar: responsive address blocks 324 vs normal 378.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T10:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:40:00Z",
+    "label": "Myanmar: responsive address blocks 319 vs normal 378.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T10:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:50:00Z",
+    "label": "Myanmar: responsive address blocks 325 vs normal 379 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T11:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:00:00Z",
+    "label": "Myanmar: responsive address blocks 324 vs normal 377.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T11:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:10:00Z",
+    "label": "Myanmar: responsive address blocks 323 vs normal 376 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T11:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:20:00Z",
+    "label": "Myanmar: responsive address blocks 323 vs normal 376 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T11:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:30:00Z",
+    "label": "Myanmar: responsive address blocks 321 vs normal 378.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T11:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:40:00Z",
+    "label": "Myanmar: responsive address blocks 324 vs normal 377 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T11:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:50:00Z",
+    "label": "Myanmar: responsive address blocks 319 vs normal 375 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T12:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:00:00Z",
+    "label": "Myanmar: responsive address blocks 320 vs normal 374.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T12:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:10:00Z",
+    "label": "Myanmar: responsive address blocks 323 vs normal 379 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T12:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:20:00Z",
+    "label": "Myanmar: responsive address blocks 328 vs normal 376 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T12:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:30:00Z",
+    "label": "Myanmar: responsive address blocks 330 vs normal 376.5 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T12:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:40:00Z",
+    "label": "Myanmar: responsive address blocks 327 vs normal 376.5 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T12:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:50:00Z",
+    "label": "Myanmar: responsive address blocks 328 vs normal 377 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T13:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:00:00Z",
+    "label": "Myanmar: responsive address blocks 324 vs normal 376.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T13:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:10:00Z",
+    "label": "Myanmar: responsive address blocks 323 vs normal 376.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T13:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:20:00Z",
+    "label": "Myanmar: responsive address blocks 322 vs normal 377.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:30:00Z",
+    "label": "Myanmar: responsive address blocks 326 vs normal 377.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T13:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:40:00Z",
+    "label": "Myanmar: responsive address blocks 325 vs normal 375.5 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T13:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:50:00Z",
+    "label": "Myanmar: responsive address blocks 326 vs normal 376.5 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:00:00Z",
+    "label": "Myanmar: responsive address blocks 319 vs normal 378.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T14:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:10:00Z",
+    "label": "Myanmar: responsive address blocks 321 vs normal 376 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T14:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:20:00Z",
+    "label": "Myanmar: responsive address blocks 327 vs normal 372.5 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:30:00Z",
+    "label": "Myanmar: responsive address blocks 320 vs normal 376 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T14:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:40:00Z",
+    "label": "Myanmar: responsive address blocks 319 vs normal 374.5 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T14:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:50:00Z",
+    "label": "Myanmar: responsive address blocks 328 vs normal 375 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:00:00Z",
+    "label": "Myanmar: responsive address blocks 331 vs normal 372.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T15:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:10:00Z",
+    "label": "Myanmar: responsive address blocks 330 vs normal 372 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T15:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:20:00Z",
+    "label": "Myanmar: responsive address blocks 322 vs normal 376 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:30:00Z",
+    "label": "Myanmar: responsive address blocks 319 vs normal 375 (85%)",
+    "value": 85,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T15:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:40:00Z",
+    "label": "Myanmar: responsive address blocks 320 vs normal 373.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T15:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:50:00Z",
+    "label": "Myanmar: responsive address blocks 320 vs normal 374 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:00:00Z",
+    "label": "Myanmar: responsive address blocks 327 vs normal 375 (87%)",
+    "value": 87,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T16:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:10:00Z",
+    "label": "Myanmar: responsive address blocks 330 vs normal 375.5 (88%)",
+    "value": 88,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T16:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:20:00Z",
+    "label": "Myanmar: responsive address blocks 337 vs normal 377.5 (89%)",
+    "value": 89,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:30:00Z",
+    "label": "Myanmar: responsive address blocks 327 vs normal 379.5 (86%)",
+    "value": 86,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T16:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:40:00Z",
+    "label": "Myanmar: responsive address blocks 315 vs normal 374.5 (84%)",
+    "value": 84,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T16:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:50:00Z",
+    "label": "Myanmar: responsive address blocks 306 vs normal 377 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:00:00Z",
+    "label": "Myanmar: responsive address blocks 309 vs normal 374.5 (83%)",
+    "value": 83,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T17:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:10:00Z",
+    "label": "Myanmar: responsive address blocks 306 vs normal 377.5 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T17:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:20:00Z",
+    "label": "Myanmar: responsive address blocks 309 vs normal 377 (82%)",
+    "value": 82,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:30:00Z",
+    "label": "Myanmar: responsive address blocks 303 vs normal 376.5 (80%)",
+    "value": 80,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T17:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:40:00Z",
+    "label": "Myanmar: responsive address blocks 304 vs normal 377 (81%)",
+    "value": 81,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:MM:ping:2025-03-28T17:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:50:00Z",
+    "label": "Myanmar: responsive address blocks 303 vs normal 378.5 (80%)",
+    "value": 80,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/MM?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:baseline",
+    "kind": "baseline",
+    "source": "ioda",
+    "t": "2025-03-28T06:00:00Z",
+    "label": "Thailand: \"normal\" = median of the same time on the same weekday over the 4 previous weeks",
+    "url": "https://ioda.inetintel.cc.gatech.edu/"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T06:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:00:00Z",
+    "label": "Thailand: responsive address blocks 13,215 vs normal 13,219 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T06:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:10:00Z",
+    "label": "Thailand: responsive address blocks 13,214 vs normal 13,221 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T06:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:20:00Z",
+    "label": "Thailand: responsive address blocks 13,204 vs normal 13,231 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T06:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:30:00Z",
+    "label": "Thailand: responsive address blocks 13,196 vs normal 13,223 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T06:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:40:00Z",
+    "label": "Thailand: responsive address blocks 13,164 vs normal 13,220 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T06:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T06:50:00Z",
+    "label": "Thailand: responsive address blocks 13,173 vs normal 13,213 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T07:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:00:00Z",
+    "label": "Thailand: responsive address blocks 13,170 vs normal 13,218.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T07:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:10:00Z",
+    "label": "Thailand: responsive address blocks 13,189 vs normal 13,227 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T07:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:20:00Z",
+    "label": "Thailand: responsive address blocks 13,185 vs normal 13,224 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T07:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:30:00Z",
+    "label": "Thailand: responsive address blocks 13,182 vs normal 13,214.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T07:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:40:00Z",
+    "label": "Thailand: responsive address blocks 13,173 vs normal 13,226.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T07:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T07:50:00Z",
+    "label": "Thailand: responsive address blocks 13,224 vs normal 13,202.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T08:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:00:00Z",
+    "label": "Thailand: responsive address blocks 13,214 vs normal 13,200.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T08:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:10:00Z",
+    "label": "Thailand: responsive address blocks 13,171 vs normal 13,225 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T08:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:20:00Z",
+    "label": "Thailand: responsive address blocks 13,196 vs normal 13,234 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T08:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:30:00Z",
+    "label": "Thailand: responsive address blocks 13,170 vs normal 13,231 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T08:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:40:00Z",
+    "label": "Thailand: responsive address blocks 13,164 vs normal 13,229.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T08:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T08:50:00Z",
+    "label": "Thailand: responsive address blocks 13,178 vs normal 13,231.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T09:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:00:00Z",
+    "label": "Thailand: responsive address blocks 13,185 vs normal 13,225 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T09:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:10:00Z",
+    "label": "Thailand: responsive address blocks 13,163 vs normal 13,216 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T09:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:20:00Z",
+    "label": "Thailand: responsive address blocks 13,153 vs normal 13,219 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T09:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:30:00Z",
+    "label": "Thailand: responsive address blocks 13,130 vs normal 13,221.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T09:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:40:00Z",
+    "label": "Thailand: responsive address blocks 13,120 vs normal 13,224.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T09:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T09:50:00Z",
+    "label": "Thailand: responsive address blocks 13,118 vs normal 13,228 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T10:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:00:00Z",
+    "label": "Thailand: responsive address blocks 13,138 vs normal 13,219 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T10:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:10:00Z",
+    "label": "Thailand: responsive address blocks 13,149 vs normal 13,237.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T10:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:20:00Z",
+    "label": "Thailand: responsive address blocks 13,130 vs normal 13,215 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T10:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:30:00Z",
+    "label": "Thailand: responsive address blocks 13,146 vs normal 13,217.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T10:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:40:00Z",
+    "label": "Thailand: responsive address blocks 13,122 vs normal 13,216.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T10:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T10:50:00Z",
+    "label": "Thailand: responsive address blocks 13,128 vs normal 13,221 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T11:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:00:00Z",
+    "label": "Thailand: responsive address blocks 13,131 vs normal 13,226.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T11:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:10:00Z",
+    "label": "Thailand: responsive address blocks 13,142 vs normal 13,236.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T11:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:20:00Z",
+    "label": "Thailand: responsive address blocks 13,101 vs normal 13,223.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T11:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:30:00Z",
+    "label": "Thailand: responsive address blocks 13,110 vs normal 13,201.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T11:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:40:00Z",
+    "label": "Thailand: responsive address blocks 13,129 vs normal 13,214 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T11:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T11:50:00Z",
+    "label": "Thailand: responsive address blocks 13,154 vs normal 13,224 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T12:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:00:00Z",
+    "label": "Thailand: responsive address blocks 13,118 vs normal 13,201 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T12:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:10:00Z",
+    "label": "Thailand: responsive address blocks 13,111 vs normal 13,218.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T12:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:20:00Z",
+    "label": "Thailand: responsive address blocks 13,112 vs normal 13,220.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T12:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:30:00Z",
+    "label": "Thailand: responsive address blocks 13,142 vs normal 13,226 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T12:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:40:00Z",
+    "label": "Thailand: responsive address blocks 13,148 vs normal 13,218 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T12:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T12:50:00Z",
+    "label": "Thailand: responsive address blocks 13,147 vs normal 13,215.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T13:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:00:00Z",
+    "label": "Thailand: responsive address blocks 13,147 vs normal 13,222 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T13:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:10:00Z",
+    "label": "Thailand: responsive address blocks 13,117 vs normal 13,200.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T13:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:20:00Z",
+    "label": "Thailand: responsive address blocks 13,104 vs normal 13,214 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T13:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:30:00Z",
+    "label": "Thailand: responsive address blocks 13,108 vs normal 13,196.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T13:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:40:00Z",
+    "label": "Thailand: responsive address blocks 13,143 vs normal 13,189.5 (100%)",
+    "value": 100,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T13:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T13:50:00Z",
+    "label": "Thailand: responsive address blocks 13,125 vs normal 13,216 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T14:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:00:00Z",
+    "label": "Thailand: responsive address blocks 13,095 vs normal 13,208 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T14:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:10:00Z",
+    "label": "Thailand: responsive address blocks 13,095 vs normal 13,222.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T14:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:20:00Z",
+    "label": "Thailand: responsive address blocks 13,074 vs normal 13,206.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T14:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:30:00Z",
+    "label": "Thailand: responsive address blocks 13,104 vs normal 13,199 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T14:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:40:00Z",
+    "label": "Thailand: responsive address blocks 13,072 vs normal 13,196.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T14:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T14:50:00Z",
+    "label": "Thailand: responsive address blocks 13,100 vs normal 13,213.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T15:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:00:00Z",
+    "label": "Thailand: responsive address blocks 13,090 vs normal 13,190.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T15:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:10:00Z",
+    "label": "Thailand: responsive address blocks 13,099 vs normal 13,208 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T15:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:20:00Z",
+    "label": "Thailand: responsive address blocks 13,106 vs normal 13,192 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T15:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:30:00Z",
+    "label": "Thailand: responsive address blocks 13,097 vs normal 13,226.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T15:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:40:00Z",
+    "label": "Thailand: responsive address blocks 13,085 vs normal 13,239.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T15:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T15:50:00Z",
+    "label": "Thailand: responsive address blocks 13,112 vs normal 13,222 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T16:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:00:00Z",
+    "label": "Thailand: responsive address blocks 13,091 vs normal 13,192.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T16:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:10:00Z",
+    "label": "Thailand: responsive address blocks 13,093 vs normal 13,207.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T16:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:20:00Z",
+    "label": "Thailand: responsive address blocks 13,066 vs normal 13,206 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T16:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:30:00Z",
+    "label": "Thailand: responsive address blocks 13,081 vs normal 13,212 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T16:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:40:00Z",
+    "label": "Thailand: responsive address blocks 13,102 vs normal 13,208.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T16:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T16:50:00Z",
+    "label": "Thailand: responsive address blocks 13,095 vs normal 13,211 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T17:00Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:00:00Z",
+    "label": "Thailand: responsive address blocks 13,108 vs normal 13,204 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T17:10Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:10:00Z",
+    "label": "Thailand: responsive address blocks 13,116 vs normal 13,203 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T17:20Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:20:00Z",
+    "label": "Thailand: responsive address blocks 13,109 vs normal 13,205 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T17:30Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:30:00Z",
+    "label": "Thailand: responsive address blocks 13,107 vs normal 13,214 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T17:40Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:40:00Z",
+    "label": "Thailand: responsive address blocks 13,113 vs normal 13,213.5 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "ioda:TH:ping:2025-03-28T17:50Z",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2025-03-28T17:50:00Z",
+    "label": "Thailand: responsive address blocks 13,131 vs normal 13,221 (99%)",
+    "value": 99,
+    "unit": "% of normal",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/TH?from=1743141600&until=1743184800"
+  },
+  {
+    "id": "usgs:us7000pn9s",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T06:20:52Z",
+    "lon": 95.9363,
+    "lat": 22.011,
+    "label": "M7.7 earthquake, 10 km deep: 2025 Mandalay, Burma (Myanmar) Earthquake",
+    "value": 7.7,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn9s"
+  },
+  {
+    "id": "usgs:us7000pn9z",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T06:32:04Z",
+    "lon": 95.969,
+    "lat": 21.6975,
+    "label": "M6.7 earthquake, 10 km deep: Burma (Myanmar)",
+    "value": 6.7,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn9z"
+  },
+  {
+    "id": "usgs:us7000pncy",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T06:39:14Z",
+    "lon": 95.8026,
+    "lat": 19.8979,
+    "label": "M4.8 earthquake, 10 km deep: 29 km ESE of Taungdwingyi, Burma (Myanmar)",
+    "value": 4.8,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pncy"
+  },
+  {
+    "id": "usgs:us7000pncv",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T06:42:24Z",
+    "lon": 95.8747,
+    "lat": 21.8377,
+    "label": "M4.9 earthquake, 10 km deep: 11 km WSW of Sagaing, Burma (Myanmar)",
+    "value": 4.9,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pncv"
+  },
+  {
+    "id": "usgs:us7000pnb6",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T06:45:44Z",
+    "lon": 96.2075,
+    "lat": 19.1284,
+    "label": "M4.9 earthquake, 10 km deep: Burma (Myanmar)",
+    "value": 4.9,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pnb6"
+  },
+  {
+    "id": "usgs:us6000q4ji",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T06:57:53Z",
+    "lon": 96.0667,
+    "lat": 22.0976,
+    "label": "M4.5 earthquake, 10 km deep: 13 km N of Mandalay, Burma (Myanmar)",
+    "value": 4.5,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q4ji"
+  },
+  {
+    "id": "usgs:us7000pnb8",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T07:27:47Z",
+    "lon": 95.8927,
+    "lat": 22.7436,
+    "label": "M4.6 earthquake, 10 km deep: 27 km NE of Shwebo, Burma (Myanmar)",
+    "value": 4.6,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pnb8"
+  },
+  {
+    "id": "usgs:us7000pnba",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T07:36:58Z",
+    "lon": 95.8531,
+    "lat": 22.7673,
+    "label": "M4.6 earthquake, 10 km deep: Burma",
+    "value": 4.6,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pnba"
+  },
+  {
+    "id": "usgs:us7000pnbe",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T07:57:00Z",
+    "lon": 95.838,
+    "lat": 22.4361,
+    "label": "M4.5 earthquake, 10 km deep: Burma",
+    "value": 4.5,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pnbe"
+  },
+  {
+    "id": "usgs:us7000pnfz",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T09:55:32Z",
+    "lon": 96.207,
+    "lat": 19.3628,
+    "label": "M4.5 earthquake, 10 km deep: 41 km S of Pyinmana, Burma (Myanmar)",
+    "value": 4.5,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pnfz"
+  },
+  {
+    "id": "usgs:us7000pnc5",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T12:21:56Z",
+    "lon": 95.9466,
+    "lat": 22.0401,
+    "label": "M4.6 earthquake, 10 km deep: 15 km WNW of Mandalay, Burma (Myanmar)",
+    "value": 4.6,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pnc5"
+  },
+  {
+    "id": "usgs:us7000pne5",
+    "kind": "sensor",
+    "source": "usgs",
+    "t": "2025-03-28T16:46:20Z",
+    "lon": 96.0242,
+    "lat": 20.2803,
+    "label": "M4.5 earthquake, 10 km deep: 20 km SW of Yamethin, Burma (Myanmar)",
+    "value": 4.5,
+    "unit": "magnitude",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pne5"
+  }
+]

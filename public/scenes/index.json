@@ -1,5 +1,37 @@
 [
   {
+    "id": "iran-2025",
+    "title": "Iran goes dark",
+    "subtitle": "Internet signals from Iran collapse · 18 June 2025",
+    "category": "conflict",
+    "date": "2025-06-18",
+    "listed": true
+  },
+  {
+    "id": "iberia-2025",
+    "title": "The Iberian blackout",
+    "subtitle": "Spain and Portugal lose power · 28 April 2025",
+    "category": "infrastructure",
+    "date": "2025-04-28",
+    "listed": true
+  },
+  {
+    "id": "myanmar-2025",
+    "title": "The Myanmar earthquake",
+    "subtitle": "Magnitude 7.7 near Mandalay · 28 March 2025",
+    "category": "nature",
+    "date": "2025-03-28",
+    "listed": true
+  },
+  {
+    "id": "worldcup-2022",
+    "title": "The World Cup final",
+    "subtitle": "Argentina v France · Lusail, Qatar · 18 December 2022",
+    "category": "sports",
+    "date": "2022-12-18",
+    "listed": true
+  },
+  {
     "id": "sample",
     "title": "Player test scene",
     "subtitle": "Placeholder narration and fake evidence, used to develop the player. Not real data.",

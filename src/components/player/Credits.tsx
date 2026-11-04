@@ -14,7 +14,9 @@ export function Credits() {
   const night = imagery.nights.at(-1);
   const imageryCredit = [
     `NASA GIBS: VIIRS true colour ${imagery.day}`,
-    night ? `VIIRS night lights ${night}` : "Black Marble composite",
+    night
+      ? `VIIRS night lights ${night}`
+      : "Black Marble 2016 composite (a typical night, not this one)",
     "Blue Marble",
   ].join(" · ");
   const dataCredit = bundle.sources.map((s) => s.attribution).join(" · ");
@@ -23,7 +25,7 @@ export function Credits() {
     <div className="pointer-events-auto absolute inset-x-0 bottom-0 z-30 flex h-[9vh] items-end justify-center px-6 pb-2">
       <p className="max-w-5xl text-center font-mono text-[10px] leading-relaxed text-ice/40">
         Imagery: {imageryCredit}
-        {dataCredit && <> · Data: {dataCredit}</>} · Globe: CesiumJS
+        {dataCredit && <> · Data: {dataCredit}</>} · Borders: Natural Earth · Globe: CesiumJS
       </p>
     </div>
   );
