@@ -112,5 +112,244 @@
     "value": 310,
     "unit": "readers",
     "url": "https://es.wikipedia.org/wiki/Anexo%3ATrigesimoquinta_temporada_de_Dancing_with_the_Stars_(Estados_Unidos)"
+  },
+  {
+    "id": "wiki:box:1383768245:hosts",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dancing with the Stars (American TV series) season 35\" (revision of 2026-11-04 19:19 UTC): Hosts: Alfonso Ribeiro, Julianne Hough",
+    "quote": "Hosts: Alfonso Ribeiro, Julianne Hough",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dancing_with_the_Stars_(American_TV_series)_season_35&oldid=1383768245"
+  },
+  {
+    "id": "wiki:box:1383768245:judges",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dancing with the Stars (American TV series) season 35\" (revision of 2026-11-04 19:19 UTC): Judges: Derek Hough, Carrie Ann Inaba, Bruno Tonioli",
+    "quote": "Judges: Derek Hough, Carrie Ann Inaba, Bruno Tonioli",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dancing_with_the_Stars_(American_TV_series)_season_35&oldid=1383768245"
+  },
+  {
+    "id": "wiki:box:1383768245:network",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dancing with the Stars (American TV series) season 35\" (revision of 2026-11-04 19:19 UTC): Network: ABC, Disney+",
+    "quote": "Network: ABC, Disney+",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dancing_with_the_Stars_(American_TV_series)_season_35&oldid=1383768245"
+  },
+  {
+    "id": "wiki:box:1383768245:first-aired",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dancing with the Stars (American TV series) season 35\" (revision of 2026-11-04 19:19 UTC): First aired: 15 September 2026",
+    "quote": "First aired: 15 September 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dancing_with_the_Stars_(American_TV_series)_season_35&oldid=1383768245"
+  },
+  {
+    "id": "wiki:box:1383768245:episodes",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dancing with the Stars (American TV series) season 35\" (revision of 2026-11-04 19:19 UTC): Episodes: 10 (including After Party)",
+    "quote": "Episodes: 10 (including After Party)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dancing_with_the_Stars_(American_TV_series)_season_35&oldid=1383768245"
+  },
+  {
+    "id": "wd:Q169889:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"American Broadcasting Company\": headquarters New York City",
+    "url": "https://www.wikidata.org/wiki/Q169889#P159"
+  },
+  {
+    "id": "wd:Q1189327:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Derek Hough\": place of birth Salt Lake City",
+    "url": "https://www.wikidata.org/wiki/Q1189327#P19"
+  },
+  {
+    "id": "wd:Q15955943:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Amber Glenn\": place of birth Plano",
+    "url": "https://www.wikidata.org/wiki/Q15955943#P19"
+  },
+  {
+    "id": "wd:Q16200956:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Sharna Burgess\": place of birth Wagga Wagga",
+    "url": "https://www.wikidata.org/wiki/Q16200956#P19"
+  },
+  {
+    "id": "wd:Q16206289:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Witney Carson\": place of birth American Fork",
+    "url": "https://www.wikidata.org/wiki/Q16206289#P19"
+  },
+  {
+    "id": "wd:Q210120:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Julia Stiles\": place of birth New York City",
+    "url": "https://www.wikidata.org/wiki/Q210120#P19"
+  },
+  {
+    "id": "wd:Q21285529:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gleb Savchenko\": place of birth Moscow",
+    "url": "https://www.wikidata.org/wiki/Q21285529#P19"
+  },
+  {
+    "id": "wd:Q232646:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Julianne Hough\": place of birth Orem",
+    "url": "https://www.wikidata.org/wiki/Q232646#P19"
+  },
+  {
+    "id": "wd:Q232708:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jenna Dewan\": place of birth Hartford",
+    "url": "https://www.wikidata.org/wiki/Q232708#P19"
+  },
+  {
+    "id": "wd:Q23418652:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Sasha Farber\": place of birth Russia",
+    "url": "https://www.wikidata.org/wiki/Q23418652#P19"
+  },
+  {
+    "id": "wd:Q2346099:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carrie Ann Inaba\": place of birth Honolulu",
+    "url": "https://www.wikidata.org/wiki/Q2346099#P19"
+  },
+  {
+    "id": "wd:Q240541:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tatyana Ali\": place of birth North Bellmore",
+    "url": "https://www.wikidata.org/wiki/Q240541#P19"
+  },
+  {
+    "id": "wd:Q24174947:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"JoJo Siwa\": place of birth Omaha",
+    "url": "https://www.wikidata.org/wiki/Q24174947#P19"
+  },
+  {
+    "id": "wd:Q27469779:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jenna Johnson\": place of birth Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q27469779#P19"
+  },
+  {
+    "id": "wd:Q3247863:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Guillermo Rodriguez\": place of birth Zacatecas",
+    "url": "https://www.wikidata.org/wiki/Q3247863#P19"
+  },
+  {
+    "id": "wd:Q447691:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Alfonso Ribeiro\": place of birth Riverdale",
+    "url": "https://www.wikidata.org/wiki/Q447691#P19"
+  },
+  {
+    "id": "wd:Q4914:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jimmy Kimmel\": place of birth Brooklyn",
+    "url": "https://www.wikidata.org/wiki/Q4914#P19"
+  },
+  {
+    "id": "wd:Q4979416:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Bruno Tonioli\": place of birth Ferrara",
+    "url": "https://www.wikidata.org/wiki/Q4979416#P19"
+  },
+  {
+    "id": "wd:Q70163947:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tyler Cameron\": place of birth Jupiter",
+    "url": "https://www.wikidata.org/wiki/Q70163947#P19"
+  },
+  {
+    "id": "wd:Q81878423:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Maura Higgins\": place of birth County Longford",
+    "url": "https://www.wikidata.org/wiki/Q81878423#P19"
+  },
+  {
+    "id": "wd:Q95682845:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ezra Frech\": place of birth Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q95682845#P19"
   }
 ]

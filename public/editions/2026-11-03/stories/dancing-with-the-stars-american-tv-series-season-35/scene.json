@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:45Z"
+    "end": "2026-11-03T00:01:15Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -20,7 +20,29 @@
     "day": "2026-11-03",
     "nights": []
   },
-  "layers": [],
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-03T00:00:24Z",
+      "until": "2026-11-03T00:00:36Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-03T00:00:36Z",
+      "until": "2026-11-03T00:00:54Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-people.json",
+      "name": "people",
+      "from": "2026-11-03T00:00:36Z",
+      "until": "2026-11-03T00:00:54Z"
+    }
+  ],
   "camera": [
     {
       "t": "2026-11-03T00:00:00Z",
@@ -58,16 +80,70 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:26Z",
+      "t": "2026-11-03T00:00:28Z",
+      "lon": -74.00611111111111,
+      "lat": 38.51277777777778,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
+      "lon": -74.00611111111111,
+      "lat": 38.51277777777778,
+      "range": 1629969.324864735,
+      "heading": 3.8999999999999986,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:35Z",
+      "lon": -74.00611111111111,
+      "lat": 38.51277777777778,
+      "range": 1476000,
+      "heading": -8.200000000000003,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:39Z",
+      "lon": -92.39771296493558,
+      "lat": 44.872293643728455,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:46Z",
+      "lon": -92.39771296493558,
+      "lat": 44.872293643728455,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
+      "lon": -92.39771296493558,
+      "lat": 44.872293643728455,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:58Z",
       "lon": 0,
       "lat": 20,
       "range": 32000000,
       "heading": 0,
       "pitch": -85,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:29Z",
+      "t": "2026-11-03T00:01:00Z",
       "lon": 0,
       "lat": 20,
       "range": 28977232.442039732,
@@ -76,7 +152,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:32Z",
+      "t": "2026-11-03T00:01:02Z",
       "lon": 0,
       "lat": 20,
       "range": 26240000,
@@ -85,7 +161,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:35Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": 0,
       "lat": 20,
       "range": 25600000,
@@ -94,7 +170,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:01:08Z",
       "lon": 0,
       "lat": 20,
       "range": 23181785.953631785,
@@ -103,7 +179,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:41Z",
+      "t": "2026-11-03T00:01:11Z",
       "lon": 0,
       "lat": 20,
       "range": 20992000,
@@ -112,7 +188,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:45Z",
+      "t": "2026-11-03T00:01:15Z",
       "lon": -25,
       "lat": 20,
       "range": 62976000,
@@ -151,13 +227,57 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
+      "text": "On ABC and Disney+, hosted by Alfonso Ribeiro and Julianne Hough, judged by Derek Hough, Carrie Ann Inaba and Bruno Tonioli.",
+      "cites": [
+        "wiki:box:1383768245:network",
+        "wiki:box:1383768245:hosts",
+        "wiki:box:1383768245:judges"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:36Z",
+      "text": "20 of the people credited have a birthplace on record; 14 were born in the United States.",
+      "cites": [
+        "wd:Q1189327:P19",
+        "wd:Q15955943:P19",
+        "wd:Q16200956:P19",
+        "wd:Q16206289:P19",
+        "wd:Q210120:P19",
+        "wd:Q21285529:P19",
+        "wd:Q232646:P19",
+        "wd:Q232708:P19",
+        "wd:Q23418652:P19",
+        "wd:Q2346099:P19",
+        "wd:Q240541:P19",
+        "wd:Q24174947:P19",
+        "wd:Q27469779:P19",
+        "wd:Q3247863:P19",
+        "wd:Q447691:P19",
+        "wd:Q4914:P19",
+        "wd:Q4979416:P19",
+        "wd:Q70163947:P19",
+        "wd:Q81878423:P19",
+        "wd:Q95682845:P19"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:45Z",
+      "text": "Born further afield: Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia and Sasha Farber in Russia.",
+      "cites": [
+        "wd:Q16200956:P19",
+        "wd:Q21285529:P19",
+        "wd:Q23418652:P19"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:54Z",
       "text": "Readers also turned to Jenna Dewan (64,103).",
       "cites": [
         "views:en:Jenna_Dewan:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:00:33Z",
+      "t": "2026-11-03T00:01:03Z",
       "text": "135,810 people read about it on 3 November 2026: about 10× the usual.",
       "cites": [
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
@@ -173,14 +293,146 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-03T00:00:36Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-03T00:00:54Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:00:33Z",
+      "t": "2026-11-03T00:01:03Z",
       "title": "Readers"
     }
   ],
   "panels": [
+    {
+      "id": "credits",
+      "kind": "facts",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-04).",
+      "items": [
+        {
+          "label": "Hosts",
+          "text": "Alfonso Ribeiro, Julianne Hough",
+          "cites": [
+            "wiki:box:1383768245:hosts"
+          ]
+        },
+        {
+          "label": "Judges",
+          "text": "Derek Hough, Carrie Ann Inaba, Bruno Tonioli",
+          "cites": [
+            "wiki:box:1383768245:judges"
+          ]
+        },
+        {
+          "label": "Network",
+          "text": "ABC, Disney+",
+          "cites": [
+            "wiki:box:1383768245:network"
+          ]
+        },
+        {
+          "label": "First aired",
+          "text": "15 September 2026",
+          "cites": [
+            "wiki:box:1383768245:first-aired"
+          ]
+        },
+        {
+          "label": "Episodes",
+          "text": "10 (including After Party)",
+          "cites": [
+            "wiki:box:1383768245:episodes"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:36Z"
+    },
+    {
+      "id": "born-in",
+      "kind": "bars",
+      "title": "Born in",
+      "unit": "people",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "items": [
+        {
+          "label": "United States",
+          "value": 14,
+          "text": "14",
+          "color": "#ff8fd0",
+          "cites": [
+            "wd:Q1189327:P19",
+            "wd:Q15955943:P19",
+            "wd:Q16206289:P19",
+            "wd:Q210120:P19",
+            "wd:Q232646:P19",
+            "wd:Q232708:P19",
+            "wd:Q2346099:P19",
+            "wd:Q240541:P19",
+            "wd:Q24174947:P19",
+            "wd:Q27469779:P19",
+            "wd:Q447691:P19",
+            "wd:Q4914:P19",
+            "wd:Q70163947:P19",
+            "wd:Q95682845:P19"
+          ]
+        },
+        {
+          "label": "Russia",
+          "value": 2,
+          "text": "2",
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q21285529:P19",
+            "wd:Q23418652:P19"
+          ]
+        },
+        {
+          "label": "Australia",
+          "value": 1,
+          "text": "1",
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q16200956:P19"
+          ]
+        },
+        {
+          "label": "Mexico",
+          "value": 1,
+          "text": "1",
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q3247863:P19"
+          ]
+        },
+        {
+          "label": "Italy",
+          "value": 1,
+          "text": "1",
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q4979416:P19"
+          ]
+        },
+        {
+          "label": "Ireland",
+          "value": 1,
+          "text": "1",
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q81878423:P19"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:37Z",
+      "until": "2026-11-03T00:00:54Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -448,12 +700,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:34Z",
-      "until": "2026-11-03T00:00:45Z"
+      "t": "2026-11-03T00:01:04Z",
+      "until": "2026-11-03T00:01:15Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T21:44:08Z"
+    "at": "2026-11-04T22:14:19Z"
   }
 }

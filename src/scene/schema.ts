@@ -329,6 +329,11 @@ export const StormLayer = z.object({
 /** Labelled places; the primary one gets a beacon. */
 export const PlacesLayer = z.object({
   kind: z.literal("places"),
+  /** Distinguishes several layers of one kind (e.g. "filming" and "cast" places). */
+  name: z
+    .string()
+    .regex(/^[a-z0-9-]+$/)
+    .optional(),
   places: z.array(
     z.object({
       name: z.string().min(1),
@@ -345,6 +350,11 @@ export const PlacesLayer = z.object({
 /** Arcs between places, drawn as lifted great circles. */
 export const ArcsLayer = z.object({
   kind: z.literal("arcs"),
+  /** Distinguishes several layers of one kind (e.g. "filming" and "cast" places). */
+  name: z
+    .string()
+    .regex(/^[a-z0-9-]+$/)
+    .optional(),
   /** Draw the arcs one after another (a journey) instead of all at once. */
   sequence: z.boolean().optional(),
   arcs: z.array(

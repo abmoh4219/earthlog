@@ -1,6 +1,6 @@
 // The spotlight: what a story film draws on the globe to point at its subject.
 //   - the focus country's outline traced like a pen, then breathing, over a faint fill;
-//   - radar rings pulsing out from the focus point;
+//   - radar rings pulsing out from the focus point, and a radar sweep turning around it;
 //   - a faint latitude/longitude grid that fades out as the camera dives in.
 // Everything is driven by the scene clock (one clock), so it pauses and scrubs with the film.
 import type * as CesiumNS from "cesium";
@@ -80,27 +80,37 @@ export function createSpotlight(
   // 2. Radar rings around the focus point.
   const center = C.Cartographic.fromDegrees(spotlight.lon, spotlight.lat);
   const ellipsoid = C.Ellipsoid.WGS84;
-  const circle = (radius: number) => {
-    const out: CesiumNS.Cartesian3[] = [];
-    for (let k = 0; k <= 72; k++) {
-      // Destination point at `radius` metres along bearing k·5°, via a geodesic.
-      const bearing = (k / 72) * Math.PI * 2;
-      const d = radius / 6_371_000;
-      const lat1 = center.latitude;
-      const lon1 = center.longitude;
-      const lat2 = Math.asin(
-        Math.sin(lat1) * Math.cos(d) + Math.cos(lat1) * Math.sin(d) * Math.cos(bearing),
+  /** The point `radius` metres from the focus along `bearing` (radians), on a great circle. */
+  const dest = (bearing: number, radius: number, height = 4_000) => {
+    const d = radius / 6_371_000;
+    const lat1 = center.latitude;
+    const lon1 = center.longitude;
+    const lat2 = Math.asin(
+      Math.sin(lat1) * Math.cos(d) + Math.cos(lat1) * Math.sin(d) * Math.cos(bearing),
+    );
+    const lon2 =
+      lon1 +
+      Math.atan2(
+        Math.sin(bearing) * Math.sin(d) * Math.cos(lat1),
+        Math.cos(d) - Math.sin(lat1) * Math.sin(lat2),
       );
-      const lon2 =
-        lon1 +
-        Math.atan2(
-          Math.sin(bearing) * Math.sin(d) * Math.cos(lat1),
-          Math.cos(d) - Math.sin(lat1) * Math.sin(lat2),
-        );
-      out.push(ellipsoid.cartographicToCartesian(new C.Cartographic(lon2, lat2, 4_000)));
-    }
-    return out;
+    return ellipsoid.cartographicToCartesian(new C.Cartographic(lon2, lat2, height));
   };
+  const circle = (radius: number) =>
+    Array.from({ length: 73 }, (_, k) => dest((k / 72) * Math.PI * 2, radius));
+
+  // 2b. A radar sweep: a bright beam turning around the focus, trailed by fading echoes.
+  const SWEEP_MS = 5200;
+  const SWEEP_TRAIL = 10;
+  const sweep = Array.from({ length: SWEEP_TRAIL }, (_, k) =>
+    lines.add({
+      positions: [dest(0, 0, 5_000), dest(0, RING_MAX_M, 5_000)],
+      width: k === 0 ? 3 : 2,
+      material: C.Material.fromType("Color", { color: accent.withAlpha(0) }),
+      show: false,
+    }),
+  );
+  const hub = dest(0, 0, 5_000);
   const rings = [0, 1, 2].map(() =>
     lines.add({
       positions: circle(1_000),
@@ -169,6 +179,19 @@ export function createSpotlight(
         const u = (((phase % RING_PERIOD_MS) + RING_PERIOD_MS) % RING_PERIOD_MS) / RING_PERIOD_MS;
         ring.positions = circle(20_000 + u * RING_MAX_M);
         ring.material.uniforms.color = accent.withAlpha((1 - u) * 0.8, scratch);
+      });
+
+      // The sweep turns once every SWEEP_MS, echoes lagging 2.5° each.
+      sweep.forEach((beam, k) => {
+        beam.show = since > 0;
+        if (since <= 0) return;
+        const bearing = ((since / SWEEP_MS) % 1) * Math.PI * 2 - k * 0.044;
+        beam.positions = [hub, dest(bearing, RING_MAX_M, 5_000)];
+        const fadeIn = Math.min(1, since / 1200);
+        beam.material.uniforms.color = accent.withAlpha(
+          fadeIn * (k === 0 ? 0.85 : 0.32 * (1 - k / SWEEP_TRAIL)),
+          scratch,
+        );
       });
 
       // The grid is for the wide view: fade it away below ~3,000 km.

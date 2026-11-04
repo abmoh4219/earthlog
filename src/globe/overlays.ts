@@ -2,6 +2,7 @@
 // pulses. Built once with batched primitives (not thousands of Entities), then restyled
 // every frame from the player clock through the pure functions in src/scene/layers.ts.
 import type * as CesiumNS from "cesium";
+import { declutter } from "@/scene/declutter";
 import { countryName } from "@/scene/geo";
 import { heldSample, quakeLook, smoothRatio, stormAt, tintAlpha } from "@/scene/layers";
 import { categoryByKey } from "@/scene/news";
@@ -232,123 +233,169 @@ export function createOverlays(
   });
 
   // ── Story-film layers: revealed chapter by chapter (LayerRef.from/until). ──
-  const span = (kind: LayerData["kind"]) => {
-    const ref = refs.find((r) => r.kind === kind);
+  // Each layer has its own span (refs[i] belongs to layers[i]), so a film can show several
+  // sets of places or arcs, one chapter each.
+  type Span = { from: number; until: number };
+  const spanOf = (index: number): Span => {
+    const ref = refs[index];
     return {
       from: ref?.from ? ms(ref.from) : Number.NEGATIVE_INFINITY,
       until: ref?.until ? ms(ref.until) : Number.POSITIVE_INFINITY,
     };
   };
   /** 0 before the layer's reveal, easing to 1 over a second of scene time. */
-  const reveal = (kind: LayerData["kind"], t: number) => {
-    const { from, until } = span(kind);
+  const reveal = ({ from, until }: Span, t: number) => {
     if (t < from || t >= until) return 0;
     return from === Number.NEGATIVE_INFINITY ? 1 : Math.min(1, (t - from) / 1200);
   };
 
   // 7. Places: pins with names; the primary one pulses.
-  const placesLayer = layers.find((l): l is PlacesLayer => l.kind === "places");
-  const placeMarks = (placesLayer?.places ?? []).map((p) => {
-    const color = C.Color.fromCssColorString(p.color ?? ICE);
-    const position = C.Cartesian3.fromDegrees(p.lon, p.lat, 6_000);
-    const ring = p.primary
-      ? points.add({
-          position,
-          color: C.Color.TRANSPARENT,
-          outlineColor: color,
-          outlineWidth: 2,
-          show: false,
-        })
-      : undefined;
-    const dot = points.add({
-      position,
-      pixelSize: p.primary ? 13 : 9,
-      color,
-      outlineColor: C.Color.BLACK.withAlpha(0.7),
-      outlineWidth: 1.5,
-      show: false,
-    });
-    const name = labels.add({
-      position,
-      text: p.name.toUpperCase(),
-      font: `600 ${p.primary ? 14 : 12}px ${font}`,
-      fillColor: p.primary ? C.Color.WHITE : color,
-      outlineColor: C.Color.BLACK.withAlpha(0.9),
-      outlineWidth: 3,
-      style: C.LabelStyle.FILL_AND_OUTLINE,
-      verticalOrigin: C.VerticalOrigin.BOTTOM,
-      pixelOffset: new C.Cartesian2(0, -14),
-      // Secondary names fade out in wide shots, where neighbours' labels would pile up.
-      ...(p.primary ? {} : { translucencyByDistance: new C.NearFarScalar(2.5e6, 1, 6e6, 0) }),
-      show: false,
-    });
-    return { color, ring, dot, name, quiet: p.quiet === true };
-  });
+  const placeLayers = layers.flatMap((l, index) =>
+    l.kind === "places" ? [{ layer: l as PlacesLayer, span: spanOf(index) }] : [],
+  );
+  let index = 0;
+  const placeMarks = placeLayers.flatMap(({ layer, span }) =>
+    layer.places.map((p) => {
+      index++;
+      const color = C.Color.fromCssColorString(p.color ?? ICE);
+      const position = C.Cartesian3.fromDegrees(p.lon, p.lat, 6_000);
+      const ring = p.primary
+        ? points.add({
+            position,
+            color: C.Color.TRANSPARENT,
+            outlineColor: color,
+            outlineWidth: 2,
+            show: false,
+          })
+        : undefined;
+      const dot = points.add({
+        position,
+        pixelSize: p.primary ? 13 : 9,
+        color,
+        outlineColor: C.Color.BLACK.withAlpha(0.7),
+        outlineWidth: 1.5,
+        show: false,
+      });
+      const name = labels.add({
+        position,
+        text: p.name.toUpperCase(),
+        font: `600 ${p.primary ? 14 : 12}px ${font}`,
+        fillColor: p.primary ? C.Color.WHITE : color,
+        outlineColor: C.Color.BLACK.withAlpha(0.9),
+        outlineWidth: 3,
+        style: C.LabelStyle.FILL_AND_OUTLINE,
+        verticalOrigin: C.VerticalOrigin.BOTTOM,
+        pixelOffset: new C.Cartesian2(0, -14),
+        // No distance fade: labels that would pile up are decluttered on screen each frame.
+
+        show: false,
+      });
+      return {
+        color,
+        ring,
+        dot,
+        name,
+        quiet: p.quiet === true,
+        span,
+        position,
+        // Approximate label size for decluttering (uppercase Geist at 12–14 px).
+        // (Measured on screenshots: about 8.6 px a character at 12 px, plus the outline.)
+      width: p.name.length * (p.primary ? 10 : 8.8) + 14,
+        height: p.primary ? 18 : 16,
+        priority: (p.primary ? 1000 : 0) - index,
+      };
+    }),
+  );
 
   // 8. Arcs: great circles lifted off the surface, drawn in from start to end.
-  const arcsLayer = layers.find((l): l is ArcsLayer => l.kind === "arcs");
+  const arcLayers = layers.flatMap((l, index) =>
+    l.kind === "arcs" ? [{ layer: l as ArcsLayer, span: spanOf(index) }] : [],
+  );
   const arcLines = scene.primitives.add(new C.PolylineCollection());
   const ARC_STEPS = 64;
   const ARC_LEG_MS = 1400;
-  const arcs = (arcsLayer?.arcs ?? []).map((a) => {
-    const geo = new C.EllipsoidGeodesic(
-      C.Cartographic.fromDegrees(a.from[0], a.from[1]),
-      C.Cartographic.fromDegrees(a.to[0], a.to[1]),
-    );
-    const lift = Math.min(1.2e6, geo.surfaceDistance * 0.18);
-    const full = Array.from({ length: ARC_STEPS + 1 }, (_, i) => {
-      const f = i / ARC_STEPS;
-      const c = geo.interpolateUsingFraction(f);
-      return C.Cartesian3.fromRadians(
-        c.longitude,
-        c.latitude,
-        8_000 + Math.sin(Math.PI * f) * lift,
+  const arcs = arcLayers.flatMap(({ layer, span }) =>
+    layer.arcs.map((a, leg) => {
+      const geo = new C.EllipsoidGeodesic(
+        C.Cartographic.fromDegrees(a.from[0], a.from[1]),
+        C.Cartographic.fromDegrees(a.to[0], a.to[1]),
       );
-    });
-    const color = C.Color.fromCssColorString(a.color ?? ICE);
-    // A glowing beam rather than a flat line, with a bright comet riding along it.
-    const line = arcLines.add({
-      positions: full.slice(0, 2),
-      width: 7,
-      material: C.Material.fromType("PolylineGlow", {
-        color: color.withAlpha(0.9),
-        glowPower: 0.22,
-        taperPower: 1,
-      }),
-      show: false,
-    });
-    const comet = points.add({
-      position: full[0] ?? C.Cartesian3.ZERO,
-      pixelSize: 8,
-      color: C.Color.WHITE,
-      outlineColor: color.withAlpha(0.8),
-      outlineWidth: 4,
-      show: false,
-    });
-    return { full, line, comet, drawn: -1 };
-  });
-
-  // Beacons: a column of light rising from each primary place, breathing on the scene clock.
-  const beacons = scene.primitives.add(new C.PolylineCollection());
-  const beaconLines = (placesLayer?.places ?? [])
-    .filter((p) => p.primary)
-    .map((p) => {
-      const color = C.Color.fromCssColorString(p.color ?? ICE);
-      const line = beacons.add({
-        positions: [
-          C.Cartesian3.fromDegrees(p.lon, p.lat, 0),
-          C.Cartesian3.fromDegrees(p.lon, p.lat, 260_000),
-        ],
-        width: 12,
+      const lift = Math.min(1.2e6, geo.surfaceDistance * 0.18);
+      const full = Array.from({ length: ARC_STEPS + 1 }, (_, i) => {
+        const f = i / ARC_STEPS;
+        const c = geo.interpolateUsingFraction(f);
+        return C.Cartesian3.fromRadians(
+          c.longitude,
+          c.latitude,
+          8_000 + Math.sin(Math.PI * f) * lift,
+        );
+      });
+      const color = C.Color.fromCssColorString(a.color ?? ICE);
+      // A glowing beam rather than a flat line, with a bright comet riding along it.
+      const line = arcLines.add({
+        positions: full.slice(0, 2),
+        width: 7,
         material: C.Material.fromType("PolylineGlow", {
-          color: color.withAlpha(0.75),
-          glowPower: 0.3,
-          taperPower: 0.35,
+          color: color.withAlpha(0.9),
+          glowPower: 0.22,
+          taperPower: 1,
         }),
         show: false,
       });
-      return { line, color };
-    });
+      const comet = points.add({
+        position: full[0] ?? C.Cartesian3.ZERO,
+        pixelSize: 8,
+        color: C.Color.WHITE,
+        outlineColor: color.withAlpha(0.8),
+        outlineWidth: 4,
+        show: false,
+      });
+      // A ripple where the arc lands, each time the comet arrives.
+      const splash = points.add({
+        position: full[ARC_STEPS] ?? C.Cartesian3.ZERO,
+        pixelSize: 6,
+        color: C.Color.TRANSPARENT,
+        outlineColor: color.withAlpha(0),
+        outlineWidth: 2,
+        show: false,
+      });
+      return {
+        full,
+        line,
+        comet,
+        splash,
+        color,
+        drawn: -1,
+        span,
+        leg,
+        sequence: layer.sequence === true,
+      };
+    }),
+  );
+
+  // Beacons: a column of light rising from each primary place, breathing on the scene clock.
+  const beacons = scene.primitives.add(new C.PolylineCollection());
+  const beaconLines = placeLayers.flatMap(({ layer, span }) =>
+    layer.places
+      .filter((p) => p.primary)
+      .map((p) => {
+        const color = C.Color.fromCssColorString(p.color ?? ICE);
+        const line = beacons.add({
+          positions: [
+            C.Cartesian3.fromDegrees(p.lon, p.lat, 0),
+            C.Cartesian3.fromDegrees(p.lon, p.lat, 260_000),
+          ],
+          width: 12,
+          material: C.Material.fromType("PolylineGlow", {
+            color: color.withAlpha(0.75),
+            glowPower: 0.3,
+            taperPower: 0.35,
+          }),
+          show: false,
+        });
+        return { line, color, span };
+      }),
+  );
 
   // 9. Regions: one or more filled maps (e.g. Senate states, House districts), each with thin
   //    outlines, revealed and hidden by its own LayerRef, fading over a second of scene time.
@@ -456,6 +503,7 @@ export function createOverlays(
   });
 
   const scratch = new C.Color();
+  const screen = new C.Cartesian2();
   const lastText = new Map<string, string>();
 
   return {
@@ -474,10 +522,32 @@ export function createOverlays(
         }
       }
       // Story-film layers.
-      const pv = reveal("places", t);
+      // Labels that would overlap on screen give way to more important ones (dots stay).
+      const candidates = placeMarks.filter((m) => showLabels && !m.quiet && reveal(m.span, t) > 0);
+      const boxes = candidates.flatMap((m) => {
+        const p = C.SceneTransforms.worldToWindowCoordinates(scene, m.position, screen);
+        return p
+          ? [
+              {
+                m,
+                box: {
+                  x: p.x - m.width / 2,
+                  y: p.y - 14 - m.height,
+                  w: m.width,
+                  h: m.height,
+                  priority: m.priority,
+                },
+              },
+            ]
+          : [];
+      });
+      const fits = new Set(
+        declutter(boxes.map((b) => b.box)).flatMap((ok, i) => (ok ? [boxes[i]?.m] : [])),
+      );
       for (const m of placeMarks) {
+        const pv = reveal(m.span, t);
         m.dot.show = pv > 0;
-        m.name.show = pv > 0 && showLabels && !m.quiet;
+        m.name.show = pv > 0 && fits.has(m);
         if (pv > 0) m.dot.color = m.color.withAlpha(pv, m.dot.color);
         if (m.ring) {
           m.ring.show = pv > 0;
@@ -485,11 +555,12 @@ export function createOverlays(
           m.ring.outlineColor = m.color.withAlpha((1 - beat) * pv, scratch);
         }
       }
-      const av = reveal("arcs", t);
-      const sinceArcs = t - span("arcs").from;
-      arcs.forEach((a, i) => {
+      arcs.forEach((a) => {
+        const av = reveal(a.span, t);
+        const sinceArcs = t - a.span.from;
+        const i = a.leg;
         // A journey draws leg by leg (1.4 s each on the scene clock); otherwise all together.
-        const progress = arcsLayer?.sequence
+        const progress = a.sequence
           ? av > 0
             ? Math.min(1, Math.max(0, (sinceArcs - i * ARC_LEG_MS) / ARC_LEG_MS))
             : 0
@@ -507,8 +578,17 @@ export function createOverlays(
           a.comet.position =
             a.full[Math.min(ARC_STEPS, Math.round(flow * ARC_STEPS))] ?? a.comet.position;
         }
+        // The ripple: 900 ms after each arrival (first landing, then every loop of the comet).
+        const sinceLanding = progress < 1 ? -1 : (sinceArcs + i * 700) % 3200;
+        a.splash.show = sinceLanding >= 0 && sinceLanding < 900;
+        if (a.splash.show) {
+          const u = sinceLanding / 900;
+          a.splash.pixelSize = 6 + u * 46;
+          a.splash.outlineColor = a.color.withAlpha((1 - u) * 0.9 * av, scratch);
+        }
       });
       for (const b of beaconLines) {
+        const pv = reveal(b.span, t);
         b.line.show = pv > 0;
         if (pv > 0) {
           const breathe = 0.55 + 0.35 * Math.sin(((t % 2400) / 2400) * Math.PI * 2);

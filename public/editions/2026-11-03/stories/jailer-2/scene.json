@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:00Z"
+    "end": "2026-11-03T00:01:31Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -22,14 +22,43 @@
   },
   "layers": [
     {
-      "kind": "places",
-      "file": "data/places.json",
-      "from": "2026-11-03T00:00:24Z"
+      "kind": "regions",
+      "file": "data/regions.json"
     },
     {
-      "kind": "regions",
-      "file": "data/regions.json",
-      "from": "2026-11-03T00:00:24Z"
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-03T00:00:24Z",
+      "until": "2026-11-03T00:00:42Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-filming.json",
+      "name": "filming",
+      "from": "2026-11-03T00:00:42Z",
+      "until": "2026-11-03T00:01:01Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-filming.json",
+      "name": "filming",
+      "from": "2026-11-03T00:00:42Z",
+      "until": "2026-11-03T00:01:01Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-03T00:01:01Z",
+      "until": "2026-11-03T00:01:13Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-people.json",
+      "name": "people",
+      "from": "2026-11-03T00:01:01Z",
+      "until": "2026-11-03T00:01:13Z"
     }
   ],
   "camera": [
@@ -69,92 +98,119 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:26Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 3400000,
-      "heading": 12,
-      "pitch": -42,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-03T00:00:29Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 3078830.9469667217,
-      "heading": 3.0999999999999996,
-      "pitch": -39.5,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-03T00:00:31Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 2788000,
-      "heading": -5.800000000000001,
-      "pitch": -37,
-      "move": "glide"
+      "t": "2026-11-03T00:00:27Z",
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
     },
     {
       "t": "2026-11-03T00:00:34Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 3400000,
-      "heading": 20,
-      "pitch": -42,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-03T00:00:38Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 3078830.9469667217,
-      "heading": 30.5,
-      "pitch": -39.5,
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1629969.324864735,
+      "heading": 2,
+      "pitch": -37.5,
       "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:41Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 2788000,
-      "heading": 41,
-      "pitch": -37,
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1476000,
+      "heading": -12,
+      "pitch": -35,
       "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:44Z",
+      "lon": 77.13163959961564,
+      "lat": 11.409990566417665,
+      "range": 1768926.5756683727,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
+      "lon": 77.13163959961564,
+      "lat": 11.409990566417665,
+      "range": 1601831.1423763693,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:01Z",
+      "lon": 77.13163959961564,
+      "lat": 11.409990566417665,
+      "range": 1450519.7920480655,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:04Z",
+      "lon": 79.5957560456236,
+      "lat": 11.571749070872448,
+      "range": 6791576.86955041,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:08Z",
+      "lon": 79.5957560456236,
+      "lat": 11.571749070872448,
+      "range": 6150034.424904462,
+      "heading": -12.100000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:13Z",
+      "lon": 79.5957560456236,
+      "lat": 11.571749070872448,
+      "range": 5569093.033031336,
+      "heading": -24.200000000000003,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:16Z",
       "lon": 79.36,
       "lat": 20.565,
       "range": 5440000,
       "heading": -15,
       "pitch": -52,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:50Z",
+      "t": "2026-11-03T00:01:22Z",
       "lon": 79.36,
       "lat": 20.565,
       "range": 4926129.515146755,
-      "heading": -29,
+      "heading": -1,
       "pitch": -49.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:56Z",
+      "t": "2026-11-03T00:01:27Z",
       "lon": 79.36,
       "lat": 20.565,
       "range": 4460800,
-      "heading": -43,
+      "heading": 13,
       "pitch": -47,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:00Z",
+      "t": "2026-11-03T00:01:31Z",
       "lon": 54.360000000000014,
       "lat": 20.565,
       "range": 14000000,
-      "heading": -43,
+      "heading": 13,
       "pitch": -88,
       "move": "flight"
     }
@@ -188,15 +244,49 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:32Z",
-      "text": "Released: 15 October 2026. Director: Nelson Dilipkumar.",
+      "t": "2026-11-03T00:00:24Z",
+      "text": "Jailer 2 stars Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu among others; with music by Anirudh Ravichander.",
       "cites": [
-        "wd:Q133255153:P577",
-        "wd:Q133255153:P57"
+        "wiki:box:1383739722:starring",
+        "wiki:box:1383739722:music"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:33Z",
+      "text": "Released: 15 October 2026. Box office, as Wikipedia records it: ₹808 crore.",
+      "cites": [
+        "wiki:box:1383739722:released",
+        "wiki:box:1383739722:box-office"
       ]
     },
     {
       "t": "2026-11-03T00:00:42Z",
+      "text": "The article places the filming in Sathyam Cinemas, Royapettah, Attappadi, Kerala, Coimbatore, Kozhikode and 4 more places.",
+      "cites": [
+        "wiki:film:1383739722:1",
+        "wiki:film:1383739722:3",
+        "wiki:film:1383739722:4",
+        "wiki:film:1383739722:5",
+        "wiki:film:1383739722:6",
+        "wiki:film:1383739722:9"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:02Z",
+      "text": "8 of the people credited have a birthplace on record; all were born in India.",
+      "cites": [
+        "wd:Q13564588:P19",
+        "wd:Q159166:P19",
+        "wd:Q3520429:P19",
+        "wd:Q379604:P19",
+        "wd:Q4765271:P19",
+        "wd:Q60068:P19",
+        "wd:Q63698985:P19",
+        "wd:Q7387554:P19"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:14Z",
       "text": "96,128 people read about it on 3 November 2026: about 8× the usual.",
       "cites": [
         "views:en:Jailer_2:2026-11-03",
@@ -204,7 +294,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
+      "t": "2026-11-03T00:01:23Z",
       "text": "Read in 5 languages; after English, most in Tamil (210).",
       "cites": [
         "views:en:Jailer_2:2026-11-03",
@@ -226,55 +316,121 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
-      "title": "Where"
-    },
-    {
-      "t": "2026-11-03T00:00:32Z",
-      "title": "On record"
+      "title": "The credits"
     },
     {
       "t": "2026-11-03T00:00:42Z",
+      "title": "Where it was filmed"
+    },
+    {
+      "t": "2026-11-03T00:01:01Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-03T00:01:13Z",
       "title": "Readers"
     }
   ],
   "panels": [
     {
-      "id": "record",
+      "id": "credits",
       "kind": "facts",
-      "title": "On record: Jailer 3",
-      "note": "As recorded in Wikidata (CC0).",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-04).",
       "items": [
+        {
+          "label": "Directed by",
+          "text": "Nelson Dilipkumar",
+          "cites": [
+            "wiki:box:1383739722:directed-by"
+          ]
+        },
+        {
+          "label": "Starring",
+          "text": "Rajinikanth, S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and 2 more",
+          "cites": [
+            "wiki:box:1383739722:starring"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Anirudh Ravichander",
+          "cites": [
+            "wiki:box:1383739722:music"
+          ]
+        },
+        {
+          "label": "Studio",
+          "text": "Sun Pictures",
+          "cites": [
+            "wiki:box:1383739722:studio"
+          ]
+        },
         {
           "label": "Released",
           "text": "15 October 2026",
           "cites": [
-            "wd:Q133255153:P577"
+            "wiki:box:1383739722:released"
           ]
         },
         {
-          "label": "Director",
-          "text": "Nelson Dilipkumar",
+          "label": "Runtime",
+          "text": "165 minutes",
           "cites": [
-            "wd:Q133255153:P57"
+            "wiki:box:1383739722:runtime"
           ]
         },
         {
-          "label": "Genre",
-          "text": "action comedy film",
+          "label": "Language",
+          "text": "Tamil",
           "cites": [
-            "wd:Q133255153:P136"
+            "wiki:box:1383739722:language"
           ]
         },
         {
-          "label": "Country of origin",
-          "text": "India",
+          "label": "Budget",
+          "text": "₹250–350 crore",
           "cites": [
-            "wd:Q133255153:P495"
+            "wiki:box:1383739722:budget"
+          ]
+        },
+        {
+          "label": "Box office",
+          "text": "₹808 crore",
+          "cites": [
+            "wiki:box:1383739722:box-office"
           ]
         }
       ],
-      "t": "2026-11-03T00:00:33Z",
+      "t": "2026-11-03T00:00:25Z",
       "until": "2026-11-03T00:00:42Z"
+    },
+    {
+      "id": "born-in",
+      "kind": "bars",
+      "title": "Born in",
+      "unit": "people",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "items": [
+        {
+          "label": "India",
+          "value": 8,
+          "text": "8",
+          "color": "#ff8fd0",
+          "cites": [
+            "wd:Q13564588:P19",
+            "wd:Q159166:P19",
+            "wd:Q3520429:P19",
+            "wd:Q379604:P19",
+            "wd:Q4765271:P19",
+            "wd:Q60068:P19",
+            "wd:Q63698985:P19",
+            "wd:Q7387554:P19"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:01:02Z",
+      "until": "2026-11-03T00:01:13Z"
     },
     {
       "id": "readers",
@@ -414,8 +570,8 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:43Z",
-      "until": "2026-11-03T00:01:00Z"
+      "t": "2026-11-03T00:01:14Z",
+      "until": "2026-11-03T00:01:31Z"
     },
     {
       "id": "languages",
@@ -470,12 +626,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:43Z",
-      "until": "2026-11-03T00:01:00Z"
+      "t": "2026-11-03T00:01:14Z",
+      "until": "2026-11-03T00:01:31Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T21:44:08Z"
+    "at": "2026-11-04T22:14:19Z"
   }
 }

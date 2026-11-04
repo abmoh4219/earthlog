@@ -165,7 +165,10 @@ A scene is **rejected** if:
   - draws layers with primitives (points, polylines, polygons), not thousands of Entities;
   - applies the camera pose each frame;
   - in story films: a relief globe, a camera-following key light, and the **spotlight** (`src/globe/spotlight.ts`): the focus country traced in light, radar rings and a graticule, all driven by the scene clock. A DOM reticle locks onto the spotlight point;
-  - layers: places (with beacons), arcs (glowing, with comets), regions (named, timed, pulsing comparison fills) and columns (3D bars rising from the ground).
+  - layers: places (with beacons), arcs (glowing, with comets and a ripple where they land), regions (pulsing comparison fills) and columns (3D bars rising from the ground). Every kind may appear several times under a `name`, each revealed and hidden by its own chapter;
+  - place labels are decluttered on screen every frame (`src/scene/declutter.ts`, pure): primary places first, then the lens's order;
+  - the lens (`src/globe/lens.ts`): one post-process pass with tilt-shift (strength from `tiltShift(pitch, range)`), a split tone, vignette and grain;
+  - the camera pose is `cinematicPose`: the director's keyframes plus a bank into turns and a handheld drift, both on the scene clock.
 - **React UI:** landing, timeline (scrubber, markers for beats and evidence), captions (cinema mode with letterbox), evidence drawer, credits, share link (`?event=&t=`).
 
 ## 5. Director (`scripts/direct.ts`)

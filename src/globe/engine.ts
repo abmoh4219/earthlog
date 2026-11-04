@@ -6,7 +6,7 @@ import { z } from "zod";
 import type { SceneBundle } from "@/player/store";
 import { usePlayer } from "@/player/store";
 import { activeBeatIndex } from "@/scene/beats";
-import { cameraAt } from "@/scene/camera";
+import { cinematicPose, tiltShift } from "@/scene/camera";
 import { Country } from "@/scene/schema";
 import {
   BLACK_MARBLE,
@@ -18,6 +18,7 @@ import {
   VIIRS_NIGHT,
   VIIRS_TRUE_COLOR,
 } from "./gibs";
+import { createLens } from "./lens";
 import { createOverlays } from "./overlays";
 import { createSpotlight } from "./spotlight";
 
@@ -146,6 +147,11 @@ export async function createGlobe(
   eventDay.colorToAlpha = C.Color.BLACK;
   eventDay.colorToAlphaThreshold = 0.02;
 
+  // Story films go through the lens (tilt-shift, split tone, vignette, grain).
+  const lens = storyTime ? createLens(C, s) : undefined;
+  // Reduced motion: no handheld drift (the bank into turns stays; it follows the director).
+  const drift = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 1;
+
   const overlays = createOverlays(C, s, countries, bundle.layers, scene.layers);
   const spot =
     story && scene.spotlight
@@ -220,18 +226,21 @@ export async function createGlobe(
     }
 
     if (director) {
-      const pose = cameraAt(clock.t, scene.camera);
+      // Story films get the operator's touch (drift, banking); replays keep the exact pose.
+      const pose = cinematicPose(clock.t, scene.camera, storyTime ? drift : 0);
       C.Cartesian3.fromDegrees(pose.lon, pose.lat, 0, undefined, target);
       hpr.heading = pose.heading * DEG;
       hpr.pitch = pose.pitch * DEG;
       hpr.range = pose.range;
       s.camera.lookAt(target, hpr);
+      if (storyTime && pose.roll) s.camera.twistRight(pose.roll * DEG);
       directing = true;
     } else if (directing) {
       // Release the look-at frame so free navigation behaves normally.
       s.camera.lookAtTransform(C.Matrix4.IDENTITY);
       directing = false;
     }
+    lens?.update(tiltShift(s.camera.pitch / DEG, s.camera.positionCartographic.height), clock.t);
   });
 
   return {
@@ -240,6 +249,7 @@ export async function createGlobe(
       handler.destroy();
       overlays.destroy();
       spot?.destroy();
+      lens?.destroy();
       widget.destroy();
     },
   };

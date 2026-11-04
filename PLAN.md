@@ -249,13 +249,17 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 **Checkpoint 10:** `feat: sports lens and a new globe look`
 
-## Phase 11 · Culture lens (about 2 h)
+## Phase 11 · Culture lens (about 2 h) ✅
 
 - Country of origin, studio, filming locations (Wikidata).
 - Panels: release and box office as recorded, readers by language.
 - Stories: *Jailer 2*, *Dancing with the Stars*.
 
-**Checkpoint 11:** `feat: culture lens`
+**Done (2026-11-05):** The credits (director, cast, music, studio or network, hosts and judges, release, budget, box office, read from any infobox, nested ones included, and cited to the exact revision; shot over the studio's home, from Wikipedia coordinates or Wikidata headquarters) → Where it was filmed (every place the article's filming section links, in the order it tells them, drawn as a trail; each place cites its sentence) → The people (where everyone credited was born, Wikidata P19, with arcs converging on the studio and a "born in" panel by country). Wikidata had no filming locations for these stories, so the article is the source.
+
+**Globe and camera:** a lens pass on every story film (tilt-shift on low oblique shots, a teal split tone, vignette, film grain on the scene clock); the camera banks into turns and drifts like a handheld camera (off under reduced motion); a radar sweep turns around the spotlight; arcs ripple where they land; labels declutter on screen each frame instead of fading with distance; several named places and arcs layers per film, each with its own chapter; wide shots centre on the places' spherical centroid (right across the antimeridian).
+
+**Checkpoint 11:** `feat: culture lens, a camera with a lens`
 
 ## Phase 12 · Accident and disaster lenses (about 4 h)
 

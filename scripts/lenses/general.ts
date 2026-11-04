@@ -3,6 +3,7 @@
 // (related articles and places) → reported by (outlets). Specialised lenses (election,
 // person, …) replace or extend these chapters in later phases.
 import { z } from "zod";
+import { centralAngle } from "../../src/scene/camera.ts";
 import { type EditionStory, LENS_INFO } from "../../src/scene/edition.ts";
 import { countryName } from "../../src/scene/geo.ts";
 import type { Country, Evidence, LayerData, Panel, Scene, Source } from "../../src/scene/schema.ts";
@@ -591,15 +592,22 @@ function list(names: string[]): string {
 /** A shot that frames every place, or undefined for fewer than two. */
 export function wideShot(places: { lon: number; lat: number }[]): Shot | undefined {
   if (places.length < 2) return undefined;
-  const lons = places.map((p) => p.lon);
-  const lats = places.map((p) => p.lat);
-  const span = Math.max(
-    Math.max(...lons) - Math.min(...lons),
-    Math.max(...lats) - Math.min(...lats),
-  );
-  const lon = (Math.max(...lons) + Math.min(...lons)) / 2;
-  const lat = (Math.max(...lats) + Math.min(...lats)) / 2;
-  const range = Math.min(2.2e7, Math.max(1.5e6, span * 111_000 * 2.4));
+  // The spherical centroid (mean of unit vectors): right across the antimeridian, and a
+  // world-wide spread centres where most of the places are, not on a lon/lat midpoint.
+  const D = Math.PI / 180;
+  let x = 0;
+  let y = 0;
+  let z = 0;
+  for (const p of places) {
+    x += Math.cos(p.lat * D) * Math.cos(p.lon * D);
+    y += Math.cos(p.lat * D) * Math.sin(p.lon * D);
+    z += Math.sin(p.lat * D);
+  }
+  const lon = Math.atan2(y, x) / D;
+  const lat = Math.atan2(z, Math.hypot(x, y)) / D;
+  // Sized by the farthest place from the centre.
+  const reach = Math.max(...places.map((p) => centralAngle(lon, lat, p.lon, p.lat))) / D;
+  const range = Math.min(2.2e7, Math.max(1.5e6, reach * 2 * 111_000 * 2.4));
   // Centred on the places: a wide shot frames them all, above the captions.
   return { lon, lat: lat - range / 5e6, range, pitch: -55 };
 }

@@ -9,6 +9,7 @@ import { Country, Evidence, LayerData, Scene, Source } from "../src/scene/schema
 import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, writeJson } from "./bake/lib.ts";
 import { fetchPortal, parsePortal } from "./bake/wikinews.ts";
+import { cultureLens } from "./lenses/culture.ts";
 import { economyLens } from "./lenses/economy.ts";
 import { electionLens } from "./lenses/election/index.ts";
 import { layerKey } from "./lenses/film.ts";
@@ -26,7 +27,7 @@ const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
   sports: sportsLens,
   economy: economyLens,
   science: generalLens,
-  culture: generalLens,
+  culture: cultureLens,
   organization: organizationLens,
   person: personLens,
   general: generalLens,

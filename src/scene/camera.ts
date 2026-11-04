@@ -164,3 +164,45 @@ export function cameraAt(t: number, keyframes: readonly Keyframe[]): CameraPose 
   const last = keyframes[keyframes.length - 1];
   return poseOf(last ?? first);
 }
+
+export interface CinematicPose extends CameraPose {
+  /** Camera roll in degrees (positive = horizon tilts clockwise). */
+  roll: number;
+}
+
+const clamp = (x: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, x));
+
+/**
+ * The director's pose plus what a camera operator adds: a slow handheld drift (sums of
+ * sines with unrelated periods, so it never visibly repeats) and a bank into turns, from the
+ * rate the heading changes. Both are driven by scene time only (one clock): pause the film
+ * and the camera holds still. `drift` = 0 turns the drift off (reduced motion).
+ */
+export function cinematicPose(t: number, keyframes: readonly Keyframe[], drift = 1): CinematicPose {
+  const pose = cameraAt(t, keyframes);
+  const s = t / 1000;
+  const wave = (a: number, b: number, c: number) =>
+    Math.sin(s * a) * 0.6 + Math.sin(s * b + 1.3) * 0.3 + Math.sin(s * c + 4.1) * 0.1;
+  // Heading rate over ±150 ms, degrees per second; banking follows it, capped at 5°.
+  const dt = 150;
+  const rate =
+    angleDelta(cameraAt(t - dt, keyframes).heading, cameraAt(t + dt, keyframes).heading) /
+    ((2 * dt) / 1000);
+  return {
+    ...pose,
+    heading: pose.heading + drift * 0.45 * wave(0.21, 0.53, 1.37),
+    pitch: clamp(pose.pitch + drift * 0.3 * wave(0.17, 0.41, 1.13), -90, -5),
+    range: pose.range * (1 + drift * 0.006 * wave(0.11, 0.29, 0.83)),
+    roll: clamp(rate * 0.35, -5, 5) + drift * 0.25 * wave(0.13, 0.37, 0.97),
+  };
+}
+
+/**
+ * Tilt-shift strength (0..1) for the lens: low, oblique shots near the ground get a shallow
+ * depth of field (top and bottom of frame soften); wide and top-down shots stay sharp.
+ */
+export function tiltShift(pitch: number, range: number): number {
+  const oblique = clamp((pitch + 62) / 24, 0, 1); // -62° → 0, -38° → 1
+  const near = clamp((3_000_000 - range) / 2_000_000, 0, 1); // 3,000 km → 0, 1,000 km → 1
+  return oblique * near;
+}

@@ -3,9 +3,11 @@ import {
   angleDelta,
   cameraAt,
   centralAngle,
+  cinematicPose,
   easeInOutCubic,
   interpolatePose,
   slerpLonLat,
+  tiltShift,
 } from "../src/scene/camera.ts";
 import type { Keyframe } from "../src/scene/schema.ts";
 
@@ -138,5 +140,46 @@ describe("glide segments", () => {
     expect(mid.heading === 0 || Math.abs(mid.heading) < 1 || Math.abs(mid.heading - 360) < 1).toBe(
       true,
     );
+  });
+});
+
+describe("cinematicPose", () => {
+  const keys: Keyframe[] = [
+    { t: "2026-01-01T00:00:00Z", lon: 0, lat: 0, range: 1e6, heading: 0, pitch: -45 },
+    {
+      t: "2026-01-01T00:00:10Z",
+      lon: 0,
+      lat: 0,
+      range: 1e6,
+      heading: 40,
+      pitch: -45,
+      move: "glide",
+    },
+  ];
+  const t0 = Date.parse("2026-01-01T00:00:05Z");
+  it("banks into a turn and stays near the director's pose", () => {
+    const p = cinematicPose(t0, keys, 0);
+    const base = cameraAt(t0, keys);
+    expect(p.heading).toBeCloseTo(base.heading, 6);
+    expect(p.roll).toBeGreaterThan(0.5);
+    expect(p.roll).toBeLessThanOrEqual(5);
+  });
+  it("drifts only a little", () => {
+    const p = cinematicPose(t0, keys, 1);
+    const base = cameraAt(t0, keys);
+    expect(Math.abs(p.heading - base.heading)).toBeLessThan(0.5);
+    expect(Math.abs(p.pitch - base.pitch)).toBeLessThan(0.35);
+  });
+  it("is still when nothing turns and drift is off", () => {
+    const still: Keyframe[] = keys.map((k) => ({ ...k, heading: 0 }));
+    expect(cinematicPose(t0, still, 0).roll).toBeCloseTo(0, 6);
+  });
+});
+
+describe("tiltShift", () => {
+  it("softens low oblique shots only", () => {
+    expect(tiltShift(-30, 5e5)).toBe(1);
+    expect(tiltShift(-80, 5e5)).toBe(0);
+    expect(tiltShift(-30, 1.6e7)).toBe(0);
   });
 });
