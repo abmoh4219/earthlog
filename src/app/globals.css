@@ -51,3 +51,9 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* The panel stack scrolls on short screens; keep the scrollbar thin and quiet. */
+.panel-stack {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(154 217 255 / 0.25) transparent;
+}

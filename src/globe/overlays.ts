@@ -369,6 +369,7 @@ export function createOverlays(
       color: C.Color.fromCssColorString(r.color),
       opacity: r.opacity,
       rings: r.rings.length,
+      pulse: r.pulse === true,
     }));
     return [{ index, from, until, fill, outline, colors, alpha: -1 }];
   });
@@ -420,10 +421,17 @@ export function createOverlays(
             ? 1
             : Math.min(1, (t - map.from) / 1200);
         map.outline.show = rv > 0;
-        if (!map.fill.ready || rv === map.alpha) continue;
+        if (!map.fill.ready) continue;
+        // Pulsing regions breathe on the scene clock (1.6 s per breath in story time), so
+        // they freeze when paused like everything else (one clock).
+        const breath = 0.72 + 0.28 * Math.cos(((t % 1600) / 1600) * Math.PI * 2);
+        const pulsing = rv > 0 && map.colors.some((r) => r.pulse);
+        if (rv === map.alpha && !pulsing) continue;
         for (const r of map.colors) {
+          if (rv === map.alpha && !r.pulse) continue;
+          const alpha = r.opacity * rv * (r.pulse ? breath + 0.15 : 1);
           const value = C.ColorGeometryInstanceAttribute.toValue(
-            C.Color.clone(r.color, scratch).withAlpha(r.opacity * rv, scratch),
+            C.Color.clone(r.color, scratch).withAlpha(Math.min(1, alpha), scratch),
           );
           for (let i = 0; i < r.rings; i++) {
             const attrs = map.fill.getGeometryInstanceAttributes(

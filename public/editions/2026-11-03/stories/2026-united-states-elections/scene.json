@@ -22,10 +22,6 @@
   },
   "layers": [
     {
-      "kind": "places",
-      "file": "data/places.json"
-    },
-    {
       "kind": "regions",
       "file": "data/regions-senate.json",
       "name": "senate",
@@ -478,10 +474,11 @@
     },
     {
       "id": "house-seats",
-      "kind": "bars",
-      "title": "House seats",
-      "unit": "seats",
-      "note": "218 for a majority. Infobox as of 9:15 AM, November 4, 2026; called or projected, not certified.",
+      "kind": "seats",
+      "title": "The new House",
+      "total": 435,
+      "majority": 218,
+      "note": "One dot per seat. Infobox as of 9:15 AM, November 4, 2026; called or projected, not certified.",
       "items": [
         {
           "label": "Democratic",
@@ -949,6 +946,6 @@
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T18:36:14Z"
+    "at": "2026-11-04T19:04:16Z"
   }
 }

@@ -4,6 +4,7 @@ import { ExternalLink } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useMemo } from "react";
 import { usePlayer } from "@/player/store";
+import { parliamentSeats } from "@/scene/charts";
 import type { Evidence, Panel } from "@/scene/schema";
 import { ms } from "@/scene/schema";
 
@@ -24,7 +25,9 @@ export function Panels() {
   const panels = (bundle?.scene.panels ?? []).filter((p) => visible.split("|").includes(p.id));
 
   return (
-    <div className="pointer-events-none absolute top-[calc(9vh+8.5rem)] right-6 bottom-[calc(9vh+6rem)] z-20 hidden w-[340px] flex-col gap-3 overflow-hidden md:flex">
+    <div
+      className={`panel-stack ${panels.length ? "pointer-events-auto" : "pointer-events-none"} absolute top-[calc(9vh+7rem)] right-4 bottom-[calc(9vh+5.25rem)] z-20 hidden w-[min(340px,30vw)] flex-col gap-2.5 overflow-y-auto pr-1 md:flex lg:right-6`}
+    >
       <AnimatePresence mode="popLayout">
         {panels.map((p) => (
           <motion.section
@@ -34,14 +37,14 @@ export function Panels() {
             animate={{ opacity: 1, x: 0, filter: "blur(0px)" }}
             exit={{ opacity: 0, x: 18, filter: "blur(4px)" }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-            className="glass pointer-events-auto rounded-2xl p-4"
+            className="glass shrink-0 rounded-2xl p-4 [@media(max-height:820px)]:p-3"
           >
             <h2 className="font-mono text-[10px] tracking-[0.28em] text-ice/60 uppercase">
               {p.title}
             </h2>
             <PanelBody panel={p} evidence={evidence} />
             {p.note && (
-              <p className="mt-3 border-t border-ice/10 pt-2 text-[10px] leading-snug text-ice/45">
+              <p className="mt-3 border-t border-ice/10 pt-2 text-[10px] leading-snug text-ice/45 [@media(max-height:820px)]:mt-2">
                 {p.note}
               </p>
             )}
@@ -74,10 +77,10 @@ function PanelBody({ panel, evidence }: { panel: Panel; evidence: Map<string, Ev
             initial={{ opacity: 0, y: 6 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 + i * 0.12, duration: 0.4 }}
-            className="flex items-baseline justify-between gap-4"
+            className="grid grid-cols-[minmax(0,2fr)_minmax(0,3fr)] items-baseline gap-x-3"
           >
-            <dt className="shrink-0 text-xs text-ice/55">{item.label}</dt>
-            <dd className="text-right text-sm text-frost">
+            <dt className="text-xs break-words text-ice/55">{item.label}</dt>
+            <dd className="text-right text-sm break-words text-frost [@media(max-height:820px)]:text-xs">
               {item.url ? (
                 <a
                   href={item.url}
@@ -99,15 +102,31 @@ function PanelBody({ panel, evidence }: { panel: Panel; evidence: Map<string, Ev
     );
   }
 
+  if (panel.kind === "seats") return <Parliament panel={panel} evidence={evidence} />;
+
   if (panel.kind === "bars") {
-    const max = Math.max(...panel.items.map((i) => i.value), 1);
+    const max = Math.max(...panel.items.map((i) => i.value), panel.marker?.value ?? 0, 1);
+    const markerAt = panel.marker ? (panel.marker.value / max) * 100 : undefined;
     return (
-      <ul className="mt-3 space-y-2">
+      <ul className="relative mt-3 space-y-2">
+        {markerAt !== undefined && panel.marker && (
+          <li
+            aria-hidden
+            className="pointer-events-none absolute -top-1 bottom-0 z-10 w-px bg-frost/60"
+            style={{ left: `${markerAt}%` }}
+          >
+            <span className="absolute -top-3 -translate-x-1/2 font-mono text-[9px] whitespace-nowrap text-frost/70">
+              {panel.marker.label}
+            </span>
+          </li>
+        )}
         {panel.items.map((item, i) => (
           <li key={`${item.label}:${item.cites.join(",")}`}>
-            <div className="flex items-baseline justify-between text-xs">
-              <span className="text-frost/85">{item.label}</span>
-              <span className="font-mono text-frost tabular-nums">
+            <div className="flex items-baseline justify-between gap-2 text-xs">
+              <span className="min-w-0 truncate text-frost/85" title={item.label}>
+                {item.label}
+              </span>
+              <span className="shrink-0 font-mono text-frost tabular-nums">
                 {item.text ?? item.value.toLocaleString("en-GB")}
                 <Chip ids={item.cites} evidence={evidence} />
               </span>
@@ -222,6 +241,99 @@ function LineChart({
             />
             <span className="truncate">{s.label}</span>
             <Chip ids={s.cites} evidence={evidence} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/**
+ * A parliament as a half circle of seats, filled left to right in party order. Row lengths
+ * grow with the radius so the dots stay evenly spaced (the usual parliament diagram).
+ */
+function Parliament({
+  panel,
+  evidence,
+}: {
+  panel: Extract<Panel, { kind: "seats" }>;
+  evidence: Map<string, Evidence>;
+}) {
+  const seats = useMemo(() => parliamentSeats(panel.total), [panel.total]);
+  const colors: string[] = [];
+  for (const item of panel.items)
+    for (let k = 0; k < item.value; k++) colors.push(item.color ?? "var(--color-ice)");
+  const Wd = 300;
+  const Hd = 156;
+  return (
+    <div className="mt-3">
+      <svg viewBox={`0 0 ${Wd} ${Hd}`} className="w-full" role="img" aria-label={panel.title}>
+        <motion.g
+          initial={{ opacity: 0, scale: 0.92 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          style={{ transformOrigin: "50% 100%" }}
+        >
+          {seats.dots.map((d, i) => (
+            <circle
+              // biome-ignore lint/suspicious/noArrayIndexKey: seats are positional and fixed for a panel
+              key={i}
+              cx={Wd / 2 + d.x * (Wd / 2 - 6)}
+              cy={Hd - 4 - d.y * (Hd - 10)}
+              r={seats.r * (Wd / 2 - 6)}
+              fill={colors[i] ?? "rgb(154 217 255 / 0.12)"}
+            />
+          ))}
+        </motion.g>
+        {panel.majority && (
+          <g>
+            <line
+              x1={Wd / 2}
+              x2={Wd / 2}
+              y1={Hd - 4 - 1.04 * (Hd - 10)}
+              y2={Hd - 4 - 0.36 * (Hd - 10)}
+              stroke="rgb(232 246 255 / 0.55)"
+              strokeDasharray="2 3"
+            />
+            {/* In the arc's hollow centre: the number big, the meaning small. */}
+            <text
+              x={Wd / 2}
+              y={Hd - 20}
+              textAnchor="middle"
+              className="fill-frost font-mono text-[18px]"
+            >
+              {panel.majority}
+            </text>
+            <text
+              x={Wd / 2}
+              y={Hd - 6}
+              textAnchor="middle"
+              className="fill-ice/60 font-mono text-[8px] tracking-wider uppercase"
+            >
+              for a majority
+            </text>
+          </g>
+        )}
+      </svg>
+      <ul
+        className={`mt-2 grid gap-x-3 gap-y-1 ${panel.items.length > 4 ? "grid-cols-2" : "grid-cols-1"}`}
+      >
+        {panel.items.map((item) => (
+          <li
+            key={`${item.label}:${item.cites.join(",")}`}
+            className="flex min-w-0 items-center gap-1.5 text-[11px] text-frost/85"
+          >
+            <span
+              className="size-2 shrink-0 rounded-full"
+              style={{ background: item.color ?? "var(--color-ice)" }}
+            />
+            <span className="min-w-0 truncate" title={item.label}>
+              {item.label}
+            </span>
+            <span className="ml-auto shrink-0 font-mono tabular-nums">
+              {item.text ?? item.value}
+            </span>
+            <Chip ids={item.cites} evidence={evidence} />
           </li>
         ))}
       </ul>

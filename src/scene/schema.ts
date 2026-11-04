@@ -95,6 +95,16 @@ export const Panel = z.discriminatedUnion("kind", [
     kind: z.literal("bars"),
     unit: z.string(),
     items: z.array(PanelItem.extend({ value: z.number() })).min(1),
+    /** A reference line across the bars, e.g. the majority threshold. */
+    marker: z.object({ value: z.number(), label: z.string() }).optional(),
+  }),
+  /** A parliament: one dot per seat in a half circle, coloured by party (left to right). */
+  z.object({
+    ...PanelBase,
+    kind: z.literal("seats"),
+    total: z.number().int().positive(),
+    majority: z.number().int().positive().optional(),
+    items: z.array(PanelItem.extend({ value: z.number().int().nonnegative() })).min(1),
   }),
   z.object({
     ...PanelBase,
@@ -343,6 +353,8 @@ export const RegionsLayer = z.object({
       opacity: z.number().min(0).max(1).default(0.45),
       /** Hatched (striped) fill, e.g. for "not yet called". */
       hatched: z.boolean().optional(),
+      /** Gently pulse, to draw the eye (e.g. a seat that changed party). */
+      pulse: z.boolean().optional(),
     }),
   ),
   legend: z.array(z.object({ label: z.string(), color: z.string() })).default([]),

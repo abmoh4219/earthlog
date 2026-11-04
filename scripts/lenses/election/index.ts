@@ -182,9 +182,12 @@ export async function electionLens(ctx: LensContext): Promise<LensResult> {
     shape: ({ chapters, layers, add, home }) => {
       // An election is explained by its results, not by "where" and Wikidata trivia.
       const keep = chapters.filter((c) => c.title !== "Where" && c.title !== "On record");
-      // The general lens tints the country in the lens colour; elections use party colours.
-      for (let i = layers.length - 1; i >= 0; i--)
-        if (layers[i]?.kind === "regions") layers.splice(i, 1);
+      // The general lens tints the country in the lens colour and pins its place; an election
+      // map uses party colours and needs no pin.
+      for (let i = layers.length - 1; i >= 0; i--) {
+        const kind = layers[i]?.kind;
+        if (kind === "regions" || kind === "places" || kind === "arcs") layers.splice(i, 1);
+      }
 
       const cite = (a: Article, key: string, label: string) =>
         add({
@@ -280,6 +283,7 @@ function stateMapChapter(
           rings,
           color: r.winner ? colorOf[r.winner] : UNCALLED,
           opacity: r.winner ? (r.flip ? 0.78 : 0.5) : 0.3,
+          ...(r.flip ? { pulse: true } : {}),
         },
       ];
     }),
@@ -375,6 +379,7 @@ function houseChapter(
           rings,
           color: r.winner ? colorOf[r.winner] : UNCALLED,
           opacity: r.winner ? (r.flip ? 0.8 : 0.48) : 0.28,
+          ...(r.flip ? { pulse: true } : {}),
         },
       ];
     }),
@@ -405,10 +410,11 @@ function houseChapter(
     });
     panels.push({
       id: "house-seats",
-      kind: "bars",
-      title: "House seats",
-      unit: "seats",
-      note: `${box?.majority ?? 218} for a majority. Infobox as of ${box?.lastUpdate ?? a.timestamp}; called or projected, not certified.`,
+      kind: "seats",
+      title: "The new House",
+      total,
+      majority: box?.majority ?? 218,
+      note: `One dot per seat. Infobox as of ${box?.lastUpdate ?? a.timestamp}; called or projected, not certified.`,
       items: [
         {
           label: "Democratic",
@@ -522,7 +528,26 @@ function resultChapter(
 
   const panels: PanelDraft[] = [];
   const top = ranked.slice(0, 6); // two panels must fit on screen
-  if (bySeats) {
+  const seated = ranked.filter((p) => (p.seats ?? 0) > 0);
+  const seatSum = seated.reduce((n, p) => n + (p.seats ?? 0), 0);
+  const total = num(box.seatsForElection) ?? seatSum;
+  if (bySeats && seated.length && total >= seatSum) {
+    // A parliament chart of every party with seats; the vote-share bars follow.
+    panels.push({
+      id: "parliament",
+      kind: "seats",
+      title: "The new parliament",
+      total,
+      ...(box.majority ? { majority: box.majority } : {}),
+      note: `One dot per seat; parties ordered by size, not by political position.${box.lastUpdate ? ` As recorded by Wikipedia (${box.lastUpdate}).` : ""}`,
+      items: seated.map((p) => ({
+        label: p.name,
+        value: p.seats ?? 0,
+        color: colorFor(p),
+        cites: [ids.get(p.n) ?? summaryId],
+      })),
+    });
+  } else if (bySeats) {
     panels.push({
       id: "seats",
       kind: "bars",
