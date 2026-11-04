@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:10Z"
+    "end": "2026-11-03T00:01:25Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -24,12 +24,12 @@
     {
       "kind": "places",
       "file": "data/places.json",
-      "from": "2026-11-03T00:00:09Z"
+      "from": "2026-11-03T00:00:24Z"
     },
     {
       "kind": "arcs",
       "file": "data/arcs.json",
-      "from": "2026-11-03T00:00:17Z"
+      "from": "2026-11-03T00:00:32Z"
     }
   ],
   "camera": [
@@ -45,52 +45,36 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": -118.24368,
       "lat": 33.48973,
-      "range": 3960000.0000000005,
+      "range": 3600000,
       "heading": 0,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:08Z",
+      "t": "2026-11-03T00:00:23Z",
       "lon": -118.24368,
       "lat": 33.48973,
-      "range": 4237200.000000001,
+      "range": 3852000,
       "heading": 6,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:11Z",
+      "t": "2026-11-03T00:00:26Z",
       "lon": -1.6888,
       "lat": 53.2807,
       "range": 1300000,
       "heading": 0,
       "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:16Z",
-      "lon": -1.6888,
-      "lat": 53.2807,
-      "range": 1391000,
-      "heading": 6,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:19Z",
-      "lon": -59.74934,
-      "lat": 41.42490805555556,
-      "range": 22000000,
-      "heading": 0,
-      "pitch": -68
-    },
-    {
-      "t": "2026-11-03T00:00:28Z",
-      "lon": -59.74934,
-      "lat": 41.42490805555556,
-      "range": 23540000,
-      "heading": 6,
-      "pitch": -68
     },
     {
       "t": "2026-11-03T00:00:31Z",
+      "lon": -1.6888,
+      "lat": 53.2807,
+      "range": 1391000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:34Z",
       "lon": -59.74934,
       "lat": 41.42490805555556,
       "range": 22000000,
@@ -98,7 +82,7 @@
       "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:43Z",
       "lon": -59.74934,
       "lat": 41.42490805555556,
       "range": 23540000,
@@ -106,7 +90,23 @@
       "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:45Z",
+      "t": "2026-11-03T00:00:46Z",
+      "lon": -59.74934,
+      "lat": 41.42490805555556,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:57Z",
+      "lon": -59.74934,
+      "lat": 41.42490805555556,
+      "range": 23540000,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:01:00Z",
       "lon": -118.24368,
       "lat": 33.65223,
       "range": 1300000,
@@ -114,7 +114,7 @@
       "pitch": -50
     },
     {
-      "t": "2026-11-03T00:00:50Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": -118.24368,
       "lat": 33.65223,
       "range": 1391000,
@@ -122,7 +122,23 @@
       "pitch": -50
     },
     {
-      "t": "2026-11-03T00:00:53Z",
+      "t": "2026-11-03T00:01:08Z",
+      "lon": -59.96624,
+      "lat": 41.42202055555556,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:01:14Z",
+      "lon": -59.96624,
+      "lat": 41.42202055555556,
+      "range": 23540000,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:01:17Z",
       "lon": -118.24368,
       "lat": 33.48973,
       "range": 2700000,
@@ -130,28 +146,12 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:01:01Z",
+      "t": "2026-11-03T00:01:25Z",
       "lon": -118.24368,
       "lat": 33.48973,
       "range": 2889000,
       "heading": 6,
       "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:01:04Z",
-      "lon": -59.96624,
-      "lat": 41.42202055555556,
-      "range": 22000000,
-      "heading": 0,
-      "pitch": -68
-    },
-    {
-      "t": "2026-11-03T00:01:10Z",
-      "lon": -59.96624,
-      "lat": 41.42202055555556,
-      "range": 23540000,
-      "heading": 6,
-      "pitch": -68
     }
   ],
   "pacing": [
@@ -163,13 +163,27 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "text": "Sir Patrick Stewart was an English actor. With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award…",
+      "text": "Stewart died at his home in Los Angeles on 28 October 2026, aged 86.",
       "cites": [
-        "wiki:article:Patrick_Stewart"
+        "wiki:rev:1383723113:237"
       ]
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:08Z",
+      "text": "With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award…",
+      "cites": [
+        "wiki:rev:1383723113:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "text": "Sir Patrick Stewart (13 July 1940 – 28 October 2026) was an English actor.",
+      "cites": [
+        "wiki:rev:1383723113:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
       "text": "Patrick Stewart was born on 13 July 1940 in Mirfield.",
       "cites": [
         "wd:Q16296:P569",
@@ -177,7 +191,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:17Z",
+      "t": "2026-11-03T00:00:32Z",
       "text": "Educated at Bristol Old Vic Theatre School, Crowlees Junior and Infant School and The Mirfield Free Grammar.",
       "cites": [
         "wd:Q16296:P69:Q608723",
@@ -186,7 +200,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:23Z",
+      "t": "2026-11-03T00:00:38Z",
       "text": "Worked with University of Oxford and University of Huddersfield.",
       "cites": [
         "wd:Q16296:P108:Q34433",
@@ -194,7 +208,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:29Z",
+      "t": "2026-11-03T00:00:44Z",
       "text": "8 awards on record, including Laurence Olivier Award for Best Actor in a Supporting Role (2009) and honorary doctorate of the Vrije Universiteit Brussel (2015).",
       "cites": [
         "wd:Q16296:P166:Q6500772",
@@ -202,7 +216,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:36Z",
+      "t": "2026-11-03T00:00:51Z",
       "text": "Known for X-Men and Star Trek: The Next Generation.",
       "cites": [
         "wd:Q16296:P800:Q2006869",
@@ -210,7 +224,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:43Z",
+      "t": "2026-11-03T00:00:58Z",
       "text": "Patrick Stewart died on 28 October 2026 in Los Angeles, aged 86.",
       "cites": [
         "wd:Q16296:P570",
@@ -219,7 +233,7 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
+      "t": "2026-11-03T00:01:15Z",
       "text": "82,458 people read about it on 3 November 2026: about 21× the usual.",
       "cites": [
         "views:en:Patrick_Stewart:2026-11-03",
@@ -231,31 +245,31 @@
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "title": "The story"
+      "title": "What happened"
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:24Z",
       "title": "Born"
     },
     {
-      "t": "2026-11-03T00:00:17Z",
+      "t": "2026-11-03T00:00:32Z",
       "title": "A life across the globe"
     },
     {
-      "t": "2026-11-03T00:00:28Z",
+      "t": "2026-11-03T00:00:43Z",
       "title": "Recognition"
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:57Z",
       "title": "In memory"
     },
     {
-      "t": "2026-11-03T00:00:50Z",
-      "title": "Readers"
+      "t": "2026-11-03T00:01:05Z",
+      "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:01:01Z",
-      "title": "Connected"
+      "t": "2026-11-03T00:01:14Z",
+      "title": "Readers"
     }
   ],
   "panels": [
@@ -315,8 +329,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:18Z",
-      "until": "2026-11-03T00:00:28Z"
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:43Z"
     },
     {
       "id": "recognition",
@@ -381,8 +395,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:29Z",
-      "until": "2026-11-03T00:00:42Z"
+      "t": "2026-11-03T00:00:44Z",
+      "until": "2026-11-03T00:00:57Z"
     },
     {
       "id": "readers",
@@ -522,12 +536,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:51Z",
-      "until": "2026-11-03T00:01:01Z"
+      "t": "2026-11-03T00:01:15Z",
+      "until": "2026-11-03T00:01:25Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:22:08Z"
+    "at": "2026-11-04T19:45:53Z"
   }
 }

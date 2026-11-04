@@ -246,7 +246,7 @@ export async function electionLens(ctx: LensContext): Promise<LensResult> {
         const mine = c.reveal?.find((k) => k.startsWith("regions-"));
         if (next && mine) inserts[i + 1] = { ...(inserts[i + 1] as ChapterDraft), hide: [mine] };
       });
-      const after = keep.findIndex((c) => c.title === "The story") + 1;
+      const after = keep.findIndex((c) => c.title === "What happened") + 1;
       keep.splice(after, 0, ...inserts);
       chapters.splice(0, chapters.length, ...keep);
     },

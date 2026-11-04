@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:38Z"
+    "end": "2026-11-03T00:00:53Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -24,12 +24,12 @@
     {
       "kind": "places",
       "file": "data/places.json",
-      "from": "2026-11-03T00:00:09Z"
+      "from": "2026-11-03T00:00:24Z"
     },
     {
       "kind": "regions",
       "file": "data/regions.json",
-      "from": "2026-11-03T00:00:09Z"
+      "from": "2026-11-03T00:00:24Z"
     }
   ],
   "camera": [
@@ -45,20 +45,20 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": 79.36,
       "lat": 21.3775,
-      "range": 9240000,
+      "range": 8400000,
       "heading": 0,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:08Z",
+      "t": "2026-11-03T00:00:23Z",
       "lon": 79.36,
       "lat": 21.3775,
-      "range": 9886800,
+      "range": 8988000,
       "heading": 6,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:11Z",
+      "t": "2026-11-03T00:00:26Z",
       "lon": 79.36,
       "lat": 21.3775,
       "range": 4200000,
@@ -66,7 +66,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:16Z",
+      "t": "2026-11-03T00:00:31Z",
       "lon": 79.36,
       "lat": 21.3775,
       "range": 4494000,
@@ -74,23 +74,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:19Z",
-      "lon": 79.36,
-      "lat": 21.3775,
-      "range": 6300000,
-      "heading": 0,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:00:27Z",
-      "lon": 79.36,
-      "lat": 21.3775,
-      "range": 6741000,
-      "heading": 6,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:00:30Z",
+      "t": "2026-11-03T00:00:34Z",
       "lon": 79.36,
       "lat": 21.3775,
       "range": 4200000,
@@ -98,7 +82,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:37Z",
+      "t": "2026-11-03T00:00:41Z",
       "lon": 79.36,
       "lat": 21.3775,
       "range": 4494000,
@@ -106,11 +90,27 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:00:44Z",
       "lon": 79.36,
       "lat": 21.3775,
-      "range": 7190400,
-      "heading": 26,
+      "range": 6300000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:52Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 6741000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:53Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 10785600,
+      "heading": 6,
       "pitch": -80
     }
   ],
@@ -123,25 +123,39 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash…",
+      "text": "On 3 November, special media screening took place across Mumbai.",
       "cites": [
-        "wiki:article:Ramayana:_Part_1"
+        "wiki:rev:1383769437:109"
       ]
     },
     {
-      "t": "2026-11-03T00:00:17Z",
-      "text": "72,890 people read about it on 3 November 2026: about 10× the usual.",
+      "t": "2026-11-03T00:00:08Z",
+      "text": "The film crossed a further milestone on 3 November.",
       "cites": [
-        "views:en:Ramayana:_Part_1:2026-11-03",
-        "views:en:Ramayana:_Part_1:prior"
+        "wiki:rev:1383769437:156"
       ]
     },
     {
-      "t": "2026-11-03T00:00:28Z",
+      "t": "2026-11-03T00:00:16Z",
+      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan.",
+      "cites": [
+        "wiki:rev:1383769437:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
       "text": "Released: 8 November 2026. Director: Nitesh Tiwari.",
       "cites": [
         "wd:Q135196186:P577",
         "wd:Q135196186:P57"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:42Z",
+      "text": "72,890 people read about it on 3 November 2026: about 10× the usual.",
+      "cites": [
+        "views:en:Ramayana:_Part_1:2026-11-03",
+        "views:en:Ramayana:_Part_1:prior"
       ]
     }
   ],
@@ -149,22 +163,60 @@
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "title": "The story"
+      "title": "What happened"
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:24Z",
       "title": "Where"
     },
     {
-      "t": "2026-11-03T00:00:17Z",
-      "title": "Readers"
+      "t": "2026-11-03T00:00:32Z",
+      "title": "On record"
     },
     {
-      "t": "2026-11-03T00:00:28Z",
-      "title": "On record"
+      "t": "2026-11-03T00:00:42Z",
+      "title": "Readers"
     }
   ],
   "panels": [
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Ramayana: Rise of a Legend",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Released",
+          "text": "8 November 2026",
+          "cites": [
+            "wd:Q135196186:P577"
+          ]
+        },
+        {
+          "label": "Director",
+          "text": "Nitesh Tiwari",
+          "cites": [
+            "wd:Q135196186:P57"
+          ]
+        },
+        {
+          "label": "Genre",
+          "text": "epic film",
+          "cites": [
+            "wd:Q135196186:P136"
+          ]
+        },
+        {
+          "label": "Country of origin",
+          "text": "India",
+          "cites": [
+            "wd:Q135196186:P495"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:42Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -303,50 +355,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:18Z",
-      "until": "2026-11-03T00:00:28Z"
-    },
-    {
-      "id": "record",
-      "kind": "facts",
-      "title": "On record: Ramayana: Rise of a Legend",
-      "note": "As recorded in Wikidata (CC0).",
-      "items": [
-        {
-          "label": "Released",
-          "text": "8 November 2026",
-          "cites": [
-            "wd:Q135196186:P577"
-          ]
-        },
-        {
-          "label": "Director",
-          "text": "Nitesh Tiwari",
-          "cites": [
-            "wd:Q135196186:P57"
-          ]
-        },
-        {
-          "label": "Genre",
-          "text": "epic film",
-          "cites": [
-            "wd:Q135196186:P136"
-          ]
-        },
-        {
-          "label": "Country of origin",
-          "text": "India",
-          "cites": [
-            "wd:Q135196186:P495"
-          ]
-        }
-      ],
-      "t": "2026-11-03T00:00:29Z",
-      "until": "2026-11-03T00:00:38Z"
+      "t": "2026-11-03T00:00:43Z",
+      "until": "2026-11-03T00:00:53Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:22:08Z"
+    "at": "2026-11-04T19:45:53Z"
   }
 }

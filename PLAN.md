@@ -207,6 +207,10 @@
 
 **Checkpoint 7:** `feat: person lens`
 
+## Phase 7½ · Narration that tells the news (done 2026-11-04) ✅
+
+Abdelah: films said *what* something is, not *why* it was in the news, and jumped to reader counts. Every film now opens with **What happened**: the reported news, or what the article says happened around the day (dated or newly added sentences, compared across revisions), in time order, then who or what it is. Readers moved to the end; the edition page shows each story's headline.
+
 ## Phase 8 · Organization and tech lens (about 3 h)
 
 - Fly to the headquarters (Wikidata P159 → P625); arcs to the places the story names.

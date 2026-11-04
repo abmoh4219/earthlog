@@ -396,7 +396,7 @@ export async function personLens(ctx: LensContext): Promise<LensResult> {
         });
       }
 
-      const after = keep.findIndex((c) => c.title === "The story") + 1;
+      const after = keep.findIndex((c) => c.title === "What happened") + 1;
       keep.splice(after, 0, ...inserts);
       chapters.splice(0, chapters.length, ...keep);
     },

@@ -5,10 +5,12 @@
   "candidates": 34,
   "stories": [
     {
+      "slug": "jesus-de-miguel",
       "lens": "person",
       "title": "Jesús de Miguel",
       "summary": "In association football, CD Tenerife striker Jesús de Miguel dies following an in-game collision with FC Andorra goalkeeper Jesús Owono the previous day.",
       "about": "Jesús de Miguel Alameda was a Spanish professional footballer who played as a striker.",
+      "headline": "In association football, CD Tenerife striker Jesús de Miguel dies following an in-game collision with FC Andorra goalkeeper Jesús Owono the previous day.",
       "article": {
         "title": "Jesús de Miguel",
         "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
@@ -23,6 +25,7 @@
         "evidence": "wd:Q116992476:P20"
       },
       "continent": "Europe",
+      "heat": 100,
       "readers": 953601,
       "spike": 146265,
       "sources": 1,
@@ -39,15 +42,15 @@
         "views:en:CD_Tenerife:2026-11-03",
         "views:en:CD_Tenerife:prior",
         "wd:Q116992476:P31"
-      ],
-      "slug": "jesus-de-miguel",
-      "heat": 100
+      ]
     },
     {
+      "slug": "2026-united-states-elections",
       "lens": "election",
       "title": "2026 United States elections",
       "summary": "The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives, 35 members of the Senate (including special elections in Florida and Ohio), 39 state and territorial governors, and numerous other state, territorial, tribal, and local officials.",
       "about": "Elections were held in the United States on November 3, 2026. In these midterm elections, which occurred during the second term of Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S. gubernatorial elections, attorney general elections, and numerous state and local elections were also contested.",
+      "headline": "The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives, 35 members of the Senate (including special elections in Florida and Ohio)…",
       "article": {
         "title": "2026 United States elections",
         "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
@@ -62,6 +65,7 @@
         "evidence": "wiki:2026-11-03:10"
       },
       "continent": "North America",
+      "heat": 90,
       "readers": 1049620,
       "spike": 18.4,
       "sources": 3,
@@ -91,15 +95,15 @@
         "views:en:2026_United_States_Senate_election_in_Michigan:2026-11-03",
         "views:en:2026_United_States_Senate_election_in_Michigan:prior",
         "wd:Q115857612:P31"
-      ],
-      "slug": "2026-united-states-elections",
-      "heat": 90
+      ]
     },
     {
+      "slug": "2026-palm-beach-county-learjet-60-crash",
       "lens": "accident",
       "title": "2026 Palm Beach County Learjet 60 crash",
       "summary": "Aviation accident in Florida, US",
       "about": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States. The flight was traveling from Austin–Bergstrom International Airport in Texas to North Eleuthera Airport in the Bahamas. The plane crashed after a high speed descent, killing all nine people on board and injuring a person on the ground.",
+      "headline": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States.",
       "article": {
         "title": "2026 Palm Beach County Learjet 60 crash",
         "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash",
@@ -114,6 +118,7 @@
         "evidence": "wd:Q141966885:P625"
       },
       "continent": "North America",
+      "heat": 63,
       "readers": 254095,
       "spike": 132447,
       "sources": 0,
@@ -126,15 +131,15 @@
         "views:en:Learjet_60:2026-11-03",
         "views:en:Learjet_60:prior",
         "wd:Q141966885:P31"
-      ],
-      "slug": "2026-palm-beach-county-learjet-60-crash",
-      "heat": 63
+      ]
     },
     {
+      "slug": "jeffery-simmons",
       "lens": "person",
       "title": "Jeffery Simmons",
       "summary": "American football player (born 1997)",
       "about": "Jeffery Bernard Simmons Jr. is an American professional football defensive tackle for the Chicago Bears of the National Football League (NFL). He played college football for the Mississippi State Bulldogs and was selected by the Tennessee Titans in the first round of the 2019 NFL draft.",
+      "headline": "Simmons and a 2028 fifth-round draft pick were traded to the Chicago Bears on October 29 in exchange for the Bears' 2027 and 2028 first-round selections and a 2027 fourth rounder.",
       "article": {
         "title": "Jeffery Simmons",
         "url": "https://en.wikipedia.org/wiki/Jeffery_Simmons",
@@ -149,6 +154,7 @@
         "evidence": "wd:Q45146310:P27"
       },
       "continent": "North America",
+      "heat": 53,
       "readers": 111232,
       "spike": 250.5,
       "sources": 0,
@@ -157,15 +163,15 @@
         "views:en:Jeffery_Simmons:2026-11-03",
         "views:en:Jeffery_Simmons:prior",
         "wd:Q45146310:P31"
-      ],
-      "slug": "jeffery-simmons",
-      "heat": 53
+      ]
     },
     {
+      "slug": "patrick-stewart",
       "lens": "person",
       "title": "Patrick Stewart",
       "summary": "English actor (1940–2026)",
       "about": "Sir Patrick Stewart was an English actor. With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award, three Golden Globe Awards, four Emmy Awards, and three Screen Actors Guild Awards. He was knighted by Queen Elizabeth II for his services to drama in 2010.",
+      "headline": "Stewart died at his home in Los Angeles on 28 October 2026, aged 86.",
       "article": {
         "title": "Patrick Stewart",
         "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
@@ -180,6 +186,7 @@
         "evidence": "wd:Q16296:P20"
       },
       "continent": "North America",
+      "heat": 52,
       "readers": 82458,
       "spike": 20.5,
       "sources": 0,
@@ -188,20 +195,21 @@
         "views:en:Patrick_Stewart:2026-11-03",
         "views:en:Patrick_Stewart:prior",
         "wd:Q16296:P31"
-      ],
-      "slug": "patrick-stewart",
-      "heat": 52
+      ]
     },
     {
+      "slug": "archive-of-our-own",
       "lens": "organization",
       "title": "Archive of Our Own",
       "summary": "Nonprofit fanfiction repository",
       "about": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works.",
+      "headline": "On 29 October 2026, following a security incident, the site went down for a period of maintenance that was originally announced to last twelve hours, but was extended later that day to two to four weeks…",
       "article": {
         "title": "Archive of Our Own",
         "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
         "qid": "Q27764876"
       },
+      "heat": 45,
       "readers": 85012,
       "spike": 60.1,
       "sources": 0,
@@ -210,20 +218,21 @@
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:en:Archive_of_Our_Own:prior",
         "wd:Q27764876:P31"
-      ],
-      "slug": "archive-of-our-own",
-      "heat": 45
+      ]
     },
     {
+      "slug": "dancing-with-the-stars-american-tv-series-season-35",
       "lens": "culture",
       "title": "Dancing with the Stars (American TV series) season 35",
       "summary": "",
       "about": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returned as co-host. A holiday television special will air following the season finale.",
+      "headline": "To avoid conflicts with the U.S. midterm elections, scheduled to be held on November 3, 2026, Dancing with the Stars moved the air date of this episode to Monday, one day earlier.",
       "article": {
         "title": "Dancing with the Stars (American TV series) season 35",
         "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
         "qid": "Q139761349"
       },
+      "heat": 41,
       "readers": 199913,
       "spike": 9.6,
       "sources": 0,
@@ -236,15 +245,15 @@
         "views:en:Jenna_Dewan:2026-11-03",
         "views:en:Jenna_Dewan:prior",
         "wd:Q139761349:P31"
-      ],
-      "slug": "dancing-with-the-stars-american-tv-series-season-35",
-      "heat": 41
+      ]
     },
     {
+      "slug": "jailer-2",
       "lens": "culture",
       "title": "Jailer 2",
       "summary": "2026 Indian film by Nelson Dilipkumar",
       "about": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
+      "headline": "It is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
       "article": {
         "title": "Jailer 2",
         "url": "https://en.wikipedia.org/wiki/Jailer_2",
@@ -259,6 +268,7 @@
         "evidence": "wd:Q133255153:P495"
       },
       "continent": "Asia",
+      "heat": 38,
       "readers": 96128,
       "spike": 8.2,
       "sources": 0,
@@ -267,15 +277,15 @@
         "views:en:Jailer_2:2026-11-03",
         "views:en:Jailer_2:prior",
         "wd:Q133255153:P31"
-      ],
-      "slug": "jailer-2",
-      "heat": 38
+      ]
     },
     {
+      "slug": "ramayana-part-1",
       "lens": "culture",
       "title": "Ramayana: Part 1",
       "summary": "2026 Indian film by Nitesh Tiwari",
       "about": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the epic poem Ramayana by Valmiki, which chronicles the life and trials of Prince Rama. It is the first of a two-part film. The film stars Ranbir Kapoor, Yash, Sai Pallavi, Sunny Deol, Ravi Dubey, Anupam Kher, Kajal Aggarwal, Rakul Preet Singh, Vivek Oberoi, Kunal Kapoor, Adinath Kothare, Arun Govil, Indira Krishnan, and Lara Dutta.",
+      "headline": "On 3 November, special media screening took place across Mumbai.",
       "article": {
         "title": "Ramayana: Part 1",
         "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
@@ -290,6 +300,7 @@
         "evidence": "wd:Q135196186:P495"
       },
       "continent": "Asia",
+      "heat": 38,
       "readers": 72890,
       "spike": 9.9,
       "sources": 0,
@@ -298,15 +309,15 @@
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:en:Ramayana:_Part_1:prior",
         "wd:Q135196186:P31"
-      ],
-      "slug": "ramayana-part-1",
-      "heat": 38
+      ]
     },
     {
+      "slug": "2026-israeli-legislative-election",
       "lens": "election",
       "title": "2026 Israeli legislative election",
       "summary": "",
       "about": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
+      "headline": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin…",
       "article": {
         "title": "2026 Israeli legislative election",
         "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
@@ -321,6 +332,7 @@
         "evidence": "wd:Q115632366:P17"
       },
       "continent": "Asia",
+      "heat": 35,
       "readers": 60786,
       "spike": 5.7,
       "sources": 0,
@@ -329,14 +341,14 @@
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:en:2026_Israeli_legislative_election:prior",
         "wd:Q115632366:P31"
-      ],
-      "slug": "2026-israeli-legislative-election",
-      "heat": 35
+      ]
     },
     {
+      "slug": "a-commercial-vessel-is-hit-by-an-unidentified-object-in-the",
       "lens": "conflict",
       "title": "A commercial vessel is hit by an unidentified object in the waters of Musandam…",
       "summary": "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
+      "headline": "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
       "article": {
         "title": "2026 Strait of Hormuz crisis",
         "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
@@ -351,19 +363,20 @@
         "evidence": "wiki:2026-11-03:1"
       },
       "continent": "Asia",
+      "heat": 19,
       "sources": 1,
       "related": [],
       "evidence": [
         "wiki:2026-11-03:1",
         "wd:Q138521100:P31"
-      ],
-      "slug": "a-commercial-vessel-is-hit-by-an-unidentified-object-in-the",
-      "heat": 19
+      ]
     },
     {
+      "slug": "unidentified-attackers-ambush-a-police-convoy-near-gidan-giy",
       "lens": "conflict",
       "title": "Unidentified attackers ambush a police convoy near Gidan-Giye village in…",
       "summary": "Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard, injuring two officers, and abducting an unspecified number of personnel.",
+      "headline": "Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard…",
       "article": {
         "title": "Communal conflicts in Nigeria",
         "url": "https://en.wikipedia.org/wiki/Communal_conflicts_in_Nigeria",
@@ -378,19 +391,20 @@
         "evidence": "wiki:2026-11-03:2"
       },
       "continent": "Africa",
+      "heat": 19,
       "sources": 1,
       "related": [],
       "evidence": [
         "wiki:2026-11-03:2",
         "wd:Q21039541:P31"
-      ],
-      "slug": "unidentified-attackers-ambush-a-police-convoy-near-gidan-giy",
-      "heat": 19
+      ]
     },
     {
+      "slug": "the-reserve-bank-of-australia-raises-its-benchmark-interest",
       "lens": "economy",
       "title": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25…",
       "summary": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
+      "headline": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008…",
       "article": {
         "title": "2026 Iran war fuel crisis",
         "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis",
@@ -405,19 +419,20 @@
         "evidence": "wiki:2026-11-03:4"
       },
       "continent": "Oceania",
+      "heat": 19,
       "sources": 1,
       "related": [],
       "evidence": [
         "wiki:2026-11-03:4",
         "wd:Q138843305:P31"
-      ],
-      "slug": "the-reserve-bank-of-australia-raises-its-benchmark-interest",
-      "heat": 19
+      ]
     },
     {
+      "slug": "two-helicopters-operated-by-air-dynasty-and-fishtail-air-col",
       "lens": "accident",
       "title": "Two helicopters operated by Air Dynasty and Fishtail Air collide while landing…",
       "summary": "Two helicopters operated by Air Dynasty and Fishtail Air collide while landing in Solukhumbu District, Nepal, near Mount Everest, killing an Indian tourist and injuring a New Zealand national.",
+      "headline": "Two helicopters operated by Air Dynasty and Fishtail Air collide while landing in Solukhumbu District, Nepal, near Mount Everest, killing an Indian tourist and injuring a New Zealand national.",
       "place": {
         "name": "Solukhumbu District",
         "lon": 86.58333333,
@@ -427,13 +442,12 @@
         "evidence": "wiki:2026-11-03:5"
       },
       "continent": "Asia",
+      "heat": 19,
       "sources": 1,
       "related": [],
       "evidence": [
         "wiki:2026-11-03:5"
-      ],
-      "slug": "two-helicopters-operated-by-air-dynasty-and-fishtail-air-col",
-      "heat": 19
+      ]
     }
   ]
 }

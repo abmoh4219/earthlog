@@ -203,14 +203,24 @@
     "precision": "day"
   },
   {
-    "id": "wiki:article:2026_United_States_elections",
+    "id": "wiki:rev:1383770772:163",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States elections\"",
-    "quote": "Elections were held in the United States on November 3, 2026. In these midterm elections, which occurred during the second term of Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S. gubernatorial elections, attorney general elections, and numerous state and local elections were also contested.",
-    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-04 19:35 UTC)",
+    "quote": "The war with Iran became a subject of Democratic campaigning ahead of the November 3 midterm elections.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1383770772"
+  },
+  {
+    "id": "wiki:rev:1383770772:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-04 19:35 UTC)",
+    "quote": "Elections were held in the United States on November 3, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1383770772"
   },
   {
     "id": "views:en:2026_United_States_elections:30d",

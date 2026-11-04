@@ -9,6 +9,7 @@ import { fetchJson } from "../bake/lib.ts";
 import { fetchCoordinates, type RawStory } from "../bake/wikinews.ts";
 import { fetchEntities, type WdEntity } from "../edition/sources.ts";
 import { buildFilm, type ChapterDraft, type PanelDraft, type Shot } from "./film.ts";
+import { chronological, contextIsTheEvent, fetchNews } from "./news-context.ts";
 
 export interface LensContext {
   date: string;
@@ -216,41 +217,83 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
 
   const chapters: ChapterDraft[] = [];
 
-  // 1. The story.
+  // 1. What happened: the news first (a Current events item, else what the article says
+  //    happened around the edition day), then who or what this is. Every sentence is quoted
+  //    from, and cited to, the exact Wikipedia revision it was read from (news-context.ts).
   const newsFirst = newsItems[0];
-  const aboutId = story.article
-    ? add({
-        id: `wiki:article:${story.article.title.replace(/ /g, "_")}`,
-        kind: "report",
-        source: "wikipedia-article",
-        t: dayStart,
-        precision: "day",
-        label: `Wikipedia, "${story.article.title}"`,
-        quote: story.about ?? story.summary,
-        url: story.article.url,
-      })
-    : undefined;
-  const opening = newsFirst
-    ? { text: clip(newsFirst.raw.text, 200), cites: [newsFirst.id] }
-    : aboutId && (story.about ?? story.summary)
-      ? { text: clip(story.about ?? story.summary, 200), cites: [aboutId] }
-      : undefined;
-  if (opening) {
+  const found = story.article ? await fetchNews(story.article.title, date) : undefined;
+  const fromArticle = (sentence: { text: string; index: number }) => {
+    const rev = found?.revision;
+    if (!rev) return undefined;
+    return add({
+      id: `wiki:rev:${rev.revid}:${sentence.index}`,
+      kind: "report",
+      source: "wikipedia-article",
+      t: dayStart,
+      precision: "day",
+      label: `Wikipedia, "${rev.title}" (revision of ${rev.timestamp.slice(0, 16).replace("T", " ")} UTC)`,
+      quote: sentence.text,
+      url: `https://en.wikipedia.org/w/index.php?title=${encodeURIComponent(rev.title.replace(/ /g, "_"))}&oldid=${rev.revid}`,
+    });
+  };
+  const opening: ChapterDraft["beats"] = [];
+  // An article about the event itself ("On November 1, 2026, a … jet crashed …") opens with
+  // that event; later developments follow.
+  const eventFirst =
+    found && !newsFirst && contextIsTheEvent(found, date) ? found.context : undefined;
+  if (eventFirst) {
+    const id = fromArticle(eventFirst);
+    if (id) opening.push({ text: clip(eventFirst.text, 210), cites: [id] });
+  }
+  if (newsFirst) opening.push({ text: clip(newsFirst.raw.text, 210), cites: [newsFirst.id] });
+  const room = (eventFirst ? 3 : 2) - opening.length;
+  for (const sentence of chronological((found?.news ?? []).slice(0, Math.max(0, room)), date)) {
+    const id = fromArticle(sentence);
+    if (id) opening.push({ text: clip(sentence.text, 210), cites: [id] });
+  }
+  // Context last: who or what this is (unless the news already said it all).
+  const context = eventFirst ? undefined : found?.context;
+  if (context && opening.length < 3) {
+    const id = fromArticle(context);
+    if (id) opening.push({ text: clip(context.text, 210), cites: [id] });
+  }
+  if (!opening.length && story.article && (story.about ?? story.summary)) {
+    const id = add({
+      id: `wiki:article:${story.article.title.replace(/ /g, "_")}`,
+      kind: "report",
+      source: "wikipedia-article",
+      t: dayStart,
+      precision: "day",
+      label: `Wikipedia, "${story.article.title}"`,
+      quote: story.about ?? story.summary,
+      url: story.article.url,
+    });
+    opening.push({ text: clip(story.about ?? story.summary, 210), cites: [id] });
+  }
+  if (opening.length) {
     chapters.push({
-      title: "The story",
-      seconds: 9,
-      shot: { ...home, range: home.range * 2.2, pitch: -70 },
-      beats: [opening],
+      title: "What happened",
+      // About seven seconds per sentence: long enough to read, short enough to keep moving.
+      seconds: 3 + opening.length * 7,
+      shot: { ...home, range: home.range * 2, pitch: -68 },
+      beats: opening,
     });
   }
 
   // 2. Where.
   if (story.place) {
     const placeId = story.place.evidence ? use(story.place.evidence) : undefined;
+    const countryName = story.place.country
+      ? countries.find((c) => c.code === story.place?.country)?.name
+      : undefined;
+    const where =
+      countryName && countryName !== story.place.name
+        ? `${story.place.name}, ${countryName}`
+        : story.place.name;
     const text =
       story.place.role && placeId && !placeId.startsWith("wiki:")
-        ? `${story.place.role}: ${story.place.name}.`
-        : `${story.place.name}.`;
+        ? `${story.place.role}: ${where}.`
+        : `On the map: ${where}, where the reports place it.`;
     chapters.push({
       title: "Where",
       seconds: 8,
@@ -391,7 +434,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
   if (related.length || places.length > 1) {
     const text = related.length
       ? `Readers also turned to ${related.map((r) => `${r.t} (${fmt(r.e.value ?? 0)})`).join(", ")}.`
-      : `The story touches ${places
+      : `Also named in the reports: ${places
           .slice(1, 4)
           .map((p) => p.name)
           .join(", ")}.`;
@@ -434,6 +477,10 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     });
   }
 
+  // The story and its analysis first; how many people read about it is a side note near
+  // the end, before the sources.
+  const ORDER = ["What happened", "Where", "On record", "Connected", "Readers", "Reported by"];
+  chapters.sort((a, b) => ORDER.indexOf(a.title) - ORDER.indexOf(b.title));
   await hooks.shape?.({ chapters, layers, add, use, home });
   if (!chapters.length) throw new Error(`${story.slug}: nothing citable to film`);
 

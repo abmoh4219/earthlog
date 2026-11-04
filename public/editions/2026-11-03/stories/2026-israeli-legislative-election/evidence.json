@@ -31,14 +31,34 @@
     "precision": "day"
   },
   {
-    "id": "wiki:article:2026_Israeli_legislative_election",
+    "id": "wiki:rev:1383763452:0",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 Israeli legislative election\"",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 18:37 UTC)",
     "quote": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
-    "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383763452"
+  },
+  {
+    "id": "wiki:rev:1383763452:107",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 18:37 UTC)",
+    "quote": "The Democrats head Yair Golan announced on 2 November that it would also recommend Eisenkot.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383763452"
+  },
+  {
+    "id": "wiki:rev:1383763452:105",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 18:37 UTC)",
+    "quote": "President Isaac Herzog announced on 1 November that he would invite party leaders, beginning 4 November, to begin the consultation process to determine who should be given the first choice to form a government.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383763452"
   },
   {
     "id": "views:en:2026_Israeli_legislative_election:30d",

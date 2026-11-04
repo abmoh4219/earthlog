@@ -54,6 +54,8 @@ export const EditionStory = z.object({
   summary: z.string(),
   /** The main article's opening sentences (Wikipedia, CC BY-SA), when known. */
   about: z.string().optional(),
+  /** What happened, in one sentence: the film's first caption (set when the story is filmed). */
+  headline: z.string().optional(),
   /** The story's main Wikipedia article, if it has one. */
   article: z
     .object({

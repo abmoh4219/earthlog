@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:47Z"
+    "end": "2026-11-03T00:01:02Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -24,12 +24,12 @@
     {
       "kind": "places",
       "file": "data/places.json",
-      "from": "2026-11-03T00:00:09Z"
+      "from": "2026-11-03T00:00:24Z"
     },
     {
       "kind": "regions",
       "file": "data/regions.json",
-      "from": "2026-11-03T00:00:09Z"
+      "from": "2026-11-03T00:00:24Z"
     }
   ],
   "camera": [
@@ -45,20 +45,20 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
-      "range": 3960000.0000000005,
+      "range": 3600000,
       "heading": 0,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:08Z",
+      "t": "2026-11-03T00:00:23Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
-      "range": 4237200.000000001,
+      "range": 3852000,
       "heading": 6,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:11Z",
+      "t": "2026-11-03T00:00:26Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
       "range": 1800000,
@@ -66,7 +66,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:16Z",
+      "t": "2026-11-03T00:00:31Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
       "range": 1926000,
@@ -74,23 +74,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:19Z",
-      "lon": -80.11311111111111,
-      "lat": 26.07038888888889,
-      "range": 2700000,
-      "heading": 0,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:00:27Z",
-      "lon": -80.11311111111111,
-      "lat": 26.07038888888889,
-      "range": 2889000,
-      "heading": 6,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:00:30Z",
+      "t": "2026-11-03T00:00:34Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
       "range": 1800000,
@@ -98,7 +82,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:37Z",
+      "t": "2026-11-03T00:00:41Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
       "range": 1926000,
@@ -106,7 +90,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:40Z",
+      "t": "2026-11-03T00:00:44Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
       "range": 3600000,
@@ -114,7 +98,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:46Z",
+      "t": "2026-11-03T00:00:50Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
       "range": 3852000,
@@ -122,10 +106,26 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:00:47Z",
+      "t": "2026-11-03T00:00:53Z",
       "lon": -80.11311111111111,
       "lat": 26.07038888888889,
-      "range": 6163200,
+      "range": 2700000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:01:01Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 2889000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:01:02Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 6000000,
       "heading": 6,
       "pitch": -80
     }
@@ -139,21 +139,27 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "text": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States…",
+      "text": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States.",
       "cites": [
-        "wiki:article:2026_Palm_Beach_County_Learjet_60_crash"
+        "wiki:rev:1383766682:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:17Z",
-      "text": "132,447 people read the article on 3 November 2026. It hadn't existed weeks before.",
+      "t": "2026-11-03T00:00:08Z",
+      "text": "Leonard Community High School, a public high school located near the crash site, was closed on November 2 as emergency crews and investigators continued operations in the vicinity.",
       "cites": [
-        "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
-        "views:en:2026_Palm_Beach_County_Learjet_60_crash:prior"
+        "wiki:rev:1383766682:29"
       ]
     },
     {
-      "t": "2026-11-03T00:00:28Z",
+      "t": "2026-11-03T00:00:16Z",
+      "text": "During a second press briefing on November 3, Chapman confirmed that the elevator had separated prior to impact.",
+      "cites": [
+        "wiki:rev:1383766682:42"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
       "text": "Date: 1 November 2026. Location: Greenacres.",
       "cites": [
         "wd:Q141966885:P585",
@@ -161,10 +167,18 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:00:42Z",
       "text": "Readers also turned to Learjet 60 (121,648).",
       "cites": [
         "views:en:Learjet_60:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
+      "text": "132,447 people read the article on 3 November 2026. It hadn't existed weeks before.",
+      "cites": [
+        "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
+        "views:en:2026_Palm_Beach_County_Learjet_60_crash:prior"
       ]
     }
   ],
@@ -172,26 +186,57 @@
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "title": "The story"
+      "title": "What happened"
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:24Z",
       "title": "Where"
     },
     {
-      "t": "2026-11-03T00:00:17Z",
-      "title": "Readers"
-    },
-    {
-      "t": "2026-11-03T00:00:28Z",
+      "t": "2026-11-03T00:00:32Z",
       "title": "On record"
     },
     {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:00:42Z",
       "title": "Connected"
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
+      "title": "Readers"
     }
   ],
   "panels": [
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: 2026 Palm Beach County Learjet 60 crash",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Date",
+          "text": "1 November 2026",
+          "cites": [
+            "wd:Q141966885:P585"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "Greenacres",
+          "cites": [
+            "wd:Q141966885:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "United States",
+          "cites": [
+            "wd:Q141966885:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:42Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -347,43 +392,12 @@
         }
       ],
       "mark": 1,
-      "t": "2026-11-03T00:00:18Z",
-      "until": "2026-11-03T00:00:28Z"
-    },
-    {
-      "id": "record",
-      "kind": "facts",
-      "title": "On record: 2026 Palm Beach County Learjet 60 crash",
-      "note": "As recorded in Wikidata (CC0).",
-      "items": [
-        {
-          "label": "Date",
-          "text": "1 November 2026",
-          "cites": [
-            "wd:Q141966885:P585"
-          ]
-        },
-        {
-          "label": "Location",
-          "text": "Greenacres",
-          "cites": [
-            "wd:Q141966885:P276"
-          ]
-        },
-        {
-          "label": "Country",
-          "text": "United States",
-          "cites": [
-            "wd:Q141966885:P17"
-          ]
-        }
-      ],
-      "t": "2026-11-03T00:00:29Z",
-      "until": "2026-11-03T00:00:38Z"
+      "t": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:02Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:22:08Z"
+    "at": "2026-11-04T19:45:53Z"
   }
 }

@@ -72,7 +72,9 @@ export default async function EditionPage({ params }: Props) {
                   </span>
                 </div>
                 <p className="mt-2 pl-9 text-lg font-medium text-frost">{s.title}</p>
-                <p className="mt-1 line-clamp-2 pl-9 text-sm text-ice/60">{s.about ?? s.summary}</p>
+                <p className="mt-1 line-clamp-2 pl-9 text-sm text-ice/60">
+                  {s.headline ?? s.about ?? s.summary}
+                </p>
               </>
             );
             return (

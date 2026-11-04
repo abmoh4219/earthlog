@@ -27,14 +27,24 @@
     "precision": "day"
   },
   {
-    "id": "wiki:article:2026_Iran_war_fuel_crisis",
+    "id": "wiki:rev:1383586478:48",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 Iran war fuel crisis\"",
-    "quote": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
-    "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"
+    "label": "Wikipedia, \"2026 Iran war fuel crisis\" (revision of 2026-11-03 14:41 UTC)",
+    "quote": "On November 3, oil prices fell following an announcement by U.S.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war_fuel_crisis&oldid=1383586478"
+  },
+  {
+    "id": "wiki:rev:1383586478:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war fuel crisis\" (revision of 2026-11-03 14:41 UTC)",
+    "quote": "The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war_fuel_crisis&oldid=1383586478"
   },
   {
     "id": "views:en:2026_Iran_war_fuel_crisis:30d",

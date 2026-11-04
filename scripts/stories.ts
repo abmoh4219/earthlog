@@ -43,6 +43,7 @@ const countries = z
 const news = parsePortal((await fetchPortal(date)).wikitext);
 
 let failed = 0;
+const headlines = new Map<string, string>();
 for (const story of edition.stories) {
   if (only && story.slug !== only) continue;
   try {
@@ -66,6 +67,8 @@ for (const story of edition.stories) {
     bytes += await writeJson(join(out, "scene.json"), film.scene);
     bytes += await writeJson(join(out, "evidence.json"), film.evidence);
     bytes += await writeJson(join(out, "sources.json"), film.sources);
+    const first = film.scene.beats[0]?.text;
+    if (first) headlines.set(story.slug, first);
     const secs = (Date.parse(film.scene.window.end) - Date.parse(film.scene.window.start)) / 1000;
     console.log(
       `✓ ${story.slug.padEnd(44)} ${story.lens.padEnd(12)} ${film.scene.chapters.length} chapters, ${film.scene.panels.length} panels, ${secs}s, ${(bytes / 1024).toFixed(0)} KB`,
@@ -75,4 +78,12 @@ for (const story of edition.stories) {
     console.error(`✗ ${story.slug}: ${err instanceof Error ? err.message : String(err)}`);
   }
 }
+// The edition page shows each story's headline: the first sentence of its film.
+await writeJson(join(dir, "edition.json"), {
+  ...edition,
+  stories: edition.stories.map((s) =>
+    headlines.has(s.slug) ? { ...s, headline: headlines.get(s.slug) } : s,
+  ),
+});
+
 if (failed) process.exit(1);

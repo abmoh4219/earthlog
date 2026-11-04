@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:34Z"
+    "end": "2026-11-03T00:00:49Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -25,7 +25,7 @@
       "kind": "regions",
       "file": "data/regions-result.json",
       "name": "result",
-      "from": "2026-11-03T00:00:09Z"
+      "from": "2026-11-03T00:00:24Z"
     }
   ],
   "camera": [
@@ -41,20 +41,20 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": 34.85,
       "lat": 29.5975,
-      "range": 9240000,
+      "range": 8400000,
       "heading": 0,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:08Z",
+      "t": "2026-11-03T00:00:23Z",
       "lon": 34.85,
       "lat": 29.5975,
-      "range": 9886800,
+      "range": 8988000,
       "heading": 6,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:11Z",
+      "t": "2026-11-03T00:00:26Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 4200000,
@@ -62,7 +62,7 @@
       "pitch": -60
     },
     {
-      "t": "2026-11-03T00:00:22Z",
+      "t": "2026-11-03T00:00:37Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 4494000,
@@ -70,7 +70,7 @@
       "pitch": -60
     },
     {
-      "t": "2026-11-03T00:00:25Z",
+      "t": "2026-11-03T00:00:40Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 6300000,
@@ -78,7 +78,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:33Z",
+      "t": "2026-11-03T00:00:48Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 6741000,
@@ -86,7 +86,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:34Z",
+      "t": "2026-11-03T00:00:49Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 10785600,
@@ -103,13 +103,27 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "text": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister…",
+      "text": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin…",
       "cites": [
-        "wiki:article:2026_Israeli_legislative_election"
+        "wiki:rev:1383763452:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:08Z",
+      "text": "The Democrats head Yair Golan announced on 2 November that it would also recommend Eisenkot.",
+      "cites": [
+        "wiki:rev:1383763452:107"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "text": "President Isaac Herzog announced on 1 November that he would invite party leaders, beginning 4 November, to begin the consultation process to determine who should be given the first choice to form a government.",
+      "cites": [
+        "wiki:rev:1383763452:105"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
       "text": "Likud, led by Benjamin Netanyahu, won the most seats: 27, short of the 61 needed for a majority.",
       "cites": [
         "elex:2026-israeli-legislative-election:party1",
@@ -117,14 +131,14 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
+      "t": "2026-11-03T00:00:31Z",
       "text": "Turnout: 77.97%.",
       "cites": [
         "elex:2026-israeli-legislative-election:summary"
       ]
     },
     {
-      "t": "2026-11-03T00:00:23Z",
+      "t": "2026-11-03T00:00:38Z",
       "text": "60,786 people read about it on 3 November 2026: about 6× the usual.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
@@ -136,14 +150,14 @@
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "title": "The story"
+      "title": "What happened"
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:24Z",
       "title": "The result"
     },
     {
-      "t": "2026-11-03T00:00:23Z",
+      "t": "2026-11-03T00:00:38Z",
       "title": "Readers"
     }
   ],
@@ -245,8 +259,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:10Z",
-      "until": "2026-11-03T00:00:23Z"
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:38Z"
     },
     {
       "id": "votes",
@@ -309,8 +323,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:10Z",
-      "until": "2026-11-03T00:00:23Z"
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:38Z"
     },
     {
       "id": "readers",
@@ -450,12 +464,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:24Z",
-      "until": "2026-11-03T00:00:34Z"
+      "t": "2026-11-03T00:00:39Z",
+      "until": "2026-11-03T00:00:49Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:22:08Z"
+    "at": "2026-11-04T19:45:53Z"
   }
 }

@@ -31,14 +31,34 @@
     "precision": "day"
   },
   {
-    "id": "wiki:article:Archive_of_Our_Own",
+    "id": "wiki:rev:1383453548:21",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Archive of Our Own\"",
-    "quote": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works.",
-    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
+    "label": "Wikipedia, \"Archive of Our Own\" (revision of 2026-11-02 19:42 UTC)",
+    "quote": "On 29 October 2026, following a security incident, the site went down for a period of maintenance that was originally announced to last twelve hours, but was extended later that day to two to four weeks, citing a priority of safety over speed.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Archive_of_Our_Own&oldid=1383453548"
+  },
+  {
+    "id": "wiki:rev:1383453548:22",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Archive of Our Own\" (revision of 2026-11-02 19:42 UTC)",
+    "quote": "Rebecca Tushnet, representing AO3, assured users that no data was lost during this incident.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Archive_of_Our_Own&oldid=1383453548"
+  },
+  {
+    "id": "wiki:rev:1383453548:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Archive of Our Own\" (revision of 2026-11-02 19:42 UTC)",
+    "quote": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Archive_of_Our_Own&oldid=1383453548"
   },
   {
     "id": "views:en:Archive_of_Our_Own:30d",

@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:19Z"
+    "end": "2026-11-03T00:01:34Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -25,21 +25,21 @@
       "kind": "regions",
       "file": "data/regions-senate.json",
       "name": "senate",
-      "from": "2026-11-03T00:00:09Z",
-      "until": "2026-11-03T00:00:23Z"
+      "from": "2026-11-03T00:00:24Z",
+      "until": "2026-11-03T00:00:38Z"
     },
     {
       "kind": "regions",
       "file": "data/regions-governors.json",
       "name": "governors",
-      "from": "2026-11-03T00:00:23Z",
-      "until": "2026-11-03T00:00:37Z"
+      "from": "2026-11-03T00:00:38Z",
+      "until": "2026-11-03T00:00:52Z"
     },
     {
       "kind": "regions",
       "file": "data/regions-house.json",
       "name": "house",
-      "from": "2026-11-03T00:00:37Z"
+      "from": "2026-11-03T00:00:52Z"
     }
   ],
   "camera": [
@@ -55,20 +55,20 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": -77.00888889,
       "lat": 38.32638889,
-      "range": 3960000.0000000005,
+      "range": 3600000,
       "heading": 0,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:08Z",
+      "t": "2026-11-03T00:00:23Z",
       "lon": -77.00888889,
       "lat": 38.32638889,
-      "range": 4237200.000000001,
+      "range": 3852000,
       "heading": 6,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:11Z",
+      "t": "2026-11-03T00:00:26Z",
       "lon": -97,
       "lat": 36.5,
       "range": 6400000,
@@ -76,7 +76,7 @@
       "pitch": -72
     },
     {
-      "t": "2026-11-03T00:00:22Z",
+      "t": "2026-11-03T00:00:37Z",
       "lon": -97,
       "lat": 36.5,
       "range": 6848000,
@@ -84,7 +84,7 @@
       "pitch": -72
     },
     {
-      "t": "2026-11-03T00:00:25Z",
+      "t": "2026-11-03T00:00:40Z",
       "lon": -97,
       "lat": 36.5,
       "range": 6400000,
@@ -92,7 +92,7 @@
       "pitch": -72
     },
     {
-      "t": "2026-11-03T00:00:36Z",
+      "t": "2026-11-03T00:00:51Z",
       "lon": -97,
       "lat": 36.5,
       "range": 6848000,
@@ -100,7 +100,7 @@
       "pitch": -72
     },
     {
-      "t": "2026-11-03T00:00:39Z",
+      "t": "2026-11-03T00:00:54Z",
       "lon": -97,
       "lat": 36.5,
       "range": 5888000,
@@ -108,7 +108,7 @@
       "pitch": -72
     },
     {
-      "t": "2026-11-03T00:00:50Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": -97,
       "lat": 36.5,
       "range": 6300160,
@@ -116,23 +116,7 @@
       "pitch": -72
     },
     {
-      "t": "2026-11-03T00:00:53Z",
-      "lon": -77.00888889,
-      "lat": 38.32638889,
-      "range": 2700000,
-      "heading": 0,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:01:01Z",
-      "lon": -77.00888889,
-      "lat": 38.32638889,
-      "range": 2889000,
-      "heading": 6,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:01:04Z",
+      "t": "2026-11-03T00:01:08Z",
       "lon": -77.00888889,
       "lat": 38.32638889,
       "range": 3600000,
@@ -140,7 +124,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:01:10Z",
+      "t": "2026-11-03T00:01:14Z",
       "lon": -77.00888889,
       "lat": 38.32638889,
       "range": 3852000,
@@ -148,7 +132,23 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:01:13Z",
+      "t": "2026-11-03T00:01:17Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 2700000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:01:25Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 2889000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:01:28Z",
       "lon": -77.00888889,
       "lat": 38.32638889,
       "range": 2340000,
@@ -156,7 +156,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:01:18Z",
+      "t": "2026-11-03T00:01:33Z",
       "lon": -77.00888889,
       "lat": 38.32638889,
       "range": 2503800,
@@ -164,7 +164,7 @@
       "pitch": -55
     },
     {
-      "t": "2026-11-03T00:01:19Z",
+      "t": "2026-11-03T00:01:34Z",
       "lon": -77.00888889,
       "lat": 38.32638889,
       "range": 6000000,
@@ -187,14 +187,28 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:08Z",
+      "text": "The war with Iran became a subject of Democratic campaigning ahead of the November 3 midterm elections.",
+      "cites": [
+        "wiki:rev:1383770772:163"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "text": "Elections were held in the United States on November 3, 2026.",
+      "cites": [
+        "wiki:rev:1383770772:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
       "text": "35 Senate races this year: Democrats won 20, Republicans 13, 2 not yet called.",
       "cites": [
         "elex:2026-united-states-senate-elections:the-senate-table"
       ]
     },
     {
-      "t": "2026-11-03T00:00:16Z",
+      "t": "2026-11-03T00:00:31Z",
       "text": "Democratic gains: Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
       "cites": [
         "elex:2026-united-states-senate-elections:senate-ia",
@@ -207,14 +221,14 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:23Z",
+      "t": "2026-11-03T00:00:38Z",
       "text": "36 governor's races this year: Democrats won 21, Republicans 12, 3 not yet called.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-table"
       ]
     },
     {
-      "t": "2026-11-03T00:00:30Z",
+      "t": "2026-11-03T00:00:45Z",
       "text": "Democratic gains: Georgia, Iowa, Nevada, Ohio and Texas.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-ga",
@@ -225,29 +239,21 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:37Z",
+      "t": "2026-11-03T00:00:52Z",
       "text": "The House: Democrats 231 seats, Republicans 139, 65 still to be called. 218 make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
-      "t": "2026-11-03T00:00:44Z",
+      "t": "2026-11-03T00:00:59Z",
       "text": "On the map: 30 districts changed party; 97 not yet called in the race tables.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
-      "text": "455,194 people read about it on 3 November 2026: about 18× the usual.",
-      "cites": [
-        "views:en:2026_United_States_elections:2026-11-03",
-        "views:en:2026_United_States_elections:prior"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:01:02Z",
+      "t": "2026-11-03T00:01:06Z",
       "text": "Readers also turned to United States midterm election (244,478), James Talarico (105,766), 2026 United States Senate elections (90,787).",
       "cites": [
         "views:en:United_States_midterm_election:2026-11-03",
@@ -256,7 +262,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:01:11Z",
+      "t": "2026-11-03T00:01:15Z",
+      "text": "455,194 people read about it on 3 November 2026: about 18× the usual.",
+      "cites": [
+        "views:en:2026_United_States_elections:2026-11-03",
+        "views:en:2026_United_States_elections:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:26Z",
       "text": "Reported by The Guardian and Reuters.",
       "cites": [
         "wiki:2026-11-03:10",
@@ -268,30 +282,30 @@
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "title": "The story"
+      "title": "What happened"
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:24Z",
       "title": "The Senate"
     },
     {
-      "t": "2026-11-03T00:00:23Z",
+      "t": "2026-11-03T00:00:38Z",
       "title": "Governors"
     },
     {
-      "t": "2026-11-03T00:00:37Z",
+      "t": "2026-11-03T00:00:52Z",
       "title": "The House"
     },
     {
-      "t": "2026-11-03T00:00:51Z",
-      "title": "Readers"
-    },
-    {
-      "t": "2026-11-03T00:01:02Z",
+      "t": "2026-11-03T00:01:06Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:01:11Z",
+      "t": "2026-11-03T00:01:15Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:26Z",
       "title": "Reported by"
     }
   ],
@@ -328,8 +342,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:10Z",
-      "until": "2026-11-03T00:00:23Z"
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:38Z"
     },
     {
       "id": "senate-flips",
@@ -385,8 +399,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:10Z",
-      "until": "2026-11-03T00:00:23Z"
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:38Z"
     },
     {
       "id": "governors-tally",
@@ -420,8 +434,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:24Z",
-      "until": "2026-11-03T00:00:37Z"
+      "t": "2026-11-03T00:00:39Z",
+      "until": "2026-11-03T00:00:52Z"
     },
     {
       "id": "governors-flips",
@@ -469,8 +483,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:24Z",
-      "until": "2026-11-03T00:00:37Z"
+      "t": "2026-11-03T00:00:39Z",
+      "until": "2026-11-03T00:00:52Z"
     },
     {
       "id": "house-seats",
@@ -507,8 +521,8 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:38Z",
-      "until": "2026-11-03T00:00:51Z"
+      "t": "2026-11-03T00:00:53Z",
+      "until": "2026-11-03T00:01:06Z"
     },
     {
       "id": "readers",
@@ -906,8 +920,8 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:02Z"
+      "t": "2026-11-03T00:01:16Z",
+      "until": "2026-11-03T00:01:26Z"
     },
     {
       "id": "sources",
@@ -940,12 +954,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:01:12Z",
-      "until": "2026-11-03T00:01:19Z"
+      "t": "2026-11-03T00:01:27Z",
+      "until": "2026-11-03T00:01:34Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:22:08Z"
+    "at": "2026-11-04T19:45:53Z"
   }
 }

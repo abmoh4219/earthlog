@@ -91,14 +91,24 @@
     "precision": "day"
   },
   {
-    "id": "wiki:article:Jesús_de_Miguel",
+    "id": "wiki:rev:1383757320:26",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Jesús de Miguel\"",
-    "quote": "Jesús de Miguel Alameda was a Spanish professional footballer who played as a striker.",
-    "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+    "label": "Wikipedia, \"Jesús de Miguel\" (revision of 2026-11-04 17:41 UTC)",
+    "quote": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono which caused him to go into cardiac arrest.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jes%C3%BAs_de_Miguel&oldid=1383757320"
+  },
+  {
+    "id": "wiki:rev:1383757320:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jesús de Miguel\" (revision of 2026-11-04 17:41 UTC)",
+    "quote": "Jesús de Miguel Alameda (21 September 1996 – 3 November 2026) was a Spanish professional footballer who played as a striker.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jes%C3%BAs_de_Miguel&oldid=1383757320"
   },
   {
     "id": "views:en:Jesús_de_Miguel:30d",

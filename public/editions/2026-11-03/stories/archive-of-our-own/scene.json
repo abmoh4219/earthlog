@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:20Z"
+    "end": "2026-11-03T00:00:35Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -34,20 +34,20 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": 0,
       "lat": 20,
-      "range": 35200000,
+      "range": 32000000,
       "heading": 0,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:08Z",
+      "t": "2026-11-03T00:00:23Z",
       "lon": 0,
       "lat": 20,
-      "range": 37664000,
+      "range": 34240000,
       "heading": 6,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:11Z",
+      "t": "2026-11-03T00:00:26Z",
       "lon": 0,
       "lat": 20,
       "range": 24000000,
@@ -55,7 +55,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:19Z",
+      "t": "2026-11-03T00:00:34Z",
       "lon": 0,
       "lat": 20,
       "range": 25680000,
@@ -63,7 +63,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:20Z",
+      "t": "2026-11-03T00:00:35Z",
       "lon": 0,
       "lat": 20,
       "range": 41088000,
@@ -80,13 +80,27 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "text": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users…",
+      "text": "On 29 October 2026, following a security incident, the site went down for a period of maintenance that was originally announced to last twelve hours, but was extended later that day to two to four weeks…",
       "cites": [
-        "wiki:article:Archive_of_Our_Own"
+        "wiki:rev:1383453548:21"
       ]
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:08Z",
+      "text": "Rebecca Tushnet, representing AO3, assured users that no data was lost during this incident.",
+      "cites": [
+        "wiki:rev:1383453548:22"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "text": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users.",
+      "cites": [
+        "wiki:rev:1383453548:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
       "text": "85,012 people read about it on 3 November 2026: about 60× the usual.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
@@ -98,10 +112,10 @@
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "title": "The story"
+      "title": "What happened"
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:24Z",
       "title": "Readers"
     }
   ],
@@ -244,12 +258,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:10Z",
-      "until": "2026-11-03T00:00:20Z"
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:35Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:22:08Z"
+    "at": "2026-11-04T19:45:53Z"
   }
 }

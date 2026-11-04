@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:29Z"
+    "end": "2026-11-03T00:00:44Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -34,36 +34,20 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": 0,
       "lat": 20,
-      "range": 35200000,
+      "range": 32000000,
       "heading": 0,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:08Z",
+      "t": "2026-11-03T00:00:23Z",
       "lon": 0,
       "lat": 20,
-      "range": 37664000,
+      "range": 34240000,
       "heading": 6,
-      "pitch": -70
+      "pitch": -68
     },
     {
-      "t": "2026-11-03T00:00:11Z",
-      "lon": 0,
-      "lat": 20,
-      "range": 24000000,
-      "heading": 0,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:00:19Z",
-      "lon": 0,
-      "lat": 20,
-      "range": 25680000,
-      "heading": 6,
-      "pitch": -62
-    },
-    {
-      "t": "2026-11-03T00:00:22Z",
+      "t": "2026-11-03T00:00:26Z",
       "lon": 0,
       "lat": 20,
       "range": 32000000,
@@ -71,7 +55,7 @@
       "pitch": -85
     },
     {
-      "t": "2026-11-03T00:00:28Z",
+      "t": "2026-11-03T00:00:32Z",
       "lon": 0,
       "lat": 20,
       "range": 34240000,
@@ -79,10 +63,26 @@
       "pitch": -85
     },
     {
-      "t": "2026-11-03T00:00:29Z",
+      "t": "2026-11-03T00:00:35Z",
       "lon": 0,
       "lat": 20,
-      "range": 54784000,
+      "range": 24000000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:43Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 25680000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:44Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41088000,
       "heading": 6,
       "pitch": -80
     }
@@ -96,24 +96,38 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "text": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026…",
+      "text": "To avoid conflicts with the U.S. midterm elections, scheduled to be held on November 3, 2026, Dancing with the Stars moved the air date of this episode to Monday, one day earlier.",
       "cites": [
-        "wiki:article:Dancing_with_the_Stars_(American_TV_series)_season_35"
+        "wiki:rev:1383768245:111"
       ]
     },
     {
-      "t": "2026-11-03T00:00:09Z",
+      "t": "2026-11-03T00:00:08Z",
+      "text": "Cynthia Erivo served as the guest judge for Disney Night.",
+      "cites": [
+        "wiki:rev:1383768245:26"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "text": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026.",
+      "cites": [
+        "wiki:rev:1383768245:0"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
+      "text": "Readers also turned to Jenna Dewan (64,103).",
+      "cites": [
+        "views:en:Jenna_Dewan:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:33Z",
       "text": "135,810 people read about it on 3 November 2026: about 10× the usual.",
       "cites": [
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:prior"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:20Z",
-      "text": "Readers also turned to Jenna Dewan (64,103).",
-      "cites": [
-        "views:en:Jenna_Dewan:2026-11-03"
       ]
     }
   ],
@@ -121,15 +135,15 @@
   "chapters": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "title": "The story"
+      "title": "What happened"
     },
     {
-      "t": "2026-11-03T00:00:09Z",
-      "title": "Readers"
-    },
-    {
-      "t": "2026-11-03T00:00:20Z",
+      "t": "2026-11-03T00:00:24Z",
       "title": "Connected"
+    },
+    {
+      "t": "2026-11-03T00:00:33Z",
+      "title": "Readers"
     }
   ],
   "panels": [
@@ -400,12 +414,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:10Z",
-      "until": "2026-11-03T00:00:20Z"
+      "t": "2026-11-03T00:00:34Z",
+      "until": "2026-11-03T00:00:44Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T19:22:08Z"
+    "at": "2026-11-04T19:45:53Z"
   }
 }
