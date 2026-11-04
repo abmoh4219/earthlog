@@ -23,7 +23,7 @@ export function Credits() {
     ...(story ? [] : [nightCredit]),
     story ? "NASA Blue Marble: shaded relief and bathymetry" : "Blue Marble",
   ].join(" · ");
-  const dataCredit = bundle.sources.map((s) => s.attribution).join(" · ");
+  const dataCredit = [...new Set(bundle.sources.map((s) => s.attribution))].join(" · ");
 
   return (
     <div className="pointer-events-auto absolute inset-x-0 bottom-0 z-30 flex h-[9vh] items-end justify-center px-6 pb-2">

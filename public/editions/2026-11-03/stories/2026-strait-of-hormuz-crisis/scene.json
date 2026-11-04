@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:59Z"
+    "end": "2026-11-03T00:01:17Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -34,7 +34,13 @@
     {
       "kind": "arcs",
       "file": "data/arcs.json",
-      "from": "2026-11-03T00:00:42Z"
+      "from": "2026-11-03T00:01:00Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-week.json",
+      "name": "week",
+      "from": "2026-11-03T00:00:32Z"
     }
   ],
   "camera": [
@@ -101,34 +107,61 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:34Z",
-      "lon": 56.28333333,
-      "lat": 25.22916667,
-      "range": 1100000,
-      "heading": 20,
-      "pitch": -42,
+      "t": "2026-11-03T00:00:35Z",
+      "lon": 52,
+      "lat": 24.5,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -45,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:42Z",
+      "lon": 52,
+      "lat": 24.5,
+      "range": 1358307.7707206125,
+      "heading": 14,
+      "pitch": -42.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:38Z",
+      "t": "2026-11-03T00:00:48Z",
+      "lon": 52,
+      "lat": 24.5,
+      "range": 1230000,
+      "heading": 28,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:52Z",
       "lon": 56.28333333,
-      "lat": 25.22916667,
-      "range": 996092.3651951158,
-      "heading": 30.5,
+      "lat": 23.91666667,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:56Z",
+      "lon": 56.28333333,
+      "lat": 23.91666667,
+      "range": 1086646.2165764899,
+      "heading": -27.3,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:41Z",
+      "t": "2026-11-03T00:00:59Z",
       "lon": 56.28333333,
-      "lat": 25.22916667,
-      "range": 902000,
-      "heading": 41,
+      "lat": 23.91666667,
+      "range": 983999.9999999999,
+      "heading": -38.6,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:44Z",
+      "t": "2026-11-03T00:01:02Z",
       "lon": 56.39134796505904,
       "lat": 25.958373970153183,
       "range": 1500000,
@@ -137,25 +170,25 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:47Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": 56.39134796505904,
       "lat": 25.958373970153183,
       "range": 1358307.7707206125,
-      "heading": -9.7,
+      "heading": 9.7,
       "pitch": -52.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:50Z",
+      "t": "2026-11-03T00:01:08Z",
       "lon": 56.39134796505904,
       "lat": 25.958373970153183,
       "range": 1230000,
-      "heading": -19.4,
+      "heading": 19.4,
       "pitch": -50,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:53Z",
+      "t": "2026-11-03T00:01:11Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1430000,
@@ -164,29 +197,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:54Z",
+      "t": "2026-11-03T00:01:12Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1294920.0747536505,
-      "heading": -1.0999999999999996,
+      "heading": -18.9,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:55Z",
+      "t": "2026-11-03T00:01:13Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1172600,
-      "heading": 7.800000000000001,
+      "heading": -27.8,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:59Z",
+      "t": "2026-11-03T00:01:17Z",
       "lon": 31.283333330000005,
       "lat": 25.22916667,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -27.8,
       "pitch": -88,
       "move": "flight"
     }
@@ -228,21 +261,35 @@
     },
     {
       "t": "2026-11-03T00:00:32Z",
-      "text": "Began: 28 February 2026. Location: Strait of Hormuz.",
+      "text": "On 28 October, the Dutch Title Transfer Facility (TTF) front-month natural gas futures contract briefly reached €100 per megawatt-hour, approximately three times its pre-war level, according to Reuters.",
       "cites": [
-        "wd:Q138521100:P580",
-        "wd:Q138521100:P276"
+        "wiki:week:1383733327:424"
       ]
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:41Z",
+      "text": "The Nakilat-operated LNG carrier \"Al Mayeda\" was hit by \"unidentified objects\" in the Persian Gulf on the evening of 30 October 2026.",
+      "cites": [
+        "wiki:week:1383733327:264"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:49Z",
+      "text": "Figures as the article records them, each attributed there to its sources: casualties, 24 seafarers; 1 port worker; injured, 35+.",
+      "cites": [
+        "wiki:box:1383733327:casualties",
+        "wiki:box:1383733327:injured"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:00Z",
       "text": "Also named in the reports: Strait of Hormuz.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
+      "t": "2026-11-03T00:01:09Z",
       "text": "Reported by Reuters.",
       "cites": [
         "wiki:2026-11-03:1"
@@ -267,41 +314,62 @@
     },
     {
       "t": "2026-11-03T00:00:32Z",
-      "title": "On record"
+      "title": "Day by day"
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:49Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-03T00:01:00Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:00:51Z",
+      "t": "2026-11-03T00:01:09Z",
       "title": "Reported by"
     }
   ],
   "panels": [
     {
-      "id": "record",
+      "id": "week",
       "kind": "facts",
-      "title": "On record: 2026 Strait of Hormuz crisis",
-      "note": "As recorded in Wikidata (CC0).",
+      "title": "Places in the week's reports",
+      "note": "Places the article's dated sentences of the past seven days link to. Red: the latest; amber: a week ago.",
       "items": [
         {
-          "label": "Began",
-          "text": "28 February 2026",
+          "label": "Persian Gulf",
+          "text": "4 days before",
           "cites": [
-            "wd:Q138521100:P580"
-          ]
-        },
-        {
-          "label": "Location",
-          "text": "Strait of Hormuz",
-          "cites": [
-            "wd:Q138521100:P276"
+            "wiki:week:1383733327:264"
           ]
         }
       ],
       "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:42Z"
+      "until": "2026-11-03T00:00:49Z"
+    },
+    {
+      "id": "sides",
+      "kind": "facts",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "items": [
+        {
+          "label": "Casualties",
+          "text": "24 seafarers; 1 port worker",
+          "cites": [
+            "wiki:box:1383733327:casualties"
+          ]
+        },
+        {
+          "label": "Injured",
+          "text": "35+",
+          "cites": [
+            "wiki:box:1383733327:injured"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:50Z",
+      "until": "2026-11-03T00:01:00Z"
     },
     {
       "id": "sources",
@@ -318,12 +386,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:00:59Z"
+      "t": "2026-11-03T00:01:10Z",
+      "until": "2026-11-03T00:01:17Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T22:54:47Z"
+    "at": "2026-11-04T23:15:14Z"
   }
 }

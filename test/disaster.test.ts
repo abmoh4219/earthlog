@@ -55,3 +55,27 @@ describe("USGS ShakeMap and PAGER (M7.7 Panama, 2026-10-09)", () => {
     expect(text).toContain("2,013 people reported");
   });
 });
+
+describe("science lens facts", () => {
+  it("reads a spaceflight infobox", async () => {
+    const { readFacts } = await import("../scripts/lenses/science.ts");
+    const { anyInfobox } = await import("../scripts/lenses/election/infobox.ts");
+    const box = anyInfobox(`{{Infobox spaceflight
+| mission type = Crewed lunar [[Flyby (spaceflight)|flyby]]
+| operator = [[NASA]]
+| crew members = {{Unbulleted list  | [[Reid Wiseman]]  | [[Victor Glover]]  | [[Christina Koch]]  | [[Jeremy Hansen]] }}
+| launch date = April 1, 2026, 22:35:12&nbsp;[[UTC]] (6:35:12&nbsp;p.m.&nbsp;[[Eastern Daylight Time|EDT]])<ref name="t" />
+| launch rocket = [[Space Launch System]]
+| launch site = [[Kennedy Space Center|Kennedy]], [[Kennedy Space Center Launch Complex 39B|LC-39B]]
+| landing site = [[Pacific Ocean]] southwest of [[San Diego]] ({{Coord|32.3|N|117.8|W}})
+}}`);
+    const facts = readFacts(box?.params ?? new Map());
+    const get = (l: string) => facts.find((f) => f.label === l)?.text;
+    expect(get("Mission")).toBe("Crewed lunar flyby");
+    expect(get("Crew")).toBe("Reid Wiseman, Victor Glover, Christina Koch, Jeremy Hansen");
+    expect(get("Rocket")).toBe("Space Launch System");
+    expect(get("Launch site")).toBe("Kennedy, LC-39B");
+    expect(get("Launched")).toContain("April 1, 2026, 22:35:12 UTC");
+    expect(get("Launched")).not.toContain("EDT");
+  });
+});

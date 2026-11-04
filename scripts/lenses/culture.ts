@@ -78,6 +78,10 @@ export function boxItems(v: string): string[] {
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/<ref[^>]*\/>/g, "")
     .replace(/<ref[\s\S]*?<\/ref>/g, "")
+    .replace(/&nbsp;|&#160;/g, " ")
+    .replace(/&ndash;/g, "–")
+    .replace(/&mdash;/g, "—")
+    .replace(/&amp;/g, "&")
     // Links first, so a piped link's "|" can't split a template's arguments.
     .replace(/\[\[(?:[^\]|]*\|)?([^\]]+)\]\]/g, "$1");
   for (let i = 0; i < 4; i++)
@@ -171,11 +175,14 @@ export function linkedSentences(raw: string): { text: string; links: string[] }[
     .replace(/\[\[(?:File|Image|Category):[^\]]*\]\]/gi, "");
   for (let i = 0; i < 4; i++)
     w = w.replace(/\{\{([^{}]*)\}\}/g, (_, body: string) => expandTemplate(body));
-  const prose = w
+  // Each paragraph is split on its own: headings ("==== November ====") and lists never
+  // glue onto the sentence before or after them.
+  const paragraphs = w
     .split("\n")
-    .filter((l) => l.trim() && !/^[|{}!*#:;]/.test(l.trim()))
-    .join(" ");
-  return splitSentences(prose)
+    .map((l) => l.trim())
+    .filter((l) => l && !/^[|{}!*#:;=]/.test(l));
+  return paragraphs
+    .flatMap((p) => splitSentences(p))
     .map((s) => ({
       links: links(s),
       text: s

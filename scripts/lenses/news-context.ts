@@ -80,7 +80,12 @@ export function expandTemplate(body: string): string {
   const parts = body.split("|").map((p) => p.trim());
   const name = (parts[0] ?? "").toLowerCase();
   const args = parts.slice(1).filter((p) => !p.includes("="));
-  if (name === "convert" || name === "cvt") return args.length >= 2 ? `${args[0]} ${args[1]}` : "";
+  if (name === "convert" || name === "cvt") {
+    // Large plain numbers get separators ("700237 mi" → "700,237 mi"); "3200 m" stays as written.
+    const n =
+      args[0] && /^\d{5,}$/.test(args[0]) ? Number(args[0]).toLocaleString("en-GB") : args[0];
+    return args.length >= 2 ? `${n} ${args[1]}` : "";
+  }
   if (["nowrap", "nobr", "small", "big", "sic", "lang-en"].includes(name)) return args.join(" ");
   if (name === "lang" || name.startsWith("lang-")) return args.at(-1) ?? "";
   if (name === "abbr") return args[0] ?? "";

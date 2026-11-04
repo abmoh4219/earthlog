@@ -10,6 +10,7 @@ import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, writeJson } from "./bake/lib.ts";
 import { fetchPortal, parsePortal } from "./bake/wikinews.ts";
 import { accidentLens } from "./lenses/accident.ts";
+import { conflictLens } from "./lenses/conflict.ts";
 import { cultureLens } from "./lenses/culture.ts";
 import { disasterLens } from "./lenses/disaster.ts";
 import { economyLens } from "./lenses/economy.ts";
@@ -19,17 +20,18 @@ import { generalLens, type LensContext, type LensResult } from "./lenses/general
 import { revisionCutoff, setRevisionCutoff } from "./lenses/news-context.ts";
 import { organizationLens } from "./lenses/organization.ts";
 import { personLens } from "./lenses/person.ts";
+import { scienceLens } from "./lenses/science.ts";
 import { sportsLens } from "./lenses/sports.ts";
 
 /** Which lens films which kind of story. Specialised lenses replace `general` phase by phase. */
 const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
   election: electionLens,
-  conflict: generalLens,
+  conflict: conflictLens,
   accident: accidentLens,
   disaster: disasterLens,
   sports: sportsLens,
   economy: economyLens,
-  science: generalLens,
+  science: scienceLens,
   culture: cultureLens,
   organization: organizationLens,
   person: personLens,

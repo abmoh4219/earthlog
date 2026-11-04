@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:52Z"
+    "end": "2026-11-03T00:01:05Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -34,7 +34,7 @@
     {
       "kind": "arcs",
       "file": "data/arcs.json",
-      "from": "2026-11-03T00:00:35Z"
+      "from": "2026-11-03T00:00:48Z"
     }
   ],
   "camera": [
@@ -103,32 +103,32 @@
     {
       "t": "2026-11-03T00:00:27Z",
       "lon": 6.25,
-      "lat": 11.47916667,
-      "range": 1100000,
-      "heading": 20,
+      "lat": 10.16666667,
+      "range": 1200000,
+      "heading": -16,
       "pitch": -42,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:31Z",
+      "t": "2026-11-03T00:00:37Z",
       "lon": 6.25,
-      "lat": 11.47916667,
-      "range": 996092.3651951158,
-      "heading": 30.5,
+      "lat": 10.16666667,
+      "range": 1086646.2165764899,
+      "heading": -2,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:34Z",
+      "t": "2026-11-03T00:00:47Z",
       "lon": 6.25,
-      "lat": 11.47916667,
-      "range": 902000,
-      "heading": 41,
+      "lat": 10.16666667,
+      "range": 983999.9999999999,
+      "heading": 12,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:37Z",
+      "t": "2026-11-03T00:00:50Z",
       "lon": 7.129519401504661,
       "lat": 10.284539671193409,
       "range": 1500000,
@@ -137,7 +137,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:40Z",
+      "t": "2026-11-03T00:00:53Z",
       "lon": 7.129519401504661,
       "lat": 10.284539671193409,
       "range": 1358307.7707206125,
@@ -146,7 +146,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:43Z",
+      "t": "2026-11-03T00:00:56Z",
       "lon": 7.129519401504661,
       "lat": 10.284539671193409,
       "range": 1230000,
@@ -155,7 +155,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:46Z",
+      "t": "2026-11-03T00:00:59Z",
       "lon": 6.25,
       "lat": 11.47916667,
       "range": 1430000,
@@ -164,7 +164,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:47Z",
+      "t": "2026-11-03T00:01:00Z",
       "lon": 6.25,
       "lat": 11.47916667,
       "range": 1294920.0747536505,
@@ -173,7 +173,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:48Z",
+      "t": "2026-11-03T00:01:01Z",
       "lon": 6.25,
       "lat": 11.47916667,
       "range": 1172600,
@@ -182,7 +182,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:52Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": -18.75,
       "lat": 11.47916667,
       "range": 14000000,
@@ -221,21 +221,37 @@
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Date: 1998. Location: Nigeria.",
+      "text": "The article lists three sides: Christians, Adara, Berom, Jukun, Tiv and Tarok farmers; Muslims, Fulani and Hausa herders; Nigerian Armed Forces, Nigeria Police Force.",
       "cites": [
-        "wd:Q21039541:P585",
-        "wd:Q21039541:P276"
+        "wiki:box:1383141847:side-1",
+        "wiki:box:1383141847:side-2",
+        "wiki:box:1383141847:side-3"
       ]
     },
     {
-      "t": "2026-11-03T00:00:35Z",
+      "t": "2026-11-03T00:00:33Z",
+      "text": "Status, as the article records it: Ongoing.",
+      "cites": [
+        "wiki:box:1383141847:status"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:40Z",
+      "text": "Figures as the article records them, each attributed there to its sources: casualties (side 1), 4,877–28,551 civilians killed; casualties (side 2), 10,519 civilians killed.",
+      "cites": [
+        "wiki:box:1383141847:casualties-side-1-",
+        "wiki:box:1383141847:casualties-side-2-"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:48Z",
       "text": "Also named in the reports: Nigeria.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
-      "t": "2026-11-03T00:00:44Z",
+      "t": "2026-11-03T00:00:57Z",
       "text": "Reported by Reuters.",
       "cites": [
         "wiki:2026-11-03:2"
@@ -260,48 +276,76 @@
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "title": "On record"
+      "title": "Sides and figures"
     },
     {
-      "t": "2026-11-03T00:00:35Z",
+      "t": "2026-11-03T00:00:48Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:00:44Z",
+      "t": "2026-11-03T00:00:57Z",
       "title": "Reported by"
     }
   ],
   "panels": [
     {
-      "id": "record",
+      "id": "sides",
       "kind": "facts",
-      "title": "On record: Communal conflicts in Nigeria",
-      "note": "As recorded in Wikidata (CC0).",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
       "items": [
         {
-          "label": "Date",
-          "text": "1998",
+          "label": "Side 1",
+          "text": "Christians, Adara, Berom, Jukun, Tiv and Tarok farmers",
           "cites": [
-            "wd:Q21039541:P585"
+            "wiki:box:1383141847:side-1"
           ]
         },
         {
-          "label": "Location",
-          "text": "Nigeria",
+          "label": "Side 2",
+          "text": "Muslims, Fulani and Hausa herders",
           "cites": [
-            "wd:Q21039541:P276"
+            "wiki:box:1383141847:side-2"
           ]
         },
         {
-          "label": "Country",
-          "text": "Nigeria",
+          "label": "Side 3",
+          "text": "Nigerian Armed Forces, Nigeria Police Force",
           "cites": [
-            "wd:Q21039541:P17"
+            "wiki:box:1383141847:side-3"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing",
+          "cites": [
+            "wiki:box:1383141847:status"
+          ]
+        },
+        {
+          "label": "Casualties (side 1)",
+          "text": "4,877–28,551 civilians killed",
+          "cites": [
+            "wiki:box:1383141847:casualties-side-1-"
+          ]
+        },
+        {
+          "label": "Casualties (side 2)",
+          "text": "10,519 civilians killed",
+          "cites": [
+            "wiki:box:1383141847:casualties-side-2-"
+          ]
+        },
+        {
+          "label": "Casualties",
+          "text": "Unknown",
+          "cites": [
+            "wiki:box:1383141847:casualties"
           ]
         }
       ],
       "t": "2026-11-03T00:00:26Z",
-      "until": "2026-11-03T00:00:35Z"
+      "until": "2026-11-03T00:00:48Z"
     },
     {
       "id": "sources",
@@ -318,12 +362,12 @@
           ]
         }
       ],
-      "t": "2026-11-03T00:00:45Z",
-      "until": "2026-11-03T00:00:52Z"
+      "t": "2026-11-03T00:00:58Z",
+      "until": "2026-11-03T00:01:05Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T22:54:47Z"
+    "at": "2026-11-04T23:15:15Z"
   }
 }

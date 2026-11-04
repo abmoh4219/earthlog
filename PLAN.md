@@ -275,10 +275,15 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 **Checkpoint 12:** `feat: accident and disaster lenses on real terrain`
 
-## Phase 13 · Conflict, science and space lenses (about 3 h)
+## Phase 13 · Conflict, science and space lenses (about 3 h) ✅
 
 - **Conflict:** every place mentioned, day by day; attributed figures; sensors where they exist (IODA, FIRMS). Story: the Strait of Hormuz ship attack.
 - **Science and space:** launch site, mission path (labelled as estimated), institutions.
+
+**Done (2026-11-05):**
+- **Conflict:** Day by day (the article's dated sentences of the past week, with a year or added in the past eight days by revision diff; the places they link, red for the latest, amber a week old) → Sides and figures (the infobox's belligerents, status and casualty figures, "as the article records them") → Connectivity (IODA, only when the signal dropped below 90% of usual; otherwise neither the chapter nor its credit ships). FIRMS fire data needs a key: left out.
+- **Science and space:** Launch (the pad on real terrain, a column of light rising from it) → The mission or The discovery (crew, spacecraft, maker, duration, distance, discoverer) → Landing (the dashed line joins launch and splashdown and says it is not the path flown). Tested on Artemis II; no science story in the 2026-11-03 edition.
+- Shared: sentences are split per paragraph (headings no longer glue onto sentences); infobox values decode `&nbsp;` and similar; large converted numbers get separators; credits list each attribution once.
 
 **Checkpoint 13:** `feat: conflict, science and space lenses`
 
