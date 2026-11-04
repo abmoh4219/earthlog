@@ -8,6 +8,7 @@ import { DataPanel } from "./DataPanel";
 import { GlobeView } from "./GlobeView";
 import { Help } from "./Help";
 import { Hud } from "./Hud";
+import { Legend } from "./Legend";
 import { Letterbox } from "./Letterbox";
 import { Panels } from "./Panels";
 import { StoryCard } from "./StoryCard";
@@ -45,6 +46,7 @@ export function Player({
       <Hud scene={bundle.scene} {...(back ? { back } : {})} />
       <DataPanel />
       <Panels />
+      <Legend />
       <StoryCard />
       <Captions />
       <Transport />

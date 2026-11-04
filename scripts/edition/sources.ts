@@ -102,6 +102,8 @@ export interface WdEntity {
   times?: Record<string, string[]>;
   /** Numbers per property, e.g. P1128 → employees. */
   quantities?: Record<string, number[]>;
+  /** Plain string values per property, e.g. P465 → "003CBA" (sRGB colour). */
+  strings?: Record<string, string[]>;
 }
 
 const ItemValue = z.object({ id: z.string() });
@@ -125,6 +127,7 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
     let died: string | undefined;
     const times: Record<string, string[]> = {};
     const quantities: Record<string, number[]> = {};
+    const strings: Record<string, string[]> = {};
     for (const [prop, claims] of Object.entries(e.claims ?? {})) {
       for (const c of claims) {
         const v = c.mainsnak.datavalue?.value;
@@ -135,6 +138,7 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
           if (cv.success) coord = { lat: cv.data.latitude, lon: cv.data.longitude };
         }
         if (prop === "P297" && typeof v === "string") iso2 = v;
+        if (typeof v === "string") strings[prop] = [...(strings[prop] ?? []), v];
         const tv = TimeValue.safeParse(v);
         if (tv.success) {
           times[prop] = [...(times[prop] ?? []), wdDate(tv.data.time, tv.data.precision)];
@@ -156,6 +160,7 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
       ...(died ? { died } : {}),
       ...(Object.keys(times).length ? { times } : {}),
       ...(Object.keys(quantities).length ? { quantities } : {}),
+      ...(Object.keys(strings).length ? { strings } : {}),
     });
   }
   return out;

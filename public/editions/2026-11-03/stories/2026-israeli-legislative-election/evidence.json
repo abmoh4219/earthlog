@@ -67,5 +67,113 @@
     "precision": "day",
     "label": "Wikidata, \"2026 Israeli legislative election\": country Israel",
     "url": "https://www.wikidata.org/wiki/Q115632366#P17"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party1",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Likud (Benjamin Netanyahu): 27 seats, 20.52% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party2",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Yashar (Gadi Eisenkot): 21 seats, 16.05% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party3",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Together (Israel) (Naftali Bennett): 12 seats, 9.34% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party4",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Joint List (Yousef Jabareen): 11 seats, 8.79% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party5",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Democrats (Yair Golan): 8 seats, 6.44% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party7",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Ra'am (Mansour Abbas): 8 seats, 5.93% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party6",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Yisrael Beiteinu (Avigdor Lieberman): 7 seats, 5.93% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party8",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Otzma Yehudit (Itamar Ben-Gvir): 7 seats, 5.74% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party9",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): United Torah Judaism (Ya'akov Asher): 7 seats, 5.49% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party10",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): Shas (Aryeh Deri): 6 seats, 5.26% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party11",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): RZP–Zehut (Bezalel Smotrich): 6 seats, 5.1% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:summary",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-04 14:09 UTC): All 120 seats in the Knesset; 61 for a majority; turnout 77.97%; as of 17:40, 29 October 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1383734926"
   }
 ]

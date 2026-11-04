@@ -21,6 +21,24 @@ export interface LensContext {
   at: string;
 }
 
+/**
+ * How a specialised lens builds on `general`: it receives the general chapters and layers
+ * and may splice in, replace or drop chapters (matched by title) before the film is built.
+ */
+export interface LensHooks {
+  shape?: (parts: {
+    chapters: ChapterDraft[];
+    layers: LayerData[];
+    /** Register new evidence; returns its id. */
+    add: (e: Evidence) => string;
+    /** Ship an edition evidence item; returns its id if it exists. */
+    use: (id: string) => string | undefined;
+    home: Shot;
+  }) => void | Promise<void>;
+  /** Sources credited by the lens's layers (e.g. map shapes), shipped even if uncited. */
+  sources?: Source[];
+}
+
 export interface LensResult {
   scene: Scene;
   evidence: Evidence[];
@@ -96,7 +114,7 @@ function dateText(d: string): string {
 
 // ── The lens ─────────────────────────────────────────────────────────────────────
 
-export async function generalLens(ctx: LensContext): Promise<LensResult> {
+export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Promise<LensResult> {
   const { date, story, countries, at } = ctx;
   const dayStart = `${date}T00:00:00Z`;
   const dayLabel = dateText(date);
@@ -414,6 +432,7 @@ export async function generalLens(ctx: LensContext): Promise<LensResult> {
     });
   }
 
+  await hooks.shape?.({ chapters, layers, add, use, home });
   if (!chapters.length) throw new Error(`${story.slug}: nothing citable to film`);
 
   const scene = buildFilm({ date, story, chapters, layers, at });
@@ -452,7 +471,9 @@ export async function generalLens(ctx: LensContext): Promise<LensResult> {
       attribution: "Wikidata contributors",
       retrievedAt: at,
     },
-  ].filter((s) => sourceIds.has(s.id));
+  ]
+    .filter((s) => sourceIds.has(s.id))
+    .concat(hooks.sources ?? []);
   return { scene, evidence: shipped, sources, layers };
 }
 

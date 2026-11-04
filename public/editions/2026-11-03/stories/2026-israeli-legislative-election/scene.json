@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:38Z"
+    "end": "2026-11-03T00:00:34Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -23,12 +23,12 @@
   "layers": [
     {
       "kind": "places",
-      "file": "data/places.json",
-      "from": "2026-11-03T00:00:09Z"
+      "file": "data/places.json"
     },
     {
       "kind": "regions",
-      "file": "data/regions.json",
+      "file": "data/regions-result.json",
+      "name": "result",
       "from": "2026-11-03T00:00:09Z"
     }
   ],
@@ -63,18 +63,18 @@
       "lat": 29.5975,
       "range": 4200000,
       "heading": 0,
-      "pitch": -55
+      "pitch": -60
     },
     {
-      "t": "2026-11-03T00:00:16Z",
+      "t": "2026-11-03T00:00:22Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 4494000,
       "heading": 6,
-      "pitch": -55
+      "pitch": -60
     },
     {
-      "t": "2026-11-03T00:00:19Z",
+      "t": "2026-11-03T00:00:25Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 6300000,
@@ -82,7 +82,7 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:27Z",
+      "t": "2026-11-03T00:00:33Z",
       "lon": 34.85,
       "lat": 29.5975,
       "range": 6741000,
@@ -90,27 +90,11 @@
       "pitch": -62
     },
     {
-      "t": "2026-11-03T00:00:30Z",
+      "t": "2026-11-03T00:00:34Z",
       "lon": 34.85,
       "lat": 29.5975,
-      "range": 4200000,
-      "heading": 20,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:37Z",
-      "lon": 34.85,
-      "lat": 29.5975,
-      "range": 4494000,
-      "heading": 26,
-      "pitch": -55
-    },
-    {
-      "t": "2026-11-03T00:00:38Z",
-      "lon": 34.85,
-      "lat": 29.5975,
-      "range": 7190400,
-      "heading": 26,
+      "range": 10785600,
+      "heading": 6,
       "pitch": -80
     }
   ],
@@ -129,19 +113,26 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:17Z",
+      "t": "2026-11-03T00:00:09Z",
+      "text": "Likud, led by Benjamin Netanyahu, won the most seats: 27, short of the 61 needed for a majority.",
+      "cites": [
+        "elex:2026-israeli-legislative-election:party1",
+        "elex:2026-israeli-legislative-election:summary"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "text": "Turnout: 77.97%.",
+      "cites": [
+        "elex:2026-israeli-legislative-election:summary"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:23Z",
       "text": "60,786 people read about it on 3 November 2026: about 6× the usual.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:en:2026_Israeli_legislative_election:prior"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:28Z",
-      "text": "Date: 27 October 2026. Country: Israel.",
-      "cites": [
-        "wd:Q115632366:P585",
-        "wd:Q115632366:P17"
       ]
     }
   ],
@@ -153,18 +144,143 @@
     },
     {
       "t": "2026-11-03T00:00:09Z",
-      "title": "Where"
+      "title": "The result"
     },
     {
-      "t": "2026-11-03T00:00:17Z",
+      "t": "2026-11-03T00:00:23Z",
       "title": "Readers"
-    },
-    {
-      "t": "2026-11-03T00:00:28Z",
-      "title": "On record"
     }
   ],
   "panels": [
+    {
+      "id": "seats",
+      "kind": "bars",
+      "title": "Seats won",
+      "unit": "seats",
+      "note": "All 120 seats in the Knesset · 61 for a majority. As recorded by Wikipedia (17:40, 29 October 2026).",
+      "items": [
+        {
+          "label": "Likud",
+          "value": 27,
+          "text": "27 (was 36)",
+          "color": "#608aac",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party1"
+          ]
+        },
+        {
+          "label": "Yashar",
+          "value": 21,
+          "text": "21",
+          "color": "#6fa8dc",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party2"
+          ]
+        },
+        {
+          "label": "Together (Israel)",
+          "value": 12,
+          "text": "12 (was 24)",
+          "color": "#ffd166",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party3"
+          ]
+        },
+        {
+          "label": "Joint List",
+          "value": 11,
+          "text": "11 (was 5)",
+          "color": "#5ce69a",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party4"
+          ]
+        },
+        {
+          "label": "Democrats",
+          "value": 8,
+          "text": "8 (was 4)",
+          "color": "#717deb",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party5"
+          ]
+        },
+        {
+          "label": "Ra'am",
+          "value": 8,
+          "text": "8 (was 5)",
+          "color": "#2caa2c",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party7"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:10Z",
+      "until": "2026-11-03T00:00:23Z"
+    },
+    {
+      "id": "votes",
+      "kind": "bars",
+      "title": "Share of the vote",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Likud",
+          "value": 20.52,
+          "text": "20.52%",
+          "color": "#608aac",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party1"
+          ]
+        },
+        {
+          "label": "Yashar",
+          "value": 16.05,
+          "text": "16.05%",
+          "color": "#6fa8dc",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party2"
+          ]
+        },
+        {
+          "label": "Together (Israel)",
+          "value": 9.34,
+          "text": "9.34%",
+          "color": "#ffd166",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party3"
+          ]
+        },
+        {
+          "label": "Joint List",
+          "value": 8.79,
+          "text": "8.79%",
+          "color": "#5ce69a",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party4"
+          ]
+        },
+        {
+          "label": "Democrats",
+          "value": 6.44,
+          "text": "6.44%",
+          "color": "#717deb",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party5"
+          ]
+        },
+        {
+          "label": "Ra'am",
+          "value": 5.93,
+          "text": "5.93%",
+          "color": "#2caa2c",
+          "cites": [
+            "elex:2026-israeli-legislative-election:party7"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:10Z",
+      "until": "2026-11-03T00:00:23Z"
+    },
     {
       "id": "readers",
       "kind": "line",
@@ -303,36 +419,12 @@
         }
       ],
       "mark": 29,
-      "t": "2026-11-03T00:00:18Z",
-      "until": "2026-11-03T00:00:28Z"
-    },
-    {
-      "id": "record",
-      "kind": "facts",
-      "title": "On record: 2026 Israeli legislative election",
-      "note": "As recorded in Wikidata (CC0).",
-      "items": [
-        {
-          "label": "Date",
-          "text": "27 October 2026",
-          "cites": [
-            "wd:Q115632366:P585"
-          ]
-        },
-        {
-          "label": "Country",
-          "text": "Israel",
-          "cites": [
-            "wd:Q115632366:P17"
-          ]
-        }
-      ],
-      "t": "2026-11-03T00:00:29Z",
-      "until": "2026-11-03T00:00:38Z"
+      "t": "2026-11-03T00:00:24Z",
+      "until": "2026-11-03T00:00:34Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T14:45:41Z"
+    "at": "2026-11-04T18:36:14Z"
   }
 }

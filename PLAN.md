@@ -177,22 +177,24 @@
 
 **Checkpoint 5:** `feat: story films with chapters, panels and new globe layers`
 
-## Phase 6 · Election lens: the midterms in red and blue (about 4 h)
+## Phase 6 · Election lens: any election, anywhere (about 4 h) ✅
 
-**Build:**
+**The engine is generic; countries only add depth.** Three layers:
 
-- Parsers for Wikipedia's US Senate, House and governor results tables (winner, party, hold or gain, vote shares where given), pinned to the exact revision baked.
-- **Globe:** states (Senate, governors) and congressional districts (House) filled by winning party; flips pulse; uncalled races hatched grey; a "called as of HH:MM UTC per Wikipedia" stamp.
-- **Panels:** chamber seat bars before → after, flips list, vote-share bars for the closest races, readers per candidate.
-- **Film:** establish the chamber stakes, tour the flips, close on the new balance.
-- Geometry: Natural Earth admin-1 states and Census districts, simplified to fit the 5 MB budget.
+1. **Universal, any country:** parse Wikipedia's *election infobox* (used by almost every election article worldwide): parties or candidates, leaders, seats before and after, vote share, turnout. Party colours from Wikipedia/Wikidata. Globe: the country lit in the leading party's colour. Panels: seat bars before → after, vote-share bars, turnout.
+2. **Regional map, where the article has results by region:** match region names to Natural Earth admin-1 shapes (worldwide) and fill each by its winning party.
+3. **Country adapters, for the deepest maps:** the US first (Senate and governors by state, House by district; flips pulse; uncalled races hatched grey). Other countries can be added later as adapters.
+
+**Honesty:** results as recorded by Wikipedia at bake time, with that time on screen; "called" or "projected", never "certified"; races not yet called stay grey; no results yet → candidates and what's at stake, nothing guessed.
 
 **Acceptance:**
 
-- [ ] The 2026 midterms story film shows every Senate and governor race and every House district, coloured from the baked revision, with uncalled races shown as uncalled.
-- [ ] Parser tests against recorded wikitext, including "hold", "gain" and uncalled rows.
+- [x] The same lens films **both** elections of 3 Nov 2026: the US midterms (states and districts in red and blue) and Israel's legislative election (seats and vote share).
+- [x] Parser tests against recorded wikitext, including "hold", "gain", uncalled rows and an infobox from a non-US election.
 
-**Checkpoint 6:** `feat: election lens with the 2026 midterms`
+**Done (2026-11-04):** the US film has three maps (Senate: 35 races; governors: 36; House: 435 districts from the Census's 120th-Congress shapes), seat bars from the infobox, and the seats that changed party with their winners. Israel's film shows seats and vote share for every party in its Wikidata colour. The regional layer (results by province for any country) is **not built yet**: it needs per-region results tables, which vary by article; it moves to the backlog.
+
+**Checkpoint 6:** `feat: election lens for any election, with a US adapter`
 
 ## Phase 7 · Person lens: a life across the globe (about 3 h)
 
@@ -267,6 +269,7 @@
 ## Phase 16 · The front page and the archive (about 3 h)
 
 - `/`: the latest edition. The globe at dawn, story beacons sized by heat and coloured by lens, a story rail; click a beacon to fly into its film.
+- **The edition tour:** press play on the front page and the camera flies from story to story around the planet, each stop building its own analysis (maps, charts, facts) in a few seconds, with a "watch the full story" link. Grab the globe at any time to explore.
 - `/edition/[date]`: any day, with a calendar strip; the day at a glance links to every story.
 - The intro: the camera falling from orbit onto the morning's edition.
 
@@ -315,7 +318,7 @@
 
 ## After launch (backlog, roughly in order)
 
-1. **More countries' elections** in the election lens (generic Wikipedia results parsing)
+1. **Election regional layer** for any country (results by province or state, matched to Natural Earth admin-1 shapes), and more country adapters
 2. **Flights layer** for accidents and airspace (adsb.lol archives, ODbL; heavy data)
 3. **Voice narration** (kokoro-js, in the browser)
 4. **Weather at the time** for accidents and disasters (Open-Meteo archive, CC BY 4.0; verify)

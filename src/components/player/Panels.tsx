@@ -24,7 +24,7 @@ export function Panels() {
   const panels = (bundle?.scene.panels ?? []).filter((p) => visible.split("|").includes(p.id));
 
   return (
-    <div className="pointer-events-none absolute top-[calc(9vh+8.5rem)] right-6 z-20 hidden w-[340px] flex-col gap-3 md:flex">
+    <div className="pointer-events-none absolute top-[calc(9vh+8.5rem)] right-6 bottom-[calc(9vh+6rem)] z-20 hidden w-[340px] flex-col gap-3 overflow-hidden md:flex">
       <AnimatePresence mode="popLayout">
         {panels.map((p) => (
           <motion.section

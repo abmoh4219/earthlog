@@ -50,6 +50,11 @@ export const LayerRef = z.object({
   kind: LayerKind,
   /** Path inside the bundle folder, e.g. "data/outages.json". */
   file: z.string().regex(/^data\/[a-z0-9-]+\.json$/),
+  /** Distinguishes several layers of one kind (e.g. "senate" and "house" regions). */
+  name: z
+    .string()
+    .regex(/^[a-z0-9-]+$/)
+    .optional(),
   /** Optional span in which the layer is shown (story films reveal layers chapter by chapter). */
   from: IsoUtc.optional(),
   until: IsoUtc.optional(),
@@ -324,6 +329,10 @@ export const ArcsLayer = z.object({
  */
 export const RegionsLayer = z.object({
   kind: z.literal("regions"),
+  name: z
+    .string()
+    .regex(/^[a-z0-9-]+$/)
+    .optional(),
   regions: z.array(
     z.object({
       id: z.string().min(1),

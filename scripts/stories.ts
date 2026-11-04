@@ -1,18 +1,21 @@
 // pnpm stories [YYYY-MM-DD] [slug]   (default: yesterday, every story)
 // Films each story of an edition with its lens → public/editions/<date>/stories/<slug>/.
 // Run `pnpm edition <date>` first. Every film passes the validator before it is written.
+import { rm } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
 import { Edition, type Lens } from "../src/scene/edition.ts";
-import { Country, Evidence } from "../src/scene/schema.ts";
+import { Country, Evidence, LayerData, Scene, Source } from "../src/scene/schema.ts";
 import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, writeJson } from "./bake/lib.ts";
 import { fetchPortal, parsePortal } from "./bake/wikinews.ts";
+import { electionLens } from "./lenses/election/index.ts";
+import { layerKey } from "./lenses/film.ts";
 import { generalLens, type LensContext, type LensResult } from "./lenses/general.ts";
 
 /** Which lens films which kind of story. Specialised lenses replace `general` phase by phase. */
 const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
-  election: generalLens,
+  election: electionLens,
   conflict: generalLens,
   accident: generalLens,
   disaster: generalLens,
@@ -43,6 +46,11 @@ for (const story of edition.stories) {
   if (only && story.slug !== only) continue;
   try {
     const film = await LENS_FILMS[story.lens]({ date, story, evidence, news, countries, at });
+    // Schema first (ids, formats), then the cross-file rules: what the site will load must parse.
+    Scene.parse(film.scene);
+    z.array(Evidence).parse(film.evidence);
+    z.array(Source).parse(film.sources);
+    for (const layer of film.layers) LayerData.parse(layer);
     const errors = validateBundle({
       scene: film.scene,
       evidence: film.evidence,
@@ -50,9 +58,10 @@ for (const story of edition.stories) {
     });
     if (errors.length) throw new Error(errors.join("; "));
     const out = join(dir, "stories", story.slug);
+    await rm(out, { recursive: true, force: true }); // no stale layer files from older films
     let bytes = 0;
     for (const layer of film.layers)
-      bytes += await writeJson(join(out, "data", `${layer.kind}.json`), layer, false);
+      bytes += await writeJson(join(out, "data", `${layerKey(layer)}.json`), layer, false);
     bytes += await writeJson(join(out, "scene.json"), film.scene);
     bytes += await writeJson(join(out, "evidence.json"), film.evidence);
     bytes += await writeJson(join(out, "sources.json"), film.sources);

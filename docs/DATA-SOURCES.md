@@ -63,6 +63,11 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 - **The Wikimedia feed sometimes omits `mostread`.** The downloader refuses to cache an incomplete answer and retries (seen 2026-11-04).
 - **An article's "normal" readership** comes from the per-article pageviews API, 60 to 8 days before the day. A 404 means the article had no views then: it's new.
 - **Most-read lists include noise:** the Main Page, `Special:` pages and lists like "Deaths in 2026". The builder drops them by title and by Wikidata type ("Wikimedia list article").
+- **Election infoboxes** (`{{Infobox election}}`, `{{Infobox legislative election}}`) share `partyN`, `leaderN`, `percentageN`, `seatsN`, `seats_beforeN`, `last_electionN`, `majority_seats`, `turnout`, `last_update`. `last_electionN` can be "New": not a number.
+- **US race tables** mark a called race's winner with `{{aye}}`; no `{{aye}}` means not called. The same race appears in prediction and retirement tables too, so the row with a winner wins. Minnesota's Democrats appear as "(DFL)". Governor rows write "[[2026 Alabama gubernatorial election|Alabama]]" (state before office).
+- **Infobox totals run ahead of race tables:** at 9:15 AM ET on 4 Nov the House infobox showed 231–139 while the race tables still had 97 districts uncalled. Films show both, each labelled with its own timestamp.
+- **US Census TIGERweb** (`tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb`): `Legislative/MapServer/0` is the 120th Congress (2026) districts, `State_County/MapServer/0` the states; `f=geojson` with `maxAllowableOffset` returns simplified lon/lat polygons (districts 269 KB, states 64 KB). Public domain.
+- **Party colours:** Wikidata P465 ("sRGB colour hex triplet") on the party's item, e.g. Democratic `003CBA`, Republican `E9151E`. Dark colours are lightened for the dark globe.
 - **The MODIS sensors are ending** (Terra around February 2027, Aqua around September 2027). Prefer VIIRS layers.
 
 ## Later sources (backlog)

@@ -12,7 +12,6 @@ import type {
   NewsLayer,
   PlacesLayer,
   QuakeLayer,
-  RegionsLayer,
   SignalLayer,
   StormLayer,
 } from "@/scene/schema";
@@ -312,39 +311,67 @@ export function createOverlays(
     return { full, line, drawn: -1 };
   });
 
-  // 9. Regions: filled areas with outlines; colour per region, fading in on reveal.
-  const regionsLayer = layers.find((l): l is RegionsLayer => l.kind === "regions");
-  const regionFills = regionsLayer?.regions.length
-    ? scene.primitives.add(
-        new C.Primitive({
-          geometryInstances: regionsLayer.regions.flatMap((r) =>
-            r.rings.map(
-              (ring, i) =>
-                new C.GeometryInstance({
-                  id: `region:${r.id}:${i}`,
-                  geometry: new C.PolygonGeometry({
-                    polygonHierarchy: new C.PolygonHierarchy(ringPositions(ring, 0)),
-                    height: FILL_HEIGHT + 200,
-                    vertexFormat: C.PerInstanceColorAppearance.FLAT_VERTEX_FORMAT,
-                  }),
-                  attributes: {
-                    color: C.ColorGeometryInstanceAttribute.fromColor(C.Color.TRANSPARENT),
-                  },
+  // 9. Regions: one or more filled maps (e.g. Senate states, House districts), each with thin
+  //    outlines, revealed and hidden by its own LayerRef, fading over a second of scene time.
+  const regionMaps = layers.flatMap((l, index) => {
+    if (l.kind !== "regions" || l.regions.length === 0) return [];
+    const ref = refs[index];
+    const from = ref?.from ? ms(ref.from) : Number.NEGATIVE_INFINITY;
+    const until = ref?.until ? ms(ref.until) : Number.POSITIVE_INFINITY;
+    const fill = scene.primitives.add(
+      new C.Primitive({
+        geometryInstances: l.regions.flatMap((r) =>
+          r.rings.map(
+            (ring, i) =>
+              new C.GeometryInstance({
+                id: `region:${index}:${r.id}:${i}`,
+                geometry: new C.PolygonGeometry({
+                  polygonHierarchy: new C.PolygonHierarchy(ringPositions(ring, 0)),
+                  height: FILL_HEIGHT + 200 + index * 50,
+                  vertexFormat: C.PerInstanceColorAppearance.FLAT_VERTEX_FORMAT,
                 }),
-            ),
+                attributes: {
+                  color: C.ColorGeometryInstanceAttribute.fromColor(C.Color.TRANSPARENT),
+                },
+              }),
           ),
-          appearance: new C.PerInstanceColorAppearance({ flat: true, translucent: true }),
-          asynchronous: false,
-        }),
-      )
-    : undefined;
-  const regionColors = new Map(
-    (regionsLayer?.regions ?? []).map((r) => [
-      r.id,
-      { color: C.Color.fromCssColorString(r.color), opacity: r.opacity, rings: r.rings.length },
-    ]),
-  );
-  let regionAlpha = -1;
+        ),
+        appearance: new C.PerInstanceColorAppearance({ flat: true, translucent: true }),
+        asynchronous: false,
+      }),
+    );
+    const outline = scene.primitives.add(
+      new C.Primitive({
+        geometryInstances: l.regions.flatMap((r) =>
+          r.rings.map(
+            (ring) =>
+              new C.GeometryInstance({
+                geometry: new C.SimplePolylineGeometry({
+                  positions: ringPositions(
+                    [...ring, ring[0] ?? 0, ring[1] ?? 0],
+                    LINE_HEIGHT + 300,
+                  ),
+                  arcType: C.ArcType.GEODESIC,
+                }),
+                attributes: {
+                  color: C.ColorGeometryInstanceAttribute.fromColor(C.Color.WHITE.withAlpha(0.28)),
+                },
+              }),
+          ),
+        ),
+        appearance: new C.PerInstanceColorAppearance({ flat: true, translucent: true }),
+        asynchronous: false,
+        show: false,
+      }),
+    );
+    const colors = l.regions.map((r) => ({
+      id: r.id,
+      color: C.Color.fromCssColorString(r.color),
+      opacity: r.opacity,
+      rings: r.rings.length,
+    }));
+    return [{ index, from, until, fill, outline, colors, alpha: -1 }];
+  });
 
   const scratch = new C.Color();
   const lastText = new Map<string, string>();
@@ -385,18 +412,27 @@ export function createOverlays(
           a.drawn = n;
         }
       }
-      const rv = reveal("regions", t);
-      if (regionFills?.ready && rv !== regionAlpha) {
-        for (const [id, r] of regionColors) {
+      for (const map of regionMaps) {
+        const inside = t >= map.from && t < map.until;
+        const rv = !inside
+          ? 0
+          : map.from === Number.NEGATIVE_INFINITY
+            ? 1
+            : Math.min(1, (t - map.from) / 1200);
+        map.outline.show = rv > 0;
+        if (!map.fill.ready || rv === map.alpha) continue;
+        for (const r of map.colors) {
           const value = C.ColorGeometryInstanceAttribute.toValue(
             C.Color.clone(r.color, scratch).withAlpha(r.opacity * rv, scratch),
           );
           for (let i = 0; i < r.rings; i++) {
-            const attrs = regionFills.getGeometryInstanceAttributes(`region:${id}:${i}`);
+            const attrs = map.fill.getGeometryInstanceAttributes(
+              `region:${map.index}:${r.id}:${i}`,
+            );
             if (attrs) attrs.color = value;
           }
         }
-        regionAlpha = rv;
+        map.alpha = rv;
       }
 
       for (const m of stormMarks) {
@@ -446,7 +482,15 @@ export function createOverlays(
       }
     },
     destroy: () => {
-      for (const p of [borders, fills, labels, points, stormLines, arcLines, regionFills]) {
+      for (const p of [
+        borders,
+        fills,
+        labels,
+        points,
+        stormLines,
+        arcLines,
+        ...regionMaps.flatMap((m) => [m.fill, m.outline]),
+      ]) {
         if (p && !p.isDestroyed()) scene.primitives.remove(p);
       }
     },

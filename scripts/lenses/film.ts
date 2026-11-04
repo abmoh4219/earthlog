@@ -35,8 +35,15 @@ export interface ChapterDraft {
   /** Captions, shown one after another within the chapter. */
   beats: { text: string; cites: string[] }[];
   panels?: PanelDraft[];
-  /** Layer kinds revealed from this chapter on. */
-  reveal?: LayerData["kind"][];
+  /** Layers revealed from this chapter on, by key (`name`, or `kind` when unnamed). */
+  reveal?: string[];
+  /** Layers hidden from this chapter on, by key. */
+  hide?: string[];
+}
+
+/** A layer's key and file: "regions-senate" → data/regions-senate.json. */
+export function layerKey(l: LayerData): string {
+  return l.kind === "regions" && l.name ? `${l.kind}-${l.name}` : l.kind;
 }
 
 export interface FilmInput {
@@ -72,6 +79,7 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     },
   ];
   const revealAt = new Map<string, number>();
+  const hideAt = new Map<string, number>();
 
   let t = start;
   chapters.forEach((c, i) => {
@@ -91,7 +99,8 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     for (const p of c.panels ?? []) {
       panels.push({ ...p, t: iso(chStart + 1200), until: iso(chEnd) } as Panel);
     }
-    for (const kind of c.reveal ?? []) if (!revealAt.has(kind)) revealAt.set(kind, chStart);
+    for (const key of c.reveal ?? []) if (!revealAt.has(key)) revealAt.set(key, chStart);
+    for (const key of c.hide ?? []) if (!hideAt.has(key)) hideAt.set(key, chStart);
 
     // Arrive at the shot after a short flight, then drift slowly while it holds.
     const pose = {
@@ -116,11 +125,15 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     camera.push({ ...last, t: iso(end), range: Math.max(last.range * 1.6, 6e6), pitch: -80 });
 
   const refs: LayerRef[] = layers.map((l) => {
-    const from = revealAt.get(l.kind);
+    const key = layerKey(l);
+    const from = revealAt.get(key) ?? revealAt.get(l.kind);
+    const until = hideAt.get(key);
     return {
       kind: l.kind,
-      file: `data/${l.kind}.json`,
+      file: `data/${key}.json`,
+      ...(l.kind === "regions" && l.name ? { name: l.name } : {}),
       ...(from !== undefined ? { from: iso(from) } : {}),
+      ...(until !== undefined ? { until: iso(until) } : {}),
     };
   });
 
