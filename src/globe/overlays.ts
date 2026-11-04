@@ -5,13 +5,18 @@ import type * as CesiumNS from "cesium";
 import { heldSample, quakeLook, smoothRatio, stormAt, tintAlpha } from "@/scene/layers";
 import { categoryByKey } from "@/scene/news";
 import type {
+  ArcsLayer,
   Country,
   LayerData,
+  LayerRef,
   NewsLayer,
+  PlacesLayer,
   QuakeLayer,
+  RegionsLayer,
   SignalLayer,
   StormLayer,
 } from "@/scene/schema";
+import { ms } from "@/scene/schema";
 
 type Cesium = typeof CesiumNS;
 
@@ -35,6 +40,7 @@ export function createOverlays(
   scene: CesiumNS.Scene,
   countries: Country[],
   layers: LayerData[],
+  refs: LayerRef[] = [],
 ): Overlays {
   const signal = layers.find((l): l is SignalLayer => l.kind === "outages");
   const quakes = layers.find((l): l is QuakeLayer => l.kind === "quakes");
@@ -225,6 +231,121 @@ export function createOverlays(
     return { storm, all, travelled, eye, label, shown: -1 };
   });
 
+  // ── Story-film layers: revealed chapter by chapter (LayerRef.from/until). ──
+  const span = (kind: LayerData["kind"]) => {
+    const ref = refs.find((r) => r.kind === kind);
+    return {
+      from: ref?.from ? ms(ref.from) : Number.NEGATIVE_INFINITY,
+      until: ref?.until ? ms(ref.until) : Number.POSITIVE_INFINITY,
+    };
+  };
+  /** 0 before the layer's reveal, easing to 1 over a second of scene time. */
+  const reveal = (kind: LayerData["kind"], t: number) => {
+    const { from, until } = span(kind);
+    if (t < from || t >= until) return 0;
+    return from === Number.NEGATIVE_INFINITY ? 1 : Math.min(1, (t - from) / 1200);
+  };
+
+  // 7. Places: pins with names; the primary one pulses.
+  const placesLayer = layers.find((l): l is PlacesLayer => l.kind === "places");
+  const placeMarks = (placesLayer?.places ?? []).map((p) => {
+    const color = C.Color.fromCssColorString(p.color ?? ICE);
+    const position = C.Cartesian3.fromDegrees(p.lon, p.lat, 6_000);
+    const ring = p.primary
+      ? points.add({
+          position,
+          color: C.Color.TRANSPARENT,
+          outlineColor: color,
+          outlineWidth: 2,
+          show: false,
+        })
+      : undefined;
+    const dot = points.add({
+      position,
+      pixelSize: p.primary ? 13 : 9,
+      color,
+      outlineColor: C.Color.BLACK.withAlpha(0.7),
+      outlineWidth: 1.5,
+      show: false,
+    });
+    const name = labels.add({
+      position,
+      text: p.name.toUpperCase(),
+      font: `600 ${p.primary ? 14 : 12}px ${font}`,
+      fillColor: p.primary ? C.Color.WHITE : color,
+      outlineColor: C.Color.BLACK.withAlpha(0.9),
+      outlineWidth: 3,
+      style: C.LabelStyle.FILL_AND_OUTLINE,
+      verticalOrigin: C.VerticalOrigin.BOTTOM,
+      pixelOffset: new C.Cartesian2(0, -14),
+      show: false,
+    });
+    return { color, ring, dot, name };
+  });
+
+  // 8. Arcs: great circles lifted off the surface, drawn in from start to end.
+  const arcsLayer = layers.find((l): l is ArcsLayer => l.kind === "arcs");
+  const arcLines = scene.primitives.add(new C.PolylineCollection());
+  const ARC_STEPS = 64;
+  const arcs = (arcsLayer?.arcs ?? []).map((a) => {
+    const geo = new C.EllipsoidGeodesic(
+      C.Cartographic.fromDegrees(a.from[0], a.from[1]),
+      C.Cartographic.fromDegrees(a.to[0], a.to[1]),
+    );
+    const lift = Math.min(1.2e6, geo.surfaceDistance * 0.18);
+    const full = Array.from({ length: ARC_STEPS + 1 }, (_, i) => {
+      const f = i / ARC_STEPS;
+      const c = geo.interpolateUsingFraction(f);
+      return C.Cartesian3.fromRadians(
+        c.longitude,
+        c.latitude,
+        8_000 + Math.sin(Math.PI * f) * lift,
+      );
+    });
+    const color = C.Color.fromCssColorString(a.color ?? ICE);
+    const line = arcLines.add({
+      positions: full.slice(0, 2),
+      width: 2,
+      material: C.Material.fromType("Color", { color: color.withAlpha(0.85) }),
+      show: false,
+    });
+    return { full, line, drawn: -1 };
+  });
+
+  // 9. Regions: filled areas with outlines; colour per region, fading in on reveal.
+  const regionsLayer = layers.find((l): l is RegionsLayer => l.kind === "regions");
+  const regionFills = regionsLayer?.regions.length
+    ? scene.primitives.add(
+        new C.Primitive({
+          geometryInstances: regionsLayer.regions.flatMap((r) =>
+            r.rings.map(
+              (ring, i) =>
+                new C.GeometryInstance({
+                  id: `region:${r.id}:${i}`,
+                  geometry: new C.PolygonGeometry({
+                    polygonHierarchy: new C.PolygonHierarchy(ringPositions(ring, 0)),
+                    height: FILL_HEIGHT + 200,
+                    vertexFormat: C.PerInstanceColorAppearance.FLAT_VERTEX_FORMAT,
+                  }),
+                  attributes: {
+                    color: C.ColorGeometryInstanceAttribute.fromColor(C.Color.TRANSPARENT),
+                  },
+                }),
+            ),
+          ),
+          appearance: new C.PerInstanceColorAppearance({ flat: true, translucent: true }),
+          asynchronous: false,
+        }),
+      )
+    : undefined;
+  const regionColors = new Map(
+    (regionsLayer?.regions ?? []).map((r) => [
+      r.id,
+      { color: C.Color.fromCssColorString(r.color), opacity: r.opacity, rings: r.rings.length },
+    ]),
+  );
+  let regionAlpha = -1;
+
   const scratch = new C.Color();
   const lastText = new Map<string, string>();
 
@@ -243,6 +364,41 @@ export function createOverlays(
           pin.pulse.outlineColor = pin.color.withAlpha(1 - beat, scratch);
         }
       }
+      // Story-film layers.
+      const pv = reveal("places", t);
+      for (const m of placeMarks) {
+        m.dot.show = pv > 0;
+        m.name.show = pv > 0 && showLabels;
+        if (pv > 0) m.dot.color = m.color.withAlpha(pv, m.dot.color);
+        if (m.ring) {
+          m.ring.show = pv > 0;
+          m.ring.pixelSize = 14 + beat * 44;
+          m.ring.outlineColor = m.color.withAlpha((1 - beat) * pv, scratch);
+        }
+      }
+      const av = reveal("arcs", t);
+      for (const a of arcs) {
+        const n = Math.max(2, Math.round(av * ARC_STEPS) + 1);
+        a.line.show = av > 0;
+        if (av > 0 && n !== a.drawn) {
+          a.line.positions = a.full.slice(0, n);
+          a.drawn = n;
+        }
+      }
+      const rv = reveal("regions", t);
+      if (regionFills?.ready && rv !== regionAlpha) {
+        for (const [id, r] of regionColors) {
+          const value = C.ColorGeometryInstanceAttribute.toValue(
+            C.Color.clone(r.color, scratch).withAlpha(r.opacity * rv, scratch),
+          );
+          for (let i = 0; i < r.rings; i++) {
+            const attrs = regionFills.getGeometryInstanceAttributes(`region:${id}:${i}`);
+            if (attrs) attrs.color = value;
+          }
+        }
+        regionAlpha = rv;
+      }
+
       for (const m of stormMarks) {
         const at = stormAt(m.storm, t);
         m.eye.show = at !== null;
@@ -290,7 +446,7 @@ export function createOverlays(
       }
     },
     destroy: () => {
-      for (const p of [borders, fills, labels, points, stormLines]) {
+      for (const p of [borders, fills, labels, points, stormLines, arcLines, regionFills]) {
         if (p && !p.isDestroyed()) scene.primitives.remove(p);
       }
     },

@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-dancing-with-the-stars-american-tv-series-season-35",
+  "title": "Dancing with the Stars (American TV series) season 35",
+  "subtitle": "Culture · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:29Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 37664000,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 24000000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 25680000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:22Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 32000000,
+      "heading": 0,
+      "pitch": -85
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34240000,
+      "heading": 6,
+      "pitch": -85
+    },
+    {
+      "t": "2026-11-03T00:00:29Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 54784000,
+      "heading": 6,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026…",
+      "cites": [
+        "wiki:article:Dancing_with_the_Stars_(American_TV_series)_season_35"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "135,810 people read about it on 3 November 2026: about 10× the usual.",
+      "cites": [
+        "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
+        "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:20Z",
+      "text": "Readers also turned to Jenna Dewan (64,103).",
+      "cites": [
+        "views:en:Jenna_Dewan:2026-11-03"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:20Z",
+      "title": "Connected"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "Dancing with the Stars (American TV series) season 35",
+          "color": "#ff8fd0",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 8738
+            },
+            {
+              "x": "10-06",
+              "y": 14156
+            },
+            {
+              "x": "10-07",
+              "y": 122159
+            },
+            {
+              "x": "10-08",
+              "y": 24917
+            },
+            {
+              "x": "10-09",
+              "y": 13079
+            },
+            {
+              "x": "10-10",
+              "y": 10258
+            },
+            {
+              "x": "10-11",
+              "y": 9310
+            },
+            {
+              "x": "10-12",
+              "y": 9400
+            },
+            {
+              "x": "10-13",
+              "y": 15302
+            },
+            {
+              "x": "10-14",
+              "y": 129908
+            },
+            {
+              "x": "10-15",
+              "y": 29373
+            },
+            {
+              "x": "10-16",
+              "y": 15701
+            },
+            {
+              "x": "10-17",
+              "y": 15744
+            },
+            {
+              "x": "10-18",
+              "y": 15083
+            },
+            {
+              "x": "10-19",
+              "y": 11498
+            },
+            {
+              "x": "10-20",
+              "y": 17279
+            },
+            {
+              "x": "10-21",
+              "y": 151353
+            },
+            {
+              "x": "10-22",
+              "y": 32464
+            },
+            {
+              "x": "10-23",
+              "y": 15341
+            },
+            {
+              "x": "10-24",
+              "y": 11021
+            },
+            {
+              "x": "10-25",
+              "y": 9979
+            },
+            {
+              "x": "10-26",
+              "y": 9447
+            },
+            {
+              "x": "10-27",
+              "y": 14841
+            },
+            {
+              "x": "10-28",
+              "y": 173121
+            },
+            {
+              "x": "10-29",
+              "y": 31321
+            },
+            {
+              "x": "10-30",
+              "y": 14624
+            },
+            {
+              "x": "10-31",
+              "y": 10692
+            },
+            {
+              "x": "11-01",
+              "y": 9486
+            },
+            {
+              "x": "11-02",
+              "y": 13183
+            },
+            {
+              "x": "11-03",
+              "y": 135810
+            }
+          ],
+          "cites": [
+            "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:30d"
+          ]
+        },
+        {
+          "label": "Jenna Dewan",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 6229
+            },
+            {
+              "x": "10-06",
+              "y": 5896
+            },
+            {
+              "x": "10-07",
+              "y": 41472
+            },
+            {
+              "x": "10-08",
+              "y": 11981
+            },
+            {
+              "x": "10-09",
+              "y": 8216
+            },
+            {
+              "x": "10-10",
+              "y": 7550
+            },
+            {
+              "x": "10-11",
+              "y": 6619
+            },
+            {
+              "x": "10-12",
+              "y": 5994
+            },
+            {
+              "x": "10-13",
+              "y": 6983
+            },
+            {
+              "x": "10-14",
+              "y": 31892
+            },
+            {
+              "x": "10-15",
+              "y": 11188
+            },
+            {
+              "x": "10-16",
+              "y": 8593
+            },
+            {
+              "x": "10-17",
+              "y": 9934
+            },
+            {
+              "x": "10-18",
+              "y": 16379
+            },
+            {
+              "x": "10-19",
+              "y": 11974
+            },
+            {
+              "x": "10-20",
+              "y": 8120
+            },
+            {
+              "x": "10-21",
+              "y": 54277
+            },
+            {
+              "x": "10-22",
+              "y": 17005
+            },
+            {
+              "x": "10-23",
+              "y": 10803
+            },
+            {
+              "x": "10-24",
+              "y": 9855
+            },
+            {
+              "x": "10-25",
+              "y": 9963
+            },
+            {
+              "x": "10-26",
+              "y": 8138
+            },
+            {
+              "x": "10-27",
+              "y": 7186
+            },
+            {
+              "x": "10-28",
+              "y": 22524
+            },
+            {
+              "x": "10-29",
+              "y": 9439
+            },
+            {
+              "x": "10-30",
+              "y": 7436
+            },
+            {
+              "x": "10-31",
+              "y": 8335
+            },
+            {
+              "x": "11-01",
+              "y": 6931
+            },
+            {
+              "x": "11-02",
+              "y": 5672
+            },
+            {
+              "x": "11-03",
+              "y": 64103
+            }
+          ],
+          "cites": [
+            "views:en:Jenna_Dewan:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:10Z",
+      "until": "2026-11-03T00:00:20Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

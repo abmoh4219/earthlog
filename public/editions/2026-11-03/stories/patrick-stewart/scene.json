@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-patrick-stewart",
+  "title": "Patrick Stewart",
+  "subtitle": "People · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:47Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -128.24367999999998,
+    "south": 26.05223,
+    "east": -108.24368,
+    "north": 42.05223
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 3960000.0000000005,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 4237200.000000001,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 1800000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 1926000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 2700000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 2889000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:30Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 1800000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "lon": -118.24368,
+      "lat": 33.48973,
+      "range": 1926000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:40Z",
+      "lon": -59.96624,
+      "lat": 41.42202055555556,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:46Z",
+      "lon": -59.96624,
+      "lat": 41.42202055555556,
+      "range": 23540000,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:47Z",
+      "lon": -59.96624,
+      "lat": 41.42202055555556,
+      "range": 37664000,
+      "heading": 6,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Sir Patrick Stewart was an English actor. With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award…",
+      "cites": [
+        "wiki:article:Patrick_Stewart"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "82,458 people read about it on 3 November 2026: about 21× the usual.",
+      "cites": [
+        "views:en:Patrick_Stewart:2026-11-03",
+        "views:en:Patrick_Stewart:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "Born: 13 July 1940. Birthplace: Mirfield.",
+      "cites": [
+        "wd:Q16296:P569",
+        "wd:Q16296:P19"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "title": "Connected"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "Patrick Stewart",
+          "color": "#f5c2a0",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 3724
+            },
+            {
+              "x": "10-06",
+              "y": 3293
+            },
+            {
+              "x": "10-07",
+              "y": 3628
+            },
+            {
+              "x": "10-08",
+              "y": 3446
+            },
+            {
+              "x": "10-09",
+              "y": 3389
+            },
+            {
+              "x": "10-10",
+              "y": 4064
+            },
+            {
+              "x": "10-11",
+              "y": 3862
+            },
+            {
+              "x": "10-12",
+              "y": 3762
+            },
+            {
+              "x": "10-13",
+              "y": 3594
+            },
+            {
+              "x": "10-14",
+              "y": 3324
+            },
+            {
+              "x": "10-15",
+              "y": 3225
+            },
+            {
+              "x": "10-16",
+              "y": 3207
+            },
+            {
+              "x": "10-17",
+              "y": 4538
+            },
+            {
+              "x": "10-18",
+              "y": 3963
+            },
+            {
+              "x": "10-19",
+              "y": 3312
+            },
+            {
+              "x": "10-20",
+              "y": 3369
+            },
+            {
+              "x": "10-21",
+              "y": 3195
+            },
+            {
+              "x": "10-22",
+              "y": 3301
+            },
+            {
+              "x": "10-23",
+              "y": 3347
+            },
+            {
+              "x": "10-24",
+              "y": 4141
+            },
+            {
+              "x": "10-25",
+              "y": 4089
+            },
+            {
+              "x": "10-26",
+              "y": 4563
+            },
+            {
+              "x": "10-27",
+              "y": 4277
+            },
+            {
+              "x": "10-28",
+              "y": 3775
+            },
+            {
+              "x": "10-29",
+              "y": 2356552
+            },
+            {
+              "x": "10-30",
+              "y": 1882386
+            },
+            {
+              "x": "10-31",
+              "y": 450119
+            },
+            {
+              "x": "11-01",
+              "y": 205436
+            },
+            {
+              "x": "11-02",
+              "y": 132688
+            },
+            {
+              "x": "11-03",
+              "y": 82458
+            }
+          ],
+          "cites": [
+            "views:en:Patrick_Stewart:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Patrick Stewart",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Born",
+          "text": "13 July 1940",
+          "cites": [
+            "wd:Q16296:P569"
+          ]
+        },
+        {
+          "label": "Birthplace",
+          "text": "Mirfield",
+          "cites": [
+            "wd:Q16296:P19"
+          ]
+        },
+        {
+          "label": "Died",
+          "text": "28 October 2026",
+          "cites": [
+            "wd:Q16296:P570"
+          ]
+        },
+        {
+          "label": "Place of death",
+          "text": "Los Angeles",
+          "cites": [
+            "wd:Q16296:P20"
+          ]
+        },
+        {
+          "label": "Occupation",
+          "text": "television actor, film actor",
+          "cites": [
+            "wd:Q16296:P106"
+          ]
+        },
+        {
+          "label": "Citizenship",
+          "text": "United Kingdom",
+          "cites": [
+            "wd:Q16296:P27"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

@@ -48,6 +48,9 @@ function scene(over: Partial<Scene> = {}): Scene {
     ],
     pacing: [],
     beats: [{ t: "2025-04-28T10:40:00Z", text: "ok", cites: ["ioda:ES:ping:2025-04-28T10:40Z"] }],
+    time: "real",
+    chapters: [],
+    panels: [],
     generatedBy: { method: "template", at: "2026-11-04T12:00:00Z" },
     ...over,
   };

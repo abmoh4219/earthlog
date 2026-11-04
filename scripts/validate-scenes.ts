@@ -58,11 +58,28 @@ for (const day of days.sort()) {
       ...sources.filter((s) => !s.license.trim()).map((s) => `source ${s.id}: missing licence`),
     ];
     if (edition.date !== day) errors.push(`edition date ${edition.date} ≠ folder ${day}`);
+    // Story films: each one is a full bundle and passes the same validator as classics.
+    const films = await readdir(join(dir, "stories")).catch(() => [] as string[]);
+    for (const slug of films) {
+      const f = join(dir, "stories", slug);
+      const scene = Scene.parse(await read(join(f, "scene.json")));
+      const ev = z.array(Evidence).parse(await read(join(f, "evidence.json")));
+      const src = z.array(Source).parse(await read(join(f, "sources.json")));
+      for (const e of validateBundle({ scene, evidence: ev, sources: src }))
+        errors.push(`${slug}: ${e}`);
+      for (const layer of scene.layers) {
+        const data = LayerData.safeParse(await read(join(f, layer.file)).catch(() => null));
+        if (!data.success) errors.push(`${slug}: layer ${layer.file} invalid or missing`);
+      }
+      if (!edition.stories.some((s) => s.slug === slug)) errors.push(`${slug}: not in the edition`);
+    }
     if (errors.length) {
       failed++;
       console.error(`✗ edition ${day}\n  ${errors.join("\n  ")}`);
     } else {
-      console.log(`✓ edition ${day}: ${edition.stories.length} stories, all evidence present`);
+      console.log(
+        `✓ edition ${day}: ${edition.stories.length} stories, ${films.length} films, all cited`,
+      );
     }
   } catch (err) {
     failed++;

@@ -158,7 +158,7 @@
 
 **Checkpoint 4:** `feat: edition builder discovers, types and ranks yesterday's stories`
 
-## Phase 5 · The story-film engine (about 3 h)
+## Phase 5 · The story-film engine (about 3 h) ✅
 
 **Build:**
 
@@ -170,8 +170,10 @@
 
 **Acceptance:**
 
-- [ ] Every story of the 3 Nov edition plays as a `general` story film with at least one panel.
-- [ ] Panel values and captions pass the validator; no clock is shown in story time.
+- [x] Every story of the 3 Nov edition plays as a `general` story film with at least one panel. *(14 films, 20–55 s, up to 6 chapters: the story, where, readers, on record, connected, reported by.)*
+- [x] Panel values and captions pass the validator; no clock is shown in story time.
+
+**Done differently (2026-11-04):** in story time the globe is **fully lit** with the day's satellite image (no day/night terminator, no night lights), because an explainer has no time of day.
 
 **Checkpoint 5:** `feat: story films with chapters, panels and new globe layers`
 

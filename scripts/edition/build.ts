@@ -163,6 +163,17 @@ export function buildEdition(input: BuildInput): {
       (diedNow ? 2 : 0);
 
     const place = placeOf(c, items[0]?.story, leadQid, entities, countries, date);
+    if (place?.evidence?.startsWith("wd:") && leadQid) {
+      addEvidence({
+        id: place.evidence,
+        kind: "sensor",
+        source: "wikidata",
+        t: dayStart,
+        precision: "day",
+        label: `Wikidata: ${place.role ?? "place"} of "${entities.get(leadQid)?.label ?? leadQid}": ${place.name}`,
+        url: `https://www.wikidata.org/wiki/${leadQid}`,
+      });
+    }
     const country = place?.country
       ? countries.find((x) => x.code === place.country)
       : place
@@ -224,10 +235,12 @@ export function buildEdition(input: BuildInput): {
     // News-only stories are titled by what happened, not by the broad topic they sit under.
     const title = c.lead?.title ?? headline(firstNews?.raw?.text ?? c.topic ?? "Untitled");
     const summary = firstNews?.raw?.text ?? c.lead?.description ?? "";
+    const about = c.lead?.extract;
     const story: Omit<EditionStory, "slug" | "heat"> & { rawHeat: number } = {
       lens,
       title,
       summary,
+      ...(about ? { about } : {}),
       ...(c.lead
         ? {
             article: {
@@ -360,8 +373,26 @@ function placeOf(
     const country = p.country
       ? countries.find((x) => x.name === p.name || x.aliases.includes(p.name))
       : countryAt(p.lon, p.lat, countries);
-    return { name: p.name, lon: p.lon, lat: p.lat, ...(country ? { country: country.code } : {}) };
+    return {
+      name: p.name,
+      lon: p.lon,
+      lat: p.lat,
+      ...(country ? { country: country.code } : {}),
+      role: "Where it was reported",
+      evidence: newsStory.evidence,
+    };
   }
+  const ROLE: Record<string, string> = {
+    P625: "Location",
+    P20: "Place of death",
+    P159: "Headquarters",
+    P276: "Location",
+    P131: "Located in",
+    P17: "Country",
+    P495: "Country of origin",
+    P27: "Country of citizenship",
+  };
+  const cite = (prop: string) => ({ role: ROLE[prop] ?? "Place", evidence: `wd:${qid}:${prop}` });
   const e = qid ? entities.get(qid) : undefined;
   if (!e) return undefined;
   const at = (id: string | undefined) => (id ? entities.get(id) : undefined);
@@ -382,13 +413,13 @@ function placeOf(
       ...(country ? { country: country.code } : {}),
     };
   };
-  if (e.coord) return named(e, e.coord);
+  if (e.coord) return { ...named(e, e.coord), ...cite("P625") };
   const recentDeath =
     e.died !== undefined && Math.abs(Date.parse(e.died) - Date.parse(date)) < 14 * 86_400_000;
   const placeProps = recentDeath ? ["P20", "P159", "P276", "P131"] : ["P159", "P276", "P131"];
   for (const prop of placeProps) {
     const p = at(e.items[prop]?.[0]);
-    if (p?.coord) return named(p, p.coord);
+    if (p?.coord) return { ...named(p, p.coord), ...cite(prop) };
   }
   // The country: of the event, of origin, of citizenship; for a season or an episode, of the
   // series it belongs to (P179 "part of the series", P361 "part of").
@@ -402,6 +433,8 @@ function placeOf(
           lon: country.label[0],
           lat: country.label[1],
           country: country.code,
+          // Inherited from the series (a TV season): cite only the story's own claims.
+          ...(holder === e ? cite(prop) : { role: ROLE[prop] ?? "Country" }),
         };
       }
     }

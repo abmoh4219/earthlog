@@ -1,0 +1,89 @@
+[
+  {
+    "id": "views:en:Ramayana:_Part_1:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 72,890 readers of \"Ramayana: Part 1\" on 3 Nov 2026",
+    "value": 72890,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Ramayana:_Part_1:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Ramayana: Part 1\": normally a median of 7,342 readers a day (8 to 60 days before)",
+    "value": 7342,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q135196186:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"Ramayana: Rise of a Legend\" is an instance of film",
+    "url": "https://www.wikidata.org/wiki/Q135196186",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:Ramayana:_Part_1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Ramayana: Part 1\"",
+    "quote": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the epic poem Ramayana by Valmiki, which chronicles the life and trials of Prince Rama. It is the first of a two-part film. The film stars Ranbir Kapoor, Yash, Sai Pallavi, Sunny Deol, Ravi Dubey, Anupam Kher, Kajal Aggarwal, Rakul Preet Singh, Vivek Oberoi, Kunal Kapoor, Adinath Kothare, Arun Govil, Indira Krishnan, and Lara Dutta.",
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
+  },
+  {
+    "id": "views:en:Ramayana:_Part_1:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Ramayana: Part 1\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Ramayana%3A_Part_1&range=latest-30"
+  },
+  {
+    "id": "wd:Q135196186:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ramayana: Rise of a Legend\": released 8 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q135196186#P577"
+  },
+  {
+    "id": "wd:Q135196186:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ramayana: Rise of a Legend\": director Nitesh Tiwari",
+    "url": "https://www.wikidata.org/wiki/Q135196186#P57"
+  },
+  {
+    "id": "wd:Q135196186:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ramayana: Rise of a Legend\": genre epic film",
+    "url": "https://www.wikidata.org/wiki/Q135196186#P136"
+  },
+  {
+    "id": "wd:Q135196186:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ramayana: Rise of a Legend\": country of origin India",
+    "url": "https://www.wikidata.org/wiki/Q135196186#P495"
+  }
+]

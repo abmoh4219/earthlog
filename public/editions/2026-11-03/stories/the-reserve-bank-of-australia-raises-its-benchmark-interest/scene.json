@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-the-reserve-bank-of-australia-raises-its-benchmark-interest",
+  "title": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25…",
+  "subtitle": "Economy · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:25Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 141.2117,
+    "south": -41.8681,
+    "east": 161.2117,
+    "north": -25.8681
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 3960000.0000000005,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 4237200.000000001,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 1800000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 1926000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 2340000,
+      "heading": -10,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:24Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 2503800,
+      "heading": -4,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:25Z",
+      "lon": 151.2117,
+      "lat": -34.4306,
+      "range": 6000000,
+      "heading": -4,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008…",
+      "cites": [
+        "wiki:2026-11-03:4"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "Reserve Bank of Australia.",
+      "cites": [
+        "wiki:2026-11-03:4"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "Reported by AFP via France 24.",
+      "cites": [
+        "wiki:2026-11-03:4"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AFP via France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/live-news/20261103-australian-central-bank-lifts-key-interest-rate-to-18-year-high",
+          "cites": [
+            "wiki:2026-11-03:4"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:25Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

@@ -57,7 +57,7 @@ pnpm install
 pnpm dev                          # http://localhost:3000
 ```
 
-Then open a classic, for example http://localhost:3000/replay/iberia-2025, or the day at a glance for 3 November 2026: http://localhost:3000/replay/daily-2026-11-03.
+Then open the edition of 3 November 2026: http://localhost:3000/edition/2026-11-03 (every story is a film), or a classic such as http://localhost:3000/replay/iberia-2025.
 Keys: <kbd>Space</kbd> play/pause · <kbd>←</kbd>/<kbd>→</kbd> seek · <kbd>?</kbd> all shortcuts.
 
 **Rebuild data** (free public sources, cached in `.cache/`):
@@ -66,6 +66,7 @@ Keys: <kbd>Space</kbd> play/pause · <kbd>←</kbd>/<kbd>→</kbd> seek · <kbd>
 pnpm bake iberia-2025             # a classic
 pnpm bake daily 2026-11-03        # a day at a glance
 pnpm edition 2026-11-03           # find, type and rank that day's stories
+pnpm stories 2026-11-03           # film every story of that edition
 pnpm validate:scenes              # every sentence must cite real evidence
 ```
 

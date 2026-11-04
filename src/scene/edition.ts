@@ -52,6 +52,8 @@ export const EditionStory = z.object({
   title: z.string().min(1),
   /** One plain sentence: the news item, or the article's short description. */
   summary: z.string(),
+  /** The main article's opening sentences (Wikipedia, CC BY-SA), when known. */
+  about: z.string().optional(),
   /** The story's main Wikipedia article, if it has one. */
   article: z
     .object({
@@ -70,6 +72,9 @@ export const EditionStory = z.object({
       lat: z.number(),
       /** ISO alpha-2 of the country the place is in, when known. */
       country: z.string().length(2).optional(),
+      /** What the place is, e.g. "Place of death" or "Headquarters"; cited by `evidence`. */
+      role: z.string().optional(),
+      evidence: EvidenceId.optional(),
     })
     .optional(),
   continent: Continent.optional(),

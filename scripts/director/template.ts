@@ -74,6 +74,9 @@ export function templateScene(
     camera: cameraPlan(def),
     pacing: pacingPlan(def, beats, fast, hold, readSeconds),
     beats,
+    time: "real",
+    chapters: [],
+    panels: [],
     generatedBy: { method: "template", at },
   };
 }

@@ -36,13 +36,80 @@ export const PaceMark = z.object({
   speed: z.number().positive(),
 });
 
-export const LayerKind = z.enum(["outages", "quakes", "news", "storms"]);
+export const LayerKind = z.enum([
+  "outages",
+  "quakes",
+  "news",
+  "storms",
+  "places",
+  "arcs",
+  "regions",
+]);
 
 export const LayerRef = z.object({
   kind: LayerKind,
   /** Path inside the bundle folder, e.g. "data/outages.json". */
   file: z.string().regex(/^data\/[a-z0-9-]+\.json$/),
+  /** Optional span in which the layer is shown (story films reveal layers chapter by chapter). */
+  from: IsoUtc.optional(),
+  until: IsoUtc.optional(),
 });
+
+/** A story film's chapter: everything from `t` until the next chapter. */
+export const Chapter = z.object({
+  t: IsoUtc,
+  title: z.string().min(1).max(60),
+});
+
+/** One cited row of a panel. */
+export const PanelItem = z.object({
+  label: z.string().min(1),
+  /** Display text, e.g. "4,500" or "San Francisco". */
+  text: z.string().optional(),
+  /** Numeric value, for bars. */
+  value: z.number().optional(),
+  color: z.string().optional(),
+  url: z.url().optional(),
+  cites: z.array(EvidenceId).min(1, "every panel value must cite evidence"),
+});
+
+const PanelBase = {
+  id: z.string().min(1),
+  /** Shown from t until `until` (default: the next panel in the same slot, or the end). */
+  t: IsoUtc,
+  until: IsoUtc.optional(),
+  title: z.string().min(1),
+  /** Small print under the panel: units, method, caveats. */
+  note: z.string().optional(),
+};
+
+export const Panel = z.discriminatedUnion("kind", [
+  z.object({ ...PanelBase, kind: z.literal("facts"), items: z.array(PanelItem).min(1) }),
+  z.object({
+    ...PanelBase,
+    kind: z.literal("bars"),
+    unit: z.string(),
+    items: z.array(PanelItem.extend({ value: z.number() })).min(1),
+  }),
+  z.object({
+    ...PanelBase,
+    kind: z.literal("line"),
+    unit: z.string(),
+    series: z
+      .array(
+        z.object({
+          label: z.string(),
+          color: z.string().optional(),
+          /** x is a label (e.g. a date), y the value; drawn in order. */
+          points: z.array(z.object({ x: z.string(), y: z.number() })).min(2),
+          cites: z.array(EvidenceId).min(1),
+        }),
+      )
+      .min(1),
+    /** Index of the point to highlight (e.g. the story's day). */
+    mark: z.number().int().optional(),
+  }),
+]);
 
 export const Scene = z.object({
   version: z.literal(1),
@@ -78,6 +145,13 @@ export const Scene = z.object({
   camera: z.array(Keyframe).min(1),
   pacing: z.array(PaceMark).default([]),
   beats: z.array(Beat).default([]),
+  /**
+   * "real": the clock is UTC (sensor replays). "story": the timeline is the film's chapters
+   * and the HUD shows chapter titles instead of a clock (ADR-0013).
+   */
+  time: z.enum(["real", "story"]).default("real"),
+  chapters: z.array(Chapter).default([]),
+  panels: z.array(Panel).default([]),
   generatedBy: z.object({
     method: z.enum(["template", "claude", "hand"]),
     model: z.string().optional(),
@@ -218,11 +292,61 @@ export const StormLayer = z.object({
   storms: z.array(Storm),
 });
 
+/** Labelled places; the primary one gets a beacon. */
+export const PlacesLayer = z.object({
+  kind: z.literal("places"),
+  places: z.array(
+    z.object({
+      name: z.string().min(1),
+      lon: z.number(),
+      lat: z.number(),
+      color: z.string().optional(),
+      primary: z.boolean().optional(),
+    }),
+  ),
+});
+
+/** Arcs between places, drawn as lifted great circles. */
+export const ArcsLayer = z.object({
+  kind: z.literal("arcs"),
+  arcs: z.array(
+    z.object({
+      from: z.tuple([z.number(), z.number()]),
+      to: z.tuple([z.number(), z.number()]),
+      color: z.string().optional(),
+    }),
+  ),
+});
+
+/**
+ * Filled regions (countries, states, districts) with their own outlines, so any geometry
+ * works. A legend explains the colours.
+ */
+export const RegionsLayer = z.object({
+  kind: z.literal("regions"),
+  regions: z.array(
+    z.object({
+      id: z.string().min(1),
+      name: z.string(),
+      rings: z.array(z.array(z.number())),
+      color: z.string(),
+      /** 0–1 fill opacity. */
+      opacity: z.number().min(0).max(1).default(0.45),
+      /** Hatched (striped) fill, e.g. for "not yet called". */
+      hatched: z.boolean().optional(),
+    }),
+  ),
+  legend: z.array(z.object({ label: z.string(), color: z.string() })).default([]),
+});
+
 export const LayerData = z.discriminatedUnion("kind", [
   SignalLayer,
   QuakeLayer,
   NewsLayer,
   StormLayer,
+  PlacesLayer,
+  ArcsLayer,
+  RegionsLayer,
 ]);
 
 /** Natural Earth outlines, shared by all scenes (public/geo/countries.json). */
@@ -246,6 +370,12 @@ export type Quake = z.infer<typeof Quake>;
 export type QuakeLayer = z.infer<typeof QuakeLayer>;
 export type LayerData = z.infer<typeof LayerData>;
 export type Country = z.infer<typeof Country>;
+export type Chapter = z.infer<typeof Chapter>;
+export type Panel = z.infer<typeof Panel>;
+export type PanelItem = z.infer<typeof PanelItem>;
+export type PlacesLayer = z.infer<typeof PlacesLayer>;
+export type ArcsLayer = z.infer<typeof ArcsLayer>;
+export type RegionsLayer = z.infer<typeof RegionsLayer>;
 export type NewsStory = z.infer<typeof NewsStory>;
 export type NewsLayer = z.infer<typeof NewsLayer>;
 export type Storm = z.infer<typeof Storm>;

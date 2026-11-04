@@ -1,0 +1,338 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-2026-israeli-legislative-election",
+  "title": "2026 Israeli legislative election",
+  "subtitle": "Election · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:38Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 24.85,
+    "south": 22.91,
+    "east": 44.85,
+    "north": 38.91
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 9240000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 9886800,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 4200000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 4494000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 6300000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 6741000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:30Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 4200000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 4494000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "lon": 34.85,
+      "lat": 29.5975,
+      "range": 7190400,
+      "heading": 26,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister…",
+      "cites": [
+        "wiki:article:2026_Israeli_legislative_election"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "60,786 people read about it on 3 November 2026: about 6× the usual.",
+      "cites": [
+        "views:en:2026_Israeli_legislative_election:2026-11-03",
+        "views:en:2026_Israeli_legislative_election:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "Date: 27 October 2026. Country: Israel.",
+      "cites": [
+        "wd:Q115632366:P585",
+        "wd:Q115632366:P17"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "title": "On record"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "2026 Israeli legislative election",
+          "color": "#b49bff",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 12357
+            },
+            {
+              "x": "10-06",
+              "y": 10872
+            },
+            {
+              "x": "10-07",
+              "y": 12818
+            },
+            {
+              "x": "10-08",
+              "y": 11758
+            },
+            {
+              "x": "10-09",
+              "y": 10053
+            },
+            {
+              "x": "10-10",
+              "y": 9149
+            },
+            {
+              "x": "10-11",
+              "y": 10153
+            },
+            {
+              "x": "10-12",
+              "y": 11099
+            },
+            {
+              "x": "10-13",
+              "y": 10577
+            },
+            {
+              "x": "10-14",
+              "y": 11320
+            },
+            {
+              "x": "10-15",
+              "y": 12933
+            },
+            {
+              "x": "10-16",
+              "y": 12341
+            },
+            {
+              "x": "10-17",
+              "y": 11472
+            },
+            {
+              "x": "10-18",
+              "y": 23045
+            },
+            {
+              "x": "10-19",
+              "y": 23751
+            },
+            {
+              "x": "10-20",
+              "y": 21264
+            },
+            {
+              "x": "10-21",
+              "y": 20670
+            },
+            {
+              "x": "10-22",
+              "y": 23405
+            },
+            {
+              "x": "10-23",
+              "y": 25252
+            },
+            {
+              "x": "10-24",
+              "y": 28644
+            },
+            {
+              "x": "10-25",
+              "y": 50624
+            },
+            {
+              "x": "10-26",
+              "y": 117958
+            },
+            {
+              "x": "10-27",
+              "y": 438729
+            },
+            {
+              "x": "10-28",
+              "y": 925801
+            },
+            {
+              "x": "10-29",
+              "y": 363543
+            },
+            {
+              "x": "10-30",
+              "y": 152854
+            },
+            {
+              "x": "10-31",
+              "y": 82483
+            },
+            {
+              "x": "11-01",
+              "y": 67892
+            },
+            {
+              "x": "11-02",
+              "y": 71016
+            },
+            {
+              "x": "11-03",
+              "y": 60786
+            }
+          ],
+          "cites": [
+            "views:en:2026_Israeli_legislative_election:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: 2026 Israeli legislative election",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Date",
+          "text": "27 October 2026",
+          "cites": [
+            "wd:Q115632366:P585"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Israel",
+          "cites": [
+            "wd:Q115632366:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

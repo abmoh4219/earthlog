@@ -1,0 +1,62 @@
+[
+  {
+    "id": "views:en:Archive_of_Our_Own:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 85,012 readers of \"Archive of Our Own\" on 3 Nov 2026",
+    "value": 85012,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Archive_of_Our_Own:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Archive of Our Own\": normally a median of 1,415 readers a day (8 to 60 days before)",
+    "value": 1415,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q27764876:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"Archive of Our Own\" is an instance of service on Internet, fiction repository",
+    "url": "https://www.wikidata.org/wiki/Q27764876",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:Archive_of_Our_Own",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Archive of Our Own\"",
+    "quote": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works.",
+    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:en:Archive_of_Our_Own:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Archive of Our Own\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Archive_of_Our_Own&range=latest-30"
+  },
+  {
+    "id": "wd:Q27764876:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": founded 2008-10-00",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P571"
+  }
+]

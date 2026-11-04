@@ -1,13 +1,14 @@
 {
   "version": 1,
   "date": "2026-11-03",
-  "generatedAt": "2026-11-04T14:25:11Z",
+  "generatedAt": "2026-11-04T14:35:29Z",
   "candidates": 34,
   "stories": [
     {
       "lens": "person",
       "title": "Jesús de Miguel",
       "summary": "In association football, CD Tenerife striker Jesús de Miguel dies following an in-game collision with FC Andorra goalkeeper Jesús Owono the previous day.",
+      "about": "Jesús de Miguel Alameda was a Spanish professional footballer who played as a striker.",
       "article": {
         "title": "Jesús de Miguel",
         "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
@@ -17,7 +18,9 @@
         "name": "Hospital Universitario Nuestra Señora de Candelaria",
         "lon": -16.28472222,
         "lat": 28.44805556,
-        "country": "ES"
+        "country": "ES",
+        "role": "Place of death",
+        "evidence": "wd:Q116992476:P20"
       },
       "continent": "Europe",
       "readers": 953601,
@@ -44,6 +47,7 @@
       "lens": "election",
       "title": "2026 United States elections",
       "summary": "The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives, 35 members of the Senate (including special elections in Florida and Ohio), 39 state and territorial governors, and numerous other state, territorial, tribal, and local officials.",
+      "about": "Elections were held in the United States on November 3, 2026. In these midterm elections, which occurred during the second term of Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S. gubernatorial elections, attorney general elections, and numerous state and local elections were also contested.",
       "article": {
         "title": "2026 United States elections",
         "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
@@ -53,7 +57,9 @@
         "name": "United States House of Representatives",
         "lon": -77.00888889,
         "lat": 38.88888889,
-        "country": "US"
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-03:10"
       },
       "continent": "North America",
       "readers": 1049620,
@@ -93,6 +99,7 @@
       "lens": "accident",
       "title": "2026 Palm Beach County Learjet 60 crash",
       "summary": "Aviation accident in Florida, US",
+      "about": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States. The flight was traveling from Austin–Bergstrom International Airport in Texas to North Eleuthera Airport in the Bahamas. The plane crashed after a high speed descent, killing all nine people on board and injuring a person on the ground.",
       "article": {
         "title": "2026 Palm Beach County Learjet 60 crash",
         "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash",
@@ -102,7 +109,9 @@
         "name": "Palm Beach County",
         "lon": -80.11311111111111,
         "lat": 26.63288888888889,
-        "country": "US"
+        "country": "US",
+        "role": "Location",
+        "evidence": "wd:Q141966885:P625"
       },
       "continent": "North America",
       "readers": 254095,
@@ -125,6 +134,7 @@
       "lens": "person",
       "title": "Jeffery Simmons",
       "summary": "American football player (born 1997)",
+      "about": "Jeffery Bernard Simmons Jr. is an American professional football defensive tackle for the Chicago Bears of the National Football League (NFL). He played college football for the Mississippi State Bulldogs and was selected by the Tennessee Titans in the first round of the 2019 NFL draft.",
       "article": {
         "title": "Jeffery Simmons",
         "url": "https://en.wikipedia.org/wiki/Jeffery_Simmons",
@@ -134,7 +144,9 @@
         "name": "United States of America",
         "lon": -97.48,
         "lat": 39.54,
-        "country": "US"
+        "country": "US",
+        "role": "Country of citizenship",
+        "evidence": "wd:Q45146310:P27"
       },
       "continent": "North America",
       "readers": 111232,
@@ -153,6 +165,7 @@
       "lens": "person",
       "title": "Patrick Stewart",
       "summary": "English actor (1940–2026)",
+      "about": "Sir Patrick Stewart was an English actor. With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award, three Golden Globe Awards, four Emmy Awards, and three Screen Actors Guild Awards. He was knighted by Queen Elizabeth II for his services to drama in 2010.",
       "article": {
         "title": "Patrick Stewart",
         "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
@@ -162,7 +175,9 @@
         "name": "Los Angeles",
         "lon": -118.24368,
         "lat": 34.05223,
-        "country": "US"
+        "country": "US",
+        "role": "Place of death",
+        "evidence": "wd:Q16296:P20"
       },
       "continent": "North America",
       "readers": 82458,
@@ -181,6 +196,7 @@
       "lens": "organization",
       "title": "Archive of Our Own",
       "summary": "Nonprofit fanfiction repository",
+      "about": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works.",
       "article": {
         "title": "Archive of Our Own",
         "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
@@ -202,6 +218,7 @@
       "lens": "culture",
       "title": "Dancing with the Stars (American TV series) season 35",
       "summary": "",
+      "about": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returned as co-host. A holiday television special will air following the season finale.",
       "article": {
         "title": "Dancing with the Stars (American TV series) season 35",
         "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
@@ -227,6 +244,7 @@
       "lens": "culture",
       "title": "Jailer 2",
       "summary": "2026 Indian film by Nelson Dilipkumar",
+      "about": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
       "article": {
         "title": "Jailer 2",
         "url": "https://en.wikipedia.org/wiki/Jailer_2",
@@ -236,7 +254,9 @@
         "name": "India",
         "lon": 79.36,
         "lat": 22.69,
-        "country": "IN"
+        "country": "IN",
+        "role": "Country of origin",
+        "evidence": "wd:Q133255153:P495"
       },
       "continent": "Asia",
       "readers": 96128,
@@ -255,6 +275,7 @@
       "lens": "culture",
       "title": "Ramayana: Part 1",
       "summary": "2026 Indian film by Nitesh Tiwari",
+      "about": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the epic poem Ramayana by Valmiki, which chronicles the life and trials of Prince Rama. It is the first of a two-part film. The film stars Ranbir Kapoor, Yash, Sai Pallavi, Sunny Deol, Ravi Dubey, Anupam Kher, Kajal Aggarwal, Rakul Preet Singh, Vivek Oberoi, Kunal Kapoor, Adinath Kothare, Arun Govil, Indira Krishnan, and Lara Dutta.",
       "article": {
         "title": "Ramayana: Part 1",
         "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
@@ -264,7 +285,9 @@
         "name": "India",
         "lon": 79.36,
         "lat": 22.69,
-        "country": "IN"
+        "country": "IN",
+        "role": "Country of origin",
+        "evidence": "wd:Q135196186:P495"
       },
       "continent": "Asia",
       "readers": 72890,
@@ -283,6 +306,7 @@
       "lens": "election",
       "title": "2026 Israeli legislative election",
       "summary": "",
+      "about": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
       "article": {
         "title": "2026 Israeli legislative election",
         "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
@@ -292,7 +316,9 @@
         "name": "Israel",
         "lon": 34.85,
         "lat": 30.91,
-        "country": "IL"
+        "country": "IL",
+        "role": "Country",
+        "evidence": "wd:Q115632366:P17"
       },
       "continent": "Asia",
       "readers": 60786,
@@ -320,7 +346,9 @@
         "name": "Musandam Governorate",
         "lon": 56.28333333,
         "lat": 25.91666667,
-        "country": "OM"
+        "country": "OM",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-03:1"
       },
       "continent": "Asia",
       "sources": 1,
@@ -345,7 +373,9 @@
         "name": "Zamfara State",
         "lon": 6.25,
         "lat": 12.16666667,
-        "country": "NG"
+        "country": "NG",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-03:2"
       },
       "continent": "Africa",
       "sources": 1,
@@ -370,7 +400,9 @@
         "name": "Reserve Bank of Australia",
         "lon": 151.2117,
         "lat": -33.8681,
-        "country": "AU"
+        "country": "AU",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-03:4"
       },
       "continent": "Oceania",
       "sources": 1,
@@ -390,7 +422,9 @@
         "name": "Solukhumbu District",
         "lon": 86.58333333,
         "lat": 27.5,
-        "country": "NP"
+        "country": "NP",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-03:5"
       },
       "continent": "Asia",
       "sources": 1,

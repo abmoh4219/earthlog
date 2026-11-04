@@ -1,0 +1,71 @@
+[
+  {
+    "id": "views:en:2026_Israeli_legislative_election:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 60,786 readers of \"2026 Israeli legislative election\" on 3 Nov 2026",
+    "value": 60786,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_Israeli_legislative_election:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"2026 Israeli legislative election\": normally a median of 10,720 readers a day (8 to 60 days before)",
+    "value": 10720,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q115632366:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"2026 Israeli legislative election\" is an instance of Israeli legislative election",
+    "url": "https://www.wikidata.org/wiki/Q115632366",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:2026_Israeli_legislative_election",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\"",
+    "quote": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
+    "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"
+  },
+  {
+    "id": "views:en:2026_Israeli_legislative_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Israeli legislative election\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Israeli_legislative_election&range=latest-30"
+  },
+  {
+    "id": "wd:Q115632366:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Israeli legislative election\": date 27 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q115632366#P585"
+  },
+  {
+    "id": "wd:Q115632366:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Israeli legislative election\": country Israel",
+    "url": "https://www.wikidata.org/wiki/Q115632366#P17"
+  }
+]

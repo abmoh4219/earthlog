@@ -15,6 +15,7 @@ const MostReadArticle = z.object({
   namespace: z.object({ id: z.number() }).optional(),
   wikibase_item: z.string().optional(),
   description: z.string().optional(),
+  extract: z.string().optional(),
   view_history: z.array(z.object({ date: z.string(), views: z.number() })).optional(),
   titles: z.object({ normalized: z.string() }),
   content_urls: z.object({ desktop: z.object({ page: z.url() }) }),
@@ -29,6 +30,8 @@ export interface MostRead {
   url: string;
   qid?: string;
   description?: string;
+  /** The article's opening sentence(s), plain text (CC BY-SA). */
+  extract?: string;
   views: number;
   /**
    * The article's normal level: median daily readers from 60 to 8 days before `date`
@@ -57,6 +60,7 @@ export function parseMostRead(json: unknown, date: string): MostRead[] {
         url: a.content_urls.desktop.page,
         ...(a.wikibase_item ? { qid: a.wikibase_item } : {}),
         ...(a.description ? { description: a.description } : {}),
+        ...(a.extract ? { extract: a.extract } : {}),
         views: a.views,
       };
     });
@@ -94,11 +98,22 @@ export interface WdEntity {
   iso2?: string;
   /** P570 date of death (YYYY-MM-DD), for people. */
   died?: string;
+  /** Dates per property (YYYY-MM-DD, or YYYY when only the year is known), e.g. P569 → birth. */
+  times?: Record<string, string[]>;
+  /** Numbers per property, e.g. P1128 → employees. */
+  quantities?: Record<string, number[]>;
 }
 
 const ItemValue = z.object({ id: z.string() });
 const CoordValue = z.object({ latitude: z.number(), longitude: z.number() });
-const TimeValue = z.object({ time: z.string() });
+const TimeValue = z.object({ time: z.string(), precision: z.number().optional() });
+const QuantityValue = z.object({ amount: z.string() });
+
+/** Wikidata time → "YYYY-MM-DD", or "YYYY" at year precision (9) and coarser. */
+function wdDate(time: string, precision?: number): string {
+  const d = time.replace(/^\+/, "");
+  return precision !== undefined && precision <= 9 ? d.slice(0, 4) : d.slice(0, 10);
+}
 
 export function parseEntities(json: unknown): Map<string, WdEntity> {
   const out = new Map<string, WdEntity>();
@@ -108,6 +123,8 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
     let coord: WdEntity["coord"];
     let iso2: string | undefined;
     let died: string | undefined;
+    const times: Record<string, string[]> = {};
+    const quantities: Record<string, number[]> = {};
     for (const [prop, claims] of Object.entries(e.claims ?? {})) {
       for (const c of claims) {
         const v = c.mainsnak.datavalue?.value;
@@ -118,9 +135,14 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
           if (cv.success) coord = { lat: cv.data.latitude, lon: cv.data.longitude };
         }
         if (prop === "P297" && typeof v === "string") iso2 = v;
-        if (prop === "P570" && !died) {
-          const tv = TimeValue.safeParse(v);
-          if (tv.success) died = tv.data.time.replace(/^\+/, "").slice(0, 10);
+        const tv = TimeValue.safeParse(v);
+        if (tv.success) {
+          times[prop] = [...(times[prop] ?? []), wdDate(tv.data.time, tv.data.precision)];
+          if (prop === "P570" && !died) died = tv.data.time.replace(/^\+/, "").slice(0, 10);
+        }
+        const qv = QuantityValue.safeParse(v);
+        if (qv.success && Number.isFinite(Number(qv.data.amount))) {
+          quantities[prop] = [...(quantities[prop] ?? []), Number(qv.data.amount)];
         }
       }
     }
@@ -132,6 +154,8 @@ export function parseEntities(json: unknown): Map<string, WdEntity> {
       ...(coord ? { coord } : {}),
       ...(iso2 ? { iso2 } : {}),
       ...(died ? { died } : {}),
+      ...(Object.keys(times).length ? { times } : {}),
+      ...(Object.keys(quantities).length ? { quantities } : {}),
     });
   }
   return out;

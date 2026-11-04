@@ -23,7 +23,8 @@
     "test:watch": "vitest",
     "bake": "node scripts/bake.ts",
     "validate:scenes": "node scripts/validate-scenes.ts",
-    "edition": "node scripts/edition.ts"
+    "edition": "node scripts/edition.ts",
+    "stories": "node scripts/stories.ts"
   },
   "dependencies": {
     "cesium": "^1.147.0",

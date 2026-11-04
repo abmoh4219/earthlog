@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-2026-palm-beach-county-learjet-60-crash",
+  "title": "2026 Palm Beach County Learjet 60 crash",
+  "subtitle": "Accident · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:47Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -90.11311111111111,
+    "south": 18.63288888888889,
+    "east": -70.11311111111111,
+    "north": 34.632888888888886
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 3960000.0000000005,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 4237200.000000001,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 1800000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 1926000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 2700000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 2889000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:30Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 1800000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 1926000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:40Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 3600000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:46Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 3852000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:47Z",
+      "lon": -80.11311111111111,
+      "lat": 26.07038888888889,
+      "range": 6163200,
+      "heading": 6,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States…",
+      "cites": [
+        "wiki:article:2026_Palm_Beach_County_Learjet_60_crash"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "132,447 people read the article on 3 November 2026. It hadn't existed weeks before.",
+      "cites": [
+        "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-03",
+        "views:en:2026_Palm_Beach_County_Learjet_60_crash:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "Date: 1 November 2026. Location: Greenacres.",
+      "cites": [
+        "wd:Q141966885:P585",
+        "wd:Q141966885:P276"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "text": "Readers also turned to Learjet 60 (121,648).",
+      "cites": [
+        "views:en:Learjet_60:2026-11-03"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "title": "Connected"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "2026 Palm Beach County Learjet 60 crash",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "11-02",
+              "y": 220959
+            },
+            {
+              "x": "11-03",
+              "y": 132447
+            }
+          ],
+          "cites": [
+            "views:en:2026_Palm_Beach_County_Learjet_60_crash:30d"
+          ]
+        },
+        {
+          "label": "Learjet 60",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 242
+            },
+            {
+              "x": "10-06",
+              "y": 288
+            },
+            {
+              "x": "10-07",
+              "y": 148
+            },
+            {
+              "x": "10-08",
+              "y": 134
+            },
+            {
+              "x": "10-09",
+              "y": 113
+            },
+            {
+              "x": "10-10",
+              "y": 123
+            },
+            {
+              "x": "10-11",
+              "y": 107
+            },
+            {
+              "x": "10-12",
+              "y": 142
+            },
+            {
+              "x": "10-13",
+              "y": 108
+            },
+            {
+              "x": "10-14",
+              "y": 103
+            },
+            {
+              "x": "10-15",
+              "y": 102
+            },
+            {
+              "x": "10-16",
+              "y": 112
+            },
+            {
+              "x": "10-17",
+              "y": 106
+            },
+            {
+              "x": "10-18",
+              "y": 98
+            },
+            {
+              "x": "10-19",
+              "y": 77
+            },
+            {
+              "x": "10-20",
+              "y": 108
+            },
+            {
+              "x": "10-21",
+              "y": 119
+            },
+            {
+              "x": "10-22",
+              "y": 95
+            },
+            {
+              "x": "10-23",
+              "y": 106
+            },
+            {
+              "x": "10-24",
+              "y": 83
+            },
+            {
+              "x": "10-25",
+              "y": 100
+            },
+            {
+              "x": "10-26",
+              "y": 106
+            },
+            {
+              "x": "10-27",
+              "y": 108
+            },
+            {
+              "x": "10-28",
+              "y": 200
+            },
+            {
+              "x": "10-29",
+              "y": 131
+            },
+            {
+              "x": "10-30",
+              "y": 159
+            },
+            {
+              "x": "10-31",
+              "y": 112
+            },
+            {
+              "x": "11-01",
+              "y": 48391
+            },
+            {
+              "x": "11-02",
+              "y": 263003
+            },
+            {
+              "x": "11-03",
+              "y": 121648
+            }
+          ],
+          "cites": [
+            "views:en:Learjet_60:30d"
+          ]
+        }
+      ],
+      "mark": 1,
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: 2026 Palm Beach County Learjet 60 crash",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Date",
+          "text": "1 November 2026",
+          "cites": [
+            "wd:Q141966885:P585"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "Greenacres",
+          "cites": [
+            "wd:Q141966885:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "United States",
+          "cites": [
+            "wd:Q141966885:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

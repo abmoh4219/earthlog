@@ -1,0 +1,263 @@
+[
+  {
+    "id": "wiki:2026-11-03:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-03T00:00:00Z",
+    "lon": -77.00888889,
+    "lat": 38.88888889,
+    "label": "Politics: The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives, 35 members of the Senate (including special elections in Florida and Ohio), 39 state and territorial governors, and numerous other state, territorial, tribal, and local officials.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_3&oldid=1383727452",
+    "quote": "The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives, 35 members of the Senate (including special elections in Florida and Ohio), 39 state and territorial governors, and numerous other state, territorial, tribal, and local officials.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/nov/02/what-are-midterm-elections"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-03:11",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-03T00:00:00Z",
+    "lon": -77.00888889,
+    "lat": 38.88888889,
+    "label": "Politics: U.S. news organizations project that the Democratic Party will control the House of Representatives and the Senate in the upcoming 120th Congress, ending the Republican Party's majority in both chambers.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_3&oldid=1383727452",
+    "quote": "U.S. news organizations project that the Democratic Party will control the House of Representatives and the Senate in the upcoming 120th Congress, ending the Republican Party's majority in both chambers.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/us/democrats-projected-win-majority-control-us-house-us-media-project-2026-11-04/"
+      },
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-republicans-midterms-trump"
+      }
+    ]
+  },
+  {
+    "id": "views:en:2026_United_States_elections:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 455,194 readers of \"2026 United States elections\" on 3 Nov 2026",
+    "value": 455194,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"2026 United States elections\": normally a median of 24,768 readers a day (8 to 60 days before)",
+    "value": 24768,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:United_States_midterm_election:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 244,478 readers of \"United States midterm election\" on 3 Nov 2026",
+    "value": 244478,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_midterm_election",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:United_States_midterm_election:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"United States midterm election\": normally a median of 13,674 readers a day (8 to 60 days before)",
+    "value": 13674,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_midterm_election",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:James_Talarico:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 105,766 readers of \"James Talarico\" on 3 Nov 2026",
+    "value": 105766,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Talarico",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:James_Talarico:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"James Talarico\": normally a median of 21,100 readers a day (8 to 60 days before)",
+    "value": 21100,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Talarico",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_elections:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 90,787 readers of \"2026 United States Senate elections\" on 3 Nov 2026",
+    "value": 90787,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"2026 United States Senate elections\": normally a median of 14,376 readers a day (8 to 60 days before)",
+    "value": 14376,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Mike_Rogers_(Michigan_politician):2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 55,411 readers of \"Mike Rogers (Michigan politician)\" on 3 Nov 2026",
+    "value": 55411,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Mike_Rogers_(Michigan_politician):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Mike Rogers (Michigan politician)\": normally a median of 4,061 readers a day (8 to 60 days before)",
+    "value": 4061,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_House_of_Representatives_elections:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 50,307 readers of \"2026 United States House of Representatives elections\" on 3 Nov 2026",
+    "value": 50307,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_House_of_Representatives_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"2026 United States House of Representatives elections\": normally a median of 6,255 readers a day (8 to 60 days before)",
+    "value": 6255,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Michigan:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 47,677 readers of \"2026 United States Senate election in Michigan\" on 3 Nov 2026",
+    "value": 47677,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Michigan:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"2026 United States Senate election in Michigan\": normally a median of 5,685 readers a day (8 to 60 days before)",
+    "value": 5685,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q115857612:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"2026 United States elections\" is an instance of events in a specific year or time period, United States midterm election",
+    "url": "https://www.wikidata.org/wiki/Q115857612",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:2026_United_States_elections",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States elections\"",
+    "quote": "Elections were held in the United States on November 3, 2026. In these midterm elections, which occurred during the second term of Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S. gubernatorial elections, attorney general elections, and numerous state and local elections were also contested.",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
+  },
+  {
+    "id": "views:en:2026_United_States_elections:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 United States elections\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_United_States_elections&range=latest-30"
+  },
+  {
+    "id": "views:en:United_States_midterm_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"United States midterm election\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=United_States_midterm_election&range=latest-30"
+  },
+  {
+    "id": "views:en:James_Talarico:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"James Talarico\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=James_Talarico&range=latest-30"
+  },
+  {
+    "id": "wd:Q115857612:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United States elections\": date 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q115857612#P585"
+  },
+  {
+    "id": "wd:Q115857612:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United States elections\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q115857612#P17"
+  }
+]

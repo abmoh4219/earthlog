@@ -1,0 +1,89 @@
+[
+  {
+    "id": "views:en:Jailer_2:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 96,128 readers of \"Jailer 2\" on 3 Nov 2026",
+    "value": 96128,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jailer_2",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jailer_2:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Jailer 2\": normally a median of 11,660 readers a day (8 to 60 days before)",
+    "value": 11660,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jailer_2",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q133255153:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"Jailer 3\" is an instance of film",
+    "url": "https://www.wikidata.org/wiki/Q133255153",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:Jailer_2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\"",
+    "quote": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
+    "url": "https://en.wikipedia.org/wiki/Jailer_2"
+  },
+  {
+    "id": "views:en:Jailer_2:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jailer 2\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jailer_2&range=latest-30"
+  },
+  {
+    "id": "wd:Q133255153:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": released 15 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P577"
+  },
+  {
+    "id": "wd:Q133255153:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": director Nelson Dilipkumar",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P57"
+  },
+  {
+    "id": "wd:Q133255153:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": genre action comedy film",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P136"
+  },
+  {
+    "id": "wd:Q133255153:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": country of origin India",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P495"
+  }
+]

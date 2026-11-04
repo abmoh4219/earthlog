@@ -1,0 +1,694 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-2026-united-states-elections",
+  "title": "2026 United States elections",
+  "subtitle": "Election · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:55Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -87.00888889,
+    "south": 30.888888889999997,
+    "east": -67.00888889,
+    "north": 46.88888889
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 3960000.0000000005,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 4237200.000000001,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 1800000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 1926000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 2700000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 2889000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:30Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 1800000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 1926000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:40Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 3600000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:46Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 3852000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:49Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 2340000,
+      "heading": -10,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:54Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 2503800,
+      "heading": -4,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:55Z",
+      "lon": -77.00888889,
+      "lat": 38.32638889,
+      "range": 6000000,
+      "heading": -4,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "The United States holds midterm elections for 435 members and five non-voting delegates of the House of Representatives, 35 members of the Senate (including special elections in Florida and Ohio)…",
+      "cites": [
+        "wiki:2026-11-03:10"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "United States House of Representatives.",
+      "cites": [
+        "wiki:2026-11-03:10"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "455,194 people read about it on 3 November 2026: about 18× the usual.",
+      "cites": [
+        "views:en:2026_United_States_elections:2026-11-03",
+        "views:en:2026_United_States_elections:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "Date: 3 November 2026. Country: United States.",
+      "cites": [
+        "wd:Q115857612:P585",
+        "wd:Q115857612:P17"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "text": "Readers also turned to United States midterm election (244,478), James Talarico (105,766), 2026 United States Senate elections (90,787).",
+      "cites": [
+        "views:en:United_States_midterm_election:2026-11-03",
+        "views:en:James_Talarico:2026-11-03",
+        "views:en:2026_United_States_Senate_elections:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:47Z",
+      "text": "Reported by The Guardian and Reuters.",
+      "cites": [
+        "wiki:2026-11-03:10",
+        "wiki:2026-11-03:11"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-03T00:00:47Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "2026 United States elections",
+          "color": "#b49bff",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 27907
+            },
+            {
+              "x": "10-06",
+              "y": 28387
+            },
+            {
+              "x": "10-07",
+              "y": 27072
+            },
+            {
+              "x": "10-08",
+              "y": 29506
+            },
+            {
+              "x": "10-09",
+              "y": 30946
+            },
+            {
+              "x": "10-10",
+              "y": 29069
+            },
+            {
+              "x": "10-11",
+              "y": 29877
+            },
+            {
+              "x": "10-12",
+              "y": 34213
+            },
+            {
+              "x": "10-13",
+              "y": 34228
+            },
+            {
+              "x": "10-14",
+              "y": 35082
+            },
+            {
+              "x": "10-15",
+              "y": 35189
+            },
+            {
+              "x": "10-16",
+              "y": 32127
+            },
+            {
+              "x": "10-17",
+              "y": 31730
+            },
+            {
+              "x": "10-18",
+              "y": 34956
+            },
+            {
+              "x": "10-19",
+              "y": 40470
+            },
+            {
+              "x": "10-20",
+              "y": 43689
+            },
+            {
+              "x": "10-21",
+              "y": 44850
+            },
+            {
+              "x": "10-22",
+              "y": 48650
+            },
+            {
+              "x": "10-23",
+              "y": 47215
+            },
+            {
+              "x": "10-24",
+              "y": 42984
+            },
+            {
+              "x": "10-25",
+              "y": 56877
+            },
+            {
+              "x": "10-26",
+              "y": 79986
+            },
+            {
+              "x": "10-27",
+              "y": 66149
+            },
+            {
+              "x": "10-28",
+              "y": 71701
+            },
+            {
+              "x": "10-29",
+              "y": 69515
+            },
+            {
+              "x": "10-30",
+              "y": 75111
+            },
+            {
+              "x": "10-31",
+              "y": 71088
+            },
+            {
+              "x": "11-01",
+              "y": 94454
+            },
+            {
+              "x": "11-02",
+              "y": 201102
+            },
+            {
+              "x": "11-03",
+              "y": 455194
+            }
+          ],
+          "cites": [
+            "views:en:2026_United_States_elections:30d"
+          ]
+        },
+        {
+          "label": "United States midterm election",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 15798
+            },
+            {
+              "x": "10-06",
+              "y": 13273
+            },
+            {
+              "x": "10-07",
+              "y": 12024
+            },
+            {
+              "x": "10-08",
+              "y": 15548
+            },
+            {
+              "x": "10-09",
+              "y": 16469
+            },
+            {
+              "x": "10-10",
+              "y": 15505
+            },
+            {
+              "x": "10-11",
+              "y": 15976
+            },
+            {
+              "x": "10-12",
+              "y": 19426
+            },
+            {
+              "x": "10-13",
+              "y": 20666
+            },
+            {
+              "x": "10-14",
+              "y": 21340
+            },
+            {
+              "x": "10-15",
+              "y": 21626
+            },
+            {
+              "x": "10-16",
+              "y": 19702
+            },
+            {
+              "x": "10-17",
+              "y": 21987
+            },
+            {
+              "x": "10-18",
+              "y": 21609
+            },
+            {
+              "x": "10-19",
+              "y": 26034
+            },
+            {
+              "x": "10-20",
+              "y": 29842
+            },
+            {
+              "x": "10-21",
+              "y": 29025
+            },
+            {
+              "x": "10-22",
+              "y": 30262
+            },
+            {
+              "x": "10-23",
+              "y": 30059
+            },
+            {
+              "x": "10-24",
+              "y": 24802
+            },
+            {
+              "x": "10-25",
+              "y": 34677
+            },
+            {
+              "x": "10-26",
+              "y": 44139
+            },
+            {
+              "x": "10-27",
+              "y": 37339
+            },
+            {
+              "x": "10-28",
+              "y": 35785
+            },
+            {
+              "x": "10-29",
+              "y": 37063
+            },
+            {
+              "x": "10-30",
+              "y": 44326
+            },
+            {
+              "x": "10-31",
+              "y": 45896
+            },
+            {
+              "x": "11-01",
+              "y": 62914
+            },
+            {
+              "x": "11-02",
+              "y": 131229
+            },
+            {
+              "x": "11-03",
+              "y": 244478
+            }
+          ],
+          "cites": [
+            "views:en:United_States_midterm_election:30d"
+          ]
+        },
+        {
+          "label": "James Talarico",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 16845
+            },
+            {
+              "x": "10-06",
+              "y": 16210
+            },
+            {
+              "x": "10-07",
+              "y": 20285
+            },
+            {
+              "x": "10-08",
+              "y": 24631
+            },
+            {
+              "x": "10-09",
+              "y": 31515
+            },
+            {
+              "x": "10-10",
+              "y": 29355
+            },
+            {
+              "x": "10-11",
+              "y": 30116
+            },
+            {
+              "x": "10-12",
+              "y": 40703
+            },
+            {
+              "x": "10-13",
+              "y": 43363
+            },
+            {
+              "x": "10-14",
+              "y": 47317
+            },
+            {
+              "x": "10-15",
+              "y": 98368
+            },
+            {
+              "x": "10-16",
+              "y": 39109
+            },
+            {
+              "x": "10-17",
+              "y": 25772
+            },
+            {
+              "x": "10-18",
+              "y": 28395
+            },
+            {
+              "x": "10-19",
+              "y": 45169
+            },
+            {
+              "x": "10-20",
+              "y": 39065
+            },
+            {
+              "x": "10-21",
+              "y": 37142
+            },
+            {
+              "x": "10-22",
+              "y": 37853
+            },
+            {
+              "x": "10-23",
+              "y": 33918
+            },
+            {
+              "x": "10-24",
+              "y": 34334
+            },
+            {
+              "x": "10-25",
+              "y": 30081
+            },
+            {
+              "x": "10-26",
+              "y": 28682
+            },
+            {
+              "x": "10-27",
+              "y": 35699
+            },
+            {
+              "x": "10-28",
+              "y": 38715
+            },
+            {
+              "x": "10-29",
+              "y": 39357
+            },
+            {
+              "x": "10-30",
+              "y": 42210
+            },
+            {
+              "x": "10-31",
+              "y": 49602
+            },
+            {
+              "x": "11-01",
+              "y": 56366
+            },
+            {
+              "x": "11-02",
+              "y": 62655
+            },
+            {
+              "x": "11-03",
+              "y": 105766
+            }
+          ],
+          "cites": [
+            "views:en:James_Talarico:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: 2026 United States elections",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Date",
+          "text": "3 November 2026",
+          "cites": [
+            "wd:Q115857612:P585"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "United States",
+          "cites": [
+            "wd:Q115857612:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:38Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/02/what-are-midterm-elections",
+          "cites": [
+            "wiki:2026-11-03:10"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/us/democrats-projected-win-majority-control-us-house-us-media-project-2026-11-04/",
+          "cites": [
+            "wiki:2026-11-03:11"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-republicans-midterms-trump",
+          "cites": [
+            "wiki:2026-11-03:11"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:48Z",
+      "until": "2026-11-03T00:00:55Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

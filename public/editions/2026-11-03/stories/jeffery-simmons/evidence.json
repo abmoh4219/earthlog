@@ -1,0 +1,98 @@
+[
+  {
+    "id": "views:en:Jeffery_Simmons:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 111,232 readers of \"Jeffery Simmons\" on 3 Nov 2026",
+    "value": 111232,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jeffery_Simmons",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jeffery_Simmons:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Jeffery Simmons\": normally a median of 444 readers a day (8 to 60 days before)",
+    "value": 444,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jeffery_Simmons",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q45146310:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"Jeffery Simmons\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q45146310",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:Jeffery_Simmons",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jeffery Simmons\"",
+    "quote": "Jeffery Bernard Simmons Jr. is an American professional football defensive tackle for the Chicago Bears of the National Football League (NFL). He played college football for the Mississippi State Bulldogs and was selected by the Tennessee Titans in the first round of the 2019 NFL draft.",
+    "url": "https://en.wikipedia.org/wiki/Jeffery_Simmons"
+  },
+  {
+    "id": "views:en:Jeffery_Simmons:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jeffery Simmons\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jeffery_Simmons&range=latest-30"
+  },
+  {
+    "id": "wd:Q45146310:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": born 28 July 1997",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P569"
+  },
+  {
+    "id": "wd:Q45146310:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": birthplace LaSalle Parish",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P19"
+  },
+  {
+    "id": "wd:Q45146310:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": occupation American football player",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P106"
+  },
+  {
+    "id": "wd:Q45146310:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P27"
+  },
+  {
+    "id": "wd:Q45146310:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jeffery Simmons\": sport American football",
+    "url": "https://www.wikidata.org/wiki/Q45146310#P641"
+  }
+]

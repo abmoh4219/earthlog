@@ -54,6 +54,28 @@ export function validateBundle({ scene, evidence, sources }: BundleInput): strin
     }
   });
 
+  // Panels: every value cites known evidence from the window (§3.1 applies to charts too).
+  for (const panel of scene.panels) {
+    const where = `panel "${panel.id}"`;
+    if (!inWindow(ms(panel.t))) errors.push(`${where}: outside the scene window`);
+    const cites =
+      panel.kind === "line"
+        ? panel.series.flatMap((s) => s.cites)
+        : panel.items.flatMap((i) => i.cites);
+    for (const id of cites) {
+      const e = byId.get(id);
+      if (!e) errors.push(`${where}: cites unknown evidence "${id}"`);
+      else if (!inWindow(ms(e.t))) errors.push(`${where}: cites "${id}", outside the window`);
+    }
+  }
+
+  // Story films: chapters in order and inside the window.
+  scene.chapters.forEach((c, i) => {
+    if (!inWindow(ms(c.t))) errors.push(`chapter ${i + 1}: outside the scene window`);
+    const prev = scene.chapters[i - 1];
+    if (prev && ms(c.t) <= ms(prev.t)) errors.push(`chapter ${i + 1}: out of order`);
+  });
+
   // Camera and pacing must be chronological, or interpolation goes backwards.
   for (const [name, list] of [
     ["camera", scene.camera],

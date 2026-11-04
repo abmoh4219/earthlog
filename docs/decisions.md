@@ -328,7 +328,7 @@ Abdelah: one montage of headlines isn't a product, and replays of last year comp
 ## ADR-0013: Story films with chapters and panels
 
 - **Date:** 2026-11-04
-- **Status:** Proposed (to be finalised in the story-film engine phase)
+- **Status:** Accepted (implemented in Phase 5)
 
 ### Decision
 
@@ -339,3 +339,10 @@ Abdelah: one montage of headlines isn't a product, and replays of last year comp
 ### Why
 
 Most stories (an election, a death, a company announcement) are understood through structure and comparison, not minute-by-minute time. Forcing them onto a 24-hour clock (as the Phase 3 overview does) implies timings we don't know.
+
+### How it is built
+
+- A story-time scene's window starts at the edition day's 00:00 UTC and runs one scene second per wall second, so day-precision evidence falls inside it and the validator applies unchanged.
+- Lenses describe chapters (`scripts/lenses/film.ts` lays them out: captions, camera shots, panels from chapter start to end, layers revealed from a chapter on).
+- The globe is fully lit in story time: no terminator and no night lights, since no time of day is claimed.
+- Panels are validated like captions: every value cites evidence in the bundle.

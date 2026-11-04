@@ -1,0 +1,107 @@
+[
+  {
+    "id": "views:en:Patrick_Stewart:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 82,458 readers of \"Patrick Stewart\" on 3 Nov 2026",
+    "value": 82458,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Patrick_Stewart:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Patrick Stewart\": normally a median of 4,017 readers a day (8 to 60 days before)",
+    "value": 4017,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q16296:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"Q16296\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q16296",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:Patrick_Stewart",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Patrick Stewart\"",
+    "quote": "Sir Patrick Stewart was an English actor. With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award, three Golden Globe Awards, four Emmy Awards, and three Screen Actors Guild Awards. He was knighted by Queen Elizabeth II for his services to drama in 2010.",
+    "url": "https://en.wikipedia.org/wiki/Patrick_Stewart"
+  },
+  {
+    "id": "views:en:Patrick_Stewart:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Patrick Stewart\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Patrick_Stewart&range=latest-30"
+  },
+  {
+    "id": "wd:Q16296:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q16296\": born 13 July 1940",
+    "url": "https://www.wikidata.org/wiki/Q16296#P569"
+  },
+  {
+    "id": "wd:Q16296:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q16296\": birthplace Mirfield",
+    "url": "https://www.wikidata.org/wiki/Q16296#P19"
+  },
+  {
+    "id": "wd:Q16296:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q16296\": died 28 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q16296#P570"
+  },
+  {
+    "id": "wd:Q16296:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q16296\": place of death Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q16296#P20"
+  },
+  {
+    "id": "wd:Q16296:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q16296\": occupation television actor, film actor",
+    "url": "https://www.wikidata.org/wiki/Q16296#P106"
+  },
+  {
+    "id": "wd:Q16296:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q16296\": citizenship United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q16296#P27"
+  }
+]

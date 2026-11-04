@@ -1,0 +1,68 @@
+// pnpm stories [YYYY-MM-DD] [slug]   (default: yesterday, every story)
+// Films each story of an edition with its lens → public/editions/<date>/stories/<slug>/.
+// Run `pnpm edition <date>` first. Every film passes the validator before it is written.
+import { join } from "node:path";
+import { z } from "zod";
+import { Edition, type Lens } from "../src/scene/edition.ts";
+import { Country, Evidence } from "../src/scene/schema.ts";
+import { validateBundle } from "../src/scene/validate.ts";
+import { ROOT, readJson, writeJson } from "./bake/lib.ts";
+import { fetchPortal, parsePortal } from "./bake/wikinews.ts";
+import { generalLens, type LensContext, type LensResult } from "./lenses/general.ts";
+
+/** Which lens films which kind of story. Specialised lenses replace `general` phase by phase. */
+const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
+  election: generalLens,
+  conflict: generalLens,
+  accident: generalLens,
+  disaster: generalLens,
+  sports: generalLens,
+  economy: generalLens,
+  science: generalLens,
+  culture: generalLens,
+  organization: generalLens,
+  person: generalLens,
+  general: generalLens,
+};
+
+const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+const date = args[0] ?? new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
+const only = args[1];
+const dir = join(ROOT, "public", "editions", date);
+const at = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
+
+const edition = Edition.parse(await readJson(join(dir, "edition.json")));
+const evidence = z.array(Evidence).parse(await readJson(join(dir, "evidence.json")));
+const countries = z
+  .array(Country)
+  .parse(await readJson(join(ROOT, "public", "geo", "countries.json")));
+const news = parsePortal((await fetchPortal(date)).wikitext);
+
+let failed = 0;
+for (const story of edition.stories) {
+  if (only && story.slug !== only) continue;
+  try {
+    const film = await LENS_FILMS[story.lens]({ date, story, evidence, news, countries, at });
+    const errors = validateBundle({
+      scene: film.scene,
+      evidence: film.evidence,
+      sources: film.sources,
+    });
+    if (errors.length) throw new Error(errors.join("; "));
+    const out = join(dir, "stories", story.slug);
+    let bytes = 0;
+    for (const layer of film.layers)
+      bytes += await writeJson(join(out, "data", `${layer.kind}.json`), layer, false);
+    bytes += await writeJson(join(out, "scene.json"), film.scene);
+    bytes += await writeJson(join(out, "evidence.json"), film.evidence);
+    bytes += await writeJson(join(out, "sources.json"), film.sources);
+    const secs = (Date.parse(film.scene.window.end) - Date.parse(film.scene.window.start)) / 1000;
+    console.log(
+      `✓ ${story.slug.padEnd(44)} ${story.lens.padEnd(12)} ${film.scene.chapters.length} chapters, ${film.scene.panels.length} panels, ${secs}s, ${(bytes / 1024).toFixed(0)} KB`,
+    );
+  } catch (err) {
+    failed++;
+    console.error(`✗ ${story.slug}: ${err instanceof Error ? err.message : String(err)}`);
+  }
+}
+if (failed) process.exit(1);

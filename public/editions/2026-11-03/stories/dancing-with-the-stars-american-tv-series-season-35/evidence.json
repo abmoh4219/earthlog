@@ -1,0 +1,85 @@
+[
+  {
+    "id": "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 135,810 readers of \"Dancing with the Stars (American TV series) season 35\" on 3 Nov 2026",
+    "value": 135810,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Dancing with the Stars (American TV series) season 35\": normally a median of 14,156 readers a day (8 to 60 days before)",
+    "value": 14156,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jenna_Dewan:2026-11-03",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "English Wikipedia: 64,103 readers of \"Jenna Dewan\" on 3 Nov 2026",
+    "value": 64103,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jenna_Dewan",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jenna_Dewan:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "\"Jenna Dewan\": normally a median of 9,855 readers a day (8 to 60 days before)",
+    "value": 9855,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jenna_Dewan",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q139761349:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"Dancing with the Stars (American TV series) season 35\" is an instance of television series season",
+    "url": "https://www.wikidata.org/wiki/Q139761349",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:Dancing_with_the_Stars_(American_TV_series)_season_35",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dancing with the Stars (American TV series) season 35\"",
+    "quote": "Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returned as co-host. A holiday television special will air following the season finale.",
+    "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
+  },
+  {
+    "id": "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Dancing with the Stars (American TV series) season 35\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Dancing_with_the_Stars_(American_TV_series)_season_35&range=latest-30"
+  },
+  {
+    "id": "views:en:Jenna_Dewan:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jenna Dewan\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jenna_Dewan&range=latest-30"
+  }
+]

@@ -12,11 +12,14 @@ export function Credits() {
   if (!bundle) return null;
   const { imagery } = bundle.scene;
   const night = imagery.nights.at(-1);
+  // Story films are fully lit (no time of day), so no night imagery is on screen.
+  const story = bundle.scene.time === "story";
+  const nightCredit = night
+    ? `VIIRS night lights ${night}`
+    : "Black Marble 2016 composite (a typical night, not this one)";
   const imageryCredit = [
     `NASA GIBS: VIIRS true colour ${imagery.day}`,
-    night
-      ? `VIIRS night lights ${night}`
-      : "Black Marble 2016 composite (a typical night, not this one)",
+    ...(story ? [] : [nightCredit]),
     "Blue Marble",
   ].join(" · ");
   const dataCredit = bundle.sources.map((s) => s.attribution).join(" · ");

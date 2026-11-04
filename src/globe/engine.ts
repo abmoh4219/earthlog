@@ -74,10 +74,13 @@ export async function createGlobe(
 
   const s = widget.scene;
   const globe = s.globe;
-  // Real sun position from the scene clock gives an honest day/night terminator.
-  globe.enableLighting = true;
-  globe.dynamicAtmosphereLighting = true;
-  globe.dynamicAtmosphereLightingFromSun = true;
+  // Real time: the real sun position from the scene clock gives an honest day/night
+  // terminator. Story time (explainers) has no time of day, so the whole globe is lit
+  // with the day's satellite image and no night is implied (ADR-0013).
+  const storyTime = scene.time === "story";
+  globe.enableLighting = !storyTime;
+  globe.dynamicAtmosphereLighting = !storyTime;
+  globe.dynamicAtmosphereLightingFromSun = !storyTime;
   globe.showGroundAtmosphere = true;
   globe.baseColor = C.Color.BLACK;
   s.backgroundColor = C.Color.BLACK;
@@ -109,7 +112,7 @@ export async function createGlobe(
   eventDay.colorToAlpha = C.Color.BLACK;
   eventDay.colorToAlphaThreshold = 0.02;
 
-  const overlays = createOverlays(C, s, countries, bundle.layers);
+  const overlays = createOverlays(C, s, countries, bundle.layers, scene.layers);
 
   // Any user input hands the camera to the user until they resume the director.
   const handler = new C.ScreenSpaceEventHandler(s.canvas);
@@ -142,7 +145,7 @@ export async function createGlobe(
     C.JulianDate.fromDate(new Date(clock.t), julian);
     widget.clock.currentTime = julian;
 
-    nightLights.show = layers.nightLights;
+    nightLights.show = layers.nightLights && !storyTime;
     eventDay.show = layers.eventDay;
     const beatIndex = activeBeatIndex(clock.t, scene.beats);
     if (beatIndex !== lastBeat) {

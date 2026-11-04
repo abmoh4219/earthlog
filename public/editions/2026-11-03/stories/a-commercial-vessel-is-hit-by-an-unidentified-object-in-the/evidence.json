@@ -1,0 +1,67 @@
+[
+  {
+    "id": "wiki:2026-11-03:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-03T00:00:00Z",
+    "lon": 56.28333333,
+    "lat": 25.91666667,
+    "label": "Conflict: A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_3&oldid=1383727452",
+    "quote": "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/india/one-indian-killed-attack-ship-near-oman-indian-foreign-ministry-says-2026-11-03/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q138521100:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"2026 Strait of Hormuz crisis\" is an instance of blockade, crisis situation",
+    "url": "https://www.wikidata.org/wiki/Q138521100",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:2026_Strait_of_Hormuz_crisis",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Strait of Hormuz crisis\"",
+    "quote": "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others are rescued.",
+    "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+  },
+  {
+    "id": "views:en:2026_Strait_of_Hormuz_crisis:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Strait of Hormuz crisis\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Strait_of_Hormuz_crisis&range=latest-30"
+  },
+  {
+    "id": "wd:Q138521100:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Strait of Hormuz crisis\": began 28 February 2026",
+    "url": "https://www.wikidata.org/wiki/Q138521100#P580"
+  },
+  {
+    "id": "wd:Q138521100:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Strait of Hormuz crisis\": location Strait of Hormuz",
+    "url": "https://www.wikidata.org/wiki/Q138521100#P276"
+  }
+]

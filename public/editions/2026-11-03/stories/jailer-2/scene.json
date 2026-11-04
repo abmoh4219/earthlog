@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-jailer-2",
+  "title": "Jailer 2",
+  "subtitle": "Culture · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:38Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 69.36,
+    "south": 14.690000000000001,
+    "east": 89.36,
+    "north": 30.69
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 9240000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 9886800,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4200000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4494000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 6300000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 6741000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:30Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4200000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4494000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 7190400,
+      "heading": 26,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023)…",
+      "cites": [
+        "wiki:article:Jailer_2"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "96,128 people read about it on 3 November 2026: about 8× the usual.",
+      "cites": [
+        "views:en:Jailer_2:2026-11-03",
+        "views:en:Jailer_2:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "Released: 15 October 2026. Director: Nelson Dilipkumar.",
+      "cites": [
+        "wd:Q133255153:P577",
+        "wd:Q133255153:P57"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "title": "On record"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "Jailer 2",
+          "color": "#ff8fd0",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 44934
+            },
+            {
+              "x": "10-06",
+              "y": 41464
+            },
+            {
+              "x": "10-07",
+              "y": 22075
+            },
+            {
+              "x": "10-08",
+              "y": 16838
+            },
+            {
+              "x": "10-09",
+              "y": 14797
+            },
+            {
+              "x": "10-10",
+              "y": 17325
+            },
+            {
+              "x": "10-11",
+              "y": 21296
+            },
+            {
+              "x": "10-12",
+              "y": 23895
+            },
+            {
+              "x": "10-13",
+              "y": 27689
+            },
+            {
+              "x": "10-14",
+              "y": 43841
+            },
+            {
+              "x": "10-15",
+              "y": 341702
+            },
+            {
+              "x": "10-16",
+              "y": 378259
+            },
+            {
+              "x": "10-17",
+              "y": 341183
+            },
+            {
+              "x": "10-18",
+              "y": 340362
+            },
+            {
+              "x": "10-19",
+              "y": 321853
+            },
+            {
+              "x": "10-20",
+              "y": 303129
+            },
+            {
+              "x": "10-21",
+              "y": 278796
+            },
+            {
+              "x": "10-22",
+              "y": 243842
+            },
+            {
+              "x": "10-23",
+              "y": 192717
+            },
+            {
+              "x": "10-24",
+              "y": 190945
+            },
+            {
+              "x": "10-25",
+              "y": 186875
+            },
+            {
+              "x": "10-26",
+              "y": 181309
+            },
+            {
+              "x": "10-27",
+              "y": 147801
+            },
+            {
+              "x": "10-28",
+              "y": 134068
+            },
+            {
+              "x": "10-29",
+              "y": 122337
+            },
+            {
+              "x": "10-30",
+              "y": 113774
+            },
+            {
+              "x": "10-31",
+              "y": 113592
+            },
+            {
+              "x": "11-01",
+              "y": 115995
+            },
+            {
+              "x": "11-02",
+              "y": 111475
+            },
+            {
+              "x": "11-03",
+              "y": 96128
+            }
+          ],
+          "cites": [
+            "views:en:Jailer_2:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Jailer 3",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Released",
+          "text": "15 October 2026",
+          "cites": [
+            "wd:Q133255153:P577"
+          ]
+        },
+        {
+          "label": "Director",
+          "text": "Nelson Dilipkumar",
+          "cites": [
+            "wd:Q133255153:P57"
+          ]
+        },
+        {
+          "label": "Genre",
+          "text": "action comedy film",
+          "cites": [
+            "wd:Q133255153:P136"
+          ]
+        },
+        {
+          "label": "Country of origin",
+          "text": "India",
+          "cites": [
+            "wd:Q133255153:P495"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-two-helicopters-operated-by-air-dynasty-and-fishtail-air-col",
+  "title": "Two helicopters operated by Air Dynasty and Fishtail Air collide while landing…",
+  "subtitle": "Accident · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:34Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 76.58333333,
+    "south": 19.5,
+    "east": 96.58333333,
+    "north": 35.5
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-03T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 3960000.0000000005,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 4237200.000000001,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 1800000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 1926000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 86.754305555,
+      "lat": 27.577499998333334,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:25Z",
+      "lon": 86.754305555,
+      "lat": 27.577499998333334,
+      "range": 1605000,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 2340000,
+      "heading": -10,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:33Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 2503800,
+      "heading": -4,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:34Z",
+      "lon": 86.58333333,
+      "lat": 26.9375,
+      "range": 6000000,
+      "heading": -4,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Two helicopters operated by Air Dynasty and Fishtail Air collide while landing in Solukhumbu District, Nepal, near Mount Everest, killing an Indian tourist and injuring a New Zealand national.",
+      "cites": [
+        "wiki:2026-11-03:5"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "Solukhumbu District.",
+      "cites": [
+        "wiki:2026-11-03:5"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "The story touches Mount Everest.",
+      "cites": [
+        "wiki:2026-11-03:5"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:26Z",
+      "text": "Reported by AFP via Times of Malta.",
+      "cites": [
+        "wiki:2026-11-03:5"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-03T00:00:26Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AFP via Times of Malta",
+          "text": "Open",
+          "url": "https://timesofmalta.com/article/tourist-killed-two-helicopters-collide-nepal-everest-region.1136555",
+          "cites": [
+            "wiki:2026-11-03:5"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:27Z",
+      "until": "2026-11-03T00:00:34Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

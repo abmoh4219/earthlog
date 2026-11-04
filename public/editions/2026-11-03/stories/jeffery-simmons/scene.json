@@ -1,0 +1,384 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-jeffery-simmons",
+  "title": "Jeffery Simmons",
+  "subtitle": "People · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:47Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 9240000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 9886800,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 4200000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 4494000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 6300000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 6741000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:30Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 4200000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "lon": -97.48,
+      "lat": 38.2275,
+      "range": 4494000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:40Z",
+      "lon": -94.82,
+      "lat": 35.377344,
+      "range": 2093903.9999999995,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:46Z",
+      "lon": -94.82,
+      "lat": 35.377344,
+      "range": 2240477.28,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:47Z",
+      "lon": -94.82,
+      "lat": 35.377344,
+      "range": 6000000,
+      "heading": 6,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Jeffery Bernard Simmons Jr. is an American professional football defensive tackle for the Chicago Bears of the National Football League (NFL)…",
+      "cites": [
+        "wiki:article:Jeffery_Simmons"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "111,232 people read about it on 3 November 2026: about 251× the usual.",
+      "cites": [
+        "views:en:Jeffery_Simmons:2026-11-03",
+        "views:en:Jeffery_Simmons:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "Born: 28 July 1997. Birthplace: LaSalle Parish.",
+      "cites": [
+        "wd:Q45146310:P569",
+        "wd:Q45146310:P19"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "title": "Connected"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "Jeffery Simmons",
+          "color": "#f5c2a0",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 652
+            },
+            {
+              "x": "10-06",
+              "y": 505
+            },
+            {
+              "x": "10-07",
+              "y": 386
+            },
+            {
+              "x": "10-08",
+              "y": 309
+            },
+            {
+              "x": "10-09",
+              "y": 260
+            },
+            {
+              "x": "10-10",
+              "y": 202
+            },
+            {
+              "x": "10-11",
+              "y": 694
+            },
+            {
+              "x": "10-12",
+              "y": 505
+            },
+            {
+              "x": "10-13",
+              "y": 355
+            },
+            {
+              "x": "10-14",
+              "y": 314
+            },
+            {
+              "x": "10-15",
+              "y": 338
+            },
+            {
+              "x": "10-16",
+              "y": 274
+            },
+            {
+              "x": "10-17",
+              "y": 263
+            },
+            {
+              "x": "10-18",
+              "y": 1194
+            },
+            {
+              "x": "10-19",
+              "y": 795
+            },
+            {
+              "x": "10-20",
+              "y": 444
+            },
+            {
+              "x": "10-21",
+              "y": 655
+            },
+            {
+              "x": "10-22",
+              "y": 610
+            },
+            {
+              "x": "10-23",
+              "y": 513
+            },
+            {
+              "x": "10-24",
+              "y": 419
+            },
+            {
+              "x": "10-25",
+              "y": 909
+            },
+            {
+              "x": "10-26",
+              "y": 866
+            },
+            {
+              "x": "10-27",
+              "y": 1573
+            },
+            {
+              "x": "10-28",
+              "y": 2598
+            },
+            {
+              "x": "10-29",
+              "y": 122632
+            },
+            {
+              "x": "10-30",
+              "y": 50964
+            },
+            {
+              "x": "10-31",
+              "y": 18779
+            },
+            {
+              "x": "11-01",
+              "y": 9079
+            },
+            {
+              "x": "11-02",
+              "y": 6542
+            },
+            {
+              "x": "11-03",
+              "y": 111232
+            }
+          ],
+          "cites": [
+            "views:en:Jeffery_Simmons:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Jeffery Simmons",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Born",
+          "text": "28 July 1997",
+          "cites": [
+            "wd:Q45146310:P569"
+          ]
+        },
+        {
+          "label": "Birthplace",
+          "text": "LaSalle Parish",
+          "cites": [
+            "wd:Q45146310:P19"
+          ]
+        },
+        {
+          "label": "Occupation",
+          "text": "American football player",
+          "cites": [
+            "wd:Q45146310:P106"
+          ]
+        },
+        {
+          "label": "Citizenship",
+          "text": "United States",
+          "cites": [
+            "wd:Q45146310:P27"
+          ]
+        },
+        {
+          "label": "Sport",
+          "text": "American football",
+          "cites": [
+            "wd:Q45146310:P641"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

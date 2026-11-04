@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-archive-of-our-own",
+  "title": "Archive of Our Own",
+  "subtitle": "Tech & business · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:20Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 37664000,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 24000000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 25680000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:20Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41088000,
+      "heading": 6,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users…",
+      "cites": [
+        "wiki:article:Archive_of_Our_Own"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "85,012 people read about it on 3 November 2026: about 60× the usual.",
+      "cites": [
+        "views:en:Archive_of_Our_Own:2026-11-03",
+        "views:en:Archive_of_Our_Own:prior"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "Archive of Our Own",
+          "color": "#5ef2ff",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 1516
+            },
+            {
+              "x": "10-06",
+              "y": 1527
+            },
+            {
+              "x": "10-07",
+              "y": 1468
+            },
+            {
+              "x": "10-08",
+              "y": 1364
+            },
+            {
+              "x": "10-09",
+              "y": 1306
+            },
+            {
+              "x": "10-10",
+              "y": 1306
+            },
+            {
+              "x": "10-11",
+              "y": 1371
+            },
+            {
+              "x": "10-12",
+              "y": 1415
+            },
+            {
+              "x": "10-13",
+              "y": 1441
+            },
+            {
+              "x": "10-14",
+              "y": 1455
+            },
+            {
+              "x": "10-15",
+              "y": 1531
+            },
+            {
+              "x": "10-16",
+              "y": 1913
+            },
+            {
+              "x": "10-17",
+              "y": 1955
+            },
+            {
+              "x": "10-18",
+              "y": 2111
+            },
+            {
+              "x": "10-19",
+              "y": 2070
+            },
+            {
+              "x": "10-20",
+              "y": 1760
+            },
+            {
+              "x": "10-21",
+              "y": 1763
+            },
+            {
+              "x": "10-22",
+              "y": 1631
+            },
+            {
+              "x": "10-23",
+              "y": 1539
+            },
+            {
+              "x": "10-24",
+              "y": 1731
+            },
+            {
+              "x": "10-25",
+              "y": 1795
+            },
+            {
+              "x": "10-26",
+              "y": 1791
+            },
+            {
+              "x": "10-27",
+              "y": 1818
+            },
+            {
+              "x": "10-28",
+              "y": 1691
+            },
+            {
+              "x": "10-29",
+              "y": 27230
+            },
+            {
+              "x": "10-30",
+              "y": 55142
+            },
+            {
+              "x": "10-31",
+              "y": 45549
+            },
+            {
+              "x": "11-01",
+              "y": 43286
+            },
+            {
+              "x": "11-02",
+              "y": 78713
+            },
+            {
+              "x": "11-03",
+              "y": 85012
+            }
+          ],
+          "cites": [
+            "views:en:Archive_of_Our_Own:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:10Z",
+      "until": "2026-11-03T00:00:20Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "wiki:2026-11-03:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-03T00:00:00Z",
+    "lon": 6.25,
+    "lat": 12.16666667,
+    "label": "Conflict: Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard, injuring two officers, and abducting an unspecified number of personnel.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_3&oldid=1383727452",
+    "quote": "Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard, injuring two officers, and abducting an unspecified number of personnel.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/africa/attackers-ambush-police-nigerias-zamfara-killing-least-eight-officials-say-2026-11-03/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q21039541:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"Communal conflicts in Nigeria\" is an instance of events in a specific year or time period",
+    "url": "https://www.wikidata.org/wiki/Q21039541",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:Communal_conflicts_in_Nigeria",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Communal conflicts in Nigeria\"",
+    "quote": "Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard, injuring two officers, and abducting an unspecified number of personnel.",
+    "url": "https://en.wikipedia.org/wiki/Communal_conflicts_in_Nigeria"
+  },
+  {
+    "id": "views:en:Communal_conflicts_in_Nigeria:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Communal conflicts in Nigeria\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Communal_conflicts_in_Nigeria&range=latest-30"
+  },
+  {
+    "id": "wd:Q21039541:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Communal conflicts in Nigeria\": date 1998",
+    "url": "https://www.wikidata.org/wiki/Q21039541#P585"
+  },
+  {
+    "id": "wd:Q21039541:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Communal conflicts in Nigeria\": location Nigeria",
+    "url": "https://www.wikidata.org/wiki/Q21039541#P276"
+  },
+  {
+    "id": "wd:Q21039541:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Communal conflicts in Nigeria\": country Nigeria",
+    "url": "https://www.wikidata.org/wiki/Q21039541#P17"
+  }
+]

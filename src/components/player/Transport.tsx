@@ -59,6 +59,8 @@ export function Transport() {
   const cinema = usePlayer((s) => s.cinema);
   const layers = usePlayer((s) => s.layers);
   const panel = usePlayer((s) => s.panel);
+  // Story films run in real seconds: no speed controls, no time of day.
+  const story = usePlayer((s) => s.bundle?.scene.time === "story");
   const a = usePlayer.getState();
 
   return (
@@ -79,7 +81,12 @@ export function Transport() {
 
         <Timeline />
 
-        <div className="flex shrink-0 items-center gap-1 font-mono text-[11px]">
+        <div
+          className={cn(
+            "flex shrink-0 items-center gap-1 font-mono text-[11px]",
+            story && "hidden",
+          )}
+        >
           <button
             type="button"
             onClick={a.setAuto}

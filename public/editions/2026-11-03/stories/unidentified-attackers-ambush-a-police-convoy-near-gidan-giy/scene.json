@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-unidentified-attackers-ambush-a-police-convoy-near-gidan-giy",
+  "title": "Unidentified attackers ambush a police convoy near Gidan-Giye village in…",
+  "subtitle": "Conflict · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:44Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -3.75,
+    "south": 4.16666667,
+    "east": 16.25,
+    "north": 20.166666669999998
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-03T00:00:27Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 3960000.0000000005,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 4237200.000000001,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 1800000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 1926000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 1800000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:26Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 1926000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:29Z",
+      "lon": 7.125,
+      "lat": 10.416666668333333,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:35Z",
+      "lon": 7.125,
+      "lat": 10.416666668333333,
+      "range": 1605000,
+      "heading": 6,
+      "pitch": -68
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 2340000,
+      "heading": -10,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:43Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 2503800,
+      "heading": -4,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:44Z",
+      "lon": 6.25,
+      "lat": 11.60416667,
+      "range": 6000000,
+      "heading": -4,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard…",
+      "cites": [
+        "wiki:2026-11-03:2"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "text": "Zamfara State.",
+      "cites": [
+        "wiki:2026-11-03:2"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "Date: 1998. Location: Nigeria.",
+      "cites": [
+        "wd:Q21039541:P585",
+        "wd:Q21039541:P276"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "text": "The story touches Nigeria.",
+      "cites": [
+        "wiki:2026-11-03:2"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:36Z",
+      "text": "Reported by Reuters.",
+      "cites": [
+        "wiki:2026-11-03:2"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-03T00:00:36Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Communal conflicts in Nigeria",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Date",
+          "text": "1998",
+          "cites": [
+            "wd:Q21039541:P585"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "Nigeria",
+          "cites": [
+            "wd:Q21039541:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Nigeria",
+          "cites": [
+            "wd:Q21039541:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:27Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/africa/attackers-ambush-police-nigerias-zamfara-killing-least-eight-officials-say-2026-11-03/",
+          "cites": [
+            "wiki:2026-11-03:2"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:37Z",
+      "until": "2026-11-03T00:00:44Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

@@ -40,6 +40,9 @@ export function Timeline() {
 
   const span = window.end - window.start;
   const markers = bundle?.scene.beats.map((b) => (ms(b.t) - window.start) / span) ?? [];
+  const chapters =
+    bundle?.scene.chapters.map((c) => ({ u: (ms(c.t) - window.start) / span, title: c.title })) ??
+    [];
 
   return (
     <div
@@ -68,6 +71,20 @@ export function Timeline() {
           style={{ transform: "scaleX(0)" }}
         />
       </div>
+      {chapters.map((c) => (
+        <button
+          type="button"
+          key={c.title + c.u}
+          title={c.title}
+          aria-label={`Chapter: ${c.title}`}
+          onPointerDown={(e) => {
+            e.stopPropagation();
+            seekTo(window.start + c.u * span + 1);
+          }}
+          className="absolute top-1/2 z-10 size-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full border border-ice/60 bg-void transition hover:scale-150 hover:bg-ice"
+          style={{ left: `${c.u * 100}%` }}
+        />
+      ))}
       {markers.map((u, i) => (
         <span
           // biome-ignore lint/suspicious/noArrayIndexKey: markers are positional and stable per scene

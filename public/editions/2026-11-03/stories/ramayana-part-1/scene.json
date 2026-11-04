@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "id": "story-2026-11-03-ramayana-part-1",
+  "title": "Ramayana: Part 1",
+  "subtitle": "Culture · 3 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-03T00:00:00Z",
+    "end": "2026-11-03T00:00:38Z"
+  },
+  "focus": "2026-11-03T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 69.36,
+    "south": 14.690000000000001,
+    "east": 89.36,
+    "north": 30.69
+  },
+  "imagery": {
+    "day": "2026-11-03",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-03T00:00:09Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-03T00:00:09Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-03T00:00:04Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 9240000,
+      "heading": 0,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 9886800,
+      "heading": 6,
+      "pitch": -70
+    },
+    {
+      "t": "2026-11-03T00:00:11Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4200000,
+      "heading": 0,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4494000,
+      "heading": 6,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:19Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 6300000,
+      "heading": 0,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:27Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 6741000,
+      "heading": 6,
+      "pitch": -62
+    },
+    {
+      "t": "2026-11-03T00:00:30Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4200000,
+      "heading": 20,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 4494000,
+      "heading": 26,
+      "pitch": -55
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "lon": 79.36,
+      "lat": 21.3775,
+      "range": 7190400,
+      "heading": 26,
+      "pitch": -80
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash…",
+      "cites": [
+        "wiki:article:Ramayana:_Part_1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "text": "72,890 people read about it on 3 November 2026: about 10× the usual.",
+      "cites": [
+        "views:en:Ramayana:_Part_1:2026-11-03",
+        "views:en:Ramayana:_Part_1:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "text": "Released: 8 November 2026. Director: Nitesh Tiwari.",
+      "cites": [
+        "wd:Q135196186:P577",
+        "wd:Q135196186:P57"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "title": "The story"
+    },
+    {
+      "t": "2026-11-03T00:00:09Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-03T00:00:17Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:00:28Z",
+      "title": "On record"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "kind": "line",
+      "title": "Readers on English Wikipedia",
+      "unit": "readers a day",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "series": [
+        {
+          "label": "Ramayana: Part 1",
+          "color": "#ff8fd0",
+          "points": [
+            {
+              "x": "10-05",
+              "y": 6942
+            },
+            {
+              "x": "10-06",
+              "y": 6654
+            },
+            {
+              "x": "10-07",
+              "y": 7793
+            },
+            {
+              "x": "10-08",
+              "y": 6898
+            },
+            {
+              "x": "10-09",
+              "y": 6352
+            },
+            {
+              "x": "10-10",
+              "y": 6722
+            },
+            {
+              "x": "10-11",
+              "y": 8293
+            },
+            {
+              "x": "10-12",
+              "y": 8075
+            },
+            {
+              "x": "10-13",
+              "y": 7988
+            },
+            {
+              "x": "10-14",
+              "y": 7637
+            },
+            {
+              "x": "10-15",
+              "y": 21394
+            },
+            {
+              "x": "10-16",
+              "y": 32193
+            },
+            {
+              "x": "10-17",
+              "y": 27932
+            },
+            {
+              "x": "10-18",
+              "y": 25859
+            },
+            {
+              "x": "10-19",
+              "y": 26555
+            },
+            {
+              "x": "10-20",
+              "y": 37540
+            },
+            {
+              "x": "10-21",
+              "y": 39950
+            },
+            {
+              "x": "10-22",
+              "y": 36555
+            },
+            {
+              "x": "10-23",
+              "y": 31216
+            },
+            {
+              "x": "10-24",
+              "y": 29515
+            },
+            {
+              "x": "10-25",
+              "y": 34893
+            },
+            {
+              "x": "10-26",
+              "y": 33429
+            },
+            {
+              "x": "10-27",
+              "y": 33288
+            },
+            {
+              "x": "10-28",
+              "y": 49331
+            },
+            {
+              "x": "10-29",
+              "y": 51131
+            },
+            {
+              "x": "10-30",
+              "y": 49705
+            },
+            {
+              "x": "10-31",
+              "y": 52126
+            },
+            {
+              "x": "11-01",
+              "y": 55707
+            },
+            {
+              "x": "11-02",
+              "y": 60024
+            },
+            {
+              "x": "11-03",
+              "y": 72890
+            }
+          ],
+          "cites": [
+            "views:en:Ramayana:_Part_1:30d"
+          ]
+        }
+      ],
+      "mark": 29,
+      "t": "2026-11-03T00:00:18Z",
+      "until": "2026-11-03T00:00:28Z"
+    },
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Ramayana: Rise of a Legend",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Released",
+          "text": "8 November 2026",
+          "cites": [
+            "wd:Q135196186:P577"
+          ]
+        },
+        {
+          "label": "Director",
+          "text": "Nitesh Tiwari",
+          "cites": [
+            "wd:Q135196186:P57"
+          ]
+        },
+        {
+          "label": "Genre",
+          "text": "epic film",
+          "cites": [
+            "wd:Q135196186:P136"
+          ]
+        },
+        {
+          "label": "Country of origin",
+          "text": "India",
+          "cites": [
+            "wd:Q135196186:P495"
+          ]
+        }
+      ],
+      "t": "2026-11-03T00:00:29Z",
+      "until": "2026-11-03T00:00:38Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-04T14:45:41Z"
+  }
+}

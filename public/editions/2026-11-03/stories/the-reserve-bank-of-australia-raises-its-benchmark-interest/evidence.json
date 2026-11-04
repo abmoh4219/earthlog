@@ -1,0 +1,49 @@
+[
+  {
+    "id": "wiki:2026-11-03:4",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-03T00:00:00Z",
+    "lon": 151.2117,
+    "lat": -33.8681,
+    "label": "Business: The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_3&oldid=1383727452",
+    "quote": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261103-australian-central-bank-lifts-key-interest-rate-to-18-year-high"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q138843305:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "label": "Wikidata: \"2026 Iran war fuel crisis\" is an instance of energy crisis",
+    "url": "https://www.wikidata.org/wiki/Q138843305",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:article:2026_Iran_war_fuel_crisis",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war fuel crisis\"",
+    "quote": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
+    "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"
+  },
+  {
+    "id": "views:en:2026_Iran_war_fuel_crisis:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Iran war fuel crisis\", 5 October 2026 to 3 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Iran_war_fuel_crisis&range=latest-30"
+  }
+]

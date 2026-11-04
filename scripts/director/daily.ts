@@ -210,6 +210,9 @@ export function dailyScene(
     camera: tour(start, end, beats),
     pacing: [{ t: iso(start), speed }],
     beats: beats.map(({ shot: _, ...b }) => b),
+    time: "real",
+    chapters: [],
+    panels: [],
     generatedBy: { method: "template", at },
   };
 }

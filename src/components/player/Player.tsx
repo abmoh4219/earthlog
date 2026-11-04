@@ -9,12 +9,19 @@ import { GlobeView } from "./GlobeView";
 import { Help } from "./Help";
 import { Hud } from "./Hud";
 import { Letterbox } from "./Letterbox";
+import { Panels } from "./Panels";
 import { StoryCard } from "./StoryCard";
 import { Transport } from "./Transport";
 import { useKeyboard } from "./useKeyboard";
 import { Vignette } from "./Vignette";
 
-export function Player({ bundle }: { bundle: SceneBundle }) {
+export function Player({
+  bundle,
+  back,
+}: {
+  bundle: SceneBundle;
+  back?: { href: string; label: string };
+}) {
   const load = usePlayer((s) => s.load);
   const loaded = usePlayer((s) => s.bundle?.scene.id === bundle.scene.id);
 
@@ -35,8 +42,9 @@ export function Player({ bundle }: { bundle: SceneBundle }) {
       {loaded && <GlobeView bundle={bundle} />}
       <Vignette />
       <Letterbox />
-      <Hud scene={bundle.scene} />
+      <Hud scene={bundle.scene} {...(back ? { back } : {})} />
       <DataPanel />
+      <Panels />
       <StoryCard />
       <Captions />
       <Transport />
