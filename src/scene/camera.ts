@@ -77,6 +77,68 @@ export function interpolatePose(a: Keyframe, b: Keyframe, u: number): CameraPose
   };
 }
 
+/** Smooth ease for flights: gentle take-off and landing, no sudden jerk at either end. */
+export function easeInOutSine(u: number): number {
+  return -(Math.cos(Math.PI * u) - 1) / 2;
+}
+
+/**
+ * Catmull-Rom (uniform) through p0..p3 at u ∈ [0, 1] between p1 and p2. The curve passes
+ * through every keyframe with continuous speed, so a chain of glides never stops.
+ */
+export function catmullRom(p0: number, p1: number, p2: number, p3: number, u: number): number {
+  const u2 = u * u;
+  const u3 = u2 * u;
+  return (
+    0.5 *
+    (2 * p1 +
+      (-p0 + p2) * u +
+      (2 * p0 - 5 * p1 + 4 * p2 - p3) * u2 +
+      (-p0 + 3 * p1 - 3 * p2 + p3) * u3)
+  );
+}
+
+/**
+ * A glide between b and c, using a and d (the neighbours) to keep speed continuous. A
+ * neighbour reached by a flight is treated as a rest point (the camera has landed), which
+ * makes the glide start or end smoothly from rest. Longitude and heading are unwrapped;
+ * range moves in log space so push-ins feel even.
+ */
+export function glidePose(
+  a: Keyframe | undefined,
+  b: Keyframe,
+  c: Keyframe,
+  d: Keyframe | undefined,
+  u: number,
+): CameraPose {
+  const prev = a && b.move === "glide" ? a : b;
+  const next = d && d.move === "glide" ? d : c;
+  const unwrapLon = (ref: number, x: number) => ref + angleDelta(ref, x);
+  const lon0 = unwrapLon(b.lon, prev.lon);
+  const lon2 = unwrapLon(b.lon, c.lon);
+  const lon3 = unwrapLon(lon2, next.lon);
+  const h0 = b.heading + angleDelta(b.heading, prev.heading);
+  const h2 = b.heading + angleDelta(b.heading, c.heading);
+  const h3 = h2 + angleDelta(h2, next.heading);
+  let lon = catmullRom(lon0, b.lon, lon2, lon3, u);
+  lon = ((((lon + 180) % 360) + 360) % 360) - 180;
+  return {
+    lon,
+    lat: Math.max(-89.9, Math.min(89.9, catmullRom(prev.lat, b.lat, c.lat, next.lat, u))),
+    range: Math.exp(
+      catmullRom(
+        Math.log(prev.range),
+        Math.log(b.range),
+        Math.log(c.range),
+        Math.log(next.range),
+        u,
+      ),
+    ),
+    heading: catmullRom(h0, b.heading, h2, h3, u),
+    pitch: Math.max(-90, Math.min(-5, catmullRom(prev.pitch, b.pitch, c.pitch, next.pitch, u))),
+  };
+}
+
 function poseOf(k: Keyframe): CameraPose {
   return { lon: k.lon, lat: k.lat, range: k.range, heading: k.heading, pitch: k.pitch };
 }
@@ -93,7 +155,10 @@ export function cameraAt(t: number, keyframes: readonly Keyframe[]): CameraPose 
     const tb = ms(b.t);
     if (t <= tb) {
       const ta = ms(a.t);
-      return interpolatePose(a, b, (t - ta) / (tb - ta));
+      const u = (t - ta) / (tb - ta);
+      return b.move === "glide"
+        ? glidePose(keyframes[i - 2], a, b, keyframes[i + 1], u)
+        : interpolatePose(a, b, u);
     }
   }
   const last = keyframes[keyframes.length - 1];

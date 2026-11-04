@@ -73,6 +73,7 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 - **Why a story trends, without AI:** editors write the news into the article within hours. `prop=revisions&rvstart=<3 days before>&rvdir=older` gives the earlier revision to compare with; the sentences added since, or dated near the day, say what happened (de Miguel's collision, Simmons' trade, AO3's outage). Year-less dates ("on October 29") are trusted only in newly added sentences; plots, casts and lists are skipped.
 - **Company numbers on Wikidata** (P2139 revenue, P2295 net income, P1128 employees) are quantities with a unit (a currency item whose P498 is the ISO code) and a P585 date. Quality varies: OpenAI's revenue mixes millions and bare thousands. Films drop values more than 50× off the series median and say how many.
 - **Hacker News search** (`hn.algolia.com/api/v1/search_by_date`, `restrictSearchableAttributes=title`, `typoTolerance=false`) is still forgiving, so titles are re-checked for the name as a whole word. Search the opening's short name too ("Archive of Our Own (AO3)"): titles use it. No licence stated: counts, and the top story's title as a link.
+- **AWS Terrain Tiles** (`elevation-tiles-prod`, terrarium PNG, attribution per tilezen/joerd) are reachable but send **no CORS header**, so a browser can't decode them. Use only at bake time (planned).
 - **The MODIS sensors are ending** (Terra around February 2027, Aqua around September 2027). Prefer VIIRS layers.
 
 ## Later sources (backlog)

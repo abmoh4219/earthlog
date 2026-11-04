@@ -34,6 +34,7 @@ Earthlog's unit is the **story**, not the feed. Everything below serves one pipe
 - **Story film:** a scene with **chapters**: each chapter has a camera shot, captions with citations, globe layers to show, and panels (charts) to build. Two time modes (ADR-0013):
   - **Real time** for sensor stories (quakes, storms, outages): the clock is the real UTC clock, as in the classics.
   - **Story time** for explainers (elections, people, companies): the timeline is the story's chapters; the HUD shows chapter titles, not a clock, so nothing implies a time of day we don't know.
+- **Camera:** keyframes say how they are reached: `flight` (eased take-off and landing on a lifted great circle, for hops) or `glide` (a Catmull-Rom spline through neighbouring keyframes, so orbits and push-ins never stop). The film builder times flights by distance and keeps the camera orbiting, pushing in and rising through every chapter.
 - **Panels:** typed chart blocks fed by bundle data: `seats` (chamber bars), `bars` (vote shares, rankings), `line` (revenue, indicators, attention), `facts` (key facts with chips), `curiosity` (readers by language), `thread` (how it unfolded), `result` (sports). Every value in a panel is evidence-backed.
 - **Classics:** the hand-made deep replays (`public/scenes/<id>/`, `events/<id>.ts`) remain, using the same player.
 

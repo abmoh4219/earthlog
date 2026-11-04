@@ -1,6 +1,7 @@
 // Story films in story time (ADR-0013): a lens describes chapters; this turns them into a
 // scene with a synthetic timeline (1 scene second = 1 wall second, starting at the edition
 // day's 00:00 UTC so day-precision evidence falls inside the window). Pure.
+import { centralAngle } from "../../src/scene/camera.ts";
 import { type EditionStory, LENS_INFO } from "../../src/scene/edition.ts";
 import type {
   Beat,
@@ -18,7 +19,11 @@ export interface Shot {
   range: number;
   pitch?: number;
   heading?: number;
+  /** How the camera moves while the chapter holds: orbit (default) or almost still (maps). */
+  motion?: "orbit" | "still";
 }
+
+const wrap = (lon: number) => ((((lon + 180) % 360) + 360) % 360) - 180;
 
 /** A panel as a lens writes it; the builder sets its time span. */
 export type PanelDraft = Panel extends infer P
@@ -56,8 +61,6 @@ export interface FilmInput {
 
 const iso = (t: number) => new Date(t).toISOString().replace(/\.\d{3}Z$/, "Z");
 const SPACE = 2.2e7;
-/** Seconds the camera takes to fly into a chapter's shot. */
-const TRAVEL = 2.5;
 
 export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Scene {
   const start = Date.parse(`${date}T00:00:00Z`);
@@ -68,16 +71,23 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
   const beats: Beat[] = [];
   const panels: Panel[] = [];
   const firstShot = chapters[0]?.shot ?? { lon: 0, lat: 20, range: SPACE };
+  // Opening: deep space, the globe a little turned away, so it spins into place as the
+  // camera falls toward the story.
   const camera: Keyframe[] = [
     {
       t: iso(start),
-      lon: firstShot.lon,
-      lat: Math.max(-60, Math.min(60, firstShot.lat)),
-      range: SPACE,
+      lon: wrap(firstShot.lon + 38),
+      lat: Math.max(-50, Math.min(50, firstShot.lat * 0.6)),
+      range: SPACE * 1.15,
       heading: 0,
       pitch: -90,
     },
   ];
+  let prev: { lon: number; lat: number; range: number } = {
+    lon: firstShot.lon + 38,
+    lat: firstShot.lat,
+    range: SPACE,
+  };
   const revealAt = new Map<string, number>();
   const hideAt = new Map<string, number>();
 
@@ -102,27 +112,61 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     for (const key of c.reveal ?? []) if (!revealAt.has(key)) revealAt.set(key, chStart);
     for (const key of c.hide ?? []) if (!hideAt.has(key)) hideAt.set(key, chStart);
 
-    // Arrive at the shot after a short flight, then drift slowly while it holds.
+    // Travel: a flight sized to the distance (far hops lift off and arc over the Earth),
+    // or a glide when the new shot is close. Then the camera keeps moving through the hold:
+    // a slow orbit (alternating direction), a push-in and a slight rise, never a freeze.
     const pose = {
       lon: c.shot.lon,
       lat: c.shot.lat,
       range: c.shot.range,
       heading: c.shot.heading ?? 0,
-      pitch: c.shot.pitch ?? -55,
+      pitch: c.shot.pitch ?? -45,
     };
-    const arrive = Math.min(chEnd - 200, chStart + (i === 0 ? 4000 : TRAVEL * 1000));
-    camera.push({ t: iso(arrive), ...pose });
+    const km = (centralAngle(prev.lon, prev.lat, pose.lon, pose.lat) * 6371) | 0;
+    const zoom = Math.abs(Math.log(pose.range / prev.range));
+    const far = km > 300 || zoom > 0.9;
+    const travel = i === 0 ? 4.6 : far ? Math.min(5, 2 + 1.1 * Math.log10(1 + km / 50)) : 2.2;
+    const arrive = Math.min(chStart + travel * 1000, chStart + c.seconds * 450);
+    camera.push({ t: iso(arrive), ...pose, move: far || i === 0 ? "flight" : "glide" });
+    const motion = c.shot.motion ?? "orbit";
+    const sweep =
+      motion === "still" ? 4 : (i % 2 === 0 ? 1 : -1) * Math.min(28, 5 + c.seconds * 1.6);
+    const push = motion === "still" ? 0.92 : 0.82;
+    const rise = motion === "still" ? 0 : 5;
+    // The last chapter keeps its final seconds for the pull-back to space.
+    const holdEnd = i === chapters.length - 1 ? Math.max(arrive + 1500, chEnd - 3500) : chEnd - 60;
+    const hold = holdEnd - arrive;
     camera.push({
-      t: iso(chEnd - 100),
+      t: iso(arrive + hold * 0.5),
       ...pose,
-      range: pose.range * 1.07,
-      heading: pose.heading + 6,
+      heading: pose.heading + sweep * 0.5,
+      range: pose.range * Math.sqrt(push),
+      pitch: Math.min(-8, pose.pitch + rise * 0.5),
+      move: "glide",
     });
+    camera.push({
+      t: iso(holdEnd),
+      ...pose,
+      heading: pose.heading + sweep,
+      range: pose.range * push,
+      pitch: Math.min(-8, pose.pitch + rise),
+      move: "glide",
+    });
+    prev = pose;
     t = chEnd;
   });
+  // Ending: pull back out to space while the Earth keeps turning.
   const last = camera.at(-1);
-  if (last)
-    camera.push({ ...last, t: iso(end), range: Math.max(last.range * 1.6, 6e6), pitch: -80 });
+  if (last) {
+    camera.push({
+      ...last,
+      t: iso(end),
+      lon: wrap(last.lon - 25),
+      range: Math.max(last.range * 3, 1.4e7),
+      pitch: -88,
+      move: "flight",
+    });
+  }
 
   const refs: LayerRef[] = layers.map((l) => {
     const key = layerKey(l);

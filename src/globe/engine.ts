@@ -85,6 +85,18 @@ export async function createGlobe(
   globe.baseColor = C.Color.BLACK;
   s.backgroundColor = C.Color.BLACK;
   s.highDynamicRange = true;
+  // Story films get a soft bloom so beams, comets and pins glow like light, not paint.
+  // Kept subtle (high contrast, low brightness): only the brightest pixels bloom.
+  if (scene.time === "story") {
+    const bloom = s.postProcessStages.bloom;
+    bloom.enabled = true;
+    bloom.uniforms.glowOnly = false;
+    bloom.uniforms.contrast = 160;
+    bloom.uniforms.brightness = -0.35;
+    bloom.uniforms.delta = 1.0;
+    bloom.uniforms.sigma = 2.6;
+    bloom.uniforms.stepSize = 1.0;
+  }
   if (s.sun) s.sun.glowFactor = 1.4;
 
   // Night side. Honesty rule: when the scene names an event night, show the REAL

@@ -100,3 +100,43 @@ describe("cameraAt", () => {
     expect(() => cameraAt(0, [])).toThrow();
   });
 });
+
+describe("glide segments", () => {
+  const k = (t: string, lon: number, heading: number, move?: "glide" | "flight") => ({
+    t: `2026-11-03T00:00:${t}Z`,
+    lon,
+    lat: 40,
+    range: 1_000_000,
+    heading,
+    pitch: -40,
+    ...(move ? { move } : {}),
+  });
+  const keys = [
+    k("00", 0, 0),
+    k("04", 1, 10, "glide"),
+    k("08", 2, 20, "glide"),
+    k("12", 3, 30, "glide"),
+  ];
+  const at = (s: number) => cameraAt(Date.parse("2026-11-03T00:00:00Z") + s * 1000, keys);
+
+  it("passes exactly through each keyframe", () => {
+    expect(at(8).lon).toBeCloseTo(2, 6);
+    expect(at(8).heading).toBeCloseTo(20, 6);
+  });
+
+  it("keeps moving through a keyframe instead of stopping at it", () => {
+    const before = at(7.9).lon;
+    const after = at(8.1).lon;
+    // Uniform motion of 0.25°/s means ~0.05° over 0.2 s; a stop would give ~0.
+    expect(after - before).toBeGreaterThan(0.04);
+  });
+
+  it("unwraps longitude and heading across the antimeridian", () => {
+    const wrap = [k("00", 179, 350), k("04", -179, 10, "glide")];
+    const mid = cameraAt(Date.parse("2026-11-03T00:00:02Z"), wrap);
+    expect(Math.abs(mid.lon)).toBeGreaterThan(179);
+    expect(mid.heading === 0 || Math.abs(mid.heading) < 1 || Math.abs(mid.heading - 360) < 1).toBe(
+      true,
+    );
+  });
+});

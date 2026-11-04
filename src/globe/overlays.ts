@@ -306,14 +306,49 @@ export function createOverlays(
       );
     });
     const color = C.Color.fromCssColorString(a.color ?? ICE);
+    // A glowing beam rather than a flat line, with a bright comet riding along it.
     const line = arcLines.add({
       positions: full.slice(0, 2),
-      width: 2,
-      material: C.Material.fromType("Color", { color: color.withAlpha(0.85) }),
+      width: 7,
+      material: C.Material.fromType("PolylineGlow", {
+        color: color.withAlpha(0.9),
+        glowPower: 0.22,
+        taperPower: 1,
+      }),
       show: false,
     });
-    return { full, line, drawn: -1 };
+    const comet = points.add({
+      position: full[0] ?? C.Cartesian3.ZERO,
+      pixelSize: 8,
+      color: C.Color.WHITE,
+      outlineColor: color.withAlpha(0.8),
+      outlineWidth: 4,
+      show: false,
+    });
+    return { full, line, comet, drawn: -1 };
   });
+
+  // Beacons: a column of light rising from each primary place, breathing on the scene clock.
+  const beacons = scene.primitives.add(new C.PolylineCollection());
+  const beaconLines = (placesLayer?.places ?? [])
+    .filter((p) => p.primary)
+    .map((p) => {
+      const color = C.Color.fromCssColorString(p.color ?? ICE);
+      const line = beacons.add({
+        positions: [
+          C.Cartesian3.fromDegrees(p.lon, p.lat, 0),
+          C.Cartesian3.fromDegrees(p.lon, p.lat, 260_000),
+        ],
+        width: 12,
+        material: C.Material.fromType("PolylineGlow", {
+          color: color.withAlpha(0.75),
+          glowPower: 0.3,
+          taperPower: 0.35,
+        }),
+        show: false,
+      });
+      return { line, color };
+    });
 
   // 9. Regions: one or more filled maps (e.g. Senate states, House districts), each with thin
   //    outlines, revealed and hidden by its own LayerRef, fading over a second of scene time.
@@ -423,7 +458,21 @@ export function createOverlays(
           a.line.positions = a.full.slice(0, n);
           a.drawn = n;
         }
+        // The comet leads the drawing, then keeps flowing along the finished arc.
+        a.comet.show = progress > 0;
+        if (progress > 0) {
+          const flow = progress < 1 ? progress : ((sinceArcs + i * 700) % 3200) / 3200;
+          a.comet.position =
+            a.full[Math.min(ARC_STEPS, Math.round(flow * ARC_STEPS))] ?? a.comet.position;
+        }
       });
+      for (const b of beaconLines) {
+        b.line.show = pv > 0;
+        if (pv > 0) {
+          const breathe = 0.55 + 0.35 * Math.sin(((t % 2400) / 2400) * Math.PI * 2);
+          b.line.material.uniforms.color = b.color.withAlpha(breathe * pv);
+        }
+      }
       for (const map of regionMaps) {
         const inside = t >= map.from && t < map.until;
         const rv = !inside
@@ -508,6 +557,7 @@ export function createOverlays(
         points,
         stormLines,
         arcLines,
+        beacons,
         ...regionMaps.flatMap((m) => [m.fill, m.outline]),
       ]) {
         if (p && !p.isDestroyed()) scene.primitives.remove(p);

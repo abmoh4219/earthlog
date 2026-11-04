@@ -260,7 +260,7 @@ export async function personLens(ctx: LensContext): Promise<LensResult> {
         inserts.push({
           title: "Born",
           seconds: 8,
-          shot: { lon: birth.lon, lat: birth.lat - 0.4, range: 1.3e6, pitch: -55 },
+          shot: { lon: birth.lon, lat: birth.lat - 0.9, range: 9e5, pitch: -36, heading: 14 },
           beats: [
             {
               text: born
@@ -382,7 +382,7 @@ export async function personLens(ctx: LensContext): Promise<LensResult> {
         inserts.push({
           title: "In memory",
           seconds: 8,
-          shot: { lon: death.lon, lat: death.lat - 0.4, range: 1.3e6, pitch: -50 },
+          shot: { lon: death.lon, lat: death.lat - 0.9, range: 9e5, pitch: -34, heading: -18 },
           beats: [
             {
               text: `${name} died on ${dateText(died)} in ${death.name}${age !== undefined ? `, aged ${age}` : ""}.`,

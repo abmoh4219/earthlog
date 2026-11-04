@@ -206,13 +206,16 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
 
   const shotAt = (p: { lon: number; lat: number }, range: number): Shot => ({
     lon: p.lon,
-    lat: p.lat - range / 3.2e6,
+    // Low, tilted shots look north across the place, so the target sits a little south.
+    lat: p.lat - range / 1.6e6,
     range,
+    pitch: -42,
+    heading: 12,
   });
   const home: Shot = primary
     ? shotAt(
         primary,
-        story.place && countries.some((c) => c.name === story.place?.name) ? 4.2e6 : 1.8e6,
+        story.place && countries.some((c) => c.name === story.place?.name) ? 3.4e6 : 1.1e6,
       )
     : { lon: 0, lat: 20, range: 1.6e7, pitch: -85 };
 
@@ -276,7 +279,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
       title: "What happened",
       // About seven seconds per sentence: long enough to read, short enough to keep moving.
       seconds: 3 + opening.length * 7,
-      shot: { ...home, range: home.range * 2, pitch: -68 },
+      shot: { ...home, range: home.range * 2.2, pitch: -56 },
       beats: opening,
     });
   }
@@ -355,7 +358,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     chapters.push({
       title: "Readers",
       seconds: 11,
-      shot: { ...home, range: home.range * 1.5, pitch: -62 },
+      shot: { ...home, range: home.range * 1.6, pitch: -52, heading: -15 },
       beats: [
         { text, cites: [leadViewsId, ...(prior && priorId ? [use(priorId) ?? priorId] : [])] },
       ],
@@ -553,5 +556,5 @@ export function wideShot(places: { lon: number; lat: number }[]): Shot | undefin
   const lat = (Math.max(...lats) + Math.min(...lats)) / 2;
   const range = Math.min(2.2e7, Math.max(1.5e6, span * 111_000 * 2.4));
   // Centred on the places: a wide shot frames them all, above the captions.
-  return { lon, lat: lat - range / 9e6, range, pitch: -68 };
+  return { lon, lat: lat - range / 5e6, range, pitch: -55 };
 }

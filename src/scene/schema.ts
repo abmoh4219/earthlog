@@ -22,6 +22,12 @@ export const Keyframe = z.object({
   heading: z.number(),
   /** Degrees, negative looks down; -90 is straight down. */
   pitch: z.number().min(-90).max(0),
+  /**
+   * How the camera reaches this keyframe from the previous one. "flight" (default): eased
+   * take-off and landing along a lifted great circle. "glide": a smooth spline through the
+   * neighbouring keyframes with no stop, for continuous orbits and push-ins.
+   */
+  move: z.enum(["flight", "glide"]).optional(),
 });
 
 export const Beat = z.object({

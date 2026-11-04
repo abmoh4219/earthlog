@@ -221,6 +221,12 @@ Abdelah: films said *what* something is, not *why* it was in the news, and jumpe
 
 **Checkpoint 8:** `feat: organization and tech lens`
 
+## Phase 8½ · Cinematography (done 2026-11-04) ✅
+
+Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a spline through keyframes, no stops) and distance-timed flights that lift off and arc over the Earth; low, tilted shots with the horizon and atmosphere; slow orbits, push-ins and rises while chapters hold (maps move gently); an opening where the Earth turns into place and a closing pull-back to space; glowing arcs with travelling comets, light beacons on key places, a subtle bloom, and cinematic chapter cards. Measured: the camera never pauses more than 0.2 s outside election maps (was: a full stop at every keyframe).
+
+**Next for 3D: terrain.** Free elevation tiles (AWS Terrain Tiles) send no CORS header, so the browser can't read them. Plan: bake heights per story at build time and feed Cesium a custom heightmap provider, blending to sea level at the edges.
+
 ## Phase 9 · Economy lens (about 2 h)
 
 - The institution → its country → neighbours compared on a choropleth.

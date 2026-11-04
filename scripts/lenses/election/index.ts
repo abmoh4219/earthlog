@@ -201,7 +201,8 @@ export async function electionLens(ctx: LensContext): Promise<LensResult> {
         });
 
       const inserts: ChapterDraft[] = [];
-      const usShot = { lon: -97, lat: 36.5, range: 6.4e6, pitch: -72 };
+      // Maps must stay readable: tilted for depth, but almost still while a map is on screen.
+      const usShot = { lon: -97, lat: 34.5, range: 6.2e6, pitch: -58, motion: "still" as const };
 
       if (us && senateA && senate.length) {
         inserts.push(
@@ -586,7 +587,7 @@ function resultChapter(
   return {
     title: "The result",
     seconds: 14,
-    shot: { lon: home.lon, lat: home.lat, range: Math.max(home.range, 2.6e6), pitch: -60 },
+    shot: { lon: home.lon, lat: home.lat - 2, range: Math.max(home.range, 2.6e6), pitch: -48 },
     beats,
     panels,
     reveal: ["regions-result"],

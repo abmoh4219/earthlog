@@ -323,7 +323,7 @@ export async function organizationLens(ctx: LensContext): Promise<LensResult> {
         inserts.push({
           title: "Headquarters",
           seconds: 8,
-          shot: { lon: hq.lon, lat: hq.lat - 0.35, range: 1.1e6, pitch: -55 },
+          shot: { lon: hq.lon, lat: hq.lat - 0.8, range: 8e5, pitch: -36, heading: 18 },
           beats: [
             {
               text: hqVia
@@ -397,7 +397,7 @@ export async function organizationLens(ctx: LensContext): Promise<LensResult> {
           title: "On record",
           seconds: 10,
           shot: hq
-            ? { lon: hq.lon, lat: hq.lat - 1, range: 3.2e6, pitch: -62, heading: 12 }
+            ? { lon: hq.lon, lat: hq.lat - 2, range: 2.6e6, pitch: -46, heading: -10 }
             : { lon: 0, lat: 20, range: 1.6e7 },
           beats: parts.length
             ? [{ text: `${parts.join(", ")}.`, cites }]
@@ -496,7 +496,7 @@ export async function organizationLens(ctx: LensContext): Promise<LensResult> {
           title: "The numbers",
           seconds: 6 + beats.length * 5,
           shot: hq
-            ? { lon: hq.lon, lat: hq.lat - 1.5, range: 4.5e6, pitch: -66, heading: -8 }
+            ? { lon: hq.lon, lat: hq.lat - 3, range: 4e6, pitch: -52, heading: 8 }
             : { lon: 0, lat: 20, range: 1.6e7 },
           beats,
           panels,
@@ -580,7 +580,7 @@ export async function organizationLens(ctx: LensContext): Promise<LensResult> {
           title: "Tech talk",
           seconds: 9,
           shot: hq
-            ? { lon: hq.lon, lat: hq.lat - 2, range: 6e6, pitch: -70 }
+            ? { lon: hq.lon, lat: hq.lat - 4, range: 5.5e6, pitch: -56 }
             : { lon: 0, lat: 20, range: 1.6e7 },
           beats: [
             {

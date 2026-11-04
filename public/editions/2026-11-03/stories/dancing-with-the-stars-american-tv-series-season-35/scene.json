@@ -24,9 +24,9 @@
   "camera": [
     {
       "t": "2026-11-03T00:00:00Z",
-      "lon": 0,
-      "lat": 20,
-      "range": 22000000,
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
       "heading": 0,
       "pitch": -90
     },
@@ -34,17 +34,28 @@
       "t": "2026-11-03T00:00:04Z",
       "lon": 0,
       "lat": 20,
-      "range": 32000000,
+      "range": 35200000,
       "heading": 0,
-      "pitch": -68
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:23Z",
       "lon": 0,
       "lat": 20,
-      "range": 34240000,
-      "heading": 6,
-      "pitch": -68
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:26Z",
@@ -52,39 +63,62 @@
       "lat": 20,
       "range": 32000000,
       "heading": 0,
-      "pitch": -85
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:29Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28977232.442039732,
+      "heading": -9.7,
+      "pitch": -82.5,
+      "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:32Z",
       "lon": 0,
       "lat": 20,
-      "range": 34240000,
-      "heading": 6,
-      "pitch": -85
+      "range": 26240000,
+      "heading": -19.4,
+      "pitch": -80,
+      "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:35Z",
       "lon": 0,
       "lat": 20,
-      "range": 24000000,
-      "heading": 0,
-      "pitch": -62
+      "range": 25600000,
+      "heading": -15,
+      "pitch": -52,
+      "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:43Z",
+      "t": "2026-11-03T00:00:37Z",
       "lon": 0,
       "lat": 20,
-      "range": 25680000,
-      "heading": 6,
-      "pitch": -62
+      "range": 23181785.953631785,
+      "heading": -3.6999999999999993,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:40Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20992000,
+      "heading": 7.600000000000001,
+      "pitch": -47,
+      "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:44Z",
-      "lon": 0,
+      "lon": -25,
       "lat": 20,
-      "range": 41088000,
-      "heading": 6,
-      "pitch": -80
+      "range": 62976000,
+      "heading": 7.600000000000001,
+      "pitch": -88,
+      "move": "flight"
     }
   ],
   "pacing": [
@@ -420,6 +454,6 @@
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-04T20:01:29Z"
+    "at": "2026-11-04T20:24:47Z"
   }
 }

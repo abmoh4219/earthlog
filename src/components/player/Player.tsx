@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { type SceneBundle, usePlayer } from "@/player/store";
 import { Captions } from "./Captions";
+import { ChapterCard } from "./ChapterCard";
 import { Credits } from "./Credits";
 import { DataPanel } from "./DataPanel";
 import { GlobeView } from "./GlobeView";
@@ -48,6 +49,7 @@ export function Player({
       <Panels />
       <Legend />
       <StoryCard />
+      <ChapterCard />
       <Captions />
       <Transport />
       <Credits />
