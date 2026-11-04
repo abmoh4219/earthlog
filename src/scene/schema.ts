@@ -235,6 +235,8 @@ export const Country = z.object({
   rings: z.array(z.array(z.number())),
   /** Other names for matching, e.g. "United States" for "United States of America". */
   aliases: z.array(z.string()).default([]),
+  /** Natural Earth CONTINENT, used to balance editions geographically. */
+  continent: z.string().optional(),
 });
 
 export type Keyframe = z.infer<typeof Keyframe>;

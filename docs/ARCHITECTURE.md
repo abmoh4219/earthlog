@@ -21,7 +21,13 @@ Earthlog's unit is the **story**, not the feed. Everything below serves one pipe
 ```
 
 - **Edition:** one UTC day, `public/editions/YYYY-MM-DD/`: `edition.json` (the ranked story list) plus one bundle per story. Built nightly and kept forever (ADR-0009, ADR-0012).
-- **Story:** one topic of that day, with a lens, a place, a heat score and its evidence.
+- **Story:** one topic of that day, with a lens, a place, a heat score and its evidence. `pnpm edition [date]` builds them (`scripts/edition/`):
+  - **attach** each news item to the most-read article it links; otherwise it's a news-only story;
+  - **drop noise:** lists and specials, and pages read no more than ~2.5× their normal level that no news mentions;
+  - **fold** an article into a hotter story that links to it (candidates into their election, the aircraft model into its crash);
+  - **type** via Wikidata P31 (`scripts/edition/lens.ts`), **place** via the news place, the article's coordinates, a recent death place, headquarters, or the country;
+  - **heat** = log(readers) × (1 + log₂(spike)/10) + reported-news weight + a recent-death bonus, scaled to 0–100;
+  - **pick** about 14: hottest first, at most 3 per lens, then the best story of every continent not yet covered.
 - **Lens:** the analysis template for one kind of story (`election`, `person`, `organization`, `economy`, `sports`, `culture`, `accident`, `disaster`, `conflict`, `science`, `general`). A lens is code in `scripts/lenses/<lens>/`: its bakers (what data to fetch), its director (chapters, captions, panels) and its globe layers. The concept doc lists each lens's data and visuals.
 - **Story film:** a scene with **chapters**: each chapter has a camera shot, captions with citations, globe layers to show, and panels (charts) to build. Two time modes (ADR-0013):
   - **Real time** for sensor stories (quakes, storms, outages): the clock is the real UTC clock, as in the classics.

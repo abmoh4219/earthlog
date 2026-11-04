@@ -16,6 +16,7 @@ const Feature = z.object({
     ADMIN: z.string().nullable().optional(),
     NAME_EN: z.string().nullable().optional(),
     FORMAL_EN: z.string().nullable().optional(),
+    CONTINENT: z.string().optional(),
     ISO_A2_EH: z.string(),
     LABEL_X: z.number(),
     LABEL_Y: z.number(),
@@ -48,6 +49,7 @@ export function reduceCountries(json: unknown): Country[] {
       name: f.properties.NAME,
       label: [r2(f.properties.LABEL_X), r2(f.properties.LABEL_Y)],
       rings,
+      ...(f.properties.CONTINENT ? { continent: f.properties.CONTINENT } : {}),
       // Lets news place names ("United States") match Natural Earth's ("United States of America").
       aliases: [
         ...new Set(

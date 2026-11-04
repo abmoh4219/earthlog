@@ -8,6 +8,7 @@
       "!public/cesium",
       "!public/scenes/*",
       "!public/geo",
+      "!public/editions",
       "!test/fixtures",
       "!next-env.d.ts",
       "!.cache",

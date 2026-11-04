@@ -132,7 +132,7 @@
 
 ---
 
-## Phase 4 · The edition builder: finding yesterday's stories (about 3 h)
+## Phase 4 · The edition builder: finding yesterday's stories (about 3 h) ✅
 
 **Build:**
 
@@ -146,8 +146,15 @@
 
 **Acceptance:**
 
-- [ ] For 3 Nov 2026 the edition includes the midterms (election), Jesús de Miguel (person), the Learjet crash (accident), *Jailer 2* (culture), the RBA rate rise (economy) and Patrick Stewart (person), each with its lens.
-- [ ] Recorded fixtures for every source; the typing table has tests.
+- [x] For 3 Nov 2026 the edition includes the midterms (election), Jesús de Miguel (person), the Learjet crash (accident), *Jailer 2* (culture), the RBA rate rise (economy) and Patrick Stewart (person), each with its lens.
+- [x] Recorded fixtures for every source; the typing table has tests.
+
+**Done differently (2026-11-04):**
+
+- **"Spike" compares with the article's normal level** (median readers 60 to 8 days before), not with the last few days: big stories trend for days (the Learjet crash, Patrick Stewart's death on 28 Oct), and a last-days baseline wrongly dropped them.
+- **Geographic balance:** after the hottest stories (at most 3 per lens), every continent with a story that day gets its best one. The 3 Nov edition covers Africa (Zamfara, Nigeria), Asia, Europe, North America and Oceania.
+- **Reported news weighs like a strongly read article**, so conflicts and disasters that never trend in English still make the edition.
+- **A death in the past week** counts as news in itself.
 
 **Checkpoint 4:** `feat: edition builder discovers, types and ranks yesterday's stories`
 

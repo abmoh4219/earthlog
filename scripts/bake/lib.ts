@@ -10,21 +10,37 @@ const CACHE = join(ROOT, ".cache");
 /** Wikimedia and USGS ask for an identifying User-Agent; no personal contact details. */
 export const USER_AGENT = "Earthlog/0.1 (+https://github.com/abmoh4219/earthlog)";
 
-export async function fetchJson(url: string): Promise<unknown> {
+/**
+ * GET JSON through the cache. `complete` guards against caching a partial answer (some
+ * APIs occasionally omit a section, e.g. the Wikimedia feed's `mostread`): an incomplete
+ * response is retried, and never written to the cache.
+ */
+export async function fetchJson(
+  url: string,
+  complete: (json: unknown) => boolean = () => true,
+): Promise<unknown> {
   const key = createHash("sha256").update(url).digest("hex").slice(0, 24);
   const file = join(CACHE, `${key}.json`);
   try {
-    return JSON.parse(await readFile(file, "utf8"));
+    const cached: unknown = JSON.parse(await readFile(file, "utf8"));
+    if (complete(cached)) return cached;
   } catch {
     // Not cached yet.
   }
-  console.log(`  fetch ${url}`);
-  const res = await fetch(url, { headers: { "user-agent": USER_AGENT } });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
-  const text = await res.text();
-  await mkdir(CACHE, { recursive: true });
-  await writeFile(file, text);
-  return JSON.parse(text);
+  for (let attempt = 1; ; attempt++) {
+    console.log(`  fetch ${url}`);
+    const res = await fetch(url, { headers: { "user-agent": USER_AGENT } });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
+    const text = await res.text();
+    const json: unknown = JSON.parse(text);
+    if (complete(json)) {
+      await mkdir(CACHE, { recursive: true });
+      await writeFile(file, text);
+      return json;
+    }
+    if (attempt >= 4) throw new Error(`incomplete response after ${attempt} tries: ${url}`);
+    await new Promise((r) => setTimeout(r, 1500 * attempt));
+  }
 }
 
 export async function writeJson(path: string, data: unknown, pretty = true): Promise<number> {
@@ -45,7 +61,7 @@ export function isoFromUnix(seconds: number): string {
 
 /** Compact time key for evidence IDs: "2025-04-28T10:40Z". */
 export function idTime(iso: string): string {
-  return iso.slice(0, 16) + "Z";
+  return `${iso.slice(0, 16)}Z`;
 }
 
 export function median(values: number[]): number | null {

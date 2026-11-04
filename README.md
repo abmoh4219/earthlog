@@ -31,9 +31,9 @@ Every story is a 60–90 second **story film** you can pause, scrub and explore,
 
 **Classics:** four hand-made deep replays of landmark events: the 2025 Iberian blackout, the 2022 World Cup final, Iran's 2025 internet shutdown and the 2025 Myanmar earthquake.
 
-## How it's different
+## Why it's different
 
-[God's Eye View](https://godseyeview.ai/) is a spy-satellite simulator of the world **now**. [World Monitor](https://github.com/koala73/worldmonitor) is an intelligence dashboard of the world **now**. Earthlog is the newsroom's data team: it takes **yesterday's stories one at a time and explains each in depth**, with proof on every line.
+Most globe apps show the world **now**: live feeds, dashboards, tracked objects. Earthlog takes **yesterday's stories one at a time and explains each in depth**, the way a newsroom's data team would, with proof on every line, and keeps every day in a 3D archive.
 
 ## How it works
 
@@ -65,6 +65,7 @@ Keys: <kbd>Space</kbd> play/pause · <kbd>←</kbd>/<kbd>→</kbd> seek · <kbd>
 ```bash
 pnpm bake iberia-2025             # a classic
 pnpm bake daily 2026-11-03        # a day at a glance
+pnpm edition 2026-11-03           # find, type and rank that day's stories
 pnpm validate:scenes              # every sentence must cite real evidence
 ```
 

@@ -60,6 +60,9 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 - **Wikipedia's coordinates lookup returns at most 10 results per request** unless `colimit=max` is set; without it, most stories fell back to country level.
 - **Country pages don't always carry coordinates** ("United States" has none). Bakers fall back to Natural Earth's label point, matching names through aliases ("United States" = "United States of America").
 - **News digests give dates, not times.** Report evidence carries `precision: "day"`; captions for news state no clock time, and the story card says "time of day not recorded".
+- **The Wikimedia feed sometimes omits `mostread`.** The downloader refuses to cache an incomplete answer and retries (seen 2026-11-04).
+- **An article's "normal" readership** comes from the per-article pageviews API, 60 to 8 days before the day. A 404 means the article had no views then: it's new.
+- **Most-read lists include noise:** the Main Page, `Special:` pages and lists like "Deaths in 2026". The builder drops them by title and by Wikidata type ("Wikimedia list article").
 - **The MODIS sensors are ending** (Terra around February 2027, Aqua around September 2027). Prefer VIIRS layers.
 
 ## Later sources (backlog)

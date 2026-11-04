@@ -1,7 +1,8 @@
 // pnpm validate:scenes: every committed bundle must parse and pass the validator (CI runs this).
-import { access, readFile } from "node:fs/promises";
+import { access, readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
+import { Edition } from "../src/scene/edition.ts";
 import { Evidence, LayerData, Scene, SceneIndexEntry, Source } from "../src/scene/schema.ts";
 import { validateBundle } from "../src/scene/validate.ts";
 
@@ -36,4 +37,37 @@ for (const entry of index) {
     console.error(`✗ ${entry.id}: ${err instanceof Error ? err.message : String(err)}`);
   }
 }
+// Editions: every story's evidence exists and comes from a credited source.
+const EDITIONS = join(import.meta.dirname, "..", "public", "editions");
+const days = await readdir(EDITIONS).catch(() => [] as string[]);
+for (const day of days.sort()) {
+  const dir = join(EDITIONS, day);
+  try {
+    const edition = Edition.parse(await read(join(dir, "edition.json")));
+    const evidence = z.array(Evidence).parse(await read(join(dir, "evidence.json")));
+    const sources = z.array(Source).parse(await read(join(dir, "sources.json")));
+    const ids = new Set(evidence.map((e) => e.id));
+    const sourceIds = new Set(sources.map((s) => s.id));
+    const errors = [
+      ...edition.stories.flatMap((s) =>
+        s.evidence.filter((id) => !ids.has(id)).map((id) => `${s.slug}: unknown evidence ${id}`),
+      ),
+      ...evidence
+        .filter((e) => !sourceIds.has(e.source))
+        .map((e) => `${e.id}: unknown source ${e.source}`),
+      ...sources.filter((s) => !s.license.trim()).map((s) => `source ${s.id}: missing licence`),
+    ];
+    if (edition.date !== day) errors.push(`edition date ${edition.date} ≠ folder ${day}`);
+    if (errors.length) {
+      failed++;
+      console.error(`✗ edition ${day}\n  ${errors.join("\n  ")}`);
+    } else {
+      console.log(`✓ edition ${day}: ${edition.stories.length} stories, all evidence present`);
+    }
+  } catch (err) {
+    failed++;
+    console.error(`✗ edition ${day}: ${err instanceof Error ? err.message : String(err)}`);
+  }
+}
+
 if (failed) process.exit(1);
