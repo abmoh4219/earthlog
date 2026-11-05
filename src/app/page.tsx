@@ -252,6 +252,36 @@ export default async function Landing() {
         </div>
       </section>
 
+      {/* The demo: a story film exported with Earthlog's own clip recorder. */}
+      <section className="mx-auto max-w-6xl px-6 pt-6 pb-4">
+        <div className="text-center">
+          <p className="font-mono text-[11px] tracking-[0.3em] text-attention uppercase">
+            See it in action
+          </p>
+          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-frost md:text-4xl">
+            The 2026 US elections, in under two minutes.
+          </h2>
+          <p className="mx-auto mt-3 max-w-2xl text-ice/70">
+            One story film, exported with Earthlog&apos;s own clip button: Senate, governor and
+            House races state by state, every sentence with its cited source.
+          </p>
+        </div>
+        <div className="relative mt-8 overflow-hidden rounded-3xl border border-ice/15 shadow-[0_40px_120px_-40px_rgb(94_242_255/0.35)]">
+          <video
+            className="aspect-video w-full bg-black"
+            src="/media/earthlog-demo.mp4"
+            poster="/media/earthlog-demo.jpg"
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls
+            preload="metadata"
+            aria-label="Earthlog story film: the 2026 United States elections"
+          />
+        </div>
+      </section>
+
       {/* Today's edition */}
       {latest && edition && (
         <section className="mx-auto max-w-6xl px-6 py-20">

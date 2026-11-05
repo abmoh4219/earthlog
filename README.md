@@ -10,8 +10,16 @@ Each story gets the analysis its kind deserves. Every claim links to its source.
   <a href="https://earthlog.vercel.app"><strong>earthlog.vercel.app</strong></a>
 </p>
 
-<!-- Hero clip: the 2026 US elections film, exported with Earthlog's own clip recorder (Phase 20). -->
-<p align="center"><img src="docs/media/election.jpg" alt="The 2026 US elections film: Senate races state by state, with a cited results panel" width="900"/></p>
+<!-- The demo: the 2026 US elections film, exported with Earthlog's own clip button. To play it
+     inline on GitHub, edit this file on github.com, drag public/media/earthlog-demo.mp4 into the
+     editor and replace this block with the link GitHub inserts. -->
+<p align="center">
+  <a href="https://earthlog.vercel.app/media/earthlog-demo.mp4">
+    <img src="docs/media/earthlog-demo.jpg" alt="Watch the demo: the 2026 US elections story film, governors' races state by state" width="900"/>
+  </a>
+  <br/>
+  <sub>▶ <a href="https://earthlog.vercel.app/media/earthlog-demo.mp4">Watch the demo</a> (1 min 47 s): the 2026 US elections, exported with Earthlog's own clip button.</sub>
+</p>
 
 ## What it does
 
