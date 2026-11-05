@@ -608,7 +608,7 @@
       "series": [
         {
           "label": "United Airlines Flight 232",
-          "color": "#e8f6ff",
+          "color": "#dfe6ee",
           "points": [
             {
               "x": "10-04",
@@ -751,7 +751,7 @@
           "label": "English",
           "text": "51,857",
           "value": 51857,
-          "color": "#e8f6ff",
+          "color": "#dfe6ee",
           "cites": [
             "views:en:United_Airlines_Flight_232:2026-11-02"
           ]
@@ -816,7 +816,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.002723
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

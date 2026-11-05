@@ -207,28 +207,28 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "On October 29, Simmons and a 2028 fifth-round draft pick were traded to the Chicago Bears for the Bears' 2027 and 2028 first-round selections and a 2027 fourth rounder.",
+      "text": "On October 29, Simmons and a 2028 fifth-round pick were traded to the Chicago Bears for the Bears' 2027 and 2028 first-round selections and a 2027 fourth-rounder.",
       "cites": [
-        "wiki:rev:1383781566:111"
+        "wiki:rev:1383834108:111"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
       "text": "In his Bears debut on Monday Night Football against the reigning champion Seattle Seahawks, he recorded a sack, six tackles, and a pass deflection as Chicago won 34–17.",
       "cites": [
-        "wiki:rev:1383781566:112"
+        "wiki:rev:1383834108:112"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Jeffery Bernard Simmons Jr., born July 28, 1997, is an American professional football defensive tackle for the Chicago Bears of the National Football League.",
+      "text": "Jeffery Bernard Simmons Jr. was born on July 28, 1997, and is an American professional football defensive tackle for the Chicago Bears of the National Football League.",
       "cites": [
-        "wiki:rev:1383781566:0"
+        "wiki:rev:1383834108:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Jeffery Simmons was born on 28 July 1997 in LaSalle Parish.",
+      "text": "Simmons was born on 28 July 1997 in LaSalle Parish.",
       "cites": [
         "wd:Q45146310:P569",
         "wd:Q45146310:P19"
@@ -236,7 +236,7 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "He has played for 2 clubs, from Mississippi State Bulldogs football to the Chicago Bears.",
+      "text": "He has played for 2 clubs, from the Mississippi State Bulldogs football team to the Chicago Bears.",
       "cites": [
         "wd:Q45146310:P54:Q6879318",
         "wd:Q45146310:P54:Q205033"
@@ -251,7 +251,7 @@
     },
     {
       "t": "2026-11-03T00:00:52Z",
-      "text": "On 3 November 2026, 111,232 people read the English article, about 251 times the usual daily count.",
+      "text": "The English Wikipedia article drew 111,232 readers on 3 November 2026, about 251 times its usual daily level.",
       "cites": [
         "views:en:Jeffery_Simmons:2026-11-03",
         "views:en:Jeffery_Simmons:prior"
@@ -259,7 +259,7 @@
     },
     {
       "t": "2026-11-03T00:00:58Z",
-      "text": "The article was read in 9 languages, and after English, German drew the most readers with 722.",
+      "text": "The article was read in 9 languages, and after English the most readers were in German, with 722 on that day.",
       "cites": [
         "views:en:Jeffery_Simmons:2026-11-03",
         "views:de:Jeffery_Simmons:2026-11-03"
@@ -357,7 +357,7 @@
       "series": [
         {
           "label": "Jeffery Simmons",
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "points": [
             {
               "x": "10-05",
@@ -500,7 +500,7 @@
           "label": "English",
           "text": "111,232",
           "value": 111232,
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "cites": [
             "views:en:Jeffery_Simmons:2026-11-03"
           ]
@@ -565,7 +565,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.003182
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0
   }
 }

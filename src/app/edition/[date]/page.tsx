@@ -70,7 +70,7 @@ export default async function EditionPage({ params }: Props) {
                 <div className="flex items-center gap-3">
                   <span className="w-6 font-mono text-sm text-ice/40 tabular-nums">{i + 1}</span>
                   <span
-                    className="rounded-md px-2 py-0.5 font-mono text-[10px] tracking-[0.2em] text-void uppercase"
+                    className="font-medium rounded-md px-2 py-0.5 text-xs text-void"
                     style={{ background: lens.color }}
                   >
                     {lens.label}

@@ -43,9 +43,7 @@ export function Help() {
             transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 className="font-mono text-[11px] tracking-[0.35em] text-ice/70 uppercase">
-              Controls
-            </h2>
+            <h2 className="font-medium text-xs text-ice/70">Controls</h2>
             <ul className="mt-4 space-y-2.5">
               {SHORTCUTS.map(([keys, action]) => (
                 <li key={action} className="flex items-center justify-between gap-4 text-sm">

@@ -1,0 +1,932 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-abdul-el-sayed",
+  "title": "Abdul El-Sayed",
+  "subtitle": "People · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:01:29Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:01:05Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:01:05Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-04T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-04T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
+      "lon": -83.149722222222,
+      "lat": 41.758055555556,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
+      "lon": -83.149722222222,
+      "lat": 41.758055555556,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:31Z",
+      "lon": -83.149722222222,
+      "lat": 41.758055555556,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:35Z",
+      "lon": -75.18940520845756,
+      "lat": 40.93128658987148,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:40Z",
+      "lon": -75.18940520845756,
+      "lat": 40.93128658987148,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:46Z",
+      "lon": -75.18940520845756,
+      "lat": 40.93128658987148,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:48Z",
+      "lon": -75.18940520845756,
+      "lat": 40.93128658987148,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:52Z",
+      "lon": -75.18940520845756,
+      "lat": 40.93128658987148,
+      "range": 19921847.303902317,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:56Z",
+      "lon": -75.18940520845756,
+      "lat": 40.93128658987148,
+      "range": 18040000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:59Z",
+      "lon": -85.88015165454999,
+      "lat": 39.73283132786837,
+      "range": 4762292.278703562,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:02Z",
+      "lon": -85.88015165454999,
+      "lat": 39.73283132786837,
+      "range": 4312439.072403881,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:05Z",
+      "lon": -85.88015165454999,
+      "lat": 39.73283132786837,
+      "range": 3905079.6685369206,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:09Z",
+      "lon": 19.034297812310133,
+      "lat": 40.05749363737765,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:17Z",
+      "lon": 19.034297812310133,
+      "lat": 40.05749363737765,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:26Z",
+      "lon": 19.034297812310133,
+      "lat": 40.05749363737765,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:29Z",
+      "lon": -5.965702187689885,
+      "lat": 40.05749363737765,
+      "range": 54120000,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "On November 2, 2026, singer Bruce Springsteen announced his support for El-Sayed, calling him a fighter in defense of the U.S. Constitution and democracy.",
+      "cites": [
+        "wiki:rev:1383852946:95"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:08Z",
+      "text": "El-Sayed faced Republican nominee Mike Rogers in the general election on November 3, 2026.",
+      "cites": [
+        "wiki:rev:1383852946:68"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:15Z",
+      "text": "Abdulrahman Mohamed El-Sayed, born October 31, 1984, is an American epidemiologist, academic, and politician who is the United States senator-elect from Michigan.",
+      "cites": [
+        "wiki:rev:1383852946:0"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:25Z",
+      "text": "Abdul El-Sayed was born on 31 October 1984 in Rochester Hills.",
+      "cites": [
+        "wd:Q25752879:P569",
+        "wd:Q25752879:P19"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:33Z",
+      "text": "He was educated at Andover High School, the University of Michigan College of Literature, Science, and the Arts, Columbia University Vagelos College of Physicians and Surgeons, and Oriel College.",
+      "cites": [
+        "wd:Q25752879:P69:Q4754616",
+        "wd:Q25752879:P69:Q7895753",
+        "wd:Q25752879:P69:Q2154182",
+        "wd:Q25752879:P69:Q81170"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:39Z",
+      "text": "He later worked for the Columbia University Mailman School of Public Health and the Detroit Health Department, and worked in Detroit.",
+      "cites": [
+        "wd:Q25752879:P108:Q5149896",
+        "wd:Q25752879:P108:Q25000650",
+        "wd:Q25752879:P937:Q12439"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:47Z",
+      "text": "1 award on record, including the Rhodes Scholarship, received in 2009.",
+      "cites": [
+        "wd:Q25752879:P166:Q1204346"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:57Z",
+      "text": "Readers also turned to James Talarico with 1,256,040 readers, the Democratic Party (United States) with 256,501, and the United States Senate with 255,791.",
+      "cites": [
+        "views:en:James_Talarico:2026-11-04",
+        "views:en:Democratic_Party_(United_States):2026-11-04",
+        "views:en:United_States_Senate:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:06Z",
+      "text": "On 4 November 2026, 1,413,749 people read the English article, about 80 times the usual daily level.",
+      "cites": [
+        "views:en:Abdul_El-Sayed:2026-11-04",
+        "views:en:Abdul_El-Sayed:prior"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:12Z",
+      "text": "The article was read in 11 languages, and after English, the most readers were in Arabic, with 83,284.",
+      "cites": [
+        "views:en:Abdul_El-Sayed:2026-11-04",
+        "views:ar:عبد_الرحمن_السيد:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:18Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:ar:عبد_الرحمن_السيد:2026-11-04",
+        "views:fr:Abdul_El-Sayed:2026-11-04",
+        "views:de:Abdul_El-Sayed:2026-11-04",
+        "views:es:Abdul_El-Sayed:2026-11-04",
+        "views:it:Abdul_El-Sayed:2026-11-04",
+        "views:nl:Abdul_El-Sayed:2026-11-04"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-04T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-04T00:00:46Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-04T00:00:56Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-04T00:01:05Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-04T00:00:33Z",
+      "until": "2026-11-04T00:00:46Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1984 born",
+          "text": "Rochester Hills",
+          "cites": [
+            "wd:Q25752879:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Andover High School",
+          "cites": [
+            "wd:Q25752879:P69:Q4754616"
+          ]
+        },
+        {
+          "label": "2003–07",
+          "text": "University of Michigan College of Literature, Science, and the Arts",
+          "cites": [
+            "wd:Q25752879:P69:Q7895753"
+          ]
+        },
+        {
+          "label": "2007–14",
+          "text": "Columbia University Vagelos College of Physicians and Surgeons",
+          "cites": [
+            "wd:Q25752879:P69:Q2154182"
+          ]
+        },
+        {
+          "label": "2009–11",
+          "text": "Oriel College",
+          "cites": [
+            "wd:Q25752879:P69:Q81170"
+          ]
+        },
+        {
+          "label": "2014–15",
+          "text": "Columbia University Mailman School of Public Health",
+          "cites": [
+            "wd:Q25752879:P108:Q5149896"
+          ]
+        },
+        {
+          "label": "2015–17",
+          "text": "Detroit Health Department",
+          "cites": [
+            "wd:Q25752879:P108:Q25000650"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Ann Arbor",
+          "cites": [
+            "wd:Q25752879:P551:Q485172"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Detroit",
+          "cites": [
+            "wd:Q25752879:P937:Q12439"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-04T00:00:47Z",
+      "until": "2026-11-04T00:00:56Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2009",
+          "text": "Rhodes Scholarship",
+          "cites": [
+            "wd:Q25752879:P166:Q1204346"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-04T00:01:06Z",
+      "until": "2026-11-04T00:01:29Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Abdul El-Sayed",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 23997
+            },
+            {
+              "x": "10-07",
+              "y": 21135
+            },
+            {
+              "x": "10-08",
+              "y": 24566
+            },
+            {
+              "x": "10-09",
+              "y": 80607
+            },
+            {
+              "x": "10-10",
+              "y": 41302
+            },
+            {
+              "x": "10-11",
+              "y": 40682
+            },
+            {
+              "x": "10-12",
+              "y": 36797
+            },
+            {
+              "x": "10-13",
+              "y": 31048
+            },
+            {
+              "x": "10-14",
+              "y": 34055
+            },
+            {
+              "x": "10-15",
+              "y": 38340
+            },
+            {
+              "x": "10-16",
+              "y": 49382
+            },
+            {
+              "x": "10-17",
+              "y": 44855
+            },
+            {
+              "x": "10-18",
+              "y": 97773
+            },
+            {
+              "x": "10-19",
+              "y": 93167
+            },
+            {
+              "x": "10-20",
+              "y": 75508
+            },
+            {
+              "x": "10-21",
+              "y": 66210
+            },
+            {
+              "x": "10-22",
+              "y": 76312
+            },
+            {
+              "x": "10-23",
+              "y": 68126
+            },
+            {
+              "x": "10-24",
+              "y": 56724
+            },
+            {
+              "x": "10-25",
+              "y": 84470
+            },
+            {
+              "x": "10-26",
+              "y": 93851
+            },
+            {
+              "x": "10-27",
+              "y": 77590
+            },
+            {
+              "x": "10-28",
+              "y": 69127
+            },
+            {
+              "x": "10-29",
+              "y": 70235
+            },
+            {
+              "x": "10-30",
+              "y": 81884
+            },
+            {
+              "x": "10-31",
+              "y": 96048
+            },
+            {
+              "x": "11-01",
+              "y": 134093
+            },
+            {
+              "x": "11-02",
+              "y": 243340
+            },
+            {
+              "x": "11-03",
+              "y": 271285
+            },
+            {
+              "x": "11-04",
+              "y": 1413749
+            }
+          ],
+          "cites": [
+            "views:en:Abdul_El-Sayed:30d"
+          ]
+        },
+        {
+          "label": "James Talarico",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 16210
+            },
+            {
+              "x": "10-07",
+              "y": 20285
+            },
+            {
+              "x": "10-08",
+              "y": 24631
+            },
+            {
+              "x": "10-09",
+              "y": 31515
+            },
+            {
+              "x": "10-10",
+              "y": 29355
+            },
+            {
+              "x": "10-11",
+              "y": 30116
+            },
+            {
+              "x": "10-12",
+              "y": 40703
+            },
+            {
+              "x": "10-13",
+              "y": 43363
+            },
+            {
+              "x": "10-14",
+              "y": 47317
+            },
+            {
+              "x": "10-15",
+              "y": 98368
+            },
+            {
+              "x": "10-16",
+              "y": 39109
+            },
+            {
+              "x": "10-17",
+              "y": 25772
+            },
+            {
+              "x": "10-18",
+              "y": 28395
+            },
+            {
+              "x": "10-19",
+              "y": 45169
+            },
+            {
+              "x": "10-20",
+              "y": 39065
+            },
+            {
+              "x": "10-21",
+              "y": 37142
+            },
+            {
+              "x": "10-22",
+              "y": 37853
+            },
+            {
+              "x": "10-23",
+              "y": 33918
+            },
+            {
+              "x": "10-24",
+              "y": 34334
+            },
+            {
+              "x": "10-25",
+              "y": 30081
+            },
+            {
+              "x": "10-26",
+              "y": 28682
+            },
+            {
+              "x": "10-27",
+              "y": 35699
+            },
+            {
+              "x": "10-28",
+              "y": 38715
+            },
+            {
+              "x": "10-29",
+              "y": 39357
+            },
+            {
+              "x": "10-30",
+              "y": 42210
+            },
+            {
+              "x": "10-31",
+              "y": 49602
+            },
+            {
+              "x": "11-01",
+              "y": 56366
+            },
+            {
+              "x": "11-02",
+              "y": 62655
+            },
+            {
+              "x": "11-03",
+              "y": 105766
+            },
+            {
+              "x": "11-04",
+              "y": 1256040
+            }
+          ],
+          "cites": [
+            "views:en:James_Talarico:30d"
+          ]
+        },
+        {
+          "label": "Democratic Party (United States)",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 6203
+            },
+            {
+              "x": "10-07",
+              "y": 6456
+            },
+            {
+              "x": "10-08",
+              "y": 6397
+            },
+            {
+              "x": "10-09",
+              "y": 6501
+            },
+            {
+              "x": "10-10",
+              "y": 6685
+            },
+            {
+              "x": "10-11",
+              "y": 6663
+            },
+            {
+              "x": "10-12",
+              "y": 6942
+            },
+            {
+              "x": "10-13",
+              "y": 7410
+            },
+            {
+              "x": "10-14",
+              "y": 7284
+            },
+            {
+              "x": "10-15",
+              "y": 7506
+            },
+            {
+              "x": "10-16",
+              "y": 7260
+            },
+            {
+              "x": "10-17",
+              "y": 7237
+            },
+            {
+              "x": "10-18",
+              "y": 7844
+            },
+            {
+              "x": "10-19",
+              "y": 8114
+            },
+            {
+              "x": "10-20",
+              "y": 8491
+            },
+            {
+              "x": "10-21",
+              "y": 8395
+            },
+            {
+              "x": "10-22",
+              "y": 9141
+            },
+            {
+              "x": "10-23",
+              "y": 8752
+            },
+            {
+              "x": "10-24",
+              "y": 7926
+            },
+            {
+              "x": "10-25",
+              "y": 9376
+            },
+            {
+              "x": "10-26",
+              "y": 10347
+            },
+            {
+              "x": "10-27",
+              "y": 10297
+            },
+            {
+              "x": "10-28",
+              "y": 9973
+            },
+            {
+              "x": "10-29",
+              "y": 10660
+            },
+            {
+              "x": "10-30",
+              "y": 10842
+            },
+            {
+              "x": "10-31",
+              "y": 10121
+            },
+            {
+              "x": "11-01",
+              "y": 12921
+            },
+            {
+              "x": "11-02",
+              "y": 20077
+            },
+            {
+              "x": "11-03",
+              "y": 43592
+            },
+            {
+              "x": "11-04",
+              "y": 256501
+            }
+          ],
+          "cites": [
+            "views:en:Democratic_Party_(United_States):30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-04T00:01:06Z",
+      "until": "2026-11-04T00:01:29Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "1,413,749",
+          "value": 1413749,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Abdul_El-Sayed:2026-11-04"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "83,284",
+          "value": 83284,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:عبد_الرحمن_السيد:2026-11-04"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "71,222",
+          "value": 71222,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Abdul_El-Sayed:2026-11-04"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "58,496",
+          "value": 58496,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Abdul_El-Sayed:2026-11-04"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "21,560",
+          "value": 21560,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Abdul_El-Sayed:2026-11-04"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "13,194",
+          "value": 13194,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Abdul_El-Sayed:2026-11-04"
+          ]
+        },
+        {
+          "label": "Dutch",
+          "text": "9,603",
+          "value": 9603,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:nl:Abdul_El-Sayed:2026-11-04"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

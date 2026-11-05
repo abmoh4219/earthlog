@@ -1,0 +1,645 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-jesus-de-miguel",
+  "title": "Jesús de Miguel",
+  "subtitle": "People · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:01:23Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -26.28472222,
+    "south": 20.44805556,
+    "east": -6.284722219999999,
+    "north": 36.44805556
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:00:59Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:00:59Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-04T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-04T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": 21.71527777999995,
+      "lat": 16.656333336,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": -16.28472222,
+      "lat": 27.76055556,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:14Z",
+      "lon": -16.28472222,
+      "lat": 27.76055556,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:23Z",
+      "lon": -16.28472222,
+      "lat": 27.76055556,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
+      "lon": -3.703333333333333,
+      "lat": 39.51694444444445,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
+      "lon": -3.703333333333333,
+      "lat": 39.51694444444445,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:31Z",
+      "lon": -3.703333333333333,
+      "lat": 39.51694444444445,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:35Z",
+      "lon": -6.399437555285838,
+      "lat": 36.783040540321295,
+      "range": 6776199.225112736,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:38Z",
+      "lon": -6.399437555285838,
+      "lat": 36.783040540321295,
+      "range": 6136109.375614415,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:41Z",
+      "lon": -6.399437555285838,
+      "lat": 36.783040540321295,
+      "range": 5556483.364592443,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:45Z",
+      "lon": -16.28472222,
+      "lat": 27.54805556,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:47Z",
+      "lon": -16.28472222,
+      "lat": 27.54805556,
+      "range": 814984.6624323674,
+      "heading": -26.9,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:49Z",
+      "lon": -16.28472222,
+      "lat": 27.54805556,
+      "range": 738000,
+      "heading": -35.8,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:53Z",
+      "lon": -10.447929448925303,
+      "lat": 33.75103206533212,
+      "range": 4210907.237835277,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:56Z",
+      "lon": -10.447929448925303,
+      "lat": 33.75103206533212,
+      "range": 3813138.6819568845,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:58Z",
+      "lon": -10.447929448925303,
+      "lat": 33.75103206533212,
+      "range": 3452943.935024927,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:02Z",
+      "lon": 24.317272586373395,
+      "lat": 40.39567971340171,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:11Z",
+      "lon": 24.317272586373395,
+      "lat": 40.39567971340171,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:19Z",
+      "lon": 24.317272586373395,
+      "lat": 40.39567971340171,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:23Z",
+      "lon": -0.6827274136265942,
+      "lat": 40.39567971340171,
+      "range": 54120000,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono, which caused him to go into cardiac arrest.",
+      "cites": [
+        "wiki:rev:1383799981:26"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:08Z",
+      "text": "After his death, the village of Navahermosa declared three days of official mourning, with his funeral planned for 5 November.",
+      "cites": [
+        "wiki:rev:1383799981:32"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:15Z",
+      "text": "Jesús de Miguel Alameda (21 September 1996 – 3 November 2026) was a Spanish professional footballer who played as a striker.",
+      "cites": [
+        "wiki:rev:1383799981:0"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:25Z",
+      "text": "Jesús de Miguel Alameda was born on 21 September 1996 in Madrid.",
+      "cites": [
+        "wd:Q116992476:P569",
+        "wd:Q116992476:P19"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:33Z",
+      "text": "Between 2015 and 2026 he played for 8 clubs, moving from CD Leganés B to C.D. Tenerife.",
+      "cites": [
+        "wd:Q116992476:P54:Q9196665",
+        "wd:Q116992476:P54:Q9008987",
+        "wd:Q116992476:P54:Q108708",
+        "wd:Q116992476:P54:Q4651246",
+        "wd:Q116992476:P54:Q840620",
+        "wd:Q116992476:P54:Q20278773",
+        "wd:Q116992476:P54:Q743557",
+        "wd:Q116992476:P54:Q216661"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:43Z",
+      "text": "He died on 3 November 2026 at Hospital Universitario Nuestra Señora de Candelaria, aged 30.",
+      "cites": [
+        "wd:Q116992476:P570",
+        "wd:Q116992476:P20",
+        "wd:Q116992476:P569"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:00Z",
+      "text": "The English Wikipedia article drew 224,585 readers on 4 November 2026, while in the weeks before it normally had a median of 4 a day.",
+      "cites": [
+        "views:en:Jesús_de_Miguel:2026-11-04",
+        "views:en:Jesús_de_Miguel:prior"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:06Z",
+      "text": "The article was read in 11 languages, and after English, Spanish was the most common, with 67,167 readers.",
+      "cites": [
+        "views:en:Jesús_de_Miguel:2026-11-04",
+        "views:es:Jesús_de_Miguel_Alameda:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:12Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:es:Jesús_de_Miguel_Alameda:2026-11-04",
+        "views:de:Jesús_de_Miguel:2026-11-04",
+        "views:fr:Jesús_de_Miguel:2026-11-04",
+        "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-04",
+        "views:ar:خيسوس_دي_ميغيل:2026-11-04",
+        "views:fa:خسوس_د_میگل:2026-11-04"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "ES",
+    "lon": -16.28472222,
+    "lat": 28.44805556,
+    "label": "Hospital Universitario Nuestra Señora de Candelaria"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-04T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-04T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-04T00:00:50Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-04T00:00:59Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-04T00:00:33Z",
+      "until": "2026-11-04T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1996 born",
+          "text": "Madrid",
+          "cites": [
+            "wd:Q116992476:P19"
+          ]
+        },
+        {
+          "label": "2015–16",
+          "text": "CD Leganés B",
+          "cites": [
+            "wd:Q116992476:P54:Q9196665"
+          ]
+        },
+        {
+          "label": "2017–18",
+          "text": "Internacional de Madrid CF",
+          "cites": [
+            "wd:Q116992476:P54:Q9008987"
+          ]
+        },
+        {
+          "label": "2018–19",
+          "text": "CF Fuenlabrada",
+          "cites": [
+            "wd:Q116992476:P54:Q108708"
+          ]
+        },
+        {
+          "label": "2019",
+          "text": "AD Unión Adarve Barrio del Pilar",
+          "cites": [
+            "wd:Q116992476:P54:Q4651246"
+          ]
+        },
+        {
+          "label": "2019–21",
+          "text": "CDA Navalcarnero",
+          "cites": [
+            "wd:Q116992476:P54:Q840620"
+          ]
+        },
+        {
+          "label": "2021–23",
+          "text": "Unionistas de Salamanca CF",
+          "cites": [
+            "wd:Q116992476:P54:Q20278773"
+          ]
+        },
+        {
+          "label": "2023–25",
+          "text": "CD Castellón",
+          "cites": [
+            "wd:Q116992476:P54:Q743557"
+          ]
+        },
+        {
+          "label": "2025–26",
+          "text": "C.D. Tenerife",
+          "cites": [
+            "wd:Q116992476:P54:Q216661"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-04T00:01:00Z",
+      "until": "2026-11-04T00:01:23Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Jesús de Miguel",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 7
+            },
+            {
+              "x": "10-07",
+              "y": 4
+            },
+            {
+              "x": "10-08",
+              "y": 0
+            },
+            {
+              "x": "10-09",
+              "y": 0
+            },
+            {
+              "x": "10-10",
+              "y": 4
+            },
+            {
+              "x": "10-11",
+              "y": 1
+            },
+            {
+              "x": "10-12",
+              "y": 4
+            },
+            {
+              "x": "10-13",
+              "y": 1
+            },
+            {
+              "x": "10-14",
+              "y": 2
+            },
+            {
+              "x": "10-15",
+              "y": 2
+            },
+            {
+              "x": "10-16",
+              "y": 2
+            },
+            {
+              "x": "10-17",
+              "y": 1
+            },
+            {
+              "x": "10-18",
+              "y": 2
+            },
+            {
+              "x": "10-19",
+              "y": 5
+            },
+            {
+              "x": "10-20",
+              "y": 3
+            },
+            {
+              "x": "10-21",
+              "y": 5
+            },
+            {
+              "x": "10-22",
+              "y": 2
+            },
+            {
+              "x": "10-23",
+              "y": 5
+            },
+            {
+              "x": "10-24",
+              "y": 4
+            },
+            {
+              "x": "10-25",
+              "y": 3
+            },
+            {
+              "x": "10-26",
+              "y": 5
+            },
+            {
+              "x": "10-27",
+              "y": 4
+            },
+            {
+              "x": "10-28",
+              "y": 0
+            },
+            {
+              "x": "10-29",
+              "y": 0
+            },
+            {
+              "x": "10-30",
+              "y": 2
+            },
+            {
+              "x": "10-31",
+              "y": 0
+            },
+            {
+              "x": "11-01",
+              "y": 3
+            },
+            {
+              "x": "11-02",
+              "y": 3407
+            },
+            {
+              "x": "11-03",
+              "y": 585060
+            },
+            {
+              "x": "11-04",
+              "y": 224585
+            }
+          ],
+          "cites": [
+            "views:en:Jesús_de_Miguel:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-04T00:01:00Z",
+      "until": "2026-11-04T00:01:23Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "224,585",
+          "value": 224585,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Jesús_de_Miguel:2026-11-04"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "67,167",
+          "value": 67167,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Jesús_de_Miguel_Alameda:2026-11-04"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "48,089",
+          "value": 48089,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Jesús_de_Miguel:2026-11-04"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "27,385",
+          "value": 27385,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Jesús_de_Miguel:2026-11-04"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "16,423",
+          "value": 16423,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-04"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "11,460",
+          "value": 11460,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:خيسوس_دي_ميغيل:2026-11-04"
+          ]
+        },
+        {
+          "label": "Persian",
+          "text": "9,047",
+          "value": 9047,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:خسوس_د_میگل:2026-11-04"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

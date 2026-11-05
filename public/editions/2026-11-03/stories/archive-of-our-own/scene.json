@@ -208,35 +208,36 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "According to the article's revision from 2 November 2026, the site went down on 29 October 2026 after a security incident for maintenance first announced to last twelve hours.",
+      "text": "On 29 October 2026, following a security incident, the site went down for maintenance first announced to last twelve hours.",
       "cites": [
         "wiki:rev:1383453548:21"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "That maintenance was extended later the same day to two to four weeks, and the article says the choice put safety ahead of speed.",
+      "text": "The work was later extended to two to four weeks, and Rebecca Tushnet, representing AO3, assured users that no data was lost.",
       "cites": [
-        "wiki:rev:1383453548:21"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:15Z",
-      "text": "According to the article, Rebecca Tushnet, representing AO3, assured users that no data was lost during this incident.",
-      "cites": [
+        "wiki:rev:1383453548:21",
         "wiki:rev:1383453548:22"
       ]
     },
     {
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Archive of Our Own, or AO3, is a nonprofit, open-source repository for fanfiction and other fanworks contributed by users.",
+      "cites": [
+        "wiki:rev:1383453548:0"
+      ]
+    },
+    {
       "t": "2026-11-03T00:00:25Z",
-      "text": "The archive is run by the Organization for Transformative Works, which is based in Arlington County, United States.",
+      "text": "Archive of Our Own is run by the Organization for Transformative Works, based in Arlington County, United States.",
       "cites": [
         "wd:Q27764876:P137"
       ]
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "The archive was founded in 2008, and the Organization for Transformative Works owns it.",
+      "text": "The site was founded in 2008 and is owned by the Organization for Transformative Works.",
       "cites": [
         "wd:Q27764876:P571",
         "wd:Q27764876:P127"
@@ -244,14 +245,14 @@
     },
     {
       "t": "2026-11-03T00:00:43Z",
-      "text": "Over the 14 days to 3 November 2026, 6 Hacker News stories had Archive of Our Own in their titles.",
+      "text": "Over the two weeks to 3 November 2026, 6 Hacker News stories mentioned Archive of Our Own.",
       "cites": [
         "hn:2026-11-03:Q27764876"
       ]
     },
     {
       "t": "2026-11-03T00:00:52Z",
-      "text": "English Wikipedia recorded 85,012 readers on 3 November 2026, about 60× the usual.",
+      "text": "On 3 November 2026, 85,012 people read the English article, about 60× the usual.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:en:Archive_of_Our_Own:prior"
@@ -259,7 +260,7 @@
     },
     {
       "t": "2026-11-03T00:00:58Z",
-      "text": "Across 11 languages, German came next after English with 762 readers on 3 November 2026.",
+      "text": "The article is read in 11 languages, and after English, German is the most read, with 762 readers.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:de:Archive_of_Our_Own:2026-11-03"
@@ -352,7 +353,7 @@
       "series": [
         {
           "label": "Archive of Our Own",
-          "color": "#5ef2ff",
+          "color": "#4cc9e8",
           "points": [
             {
               "x": "10-21",
@@ -446,7 +447,7 @@
       "series": [
         {
           "label": "Archive of Our Own",
-          "color": "#5ef2ff",
+          "color": "#4cc9e8",
           "points": [
             {
               "x": "10-05",
@@ -589,7 +590,7 @@
           "label": "English",
           "text": "85,012",
           "value": 85012,
-          "color": "#5ef2ff",
+          "color": "#4cc9e8",
           "cites": [
             "views:en:Archive_of_Our_Own:2026-11-03"
           ]
@@ -654,7 +655,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.002763
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.001591
   }
 }

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "wiki:2026-11-04:4",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-04T00:00:00Z",
+    "lon": 19.45,
+    "lat": 47.09,
+    "label": "Politics: Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services. Prime Minister Péter Magyar announces that additional documents will become available in February 2027.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_4&oldid=1383851664",
+    "quote": "Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services. Prime Minister Péter Magyar announces that additional documents will become available in February 2027.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q16410:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "Wikidata: \"Hungarian People's Republic\" is an instance of historical country, satellite state, socialist state, people's republic, historical period",
+    "url": "https://www.wikidata.org/wiki/Q16410",
+    "precision": "day"
+  }
+]

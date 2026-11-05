@@ -44,7 +44,7 @@ export function StoryCard() {
         >
           <div className="flex items-center gap-2">
             <span
-              className="rounded-md px-2 py-0.5 font-mono text-[10px] tracking-[0.2em] text-void uppercase"
+              className="font-medium rounded-md px-2 py-0.5 text-xs text-void"
               style={{ background: cat.color }}
             >
               {cat.label}

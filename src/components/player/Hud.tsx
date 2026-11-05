@@ -31,20 +31,20 @@ function ClockHud({
   const typicalNight = usePlayer((s) => s.layers.nightLights) && scene.imagery.nights.length === 0;
 
   return (
-    <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between p-6 md:p-8">
+    <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between gap-4 p-4 sm:p-6 md:p-8">
       <div className="max-w-xl">
         <Link
           href={back?.href ?? "/"}
-          className="pointer-events-auto font-mono text-[11px] tracking-[0.45em] text-ice/80 uppercase hover:text-ice"
+          className="font-medium pointer-events-auto text-xs text-ice/80 hover:text-ice"
         >
           Earthlog{back ? ` · ${back.label}` : ""}
         </Link>
-        <h1 className="mt-3 text-2xl font-semibold tracking-tight text-frost md:text-4xl">
+        <h1 className="mt-2 line-clamp-2 text-xl font-semibold tracking-tight text-frost sm:mt-3 sm:text-2xl md:text-4xl">
           {scene.title}
         </h1>
         <p className="mt-1.5 text-sm text-ice/70 md:text-base">{scene.subtitle}</p>
         {/* Results and reports fill in for days: say when this film read its sources. */}
-        <p className="mt-1 font-mono text-[10px] tracking-[0.2em] text-ice/45 uppercase">
+        <p className="font-medium mt-1 text-xs text-ice/45">
           Data as of {asOf(scene.generatedBy.at)}
         </p>
       </div>
@@ -54,15 +54,13 @@ function ClockHud({
           <div className="text-3xl font-light tracking-tight text-frost md:text-5xl">
             {clockText(t, tz)}
           </div>
-          <div className="mt-1 text-xs tracking-[0.2em] text-ice/70 uppercase">
+          <div className="font-medium mt-1 text-xs text-ice/70">
             {dateText(t, tz)} · {zoneText(t, tz)}
           </div>
-          <div className="mt-0.5 text-[11px] tracking-[0.2em] text-ice/45 uppercase">
-            {clockText(t, "UTC")} UTC
-          </div>
+          <div className="font-medium mt-0.5 text-xs text-ice/45">{clockText(t, "UTC")} UTC</div>
           {typicalNight && (
             <div
-              className="mt-3 inline-block rounded-md border border-energy/30 bg-energy/10 px-2 py-1 text-[10px] tracking-[0.15em] text-energy/90 uppercase"
+              className="font-medium mt-3 inline-block rounded-md border border-energy/30 bg-energy/10 px-2 py-1 text-xs text-energy/90"
               title="No satellite night pass covers this event, so night lights show a 2016 composite."
             >
               Night lights: a typical night, not this one
@@ -113,20 +111,20 @@ function StoryHud({
   });
 
   return (
-    <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between p-6 md:p-8">
+    <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between gap-4 p-4 sm:p-6 md:p-8">
       <div className="max-w-2xl">
         <Link
           href={back?.href ?? "/"}
-          className="pointer-events-auto font-mono text-[11px] tracking-[0.45em] text-ice/80 uppercase hover:text-ice"
+          className="font-medium pointer-events-auto text-xs text-ice/80 hover:text-ice"
         >
           Earthlog{back ? ` · ${back.label}` : ""}
         </Link>
-        <h1 className="mt-3 text-2xl font-semibold tracking-tight text-frost md:text-4xl">
+        <h1 className="mt-2 line-clamp-2 text-xl font-semibold tracking-tight text-frost sm:mt-3 sm:text-2xl md:text-4xl">
           {scene.title}
         </h1>
         <p className="mt-1.5 text-sm text-ice/70 md:text-base">{scene.subtitle}</p>
         {/* Results and reports fill in for days: say when this film read its sources. */}
-        <p className="mt-1 font-mono text-[10px] tracking-[0.2em] text-ice/45 uppercase">
+        <p className="font-medium mt-1 text-xs text-ice/45">
           Data as of {asOf(scene.generatedBy.at)}
         </p>
         {/* CLAUDE.md §3.3: AI narration is always labelled. */}
@@ -136,8 +134,9 @@ function StoryHud({
           </p>
         )}
       </div>
-      <div className="text-right">
-        <div className="font-mono text-[11px] tracking-[0.3em] text-ice/55 uppercase tabular-nums">
+      {/* Phones: the chapter card announces each chapter; this column would crowd the title. */}
+      <div className="hidden shrink-0 text-right sm:block">
+        <div className="font-mono text-xs text-ice/55 tabular-nums">
           {String(index + 1).padStart(2, "0")} / {String(scene.chapters.length).padStart(2, "0")}
         </div>
         <AnimatePresence mode="wait">
@@ -152,7 +151,7 @@ function StoryHud({
             {chapter?.title}
           </motion.div>
         </AnimatePresence>
-        <div className="mt-1 text-xs tracking-[0.2em] text-ice/55 uppercase">{day}</div>
+        <div className="font-medium mt-1 text-xs text-ice/55">{day}</div>
       </div>
     </header>
   );

@@ -206,22 +206,15 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:06Z",
-      "text": "Two officers were injured, and an unspecified number of personnel were abducted.",
-      "cites": [
-        "wiki:2026-11-03:2"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:11Z",
-      "text": "According to the article, the most affected states are in the Nigerian Middle Belt, including Benue, Taraba and Plateau.",
+      "t": "2026-11-03T00:00:09Z",
+      "text": "The most affected states are in Nigeria's Middle Belt, including Benue, Taraba and Plateau.",
       "cites": [
         "wiki:rev:1383141847:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:18Z",
-      "text": "The attack is placed in Zamfara State, Nigeria, near Gidan-Giye village, as the reports describe it.",
+      "text": "The reports place the attack in Zamfara State, Nigeria.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
@@ -244,7 +237,7 @@
     },
     {
       "t": "2026-11-03T00:00:40Z",
-      "text": "As the article records them, casualty figures are 4,877–28,551 civilians killed on side 1 and 10,519 civilians killed on side 2, each attributed there to its sources.",
+      "text": "According to the article, casualties on side 1 are 4,877–28,551 civilians killed, and casualties on side 2 are 10,519 civilians killed.",
       "cites": [
         "wiki:box:1383141847:casualties-side-1-",
         "wiki:box:1383141847:casualties-side-2-"
@@ -252,14 +245,14 @@
     },
     {
       "t": "2026-11-03T00:00:49Z",
-      "text": "The reports also name Nigeria.",
+      "text": "Nigeria is also named in the reports.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
       "t": "2026-11-03T00:00:58Z",
-      "text": "The report is attributed to Reuters.",
+      "text": "The reports are credited to Reuters.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
@@ -376,7 +369,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.001265
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.001576
   }
 }

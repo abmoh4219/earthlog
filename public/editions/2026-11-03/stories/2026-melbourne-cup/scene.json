@@ -199,58 +199,58 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Point Of Law, trained by Ciaron Maher, won the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia.",
+      "text": "Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia, with Zahrann and Juja Kibo, also trained by Maher, finishing second and third.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "The race, run over 3200 m, was held on 3 November 2026 at Melbourne's Flemington Racecourse.",
+      "text": "The race was run over 3200 m on 3 November 2026 at Melbourne's Flemington Racecourse.",
       "cites": [
-        "wiki:rev:1383732467:1"
+        "wiki:rev:1383838055:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "It was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race, known commercially as the 2026 Lexus Melbourne Cup.",
+      "text": "It was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
       "cites": [
-        "wiki:rev:1383732467:0"
+        "wiki:rev:1383838055:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
       "text": "The 2026 Melbourne Cup took place at Flemington Racecourse in Melbourne, Australia.",
       "cites": [
-        "wiki:box:1383732467:venue"
+        "wiki:box:1383838055:venue"
       ]
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Ethan Brown rode Point Of Law to victory, and Ciaron Maher trained the winning horse.",
+      "text": "Point Of Law won, ridden by Ethan Brown and trained by Ciaron Maher.",
       "cites": [
-        "wiki:box:1383732467:winner",
-        "wiki:box:1383732467:jockey",
-        "wiki:box:1383732467:trainer"
+        "wiki:box:1383838055:winner",
+        "wiki:box:1383838055:jockey",
+        "wiki:box:1383838055:trainer"
       ]
     },
     {
       "t": "2026-11-03T00:00:41Z",
-      "text": "A crowd of 97,112 people attended the race.",
+      "text": "The recorded attendance was 97,112.",
       "cites": [
-        "wiki:box:1383732467:attendance"
+        "wiki:box:1383838055:attendance"
       ]
     },
     {
       "t": "2026-11-03T00:00:50Z",
-      "text": "The reports also name Victoria, where Flemington Racecourse is located.",
+      "text": "The reports also name Victoria, the state where Flemington Racecourse sits.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
       "t": "2026-11-03T00:00:59Z",
-      "text": "The story is reported by AFP.",
+      "text": "This account was reported by AFP.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
@@ -291,49 +291,49 @@
       "t": "2026-11-03T00:00:33Z",
       "until": "2026-11-03T00:00:49Z",
       "title": "The result",
-      "note": "From the event's Wikipedia infobox (revision of 2026-11-04).",
+      "note": "From the event's Wikipedia infobox (revision of 2026-11-05).",
       "kind": "facts",
       "items": [
         {
           "label": "Winner",
           "text": "Point Of Law",
           "cites": [
-            "wiki:box:1383732467:winner"
+            "wiki:box:1383838055:winner"
           ]
         },
         {
           "label": "Jockey",
           "text": "Ethan Brown",
           "cites": [
-            "wiki:box:1383732467:jockey"
+            "wiki:box:1383838055:jockey"
           ]
         },
         {
           "label": "Trainer",
           "text": "Ciaron Maher",
           "cites": [
-            "wiki:box:1383732467:trainer"
+            "wiki:box:1383838055:trainer"
           ]
         },
         {
           "label": "Attendance",
           "text": "97,112",
           "cites": [
-            "wiki:box:1383732467:attendance"
+            "wiki:box:1383838055:attendance"
           ]
         },
         {
           "label": "Distance",
           "text": "3,200 metres",
           "cites": [
-            "wiki:box:1383732467:distance"
+            "wiki:box:1383838055:distance"
           ]
         },
         {
           "label": "Dates",
           "text": "3 November 2026",
           "cites": [
-            "wiki:box:1383732467:dates"
+            "wiki:box:1383838055:dates"
           ]
         }
       ]
@@ -360,7 +360,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.001958
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.001158
   }
 }

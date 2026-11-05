@@ -1,0 +1,579 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-the-bangladeshi-garment-industry-wage-board-agrees-to-increa",
+  "title": "The Bangladeshi garment industry wage board agrees to increase minimum wages…",
+  "subtitle": "Economy · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:00:50Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 79.68,
+    "south": 16.21,
+    "east": 99.68,
+    "north": 32.21
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-04T00:00:28Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-04T00:00:28Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": 127.68000000000006,
+      "lat": 13.251,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:07Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:09Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:13Z",
+      "lon": 89.68,
+      "lat": 16.21,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:20Z",
+      "lon": 89.68,
+      "lat": 16.21,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
+      "lon": 89.68,
+      "lat": 16.21,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:31Z",
+      "lon": 88.3512,
+      "lat": 24.21,
+      "range": 3500000,
+      "heading": -90,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:36Z",
+      "lon": 88.3512,
+      "lat": 24.21,
+      "range": 3169384.7983480957,
+      "heading": -76.3,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:41Z",
+      "lon": 88.3512,
+      "lat": 24.21,
+      "range": 2870000,
+      "heading": -62.599999999999994,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:44Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:45Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 4002480.231056738,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:46Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 3624400,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:50Z",
+      "lon": 64.68000000000006,
+      "lat": 22.085,
+      "range": 14000000,
+      "heading": -27.8,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "After five days of worker protests and clashes with police, the Bangladeshi garment industry wage board has agreed to raise minimum wages.",
+      "cites": [
+        "wiki:2026-11-04:1"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:05Z",
+      "text": "Workers are demanding ৳30,000 (US$240) a month, up from ৳12,500 (US$100), but the board has not specified the increase.",
+      "cites": [
+        "wiki:2026-11-04:1"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:11Z",
+      "text": "Inflation in Bangladesh was 8.8% in 2025, down from 10.5% in 2024.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:BD"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:19Z",
+      "text": "The economy grew 3.5% in 2025, while unemployment stood at 3.8%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:BD",
+        "wb:SL.UEM.TOTL.ZS:BD"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
+      "text": "Across South Asia, Bangladesh's 8.8% inflation is the highest latest-year figure, compared with a median of 2.7%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:south-asia"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:43Z",
+      "text": "This report is from AFP.",
+      "cites": [
+        "wiki:2026-11-04:1"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BD",
+    "lon": 89.68,
+    "lat": 24.21,
+    "label": "Bangladesh"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:10Z",
+      "title": "Bangladesh in numbers"
+    },
+    {
+      "t": "2026-11-04T00:00:28Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-04T00:00:42Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-04T00:00:11Z",
+      "until": "2026-11-04T00:00:28Z",
+      "title": "Inflation, consumer prices, Bangladesh",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Bangladesh",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 8.12667639169917
+            },
+            {
+              "x": "2011",
+              "y": 11.3951651552399
+            },
+            {
+              "x": "2012",
+              "y": 6.21750422069283
+            },
+            {
+              "x": "2013",
+              "y": 7.53040640913172
+            },
+            {
+              "x": "2014",
+              "y": 6.99163889220848
+            },
+            {
+              "x": "2015",
+              "y": 6.19428022984983
+            },
+            {
+              "x": "2016",
+              "y": 5.51352572692995
+            },
+            {
+              "x": "2017",
+              "y": 5.70207015717238
+            },
+            {
+              "x": "2018",
+              "y": 5.54362139486476
+            },
+            {
+              "x": "2019",
+              "y": 5.59199639930629
+            },
+            {
+              "x": "2020",
+              "y": 5.69107474746211
+            },
+            {
+              "x": "2021",
+              "y": 5.54565430773473
+            },
+            {
+              "x": "2022",
+              "y": 7.69695437176898
+            },
+            {
+              "x": "2023",
+              "y": 9.8835030377921
+            },
+            {
+              "x": "2024",
+              "y": 10.4657482763412
+            },
+            {
+              "x": "2025",
+              "y": 8.7687628116114
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BD"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-04T00:00:11Z",
+      "until": "2026-11-04T00:00:28Z",
+      "title": "GDP growth, Bangladesh",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Bangladesh",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 5.57178818533122
+            },
+            {
+              "x": "2011",
+              "y": 6.46437912497728
+            },
+            {
+              "x": "2012",
+              "y": 6.52145877906443
+            },
+            {
+              "x": "2013",
+              "y": 6.01360565834344
+            },
+            {
+              "x": "2014",
+              "y": 6.0610593588495
+            },
+            {
+              "x": "2015",
+              "y": 6.55263987816197
+            },
+            {
+              "x": "2016",
+              "y": 7.11347821270093
+            },
+            {
+              "x": "2017",
+              "y": 6.59024999794057
+            },
+            {
+              "x": "2018",
+              "y": 7.31941263014136
+            },
+            {
+              "x": "2019",
+              "y": 7.88191515117722
+            },
+            {
+              "x": "2020",
+              "y": 3.44801755122445
+            },
+            {
+              "x": "2021",
+              "y": 6.93867912442445
+            },
+            {
+              "x": "2022",
+              "y": 7.09982877575158
+            },
+            {
+              "x": "2023",
+              "y": 5.77511237007889
+            },
+            {
+              "x": "2024",
+              "y": 4.22325911250161
+            },
+            {
+              "x": "2025",
+              "y": 3.48990671836833
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:BD"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-04T00:00:11Z",
+      "until": "2026-11-04T00:00:28Z",
+      "title": "Unemployment, Bangladesh",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Bangladesh",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.379
+            },
+            {
+              "x": "2011",
+              "y": 3.737
+            },
+            {
+              "x": "2012",
+              "y": 4.07
+            },
+            {
+              "x": "2013",
+              "y": 4.426
+            },
+            {
+              "x": "2014",
+              "y": 4.417
+            },
+            {
+              "x": "2015",
+              "y": 4.397
+            },
+            {
+              "x": "2016",
+              "y": 4.35
+            },
+            {
+              "x": "2017",
+              "y": 4.372
+            },
+            {
+              "x": "2018",
+              "y": 4.439
+            },
+            {
+              "x": "2019",
+              "y": 4.504
+            },
+            {
+              "x": "2020",
+              "y": 5.539
+            },
+            {
+              "x": "2021",
+              "y": 5.457
+            },
+            {
+              "x": "2022",
+              "y": 4.593
+            },
+            {
+              "x": "2023",
+              "y": 3.352
+            },
+            {
+              "x": "2024",
+              "y": 3.635
+            },
+            {
+              "x": "2025",
+              "y": 3.778
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:BD"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-04T00:00:29Z",
+      "until": "2026-11-04T00:00:42Z",
+      "title": "Inflation, South Asia",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Bangladesh",
+          "text": "8.8%",
+          "value": 8.7687628116114,
+          "color": "#e3b341",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BD"
+          ]
+        },
+        {
+          "label": "Bhutan",
+          "text": "3.6%",
+          "value": 3.55513663074987,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BT"
+          ]
+        },
+        {
+          "label": "Nepal",
+          "text": "2.7%",
+          "value": 2.65334269811436,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NP"
+          ]
+        },
+        {
+          "label": "India",
+          "text": "2.4%",
+          "value": 2.39884954182294,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:IN"
+          ]
+        },
+        {
+          "label": "Sri Lanka",
+          "text": "-4.8%",
+          "value": 0,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LK"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.65334269811436,
+        "label": "median 2.7%"
+      }
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-04T00:00:43Z",
+      "until": "2026-11-04T00:00:50Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests",
+          "cites": [
+            "wiki:2026-11-04:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

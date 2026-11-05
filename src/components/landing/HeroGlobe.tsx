@@ -50,9 +50,7 @@ export function HeroGlobe({ date, stories }: { date: string; stories: FrontStory
       <div
         className={`pointer-events-none absolute inset-0 grid place-items-center transition-opacity duration-1000 ${ready ? "opacity-0" : "opacity-100"}`}
       >
-        <span className="font-mono text-[11px] tracking-[0.35em] text-ice/50 uppercase">
-          Loading the globe…
-        </span>
+        <span className="font-medium text-xs text-ice/50">Loading the globe…</span>
       </div>
     </div>
   );

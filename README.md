@@ -10,14 +10,7 @@ Each story gets the analysis its kind deserves. Every claim links to its source.
   <a href="https://earthlog-abdi.vercel.app"><strong>earthlog-abdi.vercel.app</strong></a>
 </p>
 
-<!-- The demo: the 2026 US elections film, exported with Earthlog's own clip button. -->
-<p align="center">
-  <a href="https://github.com/abmoh4219/earthlog/raw/main/public/media/earthlog-demo.mp4">
-    <img src="docs/media/earthlog-demo.jpg" alt="Watch the demo: the 2026 US elections story film, governors' races state by state" width="900"/>
-  </a>
-  <br/>
-  <sub>▶ <a href="https://github.com/abmoh4219/earthlog/raw/main/public/media/earthlog-demo.mp4">Watch the demo</a> (1 min 47 s): the 2026 US elections, exported with Earthlog's own clip button.</sub>
-</p>
+<p align="center"><img src="docs/media/election.jpg" alt="The 2026 US elections film: Senate races state by state, with a cited results panel" width="900"/></p>
 
 ## What it does
 

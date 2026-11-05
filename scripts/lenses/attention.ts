@@ -213,11 +213,11 @@ export function curiosityRegions(readers: LanguageReaders[]): CuriosityRegion[] 
   return out;
 }
 
-/** Cyan (fewer readers) to pink (most), on a log scale between the day's min and max. */
+/** Cyan (fewer readers) to amber (most), on a log scale between the day's min and max. */
 export function curiosityColor(views: number, min: number, max: number): string {
   const u = max > min ? (Math.log(views) - Math.log(min)) / (Math.log(max) - Math.log(min)) : 1;
   const a = [94, 242, 255];
-  const b = [255, 110, 199];
+  const b = [242, 182, 90];
   const t = Math.max(0, Math.min(1, u));
   return `#${a
     .map((v, i) =>

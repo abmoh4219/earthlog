@@ -624,7 +624,7 @@
       "series": [
         {
           "label": "2026 Greenacres Learjet 60 crash",
-          "color": "#e8f6ff",
+          "color": "#dfe6ee",
           "points": [
             {
               "x": "11-01",
@@ -655,7 +655,7 @@
           "label": "English",
           "text": "152,110",
           "value": 152110,
-          "color": "#e8f6ff",
+          "color": "#dfe6ee",
           "cites": [
             "views:en:2026_Greenacres_Learjet_60_crash:2026-11-02"
           ]
@@ -720,7 +720,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.004481
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

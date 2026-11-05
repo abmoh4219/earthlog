@@ -1,0 +1,452 @@
+[
+  {
+    "id": "views:en:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 1,413,749 readers of \"Abdul El-Sayed\" on 4 Nov 2026",
+    "value": 1413749,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Abdul_El-Sayed:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Abdul El-Sayed\": normally a median of 17,733 readers a day (8 to 60 days before)",
+    "value": 17733,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:James_Talarico:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 1,256,040 readers of \"James Talarico\" on 4 Nov 2026",
+    "value": 1256040,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Talarico",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:James_Talarico:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"James Talarico\": normally a median of 22,133 readers a day (8 to 60 days before)",
+    "value": 22133,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Talarico",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Democratic_Party_(United_States):2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 256,501 readers of \"Democratic Party (United States)\" on 4 Nov 2026",
+    "value": 256501,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Democratic_Party_(United_States):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Democratic Party (United States)\": normally a median of 6,456 readers a day (8 to 60 days before)",
+    "value": 6456,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:United_States_Senate:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 255,791 readers of \"United States Senate\" on 4 Nov 2026",
+    "value": 255791,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_Senate",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:United_States_Senate:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"United States Senate\": normally a median of 3,745 readers a day (8 to 60 days before)",
+    "value": 3745,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_Senate",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Donald_Trump:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 239,807 readers of \"Donald Trump\" on 4 Nov 2026",
+    "value": 239807,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Donald_Trump:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Donald Trump\": normally a median of 35,576 readers a day (8 to 60 days before)",
+    "value": 35576,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Haley_Stevens:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 165,950 readers of \"Haley Stevens\" on 4 Nov 2026",
+    "value": 165950,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Haley_Stevens:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Haley Stevens\": normally a median of 1,065 readers a day (8 to 60 days before)",
+    "value": 1065,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Troy_Jackson:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 129,962 readers of \"Troy Jackson\" on 4 Nov 2026",
+    "value": 129962,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Troy_Jackson",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Troy_Jackson:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Troy Jackson\": normally a median of 1,924 readers a day (8 to 60 days before)",
+    "value": 1924,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Troy_Jackson",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q25752879:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "Wikidata: \"Q25752879\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q25752879",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383852946:95",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Abdul El-Sayed\" (revision of 2026-11-05 04:22 UTC)",
+    "quote": "On November 2, 2026, American singer Bruce Springsteen announced his support for El-Sayed, calling him a fighter in defense of the U.S. Constitution and democracy against corrupt, anti-American leadership.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdul_El-Sayed&oldid=1383852946"
+  },
+  {
+    "id": "wiki:rev:1383852946:68",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Abdul El-Sayed\" (revision of 2026-11-05 04:22 UTC)",
+    "quote": "He faced Republican nominee Mike Rogers in the general election on November 3, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdul_El-Sayed&oldid=1383852946"
+  },
+  {
+    "id": "wiki:rev:1383852946:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Abdul El-Sayed\" (revision of 2026-11-05 04:22 UTC)",
+    "quote": "Abdulrahman Mohamed El-Sayed (; born October 31, 1984), is an American epidemiologist, academic, and politician who is the United States senator-elect from the state of Michigan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdul_El-Sayed&oldid=1383852946"
+  },
+  {
+    "id": "views:en:Abdul_El-Sayed:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Abdul El-Sayed\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Abdul_El-Sayed&range=latest-30"
+  },
+  {
+    "id": "views:en:James_Talarico:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"James Talarico\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=James_Talarico&range=latest-30"
+  },
+  {
+    "id": "views:en:Democratic_Party_(United_States):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Democratic Party (United States)\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Democratic_Party_(United_States)&range=latest-30"
+  },
+  {
+    "id": "views:ar:عبد_الرحمن_السيد:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 83,284 readers of \"عبد الرحمن السيد\" on 4 November 2026",
+    "value": 83284,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF"
+  },
+  {
+    "id": "views:fr:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 71,222 readers of \"Abdul El-Sayed\" on 4 November 2026",
+    "value": 71222,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:de:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 58,496 readers of \"Abdul El-Sayed\" on 4 November 2026",
+    "value": 58496,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:es:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 21,560 readers of \"Abdul El-Sayed\" on 4 November 2026",
+    "value": 21560,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:it:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 13,194 readers of \"Abdul El-Sayed\" on 4 November 2026",
+    "value": 13194,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:nl:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 9,603 readers of \"Abdul El-Sayed\" on 4 November 2026",
+    "value": 9603,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:pl:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 7,766 readers of \"Abdul El-Sayed\" on 4 November 2026",
+    "value": 7766,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:pt:Abdul_El-Sayed:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 3,123 readers of \"Abdul El-Sayed\" on 4 November 2026",
+    "value": 3123,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:fa:عبدل_سید:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 1,574 readers of \"عبدل سید\" on 4 November 2026",
+    "value": 1574,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF%D9%84_%D8%B3%DB%8C%D8%AF"
+  },
+  {
+    "id": "views:zh:阿卜杜勒·赛义德:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 791 readers of \"阿卜杜勒·赛义德\" on 4 November 2026",
+    "value": 791,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%8D%9C%E6%9D%9C%E5%8B%92%C2%B7%E8%B5%9B%E4%B9%89%E5%BE%B7"
+  },
+  {
+    "id": "wd:Q25752879:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q25752879\": born 31 October 1984",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P569"
+  },
+  {
+    "id": "wd:Q25752879:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q25752879\": birthplace Rochester Hills",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P19"
+  },
+  {
+    "id": "wd:Q25752879:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q25752879\": occupation epidemiologist, politician",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P106"
+  },
+  {
+    "id": "wd:Q25752879:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q25752879\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P27"
+  },
+  {
+    "id": "wd:Q25752879:P69:Q7895753",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": educated at University of Michigan College of Literature, Science, and the Arts (2003–07)",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P69"
+  },
+  {
+    "id": "wd:Q25752879:P69:Q2154182",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": educated at Columbia University Vagelos College of Physicians and Surgeons (2007–14)",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P69"
+  },
+  {
+    "id": "wd:Q25752879:P69:Q81170",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": educated at Oriel College (2009–11)",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P69"
+  },
+  {
+    "id": "wd:Q25752879:P69:Q4754616",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": educated at Andover High School",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P69"
+  },
+  {
+    "id": "wd:Q25752879:P108:Q5149896",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": worked for Columbia University Mailman School of Public Health (2014–15)",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P108"
+  },
+  {
+    "id": "wd:Q25752879:P108:Q25000650",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": worked for Detroit Health Department (2015–17)",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P108"
+  },
+  {
+    "id": "wd:Q25752879:P551:Q485172",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": lived in Ann Arbor",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P551"
+  },
+  {
+    "id": "wd:Q25752879:P937:Q12439",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": worked in Detroit",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P937"
+  },
+  {
+    "id": "wd:Q25752879:P166:Q1204346",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Abdul El-Sayed\": award received: Rhodes Scholarship (2009)",
+    "url": "https://www.wikidata.org/wiki/Q25752879#P166"
+  }
+]

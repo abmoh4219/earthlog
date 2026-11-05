@@ -202,7 +202,7 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "The Reserve Bank of Australia has raised its benchmark interest rate by 0.25 percentage points, to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs linked to the Iran war.",
+      "text": "The Reserve Bank of Australia raised its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs linked to the Iran war.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
@@ -211,14 +211,14 @@
       "t": "2026-11-03T00:00:08Z",
       "text": "On November 3, oil prices fell after U.S. President Donald Trump announced that the United States would no longer provide billions of dollars in annual military support to Israel.",
       "cites": [
-        "wiki:rev:1383586478:48"
+        "wiki:rev:1383825251:48"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "The wider backdrop is the 2026 Iran war fuel crisis, a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition.",
+      "text": "The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition.",
       "cites": [
-        "wiki:rev:1383586478:0"
+        "wiki:rev:1383825251:0"
       ]
     },
     {
@@ -246,14 +246,14 @@
     },
     {
       "t": "2026-11-03T00:00:51Z",
-      "text": "Across East Asia and the Pacific, Australia's 2.9% compares with a median of 2.1%, and the highest is Mongolia at 8.6%.",
+      "text": "Across East Asia & Pacific, Australia's 2.9% compares with a median of 2.1%, while Mongolia has the highest rate at 8.6%.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
       ]
     },
     {
       "t": "2026-11-03T00:01:05Z",
-      "text": "The story was reported by AFP and carried by France 24.",
+      "text": "The story was reported by AFP and published via France 24.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
@@ -299,7 +299,7 @@
       "series": [
         {
           "label": "Australia",
-          "color": "#ffd95e",
+          "color": "#e3b341",
           "points": [
             {
               "x": "2010",
@@ -609,7 +609,7 @@
           "label": "Australia",
           "text": "2.9%",
           "value": 2.87403791660173,
-          "color": "#ffd95e",
+          "color": "#e3b341",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:AU"
           ]
@@ -651,7 +651,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.001848
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.001385
   }
 }

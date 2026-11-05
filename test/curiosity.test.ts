@@ -17,9 +17,9 @@ describe("curiosity map", () => {
     expect(regions.find((r) => r.code === "BR")?.lang).toBe("pt");
     expect(new Set(regions.map((r) => r.code)).size).toBe(regions.length);
   });
-  it("colours from cyan (fewest) to pink (most)", () => {
+  it("colours from cyan (fewest) to amber (most)", () => {
     expect(curiosityColor(800, 800, 5000)).toBe("#5ef2ff");
-    expect(curiosityColor(5000, 800, 5000)).toBe("#ff6ec7");
+    expect(curiosityColor(5000, 800, 5000)).toBe("#f2b65a");
   });
   it("builds a regions layer and one column per placed language", () => {
     const square = (code: string, x: number): Country =>

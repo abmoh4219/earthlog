@@ -6,7 +6,8 @@ import { activeBeatIndex } from "@/scene/beats";
 
 const MAX_CHIPS = 3;
 const CHIP =
-  "pointer-events-auto ml-1 cursor-help rounded border border-ice/30 bg-ice/10 px-1 font-mono text-[0.55em] text-ice";
+  // A footnote, not a badge: small and quiet, brighter on hover where the source shows.
+  "pointer-events-auto ml-1 cursor-help text-[0.5em] font-medium text-ice/60 tabular-nums transition hover:text-ice";
 
 /** Narration captions. Every beat carries numbered citation chips (Phase 3 opens the evidence drawer). */
 export function Captions() {

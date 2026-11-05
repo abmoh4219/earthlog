@@ -39,14 +39,14 @@ export async function fetchArticle(title: string): Promise<Article | undefined> 
 // ── Colours ──────────────────────────────────────────────────────────────────────
 
 const FALLBACK = [
-  "#7fb4ff",
-  "#ff8a80",
-  "#ffd166",
-  "#5ce69a",
-  "#c39bff",
-  "#5ef2ff",
-  "#ff9ecb",
-  "#b0bec5",
+  "#4a8cf7",
+  "#ec5a52",
+  "#e3b341",
+  "#4cc38a",
+  "#4cc9e8",
+  "#f2994a",
+  "#8fa3b8",
+  "#c9d36a",
 ];
 const UNCALLED = "#8a96a3";
 
@@ -127,14 +127,13 @@ export async function electionLens(ctx: LensContext): Promise<LensResult> {
   const senate = senateA ? parseStateRaces(senateA.wikitext, "Senate") : [];
   const governors = govA ? parseStateRaces(govA.wikitext, "gubernatorial") : [];
   const house = houseA ? parseHouseRaces(houseA.wikitext) : [];
-  const usColors = us
-    ? await partyColors(["Democratic Party (United States)", "Republican Party (United States)"])
-    : new Map<string, string>();
+  // US maps use the familiar blue and red. Wikidata's official #3333FF and #FF3333, lightened
+  // for the dark globe, read as lavender and pink, which nobody reads as Democratic/Republican.
   const colorOf: Record<Party, string> = {
-    D: usColors.get("Democratic Party (United States)") ?? "#7fb4ff",
-    R: usColors.get("Republican Party (United States)") ?? "#ff8a80",
-    I: "#c39bff",
-    O: "#b0bec5",
+    D: "#4a8cf7",
+    R: "#ec5a52",
+    I: "#d9b45a",
+    O: "#9aa7b4",
   };
   const states =
     us && (senate.length || governors.length) ? await fetchStates() : new Map<string, number[][]>();

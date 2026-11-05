@@ -261,29 +261,28 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "In association football, CD Tenerife striker Jesús de Miguel died on 3 November 2026, the previous day after an in-game collision with FC Andorra goalkeeper Jesús Owono.",
+      "text": "CD Tenerife striker Jesús de Miguel died following an in-game collision with FC Andorra goalkeeper Jesús Owono the previous day.",
       "cites": [
-        "wiki:2026-11-03:12",
-        "wiki:rev:1383776690:0"
+        "wiki:2026-11-03:12"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in that collision, which, according to Wikipedia, caused him to go into cardiac arrest.",
+      "text": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in that collision, which caused him to go into cardiac arrest.",
       "cites": [
-        "wiki:rev:1383776690:26"
+        "wiki:rev:1383799981:26"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Jesús de Miguel Alameda, born 21 September 1996, was a Spanish professional footballer who played as a striker.",
+      "text": "Jesús de Miguel Alameda, born 21 September 1996 and died 3 November 2026, was a Spanish professional footballer who played as a striker.",
       "cites": [
-        "wiki:rev:1383776690:0"
+        "wiki:rev:1383799981:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Jesús de Miguel Alameda was born in Madrid on 21 September 1996.",
+      "text": "Jesús de Miguel Alameda was born on 21 September 1996 in Madrid.",
       "cites": [
         "wd:Q116992476:P569",
         "wd:Q116992476:P19"
@@ -291,7 +290,7 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Played for 8 clubs from 2015 to 2026, beginning with CD Leganés B and ending with C.D. Tenerife.",
+      "text": "Between 2015 and 2026 he played for 8 clubs, starting at CD Leganés B and ending at C.D. Tenerife.",
       "cites": [
         "wd:Q116992476:P54:Q9196665",
         "wd:Q116992476:P54:Q9008987",
@@ -305,7 +304,7 @@
     },
     {
       "t": "2026-11-03T00:00:43Z",
-      "text": "He died on 3 November 2026 at Hospital Universitario Nuestra Señora de Candelaria, aged 30.",
+      "text": "Jesús de Miguel Alameda died on 3 November 2026 at Hospital Universitario Nuestra Señora de Candelaria, aged 30.",
       "cites": [
         "wd:Q116992476:P570",
         "wd:Q116992476:P20",
@@ -314,7 +313,7 @@
     },
     {
       "t": "2026-11-03T00:00:51Z",
-      "text": "Readers also turned to the articles on Jesús Owono, with 297,789 readers, and on CD Tenerife, with 70,752.",
+      "text": "On 3 November 2026, 297,789 readers opened the English article on Jesús Owono, and 70,752 read the one on CD Tenerife.",
       "cites": [
         "views:en:Jesús_Owono:2026-11-03",
         "views:en:CD_Tenerife:2026-11-03"
@@ -322,7 +321,7 @@
     },
     {
       "t": "2026-11-03T00:01:00Z",
-      "text": "On 3 November 2026, 585,060 people read about him, while in the 8 to 60 days before, the article normally drew a median of 4 readers a day.",
+      "text": "On 3 November 2026, 585,060 people read the English article, while before that it was normally read by a median of 4 people a day.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-03",
         "views:en:Jesús_de_Miguel:prior"
@@ -330,7 +329,7 @@
     },
     {
       "t": "2026-11-03T00:01:07Z",
-      "text": "The article was read in 8 languages, and after English, Spanish had the most readers at 367,049.",
+      "text": "The article was read in 8 languages, and after English, Spanish drew the most readers, at 367,049.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-03",
         "views:es:Jesús_de_Miguel_Alameda:2026-11-03"
@@ -338,7 +337,7 @@
     },
     {
       "t": "2026-11-03T00:01:14Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not the same as a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:es:Jesús_de_Miguel_Alameda:2026-11-03",
         "views:de:Jesús_de_Miguel:2026-11-03",
@@ -350,7 +349,7 @@
     },
     {
       "t": "2026-11-03T00:01:24Z",
-      "text": "CNN reported the story.",
+      "text": "The story was reported by CNN.",
       "cites": [
         "wiki:2026-11-03:12"
       ]
@@ -478,7 +477,7 @@
       "series": [
         {
           "label": "Jesús de Miguel",
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "points": [
             {
               "x": "10-05",
@@ -879,7 +878,7 @@
           "label": "English",
           "text": "585,060",
           "value": 585060,
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "cites": [
             "views:en:Jesús_de_Miguel:2026-11-03"
           ]
@@ -962,7 +961,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.003463
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0
   }
 }

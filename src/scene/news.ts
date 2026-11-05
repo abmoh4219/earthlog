@@ -13,7 +13,7 @@ export interface NewsCategory {
 }
 
 export const NEWS_CATEGORIES: NewsCategory[] = [
-  { key: "politics", label: "Politics", color: "#b49bff", rank: 1, match: ["politic", "election"] },
+  { key: "politics", label: "Politics", color: "#4a8cf7", rank: 1, match: ["politic", "election"] },
   {
     key: "conflict",
     label: "Conflict",
@@ -45,7 +45,7 @@ export const NEWS_CATEGORIES: NewsCategory[] = [
     rank: 8,
     match: ["health", "environment"],
   },
-  { key: "culture", label: "Culture", color: "#ff8fd0", rank: 9, match: ["art", "culture"] },
+  { key: "culture", label: "Culture", color: "#e8838f", rank: 9, match: ["art", "culture"] },
   { key: "law", label: "Law & crime", color: "#a9b8c8", rank: 10, match: ["law", "crime"] },
 ];
 

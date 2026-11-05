@@ -21,17 +21,17 @@ export const Lens = z.enum(LENSES);
 export type Lens = z.infer<typeof Lens>;
 
 export const LENS_INFO: Record<Lens, { label: string; color: string }> = {
-  election: { label: "Election", color: "#b49bff" },
-  conflict: { label: "Conflict", color: "#ff4d5e" },
-  accident: { label: "Accident", color: "#e8f6ff" },
-  disaster: { label: "Disaster", color: "#ffb547" },
-  sports: { label: "Sports", color: "#5ce69a" },
-  economy: { label: "Economy", color: "#ffd95e" },
-  science: { label: "Science & space", color: "#6fb7ff" },
-  culture: { label: "Culture", color: "#ff8fd0" },
-  organization: { label: "Tech & business", color: "#5ef2ff" },
-  person: { label: "People", color: "#f5c2a0" },
-  general: { label: "News", color: "#9ad9ff" },
+  election: { label: "Election", color: "#4a8cf7" },
+  conflict: { label: "Conflict", color: "#ec5a52" },
+  accident: { label: "Accident", color: "#dfe6ee" },
+  disaster: { label: "Disaster", color: "#f2994a" },
+  sports: { label: "Sports", color: "#4cc38a" },
+  economy: { label: "Economy", color: "#e3b341" },
+  science: { label: "Science & space", color: "#5fc9b8" },
+  culture: { label: "Culture", color: "#e8838f" },
+  organization: { label: "Tech & business", color: "#4cc9e8" },
+  person: { label: "People", color: "#e6b98f" },
+  general: { label: "News", color: "#9ab8cc" },
 };
 
 export const Continent = z.enum([

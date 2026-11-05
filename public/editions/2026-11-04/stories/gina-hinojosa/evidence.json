@@ -1,0 +1,385 @@
+[
+  {
+    "id": "views:en:Gina_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 1,242,354 readers of \"Gina Hinojosa\" on 4 Nov 2026",
+    "value": 1242354,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Gina_Hinojosa:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Gina Hinojosa\": normally a median of 6,355 readers a day (8 to 60 days before)",
+    "value": 6355,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Greg_Abbott:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 327,943 readers of \"Greg Abbott\" on 4 Nov 2026",
+    "value": 327943,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Greg_Abbott:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Greg Abbott\": normally a median of 3,316 readers a day (8 to 60 days before)",
+    "value": 3316,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Ken_Paxton:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 197,914 readers of \"Ken Paxton\" on 4 Nov 2026",
+    "value": 197914,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ken_Paxton",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Ken_Paxton:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Ken Paxton\": normally a median of 10,284 readers a day (8 to 60 days before)",
+    "value": 10284,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ken_Paxton",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_Texas_gubernatorial_election:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 158,747 readers of \"2026 Texas gubernatorial election\" on 4 Nov 2026",
+    "value": 158747,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_Texas_gubernatorial_election:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"2026 Texas gubernatorial election\": normally a median of 4,500 readers a day (8 to 60 days before)",
+    "value": 4500,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Gilberto_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 146,352 readers of \"Gilberto Hinojosa\" on 4 Nov 2026",
+    "value": 146352,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Gilberto_Hinojosa",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Gilberto_Hinojosa:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Gilberto Hinojosa\": normally a median of 941 readers a day (8 to 60 days before)",
+    "value": 941,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Gilberto_Hinojosa",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Ann_Richards:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 133,555 readers of \"Ann Richards\" on 4 Nov 2026",
+    "value": 133555,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ann_Richards",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Ann_Richards:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"Ann Richards\": normally a median of 1,276 readers a day (8 to 60 days before)",
+    "value": 1276,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ann_Richards",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q28314533:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "Wikidata: \"Q28314533\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q28314533",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383859577:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-05 05:31 UTC)",
+    "quote": "A member of the Democratic Party, she has represented the 49th district in the Texas House of Representatives since 2017.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1383859577"
+  },
+  {
+    "id": "wiki:rev:1383859577:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-05 05:31 UTC)",
+    "quote": "Before becoming a state legislator, Hinojosa was a labor and civil rights lawyer.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1383859577"
+  },
+  {
+    "id": "wiki:rev:1383859577:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-05 05:31 UTC)",
+    "quote": "Regina Inez Hinojosa (;; born December 8, 1973) is an American politician and lawyer who is the governor-elect of Texas.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1383859577"
+  },
+  {
+    "id": "views:en:Gina_Hinojosa:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gina Hinojosa\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gina_Hinojosa&range=latest-30"
+  },
+  {
+    "id": "views:en:Greg_Abbott:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Greg Abbott\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Greg_Abbott&range=latest-30"
+  },
+  {
+    "id": "views:en:Ken_Paxton:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Ken Paxton\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Ken_Paxton&range=latest-30"
+  },
+  {
+    "id": "views:es:Gina_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 92,588 readers of \"Gina Hinojosa\" on 4 November 2026",
+    "value": 92588,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Gina_Hinojosa"
+  },
+  {
+    "id": "views:de:Gina_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 13,114 readers of \"Gina Hinojosa\" on 4 November 2026",
+    "value": 13114,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Gina_Hinojosa"
+  },
+  {
+    "id": "views:fr:Gina_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 7,497 readers of \"Gina Hinojosa\" on 4 November 2026",
+    "value": 7497,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Gina_Hinojosa"
+  },
+  {
+    "id": "views:pt:Gina_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 4,633 readers of \"Gina Hinojosa\" on 4 November 2026",
+    "value": 4633,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Gina_Hinojosa"
+  },
+  {
+    "id": "views:it:Gina_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 3,276 readers of \"Gina Hinojosa\" on 4 November 2026",
+    "value": 3276,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Gina_Hinojosa"
+  },
+  {
+    "id": "views:ru:Инохоса,_Джина:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 2,323 readers of \"Инохоса, Джина\" on 4 November 2026",
+    "value": 2323,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%BE%D1%85%D0%BE%D1%81%D0%B0%2C_%D0%94%D0%B6%D0%B8%D0%BD%D0%B0"
+  },
+  {
+    "id": "views:zh:吉娜·伊諾霍薩:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 625 readers of \"吉娜·伊諾霍薩\" on 4 November 2026",
+    "value": 625,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E5%A8%9C%C2%B7%E4%BC%8A%E8%AB%BE%E9%9C%8D%E8%96%A9"
+  },
+  {
+    "id": "views:nl:Gina_Hinojosa:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 377 readers of \"Gina Hinojosa\" on 4 November 2026",
+    "value": 377,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Gina_Hinojosa"
+  },
+  {
+    "id": "views:ar:جينا_هينوهوسا:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 141 readers of \"جينا هينوهوسا\" on 4 November 2026",
+    "value": 141,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AC%D9%8A%D9%86%D8%A7_%D9%87%D9%8A%D9%86%D9%88%D9%87%D9%88%D8%B3%D8%A7"
+  },
+  {
+    "id": "views:ko:지나_이노호사:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 58 readers of \"지나 이노호사\" on 4 November 2026",
+    "value": 58,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/%EC%A7%80%EB%82%98_%EC%9D%B4%EB%85%B8%ED%98%B8%EC%82%AC"
+  },
+  {
+    "id": "wd:Q28314533:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q28314533\": born 8 December 1973",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P569"
+  },
+  {
+    "id": "wd:Q28314533:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q28314533\": birthplace McAllen",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P19"
+  },
+  {
+    "id": "wd:Q28314533:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q28314533\": occupation politician, lawyer",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P106"
+  },
+  {
+    "id": "wd:Q28314533:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q28314533\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P27"
+  },
+  {
+    "id": "wd:Q28314533:P69:Q49213",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gina Hinojosa\": educated at University of Texas at Austin (1992–96)",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P69"
+  },
+  {
+    "id": "wd:Q28314533:P69:Q5546035",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gina Hinojosa\": educated at George Washington University Law School (1996–99)",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P69"
+  },
+  {
+    "id": "wd:Q28314533:P551:Q16559",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gina Hinojosa\": lived in Austin",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P551"
+  },
+  {
+    "id": "wd:Q28314533:P937:Q16559",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gina Hinojosa\": worked in Austin",
+    "url": "https://www.wikidata.org/wiki/Q28314533#P937"
+  }
+]

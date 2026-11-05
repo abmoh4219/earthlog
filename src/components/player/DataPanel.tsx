@@ -48,9 +48,7 @@ function SignalBlock({ layer, timezone }: { layer: SignalLayer; timezone: string
   const color = layer.tone === "loss" ? "var(--color-loss)" : "var(--color-attention)";
   return (
     <section>
-      <h2 className="font-mono text-[10px] tracking-[0.25em] text-ice/60 uppercase">
-        Internet · vs normal
-      </h2>
+      <h2 className="font-medium text-xs text-ice/60">Internet · vs normal</h2>
       <p className="mt-1 text-xs text-frost/80">{layer.label}</p>
       <ul className="mt-3 space-y-3">
         {layer.series.map((s) => (
@@ -176,9 +174,7 @@ function QuakeBlock({ layer }: { layer: QuakeLayer }) {
   );
   return (
     <section className="mt-4 border-t border-ice/10 pt-3 first:mt-0 first:border-0 first:pt-0">
-      <h2 className="font-mono text-[10px] tracking-[0.3em] text-ice/60 uppercase">
-        Earthquakes · USGS
-      </h2>
+      <h2 className="font-medium text-xs text-ice/60">Earthquakes · USGS</h2>
       <div className="mt-2 flex items-end justify-between">
         <div>
           <div className="font-mono text-2xl text-frost tabular-nums">{happened.length}</div>
@@ -205,9 +201,7 @@ function StormBlock({ layer }: { layer: StormLayer }) {
   });
   return (
     <section className="mt-4 border-t border-ice/10 pt-3 first:mt-0 first:border-0 first:pt-0">
-      <h2 className="font-mono text-[10px] tracking-[0.3em] text-ice/60 uppercase">
-        Storms · NASA EONET
-      </h2>
+      <h2 className="font-medium text-xs text-ice/60">Storms · NASA EONET</h2>
       {live.length === 0 ? (
         <p className="mt-2 text-xs text-ice/50">No tracked storm at this moment.</p>
       ) : (

@@ -188,7 +188,7 @@
       "series": [
         {
           "label": "United States",
-          "color": "#ffd95e",
+          "color": "#e3b341",
           "points": [
             {
               "x": "2010",
@@ -449,7 +449,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.000909
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-the-singaporean-parliament-amends-the-transboundary-haze-pol",
+  "title": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014",
+  "subtitle": "News · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:00:59Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 93.83333333,
+    "south": -6.71666667,
+    "east": 113.83333333,
+    "north": 9.28333333
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-04T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-04T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-04T00:00:42Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": 141.83333332999996,
+      "lat": 0.35749999800000004,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:14Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:23Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:31Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:34Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:38Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:41Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:45Z",
+      "lon": 104.4597494440994,
+      "lat": 6.067175052998551,
+      "range": 2874468.5827805526,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:48Z",
+      "lon": 104.4597494440994,
+      "lat": 6.067175052998551,
+      "range": 2602942.008455394,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:50Z",
+      "lon": 104.4597494440994,
+      "lat": 6.067175052998551,
+      "range": 2357064.237880053,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:54Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:55Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:59Z",
+      "lon": 78.83333332999996,
+      "lat": 0.59583333,
+      "range": 14000000,
+      "heading": 7.800000000000001,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "text": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present…",
+      "cites": [
+        "wiki:2026-11-04:2"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:08Z",
+      "text": "The Formula One (F1) races in Sepang and Singapore held in October 2026 were affected by the haze.",
+      "cites": [
+        "wiki:rev:1383807365:107"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:16Z",
+      "text": "The 2026 Southeast Asian haze crisis is an air pollution event and the current continuous transboundary haze season that is affecting several countries in Southeast Asia since August 2026, including Brunei…",
+      "cites": [
+        "wiki:rev:1383807365:0"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:25Z",
+      "text": "The reports place the story in Singapore and Malaysia.",
+      "cites": [
+        "wiki:2026-11-04:2"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:33Z",
+      "text": "The haze event began in 2026 and is located in Southeast Asia.",
+      "cites": [
+        "wd:Q141274248:P580",
+        "wd:Q141274248:P276"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:43Z",
+      "text": "Southeast Asia is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-04:2"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:52Z",
+      "text": "The report comes from AFP.",
+      "cites": [
+        "wiki:2026-11-04:2"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "MY",
+    "lon": 103.83333333,
+    "lat": 1.28333333,
+    "label": "Singapore"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-04T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-04T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-04T00:00:51Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-04T00:00:33Z",
+      "until": "2026-11-04T00:00:42Z",
+      "title": "On record: 2026 Southeast Asian haze",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Began",
+          "text": "2026",
+          "cites": [
+            "wd:Q141274248:P580"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "Southeast Asia",
+          "cites": [
+            "wd:Q141274248:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Malaysia, Thailand",
+          "cites": [
+            "wd:Q141274248:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-04T00:00:52Z",
+      "until": "2026-11-04T00:00:59Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines",
+          "cites": [
+            "wiki:2026-11-04:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

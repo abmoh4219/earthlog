@@ -101,7 +101,7 @@ export function FrontPage({
       <header className="pointer-events-none absolute inset-x-0 top-0 z-10 p-6 md:p-8">
         <Link
           href="/"
-          className="pointer-events-auto font-mono text-[11px] tracking-[0.5em] text-ice/80 uppercase hover:text-frost"
+          className="font-medium pointer-events-auto text-xs text-ice/80 hover:text-frost"
         >
           Earthlog
         </Link>
@@ -149,10 +149,10 @@ export function FrontPage({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.5 }}
-            className="glass absolute bottom-24 left-1/2 z-10 w-[min(92vw,640px)] -translate-x-1/2 rounded-2xl px-6 py-5"
+            className="glass absolute bottom-40 left-1/2 z-10 w-[min(92vw,640px)] -translate-x-1/2 rounded-2xl px-5 py-4 md:bottom-24 md:px-6 md:py-5"
           >
             <span
-              className="rounded-md px-2 py-0.5 font-mono text-[10px] tracking-[0.2em] text-void uppercase"
+              className="font-medium rounded-md px-2 py-0.5 text-xs text-void"
               style={{ background: current.color }}
             >
               {current.lensLabel}
@@ -188,9 +188,7 @@ export function FrontPage({
                 <span className="flex items-center gap-2">
                   <span className="font-mono text-[11px] text-ice/40 tabular-nums">{i + 1}</span>
                   <span className="h-2 w-2 rounded-full" style={{ background: s.color }} />
-                  <span className="font-mono text-[10px] tracking-[0.2em] text-ice/60 uppercase">
-                    {s.lensLabel}
-                  </span>
+                  <span className="font-medium text-xs text-ice/60">{s.lensLabel}</span>
                 </span>
                 <span className="mt-1 block text-sm font-medium leading-snug text-frost">
                   {s.title}
@@ -201,9 +199,31 @@ export function FrontPage({
         </ol>
       </aside>
 
-      {/* Earlier editions and the classics. */}
-      <footer className="absolute inset-x-0 bottom-0 z-10 flex flex-wrap items-center gap-2 px-6 pb-5 text-xs">
-        <span className="font-mono tracking-[0.25em] text-ice/50 uppercase">Editions</span>
+      {/* Phones: the stories as a strip to swipe, above the editions. */}
+      <nav
+        aria-label="Stories"
+        className="absolute inset-x-0 bottom-14 z-10 flex snap-x gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:hidden"
+      >
+        {stories.map((s) => (
+          <Link
+            key={s.slug}
+            href={s.hasFilm ? filmHref(s.slug) : `/edition/${date}`}
+            onFocus={() => choose(s.slug)}
+            className="glass w-56 shrink-0 snap-start rounded-xl px-3 py-2.5"
+          >
+            <span className="text-xs font-medium" style={{ color: s.color }}>
+              {s.lensLabel}
+            </span>
+            <span className="mt-0.5 line-clamp-2 block text-sm leading-snug font-medium text-frost">
+              {s.title}
+            </span>
+          </Link>
+        ))}
+      </nav>
+
+      {/* Earlier editions and the classics (classics from tablets up). */}
+      <footer className="absolute inset-x-0 bottom-0 z-10 flex items-center gap-2 overflow-x-auto px-4 pb-4 text-xs sm:flex-wrap sm:px-6 sm:pb-5">
+        <span className="font-medium text-ice/50">Editions</span>
         {editions.map((e) => (
           <Link
             key={e.date}
@@ -214,13 +234,13 @@ export function FrontPage({
           </Link>
         ))}
         {classics.length > 0 && (
-          <span className="ml-4 font-mono tracking-[0.25em] text-ice/50 uppercase">Classics</span>
+          <span className="ml-4 hidden font-medium text-ice/50 sm:inline">Classics</span>
         )}
         {classics.map((c) => (
           <Link
             key={c.id}
             href={`/replay/${c.id}`}
-            className="glass rounded-full px-3 py-1 text-ice/80 hover:text-frost"
+            className="glass hidden shrink-0 rounded-full px-3 py-1 text-ice/80 hover:text-frost sm:inline-block"
           >
             {c.title}
           </Link>
@@ -234,9 +254,7 @@ export function FrontPage({
             className="absolute inset-0 z-20 grid place-items-center bg-void"
             exit={{ opacity: 0, transition: { duration: 1.2 } }}
           >
-            <span className="font-mono text-xs tracking-[0.35em] text-ice/70 uppercase">
-              Loading the edition…
-            </span>
+            <span className="font-medium text-xs text-ice/70">Loading the edition…</span>
           </motion.div>
         )}
       </AnimatePresence>

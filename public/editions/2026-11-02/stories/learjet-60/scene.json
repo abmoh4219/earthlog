@@ -232,7 +232,7 @@
       "series": [
         {
           "label": "Learjet 60",
-          "color": "#5ef2ff",
+          "color": "#4cc9e8",
           "points": [
             {
               "x": "10-04",
@@ -504,7 +504,7 @@
           "label": "English",
           "text": "263,003",
           "value": 263003,
-          "color": "#5ef2ff",
+          "color": "#4cc9e8",
           "cites": [
             "views:en:Learjet_60:2026-11-02"
           ]
@@ -569,7 +569,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.001372
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

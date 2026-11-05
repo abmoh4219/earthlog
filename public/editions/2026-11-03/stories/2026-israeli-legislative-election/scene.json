@@ -150,23 +150,23 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Israel held legislative elections on 27 October 2026 to elect the 120 members of the 26th Knesset and choose the coalition that succeeds Benjamin Netanyahu's 37th government.",
+      "text": "Israel held legislative elections on 27 October 2026 to elect the 120 members of the 26th Knesset and to determine the coalition that succeeds the 37th government led by Benjamin Netanyahu.",
       "cites": [
-        "wiki:rev:1383792096:0"
+        "wiki:rev:1383856282:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "Yair Golan, head of the Democrats, announced on 2 November that his party would also recommend Eisenkot.",
+      "text": "On 4 November, a panel of CEC members approved the results, with three in favor, none against, and two members of Likud and Shas abstaining.",
       "cites": [
-        "wiki:rev:1383792096:107"
+        "wiki:rev:1383856282:105"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "On 1 November, President Isaac Herzog said he would invite party leaders, starting 4 November, to begin consultations on who should get the first chance to form a government.",
+      "text": "On 1 November, President Isaac Herzog announced that he would invite party leaders starting 4 November to begin consultations on who should be given the first chance to form a government.",
       "cites": [
-        "wiki:rev:1383792096:105"
+        "wiki:rev:1383856282:108"
       ]
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "t": "2026-11-03T00:00:39Z",
-      "text": "English Wikipedia recorded 60,786 readers of the election article on 3 November 2026, about 6× the usual median of 10,720 a day.",
+      "text": "On 3 November 2026, 60,786 people read the English article, about 6× the usual.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:en:2026_Israeli_legislative_election:prior"
@@ -194,7 +194,7 @@
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "The article was read in 11 languages, and after English the most readers were in French, with 3,789.",
+      "text": "The article was read in 11 languages, and after English, French was the most common, with 3,789 readers.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03"
@@ -264,7 +264,7 @@
         {
           "label": "Together (Israel)",
           "value": 12,
-          "color": "#ffd166",
+          "color": "#e3b341",
           "cites": [
             "elex:2026-israeli-legislative-election:party3"
           ]
@@ -272,7 +272,7 @@
         {
           "label": "Joint List",
           "value": 11,
-          "color": "#5ce69a",
+          "color": "#4cc38a",
           "cites": [
             "elex:2026-israeli-legislative-election:party4"
           ]
@@ -296,7 +296,7 @@
         {
           "label": "Yisrael Beiteinu",
           "value": 7,
-          "color": "#ff9ecb",
+          "color": "#8fa3b8",
           "cites": [
             "elex:2026-israeli-legislative-election:party7"
           ]
@@ -312,7 +312,7 @@
         {
           "label": "United Torah Judaism",
           "value": 7,
-          "color": "#7fb4ff",
+          "color": "#4a8cf7",
           "cites": [
             "elex:2026-israeli-legislative-election:party9"
           ]
@@ -365,7 +365,7 @@
           "label": "Together (Israel)",
           "text": "9.34%",
           "value": 9.34,
-          "color": "#ffd166",
+          "color": "#e3b341",
           "cites": [
             "elex:2026-israeli-legislative-election:party3"
           ]
@@ -374,7 +374,7 @@
           "label": "Joint List",
           "text": "8.79%",
           "value": 8.79,
-          "color": "#5ce69a",
+          "color": "#4cc38a",
           "cites": [
             "elex:2026-israeli-legislative-election:party4"
           ]
@@ -410,7 +410,7 @@
       "series": [
         {
           "label": "2026 Israeli legislative election",
-          "color": "#b49bff",
+          "color": "#4a8cf7",
           "points": [
             {
               "x": "10-05",
@@ -553,7 +553,7 @@
           "label": "English",
           "text": "60,786",
           "value": 60786,
-          "color": "#b49bff",
+          "color": "#4a8cf7",
           "cites": [
             "views:en:2026_Israeli_legislative_election:2026-11-03"
           ]
@@ -618,7 +618,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.00239
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.001777
   }
 }

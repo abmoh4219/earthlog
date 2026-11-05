@@ -268,21 +268,21 @@
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "Sir Patrick Stewart (13 July 1940 – 28 October 2026) was an English actor.",
-      "cites": [
-        "wiki:rev:1383779868:0"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:15Z",
-      "text": "His career spanned over 60 years on stage and screen, with three Laurence Olivier Awards, a Grammy Award and a Tony Award nomination among his accolades.",
+      "text": "Over a career of more than 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award.",
       "cites": [
         "wiki:rev:1383779868:1"
       ]
     },
     {
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Sir Patrick Stewart, born 13 July 1940, was an English actor.",
+      "cites": [
+        "wiki:rev:1383779868:0"
+      ]
+    },
+    {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Stewart was born in Mirfield on 13 July 1940.",
+      "text": "He was born on 13 July 1940 in Mirfield.",
       "cites": [
         "wd:Q16296:P569",
         "wd:Q16296:P19"
@@ -307,7 +307,7 @@
     },
     {
       "t": "2026-11-03T00:00:44Z",
-      "text": "Wikidata lists 8 awards on record, including a Laurence Olivier Award for Best Actor in a Supporting Role (2009) and an honorary doctorate from the Vrije Universiteit Brussel in 2015.",
+      "text": "Wikidata lists 8 awards, including the Laurence Olivier Award for Best Actor in a Supporting Role (2009) and an honorary doctorate from the Vrije Universiteit Brussel (2015).",
       "cites": [
         "wd:Q16296:P166:Q6500772",
         "wd:Q16296:P166:Q55139818"
@@ -315,7 +315,7 @@
     },
     {
       "t": "2026-11-03T00:00:50Z",
-      "text": "He is known for X-Men and Star Trek: The Next Generation.",
+      "text": "He is known for his work on X-Men and Star Trek: The Next Generation.",
       "cites": [
         "wd:Q16296:P800:Q2006869",
         "wd:Q16296:P800:Q16290"
@@ -332,7 +332,7 @@
     },
     {
       "t": "2026-11-03T00:01:15Z",
-      "text": "English Wikipedia recorded 82,458 readers on 3 November 2026, about 21 times the usual daily figure.",
+      "text": "On 3 November 2026, 82,458 people read his English Wikipedia article, about 21 times the usual daily figure.",
       "cites": [
         "views:en:Patrick_Stewart:2026-11-03",
         "views:en:Patrick_Stewart:prior"
@@ -340,7 +340,7 @@
     },
     {
       "t": "2026-11-03T00:01:21Z",
-      "text": "The article was read in 11 languages, and after English the most readers were on German Wikipedia, with 6,690.",
+      "text": "The article was read in 11 languages, and after English, German was the most read at 6,690 readers.",
       "cites": [
         "views:en:Patrick_Stewart:2026-11-03",
         "views:de:Patrick_Stewart:2026-11-03"
@@ -533,7 +533,7 @@
       "series": [
         {
           "label": "Patrick Stewart",
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "points": [
             {
               "x": "10-05",
@@ -676,7 +676,7 @@
           "label": "English",
           "text": "82,458",
           "value": 82458,
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "cites": [
             "views:en:Patrick_Stewart:2026-11-03"
           ]
@@ -741,7 +741,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.005218
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.003404
   }
 }

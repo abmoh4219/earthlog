@@ -1,0 +1,845 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-gina-hinojosa",
+  "title": "Gina Hinojosa",
+  "subtitle": "People · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:01:15Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:00:51Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:00:51Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-04T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-04T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
+      "lon": -98.236388888889,
+      "lat": 25.316388888889,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
+      "lon": -98.236388888889,
+      "lat": 25.316388888889,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:31Z",
+      "lon": -98.236388888889,
+      "lat": 25.316388888889,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:35Z",
+      "lon": -94.10947976609513,
+      "lat": 29.766059053780104,
+      "range": 8406250.057545235,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:38Z",
+      "lon": -94.10947976609513,
+      "lat": 29.766059053780104,
+      "range": 7612183.183856192,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:41Z",
+      "lon": -94.10947976609513,
+      "lat": 29.766059053780104,
+      "range": 6893125.047187093,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:45Z",
+      "lon": -97.88674720694293,
+      "lat": 32.168080098091956,
+      "range": 3553400.8010498043,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:48Z",
+      "lon": -97.88674720694293,
+      "lat": 32.168080098091956,
+      "range": 3217741.280367199,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:50Z",
+      "lon": -97.88674720694293,
+      "lat": 32.168080098091956,
+      "range": 2913788.6568608396,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:55Z",
+      "lon": 24.936774062057342,
+      "lat": 46.437907636820675,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:03Z",
+      "lon": 24.936774062057342,
+      "lat": 46.437907636820675,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:11Z",
+      "lon": 24.936774062057342,
+      "lat": 46.437907636820675,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:15Z",
+      "lon": -0.0632259379426614,
+      "lat": 46.437907636820675,
+      "range": 54120000,
+      "heading": 28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "Gina Hinojosa, a member of the Democratic Party, has represented the 49th district in the Texas House of Representatives since 2017.",
+      "cites": [
+        "wiki:rev:1383859577:1"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:08Z",
+      "text": "Before entering the legislature, Hinojosa worked as a labor and civil rights lawyer.",
+      "cites": [
+        "wiki:rev:1383859577:2"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:15Z",
+      "text": "Regina Inez Hinojosa, born December 8, 1973, is an American politician and lawyer who is the governor-elect of Texas.",
+      "cites": [
+        "wiki:rev:1383859577:0"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:25Z",
+      "text": "Hinojosa was born on 8 December 1973 in McAllen.",
+      "cites": [
+        "wd:Q28314533:P569",
+        "wd:Q28314533:P19"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:33Z",
+      "text": "She studied at the University of Texas at Austin and later at George Washington University Law School.",
+      "cites": [
+        "wd:Q28314533:P69:Q49213",
+        "wd:Q28314533:P69:Q5546035"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:37Z",
+      "text": "She has worked in Austin.",
+      "cites": [
+        "wd:Q28314533:P937:Q16559"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:43Z",
+      "text": "Readers also looked at the pages for Greg Abbott, with 327,943 readers, Ken Paxton, with 197,914, and the 2026 Texas gubernatorial election, with 158,747.",
+      "cites": [
+        "views:en:Greg_Abbott:2026-11-04",
+        "views:en:Ken_Paxton:2026-11-04",
+        "views:en:2026_Texas_gubernatorial_election:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:52Z",
+      "text": "On 4 November 2026, 1,242,354 people read the English Wikipedia article, about 195 times the usual daily readership.",
+      "cites": [
+        "views:en:Gina_Hinojosa:2026-11-04",
+        "views:en:Gina_Hinojosa:prior"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:58Z",
+      "text": "The article was read in 11 languages, and after English, Spanish had the most readers, at 92,588.",
+      "cites": [
+        "views:en:Gina_Hinojosa:2026-11-04",
+        "views:es:Gina_Hinojosa:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:04Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:es:Gina_Hinojosa:2026-11-04",
+        "views:de:Gina_Hinojosa:2026-11-04",
+        "views:fr:Gina_Hinojosa:2026-11-04",
+        "views:pt:Gina_Hinojosa:2026-11-04",
+        "views:it:Gina_Hinojosa:2026-11-04",
+        "views:ru:Инохоса,_Джина:2026-11-04"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-04T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-04T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-04T00:00:51Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-04T00:00:33Z",
+      "until": "2026-11-04T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1973 born",
+          "text": "McAllen",
+          "cites": [
+            "wd:Q28314533:P19"
+          ]
+        },
+        {
+          "label": "1992–96",
+          "text": "University of Texas at Austin",
+          "cites": [
+            "wd:Q28314533:P69:Q49213"
+          ]
+        },
+        {
+          "label": "1996–99",
+          "text": "George Washington University Law School",
+          "cites": [
+            "wd:Q28314533:P69:Q5546035"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Austin",
+          "cites": [
+            "wd:Q28314533:P551:Q16559"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Austin",
+          "cites": [
+            "wd:Q28314533:P937:Q16559"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-04T00:00:52Z",
+      "until": "2026-11-04T00:01:15Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Gina Hinojosa",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 6220
+            },
+            {
+              "x": "10-07",
+              "y": 7563
+            },
+            {
+              "x": "10-08",
+              "y": 8928
+            },
+            {
+              "x": "10-09",
+              "y": 7037
+            },
+            {
+              "x": "10-10",
+              "y": 7737
+            },
+            {
+              "x": "10-11",
+              "y": 5872
+            },
+            {
+              "x": "10-12",
+              "y": 5220
+            },
+            {
+              "x": "10-13",
+              "y": 10607
+            },
+            {
+              "x": "10-14",
+              "y": 6749
+            },
+            {
+              "x": "10-15",
+              "y": 8725
+            },
+            {
+              "x": "10-16",
+              "y": 6679
+            },
+            {
+              "x": "10-17",
+              "y": 9593
+            },
+            {
+              "x": "10-18",
+              "y": 6355
+            },
+            {
+              "x": "10-19",
+              "y": 8390
+            },
+            {
+              "x": "10-20",
+              "y": 10832
+            },
+            {
+              "x": "10-21",
+              "y": 8074
+            },
+            {
+              "x": "10-22",
+              "y": 7563
+            },
+            {
+              "x": "10-23",
+              "y": 7250
+            },
+            {
+              "x": "10-24",
+              "y": 10108
+            },
+            {
+              "x": "10-25",
+              "y": 11346
+            },
+            {
+              "x": "10-26",
+              "y": 9883
+            },
+            {
+              "x": "10-27",
+              "y": 9079
+            },
+            {
+              "x": "10-28",
+              "y": 8724
+            },
+            {
+              "x": "10-29",
+              "y": 8903
+            },
+            {
+              "x": "10-30",
+              "y": 9055
+            },
+            {
+              "x": "10-31",
+              "y": 7463
+            },
+            {
+              "x": "11-01",
+              "y": 8286
+            },
+            {
+              "x": "11-02",
+              "y": 12755
+            },
+            {
+              "x": "11-03",
+              "y": 25636
+            },
+            {
+              "x": "11-04",
+              "y": 1242354
+            }
+          ],
+          "cites": [
+            "views:en:Gina_Hinojosa:30d"
+          ]
+        },
+        {
+          "label": "Greg Abbott",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 2936
+            },
+            {
+              "x": "10-07",
+              "y": 3333
+            },
+            {
+              "x": "10-08",
+              "y": 4288
+            },
+            {
+              "x": "10-09",
+              "y": 3362
+            },
+            {
+              "x": "10-10",
+              "y": 3292
+            },
+            {
+              "x": "10-11",
+              "y": 3999
+            },
+            {
+              "x": "10-12",
+              "y": 3316
+            },
+            {
+              "x": "10-13",
+              "y": 3630
+            },
+            {
+              "x": "10-14",
+              "y": 3322
+            },
+            {
+              "x": "10-15",
+              "y": 3953
+            },
+            {
+              "x": "10-16",
+              "y": 3706
+            },
+            {
+              "x": "10-17",
+              "y": 3855
+            },
+            {
+              "x": "10-18",
+              "y": 3529
+            },
+            {
+              "x": "10-19",
+              "y": 4217
+            },
+            {
+              "x": "10-20",
+              "y": 4844
+            },
+            {
+              "x": "10-21",
+              "y": 4610
+            },
+            {
+              "x": "10-22",
+              "y": 5044
+            },
+            {
+              "x": "10-23",
+              "y": 4709
+            },
+            {
+              "x": "10-24",
+              "y": 4834
+            },
+            {
+              "x": "10-25",
+              "y": 5401
+            },
+            {
+              "x": "10-26",
+              "y": 4998
+            },
+            {
+              "x": "10-27",
+              "y": 5597
+            },
+            {
+              "x": "10-28",
+              "y": 5448
+            },
+            {
+              "x": "10-29",
+              "y": 6465
+            },
+            {
+              "x": "10-30",
+              "y": 5482
+            },
+            {
+              "x": "10-31",
+              "y": 5689
+            },
+            {
+              "x": "11-01",
+              "y": 6319
+            },
+            {
+              "x": "11-02",
+              "y": 7464
+            },
+            {
+              "x": "11-03",
+              "y": 15347
+            },
+            {
+              "x": "11-04",
+              "y": 327943
+            }
+          ],
+          "cites": [
+            "views:en:Greg_Abbott:30d"
+          ]
+        },
+        {
+          "label": "Ken Paxton",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 9565
+            },
+            {
+              "x": "10-07",
+              "y": 11663
+            },
+            {
+              "x": "10-08",
+              "y": 13782
+            },
+            {
+              "x": "10-09",
+              "y": 10284
+            },
+            {
+              "x": "10-10",
+              "y": 10826
+            },
+            {
+              "x": "10-11",
+              "y": 9165
+            },
+            {
+              "x": "10-12",
+              "y": 11146
+            },
+            {
+              "x": "10-13",
+              "y": 17069
+            },
+            {
+              "x": "10-14",
+              "y": 12505
+            },
+            {
+              "x": "10-15",
+              "y": 16184
+            },
+            {
+              "x": "10-16",
+              "y": 12731
+            },
+            {
+              "x": "10-17",
+              "y": 8790
+            },
+            {
+              "x": "10-18",
+              "y": 9260
+            },
+            {
+              "x": "10-19",
+              "y": 13488
+            },
+            {
+              "x": "10-20",
+              "y": 14028
+            },
+            {
+              "x": "10-21",
+              "y": 13468
+            },
+            {
+              "x": "10-22",
+              "y": 14033
+            },
+            {
+              "x": "10-23",
+              "y": 12131
+            },
+            {
+              "x": "10-24",
+              "y": 13653
+            },
+            {
+              "x": "10-25",
+              "y": 11254
+            },
+            {
+              "x": "10-26",
+              "y": 11009
+            },
+            {
+              "x": "10-27",
+              "y": 13935
+            },
+            {
+              "x": "10-28",
+              "y": 15349
+            },
+            {
+              "x": "10-29",
+              "y": 15064
+            },
+            {
+              "x": "10-30",
+              "y": 16105
+            },
+            {
+              "x": "10-31",
+              "y": 16369
+            },
+            {
+              "x": "11-01",
+              "y": 17668
+            },
+            {
+              "x": "11-02",
+              "y": 22973
+            },
+            {
+              "x": "11-03",
+              "y": 39794
+            },
+            {
+              "x": "11-04",
+              "y": 197914
+            }
+          ],
+          "cites": [
+            "views:en:Ken_Paxton:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-04T00:00:52Z",
+      "until": "2026-11-04T00:01:15Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "1,242,354",
+          "value": 1242354,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Gina_Hinojosa:2026-11-04"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "92,588",
+          "value": 92588,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Gina_Hinojosa:2026-11-04"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "13,114",
+          "value": 13114,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Gina_Hinojosa:2026-11-04"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "7,497",
+          "value": 7497,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Gina_Hinojosa:2026-11-04"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "4,633",
+          "value": 4633,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Gina_Hinojosa:2026-11-04"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "3,276",
+          "value": 3276,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Gina_Hinojosa:2026-11-04"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "2,323",
+          "value": 2323,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Инохоса,_Джина:2026-11-04"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

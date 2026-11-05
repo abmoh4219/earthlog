@@ -206,32 +206,32 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "To avoid conflicts with the U.S. midterm elections, held on November 3, 2026, the show moved this episode's air date to the Monday before.",
+      "text": "To avoid conflicts with the U.S. midterm elections, held on November 3, 2026, the air date of this episode was moved to Monday, one day earlier.",
       "cites": [
-        "wiki:rev:1383796648:111"
+        "wiki:rev:1383824613:111"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
       "text": "Cynthia Erivo served as the guest judge for Disney Night.",
       "cites": [
-        "wiki:rev:1383796648:26"
+        "wiki:rev:1383824613:26"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
       "text": "Season thirty-five premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026.",
       "cites": [
-        "wiki:rev:1383796648:0"
+        "wiki:rev:1383824613:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "The season airs on ABC and Disney+, with Alfonso Ribeiro and Julianne Hough as hosts and Derek Hough, Carrie Ann Inaba and Bruno Tonioli as judges.",
+      "text": "The show airs on ABC and Disney+, with Alfonso Ribeiro and Julianne Hough as hosts and Derek Hough, Carrie Ann Inaba and Bruno Tonioli as judges.",
       "cites": [
-        "wiki:box:1383796648:network",
-        "wiki:box:1383796648:hosts",
-        "wiki:box:1383796648:judges"
+        "wiki:box:1383824613:network",
+        "wiki:box:1383824613:hosts",
+        "wiki:box:1383824613:judges"
       ]
     },
     {
@@ -262,7 +262,7 @@
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "Born further afield were Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia, and Sasha Farber in Russia.",
+      "text": "Some were born further afield: Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia, and Sasha Farber in Russia.",
       "cites": [
         "wd:Q16200956:P19",
         "wd:Q21285529:P19",
@@ -271,14 +271,14 @@
     },
     {
       "t": "2026-11-03T00:00:55Z",
-      "text": "Readers also turned to Jenna Dewan, whose page drew 64,103 readers.",
+      "text": "Readers also turned to Jenna Dewan, with 64,103 readers on 3 November 2026.",
       "cites": [
         "views:en:Jenna_Dewan:2026-11-03"
       ]
     },
     {
       "t": "2026-11-03T00:01:04Z",
-      "text": "The season's page drew 135,810 readers on 3 November 2026, about 10 times the usual daily figure.",
+      "text": "On 3 November 2026, 135,810 people read the article, about 10× the usual median of 14,156 readers a day.",
       "cites": [
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:prior"
@@ -314,42 +314,42 @@
       "t": "2026-11-03T00:00:25Z",
       "until": "2026-11-03T00:00:36Z",
       "title": "The credits",
-      "note": "From the Wikipedia infobox (revision of 2026-11-04).",
+      "note": "From the Wikipedia infobox (revision of 2026-11-05).",
       "kind": "facts",
       "items": [
         {
           "label": "Hosts",
           "text": "Alfonso Ribeiro, Julianne Hough",
           "cites": [
-            "wiki:box:1383796648:hosts"
+            "wiki:box:1383824613:hosts"
           ]
         },
         {
           "label": "Judges",
           "text": "Derek Hough, Carrie Ann Inaba, Bruno Tonioli",
           "cites": [
-            "wiki:box:1383796648:judges"
+            "wiki:box:1383824613:judges"
           ]
         },
         {
           "label": "Network",
           "text": "ABC, Disney+",
           "cites": [
-            "wiki:box:1383796648:network"
+            "wiki:box:1383824613:network"
           ]
         },
         {
           "label": "First aired",
           "text": "15 September 2026",
           "cites": [
-            "wiki:box:1383796648:first-aired"
+            "wiki:box:1383824613:first-aired"
           ]
         },
         {
           "label": "Episodes",
           "text": "10 (including After Party)",
           "cites": [
-            "wiki:box:1383796648:episodes"
+            "wiki:box:1383824613:episodes"
           ]
         }
       ]
@@ -367,7 +367,7 @@
           "label": "United States",
           "text": "14",
           "value": 14,
-          "color": "#ff8fd0",
+          "color": "#e8838f",
           "cites": [
             "wd:Q1189327:P19",
             "wd:Q15955943:P19",
@@ -444,7 +444,7 @@
       "series": [
         {
           "label": "Dancing with the Stars (American TV series) season 35",
-          "color": "#ff8fd0",
+          "color": "#e8838f",
           "points": [
             {
               "x": "10-05",
@@ -707,7 +707,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.001147
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.001711
   }
 }

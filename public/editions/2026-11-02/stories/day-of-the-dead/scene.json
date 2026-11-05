@@ -230,7 +230,7 @@
       "series": [
         {
           "label": "Day of the Dead",
-          "color": "#9ad9ff",
+          "color": "#9ab8cc",
           "points": [
             {
               "x": "10-04",
@@ -373,7 +373,7 @@
           "label": "English",
           "text": "63,975",
           "value": 63975,
-          "color": "#9ad9ff",
+          "color": "#9ab8cc",
           "cites": [
             "views:en:Day_of_the_Dead:2026-11-02"
           ]
@@ -438,7 +438,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.002281
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

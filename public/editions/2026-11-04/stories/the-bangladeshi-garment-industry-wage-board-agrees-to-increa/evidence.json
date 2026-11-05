@@ -1,0 +1,92 @@
+[
+  {
+    "id": "wiki:2026-11-04:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-04T00:00:00Z",
+    "lon": 89.68,
+    "lat": 24.21,
+    "label": "Business: The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police. Workers demand ৳30,000 (US$240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_4&oldid=1383851664",
+    "quote": "The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police. Workers demand ৳30,000 (US$240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests"
+      }
+    ]
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:region:south-asia",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, inflation, latest year, South Asia: Bangladesh 8.8% (2025); Bhutan 3.6% (2025); Nepal 2.7% (2025); India 2.4% (2025); Sri Lanka -4.8% (2025)",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BD",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Bangladesh: 2020 5.7%; 2021 5.5%; 2022 7.7%; 2023 9.9%; 2024 10.5%; 2025 8.8%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BD"
+  },
+  {
+    "id": "wb:NY.GDP.MKTP.KD.ZG:BD",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, GDP growth, Bangladesh: 2020 3.4%; 2021 6.9%; 2022 7.1%; 2023 5.8%; 2024 4.2%; 2025 3.5%",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=BD"
+  },
+  {
+    "id": "wb:SL.UEM.TOTL.ZS:BD",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Unemployment, Bangladesh: 2020 5.5%; 2021 5.5%; 2022 4.6%; 2023 3.4%; 2024 3.6%; 2025 3.8%",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BD"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BT",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Bhutan: 2020 5.6%; 2021 7.3%; 2022 5.6%; 2023 4.2%; 2024 2.8%; 2025 3.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BT"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:IN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, India: 2020 6.6%; 2021 5.1%; 2022 6.7%; 2023 5.6%; 2024 5.0%; 2025 2.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:LK",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Sri Lanka: 2020 6.2%; 2021 7.0%; 2022 49.7%; 2023 16.5%; 2024 -0.4%; 2025 -4.8%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LK"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:NP",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Nepal: 2020 5.1%; 2021 4.1%; 2022 7.7%; 2023 7.1%; 2024 4.7%; 2025 2.7%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NP"
+  }
+]

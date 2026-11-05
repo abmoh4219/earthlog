@@ -30,7 +30,7 @@ export function ChapterCard() {
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="text-center [text-shadow:0_4px_40px_rgb(0_0_0/0.85)]"
           >
-            <div className="font-mono text-xs tracking-[0.5em] text-ice/80">
+            <div className="font-medium text-xs text-ice/80">
               {String(Number(n) + 1).padStart(2, "0")}
             </div>
             <div className="mt-2 text-5xl font-light tracking-tight text-frost md:text-7xl">

@@ -272,21 +272,21 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "A commercial vessel was hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others were rescued.",
+      "text": "According to the reports, a commercial vessel was hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member while 13 others were rescued.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On November 2, alongside what the U.S. military described as \"defensive strikes\" in the Strait of Hormuz, multiple explosions were reported on Iran's Qeshm Island.",
+      "text": "On November 2, the U.S. military described its actions in the Strait of Hormuz as \"defensive strikes\", and multiple explosions were reported on Iran's Qeshm Island.",
       "cites": [
         "wiki:rev:1383733327:263"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Shipping through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026.",
+      "text": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026.",
       "cites": [
         "wiki:rev:1383733327:0"
       ]
@@ -299,15 +299,22 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:32Z",
+      "t": "2026-11-03T00:00:30Z",
       "text": "On 30 October, Oman rescued 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz.",
       "cites": [
         "wiki:2026-10-30:1"
       ]
     },
     {
+      "t": "2026-11-03T00:00:35Z",
+      "text": "According to the Iranian military, the tanker was attempting to pass through an unauthorised route.",
+      "cites": [
+        "wiki:2026-10-30:1"
+      ]
+    },
+    {
       "t": "2026-11-03T00:00:41Z",
-      "text": "On the map, Musandam Governorate in Oman is where the reports place the vessel strike.",
+      "text": "On the map, the reports place the incident in Musandam Governorate, Oman.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
@@ -328,7 +335,7 @@
     },
     {
       "t": "2026-11-03T00:01:06Z",
-      "text": "As the article records, casualties stand at 24 seafarers and 1 port worker, and injured at 35+.",
+      "text": "As the article records, casualties are 24 seafarers and 1 port worker, and injured are 35+.",
       "cites": [
         "wiki:box:1383733327:casualties",
         "wiki:box:1383733327:injured"
@@ -336,14 +343,14 @@
     },
     {
       "t": "2026-11-03T00:01:17Z",
-      "text": "The reports also name the Strait of Hormuz.",
+      "text": "The Strait of Hormuz is also named in the reports.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:01:26Z",
-      "text": "The reports were carried by Reuters.",
+      "text": "The story was reported by Reuters.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
@@ -474,7 +481,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:55:05Z",
-    "costUsd": 0.001663
+    "at": "2026-11-05T06:15:12Z",
+    "costUsd": 0.0017
   }
 }

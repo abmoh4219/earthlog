@@ -35,7 +35,7 @@ export function SiteFooter() {
   ];
   return (
     <footer className="border-t border-ice/10 bg-void">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-[1.4fr_repeat(3,1fr)]">
+      <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
         <div>
           <p className="font-semibold text-frost">Earthlog</p>
           <p className="mt-2 max-w-xs text-sm text-ice/60">
@@ -52,9 +52,7 @@ export function SiteFooter() {
         </div>
         {columns.map((c) => (
           <div key={c.title}>
-            <p className="font-mono text-[11px] tracking-[0.25em] text-ice/50 uppercase">
-              {c.title}
-            </p>
+            <p className="font-medium text-xs text-ice/50">{c.title}</p>
             <ul className="mt-3 space-y-2 text-sm">
               {c.links.map((l) => (
                 <li key={l.label}>
@@ -79,7 +77,7 @@ export function SiteFooter() {
         ))}
       </div>
       <div className="border-t border-ice/10">
-        <p className="mx-auto max-w-6xl px-6 py-5 text-xs text-ice/45">
+        <p className="mx-auto max-w-6xl px-5 py-5 text-xs text-ice/45 sm:px-6">
           MIT licence. Data keeps its own licences; text adapted from Wikipedia is CC BY-SA 4.0.
           Imagery: NASA. Borders: Natural Earth.
         </p>

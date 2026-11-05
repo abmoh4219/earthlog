@@ -1,0 +1,86 @@
+[
+  {
+    "id": "wiki:2026-11-04:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-04T00:00:00Z",
+    "lon": 103.83333333,
+    "lat": 1.28333333,
+    "label": "Health & environment: The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_4&oldid=1383851664",
+    "quote": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q141274248:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "Wikidata: \"2026 Southeast Asian haze\" is an instance of haze",
+    "url": "https://www.wikidata.org/wiki/Q141274248",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383807365:107",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Southeast Asian haze\" (revision of 2026-11-05 00:07 UTC)",
+    "quote": "The Formula One (F1) races in Sepang and Singapore held in October 2026 were affected by the haze.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Southeast_Asian_haze&oldid=1383807365"
+  },
+  {
+    "id": "wiki:rev:1383807365:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Southeast Asian haze\" (revision of 2026-11-05 00:07 UTC)",
+    "quote": "The 2026 Southeast Asian haze crisis is an air pollution event and the current continuous transboundary haze season that is affecting several countries in Southeast Asia since August 2026, including Brunei, Indonesia, Malaysia, the Philippines, Thailand, Timor Leste, and Singapore.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Southeast_Asian_haze&oldid=1383807365"
+  },
+  {
+    "id": "views:en:2026_Southeast_Asian_haze:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Southeast Asian haze\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Southeast_Asian_haze&range=latest-30"
+  },
+  {
+    "id": "wd:Q141274248:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Southeast Asian haze\": began 2026",
+    "url": "https://www.wikidata.org/wiki/Q141274248#P580"
+  },
+  {
+    "id": "wd:Q141274248:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Southeast Asian haze\": location Southeast Asia",
+    "url": "https://www.wikidata.org/wiki/Q141274248#P276"
+  },
+  {
+    "id": "wd:Q141274248:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Southeast Asian haze\": country Malaysia, Thailand",
+    "url": "https://www.wikidata.org/wiki/Q141274248#P17"
+  }
+]

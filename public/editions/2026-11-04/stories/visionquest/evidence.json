@@ -1,0 +1,502 @@
+[
+  {
+    "id": "views:en:VisionQuest:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "English Wikipedia: 157,657 readers of \"VisionQuest\" on 4 Nov 2026",
+    "value": 157657,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/VisionQuest",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:VisionQuest:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "\"VisionQuest\": normally a median of 11,403 readers a day (8 to 60 days before)",
+    "value": 11403,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/VisionQuest",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q126092795:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "label": "Wikidata: \"VisionQuest\" is an instance of miniseries, television series",
+    "url": "https://www.wikidata.org/wiki/Q126092795",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383842888:76",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC)",
+    "quote": "In October 2026, Mollica announced that Joe Locke would reprise his MCU role of Billy Maximoff from Agatha All Along in VisionQuest.",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:rev:1383842888:15",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC)",
+    "quote": "Joe Locke is expected to reprise his MCU role as Billy Maximoff, Wanda and Vision's sorcerer son and Tommy's younger twin brother whose soul inhabited William Kaplan's body after his death in Agatha All Along.",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:rev:1383842888:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC)",
+    "quote": "VisionQuest is an American television miniseries created by Terry Matalas for the streaming service Disney+, based on Marvel Comics featuring the character Vision.",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "views:en:VisionQuest:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"VisionQuest\", 6 October 2026 to 4 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=VisionQuest&range=latest-30"
+  },
+  {
+    "id": "views:it:VisionQuest:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 6,743 readers of \"VisionQuest\" on 4 November 2026",
+    "value": 6743,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/VisionQuest"
+  },
+  {
+    "id": "views:es:VisionQuest:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 6,504 readers of \"VisionQuest\" on 4 November 2026",
+    "value": 6504,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/VisionQuest"
+  },
+  {
+    "id": "views:fr:VisionQuest:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 3,910 readers of \"VisionQuest\" on 4 November 2026",
+    "value": 3910,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/VisionQuest"
+  },
+  {
+    "id": "views:de:VisionQuest:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 3,682 readers of \"VisionQuest\" on 4 November 2026",
+    "value": 3682,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/VisionQuest"
+  },
+  {
+    "id": "views:ru:Квест_Вижна:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 3,612 readers of \"Квест Вижна\" on 4 November 2026",
+    "value": 3612,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B5%D1%81%D1%82_%D0%92%D0%B8%D0%B6%D0%BD%D0%B0"
+  },
+  {
+    "id": "views:zh:幻视任务:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 3,210 readers of \"幻视任务\" on 4 November 2026",
+    "value": 3210,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E5%B9%BB%E8%A7%86%E4%BB%BB%E5%8A%A1"
+  },
+  {
+    "id": "views:ja:ヴィジョンクエスト_(テレビドラマ):2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 1,106 readers of \"ヴィジョンクエスト (テレビドラマ)\" on 4 November 2026",
+    "value": 1106,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88_(%E3%83%86%E3%83%AC%E3%83%93%E3%83%89%E3%83%A9%E3%83%9E)"
+  },
+  {
+    "id": "views:pt:VisionQuest:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 528 readers of \"VisionQuest\" on 4 November 2026",
+    "value": 528,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/VisionQuest"
+  },
+  {
+    "id": "views:fa:ویژن‌کوئست:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 247 readers of \"ویژن‌کوئست\" on 4 November 2026",
+    "value": 247,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%98%D9%86%E2%80%8C%DA%A9%D9%88%D8%A6%D8%B3%D8%AA"
+  },
+  {
+    "id": "views:ar:رحلة_فيجن:2026-11-04",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 79 readers of \"رحلة فيجن\" on 4 November 2026",
+    "value": 79,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B1%D8%AD%D9%84%D8%A9_%D9%81%D9%8A%D8%AC%D9%86"
+  },
+  {
+    "id": "wd:Q126092795:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"VisionQuest\": began 14 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q126092795#P580"
+  },
+  {
+    "id": "wd:Q126092795:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"VisionQuest\": director Terry Matalas, Christopher J. Byrne",
+    "url": "https://www.wikidata.org/wiki/Q126092795#P57"
+  },
+  {
+    "id": "wd:Q126092795:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"VisionQuest\": genre superhero fiction",
+    "url": "https://www.wikidata.org/wiki/Q126092795#P136"
+  },
+  {
+    "id": "wd:Q126092795:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"VisionQuest\": country of origin United States",
+    "url": "https://www.wikidata.org/wiki/Q126092795#P495"
+  },
+  {
+    "id": "wiki:box:1383842888:created-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Created by: Terry Matalas",
+    "quote": "Created by: Terry Matalas",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:starring",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Starring: Paul Bettany, James Spader, Ruaridh Mollica, Todd Stashwick and 12 more",
+    "quote": "Starring: Paul Bettany, James Spader, Ruaridh Mollica, Todd Stashwick and 12 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Music: Mick Giacchino",
+    "quote": "Music: Mick Giacchino",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:based-on",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Based on: Marvel Comics",
+    "quote": "Based on: Marvel Comics",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:network",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Network: Disney+",
+    "quote": "Network: Disney+",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:first-aired",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): First aired: 13 October 2026",
+    "quote": "First aired: 13 October 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:episodes",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Episodes: 7",
+    "quote": "Episodes: 7",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Runtime: 48–65 minutes",
+    "quote": "Runtime: 48–65 minutes",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:box:1383842888:language",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\" (revision of 2026-11-05 03:13 UTC): Language: English",
+    "quote": "Language: English",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wd:Q54958752:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Disney+\": headquarters United States",
+    "url": "https://www.wikidata.org/wiki/Q54958752#P159"
+  },
+  {
+    "id": "wiki:film:1383842888:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\", filming (revision of 2026-11-05 03:13 UTC)",
+    "quote": "Principal photography began by March 14, 2025, at Pinewood Studios in London, under the working title Tin Man, with Byrne, Monteiro, Natali, and Matalas directing. Christopher Ross, Neville Kidd, and Ben Smithard were the cinematographers. Location shooting took place in and around London, as well as at various sites across the United Kingdom.",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:film:1383842888:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\", filming (revision of 2026-11-05 03:13 UTC)",
+    "quote": "From late March to early April, filming took place at a local pub in the Chiltern Hills, England, which served as the location for The Old Selkie pub.",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:film:1383842888:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\", filming (revision of 2026-11-05 03:13 UTC)",
+    "quote": "The set dressing included the Saltire, the national flag of Scotland, displayed outside the building.",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wiki:film:1383842888:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"VisionQuest\", filming (revision of 2026-11-05 03:13 UTC)",
+    "quote": "Other locations included Hatfield House in Hertfordshire, England, which stood in for Horton Manor; and White Waltham Airfield in Berkshire, England, used for scenes set in Paladin's jet hangar.",
+    "url": "https://en.wikipedia.org/w/index.php?title=VisionQuest&oldid=1383842888"
+  },
+  {
+    "id": "wd:Q115781248:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ruaridh Mollica\": place of birth Prato",
+    "url": "https://www.wikidata.org/wiki/Q115781248#P19"
+  },
+  {
+    "id": "wd:Q115793922:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Henry Lewis\": place of birth Slough",
+    "url": "https://www.wikidata.org/wiki/Q115793922#P19"
+  },
+  {
+    "id": "wd:Q117500:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary McDonnell\": place of birth Wilkes-Barre",
+    "url": "https://www.wikidata.org/wiki/Q117500#P19"
+  },
+  {
+    "id": "wd:Q124325356:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jonathan Sayer\": place of birth Ashton-under-Lyne",
+    "url": "https://www.wikidata.org/wiki/Q124325356#P19"
+  },
+  {
+    "id": "wd:Q242707:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Paul Bettany\": place of birth London",
+    "url": "https://www.wikidata.org/wiki/Q242707#P19"
+  },
+  {
+    "id": "wd:Q296928:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"James Spader\": place of birth Boston",
+    "url": "https://www.wikidata.org/wiki/Q296928#P19"
+  },
+  {
+    "id": "wd:Q3052376:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Emily Hampshire\": place of birth Montreal",
+    "url": "https://www.wikidata.org/wiki/Q3052376#P19"
+  },
+  {
+    "id": "wd:Q444292:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Orla Brady\": place of birth Dublin",
+    "url": "https://www.wikidata.org/wiki/Q444292#P19"
+  },
+  {
+    "id": "wd:Q4885474:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ben Crompton\": place of birth Manchester",
+    "url": "https://www.wikidata.org/wiki/Q4885474#P19"
+  },
+  {
+    "id": "wd:Q5271532:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Diane Morgan\": place of birth Bolton",
+    "url": "https://www.wikidata.org/wiki/Q5271532#P19"
+  },
+  {
+    "id": "wd:Q5357354:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Todd Stashwick\": place of birth Chicago",
+    "url": "https://www.wikidata.org/wiki/Q5357354#P19"
+  },
+  {
+    "id": "wd:Q63993432:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"T'Nia Miller\": place of birth London",
+    "url": "https://www.wikidata.org/wiki/Q63993432#P19"
+  },
+  {
+    "id": "wd:Q64853354:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Terry Matalas\": place of birth Raritan",
+    "url": "https://www.wikidata.org/wiki/Q64853354#P19"
+  },
+  {
+    "id": "wd:Q705644:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Art Malik\": place of birth Bahawalpur",
+    "url": "https://www.wikidata.org/wiki/Q705644#P19"
+  },
+  {
+    "id": "wd:Q717194:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"James D'Arcy\": place of birth Amersham",
+    "url": "https://www.wikidata.org/wiki/Q717194#P19"
+  },
+  {
+    "id": "wd:Q7225794:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-04T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Polly Frame\": place of birth Edinburgh",
+    "url": "https://www.wikidata.org/wiki/Q7225794#P19"
+  }
+]

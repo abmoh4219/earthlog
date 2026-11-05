@@ -478,7 +478,7 @@
           "label": "India",
           "text": "8",
           "value": 8,
-          "color": "#ff8fd0",
+          "color": "#e8838f",
           "cites": [
             "wd:Q13564588:P19",
             "wd:Q159166:P19",
@@ -503,7 +503,7 @@
       "series": [
         {
           "label": "Jailer 2",
-          "color": "#ff8fd0",
+          "color": "#e8838f",
           "points": [
             {
               "x": "10-04",
@@ -775,7 +775,7 @@
           "label": "English",
           "text": "111,475",
           "value": 111475,
-          "color": "#ff8fd0",
+          "color": "#e8838f",
           "cites": [
             "views:en:Jailer_2:2026-11-02"
           ]
@@ -822,7 +822,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.002938
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

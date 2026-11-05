@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-hungary-makes-communist-era-secret-police-records-publicly-a",
+  "title": "Hungary makes Communist-era secret police records publicly accessible through…",
+  "subtitle": "Science & space · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:00:26Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 9.45,
+    "south": 39.09,
+    "east": 29.45,
+    "north": 55.09
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-04T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-04T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": 57.450000000000045,
+      "lat": 26.979000000000003,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:07Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:09Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:12Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:15Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:17Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:20Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:21Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:22Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "lon": -5.5499999999999545,
+      "lat": 44.965,
+      "range": 14000000,
+      "heading": 7.800000000000001,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "Hungary is making Communist-era secret police records publicly accessible through a database of approximately 60,000 names linked to former state security services.",
+      "cites": [
+        "wiki:2026-11-04:4"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:05Z",
+      "text": "Prime Minister Péter Magyar has announced that additional documents will become available in February 2027.",
+      "cites": [
+        "wiki:2026-11-04:4"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:11Z",
+      "text": "The reports place this story in Hungary.",
+      "cites": [
+        "wiki:2026-11-04:4"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:19Z",
+      "text": "Reuters reported the story.",
+      "cites": [
+        "wiki:2026-11-04:4"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "HU",
+    "lon": 19.45,
+    "lat": 47.09,
+    "label": "Hungary"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-04T00:00:18Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-04T00:00:19Z",
+      "until": "2026-11-04T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/",
+          "cites": [
+            "wiki:2026-11-04:4"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

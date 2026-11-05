@@ -320,7 +320,7 @@
       "series": [
         {
           "label": "Archive of Our Own",
-          "color": "#5ef2ff",
+          "color": "#4cc9e8",
           "points": [
             {
               "x": "10-04",
@@ -463,7 +463,7 @@
           "label": "English",
           "text": "78,713",
           "value": 78713,
-          "color": "#5ef2ff",
+          "color": "#4cc9e8",
           "cites": [
             "views:en:Archive_of_Our_Own:2026-11-02"
           ]
@@ -528,7 +528,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.002174
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

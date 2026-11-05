@@ -26,7 +26,7 @@ export function Panels() {
 
   return (
     <div
-      className={`panel-stack ${panels.length ? "pointer-events-auto" : "pointer-events-none"} absolute top-[calc(9vh+7rem)] right-4 bottom-[calc(9vh+5.25rem)] z-20 hidden w-[min(340px,30vw)] flex-col gap-2.5 overflow-y-auto pr-1 md:flex lg:right-6`}
+      className={`panel-stack ${panels.length ? "pointer-events-auto" : "pointer-events-none"} absolute top-[10rem] right-3 left-3 z-20 flex max-h-[30vh] flex-col gap-2 overflow-y-auto md:top-[calc(9vh+7rem)] md:right-4 md:bottom-[calc(9vh+5.25rem)] md:left-auto md:max-h-none md:w-[min(340px,30vw)] md:gap-2.5 md:pr-1 lg:right-6`}
     >
       <AnimatePresence mode="popLayout">
         {panels.map((p) => (
@@ -39,9 +39,7 @@ export function Panels() {
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             className="glass shrink-0 rounded-2xl p-4 [@media(max-height:820px)]:p-3"
           >
-            <h2 className="font-mono text-[10px] tracking-[0.28em] text-ice/60 uppercase">
-              {p.title}
-            </h2>
+            <h2 className="font-medium text-xs text-ice/60">{p.title}</h2>
             <PanelBody panel={p} evidence={evidence} />
             {p.note && (
               <p className="mt-3 border-t border-ice/10 pt-2 text-[10px] leading-snug text-ice/45 [@media(max-height:820px)]:mt-2">
@@ -60,7 +58,7 @@ function Chip({ ids, evidence }: { ids: string[]; evidence: Map<string, Evidence
   return (
     <sup
       title={title}
-      className="ml-1 cursor-help rounded border border-ice/30 bg-ice/10 px-1 font-mono text-[9px] text-ice"
+      className="ml-1 cursor-help text-[10px] font-medium text-ice/45 tabular-nums transition hover:text-ice"
     >
       {ids.length}
     </sup>

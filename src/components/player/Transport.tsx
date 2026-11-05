@@ -67,7 +67,7 @@ export function Transport() {
 
   return (
     <div className="absolute inset-x-0 bottom-[calc(9vh+1rem)] z-30 flex justify-center px-4">
-      <div className="glass flex w-full max-w-4xl items-center gap-3 rounded-2xl px-3 py-2">
+      <div className="glass flex w-full max-w-4xl items-center gap-2 rounded-2xl px-2 py-2 sm:gap-3 sm:px-3">
         <button
           type="button"
           onClick={a.togglePlay}
@@ -118,7 +118,11 @@ export function Transport() {
           </span>
         </div>
 
-        <div className="flex shrink-0 items-center gap-1 border-l border-ice/10 pl-2">
+        {/* Phones: play, the timeline and share; the layer toggles and clip export need room. */}
+        <div className="shrink-0 sm:hidden">
+          <ShareButton />
+        </div>
+        <div className="hidden shrink-0 items-center gap-1 border-l border-ice/10 pl-2 sm:flex">
           <ShareButton />
           {story && <ClipButton />}
           <Toggle

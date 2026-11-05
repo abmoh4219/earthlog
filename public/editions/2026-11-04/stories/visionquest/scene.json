@@ -1,0 +1,750 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-visionquest",
+  "title": "VisionQuest",
+  "subtitle": "Culture · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:01:41Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:01:17Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-04T00:01:17Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-04T00:00:24Z",
+      "until": "2026-11-04T00:00:36Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-filming.json",
+      "name": "filming",
+      "from": "2026-11-04T00:00:36Z",
+      "until": "2026-11-04T00:00:59Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-filming.json",
+      "name": "filming",
+      "from": "2026-11-04T00:00:36Z",
+      "until": "2026-11-04T00:00:59Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-04T00:00:59Z",
+      "until": "2026-11-04T00:01:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-people.json",
+      "name": "people",
+      "from": "2026-11-04T00:00:59Z",
+      "until": "2026-11-04T00:01:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "lon": -98.5795,
+      "lat": 37.628175,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:31Z",
+      "lon": -98.5795,
+      "lat": 37.628175,
+      "range": 1629969.324864735,
+      "heading": 3.8999999999999986,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:35Z",
+      "lon": -98.5795,
+      "lat": 37.628175,
+      "range": 1476000,
+      "heading": -8.200000000000003,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:40Z",
+      "lon": -1.041752272769989,
+      "lat": 51.86915643008312,
+      "range": 2617699.3438633895,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:49Z",
+      "lon": -1.041752272769989,
+      "lat": 51.86915643008312,
+      "range": 2370427.57345326,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:58Z",
+      "lon": -1.041752272769989,
+      "lat": 51.86915643008312,
+      "range": 2146513.461967979,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:02Z",
+      "lon": -26.44830371994381,
+      "lat": 52.7709167087301,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:09Z",
+      "lon": -26.44830371994381,
+      "lat": 52.7709167087301,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:16Z",
+      "lon": -26.44830371994381,
+      "lat": 52.7709167087301,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:21Z",
+      "lon": 31.90538740298832,
+      "lat": 44.80754020834056,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:29Z",
+      "lon": 31.90538740298832,
+      "lat": 44.80754020834056,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:37Z",
+      "lon": 31.90538740298832,
+      "lat": 44.80754020834056,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:41Z",
+      "lon": 6.905387402988254,
+      "lat": 44.80754020834056,
+      "range": 54120000,
+      "heading": 28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "In October 2026, Mollica announced that Joe Locke would reprise his MCU role of Billy Maximoff from Agatha All Along in VisionQuest.",
+      "cites": [
+        "wiki:rev:1383842888:76"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:08Z",
+      "text": "Locke is expected to return as Billy Maximoff, Wanda and Vision's sorcerer son and Tommy's younger twin, whose soul inhabited William Kaplan's body after his death in Agatha All Along.",
+      "cites": [
+        "wiki:rev:1383842888:15"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:15Z",
+      "text": "VisionQuest is an American television miniseries created by Terry Matalas for Disney+, based on Marvel Comics featuring the character Vision.",
+      "cites": [
+        "wiki:rev:1383842888:0"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:25Z",
+      "text": "The series stars Paul Bettany, James Spader, Ruaridh Mollica and Todd Stashwick among others, with music by Mick Giacchino.",
+      "cites": [
+        "wiki:box:1383842888:starring",
+        "wiki:box:1383842888:music"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:37Z",
+      "text": "From late March to early April, filming took place at a local pub in the Chiltern Hills, England, which served as the location for The Old Selkie pub.",
+      "cites": [
+        "wiki:film:1383842888:1"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:44Z",
+      "text": "Principal photography began by March 14, 2025, at Pinewood Studios in London, under the working title Tin Man.",
+      "cites": [
+        "wiki:film:1383842888:0"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:51Z",
+      "text": "The article places filming at Chiltern Hills, Scotland, Pinewood Studios, Hatfield House, White Waltham Airfield and 1 more location.",
+      "cites": [
+        "wiki:film:1383842888:0",
+        "wiki:film:1383842888:1",
+        "wiki:film:1383842888:2",
+        "wiki:film:1383842888:3"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:00Z",
+      "text": "16 of the people credited have a birthplace on record, and 8 of them were born in the United Kingdom.",
+      "cites": [
+        "wd:Q115781248:P19",
+        "wd:Q115793922:P19",
+        "wd:Q117500:P19",
+        "wd:Q124325356:P19",
+        "wd:Q242707:P19",
+        "wd:Q296928:P19",
+        "wd:Q3052376:P19",
+        "wd:Q444292:P19",
+        "wd:Q4885474:P19",
+        "wd:Q5271532:P19",
+        "wd:Q5357354:P19",
+        "wd:Q63993432:P19",
+        "wd:Q64853354:P19",
+        "wd:Q705644:P19",
+        "wd:Q717194:P19",
+        "wd:Q7225794:P19"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:08Z",
+      "text": "Several were born further afield, including Ruaridh Mollica in Prato, Italy, Mary McDonnell in Wilkes-Barre, United States, and James Spader in Boston, United States.",
+      "cites": [
+        "wd:Q115781248:P19",
+        "wd:Q117500:P19",
+        "wd:Q296928:P19"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:18Z",
+      "text": "157,657 people read the article on 4 November 2026, about 14 times the usual number.",
+      "cites": [
+        "views:en:VisionQuest:2026-11-04",
+        "views:en:VisionQuest:prior"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:24Z",
+      "text": "The article was read in 11 languages, and after English, Italian had the most readers at 6,743.",
+      "cites": [
+        "views:en:VisionQuest:2026-11-04",
+        "views:it:VisionQuest:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:30Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "cites": [
+        "views:it:VisionQuest:2026-11-04",
+        "views:es:VisionQuest:2026-11-04",
+        "views:fr:VisionQuest:2026-11-04",
+        "views:de:VisionQuest:2026-11-04",
+        "views:ru:Квест_Вижна:2026-11-04",
+        "views:zh:幻视任务:2026-11-04"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-04T00:00:36Z",
+      "title": "Where it was filmed"
+    },
+    {
+      "t": "2026-11-04T00:00:59Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-04T00:01:17Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-04T00:00:25Z",
+      "until": "2026-11-04T00:00:36Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-05).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Created by",
+          "text": "Terry Matalas",
+          "cites": [
+            "wiki:box:1383842888:created-by"
+          ]
+        },
+        {
+          "label": "Starring",
+          "text": "Paul Bettany, James Spader, Ruaridh Mollica, Todd Stashwick and 12 more",
+          "cites": [
+            "wiki:box:1383842888:starring"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Mick Giacchino",
+          "cites": [
+            "wiki:box:1383842888:music"
+          ]
+        },
+        {
+          "label": "Based on",
+          "text": "Marvel Comics",
+          "cites": [
+            "wiki:box:1383842888:based-on"
+          ]
+        },
+        {
+          "label": "Network",
+          "text": "Disney+",
+          "cites": [
+            "wiki:box:1383842888:network"
+          ]
+        },
+        {
+          "label": "First aired",
+          "text": "13 October 2026",
+          "cites": [
+            "wiki:box:1383842888:first-aired"
+          ]
+        },
+        {
+          "label": "Episodes",
+          "text": "7",
+          "cites": [
+            "wiki:box:1383842888:episodes"
+          ]
+        },
+        {
+          "label": "Runtime",
+          "text": "48–65 minutes",
+          "cites": [
+            "wiki:box:1383842888:runtime"
+          ]
+        },
+        {
+          "label": "Language",
+          "text": "English",
+          "cites": [
+            "wiki:box:1383842888:language"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "born-in",
+      "t": "2026-11-04T00:01:00Z",
+      "until": "2026-11-04T00:01:17Z",
+      "title": "Born in",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "United Kingdom",
+          "text": "8",
+          "value": 8,
+          "color": "#e8838f",
+          "cites": [
+            "wd:Q115793922:P19",
+            "wd:Q124325356:P19",
+            "wd:Q242707:P19",
+            "wd:Q4885474:P19",
+            "wd:Q5271532:P19",
+            "wd:Q63993432:P19",
+            "wd:Q717194:P19",
+            "wd:Q7225794:P19"
+          ]
+        },
+        {
+          "label": "United States",
+          "text": "4",
+          "value": 4,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q117500:P19",
+            "wd:Q296928:P19",
+            "wd:Q5357354:P19",
+            "wd:Q64853354:P19"
+          ]
+        },
+        {
+          "label": "Italy",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q115781248:P19"
+          ]
+        },
+        {
+          "label": "Canada",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q3052376:P19"
+          ]
+        },
+        {
+          "label": "Ireland",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q444292:P19"
+          ]
+        },
+        {
+          "label": "Pakistan",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q705644:P19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-04T00:01:18Z",
+      "until": "2026-11-04T00:01:41Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "VisionQuest",
+          "color": "#e8838f",
+          "points": [
+            {
+              "x": "10-06",
+              "y": 10520
+            },
+            {
+              "x": "10-07",
+              "y": 11403
+            },
+            {
+              "x": "10-08",
+              "y": 12169
+            },
+            {
+              "x": "10-09",
+              "y": 14668
+            },
+            {
+              "x": "10-10",
+              "y": 14498
+            },
+            {
+              "x": "10-11",
+              "y": 15496
+            },
+            {
+              "x": "10-12",
+              "y": 22822
+            },
+            {
+              "x": "10-13",
+              "y": 40384
+            },
+            {
+              "x": "10-14",
+              "y": 156179
+            },
+            {
+              "x": "10-15",
+              "y": 122179
+            },
+            {
+              "x": "10-16",
+              "y": 81873
+            },
+            {
+              "x": "10-17",
+              "y": 66450
+            },
+            {
+              "x": "10-18",
+              "y": 58450
+            },
+            {
+              "x": "10-19",
+              "y": 53332
+            },
+            {
+              "x": "10-20",
+              "y": 53187
+            },
+            {
+              "x": "10-21",
+              "y": 123339
+            },
+            {
+              "x": "10-22",
+              "y": 80967
+            },
+            {
+              "x": "10-23",
+              "y": 53848
+            },
+            {
+              "x": "10-24",
+              "y": 47466
+            },
+            {
+              "x": "10-25",
+              "y": 45469
+            },
+            {
+              "x": "10-26",
+              "y": 45433
+            },
+            {
+              "x": "10-27",
+              "y": 56332
+            },
+            {
+              "x": "10-28",
+              "y": 136851
+            },
+            {
+              "x": "10-29",
+              "y": 76460
+            },
+            {
+              "x": "10-30",
+              "y": 52912
+            },
+            {
+              "x": "10-31",
+              "y": 43975
+            },
+            {
+              "x": "11-01",
+              "y": 43454
+            },
+            {
+              "x": "11-02",
+              "y": 44961
+            },
+            {
+              "x": "11-03",
+              "y": 55043
+            },
+            {
+              "x": "11-04",
+              "y": 157657
+            }
+          ],
+          "cites": [
+            "views:en:VisionQuest:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-04T00:01:18Z",
+      "until": "2026-11-04T00:01:41Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "157,657",
+          "value": 157657,
+          "color": "#e8838f",
+          "cites": [
+            "views:en:VisionQuest:2026-11-04"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "6,743",
+          "value": 6743,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:VisionQuest:2026-11-04"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "6,504",
+          "value": 6504,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:VisionQuest:2026-11-04"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "3,910",
+          "value": 3910,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:VisionQuest:2026-11-04"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "3,682",
+          "value": 3682,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:VisionQuest:2026-11-04"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "3,612",
+          "value": 3612,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Квест_Вижна:2026-11-04"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "3,210",
+          "value": 3210,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:幻视任务:2026-11-04"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

@@ -207,28 +207,28 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Tensions rose between Stevens and El-Sayed over an ad run by an outside PAC, and on November 1, 2026, Stevens appeared with Republican nominee Mike Rogers at The Perfecting Church in Detroit.",
+      "text": "As the article records, on October 28, 2026, Turkish said he would support Mike Rogers in the 2026 United States Senate election in Michigan.",
       "cites": [
-        "wiki:rev:1383807510:53"
+        "wiki:rev:1383862804:96"
       ]
     },
     {
       "t": "2026-11-02T00:00:08Z",
-      "text": "Stevens followed her fiancé in endorsing Rogers on November 1, which led to a rift between her and El-Sayed.",
+      "text": "Tensions rose between Stevens and El-Sayed over an ad run by an outside PAC, and on November 1, 2026, Stevens appeared with Republican nominee Mike Rogers at The Perfecting Church in Detroit.",
       "cites": [
-        "wiki:rev:1383807510:97"
+        "wiki:rev:1383862804:53"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "Haley Maria Stevens, born June 24, 1983, is an American politician who has served as a U.S. representative since 2019.",
+      "text": "Haley Maria Stevens, born June 24, 1983, is an American politician serving as U.S. representative since 2019.",
       "cites": [
-        "wiki:rev:1383807510:0"
+        "wiki:rev:1383862804:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "Haley Stevens was born on 24 June 1983 in Rochester Hills.",
+      "text": "Stevens was born in Rochester Hills on 24 June 1983.",
       "cites": [
         "wd:Q58322563:P569",
         "wd:Q58322563:P19"
@@ -236,7 +236,7 @@
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "She was educated at Seaholm High School and American University.",
+      "text": "Stevens was educated at Seaholm High School and American University.",
       "cites": [
         "wd:Q58322563:P69:Q7440488",
         "wd:Q58322563:P69:Q168000"
@@ -244,14 +244,14 @@
     },
     {
       "t": "2026-11-02T00:00:37Z",
-      "text": "She has worked in Washington, D.C.",
+      "text": "Stevens has worked in Washington, D.C.",
       "cites": [
         "wd:Q58322563:P937:Q61"
       ]
     },
     {
       "t": "2026-11-02T00:00:43Z",
-      "text": "Readers also turned to pages on Abdul El-Sayed (243,340), Mike Rogers (Michigan politician) (77,353), and the 2026 United States Senate election in Michigan (60,512).",
+      "text": "Readers also looked at Abdul El-Sayed (243,340), Mike Rogers (Michigan politician) (77,353), and 2026 United States Senate election in Michigan (60,512).",
       "cites": [
         "views:en:Abdul_El-Sayed:2026-11-02",
         "views:en:Mike_Rogers_(Michigan_politician):2026-11-02",
@@ -260,7 +260,7 @@
     },
     {
       "t": "2026-11-02T00:00:52Z",
-      "text": "On 2 November 2026, 548,345 people read about Haley Stevens, about 519 times the usual daily level.",
+      "text": "548,345 people read the article on 2 November 2026, about 519× the usual.",
       "cites": [
         "views:en:Haley_Stevens:2026-11-02",
         "views:en:Haley_Stevens:prior"
@@ -268,7 +268,7 @@
     },
     {
       "t": "2026-11-02T00:00:58Z",
-      "text": "The article was read in 9 languages, and after English, the most readers were in German, with 8,250.",
+      "text": "The article was read in 9 languages, and after English, German was most common with 8,250 readers.",
       "cites": [
         "views:en:Haley_Stevens:2026-11-02",
         "views:de:Haley_Stevens:2026-11-02"
@@ -276,7 +276,7 @@
     },
     {
       "t": "2026-11-02T00:01:04Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "text": "Each language glows on the globe where it is mainly spoken, brighter for more readers, though a language is not the same as a country.",
       "cites": [
         "views:de:Haley_Stevens:2026-11-02",
         "views:fr:Haley_Stevens:2026-11-02",
@@ -366,7 +366,7 @@
       "series": [
         {
           "label": "Haley Stevens",
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "points": [
             {
               "x": "10-04",
@@ -767,7 +767,7 @@
           "label": "English",
           "text": "548,345",
           "value": 548345,
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "cites": [
             "views:en:Haley_Stevens:2026-11-02"
           ]
@@ -832,7 +832,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.001483
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

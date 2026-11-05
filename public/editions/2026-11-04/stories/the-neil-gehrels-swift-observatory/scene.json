@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-the-neil-gehrels-swift-observatory",
+  "title": "The Neil Gehrels Swift Observatory",
+  "subtitle": "Science & space · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:00:26Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 92,
+    "south": -8,
+    "east": 112,
+    "north": 8
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-04T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-04T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": 140,
+      "lat": -0.4125,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:07Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:09Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:12Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:15Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:17Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:20Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:21Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:22Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "lon": 77,
+      "lat": -0.6875,
+      "range": 14000000,
+      "heading": 7.800000000000001,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "The Neil Gehrels Swift Observatory, a space telescope for studying gamma-ray bursts, re-enters Earth's atmosphere over Sumatra, ending its mission of nearly 22 years.",
+      "cites": [
+        "wiki:2026-11-04:5"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:11Z",
+      "text": "The re-entry is reported over Sumatra, in Indonesia.",
+      "cites": [
+        "wiki:2026-11-04:5"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:19Z",
+      "text": "NASA is the agency reporting the event.",
+      "cites": [
+        "wiki:2026-11-04:5"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "ID",
+    "lon": 102,
+    "lat": 0,
+    "label": "Sumatra"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-04T00:00:18Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-04T00:00:19Z",
+      "until": "2026-11-04T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "NASA",
+          "text": "Open",
+          "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+          "cites": [
+            "wiki:2026-11-04:5"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}

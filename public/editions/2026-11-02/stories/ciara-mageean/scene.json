@@ -396,7 +396,7 @@
       "series": [
         {
           "label": "Ciara Mageean",
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "points": [
             {
               "x": "10-04",
@@ -539,7 +539,7 @@
           "label": "English",
           "text": "59,386",
           "value": 59386,
-          "color": "#f5c2a0",
+          "color": "#e6b98f",
           "cites": [
             "views:en:Ciara_Mageean:2026-11-02"
           ]
@@ -604,7 +604,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.003074
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

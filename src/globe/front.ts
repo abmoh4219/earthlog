@@ -105,7 +105,8 @@ export async function createFrontGlobe(
       outlineWidth: 3,
       style: C.LabelStyle.FILL_AND_OUTLINE,
       verticalOrigin: C.VerticalOrigin.BOTTOM,
-      show: !options.hero && ranked.indexOf(st.slug) < 3,
+      // Narrow screens: names only on focus (three would pile up on a small globe).
+      show: !options.hero && container.clientWidth >= 640 && ranked.indexOf(st.slug) < 3,
     });
     return { st, color, line, dot, label, tint: new C.Color() };
   });
@@ -126,7 +127,7 @@ export async function createFrontGlobe(
   s.camera.setView({ destination: C.Cartesian3.fromDegrees(home.lon + 70, home.lat, 9e7) });
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   s.camera.flyTo({
-    destination: C.Cartesian3.fromDegrees(home.lon, home.lat - 6, options.hero ? 9.5e6 : 2.3e7),
+    destination: C.Cartesian3.fromDegrees(home.lon, home.lat - 6, options.hero ? 1.15e7 : 2.3e7),
     duration: reduce ? 0 : 4.5,
     easingFunction: C.EasingFunction.QUINTIC_OUT,
   });
@@ -170,7 +171,10 @@ export async function createFrontGlobe(
     focus: (slug) => {
       focused = slug;
       const m = marks.find((k) => k.st.slug === slug);
-      if (!slug) for (const k of marks) k.label.show = ranked.indexOf(k.st.slug) < 3;
+      if (!slug)
+        for (const k of marks)
+          k.label.show =
+            !options.hero && container.clientWidth >= 640 && ranked.indexOf(k.st.slug) < 3;
       const target = m
         ? C.Cartesian3.fromDegrees(m.st.lon, m.st.lat - 14, 9e6)
         : C.Cartesian3.fromDegrees(home.lon, home.lat - 6, 2.3e7);

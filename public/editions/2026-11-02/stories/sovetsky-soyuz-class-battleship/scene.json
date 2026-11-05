@@ -187,7 +187,7 @@
       "series": [
         {
           "label": "Sovetsky Soyuz-class battleship",
-          "color": "#9ad9ff",
+          "color": "#9ab8cc",
           "points": [
             {
               "x": "10-04",
@@ -330,7 +330,7 @@
           "label": "English",
           "text": "53,573",
           "value": 53573,
-          "color": "#9ad9ff",
+          "color": "#9ab8cc",
           "cites": [
             "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02"
           ]
@@ -395,7 +395,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T00:10:47Z",
-    "costUsd": 0.002017
+    "at": "2026-11-05T06:14:55Z",
+    "costUsd": 0
   }
 }

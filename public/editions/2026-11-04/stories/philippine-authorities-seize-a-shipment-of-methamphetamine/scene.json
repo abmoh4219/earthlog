@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "id": "story-2026-11-04-philippine-authorities-seize-a-shipment-of-methamphetamine",
+  "title": "Philippine authorities seize a shipment of methamphetamine",
+  "subtitle": "News · 4 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-04T00:00:00Z",
+    "end": "2026-11-04T00:00:35Z"
+  },
+  "focus": "2026-11-04T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 110.95444444,
+    "south": 6.596666669999999,
+    "east": 130.95444444,
+    "north": 22.596666669999998
+  },
+  "imagery": {
+    "day": "2026-11-04",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-04T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-04T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-04T00:00:18Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "lon": 158.95444443999997,
+      "lat": 8.345500002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-04T00:00:04Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:07Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:09Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:12Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:15Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:17Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:21Z",
+      "lon": 111.69753983009855,
+      "lat": 16.47340810332359,
+      "range": 4980261.728403901,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "lon": 111.69753983009855,
+      "lat": 16.47340810332359,
+      "range": 4509818.803942325,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "lon": 111.69753983009855,
+      "lat": 16.47340810332359,
+      "range": 4083814.6172911986,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:30Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:31Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:35Z",
+      "lon": 95.95444443999997,
+      "lat": 13.90916667,
+      "range": 14000000,
+      "heading": -27.8,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-04T00:00:01Z",
+      "text": "Philippine authorities seized a shipment of methamphetamine at the Manila International Container Port, and its origin is traced to Laos.",
+      "cites": [
+        "wiki:2026-11-04:3"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:05Z",
+      "text": "The shipment arrived six days after local police in Laos found similar contraband, supposed to be brought to the Philippines, on October 1.",
+      "cites": [
+        "wiki:2026-11-04:3"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:11Z",
+      "text": "The seizure took place at the Port of Manila in the Philippines, the location the reports give.",
+      "cites": [
+        "wiki:2026-11-04:3"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:19Z",
+      "text": "The reports also name the 2026 Laos private jet drug smuggling case as a related matter.",
+      "cites": [
+        "wiki:2026-11-04:3"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:28Z",
+      "text": "The story was reported by Arab News and the Philippine Daily Inquirer.",
+      "cites": [
+        "wiki:2026-11-04:3"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PH",
+    "lon": 120.95444444,
+    "lat": 14.59666667,
+    "label": "Port of Manila"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-04T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-04T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-04T00:00:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-04T00:00:28Z",
+      "until": "2026-11-04T00:00:35Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Arab News",
+          "text": "Open",
+          "url": "https://www.arabnews.com/world/philippines-seizes-200-kg-of-methamphetamine-at-manila-port-3009754",
+          "cites": [
+            "wiki:2026-11-04:3"
+          ]
+        },
+        {
+          "label": "Philippine Daily Inquirer",
+          "text": "Open",
+          "url": "https://globalnation.inquirer.net/345789/this-time-shabu-cargo-from-laos-reaches-ph-before-seizure",
+          "cites": [
+            "wiki:2026-11-04:3"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T06:17:28Z",
+    "costUsd": 0
+  }
+}
