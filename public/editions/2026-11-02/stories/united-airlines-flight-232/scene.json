@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:02:09Z"
+    "end": "2026-11-02T00:02:16Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -269,7 +269,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:01:57Z",
+      "t": "2026-11-02T00:01:59Z",
       "lon": 26.173057887419542,
       "lat": 46.99474461608803,
       "range": 19921847.303902317,
@@ -278,7 +278,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:02:05Z",
+      "t": "2026-11-02T00:02:08Z",
       "lon": 26.173057887419542,
       "lat": 46.99474461608803,
       "range": 18040000,
@@ -287,11 +287,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:02:09Z",
-      "lon": 1.1730578874195317,
-      "lat": 46.99474461608803,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-02T00:02:12Z",
+      "lon": -96.383888888889,
+      "lat": 41.720555555556,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:02:13Z",
+      "lon": -96.383888888889,
+      "lat": 41.720555555556,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:02:16Z",
+      "lon": -121.38388888888903,
+      "lat": 41.720555555556,
+      "range": 14000000,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -305,14 +323,14 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "According to the article, the flight has been termed \"The Impossible Landing\", as it is considered one of the most impressive landings in the history of aviation.",
+      "text": "Often called \"The Impossible Landing\", it is considered one of the most impressive landings in the history of aviation.",
       "cites": [
         "wiki:rev:1383099056:6"
       ]
     },
     {
       "t": "2026-11-02T00:00:09Z",
-      "text": "United Airlines Flight 232 was a scheduled flight from Stapleton International Airport in Denver to O'Hare International Airport in Chicago, continuing to Philadelphia International Airport.",
+      "text": "United Airlines Flight 232 was a scheduled flight from Denver's Stapleton International Airport to Chicago's O'Hare International Airport, continuing to Philadelphia.",
       "cites": [
         "wiki:rev:1383099056:0"
       ]
@@ -327,7 +345,7 @@
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "The aircraft came down about 770 km from Stapleton International Airport in a straight line, with about 1,790 km still to go.",
+      "text": "The site lies about 770 km from Stapleton International Airport in a straight line, with about 1,790 km still to go.",
       "cites": [
         "wiki:box:1383099056:origin",
         "wiki:box:1383099056:destination",
@@ -336,7 +354,7 @@
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "The site was Sioux Gateway Airport, where an uncontained engine failure caused by fan disk separation led to loss of hydraulics and loss of control.",
+      "text": "At Sioux Gateway Airport, an uncontained engine failure caused by fan disk separation led to loss of hydraulics and loss of control.",
       "cites": [
         "wiki:box:1383099056:summary",
         "wiki:box:1383099056:coordinates"
@@ -344,18 +362,12 @@
     },
     {
       "t": "2026-11-02T00:00:42Z",
-      "text": "The aircraft was a McDonnell Douglas DC-10-10 operated by United Airlines.",
+      "text": "The aircraft was a McDonnell Douglas DC-10-10 operated by United Airlines; the type, built by McDonnell Douglas, first flew in 1970.",
       "cites": [
         "wiki:box:1383099056:aircraft",
-        "wiki:box:1383099056:operator"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:46Z",
-      "text": "The DC-10 type, built by McDonnell Douglas, first flew in 1970.",
-      "cites": [
         "wd:Q208075:P176",
-        "wd:Q208075:P606"
+        "wd:Q208075:P606",
+        "wiki:box:1383099056:operator"
       ]
     },
     {
@@ -369,7 +381,7 @@
     },
     {
       "t": "2026-11-02T00:01:02Z",
-      "text": "Flight 232 departed Stapleton International Airport in Denver at 14:09 Central Daylight Time, en route to O'Hare in Chicago, with continuing service to Philadelphia.",
+      "text": "Flight 232 left Stapleton International Airport in Denver at 14:09 Central Daylight Time, bound for O'Hare in Chicago with continuing service to Philadelphia.",
       "cites": [
         "wiki:timeline:1383099056:0"
       ]
@@ -383,7 +395,7 @@
     },
     {
       "t": "2026-11-02T00:01:16Z",
-      "text": "Senior flight attendant Jan Brown Lohr relayed the message to the flight crew, who invited Fitch into the cockpit, and he began assisting at about 15:29.",
+      "text": "Senior flight attendant Jan Brown Lohr relayed the message to the flight crew, who invited Fitch into the cockpit; he began assisting at about 15:29.",
       "cites": [
         "wiki:timeline:1383099056:2"
       ]
@@ -404,29 +416,29 @@
     },
     {
       "t": "2026-11-02T00:01:38Z",
-      "text": "Three months after the crash, a farmer found most of the fan disk, with several blades attached, in her cornfield, qualifying her for a reward, as a General Electric lawyer confirmed.",
+      "text": "Three months after the crash, a farmer found most of the fan disk, with several blades still attached, in her cornfield, qualifying her for a reward, as a General Electric lawyer confirmed.",
       "cites": [
         "wiki:investigation:1383099056:2"
       ]
     },
     {
       "t": "2026-11-02T00:01:46Z",
-      "text": "On 2 November 2026, 51,857 people read the English article, about 39 times the usual daily figure.",
+      "text": "English Wikipedia recorded 51,857 readers of the article on 2 November 2026, about 39 times the usual.",
       "cites": [
         "views:en:United_Airlines_Flight_232:2026-11-02",
         "views:en:United_Airlines_Flight_232:prior"
       ]
     },
     {
-      "t": "2026-11-02T00:01:52Z",
-      "text": "The article was read in 11 languages, and after English, the most readers were in Japanese, with 167.",
+      "t": "2026-11-02T00:01:53Z",
+      "text": "The article was read in 11 languages; after English, the most readers were in Japanese, with 167.",
       "cites": [
         "views:en:United_Airlines_Flight_232:2026-11-02",
         "views:ja:ユナイテッド航空232便不時着事故:2026-11-02"
       ]
     },
     {
-      "t": "2026-11-02T00:01:58Z",
+      "t": "2026-11-02T00:02:00Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:ja:ユナイテッド航空232便不時着事故:2026-11-02",
@@ -435,6 +447,15 @@
         "views:es:Vuelo_232_de_United_Airlines:2026-11-02",
         "views:fr:Vol_United_Airlines_232:2026-11-02",
         "views:ru:Катастрофа_DC-10_в_Су-Сити:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:02:10Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383099056:6",
+        "views:en:United_Airlines_Flight_232:2026-11-02",
+        "wd:Q580343:P31"
       ]
     }
   ],
@@ -477,6 +498,10 @@
     {
       "t": "2026-11-02T00:01:45Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:02:09Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -811,12 +836,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:02:10Z",
+      "until": "2026-11-02T00:02:16Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383099056:6"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:United_Airlines_Flight_232:2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q580343:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.002635
   }
 }

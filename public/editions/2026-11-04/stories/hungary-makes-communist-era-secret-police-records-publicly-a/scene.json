@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:26Z"
+    "end": "2026-11-04T00:00:33Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -105,7 +105,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:21Z",
+      "t": "2026-11-04T00:00:23Z",
       "lon": 19.45,
       "lat": 44.965,
       "range": 4002480.231056738,
@@ -114,7 +114,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:22Z",
+      "t": "2026-11-04T00:00:25Z",
       "lon": 19.45,
       "lat": 44.965,
       "range": 3624400,
@@ -123,11 +123,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:26Z",
+      "t": "2026-11-04T00:00:28Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:33Z",
       "lon": -5.5499999999999545,
       "lat": 44.965,
-      "range": 14000000,
-      "heading": 7.800000000000001,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -155,16 +173,24 @@
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "The reports place this story in Hungary.",
+      "text": "The map marks Hungary, the country where these records are being opened.",
       "cites": [
         "wiki:2026-11-04:4"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "Reuters reported the story.",
+      "text": "This story was reported by Reuters.",
       "cites": [
         "wiki:2026-11-04:4"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
+      "text": "Sources are Wikipedia, Current events and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-04:4",
+        "wd:Q16410:P31"
       ]
     }
   ],
@@ -187,6 +213,10 @@
     {
       "t": "2026-11-04T00:00:18Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -207,12 +237,38 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:00:27Z",
+      "until": "2026-11-04T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-04:4"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q16410:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.000801
   }
 }

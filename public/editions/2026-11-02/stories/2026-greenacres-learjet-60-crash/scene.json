@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:02:16Z"
+    "end": "2026-11-02T00:02:23Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -269,7 +269,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:02:04Z",
+      "t": "2026-11-02T00:02:06Z",
       "lon": 22.344625315840382,
       "lat": 42.09051205721921,
       "range": 19921847.303902317,
@@ -278,7 +278,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:02:12Z",
+      "t": "2026-11-02T00:02:15Z",
       "lon": 22.344625315840382,
       "lat": 42.09051205721921,
       "range": 18040000,
@@ -287,11 +287,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:02:16Z",
-      "lon": -2.6553746841595967,
-      "lat": 42.09051205721921,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-02T00:02:19Z",
+      "lon": -80.11311111111111,
+      "lat": 25.94538888888889,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:02:20Z",
+      "lon": -80.11311111111111,
+      "lat": 25.94538888888889,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:02:23Z",
+      "lon": -105.1131111111111,
+      "lat": 25.94538888888889,
+      "range": 14000000,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -312,21 +330,21 @@
     },
     {
       "t": "2026-11-02T00:00:08Z",
-      "text": "John I. Leonard Community High School, located near the crash site, was closed on November 2 while emergency crews and investigators continued work in the area.",
+      "text": "John I. Leonard Community High School, a public high school near the crash site, was closed on November 2 as emergency crews and investigators continued operations nearby.",
       "cites": [
         "wiki:rev:1383802284:28"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "At a November 2 press briefing, NTSB board member Tom Chapman said investigators found indications the aircraft may have broken apart before impact, so parts could lie far from the main site.",
+      "text": "During a November 2 press briefing, NTSB board member Tom Chapman said investigators had indications the aircraft may have begun breaking apart before impact, so parts could lie some distance away.",
       "cites": [
         "wiki:rev:1383802284:36"
       ]
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "The flight set out from Austin–Bergstrom International Airport, bound for North Eleuthera Airport in The Bahamas.",
+      "text": "The flight set out from Austin–Bergstrom International Airport, bound for North Eleuthera Airport in North Eleuthera, The Bahamas.",
       "cites": [
         "wiki:box:1383802284:origin",
         "wiki:box:1383802284:destination"
@@ -334,7 +352,7 @@
     },
     {
       "t": "2026-11-02T00:00:32Z",
-      "text": "The jet came down about 1,760 km from Austin–Bergstrom International Airport in a straight line, with about 370 km still to go.",
+      "text": "It came down about 1,760 km from Austin–Bergstrom International Airport in a straight line, with about 370 km still to go.",
       "cites": [
         "wiki:box:1383802284:origin",
         "wiki:box:1383802284:destination",
@@ -343,22 +361,14 @@
     },
     {
       "t": "2026-11-02T00:00:40Z",
-      "text": "The crash happened en route in Palm Beach County, and the article's summary describes an in-flight structural failure.",
-      "cites": [
-        "wiki:box:1383802284:summary",
-        "wiki:box:1383802284:coordinates"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:44Z",
-      "text": "The case is under investigation.",
+      "text": "The crash happened en route in Palm Beach County, and the article summarizes it as an in-flight structural failure that is still under investigation.",
       "cites": [
         "wiki:box:1383802284:summary"
       ]
     },
     {
       "t": "2026-11-02T00:00:49Z",
-      "text": "The aircraft was a Learjet 60, manufactured by Bombardier Aerospace, and the type first flew in 1990.",
+      "text": "The aircraft was a Learjet 60, a type made by Bombardier Aerospace and first flown in 1990.",
       "cites": [
         "wiki:box:1383802284:aircraft",
         "wd:Q1267393:P176",
@@ -374,7 +384,7 @@
     },
     {
       "t": "2026-11-02T00:00:58Z",
-      "text": "Of the 9 people on board, all died: 7 passengers and 2 crew, according to the article.",
+      "text": "According to the article, all 9 people on board died: 7 passengers and 2 crew.",
       "cites": [
         "wiki:box:1383802284:occupants",
         "wiki:box:1383802284:fatalities",
@@ -385,21 +395,21 @@
     },
     {
       "t": "2026-11-02T00:01:06Z",
-      "text": "On the ground, 1 person was injured, according to the article.",
+      "text": "According to the article, 1 person on the ground was injured.",
       "cites": [
         "wiki:box:1383802284:ground-injuries"
       ]
     },
     {
       "t": "2026-11-02T00:01:15Z",
-      "text": "The aircraft departed Austin–Bergstrom International Airport at 10:37 EST (15:37 UTC).",
+      "text": "The aircraft departed Austin–Bergstrom International Airport at 10:37 EST, which is 15:37 UTC.",
       "cites": [
         "wiki:timeline:1383802284:0"
       ]
     },
     {
       "t": "2026-11-02T00:01:22Z",
-      "text": "At 12:48 EST (17:48 UTC), the first officer radioed a 'mayday' call to ATC, reporting a deteriorating situation.",
+      "text": "At 12:48 EST (17:48 UTC), the first officer radioed a mayday call to air traffic control, reporting a deteriorating situation.",
       "cites": [
         "wiki:timeline:1383802284:1"
       ]
@@ -420,21 +430,21 @@
     },
     {
       "t": "2026-11-02T00:01:45Z",
-      "text": "According to recorded air traffic control communications, the crew reported light clear icing and moderate turbulence at approximately 35,000 ft, with altitude fluctuations of up to 700 ft.",
+      "text": "According to recorded air traffic control communications, the crew reported light clear icing and moderate turbulence at about 35,000 ft, with altitude fluctuations of up to 700 ft.",
       "cites": [
         "wiki:investigation:1383802284:2"
       ]
     },
     {
       "t": "2026-11-02T00:01:53Z",
-      "text": "152,110 people read the article on 2 November 2026. It was a new article, with no readers in the 8 to 60 days before.",
+      "text": "On 2 November 2026, 152,110 people read the English article, which had no readers in the 8 to 60 days before.",
       "cites": [
         "views:en:2026_Greenacres_Learjet_60_crash:2026-11-02",
         "views:en:2026_Greenacres_Learjet_60_crash:prior"
       ]
     },
     {
-      "t": "2026-11-02T00:01:59Z",
+      "t": "2026-11-02T00:02:00Z",
       "text": "The article was read in 7 languages, and after English, the most readers were in Russian, with 7,952.",
       "cites": [
         "views:en:2026_Greenacres_Learjet_60_crash:2026-11-02",
@@ -442,7 +452,7 @@
       ]
     },
     {
-      "t": "2026-11-02T00:02:05Z",
+      "t": "2026-11-02T00:02:07Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:ru:Катастрофа_Learjet_60_в_Гринэйкрсе:2026-11-02",
@@ -451,6 +461,15 @@
         "views:fr:Crash_d'un_Learjet_60_à_Palm_Beach:2026-11-02",
         "views:es:Accidente_del_Learjet_60_de_LR60271_LLC_en_2026:2026-11-02",
         "views:fa:سانحه_سقوط_لیرجت_۶۰_در_پالم_بیچ_فلوریدا_۲۰۲۶:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:02:17Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383802284:0",
+        "views:en:2026_Greenacres_Learjet_60_crash:2026-11-02",
+        "wd:Q141966885:P31"
       ]
     }
   ],
@@ -493,6 +512,10 @@
     {
       "t": "2026-11-02T00:01:52Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:02:16Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -715,12 +738,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:02:17Z",
+      "until": "2026-11-02T00:02:23Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383802284:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Greenacres_Learjet_60_crash:2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141966885:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.004738
   }
 }

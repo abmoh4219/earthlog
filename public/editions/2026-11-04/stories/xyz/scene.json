@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:52Z"
+    "end": "2026-11-04T00:00:59Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -145,7 +145,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:00:40Z",
+      "t": "2026-11-04T00:00:42Z",
       "lon": 26.173057887419535,
       "lat": 46.99474461608802,
       "range": 19921847.303902317,
@@ -154,7 +154,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:48Z",
+      "t": "2026-11-04T00:00:51Z",
       "lon": 26.173057887419535,
       "lat": 46.99474461608802,
       "range": 18040000,
@@ -163,11 +163,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:52Z",
-      "lon": 1.1730578874195317,
-      "lat": 46.99474461608802,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-04T00:00:55Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:56Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:59Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -181,44 +199,45 @@
   "beats": [
     {
       "t": "2026-11-04T00:00:01Z",
-      "text": "The .xyz domain was introduced through ICANN's new generic top-level domain (gTLD) Program.",
+      "text": ".xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program.",
       "cites": [
         "wiki:rev:1382089482:0"
       ]
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "XYZ operates .xyz from its headquarters in Las Vegas, United States.",
+      "text": "The domain is operated by XYZ, which is based in Las Vegas, United States.",
       "cites": [
         "wd:Q16049593:P137"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "The domain was founded in 2014.",
+      "text": "Wikidata records the domain's founding in 2014.",
       "cites": [
         "wd:Q16049593:P571"
       ]
     },
     {
       "t": "2026-11-04T00:00:29Z",
-      "text": "On 4 November 2026, 254,329 people read the English Wikipedia article on .xyz, about 4× the usual, which is a median of 57,398 readers a day in the 8 to 60 days before.",
+      "text": "On 4 November 2026, 254,329 people read the English article about .xyz, about 4× the usual.",
       "cites": [
         "views:en:.xyz:2026-11-04",
         "views:en:.xyz:prior"
       ]
     },
     {
-      "t": "2026-11-04T00:00:35Z",
-      "text": "The article is read in 11 languages, and after English, Japanese followed with 15 readers.",
+      "t": "2026-11-04T00:00:36Z",
+      "text": "The article was read in 11 languages, and after English, Japanese and Russian each had 15 readers.",
       "cites": [
         "views:en:.xyz:2026-11-04",
-        "views:ja:.xyz:2026-11-04"
+        "views:ja:.xyz:2026-11-04",
+        "views:ru:.xyz:2026-11-04"
       ]
     },
     {
-      "t": "2026-11-04T00:00:41Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "t": "2026-11-04T00:00:43Z",
+      "text": "Each language glows on the globe where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:ja:.xyz:2026-11-04",
         "views:ru:.xyz:2026-11-04",
@@ -226,6 +245,15 @@
         "views:pt:.xyz:2026-11-04",
         "views:fr:.xyz:2026-11-04",
         "views:de:.xyz:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:53Z",
+      "text": "The information comes from Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1382089482:0",
+        "views:en:.xyz:2026-11-04",
+        "wd:Q16049593:P31"
       ]
     }
   ],
@@ -246,6 +274,10 @@
     {
       "t": "2026-11-04T00:00:28Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-04T00:00:52Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -495,12 +527,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:00:53Z",
+      "until": "2026-11-04T00:00:59Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1382089482:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:.xyz:2026-11-04"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q16049593:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.001272
   }
 }

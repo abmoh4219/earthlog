@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:00:48Z"
+    "end": "2026-11-02T00:00:55Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -80,7 +80,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:00:36Z",
+      "t": "2026-11-02T00:00:38Z",
       "lon": 27.651518638815563,
       "lat": 48.35496581361717,
       "range": 19921847.303902317,
@@ -89,7 +89,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:00:44Z",
+      "t": "2026-11-02T00:00:47Z",
       "lon": 27.651518638815563,
       "lat": 48.35496581361717,
       "range": 18040000,
@@ -98,11 +98,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:00:48Z",
-      "lon": 2.65151863881556,
-      "lat": 48.35496581361717,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-02T00:00:51Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:52Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:55Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -116,44 +134,44 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Designed in response to ships being built by Germany, the class would have rivaled Imperial Japanese and American planned battleships in size, though with less firepower.",
+      "text": "The class was designed in response to ships being built by Germany, and it would have rivaled Imperial Japanese and planned American battleships in size, though with less firepower.",
       "cites": [
         "wiki:rev:1383649412:1"
       ]
     },
     {
       "t": "2026-11-02T00:00:08Z",
-      "text": "The Soviets contemplated as many as fifteen of these ships, but eleven were never laid down, and according to the article, construction of the first four was plagued by difficulties.",
+      "text": "The Soviets considered as many as fifteen, but eleven were never laid down, and the first four were hampered as Soviet shipbuilding was not ready for ships this large.",
       "cites": [
         "wiki:rev:1383649412:3"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "Designated Project 23, the Sovetsky Soyuz-class battleships were a class begun by the Soviet Union in the late 1930s but never brought into service.",
+      "text": "The Sovetsky Soyuz-class battleships, Project 23, were a class begun by the Soviet Union in the late 1930s, but none were ever brought into service.",
       "cites": [
         "wiki:rev:1383649412:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "On 2 November 2026, 53,573 people read the English Wikipedia article, about 271× the usual daily figure of 198.",
+      "text": "On 2 November 2026, 53,573 people read the English article, about 271 times the usual daily figure.",
       "cites": [
         "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02",
         "views:en:Sovetsky_Soyuz-class_battleship:prior"
       ]
     },
     {
-      "t": "2026-11-02T00:00:31Z",
-      "text": "The article was read in 11 languages, and after English, Russian had the most readers, with 257.",
+      "t": "2026-11-02T00:00:32Z",
+      "text": "The article was read in 11 languages, and after English, the most readers were in Russian, with 257.",
       "cites": [
         "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02",
         "views:ru:Линейные_корабли_проекта_23:2026-11-02"
       ]
     },
     {
-      "t": "2026-11-02T00:00:37Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "t": "2026-11-02T00:00:39Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
       "cites": [
         "views:ru:Линейные_корабли_проекта_23:2026-11-02",
         "views:de:Sowjetski-Sojus-Klasse:2026-11-02",
@@ -161,6 +179,15 @@
         "views:zh:苏联级战列舰:2026-11-02",
         "views:fr:Classe_Sovetski_Soyouz:2026-11-02",
         "views:es:Clase_Sovietsky_Soyuz:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:49Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383649412:1",
+        "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02",
+        "wd:Q432231:P31"
       ]
     }
   ],
@@ -173,6 +200,10 @@
     {
       "t": "2026-11-02T00:00:24Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:00:48Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -390,12 +421,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:00:49Z",
+      "until": "2026-11-02T00:00:55Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383649412:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q432231:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.00223
   }
 }

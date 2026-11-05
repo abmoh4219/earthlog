@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:01:23Z"
+    "end": "2026-11-04T00:01:30Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -198,7 +198,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:01:11Z",
+      "t": "2026-11-04T00:01:12Z",
       "lon": 24.317272586373395,
       "lat": 40.39567971340171,
       "range": 19921847.303902317,
@@ -207,7 +207,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:19Z",
+      "t": "2026-11-04T00:01:22Z",
       "lon": 24.317272586373395,
       "lat": 40.39567971340171,
       "range": 18040000,
@@ -216,11 +216,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:23Z",
-      "lon": -0.6827274136265942,
-      "lat": 40.39567971340171,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-04T00:01:26Z",
+      "lon": -16.28472222,
+      "lat": 27.76055556,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:27Z",
+      "lon": -16.28472222,
+      "lat": 27.76055556,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:30Z",
+      "lon": -41.28472221999999,
+      "lat": 27.76055556,
+      "range": 14000000,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -234,21 +252,21 @@
   "beats": [
     {
       "t": "2026-11-04T00:00:01Z",
-      "text": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono, which caused him to go into cardiac arrest.",
+      "text": "As the article records, on 2 November 2026 de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono, which caused him to go into cardiac arrest.",
       "cites": [
         "wiki:rev:1383799981:26"
       ]
     },
     {
       "t": "2026-11-04T00:00:08Z",
-      "text": "After his death, the village of Navahermosa declared three days of official mourning, with his funeral planned for 5 November.",
+      "text": "After his death, the village of Navahermosa declared three days of official mourning, and his funeral was planned for 5 November.",
       "cites": [
         "wiki:rev:1383799981:32"
       ]
     },
     {
       "t": "2026-11-04T00:00:15Z",
-      "text": "Jesús de Miguel Alameda (21 September 1996 – 3 November 2026) was a Spanish professional footballer who played as a striker.",
+      "text": "Jesús de Miguel Alameda, who was born on 21 September 1996 and died on 3 November 2026, was a Spanish professional footballer who played as a striker.",
       "cites": [
         "wiki:rev:1383799981:0"
       ]
@@ -263,7 +281,7 @@
     },
     {
       "t": "2026-11-04T00:00:33Z",
-      "text": "Between 2015 and 2026 he played for 8 clubs, moving from CD Leganés B to C.D. Tenerife.",
+      "text": "He played for 8 clubs from 2015 to 2026, moving from CD Leganés B to C.D. Tenerife.",
       "cites": [
         "wd:Q116992476:P54:Q9196665",
         "wd:Q116992476:P54:Q9008987",
@@ -286,22 +304,22 @@
     },
     {
       "t": "2026-11-04T00:01:00Z",
-      "text": "The English Wikipedia article drew 224,585 readers on 4 November 2026, while in the weeks before it normally had a median of 4 a day.",
+      "text": "English Wikipedia recorded 224,585 readers of the article on 4 November 2026, while in the weeks before it normally drew a median of 4 a day.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-04",
         "views:en:Jesús_de_Miguel:prior"
       ]
     },
     {
-      "t": "2026-11-04T00:01:06Z",
-      "text": "The article was read in 11 languages, and after English, Spanish was the most common, with 67,167 readers.",
+      "t": "2026-11-04T00:01:07Z",
+      "text": "The article was read in 11 languages, and after English, Spanish had the most readers at 67,167.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-04",
         "views:es:Jesús_de_Miguel_Alameda:2026-11-04"
       ]
     },
     {
-      "t": "2026-11-04T00:01:12Z",
+      "t": "2026-11-04T00:01:14Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:es:Jesús_de_Miguel_Alameda:2026-11-04",
@@ -310,6 +328,15 @@
         "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-04",
         "views:ar:خيسوس_دي_ميغيل:2026-11-04",
         "views:fa:خسوس_د_میگل:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:24Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383799981:26",
+        "views:en:Jesús_de_Miguel:2026-11-04",
+        "wd:Q116992476:P31"
       ]
     }
   ],
@@ -344,6 +371,10 @@
     {
       "t": "2026-11-04T00:00:59Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-04T00:01:23Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -634,12 +665,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:01:24Z",
+      "until": "2026-11-04T00:01:30Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383799981:26"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Jesús_de_Miguel:2026-11-04"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q116992476:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.003982
   }
 }

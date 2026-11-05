@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:15Z"
+    "end": "2026-11-03T00:01:22Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -172,7 +172,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:03Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": 25.83989255080841,
       "lat": 48.63405151332218,
       "range": 19921847.303902317,
@@ -181,7 +181,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:11Z",
+      "t": "2026-11-03T00:01:14Z",
       "lon": 25.83989255080841,
       "lat": 48.63405151332218,
       "range": 18040000,
@@ -190,11 +190,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:15Z",
-      "lon": 0.8398925508083721,
-      "lat": 48.63405151332218,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-03T00:01:18Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:19Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:22Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -208,22 +226,21 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "On 29 October 2026, following a security incident, the site went down for maintenance first announced to last twelve hours.",
+      "text": "After a security incident on 29 October 2026, the site went down for maintenance first announced as twelve hours, later extended to two to four weeks, citing a priority of safety over speed.",
       "cites": [
         "wiki:rev:1383453548:21"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "The work was later extended to two to four weeks, and Rebecca Tushnet, representing AO3, assured users that no data was lost.",
+      "text": "Rebecca Tushnet, representing AO3, assured users that no data was lost during this incident.",
       "cites": [
-        "wiki:rev:1383453548:21",
         "wiki:rev:1383453548:22"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Archive of Our Own, or AO3, is a nonprofit, open-source repository for fanfiction and other fanworks contributed by users.",
+      "text": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction and other fanworks contributed by users.",
       "cites": [
         "wiki:rev:1383453548:0"
       ]
@@ -237,37 +254,43 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "The site was founded in 2008 and is owned by the Organization for Transformative Works.",
+      "text": "The archive was founded in 2008.",
       "cites": [
-        "wd:Q27764876:P571",
+        "wd:Q27764876:P571"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:37Z",
+      "text": "It is owned by the Organization for Transformative Works.",
+      "cites": [
         "wd:Q27764876:P127"
       ]
     },
     {
       "t": "2026-11-03T00:00:43Z",
-      "text": "Over the two weeks to 3 November 2026, 6 Hacker News stories mentioned Archive of Our Own.",
+      "text": "6 Hacker News stories mentioned Archive of Our Own in the two weeks to 3 November 2026.",
       "cites": [
         "hn:2026-11-03:Q27764876"
       ]
     },
     {
       "t": "2026-11-03T00:00:52Z",
-      "text": "On 3 November 2026, 85,012 people read the English article, about 60× the usual.",
+      "text": "On 3 November 2026, English Wikipedia recorded 85,012 readers of the article, about 60× the usual daily figure.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:en:Archive_of_Our_Own:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:00:58Z",
-      "text": "The article is read in 11 languages, and after English, German is the most read, with 762 readers.",
+      "t": "2026-11-03T00:00:59Z",
+      "text": "The article was read in 11 languages, and after English, German was the most common, with 762 readers.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:de:Archive_of_Our_Own:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:01:04Z",
+      "t": "2026-11-03T00:01:06Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:de:Archive_of_Our_Own:2026-11-03",
@@ -276,6 +299,16 @@
         "views:zh:AO3作品库:2026-11-03",
         "views:ru:Archive_of_Our_Own:2026-11-03",
         "views:pt:Archive_of_Our_Own:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:16Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews, Wikidata and Hacker News, accessed through the Algolia search API.",
+      "cites": [
+        "wiki:rev:1383453548:21",
+        "views:en:Archive_of_Our_Own:2026-11-03",
+        "wd:Q27764876:P31",
+        "hn:2026-11-03:Q27764876"
       ]
     }
   ],
@@ -300,6 +333,10 @@
     {
       "t": "2026-11-03T00:00:51Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:15Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -650,12 +687,54 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:16Z",
+      "until": "2026-11-03T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383453548:21"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Archive_of_Our_Own:2026-11-03"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q27764876:P31"
+          ]
+        },
+        {
+          "label": "Hacker News (via the Algolia search API)",
+          "text": "No licence stated: story counts ",
+          "url": "https://news.ycombinator.com/",
+          "cites": [
+            "hn:2026-11-03:Q27764876"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.001591
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.002788
   }
 }

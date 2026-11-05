@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:01:05Z"
+    "end": "2026-11-02T00:01:12Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -164,7 +164,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:00Z",
+      "t": "2026-11-02T00:01:02Z",
       "lon": -75.23333333,
       "lat": 3.74583333,
       "range": 1294920.0747536505,
@@ -173,7 +173,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:01Z",
+      "t": "2026-11-02T00:01:04Z",
       "lon": -75.23333333,
       "lat": 3.74583333,
       "range": 1172600,
@@ -182,11 +182,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:05Z",
+      "t": "2026-11-02T00:01:07Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:08Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:12Z",
       "lon": -100.23333333,
       "lat": 3.74583333,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -207,21 +225,21 @@
     },
     {
       "t": "2026-11-02T00:00:09Z",
-      "text": "The Colombian conflict began on May 27, 1964, and is described as a low-intensity asymmetric war involving the government, paramilitary groups, crime syndicates, and far-left guerrilla groups.",
+      "text": "The Colombian conflict began on May 27, 1964, and is described as a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates, and far-left guerrilla groups.",
       "cites": [
         "wiki:rev:1383713402:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:18Z",
-      "text": "The events are located on the map in Tolima Department, Colombia, where the reports place them.",
+      "text": "The event took place in Tolima Department, Colombia, where the reports place it.",
       "cites": [
         "wiki:2026-11-02:7"
       ]
     },
     {
       "t": "2026-11-02T00:00:26Z",
-      "text": "The two sides are cartels and paramilitaries, including La Oficina (1993) and Clan del Golfo (2001), and rebel groups, including FARC dissidents (2016) and CGSB (1987–1990).",
+      "text": "The article lists two sides: cartels and paramilitaries, such as La Oficina (1993) and Clan del Golfo (AGC) (2001), and guerrilla groups, such as FARC dissidents (2016) and CGSB (1987–1990).",
       "cites": [
         "wiki:box:1383713402:side-1",
         "wiki:box:1383713402:side-2"
@@ -229,14 +247,14 @@
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "As the article records its status, the conflict is ongoing, with a Colombia–FARC peace deal in 2016 and the start of the Catatumbo campaign in 2018.",
+      "text": "The article records the status as ongoing, noting the Colombia–FARC peace deal in 2016 and the start of the Catatumbo campaign in 2018.",
       "cites": [
         "wiki:box:1383713402:status"
       ]
     },
     {
       "t": "2026-11-02T00:00:40Z",
-      "text": "According to the article's figures, side 1 casualties include 4,908 killed and 20,001 injured since 2004, while side 2 figures include 2,200 killed and 35,000 demobilized.",
+      "text": "According to the article, side 1's Army and Police casualties were 4,908 killed and 20,001 injured since 2004, and side 2's AUC casualties were 2,200 killed and 35,000 demobilized.",
       "cites": [
         "wiki:box:1383713402:casualties-side-1-",
         "wiki:box:1383713402:casualties-side-2-"
@@ -254,6 +272,16 @@
       "text": "The event was reported by BBC News and Reuters.",
       "cites": [
         "wiki:2026-11-02:7"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:06Z",
+      "text": "This explainer draws on Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-02:7",
+        "wiki:rev:1383713402:0",
+        "views:en:Colombian_conflict:30d",
+        "wd:Q169072:P31"
       ]
     }
   ],
@@ -284,6 +312,10 @@
     {
       "t": "2026-11-02T00:00:57Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-02T00:01:05Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -357,12 +389,54 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:01:06Z",
+      "until": "2026-11-02T00:01:12Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-02:7"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383713402:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Colombian_conflict:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q169072:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.003136
   }
 }

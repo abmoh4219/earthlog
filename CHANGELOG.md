@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.1 (2026-11-05)
+
+- Every film ends on its sources: each one its evidence comes from, with licence and link.
+- Clip export is frame by frame (WebCodecs, `mp4-muxer`, MIT, about 30 KB, loaded only when exporting): a slow frame makes the export longer, never the video choppy; real-time recording remains the fallback. Exported clips carry the stats panels and the map legend.
+- Landing page: an FAQ, Earthlog's own logo and favicon, calmer colours.
+
 ## v0.1.0 (2026-11-05): first public release
 
 **Yesterday's world, explained in 3D.**

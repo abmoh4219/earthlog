@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:02Z"
+    "end": "2026-11-03T00:01:09Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -114,7 +114,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:50Z",
+      "t": "2026-11-03T00:00:51Z",
       "lon": 26.173057887419542,
       "lat": 46.99474461608802,
       "range": 19921847.303902317,
@@ -123,7 +123,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:58Z",
+      "t": "2026-11-03T00:01:01Z",
       "lon": 26.173057887419542,
       "lat": 46.99474461608802,
       "range": 18040000,
@@ -132,11 +132,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:02Z",
-      "lon": 1.1730578874195317,
-      "lat": 46.99474461608802,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-03T00:01:05Z",
+      "lon": 34.85,
+      "lat": 28.785,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:06Z",
+      "lon": 34.85,
+      "lat": 28.785,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:09Z",
+      "lon": 9.850000000000023,
+      "lat": 28.785,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -150,28 +168,28 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Israel held legislative elections on 27 October 2026 to elect the 120 members of the 26th Knesset and to determine the coalition that succeeds the 37th government led by Benjamin Netanyahu.",
+      "text": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
       "cites": [
         "wiki:rev:1383856282:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On 4 November, a panel of CEC members approved the results, with three in favor, none against, and two members of Likud and Shas abstaining.",
+      "text": "A panel of Central Elections Committee members voted on 4 November to approve the results, with three in favor, none against, and two Likud and Shas members abstaining.",
       "cites": [
         "wiki:rev:1383856282:105"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "On 1 November, President Isaac Herzog announced that he would invite party leaders starting 4 November to begin consultations on who should be given the first chance to form a government.",
+      "text": "President Isaac Herzog announced on 1 November that he would invite party leaders, beginning 4 November, to start consultations on who should be given the first chance to form a government.",
       "cites": [
         "wiki:rev:1383856282:108"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Likud, led by Benjamin Netanyahu, won the most seats with 27, short of the 61 needed for a majority.",
+      "text": "Likud, led by Benjamin Netanyahu, won the most seats with 27, well short of the 61 needed for a majority.",
       "cites": [
         "elex:2026-israeli-legislative-election:party1",
         "elex:2026-israeli-legislative-election:summary"
@@ -186,23 +204,23 @@
     },
     {
       "t": "2026-11-03T00:00:39Z",
-      "text": "On 3 November 2026, 60,786 people read the English article, about 6× the usual.",
+      "text": "On 3 November 2026, 60,786 people read the English article, about 6× the usual daily level.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:en:2026_Israeli_legislative_election:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:00:45Z",
-      "text": "The article was read in 11 languages, and after English, French was the most common, with 3,789 readers.",
+      "t": "2026-11-03T00:00:46Z",
+      "text": "The article was read in 11 languages, and after English, the most readers were in French, with 3,789.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "t": "2026-11-03T00:00:53Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03",
         "views:es:Elecciones_parlamentarias_de_Israel_de_2026:2026-11-03",
@@ -210,6 +228,15 @@
         "views:it:Elezioni_parlamentari_in_Israele_del_2026:2026-11-03",
         "views:de:Parlamentswahl_in_Israel_2026:2026-11-03",
         "views:ar:الانتخابات_التشريعية_الإسرائيلية_2026:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:03Z",
+      "text": "Sources for this film are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383856282:0",
+        "views:en:2026_Israeli_legislative_election:2026-11-03",
+        "wd:Q115632366:P31"
       ]
     }
   ],
@@ -232,6 +259,10 @@
     {
       "t": "2026-11-03T00:00:38Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:02Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -613,12 +644,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:03Z",
+      "until": "2026-11-03T00:01:09Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383856282:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Israeli_legislative_election:2026-11-03"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q115632366:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.001777
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.002089
   }
 }

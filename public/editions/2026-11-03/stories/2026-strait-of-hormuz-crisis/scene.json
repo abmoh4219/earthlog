@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:33Z"
+    "end": "2026-11-03T00:01:40Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -236,7 +236,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:28Z",
+      "t": "2026-11-03T00:01:30Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1294920.0747536505,
@@ -245,7 +245,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:29Z",
+      "t": "2026-11-03T00:01:32Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1172600,
@@ -254,11 +254,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:33Z",
+      "t": "2026-11-03T00:01:35Z",
+      "lon": 56.28333333,
+      "lat": 25.22916667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:36Z",
+      "lon": 56.28333333,
+      "lat": 25.22916667,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:40Z",
       "lon": 31.283333330000005,
       "lat": 25.22916667,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -272,7 +290,7 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "According to the reports, a commercial vessel was hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member while 13 others were rescued.",
+      "text": "A commercial vessel was hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others were rescued.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
@@ -286,7 +304,7 @@
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026.",
+      "text": "Shipping through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026.",
       "cites": [
         "wiki:rev:1383733327:0"
       ]
@@ -299,29 +317,22 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:30Z",
+      "t": "2026-11-03T00:00:32Z",
       "text": "On 30 October, Oman rescued 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz.",
       "cites": [
         "wiki:2026-10-30:1"
       ]
     },
     {
-      "t": "2026-11-03T00:00:35Z",
-      "text": "According to the Iranian military, the tanker was attempting to pass through an unauthorised route.",
-      "cites": [
-        "wiki:2026-10-30:1"
-      ]
-    },
-    {
       "t": "2026-11-03T00:00:41Z",
-      "text": "On the map, the reports place the incident in Musandam Governorate, Oman.",
+      "text": "The reports place the incident in the waters of Musandam Governorate, Oman.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:49Z",
-      "text": "On 28 October, the Dutch Title Transfer Facility front-month natural gas futures contract briefly reached €100 per megawatt-hour, approximately three times its pre-war level, according to Reuters.",
+      "text": "On 28 October, the Dutch TTF front-month natural gas futures contract briefly reached €100 per megawatt-hour, about three times its pre-war level, according to Reuters.",
       "cites": [
         "wiki:week:1383733327:424"
       ]
@@ -335,7 +346,7 @@
     },
     {
       "t": "2026-11-03T00:01:06Z",
-      "text": "As the article records, casualties are 24 seafarers and 1 port worker, and injured are 35+.",
+      "text": "As the article records, casualties total 24 seafarers and 1 port worker, and injured are listed as 35+.",
       "cites": [
         "wiki:box:1383733327:casualties",
         "wiki:box:1383733327:injured"
@@ -343,16 +354,27 @@
     },
     {
       "t": "2026-11-03T00:01:17Z",
-      "text": "The Strait of Hormuz is also named in the reports.",
+      "text": "The reports also name the Strait of Hormuz.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:01:26Z",
-      "text": "The story was reported by Reuters.",
+      "text": "The reporting is credited to Reuters.",
       "cites": [
         "wiki:2026-11-03:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:34Z",
+      "text": "Sources include Wikipedia current events, including Portal:Current events/2026 October 27, article revisions, pageview data and Wikidata, and every caption links to its evidence.",
+      "cites": [
+        "wiki:2026-11-03:1",
+        "wiki:rev:1383733327:263",
+        "views:en:2026_Strait_of_Hormuz_crisis:30d",
+        "wd:Q138521100:P31",
+        "wiki:2026-10-27:1"
       ]
     }
   ],
@@ -391,6 +413,10 @@
     {
       "t": "2026-11-03T00:01:25Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-03T00:01:33Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -476,12 +502,70 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:34Z",
+      "until": "2026-11-03T00:01:40Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-03:1"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383733327:263"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Strait_of_Hormuz_crisis:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138521100:P31"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 October 27",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_27&oldid=1383234879",
+          "cites": [
+            "wiki:2026-10-27:1"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 October 30",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_30&oldid=1383796690",
+          "cites": [
+            "wiki:2026-10-30:1"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.0017
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.002883
   }
 }

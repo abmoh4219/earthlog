@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:00:51Z"
+    "end": "2026-11-02T00:00:58Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -176,7 +176,16 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:00:47Z",
+      "t": "2026-11-02T00:00:48Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:50Z",
       "lon": 35.71666667,
       "lat": 15.0625,
       "range": 1172600,
@@ -185,11 +194,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:00:51Z",
+      "t": "2026-11-02T00:00:53Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:54Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:58Z",
       "lon": 10.716666669999995,
       "lat": 15.0625,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -203,44 +230,53 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "The Rapid Support Forces is launching drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
+      "text": "The Rapid Support Forces launches drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
       "cites": [
         "wiki:2026-11-02:6"
       ]
     },
     {
       "t": "2026-11-02T00:00:11Z",
-      "text": "On 26 October, twenty-one people were killed and 40 more injured in a drone strike in Nyala, Sudan.",
+      "text": "On 26 October, twenty-one people are killed and 40 more injured in a drone strike in Nyala, Sudan.",
       "cites": [
         "wiki:2026-10-26:6"
       ]
     },
     {
       "t": "2026-11-02T00:00:18Z",
-      "text": "On 28 October, eight women and children were reported injured in an airstrike in Kadugli, South Kordofan, Sudan.",
+      "text": "Two days later, on 28 October, eight women and children are reported to be injured in an airstrike in Kadugli, South Kordofan, Sudan.",
       "cites": [
         "wiki:2026-10-28:2"
       ]
     },
     {
       "t": "2026-11-02T00:00:27Z",
-      "text": "On the map, the reports place this in Kassala State, Sudan.",
+      "text": "On the map is Kassala State in Sudan, where the reports place the strikes.",
       "cites": [
         "wiki:2026-11-02:6"
       ]
     },
     {
       "t": "2026-11-02T00:00:35Z",
-      "text": "The reports also name Northern State.",
+      "text": "Northern State is also named in the reports.",
       "cites": [
         "wiki:2026-11-02:6"
       ]
     },
     {
       "t": "2026-11-02T00:00:44Z",
-      "text": "The story was reported by Sudan Tribune.",
+      "text": "The report comes from Sudan Tribune.",
       "cites": [
         "wiki:2026-11-02:6"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:52Z",
+      "text": "The sources are Wikipedia's Current events page for 2026, along with its 26 October and 28 October portal pages, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-02:6",
+        "wiki:2026-10-26:6",
+        "wiki:2026-10-28:2"
       ]
     }
   ],
@@ -271,6 +307,10 @@
     {
       "t": "2026-11-02T00:00:43Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-02T00:00:51Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -315,12 +355,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:00:52Z",
+      "until": "2026-11-02T00:00:58Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-02:6"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 October 26",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_26&oldid=1382440517",
+          "cites": [
+            "wiki:2026-10-26:6"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 October 28",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_28&oldid=1383264879",
+          "cites": [
+            "wiki:2026-10-28:2"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.00105
   }
 }

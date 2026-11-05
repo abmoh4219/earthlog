@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:35Z"
+    "end": "2026-11-04T00:00:42Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -137,7 +137,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:00:31Z",
+      "t": "2026-11-04T00:00:32Z",
       "lon": 120.95444444,
       "lat": 13.90916667,
       "range": 1294920.0747536505,
@@ -146,11 +146,38 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:35Z",
+      "t": "2026-11-04T00:00:34Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:37Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:38Z",
+      "lon": 120.95444444,
+      "lat": 13.90916667,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:42Z",
       "lon": 95.95444443999997,
       "lat": 13.90916667,
       "range": 14000000,
-      "heading": -27.8,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -178,14 +205,14 @@
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "The seizure took place at the Port of Manila in the Philippines, the location the reports give.",
+      "text": "The seizure took place at the Port of Manila in the Philippines, where the reports place it.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "The reports also name the 2026 Laos private jet drug smuggling case as a related matter.",
+      "text": "The reports also name the 2026 Laos private jet drug smuggling case.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
@@ -193,6 +220,13 @@
     {
       "t": "2026-11-04T00:00:28Z",
       "text": "The story was reported by Arab News and the Philippine Daily Inquirer.",
+      "cites": [
+        "wiki:2026-11-04:3"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:36Z",
+      "text": "The sources are Wikipedia's Current events page, and every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
@@ -221,6 +255,10 @@
     {
       "t": "2026-11-04T00:00:27Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-04T00:00:35Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -249,12 +287,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:00:36Z",
+      "until": "2026-11-04T00:00:42Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-04:3"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.000548
   }
 }

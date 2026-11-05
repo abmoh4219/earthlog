@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:42Z"
+    "end": "2026-11-03T00:01:49Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -200,7 +200,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:30Z",
+      "t": "2026-11-03T00:01:32Z",
       "lon": 74.91703918875842,
       "lat": 34.689864206344396,
       "range": 19921847.303902317,
@@ -209,7 +209,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:39Z",
+      "t": "2026-11-03T00:01:42Z",
       "lon": 74.91703918875842,
       "lat": 34.689864206344396,
       "range": 18040000,
@@ -218,11 +218,38 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:42Z",
-      "lon": 49.917039188758395,
-      "lat": 34.689864206344396,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-03T00:01:45Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:46Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8004960.462113476,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:47Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:49Z",
+      "lon": 54.360000000000014,
+      "lat": 20.565,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -236,14 +263,14 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "A special media screening took place across Mumbai on 3 November.",
+      "text": "Special media screenings of the film took place across Mumbai on 3 November.",
       "cites": [
         "wiki:rev:1383857676:108"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "The film reached another milestone the same day, 3 November.",
+      "text": "The film reached a further milestone on the same day, 3 November.",
       "cites": [
         "wiki:rev:1383857676:155"
       ]
@@ -265,14 +292,14 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "It was released on 27 October 2026 at the Academy Museum, and on 5 November 2026 worldwide.",
+      "text": "The film was released on 27 October 2026 at the Academy Museum, and worldwide on 5 November 2026.",
       "cites": [
         "wiki:box:1383857676:released"
       ]
     },
     {
       "t": "2026-11-03T00:00:43Z",
-      "text": "On 30 April, the second schedule commenced in Mumbai.",
+      "text": "The second schedule began in Mumbai on 30 April.",
       "cites": [
         "wiki:film:1383857676:6"
       ]
@@ -288,7 +315,7 @@
     },
     {
       "t": "2026-11-03T00:01:01Z",
-      "text": "6 of the credited people have a birthplace on record, and 5 of them were born in India.",
+      "text": "6 of the people credited have a birthplace on record; 5 were born in India.",
       "cites": [
         "wd:Q108560:P19",
         "wd:Q16908467:P19",
@@ -307,29 +334,39 @@
     },
     {
       "t": "2026-11-03T00:01:19Z",
-      "text": "72,890 people read the English article on 3 November 2026, about 10× the usual.",
+      "text": "On 3 November 2026, English Wikipedia recorded 72,890 readers of the article, about ten times the usual daily median of 7,342.",
       "cites": [
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:en:Ramayana:_Part_1:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:25Z",
-      "text": "Readers in 10 languages were recorded, and after English, Hindi was the most read with 2,972.",
+      "t": "2026-11-03T00:01:26Z",
+      "text": "The article was read in 10 languages, and after English the most readers were in Hindi, with 2,972.",
       "cites": [
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:hi:रामायणम्_(2026_फिल्म):2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:01:31Z",
+      "t": "2026-11-03T00:01:33Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:hi:रामायणम्_(2026_फिल्म):2026-11-03",
         "views:de:Ramayana:_Rise_of_a_Legend:2026-11-03",
         "views:fr:Ramayana_:_L'Avènement_d'une_légende:2026-11-03",
         "views:zh:羅摩衍那：傳奇崛起:2026-11-03",
-        "views:te:రామాయణం_(2026_సినిమా):2026-11-03"
+        "views:te:రామాయణం_(2026_సినిమా):2026-11-03",
+        "views:bn:রামায়ণ:_পার্ট_ওয়ান:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:43Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption is linked to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383857676:108",
+        "views:en:Ramayana:_Part_1:2026-11-03",
+        "wd:Q135196186:P31"
       ]
     }
   ],
@@ -360,6 +397,10 @@
     {
       "t": "2026-11-03T00:01:18Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:42Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -683,12 +724,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:44Z",
+      "until": "2026-11-03T00:01:49Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383857676:108"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Ramayana:_Part_1:2026-11-03"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q135196186:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.00308
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.003384
   }
 }

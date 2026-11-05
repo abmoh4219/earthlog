@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:01:26Z"
+    "end": "2026-11-02T00:01:33Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -225,7 +225,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:01:14Z",
+      "t": "2026-11-02T00:01:16Z",
       "lon": 22.75124134007319,
       "lat": 40.87927331797778,
       "range": 19921847.303902317,
@@ -234,7 +234,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:22Z",
+      "t": "2026-11-02T00:01:25Z",
       "lon": 22.75124134007319,
       "lat": 40.87927331797778,
       "range": 18040000,
@@ -243,11 +243,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:26Z",
-      "lon": -2.248758659926807,
-      "lat": 40.87927331797778,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-02T00:01:29Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:30Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:33Z",
+      "lon": -143.24367999999998,
+      "lat": 33.36473,
+      "range": 14000000,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -261,21 +279,21 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Susan Saint James died of pancreatic cancer at a Los Angeles hospital on October 26, 2026, at the age of 80.",
+      "text": "Susan Saint James died from pancreatic cancer at a hospital in Los Angeles on October 26, 2026, at the age of 80.",
       "cites": [
         "wiki:rev:1383321542:47"
       ]
     },
     {
       "t": "2026-11-02T00:00:09Z",
-      "text": "Born Susan Jane Miller, she was an American actress whose life ran from August 14, 1946 to October 26, 2026.",
+      "text": "She was an American actress, born Susan Jane Miller, with the dates August 14, 1946 to October 26, 2026.",
       "cites": [
         "wiki:rev:1383321542:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:18Z",
-      "text": "She was born in Los Angeles on 14 August 1946.",
+      "text": "Susan Saint James was born on 14 August 1946 in Los Angeles.",
       "cites": [
         "wd:Q259559:P569",
         "wd:Q259559:P19"
@@ -289,16 +307,8 @@
       ]
     },
     {
-      "t": "2026-11-02T00:00:30Z",
-      "text": "Wikidata lists Los Angeles as both her birthplace and her place of death.",
-      "cites": [
-        "wd:Q259559:P19",
-        "wd:Q259559:P20"
-      ]
-    },
-    {
       "t": "2026-11-02T00:00:36Z",
-      "text": "4 awards are on record, including the Connecticut Women's Hall of Fame (1994) and a star on the Hollywood Walk of Fame (2008).",
+      "text": "4 awards are on record for her, including the Connecticut Women's Hall of Fame in 1994 and a star on the Hollywood Walk of Fame in 2008.",
       "cites": [
         "wd:Q259559:P166:Q5161648",
         "wd:Q259559:P166:Q17985761",
@@ -308,7 +318,7 @@
     },
     {
       "t": "2026-11-02T00:00:46Z",
-      "text": "She died on 26 October 2026 in Los Angeles, aged 80.",
+      "text": "Susan Saint James died on 26 October 2026 in Los Angeles, aged 80.",
       "cites": [
         "wd:Q259559:P570",
         "wd:Q259559:P20",
@@ -324,23 +334,23 @@
     },
     {
       "t": "2026-11-02T00:01:03Z",
-      "text": "On 2 November 2026, 252,010 people read the English article, about 350× the usual daily count.",
+      "text": "On 2 November 2026, 252,010 people read the English article, about 350 times the usual median of 720 readers a day.",
       "cites": [
         "views:en:Susan_Saint_James:2026-11-02",
         "views:en:Susan_Saint_James:prior"
       ]
     },
     {
-      "t": "2026-11-02T00:01:09Z",
-      "text": "The article is available in 11 languages, and after English the most readers were in Spanish, with 1,242.",
+      "t": "2026-11-02T00:01:10Z",
+      "text": "The article was read in 11 languages, and after English the most readers were in Spanish, with 1,242.",
       "cites": [
         "views:en:Susan_Saint_James:2026-11-02",
         "views:es:Susan_Saint_James:2026-11-02"
       ]
     },
     {
-      "t": "2026-11-02T00:01:15Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "t": "2026-11-02T00:01:17Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:es:Susan_Saint_James:2026-11-02",
         "views:de:Susan_Saint_James:2026-11-02",
@@ -348,6 +358,15 @@
         "views:pl:Susan_Saint_James:2026-11-02",
         "views:pt:Susan_Saint_James:2026-11-02",
         "views:ru:Сент-Джеймс,_Сьюзан:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:27Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383321542:47",
+        "views:en:Susan_Saint_James:2026-11-02",
+        "wd:Q259559:P31"
       ]
     }
   ],
@@ -386,6 +405,10 @@
     {
       "t": "2026-11-02T00:01:02Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:01:26Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -801,12 +824,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:01:27Z",
+      "until": "2026-11-02T00:01:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383321542:47"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Susan_Saint_James:2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q259559:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.002123
   }
 }

@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:00:29Z"
+    "end": "2026-11-02T00:00:36Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -67,7 +67,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:00:22Z",
+      "t": "2026-11-02T00:00:24Z",
       "lon": 0,
       "lat": 20,
       "range": 23181785.953631785,
@@ -76,7 +76,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:00:25Z",
+      "t": "2026-11-02T00:00:28Z",
       "lon": 0,
       "lat": 20,
       "range": 20992000,
@@ -85,11 +85,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:00:29Z",
+      "t": "2026-11-02T00:00:31Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:32Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:36Z",
       "lon": -25,
       "lat": 20,
-      "range": 62976000,
-      "heading": -39.2,
+      "range": 102336000,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -103,14 +121,14 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Later investigators included John William Strutt, 3rd Baron Rayleigh, and his son, Robert Strutt, 4th Baron Rayleigh.",
+      "text": "Subsequent investigators included John William Strutt, 3rd Baron Rayleigh, and his son, Robert Strutt, 4th Baron Rayleigh.",
       "cites": [
         "wiki:rev:1383405896:16"
       ]
     },
     {
       "t": "2026-11-02T00:00:09Z",
-      "text": "Storm oil is a nearly water-insoluble oil that acts as a surfactant, and it has been used since ancient times to smooth ocean waves.",
+      "text": "Storm oil is described as a nearly water-insoluble oil that acts as a surfactant, and it has been used since ancient times to smooth ocean waves.",
       "cites": [
         "wiki:rev:1383405896:0"
       ]
@@ -123,10 +141,18 @@
       ]
     },
     {
-      "t": "2026-11-02T00:00:21Z",
-      "text": "In the weeks before, the article normally drew a median of 16 readers a day.",
+      "t": "2026-11-02T00:00:23Z",
+      "text": "In the weeks before, readership was normally low, with a median of 16 readers a day.",
       "cites": [
         "views:en:Storm_oil:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:30Z",
+      "text": "This explainer draws on Wikipedia articles and Wikimedia pageviews, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383405896:16",
+        "views:en:Storm_oil:2026-11-02"
       ]
     }
   ],
@@ -139,6 +165,10 @@
     {
       "t": "2026-11-02T00:00:17Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:00:29Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -282,12 +312,38 @@
         }
       ],
       "mark": 29
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:00:30Z",
+      "until": "2026-11-02T00:00:36Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383405896:16"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Storm_oil:2026-11-02"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.00054
   }
 }

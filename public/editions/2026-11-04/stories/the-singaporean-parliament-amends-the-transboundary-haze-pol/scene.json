@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:59Z"
+    "end": "2026-11-04T00:01:06Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -164,7 +164,16 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:00:55Z",
+      "t": "2026-11-04T00:00:56Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:58Z",
       "lon": 103.83333333,
       "lat": 0.59583333,
       "range": 1172600,
@@ -173,11 +182,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:59Z",
+      "t": "2026-11-04T00:01:01Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:02Z",
+      "lon": 103.83333333,
+      "lat": 0.59583333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:06Z",
       "lon": 78.83333332999996,
       "lat": 0.59583333,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -212,7 +239,7 @@
     },
     {
       "t": "2026-11-04T00:00:25Z",
-      "text": "The reports place the story in Singapore and Malaysia.",
+      "text": "On the map, the reports place the haze in Singapore and Malaysia.",
       "cites": [
         "wiki:2026-11-04:2"
       ]
@@ -227,16 +254,26 @@
     },
     {
       "t": "2026-11-04T00:00:43Z",
-      "text": "Southeast Asia is also named in the reports.",
+      "text": "The reports also place the haze across Southeast Asia more broadly.",
       "cites": [
         "wiki:2026-11-04:2"
       ]
     },
     {
       "t": "2026-11-04T00:00:52Z",
-      "text": "The report comes from AFP.",
+      "text": "This story is reported by AFP.",
       "cites": [
         "wiki:2026-11-04:2"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:00Z",
+      "text": "This explainer draws on Wikipedia, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-04:2",
+        "wiki:rev:1383807365:107",
+        "views:en:2026_Southeast_Asian_haze:30d",
+        "wd:Q141274248:P31"
       ]
     }
   ],
@@ -267,6 +304,10 @@
     {
       "t": "2026-11-04T00:00:51Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-04T00:00:59Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -318,12 +359,54 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:01:00Z",
+      "until": "2026-11-04T00:01:06Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-04:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383807365:107"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Southeast_Asian_haze:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141274248:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.003396
   }
 }

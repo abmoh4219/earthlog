@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:15Z"
+    "end": "2026-11-03T00:01:22Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -170,7 +170,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:08Z",
+      "t": "2026-11-03T00:01:10Z",
       "lon": 0,
       "lat": 20,
       "range": 23181785.953631785,
@@ -179,7 +179,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:11Z",
+      "t": "2026-11-03T00:01:14Z",
       "lon": 0,
       "lat": 20,
       "range": 20992000,
@@ -188,11 +188,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:15Z",
+      "t": "2026-11-03T00:01:17Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:18Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:22Z",
       "lon": -25,
       "lat": 20,
-      "range": 62976000,
-      "heading": 9.200000000000003,
+      "range": 102336000,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -206,7 +224,7 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "To avoid conflicts with the U.S. midterm elections, held on November 3, 2026, the air date of this episode was moved to Monday, one day earlier.",
+      "text": "To avoid conflicts with the U.S. midterm elections, held on November 3, 2026, the show moved this episode's air date to Monday, one day earlier.",
       "cites": [
         "wiki:rev:1383824613:111"
       ]
@@ -227,7 +245,7 @@
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "The show airs on ABC and Disney+, with Alfonso Ribeiro and Julianne Hough as hosts and Derek Hough, Carrie Ann Inaba and Bruno Tonioli as judges.",
+      "text": "Hosted by Alfonso Ribeiro and Julianne Hough, the season airs on ABC and Disney+, with Derek Hough, Carrie Ann Inaba and Bruno Tonioli judging.",
       "cites": [
         "wiki:box:1383824613:network",
         "wiki:box:1383824613:hosts",
@@ -236,7 +254,7 @@
     },
     {
       "t": "2026-11-03T00:00:37Z",
-      "text": "Of the people credited, 20 have a birthplace on record, and 14 of them were born in the United States.",
+      "text": "Birthplaces are on record for 20 of the people credited, and 14 of them were born in the United States.",
       "cites": [
         "wd:Q1189327:P19",
         "wd:Q15955943:P19",
@@ -262,7 +280,7 @@
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "Some were born further afield: Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia, and Sasha Farber in Russia.",
+      "text": "Sharna Burgess was born in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia, and Sasha Farber in Russia.",
       "cites": [
         "wd:Q16200956:P19",
         "wd:Q21285529:P19",
@@ -271,17 +289,26 @@
     },
     {
       "t": "2026-11-03T00:00:55Z",
-      "text": "Readers also turned to Jenna Dewan, with 64,103 readers on 3 November 2026.",
+      "text": "Readers also turned to Jenna Dewan, with 64,103 readers.",
       "cites": [
         "views:en:Jenna_Dewan:2026-11-03"
       ]
     },
     {
       "t": "2026-11-03T00:01:04Z",
-      "text": "On 3 November 2026, 135,810 people read the article, about 10× the usual median of 14,156 readers a day.",
+      "text": "On 3 November 2026, the season drew 135,810 readers, about 10× its usual median of 14,156 a day.",
       "cites": [
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:prior"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:16Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383824613:111",
+        "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
+        "wd:Q139761349:P31"
       ]
     }
   ],
@@ -306,6 +333,10 @@
     {
       "t": "2026-11-03T00:01:03Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:15Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -702,12 +733,46 @@
         }
       ],
       "mark": 29
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:16Z",
+      "until": "2026-11-03T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383824613:111"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q139761349:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.001711
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.003027
   }
 }

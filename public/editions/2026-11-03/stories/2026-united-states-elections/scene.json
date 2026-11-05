@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:47Z"
+    "end": "2026-11-03T00:01:54Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -236,7 +236,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:43Z",
+      "t": "2026-11-03T00:01:44Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1294920.0747536505,
@@ -245,7 +245,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:44Z",
+      "t": "2026-11-03T00:01:46Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1172600,
@@ -254,11 +254,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:47Z",
+      "t": "2026-11-03T00:01:49Z",
+      "lon": -77.00888889,
+      "lat": 38.20138889,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:50Z",
+      "lon": -77.00888889,
+      "lat": 38.20138889,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:54Z",
       "lon": -102.00888888999998,
       "lat": 38.20138889,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -272,35 +290,35 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "The United States holds midterms for 435 House members, five non-voting delegates, 35 Senate seats including special elections in Florida and Ohio, and 39 governors.",
+      "text": "The United States holds midterm elections for 435 House members and five non-voting delegates, 35 Senate seats including special elections in Florida and Ohio, and 39 state and territorial governors.",
       "cites": [
         "wiki:2026-11-03:10"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "Ahead of the November 3 midterm elections, the war with Iran became a subject of Democratic campaigning.",
-      "cites": [
-        "wiki:rev:1383861407:147"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:15Z",
-      "text": "The elections were held on November 3, 2026, during the second term of Republican president Donald Trump.",
+      "text": "Elections were held on November 3, 2026, during the second term of Republican president Donald Trump.",
       "cites": [
         "wiki:rev:1383861407:0"
       ]
     },
     {
+      "t": "2026-11-03T00:00:15Z",
+      "text": "The war with Iran became a subject of Democratic campaigning ahead of the November 3 midterms.",
+      "cites": [
+        "wiki:rev:1383861407:147"
+      ]
+    },
+    {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Of the 35 Senate races this year, Democrats won 20, Republicans won 13, and 2 have not yet been called.",
+      "text": "Of the 35 Senate races, Democrats won 20 and Republicans won 13, with 2 not yet called.",
       "cites": [
         "elex:2026-united-states-senate-elections:the-senate-table"
       ]
     },
     {
       "t": "2026-11-03T00:00:31Z",
-      "text": "Democrats made gains in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
+      "text": "Democrats gained seats in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
       "cites": [
         "elex:2026-united-states-senate-elections:senate-ia",
         "elex:2026-united-states-senate-elections:senate-nc",
@@ -313,14 +331,14 @@
     },
     {
       "t": "2026-11-03T00:00:39Z",
-      "text": "Across 36 governor's races this year, Democrats won 22, Republicans won 12, and 2 have not yet been called.",
+      "text": "Of the 36 governor's races, Democrats won 22 and Republicans won 12, with 2 not yet called.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-table"
       ]
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "Democrats made gains in Georgia, Iowa, Nevada, Ohio and Texas.",
+      "text": "Democrats gained governorships in Georgia, Iowa, Nevada, Ohio and Texas.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-ga",
         "elex:2026-united-states-gubernatorial-elections:governors-ia",
@@ -331,30 +349,36 @@
     },
     {
       "t": "2026-11-03T00:00:53Z",
-      "text": "In the House, Democrats hold 251 seats and Republicans 153, with 31 still to be called; a majority requires 218.",
+      "text": "In the House, Democrats hold 251 seats and Republicans 153, with 31 still to be called; a majority is 218 seats.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
       "t": "2026-11-03T00:00:59Z",
-      "text": "On the map, 41 districts changed party, and 49 races are not yet called in the race tables.",
+      "text": "On the race tables, 41 districts changed party, and 49 are not yet called.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
       "t": "2026-11-03T00:01:07Z",
-      "text": "Readers also looked up United States midterm election (244,478), James Talarico (105,766), and 2026 United States Senate elections (90,787).",
+      "text": "Readers also turned to the article on United States midterm elections, which drew 244,478 readers.",
       "cites": [
-        "views:en:United_States_midterm_election:2026-11-03",
+        "views:en:United_States_midterm_election:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:11Z",
+      "text": "The James Talarico article drew 105,766 readers, and the 2026 United States Senate elections article drew 90,787.",
+      "cites": [
         "views:en:James_Talarico:2026-11-03",
         "views:en:2026_United_States_Senate_elections:2026-11-03"
       ]
     },
     {
       "t": "2026-11-03T00:01:16Z",
-      "text": "On 3 November 2026, 455,194 people read the English article, about 18× the usual daily count.",
+      "text": "On 3 November 2026, 455,194 people read the article on 2026 United States elections, about 18 times the usual daily readership.",
       "cites": [
         "views:en:2026_United_States_elections:2026-11-03",
         "views:en:2026_United_States_elections:prior"
@@ -362,7 +386,7 @@
     },
     {
       "t": "2026-11-03T00:01:23Z",
-      "text": "The article was read in 10 languages, and after English the most readers were in Persian, with 28,399.",
+      "text": "The article was read in 10 languages, and after English, the most readers were in Persian, with 28,399.",
       "cites": [
         "views:en:2026_United_States_elections:2026-11-03",
         "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-03"
@@ -370,7 +394,7 @@
     },
     {
       "t": "2026-11-03T00:01:30Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-03",
         "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-03",
@@ -382,10 +406,20 @@
     },
     {
       "t": "2026-11-03T00:01:40Z",
-      "text": "The story was reported by The Guardian and Reuters, and U.S. news organizations project that Democrats will control the House and Senate in the 120th Congress.",
+      "text": "The Guardian and Reuters reported on this story.",
       "cites": [
         "wiki:2026-11-03:10",
         "wiki:2026-11-03:11"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:48Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:2026-11-03:10",
+        "wiki:rev:1383861407:147",
+        "views:en:2026_United_States_elections:2026-11-03",
+        "wd:Q115857612:P31"
       ]
     }
   ],
@@ -424,6 +458,10 @@
     {
       "t": "2026-11-03T00:01:39Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-03T00:01:47Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -1147,12 +1185,54 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:48Z",
+      "until": "2026-11-03T00:01:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-03:10"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383861407:147"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_United_States_elections:2026-11-03"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q115857612:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.002583
   }
 }

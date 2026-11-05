@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:01:41Z"
+    "end": "2026-11-04T00:01:48Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -200,7 +200,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:01:29Z",
+      "t": "2026-11-04T00:01:31Z",
       "lon": 31.90538740298832,
       "lat": 44.80754020834056,
       "range": 19921847.303902317,
@@ -209,7 +209,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:37Z",
+      "t": "2026-11-04T00:01:40Z",
       "lon": 31.90538740298832,
       "lat": 44.80754020834056,
       "range": 18040000,
@@ -218,11 +218,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:41Z",
-      "lon": 6.905387402988254,
-      "lat": 44.80754020834056,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-04T00:01:44Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:45Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:48Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -250,14 +268,14 @@
     },
     {
       "t": "2026-11-04T00:00:15Z",
-      "text": "VisionQuest is an American television miniseries created by Terry Matalas for Disney+, based on Marvel Comics featuring the character Vision.",
+      "text": "VisionQuest is an American television miniseries created by Terry Matalas for Disney+, based on Marvel Comics and featuring the character Vision.",
       "cites": [
         "wiki:rev:1383842888:0"
       ]
     },
     {
       "t": "2026-11-04T00:00:25Z",
-      "text": "The series stars Paul Bettany, James Spader, Ruaridh Mollica and Todd Stashwick among others, with music by Mick Giacchino.",
+      "text": "Paul Bettany, James Spader, Ruaridh Mollica and Todd Stashwick star, among others, and Mick Giacchino composed the music.",
       "cites": [
         "wiki:box:1383842888:starring",
         "wiki:box:1383842888:music"
@@ -265,31 +283,30 @@
     },
     {
       "t": "2026-11-04T00:00:37Z",
-      "text": "From late March to early April, filming took place at a local pub in the Chiltern Hills, England, which served as the location for The Old Selkie pub.",
+      "text": "From late March to early April, filming took place at a local pub in the Chiltern Hills, England, which stood in for The Old Selkie pub.",
       "cites": [
         "wiki:film:1383842888:1"
       ]
     },
     {
       "t": "2026-11-04T00:00:44Z",
-      "text": "Principal photography began by March 14, 2025, at Pinewood Studios in London, under the working title Tin Man.",
+      "text": "Principal photography began by March 14, 2025, at Pinewood Studios in London.",
       "cites": [
         "wiki:film:1383842888:0"
       ]
     },
     {
       "t": "2026-11-04T00:00:51Z",
-      "text": "The article places filming at Chiltern Hills, Scotland, Pinewood Studios, Hatfield House, White Waltham Airfield and 1 more location.",
+      "text": "The article also places filming at Hatfield House in Hertfordshire, White Waltham Airfield and 1 more location, and notes the Saltire, Scotland's national flag, displayed outside a building.",
       "cites": [
-        "wiki:film:1383842888:0",
-        "wiki:film:1383842888:1",
+        "wiki:film:1383842888:3",
         "wiki:film:1383842888:2",
-        "wiki:film:1383842888:3"
+        "wiki:film:1383842888:0"
       ]
     },
     {
       "t": "2026-11-04T00:01:00Z",
-      "text": "16 of the people credited have a birthplace on record, and 8 of them were born in the United Kingdom.",
+      "text": "Birthplaces are on record for 16 of the credited people, and 8 of them were born in the United Kingdom.",
       "cites": [
         "wd:Q115781248:P19",
         "wd:Q115793922:P19",
@@ -311,7 +328,7 @@
     },
     {
       "t": "2026-11-04T00:01:08Z",
-      "text": "Several were born further afield, including Ruaridh Mollica in Prato, Italy, Mary McDonnell in Wilkes-Barre, United States, and James Spader in Boston, United States.",
+      "text": "Ruaridh Mollica was born in Prato, Italy, Mary McDonnell in Wilkes-Barre, United States, and James Spader in Boston, United States.",
       "cites": [
         "wd:Q115781248:P19",
         "wd:Q117500:P19",
@@ -320,23 +337,23 @@
     },
     {
       "t": "2026-11-04T00:01:18Z",
-      "text": "157,657 people read the article on 4 November 2026, about 14 times the usual number.",
+      "text": "On 4 November 2026, 157,657 people read the English article, about 14 times the usual daily count.",
       "cites": [
         "views:en:VisionQuest:2026-11-04",
         "views:en:VisionQuest:prior"
       ]
     },
     {
-      "t": "2026-11-04T00:01:24Z",
-      "text": "The article was read in 11 languages, and after English, Italian had the most readers at 6,743.",
+      "t": "2026-11-04T00:01:25Z",
+      "text": "The article was read in 11 languages, and after English the most readers were on Italian Wikipedia, with 6,743.",
       "cites": [
-        "views:en:VisionQuest:2026-11-04",
-        "views:it:VisionQuest:2026-11-04"
+        "views:it:VisionQuest:2026-11-04",
+        "views:en:VisionQuest:2026-11-04"
       ]
     },
     {
-      "t": "2026-11-04T00:01:30Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "t": "2026-11-04T00:01:32Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:it:VisionQuest:2026-11-04",
         "views:es:VisionQuest:2026-11-04",
@@ -344,6 +361,15 @@
         "views:de:VisionQuest:2026-11-04",
         "views:ru:Квест_Вижна:2026-11-04",
         "views:zh:幻视任务:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:42Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383842888:76",
+        "views:en:VisionQuest:2026-11-04",
+        "wd:Q126092795:P31"
       ]
     }
   ],
@@ -374,6 +400,10 @@
     {
       "t": "2026-11-04T00:01:17Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-04T00:01:41Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -739,12 +769,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:01:42Z",
+      "until": "2026-11-04T00:01:48Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383842888:76"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:VisionQuest:2026-11-04"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q126092795:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.004073
   }
 }

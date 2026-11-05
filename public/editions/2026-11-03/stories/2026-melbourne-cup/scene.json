@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:06Z"
+    "end": "2026-11-03T00:01:13Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -163,7 +163,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:01Z",
+      "t": "2026-11-03T00:01:03Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 1294920.0747536505,
@@ -172,7 +172,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:02Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 1172600,
@@ -181,11 +181,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:06Z",
+      "t": "2026-11-03T00:01:08Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:09Z",
+      "lon": 144.9125,
+      "lat": -38.47777778,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:13Z",
       "lon": 119.91250000000002,
       "lat": -38.47777778,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -199,23 +217,24 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia, with Zahrann and Juja Kibo, also trained by Maher, finishing second and third.",
+      "text": "Point Of Law, trained by Ciaron Maher, won the 2026 Melbourne Cup, a thoroughbred race at Flemington Racecourse in Victoria, Australia.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "The race was run over 3200 m on 3 November 2026 at Melbourne's Flemington Racecourse.",
+      "text": "Zahrann and Juja Kibo, also trained by Maher, finished second and third.",
       "cites": [
-        "wiki:rev:1383838055:1"
+        "wiki:2026-11-03:13"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "It was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
+      "text": "The 2026 Melbourne Cup was the 166th running of the race, held over 3200 metres on 3 November 2026 at Melbourne's Flemington Racecourse.",
       "cites": [
-        "wiki:rev:1383838055:0"
+        "wiki:rev:1383838055:0",
+        "wiki:rev:1383838055:1"
       ]
     },
     {
@@ -227,7 +246,7 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Point Of Law won, ridden by Ethan Brown and trained by Ciaron Maher.",
+      "text": "Ethan Brown rode Point Of Law to victory, and Ciaron Maher trained the winner.",
       "cites": [
         "wiki:box:1383838055:winner",
         "wiki:box:1383838055:jockey",
@@ -236,23 +255,33 @@
     },
     {
       "t": "2026-11-03T00:00:41Z",
-      "text": "The recorded attendance was 97,112.",
+      "text": "The attendance was 97,112 people.",
       "cites": [
         "wiki:box:1383838055:attendance"
       ]
     },
     {
       "t": "2026-11-03T00:00:50Z",
-      "text": "The reports also name Victoria, the state where Flemington Racecourse sits.",
+      "text": "The reports also name Victoria, the Australian state where the race was held.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
       "t": "2026-11-03T00:00:59Z",
-      "text": "This account was reported by AFP.",
+      "text": "The account of the race was reported by AFP.",
       "cites": [
         "wiki:2026-11-03:13"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:07Z",
+      "text": "This film draws on Wikipedia, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-03:13",
+        "wiki:rev:1383838055:1",
+        "views:en:2026_Melbourne_Cup:30d",
+        "wd:Q141736900:P31"
       ]
     }
   ],
@@ -283,6 +312,10 @@
     {
       "t": "2026-11-03T00:00:58Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-03T00:01:06Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -355,12 +388,54 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:07Z",
+      "until": "2026-11-03T00:01:13Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-03:13"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383838055:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Melbourne_Cup:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141736900:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.001158
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.001583
   }
 }

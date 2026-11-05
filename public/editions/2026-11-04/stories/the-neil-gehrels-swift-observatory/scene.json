@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:26Z"
+    "end": "2026-11-04T00:00:33Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -105,7 +105,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:21Z",
+      "t": "2026-11-04T00:00:23Z",
       "lon": 102,
       "lat": -0.6875,
       "range": 1294920.0747536505,
@@ -114,7 +114,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:22Z",
+      "t": "2026-11-04T00:00:25Z",
       "lon": 102,
       "lat": -0.6875,
       "range": 1172600,
@@ -123,11 +123,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:26Z",
+      "t": "2026-11-04T00:00:28Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
+      "lon": 102,
+      "lat": -0.6875,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:33Z",
       "lon": 77,
       "lat": -0.6875,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -141,21 +159,28 @@
   "beats": [
     {
       "t": "2026-11-04T00:00:01Z",
-      "text": "The Neil Gehrels Swift Observatory, a space telescope for studying gamma-ray bursts, re-enters Earth's atmosphere over Sumatra, ending its mission of nearly 22 years.",
+      "text": "The Neil Gehrels Swift Observatory, a space telescope used to study gamma-ray bursts, is re-entering Earth's atmosphere over Sumatra, bringing its mission of nearly 22 years to an end.",
       "cites": [
         "wiki:2026-11-04:5"
       ]
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "The re-entry is reported over Sumatra, in Indonesia.",
+      "text": "The reports place the re-entry over Sumatra, in Indonesia.",
       "cites": [
         "wiki:2026-11-04:5"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "NASA is the agency reporting the event.",
+      "text": "The report comes from NASA's coverage of the observatory.",
+      "cites": [
+        "wiki:2026-11-04:5"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
+      "text": "This explainer draws on Wikipedia's current events listing, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:5"
       ]
@@ -180,6 +205,10 @@
     {
       "t": "2026-11-04T00:00:18Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -200,12 +229,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:00:27Z",
+      "until": "2026-11-04T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-04:5"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.000456
   }
 }

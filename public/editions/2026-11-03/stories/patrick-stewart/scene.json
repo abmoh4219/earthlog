@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:38Z"
+    "end": "2026-11-03T00:01:45Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -225,7 +225,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:26Z",
+      "t": "2026-11-03T00:01:28Z",
       "lon": 26.173057887419542,
       "lat": 46.99474461608802,
       "range": 19921847.303902317,
@@ -234,7 +234,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:35Z",
+      "t": "2026-11-03T00:01:38Z",
       "lon": 26.173057887419542,
       "lat": 46.99474461608802,
       "range": 18040000,
@@ -243,11 +243,38 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:38Z",
-      "lon": 1.1730578874195317,
-      "lat": 46.99474461608802,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-03T00:01:41Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:42Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2589840.149507301,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:43Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:45Z",
+      "lon": -143.24367999999998,
+      "lat": 33.36473,
+      "range": 14000000,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -268,21 +295,21 @@
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "Over a career of more than 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award.",
+      "text": "Across more than 60 years on stage and screen, he received three Laurence Olivier Awards and a Grammy Award, and was nominated for a Tony Award.",
       "cites": [
         "wiki:rev:1383779868:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Sir Patrick Stewart, born 13 July 1940, was an English actor.",
+      "text": "Sir Patrick Stewart was an English actor, born on 13 July 1940.",
       "cites": [
         "wiki:rev:1383779868:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "He was born on 13 July 1940 in Mirfield.",
+      "text": "Patrick Stewart was born on 13 July 1940 in Mirfield.",
       "cites": [
         "wd:Q16296:P569",
         "wd:Q16296:P19"
@@ -299,7 +326,7 @@
     },
     {
       "t": "2026-11-03T00:00:38Z",
-      "text": "He also worked for the University of Oxford and the University of Huddersfield.",
+      "text": "He worked for the University of Oxford and the University of Huddersfield.",
       "cites": [
         "wd:Q16296:P108:Q34433",
         "wd:Q16296:P108:Q3056815"
@@ -307,7 +334,7 @@
     },
     {
       "t": "2026-11-03T00:00:44Z",
-      "text": "Wikidata lists 8 awards, including the Laurence Olivier Award for Best Actor in a Supporting Role (2009) and an honorary doctorate from the Vrije Universiteit Brussel (2015).",
+      "text": "8 awards are on record, including a Laurence Olivier Award for Best Actor in a Supporting Role (2009) and an honorary doctorate from the Vrije Universiteit Brussel, received in 2015.",
       "cites": [
         "wd:Q16296:P166:Q6500772",
         "wd:Q16296:P166:Q55139818"
@@ -315,7 +342,7 @@
     },
     {
       "t": "2026-11-03T00:00:50Z",
-      "text": "He is known for his work on X-Men and Star Trek: The Next Generation.",
+      "text": "He is known for X-Men and Star Trek: The Next Generation.",
       "cites": [
         "wd:Q16296:P800:Q2006869",
         "wd:Q16296:P800:Q16290"
@@ -323,7 +350,7 @@
     },
     {
       "t": "2026-11-03T00:00:58Z",
-      "text": "Stewart died on 28 October 2026 in Los Angeles, aged 86.",
+      "text": "Patrick Stewart died on 28 October 2026 in Los Angeles, aged 86.",
       "cites": [
         "wd:Q16296:P570",
         "wd:Q16296:P20",
@@ -332,22 +359,21 @@
     },
     {
       "t": "2026-11-03T00:01:15Z",
-      "text": "On 3 November 2026, 82,458 people read his English Wikipedia article, about 21 times the usual daily figure.",
+      "text": "On 3 November 2026, 82,458 people read the English article, about 21 times the usual daily count.",
       "cites": [
         "views:en:Patrick_Stewart:2026-11-03",
         "views:en:Patrick_Stewart:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:21Z",
-      "text": "The article was read in 11 languages, and after English, German was the most read at 6,690 readers.",
+      "t": "2026-11-03T00:01:22Z",
+      "text": "The article was read in 11 languages, and after English, German was the most read, with 6,690 readers.",
       "cites": [
-        "views:en:Patrick_Stewart:2026-11-03",
         "views:de:Patrick_Stewart:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:01:27Z",
+      "t": "2026-11-03T00:01:29Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:de:Patrick_Stewart:2026-11-03",
@@ -356,6 +382,15 @@
         "views:fr:Patrick_Stewart:2026-11-03",
         "views:it:Patrick_Stewart:2026-11-03",
         "views:ja:パトリック・スチュワート:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:39Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383779868:231",
+        "views:en:Patrick_Stewart:2026-11-03",
+        "wd:Q16296:P31"
       ]
     }
   ],
@@ -394,6 +429,10 @@
     {
       "t": "2026-11-03T00:01:14Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:38Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -736,12 +775,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:39Z",
+      "until": "2026-11-03T00:01:45Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383779868:231"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Patrick_Stewart:2026-11-03"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q16296:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.003404
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.004687
   }
 }

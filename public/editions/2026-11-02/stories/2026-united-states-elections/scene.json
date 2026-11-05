@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:01:39Z"
+    "end": "2026-11-02T00:01:46Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -209,7 +209,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:01:27Z",
+      "t": "2026-11-02T00:01:29Z",
       "lon": 31.456263513756227,
       "lat": 49.783414550938424,
       "range": 19921847.303902317,
@@ -218,7 +218,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:35Z",
+      "t": "2026-11-02T00:01:38Z",
       "lon": 31.456263513756227,
       "lat": 49.783414550938424,
       "range": 18040000,
@@ -227,11 +227,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:39Z",
-      "lon": 6.456263513756198,
-      "lat": 49.783414550938424,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-02T00:01:42Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:43Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:46Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -252,14 +270,14 @@
     },
     {
       "t": "2026-11-02T00:00:08Z",
-      "text": "According to the article, the department sought a Supreme Court injunction on November 2, 2026, to keep up to 20,000 mail-in ballots in California apart.",
+      "text": "Just before the election on November 2, 2026, the department sought a Supreme Court injunction seeking to have up to 20,000 mail-in ballots in California kept apart.",
       "cites": [
         "wiki:rev:1383861407:132"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "The war with Iran became a subject of Democratic campaigning ahead of the November 3 midterm elections.",
+      "text": "Ahead of the November 3 midterm elections, the war with Iran became a subject of Democratic campaigning.",
       "cites": [
         "wiki:rev:1383861407:147"
       ]
@@ -304,21 +322,21 @@
     },
     {
       "t": "2026-11-02T00:00:53Z",
-      "text": "In the House, Democrats hold 251 seats and Republicans 153, with 31 still to be called, and 218 seats make a majority.",
+      "text": "In the House, Democrats hold 251 seats and Republicans 153, with 31 still to be called; 218 seats make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
       "t": "2026-11-02T00:00:59Z",
-      "text": "On the map, 41 districts changed party, and 49 are not yet called in the race tables.",
+      "text": "In the race tables, 41 districts changed party and 49 are not yet called.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
       "t": "2026-11-02T00:01:07Z",
-      "text": "Readers also looked up United States midterm election (131,229), James Talarico (62,655), and 2026 United States Senate elections (61,876).",
+      "text": "Readers also turned to the articles on the United States midterm election with 131,229 readers, James Talarico with 62,655, and the 2026 Senate elections with 61,876.",
       "cites": [
         "views:en:United_States_midterm_election:2026-11-02",
         "views:en:James_Talarico:2026-11-02",
@@ -327,14 +345,14 @@
     },
     {
       "t": "2026-11-02T00:01:16Z",
-      "text": "On 2 November 2026, 201,102 people read about the article, about 8 times the usual level.",
+      "text": "On 2 November 2026, 201,102 people read the article, about 8 times the usual daily count.",
       "cites": [
         "views:en:2026_United_States_elections:2026-11-02",
         "views:en:2026_United_States_elections:prior"
       ]
     },
     {
-      "t": "2026-11-02T00:01:22Z",
+      "t": "2026-11-02T00:01:23Z",
       "text": "The article was read in 10 languages, and after English, the most readers were in Persian, with 26,718.",
       "cites": [
         "views:en:2026_United_States_elections:2026-11-02",
@@ -342,8 +360,8 @@
       ]
     },
     {
-      "t": "2026-11-02T00:01:28Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "t": "2026-11-02T00:01:30Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-02",
         "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-02",
@@ -351,6 +369,15 @@
         "views:zh:2026年美國選舉:2026-11-02",
         "views:it:Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026:2026-11-02",
         "views:de:Wahlen_in_den_Vereinigten_Staaten_2026:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:40Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383861407:0",
+        "views:en:2026_United_States_elections:2026-11-02",
+        "wd:Q115857612:P31"
       ]
     }
   ],
@@ -385,6 +412,10 @@
     {
       "t": "2026-11-02T00:01:15Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:01:39Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -1074,12 +1105,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:01:40Z",
+      "until": "2026-11-02T00:01:46Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383861407:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_United_States_elections:2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q115857612:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.001736
   }
 }

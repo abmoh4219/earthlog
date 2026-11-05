@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:01:30Z"
+    "end": "2026-11-04T00:01:37Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -182,7 +182,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:01:18Z",
+      "t": "2026-11-04T00:01:20Z",
       "lon": 82.55002448487004,
       "lat": 44.88985093986894,
       "range": 16963569.656329893,
@@ -191,7 +191,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:26Z",
+      "t": "2026-11-04T00:01:29Z",
       "lon": 82.55002448487004,
       "lat": 44.88985093986894,
       "range": 15361165.655568855,
@@ -200,11 +200,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:30Z",
-      "lon": 57.55002448487005,
-      "lat": 44.88985093986894,
-      "range": 46083496.96670657,
-      "heading": 28,
+      "t": "2026-11-04T00:01:33Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:34Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:37Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -232,21 +250,21 @@
     },
     {
       "t": "2026-11-04T00:00:15Z",
-      "text": "Senators are divided into three classes, with terms staggered so that a different class is elected every other year.",
+      "text": "Senators are divided into three classes, with staggered terms so that a different class is elected every other year.",
       "cites": [
         "wiki:rev:1383846666:0"
       ]
     },
     {
       "t": "2026-11-04T00:00:25Z",
-      "text": "Of this year's 35 Senate races, Democrats won 20, Republicans 13, and 2 have not yet been called.",
+      "text": "Across 35 Senate races this year, Democrats won 20, Republicans won 13, and 2 have not yet been called.",
       "cites": [
         "elex:2026-united-states-senate-elections:the-senate-table"
       ]
     },
     {
       "t": "2026-11-04T00:00:31Z",
-      "text": "Democrats flipped Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
+      "text": "Democrats gained seats in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
       "cites": [
         "elex:2026-united-states-senate-elections:senate-ia",
         "elex:2026-united-states-senate-elections:senate-nc",
@@ -259,14 +277,14 @@
     },
     {
       "t": "2026-11-04T00:00:39Z",
-      "text": "Across 36 governor's races this year, Democrats won 22, Republicans 12, and 2 have not yet been called.",
+      "text": "Across 36 governor's races this year, Democrats won 22, Republicans won 12, and 2 have not yet been called.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-table"
       ]
     },
     {
       "t": "2026-11-04T00:00:45Z",
-      "text": "Democrats gained Georgia, Iowa, Nevada, Ohio and Texas.",
+      "text": "Democrats gained governorships in Georgia, Iowa, Nevada, Ohio and Texas.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-ga",
         "elex:2026-united-states-gubernatorial-elections:governors-ia",
@@ -277,40 +295,49 @@
     },
     {
       "t": "2026-11-04T00:00:53Z",
-      "text": "In the House, Democrats hold 251 seats and Republicans 153, with 31 still to be called; 218 make a majority.",
+      "text": "In the House, Democrats hold 251 seats and Republicans hold 153, with 31 still to be called; 218 seats make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
       "t": "2026-11-04T00:00:59Z",
-      "text": "On the map, 41 districts changed party, and 49 are not yet called in the race tables.",
+      "text": "In the race tables, 41 districts changed party and 49 are not yet called.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
       "t": "2026-11-04T00:01:07Z",
-      "text": "On 4 November 2026, 244,552 people read the English article, about 109 times the usual daily figure.",
+      "text": "On 4 November 2026, 244,552 people read the English article, about 109 times the usual daily readership.",
       "cites": [
         "views:en:2028_United_States_Senate_elections:2026-11-04",
         "views:en:2028_United_States_Senate_elections:prior"
       ]
     },
     {
-      "t": "2026-11-04T00:01:13Z",
-      "text": "The article was read in 3 languages; after English, Turkish readers were most numerous, at 79.",
+      "t": "2026-11-04T00:01:14Z",
+      "text": "The article was read in 3 languages, and after English, Turkish had the most readers with 79.",
       "cites": [
         "views:en:2028_United_States_Senate_elections:2026-11-04",
         "views:tr:2028_Amerika_Birleşik_Devletleri_Senatosu_seçimleri:2026-11-04"
       ]
     },
     {
-      "t": "2026-11-04T00:01:19Z",
+      "t": "2026-11-04T00:01:21Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:tr:2028_Amerika_Birleşik_Devletleri_Senatosu_seçimleri:2026-11-04",
         "views:ko:2028년_미국_상원의원_선거:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:31Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383846666:2",
+        "views:en:2028_United_States_Senate_elections:2026-11-04",
+        "wd:Q115858135:P31"
       ]
     }
   ],
@@ -341,6 +368,10 @@
     {
       "t": "2026-11-04T00:01:06Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-04T00:01:30Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -736,12 +767,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:01:31Z",
+      "until": "2026-11-04T00:01:37Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383846666:2"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2028_United_States_Senate_elections:2026-11-04"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q115858135:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.00145
   }
 }

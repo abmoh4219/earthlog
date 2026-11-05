@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:37Z"
+    "end": "2026-11-03T00:01:44Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -200,7 +200,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:25Z",
+      "t": "2026-11-03T00:01:27Z",
       "lon": 85.94562154172881,
       "lat": 14.343962212805014,
       "range": 15180445.482150346,
@@ -209,7 +209,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:33Z",
+      "t": "2026-11-03T00:01:37Z",
       "lon": 85.94562154172881,
       "lat": 14.343962212805014,
       "range": 13746478.040936952,
@@ -218,11 +218,38 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:37Z",
-      "lon": 60.94562154172877,
-      "lat": 14.343962212805014,
-      "range": 41239434.122810856,
-      "heading": 28,
+      "t": "2026-11-03T00:01:40Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:41Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8004960.462113476,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:42Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:44Z",
+      "lon": 54.360000000000014,
+      "lat": 20.565,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -236,9 +263,9 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar.",
+      "text": "The film is the second highest-grossing Indian film of 2026, and the highest-grossing Tamil film of 2026 and of all time.",
       "cites": [
-        "wiki:rev:1383739722:0"
+        "wiki:rev:1383739722:9"
       ]
     },
     {
@@ -250,30 +277,24 @@
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "It is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
+      "text": "Jailer 2 is a 2026 Indian Tamil-language action comedy, written and directed by Nelson Dilipkumar.",
       "cites": [
-        "wiki:rev:1383739722:9"
+        "wiki:rev:1383739722:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Jailer 2 stars Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu, among others, with music by Anirudh Ravichander.",
+      "text": "Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu lead a cast that includes 2 more names, with music by Anirudh Ravichander.",
       "cites": [
         "wiki:box:1383739722:starring",
         "wiki:box:1383739722:music"
       ]
     },
     {
-      "t": "2026-11-03T00:00:30Z",
-      "text": "The film was released on 15 October 2026.",
+      "t": "2026-11-03T00:00:33Z",
+      "text": "The film was released on 15 October 2026, and according to Wikipedia its box office is ₹808 crore.",
       "cites": [
-        "wiki:box:1383739722:released"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:35Z",
-      "text": "Wikipedia records its box office as ₹808 crore.",
-      "cites": [
+        "wiki:box:1383739722:released",
         "wiki:box:1383739722:box-office"
       ]
     },
@@ -305,28 +326,37 @@
     },
     {
       "t": "2026-11-03T00:01:14Z",
-      "text": "English Wikipedia recorded 96,128 readers on 3 November 2026, about 8 times the usual median of 11,660 a day.",
+      "text": "On 3 November 2026, 96,128 people read the English Wikipedia article, about 8× the usual daily figure.",
       "cites": [
         "views:en:Jailer_2:2026-11-03",
         "views:en:Jailer_2:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:20Z",
-      "text": "The article was read in 5 languages, and after English, Tamil had the most readers with 210.",
+      "t": "2026-11-03T00:01:21Z",
+      "text": "The article is read in 5 languages, and after English the most readers were in Tamil, with 210.",
       "cites": [
         "views:en:Jailer_2:2026-11-03",
         "views:ta:ஜெயிலர்_2:2026-11-03"
       ]
     },
     {
-      "t": "2026-11-03T00:01:26Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "t": "2026-11-03T00:01:28Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:ta:ஜெயிலர்_2:2026-11-03",
         "views:bn:জেলার_২:2026-11-03",
         "views:ms:Jailer_2:2026-11-03",
         "views:fa:زندانبان_۲:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:38Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383739722:9",
+        "views:en:Jailer_2:2026-11-03",
+        "wd:Q133255153:P31"
       ]
     }
   ],
@@ -357,6 +387,10 @@
     {
       "t": "2026-11-03T00:01:13Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-03T00:01:37Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -656,12 +690,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:38Z",
+      "until": "2026-11-03T00:01:44Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383739722:9"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Jailer_2:2026-11-03"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q133255153:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.003979
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.001977
   }
 }

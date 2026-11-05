@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:01:24Z"
+    "end": "2026-11-02T00:01:31Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -159,7 +159,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:01:12Z",
+      "t": "2026-11-02T00:01:14Z",
       "lon": 37.96547597643015,
       "lat": 45.10772889324077,
       "range": 19921847.303902317,
@@ -168,7 +168,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:20Z",
+      "t": "2026-11-02T00:01:23Z",
       "lon": 37.96547597643015,
       "lat": 45.10772889324077,
       "range": 18040000,
@@ -177,11 +177,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:24Z",
-      "lon": 12.965475976430184,
-      "lat": 45.10772889324077,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-02T00:01:27Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:28Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:31Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -195,28 +213,28 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Wildwood premiered at the BFI London Film Festival on October 11, 2026, and was released in the United States by Fathom Entertainment on October 23, 2026.",
+      "text": "Wildwood premiered at the BFI London Film Festival on October 11, 2026, before its United States release by Fathom Entertainment on October 23, 2026.",
       "cites": [
         "wiki:rev:1383842384:8"
       ]
     },
     {
       "t": "2026-11-02T00:00:08Z",
-      "text": "The score soundtrack came out on October 23, 2026, with a new original song by The Decemberists, and a single was released on October 9.",
+      "text": "The score soundtrack came out on October 23, 2026, with a new original song by The Decemberists, and a single followed on October 9.",
       "cites": [
         "wiki:rev:1383842384:27"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "Directed by Travis Knight and written by Chris Butler, this 2026 American stop-motion animated epic fantasy is based on the 2011 novel by Colin Meloy and Carson Ellis.",
+      "text": "Wildwood is a 2026 American stop-motion animated epic fantasy film directed by Travis Knight and written by Chris Butler, adapted from the 2011 novel by Colin Meloy and Carson Ellis.",
       "cites": [
         "wiki:rev:1383842384:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "The film stars Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay and Richard E. Grant, with music by Dario Marianelli.",
+      "text": "Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay and Richard E. Grant head the cast, and Dario Marianelli composed the music.",
       "cites": [
         "wiki:box:1383842384:starring",
         "wiki:box:1383842384:music"
@@ -224,7 +242,7 @@
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "It was released on 11 October 2026 at the BFI and on 23 October 2026 in the United States, and Wikipedia records its box office as $53 million.",
+      "text": "The film was released on 11 October 2026 at the BFI and on 23 October 2026 in the United States, and Wikipedia lists its box office at $53 million.",
       "cites": [
         "wiki:box:1383842384:released",
         "wiki:box:1383842384:box-office"
@@ -232,7 +250,7 @@
     },
     {
       "t": "2026-11-02T00:00:43Z",
-      "text": "Of the credited people, 13 have a birthplace on record, and 9 of them were born in the United States.",
+      "text": "Of the people credited, 13 have a birthplace on record, and 9 of them were born in the United States.",
       "cites": [
         "wd:Q15306031:P19",
         "wd:Q184805:P19",
@@ -251,7 +269,7 @@
     },
     {
       "t": "2026-11-02T00:00:51Z",
-      "text": "Some were born further afield: Jacob Tremblay in Vancouver, Canada, Carey Mulligan in City of Westminster, United Kingdom, and Dario Marianelli in Pisa, Italy.",
+      "text": "Jacob Tremblay was born in Vancouver, Canada, Carey Mulligan in City of Westminster, United Kingdom, and Dario Marianelli in Pisa, Italy.",
       "cites": [
         "wd:Q20965633:P19",
         "wd:Q219655:P19",
@@ -260,23 +278,23 @@
     },
     {
       "t": "2026-11-02T00:01:01Z",
-      "text": "On 2 November 2026, 69,768 people read the English Wikipedia article, about 9× the usual daily count.",
+      "text": "On 2 November 2026, 69,768 people read the English Wikipedia article, about 9 times the usual daily level.",
       "cites": [
         "views:en:Wildwood_(film):2026-11-02",
         "views:en:Wildwood_(film):prior"
       ]
     },
     {
-      "t": "2026-11-02T00:01:07Z",
-      "text": "The article was read in 10 languages, and after English, the most readers were in German, with 2,477.",
+      "t": "2026-11-02T00:01:08Z",
+      "text": "The article was read in 10 languages, and after English the most readers were in German, with 2,477 on that day.",
       "cites": [
         "views:en:Wildwood_(film):2026-11-02",
         "views:de:Wildwood_(Film):2026-11-02"
       ]
     },
     {
-      "t": "2026-11-02T00:01:13Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "t": "2026-11-02T00:01:15Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:de:Wildwood_(Film):2026-11-02",
         "views:it:Wildwood_-_I_segreti_del_bosco_proibito:2026-11-02",
@@ -284,6 +302,15 @@
         "views:fr:Wildwood_:_La_Prophétie_de_la_forêt:2026-11-02",
         "views:pt:Wildwood_(filme):2026-11-02",
         "views:zh:荒野叢林_(電影):2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:25Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383842384:8",
+        "views:en:Wildwood_(film):2026-11-02",
+        "wd:Q123058740:P31"
       ]
     }
   ],
@@ -310,6 +337,10 @@
     {
       "t": "2026-11-02T00:01:00Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:01:24Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -664,12 +695,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:01:25Z",
+      "until": "2026-11-02T00:01:31Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383842384:8"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Wildwood_(film):2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q123058740:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.002073
   }
 }

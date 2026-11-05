@@ -5,6 +5,7 @@ import {
   Database,
   HeartHandshake,
   ListChecks,
+  Plus,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -133,6 +134,41 @@ const SHOWCASE = [
   },
 ];
 
+const FAQ = [
+  {
+    q: "What is Earthlog?",
+    a: "A daily edition of yesterday's most-followed stories, each told as a short film on a 3D globe: an election state by state, a life drawn across the map, a flight's route to the crash site. Every sentence links to its source.",
+  },
+  {
+    q: "Where do the stories come from?",
+    a: "Two public signals: what the news reported (Wikipedia's Current events, which cites news outlets) and what the world read (Wikipedia's most-read articles). Stories are ranked by attention and balanced across continents and kinds of news.",
+  },
+  {
+    q: "Is any of it written by AI?",
+    a: "Every film is first written by templates from the data. Claude may then rewrite the captions once, offline, and each chapter is checked in code: every number must appear in the cited evidence, or the template stays. Films with AI narration say so on screen. Visitors never trigger an AI call.",
+  },
+  {
+    q: "How fresh is the data?",
+    a: "A new edition is built every night. For three days an edition follows the news (results and reports still fill in), then it freezes. Every film shows when its data was read.",
+  },
+  {
+    q: "Do I need an account? Am I tracked?",
+    a: "No account, no ads, no analytics. The site is static files; Earthlog records nothing about your visit.",
+  },
+  {
+    q: "Can I share a story or download a video?",
+    a: "Yes. The link button copies a link to the exact moment you are watching. The film button exports the story as an MP4, landscape or vertical, with its captions, stats and sources.",
+  },
+  {
+    q: "Does it work on my phone?",
+    a: "Yes, on any recent phone or computer with WebGL. The globe is heavy, so the first load takes a few seconds on a slow connection.",
+  },
+  {
+    q: "Can I use the code or add a kind of story?",
+    a: "Earthlog is MIT-licensed. Each kind of story is a lens: one file and a few tests. The contributing guide explains how to add one.",
+  },
+];
+
 function SectionHead({
   kicker,
   title,
@@ -184,46 +220,50 @@ export default async function Landing() {
       <SiteNav />
 
       {/* Hero */}
-      <section className="mx-auto grid max-w-6xl items-center gap-8 px-5 pt-12 pb-8 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:gap-12 lg:pt-20 lg:pb-16">
-        <div>
-          {latest && (
-            <p className="text-sm text-ice/70">
-              Edition of{" "}
-              {day(latest, { weekday: "long", day: "numeric", month: "long", year: "numeric" })}
+      <div className="bg-[linear-gradient(180deg,#0a1728_0%,#020409_100%)]">
+        <section className="mx-auto grid max-w-6xl items-center gap-8 px-5 pt-12 pb-8 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:gap-12 lg:pt-20 lg:pb-16">
+          <div>
+            {latest && (
+              <p className="flex items-center gap-2 text-sm text-ice/75">
+                <span className="size-2 rounded-full bg-[#f2b65a]" aria-hidden="true" />
+                Edition of{" "}
+                {day(latest, { weekday: "long", day: "numeric", month: "long", year: "numeric" })}
+              </p>
+            )}
+            <h1 className="mt-4 text-[2.6rem] leading-[1.05] font-semibold tracking-tight text-frost sm:text-6xl">
+              Yesterday&apos;s world, <span className="text-ice">explained in 3D.</span>
+            </h1>
+            <p className="mt-5 max-w-xl text-base text-ice/75 sm:text-lg">
+              Every morning, the previous day&apos;s most-followed stories become short films on a
+              3D globe. Each story gets the analysis its kind needs, and every claim links to its
+              source.
             </p>
-          )}
-          <h1 className="mt-4 text-[2.6rem] leading-[1.05] font-semibold tracking-tight text-frost sm:text-6xl">
-            Yesterday&apos;s world, <span className="text-ice">explained in 3D.</span>
-          </h1>
-          <p className="mt-5 max-w-xl text-base text-ice/75 sm:text-lg">
-            Every morning, the previous day&apos;s most-followed stories become short films on a 3D
-            globe. Each story gets the analysis its kind needs, and every claim links to its source.
-          </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Link
-              href="/today"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-frost px-5 py-3 font-semibold text-void transition hover:bg-white"
-            >
-              Open today&apos;s edition <ArrowRight size={16} />
-            </Link>
-            <a
-              href={REPO_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-ice/20 px-5 py-3 font-semibold text-frost transition hover:border-ice/45 hover:bg-ice/5"
-            >
-              <GithubMark size={16} /> View the source
-            </a>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link
+                href="/today"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-ice px-5 py-3 font-semibold text-void transition hover:bg-frost"
+              >
+                Open today&apos;s edition <ArrowRight size={16} />
+              </Link>
+              <a
+                href={REPO_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-ice/20 px-5 py-3 font-semibold text-frost transition hover:border-ice/45 hover:bg-ice/5"
+              >
+                <GithubMark size={16} /> View the source
+              </a>
+            </div>
+            <p className="mt-6 text-sm text-ice/55">
+              {stories.length} stories today · {editions.length} editions · every sentence cited ·
+              no account
+            </p>
           </div>
-          <p className="mt-6 text-sm text-ice/55">
-            {stories.length} stories today · {editions.length} editions · every sentence cited · no
-            account
-          </p>
-        </div>
-        <div className="relative mx-auto aspect-square w-full max-w-[340px] sm:max-w-[460px] lg:max-w-[560px]">
-          {latest && <HeroGlobe date={latest} stories={globeStories} />}
-        </div>
-      </section>
+          <div className="relative mx-auto aspect-square w-full max-w-[340px] sm:max-w-[460px] lg:max-w-[560px]">
+            {latest && <HeroGlobe date={latest} stories={globeStories} />}
+          </div>
+        </section>
+      </div>
 
       {/* Today's edition, set like a front page: the lead, then the rest by rank. */}
       {latest && lead && (
@@ -284,7 +324,7 @@ export default async function Landing() {
       )}
 
       {/* Lenses */}
-      <section id="lenses" className="scroll-mt-16 border-t border-ice/10">
+      <section id="lenses" className="scroll-mt-16 border-t border-ice/10 bg-[#050b14]">
         <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
           <SectionHead kicker="Lenses" title="Each story gets the analysis its kind needs.">
             An election is told with its results, a person with their life, a crash with its route.
@@ -342,7 +382,7 @@ export default async function Landing() {
       </section>
 
       {/* How it works */}
-      <section id="how" className="scroll-mt-16 border-t border-ice/10">
+      <section id="how" className="scroll-mt-16 border-t border-ice/10 bg-[#050b14]">
         <div className="mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_1.1fr] lg:py-20">
           <div>
             <SectionHead kicker="How it works" title="Made overnight, free to watch.">
@@ -433,6 +473,30 @@ pnpm validate:scenes      # every sentence cited`}</code>
         </div>
       </section>
 
+      {/* FAQ */}
+      <section id="faq" className="scroll-mt-16 border-t border-ice/10">
+        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_1.6fr] lg:py-20">
+          <SectionHead kicker="FAQ" title="Questions, answered.">
+            Something else? Open an issue on GitHub.
+          </SectionHead>
+          <div className="divide-y divide-ice/10 border-y border-ice/10">
+            {FAQ.map((f) => (
+              <details key={f.q} className="group">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-4 font-medium text-frost [&::-webkit-details-marker]:hidden">
+                  {f.q}
+                  <Plus
+                    size={18}
+                    className="shrink-0 text-ice/60 transition group-open:rotate-45"
+                    aria-hidden="true"
+                  />
+                </summary>
+                <p className="pb-5 text-sm leading-relaxed text-ice/70 sm:text-base">{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Open source */}
       <section className="border-t border-ice/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-16 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:py-20">
@@ -450,7 +514,7 @@ pnpm validate:scenes      # every sentence cited`}</code>
               href={REPO_URL}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-frost px-5 py-3 font-semibold text-void transition hover:bg-white"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-ice px-5 py-3 font-semibold text-void transition hover:bg-frost"
             >
               <GithubMark size={16} /> Star on GitHub
             </a>

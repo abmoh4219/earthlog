@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:50Z"
+    "end": "2026-11-04T00:00:57Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -134,7 +134,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:45Z",
+      "t": "2026-11-04T00:00:47Z",
       "lon": 89.68,
       "lat": 22.085,
       "range": 4002480.231056738,
@@ -143,7 +143,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:46Z",
+      "t": "2026-11-04T00:00:49Z",
       "lon": 89.68,
       "lat": 22.085,
       "range": 3624400,
@@ -152,11 +152,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:50Z",
+      "t": "2026-11-04T00:00:52Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:53Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:57Z",
       "lon": 64.68000000000006,
       "lat": 22.085,
-      "range": 14000000,
-      "heading": -27.8,
+      "range": 21746400,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -170,7 +188,7 @@
   "beats": [
     {
       "t": "2026-11-04T00:00:01Z",
-      "text": "After five days of worker protests and clashes with police, the Bangladeshi garment industry wage board has agreed to raise minimum wages.",
+      "text": "The Bangladeshi garment industry wage board has agreed to raise minimum wages, following five days of worker protests and clashes with police.",
       "cites": [
         "wiki:2026-11-04:1"
       ]
@@ -184,14 +202,14 @@
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "Inflation in Bangladesh was 8.8% in 2025, down from 10.5% in 2024.",
+      "text": "Inflation in Bangladesh fell to 8.8% in 2025, from 10.5% in 2024.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:BD"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "The economy grew 3.5% in 2025, while unemployment stood at 3.8%.",
+      "text": "The economy grew 3.5% in 2025, and unemployment stood at 3.8%.",
       "cites": [
         "wb:NY.GDP.MKTP.KD.ZG:BD",
         "wb:SL.UEM.TOTL.ZS:BD"
@@ -199,16 +217,24 @@
     },
     {
       "t": "2026-11-04T00:00:29Z",
-      "text": "Across South Asia, Bangladesh's 8.8% inflation is the highest latest-year figure, compared with a median of 2.7%.",
+      "text": "Across South Asia, Bangladesh's 8.8% inflation compares with a median of 2.7%, and is the highest figure in the region.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:region:south-asia"
       ]
     },
     {
       "t": "2026-11-04T00:00:43Z",
-      "text": "This report is from AFP.",
+      "text": "This report comes from AFP.",
       "cites": [
         "wiki:2026-11-04:1"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:51Z",
+      "text": "The sources are Wikipedia's current events page and World Bank Open Data, from the World Development Indicators.",
+      "cites": [
+        "wiki:2026-11-04:1",
+        "wb:FP.CPI.TOTL.ZG:region:south-asia"
       ]
     }
   ],
@@ -235,6 +261,10 @@
     {
       "t": "2026-11-04T00:00:42Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-04T00:00:50Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -568,12 +598,38 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:00:51Z",
+      "until": "2026-11-04T00:00:57Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-04:1"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:south-asia"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.000782
   }
 }

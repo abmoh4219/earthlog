@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:12Z"
+    "end": "2026-11-03T00:01:19Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -166,7 +166,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:08Z",
+      "t": "2026-11-03T00:01:09Z",
       "lon": 151.2117,
       "lat": -34.5556,
       "range": 1294920.0747536505,
@@ -175,7 +175,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:09Z",
+      "t": "2026-11-03T00:01:11Z",
       "lon": 151.2117,
       "lat": -34.5556,
       "range": 1172600,
@@ -184,11 +184,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:12Z",
+      "t": "2026-11-03T00:01:14Z",
+      "lon": 151.2117,
+      "lat": -34.5556,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:15Z",
+      "lon": 151.2117,
+      "lat": -34.5556,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:01:19Z",
       "lon": 126.21170000000006,
       "lat": -34.5556,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -202,7 +220,7 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "The Reserve Bank of Australia raised its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs linked to the Iran war.",
+      "text": "The Reserve Bank of Australia has raised its benchmark interest rate by 0.25 percentage points, to 4.85%, its highest level since 2008.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
@@ -223,7 +241,7 @@
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "The decision came from the Reserve Bank of Australia, which is headquartered in Sydney.",
+      "text": "The decision was made by the Reserve Bank of Australia, a central bank headquartered in Sydney.",
       "cites": [
         "wd:Q1506724:P159",
         "wiki:2026-11-03:4"
@@ -246,14 +264,32 @@
     },
     {
       "t": "2026-11-03T00:00:51Z",
-      "text": "Across East Asia & Pacific, Australia's 2.9% compares with a median of 2.1%, while Mongolia has the highest rate at 8.6%.",
+      "text": "Across East Asia & Pacific, Australia's 2.9% inflation compares with a median of 2.1%, while Mongolia has the highest rate at 8.6%.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
       ]
     },
     {
       "t": "2026-11-03T00:01:05Z",
-      "text": "The story was reported by AFP and published via France 24.",
+      "text": "The story was reported by AFP via France 24.",
+      "cites": [
+        "wiki:2026-11-03:4"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:13Z",
+      "text": "This explainer draws on Wikipedia current events, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data (World Development Indicators).",
+      "cites": [
+        "wiki:2026-11-03:4",
+        "wiki:rev:1383825251:48",
+        "views:en:2026_Iran_war_fuel_crisis:30d",
+        "wd:Q138843305:P31",
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:14Z",
+      "text": "Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
@@ -286,6 +322,10 @@
     {
       "t": "2026-11-03T00:01:04Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-03T00:01:12Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -646,12 +686,62 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:01:13Z",
+      "until": "2026-11-03T00:01:19Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-03:4"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383825251:48"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Iran_war_fuel_crisis:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138843305:P31"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.001385
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.001681
   }
 }

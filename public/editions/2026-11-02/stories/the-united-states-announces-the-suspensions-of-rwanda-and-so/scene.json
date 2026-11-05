@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:00:36Z"
+    "end": "2026-11-02T00:00:43Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -94,7 +94,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:00:32Z",
+      "t": "2026-11-02T00:00:33Z",
       "lon": -97.48,
       "lat": 38.8525,
       "range": 1294920.0747536505,
@@ -103,11 +103,38 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:00:36Z",
+      "t": "2026-11-02T00:00:35Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:38Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:39Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:43Z",
       "lon": -122.48000000000002,
       "lat": 38.8525,
       "range": 14000000,
-      "heading": 7.800000000000001,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -121,7 +148,7 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "The United States has announced the suspension of Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act, starting January 1, 2027.",
+      "text": "The United States is suspending Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act, beginning January 1, 2027.",
       "cites": [
         "wiki:2026-11-02:10"
       ]
@@ -150,9 +177,17 @@
     },
     {
       "t": "2026-11-02T00:00:29Z",
-      "text": "The story was reported by Reuters.",
+      "text": "The story is reported by Reuters.",
       "cites": [
         "wiki:2026-11-02:10"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "text": "Sources include Wikipedia, Current events, and World Bank Open Data from the World Development Indicators, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-02:10",
+        "wb:FP.CPI.TOTL.ZG:US"
       ]
     }
   ],
@@ -175,6 +210,10 @@
     {
       "t": "2026-11-02T00:00:28Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-02T00:00:36Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -444,12 +483,38 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:00:37Z",
+      "until": "2026-11-02T00:00:43Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-02:10"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:US"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.000617
   }
 }

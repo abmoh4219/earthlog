@@ -255,7 +255,7 @@ export function recordClip(
   const state = usePlayer.getState();
   const bundle = state.bundle;
   const mimeType = clipMimeType();
-  if (!bundle || !mimeType) return Promise.reject(new Error("This browser cannot record video."));
+  if (!bundle) return Promise.reject(new Error("No film loaded."));
   const { scene, sources } = bundle;
   const start = ms(scene.window.start);
   const end = ms(scene.window.end);
@@ -376,44 +376,135 @@ export function recordClip(
     ctx.fillText(site, W - pad - sw, pad + (vertical ? 0 : 44));
   };
 
-  return new Promise((resolve, reject) => {
-    const stream = canvas.captureStream(30);
-    const recorder = new MediaRecorder(stream, { mimeType, videoBitsPerSecond: 8_000_000 });
-    const chunks: Blob[] = [];
-    recorder.ondataavailable = (e) => {
-      if (e.data.size) chunks.push(e.data);
-    };
-    let unsubscribe = () => {};
-    const finish = () => {
-      unsubscribe();
-      if (recorder.state !== "inactive") recorder.stop();
-    };
-    register(finish);
-    recorder.onerror = () => {
-      unsubscribe();
-      reject(new Error("Recording failed."));
-    };
-    recorder.onstop = () => {
-      const blob = new Blob(chunks, { type: mimeType });
-      const a = document.createElement("a");
-      a.href = URL.createObjectURL(blob);
-      a.download = `earthlog-${scene.id}-${format === "16:9" ? "landscape" : "vertical"}.${mimeType.includes("mp4") ? "mp4" : "webm"}`;
-      a.click();
-      setTimeout(() => URL.revokeObjectURL(a.href), 10_000);
-      resolve();
-    };
+  const download = (blob: Blob, ext: string) => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `earthlog-${scene.id}-${format === "16:9" ? "landscape" : "vertical"}.${ext}`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 10_000);
+  };
 
-    // From the start, with the director's camera, at the film's own pace.
+  // Frame by frame where the browser can encode (WebCodecs): the film is set to each frame's
+  // exact time, drawn once its map tiles are in, and encoded with a fixed timestamp, so a slow
+  // frame makes the export take longer but never freezes the video.
+  if (typeof VideoEncoder !== "undefined" && typeof VideoFrame !== "undefined") {
+    return steppedExport();
+  }
+  return realTimeExport();
+
+  async function steppedExport(): Promise<void> {
+    const FPS = 30;
+    const { ArrayBufferTarget, Muxer } = await import("mp4-muxer");
+    const muxer = new Muxer({
+      target: new ArrayBufferTarget(),
+      video: { codec: "avc", width: W, height: H, frameRate: FPS },
+      fastStart: "in-memory",
+    });
+    let failure: Error | undefined;
+    const encoder = new VideoEncoder({
+      output: (chunk, meta) => muxer.addVideoChunk(chunk, meta),
+      error: (e) => {
+        failure = e instanceof Error ? e : new Error(String(e));
+      },
+    });
+    const configs: VideoEncoderConfig[] = ["avc1.640028", "avc1.4d0028", "avc1.42002a"].map(
+      (codec) => ({
+        codec,
+        width: W,
+        height: H,
+        bitrate: 8_000_000,
+        framerate: FPS,
+      }),
+    );
+    let config: VideoEncoderConfig | undefined;
+    for (const c of configs) {
+      if ((await VideoEncoder.isConfigSupported(c)).supported) {
+        config = c;
+        break;
+      }
+    }
+    if (!config) return realTimeExport();
+    encoder.configure(config);
+
+    let stopped = false;
+    register(() => {
+      stopped = true;
+    });
     const p = usePlayer.getState();
     p.setDirector(true);
-    p.seekTo(start);
-    if (!usePlayer.getState().clock.playing) p.togglePlay();
-    recorder.start(1000);
-    unsubscribe = onGlobeFrame((globe) => {
-      draw(globe);
-      const t = usePlayer.getState().clock.t;
-      onProgress(Math.min(1, (t - start) / (end - start)));
-      if (t >= end - 100) finish();
+    if (p.clock.playing) p.togglePlay();
+    // The next rendered frame; waits (up to 600 ms) for its tiles so the frame is sharp.
+    const nextFrame = () =>
+      new Promise<HTMLCanvasElement>((resolve) => {
+        const began = performance.now();
+        let seen = 0;
+        const off = onGlobeFrame((globe, loaded) => {
+          seen++;
+          // The frame after the seek already shows the new camera and layers.
+          if (seen >= 1 && (loaded || performance.now() - began > 600)) {
+            off();
+            resolve(globe);
+          }
+        });
+      });
+    const frames = Math.ceil(((end - start) / 1000) * FPS);
+    for (let k = 0; k <= frames && !stopped && !failure; k++) {
+      usePlayer.getState().seekTo(Math.min(end, start + (k * 1000) / FPS));
+      draw(await nextFrame());
+      const frame = new VideoFrame(canvas, {
+        timestamp: Math.round((k * 1e6) / FPS),
+        duration: Math.round(1e6 / FPS),
+      });
+      encoder.encode(frame, { keyFrame: k % (FPS * 2) === 0 });
+      frame.close();
+      onProgress(k / frames);
+      // Back-pressure: don't let the encoder queue grow without bound.
+      while (encoder.encodeQueueSize > 6) await new Promise((r) => setTimeout(r, 4));
+    }
+    await encoder.flush();
+    encoder.close();
+    if (failure) throw failure;
+    muxer.finalize();
+    download(new Blob([muxer.target.buffer], { type: "video/mp4" }), "mp4");
+  }
+
+  function realTimeExport(): Promise<void> {
+    const mime = mimeType;
+    if (!mime) return Promise.reject(new Error("This browser cannot record video."));
+    return new Promise((resolve, reject) => {
+      const stream = canvas.captureStream(30);
+      const recorder = new MediaRecorder(stream, { mimeType: mime, videoBitsPerSecond: 8_000_000 });
+      const chunks: Blob[] = [];
+      recorder.ondataavailable = (e) => {
+        if (e.data.size) chunks.push(e.data);
+      };
+      let unsubscribe = () => {};
+      const finish = () => {
+        unsubscribe();
+        if (recorder.state !== "inactive") recorder.stop();
+      };
+      register(finish);
+      recorder.onerror = () => {
+        unsubscribe();
+        reject(new Error("Recording failed."));
+      };
+      recorder.onstop = () => {
+        download(new Blob(chunks, { type: mime }), mime.includes("mp4") ? "mp4" : "webm");
+        resolve();
+      };
+
+      // From the start, with the director's camera, at the film's own pace.
+      const p = usePlayer.getState();
+      p.setDirector(true);
+      p.seekTo(start);
+      if (!usePlayer.getState().clock.playing) p.togglePlay();
+      recorder.start(1000);
+      unsubscribe = onGlobeFrame((globe) => {
+        draw(globe);
+        const t = usePlayer.getState().clock.t;
+        onProgress(Math.min(1, (t - start) / (end - start)));
+        if (t >= end - 100) finish();
+      });
     });
-  });
+  }
 }

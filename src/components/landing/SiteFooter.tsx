@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { REPO_URL } from "@/config";
 import { GithubMark } from "./GithubMark";
+import { LogoMark } from "./LogoMark";
 
 const doc = (path: string) => `${REPO_URL}/blob/main/${path}`;
 
@@ -37,7 +38,9 @@ export function SiteFooter() {
     <footer className="border-t border-ice/10 bg-void">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
         <div>
-          <p className="font-semibold text-frost">Earthlog</p>
+          <p className="flex items-center gap-2 font-semibold text-frost">
+            <LogoMark size={20} /> Earthlog
+          </p>
           <p className="mt-2 max-w-xs text-sm text-ice/60">
             Yesterday&apos;s world, explained in 3D. Free, open source, no account, no tracking.
           </p>

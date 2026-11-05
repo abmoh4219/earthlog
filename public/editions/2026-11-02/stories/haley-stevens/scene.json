@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:01:15Z"
+    "end": "2026-11-02T00:01:22Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -171,7 +171,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:01:03Z",
+      "t": "2026-11-02T00:01:05Z",
       "lon": 41.00898632279115,
       "lat": 39.41550445164377,
       "range": 19921847.303902317,
@@ -180,7 +180,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:11Z",
+      "t": "2026-11-02T00:01:14Z",
       "lon": 41.00898632279115,
       "lat": 39.41550445164377,
       "range": 18040000,
@@ -189,11 +189,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:15Z",
-      "lon": 16.00898632279109,
-      "lat": 39.41550445164377,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-02T00:01:18Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:19Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:22Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -207,7 +225,7 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "As the article records, on October 28, 2026, Turkish said he would support Mike Rogers in the 2026 United States Senate election in Michigan.",
+      "text": "On October 28, 2026, Turkish said he would support Mike Rogers in the Michigan Senate race, and as the article records, he called El-Sayed antisemitic before appearing with Rogers.",
       "cites": [
         "wiki:rev:1383862804:96"
       ]
@@ -221,14 +239,14 @@
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "Haley Maria Stevens, born June 24, 1983, is an American politician serving as U.S. representative since 2019.",
+      "text": "Haley Maria Stevens, born June 24, 1983, is an American politician who has served as a U.S. representative since 2019.",
       "cites": [
         "wiki:rev:1383862804:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "Stevens was born in Rochester Hills on 24 June 1983.",
+      "text": "Haley Stevens was born on 24 June 1983 in Rochester Hills.",
       "cites": [
         "wd:Q58322563:P569",
         "wd:Q58322563:P19"
@@ -236,7 +254,7 @@
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "Stevens was educated at Seaholm High School and American University.",
+      "text": "Stevens was educated at Seaholm High School and at American University.",
       "cites": [
         "wd:Q58322563:P69:Q7440488",
         "wd:Q58322563:P69:Q168000"
@@ -244,14 +262,14 @@
     },
     {
       "t": "2026-11-02T00:00:37Z",
-      "text": "Stevens has worked in Washington, D.C.",
+      "text": "Records show Haley Stevens has worked in Washington, D.C.",
       "cites": [
         "wd:Q58322563:P937:Q61"
       ]
     },
     {
       "t": "2026-11-02T00:00:43Z",
-      "text": "Readers also looked at Abdul El-Sayed (243,340), Mike Rogers (Michigan politician) (77,353), and 2026 United States Senate election in Michigan (60,512).",
+      "text": "Readers also turned to the articles on Abdul El-Sayed, with 243,340 readers, Mike Rogers (Michigan politician), with 77,353, and the 2026 United States Senate election in Michigan, with 60,512.",
       "cites": [
         "views:en:Abdul_El-Sayed:2026-11-02",
         "views:en:Mike_Rogers_(Michigan_politician):2026-11-02",
@@ -260,23 +278,23 @@
     },
     {
       "t": "2026-11-02T00:00:52Z",
-      "text": "548,345 people read the article on 2 November 2026, about 519× the usual.",
+      "text": "On 2 November 2026, 548,345 people read the article, about 519 times the usual level.",
       "cites": [
         "views:en:Haley_Stevens:2026-11-02",
         "views:en:Haley_Stevens:prior"
       ]
     },
     {
-      "t": "2026-11-02T00:00:58Z",
-      "text": "The article was read in 9 languages, and after English, German was most common with 8,250 readers.",
+      "t": "2026-11-02T00:00:59Z",
+      "text": "The article was read in 9 languages, and after English the most readers were in German, with 8,250.",
       "cites": [
         "views:en:Haley_Stevens:2026-11-02",
         "views:de:Haley_Stevens:2026-11-02"
       ]
     },
     {
-      "t": "2026-11-02T00:01:04Z",
-      "text": "Each language glows on the globe where it is mainly spoken, brighter for more readers, though a language is not the same as a country.",
+      "t": "2026-11-02T00:01:06Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
       "cites": [
         "views:de:Haley_Stevens:2026-11-02",
         "views:fr:Haley_Stevens:2026-11-02",
@@ -284,6 +302,15 @@
         "views:it:Haley_Stevens:2026-11-02",
         "views:ar:هايلي_ستيفنز:2026-11-02",
         "views:ko:헤일리_스티븐스:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:16Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383862804:96",
+        "views:en:Haley_Stevens:2026-11-02",
+        "wd:Q58322563:P31"
       ]
     }
   ],
@@ -314,6 +341,10 @@
     {
       "t": "2026-11-02T00:00:51Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:01:15Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -827,12 +858,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:01:16Z",
+      "until": "2026-11-02T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383862804:96"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Haley_Stevens:2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q58322563:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.003062
   }
 }

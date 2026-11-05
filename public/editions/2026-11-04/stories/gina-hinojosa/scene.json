@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:01:15Z"
+    "end": "2026-11-04T00:01:22Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -171,7 +171,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:01:03Z",
+      "t": "2026-11-04T00:01:05Z",
       "lon": 24.936774062057342,
       "lat": 46.437907636820675,
       "range": 19921847.303902317,
@@ -180,7 +180,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:11Z",
+      "t": "2026-11-04T00:01:14Z",
       "lon": 24.936774062057342,
       "lat": 46.437907636820675,
       "range": 18040000,
@@ -189,11 +189,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:15Z",
-      "lon": -0.0632259379426614,
-      "lat": 46.437907636820675,
-      "range": 54120000,
-      "heading": 28,
+      "t": "2026-11-04T00:01:18Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:01:19Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:01:22Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -214,7 +232,7 @@
     },
     {
       "t": "2026-11-04T00:00:08Z",
-      "text": "Before entering the legislature, Hinojosa worked as a labor and civil rights lawyer.",
+      "text": "Before she became a state legislator, Hinojosa worked as a labor and civil rights lawyer.",
       "cites": [
         "wiki:rev:1383859577:2"
       ]
@@ -236,7 +254,7 @@
     },
     {
       "t": "2026-11-04T00:00:33Z",
-      "text": "She studied at the University of Texas at Austin and later at George Washington University Law School.",
+      "text": "She was educated at the University of Texas at Austin and at George Washington University Law School.",
       "cites": [
         "wd:Q28314533:P69:Q49213",
         "wd:Q28314533:P69:Q5546035"
@@ -244,14 +262,14 @@
     },
     {
       "t": "2026-11-04T00:00:37Z",
-      "text": "She has worked in Austin.",
+      "text": "She has also worked in Austin.",
       "cites": [
         "wd:Q28314533:P937:Q16559"
       ]
     },
     {
       "t": "2026-11-04T00:00:43Z",
-      "text": "Readers also looked at the pages for Greg Abbott, with 327,943 readers, Ken Paxton, with 197,914, and the 2026 Texas gubernatorial election, with 158,747.",
+      "text": "Readers also turned to the pages for Greg Abbott (327,943), Ken Paxton (197,914) and the 2026 Texas gubernatorial election (158,747).",
       "cites": [
         "views:en:Greg_Abbott:2026-11-04",
         "views:en:Ken_Paxton:2026-11-04",
@@ -260,23 +278,23 @@
     },
     {
       "t": "2026-11-04T00:00:52Z",
-      "text": "On 4 November 2026, 1,242,354 people read the English Wikipedia article, about 195 times the usual daily readership.",
+      "text": "On 4 November 2026, 1,242,354 people read about Hinojosa, about 195 times the usual level.",
       "cites": [
         "views:en:Gina_Hinojosa:2026-11-04",
         "views:en:Gina_Hinojosa:prior"
       ]
     },
     {
-      "t": "2026-11-04T00:00:58Z",
-      "text": "The article was read in 11 languages, and after English, Spanish had the most readers, at 92,588.",
+      "t": "2026-11-04T00:00:59Z",
+      "text": "The article was read in 11 languages, and after English, Spanish had the most readers at 92,588.",
       "cites": [
         "views:en:Gina_Hinojosa:2026-11-04",
         "views:es:Gina_Hinojosa:2026-11-04"
       ]
     },
     {
-      "t": "2026-11-04T00:01:04Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "t": "2026-11-04T00:01:06Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:es:Gina_Hinojosa:2026-11-04",
         "views:de:Gina_Hinojosa:2026-11-04",
@@ -284,6 +302,15 @@
         "views:pt:Gina_Hinojosa:2026-11-04",
         "views:it:Gina_Hinojosa:2026-11-04",
         "views:ru:Инохоса,_Джина:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:01:16Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption cites the evidence behind it.",
+      "cites": [
+        "wiki:rev:1383859577:1",
+        "views:en:Gina_Hinojosa:2026-11-04",
+        "wd:Q28314533:P31"
       ]
     }
   ],
@@ -314,6 +341,10 @@
     {
       "t": "2026-11-04T00:00:51Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-04T00:01:15Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -834,12 +865,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-04T00:01:16Z",
+      "until": "2026-11-04T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383859577:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Gina_Hinojosa:2026-11-04"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q28314533:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:17:28Z",
-    "costUsd": 0
+    "at": "2026-11-05T07:02:58Z",
+    "costUsd": 0.002542
   }
 }

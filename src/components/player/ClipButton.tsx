@@ -4,6 +4,11 @@ import { Film, Square } from "lucide-react";
 import { useRef, useState } from "react";
 import { type ClipFormat, clipMimeType, recordClip } from "@/player/clip";
 
+/** WebCodecs (frame by frame) or MediaRecorder (real time). */
+const canExport = () =>
+  typeof window !== "undefined" &&
+  (typeof VideoEncoder !== "undefined" || clipMimeType() !== undefined);
+
 /** Record the film as a video clip (landscape or vertical), in the browser. */
 export function ClipButton() {
   const [open, setOpen] = useState(false);
@@ -41,9 +46,9 @@ export function ClipButton() {
         type="button"
         onClick={() => setOpen((o) => !o)}
         title={
-          clipMimeType() ? "Export a video clip" : "Video export is not supported in this browser"
+          canExport() ? "Export a video clip" : "Video export is not supported in this browser"
         }
-        disabled={!clipMimeType()}
+        disabled={!canExport()}
         className="grid size-9 place-items-center rounded-lg border border-transparent text-ice/45 transition hover:text-ice/80 disabled:opacity-30"
       >
         <Film size={16} />
@@ -51,7 +56,8 @@ export function ClipButton() {
       {open && (
         <div className="glass absolute right-0 bottom-11 w-52 rounded-xl p-2 text-left text-xs">
           <p className="px-2 pt-1 pb-2 text-ice/60">
-            Records the whole film from the start, captions and sources burned in.
+            Exports the whole film frame by frame, with captions, stats and sources. Keep this tab
+            open.
           </p>
           {(["16:9", "9:16"] as const).map((f) => (
             <button

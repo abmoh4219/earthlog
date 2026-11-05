@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:35Z"
+    "end": "2026-11-03T00:00:42Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -141,7 +141,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:30Z",
+      "t": "2026-11-03T00:00:32Z",
       "lon": 86.58333333,
       "lat": 26.8125,
       "range": 1294920.0747536505,
@@ -150,7 +150,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:31Z",
+      "t": "2026-11-03T00:00:34Z",
       "lon": 86.58333333,
       "lat": 26.8125,
       "range": 1172600,
@@ -159,11 +159,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:35Z",
+      "t": "2026-11-03T00:00:37Z",
+      "lon": 86.58333333,
+      "lat": 26.8125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:38Z",
+      "lon": 86.58333333,
+      "lat": 26.8125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:42Z",
       "lon": 61.58333332999996,
       "lat": 26.8125,
       "range": 14000000,
-      "heading": -27.8,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -205,7 +223,14 @@
     },
     {
       "t": "2026-11-03T00:00:28Z",
-      "text": "The account was reported by AFP via Times of Malta.",
+      "text": "The story was reported by AFP and carried by Times of Malta.",
+      "cites": [
+        "wiki:2026-11-03:5"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:36Z",
+      "text": "The sources are Wikipedia and its Current events page, and every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
@@ -234,6 +259,10 @@
     {
       "t": "2026-11-03T00:00:27Z",
       "title": "Reported by"
+    },
+    {
+      "t": "2026-11-03T00:00:35Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -254,12 +283,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-03T00:00:36Z",
+      "until": "2026-11-03T00:00:42Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-03:5"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:15:12Z",
-    "costUsd": 0.000465
+    "at": "2026-11-05T06:59:16Z",
+    "costUsd": 0.000529
   }
 }

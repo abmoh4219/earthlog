@@ -294,7 +294,9 @@ export async function createGlobe(
     lens?.update(tiltShift(s.camera.pitch / DEG, s.camera.positionCartographic.height), clock.t);
   });
 
-  const removePostRender = s.postRender.addEventListener(() => publishGlobeFrame(s.canvas));
+  const removePostRender = s.postRender.addEventListener(() =>
+    publishGlobeFrame(s.canvas, s.globe.tilesLoaded),
+  );
 
   return {
     destroy: () => {

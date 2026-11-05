@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-02T00:00:00Z",
-    "end": "2026-11-02T00:01:06Z"
+    "end": "2026-11-02T00:01:13Z"
   },
   "focus": "2026-11-02T00:00:00Z",
   "timezone": "UTC",
@@ -145,7 +145,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-02T00:00:54Z",
+      "t": "2026-11-02T00:00:56Z",
       "lon": 25.83989255080841,
       "lat": 48.63405151332218,
       "range": 19921847.303902317,
@@ -154,7 +154,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:02Z",
+      "t": "2026-11-02T00:01:05Z",
       "lon": 25.83989255080841,
       "lat": 48.63405151332218,
       "range": 18040000,
@@ -163,11 +163,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-02T00:01:06Z",
-      "lon": 0.8398925508083721,
-      "lat": 48.63405151332218,
-      "range": 54120000,
-      "heading": -28,
+      "t": "2026-11-02T00:01:09Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:10Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:13Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -181,14 +199,14 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "After a security incident on 29 October 2026, the site went down for maintenance first announced to last twelve hours, then extended that same day to two to four weeks.",
+      "text": "After a security incident on 29 October 2026, the site went down for maintenance first announced to last twelve hours, which was extended later that day to two to four weeks.",
       "cites": [
         "wiki:rev:1383453548:21"
       ]
     },
     {
       "t": "2026-11-02T00:00:08Z",
-      "text": "Rebecca Tushnet, representing AO3, assured users that no data was lost during this incident.",
+      "text": "Rebecca Tushnet, representing AO3, said that no data was lost during this incident.",
       "cites": [
         "wiki:rev:1383453548:22"
       ]
@@ -202,44 +220,38 @@
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "Archive of Our Own is operated by the Organization for Transformative Works, based in Arlington County, United States.",
+      "text": "The site is run by the Organization for Transformative Works, which is based in Arlington County, United States.",
       "cites": [
         "wd:Q27764876:P137"
       ]
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "The site was founded in 2008.",
+      "text": "The site was founded in 2008 and is owned by the Organization for Transformative Works.",
       "cites": [
-        "wd:Q27764876:P571"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:37Z",
-      "text": "It is owned by the Organization for Transformative Works.",
-      "cites": [
+        "wd:Q27764876:P571",
         "wd:Q27764876:P127"
       ]
     },
     {
       "t": "2026-11-02T00:00:43Z",
-      "text": "On 2 November 2026, English Wikipedia recorded 78,713 readers of the article, about 57× the usual daily figure.",
+      "text": "On 2 November 2026, the article drew 78,713 readers, about 57 times the usual figure of a median of 1,391 a day.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-02",
         "views:en:Archive_of_Our_Own:prior"
       ]
     },
     {
-      "t": "2026-11-02T00:00:49Z",
-      "text": "The article was read in 11 languages, and after English, German was the most common, with 752 readers that day.",
+      "t": "2026-11-02T00:00:50Z",
+      "text": "The article was read in 11 languages, and after English, German had the most readers at 752.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-02",
         "views:de:Archive_of_Our_Own:2026-11-02"
       ]
     },
     {
-      "t": "2026-11-02T00:00:55Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "t": "2026-11-02T00:00:57Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:de:Archive_of_Our_Own:2026-11-02",
         "views:ru:Archive_of_Our_Own:2026-11-02",
@@ -247,6 +259,15 @@
         "views:zh:AO3作品库:2026-11-02",
         "views:es:Archive_of_Our_Own:2026-11-02",
         "views:pt:Archive_of_Our_Own:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:07Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383453548:21",
+        "views:en:Archive_of_Our_Own:2026-11-02",
+        "wd:Q27764876:P31"
       ]
     }
   ],
@@ -267,6 +288,10 @@
     {
       "t": "2026-11-02T00:00:42Z",
       "title": "Readers"
+    },
+    {
+      "t": "2026-11-02T00:01:06Z",
+      "title": "Sources"
     }
   ],
   "panels": [
@@ -523,12 +548,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-02T00:01:07Z",
+      "until": "2026-11-02T00:01:13Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383453548:21"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Archive_of_Our_Own:2026-11-02"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q27764876:P31"
+          ]
+        }
+      ]
     }
   ],
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:14:55Z",
-    "costUsd": 0
+    "at": "2026-11-05T06:55:08Z",
+    "costUsd": 0.001551
   }
 }

@@ -642,7 +642,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
   await hooks.shape?.({ chapters, layers, add, use, home });
   if (!chapters.length) throw new Error(`${story.slug}: nothing citable to film`);
 
-  const scene = buildFilm({ date, story, chapters, layers, at });
+  // The sources, known now that every chapter has added its evidence.
   const shipped = [...evidence.values()];
   const sourceIds = new Set(shipped.map((e) => e.source));
   const sources: Source[] = [
@@ -682,6 +682,42 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     .filter((s) => sourceIds.has(s.id))
     .concat(thread.sources.filter((s) => sourceIds.has(s.id)))
     .concat(hooks.sources ?? []);
+
+  // Every film ends on its sources: each one that evidence in this film comes from, with its
+  // licence and a link (map shapes and terrain, which no caption cites, stay in the credits).
+  const cited = sources.flatMap((src) => {
+    const first = shipped.find((e) => e.source === src.id);
+    return first ? [{ src, id: first.id }] : [];
+  });
+  if (cited.length) {
+    const names = [...new Set(cited.map((c) => c.src.name))];
+    chapters.push({
+      title: "Sources",
+      seconds: 7,
+      shot: { ...home, range: home.range * 2.6, pitch: -70, heading: 0 },
+      beats: [
+        {
+          text: `Sources: ${list(names.slice(0, 5))}. Every caption links to the evidence it rests on.`,
+          cites: cited.slice(0, 5).map((c) => c.id),
+        },
+      ],
+      panels: [
+        {
+          id: "film-sources",
+          kind: "facts",
+          title: "Sources",
+          note: "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+          items: cited.slice(0, 8).map((c) => ({
+            label: c.src.name.length > 48 ? `${c.src.name.slice(0, 46)}…` : c.src.name,
+            text: c.src.license.split(/[;(]/)[0]?.trim().slice(0, 32) || "Open",
+            url: c.src.url,
+            cites: [c.id],
+          })),
+        },
+      ],
+    });
+  }
+  const scene = buildFilm({ date, story, chapters, layers, at });
   return { scene, evidence: shipped, sources, layers };
 }
 
