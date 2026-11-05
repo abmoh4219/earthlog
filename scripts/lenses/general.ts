@@ -10,9 +10,10 @@ import type { Country, Evidence, LayerData, Panel, Scene, Source } from "../../s
 import { fetchJson } from "../bake/lib.ts";
 import { fetchCoordinates, type RawStory } from "../bake/wikinews.ts";
 import { fetchEntities, type WdEntity } from "../edition/sources.ts";
-import { fetchLanguageReaders, LANGUAGE } from "./attention.ts";
+import { curiosityLayers, fetchLanguageReaders, LANGUAGE } from "./attention.ts";
 import { buildFilm, type ChapterDraft, type PanelDraft, type Shot } from "./film.ts";
 import { chronological, contextIsTheEvent, fetchNews } from "./news-context.ts";
+import { fetchThread, recencyColor } from "./thread.ts";
 
 export interface LensContext {
   date: string;
@@ -41,6 +42,14 @@ export interface LensHooks {
   }) => void | Promise<void>;
   /** Sources credited by the lens's layers (e.g. map shapes), shipped even if uncited. */
   sources?: Source[];
+}
+
+/**
+ * Layers the general lens shares with every film (the curiosity map, the story's thread):
+ * a lens replacing the general places, arcs and regions keeps these.
+ */
+export function sharedLayer(l: LayerData | undefined): boolean {
+  return l !== undefined && "name" in l && (l.name === "curiosity" || l.name === "thread");
 }
 
 export interface LensResult {
@@ -286,6 +295,84 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     });
   }
 
+  // 1b. How it unfolded: the story's thread through the past week of Current events.
+  const thread = await fetchThread(
+    date,
+    {
+      ...(newsItems[0]?.raw.topic ? { topic: newsItems[0].raw.topic } : {}),
+      ...(story.article?.title ? { title: story.article.title } : {}),
+    },
+    countries,
+    at,
+  ).catch(() => ({ items: [], evidence: [], sources: [] }));
+  if (thread.items.length >= 2) {
+    for (const e of thread.evidence) add(e);
+    const day = Date.parse(`${date}T00:00:00Z`);
+    const daysAgo = (d: string) => (day - Date.parse(`${d}T00:00:00Z`)) / 86_400_000;
+    const dayName = (d: string) =>
+      new Date(`${d}T00:00:00Z`).toLocaleDateString("en-GB", {
+        day: "numeric",
+        month: "long",
+        timeZone: "UTC",
+      });
+    const placed = thread.items.filter((i) => i.place);
+    if (placed.length) {
+      layers.push({
+        kind: "places",
+        name: "thread",
+        places: placed
+          .filter((i, k) => placed.findIndex((j) => j.place?.name === i.place?.name) === k)
+          .map((i) => ({
+            name: i.place?.name ?? "",
+            lon: i.place?.lon ?? 0,
+            lat: i.place?.lat ?? 0,
+            color: recencyColor(daysAgo(i.date)),
+          })),
+      });
+      const legs = placed.slice(1).flatMap((b, k) => {
+        const a = placed[k];
+        return a?.place && b.place && a.place.name !== b.place.name
+          ? [
+              {
+                from: [a.place.lon, a.place.lat] as [number, number],
+                to: [b.place.lon, b.place.lat] as [number, number],
+                color: recencyColor(daysAgo(b.date)),
+              },
+            ]
+          : [];
+      });
+      if (legs.length) layers.push({ kind: "arcs", name: "thread", sequence: true, arcs: legs });
+    }
+    const shown = thread.items.slice(-4);
+    chapters.push({
+      title: "How it unfolded",
+      seconds: 4 + shown.length * 6,
+      shot: wideShot(placed.map((i) => i.place ?? { lon: 0, lat: 0 })) ?? {
+        ...home,
+        range: home.range * 2.4,
+        pitch: -55,
+      },
+      beats: shown.map((i) => ({
+        text: `${dayName(i.date)}: ${i.text}`.slice(0, 220),
+        cites: [i.id],
+      })),
+      panels: [
+        {
+          id: "thread",
+          kind: "facts",
+          title: "The days before",
+          note: "Earlier items under the same topic on Wikipedia's Current events.",
+          items: thread.items.map((i) => ({
+            label: dayName(i.date),
+            text: clip(i.text, 90),
+            cites: [i.id],
+          })),
+        } satisfies PanelDraft,
+      ],
+      reveal: ["places-thread", "arcs-thread"],
+    });
+  }
+
   // 2. Where.
   if (story.place) {
     const placeId = story.place.evidence ? use(story.place.evidence) : undefined;
@@ -385,10 +472,22 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
         cites: langIds.slice(0, 1).concat(langIds[langs.indexOf(topOther)] ?? []),
       });
     }
+    // The curiosity map: each language's readers glowing where it is mainly spoken.
+    const curiosity = curiosityLayers(langs, ctx.countries);
+    layers.push(...curiosity.layers);
+    const curiosityShot = curiosity.layers.length ? wideShot(curiosity.points) : undefined;
+    if (curiosity.layers.length && topOther)
+      beatsR.push({
+        text: `On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.`,
+        cites: langIds.filter((_, i) => langs[i]?.lang !== "en").slice(0, 6),
+      });
     chapters.push({
       title: "Readers",
       seconds: 6 + beatsR.length * 6,
-      shot: { ...home, range: home.range * 1.6, pitch: -52, heading: -15 },
+      shot: curiosityShot
+        ? { ...curiosityShot, range: Math.max(curiosityShot.range, 1.4e7), pitch: -60 }
+        : { ...home, range: home.range * 1.6, pitch: -52, heading: -15 },
+      ...(curiosity.layers.length ? { reveal: ["regions-curiosity", "columns-curiosity"] } : {}),
       beats: beatsR,
       panels: [
         {
@@ -530,7 +629,15 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
 
   // The story and its analysis first; how many people read about it is a side note near
   // the end, before the sources.
-  const ORDER = ["What happened", "Where", "On record", "Connected", "Readers", "Reported by"];
+  const ORDER = [
+    "What happened",
+    "How it unfolded",
+    "Where",
+    "On record",
+    "Connected",
+    "Readers",
+    "Reported by",
+  ];
   chapters.sort((a, b) => ORDER.indexOf(a.title) - ORDER.indexOf(b.title));
   await hooks.shape?.({ chapters, layers, add, use, home });
   if (!chapters.length) throw new Error(`${story.slug}: nothing citable to film`);
@@ -573,6 +680,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     },
   ]
     .filter((s) => sourceIds.has(s.id))
+    .concat(thread.sources.filter((s) => sourceIds.has(s.id)))
     .concat(hooks.sources ?? []);
   return { scene, evidence: shipped, sources, layers };
 }

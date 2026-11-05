@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-sovetsky-soyuz-class-battleship",
+  "title": "Sovetsky Soyuz-class battleship",
+  "subtitle": "News · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:00:48Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:24Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:28Z",
+      "lon": 27.651518638815563,
+      "lat": 48.35496581361717,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:36Z",
+      "lon": 27.651518638815563,
+      "lat": 48.35496581361717,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:44Z",
+      "lon": 27.651518638815563,
+      "lat": 48.35496581361717,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:48Z",
+      "lon": 2.65151863881556,
+      "lat": 48.35496581361717,
+      "range": 54120000,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "Designed in response to ships being built by Germany, the class would have rivaled Imperial Japanese and American planned battleships in size, though with less firepower.",
+      "cites": [
+        "wiki:rev:1383649412:1"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:08Z",
+      "text": "The Soviets contemplated as many as fifteen of these ships, but eleven were never laid down, and according to the article, construction of the first four was plagued by difficulties.",
+      "cites": [
+        "wiki:rev:1383649412:3"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:15Z",
+      "text": "Designated Project 23, the Sovetsky Soyuz-class battleships were a class begun by the Soviet Union in the late 1930s but never brought into service.",
+      "cites": [
+        "wiki:rev:1383649412:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "text": "On 2 November 2026, 53,573 people read the English Wikipedia article, about 271× the usual daily figure of 198.",
+      "cites": [
+        "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02",
+        "views:en:Sovetsky_Soyuz-class_battleship:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "text": "The article was read in 11 languages, and after English, Russian had the most readers, with 257.",
+      "cites": [
+        "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02",
+        "views:ru:Линейные_корабли_проекта_23:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:ru:Линейные_корабли_проекта_23:2026-11-02",
+        "views:de:Sowjetski-Sojus-Klasse:2026-11-02",
+        "views:ja:ソビエツキー・ソユーズ級戦艦:2026-11-02",
+        "views:zh:苏联级战列舰:2026-11-02",
+        "views:fr:Classe_Sovetski_Soyouz:2026-11-02",
+        "views:es:Clase_Sovietsky_Soyuz:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:00:25Z",
+      "until": "2026-11-02T00:00:48Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Sovetsky Soyuz-class battleship",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 196
+            },
+            {
+              "x": "10-05",
+              "y": 196
+            },
+            {
+              "x": "10-06",
+              "y": 167
+            },
+            {
+              "x": "10-07",
+              "y": 277
+            },
+            {
+              "x": "10-08",
+              "y": 228
+            },
+            {
+              "x": "10-09",
+              "y": 154
+            },
+            {
+              "x": "10-10",
+              "y": 272
+            },
+            {
+              "x": "10-11",
+              "y": 232
+            },
+            {
+              "x": "10-12",
+              "y": 215
+            },
+            {
+              "x": "10-13",
+              "y": 204
+            },
+            {
+              "x": "10-14",
+              "y": 179
+            },
+            {
+              "x": "10-15",
+              "y": 218
+            },
+            {
+              "x": "10-16",
+              "y": 170
+            },
+            {
+              "x": "10-17",
+              "y": 162
+            },
+            {
+              "x": "10-18",
+              "y": 173
+            },
+            {
+              "x": "10-19",
+              "y": 148
+            },
+            {
+              "x": "10-20",
+              "y": 188
+            },
+            {
+              "x": "10-21",
+              "y": 219
+            },
+            {
+              "x": "10-22",
+              "y": 158
+            },
+            {
+              "x": "10-23",
+              "y": 185
+            },
+            {
+              "x": "10-24",
+              "y": 152
+            },
+            {
+              "x": "10-25",
+              "y": 151
+            },
+            {
+              "x": "10-26",
+              "y": 145
+            },
+            {
+              "x": "10-27",
+              "y": 158
+            },
+            {
+              "x": "10-28",
+              "y": 176
+            },
+            {
+              "x": "10-29",
+              "y": 192
+            },
+            {
+              "x": "10-30",
+              "y": 252
+            },
+            {
+              "x": "10-31",
+              "y": 242
+            },
+            {
+              "x": "11-01",
+              "y": 792
+            },
+            {
+              "x": "11-02",
+              "y": 53573
+            }
+          ],
+          "cites": [
+            "views:en:Sovetsky_Soyuz-class_battleship:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:00:25Z",
+      "until": "2026-11-02T00:00:48Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "53,573",
+          "value": 53573,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "257",
+          "value": 257,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Линейные_корабли_проекта_23:2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "226",
+          "value": 226,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Sowjetski-Sojus-Klasse:2026-11-02"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "79",
+          "value": 79,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:ソビエツキー・ソユーズ級戦艦:2026-11-02"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "78",
+          "value": 78,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:苏联级战列舰:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "55",
+          "value": 55,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Classe_Sovetski_Soyouz:2026-11-02"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "37",
+          "value": 37,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Clase_Sovietsky_Soyuz:2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002017
+  }
+}

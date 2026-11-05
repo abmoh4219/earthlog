@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:00:56Z"
+    "end": "2026-11-03T00:01:02Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -23,9 +23,22 @@
   "layers": [
     {
       "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:00:38Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:00:38Z"
+    },
+    {
+      "kind": "regions",
       "file": "data/regions-result.json",
       "name": "result",
-      "from": "2026-11-03T00:00:24Z"
+      "from": "2026-11-03T00:00:24Z",
+      "until": "2026-11-03T00:00:38Z"
     }
   ],
   "camera": [
@@ -92,38 +105,38 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:40Z",
-      "lon": 34.85,
-      "lat": 28.785,
-      "range": 5440000,
-      "heading": -15,
-      "pitch": -52,
+      "t": "2026-11-03T00:00:41Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:50Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:46Z",
-      "lon": 34.85,
-      "lat": 28.785,
-      "range": 4926129.515146755,
-      "heading": -1,
-      "pitch": -49.5,
+      "t": "2026-11-03T00:00:58Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:52Z",
-      "lon": 34.85,
-      "lat": 28.785,
-      "range": 4460800,
-      "heading": 13,
-      "pitch": -47,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-03T00:00:56Z",
-      "lon": 9.850000000000023,
-      "lat": 28.785,
-      "range": 14000000,
-      "heading": 13,
+      "t": "2026-11-03T00:01:02Z",
+      "lon": 1.1730578874195317,
+      "lat": 46.99474461608802,
+      "range": 54120000,
+      "heading": 28,
       "pitch": -88,
       "move": "flight"
     }
@@ -137,28 +150,28 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Israel held legislative elections on 27 October 2026 to choose the 120 members of the 26th Knesset and decide the governing coalition that will succeed the 37th government, led by Prime Minister Benjamin Netanyahu.",
+      "text": "Israel held legislative elections on 27 October 2026 to elect the 120 members of the 26th Knesset and choose the coalition that succeeds Benjamin Netanyahu's 37th government.",
       "cites": [
         "wiki:rev:1383792096:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On 2 November, Democrats leader Yair Golan announced that his party would also recommend Eisenkot.",
+      "text": "Yair Golan, head of the Democrats, announced on 2 November that his party would also recommend Eisenkot.",
       "cites": [
         "wiki:rev:1383792096:107"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "On 1 November, President Isaac Herzog announced that he would invite party leaders from 4 November to begin consultations on who should get the first chance to form a government.",
+      "text": "On 1 November, President Isaac Herzog said he would invite party leaders, starting 4 November, to begin consultations on who should get the first chance to form a government.",
       "cites": [
         "wiki:rev:1383792096:105"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Likud, led by Benjamin Netanyahu, won the most seats with 27, well short of the 61 needed for a majority.",
+      "text": "Likud, led by Benjamin Netanyahu, won the most seats with 27, short of the 61 needed for a majority.",
       "cites": [
         "elex:2026-israeli-legislative-election:party1",
         "elex:2026-israeli-legislative-election:summary"
@@ -173,7 +186,7 @@
     },
     {
       "t": "2026-11-03T00:00:39Z",
-      "text": "On 3 November 2026, the English article was read by 60,786 people, about 6 times its usual daily readership.",
+      "text": "English Wikipedia recorded 60,786 readers of the election article on 3 November 2026, about 6× the usual median of 10,720 a day.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:en:2026_Israeli_legislative_election:prior"
@@ -181,10 +194,22 @@
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "The article was read in 11 languages, and after English, the most readers were in French, with 3,789.",
+      "text": "The article was read in 11 languages, and after English the most readers were in French, with 3,789.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:51Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03",
+        "views:es:Elecciones_parlamentarias_de_Israel_de_2026:2026-11-03",
+        "views:ru:Парламентские_выборы_в_Израиле_(2026):2026-11-03",
+        "views:it:Elezioni_parlamentari_in_Israele_del_2026:2026-11-03",
+        "views:de:Parlamentswahl_in_Israel_2026:2026-11-03",
+        "views:ar:الانتخابات_التشريعية_الإسرائيلية_2026:2026-11-03"
       ]
     }
   ],
@@ -377,7 +402,7 @@
     {
       "id": "readers",
       "t": "2026-11-03T00:00:39Z",
-      "until": "2026-11-03T00:00:56Z",
+      "until": "2026-11-03T00:01:02Z",
       "title": "Readers on English Wikipedia",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
       "kind": "line",
@@ -518,7 +543,7 @@
     {
       "id": "languages",
       "t": "2026-11-03T00:00:39Z",
-      "until": "2026-11-03T00:00:56Z",
+      "until": "2026-11-03T00:01:02Z",
       "title": "Readers by language",
       "note": "Wikipedia language editions that day. A language is not a country.",
       "kind": "bars",
@@ -593,7 +618,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.001286
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.00239
   }
 }

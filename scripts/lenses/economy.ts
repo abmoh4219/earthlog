@@ -17,7 +17,7 @@ import {
 } from "../bake/worldbank.ts";
 import { fetchEntities, fetchQids, type WdEntity } from "../edition/sources.ts";
 import type { ChapterDraft, PanelDraft, Shot } from "./film.ts";
-import { generalLens, type LensContext, type LensResult } from "./general.ts";
+import { generalLens, type LensContext, type LensResult, sharedLayer } from "./general.ts";
 
 /** Institution types that make an economy story's "who decided" (Wikidata P31 labels). */
 const INSTITUTION =
@@ -127,7 +127,8 @@ export async function economyLens(ctx: LensContext): Promise<LensResult> {
       );
       for (let i = layers.length - 1; i >= 0; i--) {
         const kind = layers[i]?.kind;
-        if (kind === "places" || kind === "arcs" || kind === "regions") layers.splice(i, 1);
+        if ((kind === "places" || kind === "arcs" || kind === "regions") && !sharedLayer(layers[i]))
+          layers.splice(i, 1);
       }
       const inserts: ChapterDraft[] = [];
 

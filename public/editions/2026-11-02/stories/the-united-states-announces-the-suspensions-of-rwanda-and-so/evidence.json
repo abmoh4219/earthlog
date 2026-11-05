@@ -1,0 +1,47 @@
+[
+  {
+    "id": "wiki:2026-11-02:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-02T00:00:00Z",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "Business: The United States announces the suspensions of Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act beginning January 1, 2027, citing trade barriers, human rights concerns, and threats to U.S. interests.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_2&oldid=1383746335",
+    "quote": "The United States announces the suspensions of Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act beginning January 1, 2027, citing trade barriers, human rights concerns, and threats to U.S. interests.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/africa/us-suspend-south-africa-rwanda-duty-free-trade-access-2026-11-02/"
+      }
+    ]
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:US",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, United States: 2019 1.8%; 2020 1.2%; 2021 4.7%; 2022 8.0%; 2023 4.1%; 2024 2.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=US"
+  },
+  {
+    "id": "wb:NY.GDP.MKTP.KD.ZG:US",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, GDP growth, United States: 2020 -2.1%; 2021 6.2%; 2022 2.5%; 2023 2.9%; 2024 2.8%; 2025 2.2%",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=US"
+  },
+  {
+    "id": "wb:SL.UEM.TOTL.ZS:US",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Unemployment, United States: 2020 8.1%; 2021 5.3%; 2022 3.6%; 2023 3.6%; 2024 4.0%; 2025 4.2%",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=US"
+  }
+]

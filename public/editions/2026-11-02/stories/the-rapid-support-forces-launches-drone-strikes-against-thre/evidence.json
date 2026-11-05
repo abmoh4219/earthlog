@@ -1,0 +1,40 @@
+[
+  {
+    "id": "wiki:2026-11-02:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-02T00:00:00Z",
+    "lon": 35.71666667,
+    "lat": 15.75,
+    "label": "Conflict: The Rapid Support Forces launches drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_2&oldid=1383746335",
+    "quote": "The Rapid Support Forces launches drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Sudan Tribune",
+        "url": "https://sudantribune.com/article/320792"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-10-26:6",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-10-26",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-10-26: Twenty-one people are killed and 40 more injured in a drone strike in Nyala, Sudan.",
+    "quote": "Twenty-one people are killed and 40 more injured in a drone strike in Nyala, Sudan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_26&oldid=1382440517"
+  },
+  {
+    "id": "wiki:2026-10-28:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-10-28",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-10-28: Eight women and children are reported to be injured in a airstrike in Kadugli, South Kordofan, Sudan.",
+    "quote": "Eight women and children are reported to be injured in a airstrike in Kadugli, South Kordofan, Sudan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_28&oldid=1383264879"
+  }
+]

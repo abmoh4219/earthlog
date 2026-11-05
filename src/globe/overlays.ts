@@ -518,7 +518,10 @@ export function createOverlays(
       const tip = c.label
         ? labels.add({
             position: C.Cartesian3.fromDegrees(c.lon, c.lat, height),
-            text: `${c.name.toUpperCase()}  ${c.value.toFixed(1)}${l.unit}`,
+            // Whole counts with separators ("17,375 readers"); rates keep one decimal ("4.3%").
+            text: `${c.name.toUpperCase()}  ${
+              Number.isInteger(c.value) ? c.value.toLocaleString("en-GB") : c.value.toFixed(1)
+            }${l.unit && !l.unit.startsWith("%") ? ` ${l.unit}` : l.unit}`,
             font: `600 13px ${font}`,
             fillColor: C.Color.WHITE,
             outlineColor: C.Color.BLACK.withAlpha(0.9),

@@ -1,0 +1,822 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-united-airlines-flight-232",
+  "title": "United Airlines Flight 232",
+  "subtitle": "Accident · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:02:09Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -106.383888888889,
+    "south": 34.408055555556,
+    "east": -86.383888888889,
+    "north": 50.408055555556
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:45Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:45Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-02T00:00:17Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-route.json",
+      "name": "route",
+      "from": "2026-11-02T00:00:17Z",
+      "until": "2026-11-02T00:00:32Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-route.json",
+      "name": "route",
+      "from": "2026-11-02T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": -58.38388888888903,
+      "lat": 25.032333333333597,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -96.383888888889,
+      "lat": 41.720555555556,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:10Z",
+      "lon": -96.383888888889,
+      "lat": 41.720555555556,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:16Z",
+      "lon": -96.383888888889,
+      "lat": 41.720555555556,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:20Z",
+      "lon": -92.17128783424458,
+      "lat": 39.99006474088156,
+      "range": 6881954.197262747,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "lon": -92.17128783424458,
+      "lat": 39.99006474088156,
+      "range": 6231874.575923549,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "lon": -92.17128783424458,
+      "lat": 39.99006474088156,
+      "range": 5643202.441755452,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:35Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:38Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 126775.39193392382,
+      "heading": 33.7,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:40Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 114800,
+      "heading": 43.4,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:43Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 240000,
+      "heading": -30,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:46Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 217329.243315298,
+      "heading": -39.7,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:49Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 196800,
+      "heading": -49.4,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:52Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:56Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 81498.46624323675,
+      "heading": 81.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:00Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 73800,
+      "heading": 92.6,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:03Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 600000,
+      "heading": -10,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:12Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 543323.1082882449,
+      "heading": -24,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:22Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 491999.99999999994,
+      "heading": -38,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:25Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 350000,
+      "heading": 140,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:35Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 316938.47983480955,
+      "heading": 154,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:44Z",
+      "lon": -96.38333333333334,
+      "lat": 42.416666666666664,
+      "range": 287000,
+      "heading": 168,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:49Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608803,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:57Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608803,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:02:05Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608803,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:02:09Z",
+      "lon": 1.1730578874195317,
+      "lat": 46.99474461608803,
+      "range": 54120000,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "According to the article, the flight has been termed \"The Impossible Landing\", as it is considered one of the most impressive landings in the history of aviation.",
+      "cites": [
+        "wiki:rev:1383099056:6"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:09Z",
+      "text": "United Airlines Flight 232 was a scheduled flight from Stapleton International Airport in Denver to O'Hare International Airport in Chicago, continuing to Philadelphia International Airport.",
+      "cites": [
+        "wiki:rev:1383099056:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:18Z",
+      "text": "The flight set out from Stapleton International Airport, bound for Philadelphia International Airport.",
+      "cites": [
+        "wiki:box:1383099056:origin",
+        "wiki:box:1383099056:destination"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "text": "The aircraft came down about 770 km from Stapleton International Airport in a straight line, with about 1,790 km still to go.",
+      "cites": [
+        "wiki:box:1383099056:origin",
+        "wiki:box:1383099056:destination",
+        "wiki:box:1383099056:coordinates"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "text": "The site was Sioux Gateway Airport, where an uncontained engine failure caused by fan disk separation led to loss of hydraulics and loss of control.",
+      "cites": [
+        "wiki:box:1383099056:summary",
+        "wiki:box:1383099056:coordinates"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:42Z",
+      "text": "The aircraft was a McDonnell Douglas DC-10-10 operated by United Airlines.",
+      "cites": [
+        "wiki:box:1383099056:aircraft",
+        "wiki:box:1383099056:operator"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:46Z",
+      "text": "The DC-10 type, built by McDonnell Douglas, first flew in 1970.",
+      "cites": [
+        "wd:Q208075:P176",
+        "wd:Q208075:P606"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:51Z",
+      "text": "According to the article, 112 of the 296 people on board died and 184 survived.",
+      "cites": [
+        "wiki:box:1383099056:occupants",
+        "wiki:box:1383099056:fatalities",
+        "wiki:box:1383099056:survivors"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:02Z",
+      "text": "Flight 232 departed Stapleton International Airport in Denver at 14:09 Central Daylight Time, en route to O'Hare in Chicago, with continuing service to Philadelphia.",
+      "cites": [
+        "wiki:timeline:1383099056:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:09Z",
+      "text": "At 15:16, while the airplane was making a slight right turn at its cruising altitude of 37,000 ft, the fan disk of its tail-mounted General Electric CF6 engine disintegrated explosively.",
+      "cites": [
+        "wiki:timeline:1383099056:1"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:16Z",
+      "text": "Senior flight attendant Jan Brown Lohr relayed the message to the flight crew, who invited Fitch into the cockpit, and he began assisting at about 15:29.",
+      "cites": [
+        "wiki:timeline:1383099056:2"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:24Z",
+      "text": "The rear engine's fan disk and blade assembly, about 8 ft across, could not be located at the accident scene despite an extensive search.",
+      "cites": [
+        "wiki:investigation:1383099056:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:31Z",
+      "text": "General Electric, the engine's manufacturer, offered rewards of $50,000 for the disk and $1,000 for each fan blade.",
+      "cites": [
+        "wiki:investigation:1383099056:1"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:38Z",
+      "text": "Three months after the crash, a farmer found most of the fan disk, with several blades attached, in her cornfield, qualifying her for a reward, as a General Electric lawyer confirmed.",
+      "cites": [
+        "wiki:investigation:1383099056:2"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:46Z",
+      "text": "On 2 November 2026, 51,857 people read the English article, about 39 times the usual daily figure.",
+      "cites": [
+        "views:en:United_Airlines_Flight_232:2026-11-02",
+        "views:en:United_Airlines_Flight_232:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:52Z",
+      "text": "The article was read in 11 languages, and after English, the most readers were in Japanese, with 167.",
+      "cites": [
+        "views:en:United_Airlines_Flight_232:2026-11-02",
+        "views:ja:ユナイテッド航空232便不時着事故:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:58Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:ja:ユナイテッド航空232便不時着事故:2026-11-02",
+        "views:de:United-Airlines-Flug_232:2026-11-02",
+        "views:zh:聯合航空232號班機空難:2026-11-02",
+        "views:es:Vuelo_232_de_United_Airlines:2026-11-02",
+        "views:fr:Vol_United_Airlines_232:2026-11-02",
+        "views:ru:Катастрофа_DC-10_в_Су-Сити:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -96.383888888889,
+    "lat": 42.408055555556,
+    "label": "Sioux Gateway Airport"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:17Z",
+      "title": "The journey"
+    },
+    {
+      "t": "2026-11-02T00:00:32Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-02T00:00:41Z",
+      "title": "The aircraft"
+    },
+    {
+      "t": "2026-11-02T00:00:50Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-02T00:01:01Z",
+      "title": "Minute by minute"
+    },
+    {
+      "t": "2026-11-02T00:01:23Z",
+      "title": "The investigation"
+    },
+    {
+      "t": "2026-11-02T00:01:45Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "vehicle",
+      "t": "2026-11-02T00:00:42Z",
+      "until": "2026-11-02T00:00:50Z",
+      "title": "The aircraft",
+      "note": "From the article's infobox (revision of 2026-11-01) and Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Aircraft",
+          "text": "McDonnell Douglas DC-10-10",
+          "cites": [
+            "wiki:box:1383099056:aircraft"
+          ]
+        },
+        {
+          "label": "Operator",
+          "text": "United Airlines",
+          "cites": [
+            "wiki:box:1383099056:operator"
+          ]
+        },
+        {
+          "label": "Registration",
+          "text": "N1819U",
+          "cites": [
+            "wiki:box:1383099056:registration"
+          ]
+        },
+        {
+          "label": "Callsign",
+          "text": "UNITED 232 HEAVY",
+          "cites": [
+            "wiki:box:1383099056:callsign"
+          ]
+        },
+        {
+          "label": "Built by",
+          "text": "McDonnell Douglas",
+          "cites": [
+            "wd:Q208075:P176"
+          ]
+        },
+        {
+          "label": "Type first flew",
+          "text": "1970",
+          "cites": [
+            "wd:Q208075:P606"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "on-board",
+      "t": "2026-11-02T00:00:51Z",
+      "until": "2026-11-02T00:01:01Z",
+      "title": "People",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "Occupants",
+          "text": "296",
+          "value": 296,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383099056:occupants"
+          ]
+        },
+        {
+          "label": "Passengers",
+          "text": "285",
+          "value": 285,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383099056:passengers"
+          ]
+        },
+        {
+          "label": "Crew",
+          "text": "11",
+          "value": 11,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383099056:crew"
+          ]
+        },
+        {
+          "label": "Fatalities",
+          "text": "112",
+          "value": 112,
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1383099056:fatalities"
+          ]
+        },
+        {
+          "label": "Injuries",
+          "text": "171",
+          "value": 171,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383099056:injuries"
+          ]
+        },
+        {
+          "label": "Survivors",
+          "text": "184",
+          "value": 184,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1383099056:survivors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:01:46Z",
+      "until": "2026-11-02T00:02:09Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "United Airlines Flight 232",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 2253
+            },
+            {
+              "x": "10-05",
+              "y": 1398
+            },
+            {
+              "x": "10-06",
+              "y": 1199
+            },
+            {
+              "x": "10-07",
+              "y": 1253
+            },
+            {
+              "x": "10-08",
+              "y": 1189
+            },
+            {
+              "x": "10-09",
+              "y": 1090
+            },
+            {
+              "x": "10-10",
+              "y": 1252
+            },
+            {
+              "x": "10-11",
+              "y": 1004
+            },
+            {
+              "x": "10-12",
+              "y": 1024
+            },
+            {
+              "x": "10-13",
+              "y": 1105
+            },
+            {
+              "x": "10-14",
+              "y": 1094
+            },
+            {
+              "x": "10-15",
+              "y": 2656
+            },
+            {
+              "x": "10-16",
+              "y": 5024
+            },
+            {
+              "x": "10-17",
+              "y": 1598
+            },
+            {
+              "x": "10-18",
+              "y": 1399
+            },
+            {
+              "x": "10-19",
+              "y": 1442
+            },
+            {
+              "x": "10-20",
+              "y": 1267
+            },
+            {
+              "x": "10-21",
+              "y": 976
+            },
+            {
+              "x": "10-22",
+              "y": 1674
+            },
+            {
+              "x": "10-23",
+              "y": 908
+            },
+            {
+              "x": "10-24",
+              "y": 905
+            },
+            {
+              "x": "10-25",
+              "y": 1023
+            },
+            {
+              "x": "10-26",
+              "y": 1006
+            },
+            {
+              "x": "10-27",
+              "y": 993
+            },
+            {
+              "x": "10-28",
+              "y": 959
+            },
+            {
+              "x": "10-29",
+              "y": 784
+            },
+            {
+              "x": "10-30",
+              "y": 776
+            },
+            {
+              "x": "10-31",
+              "y": 719
+            },
+            {
+              "x": "11-01",
+              "y": 948
+            },
+            {
+              "x": "11-02",
+              "y": 51857
+            }
+          ],
+          "cites": [
+            "views:en:United_Airlines_Flight_232:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:01:46Z",
+      "until": "2026-11-02T00:02:09Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "51,857",
+          "value": 51857,
+          "color": "#e8f6ff",
+          "cites": [
+            "views:en:United_Airlines_Flight_232:2026-11-02"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "167",
+          "value": 167,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:ユナイテッド航空232便不時着事故:2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "71",
+          "value": 71,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:United-Airlines-Flug_232:2026-11-02"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "60",
+          "value": 60,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:聯合航空232號班機空難:2026-11-02"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "42",
+          "value": 42,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Vuelo_232_de_United_Airlines:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "34",
+          "value": 34,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Vol_United_Airlines_232:2026-11-02"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "23",
+          "value": 23,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Катастрофа_DC-10_в_Су-Сити:2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002723
+  }
+}

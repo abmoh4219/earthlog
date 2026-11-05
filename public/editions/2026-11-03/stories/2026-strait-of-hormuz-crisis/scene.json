@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:17Z"
+    "end": "2026-11-03T00:01:33Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -24,23 +24,35 @@
     {
       "kind": "places",
       "file": "data/places.json",
-      "from": "2026-11-03T00:00:24Z"
+      "from": "2026-11-03T00:00:40Z"
     },
     {
       "kind": "regions",
       "file": "data/regions.json",
-      "from": "2026-11-03T00:00:24Z"
+      "from": "2026-11-03T00:00:40Z"
     },
     {
       "kind": "arcs",
       "file": "data/arcs.json",
-      "from": "2026-11-03T00:01:00Z"
+      "from": "2026-11-03T00:01:16Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-03T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-03T00:00:24Z"
     },
     {
       "kind": "places",
       "file": "data/places-week.json",
       "name": "week",
-      "from": "2026-11-03T00:00:32Z"
+      "from": "2026-11-03T00:00:48Z"
     }
   ],
   "camera": [
@@ -80,34 +92,61 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:26Z",
+      "t": "2026-11-03T00:00:28Z",
+      "lon": 90.14920966134989,
+      "lat": 33.8243305687695,
+      "range": 16116631.129257232,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:00:33Z",
+      "lon": 90.14920966134989,
+      "lat": 33.8243305687695,
+      "range": 14594230.200471878,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:39Z",
+      "lon": 90.14920966134989,
+      "lat": 33.8243305687695,
+      "range": 13215637.52599093,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-03T00:00:43Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1100000,
       "heading": 12,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:29Z",
+      "t": "2026-11-03T00:00:45Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 996092.3651951158,
-      "heading": 3.0999999999999996,
+      "heading": 20.9,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:31Z",
+      "t": "2026-11-03T00:00:47Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 902000,
-      "heading": -5.800000000000001,
+      "heading": 29.8,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:35Z",
+      "t": "2026-11-03T00:00:51Z",
       "lon": 52,
       "lat": 24.5,
       "range": 1500000,
@@ -116,25 +155,25 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:42Z",
+      "t": "2026-11-03T00:00:58Z",
       "lon": 52,
       "lat": 24.5,
       "range": 1358307.7707206125,
-      "heading": 14,
+      "heading": -14,
       "pitch": -42.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:48Z",
+      "t": "2026-11-03T00:01:04Z",
       "lon": 52,
       "lat": 24.5,
       "range": 1230000,
-      "heading": 28,
+      "heading": -28,
       "pitch": -40,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:52Z",
+      "t": "2026-11-03T00:01:08Z",
       "lon": 56.28333333,
       "lat": 23.91666667,
       "range": 1200000,
@@ -143,25 +182,25 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:56Z",
+      "t": "2026-11-03T00:01:12Z",
       "lon": 56.28333333,
       "lat": 23.91666667,
       "range": 1086646.2165764899,
-      "heading": -27.3,
+      "heading": -4.699999999999999,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:59Z",
+      "t": "2026-11-03T00:01:15Z",
       "lon": 56.28333333,
       "lat": 23.91666667,
       "range": 983999.9999999999,
-      "heading": -38.6,
+      "heading": 6.600000000000001,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:02Z",
+      "t": "2026-11-03T00:01:18Z",
       "lon": 56.39134796505904,
       "lat": 25.958373970153183,
       "range": 1500000,
@@ -170,25 +209,25 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:05Z",
+      "t": "2026-11-03T00:01:21Z",
       "lon": 56.39134796505904,
       "lat": 25.958373970153183,
       "range": 1358307.7707206125,
-      "heading": 9.7,
+      "heading": -9.7,
       "pitch": -52.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:08Z",
+      "t": "2026-11-03T00:01:24Z",
       "lon": 56.39134796505904,
       "lat": 25.958373970153183,
       "range": 1230000,
-      "heading": 19.4,
+      "heading": -19.4,
       "pitch": -50,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:11Z",
+      "t": "2026-11-03T00:01:27Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1430000,
@@ -197,29 +236,29 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:12Z",
+      "t": "2026-11-03T00:01:28Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1294920.0747536505,
-      "heading": -18.9,
+      "heading": -1.0999999999999996,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:13Z",
+      "t": "2026-11-03T00:01:29Z",
       "lon": 56.28333333,
       "lat": 25.22916667,
       "range": 1172600,
-      "heading": -27.8,
+      "heading": 7.800000000000001,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:17Z",
+      "t": "2026-11-03T00:01:33Z",
       "lon": 31.283333330000005,
       "lat": 25.22916667,
       "range": 14000000,
-      "heading": -27.8,
+      "heading": 7.800000000000001,
       "pitch": -88,
       "move": "flight"
     }
@@ -233,64 +272,78 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "According to the reports, a commercial vessel was hit by an unidentified object in waters off Musandam Governorate, Oman, killing an Indian crew member, and 13 others were rescued.",
+      "text": "A commercial vessel was hit by an unidentified object in the waters of Musandam Governorate, Oman, killing an Indian crew member, while 13 others were rescued.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On November 2, as the U.S. military described what it called \"defensive strikes\" in the Strait of Hormuz, multiple explosions were reported on Iran's Qeshm Island.",
+      "text": "On November 2, alongside what the U.S. military described as \"defensive strikes\" in the Strait of Hormuz, multiple explosions were reported on Iran's Qeshm Island.",
       "cites": [
         "wiki:rev:1383733327:263"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Since 28 February 2026, shipping through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran.",
+      "text": "Shipping through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026.",
       "cites": [
         "wiki:rev:1383733327:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "The reports place the incident in Musandam Governorate, Oman.",
+      "text": "On 27 October, the Persian Gulf Strait Authority said that vessels belonging to South Korean shipping company Sinokor would face legal action beginning on 1 November.",
+      "cites": [
+        "wiki:2026-10-27:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:32Z",
+      "text": "On 30 October, Oman rescued 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz.",
+      "cites": [
+        "wiki:2026-10-30:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:41Z",
+      "text": "On the map, Musandam Governorate in Oman is where the reports place the vessel strike.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
-      "t": "2026-11-03T00:00:33Z",
-      "text": "On 28 October, the Dutch TTF front-month natural gas futures contract briefly reached €100 per megawatt-hour, approximately three times its pre-war level, according to Reuters.",
+      "t": "2026-11-03T00:00:49Z",
+      "text": "On 28 October, the Dutch Title Transfer Facility front-month natural gas futures contract briefly reached €100 per megawatt-hour, approximately three times its pre-war level, according to Reuters.",
       "cites": [
         "wiki:week:1383733327:424"
       ]
     },
     {
-      "t": "2026-11-03T00:00:41Z",
+      "t": "2026-11-03T00:00:57Z",
       "text": "On the evening of 30 October 2026, the Nakilat-operated LNG carrier \"Al Mayeda\" was hit by \"unidentified objects\" in the Persian Gulf.",
       "cites": [
         "wiki:week:1383733327:264"
       ]
     },
     {
-      "t": "2026-11-03T00:00:50Z",
-      "text": "According to the article's figures, casualties are 24 seafarers and 1 port worker, and injured are recorded as 35+.",
+      "t": "2026-11-03T00:01:06Z",
+      "text": "As the article records, casualties stand at 24 seafarers and 1 port worker, and injured at 35+.",
       "cites": [
         "wiki:box:1383733327:casualties",
         "wiki:box:1383733327:injured"
       ]
     },
     {
-      "t": "2026-11-03T00:01:01Z",
+      "t": "2026-11-03T00:01:17Z",
       "text": "The reports also name the Strait of Hormuz.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
-      "t": "2026-11-03T00:01:10Z",
-      "text": "Reuters is named as the reporting source.",
+      "t": "2026-11-03T00:01:26Z",
+      "text": "The reports were carried by Reuters.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
@@ -310,30 +363,58 @@
     },
     {
       "t": "2026-11-03T00:00:24Z",
+      "title": "How it unfolded"
+    },
+    {
+      "t": "2026-11-03T00:00:40Z",
       "title": "Where"
     },
     {
-      "t": "2026-11-03T00:00:32Z",
+      "t": "2026-11-03T00:00:48Z",
       "title": "Day by day"
     },
     {
-      "t": "2026-11-03T00:00:49Z",
+      "t": "2026-11-03T00:01:05Z",
       "title": "Sides and figures"
     },
     {
-      "t": "2026-11-03T00:01:00Z",
+      "t": "2026-11-03T00:01:16Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:01:09Z",
+      "t": "2026-11-03T00:01:25Z",
       "title": "Reported by"
     }
   ],
   "panels": [
     {
+      "id": "thread",
+      "t": "2026-11-03T00:00:25Z",
+      "until": "2026-11-03T00:00:40Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "27 October",
+          "text": "The Persian Gulf Strait Authority says that vessels belonging to South Korean shipping…",
+          "cites": [
+            "wiki:2026-10-27:1"
+          ]
+        },
+        {
+          "label": "30 October",
+          "text": "Oman rescues 25 crew members from a burning Panamanian-flagged oil tanker in the Strait…",
+          "cites": [
+            "wiki:2026-10-30:1"
+          ]
+        }
+      ]
+    },
+    {
       "id": "week",
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:49Z",
+      "t": "2026-11-03T00:00:49Z",
+      "until": "2026-11-03T00:01:05Z",
       "title": "Places in the week's reports",
       "note": "Places the article's dated sentences of the past seven days link to. Red: the latest; amber: a week ago.",
       "kind": "facts",
@@ -349,8 +430,8 @@
     },
     {
       "id": "sides",
-      "t": "2026-11-03T00:00:50Z",
-      "until": "2026-11-03T00:01:00Z",
+      "t": "2026-11-03T00:01:06Z",
+      "until": "2026-11-03T00:01:16Z",
       "title": "As the article records them",
       "note": "From the article's infobox; contested figures are attributed there to their sources.",
       "kind": "facts",
@@ -373,8 +454,8 @@
     },
     {
       "id": "sources",
-      "t": "2026-11-03T00:01:10Z",
-      "until": "2026-11-03T00:01:17Z",
+      "t": "2026-11-03T00:01:26Z",
+      "until": "2026-11-03T00:01:33Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
       "kind": "facts",
@@ -393,7 +474,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.001401
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.001663
   }
 }

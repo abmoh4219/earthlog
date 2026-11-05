@@ -1,0 +1,575 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-learjet-60",
+  "title": "Learjet 60",
+  "subtitle": "Tech & business · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:00:57Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -111.91,
+    "south": 52.32,
+    "east": -91.91,
+    "north": 68.32
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:33Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:33Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": -63.90999999999997,
+      "lat": 34.917,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -101.91,
+      "lat": 58.195,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:14Z",
+      "lon": -101.91,
+      "lat": 58.195,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:23Z",
+      "lon": -101.91,
+      "lat": 58.195,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:27Z",
+      "lon": -87.84797980372194,
+      "lat": 41.991464337906606,
+      "range": 9811085.037571577,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:30Z",
+      "lon": -87.84797980372194,
+      "lat": 41.991464337906606,
+      "range": 8884315.363822803,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:32Z",
+      "lon": -87.84797980372194,
+      "lat": 41.991464337906606,
+      "range": 8045089.730808693,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "lon": 8.9957257978626,
+      "lat": 47.652669031143844,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:45Z",
+      "lon": 8.9957257978626,
+      "lat": 47.652669031143844,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:53Z",
+      "lon": 8.9957257978626,
+      "lat": 47.652669031143844,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:57Z",
+      "lon": -16.004274202137367,
+      "lat": 47.652669031143844,
+      "range": 54120000,
+      "heading": 28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "In July 2012, Bombardier Aerospace announced a temporary production pause of the latest variant, the Learjet 60XR, to begin in the fourth quarter of 2012.",
+      "cites": [
+        "wiki:rev:1383775252:2"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:08Z",
+      "text": "On the prior Longhorn wing, interference between the winglet and the wing nearly canceled the winglet's effects.",
+      "cites": [
+        "wiki:rev:1383775252:15"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:15Z",
+      "text": "The Learjet 60 is a mid-size cabin, medium-range business jet manufactured by Bombardier Aerospace in Wichita, Kansas.",
+      "cites": [
+        "wiki:rev:1383775252:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "text": "Readers also turned to the 2026 Palm Beach County Learjet 60 crash, which drew 220,959 readers, and to the Learjet article, with 64,003.",
+      "cites": [
+        "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-02",
+        "views:en:Learjet:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:34Z",
+      "text": "On 2 November 2026, 263,003 people read the Learjet 60 article, about 2,210× the usual.",
+      "cites": [
+        "views:en:Learjet_60:2026-11-02",
+        "views:en:Learjet_60:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:40Z",
+      "text": "The article is available in 9 languages, and after English the largest readership was German, with 17,154.",
+      "cites": [
+        "views:en:Learjet_60:2026-11-02",
+        "views:de:Learjet_60:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:46Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "cites": [
+        "views:de:Learjet_60:2026-11-02",
+        "views:fr:Learjet_60:2026-11-02",
+        "views:es:Learjet_60:2026-11-02",
+        "views:ja:リアジェット60:2026-11-02",
+        "views:ru:Learjet_60:2026-11-02",
+        "views:pl:Learjet_60:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CA",
+    "lon": -101.91,
+    "lat": 60.32,
+    "label": "Canada"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:00:34Z",
+      "until": "2026-11-02T00:00:57Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Learjet 60",
+          "color": "#5ef2ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 125
+            },
+            {
+              "x": "10-05",
+              "y": 242
+            },
+            {
+              "x": "10-06",
+              "y": 288
+            },
+            {
+              "x": "10-07",
+              "y": 148
+            },
+            {
+              "x": "10-08",
+              "y": 134
+            },
+            {
+              "x": "10-09",
+              "y": 113
+            },
+            {
+              "x": "10-10",
+              "y": 123
+            },
+            {
+              "x": "10-11",
+              "y": 107
+            },
+            {
+              "x": "10-12",
+              "y": 142
+            },
+            {
+              "x": "10-13",
+              "y": 108
+            },
+            {
+              "x": "10-14",
+              "y": 103
+            },
+            {
+              "x": "10-15",
+              "y": 102
+            },
+            {
+              "x": "10-16",
+              "y": 112
+            },
+            {
+              "x": "10-17",
+              "y": 106
+            },
+            {
+              "x": "10-18",
+              "y": 98
+            },
+            {
+              "x": "10-19",
+              "y": 77
+            },
+            {
+              "x": "10-20",
+              "y": 108
+            },
+            {
+              "x": "10-21",
+              "y": 119
+            },
+            {
+              "x": "10-22",
+              "y": 95
+            },
+            {
+              "x": "10-23",
+              "y": 106
+            },
+            {
+              "x": "10-24",
+              "y": 83
+            },
+            {
+              "x": "10-25",
+              "y": 100
+            },
+            {
+              "x": "10-26",
+              "y": 106
+            },
+            {
+              "x": "10-27",
+              "y": 108
+            },
+            {
+              "x": "10-28",
+              "y": 200
+            },
+            {
+              "x": "10-29",
+              "y": 131
+            },
+            {
+              "x": "10-30",
+              "y": 159
+            },
+            {
+              "x": "10-31",
+              "y": 112
+            },
+            {
+              "x": "11-01",
+              "y": 48391
+            },
+            {
+              "x": "11-02",
+              "y": 263003
+            }
+          ],
+          "cites": [
+            "views:en:Learjet_60:30d"
+          ]
+        },
+        {
+          "label": "Learjet",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 469
+            },
+            {
+              "x": "10-05",
+              "y": 387
+            },
+            {
+              "x": "10-06",
+              "y": 432
+            },
+            {
+              "x": "10-07",
+              "y": 395
+            },
+            {
+              "x": "10-08",
+              "y": 428
+            },
+            {
+              "x": "10-09",
+              "y": 340
+            },
+            {
+              "x": "10-10",
+              "y": 365
+            },
+            {
+              "x": "10-11",
+              "y": 313
+            },
+            {
+              "x": "10-12",
+              "y": 365
+            },
+            {
+              "x": "10-13",
+              "y": 365
+            },
+            {
+              "x": "10-14",
+              "y": 361
+            },
+            {
+              "x": "10-15",
+              "y": 350
+            },
+            {
+              "x": "10-16",
+              "y": 321
+            },
+            {
+              "x": "10-17",
+              "y": 283
+            },
+            {
+              "x": "10-18",
+              "y": 281
+            },
+            {
+              "x": "10-19",
+              "y": 333
+            },
+            {
+              "x": "10-20",
+              "y": 425
+            },
+            {
+              "x": "10-21",
+              "y": 401
+            },
+            {
+              "x": "10-22",
+              "y": 322
+            },
+            {
+              "x": "10-23",
+              "y": 379
+            },
+            {
+              "x": "10-24",
+              "y": 279
+            },
+            {
+              "x": "10-25",
+              "y": 320
+            },
+            {
+              "x": "10-26",
+              "y": 323
+            },
+            {
+              "x": "10-27",
+              "y": 290
+            },
+            {
+              "x": "10-28",
+              "y": 296
+            },
+            {
+              "x": "10-29",
+              "y": 337
+            },
+            {
+              "x": "10-30",
+              "y": 247
+            },
+            {
+              "x": "10-31",
+              "y": 253
+            },
+            {
+              "x": "11-01",
+              "y": 10877
+            },
+            {
+              "x": "11-02",
+              "y": 64003
+            }
+          ],
+          "cites": [
+            "views:en:Learjet:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:00:34Z",
+      "until": "2026-11-02T00:00:57Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "263,003",
+          "value": 263003,
+          "color": "#5ef2ff",
+          "cites": [
+            "views:en:Learjet_60:2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "17,154",
+          "value": 17154,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Learjet_60:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "13,614",
+          "value": 13614,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Learjet_60:2026-11-02"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "11,603",
+          "value": 11603,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Learjet_60:2026-11-02"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "8,623",
+          "value": 8623,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:リアジェット60:2026-11-02"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "8,489",
+          "value": 8489,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Learjet_60:2026-11-02"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "6,708",
+          "value": 6708,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Learjet_60:2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.001372
+  }
+}

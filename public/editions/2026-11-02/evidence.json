@@ -1,0 +1,714 @@
+[
+  {
+    "id": "wiki:2026-11-02:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "lon": 35.71666667,
+    "lat": 15.75,
+    "label": "Conflict: The Rapid Support Forces launches drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
+    "quote": "The Rapid Support Forces launches drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_2&oldid=1383746335",
+    "links": [
+      {
+        "url": "https://sudantribune.com/article/320792",
+        "name": "Sudan Tribune"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-02:7",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "lon": -75.23333333,
+    "lat": 4.43333333,
+    "label": "Conflict: A truck bomb explodes near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.",
+    "quote": "A truck bomb explodes near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_2&oldid=1383746335",
+    "links": [
+      {
+        "url": "https://www.bbc.com/news/articles/cqn06n30l406o",
+        "name": "BBC News"
+      },
+      {
+        "url": "https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/",
+        "name": "Reuters"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-02:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "Business: The United States announces the suspensions of Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act beginning January 1, 2027, citing trade barriers, human rights concerns, and threats to U.S. interests.",
+    "quote": "The United States announces the suspensions of Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act beginning January 1, 2027, citing trade barriers, human rights concerns, and threats to U.S. interests.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_2&oldid=1383746335",
+    "links": [
+      {
+        "url": "https://www.reuters.com/world/africa/us-suspend-south-africa-rwanda-duty-free-trade-access-2026-11-02/",
+        "name": "Reuters"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Haley_Stevens:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 548,345 readers of \"Haley Stevens\" on 2 Nov 2026",
+    "value": 548345,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Haley_Stevens"
+  },
+  {
+    "id": "views:en:Haley_Stevens:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Haley Stevens\": normally a median of 1,056 readers a day (8 to 60 days before)",
+    "value": 1056,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Haley_Stevens"
+  },
+  {
+    "id": "views:en:Abdul_El-Sayed:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 243,340 readers of \"Abdul El-Sayed\" on 2 Nov 2026",
+    "value": 243340,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:en:Abdul_El-Sayed:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Abdul El-Sayed\": normally a median of 16,924 readers a day (8 to 60 days before)",
+    "value": 16924,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed"
+  },
+  {
+    "id": "views:en:Mike_Rogers_(Michigan_politician):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 77,353 readers of \"Mike Rogers (Michigan politician)\" on 2 Nov 2026",
+    "value": 77353,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)"
+  },
+  {
+    "id": "views:en:Mike_Rogers_(Michigan_politician):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Mike Rogers (Michigan politician)\": normally a median of 4,061 readers a day (8 to 60 days before)",
+    "value": 4061,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Michigan:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 60,512 readers of \"2026 United States Senate election in Michigan\" on 2 Nov 2026",
+    "value": 60512,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Michigan:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"2026 United States Senate election in Michigan\": normally a median of 5,650 readers a day (8 to 60 days before)",
+    "value": 5650,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan"
+  },
+  {
+    "id": "wd:Q58322563:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Haley Stevens\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q58322563"
+  },
+  {
+    "id": "views:en:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 263,003 readers of \"Learjet 60\" on 2 Nov 2026",
+    "value": 263003,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:en:Learjet_60:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Learjet 60\": normally a median of 119 readers a day (8 to 60 days before)",
+    "value": 119,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 220,959 readers of \"2026 Palm Beach County Learjet 60 crash\" on 2 Nov 2026",
+    "value": 220959,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash"
+  },
+  {
+    "id": "views:en:2026_Palm_Beach_County_Learjet_60_crash:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"2026 Palm Beach County Learjet 60 crash\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash"
+  },
+  {
+    "id": "views:en:Learjet:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 64,003 readers of \"Learjet\" on 2 Nov 2026",
+    "value": 64003,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet"
+  },
+  {
+    "id": "views:en:Learjet:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Learjet\": normally a median of 372 readers a day (8 to 60 days before)",
+    "value": 372,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet"
+  },
+  {
+    "id": "wd:Q1267393:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Learjet 60\" is an instance of aircraft model",
+    "url": "https://www.wikidata.org/wiki/Q1267393"
+  },
+  {
+    "id": "views:en:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 252,010 readers of \"Susan Saint James\" on 2 Nov 2026",
+    "value": 252010,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:en:Susan_Saint_James:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Susan Saint James\": normally a median of 720 readers a day (8 to 60 days before)",
+    "value": 720,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:en:Dick_Ebersol:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 106,158 readers of \"Dick Ebersol\" on 2 Nov 2026",
+    "value": 106158,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dick_Ebersol"
+  },
+  {
+    "id": "views:en:Dick_Ebersol:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Dick Ebersol\": normally a median of 400 readers a day (8 to 60 days before)",
+    "value": 400,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dick_Ebersol"
+  },
+  {
+    "id": "wd:Q259559:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Susan Saint James\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q259559"
+  },
+  {
+    "id": "views:en:2026_United_States_elections:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 201,102 readers of \"2026 United States elections\" on 2 Nov 2026",
+    "value": 201102,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
+  },
+  {
+    "id": "views:en:2026_United_States_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"2026 United States elections\": normally a median of 23,835 readers a day (8 to 60 days before)",
+    "value": 23835,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections"
+  },
+  {
+    "id": "views:en:United_States_midterm_election:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 131,229 readers of \"United States midterm election\" on 2 Nov 2026",
+    "value": 131229,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_midterm_election"
+  },
+  {
+    "id": "views:en:United_States_midterm_election:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"United States midterm election\": normally a median of 13,273 readers a day (8 to 60 days before)",
+    "value": 13273,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_midterm_election"
+  },
+  {
+    "id": "views:en:James_Talarico:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 62,655 readers of \"James Talarico\" on 2 Nov 2026",
+    "value": 62655,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Talarico"
+  },
+  {
+    "id": "views:en:James_Talarico:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"James Talarico\": normally a median of 20,285 readers a day (8 to 60 days before)",
+    "value": 20285,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Talarico"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_elections:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 61,876 readers of \"2026 United States Senate elections\" on 2 Nov 2026",
+    "value": 61876,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"2026 United States Senate elections\": normally a median of 14,312 readers a day (8 to 60 days before)",
+    "value": 14312,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+  },
+  {
+    "id": "wd:Q115857612:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"2026 United States elections\" is an instance of events in a specific year or time period, United States midterm election",
+    "url": "https://www.wikidata.org/wiki/Q115857612"
+  },
+  {
+    "id": "views:en:2026_Greenacres_Learjet_60_crash:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 152,110 readers of \"2026 Greenacres Learjet 60 crash\" on 2 Nov 2026",
+    "value": 152110,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Greenacres_Learjet_60_crash"
+  },
+  {
+    "id": "views:en:2026_Greenacres_Learjet_60_crash:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"2026 Greenacres Learjet 60 crash\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Greenacres_Learjet_60_crash"
+  },
+  {
+    "id": "wd:Q141966885:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"2026 Palm Beach County Learjet 60 crash\" is an instance of aviation accident",
+    "url": "https://www.wikidata.org/wiki/Q141966885"
+  },
+  {
+    "id": "views:en:Jailer_2:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 111,475 readers of \"Jailer 2\" on 2 Nov 2026",
+    "value": 111475,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jailer_2"
+  },
+  {
+    "id": "views:en:Jailer_2:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Jailer 2\": normally a median of 11,257 readers a day (8 to 60 days before)",
+    "value": 11257,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jailer_2"
+  },
+  {
+    "id": "views:en:King_(2026_film):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 58,142 readers of \"King (2026 film)\" on 2 Nov 2026",
+    "value": 58142,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/King_(2026_film)"
+  },
+  {
+    "id": "views:en:King_(2026_film):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"King (2026 film)\": normally a median of 5,152 readers a day (8 to 60 days before)",
+    "value": 5152,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/King_(2026_film)"
+  },
+  {
+    "id": "wd:Q133255153:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Jailer 3\" is an instance of film",
+    "url": "https://www.wikidata.org/wiki/Q133255153"
+  },
+  {
+    "id": "views:en:Archive_of_Our_Own:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 78,713 readers of \"Archive of Our Own\" on 2 Nov 2026",
+    "value": 78713,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:en:Archive_of_Our_Own:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Archive of Our Own\": normally a median of 1,391 readers a day (8 to 60 days before)",
+    "value": 1391,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "wd:Q27764876:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Archive of Our Own\" is an instance of service on Internet, fiction repository",
+    "url": "https://www.wikidata.org/wiki/Q27764876"
+  },
+  {
+    "id": "views:en:Storm_oil:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 70,742 readers of \"Storm oil\" on 2 Nov 2026",
+    "value": 70742,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Storm_oil"
+  },
+  {
+    "id": "views:en:Storm_oil:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Storm oil\": normally a median of 16 readers a day (8 to 60 days before)",
+    "value": 16,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Storm_oil"
+  },
+  {
+    "id": "views:en:Wildwood_(film):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 69,768 readers of \"Wildwood (film)\" on 2 Nov 2026",
+    "value": 69768,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Wildwood_(film)"
+  },
+  {
+    "id": "views:en:Wildwood_(film):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Wildwood (film)\": normally a median of 7,607 readers a day (8 to 60 days before)",
+    "value": 7607,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Wildwood_(film)"
+  },
+  {
+    "id": "wd:Q123058740:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Wildwood\" is an instance of animated film",
+    "url": "https://www.wikidata.org/wiki/Q123058740"
+  },
+  {
+    "id": "views:en:Day_of_the_Dead:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 63,975 readers of \"Day of the Dead\" on 2 Nov 2026",
+    "value": 63975,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+  },
+  {
+    "id": "views:en:Day_of_the_Dead:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Day of the Dead\": normally a median of 4,825 readers a day (8 to 60 days before)",
+    "value": 4825,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+  },
+  {
+    "id": "wd:Q309256:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Day of the Dead\" is an instance of religious holiday",
+    "url": "https://www.wikidata.org/wiki/Q309256"
+  },
+  {
+    "id": "views:en:Ramayana:_Part_1:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 60,024 readers of \"Ramayana: Part 1\" on 2 Nov 2026",
+    "value": 60024,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
+  },
+  {
+    "id": "views:en:Ramayana:_Part_1:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Ramayana: Part 1\": normally a median of 7,324 readers a day (8 to 60 days before)",
+    "value": 7324,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
+  },
+  {
+    "id": "wd:Q135196186:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Ramayana: Rise of a Legend\" is an instance of film",
+    "url": "https://www.wikidata.org/wiki/Q135196186"
+  },
+  {
+    "id": "views:en:Ciara_Mageean:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 59,386 readers of \"Ciara Mageean\" on 2 Nov 2026",
+    "value": 59386,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ciara_Mageean"
+  },
+  {
+    "id": "views:en:Ciara_Mageean:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Ciara Mageean\": normally a median of 64 readers a day (8 to 60 days before)",
+    "value": 64,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Ciara_Mageean"
+  },
+  {
+    "id": "wd:Q2913482:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Q2913482\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q2913482"
+  },
+  {
+    "id": "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 53,573 readers of \"Sovetsky Soyuz-class battleship\" on 2 Nov 2026",
+    "value": 53573,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship"
+  },
+  {
+    "id": "views:en:Sovetsky_Soyuz-class_battleship:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"Sovetsky Soyuz-class battleship\": normally a median of 198 readers a day (8 to 60 days before)",
+    "value": 198,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship"
+  },
+  {
+    "id": "wd:Q432231:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Sovetsky Soyuz-class battleship\" is an instance of ship class, abandoned project",
+    "url": "https://www.wikidata.org/wiki/Q432231"
+  },
+  {
+    "id": "views:en:United_Airlines_Flight_232:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 51,857 readers of \"United Airlines Flight 232\" on 2 Nov 2026",
+    "value": 51857,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_Airlines_Flight_232"
+  },
+  {
+    "id": "views:en:United_Airlines_Flight_232:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "\"United Airlines Flight 232\": normally a median of 1,324 readers a day (8 to 60 days before)",
+    "value": 1324,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_Airlines_Flight_232"
+  },
+  {
+    "id": "wd:Q580343:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"United Airlines Flight 232\" is an instance of aviation accident",
+    "url": "https://www.wikidata.org/wiki/Q580343"
+  },
+  {
+    "id": "wd:Q169072:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Colombian conflict\" is an instance of rebellion, historical period",
+    "url": "https://www.wikidata.org/wiki/Q169072"
+  }
+]

@@ -1,0 +1,675 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-wildwood-film",
+  "title": "Wildwood (film)",
+  "subtitle": "Culture · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:01:24Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:00Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:00Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-02T00:00:24Z",
+      "until": "2026-11-02T00:00:42Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-02T00:00:42Z",
+      "until": "2026-11-02T00:01:00Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-people.json",
+      "name": "people",
+      "from": "2026-11-02T00:00:42Z",
+      "until": "2026-11-02T00:01:00Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:27Z",
+      "lon": -122.98972222222223,
+      "lat": 43.32277777777777,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:34Z",
+      "lon": -122.98972222222223,
+      "lat": 43.32277777777777,
+      "range": 1629969.324864735,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:41Z",
+      "lon": -122.98972222222223,
+      "lat": 43.32277777777777,
+      "range": 1476000,
+      "heading": -12,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:45Z",
+      "lon": -83.18955203689589,
+      "lat": 45.29590554469505,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:52Z",
+      "lon": -83.18955203689589,
+      "lat": 45.29590554469505,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:59Z",
+      "lon": -83.18955203689589,
+      "lat": 45.29590554469505,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:04Z",
+      "lon": 37.96547597643015,
+      "lat": 45.10772889324077,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:12Z",
+      "lon": 37.96547597643015,
+      "lat": 45.10772889324077,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:20Z",
+      "lon": 37.96547597643015,
+      "lat": 45.10772889324077,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:24Z",
+      "lon": 12.965475976430184,
+      "lat": 45.10772889324077,
+      "range": 54120000,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "Wildwood premiered at the BFI London Film Festival on October 11, 2026, and opened in the United States through Fathom Entertainment on October 23, 2026.",
+      "cites": [
+        "wiki:rev:1383795848:8"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:08Z",
+      "text": "The score soundtrack came out on October 23, 2026, with a new original song by The Decemberists, and a single was released on October 9.",
+      "cites": [
+        "wiki:rev:1383795848:27"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:15Z",
+      "text": "Wildwood is a 2026 American stop-motion animated epic fantasy film directed by Travis Knight and written by Chris Butler, based on the 2011 novel by Colin Meloy and Carson Ellis.",
+      "cites": [
+        "wiki:rev:1383795848:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "text": "The film stars Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay and Richard E. Grant, with music by Dario Marianelli.",
+      "cites": [
+        "wiki:box:1383795848:starring",
+        "wiki:box:1383795848:music"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "text": "It was released on 11 October 2026 at the BFI and on 23 October 2026 in the United States, and according to Wikipedia its box office is $53 million.",
+      "cites": [
+        "wiki:box:1383795848:released",
+        "wiki:box:1383795848:box-office"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:43Z",
+      "text": "13 of the people credited have a birthplace on record, and 9 of them were born in the United States.",
+      "cites": [
+        "wd:Q15306031:P19",
+        "wd:Q184805:P19",
+        "wd:Q195691:P19",
+        "wd:Q20965633:P19",
+        "wd:Q219655:P19",
+        "wd:Q232120:P19",
+        "wd:Q30069887:P19",
+        "wd:Q360399:P19",
+        "wd:Q360531:P19",
+        "wd:Q365915:P19",
+        "wd:Q380856:P19",
+        "wd:Q40064:P19",
+        "wd:Q7836302:P19"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:51Z",
+      "text": "Jacob Tremblay was born in Vancouver, Canada, Carey Mulligan in City of Westminster, United Kingdom, and Dario Marianelli in Pisa, Italy.",
+      "cites": [
+        "wd:Q20965633:P19",
+        "wd:Q219655:P19",
+        "wd:Q360399:P19"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:01Z",
+      "text": "On 2 November 2026, 69,768 people read the English article, about 9× the usual.",
+      "cites": [
+        "views:en:Wildwood_(film):2026-11-02",
+        "views:en:Wildwood_(film):prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:07Z",
+      "text": "The article was read in 10 languages, and after English, German came next with 2,477 readers.",
+      "cites": [
+        "views:en:Wildwood_(film):2026-11-02",
+        "views:de:Wildwood_(Film):2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:13Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:de:Wildwood_(Film):2026-11-02",
+        "views:it:Wildwood_-_I_segreti_del_bosco_proibito:2026-11-02",
+        "views:ru:Ведьмин_лес:2026-11-02",
+        "views:fr:Wildwood_:_La_Prophétie_de_la_forêt:2026-11-02",
+        "views:pt:Wildwood_(filme):2026-11-02",
+        "views:zh:荒野叢林_(電影):2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-02T00:00:42Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-02T00:01:00Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-02T00:00:25Z",
+      "until": "2026-11-02T00:00:42Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-04).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Directed by",
+          "text": "Travis Knight",
+          "cites": [
+            "wiki:box:1383795848:directed-by"
+          ]
+        },
+        {
+          "label": "Starring",
+          "text": "Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay, Richard E. Grant and 8 more",
+          "cites": [
+            "wiki:box:1383795848:starring"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Dario Marianelli",
+          "cites": [
+            "wiki:box:1383795848:music"
+          ]
+        },
+        {
+          "label": "Based on",
+          "text": "Wildwood by Colin Meloy and Carson Ellis",
+          "cites": [
+            "wiki:box:1383795848:based-on"
+          ]
+        },
+        {
+          "label": "Studio",
+          "text": "Laika",
+          "cites": [
+            "wiki:box:1383795848:studio"
+          ]
+        },
+        {
+          "label": "Released",
+          "text": "11 October 2026 (BFI), 23 October 2026 (United States)",
+          "cites": [
+            "wiki:box:1383795848:released"
+          ]
+        },
+        {
+          "label": "Runtime",
+          "text": "132 minutes",
+          "cites": [
+            "wiki:box:1383795848:runtime"
+          ]
+        },
+        {
+          "label": "Language",
+          "text": "English",
+          "cites": [
+            "wiki:box:1383795848:language"
+          ]
+        },
+        {
+          "label": "Budget",
+          "text": "$100 million",
+          "cites": [
+            "wiki:box:1383795848:budget"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "born-in",
+      "t": "2026-11-02T00:00:43Z",
+      "until": "2026-11-02T00:01:00Z",
+      "title": "Born in",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "United States",
+          "text": "9",
+          "value": 9,
+          "color": "#ff8fd0",
+          "cites": [
+            "wd:Q15306031:P19",
+            "wd:Q184805:P19",
+            "wd:Q195691:P19",
+            "wd:Q232120:P19",
+            "wd:Q30069887:P19",
+            "wd:Q360531:P19",
+            "wd:Q365915:P19",
+            "wd:Q40064:P19",
+            "wd:Q7836302:P19"
+          ]
+        },
+        {
+          "label": "Canada",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q20965633:P19"
+          ]
+        },
+        {
+          "label": "United Kingdom",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q219655:P19"
+          ]
+        },
+        {
+          "label": "Italy",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q360399:P19"
+          ]
+        },
+        {
+          "label": "eSwatini",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q380856:P19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:01:01Z",
+      "until": "2026-11-02T00:01:24Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Wildwood (film)",
+          "color": "#ff8fd0",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 8838
+            },
+            {
+              "x": "10-05",
+              "y": 7779
+            },
+            {
+              "x": "10-06",
+              "y": 7424
+            },
+            {
+              "x": "10-07",
+              "y": 7676
+            },
+            {
+              "x": "10-08",
+              "y": 7607
+            },
+            {
+              "x": "10-09",
+              "y": 8085
+            },
+            {
+              "x": "10-10",
+              "y": 8350
+            },
+            {
+              "x": "10-11",
+              "y": 20756
+            },
+            {
+              "x": "10-12",
+              "y": 24197
+            },
+            {
+              "x": "10-13",
+              "y": 18538
+            },
+            {
+              "x": "10-14",
+              "y": 14820
+            },
+            {
+              "x": "10-15",
+              "y": 16565
+            },
+            {
+              "x": "10-16",
+              "y": 16297
+            },
+            {
+              "x": "10-17",
+              "y": 14393
+            },
+            {
+              "x": "10-18",
+              "y": 16132
+            },
+            {
+              "x": "10-19",
+              "y": 18175
+            },
+            {
+              "x": "10-20",
+              "y": 26214
+            },
+            {
+              "x": "10-21",
+              "y": 31336
+            },
+            {
+              "x": "10-22",
+              "y": 43895
+            },
+            {
+              "x": "10-23",
+              "y": 78675
+            },
+            {
+              "x": "10-24",
+              "y": 96858
+            },
+            {
+              "x": "10-25",
+              "y": 118435
+            },
+            {
+              "x": "10-26",
+              "y": 126098
+            },
+            {
+              "x": "10-27",
+              "y": 85263
+            },
+            {
+              "x": "10-28",
+              "y": 77318
+            },
+            {
+              "x": "10-29",
+              "y": 65092
+            },
+            {
+              "x": "10-30",
+              "y": 60895
+            },
+            {
+              "x": "10-31",
+              "y": 65299
+            },
+            {
+              "x": "11-01",
+              "y": 70974
+            },
+            {
+              "x": "11-02",
+              "y": 69768
+            }
+          ],
+          "cites": [
+            "views:en:Wildwood_(film):30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:01:01Z",
+      "until": "2026-11-02T00:01:24Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "69,768",
+          "value": 69768,
+          "color": "#ff8fd0",
+          "cites": [
+            "views:en:Wildwood_(film):2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "2,477",
+          "value": 2477,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Wildwood_(Film):2026-11-02"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "2,151",
+          "value": 2151,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Wildwood_-_I_segreti_del_bosco_proibito:2026-11-02"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "752",
+          "value": 752,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Ведьмин_лес:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "692",
+          "value": 692,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Wildwood_:_La_Prophétie_de_la_forêt:2026-11-02"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "521",
+          "value": 521,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Wildwood_(filme):2026-11-02"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "250",
+          "value": 250,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:荒野叢林_(電影):2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002835
+  }
+}

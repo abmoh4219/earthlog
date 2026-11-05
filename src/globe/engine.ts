@@ -9,6 +9,7 @@ import { activeBeatIndex } from "@/scene/beats";
 import { cinematicPose, tiltShift } from "@/scene/camera";
 import { Country, type TerrainLayer } from "@/scene/schema";
 import { decodeGrid, heightAt } from "@/scene/terrain";
+import { publishGlobeFrame } from "./frames";
 import {
   BLACK_MARBLE,
   BLUE_MARBLE,
@@ -94,6 +95,15 @@ export async function createGlobe(
     shouldAnimate: false,
     scene3DOnly: true,
     msaaSamples: 4,
+    // One bad frame (seen once in a headless software renderer under memory pressure) must
+    // not freeze the film: no error panel, and the loop restarts below.
+    showRenderLoopErrors: false,
+  });
+  widget.scene.renderError.addEventListener((_scene, error) => {
+    console.warn("Earthlog: a frame failed to render; resuming.", error);
+    setTimeout(() => {
+      if (!widget.isDestroyed()) widget.useDefaultRenderLoop = true;
+    }, 250);
   });
 
   const s = widget.scene;
@@ -284,8 +294,11 @@ export async function createGlobe(
     lens?.update(tiltShift(s.camera.pitch / DEG, s.camera.positionCartographic.height), clock.t);
   });
 
+  const removePostRender = s.postRender.addEventListener(() => publishGlobeFrame(s.canvas));
+
   return {
     destroy: () => {
+      removePostRender();
       removePreUpdate();
       handler.destroy();
       overlays.destroy();

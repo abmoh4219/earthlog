@@ -5,7 +5,8 @@
 // Spend: one request per story, prompt-cached system prompt, cost printed per story and in
 // total, and a hard ceiling per run (--max-usd, default $0.25): past it, the rest stay template.
 // The key is read from .env (gitignored) or the environment, by the SDK only; never printed.
-import { readdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
@@ -70,10 +71,23 @@ for (const story of edition.stories) {
     { role: "user", content: storyPrompt(template, story.lens, inputs) },
   ];
 
-  let best: Direction | undefined;
+  // Same model, same instructions, same film: reuse the answer (the nightly job re-films the
+  // last three editions; unchanged films then cost nothing). Kept in .cache/ (gitignored).
+  const key = createHash("sha256")
+    .update(`${MODEL}\n${SYSTEM}\n${String(messages[0]?.content)}`)
+    .digest("hex")
+    .slice(0, 24);
+  const cacheFile = join(ROOT, ".cache", "direct", `${key}.json`);
+  let cached: Direction | undefined;
+  try {
+    cached = Direction.parse(JSON.parse(await readFile(cacheFile, "utf8")));
+  } catch {
+    // Not directed before.
+  }
+  let best: Direction | undefined = cached;
   let storyCost = 0;
   // Up to 2 retries, each told exactly which chapters failed and why.
-  for (let attempt = 0; attempt < 3 && spent + storyCost < maxUsd; attempt++) {
+  for (let attempt = 0; !cached && attempt < 3 && spent + storyCost < maxUsd; attempt++) {
     try {
       const res = await client.messages.parse({
         model: MODEL,
@@ -105,6 +119,10 @@ for (const story of edition.stories) {
     }
   }
   spent += storyCost;
+  if (best && !cached) {
+    await mkdir(join(ROOT, ".cache", "direct"), { recursive: true });
+    await writeFile(cacheFile, JSON.stringify(best));
+  }
   if (!best) continue;
 
   const { scene: directedScene, accepted, rejected } = applyDirection(template, inputs, best);

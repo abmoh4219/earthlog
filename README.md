@@ -1,52 +1,68 @@
-<!-- Work in progress. The launch README (hero clip made by Earthlog itself) lands in PLAN.md Phase 20. -->
-
 <h1 align="center">🌍 Earthlog</h1>
 
 <p align="center"><strong>Yesterday's world, explained in 3D.</strong><br/>
 Every morning, the previous day's hottest stories (every topic, everywhere) become short, cinematic explainers on a 3D globe.<br/>
 Each story gets the analysis its kind deserves. Every claim links to its source.</p>
 
-<p align="center"><em>Open source · free · no account · no keys</em></p>
+<p align="center"><em>Open source · free · no account · no keys · no tracking</em></p>
 
-> [!NOTE]
-> **In active development.** The globe, the data pipeline, four classic replays and a day-at-a-glance edition work today. The story lenses are being built one per phase: see the [roadmap](PLAN.md).
+<p align="center">
+  <a href="https://earthlog.vercel.app"><strong>earthlog.vercel.app</strong></a>
+</p>
+
+<!-- Hero clip: the 2026 US elections film, exported with Earthlog's own clip recorder (Phase 20). -->
+<p align="center"><img src="docs/media/election.jpg" alt="The 2026 US elections film: Senate races state by state, with a cited results panel" width="900"/></p>
 
 ## What it does
 
-Open Earthlog in the morning and yesterday is waiting on the globe: each story a beacon, sized by how much the world read about it and how widely it was reported. Click one and the camera dives in.
+Open Earthlog in the morning and yesterday is waiting on the globe: each story a column of light, coloured by its kind and as tall as the attention it drew. Press **Play the edition** and the camera tours the planet story by story, or open any story's **film**: a 60–120 second explainer you can pause, scrub and explore, with **citation chips on every sentence and every number**.
 
 | When the story is… | Earthlog shows you |
 | --- | --- |
-| 🗳️ **An election** | States and districts filling in red and blue race by race, flipped seats pulsing, uncalled races left grey, seat charts before and after |
-| 👤 **A person** (a death, an award, an appointment) | Their life drawn across the globe, from birthplace to the places that defined them, and where the world read about them |
-| 🏢 **A company or a tech story** | A flight to its headquarters, what's on record about it (founded, staff, revenue over time), how attention spiked |
-| 💹 **The economy** | The institution, its country and its neighbours compared, with the key indicators charted |
-| ⚽ **Sports** | The venue, arcs from the teams' home cities, the result, who followed it around the world |
-| 🎬 **Culture** | Where it was made, what's on record, where the world was reading about it |
-| ✈️ **An accident** | The exact site, the route, the vehicle's facts |
-| 🌋 **A disaster** | A minute-by-minute replay from the sensors: fault rupture and shaking, satellite clouds moving every 10 minutes, provinces losing internet |
-| ⚔️ **A conflict** | Every place mentioned, day by day, with figures attributed to their sources |
+| 🗳️ **An election** | Any country's result from its article; in the US, states and districts filling in race by race, flipped seats pulsing, uncalled races grey, parliament charts |
+| 👤 **A person** | Their life drawn across the globe, from birthplace to the places that defined them |
+| 🏢 **A company or tech story** | A flight to its headquarters, what's on record (founded, staff, revenue over time), the tech community's discussion |
+| 💹 **The economy** | The institution, its country in numbers, and its region as 3D columns and a comparison map (World Bank) |
+| ⚽ **Sports** | The venue, arcs from the teams' home cities, the result card |
+| 🎬 **Culture** | The credits, a trail through the filming locations, where the people credited were born |
+| ✈️ **An accident** | The journey (flown in red, the rest dashed), the site on real terrain, the aircraft, who was on board, minute by minute |
+| 🌋 **An earthquake** | USGS ShakeMap shaking spreading outward, the fault model, towns as columns of estimated intensity, people exposed |
+| ⚔️ **A conflict** | The week day by day, places coloured by recency, sides and figures as the article records them, internet connectivity |
+| 🚀 **Science and space** | The launch pad with a beam of light, the mission, the landing |
 
-Every story is a 60–90 second **story film** you can pause, scrub and explore, with **citation chips on every sentence and every number**. Any story exports as a **video clip** for sharing. **Every edition is kept**, so the archive becomes a 3D record of the planet, day by day.
+Every film also has **how it unfolded** (the story's thread through the past week) and the **curiosity map**: who read about it, in which languages, glowing where each language is spoken.
 
-**Classics:** four hand-made deep replays of landmark events: the 2025 Iberian blackout, the 2022 World Cup final, Iran's 2025 internet shutdown and the 2025 Myanmar earthquake.
+<p align="center">
+  <img src="docs/media/learjet.jpg" alt="Accident lens: the flight from Austin, the crash site, the unflown leg dashed" width="440"/>
+  <img src="docs/media/curiosity.jpg" alt="Curiosity map: readers by language, glowing where each language is spoken" width="440"/>
+</p>
+<p align="center">
+  <img src="docs/media/thread.jpg" alt="How it unfolded: the Strait of Hormuz crisis, day by day" width="440"/>
+  <img src="docs/media/terrain.jpg" alt="Real terrain: the Khumbu, near Mount Everest" width="440"/>
+</p>
 
-## Why it's different
+Any film **exports as a video clip** (landscape or vertical) with captions and sources burned in, right in the browser. **Every edition is kept**, so the archive becomes a 3D record of the planet, day by day.
 
-Most globe apps show the world **now**: live feeds, dashboards, tracked objects. Earthlog takes **yesterday's stories one at a time and explains each in depth**, the way a newsroom's data team would, with proof on every line, and keeps every day in a 3D archive.
+## Why you can trust it
+
+- **Every sentence cites evidence** that exists in the film's bundle; a validator rejects anything else, whoever wrote it.
+- **AI is optional, offline and labelled.** A template writes every film; Claude (Haiku) may rewrite the captions once per story at build time, and each chapter is checked in code (citations, every number found in the evidence, no fact dropped) or it keeps the template. Visitors never trigger an AI call.
+- **Honest data:** estimates say so, figures are attributed, a language is not a country, and every film says when its data was read ("Data as of"). Editions follow the news for three days, then freeze.
+- **Responsible coverage:** [docs/RESPONSIBLE-USE.md](docs/RESPONSIBLE-USE.md).
 
 ## How it works
 
 ```
-nightly, once per day:    what the news reported (Wikipedia Current events)
-                        + what the world read (Wikipedia most-read)
-                        → stories, each typed via Wikidata into a lens
-                        → each lens bakes its free public data (Wikidata, USGS, NASA, IODA, World Bank…)
-                        → a director writes the film (template, or Claude), every sentence validated against cited evidence
-every visitor, free:      Next.js static pages → CesiumJS globe plays the films (no AI, no keys, no backend)
+every night (GitHub Action):
+  what the news reported (Wikipedia Current events) + what the world read (Wikipedia most-read)
+  → stories, typed via Wikidata into a lens, ranked by heat, balanced across continents
+  → each lens bakes free public data (Wikidata, World Bank, USGS, IODA, NASA, terrain tiles…)
+  → a film per story (template), optionally directed by Claude, validated, committed
+every visitor, free:
+  static Next.js pages → a CesiumJS globe plays the films (no AI, no keys, no backend)
 ```
 
-Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · Data and licences: [docs/DATA-SOURCES.md](docs/DATA-SOURCES.md) · Concept: [docs/CONCEPT.md](docs/CONCEPT.md)
+Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · Data and licences: [docs/DATA-SOURCES.md](docs/DATA-SOURCES.md) · Decisions: [docs/decisions.md](docs/decisions.md) · Concept: [docs/CONCEPT.md](docs/CONCEPT.md)
 
 ## Run it locally
 
@@ -57,28 +73,31 @@ pnpm install
 pnpm dev                          # http://localhost:3000
 ```
 
-Then open the edition of 3 November 2026: http://localhost:3000/edition/2026-11-03 (every story is a film), or a classic such as http://localhost:3000/replay/iberia-2025.
-Keys: <kbd>Space</kbd> play/pause · <kbd>←</kbd>/<kbd>→</kbd> seek · <kbd>?</kbd> all shortcuts.
+Keys in a film: <kbd>Space</kbd> play/pause · <kbd>←</kbd>/<kbd>→</kbd> seek · <kbd>?</kbd> all shortcuts.
 
-**Rebuild data** (free public sources, cached in `.cache/`):
+**Make an edition** (free public sources, cached in `.cache/`):
 
 ```bash
-pnpm bake iberia-2025             # a classic
-pnpm bake daily 2026-11-03        # a day at a glance
 pnpm edition 2026-11-03           # find, type and rank that day's stories
-pnpm stories 2026-11-03           # film every story of that edition
+pnpm stories 2026-11-03           # film every story (template narration)
+pnpm direct 2026-11-03 --ai       # optional: Claude narration (needs ANTHROPIC_API_KEY in .env)
 pnpm validate:scenes              # every sentence must cite real evidence
 ```
 
-Claude-written narration is optional and runs offline only: put your own `ANTHROPIC_API_KEY` in `.env` (see `.env.example`). The site never needs a key.
+## Deploy your own
+
+1. Import the repository on [Vercel](https://vercel.com/new) (framework: Next.js; no environment variables needed for the site).
+2. In GitHub → Settings → Secrets and variables → Actions, add `ANTHROPIC_API_KEY` (optional; without it, films keep their template narration).
+3. GitHub → Actions → **Nightly edition** → *Run workflow* once. From then on it runs every night at 04:30 UTC and each commit deploys.
+4. Set `NEXT_PUBLIC_SITE_URL` on Vercel if you use your own domain.
 
 ## Data credits
 
-NASA GIBS / Worldview · NASA EONET · USGS · IODA (Georgia Tech) · Wikipedia and Wikidata (Wikimedia contributors) · World Bank · Natural Earth · US Census Bureau. Licences per source: [docs/DATA-SOURCES.md](docs/DATA-SOURCES.md).
+Wikipedia and Wikidata (Wikimedia contributors) · Wikimedia pageviews · NASA GIBS / Blue Marble · USGS (earthquakes, ShakeMap, PAGER; SRTM, GMTED2010 and 3DEP terrain) · NOAA ETOPO1 · Tilezen joerd terrain tiles · IODA (Georgia Tech) · World Bank · Hacker News (Algolia) · Natural Earth · US Census Bureau. Licences per source: [docs/DATA-SOURCES.md](docs/DATA-SOURCES.md).
 
-## Responsible use
+## Contributing
 
-Real stories involve real people. How we cover elections, deaths, conflicts and disasters: [docs/RESPONSIBLE-USE.md](docs/RESPONSIBLE-USE.md).
+Add a lens, a data source or a classic: [CONTRIBUTING.md](CONTRIBUTING.md). Changes: [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 

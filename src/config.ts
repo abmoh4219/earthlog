@@ -3,7 +3,7 @@
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://earthlog.vercel.app";
 
 export const SITE_NAME = "Earthlog";
-export const TAGLINE = "The planet's black box.";
+export const TAGLINE = "Yesterday's world, explained in 3D.";
 export const DESCRIPTION =
-  "Replay real world events minute by minute on a cinematic 3D globe — and see how we know. Every sentence cites the recorded data behind it.";
+  "Every morning, the previous day's hottest stories as short cinematic explainers on a 3D globe, each with the analysis its kind deserves. Every claim links to its source.";
 export const REPO_URL = "https://github.com/abmoh4219/earthlog";

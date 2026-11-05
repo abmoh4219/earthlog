@@ -297,40 +297,53 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 
 **Checkpoint 14:** `feat: Claude director for story films`
 
-## Phase 15 · Signature features: the curiosity map and "how it unfolded" (about 3 h)
+## Phase 15 · Signature features: the curiosity map and "how it unfolded" (about 3 h) ✅
 
 - **Curiosity map:** readers per Wikipedia language edition, drawn as glowing language regions, clearly labelled as languages, not countries.
 - **How it unfolded:** a story's thread through previous days of Current events, as a timeline panel and day-by-day places.
 
+**Done (2026-11-05):**
+- **Curiosity map** (every film's Readers chapter): each language with readers lights the countries where it is mainly spoken (cyan → pink by readers, log scale), with a 3D column of readers per language; English left off (read everywhere); the legend and caption say a language is not a country. Earlier maps step aside while it shows.
+- **How it unfolded:** the story's earlier items on Current events over the past week, tied only by the portal's own topic or links; dated captions, a "days before" panel, places coloured by recency joined in order. Each day's portal page is its own cited source.
+- Shared layers (curiosity, thread) survive lenses that replace the general map layers.
+
 **Checkpoint 15:** `feat: curiosity map and story threads`
 
-## Phase 16 · The front page and the archive (about 3 h)
+## Phase 16 · The front page and the archive (about 3 h) ✅
 
 - `/`: the latest edition. The globe at dawn, story beacons sized by heat and coloured by lens, a story rail; click a beacon to fly into its film.
 - **The edition tour:** press play on the front page and the camera flies from story to story around the planet, each stop building its own analysis (maps, charts, facts) in a few seconds, with a "watch the full story" link. Grab the globe at any time to explore.
 - `/edition/[date]`: any day, with a calendar strip; the day at a glance links to every story.
 - The intro: the camera falling from orbit onto the morning's edition.
 
+**Done (2026-11-05):** `/` is a landing page (navigation with GitHub, a hero with the live edition globe, today's stories, the lenses with screenshots, why to trust it, how it works, the archive and classics, a footer); `/today` is the latest edition on the full-screen globe: the camera falls from orbit onto it, each story a column of light coloured by lens and as tall as its heat (log), a story rail (hover flies there, click opens the film, clicking a column too), **Play the edition** tours story to story with a caption card and "Watch the full story". An editions strip and the classics sit along the bottom; every edition page has the archive strip. **Cut to the backlog:** each tour stop building its own maps and charts live.
+
 **Checkpoint 16:** `feat: front page, editions archive and intro`
 
-## Phase 17 · Interaction: evidence drawer, click-to-explore, share links (about 2 h)
+## Phase 17 · Interaction: evidence drawer, click-to-explore, share links (about 2 h) ✅
 
 - Click any chip: the evidence drawer (value, time, source, link), and the camera flies to it.
 - Click anything on the globe (a state, a beacon, a place): it focuses and a detail card opens.
 - Share links to a story, a chapter or a moment; share cards (OpenGraph images).
 
+**Done (2026-11-05), trimmed:** a share button copies a link to the current moment (`?t=…&play`); story pages carry their own link previews (title and headline). **Moved to the backlog:** click-to-explore on globe layers.
+
 **Checkpoint 17:** `feat: evidence drawer, click-to-explore and share links`
 
-## Phase 18 · Nightly editions (about 1.5 h)
+## Phase 18 · Nightly editions (about 1.5 h) ✅
 
 - `.github/workflows/edition.yml`: build yesterday's edition, direct it (Claude, falling back to the template), validate, commit only `public/editions/<date>/` as a `data:` commit; Vercel deploys on push.
 - Re-film the three previous editions too (ADR-0014): results and reports still fill in; from day 4 an edition is frozen.
 
+**Done (2026-11-05):** `.github/workflows/edition.yml` runs at 04:30 UTC (or by hand with a date): edition → stories → direct (Claude, $0.25 ceiling) → the three editions before it re-filmed and re-directed (ADR-0014) → day at a glance → validate → key scan → `data: edition <date>` commit. A failed film is a warning, not a failed night. Claude answers are cached by input, so re-directing an unchanged film costs nothing. Hardened on the way: a fallback to the pageviews "top" list when the most-read feed omits its list (it did for 2026-11-02), and longer connect attempts for IPv6-less networks.
+
 **Checkpoint 18:** `ci: nightly editions`
 
-## Phase 19 · Video clip export (about 3 h)
+## Phase 19 · Video clip export (about 3 h) ✅
 
 - Record any story film or a chosen span in the browser, with captions, chapter titles and sources burned in; landscape (16:9) and vertical (9:16). Free, no server.
+
+**Done (2026-11-05):** the film button in the player records the whole film in the browser (MediaRecorder on a canvas fed by each globe frame), landscape 1280×720 or vertical 720×1280, with the title, chapter, caption, citation count, source credits and site address burned in; MP4 where the browser can, else WebM. Stop at any time to keep the clip so far. Checked by Abdelah: the clip records to 100% and downloads.
 
 **Checkpoint 19:** `feat: video clip export`
 
@@ -339,6 +352,8 @@ Abdelah: the camera felt like a map app. Now, for every lens: glide segments (a 
 - Polish: sensor looks for disaster films (thermal, night), small-screen layout, performance pass.
 - Deploy on Vercel; add the repository secret; run the nightly workflow once.
 - README and landing page with a hero clip made by Earthlog itself: the **2026 US elections film** (Abdelah's pick), recorded once the Claude director is in; CONTRIBUTING (how to add a lens or a classic), CHANGELOG, launch posts.
+
+**Done so far (2026-11-05):** README (what it does, why to trust it, how it works, deploy your own, credits, screenshots), CONTRIBUTING (how to add a lens or a classic), CHANGELOG (v0.1.0), the front page copy. **Left for the morning:** Vercel import, the `ANTHROPIC_API_KEY` repository secret, the first nightly run by hand, the hero clip (the US elections film, exported with the clip button), launch posts.
 
 **Checkpoint 20:** `docs: launch` (plus the tag `v0.1.0`, done by Abdelah)
 

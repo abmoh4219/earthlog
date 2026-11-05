@@ -1,0 +1,828 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-jailer-2",
+  "title": "Jailer 2",
+  "subtitle": "Culture · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:01:46Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 69.36,
+    "south": 14.690000000000001,
+    "east": 89.36,
+    "north": 30.69
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:22Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:22Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-02T00:00:24Z",
+      "until": "2026-11-02T00:00:42Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-filming.json",
+      "name": "filming",
+      "from": "2026-11-02T00:00:42Z",
+      "until": "2026-11-02T00:01:01Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-filming.json",
+      "name": "filming",
+      "from": "2026-11-02T00:00:42Z",
+      "until": "2026-11-02T00:01:01Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-02T00:01:01Z",
+      "until": "2026-11-02T00:01:13Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-people.json",
+      "name": "people",
+      "from": "2026-11-02T00:01:01Z",
+      "until": "2026-11-02T00:01:13Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": 117.36000000000001,
+      "lat": 12.339,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:14Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:23Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:27Z",
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:34Z",
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1629969.324864735,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:41Z",
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1476000,
+      "heading": -12,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:44Z",
+      "lon": 77.13163959961564,
+      "lat": 11.409990566417665,
+      "range": 1768926.5756683727,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:53Z",
+      "lon": 77.13163959961564,
+      "lat": 11.409990566417665,
+      "range": 1601831.1423763693,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:01Z",
+      "lon": 77.13163959961564,
+      "lat": 11.409990566417665,
+      "range": 1450519.7920480655,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:04Z",
+      "lon": 79.5957560456236,
+      "lat": 11.571749070872448,
+      "range": 6791576.86955041,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:08Z",
+      "lon": 79.5957560456236,
+      "lat": 11.571749070872448,
+      "range": 6150034.424904462,
+      "heading": -12.100000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:13Z",
+      "lon": 79.5957560456236,
+      "lat": 11.571749070872448,
+      "range": 5569093.033031336,
+      "heading": -24.200000000000003,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:16Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6800000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:19Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6157661.893933443,
+      "heading": 21.7,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:22Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 5576000,
+      "heading": 31.4,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:25Z",
+      "lon": 85.94562154172881,
+      "lat": 14.343962212805014,
+      "range": 16763997.610898724,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:34Z",
+      "lon": 85.94562154172881,
+      "lat": 14.343962212805014,
+      "range": 15180445.482150346,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:42Z",
+      "lon": 85.94562154172881,
+      "lat": 14.343962212805014,
+      "range": 13746478.040936952,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:46Z",
+      "lon": 60.94562154172877,
+      "lat": 14.343962212805014,
+      "range": 41239434.122810856,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "Jailer 2 is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
+      "cites": [
+        "wiki:rev:1383739722:9"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:08Z",
+      "text": "Anna Rajan confirmed her involvement in May 2025, and Suraj Venjaramoodu followed in December.",
+      "cites": [
+        "wiki:rev:1383739722:40"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:15Z",
+      "text": "The 2026 action comedy is a Tamil-language film written and directed by Nelson Dilipkumar.",
+      "cites": [
+        "wiki:rev:1383739722:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "text": "Jailer 2 stars Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu, among others, with music by Anirudh Ravichander.",
+      "cites": [
+        "wiki:box:1383739722:starring",
+        "wiki:box:1383739722:music"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "text": "Released: 15 October 2026. Wikipedia records its box office as ₹808 crore.",
+      "cites": [
+        "wiki:box:1383739722:released",
+        "wiki:box:1383739722:box-office"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:43Z",
+      "text": "The article places filming at Sathyam Cinemas, Royapettah, Attappadi, Kerala, Coimbatore, Kozhikode and 4 more places.",
+      "cites": [
+        "wiki:film:1383739722:1",
+        "wiki:film:1383739722:3",
+        "wiki:film:1383739722:4",
+        "wiki:film:1383739722:5",
+        "wiki:film:1383739722:6",
+        "wiki:film:1383739722:9"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:02Z",
+      "text": "Birthplaces are on record for 8 of the credited people, and all of them were born in India.",
+      "cites": [
+        "wd:Q13564588:P19",
+        "wd:Q159166:P19",
+        "wd:Q3520429:P19",
+        "wd:Q379604:P19",
+        "wd:Q4765271:P19",
+        "wd:Q60068:P19",
+        "wd:Q63698985:P19",
+        "wd:Q7387554:P19"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:14Z",
+      "text": "Readers also turned to King (2026 film), which drew 58,142 readers.",
+      "cites": [
+        "views:en:King_(2026_film):2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:23Z",
+      "text": "On 2 November 2026, 111,475 people read the article, about 10 times the usual daily median of 11,257.",
+      "cites": [
+        "views:en:Jailer_2:2026-11-02",
+        "views:en:Jailer_2:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:29Z",
+      "text": "The article was read in 5 languages, and after English, Tamil had the most readers with 227.",
+      "cites": [
+        "views:en:Jailer_2:2026-11-02",
+        "views:ta:ஜெயிலர்_2:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:35Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
+      "cites": [
+        "views:ta:ஜெயிலர்_2:2026-11-02",
+        "views:bn:জেলার_২:2026-11-02",
+        "views:ms:Jailer_2:2026-11-02",
+        "views:fa:زندانبان_۲:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IN",
+    "lon": 79.36,
+    "lat": 22.69,
+    "label": "India"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-02T00:00:42Z",
+      "title": "Where it was filmed"
+    },
+    {
+      "t": "2026-11-02T00:01:01Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-02T00:01:13Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-02T00:01:22Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-02T00:00:25Z",
+      "until": "2026-11-02T00:00:42Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-04).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Directed by",
+          "text": "Nelson Dilipkumar",
+          "cites": [
+            "wiki:box:1383739722:directed-by"
+          ]
+        },
+        {
+          "label": "Starring",
+          "text": "Rajinikanth, S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and 2 more",
+          "cites": [
+            "wiki:box:1383739722:starring"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Anirudh Ravichander",
+          "cites": [
+            "wiki:box:1383739722:music"
+          ]
+        },
+        {
+          "label": "Studio",
+          "text": "Sun Pictures",
+          "cites": [
+            "wiki:box:1383739722:studio"
+          ]
+        },
+        {
+          "label": "Released",
+          "text": "15 October 2026",
+          "cites": [
+            "wiki:box:1383739722:released"
+          ]
+        },
+        {
+          "label": "Runtime",
+          "text": "165 minutes",
+          "cites": [
+            "wiki:box:1383739722:runtime"
+          ]
+        },
+        {
+          "label": "Language",
+          "text": "Tamil",
+          "cites": [
+            "wiki:box:1383739722:language"
+          ]
+        },
+        {
+          "label": "Budget",
+          "text": "₹250–350 crore",
+          "cites": [
+            "wiki:box:1383739722:budget"
+          ]
+        },
+        {
+          "label": "Box office",
+          "text": "₹808 crore",
+          "cites": [
+            "wiki:box:1383739722:box-office"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "born-in",
+      "t": "2026-11-02T00:01:02Z",
+      "until": "2026-11-02T00:01:13Z",
+      "title": "Born in",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "India",
+          "text": "8",
+          "value": 8,
+          "color": "#ff8fd0",
+          "cites": [
+            "wd:Q13564588:P19",
+            "wd:Q159166:P19",
+            "wd:Q3520429:P19",
+            "wd:Q379604:P19",
+            "wd:Q4765271:P19",
+            "wd:Q60068:P19",
+            "wd:Q63698985:P19",
+            "wd:Q7387554:P19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:01:23Z",
+      "until": "2026-11-02T00:01:46Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Jailer 2",
+          "color": "#ff8fd0",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 12168
+            },
+            {
+              "x": "10-05",
+              "y": 44934
+            },
+            {
+              "x": "10-06",
+              "y": 41464
+            },
+            {
+              "x": "10-07",
+              "y": 22075
+            },
+            {
+              "x": "10-08",
+              "y": 16838
+            },
+            {
+              "x": "10-09",
+              "y": 14797
+            },
+            {
+              "x": "10-10",
+              "y": 17325
+            },
+            {
+              "x": "10-11",
+              "y": 21296
+            },
+            {
+              "x": "10-12",
+              "y": 23895
+            },
+            {
+              "x": "10-13",
+              "y": 27689
+            },
+            {
+              "x": "10-14",
+              "y": 43841
+            },
+            {
+              "x": "10-15",
+              "y": 341702
+            },
+            {
+              "x": "10-16",
+              "y": 378259
+            },
+            {
+              "x": "10-17",
+              "y": 341183
+            },
+            {
+              "x": "10-18",
+              "y": 340362
+            },
+            {
+              "x": "10-19",
+              "y": 321853
+            },
+            {
+              "x": "10-20",
+              "y": 303129
+            },
+            {
+              "x": "10-21",
+              "y": 278796
+            },
+            {
+              "x": "10-22",
+              "y": 243842
+            },
+            {
+              "x": "10-23",
+              "y": 192717
+            },
+            {
+              "x": "10-24",
+              "y": 190945
+            },
+            {
+              "x": "10-25",
+              "y": 186875
+            },
+            {
+              "x": "10-26",
+              "y": 181309
+            },
+            {
+              "x": "10-27",
+              "y": 147801
+            },
+            {
+              "x": "10-28",
+              "y": 134068
+            },
+            {
+              "x": "10-29",
+              "y": 122337
+            },
+            {
+              "x": "10-30",
+              "y": 113774
+            },
+            {
+              "x": "10-31",
+              "y": 113592
+            },
+            {
+              "x": "11-01",
+              "y": 115995
+            },
+            {
+              "x": "11-02",
+              "y": 111475
+            }
+          ],
+          "cites": [
+            "views:en:Jailer_2:30d"
+          ]
+        },
+        {
+          "label": "King (2026 film)",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 5907
+            },
+            {
+              "x": "10-05",
+              "y": 5097
+            },
+            {
+              "x": "10-06",
+              "y": 5737
+            },
+            {
+              "x": "10-07",
+              "y": 6317
+            },
+            {
+              "x": "10-08",
+              "y": 5137
+            },
+            {
+              "x": "10-09",
+              "y": 5030
+            },
+            {
+              "x": "10-10",
+              "y": 4844
+            },
+            {
+              "x": "10-11",
+              "y": 5416
+            },
+            {
+              "x": "10-12",
+              "y": 4609
+            },
+            {
+              "x": "10-13",
+              "y": 4873
+            },
+            {
+              "x": "10-14",
+              "y": 4867
+            },
+            {
+              "x": "10-15",
+              "y": 5669
+            },
+            {
+              "x": "10-16",
+              "y": 5889
+            },
+            {
+              "x": "10-17",
+              "y": 7284
+            },
+            {
+              "x": "10-18",
+              "y": 7239
+            },
+            {
+              "x": "10-19",
+              "y": 6282
+            },
+            {
+              "x": "10-20",
+              "y": 6402
+            },
+            {
+              "x": "10-21",
+              "y": 5479
+            },
+            {
+              "x": "10-22",
+              "y": 5546
+            },
+            {
+              "x": "10-23",
+              "y": 6170
+            },
+            {
+              "x": "10-24",
+              "y": 7365
+            },
+            {
+              "x": "10-25",
+              "y": 6615
+            },
+            {
+              "x": "10-26",
+              "y": 5989
+            },
+            {
+              "x": "10-27",
+              "y": 19697
+            },
+            {
+              "x": "10-28",
+              "y": 11647
+            },
+            {
+              "x": "10-29",
+              "y": 9000
+            },
+            {
+              "x": "10-30",
+              "y": 10601
+            },
+            {
+              "x": "10-31",
+              "y": 14412
+            },
+            {
+              "x": "11-01",
+              "y": 24280
+            },
+            {
+              "x": "11-02",
+              "y": 58142
+            }
+          ],
+          "cites": [
+            "views:en:King_(2026_film):30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:01:23Z",
+      "until": "2026-11-02T00:01:46Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "111,475",
+          "value": 111475,
+          "color": "#ff8fd0",
+          "cites": [
+            "views:en:Jailer_2:2026-11-02"
+          ]
+        },
+        {
+          "label": "Tamil",
+          "text": "227",
+          "value": 227,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ta:ஜெயிலர்_2:2026-11-02"
+          ]
+        },
+        {
+          "label": "Bengali",
+          "text": "20",
+          "value": 20,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:bn:জেলার_২:2026-11-02"
+          ]
+        },
+        {
+          "label": "Malay",
+          "text": "20",
+          "value": 20,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ms:Jailer_2:2026-11-02"
+          ]
+        },
+        {
+          "label": "Persian",
+          "text": "10",
+          "value": 10,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:زندانبان_۲:2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002938
+  }
+}

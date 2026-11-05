@@ -2,10 +2,15 @@
 // re-baking is instant, works offline and is polite to free public APIs.
 import { createHash } from "node:crypto";
 import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
+import { setDefaultAutoSelectFamilyAttemptTimeout } from "node:net";
 import { dirname, join } from "node:path";
 
 export const ROOT = join(import.meta.dirname, "..", "..");
 const CACHE = join(ROOT, ".cache");
+
+// Node tries IPv6 then IPv4 and gives each only 250 ms to connect by default; on a slow or
+// IPv6-less network the Wikimedia hosts then "time out" though curl reaches them. 2.5 s each.
+setDefaultAutoSelectFamilyAttemptTimeout(2_500);
 
 /** Wikimedia and USGS ask for an identifying User-Agent; no personal contact details. */
 export const USER_AGENT = "Earthlog/0.1 (+https://github.com/abmoh4219/earthlog)";

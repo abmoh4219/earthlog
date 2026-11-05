@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:36Z"
+    "end": "2026-11-03T00:01:42Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -24,6 +24,18 @@
     {
       "kind": "regions",
       "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:01:18Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:01:18Z"
     },
     {
       "kind": "places",
@@ -180,37 +192,37 @@
     },
     {
       "t": "2026-11-03T00:01:22Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 5440000,
-      "heading": -15,
-      "pitch": -52,
+      "lon": 74.91703918875842,
+      "lat": 34.689864206344396,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:27Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 4926129.515146755,
-      "heading": -1,
-      "pitch": -49.5,
+      "t": "2026-11-03T00:01:30Z",
+      "lon": 74.91703918875842,
+      "lat": 34.689864206344396,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:33Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 4460800,
-      "heading": 13,
-      "pitch": -47,
+      "t": "2026-11-03T00:01:39Z",
+      "lon": 74.91703918875842,
+      "lat": 34.689864206344396,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:36Z",
-      "lon": 54.360000000000014,
-      "lat": 20.565,
-      "range": 14000000,
-      "heading": 13,
+      "t": "2026-11-03T00:01:42Z",
+      "lon": 49.917039188758395,
+      "lat": 34.689864206344396,
+      "range": 54120000,
+      "heading": 28,
       "pitch": -88,
       "move": "flight"
     }
@@ -224,28 +236,28 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "A special media screening took place across Mumbai on 3 November.",
+      "text": "On 3 November, special media screenings took place across Mumbai.",
       "cites": [
         "wiki:rev:1383775061:108"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "The film crossed a further milestone on 3 November.",
+      "text": "The film reached another milestone that same day, 3 November.",
       "cites": [
         "wiki:rev:1383775061:155"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film, directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan.",
+      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan.",
       "cites": [
         "wiki:rev:1383775061:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:25Z",
-      "text": "Ramayana: Part 1 stars Ranbir Kapoor, Yash, Sai Pallavi and Sunny Deol, among others, with music by Hans Zimmer and A. R. Rahman.",
+      "t": "2026-11-03T00:00:24Z",
+      "text": "Ramayana: Part 1 stars Ranbir Kapoor, Yash, Sai Pallavi and Sunny Deol among others; with music by Hans Zimmer and A. R. Rahman.",
       "cites": [
         "wiki:box:1383775061:starring",
         "wiki:box:1383775061:music"
@@ -253,21 +265,22 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "It was released on 27 October 2026 at the Academy Museum, and on 5 November 2026 worldwide.",
+      "text": "Released: 27 October 2026 (Academy Museum), 5 November 2026 (worldwide).",
       "cites": [
         "wiki:box:1383775061:released"
       ]
     },
     {
       "t": "2026-11-03T00:00:43Z",
-      "text": "The second schedule commenced in Mumbai on 30 April.",
+      "text": "Principal photography for the first part began on 2 April in Film City, Mumbai, and on 30 April the second schedule commenced in Mumbai.",
       "cites": [
+        "wiki:film:1383775061:1",
         "wiki:film:1383775061:6"
       ]
     },
     {
       "t": "2026-11-03T00:00:51Z",
-      "text": "Filming took place in Film City, Ayodhya and Mumbai, as the article records.",
+      "text": "The article places the filming in Film City, Ayodhya and Mumbai, with a specially built Ayodhya set serving as the main filming location.",
       "cites": [
         "wiki:film:1383775061:1",
         "wiki:film:1383775061:2",
@@ -276,7 +289,7 @@
     },
     {
       "t": "2026-11-03T00:01:01Z",
-      "text": "6 of the credited people have a birthplace on record; 5 were born in India.",
+      "text": "Birthplaces are on record for 6 of the people credited, and 5 of them were born in India.",
       "cites": [
         "wd:Q108560:P19",
         "wd:Q16908467:P19",
@@ -295,7 +308,7 @@
     },
     {
       "t": "2026-11-03T00:01:19Z",
-      "text": "On 3 November 2026, 72,890 people read the English article, about 10× the usual daily figure of 7,342.",
+      "text": "The English article drew 72,890 readers on 3 November 2026, about 10 times the usual daily level.",
       "cites": [
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:en:Ramayana:_Part_1:prior"
@@ -303,10 +316,21 @@
     },
     {
       "t": "2026-11-03T00:01:25Z",
-      "text": "The article was read in 10 languages, and after English, Hindi had the most readers with 2,972.",
+      "text": "The article was read in 10 languages, and after English the most readers were in Hindi, with 2,972.",
       "cites": [
         "views:en:Ramayana:_Part_1:2026-11-03",
         "views:hi:रामायणम्_(2026_फिल्म):2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:31Z",
+      "text": "On the globe, each language lights up where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:hi:रामायणम्_(2026_फिल्म):2026-11-03",
+        "views:de:Ramayana:_Rise_of_a_Legend:2026-11-03",
+        "views:fr:Ramayana_:_L'Avènement_d'une_légende:2026-11-03",
+        "views:zh:羅摩衍那：傳奇崛起:2026-11-03",
+        "views:te:రామాయణం_(2026_సినిమా):2026-11-03"
       ]
     }
   ],
@@ -449,7 +473,7 @@
     {
       "id": "readers",
       "t": "2026-11-03T00:01:20Z",
-      "until": "2026-11-03T00:01:36Z",
+      "until": "2026-11-03T00:01:42Z",
       "title": "Readers on English Wikipedia",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
       "kind": "line",
@@ -590,7 +614,7 @@
     {
       "id": "languages",
       "t": "2026-11-03T00:01:20Z",
-      "until": "2026-11-03T00:01:36Z",
+      "until": "2026-11-03T00:01:42Z",
       "title": "Readers by language",
       "note": "Wikipedia language editions that day. A language is not a country.",
       "kind": "bars",
@@ -665,7 +689,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.002665
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.004068
   }
 }

@@ -4,6 +4,7 @@
 // Verified 2026-11-04: prop=langlinks lists the article's other editions; the per-article
 // pageviews API takes <lang>.wikipedia as its project (CC0).
 import { z } from "zod";
+import type { Country, LayerData } from "../../src/scene/schema.ts";
 import { fetchJson } from "../bake/lib.ts";
 
 const LangLinks = z.object({
@@ -111,4 +112,190 @@ export async function fetchLanguageReaders(
     out.push({ lang, title: t, views: await viewsOn(lang, t, date) });
   }
   return out.filter((r) => r.views > 0).sort((a, b) => b.views - a.views);
+}
+
+// ── The curiosity map ──────────────────────────────────────────────────────────
+// Where each language is mainly spoken, so a language's readers can be drawn on the globe.
+// Approximate on purpose and labelled as such: a language is not a country (Spanish readers
+// are in Spain, Mexico, the US…), and each country is given to one language only. English is
+// left off the map: it is read everywhere, and the globe would just light up the
+// English-speaking world. Territories: ISO 3166-1 alpha-2, countries where the language is
+// the main or official language (compiled from the Unicode CLDR territory data, simplified).
+export const LANGUAGE_HOME: Record<string, string[]> = {
+  es: [
+    "ES",
+    "MX",
+    "AR",
+    "CO",
+    "PE",
+    "VE",
+    "CL",
+    "EC",
+    "GT",
+    "CU",
+    "BO",
+    "DO",
+    "HN",
+    "PY",
+    "SV",
+    "NI",
+    "CR",
+    "PA",
+    "UY",
+  ],
+  de: ["DE", "AT"],
+  ja: ["JP"],
+  fr: ["FR", "BE", "LU"],
+  ru: ["RU", "BY"],
+  it: ["IT"],
+  zh: ["CN", "TW"],
+  pt: ["BR", "PT", "AO", "MZ"],
+  pl: ["PL"],
+  ar: [
+    "SA",
+    "EG",
+    "IQ",
+    "SY",
+    "JO",
+    "AE",
+    "KW",
+    "QA",
+    "BH",
+    "OM",
+    "YE",
+    "LB",
+    "LY",
+    "TN",
+    "DZ",
+    "MA",
+    "SD",
+    "MR",
+  ],
+  fa: ["IR", "AF"],
+  nl: ["NL", "SR"],
+  tr: ["TR"],
+  id: ["ID"],
+  ko: ["KR"],
+  uk: ["UA"],
+  hi: ["IN"],
+  vi: ["VN"],
+  he: ["IL"],
+  sv: ["SE"],
+  cs: ["CZ"],
+  ta: ["LK"],
+  bn: ["BD"],
+  th: ["TH"],
+  ms: ["MY"],
+};
+
+export interface CuriosityRegion {
+  lang: string;
+  name: string;
+  views: number;
+  code: string;
+}
+
+/**
+ * Countries to light for each language with readers (English excluded), the strongest
+ * language first; a country already given to a stronger language is skipped.
+ */
+export function curiosityRegions(readers: LanguageReaders[]): CuriosityRegion[] {
+  const out: CuriosityRegion[] = [];
+  const taken = new Set<string>();
+  for (const r of [...readers].sort((a, b) => b.views - a.views)) {
+    if (r.lang === "en") continue;
+    for (const code of LANGUAGE_HOME[r.lang] ?? []) {
+      if (taken.has(code)) continue;
+      taken.add(code);
+      out.push({ lang: r.lang, name: LANGUAGE[r.lang] ?? r.lang, views: r.views, code });
+    }
+  }
+  return out;
+}
+
+/** Cyan (fewer readers) to pink (most), on a log scale between the day's min and max. */
+export function curiosityColor(views: number, min: number, max: number): string {
+  const u = max > min ? (Math.log(views) - Math.log(min)) / (Math.log(max) - Math.log(min)) : 1;
+  const a = [94, 242, 255];
+  const b = [255, 110, 199];
+  const t = Math.max(0, Math.min(1, u));
+  return `#${a
+    .map((v, i) =>
+      Math.round(v + ((b[i] ?? v) - v) * t)
+        .toString(16)
+        .padStart(2, "0"),
+    )
+    .join("")}`;
+}
+
+/**
+ * The curiosity map as globe layers: each language's countries glowing by its readers, and a
+ * column of light per language at its main country, height = readers. Plus the places, for
+ * framing the shot. Empty when fewer than two languages can be placed.
+ */
+export function curiosityLayers(
+  readers: LanguageReaders[],
+  countries: Country[],
+): { layers: LayerData[]; points: { lon: number; lat: number }[] } {
+  const regions = curiosityRegions(readers);
+  const langs = [...new Set(regions.map((r) => r.lang))];
+  if (langs.length < 2) return { layers: [], points: [] };
+  const views = regions.map((r) => r.views);
+  const min = Math.min(...views);
+  const max = Math.max(...views);
+  const byCode = new Map(countries.map((c) => [c.code, c]));
+  const fills = regions.flatMap((r) => {
+    const c = byCode.get(r.code);
+    return c
+      ? [
+          {
+            id: `${r.lang}-${r.code}`,
+            name: `${r.name} (language)`,
+            rings: c.rings,
+            color: curiosityColor(r.views, min, max),
+            opacity:
+              0.22 +
+              0.33 *
+                (max > min
+                  ? (Math.log(r.views) - Math.log(min)) / (Math.log(max) - Math.log(min))
+                  : 1),
+            pulse: r.views === max,
+          },
+        ]
+      : [];
+  });
+  const columns = langs.flatMap((lang) => {
+    // The first of its countries we have an outline for (not every code is in Natural Earth).
+    const first = regions.find((r) => r.lang === lang && byCode.has(r.code));
+    const c = first ? byCode.get(first.code) : undefined;
+    return first && c
+      ? [
+          {
+            id: lang,
+            name: first.name,
+            lon: c.label[0],
+            lat: c.label[1],
+            value: first.views,
+            color: curiosityColor(first.views, min, max),
+            label: true,
+          },
+        ]
+      : [];
+  });
+  return {
+    layers: [
+      {
+        kind: "regions",
+        name: "curiosity",
+        regions: fills,
+        legend: [
+          { label: "Most readers (language)", color: curiosityColor(max, min, max) },
+          { label: "Fewer readers (language)", color: curiosityColor(min, min, max) },
+          { label: "Where each language is mainly spoken; English not shown", color: "#e8f6ff" },
+        ],
+      },
+      { kind: "columns", name: "curiosity", unit: "readers", maxHeight: 1_800_000, columns },
+    ],
+    points: columns.map((c) => ({ lon: c.lon, lat: c.lat })),
+  };
 }

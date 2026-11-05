@@ -17,7 +17,13 @@ import { fetchCoordinates } from "../bake/wikinews.ts";
 import { fetchEntities, fetchQids, type WdEntity } from "../edition/sources.ts";
 import { anyInfobox, plainText } from "./election/infobox.ts";
 import type { ChapterDraft, PanelDraft } from "./film.ts";
-import { generalLens, type LensContext, type LensResult, wideShot } from "./general.ts";
+import {
+  generalLens,
+  type LensContext,
+  type LensResult,
+  sharedLayer,
+  wideShot,
+} from "./general.ts";
 import { expandTemplate, fetchRevision, splitSentences } from "./news-context.ts";
 
 const MONTHS = [
@@ -406,7 +412,7 @@ export async function cultureLens(ctx: LensContext): Promise<LensResult> {
   return generalLens(ctx, {
     shape: ({ chapters, layers, add }) => {
       for (let i = layers.length - 1; i >= 0; i--)
-        if (layers[i]?.kind === "places") layers.splice(i, 1);
+        if (layers[i]?.kind === "places" && !sharedLayer(layers[i])) layers.splice(i, 1);
       const keep = chapters.filter((c) => c.title !== "Where" && c.title !== "On record");
       const inserts: ChapterDraft[] = [];
       const anchor = home ?? filming[0] ?? births[0] ?? ctx.story.place;

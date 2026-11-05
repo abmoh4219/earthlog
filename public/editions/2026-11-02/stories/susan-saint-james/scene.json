@@ -1,0 +1,812 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-susan-saint-james",
+  "title": "Susan Saint James",
+  "subtitle": "People · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:01:26Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -128.24367999999998,
+    "south": 26.05223,
+    "east": -108.24368,
+    "north": 42.05223
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:02Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:01:02Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-02T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-02T00:00:25Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": -80.24367999999998,
+      "lat": 20.018838,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:10Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:16Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:19Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:22Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:28Z",
+      "lon": -104.28722823518758,
+      "lat": 35.813099980551726,
+      "range": 13168164.78015583,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "lon": -104.28722823518758,
+      "lat": 35.813099980551726,
+      "range": 11924280.364676766,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:34Z",
+      "lon": -104.28722823518758,
+      "lat": 35.813099980551726,
+      "range": 10797895.11972778,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "lon": -104.28722823518758,
+      "lat": 35.813099980551726,
+      "range": 13168164.78015583,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:41Z",
+      "lon": -104.28722823518758,
+      "lat": 35.813099980551726,
+      "range": 11924280.364676766,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:44Z",
+      "lon": -104.28722823518758,
+      "lat": 35.813099980551726,
+      "range": 10797895.11972778,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:48Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:50Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 814984.6624323674,
+      "heading": -9.1,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:52Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 738000,
+      "heading": -0.1999999999999993,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:55Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2200000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:58Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 1992184.7303902316,
+      "heading": 2.3000000000000007,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:01Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 1804000,
+      "heading": -7.399999999999999,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:06Z",
+      "lon": 22.75124134007319,
+      "lat": 40.87927331797778,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:14Z",
+      "lon": 22.75124134007319,
+      "lat": 40.87927331797778,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:22Z",
+      "lon": 22.75124134007319,
+      "lat": 40.87927331797778,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:26Z",
+      "lon": -2.248758659926807,
+      "lat": 40.87927331797778,
+      "range": 54120000,
+      "heading": 28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "Susan Saint James died of pancreatic cancer at a Los Angeles hospital on October 26, 2026, at the age of 80.",
+      "cites": [
+        "wiki:rev:1383321542:47"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:09Z",
+      "text": "Born Susan Jane Miller, she was an American actress whose life ran from August 14, 1946 to October 26, 2026.",
+      "cites": [
+        "wiki:rev:1383321542:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:18Z",
+      "text": "She was born in Los Angeles on 14 August 1946.",
+      "cites": [
+        "wd:Q259559:P569",
+        "wd:Q259559:P19"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:26Z",
+      "text": "She was educated at Connecticut College.",
+      "cites": [
+        "wd:Q259559:P69:Q1797448"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:30Z",
+      "text": "Wikidata lists Los Angeles as both her birthplace and her place of death.",
+      "cites": [
+        "wd:Q259559:P19",
+        "wd:Q259559:P20"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:36Z",
+      "text": "4 awards are on record, including the Connecticut Women's Hall of Fame (1994) and a star on the Hollywood Walk of Fame (2008).",
+      "cites": [
+        "wd:Q259559:P166:Q5161648",
+        "wd:Q259559:P166:Q17985761",
+        "wd:Q259559:P166:Q989450",
+        "wd:Q259559:P166:Q1285504"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:46Z",
+      "text": "She died on 26 October 2026 in Los Angeles, aged 80.",
+      "cites": [
+        "wd:Q259559:P570",
+        "wd:Q259559:P20",
+        "wd:Q259559:P569"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:54Z",
+      "text": "Readers also turned to the article on Dick Ebersol, which drew 106,158 readers.",
+      "cites": [
+        "views:en:Dick_Ebersol:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:03Z",
+      "text": "On 2 November 2026, 252,010 people read the English article, about 350× the usual daily count.",
+      "cites": [
+        "views:en:Susan_Saint_James:2026-11-02",
+        "views:en:Susan_Saint_James:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:09Z",
+      "text": "The article is available in 11 languages, and after English the most readers were in Spanish, with 1,242.",
+      "cites": [
+        "views:en:Susan_Saint_James:2026-11-02",
+        "views:es:Susan_Saint_James:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:15Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "cites": [
+        "views:es:Susan_Saint_James:2026-11-02",
+        "views:de:Susan_Saint_James:2026-11-02",
+        "views:fr:Susan_Saint_James:2026-11-02",
+        "views:pl:Susan_Saint_James:2026-11-02",
+        "views:pt:Susan_Saint_James:2026-11-02",
+        "views:ru:Сент-Джеймс,_Сьюзан:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -118.24368,
+    "lat": 34.05223,
+    "label": "Los Angeles"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:17Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-02T00:00:35Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-02T00:00:45Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-02T00:00:53Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-02T00:01:02Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-02T00:00:26Z",
+      "until": "2026-11-02T00:00:35Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1946 born",
+          "text": "Los Angeles",
+          "cites": [
+            "wd:Q259559:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Connecticut College",
+          "cites": [
+            "wd:Q259559:P69:Q1797448"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Los Angeles",
+          "cites": [
+            "wd:Q259559:P20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-02T00:00:36Z",
+      "until": "2026-11-02T00:00:45Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1969",
+          "text": "Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series",
+          "cites": [
+            "wd:Q259559:P166:Q989450"
+          ]
+        },
+        {
+          "label": "1969",
+          "text": "Primetime Emmy Award for Outstanding Supporting Actress in a Drama Series",
+          "cites": [
+            "wd:Q259559:P166:Q1285504"
+          ]
+        },
+        {
+          "label": "1994",
+          "text": "Connecticut Women's Hall of Fame",
+          "cites": [
+            "wd:Q259559:P166:Q5161648"
+          ]
+        },
+        {
+          "label": "2008",
+          "text": "star on Hollywood Walk of Fame",
+          "cites": [
+            "wd:Q259559:P166:Q17985761"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:01:03Z",
+      "until": "2026-11-02T00:01:26Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Susan Saint James",
+          "color": "#f5c2a0",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 768
+            },
+            {
+              "x": "10-05",
+              "y": 658
+            },
+            {
+              "x": "10-06",
+              "y": 720
+            },
+            {
+              "x": "10-07",
+              "y": 1089
+            },
+            {
+              "x": "10-08",
+              "y": 703
+            },
+            {
+              "x": "10-09",
+              "y": 944
+            },
+            {
+              "x": "10-10",
+              "y": 714
+            },
+            {
+              "x": "10-11",
+              "y": 888
+            },
+            {
+              "x": "10-12",
+              "y": 743
+            },
+            {
+              "x": "10-13",
+              "y": 1094
+            },
+            {
+              "x": "10-14",
+              "y": 675
+            },
+            {
+              "x": "10-15",
+              "y": 571
+            },
+            {
+              "x": "10-16",
+              "y": 609
+            },
+            {
+              "x": "10-17",
+              "y": 751
+            },
+            {
+              "x": "10-18",
+              "y": 795
+            },
+            {
+              "x": "10-19",
+              "y": 720
+            },
+            {
+              "x": "10-20",
+              "y": 660
+            },
+            {
+              "x": "10-21",
+              "y": 574
+            },
+            {
+              "x": "10-22",
+              "y": 1350
+            },
+            {
+              "x": "10-23",
+              "y": 661
+            },
+            {
+              "x": "10-24",
+              "y": 641
+            },
+            {
+              "x": "10-25",
+              "y": 722
+            },
+            {
+              "x": "10-26",
+              "y": 634
+            },
+            {
+              "x": "10-27",
+              "y": 298410
+            },
+            {
+              "x": "10-28",
+              "y": 200179
+            },
+            {
+              "x": "10-29",
+              "y": 57900
+            },
+            {
+              "x": "10-30",
+              "y": 24708
+            },
+            {
+              "x": "10-31",
+              "y": 12255
+            },
+            {
+              "x": "11-01",
+              "y": 12471
+            },
+            {
+              "x": "11-02",
+              "y": 252010
+            }
+          ],
+          "cites": [
+            "views:en:Susan_Saint_James:30d"
+          ]
+        },
+        {
+          "label": "Dick Ebersol",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 421
+            },
+            {
+              "x": "10-05",
+              "y": 360
+            },
+            {
+              "x": "10-06",
+              "y": 385
+            },
+            {
+              "x": "10-07",
+              "y": 465
+            },
+            {
+              "x": "10-08",
+              "y": 383
+            },
+            {
+              "x": "10-09",
+              "y": 430
+            },
+            {
+              "x": "10-10",
+              "y": 400
+            },
+            {
+              "x": "10-11",
+              "y": 613
+            },
+            {
+              "x": "10-12",
+              "y": 542
+            },
+            {
+              "x": "10-13",
+              "y": 737
+            },
+            {
+              "x": "10-14",
+              "y": 445
+            },
+            {
+              "x": "10-15",
+              "y": 333
+            },
+            {
+              "x": "10-16",
+              "y": 365
+            },
+            {
+              "x": "10-17",
+              "y": 501
+            },
+            {
+              "x": "10-18",
+              "y": 494
+            },
+            {
+              "x": "10-19",
+              "y": 465
+            },
+            {
+              "x": "10-20",
+              "y": 394
+            },
+            {
+              "x": "10-21",
+              "y": 370
+            },
+            {
+              "x": "10-22",
+              "y": 524
+            },
+            {
+              "x": "10-23",
+              "y": 397
+            },
+            {
+              "x": "10-24",
+              "y": 393
+            },
+            {
+              "x": "10-25",
+              "y": 423
+            },
+            {
+              "x": "10-26",
+              "y": 386
+            },
+            {
+              "x": "10-27",
+              "y": 78580
+            },
+            {
+              "x": "10-28",
+              "y": 52071
+            },
+            {
+              "x": "10-29",
+              "y": 12726
+            },
+            {
+              "x": "10-30",
+              "y": 4851
+            },
+            {
+              "x": "10-31",
+              "y": 2586
+            },
+            {
+              "x": "11-01",
+              "y": 2951
+            },
+            {
+              "x": "11-02",
+              "y": 106158
+            }
+          ],
+          "cites": [
+            "views:en:Dick_Ebersol:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:01:03Z",
+      "until": "2026-11-02T00:01:26Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "252,010",
+          "value": 252010,
+          "color": "#f5c2a0",
+          "cites": [
+            "views:en:Susan_Saint_James:2026-11-02"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "1,242",
+          "value": 1242,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Susan_Saint_James:2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "313",
+          "value": 313,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Susan_Saint_James:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "250",
+          "value": 250,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Susan_Saint_James:2026-11-02"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "203",
+          "value": 203,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Susan_Saint_James:2026-11-02"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "179",
+          "value": 179,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Susan_Saint_James:2026-11-02"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "131",
+          "value": 131,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Сент-Джеймс,_Сьюзан:2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002723
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-the-united-states-announces-the-suspensions-of-rwanda-and-so",
+  "title": "The United States announces the suspensions of Rwanda and South Africa from…",
+  "subtitle": "Economy · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:00:36Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 23.3115,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:07Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:09Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:13Z",
+      "lon": -97.48,
+      "lat": 31.54,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:20Z",
+      "lon": -97.48,
+      "lat": 31.54,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:27Z",
+      "lon": -97.48,
+      "lat": 31.54,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:32Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:36Z",
+      "lon": -122.48000000000002,
+      "lat": 38.8525,
+      "range": 14000000,
+      "heading": 7.800000000000001,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "The United States has announced the suspension of Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act, starting January 1, 2027.",
+      "cites": [
+        "wiki:2026-11-02:10"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:05Z",
+      "text": "The stated reasons are trade barriers, human rights concerns, and threats to U.S. interests.",
+      "cites": [
+        "wiki:2026-11-02:10"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:11Z",
+      "text": "Inflation in the United States fell to 2.9% in 2024, down from 8.0% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:US"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:19Z",
+      "text": "The economy grew 2.2% in 2025, and unemployment stood at 4.2%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:US",
+        "wb:SL.UEM.TOTL.ZS:US"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:29Z",
+      "text": "The story was reported by Reuters.",
+      "cites": [
+        "wiki:2026-11-02:10"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:10Z",
+      "title": "United States in numbers"
+    },
+    {
+      "t": "2026-11-02T00:00:28Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:28Z",
+      "title": "Inflation, consumer prices, United States",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "United States",
+          "color": "#ffd95e",
+          "points": [
+            {
+              "x": "2010",
+              "y": 1.6400434423899
+            },
+            {
+              "x": "2011",
+              "y": 3.156841568622
+            },
+            {
+              "x": "2012",
+              "y": 2.06933726526066
+            },
+            {
+              "x": "2013",
+              "y": 1.46483265562716
+            },
+            {
+              "x": "2014",
+              "y": 1.62222297740817
+            },
+            {
+              "x": "2015",
+              "y": 0.11862713555245
+            },
+            {
+              "x": "2016",
+              "y": 1.26158320570535
+            },
+            {
+              "x": "2017",
+              "y": 2.13011000365961
+            },
+            {
+              "x": "2018",
+              "y": 2.44258329692816
+            },
+            {
+              "x": "2019",
+              "y": 1.8122100752602
+            },
+            {
+              "x": "2020",
+              "y": 1.23358439630629
+            },
+            {
+              "x": "2021",
+              "y": 4.69785886363742
+            },
+            {
+              "x": "2022",
+              "y": 8.00279982052121
+            },
+            {
+              "x": "2023",
+              "y": 4.11633838374487
+            },
+            {
+              "x": "2024",
+              "y": 2.94952520485207
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:US"
+          ]
+        }
+      ],
+      "mark": 14
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:28Z",
+      "title": "GDP growth, United States",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "United States",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.69519258673525
+            },
+            {
+              "x": "2011",
+              "y": 1.56440685205419
+            },
+            {
+              "x": "2012",
+              "y": 2.28911339009767
+            },
+            {
+              "x": "2013",
+              "y": 2.11783009443471
+            },
+            {
+              "x": "2014",
+              "y": 2.52381981757846
+            },
+            {
+              "x": "2015",
+              "y": 2.94555045227337
+            },
+            {
+              "x": "2016",
+              "y": 1.81945147909089
+            },
+            {
+              "x": "2017",
+              "y": 2.45762230126449
+            },
+            {
+              "x": "2018",
+              "y": 2.96650506701943
+            },
+            {
+              "x": "2019",
+              "y": 2.58382533052225
+            },
+            {
+              "x": "2020",
+              "y": -2.081375977796
+            },
+            {
+              "x": "2021",
+              "y": 6.15202247867526
+            },
+            {
+              "x": "2022",
+              "y": 2.52421385073222
+            },
+            {
+              "x": "2023",
+              "y": 2.93436322440155
+            },
+            {
+              "x": "2024",
+              "y": 2.79318715363841
+            },
+            {
+              "x": "2025",
+              "y": 2.16138195623856
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:US"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:28Z",
+      "title": "Unemployment, United States",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "United States",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 9.633
+            },
+            {
+              "x": "2011",
+              "y": 8.949
+            },
+            {
+              "x": "2012",
+              "y": 8.069
+            },
+            {
+              "x": "2013",
+              "y": 7.375
+            },
+            {
+              "x": "2014",
+              "y": 6.168
+            },
+            {
+              "x": "2015",
+              "y": 5.28
+            },
+            {
+              "x": "2016",
+              "y": 4.869
+            },
+            {
+              "x": "2017",
+              "y": 4.355
+            },
+            {
+              "x": "2018",
+              "y": 3.896
+            },
+            {
+              "x": "2019",
+              "y": 3.669
+            },
+            {
+              "x": "2020",
+              "y": 8.055
+            },
+            {
+              "x": "2021",
+              "y": 5.349
+            },
+            {
+              "x": "2022",
+              "y": 3.65
+            },
+            {
+              "x": "2023",
+              "y": 3.638
+            },
+            {
+              "x": "2024",
+              "y": 4.022
+            },
+            {
+              "x": "2025",
+              "y": 4.198
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:US"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-02T00:00:29Z",
+      "until": "2026-11-02T00:00:36Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/africa/us-suspend-south-africa-rwanda-duty-free-trade-access-2026-11-02/",
+          "cites": [
+            "wiki:2026-11-02:10"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.000909
+  }
+}

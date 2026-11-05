@@ -24,6 +24,7 @@ import {
   type LensContext,
   type LensHooks,
   type LensResult,
+  sharedLayer,
   wideShot,
 } from "./general.ts";
 import { fetchRevision } from "./news-context.ts";
@@ -242,7 +243,7 @@ export async function accidentLens(ctx: LensContext): Promise<LensResult> {
     shape: ({ chapters, layers, add }) => {
       for (let i = layers.length - 1; i >= 0; i--) {
         const kind = layers[i]?.kind;
-        if (kind === "places" || kind === "arcs") layers.splice(i, 1);
+        if ((kind === "places" || kind === "arcs") && !sharedLayer(layers[i])) layers.splice(i, 1);
       }
       if (t.layer) layers.push(t.layer);
       const keep = chapters.filter((c) => c.title !== "Where" && c.title !== "On record");

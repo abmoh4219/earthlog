@@ -1,0 +1,434 @@
+[
+  {
+    "id": "views:en:Wildwood_(film):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 69,768 readers of \"Wildwood (film)\" on 2 Nov 2026",
+    "value": 69768,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Wildwood_(film)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Wildwood_(film):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Wildwood (film)\": normally a median of 7,607 readers a day (8 to 60 days before)",
+    "value": 7607,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Wildwood_(film)",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q123058740:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Wildwood\" is an instance of animated film",
+    "url": "https://www.wikidata.org/wiki/Q123058740",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383795848:8",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC)",
+    "quote": "Wildwood premiered at the BFI London Film Festival on October 11, 2026, and was released in the United States by Fathom Entertainment on October 23, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:rev:1383795848:27",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC)",
+    "quote": "The score soundtrack was released on October 23, 2026, with a new original song provided by The Decemberists, and as a single released on October 9.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:rev:1383795848:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC)",
+    "quote": "Wildwood is a 2026 American stop-motion animated epic fantasy film directed by Travis Knight and written by Chris Butler, based on the 2011 novel by Colin Meloy and Carson Ellis.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "views:en:Wildwood_(film):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Wildwood (film)\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Wildwood_(film)&range=latest-30"
+  },
+  {
+    "id": "views:de:Wildwood_(Film):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 2,477 readers of \"Wildwood (Film)\" on 2 November 2026",
+    "value": 2477,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Wildwood_(Film)"
+  },
+  {
+    "id": "views:it:Wildwood_-_I_segreti_del_bosco_proibito:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 2,151 readers of \"Wildwood - I segreti del bosco proibito\" on 2 November 2026",
+    "value": 2151,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Wildwood_-_I_segreti_del_bosco_proibito"
+  },
+  {
+    "id": "views:ru:Ведьмин_лес:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 752 readers of \"Ведьмин лес\" on 2 November 2026",
+    "value": 752,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B4%D1%8C%D0%BC%D0%B8%D0%BD_%D0%BB%D0%B5%D1%81"
+  },
+  {
+    "id": "views:fr:Wildwood_:_La_Prophétie_de_la_forêt:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 692 readers of \"Wildwood : La Prophétie de la forêt\" on 2 November 2026",
+    "value": 692,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Wildwood_%3A_La_Proph%C3%A9tie_de_la_for%C3%AAt"
+  },
+  {
+    "id": "views:pt:Wildwood_(filme):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 521 readers of \"Wildwood (filme)\" on 2 November 2026",
+    "value": 521,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Wildwood_(filme)"
+  },
+  {
+    "id": "views:zh:荒野叢林_(電影):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 250 readers of \"荒野叢林 (電影)\" on 2 November 2026",
+    "value": 250,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8D%92%E9%87%8E%E5%8F%A2%E6%9E%97_(%E9%9B%BB%E5%BD%B1)"
+  },
+  {
+    "id": "views:ja:ワイルドウッド:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 160 readers of \"ワイルドウッド\" on 2 November 2026",
+    "value": 160,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%82%A6%E3%83%83%E3%83%89"
+  },
+  {
+    "id": "views:fa:وایلدوود_(فیلم):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 78 readers of \"وایلدوود (فیلم)\" on 2 November 2026",
+    "value": 78,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D9%88%D8%A7%DB%8C%D9%84%D8%AF%D9%88%D9%88%D8%AF_(%D9%81%DB%8C%D9%84%D9%85)"
+  },
+  {
+    "id": "views:ar:وايلدوود_(فلم):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 71 readers of \"وايلدوود (فلم)\" on 2 November 2026",
+    "value": 71,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D9%88%D8%A7%D9%8A%D9%84%D8%AF%D9%88%D9%88%D8%AF_(%D9%81%D9%84%D9%85)"
+  },
+  {
+    "id": "wd:Q123058740:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Wildwood\": released 23 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q123058740#P577"
+  },
+  {
+    "id": "wd:Q123058740:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Wildwood\": director Travis Knight",
+    "url": "https://www.wikidata.org/wiki/Q123058740#P57"
+  },
+  {
+    "id": "wd:Q123058740:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Wildwood\": genre adventure film, fantasy film",
+    "url": "https://www.wikidata.org/wiki/Q123058740#P136"
+  },
+  {
+    "id": "wd:Q123058740:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Wildwood\": country of origin United States",
+    "url": "https://www.wikidata.org/wiki/Q123058740#P495"
+  },
+  {
+    "id": "wiki:box:1383795848:directed-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Directed by: Travis Knight",
+    "quote": "Directed by: Travis Knight",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:starring",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Starring: Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay, Richard E. Grant and 8 more",
+    "quote": "Starring: Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay, Richard E. Grant and 8 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Music: Dario Marianelli",
+    "quote": "Music: Dario Marianelli",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:based-on",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Based on: Wildwood by Colin Meloy and Carson Ellis",
+    "quote": "Based on: Wildwood by Colin Meloy and Carson Ellis",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:studio",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Studio: Laika",
+    "quote": "Studio: Laika",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:released",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Released: 11 October 2026 (BFI), 23 October 2026 (United States)",
+    "quote": "Released: 11 October 2026 (BFI), 23 October 2026 (United States)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Runtime: 132 minutes",
+    "quote": "Runtime: 132 minutes",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:language",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Language: English",
+    "quote": "Language: English",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:budget",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Budget: $100 million",
+    "quote": "Budget: $100 million",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wiki:box:1383795848:box-office",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Wildwood (film)\" (revision of 2026-11-04 22:42 UTC): Box office: $53 million",
+    "quote": "Box office: $53 million",
+    "url": "https://en.wikipedia.org/w/index.php?title=Wildwood_(film)&oldid=1383795848"
+  },
+  {
+    "id": "wd:Q1314323:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Laika\": headquarters Hillsboro",
+    "url": "https://www.wikidata.org/wiki/Q1314323#P159"
+  },
+  {
+    "id": "wd:Q15306031:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Awkwafina\": place of birth Stony Brook",
+    "url": "https://www.wikidata.org/wiki/Q15306031#P19"
+  },
+  {
+    "id": "wd:Q184805:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Waits\": place of birth Pomona",
+    "url": "https://www.wikidata.org/wiki/Q184805#P19"
+  },
+  {
+    "id": "wd:Q195691:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Amandla Stenberg\": place of birth Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q195691#P19"
+  },
+  {
+    "id": "wd:Q20965633:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jacob Tremblay\": place of birth Vancouver",
+    "url": "https://www.wikidata.org/wiki/Q20965633#P19"
+  },
+  {
+    "id": "wd:Q219655:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carey Mulligan\": place of birth City of Westminster",
+    "url": "https://www.wikidata.org/wiki/Q219655#P19"
+  },
+  {
+    "id": "wd:Q232120:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Angela Bassett\": place of birth New York City",
+    "url": "https://www.wikidata.org/wiki/Q232120#P19"
+  },
+  {
+    "id": "wd:Q30069887:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Peyton Elizabeth Lee\": place of birth New York City",
+    "url": "https://www.wikidata.org/wiki/Q30069887#P19"
+  },
+  {
+    "id": "wd:Q360399:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dario Marianelli\": place of birth Pisa",
+    "url": "https://www.wikidata.org/wiki/Q360399#P19"
+  },
+  {
+    "id": "wd:Q360531:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mahershala Ali\": place of birth Oakland",
+    "url": "https://www.wikidata.org/wiki/Q360531#P19"
+  },
+  {
+    "id": "wd:Q365915:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Charlie Day\": place of birth The Bronx",
+    "url": "https://www.wikidata.org/wiki/Q365915#P19"
+  },
+  {
+    "id": "wd:Q380856:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Richard E. Grant\": place of birth Mbabane",
+    "url": "https://www.wikidata.org/wiki/Q380856#P19"
+  },
+  {
+    "id": "wd:Q40064:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Blythe Danner\": place of birth Philadelphia",
+    "url": "https://www.wikidata.org/wiki/Q40064#P19"
+  },
+  {
+    "id": "wd:Q7836302:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Travis Knight\": place of birth Hillsboro",
+    "url": "https://www.wikidata.org/wiki/Q7836302#P19"
+  }
+]

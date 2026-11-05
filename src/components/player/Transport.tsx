@@ -16,6 +16,8 @@ import { cn } from "@/lib/cn";
 import { usePlayer } from "@/player/store";
 import { effectiveSpeed } from "@/scene/clock";
 import { speedText } from "@/scene/format";
+import { ClipButton } from "./ClipButton";
+import { ShareButton } from "./ShareButton";
 import { Timeline } from "./Timeline";
 
 const SPEEDS = [60, 600, 3600] as const;
@@ -117,6 +119,8 @@ export function Transport() {
         </div>
 
         <div className="flex shrink-0 items-center gap-1 border-l border-ice/10 pl-2">
+          <ShareButton />
+          {story && <ClipButton />}
           <Toggle
             on={director}
             onClick={() => a.setDirector(!director)}

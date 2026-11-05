@@ -1,0 +1,192 @@
+[
+  {
+    "id": "views:en:Sovetsky_Soyuz-class_battleship:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 53,573 readers of \"Sovetsky Soyuz-class battleship\" on 2 Nov 2026",
+    "value": 53573,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Sovetsky_Soyuz-class_battleship:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Sovetsky Soyuz-class battleship\": normally a median of 198 readers a day (8 to 60 days before)",
+    "value": 198,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q432231:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Sovetsky Soyuz-class battleship\" is an instance of ship class, abandoned project",
+    "url": "https://www.wikidata.org/wiki/Q432231",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383649412:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Sovetsky Soyuz-class battleship\" (revision of 2026-11-03 23:12 UTC)",
+    "quote": "Designed in response to the s being built by Germany, they would have rivaled the Imperial Japanese and America's planned in size, although with less firepower: nine 406 mm guns compared to the nine 460 mm guns of the Japanese ships and a dozen 16 in on the Montanas.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sovetsky_Soyuz-class_battleship&oldid=1383649412"
+  },
+  {
+    "id": "wiki:rev:1383649412:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Sovetsky Soyuz-class battleship\" (revision of 2026-11-03 23:12 UTC)",
+    "quote": "The Soviets contemplated building as many as fifteen Sovetsky Soyuz-class battleships, but eleven of them were never laid down, and construction of the first four was plagued with difficulties as the Soviet shipbuilding and related industries were not prepared to build such large ships.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sovetsky_Soyuz-class_battleship&oldid=1383649412"
+  },
+  {
+    "id": "wiki:rev:1383649412:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Sovetsky Soyuz-class battleship\" (revision of 2026-11-03 23:12 UTC)",
+    "quote": "The Sovetsky Soyuz-class battleships (Project 23,, ) were a class of battleships begun by the Soviet Union in the late 1930s but never brought into service.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sovetsky_Soyuz-class_battleship&oldid=1383649412"
+  },
+  {
+    "id": "views:en:Sovetsky_Soyuz-class_battleship:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Sovetsky Soyuz-class battleship\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Sovetsky_Soyuz-class_battleship&range=latest-30"
+  },
+  {
+    "id": "views:ru:Линейные_корабли_проекта_23:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 257 readers of \"Линейные корабли проекта 23\" on 2 November 2026",
+    "value": 257,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D0%B8_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0_23"
+  },
+  {
+    "id": "views:de:Sowjetski-Sojus-Klasse:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 226 readers of \"Sowjetski-Sojus-Klasse\" on 2 November 2026",
+    "value": 226,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Sowjetski-Sojus-Klasse"
+  },
+  {
+    "id": "views:ja:ソビエツキー・ソユーズ級戦艦:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 79 readers of \"ソビエツキー・ソユーズ級戦艦\" on 2 November 2026",
+    "value": 79,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%93%E3%82%A8%E3%83%84%E3%82%AD%E3%83%BC%E3%83%BB%E3%82%BD%E3%83%A6%E3%83%BC%E3%82%BA%E7%B4%9A%E6%88%A6%E8%89%A6"
+  },
+  {
+    "id": "views:zh:苏联级战列舰:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 78 readers of \"苏联级战列舰\" on 2 November 2026",
+    "value": 78,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94%E7%BA%A7%E6%88%98%E5%88%97%E8%88%B0"
+  },
+  {
+    "id": "views:fr:Classe_Sovetski_Soyouz:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 55 readers of \"Classe Sovetski Soyouz\" on 2 November 2026",
+    "value": 55,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Classe_Sovetski_Soyouz"
+  },
+  {
+    "id": "views:es:Clase_Sovietsky_Soyuz:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 37 readers of \"Clase Sovietsky Soyuz\" on 2 November 2026",
+    "value": 37,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Clase_Sovietsky_Soyuz"
+  },
+  {
+    "id": "views:pl:Pancerniki_projektu_23:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 36 readers of \"Pancerniki projektu 23\" on 2 November 2026",
+    "value": 36,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Pancerniki_projektu_23"
+  },
+  {
+    "id": "views:fa:ناوهای_جنگی_کلاس_سووتسکی_سایوز:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 19 readers of \"ناوهای جنگی کلاس سووتسکی سایوز\" on 2 November 2026",
+    "value": 19,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D9%86%D8%A7%D9%88%D9%87%D8%A7%DB%8C_%D8%AC%D9%86%DA%AF%DB%8C_%DA%A9%D9%84%D8%A7%D8%B3_%D8%B3%D9%88%D9%88%D8%AA%D8%B3%DA%A9%DB%8C_%D8%B3%D8%A7%DB%8C%D9%88%D8%B2"
+  },
+  {
+    "id": "views:it:Classe_Sovetskij_Sojuz:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 14 readers of \"Classe Sovetskij Sojuz\" on 2 November 2026",
+    "value": 14,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Classe_Sovetskij_Sojuz"
+  },
+  {
+    "id": "views:pt:Classe_Sovetsky_Soyuz:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 8 readers of \"Classe Sovetsky Soyuz\" on 2 November 2026",
+    "value": 8,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Classe_Sovetsky_Soyuz"
+  },
+  {
+    "id": "wd:Q432231:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Sovetsky Soyuz-class battleship\": country of origin Soviet Union",
+    "url": "https://www.wikidata.org/wiki/Q432231#P495"
+  }
+]

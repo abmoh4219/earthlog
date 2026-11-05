@@ -1,0 +1,192 @@
+[
+  {
+    "id": "views:en:Day_of_the_Dead:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 63,975 readers of \"Day of the Dead\" on 2 Nov 2026",
+    "value": 63975,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Day_of_the_Dead",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Day_of_the_Dead:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Day of the Dead\": normally a median of 4,825 readers a day (8 to 60 days before)",
+    "value": 4825,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Day_of_the_Dead",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q309256:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Day of the Dead\" is an instance of religious holiday",
+    "url": "https://www.wikidata.org/wiki/Q309256",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1380361744:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Day of the Dead\" (revision of 2026-10-15 07:35 UTC)",
+    "quote": "The Day of the Dead is a holiday traditionally celebrated on November 1 and 2, though other days, such as October 31 or November 6, may be included depending on the locality.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Day_of_the_Dead&oldid=1380361744"
+  },
+  {
+    "id": "wiki:rev:1380361744:117",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Day of the Dead\" (revision of 2026-10-15 07:35 UTC)",
+    "quote": "At midnight on November 2, the people light candles and ride winged boats called mariposas (butterflies) to Janitzio, an island in the middle of the lake where there is a cemetery, to honor and celebrate the lives of the dead there.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Day_of_the_Dead&oldid=1380361744"
+  },
+  {
+    "id": "wiki:rev:1380361744:160",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Day of the Dead\" (revision of 2026-10-15 07:35 UTC)",
+    "quote": "In Italy, November 2 is All Souls' Day and is colloquially known as Day of the Dead or Giorno dei Morti.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Day_of_the_Dead&oldid=1380361744"
+  },
+  {
+    "id": "views:en:Day_of_the_Dead:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Day of the Dead\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Day_of_the_Dead&range=latest-30"
+  },
+  {
+    "id": "views:es:Día_de_Muertos:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 19,498 readers of \"Día de Muertos\" on 2 November 2026",
+    "value": 19498,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/D%C3%ADa_de_Muertos"
+  },
+  {
+    "id": "views:de:Tag_der_Toten:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 4,565 readers of \"Tag der Toten\" on 2 November 2026",
+    "value": 4565,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Tag_der_Toten"
+  },
+  {
+    "id": "views:fr:Jour_des_morts_(Mexique):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 2,418 readers of \"Jour des morts (Mexique)\" on 2 November 2026",
+    "value": 2418,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Jour_des_morts_(Mexique)"
+  },
+  {
+    "id": "views:pt:Dia_dos_Mortos:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 2,306 readers of \"Dia dos Mortos\" on 2 November 2026",
+    "value": 2306,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Dia_dos_Mortos"
+  },
+  {
+    "id": "views:it:Giorno_dei_morti_(America):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 2,168 readers of \"Giorno dei morti (America)\" on 2 November 2026",
+    "value": 2168,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Giorno_dei_morti_(America)"
+  },
+  {
+    "id": "views:ja:死者の日_(メキシコ):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 1,679 readers of \"死者の日 (メキシコ)\" on 2 November 2026",
+    "value": 1679,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E6%AD%BB%E8%80%85%E3%81%AE%E6%97%A5_(%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3)"
+  },
+  {
+    "id": "views:ru:День_мёртвых:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 1,449 readers of \"День мёртвых\" on 2 November 2026",
+    "value": 1449,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D1%8C_%D0%BC%D1%91%D1%80%D1%82%D0%B2%D1%8B%D1%85"
+  },
+  {
+    "id": "views:zh:亡灵节:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 1,169 readers of \"亡灵节\" on 2 November 2026",
+    "value": 1169,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E4%BA%A1%E7%81%B5%E8%8A%82"
+  },
+  {
+    "id": "views:pl:Dzień_Zmarłych:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 568 readers of \"Dzień Zmarłych\" on 2 November 2026",
+    "value": 568,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Dzie%C5%84_Zmar%C5%82ych"
+  },
+  {
+    "id": "views:ar:يوم_الموتى:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 67 readers of \"يوم الموتى\" on 2 November 2026",
+    "value": 67,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%85%D9%88%D8%AA%D9%89"
+  },
+  {
+    "id": "wd:Q309256:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Day of the Dead\": country Mexico",
+    "url": "https://www.wikidata.org/wiki/Q309256#P17"
+  }
+]

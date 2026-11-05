@@ -1,0 +1,610 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-ciara-mageean",
+  "title": "Ciara Mageean",
+  "subtitle": "People · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:01:23Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -15.93,
+    "south": 46.596666666666664,
+    "east": 4.07,
+    "north": 62.596666666666664
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:59Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:59Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-02T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-02T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": 32.069999999999936,
+      "lat": 32.345499999999994,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -5.93,
+      "lat": 53.909166666666664,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:14Z",
+      "lon": -5.93,
+      "lat": 53.909166666666664,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:23Z",
+      "lon": -5.93,
+      "lat": 53.909166666666664,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:26Z",
+      "lon": -5.5486,
+      "lat": 53.4809,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:29Z",
+      "lon": -5.5486,
+      "lat": 53.4809,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "lon": -5.5486,
+      "lat": 53.4809,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:34Z",
+      "lon": -5.972304615668492,
+      "lat": 53.73814468640713,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:38Z",
+      "lon": -5.972304615668492,
+      "lat": 53.73814468640713,
+      "range": 1358307.7707206125,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:41Z",
+      "lon": -5.972304615668492,
+      "lat": 53.73814468640713,
+      "range": 1230000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:44Z",
+      "lon": -5.93,
+      "lat": 53.696666666666665,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:47Z",
+      "lon": -5.93,
+      "lat": 53.696666666666665,
+      "range": 814984.6624323674,
+      "heading": -26.9,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:49Z",
+      "lon": -5.93,
+      "lat": 53.696666666666665,
+      "range": 738000,
+      "heading": -35.8,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:52Z",
+      "lon": -5.738796804552513,
+      "lat": 54.18893338634881,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:55Z",
+      "lon": -5.738796804552513,
+      "lat": 54.18893338634881,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:58Z",
+      "lon": -5.738796804552513,
+      "lat": 54.18893338634881,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:02Z",
+      "lon": 21.143379715744878,
+      "lat": 45.39891883616239,
+      "range": 16071650.021814149,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:01:11Z",
+      "lon": 21.143379715744878,
+      "lat": 45.39891883616239,
+      "range": 14553498.075288173,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:19Z",
+      "lon": 21.143379715744878,
+      "lat": 45.39891883616239,
+      "range": 13178753.017887602,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:23Z",
+      "lon": -3.8566202842550865,
+      "lat": 45.39891883616239,
+      "range": 39536259.05366281,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "Ciara Mageean was an Irish middle-distance runner, born on 12 March 1992 and died on 1 November 2026.",
+      "cites": [
+        "wiki:rev:1383711885:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:08Z",
+      "text": "She died at Belfast's Marie Curie Hospice on 1 November 2026, aged 34.",
+      "cites": [
+        "wiki:rev:1383711885:43"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:15Z",
+      "text": "A funeral was held on 3 November at St Patrick's Church in Portaferry, with burial in the adjoining cemetery.",
+      "cites": [
+        "wiki:rev:1383711885:44"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "text": "Born in Portaferry on 12 March 1992, she came from the town on the Ards Peninsula.",
+      "cites": [
+        "wd:Q2913482:P569",
+        "wd:Q2913482:P19"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "text": "She was educated at University College Dublin.",
+      "cites": [
+        "wd:Q2913482:P69:Q1068258"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:43Z",
+      "text": "She died in Belfast on 1 November 2026, aged 34.",
+      "cites": [
+        "wd:Q2913482:P570",
+        "wd:Q2913482:P20",
+        "wd:Q2913482:P569"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:00Z",
+      "text": "On 2 November 2026, 59,386 people read about it, about 928 times the usual.",
+      "cites": [
+        "views:en:Ciara_Mageean:2026-11-02",
+        "views:en:Ciara_Mageean:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:06Z",
+      "text": "The article was read in 9 languages, and after English, the most readers were in German, with 31,245.",
+      "cites": [
+        "views:en:Ciara_Mageean:2026-11-02",
+        "views:de:Ciara_Mageean:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:12Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:de:Ciara_Mageean:2026-11-02",
+        "views:fr:Ciara_Mageean:2026-11-02",
+        "views:ru:Магиан,_Кира:2026-11-02",
+        "views:es:Ciara_Mageean:2026-11-02",
+        "views:it:Ciara_Mageean:2026-11-02",
+        "views:pl:Ciara_Mageean:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -5.93,
+    "lat": 54.596666666666664,
+    "label": "Belfast"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-02T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-02T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-02T00:00:50Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-02T00:00:59Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-02T00:00:33Z",
+      "until": "2026-11-02T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1992 born",
+          "text": "Portaferry",
+          "cites": [
+            "wd:Q2913482:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "University College Dublin",
+          "cites": [
+            "wd:Q2913482:P69:Q1068258"
+          ]
+        },
+        {
+          "label": "played for",
+          "text": "University College Dublin",
+          "cites": [
+            "wd:Q2913482:P54:Q1068258"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Belfast",
+          "cites": [
+            "wd:Q2913482:P551:Q10686"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Belfast",
+          "cites": [
+            "wd:Q2913482:P20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:01:00Z",
+      "until": "2026-11-02T00:01:23Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Ciara Mageean",
+          "color": "#f5c2a0",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 35
+            },
+            {
+              "x": "10-05",
+              "y": 41
+            },
+            {
+              "x": "10-06",
+              "y": 37
+            },
+            {
+              "x": "10-07",
+              "y": 40
+            },
+            {
+              "x": "10-08",
+              "y": 40
+            },
+            {
+              "x": "10-09",
+              "y": 34
+            },
+            {
+              "x": "10-10",
+              "y": 34
+            },
+            {
+              "x": "10-11",
+              "y": 40
+            },
+            {
+              "x": "10-12",
+              "y": 117
+            },
+            {
+              "x": "10-13",
+              "y": 1154
+            },
+            {
+              "x": "10-14",
+              "y": 421
+            },
+            {
+              "x": "10-15",
+              "y": 223
+            },
+            {
+              "x": "10-16",
+              "y": 147
+            },
+            {
+              "x": "10-17",
+              "y": 118
+            },
+            {
+              "x": "10-18",
+              "y": 65
+            },
+            {
+              "x": "10-19",
+              "y": 58
+            },
+            {
+              "x": "10-20",
+              "y": 48
+            },
+            {
+              "x": "10-21",
+              "y": 49
+            },
+            {
+              "x": "10-22",
+              "y": 53
+            },
+            {
+              "x": "10-23",
+              "y": 54
+            },
+            {
+              "x": "10-24",
+              "y": 64
+            },
+            {
+              "x": "10-25",
+              "y": 66
+            },
+            {
+              "x": "10-26",
+              "y": 286
+            },
+            {
+              "x": "10-27",
+              "y": 265
+            },
+            {
+              "x": "10-28",
+              "y": 141
+            },
+            {
+              "x": "10-29",
+              "y": 84
+            },
+            {
+              "x": "10-30",
+              "y": 61
+            },
+            {
+              "x": "10-31",
+              "y": 275
+            },
+            {
+              "x": "11-01",
+              "y": 138465
+            },
+            {
+              "x": "11-02",
+              "y": 59386
+            }
+          ],
+          "cites": [
+            "views:en:Ciara_Mageean:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:01:00Z",
+      "until": "2026-11-02T00:01:23Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "59,386",
+          "value": 59386,
+          "color": "#f5c2a0",
+          "cites": [
+            "views:en:Ciara_Mageean:2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "31,245",
+          "value": 31245,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Ciara_Mageean:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "7,034",
+          "value": 7034,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Ciara_Mageean:2026-11-02"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "3,059",
+          "value": 3059,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Магиан,_Кира:2026-11-02"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "2,766",
+          "value": 2766,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Ciara_Mageean:2026-11-02"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "2,005",
+          "value": 2005,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Ciara_Mageean:2026-11-02"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "1,073",
+          "value": 1073,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Ciara_Mageean:2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.003074
+  }
+}

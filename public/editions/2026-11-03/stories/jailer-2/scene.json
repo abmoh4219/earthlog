@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:31Z"
+    "end": "2026-11-03T00:01:37Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -24,6 +24,18 @@
     {
       "kind": "regions",
       "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:01:13Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:01:13Z"
     },
     {
       "kind": "places",
@@ -180,37 +192,37 @@
     },
     {
       "t": "2026-11-03T00:01:16Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 5440000,
-      "heading": -15,
-      "pitch": -52,
+      "lon": 85.94562154172881,
+      "lat": 14.343962212805014,
+      "range": 16763997.610898724,
+      "heading": 0,
+      "pitch": -60,
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:22Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 4926129.515146755,
-      "heading": -1,
-      "pitch": -49.5,
+      "t": "2026-11-03T00:01:25Z",
+      "lon": 85.94562154172881,
+      "lat": 14.343962212805014,
+      "range": 15180445.482150346,
+      "heading": 14,
+      "pitch": -57.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:27Z",
-      "lon": 79.36,
-      "lat": 20.565,
-      "range": 4460800,
-      "heading": 13,
-      "pitch": -47,
+      "t": "2026-11-03T00:01:33Z",
+      "lon": 85.94562154172881,
+      "lat": 14.343962212805014,
+      "range": 13746478.040936952,
+      "heading": 28,
+      "pitch": -55,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:31Z",
-      "lon": 54.360000000000014,
-      "lat": 20.565,
-      "range": 14000000,
-      "heading": 13,
+      "t": "2026-11-03T00:01:37Z",
+      "lon": 60.94562154172877,
+      "lat": 14.343962212805014,
+      "range": 41239434.122810856,
+      "heading": 28,
       "pitch": -88,
       "move": "flight"
     }
@@ -224,28 +236,28 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "The film is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
+      "text": "It is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
       "cites": [
         "wiki:rev:1383739722:9"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "Anna Rajan confirmed her involvement in May 2025, and Suraj Venjaramoodu did so in December.",
+      "text": "Anna Rajan confirmed her involvement in May 2025, while Suraj Venjaramoodu confirmed his in December.",
       "cites": [
         "wiki:rev:1383739722:40"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Jailer 2 is a 2026 Indian Tamil-language action comedy written and directed by Nelson Dilipkumar.",
+      "text": "Jailer 2 is a 2026 Indian Tamil-language action comedy, written and directed by Nelson Dilipkumar.",
       "cites": [
         "wiki:rev:1383739722:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:25Z",
-      "text": "Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu star among others, and 2 more are listed, with music by Anirudh Ravichander.",
+      "t": "2026-11-03T00:00:24Z",
+      "text": "Jailer 2 stars Rajinikanth, S. J. Suryah, Mithun Chakraborty and Suraj Venjaramoodu among others; with music by Anirudh Ravichander.",
       "cites": [
         "wiki:box:1383739722:starring",
         "wiki:box:1383739722:music"
@@ -253,7 +265,7 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "The film was released on 15 October 2026, and as Wikipedia records it, its box office is ₹808 crore.",
+      "text": "Released: 15 October 2026. Box office, as Wikipedia records it: ₹808 crore.",
       "cites": [
         "wiki:box:1383739722:released",
         "wiki:box:1383739722:box-office"
@@ -261,7 +273,7 @@
     },
     {
       "t": "2026-11-03T00:00:43Z",
-      "text": "The article places filming at Sathyam Cinemas in Royapettah, in Attappadi and Kerala, Coimbatore and Kozhikode, and 4 more places.",
+      "text": "The article places filming at Sathyam Cinemas in Royapettah, Attappadi in Kerala, Coimbatore and Kozhikode, among 4 more places.",
       "cites": [
         "wiki:film:1383739722:1",
         "wiki:film:1383739722:3",
@@ -273,7 +285,7 @@
     },
     {
       "t": "2026-11-03T00:01:02Z",
-      "text": "8 of the credited people have a birthplace on record, and all were born in India.",
+      "text": "Birthplaces are on record for 8 of the credited people, and all of them were born in India.",
       "cites": [
         "wd:Q13564588:P19",
         "wd:Q159166:P19",
@@ -295,10 +307,20 @@
     },
     {
       "t": "2026-11-03T00:01:20Z",
-      "text": "The article was read in 5 languages that day, and after English, the most readers were in Tamil, with 210.",
+      "text": "The article was read in 5 languages, and after English, the most readers were in Tamil, with 210 on the same day.",
       "cites": [
         "views:en:Jailer_2:2026-11-03",
         "views:ta:ஜெயிலர்_2:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:26Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:ta:ஜெயிலர்_2:2026-11-03",
+        "views:bn:জেলার_২:2026-11-03",
+        "views:ms:Jailer_2:2026-11-03",
+        "views:fa:زندانبان_۲:2026-11-03"
       ]
     }
   ],
@@ -435,7 +457,7 @@
     {
       "id": "readers",
       "t": "2026-11-03T00:01:14Z",
-      "until": "2026-11-03T00:01:31Z",
+      "until": "2026-11-03T00:01:37Z",
       "title": "Readers on English Wikipedia",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
       "kind": "line",
@@ -576,7 +598,7 @@
     {
       "id": "languages",
       "t": "2026-11-03T00:01:14Z",
-      "until": "2026-11-03T00:01:31Z",
+      "until": "2026-11-03T00:01:37Z",
       "title": "Readers by language",
       "note": "Wikipedia language editions that day. A language is not a country.",
       "kind": "bars",
@@ -633,7 +655,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.002639
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.003885
   }
 }

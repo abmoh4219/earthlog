@@ -14,7 +14,13 @@ import { parseCoord, terrainHooks } from "./accident.ts";
 import { andList, boxItems, links } from "./culture.ts";
 import { anyInfobox } from "./election/infobox.ts";
 import type { ChapterDraft } from "./film.ts";
-import { generalLens, type LensContext, type LensResult, wideShot } from "./general.ts";
+import {
+  generalLens,
+  type LensContext,
+  type LensResult,
+  sharedLayer,
+  wideShot,
+} from "./general.ts";
 import { fetchRevision } from "./news-context.ts";
 
 /** Facts worth showing, in order: [label, infobox keys]. */
@@ -100,7 +106,7 @@ export async function scienceLens(ctx: LensContext): Promise<LensResult> {
     ...(t.sources ? { sources: t.sources } : {}),
     shape: ({ chapters, layers, add }) => {
       for (let i = layers.length - 1; i >= 0; i--)
-        if (layers[i]?.kind === "places") layers.splice(i, 1);
+        if (layers[i]?.kind === "places" && !sharedLayer(layers[i])) layers.splice(i, 1);
       if (t.layer) layers.push(t.layer);
       const inserts: ChapterDraft[] = [];
       const name = rev.title;

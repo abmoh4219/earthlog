@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-the-rapid-support-forces-launches-drone-strikes-against-thre",
+  "title": "The Rapid Support Forces launches drone strikes against three distribution…",
+  "subtitle": "Conflict · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:00:51Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 25.716666670000002,
+    "south": 7.75,
+    "east": 45.71666667,
+    "north": 23.75
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-02T00:00:26Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-02T00:00:26Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-02T00:00:34Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-02T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-02T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": 73.71666667,
+      "lat": 9.0375,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:07Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:09Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:13Z",
+      "lon": 29.490910873155986,
+      "lat": 13.373437823616163,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:19Z",
+      "lon": 29.490910873155986,
+      "lat": 13.373437823616163,
+      "range": 1358307.7707206125,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "lon": 29.490910873155986,
+      "lat": 13.373437823616163,
+      "range": 1230000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:29Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 996092.3651951158,
+      "heading": 20.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 902000,
+      "heading": 29.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "lon": 32.7077653388013,
+      "lat": 17.335576620560204,
+      "range": 1855719.3986469917,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:39Z",
+      "lon": 32.7077653388013,
+      "lat": 17.335576620560204,
+      "range": 1680425.386306127,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:42Z",
+      "lon": 32.7077653388013,
+      "lat": 17.335576620560204,
+      "range": 1521689.9068905332,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:46Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:47Z",
+      "lon": 35.71666667,
+      "lat": 15.0625,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:51Z",
+      "lon": 10.716666669999995,
+      "lat": 15.0625,
+      "range": 14000000,
+      "heading": 7.800000000000001,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "The Rapid Support Forces is launching drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
+      "cites": [
+        "wiki:2026-11-02:6"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:11Z",
+      "text": "On 26 October, twenty-one people were killed and 40 more injured in a drone strike in Nyala, Sudan.",
+      "cites": [
+        "wiki:2026-10-26:6"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:18Z",
+      "text": "On 28 October, eight women and children were reported injured in an airstrike in Kadugli, South Kordofan, Sudan.",
+      "cites": [
+        "wiki:2026-10-28:2"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:27Z",
+      "text": "On the map, the reports place this in Kassala State, Sudan.",
+      "cites": [
+        "wiki:2026-11-02:6"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:35Z",
+      "text": "The reports also name Northern State.",
+      "cites": [
+        "wiki:2026-11-02:6"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:44Z",
+      "text": "The story was reported by Sudan Tribune.",
+      "cites": [
+        "wiki:2026-11-02:6"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "SD",
+    "lon": 35.71666667,
+    "lat": 15.75,
+    "label": "Kassala State"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:10Z",
+      "title": "How it unfolded"
+    },
+    {
+      "t": "2026-11-02T00:00:26Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-02T00:00:34Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-02T00:00:43Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "thread",
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:26Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "26 October",
+          "text": "Twenty-one people are killed and 40 more injured in a drone strike in Nyala, Sudan.",
+          "cites": [
+            "wiki:2026-10-26:6"
+          ]
+        },
+        {
+          "label": "28 October",
+          "text": "Eight women and children are reported to be injured in a airstrike in Kadugli…",
+          "cites": [
+            "wiki:2026-10-28:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-02T00:00:44Z",
+      "until": "2026-11-02T00:00:51Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Sudan Tribune",
+          "text": "Open",
+          "url": "https://sudantribune.com/article/320792",
+          "cites": [
+            "wiki:2026-11-02:6"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.000529
+  }
+}

@@ -1,0 +1,304 @@
+[
+  {
+    "id": "views:en:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 252,010 readers of \"Susan Saint James\" on 2 Nov 2026",
+    "value": 252010,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Susan_Saint_James",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Susan_Saint_James:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Susan Saint James\": normally a median of 720 readers a day (8 to 60 days before)",
+    "value": 720,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Susan_Saint_James",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Dick_Ebersol:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 106,158 readers of \"Dick Ebersol\" on 2 Nov 2026",
+    "value": 106158,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dick_Ebersol",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Dick_Ebersol:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Dick Ebersol\": normally a median of 400 readers a day (8 to 60 days before)",
+    "value": 400,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dick_Ebersol",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q259559:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Susan Saint James\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q259559",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383321542:47",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Susan Saint James\" (revision of 2026-11-02 02:43 UTC)",
+    "quote": "Saint James died from pancreatic cancer at a hospital in Los Angeles on October 26, 2026, at the age of 80.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Susan_Saint_James&oldid=1383321542"
+  },
+  {
+    "id": "wiki:rev:1383321542:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Susan Saint James\" (revision of 2026-11-02 02:43 UTC)",
+    "quote": "Susan Saint James (born Susan Jane Miller; August 14, 1946 – October 26, 2026) was an American actress.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Susan_Saint_James&oldid=1383321542"
+  },
+  {
+    "id": "views:en:Susan_Saint_James:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Susan Saint James\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Susan_Saint_James&range=latest-30"
+  },
+  {
+    "id": "views:en:Dick_Ebersol:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Dick Ebersol\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Dick_Ebersol&range=latest-30"
+  },
+  {
+    "id": "views:es:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 1,242 readers of \"Susan Saint James\" on 2 November 2026",
+    "value": 1242,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:de:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 313 readers of \"Susan Saint James\" on 2 November 2026",
+    "value": 313,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:fr:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 250 readers of \"Susan Saint James\" on 2 November 2026",
+    "value": 250,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:pl:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 203 readers of \"Susan Saint James\" on 2 November 2026",
+    "value": 203,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:pt:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 179 readers of \"Susan Saint James\" on 2 November 2026",
+    "value": 179,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:ru:Сент-Джеймс,_Сьюзан:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 131 readers of \"Сент-Джеймс, Сьюзан\" on 2 November 2026",
+    "value": 131,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BD%D1%82-%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81%2C_%D0%A1%D1%8C%D1%8E%D0%B7%D0%B0%D0%BD"
+  },
+  {
+    "id": "views:it:Susan_Saint_James:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 43 readers of \"Susan Saint James\" on 2 November 2026",
+    "value": 43,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Susan_Saint_James"
+  },
+  {
+    "id": "views:zh:苏珊·圣詹姆斯:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 13 readers of \"苏珊·圣詹姆斯\" on 2 November 2026",
+    "value": 13,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E7%8F%8A%C2%B7%E5%9C%A3%E8%A9%B9%E5%A7%86%E6%96%AF"
+  },
+  {
+    "id": "views:ar:سوزان_ساينت_جيمس:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 10 readers of \"سوزان ساينت جيمس\" on 2 November 2026",
+    "value": 10,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B3%D9%88%D8%B2%D8%A7%D9%86_%D8%B3%D8%A7%D9%8A%D9%86%D8%AA_%D8%AC%D9%8A%D9%85%D8%B3"
+  },
+  {
+    "id": "views:fa:سوزان_سن_جیمز:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 1 readers of \"سوزان سن جیمز\" on 2 November 2026",
+    "value": 1,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%B3%D9%88%D8%B2%D8%A7%D9%86_%D8%B3%D9%86_%D8%AC%DB%8C%D9%85%D8%B2"
+  },
+  {
+    "id": "wd:Q259559:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": born 14 August 1946",
+    "url": "https://www.wikidata.org/wiki/Q259559#P569"
+  },
+  {
+    "id": "wd:Q259559:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": birthplace Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q259559#P19"
+  },
+  {
+    "id": "wd:Q259559:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": died 26 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q259559#P570"
+  },
+  {
+    "id": "wd:Q259559:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": place of death Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q259559#P20"
+  },
+  {
+    "id": "wd:Q259559:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": occupation film actor, television actor",
+    "url": "https://www.wikidata.org/wiki/Q259559#P106"
+  },
+  {
+    "id": "wd:Q259559:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q259559#P27"
+  },
+  {
+    "id": "wd:Q259559:P69:Q1797448",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": educated at Connecticut College",
+    "url": "https://www.wikidata.org/wiki/Q259559#P69"
+  },
+  {
+    "id": "wd:Q259559:P166:Q989450",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": award received: Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series (1969)",
+    "url": "https://www.wikidata.org/wiki/Q259559#P166"
+  },
+  {
+    "id": "wd:Q259559:P166:Q1285504",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": award received: Primetime Emmy Award for Outstanding Supporting Actress in a Drama Series (1969)",
+    "url": "https://www.wikidata.org/wiki/Q259559#P166"
+  },
+  {
+    "id": "wd:Q259559:P166:Q5161648",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": award received: Connecticut Women's Hall of Fame (1994)",
+    "url": "https://www.wikidata.org/wiki/Q259559#P166"
+  },
+  {
+    "id": "wd:Q259559:P166:Q17985761",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Susan Saint James\": award received: star on Hollywood Walk of Fame (2008)",
+    "url": "https://www.wikidata.org/wiki/Q259559#P166"
+  }
+]

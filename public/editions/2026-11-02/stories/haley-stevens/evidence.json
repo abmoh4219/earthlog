@@ -1,0 +1,310 @@
+[
+  {
+    "id": "views:en:Haley_Stevens:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 548,345 readers of \"Haley Stevens\" on 2 Nov 2026",
+    "value": 548345,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Haley_Stevens:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Haley Stevens\": normally a median of 1,056 readers a day (8 to 60 days before)",
+    "value": 1056,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Abdul_El-Sayed:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 243,340 readers of \"Abdul El-Sayed\" on 2 Nov 2026",
+    "value": 243340,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Abdul_El-Sayed:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Abdul El-Sayed\": normally a median of 16,924 readers a day (8 to 60 days before)",
+    "value": 16924,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Mike_Rogers_(Michigan_politician):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 77,353 readers of \"Mike Rogers (Michigan politician)\" on 2 Nov 2026",
+    "value": 77353,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Mike_Rogers_(Michigan_politician):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Mike Rogers (Michigan politician)\": normally a median of 4,061 readers a day (8 to 60 days before)",
+    "value": 4061,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Mike_Rogers_(Michigan_politician)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Michigan:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 60,512 readers of \"2026 United States Senate election in Michigan\" on 2 Nov 2026",
+    "value": 60512,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Michigan:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"2026 United States Senate election in Michigan\": normally a median of 5,650 readers a day (8 to 60 days before)",
+    "value": 5650,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q58322563:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Haley Stevens\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q58322563",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383807510:53",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Haley Stevens\" (revision of 2026-11-05 00:08 UTC)",
+    "quote": "After tensions increased between Stevens and El-Sayed over an ad run by an outside PAC, Stevens appeared with the Republican nominee, Mike Rogers, at The Perfecting Church in Detroit on November 1, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Haley_Stevens&oldid=1383807510"
+  },
+  {
+    "id": "wiki:rev:1383807510:97",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Haley Stevens\" (revision of 2026-11-05 00:08 UTC)",
+    "quote": "Stevens followed her fiancé in endorsing Rogers on November 1, resulting in a rift between herself and El-Sayed.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Haley_Stevens&oldid=1383807510"
+  },
+  {
+    "id": "wiki:rev:1383807510:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Haley Stevens\" (revision of 2026-11-05 00:08 UTC)",
+    "quote": "Haley Maria Stevens (born June 24, 1983) is an American politician serving as the U.S. representative from since 2019.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Haley_Stevens&oldid=1383807510"
+  },
+  {
+    "id": "views:en:Haley_Stevens:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Haley Stevens\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Haley_Stevens&range=latest-30"
+  },
+  {
+    "id": "views:en:Abdul_El-Sayed:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Abdul El-Sayed\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Abdul_El-Sayed&range=latest-30"
+  },
+  {
+    "id": "views:en:Mike_Rogers_(Michigan_politician):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Mike Rogers (Michigan politician)\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Mike_Rogers_(Michigan_politician)&range=latest-30"
+  },
+  {
+    "id": "views:de:Haley_Stevens:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 8,250 readers of \"Haley Stevens\" on 2 November 2026",
+    "value": 8250,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Haley_Stevens"
+  },
+  {
+    "id": "views:fr:Haley_Stevens:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 5,231 readers of \"Haley Stevens\" on 2 November 2026",
+    "value": 5231,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Haley_Stevens"
+  },
+  {
+    "id": "views:es:Haley_Stevens:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 1,778 readers of \"Haley Stevens\" on 2 November 2026",
+    "value": 1778,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Haley_Stevens"
+  },
+  {
+    "id": "views:it:Haley_Stevens:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 1,698 readers of \"Haley Stevens\" on 2 November 2026",
+    "value": 1698,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Haley_Stevens"
+  },
+  {
+    "id": "views:ar:هايلي_ستيفنز:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 797 readers of \"هايلي ستيفنز\" on 2 November 2026",
+    "value": 797,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D9%87%D8%A7%D9%8A%D9%84%D9%8A_%D8%B3%D8%AA%D9%8A%D9%81%D9%86%D8%B2"
+  },
+  {
+    "id": "views:ko:헤일리_스티븐스:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 288 readers of \"헤일리 스티븐스\" on 2 November 2026",
+    "value": 288,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EC%9D%BC%EB%A6%AC_%EC%8A%A4%ED%8B%B0%EB%B8%90%EC%8A%A4"
+  },
+  {
+    "id": "views:he:היילי_סטיבנס:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Hebrew Wikipedia: 263 readers of \"היילי סטיבנס\" on 2 November 2026",
+    "value": 263,
+    "unit": "readers",
+    "url": "https://he.wikipedia.org/wiki/%D7%94%D7%99%D7%99%D7%9C%D7%99_%D7%A1%D7%98%D7%99%D7%91%D7%A0%D7%A1"
+  },
+  {
+    "id": "views:id:Haley_Stevens:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Indonesian Wikipedia: 84 readers of \"Haley Stevens\" on 2 November 2026",
+    "value": 84,
+    "unit": "readers",
+    "url": "https://id.wikipedia.org/wiki/Haley_Stevens"
+  },
+  {
+    "id": "wd:Q58322563:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haley Stevens\": born 24 June 1983",
+    "url": "https://www.wikidata.org/wiki/Q58322563#P569"
+  },
+  {
+    "id": "wd:Q58322563:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haley Stevens\": birthplace Rochester Hills",
+    "url": "https://www.wikidata.org/wiki/Q58322563#P19"
+  },
+  {
+    "id": "wd:Q58322563:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haley Stevens\": occupation politician",
+    "url": "https://www.wikidata.org/wiki/Q58322563#P106"
+  },
+  {
+    "id": "wd:Q58322563:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haley Stevens\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q58322563#P27"
+  },
+  {
+    "id": "wd:Q58322563:P69:Q7440488",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haley Stevens\": educated at Seaholm High School",
+    "url": "https://www.wikidata.org/wiki/Q58322563#P69"
+  },
+  {
+    "id": "wd:Q58322563:P69:Q168000",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haley Stevens\": educated at American University",
+    "url": "https://www.wikidata.org/wiki/Q58322563#P69"
+  },
+  {
+    "id": "wd:Q58322563:P937:Q61",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haley Stevens\": worked in Washington, D.C.",
+    "url": "https://www.wikidata.org/wiki/Q58322563#P937"
+  }
+]

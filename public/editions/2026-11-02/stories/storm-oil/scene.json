@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-storm-oil",
+  "title": "Storm oil",
+  "subtitle": "News · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:00:29Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:10Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:16Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:19Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 25600000,
+      "heading": -15,
+      "pitch": -52,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:22Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 23181785.953631785,
+      "heading": -27.1,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20992000,
+      "heading": -39.2,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:29Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 62976000,
+      "heading": -39.2,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "Later investigators included John William Strutt, 3rd Baron Rayleigh, and his son, Robert Strutt, 4th Baron Rayleigh.",
+      "cites": [
+        "wiki:rev:1383405896:16"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:09Z",
+      "text": "Storm oil is a nearly water-insoluble oil that acts as a surfactant, and it has been used since ancient times to smooth ocean waves.",
+      "cites": [
+        "wiki:rev:1383405896:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:18Z",
+      "text": "On 2 November 2026, 70,742 people read the Storm oil article.",
+      "cites": [
+        "views:en:Storm_oil:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:21Z",
+      "text": "In the weeks before, the article normally drew a median of 16 readers a day.",
+      "cites": [
+        "views:en:Storm_oil:prior"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:17Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:00:18Z",
+      "until": "2026-11-02T00:00:29Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Storm oil",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 19
+            },
+            {
+              "x": "10-05",
+              "y": 11
+            },
+            {
+              "x": "10-06",
+              "y": 16
+            },
+            {
+              "x": "10-07",
+              "y": 20
+            },
+            {
+              "x": "10-08",
+              "y": 23
+            },
+            {
+              "x": "10-09",
+              "y": 22
+            },
+            {
+              "x": "10-10",
+              "y": 13
+            },
+            {
+              "x": "10-11",
+              "y": 25
+            },
+            {
+              "x": "10-12",
+              "y": 10
+            },
+            {
+              "x": "10-13",
+              "y": 16
+            },
+            {
+              "x": "10-14",
+              "y": 12
+            },
+            {
+              "x": "10-15",
+              "y": 16
+            },
+            {
+              "x": "10-16",
+              "y": 10
+            },
+            {
+              "x": "10-17",
+              "y": 9
+            },
+            {
+              "x": "10-18",
+              "y": 18
+            },
+            {
+              "x": "10-19",
+              "y": 9
+            },
+            {
+              "x": "10-20",
+              "y": 13
+            },
+            {
+              "x": "10-21",
+              "y": 14
+            },
+            {
+              "x": "10-22",
+              "y": 11
+            },
+            {
+              "x": "10-23",
+              "y": 8
+            },
+            {
+              "x": "10-24",
+              "y": 5
+            },
+            {
+              "x": "10-25",
+              "y": 15
+            },
+            {
+              "x": "10-26",
+              "y": 15
+            },
+            {
+              "x": "10-27",
+              "y": 13
+            },
+            {
+              "x": "10-28",
+              "y": 8
+            },
+            {
+              "x": "10-29",
+              "y": 5
+            },
+            {
+              "x": "10-30",
+              "y": 510
+            },
+            {
+              "x": "10-31",
+              "y": 760
+            },
+            {
+              "x": "11-01",
+              "y": 480
+            },
+            {
+              "x": "11-02",
+              "y": 70742
+            }
+          ],
+          "cites": [
+            "views:en:Storm_oil:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.000662
+  }
+}

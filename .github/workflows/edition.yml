@@ -1,0 +1,91 @@
+# The nightly edition (ADR-0009, ADR-0012, ADR-0014).
+# Every night at 04:30 UTC: build yesterday's edition, film every story, direct the films with
+# Claude (Haiku 5.5, template fallback), refresh the three editions before it (results and
+# reports still fill in), bake the day-at-a-glance replay, validate everything, and commit only
+# the data as a `data:` commit. The push triggers the Vercel deploy.
+# The API key lives only in the repository secret ANTHROPIC_API_KEY; without it the films keep
+# their template narration and nothing breaks.
+name: Nightly edition
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Edition date (YYYY-MM-DD); default: yesterday (UTC)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-edition
+  cancel-in-progress: false
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # Downloads and Claude answers are cached between nights: polite to the free APIs, and
+      # re-directing an unchanged film costs nothing.
+      - name: Restore the download cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: edition-cache-${{ github.run_id }}
+          restore-keys: edition-cache-
+
+      - name: Build, film and direct
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INPUT_DATE: ${{ inputs.date }}
+        run: |
+          set -euo pipefail
+          DATE="${INPUT_DATE:-$(date -u -d yesterday +%F)}"
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          pnpm edition "$DATE"
+          # One failed film must not sink the edition: it simply has no film (listed as text).
+          pnpm stories "$DATE" || echo "::warning::some films of $DATE failed"
+          pnpm direct "$DATE" --ai --max-usd=0.25
+          # The three editions before it are still fresh (ADR-0014): re-film and re-direct.
+          for k in 1 2 3; do
+            D="$(date -u -d "$DATE -$k days" +%F)"
+            if [ -f "public/editions/$D/edition.json" ]; then
+              pnpm stories "$D" || echo "::warning::some films of $D failed"
+              pnpm direct "$D" --ai --max-usd=0.10
+            fi
+          done
+          # The day at a glance (quakes, outages, natural events); optional, never blocks.
+          pnpm bake daily "$DATE" || echo "::warning::day-at-a-glance replay skipped"
+
+      - name: Validate every bundle
+        run: pnpm validate:scenes
+
+      - name: No secrets in the data
+        run: |
+          if grep -rEq "sk-ant-[A-Za-z0-9_-]{10,}" public; then
+            echo "::error::Something that looks like an Anthropic API key is in public/."
+            exit 1
+          fi
+
+      - name: Commit the data
+        run: |
+          git config user.name "earthlog-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/editions public/scenes
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+          else
+            git commit -m "data: edition $DATE"
+            git push
+          fi

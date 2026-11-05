@@ -277,3 +277,27 @@ describe("the 3 Nov 2026 edition", () => {
     for (const e of evidence) expect(sourceIds.has(e.source)).toBe(true);
   });
 });
+
+describe("most-read fallback", () => {
+  it("keeps articles only from the pageviews top list", async () => {
+    const { parseTopViews } = await import("../scripts/edition/sources.ts");
+    const json = {
+      items: [
+        {
+          articles: [
+            { article: "Main_Page", views: 4_000_000 },
+            { article: "Special:Search", views: 700_000 },
+            { article: "Wikipedia:Featured_pictures", views: 500_000 },
+            { article: "Haley_Stevens", views: 548_345 },
+            { article: ".xxx", views: 172_419 },
+            { article: "Learjet_60", views: 263_003 },
+          ],
+        },
+      ],
+    };
+    expect(parseTopViews(json)).toEqual([
+      { title: "Haley Stevens", views: 548_345 },
+      { title: "Learjet 60", views: 263_003 },
+    ]);
+  });
+});

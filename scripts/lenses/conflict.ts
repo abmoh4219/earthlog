@@ -16,16 +16,11 @@ import { anyInfobox } from "./election/infobox.ts";
 import type { ChapterDraft, PanelDraft } from "./film.ts";
 import { generalLens, type LensContext, type LensResult, wideShot } from "./general.ts";
 import { dateMatch, fetchRevision } from "./news-context.ts";
+import { recencyColor } from "./thread.ts";
+
+export { recencyColor };
 
 const DAY = 86_400_000;
-
-/** Today's reports in red, a week ago in amber: the colour of a place says how recent it is. */
-export function recencyColor(daysAgo: number): string {
-  const u = Math.max(0, Math.min(1, daysAgo / 7));
-  const mix = (a: number, b: number) => Math.round(a + (b - a) * u);
-  const hex = (n: number) => n.toString(16).padStart(2, "0");
-  return `#${hex(mix(0xff, 0xff))}${hex(mix(0x4d, 0xc8))}${hex(mix(0x5e, 0x6a))}`;
-}
 
 /** Daily median of a ratio series: one point a day for a two-week panel. */
 export function dailyMedians(

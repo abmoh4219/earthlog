@@ -25,7 +25,7 @@ import {
 import { usgsSource } from "../bake/usgs.ts";
 import { groundedLens, terrainHooks } from "./accident.ts";
 import type { ChapterDraft, PanelDraft } from "./film.ts";
-import { generalLens, type LensContext, type LensResult } from "./general.ts";
+import { generalLens, type LensContext, type LensResult, sharedLayer } from "./general.ts";
 
 export interface QuakeData {
   detail: Detail;
@@ -272,7 +272,7 @@ export async function disasterLens(ctx: LensContext): Promise<LensResult> {
     sources: [usgsSource(ctx.at), ...(t.sources ?? [])],
     shape: ({ chapters, layers, add }) => {
       for (let i = layers.length - 1; i >= 0; i--)
-        if (layers[i]?.kind === "places") layers.splice(i, 1);
+        if (layers[i]?.kind === "places" && !sharedLayer(layers[i])) layers.splice(i, 1);
       if (t.layer) layers.push(t.layer);
       layers.push(...film.layers);
       for (const e of film.evidence) add(e);

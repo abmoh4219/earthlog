@@ -11,7 +11,13 @@ import { fetchCoordinates } from "../bake/wikinews.ts";
 import { fetchLanguageReaders, LANGUAGE } from "./attention.ts";
 import { anyInfobox, plainText } from "./election/infobox.ts";
 import type { ChapterDraft, PanelDraft } from "./film.ts";
-import { generalLens, type LensContext, type LensResult, wideShot } from "./general.ts";
+import {
+  generalLens,
+  type LensContext,
+  type LensResult,
+  sharedLayer,
+  wideShot,
+} from "./general.ts";
 import { fetchRevision } from "./news-context.ts";
 
 /** Infobox keys worth showing, in order, under one plain label each. */
@@ -108,7 +114,7 @@ export async function sportsLens(ctx: LensContext): Promise<LensResult> {
       if (venueCoord && venueName) {
         const venueId = cite("venue", `venue: ${venueName}`);
         for (let i = layers.length - 1; i >= 0; i--)
-          if (layers[i]?.kind === "places") layers.splice(i, 1);
+          if (layers[i]?.kind === "places" && !sharedLayer(layers[i])) layers.splice(i, 1);
         const teamPins = teams.flatMap((t) => {
           const c = t ? coords.get(t) : undefined;
           return c && t
@@ -270,6 +276,13 @@ export async function sportsLens(ctx: LensContext): Promise<LensResult> {
 
       for (const e of evidence) add(e);
       // Readers by language replace the English-only readers chapter.
+      // The curiosity map moves with the readers: our chapter reveals it, from the same shot.
+      const general = keep.find((c) => c.title === "Readers");
+      const ours = inserts.find((c) => c.title === "Followed around the world");
+      if (readers.length >= 3 && general?.reveal && ours) {
+        ours.reveal = general.reveal;
+        ours.shot = general.shot;
+      }
       const base = readers.length >= 3 ? keep.filter((c) => c.title !== "Readers") : keep;
       const after = base.findIndex((c) => c.title === "What happened") + 1;
       base.splice(after, 0, ...inserts);

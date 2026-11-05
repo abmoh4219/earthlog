@@ -11,7 +11,13 @@ import { LENS_INFO } from "../../src/scene/edition.ts";
 import type { Evidence, LayerData, Panel } from "../../src/scene/schema.ts";
 import { fetchEntities, type WdEntity } from "../edition/sources.ts";
 import type { ChapterDraft, PanelDraft } from "./film.ts";
-import { generalLens, type LensContext, type LensResult, wideShot } from "./general.ts";
+import {
+  generalLens,
+  type LensContext,
+  type LensResult,
+  sharedLayer,
+  wideShot,
+} from "./general.ts";
 
 type StopKind = "born" | "education" | "team" | "employer" | "residence" | "work" | "died";
 
@@ -225,7 +231,8 @@ export async function personLens(ctx: LensContext): Promise<LensResult> {
       const keep = chapters.filter((c) => c.title !== "Where" && c.title !== "On record");
       for (let i = layers.length - 1; i >= 0; i--) {
         const kind = layers[i]?.kind;
-        if (kind === "places" || kind === "arcs" || kind === "regions") layers.splice(i, 1);
+        if ((kind === "places" || kind === "arcs" || kind === "regions") && !sharedLayer(layers[i]))
+          layers.splice(i, 1);
       }
       if (life.length) {
         layers.push({

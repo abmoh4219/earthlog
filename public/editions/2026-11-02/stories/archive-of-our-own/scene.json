@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-archive-of-our-own",
+  "title": "Archive of Our Own",
+  "subtitle": "Tech & business · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:01:06Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:42Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:42Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-02T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-02T00:00:24Z",
+      "until": "2026-11-02T00:00:42Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:27Z",
+      "lon": -77.108333333333,
+      "lat": 38.080277777778,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:29Z",
+      "lon": -77.108333333333,
+      "lat": 38.080277777778,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "lon": -77.108333333333,
+      "lat": 38.080277777778,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:34Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:38Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:41Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:46Z",
+      "lon": 25.83989255080841,
+      "lat": 48.63405151332218,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:54Z",
+      "lon": 25.83989255080841,
+      "lat": 48.63405151332218,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:02Z",
+      "lon": 25.83989255080841,
+      "lat": 48.63405151332218,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:06Z",
+      "lon": 0.8398925508083721,
+      "lat": 48.63405151332218,
+      "range": 54120000,
+      "heading": -28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "After a security incident on 29 October 2026, the site went down for maintenance first announced to last twelve hours, then extended that same day to two to four weeks.",
+      "cites": [
+        "wiki:rev:1383453548:21"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:08Z",
+      "text": "Rebecca Tushnet, representing AO3, assured users that no data was lost during this incident.",
+      "cites": [
+        "wiki:rev:1383453548:22"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:15Z",
+      "text": "Archive of Our Own, or AO3, is a nonprofit, open-source repository for fanfiction and other fanworks contributed by users.",
+      "cites": [
+        "wiki:rev:1383453548:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "text": "Archive of Our Own is operated by the Organization for Transformative Works, based in Arlington County, United States.",
+      "cites": [
+        "wd:Q27764876:P137"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "text": "The site was founded in 2008.",
+      "cites": [
+        "wd:Q27764876:P571"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "text": "It is owned by the Organization for Transformative Works.",
+      "cites": [
+        "wd:Q27764876:P127"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:43Z",
+      "text": "On 2 November 2026, English Wikipedia recorded 78,713 readers of the article, about 57× the usual daily figure.",
+      "cites": [
+        "views:en:Archive_of_Our_Own:2026-11-02",
+        "views:en:Archive_of_Our_Own:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:49Z",
+      "text": "The article was read in 11 languages, and after English, German was the most common, with 752 readers that day.",
+      "cites": [
+        "views:en:Archive_of_Our_Own:2026-11-02",
+        "views:de:Archive_of_Our_Own:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:55Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:de:Archive_of_Our_Own:2026-11-02",
+        "views:ru:Archive_of_Our_Own:2026-11-02",
+        "views:fr:Archive_of_Our_Own:2026-11-02",
+        "views:zh:AO3作品库:2026-11-02",
+        "views:es:Archive_of_Our_Own:2026-11-02",
+        "views:pt:Archive_of_Our_Own:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-02T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-02T00:00:42Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-02T00:00:33Z",
+      "until": "2026-11-02T00:00:42Z",
+      "title": "On record: Archive of Our Own",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "2008",
+          "cites": [
+            "wd:Q27764876:P571"
+          ]
+        },
+        {
+          "label": "Operator",
+          "text": "Organization for Transformative Works",
+          "cites": [
+            "wd:Q27764876:P137"
+          ]
+        },
+        {
+          "label": "Owned by",
+          "text": "Organization for Transformative Works",
+          "cites": [
+            "wd:Q27764876:P127"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "archiveofourown.org",
+          "url": "http://archiveofourown.org/",
+          "cites": [
+            "wd:Q27764876:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:00:43Z",
+      "until": "2026-11-02T00:01:06Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Archive of Our Own",
+          "color": "#5ef2ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 1390
+            },
+            {
+              "x": "10-05",
+              "y": 1516
+            },
+            {
+              "x": "10-06",
+              "y": 1527
+            },
+            {
+              "x": "10-07",
+              "y": 1468
+            },
+            {
+              "x": "10-08",
+              "y": 1364
+            },
+            {
+              "x": "10-09",
+              "y": 1306
+            },
+            {
+              "x": "10-10",
+              "y": 1306
+            },
+            {
+              "x": "10-11",
+              "y": 1371
+            },
+            {
+              "x": "10-12",
+              "y": 1415
+            },
+            {
+              "x": "10-13",
+              "y": 1441
+            },
+            {
+              "x": "10-14",
+              "y": 1455
+            },
+            {
+              "x": "10-15",
+              "y": 1531
+            },
+            {
+              "x": "10-16",
+              "y": 1913
+            },
+            {
+              "x": "10-17",
+              "y": 1955
+            },
+            {
+              "x": "10-18",
+              "y": 2111
+            },
+            {
+              "x": "10-19",
+              "y": 2070
+            },
+            {
+              "x": "10-20",
+              "y": 1760
+            },
+            {
+              "x": "10-21",
+              "y": 1763
+            },
+            {
+              "x": "10-22",
+              "y": 1631
+            },
+            {
+              "x": "10-23",
+              "y": 1539
+            },
+            {
+              "x": "10-24",
+              "y": 1731
+            },
+            {
+              "x": "10-25",
+              "y": 1795
+            },
+            {
+              "x": "10-26",
+              "y": 1791
+            },
+            {
+              "x": "10-27",
+              "y": 1818
+            },
+            {
+              "x": "10-28",
+              "y": 1691
+            },
+            {
+              "x": "10-29",
+              "y": 27230
+            },
+            {
+              "x": "10-30",
+              "y": 55142
+            },
+            {
+              "x": "10-31",
+              "y": 45549
+            },
+            {
+              "x": "11-01",
+              "y": 43286
+            },
+            {
+              "x": "11-02",
+              "y": 78713
+            }
+          ],
+          "cites": [
+            "views:en:Archive_of_Our_Own:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:00:43Z",
+      "until": "2026-11-02T00:01:06Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "78,713",
+          "value": 78713,
+          "color": "#5ef2ff",
+          "cites": [
+            "views:en:Archive_of_Our_Own:2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "752",
+          "value": 752,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Archive_of_Our_Own:2026-11-02"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "612",
+          "value": 612,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Archive_of_Our_Own:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "598",
+          "value": 598,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Archive_of_Our_Own:2026-11-02"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "498",
+          "value": 498,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:AO3作品库:2026-11-02"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "476",
+          "value": 476,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Archive_of_Our_Own:2026-11-02"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "123",
+          "value": 123,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Archive_of_Our_Own:2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002174
+  }
+}

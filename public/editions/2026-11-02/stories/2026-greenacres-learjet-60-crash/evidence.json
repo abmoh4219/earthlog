@@ -1,0 +1,374 @@
+[
+  {
+    "id": "views:en:2026_Greenacres_Learjet_60_crash:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 152,110 readers of \"2026 Greenacres Learjet 60 crash\" on 2 Nov 2026",
+    "value": 152110,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Greenacres_Learjet_60_crash",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_Greenacres_Learjet_60_crash:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"2026 Greenacres Learjet 60 crash\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Greenacres_Learjet_60_crash",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q141966885:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"2026 Palm Beach County Learjet 60 crash\" is an instance of aviation accident",
+    "url": "https://www.wikidata.org/wiki/Q141966885",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383802284:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC)",
+    "quote": "On November 1, 2026, a privately owned Learjet 60 business jet crashed in Palm Beach County, Florida, United States.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:rev:1383802284:28",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC)",
+    "quote": "John I. Leonard Community High School, a public high school located near the crash site, was closed on November 2 as emergency crews and investigators continued operations in the vicinity.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:rev:1383802284:36",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC)",
+    "quote": "During a press briefing on November 2, NTSB board member Tom Chapman stated that investigators had found indications that the aircraft may have begun breaking apart before impact, suggesting that aircraft components could be located some distance from the main crash site.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "views:en:2026_Greenacres_Learjet_60_crash:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Greenacres Learjet 60 crash\", 1 November 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Greenacres_Learjet_60_crash&range=latest-30"
+  },
+  {
+    "id": "views:ru:Катастрофа_Learjet_60_в_Гринэйкрсе:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 7,952 readers of \"Катастрофа Learjet 60 в Гринэйкрсе\" on 2 November 2026",
+    "value": 7952,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0_Learjet_60_%D0%B2_%D0%93%D1%80%D0%B8%D0%BD%D1%8D%D0%B9%D0%BA%D1%80%D1%81%D0%B5"
+  },
+  {
+    "id": "views:zh:2026年佛罗里达州Learjet_60坠毁事故:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 3,261 readers of \"2026年佛罗里达州Learjet 60坠毁事故\" on 2 November 2026",
+    "value": 3261,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%BD%9B%E7%BD%97%E9%87%8C%E8%BE%BE%E5%B7%9ELearjet_60%E5%9D%A0%E6%AF%81%E4%BA%8B%E6%95%85"
+  },
+  {
+    "id": "views:pt:Queda_do_Learjet_60_em_Palm_Beach_em_2026:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 1,440 readers of \"Queda do Learjet 60 em Palm Beach em 2026\" on 2 November 2026",
+    "value": 1440,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Queda_do_Learjet_60_em_Palm_Beach_em_2026"
+  },
+  {
+    "id": "views:fr:Crash_d'un_Learjet_60_à_Palm_Beach:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 877 readers of \"Crash d'un Learjet 60 à Palm Beach\" on 2 November 2026",
+    "value": 877,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Crash_d'un_Learjet_60_%C3%A0_Palm_Beach"
+  },
+  {
+    "id": "views:es:Accidente_del_Learjet_60_de_LR60271_LLC_en_2026:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 870 readers of \"Accidente del Learjet 60 de LR60271 LLC en 2026\" on 2 November 2026",
+    "value": 870,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Accidente_del_Learjet_60_de_LR60271_LLC_en_2026"
+  },
+  {
+    "id": "views:fa:سانحه_سقوط_لیرجت_۶۰_در_پالم_بیچ_فلوریدا_۲۰۲۶:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 239 readers of \"سانحه سقوط لیرجت ۶۰ در پالم بیچ فلوریدا ۲۰۲۶\" on 2 November 2026",
+    "value": 239,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%B3%D8%A7%D9%86%D8%AD%D9%87_%D8%B3%D9%82%D9%88%D8%B7_%D9%84%DB%8C%D8%B1%D8%AC%D8%AA_%DB%B6%DB%B0_%D8%AF%D8%B1_%D9%BE%D8%A7%D9%84%D9%85_%D8%A8%DB%8C%DA%86_%D9%81%D9%84%D9%88%D8%B1%DB%8C%D8%AF%D8%A7_%DB%B2%DB%B0%DB%B2%DB%B6"
+  },
+  {
+    "id": "wd:Q141966885:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Palm Beach County Learjet 60 crash\": date 1 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q141966885#P585"
+  },
+  {
+    "id": "wd:Q141966885:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Palm Beach County Learjet 60 crash\": location Greenacres",
+    "url": "https://www.wikidata.org/wiki/Q141966885#P276"
+  },
+  {
+    "id": "wd:Q141966885:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Palm Beach County Learjet 60 crash\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q141966885#P17"
+  },
+  {
+    "id": "wiki:box:1383802284:aircraft",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): aircraft: Learjet 60",
+    "quote": "aircraft: Learjet 60",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:operator",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): operator: Aurora Aviation (dba Upper Jets)",
+    "quote": "operator: Aurora Aviation (dba Upper Jets)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:registration",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): registration: N722BD",
+    "quote": "registration: N722BD",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:callsign",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): callsign: NOVEMBER 722 BRAVO DELTA",
+    "quote": "callsign: NOVEMBER 722 BRAVO DELTA",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:occupants",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): occupants: 9",
+    "quote": "occupants: 9",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:passengers",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): passengers: 7",
+    "quote": "passengers: 7",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:crew",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): crew: 2",
+    "quote": "crew: 2",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:fatalities",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): fatalities: 9",
+    "quote": "fatalities: 9",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:survivors",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): survivors: 0",
+    "quote": "survivors: 0",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:ground-injuries",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): ground injuries: 1",
+    "quote": "ground injuries: 1",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:summary",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): summary: Crashed en route, in-flight structural failure; under investigation",
+    "quote": "summary: Crashed en route, in-flight structural failure; under investigation",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:coordinates",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): site coordinates 26.6329, -80.1131 (Palm Beach County, Florida, United States)",
+    "quote": "26.6329, -80.1131",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:origin",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): origin: Austin–Bergstrom International Airport, Austin, Texas, United States",
+    "quote": "origin: Austin–Bergstrom International Airport, Austin, Texas, United States",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:box:1383802284:destination",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): destination: North Eleuthera Airport, North Eleuthera, The Bahamas",
+    "quote": "destination: North Eleuthera Airport, North Eleuthera, The Bahamas",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wd:Q1267393:P176",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Learjet 60\": manufacturer Bombardier Aerospace",
+    "url": "https://www.wikidata.org/wiki/Q1267393#P176"
+  },
+  {
+    "id": "wd:Q1267393:P606",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Learjet 60\": first flight 1990-10-10",
+    "url": "https://www.wikidata.org/wiki/Q1267393#P606"
+  },
+  {
+    "id": "wiki:investigation:1383802284:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): investigation",
+    "quote": "The Palm Beach County Sheriff's Office closed Military Trail near the impact site to facilitate the emergency response and investigation.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:investigation:1383802284:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): investigation",
+    "quote": "Thunderstorms were affecting the Palm Beach area around the time of the crash, with visibility ranging from 2 to 10 mi and surface wind gusts of 20 to 30 mph.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:investigation:1383802284:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): investigation",
+    "quote": "According to recorded air traffic control communications, the crew reported light clear icing and moderate turbulence while flying at approximately 35,000 ft, with altitude fluctuations of up to 700 ft.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:timeline:1383802284:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): timeline",
+    "quote": "The aircraft departed Austin–Bergstrom International Airport at 10:37 EST (15:37 UTC).",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  },
+  {
+    "id": "wiki:timeline:1383802284:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Palm Beach County Learjet 60 crash\" (revision of 2026-11-04 23:29 UTC): timeline",
+    "quote": "At 12:48 EST (17:48 UTC), the first officer radioed a \"mayday\" call to ATC, reporting a deteriorating situation.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Palm_Beach_County_Learjet_60_crash&oldid=1383802284"
+  }
+]

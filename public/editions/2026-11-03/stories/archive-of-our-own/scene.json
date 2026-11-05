@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:09Z"
+    "end": "2026-11-03T00:01:15Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -22,6 +22,18 @@
   },
   "layers": [
     {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:00:51Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:00:51Z"
+    },
+    {
       "kind": "places",
       "file": "data/places.json",
       "from": "2026-11-03T00:00:24Z"
@@ -29,7 +41,8 @@
     {
       "kind": "regions",
       "file": "data/regions.json",
-      "from": "2026-11-03T00:00:24Z"
+      "from": "2026-11-03T00:00:24Z",
+      "until": "2026-11-03T00:00:51Z"
     }
   ],
   "camera": [
@@ -151,37 +164,37 @@
     },
     {
       "t": "2026-11-03T00:00:55Z",
-      "lon": 0,
-      "lat": 20,
-      "range": 25600000,
-      "heading": -15,
-      "pitch": -52,
+      "lon": 25.83989255080841,
+      "lat": 48.63405151332218,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:00Z",
-      "lon": 0,
-      "lat": 20,
-      "range": 23181785.953631785,
-      "heading": -1,
-      "pitch": -49.5,
+      "t": "2026-11-03T00:01:03Z",
+      "lon": 25.83989255080841,
+      "lat": 48.63405151332218,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:05Z",
-      "lon": 0,
-      "lat": 20,
-      "range": 20992000,
-      "heading": 13,
-      "pitch": -47,
+      "t": "2026-11-03T00:01:11Z",
+      "lon": 25.83989255080841,
+      "lat": 48.63405151332218,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:09Z",
-      "lon": -25,
-      "lat": 20,
-      "range": 62976000,
-      "heading": 13,
+      "t": "2026-11-03T00:01:15Z",
+      "lon": 0.8398925508083721,
+      "lat": 48.63405151332218,
+      "range": 54120000,
+      "heading": 28,
       "pitch": -88,
       "move": "flight"
     }
@@ -195,50 +208,50 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "On 29 October 2026, the site went down after a security incident, for maintenance first announced to last twelve hours.",
+      "text": "According to the article's revision from 2 November 2026, the site went down on 29 October 2026 after a security incident for maintenance first announced to last twelve hours.",
       "cites": [
         "wiki:rev:1383453548:21"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "That same day the maintenance was extended to two to four weeks, and Rebecca Tushnet, representing AO3, assured users that no data was lost.",
+      "text": "That maintenance was extended later the same day to two to four weeks, and the article says the choice put safety ahead of speed.",
       "cites": [
-        "wiki:rev:1383453548:21",
-        "wiki:rev:1383453548:22"
+        "wiki:rev:1383453548:21"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Archive of Our Own, or AO3, is a nonprofit, open-source repository for fanfiction and other fanworks contributed by users.",
+      "text": "According to the article, Rebecca Tushnet, representing AO3, assured users that no data was lost during this incident.",
       "cites": [
-        "wiki:rev:1383453548:0"
+        "wiki:rev:1383453548:22"
       ]
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "The archive is operated by the Organization for Transformative Works and is based in Arlington County, United States.",
+      "text": "The archive is run by the Organization for Transformative Works, which is based in Arlington County, United States.",
       "cites": [
         "wd:Q27764876:P137"
       ]
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "The archive was founded in 2008.",
+      "text": "The archive was founded in 2008, and the Organization for Transformative Works owns it.",
       "cites": [
-        "wd:Q27764876:P571"
+        "wd:Q27764876:P571",
+        "wd:Q27764876:P127"
       ]
     },
     {
       "t": "2026-11-03T00:00:43Z",
-      "text": "Over the two weeks to 3 November 2026, 6 Hacker News stories mentioned Archive of Our Own.",
+      "text": "Over the 14 days to 3 November 2026, 6 Hacker News stories had Archive of Our Own in their titles.",
       "cites": [
         "hn:2026-11-03:Q27764876"
       ]
     },
     {
       "t": "2026-11-03T00:00:52Z",
-      "text": "On 3 November 2026, 85,012 people read about the archive, about 60× the usual daily readership.",
+      "text": "English Wikipedia recorded 85,012 readers on 3 November 2026, about 60× the usual.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:en:Archive_of_Our_Own:prior"
@@ -246,10 +259,22 @@
     },
     {
       "t": "2026-11-03T00:00:58Z",
-      "text": "The article was read in 11 languages, and after English, German readership was highest at 762.",
+      "text": "Across 11 languages, German came next after English with 762 readers on 3 November 2026.",
       "cites": [
         "views:en:Archive_of_Our_Own:2026-11-03",
         "views:de:Archive_of_Our_Own:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:04Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:de:Archive_of_Our_Own:2026-11-03",
+        "views:fr:Archive_of_Our_Own:2026-11-03",
+        "views:es:Archive_of_Our_Own:2026-11-03",
+        "views:zh:AO3作品库:2026-11-03",
+        "views:ru:Archive_of_Our_Own:2026-11-03",
+        "views:pt:Archive_of_Our_Own:2026-11-03"
       ]
     }
   ],
@@ -413,7 +438,7 @@
     {
       "id": "readers",
       "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z",
+      "until": "2026-11-03T00:01:15Z",
       "title": "Readers on English Wikipedia",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
       "kind": "line",
@@ -554,7 +579,7 @@
     {
       "id": "languages",
       "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z",
+      "until": "2026-11-03T00:01:15Z",
       "title": "Readers by language",
       "note": "Wikipedia language editions that day. A language is not a country.",
       "kind": "bars",
@@ -629,7 +654,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.001173
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.002763
   }
 }

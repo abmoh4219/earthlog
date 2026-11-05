@@ -1,0 +1,130 @@
+[
+  {
+    "id": "wiki:2026-11-02:7",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-02T00:00:00Z",
+    "lon": -75.23333333,
+    "lat": 4.43333333,
+    "label": "Conflict: A truck bomb explodes near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_2&oldid=1383746335",
+    "quote": "A truck bomb explodes near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cqn06n30l406o"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q169072:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Colombian conflict\" is an instance of rebellion, historical period",
+    "url": "https://www.wikidata.org/wiki/Q169072",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383713402:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Colombian conflict\" (revision of 2026-11-04 09:27 UTC)",
+    "quote": "The Colombian conflict began on May 27, 1964, and is a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates, and far-left guerrilla groups engaged in armed factional hostilities to increase their influence in Colombian territory.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Colombian_conflict&oldid=1383713402"
+  },
+  {
+    "id": "views:en:Colombian_conflict:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Colombian conflict\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Colombian_conflict&range=latest-30"
+  },
+  {
+    "id": "wd:Q169072:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Colombian conflict\": began 27 May 1964",
+    "url": "https://www.wikidata.org/wiki/Q169072#P580"
+  },
+  {
+    "id": "wd:Q169072:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Colombian conflict\": location Colombia",
+    "url": "https://www.wikidata.org/wiki/Q169072#P276"
+  },
+  {
+    "id": "wd:Q169072:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Colombian conflict\": country Colombia",
+    "url": "https://www.wikidata.org/wiki/Q169072#P17"
+  },
+  {
+    "id": "wiki:box:1383713402:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Colombian conflict\" (revision of 2026-11-04 09:27 UTC): side 1: Colombian cartels and paramilitaries:, La Oficina (1993–), Clan del Golfo (AGC) (2001–)",
+    "quote": "Colombian cartels and paramilitaries:, La Oficina (1993–), Clan del Golfo (AGC) (2001–)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Colombian_conflict&oldid=1383713402"
+  },
+  {
+    "id": "wiki:box:1383713402:side-2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Colombian conflict\" (revision of 2026-11-04 09:27 UTC): side 2: Colombian rebel guerrilla groups:, FARC dissidents (2016–), CGSB (1987–1990)",
+    "quote": "Colombian rebel guerrilla groups:, FARC dissidents (2016–), CGSB (1987–1990)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Colombian_conflict&oldid=1383713402"
+  },
+  {
+    "id": "wiki:box:1383713402:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Colombian conflict\" (revision of 2026-11-04 09:27 UTC): Status: Ongoing; Colombia–FARC peace deal in 2016; Start of Catatumbo campaign in 2018",
+    "quote": "Ongoing; Colombia–FARC peace deal in 2016; Start of Catatumbo campaign in 2018",
+    "url": "https://en.wikipedia.org/w/index.php?title=Colombian_conflict&oldid=1383713402"
+  },
+  {
+    "id": "wiki:box:1383713402:casualties-side-1-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Colombian conflict\" (revision of 2026-11-04 09:27 UTC): Casualties (side 1): Army and Police:; 4,908 killed since 2004; 20,001 injured since 2004",
+    "quote": "Army and Police:; 4,908 killed since 2004; 20,001 injured since 2004",
+    "url": "https://en.wikipedia.org/w/index.php?title=Colombian_conflict&oldid=1383713402"
+  },
+  {
+    "id": "wiki:box:1383713402:casualties-side-2-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Colombian conflict\" (revision of 2026-11-04 09:27 UTC): Casualties (side 2): AUC:; 2,200 killed; 35,000 demobilized; BACRIM:; 222 killed; 18,506 captured; Medellín Cartel:; 2,100 killed",
+    "quote": "AUC:; 2,200 killed; 35,000 demobilized; BACRIM:; 222 killed; 18,506 captured; Medellín Cartel:; 2,100 killed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Colombian_conflict&oldid=1383713402"
+  }
+]

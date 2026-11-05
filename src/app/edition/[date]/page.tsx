@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { SiteFooter } from "@/components/landing/SiteFooter";
+import { SiteNav } from "@/components/landing/SiteNav";
 import { listEditions, listStoryFilms, loadEdition } from "@/lib/bundles";
 import { LENS_INFO } from "@/scene/edition";
 
@@ -26,22 +28,35 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: `The world on ${long(date)}` };
 }
 
-// A plain, fast list for now; the globe front page with story beacons is PLAN.md Phase 16.
+// Any day of the archive: every story of the edition, with a strip of the other editions.
 export default async function EditionPage({ params }: Props) {
   const { date } = await params;
   if (!(await listEditions()).includes(date)) notFound();
   const edition = await loadEdition(date);
   const films = new Set(await listStoryFilms(date));
+  const editions = await listEditions();
 
   return (
-    <main className="h-dvh overflow-y-auto bg-void px-6 py-16">
-      <div className="mx-auto max-w-3xl">
-        <Link
-          href="/"
-          className="font-mono text-[11px] tracking-[0.45em] text-ice/80 uppercase hover:text-ice"
-        >
-          Earthlog
-        </Link>
+    <main className="h-dvh overflow-y-auto bg-void">
+      <SiteNav />
+      <div className="mx-auto max-w-3xl px-6 py-12">
+        {/* The archive: every edition, newest first. */}
+        <nav className="mt-6 flex flex-wrap gap-2 text-xs" aria-label="Editions">
+          {editions.map((d) => (
+            <Link
+              key={d}
+              href={`/edition/${d}`}
+              aria-current={d === date ? "page" : undefined}
+              className={`rounded-full px-3 py-1 ${d === date ? "bg-ice/20 text-frost" : "glass text-ice/80 hover:text-frost"}`}
+            >
+              {new Date(`${d}T00:00:00Z`).toLocaleDateString("en-GB", {
+                day: "numeric",
+                month: "short",
+                timeZone: "UTC",
+              })}
+            </Link>
+          ))}
+        </nav>
         <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">{long(date)}</h1>
         <p className="mt-2 text-ice/70">
           {edition.stories.length} stories, ranked by how much the world read and how widely they
@@ -94,6 +109,7 @@ export default async function EditionPage({ params }: Props) {
           })}
         </ol>
       </div>
+      <SiteFooter />
     </main>
   );
 }

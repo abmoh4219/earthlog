@@ -206,7 +206,7 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "To avoid conflicts with the U.S. midterm elections on November 3, 2026, the network moved this episode's air date to Monday, one day earlier.",
+      "text": "To avoid conflicts with the U.S. midterm elections, held on November 3, 2026, the show moved this episode's air date to the Monday before.",
       "cites": [
         "wiki:rev:1383796648:111"
       ]
@@ -236,7 +236,7 @@
     },
     {
       "t": "2026-11-03T00:00:37Z",
-      "text": "Birthplaces are on record for 20 of the people credited, and 14 of them were born in the United States.",
+      "text": "Of the people credited, 20 have a birthplace on record, and 14 of them were born in the United States.",
       "cites": [
         "wd:Q1189327:P19",
         "wd:Q15955943:P19",
@@ -262,7 +262,7 @@
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "Among those born further afield are Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia, and Sasha Farber in Russia.",
+      "text": "Born further afield were Sharna Burgess in Wagga Wagga, Australia, Gleb Savchenko in Moscow, Russia, and Sasha Farber in Russia.",
       "cites": [
         "wd:Q16200956:P19",
         "wd:Q21285529:P19",
@@ -271,14 +271,14 @@
     },
     {
       "t": "2026-11-03T00:00:55Z",
-      "text": "Readers also turned to the article on Jenna Dewan, with 64,103 readers on 3 Nov 2026.",
+      "text": "Readers also turned to Jenna Dewan, whose page drew 64,103 readers.",
       "cites": [
         "views:en:Jenna_Dewan:2026-11-03"
       ]
     },
     {
       "t": "2026-11-03T00:01:04Z",
-      "text": "On 3 November 2026, 135,810 people read about the season, about 10× the usual median of 14,156 readers a day.",
+      "text": "The season's page drew 135,810 readers on 3 November 2026, about 10 times the usual daily figure.",
       "cites": [
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:2026-11-03",
         "views:en:Dancing_with_the_Stars_(American_TV_series)_season_35:prior"
@@ -707,7 +707,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.002527
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.001147
   }
 }

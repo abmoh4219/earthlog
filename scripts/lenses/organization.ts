@@ -13,7 +13,13 @@ import type { Evidence, LayerData, Panel, Source } from "../../src/scene/schema.
 import { fetchJson } from "../bake/lib.ts";
 import { fetchEntities, type WdEntity } from "../edition/sources.ts";
 import type { ChapterDraft, PanelDraft } from "./film.ts";
-import { generalLens, type LensContext, type LensResult, wideShot } from "./general.ts";
+import {
+  generalLens,
+  type LensContext,
+  type LensResult,
+  sharedLayer,
+  wideShot,
+} from "./general.ts";
 
 // ── Pure helpers ───────────────────────────────────────────────────────────────
 
@@ -294,7 +300,8 @@ export async function organizationLens(ctx: LensContext): Promise<LensResult> {
       const keep = chapters.filter((c) => c.title !== "Where" && c.title !== "On record");
       for (let i = layers.length - 1; i >= 0; i--) {
         const kind = layers[i]?.kind;
-        if (kind === "places" || kind === "arcs" || kind === "regions") layers.splice(i, 1);
+        if ((kind === "places" || kind === "arcs" || kind === "regions") && !sharedLayer(layers[i]))
+          layers.splice(i, 1);
       }
       const inserts: ChapterDraft[] = [];
 

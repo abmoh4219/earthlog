@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:41Z"
+    "end": "2026-11-03T00:01:47Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -21,6 +21,18 @@
     "nights": []
   },
   "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:01:15Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:01:15Z"
+    },
     {
       "kind": "regions",
       "file": "data/regions-senate.json",
@@ -39,7 +51,8 @@
       "kind": "regions",
       "file": "data/regions-house.json",
       "name": "house",
-      "from": "2026-11-03T00:00:52Z"
+      "from": "2026-11-03T00:00:52Z",
+      "until": "2026-11-03T00:01:15Z"
     }
   ],
   "camera": [
@@ -187,43 +200,43 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:17Z",
-      "lon": -77.00888889,
-      "lat": 38.20138889,
-      "range": 1760000,
-      "heading": -15,
-      "pitch": -52,
+      "t": "2026-11-03T00:01:19Z",
+      "lon": 31.456263513756227,
+      "lat": 49.783414550938424,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-03T00:01:29Z",
+      "lon": 31.456263513756227,
+      "lat": 49.783414550938424,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:25Z",
-      "lon": -77.00888889,
-      "lat": 38.20138889,
-      "range": 1593747.7843121854,
-      "heading": -29,
-      "pitch": -49.5,
+      "t": "2026-11-03T00:01:38Z",
+      "lon": 31.456263513756227,
+      "lat": 49.783414550938424,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:32Z",
-      "lon": -77.00888889,
-      "lat": 38.20138889,
-      "range": 1443200,
-      "heading": -43,
-      "pitch": -47,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-03T00:01:35Z",
+      "t": "2026-11-03T00:01:42Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1430000,
       "heading": -10,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:01:36Z",
+      "t": "2026-11-03T00:01:43Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1294920.0747536505,
@@ -232,7 +245,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:37Z",
+      "t": "2026-11-03T00:01:44Z",
       "lon": -77.00888889,
       "lat": 38.20138889,
       "range": 1172600,
@@ -241,7 +254,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:41Z",
+      "t": "2026-11-03T00:01:47Z",
       "lon": -102.00888888999998,
       "lat": 38.20138889,
       "range": 14000000,
@@ -259,7 +272,7 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Voters in the United States elected 435 House members and five non-voting delegates, 35 Senators, and 39 state and territorial governors, with special elections in Florida and Ohio.",
+      "text": "The United States holds midterm elections for 435 House members, five non-voting delegates, 35 Senate seats, including special elections in Florida and Ohio, and 39 governorships.",
       "cites": [
         "wiki:2026-11-03:10"
       ]
@@ -273,7 +286,7 @@
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Ahead of the vote, the war with Iran became a subject of Democratic campaigning.",
+      "text": "Ahead of the November 3 midterms, Democratic campaigning became centered on the war with Iran.",
       "cites": [
         "wiki:rev:1383797391:143"
       ]
@@ -287,7 +300,7 @@
     },
     {
       "t": "2026-11-03T00:00:31Z",
-      "text": "Democrats made gains in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
+      "text": "Democrats gained seats in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
       "cites": [
         "elex:2026-united-states-senate-elections:senate-ia",
         "elex:2026-united-states-senate-elections:senate-nc",
@@ -307,7 +320,7 @@
     },
     {
       "t": "2026-11-03T00:00:45Z",
-      "text": "Democrats also gained governorships in Georgia, Iowa, Nevada, Ohio and Texas.",
+      "text": "Democratic gains came in Georgia, Iowa, Nevada, Ohio and Texas.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-ga",
         "elex:2026-united-states-gubernatorial-elections:governors-ia",
@@ -318,21 +331,21 @@
     },
     {
       "t": "2026-11-03T00:00:53Z",
-      "text": "Democrats hold 237 House seats and Republicans hold 139, with 59 still to be called; a majority requires 218.",
+      "text": "Democrats hold 237 House seats and Republicans 139, with 59 still to be called; 218 seats make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
       "t": "2026-11-03T00:00:59Z",
-      "text": "On the map, 37 districts changed party, and 61 races are not yet called in the race tables.",
+      "text": "In the race tables, 37 districts changed party and 61 are not yet called.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
       "t": "2026-11-03T00:01:07Z",
-      "text": "Readers also turned to the United States midterm election article with 244,478 readers, James Talarico with 105,766, and the 2026 Senate elections article with 90,787.",
+      "text": "Readers also looked up United States midterm election with 244,478 readers, James Talarico with 105,766, and 2026 United States Senate elections with 90,787.",
       "cites": [
         "views:en:United_States_midterm_election:2026-11-03",
         "views:en:James_Talarico:2026-11-03",
@@ -341,14 +354,14 @@
     },
     {
       "t": "2026-11-03T00:01:16Z",
-      "text": "On November 3, 2026, 455,194 people read the article, about 18 times the usual daily count.",
+      "text": "On 3 November 2026, 455,194 people read the article, about 18× the usual level.",
       "cites": [
         "views:en:2026_United_States_elections:2026-11-03",
         "views:en:2026_United_States_elections:prior"
       ]
     },
     {
-      "t": "2026-11-03T00:01:24Z",
+      "t": "2026-11-03T00:01:23Z",
       "text": "The article was read in 10 languages, and after English, the most readers were in Persian, with 28,399.",
       "cites": [
         "views:en:2026_United_States_elections:2026-11-03",
@@ -356,7 +369,19 @@
       ]
     },
     {
-      "t": "2026-11-03T00:01:34Z",
+      "t": "2026-11-03T00:01:30Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-03",
+        "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-03",
+        "views:de:Wahlen_in_den_Vereinigten_Staaten_2026:2026-11-03",
+        "views:fr:Élections_de_2026_aux_États-Unis:2026-11-03",
+        "views:zh:2026年美國選舉:2026-11-03",
+        "views:it:Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:40Z",
       "text": "The Guardian and Reuters reported the story.",
       "cites": [
         "wiki:2026-11-03:10",
@@ -364,8 +389,8 @@
       ]
     },
     {
-      "t": "2026-11-03T00:01:35Z",
-      "text": "U.S. news organizations project that Democrats will control the House and Senate in the 120th Congress, ending the Republican majority in both chambers.",
+      "t": "2026-11-03T00:01:41Z",
+      "text": "U.S. news organizations project that Democrats will control the House and Senate in the upcoming 120th Congress, ending the Republican majority in both chambers.",
       "cites": [
         "wiki:2026-11-03:11"
       ]
@@ -404,7 +429,7 @@
       "title": "Readers"
     },
     {
-      "t": "2026-11-03T00:01:33Z",
+      "t": "2026-11-03T00:01:39Z",
       "title": "Reported by"
     }
   ],
@@ -626,7 +651,7 @@
     {
       "id": "readers",
       "t": "2026-11-03T00:01:16Z",
-      "until": "2026-11-03T00:01:33Z",
+      "until": "2026-11-03T00:01:39Z",
       "title": "Readers on English Wikipedia",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
       "kind": "line",
@@ -1025,7 +1050,7 @@
     {
       "id": "languages",
       "t": "2026-11-03T00:01:16Z",
-      "until": "2026-11-03T00:01:33Z",
+      "until": "2026-11-03T00:01:39Z",
       "title": "Readers by language",
       "note": "Wikipedia language editions that day. A language is not a country.",
       "kind": "bars",
@@ -1098,8 +1123,8 @@
     },
     {
       "id": "sources",
-      "t": "2026-11-03T00:01:34Z",
-      "until": "2026-11-03T00:01:41Z",
+      "t": "2026-11-03T00:01:40Z",
+      "until": "2026-11-03T00:01:47Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
       "kind": "facts",
@@ -1134,7 +1159,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.002367
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.002655
   }
 }

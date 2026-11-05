@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-day-of-the-dead",
+  "title": "Day of the Dead",
+  "subtitle": "News · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:00:56Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -112.29,
+    "south": 15.920000000000002,
+    "east": -92.29,
+    "north": 31.92
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-02T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-02T00:00:24Z",
+      "until": "2026-11-02T00:00:32Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:32Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-02T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": -64.29000000000002,
+      "lat": 13.077,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -102.29,
+      "lat": 21.795,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:14Z",
+      "lon": -102.29,
+      "lat": 21.795,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:23Z",
+      "lon": -102.29,
+      "lat": 21.795,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:26Z",
+      "lon": -102.29,
+      "lat": 21.795,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:29Z",
+      "lon": -102.29,
+      "lat": 21.795,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:31Z",
+      "lon": -102.29,
+      "lat": 21.795,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:36Z",
+      "lon": 26.173057887419535,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:44Z",
+      "lon": 26.173057887419535,
+      "lat": 46.99474461608802,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:52Z",
+      "lon": 26.173057887419535,
+      "lat": 46.99474461608802,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:56Z",
+      "lon": 1.1730578874195317,
+      "lat": 46.99474461608802,
+      "range": 54120000,
+      "heading": 28,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "The Day of the Dead is traditionally celebrated on November 1 and 2, though other days, such as October 31 or November 6, may be included depending on the locality.",
+      "cites": [
+        "wiki:rev:1380361744:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:08Z",
+      "text": "At midnight on November 2, people light candles and ride winged boats called mariposas, or butterflies, to Janitzio, an island in the middle of the lake with a cemetery, to honor the dead.",
+      "cites": [
+        "wiki:rev:1380361744:117"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:15Z",
+      "text": "In Italy, November 2 is All Souls' Day, and it is colloquially known as Day of the Dead or Giorno dei Morti.",
+      "cites": [
+        "wiki:rev:1380361744:160"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "text": "English Wikipedia had 63,975 readers of the article on 2 November 2026, about 13× the usual.",
+      "cites": [
+        "views:en:Day_of_the_Dead:2026-11-02",
+        "views:en:Day_of_the_Dead:prior"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:39Z",
+      "text": "The article was read in 11 languages, and after English, the most readers were in Spanish, with 19,498.",
+      "cites": [
+        "views:en:Day_of_the_Dead:2026-11-02",
+        "views:es:Día_de_Muertos:2026-11-02"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:45Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:es:Día_de_Muertos:2026-11-02"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "MX",
+    "lon": -102.29,
+    "lat": 23.92,
+    "label": "Mexico"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-02T00:00:32Z",
+      "title": "Readers"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-02T00:00:33Z",
+      "until": "2026-11-02T00:00:56Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Day of the Dead",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-04",
+              "y": 4825
+            },
+            {
+              "x": "10-05",
+              "y": 5335
+            },
+            {
+              "x": "10-06",
+              "y": 5260
+            },
+            {
+              "x": "10-07",
+              "y": 5697
+            },
+            {
+              "x": "10-08",
+              "y": 5722
+            },
+            {
+              "x": "10-09",
+              "y": 5400
+            },
+            {
+              "x": "10-10",
+              "y": 5023
+            },
+            {
+              "x": "10-11",
+              "y": 5427
+            },
+            {
+              "x": "10-12",
+              "y": 6061
+            },
+            {
+              "x": "10-13",
+              "y": 6334
+            },
+            {
+              "x": "10-14",
+              "y": 6404
+            },
+            {
+              "x": "10-15",
+              "y": 6780
+            },
+            {
+              "x": "10-16",
+              "y": 6613
+            },
+            {
+              "x": "10-17",
+              "y": 6022
+            },
+            {
+              "x": "10-18",
+              "y": 6708
+            },
+            {
+              "x": "10-19",
+              "y": 7522
+            },
+            {
+              "x": "10-20",
+              "y": 6830
+            },
+            {
+              "x": "10-21",
+              "y": 7004
+            },
+            {
+              "x": "10-22",
+              "y": 7611
+            },
+            {
+              "x": "10-23",
+              "y": 8205
+            },
+            {
+              "x": "10-24",
+              "y": 9183
+            },
+            {
+              "x": "10-25",
+              "y": 10358
+            },
+            {
+              "x": "10-26",
+              "y": 14228
+            },
+            {
+              "x": "10-27",
+              "y": 20574
+            },
+            {
+              "x": "10-28",
+              "y": 23608
+            },
+            {
+              "x": "10-29",
+              "y": 21098
+            },
+            {
+              "x": "10-30",
+              "y": 26395
+            },
+            {
+              "x": "10-31",
+              "y": 38440
+            },
+            {
+              "x": "11-01",
+              "y": 72853
+            },
+            {
+              "x": "11-02",
+              "y": 63975
+            }
+          ],
+          "cites": [
+            "views:en:Day_of_the_Dead:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-02T00:00:33Z",
+      "until": "2026-11-02T00:00:56Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "63,975",
+          "value": 63975,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:en:Day_of_the_Dead:2026-11-02"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "19,498",
+          "value": 19498,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Día_de_Muertos:2026-11-02"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "4,565",
+          "value": 4565,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Tag_der_Toten:2026-11-02"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "2,418",
+          "value": 2418,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Jour_des_morts_(Mexique):2026-11-02"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "2,306",
+          "value": 2306,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Dia_dos_Mortos:2026-11-02"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "2,168",
+          "value": 2168,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Giorno_dei_morti_(America):2026-11-02"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "1,679",
+          "value": 1679,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:死者の日_(メキシコ):2026-11-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002281
+  }
+}

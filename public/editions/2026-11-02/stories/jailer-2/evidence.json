@@ -1,0 +1,416 @@
+[
+  {
+    "id": "views:en:Jailer_2:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 111,475 readers of \"Jailer 2\" on 2 Nov 2026",
+    "value": 111475,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jailer_2",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jailer_2:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Jailer 2\": normally a median of 11,257 readers a day (8 to 60 days before)",
+    "value": 11257,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jailer_2",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:King_(2026_film):2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 58,142 readers of \"King (2026 film)\" on 2 Nov 2026",
+    "value": 58142,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/King_(2026_film)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:King_(2026_film):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"King (2026 film)\": normally a median of 5,152 readers a day (8 to 60 days before)",
+    "value": 5152,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/King_(2026_film)",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q133255153:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Jailer 3\" is an instance of film",
+    "url": "https://www.wikidata.org/wiki/Q133255153",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383739722:9",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC)",
+    "quote": "It is the second highest-grossing Indian film of 2026, the highest-grossing Tamil film of 2026, and the highest-grossing Tamil film of all time.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:rev:1383739722:40",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC)",
+    "quote": "Anna Rajan confirmed her involvement in May 2025, and Suraj Venjaramoodu did so in December.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:rev:1383739722:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC)",
+    "quote": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "views:en:Jailer_2:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jailer 2\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jailer_2&range=latest-30"
+  },
+  {
+    "id": "views:en:King_(2026_film):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"King (2026 film)\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=King_(2026_film)&range=latest-30"
+  },
+  {
+    "id": "views:ta:ஜெயிலர்_2:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Tamil Wikipedia: 227 readers of \"ஜெயிலர் 2\" on 2 November 2026",
+    "value": 227,
+    "unit": "readers",
+    "url": "https://ta.wikipedia.org/wiki/%E0%AE%9C%E0%AF%86%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AE%B0%E0%AF%8D_2"
+  },
+  {
+    "id": "views:bn:জেলার_২:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Bengali Wikipedia: 20 readers of \"জেলার ২\" on 2 November 2026",
+    "value": 20,
+    "unit": "readers",
+    "url": "https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0_%E0%A7%A8"
+  },
+  {
+    "id": "views:ms:Jailer_2:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Malay Wikipedia: 20 readers of \"Jailer 2\" on 2 November 2026",
+    "value": 20,
+    "unit": "readers",
+    "url": "https://ms.wikipedia.org/wiki/Jailer_2"
+  },
+  {
+    "id": "views:fa:زندانبان_۲:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 10 readers of \"زندانبان ۲\" on 2 November 2026",
+    "value": 10,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%B2%D9%86%D8%AF%D8%A7%D9%86%D8%A8%D8%A7%D9%86_%DB%B2"
+  },
+  {
+    "id": "wd:Q133255153:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": released 15 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P577"
+  },
+  {
+    "id": "wd:Q133255153:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": director Nelson Dilipkumar",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P57"
+  },
+  {
+    "id": "wd:Q133255153:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": genre action comedy film",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P136"
+  },
+  {
+    "id": "wd:Q133255153:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jailer 3\": country of origin India",
+    "url": "https://www.wikidata.org/wiki/Q133255153#P495"
+  },
+  {
+    "id": "wiki:box:1383739722:directed-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Directed by: Nelson Dilipkumar",
+    "quote": "Directed by: Nelson Dilipkumar",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:starring",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Starring: Rajinikanth, S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and 2 more",
+    "quote": "Starring: Rajinikanth, S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and 2 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Music: Anirudh Ravichander",
+    "quote": "Music: Anirudh Ravichander",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:studio",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Studio: Sun Pictures",
+    "quote": "Studio: Sun Pictures",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:released",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Released: 15 October 2026",
+    "quote": "Released: 15 October 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Runtime: 165 minutes",
+    "quote": "Runtime: 165 minutes",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:language",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Language: Tamil",
+    "quote": "Language: Tamil",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:budget",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Budget: ₹250–350 crore",
+    "quote": "Budget: ₹250–350 crore",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:box:1383739722:box-office",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\" (revision of 2026-11-04 14:58 UTC): Box office: ₹808 crore",
+    "quote": "Box office: ₹808 crore",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wd:Q7638437:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Sun Pictures\": headquarters Chennai",
+    "url": "https://www.wikidata.org/wiki/Q7638437#P159"
+  },
+  {
+    "id": "wiki:film:1383739722:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\", filming (revision of 2026-11-04 14:58 UTC)",
+    "quote": "The initial portions of the first schedule were reported to focus on Rajinikanth, with filming taking place at locations including Sathyam Cinemas in Royapettah.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:film:1383739722:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\", filming (revision of 2026-11-04 14:58 UTC)",
+    "quote": "The second schedule began in Attappadi, Kerala, on 11 April, with Ramya Krishnan, Mirnaa and S. J. Suryah joining the production.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:film:1383739722:4",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\", filming (revision of 2026-11-04 14:58 UTC)",
+    "quote": "The team filmed for approximately 20 days around the Tamil Nadu—Kerala border before moving briefly to Coimbatore.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:film:1383739722:5",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\", filming (revision of 2026-11-04 14:58 UTC)",
+    "quote": "A subsequent schedule began in Kozhikode in May 2025.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:film:1383739722:6",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\", filming (revision of 2026-11-04 14:58 UTC)",
+    "quote": "The production filmed in the Cheruvannur Nallalam area, with Rajinikanth joining the schedule after it had begun.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wiki:film:1383739722:9",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jailer 2\", filming (revision of 2026-11-04 14:58 UTC)",
+    "quote": "In June, production moved to Mysore, where sequences featuring Rajinikanth were filmed at a specially constructed set in Bilikere near Hunsur.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jailer_2&oldid=1383739722"
+  },
+  {
+    "id": "wd:Q13564588:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Suraj Venjaramoodu\": place of birth Thiruvananthapuram",
+    "url": "https://www.wikidata.org/wiki/Q13564588#P19"
+  },
+  {
+    "id": "wd:Q159166:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Vidya Balan\": place of birth Palakkad district",
+    "url": "https://www.wikidata.org/wiki/Q159166#P19"
+  },
+  {
+    "id": "wd:Q3520429:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ramya Krishnan\": place of birth Chennai",
+    "url": "https://www.wikidata.org/wiki/Q3520429#P19"
+  },
+  {
+    "id": "wd:Q379604:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mithun Chakraborty\": place of birth Kolkata",
+    "url": "https://www.wikidata.org/wiki/Q379604#P19"
+  },
+  {
+    "id": "wd:Q4765271:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anirudh Ravichander\": place of birth Chennai",
+    "url": "https://www.wikidata.org/wiki/Q4765271#P19"
+  },
+  {
+    "id": "wd:Q60068:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Rajinikanth\": place of birth Bengaluru",
+    "url": "https://www.wikidata.org/wiki/Q60068#P19"
+  },
+  {
+    "id": "wd:Q63698985:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nelson Dilipkumar\": place of birth Vellore",
+    "url": "https://www.wikidata.org/wiki/Q63698985#P19"
+  },
+  {
+    "id": "wd:Q7387554:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"S. J. Surya\": place of birth Vasudevanallur",
+    "url": "https://www.wikidata.org/wiki/Q7387554#P19"
+  }
+]

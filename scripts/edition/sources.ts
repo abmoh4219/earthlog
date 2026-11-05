@@ -69,7 +69,64 @@ export function parseMostRead(json: unknown, date: string): MostRead[] {
 export async function fetchMostRead(date: string): Promise<MostRead[]> {
   // The feed sometimes comes back without `mostread`; don't cache that, retry.
   const hasList = (json: unknown) => Feed.safeParse(json).data?.mostread !== undefined;
-  return parseMostRead(await fetchJson(feedUrl(date), hasList), date);
+  try {
+    return parseMostRead(await fetchJson(feedUrl(date), hasList), date);
+  } catch (err) {
+    // Some days the feed never gets its list (seen for 2026-11-02, still missing on 11-05).
+    // The pageviews "top" ranking is the same signal without descriptions: use it instead.
+    console.warn(
+      `  most-read feed unavailable (${err instanceof Error ? err.message : err}); using pageviews top`,
+    );
+    return fetchTopViews(date);
+  }
+}
+
+const Top = z.object({
+  items: z.array(
+    z.object({ articles: z.array(z.object({ article: z.string(), views: z.number() })) }),
+  ),
+});
+
+/** Not articles: the main page, searches and project pages, which top every day. */
+export function isArticle(title: string): boolean {
+  return (
+    title !== "Main_Page" &&
+    !/^(Special|Wikipedia|File|Portal|Help|Template|Category|Talk|User|Draft|Module|MediaWiki|Book|TimedText)( talk)?:/i.test(
+      title,
+    ) &&
+    !title.startsWith(".")
+  );
+}
+
+/**
+ * The day's most-read articles from the pageviews "top" API (verified 2026-11-05:
+ * GET wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/YYYY/MM/DD →
+ * items[0].articles[{ article, views, rank }], CC0), with their Wikidata ids.
+ */
+export function parseTopViews(json: unknown, max = 50): { title: string; views: number }[] {
+  return (Top.parse(json).items[0]?.articles ?? [])
+    .filter((a) => isArticle(a.article))
+    .slice(0, max)
+    .map((a) => ({ title: a.article.replace(/_/g, " "), views: a.views }));
+}
+
+export async function fetchTopViews(date: string): Promise<MostRead[]> {
+  const [y, m, d] = date.split("-");
+  const top = parseTopViews(
+    await fetchJson(
+      `https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/${y}/${m}/${d}`,
+    ),
+  );
+  const qids = await fetchQids(top.map((t) => t.title));
+  return top.map((t) => {
+    const qid = qids.get(t.title);
+    return {
+      title: t.title,
+      url: `https://en.wikipedia.org/wiki/${encodeURIComponent(t.title.replace(/ /g, "_"))}`,
+      ...(qid ? { qid } : {}),
+      views: t.views,
+    };
+  });
 }
 
 // ── Wikidata entities ──────────────────────────────────────────────────────────

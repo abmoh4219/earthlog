@@ -20,7 +20,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { date, slug } = await params;
   const story = (await loadEdition(date)).stories.find((s) => s.slug === slug);
   if (!story) return {};
-  return { title: story.title, description: story.summary };
+  const description = story.headline ?? story.summary;
+  // Link previews: the story's own words, every claim of the film cited on the page.
+  return {
+    title: story.title,
+    description,
+    openGraph: { title: `${story.title} · Earthlog`, description, type: "video.other" },
+    twitter: { card: "summary", title: story.title, description },
+  };
 }
 
 export default async function StoryPage({ params }: Props) {

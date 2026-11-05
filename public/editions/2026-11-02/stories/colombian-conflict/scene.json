@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "id": "story-2026-11-02-colombian-conflict",
+  "title": "Colombian conflict",
+  "subtitle": "Conflict · 2 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-02T00:00:00Z",
+    "end": "2026-11-02T00:01:05Z"
+  },
+  "focus": "2026-11-02T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -85.23333333,
+    "south": -3.56666667,
+    "east": -65.23333333,
+    "north": 12.43333333
+  },
+  "imagery": {
+    "day": "2026-11-02",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-02T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-02T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-02T00:00:48Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "lon": -37.233333329999994,
+      "lat": 2.247499998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-02T00:00:04Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-02T00:00:10Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:16Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:19Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:22Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:24Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:27Z",
+      "lon": -75.23333333,
+      "lat": 2.43333333,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "lon": -75.23333333,
+      "lat": 2.43333333,
+      "range": 1086646.2165764899,
+      "heading": -2,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:47Z",
+      "lon": -75.23333333,
+      "lat": 2.43333333,
+      "range": 983999.9999999999,
+      "heading": 12,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:50Z",
+      "lon": -74.24139015405703,
+      "lat": 3.9172960407206165,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:53Z",
+      "lon": -74.24139015405703,
+      "lat": 3.9172960407206165,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:56Z",
+      "lon": -74.24139015405703,
+      "lat": 3.9172960407206165,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:00:59Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:00Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:01Z",
+      "lon": -75.23333333,
+      "lat": 3.74583333,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-02T00:01:05Z",
+      "lon": -100.23333333,
+      "lat": 3.74583333,
+      "range": 14000000,
+      "heading": 7.800000000000001,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-02T00:00:01Z",
+      "text": "A truck bomb exploded near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.",
+      "cites": [
+        "wiki:2026-11-02:7"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:09Z",
+      "text": "The Colombian conflict began on May 27, 1964, and is described as a low-intensity asymmetric war involving the government, paramilitary groups, crime syndicates, and far-left guerrilla groups.",
+      "cites": [
+        "wiki:rev:1383713402:0"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:18Z",
+      "text": "The events are located on the map in Tolima Department, Colombia, where the reports place them.",
+      "cites": [
+        "wiki:2026-11-02:7"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:26Z",
+      "text": "The two sides are cartels and paramilitaries, including La Oficina (1993) and Clan del Golfo (2001), and rebel groups, including FARC dissidents (2016) and CGSB (1987–1990).",
+      "cites": [
+        "wiki:box:1383713402:side-1",
+        "wiki:box:1383713402:side-2"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:33Z",
+      "text": "As the article records its status, the conflict is ongoing, with a Colombia–FARC peace deal in 2016 and the start of the Catatumbo campaign in 2018.",
+      "cites": [
+        "wiki:box:1383713402:status"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:40Z",
+      "text": "According to the article's figures, side 1 casualties include 4,908 killed and 20,001 injured since 2004, while side 2 figures include 2,200 killed and 35,000 demobilized.",
+      "cites": [
+        "wiki:box:1383713402:casualties-side-1-",
+        "wiki:box:1383713402:casualties-side-2-"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:49Z",
+      "text": "Colombia is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-02:7"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:58Z",
+      "text": "The event was reported by BBC News and Reuters.",
+      "cites": [
+        "wiki:2026-11-02:7"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CO",
+    "lon": -75.23333333,
+    "lat": 4.43333333,
+    "label": "Tolima Department"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-02T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-02T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-02T00:00:25Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-02T00:00:48Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-02T00:00:57Z",
+      "title": "Reported by"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-02T00:00:26Z",
+      "until": "2026-11-02T00:00:48Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Colombian cartels and paramilitaries:, La Oficina (1993–), Clan del Golfo (AGC) (2001–)",
+          "cites": [
+            "wiki:box:1383713402:side-1"
+          ]
+        },
+        {
+          "label": "Side 2",
+          "text": "Colombian rebel guerrilla groups:, FARC dissidents (2016–), CGSB (1987–1990)",
+          "cites": [
+            "wiki:box:1383713402:side-2"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing; Colombia–FARC peace deal in 2016; Start of Catatumbo campaign in 2018",
+          "cites": [
+            "wiki:box:1383713402:status"
+          ]
+        },
+        {
+          "label": "Casualties (side 1)",
+          "text": "Army and Police:; 4,908 killed since 2004; 20,001 injured since 2004",
+          "cites": [
+            "wiki:box:1383713402:casualties-side-1-"
+          ]
+        },
+        {
+          "label": "Casualties (side 2)",
+          "text": "AUC:; 2,200 killed; 35,000 demobilized; BACRIM:; 222 killed; 18,506 captured; Medellín Cartel:; 2,100 killed",
+          "cites": [
+            "wiki:box:1383713402:casualties-side-2-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-02T00:00:58Z",
+      "until": "2026-11-02T00:01:05Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/cqn06n30l406o",
+          "cites": [
+            "wiki:2026-11-02:7"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/ukraines-zelenskiy-russian-bombing-kills-18-southeastern-zaporizhzhia-region-2026-11-02/",
+          "cites": [
+            "wiki:2026-11-02:7"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-05T00:10:47Z",
+    "costUsd": 0.002233
+  }
+}

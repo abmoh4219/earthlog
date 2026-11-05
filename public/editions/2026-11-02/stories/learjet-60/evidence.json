@@ -1,0 +1,224 @@
+[
+  {
+    "id": "views:en:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 263,003 readers of \"Learjet 60\" on 2 Nov 2026",
+    "value": 263003,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet_60",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Learjet_60:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Learjet 60\": normally a median of 119 readers a day (8 to 60 days before)",
+    "value": 119,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet_60",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 220,959 readers of \"2026 Palm Beach County Learjet 60 crash\" on 2 Nov 2026",
+    "value": 220959,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_Palm_Beach_County_Learjet_60_crash:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"2026 Palm Beach County Learjet 60 crash\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Learjet:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "English Wikipedia: 64,003 readers of \"Learjet\" on 2 Nov 2026",
+    "value": 64003,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Learjet:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "\"Learjet\": normally a median of 372 readers a day (8 to 60 days before)",
+    "value": 372,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Learjet",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q1267393:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "label": "Wikidata: \"Learjet 60\" is an instance of aircraft model",
+    "url": "https://www.wikidata.org/wiki/Q1267393",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383775252:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Learjet 60\" (revision of 2026-11-04 20:09 UTC)",
+    "quote": "In July 2012, Bombardier Aerospace announced a temporary \"production pause\" of the latest variant Learjet 60XR to begin in the fourth quarter of 2012.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Learjet_60&oldid=1383775252"
+  },
+  {
+    "id": "wiki:rev:1383775252:15",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Learjet 60\" (revision of 2026-11-04 20:09 UTC)",
+    "quote": "On the prior \"Longhorn\" wing, the interference between the winglet and the wing nearly canceled the effects of the winglet.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Learjet_60&oldid=1383775252"
+  },
+  {
+    "id": "wiki:rev:1383775252:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Learjet 60\" (revision of 2026-11-04 20:09 UTC)",
+    "quote": "The Learjet 60 is a mid-size cabin, medium-range business jet aircraft that was manufactured by Bombardier Aerospace in Wichita, Kansas.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Learjet_60&oldid=1383775252"
+  },
+  {
+    "id": "views:en:Learjet_60:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Learjet 60\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Learjet_60&range=latest-30"
+  },
+  {
+    "id": "views:en:Learjet:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Learjet\", 4 October 2026 to 2 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Learjet&range=latest-30"
+  },
+  {
+    "id": "views:de:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 17,154 readers of \"Learjet 60\" on 2 November 2026",
+    "value": 17154,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:fr:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 13,614 readers of \"Learjet 60\" on 2 November 2026",
+    "value": 13614,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:es:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 11,603 readers of \"Learjet 60\" on 2 November 2026",
+    "value": 11603,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:ja:リアジェット60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 8,623 readers of \"リアジェット60\" on 2 November 2026",
+    "value": 8623,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%A2%E3%82%B8%E3%82%A7%E3%83%83%E3%83%8860"
+  },
+  {
+    "id": "views:ru:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 8,489 readers of \"Learjet 60\" on 2 November 2026",
+    "value": 8489,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:pl:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 6,708 readers of \"Learjet 60\" on 2 November 2026",
+    "value": 6708,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:it:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 3,768 readers of \"Learjet 60\" on 2 November 2026",
+    "value": 3768,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "views:pt:Learjet_60:2026-11-02",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 3,119 readers of \"Learjet 60\" on 2 November 2026",
+    "value": 3119,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Learjet_60"
+  },
+  {
+    "id": "wd:Q1267393:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-02T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Learjet 60\": country of origin Canada",
+    "url": "https://www.wikidata.org/wiki/Q1267393#P495"
+  }
+]

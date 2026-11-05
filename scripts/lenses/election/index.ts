@@ -9,7 +9,7 @@ import type { LayerData, Source } from "../../../src/scene/schema.ts";
 import { slugify } from "../../edition/build.ts";
 import { fetchEntities, fetchQids } from "../../edition/sources.ts";
 import type { ChapterDraft, PanelDraft } from "../film.ts";
-import { generalLens, type LensContext, type LensResult } from "../general.ts";
+import { generalLens, type LensContext, type LensResult, sharedLayer } from "../general.ts";
 import { fetchRevision } from "../news-context.ts";
 import { type Infobox, type InfoboxParty, num, parseInfobox } from "./infobox.ts";
 import { fetchDistricts, fetchStates } from "./shapes.ts";
@@ -161,7 +161,8 @@ export async function electionLens(ctx: LensContext): Promise<LensResult> {
       // map uses party colours and needs no pin.
       for (let i = layers.length - 1; i >= 0; i--) {
         const kind = layers[i]?.kind;
-        if (kind === "regions" || kind === "places" || kind === "arcs") layers.splice(i, 1);
+        if ((kind === "regions" || kind === "places" || kind === "arcs") && !sharedLayer(layers[i]))
+          layers.splice(i, 1);
       }
 
       const cite = (a: Article, key: string, label: string) =>

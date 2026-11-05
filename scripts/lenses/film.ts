@@ -111,6 +111,11 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     }
     for (const key of c.reveal ?? []) if (!revealAt.has(key)) revealAt.set(key, chStart);
     for (const key of c.hide ?? []) if (!hideAt.has(key)) hideAt.set(key, chStart);
+    // The curiosity map takes the globe to itself: earlier maps (regions, columns) step aside.
+    if (c.reveal?.includes("regions-curiosity"))
+      for (const key of revealAt.keys())
+        if (/^(regions|columns)/.test(key) && !key.endsWith("-curiosity") && !hideAt.has(key))
+          hideAt.set(key, chStart);
 
     // Travel: a flight sized to the distance (far hops lift off and arc over the Earth),
     // or a glide when the new shot is close. Then the camera keeps moving through the hold:

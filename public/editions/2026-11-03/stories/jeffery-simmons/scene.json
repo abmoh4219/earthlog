@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:09Z"
+    "end": "2026-11-03T00:01:15Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -21,6 +21,18 @@
     "nights": []
   },
   "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:00:51Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-03T00:00:51Z"
+    },
     {
       "kind": "places",
       "file": "data/places.json",
@@ -150,38 +162,38 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:53Z",
-      "lon": -97.48,
-      "lat": 37.415,
-      "range": 5440000,
-      "heading": -15,
-      "pitch": -52,
+      "t": "2026-11-03T00:00:55Z",
+      "lon": 12.245762849797323,
+      "lat": 46.038029968858,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:59Z",
-      "lon": -97.48,
-      "lat": 37.415,
-      "range": 4926129.515146755,
-      "heading": -1,
-      "pitch": -49.5,
+      "t": "2026-11-03T00:01:03Z",
+      "lon": 12.245762849797323,
+      "lat": 46.038029968858,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:05Z",
-      "lon": -97.48,
-      "lat": 37.415,
-      "range": 4460800,
-      "heading": 13,
-      "pitch": -47,
+      "t": "2026-11-03T00:01:11Z",
+      "lon": 12.245762849797323,
+      "lat": 46.038029968858,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:09Z",
-      "lon": -122.48000000000002,
-      "lat": 37.415,
-      "range": 14000000,
-      "heading": 13,
+      "t": "2026-11-03T00:01:15Z",
+      "lon": -12.754237150202698,
+      "lat": 46.038029968858,
+      "range": 54120000,
+      "heading": 28,
       "pitch": -88,
       "move": "flight"
     }
@@ -195,14 +207,14 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Simmons and a 2028 fifth-round draft pick were traded to the Chicago Bears on October 29, in exchange for the Bears' 2027 and 2028 first-round selections and a 2027 fourth-rounder.",
+      "text": "On October 29, Simmons and a 2028 fifth-round draft pick were traded to the Chicago Bears for the Bears' 2027 and 2028 first-round selections and a 2027 fourth rounder.",
       "cites": [
         "wiki:rev:1383781566:111"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "In his Bears debut on Monday Night Football against the reigning champion Seattle Seahawks, Simmons recorded a sack, six tackles and a pass deflection as Chicago won 34–17.",
+      "text": "In his Bears debut on Monday Night Football against the reigning champion Seattle Seahawks, he recorded a sack, six tackles, and a pass deflection as Chicago won 34–17.",
       "cites": [
         "wiki:rev:1383781566:112"
       ]
@@ -216,7 +228,7 @@
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "Simmons was born on 28 July 1997 in LaSalle Parish.",
+      "text": "Jeffery Simmons was born on 28 July 1997 in LaSalle Parish.",
       "cites": [
         "wd:Q45146310:P569",
         "wd:Q45146310:P19"
@@ -224,7 +236,7 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Records list him as having played for 2 clubs, the Mississippi State Bulldogs football team and the Chicago Bears.",
+      "text": "He has played for 2 clubs, from Mississippi State Bulldogs football to the Chicago Bears.",
       "cites": [
         "wd:Q45146310:P54:Q6879318",
         "wd:Q45146310:P54:Q205033"
@@ -239,7 +251,7 @@
     },
     {
       "t": "2026-11-03T00:00:52Z",
-      "text": "On 3 November 2026, the English article drew 111,232 readers, about 251 times its usual daily median of 444.",
+      "text": "On 3 November 2026, 111,232 people read the English article, about 251 times the usual daily count.",
       "cites": [
         "views:en:Jeffery_Simmons:2026-11-03",
         "views:en:Jeffery_Simmons:prior"
@@ -247,10 +259,22 @@
     },
     {
       "t": "2026-11-03T00:00:58Z",
-      "text": "The article was read in 9 languages, and after English the largest audience was on German Wikipedia, with 722 readers.",
+      "text": "The article was read in 9 languages, and after English, German drew the most readers with 722.",
+      "cites": [
+        "views:en:Jeffery_Simmons:2026-11-03",
+        "views:de:Jeffery_Simmons:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:01:04Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:de:Jeffery_Simmons:2026-11-03",
-        "views:en:Jeffery_Simmons:2026-11-03"
+        "views:es:Jeffery_Simmons:2026-11-03",
+        "views:fr:Jeffery_Simmons:2026-11-03",
+        "views:pt:Jeffery_Simmons:2026-11-03",
+        "views:ja:ジェフェリー・シモンズ:2026-11-03",
+        "views:it:Jeffery_Simmons:2026-11-03"
       ]
     }
   ],
@@ -325,7 +349,7 @@
     {
       "id": "readers",
       "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z",
+      "until": "2026-11-03T00:01:15Z",
       "title": "Readers on English Wikipedia",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
       "kind": "line",
@@ -466,7 +490,7 @@
     {
       "id": "languages",
       "t": "2026-11-03T00:00:52Z",
-      "until": "2026-11-03T00:01:09Z",
+      "until": "2026-11-03T00:01:15Z",
       "title": "Readers by language",
       "note": "Wikipedia language editions that day. A language is not a country.",
       "kind": "bars",
@@ -541,7 +565,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-04T23:28:45Z",
-    "costUsd": 0.003144
+    "at": "2026-11-04T23:55:05Z",
+    "costUsd": 0.003182
   }
 }
