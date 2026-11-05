@@ -76,7 +76,7 @@ The nightly edition runs the same scripts in a scheduled GitHub Action, which co
 | Scripts | Node 24+ running `.ts` directly (built-in type stripping), no build step |
 | AI (offline only) | `@anthropic-ai/sdk`; Haiku 5.5 by default, Sonnet 5.5 for hero scenes. **Read the `claude-api` skill before touching director code** |
 | Tests | Vitest. Lint and format: Biome |
-| Hosting | **Vercel** (Hobby, free), `earthlog.vercel.app` today, `earthlog.abdelah.dev` later. The site URL lives only in `src/config.ts` |
+| Hosting | **Vercel** (Hobby, free), `earthlog-abdi.vercel.app` today (`earthlog.vercel.app` is someone else's), Abdelah's own domain later. The site URL lives only in `src/config.ts` |
 
 ## 5. Conventions
 

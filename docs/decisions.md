@@ -184,7 +184,7 @@ MIT for the code. Data keeps its own licences, listed per bundle and in docs/DAT
 ### Decision
 
 - **Vercel Hobby** (free), deploying from the GitHub repo (works while private).
-- Today: a `*.vercel.app` subdomain. Later: Abdelah buys `abdelah.dev` and points `earthlog.abdelah.dev` at the project.
+- Today: `earthlog-abdi.vercel.app` (`earthlog.vercel.app` belongs to another project). Later: Abdelah buys `abdelah.dev` and points `earthlog.abdelah.dev` at the project.
 - The site URL lives only in `src/config.ts` (overridable with `NEXT_PUBLIC_SITE_URL`), so the switch is one value.
 - Every page is statically generated; no serverless functions are needed for visitors.
 

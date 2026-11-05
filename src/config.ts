@@ -1,6 +1,6 @@
 // THE site URL lives here and only here (ADR-0007). Today: a Vercel subdomain.
-// Later: https://earthlog.abdelah.dev — change this one value (or set NEXT_PUBLIC_SITE_URL).
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://earthlog.vercel.app";
+// Later: Abdelah's own domain — change this one value (or set NEXT_PUBLIC_SITE_URL on Vercel).
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://earthlog-abdi.vercel.app";
 
 export const SITE_NAME = "Earthlog";
 export const TAGLINE = "Yesterday's world, explained in 3D.";
