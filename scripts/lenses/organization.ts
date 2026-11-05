@@ -1,4 +1,4 @@
-// The organization and tech lens (PLAN.md Phase 8): companies, websites, apps, institutions.
+// The organization and tech lens: companies, websites, apps, institutions.
 // Headquarters (P159; for a website, its operator's P137 → P159) → what's on record (founded
 // P571, founders P112, CEO P169, chair P488, industry P452, owner P127, parent P749, stock
 // exchange P414, website P856) → the numbers (revenue P2139, net income P2295, staff P1128,

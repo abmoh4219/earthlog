@@ -1,4 +1,4 @@
-// The science and space lens (PLAN.md Phase 13): launches, missions, discoveries.
+// The science and space lens: launches, missions, discoveries.
 //   Launch    → the launch site on real terrain, a column of light rising from the pad;
 //               rocket, operator and date from the article's infobox;
 //   The mission → crew, spacecraft, maker, duration, distance: the infobox's own words;

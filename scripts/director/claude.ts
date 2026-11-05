@@ -1,4 +1,4 @@
-// The Claude director, pure parts (PLAN.md Phase 14). Claude rewrites a story film's captions
+// The Claude director, pure parts. Claude rewrites a story film's captions
 // chapter by chapter from the lens's own evidence; this file builds the request and checks
 // the answer. The network call lives in scripts/direct.ts.
 // Rules (CLAUDE.md §3): every sentence cites evidence the chapter already has; every number

@@ -8,7 +8,7 @@ const label = (date: string, opts: Intl.DateTimeFormatOptions) =>
 
 export const metadata: Metadata = { title: "Today's edition" };
 
-// /today: the latest edition on the full-screen globe, with the edition tour (PLAN.md Phase 16).
+// /today: the latest edition on the full-screen globe, with the edition tour.
 export default async function Today() {
   const editions = await listEditions();
   const latest = editions[0];

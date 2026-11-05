@@ -1,4 +1,4 @@
-// Video clip export (PLAN.md Phase 19): record a story film in the browser, free, no server.
+// Video clip export: record a story film in the browser, free, no server.
 // Each globe frame is drawn onto a recording canvas with the film's title, chapter, caption,
 // citation count and source credits burned in, so a clip shared anywhere still says where
 // its facts come from. MediaRecorder captures the canvas in real time while the film plays

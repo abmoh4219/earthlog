@@ -1,4 +1,4 @@
-// The economy lens (PLAN.md Phase 9): central banks, markets, budgets, prices.
+// The economy lens: central banks, markets, budgets, prices.
 // The institution in the news (found among the story's linked articles: a central bank,
 // ministry, exchange or company with a headquarters) → its country in numbers (World Bank:
 // inflation, growth, unemployment over the years) → the neighbourhood (the same World Bank

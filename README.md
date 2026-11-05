@@ -10,7 +10,7 @@ Each story gets the analysis its kind deserves. Every claim links to its source.
   <a href="https://earthlog-abdi.vercel.app"><strong>earthlog-abdi.vercel.app</strong></a>
 </p>
 
-<p align="center"><img src="docs/media/election.jpg" alt="The 2026 US elections film: Senate races state by state, with a cited results panel" width="900"/></p>
+<p align="center"><img src="public/media/election.jpg" alt="The 2026 US elections film: Senate races state by state, with a cited results panel" width="900"/></p>
 
 ## What it does
 
@@ -32,12 +32,12 @@ Open Earthlog in the morning and yesterday is waiting on the globe: each story a
 Every film also has **how it unfolded** (the story's thread through the past week) and the **curiosity map**: who read about it, in which languages, glowing where each language is spoken.
 
 <p align="center">
-  <img src="docs/media/learjet.jpg" alt="Accident lens: the flight from Austin, the crash site, the unflown leg dashed" width="440"/>
-  <img src="docs/media/curiosity.jpg" alt="Curiosity map: readers by language, glowing where each language is spoken" width="440"/>
+  <img src="public/media/learjet.jpg" alt="Accident lens: the flight from Austin, the crash site, the unflown leg dashed" width="440"/>
+  <img src="public/media/curiosity.jpg" alt="Curiosity map: readers by language, glowing where each language is spoken" width="440"/>
 </p>
 <p align="center">
-  <img src="docs/media/thread.jpg" alt="How it unfolded: the Strait of Hormuz crisis, day by day" width="440"/>
-  <img src="docs/media/terrain.jpg" alt="Real terrain: the Khumbu, near Mount Everest" width="440"/>
+  <img src="public/media/thread.jpg" alt="How it unfolded: the Strait of Hormuz crisis, day by day" width="440"/>
+  <img src="public/media/terrain.jpg" alt="Real terrain: the Khumbu, near Mount Everest" width="440"/>
 </p>
 
 Any film **exports as a video clip** (landscape or vertical) with captions and sources burned in, right in the browser. **Every edition is kept**, so the archive becomes a 3D record of the planet, day by day.

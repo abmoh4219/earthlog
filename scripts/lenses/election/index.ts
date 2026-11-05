@@ -1,4 +1,4 @@
-// The election lens (PLAN.md Phase 6). Generic first, deep where a country adapter exists:
+// The election lens. Generic first, deep where a country adapter exists:
 //   1. Universal: any election article's infobox → seats and vote share by party, the country
 //      lit in the leading party's colour (Israel 2026, and any election anywhere).
 //   2. US adapter: Senate and governor races by state, House races by district, painted by

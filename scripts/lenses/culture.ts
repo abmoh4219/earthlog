@@ -1,4 +1,4 @@
-// The culture lens (PLAN.md Phase 11): films, series, shows, albums, books.
+// The culture lens: films, series, shows, albums, books.
 //   The credits  → the infobox (director, cast, music, studio, network, release, box office…),
 //                  each value cited to the exact revision, at the studio's home;
 //   Where it was filmed → the places the article's filming section links, in the order it

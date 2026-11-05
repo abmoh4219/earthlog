@@ -28,7 +28,7 @@ Earthlog's unit is the **story**, not the feed. Everything below serves one pipe
   - **type** via Wikidata P31 (`scripts/edition/lens.ts`), **place** via the news place, the article's coordinates, a recent death place, headquarters, or the country;
   - **heat** = log(readers) × (1 + log₂(spike)/10) + reported-news weight + a recent-death bonus, scaled to 0–100;
   - **pick** about 14: hottest first, at most 3 per lens, then the best story of every continent not yet covered.
-- **Films:** `pnpm stories [date] [slug]` films each story of an edition with its lens into `public/editions/<date>/stories/<slug>/` (a normal bundle: scene, evidence, sources, data). `scripts/stories.ts` maps lenses to film functions; every lens starts as `general` and is replaced phase by phase.
+- **Films:** `pnpm stories [date] [slug]` films each story of an edition with its lens into `public/editions/<date>/stories/<slug>/` (a normal bundle: scene, evidence, sources, data). `scripts/stories.ts` maps lenses to film functions; a kind of story without its own lens uses `general`.
 - **"What happened" opens every film, whatever the lens** (`scripts/lenses/news-context.ts`): the Current events item if there is one, else the sentences in the story's article that say what happened around the edition day (dated within ten days, or added by editors since three days before, found by comparing revisions), told in time order, then who or what this is. Every sentence is quoted and cited to the exact revision. How many people read about it comes later, as a side note.
 - **Lens:** the analysis template for one kind of story (`election`, `person`, `organization`, `economy`, `sports`, `culture`, `accident`, `disaster`, `conflict`, `science`, `general`). A lens is code in `scripts/lenses/<lens>/`: its bakers (what data to fetch), its director (chapters, captions, panels) and its globe layers. The concept doc lists each lens's data and visuals.
 - **Story film:** a scene with **chapters**: each chapter has a camera shot, captions with citations, globe layers to show, and panels (charts) to build. Two time modes (ADR-0013):
@@ -76,7 +76,7 @@ Every route is statically generated; the nightly build adds the new day's pages.
 ### The daily replay ("the world, yesterday")
 
 ```
- GitHub Action (nightly, Phase 5) or `pnpm bake daily [YYYY-MM-DD]`
+ GitHub Action (nightly) or `pnpm bake daily [YYYY-MM-DD]`
    Wikipedia Current events ──► news.json      stories, category, place (GeoData)
    USGS worldwide M4.5+     ──► quakes.json
    NASA EONET               ──► storms.json    6-hourly fixes, interpolated in the player

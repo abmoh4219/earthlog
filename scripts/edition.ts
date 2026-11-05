@@ -1,5 +1,5 @@
 // pnpm edition [YYYY-MM-DD]   (default: yesterday, UTC)
-// Finds the day's stories, types each into a lens and ranks them (PLAN.md Phase 4).
+// Finds the day's stories, types each into a lens and ranks them.
 // Writes public/editions/<date>/{edition,evidence,sources}.json. Downloads are cached.
 import { join } from "node:path";
 import { z } from "zod";

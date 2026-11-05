@@ -10,7 +10,7 @@ Guidance for Claude Code, and any human, working in this repo. Read it before pr
 
 - **Editions:** one per day, built nightly, kept forever as an archive (ADR-0009, ADR-0012).
 - **Stories:** discovered from what the news reported (Wikipedia Current events) and what the world read (Wikipedia most-read), typed via Wikidata, ranked by heat.
-- **Lenses:** one analysis module per kind of story; they ship one per phase ([PLAN.md](PLAN.md)).
+- **Lenses:** one analysis module per kind of story, in `scripts/lenses/` (how to add one: [CONTRIBUTING.md](CONTRIBUTING.md)).
 - **Story films:** chapters, captions with citations, globe layers and chart panels; exportable as video clips.
 - **Classics:** hand-made deep replays of landmark events (the planet's black box) use the same player.
 - **Not God's Eye View, not World Monitor:** they show the world *now*, as a spy simulator and an intelligence dashboard. Earthlog is the newsroom's data team: depth over breadth, editorial calm, proof everywhere.
@@ -101,7 +101,7 @@ The nightly edition runs the same scripts in a scheduled GitHub Action, which co
 ## 7. Working with Abdelah
 
 - **Abdelah commits and pushes, always.** Never run `git commit`, `git push`, `git tag` or anything that rewrites history. End each phase with a summary and a suggested conventional-commit message. The one exception is the nightly GitHub Action, which commits only the new daily bundle as a `data:` commit (ADR-0009).
-- **Phase by phase** ([PLAN.md](PLAN.md)): build → self-check → checkpoint → he reviews and commits → next phase. **The ship date is real** (2026-11-05): time-box, and use the cut list rather than cutting quality.
+- **Change by change:** build → self-check → checkpoint → he reviews and commits → next change. Prefer cutting scope over cutting quality.
 - **Explain real design choices before implementing them:** the options, the cost of each, the recommendation. Small reversible choices: decide, and mention them.
 - **Prefer the simplest thing that works.** One person maintains this.
 - **His API budget is small.** Use Claude only through `scripts/direct.ts`, Haiku by default, with prompt caching. Print the cost every run, and keep a hard cost ceiling per run.

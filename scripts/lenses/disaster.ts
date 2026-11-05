@@ -1,4 +1,4 @@
-// The disaster lens (PLAN.md Phase 12). Earthquakes first, from USGS:
+// The disaster lens. Earthquakes first, from USGS:
 //   The earthquake → epicentre and the fault's rupture model on real terrain; magnitude,
 //                    depth, time;
 //   The shaking    → ShakeMap intensity contours spreading outward from the strongest, and

@@ -1,4 +1,4 @@
-// The person lens (PLAN.md Phase 7): a life drawn across the globe from Wikidata.
+// The person lens: a life drawn across the globe from Wikidata.
 // Stops: birthplace (P19) → education (P69) → clubs (P54) / employers (P108) / residences
 // (P551) / work locations (P937), dated by their start (P580) and end (P582) qualifiers →
 // place of death (P20). Organisations are placed at their home ground (P115), headquarters

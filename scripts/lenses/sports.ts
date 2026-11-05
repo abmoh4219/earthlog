@@ -1,4 +1,4 @@
-// The sports lens (PLAN.md Phase 10): matches, races, tournaments.
+// The sports lens: matches, races, tournaments.
 // The venue (from the event article's infobox, else the story's place) with the camera low
 // over it → the result card (winner, runner-up, score, jockey, trainer, attendance, prize…
 // whatever the infobox records, cited to the exact revision) → arcs from the teams' home

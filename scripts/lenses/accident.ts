@@ -1,4 +1,4 @@
-// The accident lens (PLAN.md Phase 12): crashes, collisions, derailments, sinkings.
+// The accident lens: crashes, collisions, derailments, sinkings.
 //   The flight   → origin, the crash site and the destination it never reached: the route
 //                  flown drawn in red, the rest dashed; distances flown and left, computed
 //                  from the cited coordinates and labelled as straight-line estimates;

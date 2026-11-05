@@ -1,4 +1,4 @@
-// The conflict lens (PLAN.md Phase 13): wars, crises, attacks.
+// The conflict lens: wars, crises, attacks.
 //   Day by day       → every place the article's dated sentences of the past week link, pinned
 //                      and coloured by how recent it is; the sentences themselves, cited;
 //   Sides and figures → the infobox's belligerents, status and casualty figures, attributed

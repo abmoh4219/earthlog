@@ -1,4 +1,4 @@
-// "How it unfolded" (PLAN.md Phase 15): a story's thread through the previous days of
+// "How it unfolded": a story's thread through the previous days of
 // Wikipedia's Current events. An earlier item belongs to the thread when it sits under the
 // same running topic ("2026 Strait of Hormuz crisis"), links that topic, or links the story's
 // own article. Nothing fuzzier: a thread is only drawn when the portal itself ties the items.

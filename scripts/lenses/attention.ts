@@ -1,5 +1,5 @@
 // Readers by language: how many people read a story's article in each Wikipedia language
-// edition on the day. The first piece of the "curiosity map" (PLAN.md Phase 15). A language
+// edition on the day. The first piece of the "curiosity map". A language
 // is not a country (Spanish readers are in Spain, Mexico, Argentina…), and the UI says so.
 // Verified 2026-11-04: prop=langlinks lists the article's other editions; the per-article
 // pageviews API takes <lang>.wikipedia as its project (CC0).
