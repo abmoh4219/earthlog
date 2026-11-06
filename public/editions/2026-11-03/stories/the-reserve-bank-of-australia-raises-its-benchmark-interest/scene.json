@@ -220,7 +220,7 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "The Reserve Bank of Australia has raised its benchmark interest rate by 0.25 percentage points, to 4.85%, its highest level since 2008.",
+      "text": "The Reserve Bank of Australia raised its benchmark interest rate by 0.25 percentage points, to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs linked to the Iran war.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
@@ -241,7 +241,7 @@
     },
     {
       "t": "2026-11-03T00:00:25Z",
-      "text": "The decision was made by the Reserve Bank of Australia, a central bank headquartered in Sydney.",
+      "text": "The decision came from the Reserve Bank of Australia, which is headquartered in Sydney.",
       "cites": [
         "wd:Q1506724:P159",
         "wiki:2026-11-03:4"
@@ -264,21 +264,21 @@
     },
     {
       "t": "2026-11-03T00:00:51Z",
-      "text": "Across East Asia & Pacific, Australia's 2.9% inflation compares with a median of 2.1%, while Mongolia has the highest rate at 8.6%.",
+      "text": "Across East Asia & Pacific, Australia's 2.9% compares with a median of 2.1%, while the highest is Mongolia at 8.6%.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
       ]
     },
     {
       "t": "2026-11-03T00:01:05Z",
-      "text": "The story was reported by AFP via France 24.",
+      "text": "The report was filed by AFP and published via France 24.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
     },
     {
       "t": "2026-11-03T00:01:13Z",
-      "text": "This explainer draws on Wikipedia current events, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data (World Development Indicators).",
+      "text": "The sources are Wikipedia's Current events and articles, Wikimedia pageviews, Wikidata, and World Bank Open Data (World Development Indicators).",
       "cites": [
         "wiki:2026-11-03:4",
         "wiki:rev:1383825251:48",
@@ -289,7 +289,7 @@
     },
     {
       "t": "2026-11-03T00:01:14Z",
-      "text": "Every caption links to the evidence it rests on.",
+      "text": "Every caption cites the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
@@ -741,7 +741,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:59:16Z",
-    "costUsd": 0.001681
+    "at": "2026-11-06T12:25:42Z",
+    "costUsd": 0.001854
   }
 }

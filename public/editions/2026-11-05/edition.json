@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-06T12:19:36Z",
+  "candidates": 33,
+  "stories": [
+    {
+      "slug": "jesus-de-miguel",
+      "lens": "person",
+      "title": "Jesús de Miguel",
+      "summary": "Spanish footballer (1996–2026)",
+      "about": "Jesús de Miguel Alameda was a Spanish professional footballer who played as a striker.",
+      "article": {
+        "title": "Jesús de Miguel",
+        "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
+        "qid": "Q116992476"
+      },
+      "place": {
+        "name": "Hospital Universitario Nuestra Señora de Candelaria",
+        "lon": -16.28472222,
+        "lat": 28.44805556,
+        "country": "ES",
+        "role": "Place of death",
+        "evidence": "wd:Q116992476:P20"
+      },
+      "continent": "Europe",
+      "heat": 100,
+      "readers": 72137,
+      "spike": 18034.3,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Jesús_de_Miguel:2026-11-05",
+        "views:en:Jesús_de_Miguel:prior",
+        "wd:Q116992476:P31"
+      ],
+      "headline": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono which caused him to go into cardiac arrest."
+    },
+    {
+      "slug": "russell-brand",
+      "lens": "person",
+      "title": "Russell Brand",
+      "summary": "English comedian and media personality (born 1975)",
+      "about": "Russell Edward Brand is an English convicted rapist, comedian, actor and media personality.",
+      "article": {
+        "title": "Russell Brand",
+        "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+        "qid": "Q296609"
+      },
+      "place": {
+        "name": "United Kingdom",
+        "lon": -2.12,
+        "lat": 54.4,
+        "country": "GB",
+        "role": "Country of citizenship",
+        "evidence": "wd:Q296609:P27"
+      },
+      "continent": "Europe",
+      "heat": 85,
+      "readers": 571124,
+      "spike": 162,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Russell_Brand:2026-11-05",
+        "views:en:Russell_Brand:prior",
+        "wd:Q296609:P31"
+      ],
+      "headline": "He was subsequently charged with multiple counts of rape, oral rape, indecent assault, and sexual assault, and his trial began in October 2026."
+    },
+    {
+      "slug": "scott-colom",
+      "lens": "person",
+      "title": "Scott Colom",
+      "summary": "American lawyer (born 1982)",
+      "about": "Scott Winston Colom is an American lawyer and politician serving since 2016 as district attorney for the 16th Judicial District of Mississippi. He is the Democratic nominee in the 2026 United States Senate election in Mississippi.",
+      "article": {
+        "title": "Scott Colom",
+        "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+        "qid": "Q115492489"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country of citizenship",
+        "evidence": "wd:Q115492489:P27"
+      },
+      "continent": "North America",
+      "heat": 83,
+      "readers": 214548,
+      "spike": 302.7,
+      "sources": 0,
+      "related": [
+        "Cindy Hyde-Smith"
+      ],
+      "evidence": [
+        "views:en:Scott_Colom:2026-11-05",
+        "views:en:Scott_Colom:prior",
+        "views:en:Cindy_Hyde-Smith:2026-11-05",
+        "views:en:Cindy_Hyde-Smith:prior",
+        "wd:Q115492489:P31"
+      ],
+      "headline": "His father, Wilbur Colom, also a lawyer, was the Republican nominee for state treasurer in 1987, and his mother, Dorothy Colom…"
+    },
+    {
+      "slug": "ramayana-part-1",
+      "lens": "culture",
+      "title": "Ramayana: Part 1",
+      "summary": "2026 Indian film by Nitesh Tiwari",
+      "about": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the epic poem Ramayana by Valmiki, which chronicles the life and trials of Prince Rama. It is the first of a two-part film. The film stars Ranbir Kapoor, Yash, Sai Pallavi, Ravi Dubey, Sunny Deol, Anupam Kher, Kajal Aggarwal, Rakul Preet Singh, Vivek Oberoi, Kunal Kapoor, Adinath Kothare, Arun Govil, Indira Krishnan, and Lara Dutta.",
+      "article": {
+        "title": "Ramayana: Part 1",
+        "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+        "qid": "Q135196186"
+      },
+      "place": {
+        "name": "India",
+        "lon": 79.36,
+        "lat": 22.69,
+        "country": "IN",
+        "role": "Country of origin",
+        "evidence": "wd:Q135196186:P495"
+      },
+      "continent": "Asia",
+      "heat": 81,
+      "readers": 609307,
+      "spike": 79.5,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Ramayana:_Part_1:2026-11-05",
+        "views:en:Ramayana:_Part_1:prior",
+        "wd:Q135196186:P31"
+      ],
+      "headline": "Ramayana: Part 1 premiered at the Academy Museum of Motion Pictures on 27 October 2026, and was released worldwide on 5 November, coinciding with the Diwali holidays."
+    },
+    {
+      "slug": "guy-fawkes-night",
+      "lens": "general",
+      "title": "Guy Fawkes Night",
+      "summary": "Annual custom originating in England",
+      "about": "Guy Fawkes Night, also known as Guy Fawkes Day, Bonfire Night and Fireworks Night, is an annual commemoration observed on 5 November, primarily in Great Britain, involving bonfires and fireworks displays. Its history begins with the events of 5 November 1605 O.S., when Guy Fawkes, a member of the Gunpowder Plot, was arrested while guarding explosives the plotters had placed beneath the House of Lords. The Catholic plotters had intended to assassinate Protestant King James I and his parliament. Celebrating that the king had survived, people lit bonfires around London. Months later, the Observance of 5th November Act 1605 mandated an annual public day of thanksgiving for the plot's failure.",
+      "article": {
+        "title": "Guy Fawkes Night",
+        "url": "https://en.wikipedia.org/wiki/Guy_Fawkes_Night",
+        "qid": "Q844844"
+      },
+      "place": {
+        "name": "United Kingdom",
+        "lon": -2.12,
+        "lat": 54.4,
+        "country": "GB",
+        "role": "Country",
+        "evidence": "wd:Q844844:P17"
+      },
+      "continent": "Europe",
+      "heat": 78,
+      "readers": 270752,
+      "spike": 109.9,
+      "sources": 0,
+      "related": [
+        "Guy Fawkes"
+      ],
+      "evidence": [
+        "views:en:Guy_Fawkes_Night:2026-11-05",
+        "views:en:Guy_Fawkes_Night:prior",
+        "views:en:Guy_Fawkes:2026-11-05",
+        "views:en:Guy_Fawkes:prior",
+        "wd:Q844844:P31"
+      ],
+      "headline": "Guy Fawkes Night, also known as Guy Fawkes Day, Bonfire Night and Fireworks Night, is an annual commemoration observed on 5 November, primarily in Great Britain, involving bonfires and fireworks displays."
+    },
+    {
+      "slug": "2026-united-states-elections",
+      "lens": "election",
+      "title": "2026 United States elections",
+      "summary": "",
+      "about": "Elections in the United States were held on November 3, 2026. In these midterm elections, which occurred during the non-consecutive second term of incumbent Republican president Donald Trump, all 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress. Thirty-nine state and territorial U.S. gubernatorial elections, attorney general elections, and numerous state and local elections were also contested. In one of the worst instances of the six-year itch suffered by a president serving a second term, the opposition Democratic Party won in a landslide victory, gaining a majority of seats in both houses of Congress and state governments across the United States, undoing the legacy of the Tea Party wave of 2010 and giving the Democrats their largest congressional majority since the 102nd United States Congress.",
+      "article": {
+        "title": "2026 United States elections",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+        "qid": "Q115857612"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country",
+        "evidence": "wd:Q115857612:P17"
+      },
+      "continent": "North America",
+      "heat": 75,
+      "readers": 2218541,
+      "spike": 13.5,
+      "sources": 0,
+      "related": [
+        "Jon Ossoff",
+        "Gina Hinojosa",
+        "2026 United States Senate elections",
+        "2026 United States House of Representatives elections",
+        "United States midterm election",
+        "Keisha Lance Bottoms",
+        "2026 United States Senate election in Mississippi",
+        "Hakeem Jeffries",
+        "Byron Donalds",
+        "Amy Acton",
+        "Rob Sand",
+        "United States House of Representatives",
+        "Annie Andrews",
+        "Pete Hegseth"
+      ],
+      "evidence": [
+        "views:en:2026_United_States_elections:2026-11-05",
+        "views:en:2026_United_States_elections:prior",
+        "views:en:Jon_Ossoff:2026-11-05",
+        "views:en:Jon_Ossoff:prior",
+        "views:en:Gina_Hinojosa:2026-11-05",
+        "views:en:Gina_Hinojosa:prior",
+        "views:en:2026_United_States_Senate_elections:2026-11-05",
+        "views:en:2026_United_States_Senate_elections:prior",
+        "views:en:2026_United_States_House_of_Representatives_elections:2026-11-05",
+        "views:en:2026_United_States_House_of_Representatives_elections:prior",
+        "views:en:United_States_midterm_election:2026-11-05",
+        "views:en:United_States_midterm_election:prior",
+        "views:en:Keisha_Lance_Bottoms:2026-11-05",
+        "views:en:Keisha_Lance_Bottoms:prior",
+        "views:en:2026_United_States_Senate_election_in_Mississippi:2026-11-05",
+        "views:en:2026_United_States_Senate_election_in_Mississippi:prior",
+        "views:en:Hakeem_Jeffries:2026-11-05",
+        "views:en:Hakeem_Jeffries:prior",
+        "views:en:Byron_Donalds:2026-11-05",
+        "views:en:Byron_Donalds:prior",
+        "views:en:Amy_Acton:2026-11-05",
+        "views:en:Amy_Acton:prior",
+        "views:en:Rob_Sand:2026-11-05",
+        "views:en:Rob_Sand:prior",
+        "views:en:United_States_House_of_Representatives:2026-11-05",
+        "views:en:United_States_House_of_Representatives:prior",
+        "views:en:Annie_Andrews:2026-11-05",
+        "views:en:Annie_Andrews:prior",
+        "views:en:Pete_Hegseth:2026-11-05",
+        "views:en:Pete_Hegseth:prior",
+        "wd:Q115857612:P31"
+      ],
+      "headline": "Elections in the United States were held on November 3, 2026."
+    },
+    {
+      "slug": "2028-united-states-senate-elections",
+      "lens": "election",
+      "title": "2028 United States Senate elections",
+      "summary": "Senate election for the 121st US Congress",
+      "about": "The 2028 United States Senate elections will be held on November 7, 2028, with 34 of the 100 seats in the Senate being contested in regular elections, the winners of which will serve 6-year terms in the United States Congress from January 3, 2029, to January 3, 2035, which will include the entire term of the president who wins the 2028 presidential election and the first two years of the 2032 presidential election winner's term. Senators are divided into three classes whose terms are staggered so that a different class is elected every other year. Class 3 senators were last elected in 2022, and will be up for election again in 2028. A special election is expected to be held in Tennessee, to fill Marsha Blackburn's unexpired Senate term. These elections will run concurrently with the 2028 United States presidential election. Democrats are defending five seats in states that voted for Donald Trump in 2024.",
+      "article": {
+        "title": "2028 United States Senate elections",
+        "url": "https://en.wikipedia.org/wiki/2028_United_States_Senate_elections",
+        "qid": "Q115858135"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country",
+        "evidence": "wd:Q115858135:P17"
+      },
+      "continent": "North America",
+      "heat": 67,
+      "readers": 111686,
+      "spike": 49.3,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:2028_United_States_Senate_elections:2026-11-05",
+        "views:en:2028_United_States_Senate_elections:prior",
+        "wd:Q115858135:P31"
+      ],
+      "headline": "A special election is expected to be held in Tennessee, to fill Marsha Blackburn's unexpired Senate term."
+    },
+    {
+      "slug": "red-states-and-blue-states",
+      "lens": "general",
+      "title": "Red states and blue states",
+      "summary": "United States voting pattern",
+      "about": "Starting with the 2000 United States presidential election, the term red state has been used to refer to states which predominantly vote for the Republican Party, and the term blue state has been used to refer to states which predominantly vote for the Democratic Party. By contrast, states where the predominant vote fluctuates between Democratic and Republican nominees are known as swing states or purple states. Examining patterns within states reveals that the reversal of the two parties' geographic bases has happened at the state level, but it is more complicated locally, with urban–rural divides associated with many of the largest changes.",
+      "article": {
+        "title": "Red states and blue states",
+        "url": "https://en.wikipedia.org/wiki/Red_states_and_blue_states",
+        "qid": "Q1190344"
+      },
+      "heat": 62,
+      "readers": 69411,
+      "spike": 32.8,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Red_states_and_blue_states:2026-11-05",
+        "views:en:Red_states_and_blue_states:prior",
+        "wd:Q1190344:P31"
+      ],
+      "headline": "In 2023, Humanities Magazine published an article, \"Red Map, Blue Map\" discussing the work of political geographer, Kenneth C…"
+    },
+    {
+      "slug": "xyz",
+      "lens": "organization",
+      "title": ".xyz",
+      "summary": "Internet top-level domain",
+      "about": ".xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program. Its name consists of the last three letters of the Latin-script alphabet. XYZ.com and CentralNic are the registries for the domain, which was created by entrepreneur Daniel Negari. It became available to the general public on June 2, 2014, thereafter becoming widely used by tech startups, creators, and Web3 projects.",
+      "article": {
+        "title": ".xyz",
+        "url": "https://en.wikipedia.org/wiki/.xyz",
+        "qid": "Q16049593"
+      },
+      "heat": 56,
+      "readers": 255809,
+      "spike": 4.6,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:.xyz:2026-11-05",
+        "views:en:.xyz:prior",
+        "wd:Q16049593:P31"
+      ],
+      "headline": ".xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program."
+    },
+    {
+      "slug": "godzilla-minus-zero",
+      "lens": "culture",
+      "title": "Godzilla Minus Zero",
+      "summary": "2026 Japanese film by Takashi Yamazaki",
+      "about": "Godzilla Minus Zero  is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. A sequel to Godzilla Minus One (2023), it is the 39th film in the Godzilla franchise, the 34th film thereof produced by Toho, and the sixth installment in the franchise's Reiwa era. The film stars Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Yuki Yamada, Kuranosuke Sasaki, Sakura Ando, and Miou Tanaka reprising their roles from Minus One, with Min Tanaka, Masami Nagasawa, and Jun Kunimura also starring as new characters. In the film, set in 1949, postwar Japan struggles to rebuild when it faces a new threat from King Ghidorah; Godzilla regenerates and resurfaces to combat the monster.",
+      "article": {
+        "title": "Godzilla Minus Zero",
+        "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
+        "qid": "Q136700760"
+      },
+      "place": {
+        "name": "Japan",
+        "lon": 138.44,
+        "lat": 36.14,
+        "country": "JP",
+        "role": "Country of origin",
+        "evidence": "wd:Q136700760:P495"
+      },
+      "continent": "Asia",
+      "heat": 56,
+      "readers": 77851,
+      "spike": 10.1,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Godzilla_Minus_Zero:2026-11-05",
+        "views:en:Godzilla_Minus_Zero:prior",
+        "wd:Q136700760:P31"
+      ]
+    },
+    {
+      "slug": "jailer-2",
+      "lens": "culture",
+      "title": "Jailer 2",
+      "summary": "2026 Indian film by Nelson Dilipkumar",
+      "about": "Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
+      "article": {
+        "title": "Jailer 2",
+        "url": "https://en.wikipedia.org/wiki/Jailer_2",
+        "qid": "Q133255153"
+      },
+      "place": {
+        "name": "India",
+        "lon": 79.36,
+        "lat": 22.69,
+        "country": "IN",
+        "role": "Country of origin",
+        "evidence": "wd:Q133255153:P495"
+      },
+      "continent": "Asia",
+      "heat": 54,
+      "readers": 83507,
+      "spike": 6.7,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Jailer_2:2026-11-05",
+        "views:en:Jailer_2:prior",
+        "wd:Q133255153:P31"
+      ]
+    },
+    {
+      "slug": "a-police-officer-is-killed-and-another-injured-in-a-stabbing",
+      "lens": "conflict",
+      "title": "A police officer is killed and another injured in a stabbing attack outside…",
+      "summary": "A police officer is killed and another injured in a stabbing attack outside the Sri Lankan embassy in Amman, Jordan. The suspect is arrested. The event is described as a terrorist attack.",
+      "place": {
+        "name": "Public Security Directorate",
+        "lon": 35.876274,
+        "lat": 31.901309,
+        "country": "JO",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-05:1"
+      },
+      "continent": "Asia",
+      "heat": 31,
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-05:1"
+      ]
+    },
+    {
+      "slug": "six-people-are-killed-and-nine-more-injured-after-a-fire-at",
+      "lens": "accident",
+      "title": "Six people are killed and nine more injured after a fire at a two-story home…",
+      "summary": "Six people are killed and nine more injured after a fire at a two-story home in Brooklyn, New York City, United States.",
+      "place": {
+        "name": "Brooklyn",
+        "lon": -73.95,
+        "lat": 40.65,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-05:3"
+      },
+      "continent": "North America",
+      "heat": 31,
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-05:3"
+      ]
+    },
+    {
+      "slug": "2026-grenadian-general-election",
+      "lens": "election",
+      "title": "2026 Grenadian general election",
+      "summary": "Grenadians vote to elect 15 members of the House of Representatives. Incumbent prime minister Dickon Mitchell wins a second consecutive NDC government, with opposition NNP leader Emmalin Pierre losing her seat in St. Andrew South East.",
+      "article": {
+        "title": "2026 Grenadian general election",
+        "url": "https://en.wikipedia.org/wiki/2026_Grenadian_general_election",
+        "qid": "Q115632342"
+      },
+      "place": {
+        "name": "Grenada",
+        "lon": -61.7,
+        "lat": 12.1,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-05:10"
+      },
+      "continent": "North America",
+      "heat": 31,
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-05:10",
+        "wd:Q115632342:P31"
+      ]
+    },
+    {
+      "slug": "paraguayan-president-santiago-pena-announces-his-resignation",
+      "lens": "general",
+      "title": "Paraguayan president Santiago Peña announces his resignation after the…",
+      "summary": "Paraguayan president Santiago Peña announces his resignation after the collapse of ueno bank, and the Chamber of Deputies unanimously votes to begin an impeachment trial against him.",
+      "article": {
+        "title": "2026 Paraguay banking crisis",
+        "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+        "qid": "Q142059724"
+      },
+      "place": {
+        "name": "Paraguay",
+        "lon": -60.15,
+        "lat": -21.67,
+        "country": "PY",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-05:11"
+      },
+      "continent": "South America",
+      "heat": 31,
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-05:11"
+      ]
+    },
+    {
+      "slug": "the-supreme-court-of-somalia-nullifies-the-amendments-to-the",
+      "lens": "general",
+      "title": "The Supreme Court of Somalia nullifies the amendments to the country's…",
+      "summary": "The Supreme Court of Somalia nullifies the amendments to the country's constitution, ruling that the term of president Hassan Sheikh Mohamud expired on 15 May 2026, while ordering new elections within 90 days.",
+      "article": {
+        "title": "Constitutional crisis in Somalia, Controversies of Hassan Sheikh Mohamud",
+        "url": "https://en.wikipedia.org/wiki/Constitutional_crisis_in_Somalia%2C_Controversies_of_Hassan_Sheikh_Mohamud"
+      },
+      "place": {
+        "name": "Somalia",
+        "lon": 45.19,
+        "lat": 3.57,
+        "country": "SO",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-05:13"
+      },
+      "continent": "Africa",
+      "heat": 31,
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-05:13"
+      ]
+    },
+    {
+      "slug": "professional-tour-liv-golf-ceases-operations-after-five-seas",
+      "lens": "sports",
+      "title": "Professional tour LIV Golf ceases operations after five seasons and liquidates…",
+      "summary": "In golf, professional tour LIV Golf ceases operations after five seasons and liquidates its assets, following bankruptcy proceedings and the withdrawal of financial support from Saudi Arabia's Public Investment Fund and prospective investor BC Partners Credit.",
+      "place": {
+        "name": "Saudi Arabia",
+        "lon": 44.7,
+        "lat": 23.81,
+        "country": "SA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-05:15"
+      },
+      "continent": "Asia",
+      "heat": 28,
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-05:15"
+      ]
+    }
+  ]
+}

@@ -121,21 +121,21 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Subsequent investigators included John William Strutt, 3rd Baron Rayleigh, and his son, Robert Strutt, 4th Baron Rayleigh.",
-      "cites": [
-        "wiki:rev:1383405896:16"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:09Z",
       "text": "Storm oil is described as a nearly water-insoluble oil that acts as a surfactant, and it has been used since ancient times to smooth ocean waves.",
       "cites": [
         "wiki:rev:1383405896:0"
       ]
     },
     {
+      "t": "2026-11-02T00:00:09Z",
+      "text": "Subsequent investigators included John William Strutt, 3rd Baron Rayleigh, and his son, Robert Strutt, 4th Baron Rayleigh.",
+      "cites": [
+        "wiki:rev:1383405896:16"
+      ]
+    },
+    {
       "t": "2026-11-02T00:00:18Z",
-      "text": "On 2 November 2026, 70,742 people read the Storm oil article.",
+      "text": "On 2 November 2026, 70,742 people read about storm oil.",
       "cites": [
         "views:en:Storm_oil:2026-11-02"
       ]
@@ -343,7 +343,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.00054
+    "at": "2026-11-06T00:00:00Z",
+    "costUsd": 0.000544
   }
 }

@@ -1,0 +1,738 @@
+{
+  "version": 1,
+  "id": "story-2026-11-05-scott-colom",
+  "title": "Scott Colom",
+  "subtitle": "People · 5 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-05T00:00:00Z",
+    "end": "2026-11-05T00:01:22Z"
+  },
+  "focus": "2026-11-05T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-05",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:00:51Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:00:51Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-05T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-05T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:27Z",
+      "lon": -88.415,
+      "lat": 32.601666666667,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:29Z",
+      "lon": -88.415,
+      "lat": 32.601666666667,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:31Z",
+      "lon": -88.415,
+      "lat": 32.601666666667,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:34Z",
+      "lon": -89.33374306142605,
+      "lat": 35.575957040791074,
+      "range": 3610968.3382567144,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:38Z",
+      "lon": -89.33374306142605,
+      "lat": 35.575957040791074,
+      "range": 3269870.902453461,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:41Z",
+      "lon": -89.33374306142605,
+      "lat": 35.575957040791074,
+      "range": 2960994.0373705057,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:44Z",
+      "lon": -92.77010169789652,
+      "lat": 36.10290329539864,
+      "range": 2518338.4461501813,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:47Z",
+      "lon": -92.77010169789652,
+      "lat": 36.10290329539864,
+      "range": 2280452.4538068427,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:50Z",
+      "lon": -92.77010169789652,
+      "lat": 36.10290329539864,
+      "range": 2065037.5258431486,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:55Z",
+      "lon": 33.787472253150426,
+      "lat": 46.80830752638201,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:05Z",
+      "lon": 33.787472253150426,
+      "lat": 46.80830752638201,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:14Z",
+      "lon": 33.787472253150426,
+      "lat": 46.80830752638201,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:18Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:19Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:22Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-05T00:00:01Z",
+      "text": "His father, Wilbur Colom, was a lawyer and the 1987 Republican nominee for state treasurer, and his mother, Dorothy, was the first Black person elected to a Mississippi Chancery Courts judgeship.",
+      "cites": [
+        "wiki:rev:1384062624:3"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:08Z",
+      "text": "Colom earned a Bachelor of Arts with a double major in English and history from Millsaps College in 2005, and a Juris Doctor cum laude from the University of Wisconsin Law School in 2009.",
+      "cites": [
+        "wiki:rev:1384062624:4"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:15Z",
+      "text": "Born December 24, 1982, Colom has served as district attorney for the 16th Judicial District of Mississippi since 2016.",
+      "cites": [
+        "wiki:rev:1384062624:0"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:25Z",
+      "text": "According to Wikidata, Scott Colom was born on 24 December 1983 in Columbus.",
+      "cites": [
+        "wd:Q115492489:P569",
+        "wd:Q115492489:P19"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:33Z",
+      "text": "He was educated at Millsaps College and the University of Wisconsin–Madison.",
+      "cites": [
+        "wd:Q115492489:P69:Q6860022",
+        "wd:Q115492489:P69:Q838330"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:43Z",
+      "text": "Readers also turned to the article on Cindy Hyde-Smith (81,671).",
+      "cites": [
+        "views:en:Cindy_Hyde-Smith:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:52Z",
+      "text": "On 5 November 2026, 132,877 people read the article, about 303 times the usual.",
+      "cites": [
+        "views:en:Scott_Colom:2026-11-05",
+        "views:en:Scott_Colom:prior"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:59Z",
+      "text": "The article was read in 5 languages, and after English, Spanish was the most common, with 713 readers.",
+      "cites": [
+        "views:en:Scott_Colom:2026-11-05",
+        "views:es:Scott_Colom:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:06Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:es:Scott_Colom:2026-11-05",
+        "views:fr:Scott_Colom:2026-11-05",
+        "views:he:סקוט_קולום:2026-11-05",
+        "views:ko:스콧_콜럼:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:16Z",
+      "text": "Sources include Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384062624:3",
+        "views:en:Scott_Colom:2026-11-05",
+        "wd:Q115492489:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-05T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-05T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-05T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-05T00:00:51Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-05T00:01:15Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-05T00:00:33Z",
+      "until": "2026-11-05T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1983 born",
+          "text": "Columbus",
+          "cites": [
+            "wd:Q115492489:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Millsaps College",
+          "cites": [
+            "wd:Q115492489:P69:Q6860022"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "University of Wisconsin–Madison",
+          "cites": [
+            "wd:Q115492489:P69:Q838330"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-05T00:00:52Z",
+      "until": "2026-11-05T00:01:15Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Scott Colom",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-07",
+              "y": 383
+            },
+            {
+              "x": "10-08",
+              "y": 609
+            },
+            {
+              "x": "10-09",
+              "y": 410
+            },
+            {
+              "x": "10-10",
+              "y": 649
+            },
+            {
+              "x": "10-11",
+              "y": 439
+            },
+            {
+              "x": "10-12",
+              "y": 774
+            },
+            {
+              "x": "10-13",
+              "y": 937
+            },
+            {
+              "x": "10-14",
+              "y": 3550
+            },
+            {
+              "x": "10-15",
+              "y": 2562
+            },
+            {
+              "x": "10-16",
+              "y": 1382
+            },
+            {
+              "x": "10-17",
+              "y": 1182
+            },
+            {
+              "x": "10-18",
+              "y": 1219
+            },
+            {
+              "x": "10-19",
+              "y": 1453
+            },
+            {
+              "x": "10-20",
+              "y": 2117
+            },
+            {
+              "x": "10-21",
+              "y": 2599
+            },
+            {
+              "x": "10-22",
+              "y": 2879
+            },
+            {
+              "x": "10-23",
+              "y": 4231
+            },
+            {
+              "x": "10-24",
+              "y": 1811
+            },
+            {
+              "x": "10-25",
+              "y": 1922
+            },
+            {
+              "x": "10-26",
+              "y": 3093
+            },
+            {
+              "x": "10-27",
+              "y": 5532
+            },
+            {
+              "x": "10-28",
+              "y": 3349
+            },
+            {
+              "x": "10-29",
+              "y": 2342
+            },
+            {
+              "x": "10-30",
+              "y": 2858
+            },
+            {
+              "x": "10-31",
+              "y": 3222
+            },
+            {
+              "x": "11-01",
+              "y": 2853
+            },
+            {
+              "x": "11-02",
+              "y": 3521
+            },
+            {
+              "x": "11-03",
+              "y": 3975
+            },
+            {
+              "x": "11-04",
+              "y": 171635
+            },
+            {
+              "x": "11-05",
+              "y": 132877
+            }
+          ],
+          "cites": [
+            "views:en:Scott_Colom:30d"
+          ]
+        },
+        {
+          "label": "Cindy Hyde-Smith",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-07",
+              "y": 401
+            },
+            {
+              "x": "10-08",
+              "y": 803
+            },
+            {
+              "x": "10-09",
+              "y": 491
+            },
+            {
+              "x": "10-10",
+              "y": 537
+            },
+            {
+              "x": "10-11",
+              "y": 440
+            },
+            {
+              "x": "10-12",
+              "y": 554
+            },
+            {
+              "x": "10-13",
+              "y": 608
+            },
+            {
+              "x": "10-14",
+              "y": 1600
+            },
+            {
+              "x": "10-15",
+              "y": 1683
+            },
+            {
+              "x": "10-16",
+              "y": 1054
+            },
+            {
+              "x": "10-17",
+              "y": 904
+            },
+            {
+              "x": "10-18",
+              "y": 948
+            },
+            {
+              "x": "10-19",
+              "y": 1265
+            },
+            {
+              "x": "10-20",
+              "y": 1576
+            },
+            {
+              "x": "10-21",
+              "y": 1869
+            },
+            {
+              "x": "10-22",
+              "y": 2109
+            },
+            {
+              "x": "10-23",
+              "y": 2227
+            },
+            {
+              "x": "10-24",
+              "y": 1614
+            },
+            {
+              "x": "10-25",
+              "y": 1758
+            },
+            {
+              "x": "10-26",
+              "y": 3751
+            },
+            {
+              "x": "10-27",
+              "y": 7690
+            },
+            {
+              "x": "10-28",
+              "y": 3230
+            },
+            {
+              "x": "10-29",
+              "y": 2187
+            },
+            {
+              "x": "10-30",
+              "y": 1970
+            },
+            {
+              "x": "10-31",
+              "y": 1738
+            },
+            {
+              "x": "11-01",
+              "y": 1871
+            },
+            {
+              "x": "11-02",
+              "y": 2461
+            },
+            {
+              "x": "11-03",
+              "y": 3655
+            },
+            {
+              "x": "11-04",
+              "y": 101857
+            },
+            {
+              "x": "11-05",
+              "y": 81671
+            }
+          ],
+          "cites": [
+            "views:en:Cindy_Hyde-Smith:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-05T00:00:52Z",
+      "until": "2026-11-05T00:01:15Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "132,877",
+          "value": 132877,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Scott_Colom:2026-11-05"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "713",
+          "value": 713,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Scott_Colom:2026-11-05"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "418",
+          "value": 418,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Scott_Colom:2026-11-05"
+          ]
+        },
+        {
+          "label": "Hebrew",
+          "text": "60",
+          "value": 60,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:he:סקוט_קולום:2026-11-05"
+          ]
+        },
+        {
+          "label": "Korean",
+          "text": "21",
+          "value": 21,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ko:스콧_콜럼:2026-11-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-05T00:01:16Z",
+      "until": "2026-11-05T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384062624:3"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Scott_Colom:2026-11-05"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q115492489:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-06T12:20:07Z",
+    "costUsd": 0.003431
+  }
+}

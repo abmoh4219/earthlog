@@ -1,0 +1,466 @@
+{
+  "version": 1,
+  "id": "story-2026-11-05-red-states-and-blue-states",
+  "title": "Red states and blue states",
+  "subtitle": "News · 5 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-05T00:00:00Z",
+    "end": "2026-11-05T00:00:55Z"
+  },
+  "focus": "2026-11-05T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-05",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:00:24Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:28Z",
+      "lon": 44.57753793119784,
+      "lat": 46.97585873776363,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:38Z",
+      "lon": 44.57753793119784,
+      "lat": 46.97585873776363,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:47Z",
+      "lon": 44.57753793119784,
+      "lat": 46.97585873776363,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:51Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:52Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:55Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-05T00:00:01Z",
+      "text": "In 2023, Humanities Magazine published an article, \"Red Map, Blue Map,\" about political geographer Kenneth C. Martis and his work mapping every congressional district, color-coded by party from the first Congress onward.",
+      "cites": [
+        "wiki:rev:1384017607:69"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:08Z",
+      "text": "Published in 1989, The Historical Atlas of Political Parties in the United States Congress: 1789-1989 was the first to map all U.S. congressional elections by state and district and by party.",
+      "cites": [
+        "wiki:rev:1384017607:70"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:15Z",
+      "text": "Since the 2000 United States presidential election, \"red state\" has referred to states that predominantly vote Republican, and \"blue state\" to states that predominantly vote Democratic.",
+      "cites": [
+        "wiki:rev:1384017607:0"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:25Z",
+      "text": "On 5 November 2026, 69,411 people read the article, about 33× the usual.",
+      "cites": [
+        "views:en:Red_states_and_blue_states:2026-11-05",
+        "views:en:Red_states_and_blue_states:prior"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:32Z",
+      "text": "The article was read in 11 languages, and after English, German was highest with 1,602 readers.",
+      "cites": [
+        "views:en:Red_states_and_blue_states:2026-11-05",
+        "views:de:Rote_Staaten_und_blaue_Staaten:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:39Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:de:Rote_Staaten_und_blaue_Staaten:2026-11-05",
+        "views:es:Estados_rojos_y_estados_azules:2026-11-05",
+        "views:zh:紅州與藍州:2026-11-05",
+        "views:ja:赤い州・青い州:2026-11-05",
+        "views:fr:États_rouges_et_États_bleus:2026-11-05",
+        "views:fa:ایالت‌های_آبی_و_ایالت‌های_قرمز:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:49Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384017607:69",
+        "views:en:Red_states_and_blue_states:2026-11-05",
+        "wd:Q1190344:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-05T00:00:24Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-05T00:00:48Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-05T00:00:25Z",
+      "until": "2026-11-05T00:00:48Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Red states and blue states",
+          "color": "#9ab8cc",
+          "points": [
+            {
+              "x": "10-07",
+              "y": 2478
+            },
+            {
+              "x": "10-08",
+              "y": 2599
+            },
+            {
+              "x": "10-09",
+              "y": 2274
+            },
+            {
+              "x": "10-10",
+              "y": 2199
+            },
+            {
+              "x": "10-11",
+              "y": 2189
+            },
+            {
+              "x": "10-12",
+              "y": 2280
+            },
+            {
+              "x": "10-13",
+              "y": 2415
+            },
+            {
+              "x": "10-14",
+              "y": 2473
+            },
+            {
+              "x": "10-15",
+              "y": 2666
+            },
+            {
+              "x": "10-16",
+              "y": 2648
+            },
+            {
+              "x": "10-17",
+              "y": 2277
+            },
+            {
+              "x": "10-18",
+              "y": 2448
+            },
+            {
+              "x": "10-19",
+              "y": 2847
+            },
+            {
+              "x": "10-20",
+              "y": 3483
+            },
+            {
+              "x": "10-21",
+              "y": 3728
+            },
+            {
+              "x": "10-22",
+              "y": 4055
+            },
+            {
+              "x": "10-23",
+              "y": 4039
+            },
+            {
+              "x": "10-24",
+              "y": 3906
+            },
+            {
+              "x": "10-25",
+              "y": 4183
+            },
+            {
+              "x": "10-26",
+              "y": 4642
+            },
+            {
+              "x": "10-27",
+              "y": 4681
+            },
+            {
+              "x": "10-28",
+              "y": 4983
+            },
+            {
+              "x": "10-29",
+              "y": 5371
+            },
+            {
+              "x": "10-30",
+              "y": 6381
+            },
+            {
+              "x": "10-31",
+              "y": 5784
+            },
+            {
+              "x": "11-01",
+              "y": 6073
+            },
+            {
+              "x": "11-02",
+              "y": 8619
+            },
+            {
+              "x": "11-03",
+              "y": 34471
+            },
+            {
+              "x": "11-04",
+              "y": 214095
+            },
+            {
+              "x": "11-05",
+              "y": 69411
+            }
+          ],
+          "cites": [
+            "views:en:Red_states_and_blue_states:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-05T00:00:25Z",
+      "until": "2026-11-05T00:00:48Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "69,411",
+          "value": 69411,
+          "color": "#9ab8cc",
+          "cites": [
+            "views:en:Red_states_and_blue_states:2026-11-05"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "1,602",
+          "value": 1602,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Rote_Staaten_und_blaue_Staaten:2026-11-05"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "1,203",
+          "value": 1203,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Estados_rojos_y_estados_azules:2026-11-05"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "859",
+          "value": 859,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:紅州與藍州:2026-11-05"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "661",
+          "value": 661,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:赤い州・青い州:2026-11-05"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "596",
+          "value": 596,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:États_rouges_et_États_bleus:2026-11-05"
+          ]
+        },
+        {
+          "label": "Persian",
+          "text": "98",
+          "value": 98,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:ایالت‌های_آبی_و_ایالت‌های_قرمز:2026-11-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-05T00:00:49Z",
+      "until": "2026-11-05T00:00:55Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384017607:69"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Red_states_and_blue_states:2026-11-05"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1190344:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-06T12:20:07Z",
+    "costUsd": 0.001353
+  }
+}

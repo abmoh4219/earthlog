@@ -206,21 +206,21 @@
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "The domain is operated by XYZ, which is based in Las Vegas, United States.",
+      "text": "The .xyz domain is operated by XYZ, which is headquartered in Las Vegas, United States.",
       "cites": [
         "wd:Q16049593:P137"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "Wikidata records the domain's founding in 2014.",
+      "text": "The .xyz domain was founded in 2014.",
       "cites": [
         "wd:Q16049593:P571"
       ]
     },
     {
       "t": "2026-11-04T00:00:29Z",
-      "text": "On 4 November 2026, 254,329 people read the English article about .xyz, about 4× the usual.",
+      "text": "English Wikipedia had 254,329 readers of .xyz on 4 November 2026, about 4× the usual.",
       "cites": [
         "views:en:.xyz:2026-11-04",
         "views:en:.xyz:prior"
@@ -228,16 +228,15 @@
     },
     {
       "t": "2026-11-04T00:00:36Z",
-      "text": "The article was read in 11 languages, and after English, Japanese and Russian each had 15 readers.",
+      "text": "The article is read in 11 languages, and after English, Japanese is the most common with 15 readers.",
       "cites": [
         "views:en:.xyz:2026-11-04",
-        "views:ja:.xyz:2026-11-04",
-        "views:ru:.xyz:2026-11-04"
+        "views:ja:.xyz:2026-11-04"
       ]
     },
     {
       "t": "2026-11-04T00:00:43Z",
-      "text": "Each language glows on the globe where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:ja:.xyz:2026-11-04",
         "views:ru:.xyz:2026-11-04",
@@ -249,7 +248,7 @@
     },
     {
       "t": "2026-11-04T00:00:53Z",
-      "text": "The information comes from Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:rev:1382089482:0",
         "views:en:.xyz:2026-11-04",
@@ -566,7 +565,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T07:02:58Z",
-    "costUsd": 0.001272
+    "at": "2026-11-06T12:23:11Z",
+    "costUsd": 0.001223
   }
 }

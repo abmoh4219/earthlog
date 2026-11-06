@@ -279,21 +279,21 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Susan Saint James died from pancreatic cancer at a hospital in Los Angeles on October 26, 2026, at the age of 80.",
+      "text": "Saint James died from pancreatic cancer at a hospital in Los Angeles on October 26, 2026, at the age of 80.",
       "cites": [
         "wiki:rev:1383321542:47"
       ]
     },
     {
       "t": "2026-11-02T00:00:09Z",
-      "text": "She was an American actress, born Susan Jane Miller, with the dates August 14, 1946 to October 26, 2026.",
+      "text": "She was an American actress, born Susan Jane Miller on August 14, 1946.",
       "cites": [
         "wiki:rev:1383321542:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:18Z",
-      "text": "Susan Saint James was born on 14 August 1946 in Los Angeles.",
+      "text": "She was born in Los Angeles on 14 August 1946.",
       "cites": [
         "wd:Q259559:P569",
         "wd:Q259559:P19"
@@ -307,18 +307,24 @@
       ]
     },
     {
+      "t": "2026-11-02T00:00:30Z",
+      "text": "Los Angeles was both her birthplace and the place where she died.",
+      "cites": [
+        "wd:Q259559:P19",
+        "wd:Q259559:P20"
+      ]
+    },
+    {
       "t": "2026-11-02T00:00:36Z",
-      "text": "4 awards are on record for her, including the Connecticut Women's Hall of Fame in 1994 and a star on the Hollywood Walk of Fame in 2008.",
+      "text": "Wikidata lists 4 awards on record, including the Connecticut Women's Hall of Fame (1994) and a star on the Hollywood Walk of Fame (2008).",
       "cites": [
         "wd:Q259559:P166:Q5161648",
-        "wd:Q259559:P166:Q17985761",
-        "wd:Q259559:P166:Q989450",
-        "wd:Q259559:P166:Q1285504"
+        "wd:Q259559:P166:Q17985761"
       ]
     },
     {
       "t": "2026-11-02T00:00:46Z",
-      "text": "Susan Saint James died on 26 October 2026 in Los Angeles, aged 80.",
+      "text": "She died on 26 October 2026 in Los Angeles, aged 80.",
       "cites": [
         "wd:Q259559:P570",
         "wd:Q259559:P20",
@@ -327,14 +333,14 @@
     },
     {
       "t": "2026-11-02T00:00:54Z",
-      "text": "Readers also turned to the article on Dick Ebersol, which drew 106,158 readers.",
+      "text": "Readers also looked at the article on Dick Ebersol, which drew 106,158 readers.",
       "cites": [
         "views:en:Dick_Ebersol:2026-11-02"
       ]
     },
     {
       "t": "2026-11-02T00:01:03Z",
-      "text": "On 2 November 2026, 252,010 people read the English article, about 350 times the usual median of 720 readers a day.",
+      "text": "The English article drew 252,010 readers on 2 November 2026, about 350 times its usual daily level.",
       "cites": [
         "views:en:Susan_Saint_James:2026-11-02",
         "views:en:Susan_Saint_James:prior"
@@ -342,7 +348,7 @@
     },
     {
       "t": "2026-11-02T00:01:10Z",
-      "text": "The article was read in 11 languages, and after English the most readers were in Spanish, with 1,242.",
+      "text": "The article was read in 11 languages, and after English, Spanish had the most readers, at 1,242.",
       "cites": [
         "views:en:Susan_Saint_James:2026-11-02",
         "views:es:Susan_Saint_James:2026-11-02"
@@ -350,7 +356,7 @@
     },
     {
       "t": "2026-11-02T00:01:17Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:es:Susan_Saint_James:2026-11-02",
         "views:de:Susan_Saint_James:2026-11-02",
@@ -362,7 +368,7 @@
     },
     {
       "t": "2026-11-02T00:01:27Z",
-      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "The figures come from Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
       "cites": [
         "wiki:rev:1383321542:47",
         "views:en:Susan_Saint_James:2026-11-02",
@@ -863,7 +869,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.002123
+    "at": "2026-11-06T00:00:00Z",
+    "costUsd": 0.002812
   }
 }

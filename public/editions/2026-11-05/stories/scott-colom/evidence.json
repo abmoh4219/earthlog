@@ -1,0 +1,203 @@
+[
+  {
+    "id": "views:en:Scott_Colom:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "English Wikipedia: 132,877 readers of \"Scott Colom\" on 5 Nov 2026",
+    "value": 132877,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Scott_Colom:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "\"Scott Colom\": normally a median of 439 readers a day (8 to 60 days before)",
+    "value": 439,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Cindy_Hyde-Smith:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "English Wikipedia: 81,671 readers of \"Cindy Hyde-Smith\" on 5 Nov 2026",
+    "value": 81671,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Cindy_Hyde-Smith:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "\"Cindy Hyde-Smith\": normally a median of 472 readers a day (8 to 60 days before)",
+    "value": 472,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q115492489:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "Wikidata: \"Scott Colom\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q115492489",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384062624:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scott Colom\" (revision of 2026-11-06 10:13 UTC)",
+    "quote": "His father, Wilbur Colom, also a lawyer, was the Republican nominee for state treasurer in 1987, and his mother, Dorothy Colom, was the first Black person elected to a Mississippi Chancery Courts judgeship in their district.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scott_Colom&oldid=1384062624"
+  },
+  {
+    "id": "wiki:rev:1384062624:4",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scott Colom\" (revision of 2026-11-06 10:13 UTC)",
+    "quote": "Colom earned a Bachelor of Arts with a double major in English and history from Millsaps College in 2005 and a Juris Doctor cum laude from the University of Wisconsin Law School in 2009.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scott_Colom&oldid=1384062624"
+  },
+  {
+    "id": "wiki:rev:1384062624:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scott Colom\" (revision of 2026-11-06 10:13 UTC)",
+    "quote": "Scott Winston Colom (; born December 24, 1982) is an American lawyer and politician serving since 2016 as district attorney for the 16th Judicial District of Mississippi.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scott_Colom&oldid=1384062624"
+  },
+  {
+    "id": "views:en:Scott_Colom:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Scott Colom\", 7 October 2026 to 5 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Scott_Colom&range=latest-30"
+  },
+  {
+    "id": "views:en:Cindy_Hyde-Smith:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Cindy Hyde-Smith\", 7 October 2026 to 5 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Cindy_Hyde-Smith&range=latest-30"
+  },
+  {
+    "id": "views:es:Scott_Colom:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 713 readers of \"Scott Colom\" on 5 November 2026",
+    "value": 713,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Scott_Colom"
+  },
+  {
+    "id": "views:fr:Scott_Colom:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 418 readers of \"Scott Colom\" on 5 November 2026",
+    "value": 418,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Scott_Colom"
+  },
+  {
+    "id": "views:he:סקוט_קולום:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Hebrew Wikipedia: 60 readers of \"סקוט קולום\" on 5 November 2026",
+    "value": 60,
+    "unit": "readers",
+    "url": "https://he.wikipedia.org/wiki/%D7%A1%D7%A7%D7%95%D7%98_%D7%A7%D7%95%D7%9C%D7%95%D7%9D"
+  },
+  {
+    "id": "views:ko:스콧_콜럼:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 21 readers of \"스콧 콜럼\" on 5 November 2026",
+    "value": 21,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%BD%A7_%EC%BD%9C%EB%9F%BC"
+  },
+  {
+    "id": "wd:Q115492489:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": born 24 December 1983",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P569"
+  },
+  {
+    "id": "wd:Q115492489:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": birthplace Columbus",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P19"
+  },
+  {
+    "id": "wd:Q115492489:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": occupation lawyer, judge",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P106"
+  },
+  {
+    "id": "wd:Q115492489:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P27"
+  },
+  {
+    "id": "wd:Q115492489:P69:Q6860022",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": educated at Millsaps College",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P69"
+  },
+  {
+    "id": "wd:Q115492489:P69:Q838330",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": educated at University of Wisconsin–Madison",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P69"
+  }
+]

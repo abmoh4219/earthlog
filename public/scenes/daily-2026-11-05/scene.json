@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-05",
+  "title": "The world on 5 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-05T00:00:00Z",
+    "end": "2026-11-06T00:00:00Z"
+  },
+  "focus": "2026-11-05T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-05",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "lon": 140,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T00:58:40Z",
+      "lon": 140,
+      "lat": 26.900000000000002,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T01:46:40Z",
+      "lon": 2.55,
+      "lat": 45.42,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T02:46:48Z",
+      "lon": 2.55,
+      "lat": 45.42,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T03:36:00Z",
+      "lon": 35.876274,
+      "lat": 31.261309,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T04:55:12Z",
+      "lon": 35.876274,
+      "lat": 31.261309,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T06:00:00Z",
+      "lon": 73.26666667,
+      "lat": 29.66,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T07:19:12Z",
+      "lon": 73.26666667,
+      "lat": 29.66,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T08:24:00Z",
+      "lon": 44.7,
+      "lat": 22.529999999999998,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T09:43:12Z",
+      "lon": 44.7,
+      "lat": 22.529999999999998,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T10:48:00Z",
+      "lon": 85.322,
+      "lat": 27.057,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T12:07:12Z",
+      "lon": 85.322,
+      "lat": 27.057,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T13:12:00Z",
+      "lon": -61.7,
+      "lat": 11.459999999999999,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T14:31:12Z",
+      "lon": -61.7,
+      "lat": 11.459999999999999,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T15:36:00Z",
+      "lon": -73.95,
+      "lat": 40.01,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T16:34:40Z",
+      "lon": -73.95,
+      "lat": 40.01,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T17:22:40Z",
+      "lon": -178.7145,
+      "lat": -22.0784,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T18:21:20Z",
+      "lon": -178.7145,
+      "lat": -22.0784,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-05T19:09:20Z",
+      "lon": -178.7145,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T20:56:00Z",
+      "lon": -178.7145,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T22:42:40Z",
+      "lon": -60.15,
+      "lat": -22.950000000000003,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-05T23:25:12Z",
+      "lon": -60.15,
+      "lat": -22.950000000000003,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": -60.15,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "speed": 800
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "text": "00:00 UTC. Super Typhoon In-fa at 28.1°N, 140.0°E, sustained winds of 75 knots.",
+      "cites": [
+        "eonet:EONET_25728:2026-11-05T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-05T01:46:40Z",
+      "text": "Politics: The syndicate of unions organizes a general strike across France, supported by the yellow vests movement, activists, and student protesters.",
+      "cites": [
+        "wiki:2026-11-05:9"
+      ]
+    },
+    {
+      "t": "2026-11-05T03:36:00Z",
+      "text": "Conflict: A police officer is killed and another injured in a stabbing attack outside the Sri Lankan embassy in Amman…",
+      "cites": [
+        "wiki:2026-11-05:1"
+      ]
+    },
+    {
+      "t": "2026-11-05T06:00:00Z",
+      "text": "Disaster: Eleven people are killed and 33 more injured after the collision of a passenger bus with a truck in Pakpattan District, Punjab, Pakistan.",
+      "cites": [
+        "wiki:2026-11-05:2"
+      ]
+    },
+    {
+      "t": "2026-11-05T08:24:00Z",
+      "text": "Sports: In golf, professional tour LIV Golf ceases operations after five seasons and liquidates its assets…",
+      "cites": [
+        "wiki:2026-11-05:15"
+      ]
+    },
+    {
+      "t": "2026-11-05T10:48:00Z",
+      "text": "Law & crime: The Nepali supreme court directs the government to regulate cannabis cultivation for medicinal, scientific, agricultural, horticultural…",
+      "cites": [
+        "wiki:2026-11-05:5"
+      ]
+    },
+    {
+      "t": "2026-11-05T13:12:00Z",
+      "text": "Politics: Grenadians vote to elect 15 members of the House of Representatives. Incumbent prime minister Dickon Mitchell wins a second consecutive NDC…",
+      "cites": [
+        "wiki:2026-11-05:10"
+      ]
+    },
+    {
+      "t": "2026-11-05T15:36:00Z",
+      "text": "Disaster: Six people are killed and nine more injured after a fire at a two-story home in Brooklyn, New York City, United States.",
+      "cites": [
+        "wiki:2026-11-05:3"
+      ]
+    },
+    {
+      "t": "2026-11-05T17:22:40Z",
+      "text": "17:21 UTC. The day's strongest earthquake: magnitude 6.1, 535 km deep, Fiji region.",
+      "cites": [
+        "usgs:us7000tw8r"
+      ]
+    },
+    {
+      "t": "2026-11-05T19:09:20Z",
+      "text": "Law & crime: The Mexican government approves the Digital Economy Act for Digital and Electronic Payments…",
+      "cites": [
+        "wiki:2026-11-05:6"
+      ]
+    },
+    {
+      "t": "2026-11-05T20:56:00Z",
+      "text": "19:00 UTC. Internet outage signal in Aruba: responsive address blocks down to 19% of normal.",
+      "cites": [
+        "ioda:AW:ping:2026-11-05T19:00Z",
+        "ioda:AW:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-05T22:42:40Z",
+      "text": "Politics: Paraguayan president Santiago Peña announces his resignation after the collapse of ueno bank…",
+      "cites": [
+        "wiki:2026-11-05:11"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-06T12:33:14Z"
+  }
+}

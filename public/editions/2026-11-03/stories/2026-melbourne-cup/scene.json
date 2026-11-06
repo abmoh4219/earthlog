@@ -127,40 +127,40 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:51Z",
-      "lon": 144.5948392822325,
-      "lat": -37.622641549409394,
-      "range": 1500000,
+      "t": "2026-11-03T00:00:53Z",
+      "lon": -111.83412881336254,
+      "lat": 28.43843864530431,
+      "range": 22000000,
       "heading": 0,
       "pitch": -55,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:54Z",
-      "lon": 144.5948392822325,
-      "lat": -37.622641549409394,
-      "range": 1358307.7707206125,
+      "t": "2026-11-03T00:00:55Z",
+      "lon": -111.83412881336254,
+      "lat": 28.43843864530431,
+      "range": 19921847.303902317,
       "heading": -9.7,
       "pitch": -52.5,
       "move": "glide"
     },
     {
       "t": "2026-11-03T00:00:57Z",
-      "lon": 144.5948392822325,
-      "lat": -37.622641549409394,
-      "range": 1230000,
+      "lon": -111.83412881336254,
+      "lat": 28.43843864530431,
+      "range": 18040000,
       "heading": -19.4,
       "pitch": -50,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:00Z",
+      "t": "2026-11-03T00:01:01Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 1430000,
       "heading": -10,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
       "t": "2026-11-03T00:01:03Z",
@@ -217,23 +217,15 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Point Of Law, trained by Ciaron Maher, won the 2026 Melbourne Cup, a thoroughbred race at Flemington Racecourse in Victoria, Australia.",
+      "text": "The 2026 Melbourne Cup, known commercially as the 2026 Lexus Melbourne Cup, was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
       "cites": [
-        "wiki:2026-11-03:13"
+        "wiki:rev:1383838055:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:08Z",
-      "text": "Zahrann and Juja Kibo, also trained by Maher, finished second and third.",
+      "t": "2026-11-03T00:00:12Z",
+      "text": "The race was run over 3200 m on 3 November 2026 at Melbourne's Flemington Racecourse.",
       "cites": [
-        "wiki:2026-11-03:13"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:15Z",
-      "text": "The 2026 Melbourne Cup was the 166th running of the race, held over 3200 metres on 3 November 2026 at Melbourne's Flemington Racecourse.",
-      "cites": [
-        "wiki:rev:1383838055:0",
         "wiki:rev:1383838055:1"
       ]
     },
@@ -246,7 +238,7 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Ethan Brown rode Point Of Law to victory, and Ciaron Maher trained the winner.",
+      "text": "Point Of Law won, ridden by Ethan Brown and trained by Ciaron Maher.",
       "cites": [
         "wiki:box:1383838055:winner",
         "wiki:box:1383838055:jockey",
@@ -255,28 +247,28 @@
     },
     {
       "t": "2026-11-03T00:00:41Z",
-      "text": "The attendance was 97,112 people.",
+      "text": "Attendance was 97,112.",
       "cites": [
         "wiki:box:1383838055:attendance"
       ]
     },
     {
       "t": "2026-11-03T00:00:50Z",
-      "text": "The reports also name Victoria, the Australian state where the race was held.",
+      "text": "Zahrann and Juja Kibo, also trained by Ciaron Maher, finished second and third.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
       "t": "2026-11-03T00:00:59Z",
-      "text": "The account of the race was reported by AFP.",
+      "text": "This summary draws on a sports report of the race.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
       "t": "2026-11-03T00:01:07Z",
-      "text": "This film draws on Wikipedia, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "Sources include Wikipedia, Wikimedia pageviews and Wikidata.",
       "cites": [
         "wiki:2026-11-03:13",
         "wiki:rev:1383838055:1",
@@ -380,9 +372,17 @@
       "kind": "facts",
       "items": [
         {
-          "label": "AFP",
+          "label": "The Washington Post",
           "text": "Open",
-          "url": "https://www.afp.com/en/king-charless-former-horse-point-law-wins-melbourne-cup",
+          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/michigan-senate-el-sayed-rogers-live-updates/",
+          "cites": [
+            "wiki:2026-11-03:13"
+          ]
+        },
+        {
+          "label": "Time",
+          "text": "Open",
+          "url": "https://time.com/article/2026/11/03/abdul-el-sayed-michigan-senate-2026-midterm-elections-mike-rogers/",
           "cites": [
             "wiki:2026-11-03:13"
           ]
@@ -435,7 +435,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:59:16Z",
-    "costUsd": 0.001583
+    "at": "2026-11-06T12:25:42Z",
+    "costUsd": 0.002235
   }
 }

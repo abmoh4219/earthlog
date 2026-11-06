@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:33Z"
+    "end": "2026-11-04T00:00:42Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -30,6 +30,11 @@
       "kind": "regions",
       "file": "data/regions.json",
       "from": "2026-11-04T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-04T00:00:18Z"
     }
   ],
   "camera": [
@@ -97,6 +102,33 @@
     },
     {
       "t": "2026-11-04T00:00:20Z",
+      "lon": 102.91655167541658,
+      "lat": 0.3417487884312876,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:23Z",
+      "lon": 102.91655167541658,
+      "lat": 0.3417487884312876,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "lon": 102.91655167541658,
+      "lat": 0.3417487884312876,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:29Z",
       "lon": 102,
       "lat": -0.6875,
       "range": 1430000,
@@ -105,25 +137,25 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:23Z",
+      "t": "2026-11-04T00:00:32Z",
       "lon": 102,
       "lat": -0.6875,
       "range": 1294920.0747536505,
-      "heading": -1.0999999999999996,
+      "heading": -18.9,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:25Z",
+      "t": "2026-11-04T00:00:34Z",
       "lon": 102,
       "lat": -0.6875,
       "range": 1172600,
-      "heading": 7.800000000000001,
+      "heading": -27.8,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:28Z",
+      "t": "2026-11-04T00:00:37Z",
       "lon": 102,
       "lat": -0.6875,
       "range": 2860000,
@@ -132,20 +164,20 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:29Z",
+      "t": "2026-11-04T00:00:38Z",
       "lon": 102,
       "lat": -0.6875,
       "range": 2345200,
-      "heading": -16.200000000000003,
+      "heading": 16.200000000000003,
       "pitch": -65,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:33Z",
+      "t": "2026-11-04T00:00:42Z",
       "lon": 77,
       "lat": -0.6875,
       "range": 14000000,
-      "heading": -16.200000000000003,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -159,28 +191,42 @@
   "beats": [
     {
       "t": "2026-11-04T00:00:01Z",
-      "text": "The Neil Gehrels Swift Observatory, a space telescope used to study gamma-ray bursts, is re-entering Earth's atmosphere over Sumatra, bringing its mission of nearly 22 years to an end.",
+      "text": "NASA's Neil Gehrels Swift Observatory, a space telescope used to study gamma-ray bursts, is re-entering Earth's atmosphere over Sumatra, ending a mission of nearly 22 years.",
+      "cites": [
+        "wiki:2026-11-04:5"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:05Z",
+      "text": "Separately, the Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers and permitting trials in absentia.",
       "cites": [
         "wiki:2026-11-04:5"
       ]
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "The reports place the re-entry over Sumatra, in Indonesia.",
+      "text": "The re-entry is reported over Sumatra, in Indonesia.",
       "cites": [
         "wiki:2026-11-04:5"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "The report comes from NASA's coverage of the observatory.",
+      "text": "Singapore is also named in the reports.",
       "cites": [
         "wiki:2026-11-04:5"
       ]
     },
     {
-      "t": "2026-11-04T00:00:27Z",
-      "text": "This explainer draws on Wikipedia's current events listing, and each caption links to the evidence it rests on.",
+      "t": "2026-11-04T00:00:28Z",
+      "text": "The story was reported by AFP.",
+      "cites": [
+        "wiki:2026-11-04:5"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:36Z",
+      "text": "This explainer draws on Wikipedia and Current events, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:5"
       ]
@@ -204,26 +250,30 @@
     },
     {
       "t": "2026-11-04T00:00:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
       "title": "Reported by"
     },
     {
-      "t": "2026-11-04T00:00:26Z",
+      "t": "2026-11-04T00:00:35Z",
       "title": "Sources"
     }
   ],
   "panels": [
     {
       "id": "sources",
-      "t": "2026-11-04T00:00:19Z",
-      "until": "2026-11-04T00:00:26Z",
+      "t": "2026-11-04T00:00:28Z",
+      "until": "2026-11-04T00:00:35Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
       "kind": "facts",
       "items": [
         {
-          "label": "NASA",
+          "label": "AFP",
           "text": "Open",
-          "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+          "url": "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines",
           "cites": [
             "wiki:2026-11-04:5"
           ]
@@ -232,8 +282,8 @@
     },
     {
       "id": "film-sources",
-      "t": "2026-11-04T00:00:27Z",
-      "until": "2026-11-04T00:00:33Z",
+      "t": "2026-11-04T00:00:36Z",
+      "until": "2026-11-04T00:00:42Z",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
       "kind": "facts",
@@ -252,7 +302,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T07:02:58Z",
-    "costUsd": 0.000456
+    "at": "2026-11-06T12:23:11Z",
+    "costUsd": 0.001616
   }
 }

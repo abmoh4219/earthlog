@@ -141,34 +141,34 @@
     "precision": "day"
   },
   {
-    "id": "wiki:rev:1383859577:1",
+    "id": "wiki:rev:1384060698:1",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-05 05:31 UTC)",
+    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-06 09:54 UTC)",
     "quote": "A member of the Democratic Party, she has represented the 49th district in the Texas House of Representatives since 2017.",
-    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1383859577"
+    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1384060698"
   },
   {
-    "id": "wiki:rev:1383859577:2",
+    "id": "wiki:rev:1384060698:2",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-05 05:31 UTC)",
-    "quote": "Before becoming a state legislator, Hinojosa was a labor and civil rights lawyer.",
-    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1383859577"
+    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-06 09:54 UTC)",
+    "quote": "Upon taking office, she is expected to become Texas's first Latina governor, after being declared the victor in the 2026 election.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1384060698"
   },
   {
-    "id": "wiki:rev:1383859577:0",
+    "id": "wiki:rev:1384060698:0",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-05 05:31 UTC)",
+    "label": "Wikipedia, \"Gina Hinojosa\" (revision of 2026-11-06 09:54 UTC)",
     "quote": "Regina Inez Hinojosa (;; born December 8, 1973) is an American politician and lawyer who is the governor-elect of Texas.",
-    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1383859577"
+    "url": "https://en.wikipedia.org/w/index.php?title=Gina_Hinojosa&oldid=1384060698"
   },
   {
     "id": "views:en:Gina_Hinojosa:30d",
@@ -298,17 +298,6 @@
     "value": 141,
     "unit": "readers",
     "url": "https://ar.wikipedia.org/wiki/%D8%AC%D9%8A%D9%86%D8%A7_%D9%87%D9%8A%D9%86%D9%88%D9%87%D9%88%D8%B3%D8%A7"
-  },
-  {
-    "id": "views:ko:지나_이노호사:2026-11-04",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-04T00:00:00Z",
-    "precision": "day",
-    "label": "Korean Wikipedia: 58 readers of \"지나 이노호사\" on 4 November 2026",
-    "value": 58,
-    "unit": "readers",
-    "url": "https://ko.wikipedia.org/wiki/%EC%A7%80%EB%82%98_%EC%9D%B4%EB%85%B8%ED%98%B8%EC%82%AC"
   },
   {
     "id": "wd:Q28314533:P569",

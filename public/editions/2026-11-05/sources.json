@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia, Current events",
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+    "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
+    "attribution": "Wikipedia contributors, Current events",
+    "retrievedAt": "2026-11-06T12:19:36Z"
+  },
+  {
+    "id": "wikimedia",
+    "name": "Wikimedia pageviews (most read)",
+    "url": "https://wikimedia.org/api/rest_v1/",
+    "license": "Pageview counts: CC0; article titles and descriptions: CC BY-SA 4.0",
+    "attribution": "Wikimedia Foundation",
+    "retrievedAt": "2026-11-06T12:19:36Z"
+  },
+  {
+    "id": "wikidata",
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0",
+    "attribution": "Wikidata contributors",
+    "retrievedAt": "2026-11-06T12:19:36Z"
+  }
+]

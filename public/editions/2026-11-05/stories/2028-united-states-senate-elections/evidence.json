@@ -1,0 +1,212 @@
+[
+  {
+    "id": "views:en:2028_United_States_Senate_elections:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "English Wikipedia: 111,686 readers of \"2028 United States Senate elections\" on 5 Nov 2026",
+    "value": 111686,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2028_United_States_Senate_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2028_United_States_Senate_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "\"2028 United States Senate elections\": normally a median of 2,267 readers a day (8 to 60 days before)",
+    "value": 2267,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2028_United_States_Senate_elections",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q115858135:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "Wikidata: \"2028 United States Senate elections\" is an instance of public election, legislative election",
+    "url": "https://www.wikidata.org/wiki/Q115858135",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384053890:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2028 United States Senate elections\" (revision of 2026-11-06 08:58 UTC)",
+    "quote": "A special election is expected to be held in Tennessee, to fill Marsha Blackburn's unexpired Senate term.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2028_United_States_Senate_elections&oldid=1384053890"
+  },
+  {
+    "id": "wiki:rev:1384053890:4",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2028 United States Senate elections\" (revision of 2026-11-06 08:58 UTC)",
+    "quote": "Democrats are defending five seats in states that voted for Donald Trump in 2024.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2028_United_States_Senate_elections&oldid=1384053890"
+  },
+  {
+    "id": "wiki:rev:1384053890:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2028 United States Senate elections\" (revision of 2026-11-06 08:58 UTC)",
+    "quote": "Senators are divided into three classes whose terms are staggered so that a different class is elected every other year.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2028_United_States_Senate_elections&oldid=1384053890"
+  },
+  {
+    "id": "views:en:2028_United_States_Senate_elections:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2028 United States Senate elections\", 7 October 2026 to 5 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2028_United_States_Senate_elections&range=latest-30"
+  },
+  {
+    "id": "views:tr:2028_Amerika_Birleşik_Devletleri_Senatosu_seçimleri:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Turkish Wikipedia: 18 readers of \"2028 Amerika Birleşik Devletleri Senatosu seçimleri\" on 5 November 2026",
+    "value": 18,
+    "unit": "readers",
+    "url": "https://tr.wikipedia.org/wiki/2028_Amerika_Birle%C5%9Fik_Devletleri_Senatosu_se%C3%A7imleri"
+  },
+  {
+    "id": "views:ko:2028년_미국_상원의원_선거:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 18 readers of \"2028년 미국 상원의원 선거\" on 5 November 2026",
+    "value": 18,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/2028%EB%85%84_%EB%AF%B8%EA%B5%AD_%EC%83%81%EC%9B%90%EC%9D%98%EC%9B%90_%EC%84%A0%EA%B1%B0"
+  },
+  {
+    "id": "wd:Q115858135:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2028 United States Senate elections\": date 7 November 2028",
+    "url": "https://www.wikidata.org/wiki/Q115858135#P585"
+  },
+  {
+    "id": "wd:Q115858135:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2028 United States Senate elections\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q115858135#P17"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:the-senate-table",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Senate races: 20 won by Democrats, 13 by Republicans, 2 not yet called",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-ia",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Iowa: Democratic gain, Josh Turek",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-nc",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): North Carolina: Democratic gain, Roy Cooper",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-ks",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Kansas: Democratic gain, Adam Hamilton",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-me",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Maine: Democratic gain, Troy Jackson",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-oh-special",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Ohio: Democratic gain, Sherrod Brown",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-sc",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): South Carolina: Democratic gain, Annie Andrews",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-tx",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Texas: Democratic gain, James Talarico",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
+  },
+  {
+    "id": "elex:2026-united-states-gubernatorial-elections:governors-table",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-06 11:05 UTC): governor's races: 0 won by Democrats, 0 by Republicans, 36 not yet called",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1384067477"
+  },
+  {
+    "id": "elex:2026-united-states-house-of-representatives-elections:house-table",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-06 11:11 UTC): race tables: 246 districts won by Democrats, 154 by Republicans, 29 not yet called, 52 changed party",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1384068004"
+  },
+  {
+    "id": "elex:2026-united-states-house-of-representatives-elections:house-infobox",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-06 11:11 UTC): House seats: Democrats 253, Republicans 157; 218 for a majority (last updated 9:00 PM, November 5, 2026)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1384068004"
+  }
+]

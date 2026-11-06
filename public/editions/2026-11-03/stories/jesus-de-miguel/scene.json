@@ -279,28 +279,29 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "In association football, CD Tenerife striker Jesús de Miguel died the day after an in-game collision with FC Andorra goalkeeper Jesús Owono.",
+      "text": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono, which caused him to go into cardiac arrest.",
+      "cites": [
+        "wiki:rev:1384009398:26"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "text": "Jesús de Miguel Alameda, a Spanish striker born on 21 September 1996, died on 3 November 2026, the day after the collision.",
+      "cites": [
+        "wiki:rev:1384009398:0",
+        "wiki:2026-11-03:12"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:15Z",
+      "text": "Separately, several states elected their first Democratic representatives in decades, including Adam Hamilton, the first Democrat to win a Kansas Senate seat since 1932.",
       "cites": [
         "wiki:2026-11-03:12"
       ]
     },
     {
-      "t": "2026-11-03T00:00:08Z",
-      "text": "According to Wikipedia, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono on 2 November 2026, which caused him to go into cardiac arrest.",
-      "cites": [
-        "wiki:rev:1383799981:26"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:15Z",
-      "text": "Jesús de Miguel Alameda, born 21 September 1996 and died 3 November 2026, was a Spanish professional footballer who played as a striker.",
-      "cites": [
-        "wiki:rev:1383799981:0"
-      ]
-    },
-    {
       "t": "2026-11-03T00:00:25Z",
-      "text": "He was born on 21 September 1996 in Madrid.",
+      "text": "Jesús de Miguel Alameda was born on 21 September 1996 in Madrid.",
       "cites": [
         "wd:Q116992476:P569",
         "wd:Q116992476:P19"
@@ -308,7 +309,7 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "Between 2015 and 2026 he played for 8 clubs, moving from CD Leganés B to C.D. Tenerife.",
+      "text": "Between 2015 and 2026 he played for 8 clubs, beginning with CD Leganés B and ending with C.D. Tenerife.",
       "cites": [
         "wd:Q116992476:P54:Q9196665",
         "wd:Q116992476:P54:Q9008987",
@@ -331,7 +332,7 @@
     },
     {
       "t": "2026-11-03T00:00:51Z",
-      "text": "Readers also turned to the articles on Jesús Owono, with 297,789 readers, and CD Tenerife, with 70,752.",
+      "text": "Readers also looked up Jesús Owono, with 297,789 readers, and CD Tenerife, with 70,752, on 3 November 2026.",
       "cites": [
         "views:en:Jesús_Owono:2026-11-03",
         "views:en:CD_Tenerife:2026-11-03"
@@ -339,7 +340,7 @@
     },
     {
       "t": "2026-11-03T00:01:00Z",
-      "text": "On 3 November 2026, 585,060 people read about him, while in the weeks before, a median of 4 people a day did.",
+      "text": "The English article drew 585,060 readers on 3 November 2026, while in the weeks before it had almost no readers, a median of 4 a day.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-03",
         "views:en:Jesús_de_Miguel:prior"
@@ -347,7 +348,7 @@
     },
     {
       "t": "2026-11-03T00:01:07Z",
-      "text": "The article was read in 8 languages, and after English, Spanish was the most common with 367,049 readers.",
+      "text": "The article was read in 8 languages, and after English the most readers were in Spanish, with 367,049.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-03",
         "views:es:Jesús_de_Miguel_Alameda:2026-11-03"
@@ -367,17 +368,17 @@
     },
     {
       "t": "2026-11-03T00:01:24Z",
-      "text": "The report was published by CNN.",
+      "text": "The story was reported by NBC News and Axios.",
       "cites": [
         "wiki:2026-11-03:12"
       ]
     },
     {
       "t": "2026-11-03T00:01:32Z",
-      "text": "Sources are Wikipedia current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:12",
-        "wiki:rev:1383799981:26",
+        "wiki:rev:1384009398:26",
         "views:en:Jesús_de_Miguel:2026-11-03",
         "wd:Q116992476:P31"
       ]
@@ -980,9 +981,17 @@
       "kind": "facts",
       "items": [
         {
-          "label": "CNN",
+          "label": "NBC News",
           "text": "Open",
-          "url": "https://www.cnn.com/2026/11/03/sport/jesus-de-miguel-spain-dies-after-on-pitch-collision",
+          "url": "https://www.nbcnews.com/politics/2026-election/adam-hamilton-kansas-senate-democrat-winner-upset-roger-marshall-rcna603310",
+          "cites": [
+            "wiki:2026-11-03:12"
+          ]
+        },
+        {
+          "label": "Axios",
+          "text": "Open",
+          "url": "https://www.axios.com/local/san-antonio/2026/11/04/texas-governor-race-results-hinojosa-abbott",
           "cites": [
             "wiki:2026-11-03:12"
           ]
@@ -1010,7 +1019,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1383799981:26"
+            "wiki:rev:1384009398:26"
           ]
         },
         {
@@ -1035,7 +1044,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:59:16Z",
-    "costUsd": 0.003129
+    "at": "2026-11-06T12:25:42Z",
+    "costUsd": 0.003988
   }
 }

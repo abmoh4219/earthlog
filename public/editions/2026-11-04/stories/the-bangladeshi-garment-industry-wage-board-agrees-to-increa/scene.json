@@ -188,7 +188,7 @@
   "beats": [
     {
       "t": "2026-11-04T00:00:01Z",
-      "text": "The Bangladeshi garment industry wage board has agreed to raise minimum wages, following five days of worker protests and clashes with police.",
+      "text": "After five days of worker protests and clashes with police, the Bangladeshi garment industry wage board agreed to raise minimum wages.",
       "cites": [
         "wiki:2026-11-04:1"
       ]
@@ -202,7 +202,7 @@
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "Inflation in Bangladesh fell to 8.8% in 2025, from 10.5% in 2024.",
+      "text": "Inflation in Bangladesh fell to 8.8% in 2025, down from 10.5% in 2024.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:BD"
       ]
@@ -217,21 +217,21 @@
     },
     {
       "t": "2026-11-04T00:00:29Z",
-      "text": "Across South Asia, Bangladesh's 8.8% inflation compares with a median of 2.7%, and is the highest figure in the region.",
+      "text": "In the latest-year figures for South Asia, Bangladesh's 8.8% inflation is the highest, ahead of Bhutan at 3.6% and Nepal at 2.7%.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:region:south-asia"
       ]
     },
     {
       "t": "2026-11-04T00:00:43Z",
-      "text": "This report comes from AFP.",
+      "text": "This account draws on a current events summary from Wikipedia.",
       "cites": [
         "wiki:2026-11-04:1"
       ]
     },
     {
       "t": "2026-11-04T00:00:51Z",
-      "text": "The sources are Wikipedia's current events page and World Bank Open Data, from the World Development Indicators.",
+      "text": "The sources are Wikipedia current events and World Bank Open Data from the World Development Indicators, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:1",
         "wb:FP.CPI.TOTL.ZG:region:south-asia"
@@ -590,9 +590,9 @@
       "kind": "facts",
       "items": [
         {
-          "label": "AFP",
+          "label": "Sudan Tribune",
           "text": "Open",
-          "url": "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests",
+          "url": "https://sudantribune.com/article/320888",
           "cites": [
             "wiki:2026-11-04:1"
           ]
@@ -629,7 +629,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T07:02:58Z",
-    "costUsd": 0.000782
+    "at": "2026-11-06T12:23:11Z",
+    "costUsd": 0.001389
   }
 }

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "views:en:Red_states_and_blue_states:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "English Wikipedia: 69,411 readers of \"Red states and blue states\" on 5 Nov 2026",
+    "value": 69411,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Red_states_and_blue_states",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Red_states_and_blue_states:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "\"Red states and blue states\": normally a median of 2,116 readers a day (8 to 60 days before)",
+    "value": 2116,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Red_states_and_blue_states",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q1190344:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "Wikidata: \"red states and blue states\" is an instance of term",
+    "url": "https://www.wikidata.org/wiki/Q1190344",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384017607:69",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Red states and blue states\" (revision of 2026-11-06 04:27 UTC)",
+    "quote": "In 2023, Humanities Magazine published an article, \"Red Map, Blue Map\" discussing the work of political geographer, Kenneth C. Martis about his work to map every congressional district and color-code them by political party from the first Congress onward.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Red_states_and_blue_states&oldid=1384017607"
+  },
+  {
+    "id": "wiki:rev:1384017607:70",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Red states and blue states\" (revision of 2026-11-06 04:27 UTC)",
+    "quote": "The Historical Atlas of Political Parties in the United States Congress: 1789-1989, published in 1989, was the first to map all U.S. congressional elections for every state and district by the political party affiliation of each person elected to Congress.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Red_states_and_blue_states&oldid=1384017607"
+  },
+  {
+    "id": "wiki:rev:1384017607:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Red states and blue states\" (revision of 2026-11-06 04:27 UTC)",
+    "quote": "Starting with the 2000 United States presidential election, the term red state has been used to refer to states which predominantly vote for the Republican Party, and the term blue state has been used to refer to states which predominantly vote for the Democratic Party.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Red_states_and_blue_states&oldid=1384017607"
+  },
+  {
+    "id": "views:en:Red_states_and_blue_states:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Red states and blue states\", 7 October 2026 to 5 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Red_states_and_blue_states&range=latest-30"
+  },
+  {
+    "id": "views:de:Rote_Staaten_und_blaue_Staaten:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 1,602 readers of \"Rote Staaten und blaue Staaten\" on 5 November 2026",
+    "value": 1602,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Rote_Staaten_und_blaue_Staaten"
+  },
+  {
+    "id": "views:es:Estados_rojos_y_estados_azules:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 1,203 readers of \"Estados rojos y estados azules\" on 5 November 2026",
+    "value": 1203,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Estados_rojos_y_estados_azules"
+  },
+  {
+    "id": "views:zh:紅州與藍州:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 859 readers of \"紅州與藍州\" on 5 November 2026",
+    "value": 859,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%85%E5%B7%9E%E8%88%87%E8%97%8D%E5%B7%9E"
+  },
+  {
+    "id": "views:ja:赤い州・青い州:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 661 readers of \"赤い州・青い州\" on 5 November 2026",
+    "value": 661,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E3%81%84%E5%B7%9E%E3%83%BB%E9%9D%92%E3%81%84%E5%B7%9E"
+  },
+  {
+    "id": "views:fr:États_rouges_et_États_bleus:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 596 readers of \"États rouges et États bleus\" on 5 November 2026",
+    "value": 596,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89tats_rouges_et_%C3%89tats_bleus"
+  },
+  {
+    "id": "views:fa:ایالت‌های_آبی_و_ایالت‌های_قرمز:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 98 readers of \"ایالت‌های آبی و ایالت‌های قرمز\" on 5 November 2026",
+    "value": 98,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%A7%D9%84%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%A2%D8%A8%DB%8C_%D9%88_%D8%A7%DB%8C%D8%A7%D9%84%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%82%D8%B1%D9%85%D8%B2"
+  },
+  {
+    "id": "views:ar:الولايات_الحمراء_والولايات_الزرقاء:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 76 readers of \"الولايات الحمراء والولايات الزرقاء\" on 5 November 2026",
+    "value": 76,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%AD%D9%85%D8%B1%D8%A7%D8%A1_%D9%88%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%B2%D8%B1%D9%82%D8%A7%D8%A1"
+  },
+  {
+    "id": "views:uk:Червоні_штати_та_сині_штати:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Ukrainian Wikipedia: 41 readers of \"Червоні штати та сині штати\" on 5 November 2026",
+    "value": 41,
+    "unit": "readers",
+    "url": "https://uk.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D1%96_%D1%88%D1%82%D0%B0%D1%82%D0%B8_%D1%82%D0%B0_%D1%81%D0%B8%D0%BD%D1%96_%D1%88%D1%82%D0%B0%D1%82%D0%B8"
+  },
+  {
+    "id": "views:pt:Estados_vermelhos_e_estados_azuis:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 38 readers of \"Estados vermelhos e estados azuis\" on 5 November 2026",
+    "value": 38,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Estados_vermelhos_e_estados_azuis"
+  },
+  {
+    "id": "views:ko:적색주와_청색주:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 16 readers of \"적색주와 청색주\" on 5 November 2026",
+    "value": 16,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/%EC%A0%81%EC%83%89%EC%A3%BC%EC%99%80_%EC%B2%AD%EC%83%89%EC%A3%BC"
+  }
+]

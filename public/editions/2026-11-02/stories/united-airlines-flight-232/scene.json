@@ -323,14 +323,14 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Often called \"The Impossible Landing\", it is considered one of the most impressive landings in the history of aviation.",
+      "text": "According to the article, the flight has been termed \"The Impossible Landing\", as it is considered one of the most impressive landings in the history of aviation.",
       "cites": [
         "wiki:rev:1383099056:6"
       ]
     },
     {
       "t": "2026-11-02T00:00:09Z",
-      "text": "United Airlines Flight 232 was a scheduled flight from Denver's Stapleton International Airport to Chicago's O'Hare International Airport, continuing to Philadelphia.",
+      "text": "United Airlines Flight 232 was a regularly scheduled flight from Stapleton International Airport in Denver to O'Hare International Airport in Chicago, continuing to Philadelphia.",
       "cites": [
         "wiki:rev:1383099056:0"
       ]
@@ -345,7 +345,7 @@
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "The site lies about 770 km from Stapleton International Airport in a straight line, with about 1,790 km still to go.",
+      "text": "It came down about 770 km from Stapleton International Airport in a straight line, with about 1,790 km still to go.",
       "cites": [
         "wiki:box:1383099056:origin",
         "wiki:box:1383099056:destination",
@@ -354,7 +354,7 @@
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "At Sioux Gateway Airport, an uncontained engine failure caused by fan disk separation led to loss of hydraulics and loss of control.",
+      "text": "At Sioux Gateway Airport, an uncontained engine failure caused by fan disk separation led to a loss of hydraulics and a loss of control.",
       "cites": [
         "wiki:box:1383099056:summary",
         "wiki:box:1383099056:coordinates"
@@ -362,7 +362,7 @@
     },
     {
       "t": "2026-11-02T00:00:42Z",
-      "text": "The aircraft was a McDonnell Douglas DC-10-10 operated by United Airlines; the type, built by McDonnell Douglas, first flew in 1970.",
+      "text": "The aircraft was a McDonnell Douglas DC-10-10, operated by United Airlines, a type built by McDonnell Douglas that first flew in 1970.",
       "cites": [
         "wiki:box:1383099056:aircraft",
         "wd:Q208075:P176",
@@ -381,7 +381,7 @@
     },
     {
       "t": "2026-11-02T00:01:02Z",
-      "text": "Flight 232 left Stapleton International Airport in Denver at 14:09 Central Daylight Time, bound for O'Hare in Chicago with continuing service to Philadelphia.",
+      "text": "Flight 232 departed Stapleton International Airport in Denver at 14:09 Central Daylight Time, en route to O'Hare in Chicago, with continuing service to Philadelphia.",
       "cites": [
         "wiki:timeline:1383099056:0"
       ]
@@ -395,7 +395,7 @@
     },
     {
       "t": "2026-11-02T00:01:16Z",
-      "text": "Senior flight attendant Jan Brown Lohr relayed the message to the flight crew, who invited Fitch into the cockpit; he began assisting at about 15:29.",
+      "text": "Senior flight attendant Jan Brown Lohr relayed the message to the flight crew, who invited Fitch into the cockpit, and he began assisting at about 15:29.",
       "cites": [
         "wiki:timeline:1383099056:2"
       ]
@@ -409,21 +409,21 @@
     },
     {
       "t": "2026-11-02T00:01:31Z",
-      "text": "General Electric, the engine's manufacturer, offered rewards of $50,000 for the disk and $1,000 for each fan blade.",
+      "text": "The engine's manufacturer, General Electric, offered rewards of $50,000 for the disk and $1,000 for each fan blade.",
       "cites": [
         "wiki:investigation:1383099056:1"
       ]
     },
     {
       "t": "2026-11-02T00:01:38Z",
-      "text": "Three months after the crash, a farmer found most of the fan disk, with several blades still attached, in her cornfield, qualifying her for a reward, as a General Electric lawyer confirmed.",
+      "text": "Three months after the crash, a farmer found most of the fan disk, with several blades still attached, in her cornfield, and a General Electric lawyer confirmed this qualified her for a reward.",
       "cites": [
         "wiki:investigation:1383099056:2"
       ]
     },
     {
       "t": "2026-11-02T00:01:46Z",
-      "text": "English Wikipedia recorded 51,857 readers of the article on 2 November 2026, about 39 times the usual.",
+      "text": "English Wikipedia recorded 51,857 readers of the article on 2 November 2026, about 39× the usual.",
       "cites": [
         "views:en:United_Airlines_Flight_232:2026-11-02",
         "views:en:United_Airlines_Flight_232:prior"
@@ -431,7 +431,7 @@
     },
     {
       "t": "2026-11-02T00:01:53Z",
-      "text": "The article was read in 11 languages; after English, the most readers were in Japanese, with 167.",
+      "text": "The article was read in 11 languages, and after English, Japanese had the most readers, at 167.",
       "cites": [
         "views:en:United_Airlines_Flight_232:2026-11-02",
         "views:ja:ユナイテッド航空232便不時着事故:2026-11-02"
@@ -875,7 +875,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.002635
+    "at": "2026-11-06T00:00:00Z",
+    "costUsd": 0.002728
   }
 }

@@ -93,39 +93,6 @@
     "url": "https://de.wikipedia.org/wiki/Tag_der_Toten"
   },
   {
-    "id": "views:fr:Jour_des_morts_(Mexique):2026-11-02",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-02T00:00:00Z",
-    "precision": "day",
-    "label": "French Wikipedia: 2,418 readers of \"Jour des morts (Mexique)\" on 2 November 2026",
-    "value": 2418,
-    "unit": "readers",
-    "url": "https://fr.wikipedia.org/wiki/Jour_des_morts_(Mexique)"
-  },
-  {
-    "id": "views:pt:Dia_dos_Mortos:2026-11-02",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-02T00:00:00Z",
-    "precision": "day",
-    "label": "Portuguese Wikipedia: 2,306 readers of \"Dia dos Mortos\" on 2 November 2026",
-    "value": 2306,
-    "unit": "readers",
-    "url": "https://pt.wikipedia.org/wiki/Dia_dos_Mortos"
-  },
-  {
-    "id": "views:it:Giorno_dei_morti_(America):2026-11-02",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-02T00:00:00Z",
-    "precision": "day",
-    "label": "Italian Wikipedia: 2,168 readers of \"Giorno dei morti (America)\" on 2 November 2026",
-    "value": 2168,
-    "unit": "readers",
-    "url": "https://it.wikipedia.org/wiki/Giorno_dei_morti_(America)"
-  },
-  {
     "id": "views:ja:死者の日_(メキシコ):2026-11-02",
     "kind": "sensor",
     "source": "wikimedia",
@@ -135,50 +102,6 @@
     "value": 1679,
     "unit": "readers",
     "url": "https://ja.wikipedia.org/wiki/%E6%AD%BB%E8%80%85%E3%81%AE%E6%97%A5_(%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3)"
-  },
-  {
-    "id": "views:ru:День_мёртвых:2026-11-02",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-02T00:00:00Z",
-    "precision": "day",
-    "label": "Russian Wikipedia: 1,449 readers of \"День мёртвых\" on 2 November 2026",
-    "value": 1449,
-    "unit": "readers",
-    "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D1%8C_%D0%BC%D1%91%D1%80%D1%82%D0%B2%D1%8B%D1%85"
-  },
-  {
-    "id": "views:zh:亡灵节:2026-11-02",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-02T00:00:00Z",
-    "precision": "day",
-    "label": "Chinese Wikipedia: 1,169 readers of \"亡灵节\" on 2 November 2026",
-    "value": 1169,
-    "unit": "readers",
-    "url": "https://zh.wikipedia.org/wiki/%E4%BA%A1%E7%81%B5%E8%8A%82"
-  },
-  {
-    "id": "views:pl:Dzień_Zmarłych:2026-11-02",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-02T00:00:00Z",
-    "precision": "day",
-    "label": "Polish Wikipedia: 568 readers of \"Dzień Zmarłych\" on 2 November 2026",
-    "value": 568,
-    "unit": "readers",
-    "url": "https://pl.wikipedia.org/wiki/Dzie%C5%84_Zmar%C5%82ych"
-  },
-  {
-    "id": "views:ar:يوم_الموتى:2026-11-02",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-02T00:00:00Z",
-    "precision": "day",
-    "label": "Arabic Wikipedia: 67 readers of \"يوم الموتى\" on 2 November 2026",
-    "value": 67,
-    "unit": "readers",
-    "url": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%85%D9%88%D8%AA%D9%89"
   },
   {
     "id": "wd:Q309256:P17",

@@ -252,28 +252,22 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Ciara Mageean died at Belfast's Marie Curie Hospice on 1 November 2026, aged 34.",
+      "text": "Ciara Mageean, an Irish middle-distance runner born on 12 March 1992, died at Belfast's Marie Curie Hospice on 1 November 2026, aged 34.",
       "cites": [
-        "wiki:rev:1383711885:43"
+        "wiki:rev:1383711885:43",
+        "wiki:rev:1383711885:0"
       ]
     },
     {
-      "t": "2026-11-02T00:00:08Z",
-      "text": "Her funeral was held on 3 November at St Patrick's Church in Portaferry, and she was buried in the adjoining cemetery.",
+      "t": "2026-11-02T00:00:12Z",
+      "text": "Her funeral took place on 3 November at St Patrick's Church in Portaferry, and she was buried in the adjoining cemetery.",
       "cites": [
         "wiki:rev:1383711885:44"
       ]
     },
     {
-      "t": "2026-11-02T00:00:15Z",
-      "text": "Mageean was an Irish middle-distance runner, born on 12 March 1992.",
-      "cites": [
-        "wiki:rev:1383711885:0"
-      ]
-    },
-    {
       "t": "2026-11-02T00:00:25Z",
-      "text": "Ciara Mageean was born on 12 March 1992 in Portaferry.",
+      "text": "She was born on 12 March 1992 in Portaferry.",
       "cites": [
         "wd:Q2913482:P569",
         "wd:Q2913482:P19"
@@ -281,11 +275,9 @@
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "She was educated at University College Dublin, where she also played for the university, and she lived in Belfast.",
+      "text": "She was educated at University College Dublin.",
       "cites": [
-        "wd:Q2913482:P69:Q1068258",
-        "wd:Q2913482:P54:Q1068258",
-        "wd:Q2913482:P551:Q10686"
+        "wd:Q2913482:P69:Q1068258"
       ]
     },
     {
@@ -299,7 +291,7 @@
     },
     {
       "t": "2026-11-02T00:01:00Z",
-      "text": "On 2 November 2026, 59,386 people read the English article, about 928 times the usual level.",
+      "text": "On 2 November 2026, 59,386 people read about it, about 928 times the usual daily figure of 64.",
       "cites": [
         "views:en:Ciara_Mageean:2026-11-02",
         "views:en:Ciara_Mageean:prior"
@@ -307,7 +299,7 @@
     },
     {
       "t": "2026-11-02T00:01:07Z",
-      "text": "The article was read in 9 languages, and after English, German was the most read, with 31,245 readers.",
+      "text": "The article was read in 9 languages, and after English, German was the most common with 31,245 readers.",
       "cites": [
         "views:en:Ciara_Mageean:2026-11-02",
         "views:de:Ciara_Mageean:2026-11-02"
@@ -315,7 +307,7 @@
     },
     {
       "t": "2026-11-02T00:01:14Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:de:Ciara_Mageean:2026-11-02",
         "views:fr:Ciara_Mageean:2026-11-02",
@@ -327,7 +319,7 @@
     },
     {
       "t": "2026-11-02T00:01:24Z",
-      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "Sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
       "cites": [
         "wiki:rev:1383711885:43",
         "views:en:Ciara_Mageean:2026-11-02",
@@ -671,7 +663,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.003346
+    "at": "2026-11-06T00:00:00Z",
+    "costUsd": 0.002858
   }
 }

@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:01:37Z"
+    "end": "2026-11-04T00:01:33Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -25,13 +25,13 @@
       "kind": "regions",
       "file": "data/regions-curiosity.json",
       "name": "curiosity",
-      "from": "2026-11-04T00:01:06Z"
+      "from": "2026-11-04T00:01:02Z"
     },
     {
       "kind": "columns",
       "file": "data/columns-curiosity.json",
       "name": "curiosity",
-      "from": "2026-11-04T00:01:06Z"
+      "from": "2026-11-04T00:01:02Z"
     },
     {
       "kind": "regions",
@@ -45,14 +45,14 @@
       "file": "data/regions-governors.json",
       "name": "governors",
       "from": "2026-11-04T00:00:38Z",
-      "until": "2026-11-04T00:00:52Z"
+      "until": "2026-11-04T00:00:48Z"
     },
     {
       "kind": "regions",
       "file": "data/regions-house.json",
       "name": "house",
-      "from": "2026-11-04T00:00:52Z",
-      "until": "2026-11-04T00:01:06Z"
+      "from": "2026-11-04T00:00:48Z",
+      "until": "2026-11-04T00:01:02Z"
     }
   ],
   "camera": [
@@ -128,7 +128,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:46Z",
+      "t": "2026-11-04T00:00:44Z",
       "lon": -97,
       "lat": 34.5,
       "range": 5946831.088907773,
@@ -137,7 +137,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:51Z",
+      "t": "2026-11-04T00:00:47Z",
       "lon": -97,
       "lat": 34.5,
       "range": 5704000,
@@ -146,7 +146,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:54Z",
+      "t": "2026-11-04T00:00:50Z",
       "lon": -97,
       "lat": 34.5,
       "range": 5704000,
@@ -155,7 +155,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:00Z",
+      "t": "2026-11-04T00:00:56Z",
       "lon": -97,
       "lat": 34.5,
       "range": 5471084.601795151,
@@ -164,7 +164,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:05Z",
+      "t": "2026-11-04T00:01:01Z",
       "lon": -97,
       "lat": 34.5,
       "range": 5247680,
@@ -173,7 +173,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:10Z",
+      "t": "2026-11-04T00:01:06Z",
       "lon": 82.55002448487004,
       "lat": 44.88985093986894,
       "range": 18733128.848254703,
@@ -182,7 +182,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:01:20Z",
+      "t": "2026-11-04T00:01:16Z",
       "lon": 82.55002448487004,
       "lat": 44.88985093986894,
       "range": 16963569.656329893,
@@ -191,7 +191,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:29Z",
+      "t": "2026-11-04T00:01:25Z",
       "lon": 82.55002448487004,
       "lat": 44.88985093986894,
       "range": 15361165.655568855,
@@ -200,7 +200,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:33Z",
+      "t": "2026-11-04T00:01:29Z",
       "lon": -97.48,
       "lat": 37.415,
       "range": 8840000,
@@ -209,7 +209,7 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-04T00:01:34Z",
+      "t": "2026-11-04T00:01:30Z",
       "lon": -97.48,
       "lat": 37.415,
       "range": 7248800,
@@ -218,7 +218,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:01:37Z",
+      "t": "2026-11-04T00:01:33Z",
       "lon": -122.48000000000002,
       "lat": 37.415,
       "range": 21746400,
@@ -238,33 +238,33 @@
       "t": "2026-11-04T00:00:01Z",
       "text": "A special election is expected to be held in Tennessee to fill Marsha Blackburn's unexpired Senate term.",
       "cites": [
-        "wiki:rev:1383846666:2"
+        "wiki:rev:1384053890:2"
       ]
     },
     {
       "t": "2026-11-04T00:00:08Z",
       "text": "Democrats are defending five seats in states that voted for Donald Trump in 2024.",
       "cites": [
-        "wiki:rev:1383846666:4"
+        "wiki:rev:1384053890:4"
       ]
     },
     {
       "t": "2026-11-04T00:00:15Z",
-      "text": "Senators are divided into three classes, with staggered terms so that a different class is elected every other year.",
+      "text": "Senators serve in three classes, with terms staggered so that a different class is elected every other year.",
       "cites": [
-        "wiki:rev:1383846666:0"
+        "wiki:rev:1384053890:0"
       ]
     },
     {
       "t": "2026-11-04T00:00:25Z",
-      "text": "Across 35 Senate races this year, Democrats won 20, Republicans won 13, and 2 have not yet been called.",
+      "text": "Of this year's 35 Senate races, Democrats won 20 and Republicans 13, with 2 not yet called.",
       "cites": [
         "elex:2026-united-states-senate-elections:the-senate-table"
       ]
     },
     {
       "t": "2026-11-04T00:00:31Z",
-      "text": "Democrats gained seats in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
+      "text": "Democrats made gains in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
       "cites": [
         "elex:2026-united-states-senate-elections:senate-ia",
         "elex:2026-united-states-senate-elections:senate-nc",
@@ -277,46 +277,35 @@
     },
     {
       "t": "2026-11-04T00:00:39Z",
-      "text": "Across 36 governor's races this year, Democrats won 22, Republicans won 12, and 2 have not yet been called.",
+      "text": "Of this year's 36 governor's races, Democrats won 0, Republicans won 0, and 36 are not yet called.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-table"
       ]
     },
     {
-      "t": "2026-11-04T00:00:45Z",
-      "text": "Democrats gained governorships in Georgia, Iowa, Nevada, Ohio and Texas.",
-      "cites": [
-        "elex:2026-united-states-gubernatorial-elections:governors-ga",
-        "elex:2026-united-states-gubernatorial-elections:governors-ia",
-        "elex:2026-united-states-gubernatorial-elections:governors-nv",
-        "elex:2026-united-states-gubernatorial-elections:governors-oh",
-        "elex:2026-united-states-gubernatorial-elections:governors-tx"
-      ]
-    },
-    {
-      "t": "2026-11-04T00:00:53Z",
-      "text": "In the House, Democrats hold 251 seats and Republicans hold 153, with 31 still to be called; 218 seats make a majority.",
+      "t": "2026-11-04T00:00:49Z",
+      "text": "In the House, Democrats hold 253 seats and Republicans 157, with 25 still to be called; 218 seats make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
-      "t": "2026-11-04T00:00:59Z",
-      "text": "In the race tables, 41 districts changed party and 49 are not yet called.",
+      "t": "2026-11-04T00:00:55Z",
+      "text": "In the race tables, 52 districts changed party and 29 are not yet called.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
-      "t": "2026-11-04T00:01:07Z",
-      "text": "On 4 November 2026, 244,552 people read the English article, about 109 times the usual daily readership.",
+      "t": "2026-11-04T00:01:03Z",
+      "text": "The English article drew 244,552 readers on 4 November 2026, about 109 times its usual level.",
       "cites": [
         "views:en:2028_United_States_Senate_elections:2026-11-04",
         "views:en:2028_United_States_Senate_elections:prior"
       ]
     },
     {
-      "t": "2026-11-04T00:01:14Z",
+      "t": "2026-11-04T00:01:10Z",
       "text": "The article was read in 3 languages, and after English, Turkish had the most readers with 79.",
       "cites": [
         "views:en:2028_United_States_Senate_elections:2026-11-04",
@@ -324,7 +313,7 @@
       ]
     },
     {
-      "t": "2026-11-04T00:01:21Z",
+      "t": "2026-11-04T00:01:17Z",
       "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:tr:2028_Amerika_Birleşik_Devletleri_Senatosu_seçimleri:2026-11-04",
@@ -332,10 +321,10 @@
       ]
     },
     {
-      "t": "2026-11-04T00:01:31Z",
+      "t": "2026-11-04T00:01:27Z",
       "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1383846666:2",
+        "wiki:rev:1384053890:2",
         "views:en:2028_United_States_Senate_elections:2026-11-04",
         "wd:Q115858135:P31"
       ]
@@ -362,15 +351,15 @@
       "title": "Governors"
     },
     {
-      "t": "2026-11-04T00:00:52Z",
+      "t": "2026-11-04T00:00:48Z",
       "title": "The House"
     },
     {
-      "t": "2026-11-04T00:01:06Z",
+      "t": "2026-11-04T00:01:02Z",
       "title": "Readers"
     },
     {
-      "t": "2026-11-04T00:01:30Z",
+      "t": "2026-11-04T00:01:26Z",
       "title": "Sources"
     }
   ],
@@ -380,7 +369,7 @@
       "t": "2026-11-04T00:00:25Z",
       "until": "2026-11-04T00:00:38Z",
       "title": "Senate races won",
-      "note": "As recorded by Wikipedia at 04:55 UTC, 2026-11-05. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 06:02 UTC, 2026-11-06. Called or projected, not certified.",
       "kind": "bars",
       "unit": "races",
       "items": [
@@ -470,15 +459,15 @@
     {
       "id": "governors-tally",
       "t": "2026-11-04T00:00:39Z",
-      "until": "2026-11-04T00:00:52Z",
+      "until": "2026-11-04T00:00:48Z",
       "title": "Governor's races won",
-      "note": "As recorded by Wikipedia at 05:47 UTC, 2026-11-05. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 11:05 UTC, 2026-11-06. Called or projected, not certified.",
       "kind": "bars",
       "unit": "races",
       "items": [
         {
           "label": "Democratic",
-          "value": 22,
+          "value": 0,
           "color": "#4a8cf7",
           "cites": [
             "elex:2026-united-states-gubernatorial-elections:governors-table"
@@ -486,7 +475,7 @@
         },
         {
           "label": "Republican",
-          "value": 12,
+          "value": 0,
           "color": "#ec5a52",
           "cites": [
             "elex:2026-united-states-gubernatorial-elections:governors-table"
@@ -494,7 +483,7 @@
         },
         {
           "label": "Not yet called",
-          "value": 2,
+          "value": 36,
           "color": "#8a96a3",
           "cites": [
             "elex:2026-united-states-gubernatorial-elections:governors-table"
@@ -503,68 +492,19 @@
       ]
     },
     {
-      "id": "governors-flips",
-      "t": "2026-11-04T00:00:39Z",
-      "until": "2026-11-04T00:00:52Z",
-      "title": "Seats that changed party",
-      "kind": "facts",
-      "items": [
-        {
-          "label": "Georgia",
-          "text": "Democratic gain · Keisha Lance Bottoms",
-          "color": "#4a8cf7",
-          "cites": [
-            "elex:2026-united-states-gubernatorial-elections:governors-ga"
-          ]
-        },
-        {
-          "label": "Iowa",
-          "text": "Democratic gain · Rob Sand",
-          "color": "#4a8cf7",
-          "cites": [
-            "elex:2026-united-states-gubernatorial-elections:governors-ia"
-          ]
-        },
-        {
-          "label": "Nevada",
-          "text": "Democratic gain · Aaron Ford",
-          "color": "#4a8cf7",
-          "cites": [
-            "elex:2026-united-states-gubernatorial-elections:governors-nv"
-          ]
-        },
-        {
-          "label": "Ohio",
-          "text": "Democratic gain · Amy Acton",
-          "color": "#4a8cf7",
-          "cites": [
-            "elex:2026-united-states-gubernatorial-elections:governors-oh"
-          ]
-        },
-        {
-          "label": "Texas",
-          "text": "Democratic gain · Gina Hinojosa",
-          "color": "#4a8cf7",
-          "cites": [
-            "elex:2026-united-states-gubernatorial-elections:governors-tx"
-          ]
-        }
-      ]
-    },
-    {
       "id": "house-seats",
-      "t": "2026-11-04T00:00:53Z",
-      "until": "2026-11-04T00:01:06Z",
+      "t": "2026-11-04T00:00:49Z",
+      "until": "2026-11-04T00:01:02Z",
       "title": "The new House",
-      "note": "One dot per seat. Infobox as of 7:00 PM, November 4, 2026; called or projected, not certified.",
+      "note": "One dot per seat. Infobox as of 9:00 PM, November 5, 2026; called or projected, not certified.",
       "kind": "seats",
       "total": 435,
       "majority": 218,
       "items": [
         {
           "label": "Democratic",
-          "text": "251 (was 214)",
-          "value": 251,
+          "text": "253 (was 214)",
+          "value": 253,
           "color": "#4a8cf7",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -572,8 +512,8 @@
         },
         {
           "label": "Republican",
-          "text": "153 (was 218)",
-          "value": 153,
+          "text": "157 (was 218)",
+          "value": 157,
           "color": "#ec5a52",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -581,7 +521,7 @@
         },
         {
           "label": "Not yet called",
-          "value": 31,
+          "value": 25,
           "color": "#8a96a3",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -591,8 +531,8 @@
     },
     {
       "id": "readers",
-      "t": "2026-11-04T00:01:07Z",
-      "until": "2026-11-04T00:01:30Z",
+      "t": "2026-11-04T00:01:03Z",
+      "until": "2026-11-04T00:01:26Z",
       "title": "Readers on English Wikipedia",
       "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
       "kind": "line",
@@ -732,8 +672,8 @@
     },
     {
       "id": "languages",
-      "t": "2026-11-04T00:01:07Z",
-      "until": "2026-11-04T00:01:30Z",
+      "t": "2026-11-04T00:01:03Z",
+      "until": "2026-11-04T00:01:26Z",
       "title": "Readers by language",
       "note": "Wikipedia language editions that day. A language is not a country.",
       "kind": "bars",
@@ -770,8 +710,8 @@
     },
     {
       "id": "film-sources",
-      "t": "2026-11-04T00:01:31Z",
-      "until": "2026-11-04T00:01:37Z",
+      "t": "2026-11-04T00:01:27Z",
+      "until": "2026-11-04T00:01:33Z",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
       "kind": "facts",
@@ -781,7 +721,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1383846666:2"
+            "wiki:rev:1384053890:2"
           ]
         },
         {
@@ -806,7 +746,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T07:02:58Z",
-    "costUsd": 0.00145
+    "at": "2026-11-06T12:23:11Z",
+    "costUsd": 0.002216
   }
 }

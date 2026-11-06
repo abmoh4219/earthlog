@@ -1,0 +1,744 @@
+{
+  "version": 1,
+  "id": "story-2026-11-05-guy-fawkes-night",
+  "title": "Guy Fawkes Night",
+  "subtitle": "News · 5 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-05T00:00:00Z",
+    "end": "2026-11-05T00:01:22Z"
+  },
+  "focus": "2026-11-05T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -12.120000000000001,
+    "south": 46.4,
+    "east": 7.88,
+    "north": 62.4
+  },
+  "imagery": {
+    "day": "2026-11-05",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-05T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-05T00:00:24Z",
+      "until": "2026-11-05T00:00:51Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:00:51Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:00:51Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "lon": 35.879999999999995,
+      "lat": 31.365,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T00:00:04Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:14Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:23Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:26Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:29Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:31Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:34Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 3400000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:38Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 3078830.9469667217,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:41Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 2788000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:44Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6800000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:47Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6157661.893933443,
+      "heading": 2.3000000000000007,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:50Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 5576000,
+      "heading": -7.399999999999999,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:54Z",
+      "lon": 33.165270635068524,
+      "lat": 44.749583537049226,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:04Z",
+      "lon": 33.165270635068524,
+      "lat": 44.749583537049226,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:14Z",
+      "lon": 33.165270635068524,
+      "lat": 44.749583537049226,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:18Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:19Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:22Z",
+      "lon": -27.120000000000005,
+      "lat": 52.275,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-05T00:00:01Z",
+      "text": "Guy Fawkes Night, also called Guy Fawkes Day, Bonfire Night or Fireworks Night, is an annual commemoration on 5 November, mainly in Great Britain.",
+      "cites": [
+        "wiki:rev:1383991104:0"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:08Z",
+      "text": "According to the article, a local ban on fireworks in 1843 was largely ignored, and attempts to suppress the celebrations led to violent protests and several injured police constables.",
+      "cites": [
+        "wiki:rev:1383991104:66"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:15Z",
+      "text": "Towards the end of the 18th century, children began begging for money with effigies of Guy Fawkes, and 5 November gradually became known as Guy Fawkes Day.",
+      "cites": [
+        "wiki:rev:1383991104:8"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:33Z",
+      "text": "The event was founded on 5 November 1605 and is associated with the United Kingdom.",
+      "cites": [
+        "wd:Q844844:P571",
+        "wd:Q844844:P17"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:43Z",
+      "text": "Readers also turned to the Guy Fawkes article, which drew 133,874 readers.",
+      "cites": [
+        "views:en:Guy_Fawkes:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:52Z",
+      "text": "On 5 November 2026, 136,878 people read the English article, about 110 times the usual level.",
+      "cites": [
+        "views:en:Guy_Fawkes_Night:2026-11-05",
+        "views:en:Guy_Fawkes_Night:prior"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:59Z",
+      "text": "The article was read in 11 languages, and after English, the most readers were in Russian, with 3,190.",
+      "cites": [
+        "views:en:Guy_Fawkes_Night:2026-11-05",
+        "views:ru:Ночь_Гая_Фокса:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:06Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not the same as a country.",
+      "cites": [
+        "views:ru:Ночь_Гая_Фокса:2026-11-05",
+        "views:ja:ガイ・フォークス・ナイト:2026-11-05",
+        "views:es:Noche_de_Guy_Fawkes:2026-11-05",
+        "views:it:Guy_Fawkes_Night:2026-11-05",
+        "views:pl:Dzień_Guya_Fawkesa:2026-11-05",
+        "views:fr:Guy_Fawkes_Night:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:16Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption is linked to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383991104:0",
+        "views:en:Guy_Fawkes_Night:2026-11-05",
+        "wd:Q844844:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -2.12,
+    "lat": 54.4,
+    "label": "United Kingdom"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-05T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-05T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-05T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-05T00:00:51Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-05T00:01:15Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-05T00:00:33Z",
+      "until": "2026-11-05T00:00:42Z",
+      "title": "On record: Guy Fawkes Night",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "5 November 1605",
+          "cites": [
+            "wd:Q844844:P571"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "United Kingdom",
+          "cites": [
+            "wd:Q844844:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-05T00:00:52Z",
+      "until": "2026-11-05T00:01:15Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Guy Fawkes Night",
+          "color": "#9ab8cc",
+          "points": [
+            {
+              "x": "10-07",
+              "y": 1351
+            },
+            {
+              "x": "10-08",
+              "y": 1418
+            },
+            {
+              "x": "10-09",
+              "y": 1399
+            },
+            {
+              "x": "10-10",
+              "y": 1398
+            },
+            {
+              "x": "10-11",
+              "y": 1400
+            },
+            {
+              "x": "10-12",
+              "y": 1626
+            },
+            {
+              "x": "10-13",
+              "y": 1466
+            },
+            {
+              "x": "10-14",
+              "y": 1564
+            },
+            {
+              "x": "10-15",
+              "y": 1754
+            },
+            {
+              "x": "10-16",
+              "y": 1580
+            },
+            {
+              "x": "10-17",
+              "y": 1788
+            },
+            {
+              "x": "10-18",
+              "y": 1885
+            },
+            {
+              "x": "10-19",
+              "y": 1883
+            },
+            {
+              "x": "10-20",
+              "y": 1758
+            },
+            {
+              "x": "10-21",
+              "y": 1821
+            },
+            {
+              "x": "10-22",
+              "y": 1852
+            },
+            {
+              "x": "10-23",
+              "y": 1895
+            },
+            {
+              "x": "10-24",
+              "y": 1698
+            },
+            {
+              "x": "10-25",
+              "y": 2292
+            },
+            {
+              "x": "10-26",
+              "y": 3020
+            },
+            {
+              "x": "10-27",
+              "y": 3028
+            },
+            {
+              "x": "10-28",
+              "y": 3253
+            },
+            {
+              "x": "10-29",
+              "y": 3756
+            },
+            {
+              "x": "10-30",
+              "y": 4824
+            },
+            {
+              "x": "10-31",
+              "y": 7425
+            },
+            {
+              "x": "11-01",
+              "y": 9731
+            },
+            {
+              "x": "11-02",
+              "y": 9553
+            },
+            {
+              "x": "11-03",
+              "y": 10204
+            },
+            {
+              "x": "11-04",
+              "y": 20473
+            },
+            {
+              "x": "11-05",
+              "y": 136878
+            }
+          ],
+          "cites": [
+            "views:en:Guy_Fawkes_Night:30d"
+          ]
+        },
+        {
+          "label": "Guy Fawkes",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-07",
+              "y": 2370
+            },
+            {
+              "x": "10-08",
+              "y": 2525
+            },
+            {
+              "x": "10-09",
+              "y": 2555
+            },
+            {
+              "x": "10-10",
+              "y": 2360
+            },
+            {
+              "x": "10-11",
+              "y": 2559
+            },
+            {
+              "x": "10-12",
+              "y": 2764
+            },
+            {
+              "x": "10-13",
+              "y": 2688
+            },
+            {
+              "x": "10-14",
+              "y": 2545
+            },
+            {
+              "x": "10-15",
+              "y": 2695
+            },
+            {
+              "x": "10-16",
+              "y": 2440
+            },
+            {
+              "x": "10-17",
+              "y": 2931
+            },
+            {
+              "x": "10-18",
+              "y": 3099
+            },
+            {
+              "x": "10-19",
+              "y": 3240
+            },
+            {
+              "x": "10-20",
+              "y": 3600
+            },
+            {
+              "x": "10-21",
+              "y": 3201
+            },
+            {
+              "x": "10-22",
+              "y": 3139
+            },
+            {
+              "x": "10-23",
+              "y": 3275
+            },
+            {
+              "x": "10-24",
+              "y": 3070
+            },
+            {
+              "x": "10-25",
+              "y": 3535
+            },
+            {
+              "x": "10-26",
+              "y": 4089
+            },
+            {
+              "x": "10-27",
+              "y": 4036
+            },
+            {
+              "x": "10-28",
+              "y": 4449
+            },
+            {
+              "x": "10-29",
+              "y": 5029
+            },
+            {
+              "x": "10-30",
+              "y": 6207
+            },
+            {
+              "x": "10-31",
+              "y": 8816
+            },
+            {
+              "x": "11-01",
+              "y": 15740
+            },
+            {
+              "x": "11-02",
+              "y": 12378
+            },
+            {
+              "x": "11-03",
+              "y": 12502
+            },
+            {
+              "x": "11-04",
+              "y": 21842
+            },
+            {
+              "x": "11-05",
+              "y": 133874
+            }
+          ],
+          "cites": [
+            "views:en:Guy_Fawkes:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-05T00:00:52Z",
+      "until": "2026-11-05T00:01:15Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "136,878",
+          "value": 136878,
+          "color": "#9ab8cc",
+          "cites": [
+            "views:en:Guy_Fawkes_Night:2026-11-05"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "3,190",
+          "value": 3190,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Ночь_Гая_Фокса:2026-11-05"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "2,835",
+          "value": 2835,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:ガイ・フォークス・ナイト:2026-11-05"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "2,420",
+          "value": 2420,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Noche_de_Guy_Fawkes:2026-11-05"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "2,420",
+          "value": 2420,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Guy_Fawkes_Night:2026-11-05"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "2,155",
+          "value": 2155,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Dzień_Guya_Fawkesa:2026-11-05"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "2,009",
+          "value": 2009,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Guy_Fawkes_Night:2026-11-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-05T00:01:16Z",
+      "until": "2026-11-05T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383991104:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Guy_Fawkes_Night:2026-11-05"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q844844:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-06T12:20:07Z",
+    "costUsd": 0.003501
+  }
+}

@@ -218,28 +218,28 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Unidentified attackers ambushed a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three Zamfara Community Protection Guard members.",
+      "text": "According to the report, unidentified attackers ambushed a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
       "t": "2026-11-03T00:00:09Z",
-      "text": "The article notes that the most impacted states are in the Nigerian Middle Belt, including Benue, Taraba and Plateau.",
+      "text": "As the article records, the most impacted states are in Nigeria's Middle Belt, including Benue, Taraba and Plateau.",
       "cites": [
         "wiki:rev:1383141847:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:18Z",
-      "text": "The reports place the attack in Zamfara State, Nigeria.",
+      "text": "The reports place the ambush in Zamfara State, Nigeria.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
       "t": "2026-11-03T00:00:26Z",
-      "text": "The article lists three sides: Christians, Adara, Berom, Jukun, Tiv and Tarok farmers; Muslims, Fulani and Hausa herders; and the Nigerian Armed Forces and Nigeria Police Force.",
+      "text": "The article lists three sides: Christians, Adara, Berom, Jukun, Tiv and Tarok farmers; Muslims, Fulani and Hausa herders; and the Nigerian Armed Forces with the Nigeria Police Force.",
       "cites": [
         "wiki:box:1383141847:side-1",
         "wiki:box:1383141847:side-2",
@@ -248,14 +248,14 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "The status is recorded as ongoing.",
+      "text": "As the article records, the status is ongoing.",
       "cites": [
         "wiki:box:1383141847:status"
       ]
     },
     {
       "t": "2026-11-03T00:00:40Z",
-      "text": "As the article records, casualties on side 1 are 4,877–28,551 civilians killed, and on side 2 they are 10,519 civilians killed.",
+      "text": "According to the article, casualties attributed to side 1 are 4,877–28,551 civilians killed, and casualties attributed to side 2 are 10,519 civilians killed.",
       "cites": [
         "wiki:box:1383141847:casualties-side-1-",
         "wiki:box:1383141847:casualties-side-2-"
@@ -263,7 +263,7 @@
     },
     {
       "t": "2026-11-03T00:00:49Z",
-      "text": "Nigeria is also named in the reports.",
+      "text": "The reports also name Nigeria.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
@@ -277,7 +277,7 @@
     },
     {
       "t": "2026-11-03T00:01:06Z",
-      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:2",
         "wiki:rev:1383141847:0",
@@ -443,7 +443,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:59:16Z",
-    "costUsd": 0.001625
+    "at": "2026-11-06T12:25:42Z",
+    "costUsd": 0.002034
   }
 }

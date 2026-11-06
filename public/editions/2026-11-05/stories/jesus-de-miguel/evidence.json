@@ -1,0 +1,309 @@
+[
+  {
+    "id": "views:en:Jesús_de_Miguel:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "English Wikipedia: 72,137 readers of \"Jesús de Miguel\" on 5 Nov 2026",
+    "value": 72137,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jesús_de_Miguel:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "\"Jesús de Miguel\": normally a median of 4 readers a day (8 to 60 days before)",
+    "value": 4,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q116992476:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "Wikidata: \"Jesús de Miguel Alameda\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q116992476",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384009398:26",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jesús de Miguel\" (revision of 2026-11-06 03:13 UTC)",
+    "quote": "On 2 November 2026, de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono which caused him to go into cardiac arrest.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jes%C3%BAs_de_Miguel&oldid=1384009398"
+  },
+  {
+    "id": "wiki:rev:1384009398:33",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jesús de Miguel\" (revision of 2026-11-06 03:13 UTC)",
+    "quote": "His funeral was held on 5 November at the Parish Church of Saint Michael the Archangel in Navahermosa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jes%C3%BAs_de_Miguel&oldid=1384009398"
+  },
+  {
+    "id": "wiki:rev:1384009398:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jesús de Miguel\" (revision of 2026-11-06 03:13 UTC)",
+    "quote": "Jesús de Miguel Alameda (21 September 1996 – 3 November 2026) was a Spanish professional footballer who played as a striker.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jes%C3%BAs_de_Miguel&oldid=1384009398"
+  },
+  {
+    "id": "views:en:Jesús_de_Miguel:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jesús de Miguel\", 7 October 2026 to 5 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jes%C3%BAs_de_Miguel&range=latest-30"
+  },
+  {
+    "id": "views:es:Jesús_de_Miguel_Alameda:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 30,814 readers of \"Jesús de Miguel Alameda\" on 5 November 2026",
+    "value": 30814,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel_Alameda"
+  },
+  {
+    "id": "views:fr:Jesús_de_Miguel:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 11,317 readers of \"Jesús de Miguel\" on 5 November 2026",
+    "value": 11317,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
+    "id": "views:de:Jesús_de_Miguel:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 11,268 readers of \"Jesús de Miguel\" on 5 November 2026",
+    "value": 11268,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
+    "id": "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 7,392 readers of \"Де Мигель, Хесус (футболист)\" on 5 November 2026",
+    "value": 7392,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5_%D0%9C%D0%B8%D0%B3%D0%B5%D0%BB%D1%8C%2C_%D0%A5%D0%B5%D1%81%D1%83%D1%81_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%B8%D1%81%D1%82)"
+  },
+  {
+    "id": "views:fa:خسوس_د_میگل:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 5,873 readers of \"خسوس د میگل\" on 5 November 2026",
+    "value": 5873,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%AE%D8%B3%D9%88%D8%B3_%D8%AF_%D9%85%DB%8C%DA%AF%D9%84"
+  },
+  {
+    "id": "views:ar:خيسوس_دي_ميغيل:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 3,319 readers of \"خيسوس دي ميغيل\" on 5 November 2026",
+    "value": 3319,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AE%D9%8A%D8%B3%D9%88%D8%B3_%D8%AF%D9%8A_%D9%85%D9%8A%D8%BA%D9%8A%D9%84"
+  },
+  {
+    "id": "views:pt:Jesús_de_Miguel:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 2,162 readers of \"Jesús de Miguel\" on 5 November 2026",
+    "value": 2162,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
+    "id": "views:nl:Jesús_de_Miguel:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 2,053 readers of \"Jesús de Miguel\" on 5 November 2026",
+    "value": 2053,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
+    "id": "views:zh:赫苏斯·德米格尔:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 1,480 readers of \"赫苏斯·德米格尔\" on 5 November 2026",
+    "value": 1480,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E8%B5%AB%E8%8B%8F%E6%96%AF%C2%B7%E5%BE%B7%E7%B1%B3%E6%A0%BC%E5%B0%94"
+  },
+  {
+    "id": "views:tr:Jesús_de_Miguel:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Turkish Wikipedia: 1,283 readers of \"Jesús de Miguel\" on 5 November 2026",
+    "value": 1283,
+    "unit": "readers",
+    "url": "https://tr.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel"
+  },
+  {
+    "id": "wd:Q116992476:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": born 21 September 1996",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P569"
+  },
+  {
+    "id": "wd:Q116992476:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": birthplace Madrid",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P19"
+  },
+  {
+    "id": "wd:Q116992476:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": died 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P570"
+  },
+  {
+    "id": "wd:Q116992476:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": place of death Hospital Universitario Nuestra Señora de Candelaria",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P20"
+  },
+  {
+    "id": "wd:Q116992476:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": occupation association football player",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P106"
+  },
+  {
+    "id": "wd:Q116992476:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": citizenship Spain",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P27"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q9196665",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for CD Leganés B (2015–16)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q9008987",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for Internacional de Madrid CF (2017–18)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q108708",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for CF Fuenlabrada (2018–19)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q4651246",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for AD Unión Adarve Barrio del Pilar (2019)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q840620",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for CDA Navalcarnero (2019–21)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q20278773",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for Unionistas de Salamanca CF (2021–23)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q743557",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for CD Castellón (2023–25)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q216661",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel Alameda\": played for C.D. Tenerife (2025–26)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  }
+]

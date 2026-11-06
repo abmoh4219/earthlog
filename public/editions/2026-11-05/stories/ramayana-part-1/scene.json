@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "id": "story-2026-11-05-ramayana-part-1",
+  "title": "Ramayana: Part 1",
+  "subtitle": "Culture · 5 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-05T00:00:00Z",
+    "end": "2026-11-05T00:01:49Z"
+  },
+  "focus": "2026-11-05T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 69.36,
+    "south": 14.690000000000001,
+    "east": 89.36,
+    "north": 30.69
+  },
+  "imagery": {
+    "day": "2026-11-05",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:01:18Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:01:18Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-05T00:00:24Z",
+      "until": "2026-11-05T00:00:42Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-filming.json",
+      "name": "filming",
+      "from": "2026-11-05T00:00:42Z",
+      "until": "2026-11-05T00:01:00Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-filming.json",
+      "name": "filming",
+      "from": "2026-11-05T00:00:42Z",
+      "until": "2026-11-05T00:01:00Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-05T00:01:00Z",
+      "until": "2026-11-05T00:01:18Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-people.json",
+      "name": "people",
+      "from": "2026-11-05T00:01:00Z",
+      "until": "2026-11-05T00:01:18Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "lon": 117.36000000000001,
+      "lat": 12.339,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T00:00:04Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:14Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:23Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:28Z",
+      "lon": -0.141841,
+      "lat": 49.321113999999994,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:35Z",
+      "lon": -0.141841,
+      "lat": 49.321113999999994,
+      "range": 1629969.324864735,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:41Z",
+      "lon": -0.141841,
+      "lat": 49.321113999999994,
+      "range": 1476000,
+      "heading": -12,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:46Z",
+      "lon": 75.8698368885147,
+      "lat": 20.915638221368113,
+      "range": 4091324.0228612465,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:53Z",
+      "lon": 75.8698368885147,
+      "lat": 20.915638221368113,
+      "range": 3704851.4751922316,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:00Z",
+      "lon": 75.8698368885147,
+      "lat": 20.915638221368113,
+      "range": 3354885.698746222,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:04Z",
+      "lon": 65.11662308629556,
+      "lat": 28.583327921231017,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:11Z",
+      "lon": 65.11662308629556,
+      "lat": 28.583327921231017,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:18Z",
+      "lon": 65.11662308629556,
+      "lat": 28.583327921231017,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:22Z",
+      "lon": 74.91703918875842,
+      "lat": 34.689864206344396,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:32Z",
+      "lon": 74.91703918875842,
+      "lat": 34.689864206344396,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:42Z",
+      "lon": 74.91703918875842,
+      "lat": 34.689864206344396,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:45Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:46Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8004960.462113476,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:47Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:49Z",
+      "lon": 54.360000000000014,
+      "lat": 20.565,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-05T00:00:01Z",
+      "text": "Ramayana: Part 1 premiered at the Academy Museum of Motion Pictures on 27 October 2026, and was released worldwide on 5 November, coinciding with the Diwali holidays.",
+      "cites": [
+        "wiki:rev:1384067639:8"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:08Z",
+      "text": "It was theatrically released on 5 November 2026.",
+      "cites": [
+        "wiki:rev:1384067639:112"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:15Z",
+      "text": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film, directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan.",
+      "cites": [
+        "wiki:rev:1384067639:0"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:25Z",
+      "text": "Ramayana: Part 1 stars Ranbir Kapoor, Yash, Sai Pallavi and Ravi Dubey, among others, with music by Hans Zimmer and A. R. Rahman.",
+      "cites": [
+        "wiki:box:1384067639:starring",
+        "wiki:box:1384067639:music"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:33Z",
+      "text": "It was released on 27 October 2026 at the Academy Museum and on 5 November 2026 in India, and according to Wikipedia its box office is ₹150.94 crore.",
+      "cites": [
+        "wiki:box:1384067639:released",
+        "wiki:box:1384067639:box-office"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:43Z",
+      "text": "Principal photography for the first part began on 2 April in Film City, Mumbai, and a second schedule commenced in Mumbai on 30 April.",
+      "cites": [
+        "wiki:film:1384067639:1",
+        "wiki:film:1384067639:6"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:51Z",
+      "text": "According to the article, the filming took place in Film City, Ayodhya and Mumbai.",
+      "cites": [
+        "wiki:film:1384067639:1",
+        "wiki:film:1384067639:2",
+        "wiki:film:1384067639:6"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:01Z",
+      "text": "6 of the people credited have a birthplace on record, and 5 of them were born in India.",
+      "cites": [
+        "wd:Q108560:P19",
+        "wd:Q16908467:P19",
+        "wd:Q20081051:P19",
+        "wd:Q7296622:P19",
+        "wd:Q76364:P19",
+        "wd:Q944546:P19"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:09Z",
+      "text": "Hans Zimmer was born further afield, in Frankfurt, Germany.",
+      "cites": [
+        "wd:Q76364:P19"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:19Z",
+      "text": "On 5 November 2026, 609,307 people read the English article, about 79× the usual daily readership.",
+      "cites": [
+        "views:en:Ramayana:_Part_1:2026-11-05",
+        "views:en:Ramayana:_Part_1:prior"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:26Z",
+      "text": "The article was read in 10 languages, and after English the most readers were on Hindi Wikipedia, with 25,321.",
+      "cites": [
+        "views:en:Ramayana:_Part_1:2026-11-05",
+        "views:hi:रामायणम्_(2026_फिल्म):2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:33Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:hi:रामायणम्_(2026_फिल्म):2026-11-05",
+        "views:de:Ramayana:_Rise_of_a_Legend:2026-11-05",
+        "views:fr:Ramayana_:_L'Avènement_d'une_légende:2026-11-05",
+        "views:bn:রামায়ণ:_পার্ট_ওয়ান:2026-11-05",
+        "views:te:రామాయణం_(2026_సినిమా):2026-11-05",
+        "views:zh:羅摩衍那：傳奇崛起:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:43Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption cites the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384067639:8",
+        "views:en:Ramayana:_Part_1:2026-11-05",
+        "wd:Q135196186:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IN",
+    "lon": 79.36,
+    "lat": 22.69,
+    "label": "India"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-05T00:00:24Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-05T00:00:42Z",
+      "title": "Where it was filmed"
+    },
+    {
+      "t": "2026-11-05T00:01:00Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-05T00:01:18Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-05T00:01:42Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-05T00:00:25Z",
+      "until": "2026-11-05T00:00:42Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-06).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Directed by",
+          "text": "Nitesh Tiwari",
+          "cites": [
+            "wiki:box:1384067639:directed-by"
+          ]
+        },
+        {
+          "label": "Starring",
+          "text": "Ranbir Kapoor, Yash, Sai Pallavi, Ravi Dubey and 1 more",
+          "cites": [
+            "wiki:box:1384067639:starring"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Hans Zimmer, A. R. Rahman",
+          "cites": [
+            "wiki:box:1384067639:music"
+          ]
+        },
+        {
+          "label": "Based on",
+          "text": "Ramayana by Valmiki",
+          "cites": [
+            "wiki:box:1384067639:based-on"
+          ]
+        },
+        {
+          "label": "Studio",
+          "text": "Prime Focus Studios, Monster Mind Creations, DNEG",
+          "cites": [
+            "wiki:box:1384067639:studio"
+          ]
+        },
+        {
+          "label": "Released",
+          "text": "27 October 2026 (Academy Museum), 5 November 2026 (India)",
+          "cites": [
+            "wiki:box:1384067639:released"
+          ]
+        },
+        {
+          "label": "Runtime",
+          "text": "195 minutes (India) and 1 more",
+          "cites": [
+            "wiki:box:1384067639:runtime"
+          ]
+        },
+        {
+          "label": "Language",
+          "text": "Hindi",
+          "cites": [
+            "wiki:box:1384067639:language"
+          ]
+        },
+        {
+          "label": "Budget",
+          "text": "₹2000 crore",
+          "cites": [
+            "wiki:box:1384067639:budget"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "born-in",
+      "t": "2026-11-05T00:01:02Z",
+      "until": "2026-11-05T00:01:18Z",
+      "title": "Born in",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "India",
+          "text": "5",
+          "value": 5,
+          "color": "#e8838f",
+          "cites": [
+            "wd:Q108560:P19",
+            "wd:Q16908467:P19",
+            "wd:Q20081051:P19",
+            "wd:Q7296622:P19",
+            "wd:Q944546:P19"
+          ]
+        },
+        {
+          "label": "Germany",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q76364:P19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-05T00:01:20Z",
+      "until": "2026-11-05T00:01:42Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Ramayana: Part 1",
+          "color": "#e8838f",
+          "points": [
+            {
+              "x": "10-07",
+              "y": 7793
+            },
+            {
+              "x": "10-08",
+              "y": 6898
+            },
+            {
+              "x": "10-09",
+              "y": 6352
+            },
+            {
+              "x": "10-10",
+              "y": 6722
+            },
+            {
+              "x": "10-11",
+              "y": 8293
+            },
+            {
+              "x": "10-12",
+              "y": 8075
+            },
+            {
+              "x": "10-13",
+              "y": 7988
+            },
+            {
+              "x": "10-14",
+              "y": 7637
+            },
+            {
+              "x": "10-15",
+              "y": 21394
+            },
+            {
+              "x": "10-16",
+              "y": 32193
+            },
+            {
+              "x": "10-17",
+              "y": 27932
+            },
+            {
+              "x": "10-18",
+              "y": 25859
+            },
+            {
+              "x": "10-19",
+              "y": 26555
+            },
+            {
+              "x": "10-20",
+              "y": 37540
+            },
+            {
+              "x": "10-21",
+              "y": 39950
+            },
+            {
+              "x": "10-22",
+              "y": 36555
+            },
+            {
+              "x": "10-23",
+              "y": 31216
+            },
+            {
+              "x": "10-24",
+              "y": 29515
+            },
+            {
+              "x": "10-25",
+              "y": 34893
+            },
+            {
+              "x": "10-26",
+              "y": 33429
+            },
+            {
+              "x": "10-27",
+              "y": 33288
+            },
+            {
+              "x": "10-28",
+              "y": 49331
+            },
+            {
+              "x": "10-29",
+              "y": 51131
+            },
+            {
+              "x": "10-30",
+              "y": 49705
+            },
+            {
+              "x": "10-31",
+              "y": 52126
+            },
+            {
+              "x": "11-01",
+              "y": 55707
+            },
+            {
+              "x": "11-02",
+              "y": 60024
+            },
+            {
+              "x": "11-03",
+              "y": 72890
+            },
+            {
+              "x": "11-04",
+              "y": 103372
+            },
+            {
+              "x": "11-05",
+              "y": 609307
+            }
+          ],
+          "cites": [
+            "views:en:Ramayana:_Part_1:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-05T00:01:20Z",
+      "until": "2026-11-05T00:01:42Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "609,307",
+          "value": 609307,
+          "color": "#e8838f",
+          "cites": [
+            "views:en:Ramayana:_Part_1:2026-11-05"
+          ]
+        },
+        {
+          "label": "Hindi",
+          "text": "25,321",
+          "value": 25321,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:hi:रामायणम्_(2026_फिल्म):2026-11-05"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "1,084",
+          "value": 1084,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Ramayana:_Rise_of_a_Legend:2026-11-05"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "634",
+          "value": 634,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Ramayana_:_L'Avènement_d'une_légende:2026-11-05"
+          ]
+        },
+        {
+          "label": "Bengali",
+          "text": "565",
+          "value": 565,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:bn:রামায়ণ:_পার্ট_ওয়ান:2026-11-05"
+          ]
+        },
+        {
+          "label": "Telugu",
+          "text": "482",
+          "value": 482,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:te:రామాయణం_(2026_సినిమా):2026-11-05"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "245",
+          "value": 245,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:羅摩衍那：傳奇崛起:2026-11-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-05T00:01:44Z",
+      "until": "2026-11-05T00:01:49Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384067639:8"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Ramayana:_Part_1:2026-11-05"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q135196186:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-06T12:20:07Z",
+    "costUsd": 0.003774
+  }
+}

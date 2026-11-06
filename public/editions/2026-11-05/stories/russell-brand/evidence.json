@@ -1,0 +1,291 @@
+[
+  {
+    "id": "views:en:Russell_Brand:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "English Wikipedia: 571,124 readers of \"Russell Brand\" on 5 Nov 2026",
+    "value": 571124,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Russell_Brand:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "\"Russell Brand\": normally a median of 3,526 readers a day (8 to 60 days before)",
+    "value": 3526,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q296609:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "label": "Wikidata: \"Q296609\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q296609",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384072766:14",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Russell Brand\" (revision of 2026-11-06 12:01 UTC)",
+    "quote": "He was subsequently charged with multiple counts of rape, oral rape, indecent assault, and sexual assault, and his trial began in October 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Russell_Brand&oldid=1384072766"
+  },
+  {
+    "id": "wiki:rev:1384072766:335",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Russell Brand\" (revision of 2026-11-06 12:01 UTC)",
+    "quote": "On 5 November 2026, Brand was convicted of one count of rape and three counts of sexual assault and remanded in custody.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Russell_Brand&oldid=1384072766"
+  },
+  {
+    "id": "wiki:rev:1384072766:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Russell Brand\" (revision of 2026-11-06 12:01 UTC)",
+    "quote": "Russell Edward Brand (born 4 June 1975) is an English convicted rapist, comedian, actor and media personality.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Russell_Brand&oldid=1384072766"
+  },
+  {
+    "id": "views:en:Russell_Brand:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Russell Brand\", 7 October 2026 to 5 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Russell_Brand&range=latest-30"
+  },
+  {
+    "id": "views:de:Russell_Brand:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 24,476 readers of \"Russell Brand\" on 5 November 2026",
+    "value": 24476,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Russell_Brand"
+  },
+  {
+    "id": "views:es:Russell_Brand:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 12,923 readers of \"Russell Brand\" on 5 November 2026",
+    "value": 12923,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Russell_Brand"
+  },
+  {
+    "id": "views:fr:Russell_Brand:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 6,322 readers of \"Russell Brand\" on 5 November 2026",
+    "value": 6322,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Russell_Brand"
+  },
+  {
+    "id": "views:it:Russell_Brand:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 5,100 readers of \"Russell Brand\" on 5 November 2026",
+    "value": 5100,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Russell_Brand"
+  },
+  {
+    "id": "views:pt:Russell_Brand:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 2,699 readers of \"Russell Brand\" on 5 November 2026",
+    "value": 2699,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Russell_Brand"
+  },
+  {
+    "id": "views:pl:Russell_Brand:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 1,726 readers of \"Russell Brand\" on 5 November 2026",
+    "value": 1726,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Russell_Brand"
+  },
+  {
+    "id": "views:ru:Брэнд,_Рассел:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 1,604 readers of \"Брэнд, Рассел\" on 5 November 2026",
+    "value": 1604,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D1%8D%D0%BD%D0%B4%2C_%D0%A0%D0%B0%D1%81%D1%81%D0%B5%D0%BB"
+  },
+  {
+    "id": "views:ja:ラッセル・ブランド:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 732 readers of \"ラッセル・ブランド\" on 5 November 2026",
+    "value": 732,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%83%E3%82%BB%E3%83%AB%E3%83%BB%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89"
+  },
+  {
+    "id": "views:zh:羅素·布蘭德:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 401 readers of \"羅素·布蘭德\" on 5 November 2026",
+    "value": 401,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E7%B4%A0%C2%B7%E5%B8%83%E8%98%AD%E5%BE%B7"
+  },
+  {
+    "id": "views:ar:راسل_براند:2026-11-05",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 101 readers of \"راسل براند\" on 5 November 2026",
+    "value": 101,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B1%D8%A7%D8%B3%D9%84_%D8%A8%D8%B1%D8%A7%D9%86%D8%AF"
+  },
+  {
+    "id": "wd:Q296609:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q296609\": born 4 June 1975",
+    "url": "https://www.wikidata.org/wiki/Q296609#P569"
+  },
+  {
+    "id": "wd:Q296609:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q296609\": birthplace Grays, Orsett Hospital",
+    "url": "https://www.wikidata.org/wiki/Q296609#P19"
+  },
+  {
+    "id": "wd:Q296609:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q296609\": occupation actor, columnist",
+    "url": "https://www.wikidata.org/wiki/Q296609#P106"
+  },
+  {
+    "id": "wd:Q296609:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q296609\": citizenship United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q296609#P27"
+  },
+  {
+    "id": "wd:Q296609:P69:Q348134",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": educated at Italia Conti Academy of Theatre Arts",
+    "url": "https://www.wikidata.org/wiki/Q296609#P69"
+  },
+  {
+    "id": "wd:Q296609:P69:Q1255631",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": educated at Drama Centre London",
+    "url": "https://www.wikidata.org/wiki/Q296609#P69"
+  },
+  {
+    "id": "wd:Q296609:P69:Q5598377",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": educated at The Hathaway Academy",
+    "url": "https://www.wikidata.org/wiki/Q296609#P69"
+  },
+  {
+    "id": "wd:Q296609:P69:Q523926",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": educated at Royal Academy of Dramatic Art",
+    "url": "https://www.wikidata.org/wiki/Q296609#P69"
+  },
+  {
+    "id": "wd:Q296609:P551:Q65",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": lived in Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q296609#P551"
+  },
+  {
+    "id": "wd:Q296609:P551:Q1027127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": lived in Shoreditch",
+    "url": "https://www.wikidata.org/wiki/Q296609#P551"
+  },
+  {
+    "id": "wd:Q296609:P551:Q990253",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": lived in Henley-on-Thames",
+    "url": "https://www.wikidata.org/wiki/Q296609#P551"
+  },
+  {
+    "id": "wd:Q296609:P166:Q3806623",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-05T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Russell Brand\": award received: James Joyce Awards",
+    "url": "https://www.wikidata.org/wiki/Q296609#P166"
+  }
+]

@@ -101,40 +101,40 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:21Z",
-      "lon": 111.69753983009855,
-      "lat": 16.47340810332359,
-      "range": 4980261.728403901,
+      "t": "2026-11-04T00:00:20Z",
+      "lon": 120.68806407286813,
+      "lat": 14.958491549062174,
+      "range": 1500000,
       "heading": 0,
       "pitch": -55,
-      "move": "flight"
+      "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:24Z",
-      "lon": 111.69753983009855,
-      "lat": 16.47340810332359,
-      "range": 4509818.803942325,
+      "t": "2026-11-04T00:00:23Z",
+      "lon": 120.68806407286813,
+      "lat": 14.958491549062174,
+      "range": 1358307.7707206125,
       "heading": 9.7,
       "pitch": -52.5,
       "move": "glide"
     },
     {
       "t": "2026-11-04T00:00:26Z",
-      "lon": 111.69753983009855,
-      "lat": 16.47340810332359,
-      "range": 4083814.6172911986,
+      "lon": 120.68806407286813,
+      "lat": 14.958491549062174,
+      "range": 1230000,
       "heading": 19.4,
       "pitch": -50,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:30Z",
+      "t": "2026-11-04T00:00:29Z",
       "lon": 120.95444444,
       "lat": 13.90916667,
       "range": 1430000,
       "heading": -10,
       "pitch": -42,
-      "move": "flight"
+      "move": "glide"
     },
     {
       "t": "2026-11-04T00:00:32Z",
@@ -205,28 +205,28 @@
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "The seizure took place at the Port of Manila in the Philippines, where the reports place it.",
+      "text": "The seizure is placed at the Port of Manila in the Philippines, as the reports describe it.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "The reports also name the 2026 Laos private jet drug smuggling case.",
+      "text": "The reports also name Malasiqui, Pangasinan.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
       "t": "2026-11-04T00:00:28Z",
-      "text": "The story was reported by Arab News and the Philippine Daily Inquirer.",
+      "text": "The Philippine Star reported the story.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
       "t": "2026-11-04T00:00:36Z",
-      "text": "The sources are Wikipedia's Current events page, and every caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia and Current events, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
@@ -271,17 +271,9 @@
       "kind": "facts",
       "items": [
         {
-          "label": "Arab News",
+          "label": "The Philippine Star",
           "text": "Open",
-          "url": "https://www.arabnews.com/world/philippines-seizes-200-kg-of-methamphetamine-at-manila-port-3009754",
-          "cites": [
-            "wiki:2026-11-04:3"
-          ]
-        },
-        {
-          "label": "Philippine Daily Inquirer",
-          "text": "Open",
-          "url": "https://globalnation.inquirer.net/345789/this-time-shabu-cargo-from-laos-reaches-ph-before-seizure",
+          "url": "https://www.philstar.com/nation/2026/11/06/2568219/5-killed-pangasinan-firecracker-factory-explosion/",
           "cites": [
             "wiki:2026-11-04:3"
           ]
@@ -310,7 +302,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T07:02:58Z",
-    "costUsd": 0.000548
+    "at": "2026-11-06T12:23:11Z",
+    "costUsd": 0.000949
   }
 }

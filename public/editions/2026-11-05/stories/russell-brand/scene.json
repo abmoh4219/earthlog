@@ -1,0 +1,714 @@
+{
+  "version": 1,
+  "id": "story-2026-11-05-russell-brand",
+  "title": "Russell Brand",
+  "subtitle": "People · 5 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-05T00:00:00Z",
+    "end": "2026-11-05T00:01:35Z"
+  },
+  "focus": "2026-11-05T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -12.120000000000001,
+    "south": 46.4,
+    "east": 7.88,
+    "north": 62.4
+  },
+  "imagery": {
+    "day": "2026-11-05",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:01:04Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-05T00:01:04Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-05T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-05T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "lon": 35.879999999999995,
+      "lat": 31.365,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-05T00:00:04Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:14Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:23Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:26Z",
+      "lon": 0.3247,
+      "lat": 50.5724,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:29Z",
+      "lon": 0.3247,
+      "lat": 50.5724,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:31Z",
+      "lon": 0.3247,
+      "lat": 50.5724,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:35Z",
+      "lon": -10.533458171380463,
+      "lat": 51.87045943506569,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:00:40Z",
+      "lon": -10.533458171380463,
+      "lat": 51.87045943506569,
+      "range": 19921847.303902317,
+      "heading": 12.9,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:44Z",
+      "lon": -10.533458171380463,
+      "lat": 51.87045943506569,
+      "range": 18040000,
+      "heading": 25.8,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:47Z",
+      "lon": -10.533458171380463,
+      "lat": 51.87045943506569,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:51Z",
+      "lon": -10.533458171380463,
+      "lat": 51.87045943506569,
+      "range": 19921847.303902317,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:54Z",
+      "lon": -10.533458171380463,
+      "lat": 51.87045943506569,
+      "range": 18040000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:00:58Z",
+      "lon": -0.8562886453590566,
+      "lat": 52.64246394991064,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:01Z",
+      "lon": -0.8562886453590566,
+      "lat": 52.64246394991064,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:03Z",
+      "lon": -0.8562886453590566,
+      "lat": 52.64246394991064,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:07Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608803,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:17Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608803,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:27Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608803,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:31Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-05T00:01:32Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-05T00:01:35Z",
+      "lon": -27.120000000000005,
+      "lat": 52.275,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-05T00:00:01Z",
+      "text": "Brand was later charged with multiple counts of rape, oral rape, indecent assault and sexual assault, and his trial began in October 2026.",
+      "cites": [
+        "wiki:rev:1384072766:14"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:08Z",
+      "text": "On 5 November 2026, he was convicted of one count of rape and three counts of sexual assault and remanded in custody.",
+      "cites": [
+        "wiki:rev:1384072766:335"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:15Z",
+      "text": "Russell Edward Brand, born 4 June 1975, is an English comedian, actor and media personality, and the article describes him as a convicted rapist.",
+      "cites": [
+        "wiki:rev:1384072766:0"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:25Z",
+      "text": "He was born on 4 June 1975 in Grays.",
+      "cites": [
+        "wd:Q296609:P569",
+        "wd:Q296609:P19"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:33Z",
+      "text": "He was educated at the Italia Conti Academy of Theatre Arts, Drama Centre London, The Hathaway Academy and the Royal Academy of Dramatic Art.",
+      "cites": [
+        "wd:Q296609:P69:Q348134",
+        "wd:Q296609:P69:Q1255631",
+        "wd:Q296609:P69:Q5598377",
+        "wd:Q296609:P69:Q523926"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:00:46Z",
+      "text": "The record shows 1 award on file, including the James Joyce Awards.",
+      "cites": [
+        "wd:Q296609:P166:Q3806623"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:05Z",
+      "text": "On 5 November 2026, 571,124 people read the English article, about 162 times the usual daily figure.",
+      "cites": [
+        "views:en:Russell_Brand:2026-11-05",
+        "views:en:Russell_Brand:prior"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:12Z",
+      "text": "The article was read in 11 languages, and after English, German was the most read, with 24,476 readers.",
+      "cites": [
+        "views:en:Russell_Brand:2026-11-05",
+        "views:de:Russell_Brand:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:19Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "cites": [
+        "views:de:Russell_Brand:2026-11-05",
+        "views:es:Russell_Brand:2026-11-05",
+        "views:fr:Russell_Brand:2026-11-05",
+        "views:it:Russell_Brand:2026-11-05",
+        "views:pt:Russell_Brand:2026-11-05",
+        "views:pl:Russell_Brand:2026-11-05"
+      ]
+    },
+    {
+      "t": "2026-11-05T00:01:29Z",
+      "text": "These figures come from Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384072766:14",
+        "views:en:Russell_Brand:2026-11-05",
+        "wd:Q296609:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -2.12,
+    "lat": 54.4,
+    "label": "United Kingdom"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-05T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-05T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-05T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-05T00:00:45Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-05T00:00:55Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-05T00:01:04Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-05T00:01:28Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-05T00:00:33Z",
+      "until": "2026-11-05T00:00:45Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1975 born",
+          "text": "Grays",
+          "cites": [
+            "wd:Q296609:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Italia Conti Academy of Theatre Arts",
+          "cites": [
+            "wd:Q296609:P69:Q348134"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Drama Centre London",
+          "cites": [
+            "wd:Q296609:P69:Q1255631"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "The Hathaway Academy",
+          "cites": [
+            "wd:Q296609:P69:Q5598377"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Royal Academy of Dramatic Art",
+          "cites": [
+            "wd:Q296609:P69:Q523926"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Los Angeles",
+          "cites": [
+            "wd:Q296609:P551:Q65"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Shoreditch",
+          "cites": [
+            "wd:Q296609:P551:Q1027127"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Henley-on-Thames",
+          "cites": [
+            "wd:Q296609:P551:Q990253"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-05T00:00:46Z",
+      "until": "2026-11-05T00:00:55Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Award",
+          "text": "James Joyce Awards",
+          "cites": [
+            "wd:Q296609:P166:Q3806623"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-05T00:01:05Z",
+      "until": "2026-11-05T00:01:28Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Russell Brand",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-07",
+              "y": 4913
+            },
+            {
+              "x": "10-08",
+              "y": 2834
+            },
+            {
+              "x": "10-09",
+              "y": 2613
+            },
+            {
+              "x": "10-10",
+              "y": 3078
+            },
+            {
+              "x": "10-11",
+              "y": 4601
+            },
+            {
+              "x": "10-12",
+              "y": 43689
+            },
+            {
+              "x": "10-13",
+              "y": 19625
+            },
+            {
+              "x": "10-14",
+              "y": 75152
+            },
+            {
+              "x": "10-15",
+              "y": 52141
+            },
+            {
+              "x": "10-16",
+              "y": 32352
+            },
+            {
+              "x": "10-17",
+              "y": 15233
+            },
+            {
+              "x": "10-18",
+              "y": 10271
+            },
+            {
+              "x": "10-19",
+              "y": 19149
+            },
+            {
+              "x": "10-20",
+              "y": 19019
+            },
+            {
+              "x": "10-21",
+              "y": 17270
+            },
+            {
+              "x": "10-22",
+              "y": 17054
+            },
+            {
+              "x": "10-23",
+              "y": 11021
+            },
+            {
+              "x": "10-24",
+              "y": 7910
+            },
+            {
+              "x": "10-25",
+              "y": 6011
+            },
+            {
+              "x": "10-26",
+              "y": 10192
+            },
+            {
+              "x": "10-27",
+              "y": 14828
+            },
+            {
+              "x": "10-28",
+              "y": 36619
+            },
+            {
+              "x": "10-29",
+              "y": 52405
+            },
+            {
+              "x": "10-30",
+              "y": 20469
+            },
+            {
+              "x": "10-31",
+              "y": 10266
+            },
+            {
+              "x": "11-01",
+              "y": 7770
+            },
+            {
+              "x": "11-02",
+              "y": 12643
+            },
+            {
+              "x": "11-03",
+              "y": 13175
+            },
+            {
+              "x": "11-04",
+              "y": 12055
+            },
+            {
+              "x": "11-05",
+              "y": 571124
+            }
+          ],
+          "cites": [
+            "views:en:Russell_Brand:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-05T00:01:05Z",
+      "until": "2026-11-05T00:01:28Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "571,124",
+          "value": 571124,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Russell_Brand:2026-11-05"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "24,476",
+          "value": 24476,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Russell_Brand:2026-11-05"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "12,923",
+          "value": 12923,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Russell_Brand:2026-11-05"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "6,322",
+          "value": 6322,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Russell_Brand:2026-11-05"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "5,100",
+          "value": 5100,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Russell_Brand:2026-11-05"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "2,699",
+          "value": 2699,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Russell_Brand:2026-11-05"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "1,726",
+          "value": 1726,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Russell_Brand:2026-11-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-05T00:01:29Z",
+      "until": "2026-11-05T00:01:35Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384072766:14"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Russell_Brand:2026-11-05"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q296609:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-06T12:20:07Z",
+    "costUsd": 0.00358
+  }
+}

@@ -263,28 +263,28 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "Elections were held in the United States on November 3, 2026, during the second term of Republican president Donald Trump.",
+      "text": "Elections in the United States were held on November 3, 2026.",
       "cites": [
-        "wiki:rev:1383861407:0"
+        "wiki:rev:1383981595:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:08Z",
       "text": "Just before the election on November 2, 2026, the department sought a Supreme Court injunction seeking to have up to 20,000 mail-in ballots in California kept apart.",
       "cites": [
-        "wiki:rev:1383861407:132"
+        "wiki:rev:1383981595:131"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
       "text": "Ahead of the November 3 midterm elections, the war with Iran became a subject of Democratic campaigning.",
       "cites": [
-        "wiki:rev:1383861407:147"
+        "wiki:rev:1383981595:146"
       ]
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "Of 35 Senate races this year, Democrats won 20 and Republicans 13, with 2 not yet called.",
+      "text": "Across 35 Senate races this year, Democrats won 20, Republicans won 13, and 2 have not yet been called.",
       "cites": [
         "elex:2026-united-states-senate-elections:the-senate-table"
       ]
@@ -304,7 +304,7 @@
     },
     {
       "t": "2026-11-02T00:00:39Z",
-      "text": "Of 36 governor's races this year, Democrats won 22 and Republicans 12, with 2 not yet called.",
+      "text": "Across 36 governor's races this year, Democrats won 22, Republicans won 12, and 2 have not yet been called.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-table"
       ]
@@ -322,21 +322,21 @@
     },
     {
       "t": "2026-11-02T00:00:53Z",
-      "text": "In the House, Democrats hold 251 seats and Republicans 153, with 31 still to be called; 218 seats make a majority.",
+      "text": "In the House, Democrats hold 253 seats and Republicans 155, with 27 still to be called; 218 seats make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
       "t": "2026-11-02T00:00:59Z",
-      "text": "In the race tables, 41 districts changed party and 49 are not yet called.",
+      "text": "On the map, 50 districts changed party, and 32 are not yet called in the race tables.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
       "t": "2026-11-02T00:01:07Z",
-      "text": "Readers also turned to the articles on the United States midterm election with 131,229 readers, James Talarico with 62,655, and the 2026 Senate elections with 61,876.",
+      "text": "Readers also turned to the articles on the United States midterm election (131,229), James Talarico (62,655) and the 2026 United States Senate elections (61,876).",
       "cites": [
         "views:en:United_States_midterm_election:2026-11-02",
         "views:en:James_Talarico:2026-11-02",
@@ -345,7 +345,7 @@
     },
     {
       "t": "2026-11-02T00:01:16Z",
-      "text": "On 2 November 2026, 201,102 people read the article, about 8 times the usual daily count.",
+      "text": "On 2 November 2026, 201,102 people read the article on the 2026 United States elections, about 8 times the usual daily level.",
       "cites": [
         "views:en:2026_United_States_elections:2026-11-02",
         "views:en:2026_United_States_elections:prior"
@@ -375,7 +375,7 @@
       "t": "2026-11-02T00:01:40Z",
       "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1383861407:0",
+        "wiki:rev:1383981595:0",
         "views:en:2026_United_States_elections:2026-11-02",
         "wd:Q115857612:P31"
       ]
@@ -424,7 +424,7 @@
       "t": "2026-11-02T00:00:25Z",
       "until": "2026-11-02T00:00:38Z",
       "title": "Senate races won",
-      "note": "As recorded by Wikipedia at 04:55 UTC, 2026-11-05. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 23:43 UTC, 2026-11-05. Called or projected, not certified.",
       "kind": "bars",
       "unit": "races",
       "items": [
@@ -516,7 +516,7 @@
       "t": "2026-11-02T00:00:39Z",
       "until": "2026-11-02T00:00:52Z",
       "title": "Governor's races won",
-      "note": "As recorded by Wikipedia at 05:47 UTC, 2026-11-05. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 23:36 UTC, 2026-11-05. Called or projected, not certified.",
       "kind": "bars",
       "unit": "races",
       "items": [
@@ -600,15 +600,15 @@
       "t": "2026-11-02T00:00:53Z",
       "until": "2026-11-02T00:01:06Z",
       "title": "The new House",
-      "note": "One dot per seat. Infobox as of 7:00 PM, November 4, 2026; called or projected, not certified.",
+      "note": "One dot per seat. Infobox as of 4:00 PM, November 5, 2026; called or projected, not certified.",
       "kind": "seats",
       "total": 435,
       "majority": 218,
       "items": [
         {
           "label": "Democratic",
-          "text": "251 (was 214)",
-          "value": 251,
+          "text": "253 (was 214)",
+          "value": 253,
           "color": "#4a8cf7",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -616,8 +616,8 @@
         },
         {
           "label": "Republican",
-          "text": "153 (was 218)",
-          "value": 153,
+          "text": "155 (was 218)",
+          "value": 155,
           "color": "#ec5a52",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -625,7 +625,7 @@
         },
         {
           "label": "Not yet called",
-          "value": 31,
+          "value": 27,
           "color": "#8a96a3",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -1119,7 +1119,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1383861407:0"
+            "wiki:rev:1383981595:0"
           ]
         },
         {
@@ -1144,7 +1144,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.001736
+    "at": "2026-11-06T00:00:00Z",
+    "costUsd": 0.001732
   }
 }

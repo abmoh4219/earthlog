@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-04T00:00:00Z",
-    "end": "2026-11-04T00:00:33Z"
+    "end": "2026-11-04T00:00:42Z"
   },
   "focus": "2026-11-04T00:00:00Z",
   "timezone": "UTC",
@@ -30,6 +30,11 @@
       "kind": "regions",
       "file": "data/regions.json",
       "from": "2026-11-04T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-04T00:00:18Z"
     }
   ],
   "camera": [
@@ -96,34 +101,61 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:20Z",
+      "t": "2026-11-04T00:00:22Z",
+      "lon": 104.63125643664213,
+      "lat": 42.13052230185768,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "lon": 104.63125643664213,
+      "lat": 42.13052230185768,
+      "range": 19921847.303902317,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:26Z",
+      "lon": 104.63125643664213,
+      "lat": 42.13052230185768,
+      "range": 18040000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-04T00:00:30Z",
       "lon": 19.45,
       "lat": 44.965,
       "range": 4420000,
       "heading": -10,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-04T00:00:23Z",
+      "t": "2026-11-04T00:00:32Z",
       "lon": 19.45,
       "lat": 44.965,
       "range": 4002480.231056738,
-      "heading": -1.0999999999999996,
+      "heading": -18.9,
       "pitch": -39.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:25Z",
+      "t": "2026-11-04T00:00:34Z",
       "lon": 19.45,
       "lat": 44.965,
       "range": 3624400,
-      "heading": 7.800000000000001,
+      "heading": -27.8,
       "pitch": -37,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:28Z",
+      "t": "2026-11-04T00:00:37Z",
       "lon": 19.45,
       "lat": 44.965,
       "range": 8840000,
@@ -132,20 +164,20 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:29Z",
+      "t": "2026-11-04T00:00:38Z",
       "lon": 19.45,
       "lat": 44.965,
       "range": 7248800,
-      "heading": -16.200000000000003,
+      "heading": 16.200000000000003,
       "pitch": -65,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:33Z",
+      "t": "2026-11-04T00:00:42Z",
       "lon": -5.5499999999999545,
       "lat": 44.965,
       "range": 21746400,
-      "heading": -16.200000000000003,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -159,35 +191,42 @@
   "beats": [
     {
       "t": "2026-11-04T00:00:01Z",
-      "text": "Hungary is making Communist-era secret police records publicly accessible through a database of approximately 60,000 names linked to former state security services.",
+      "text": "According to the reports, a fire and explosion at a Panasonic subsidiary's factory in Hsinchu County, Taiwan, killed two employees and injured five others.",
       "cites": [
         "wiki:2026-11-04:4"
       ]
     },
     {
       "t": "2026-11-04T00:00:05Z",
-      "text": "Prime Minister Péter Magyar has announced that additional documents will become available in February 2027.",
+      "text": "Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services.",
       "cites": [
         "wiki:2026-11-04:4"
       ]
     },
     {
       "t": "2026-11-04T00:00:11Z",
-      "text": "The map marks Hungary, the country where these records are being opened.",
+      "text": "The reports place this story in Hungary.",
       "cites": [
         "wiki:2026-11-04:4"
       ]
     },
     {
       "t": "2026-11-04T00:00:19Z",
-      "text": "This story was reported by Reuters.",
+      "text": "Panasonic and Hsinchu County are also named in the reports.",
       "cites": [
         "wiki:2026-11-04:4"
       ]
     },
     {
-      "t": "2026-11-04T00:00:27Z",
-      "text": "Sources are Wikipedia, Current events and Wikidata, and each caption links to the evidence it rests on.",
+      "t": "2026-11-04T00:00:28Z",
+      "text": "The story is reported by Reuters.",
+      "cites": [
+        "wiki:2026-11-04:4"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:36Z",
+      "text": "The sources are Wikipedia, Current events and Wikidata, and every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:4",
         "wd:Q16410:P31"
@@ -212,18 +251,22 @@
     },
     {
       "t": "2026-11-04T00:00:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-04T00:00:27Z",
       "title": "Reported by"
     },
     {
-      "t": "2026-11-04T00:00:26Z",
+      "t": "2026-11-04T00:00:35Z",
       "title": "Sources"
     }
   ],
   "panels": [
     {
       "id": "sources",
-      "t": "2026-11-04T00:00:19Z",
-      "until": "2026-11-04T00:00:26Z",
+      "t": "2026-11-04T00:00:28Z",
+      "until": "2026-11-04T00:00:35Z",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
       "kind": "facts",
@@ -231,7 +274,7 @@
         {
           "label": "Reuters",
           "text": "Open",
-          "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/",
+          "url": "https://www.reuters.com/world/asia-pacific/two-confirmed-dead-after-taiwan-panasonic-factory-fire-2026-11-05/",
           "cites": [
             "wiki:2026-11-04:4"
           ]
@@ -240,8 +283,8 @@
     },
     {
       "id": "film-sources",
-      "t": "2026-11-04T00:00:27Z",
-      "until": "2026-11-04T00:00:33Z",
+      "t": "2026-11-04T00:00:36Z",
+      "until": "2026-11-04T00:00:42Z",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
       "kind": "facts",
@@ -268,7 +311,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T07:02:58Z",
-    "costUsd": 0.000801
+    "at": "2026-11-06T12:23:11Z",
+    "costUsd": 0.00115
   }
 }

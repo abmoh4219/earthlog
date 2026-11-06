@@ -31,34 +31,34 @@
     "precision": "day"
   },
   {
-    "id": "wiki:rev:1383779868:231",
+    "id": "wiki:rev:1383936742:231",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Patrick Stewart\" (revision of 2026-11-04 20:41 UTC)",
+    "label": "Wikipedia, \"Patrick Stewart\" (revision of 2026-11-05 18:20 UTC)",
     "quote": "Stewart died at his home in Los Angeles on 28 October 2026, aged 86.",
-    "url": "https://en.wikipedia.org/w/index.php?title=Patrick_Stewart&oldid=1383779868"
+    "url": "https://en.wikipedia.org/w/index.php?title=Patrick_Stewart&oldid=1383936742"
   },
   {
-    "id": "wiki:rev:1383779868:1",
+    "id": "wiki:rev:1383936742:1",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Patrick Stewart\" (revision of 2026-11-04 20:41 UTC)",
+    "label": "Wikipedia, \"Patrick Stewart\" (revision of 2026-11-05 18:20 UTC)",
     "quote": "With a career spanning over 60 years on stage and screen, he received numerous accolades, including three Laurence Olivier Awards and a Grammy Award, as well as nominations for a Tony Award, three Golden Globe Awards, four Emmy Awards, and three Screen Actors Guild Awards.",
-    "url": "https://en.wikipedia.org/w/index.php?title=Patrick_Stewart&oldid=1383779868"
+    "url": "https://en.wikipedia.org/w/index.php?title=Patrick_Stewart&oldid=1383936742"
   },
   {
-    "id": "wiki:rev:1383779868:0",
+    "id": "wiki:rev:1383936742:0",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"Patrick Stewart\" (revision of 2026-11-04 20:41 UTC)",
+    "label": "Wikipedia, \"Patrick Stewart\" (revision of 2026-11-05 18:20 UTC)",
     "quote": "Sir Patrick Stewart (13 July 1940 – 28 October 2026) was an English actor.",
-    "url": "https://en.wikipedia.org/w/index.php?title=Patrick_Stewart&oldid=1383779868"
+    "url": "https://en.wikipedia.org/w/index.php?title=Patrick_Stewart&oldid=1383936742"
   },
   {
     "id": "views:en:Patrick_Stewart:30d",
@@ -289,6 +289,15 @@
     "url": "https://www.wikidata.org/wiki/Q16296#P166"
   },
   {
+    "id": "wd:Q16296:P166:Q3113382",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-03T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Patrick Stewart\": award received: Grammy Award for Best Spoken Word Album for Children (1996)",
+    "url": "https://www.wikidata.org/wiki/Q16296#P166"
+  },
+  {
     "id": "wd:Q16296:P166:Q10762848",
     "kind": "sensor",
     "source": "wikidata",
@@ -313,15 +322,6 @@
     "t": "2026-11-03T00:00:00Z",
     "precision": "day",
     "label": "Wikidata, \"Patrick Stewart\": award received: honorary doctorate of the Vrije Universiteit Brussel (2015)",
-    "url": "https://www.wikidata.org/wiki/Q16296#P166"
-  },
-  {
-    "id": "wd:Q16296:P166:Q41254",
-    "kind": "sensor",
-    "source": "wikidata",
-    "t": "2026-11-03T00:00:00Z",
-    "precision": "day",
-    "label": "Wikidata, \"Patrick Stewart\": award received: Grammy Awards",
     "url": "https://www.wikidata.org/wiki/Q16296#P166"
   },
   {

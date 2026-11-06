@@ -297,16 +297,16 @@
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On November 2, the U.S. military described its actions in the Strait of Hormuz as \"defensive strikes\", and multiple explosions were reported on Iran's Qeshm Island.",
+      "text": "On November 2, alongside what the U.S. military described as \"defensive strikes\" in the Strait of Hormuz, multiple explosions were reported on Iran's Qeshm Island.",
       "cites": [
-        "wiki:rev:1383733327:263"
+        "wiki:rev:1383917387:263"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Shipping through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026.",
+      "text": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026.",
       "cites": [
-        "wiki:rev:1383733327:0"
+        "wiki:rev:1383917387:0"
       ]
     },
     {
@@ -318,38 +318,38 @@
     },
     {
       "t": "2026-11-03T00:00:32Z",
-      "text": "On 30 October, Oman rescued 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz.",
+      "text": "On 30 October, Oman rescued 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz, and the Iranian military confirmed the tanker had been attempting to pass through an unauthorised route.",
       "cites": [
         "wiki:2026-10-30:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:41Z",
-      "text": "The reports place the incident in the waters of Musandam Governorate, Oman.",
+      "text": "On the map, the reports place the incident in Musandam Governorate, Oman.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:00:49Z",
-      "text": "On 28 October, the Dutch TTF front-month natural gas futures contract briefly reached €100 per megawatt-hour, about three times its pre-war level, according to Reuters.",
+      "text": "On 28 October, the Dutch Title Transfer Facility front-month natural gas futures contract briefly reached €100 per megawatt-hour, approximately three times its pre-war level, according to Reuters.",
       "cites": [
-        "wiki:week:1383733327:424"
+        "wiki:week:1383917387:424"
       ]
     },
     {
       "t": "2026-11-03T00:00:57Z",
       "text": "On the evening of 30 October 2026, the Nakilat-operated LNG carrier \"Al Mayeda\" was hit by \"unidentified objects\" in the Persian Gulf.",
       "cites": [
-        "wiki:week:1383733327:264"
+        "wiki:week:1383917387:264"
       ]
     },
     {
       "t": "2026-11-03T00:01:06Z",
-      "text": "As the article records, casualties total 24 seafarers and 1 port worker, and injured are listed as 35+.",
+      "text": "As the article records them, and attributed there to its sources, casualties total 24 seafarers and 1 port worker, and injured number 35+.",
       "cites": [
-        "wiki:box:1383733327:casualties",
-        "wiki:box:1383733327:injured"
+        "wiki:box:1383917387:casualties",
+        "wiki:box:1383917387:injured"
       ]
     },
     {
@@ -361,17 +361,17 @@
     },
     {
       "t": "2026-11-03T00:01:26Z",
-      "text": "The reporting is credited to Reuters.",
+      "text": "The story was reported by Reuters.",
       "cites": [
         "wiki:2026-11-03:1"
       ]
     },
     {
       "t": "2026-11-03T00:01:34Z",
-      "text": "Sources include Wikipedia current events, including Portal:Current events/2026 October 27, article revisions, pageview data and Wikidata, and every caption links to its evidence.",
+      "text": "The sources are Wikipedia current events for 2026 October 27, Wikipedia articles, Wikimedia pageviews, and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:1",
-        "wiki:rev:1383733327:263",
+        "wiki:rev:1383917387:263",
         "views:en:2026_Strait_of_Hormuz_crisis:30d",
         "wd:Q138521100:P31",
         "wiki:2026-10-27:1"
@@ -456,7 +456,7 @@
           "label": "Persian Gulf",
           "text": "4 days before",
           "cites": [
-            "wiki:week:1383733327:264"
+            "wiki:week:1383917387:264"
           ]
         }
       ]
@@ -473,14 +473,14 @@
           "label": "Casualties",
           "text": "24 seafarers; 1 port worker",
           "cites": [
-            "wiki:box:1383733327:casualties"
+            "wiki:box:1383917387:casualties"
           ]
         },
         {
           "label": "Injured",
           "text": "35+",
           "cites": [
-            "wiki:box:1383733327:injured"
+            "wiki:box:1383917387:injured"
           ]
         }
       ]
@@ -524,7 +524,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1383733327:263"
+            "wiki:rev:1383917387:263"
           ]
         },
         {
@@ -554,7 +554,7 @@
         {
           "label": "Wikipedia, Portal:Current events/2026 October 30",
           "text": "CC BY-SA 4.0",
-          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_30&oldid=1383796690",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_October_30&oldid=1383930281",
           "cites": [
             "wiki:2026-10-30:1"
           ]
@@ -565,7 +565,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:59:16Z",
-    "costUsd": 0.002883
+    "at": "2026-11-06T12:25:42Z",
+    "costUsd": 0.002148
   }
 }

@@ -161,28 +161,28 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "In July 2012, Bombardier Aerospace announced a temporary \"production pause\" of the latest variant Learjet 60XR, set to begin in the fourth quarter of 2012.",
+      "text": "In July 2012, Bombardier Aerospace announced a temporary production pause of the latest Learjet 60XR, set to begin in the fourth quarter of 2012.",
       "cites": [
-        "wiki:rev:1383775252:2"
+        "wiki:rev:1383972529:2"
       ]
     },
     {
       "t": "2026-11-02T00:00:08Z",
       "text": "On the earlier Longhorn wing, interference between the winglet and the wing nearly canceled the effects of the winglet.",
       "cites": [
-        "wiki:rev:1383775252:15"
+        "wiki:rev:1383972529:15"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "The Learjet 60 is a mid-size cabin, medium-range business jet that Bombardier Aerospace manufactured in Wichita, Kansas.",
+      "text": "The Learjet 60 is a mid-size, medium-range business jet that Bombardier Aerospace manufactured in Wichita, Kansas, United States.",
       "cites": [
-        "wiki:rev:1383775252:0"
+        "wiki:rev:1383972529:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:25Z",
-      "text": "Readers also turned to the 2026 Palm Beach County Learjet 60 crash article, which drew 220,959 readers, and to the Learjet article, which drew 64,003, on the same day.",
+      "text": "Readers also turned to the 2026 Palm Beach County Learjet 60 crash article, with 220,959 readers, and to the Learjet article, with 64,003.",
       "cites": [
         "views:en:2026_Palm_Beach_County_Learjet_60_crash:2026-11-02",
         "views:en:Learjet:2026-11-02"
@@ -190,7 +190,7 @@
     },
     {
       "t": "2026-11-02T00:00:34Z",
-      "text": "On 2 November 2026, 263,003 people read the article, about 2,210 times the usual daily number.",
+      "text": "On 2 November 2026, 263,003 people read the Learjet 60 article, about 2,210× the usual.",
       "cites": [
         "views:en:Learjet_60:2026-11-02",
         "views:en:Learjet_60:prior"
@@ -198,7 +198,7 @@
     },
     {
       "t": "2026-11-02T00:00:41Z",
-      "text": "The article was read in 9 languages, and after English, German was the largest with 17,154 readers.",
+      "text": "Readers used 9 languages, and after English, German was the most common, with 17,154 readers.",
       "cites": [
         "views:en:Learjet_60:2026-11-02",
         "views:de:Learjet_60:2026-11-02"
@@ -206,7 +206,7 @@
     },
     {
       "t": "2026-11-02T00:00:48Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
       "cites": [
         "views:de:Learjet_60:2026-11-02",
         "views:fr:Learjet_60:2026-11-02",
@@ -218,9 +218,9 @@
     },
     {
       "t": "2026-11-02T00:00:58Z",
-      "text": "The figures come from Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption is tied to the evidence it rests on.",
+      "text": "Sources for this story are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1383775252:2",
+        "wiki:rev:1383972529:2",
         "views:en:Learjet_60:2026-11-02",
         "wd:Q1267393:P31"
       ]
@@ -609,7 +609,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1383775252:2"
+            "wiki:rev:1383972529:2"
           ]
         },
         {
@@ -634,7 +634,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.001626
+    "at": "2026-11-06T00:00:00Z",
+    "costUsd": 0.001627
   }
 }

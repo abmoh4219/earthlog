@@ -405,34 +405,34 @@
     "precision": "day"
   },
   {
-    "id": "wiki:rev:1383861407:0",
+    "id": "wiki:rev:1384060175:0",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-05 05:55 UTC)",
-    "quote": "Elections were held in the United States on November 3, 2026, during the second term of Republican president Donald Trump.",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1383861407"
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-06 09:49 UTC)",
+    "quote": "Elections in the United States were held on November 3, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1384060175"
   },
   {
-    "id": "wiki:rev:1383861407:218",
+    "id": "wiki:rev:1384060175:228",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-05 05:55 UTC)",
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-06 09:49 UTC)",
     "quote": "They also wrote on November 3, 2026 that \"Support for Medicare for All and a wealth tax points to an economic populist thread that extends beyond young Democrats.",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1383861407"
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1384060175"
   },
   {
-    "id": "wiki:rev:1383861407:14",
+    "id": "wiki:rev:1384060175:16",
     "kind": "report",
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-05 05:55 UTC)",
-    "quote": "Senate seats in Alaska and Mississippi remain uncalled as of November 4, with Democrats favored to win.",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1383861407"
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-06 09:49 UTC)",
+    "quote": "Democrats won Senate seats previously belonging to Republicans in Iowa, Ohio, South Carolina, Maine, Kansas, North Carolina, and Texas, the last two by double digits; seats in Alaska and Mississippi remain uncalled by major media outlets as of November 5, with Democrats favored to win both elections.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1384060175"
   },
   {
     "id": "views:en:2026_United_States_elections:30d",
@@ -598,8 +598,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): Senate races: 20 won by Democrats, 13 by Republicans, 2 not yet called",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Senate races: 20 won by Democrats, 13 by Republicans, 2 not yet called",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-senate-elections:senate-ia",
@@ -607,8 +607,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): Iowa: Democratic gain, Josh Turek",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Iowa: Democratic gain, Josh Turek",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-senate-elections:senate-nc",
@@ -616,8 +616,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): North Carolina: Democratic gain, Roy Cooper",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): North Carolina: Democratic gain, Roy Cooper",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-senate-elections:senate-ks",
@@ -625,8 +625,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): Kansas: Democratic gain, Adam Hamilton",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Kansas: Democratic gain, Adam Hamilton",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-senate-elections:senate-me",
@@ -634,8 +634,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): Maine: Democratic gain, Troy Jackson",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Maine: Democratic gain, Troy Jackson",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-senate-elections:senate-oh-special",
@@ -643,8 +643,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): Ohio: Democratic gain, Sherrod Brown",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Ohio: Democratic gain, Sherrod Brown",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-senate-elections:senate-sc",
@@ -652,8 +652,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): South Carolina: Democratic gain, Annie Andrews",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): South Carolina: Democratic gain, Annie Andrews",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-senate-elections:senate-tx",
@@ -661,8 +661,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-05 04:55 UTC): Texas: Democratic gain, James Talarico",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1383856475"
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-06 06:02 UTC): Texas: Democratic gain, James Talarico",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384027720"
   },
   {
     "id": "elex:2026-united-states-gubernatorial-elections:governors-table",
@@ -670,53 +670,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-05 05:47 UTC): governor's races: 22 won by Democrats, 12 by Republicans, 2 not yet called",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1383860812"
-  },
-  {
-    "id": "elex:2026-united-states-gubernatorial-elections:governors-ga",
-    "kind": "sensor",
-    "source": "wikipedia-article",
-    "t": "2026-11-04T00:00:00Z",
-    "precision": "day",
-    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-05 05:47 UTC): Georgia: Democratic gain, Keisha Lance Bottoms",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1383860812"
-  },
-  {
-    "id": "elex:2026-united-states-gubernatorial-elections:governors-ia",
-    "kind": "sensor",
-    "source": "wikipedia-article",
-    "t": "2026-11-04T00:00:00Z",
-    "precision": "day",
-    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-05 05:47 UTC): Iowa: Democratic gain, Rob Sand",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1383860812"
-  },
-  {
-    "id": "elex:2026-united-states-gubernatorial-elections:governors-nv",
-    "kind": "sensor",
-    "source": "wikipedia-article",
-    "t": "2026-11-04T00:00:00Z",
-    "precision": "day",
-    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-05 05:47 UTC): Nevada: Democratic gain, Aaron Ford",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1383860812"
-  },
-  {
-    "id": "elex:2026-united-states-gubernatorial-elections:governors-oh",
-    "kind": "sensor",
-    "source": "wikipedia-article",
-    "t": "2026-11-04T00:00:00Z",
-    "precision": "day",
-    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-05 05:47 UTC): Ohio: Democratic gain, Amy Acton",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1383860812"
-  },
-  {
-    "id": "elex:2026-united-states-gubernatorial-elections:governors-tx",
-    "kind": "sensor",
-    "source": "wikipedia-article",
-    "t": "2026-11-04T00:00:00Z",
-    "precision": "day",
-    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-05 05:47 UTC): Texas: Democratic gain, Gina Hinojosa",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1383860812"
+    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-06 11:05 UTC): governor's races: 0 won by Democrats, 0 by Republicans, 36 not yet called",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1384067477"
   },
   {
     "id": "elex:2026-united-states-house-of-representatives-elections:house-table",
@@ -724,8 +679,8 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-05 05:39 UTC): race tables: 235 districts won by Democrats, 145 by Republicans, 49 not yet called, 41 changed party",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1383860162"
+    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-06 11:11 UTC): race tables: 246 districts won by Democrats, 154 by Republicans, 29 not yet called, 52 changed party",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1384068004"
   },
   {
     "id": "elex:2026-united-states-house-of-representatives-elections:house-infobox",
@@ -733,7 +688,7 @@
     "source": "wikipedia-article",
     "t": "2026-11-04T00:00:00Z",
     "precision": "day",
-    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-05 05:39 UTC): House seats: Democrats 251, Republicans 153; 218 for a majority (last updated 7:00 PM, November 4, 2026)",
-    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1383860162"
+    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-06 11:11 UTC): House seats: Democrats 253, Republicans 157; 218 for a majority (last updated 9:00 PM, November 5, 2026)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1384068004"
   }
 ]

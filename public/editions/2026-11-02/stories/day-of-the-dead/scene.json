@@ -110,8 +110,8 @@
     },
     {
       "t": "2026-11-02T00:00:36Z",
-      "lon": 26.173057887419535,
-      "lat": 46.99474461608802,
+      "lon": 37.35077305850806,
+      "lat": 59.5777714826424,
       "range": 22000000,
       "heading": 0,
       "pitch": -60,
@@ -119,8 +119,8 @@
     },
     {
       "t": "2026-11-02T00:00:46Z",
-      "lon": 26.173057887419535,
-      "lat": 46.99474461608802,
+      "lon": 37.35077305850806,
+      "lat": 59.5777714826424,
       "range": 19921847.303902317,
       "heading": 14,
       "pitch": -57.5,
@@ -128,8 +128,8 @@
     },
     {
       "t": "2026-11-02T00:00:55Z",
-      "lon": 26.173057887419535,
-      "lat": 46.99474461608802,
+      "lon": 37.35077305850806,
+      "lat": 59.5777714826424,
       "range": 18040000,
       "heading": 28,
       "pitch": -55,
@@ -172,28 +172,28 @@
   "beats": [
     {
       "t": "2026-11-02T00:00:01Z",
-      "text": "The Day of the Dead is traditionally celebrated on November 1 and 2, though some localities also include October 31 or November 6.",
+      "text": "The Day of the Dead is traditionally celebrated on November 1 and 2, though other days, such as October 31 or November 6, may be included depending on the locality.",
       "cites": [
         "wiki:rev:1380361744:0"
       ]
     },
     {
       "t": "2026-11-02T00:00:08Z",
-      "text": "At midnight on November 2, people light candles and ride winged boats called mariposas, or butterflies, to Janitzio, an island in the middle of the lake with a cemetery, to honor the dead there.",
+      "text": "At midnight on November 2, people light candles and ride winged boats called mariposas to Janitzio, a lake island with a cemetery, to honor and celebrate the dead there.",
       "cites": [
         "wiki:rev:1380361744:117"
       ]
     },
     {
       "t": "2026-11-02T00:00:15Z",
-      "text": "In Italy, November 2 is All Souls' Day, and it is colloquially known as Day of the Dead or Giorno dei Morti.",
+      "text": "In Italy, November 2 is All Souls' Day, colloquially known as Day of the Dead or Giorno dei Morti.",
       "cites": [
         "wiki:rev:1380361744:160"
       ]
     },
     {
       "t": "2026-11-02T00:00:33Z",
-      "text": "On 2 November 2026, 63,975 people read the English article, about 13 times the usual number.",
+      "text": "On 2 November 2026, the English article drew 63,975 readers, about 13× the usual daily figure.",
       "cites": [
         "views:en:Day_of_the_Dead:2026-11-02",
         "views:en:Day_of_the_Dead:prior"
@@ -201,7 +201,7 @@
     },
     {
       "t": "2026-11-02T00:00:40Z",
-      "text": "The article is read in 11 languages, and after English, the most readers were in Spanish, with 19,498.",
+      "text": "The article appeared in 4 languages, and after English, the Spanish version drew the most readers, with 19,498.",
       "cites": [
         "views:en:Day_of_the_Dead:2026-11-02",
         "views:es:Día_de_Muertos:2026-11-02"
@@ -209,19 +209,16 @@
     },
     {
       "t": "2026-11-02T00:00:47Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
       "cites": [
         "views:es:Día_de_Muertos:2026-11-02",
         "views:de:Tag_der_Toten:2026-11-02",
-        "views:fr:Jour_des_morts_(Mexique):2026-11-02",
-        "views:pt:Dia_dos_Mortos:2026-11-02",
-        "views:it:Giorno_dei_morti_(America):2026-11-02",
         "views:ja:死者の日_(メキシコ):2026-11-02"
       ]
     },
     {
       "t": "2026-11-02T00:00:57Z",
-      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "The sources for this film are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
         "wiki:rev:1380361744:0",
         "views:en:Day_of_the_Dead:2026-11-02",
@@ -433,33 +430,6 @@
           ]
         },
         {
-          "label": "French",
-          "text": "2,418",
-          "value": 2418,
-          "color": "#9ad9ff",
-          "cites": [
-            "views:fr:Jour_des_morts_(Mexique):2026-11-02"
-          ]
-        },
-        {
-          "label": "Portuguese",
-          "text": "2,306",
-          "value": 2306,
-          "color": "#9ad9ff",
-          "cites": [
-            "views:pt:Dia_dos_Mortos:2026-11-02"
-          ]
-        },
-        {
-          "label": "Italian",
-          "text": "2,168",
-          "value": 2168,
-          "color": "#9ad9ff",
-          "cites": [
-            "views:it:Giorno_dei_morti_(America):2026-11-02"
-          ]
-        },
-        {
           "label": "Japanese",
           "text": "1,679",
           "value": 1679,
@@ -508,7 +478,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.002766
+    "at": "2026-11-06T00:00:00Z",
+    "costUsd": 0.002911
   }
 }
