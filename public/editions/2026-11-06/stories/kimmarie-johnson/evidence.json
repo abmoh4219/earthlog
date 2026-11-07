@@ -1,0 +1,158 @@
+[
+  {
+    "id": "views:en:Kimmarie_Johnson:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 82,033 readers of \"Kimmarie Johnson\" on 6 Nov 2026",
+    "value": 82033,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Kimmarie_Johnson",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Kimmarie_Johnson:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Kimmarie Johnson\": normally a median of 9 readers a day (8 to 60 days before)",
+    "value": 9,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Kimmarie_Johnson",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q6410167:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"Kimmarie Johnson\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q6410167",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384236188:34",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kimmarie Johnson\" (revision of 2026-11-07 07:24 UTC)",
+    "quote": "Johnson suffered a heart-related medical emergency at her home in Los Angeles, California, on October 27, 2026, and was hospitalized at Cedars-Sinai Medical Center, where she was diagnosed with a heart aneurysm condition.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kimmarie_Johnson&oldid=1384236188"
+  },
+  {
+    "id": "wiki:rev:1384236188:35",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kimmarie Johnson\" (revision of 2026-11-07 07:24 UTC)",
+    "quote": "She died on the afternoon of November 4, at the age of 50.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kimmarie_Johnson&oldid=1384236188"
+  },
+  {
+    "id": "wiki:rev:1384236188:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kimmarie Johnson\" (revision of 2026-11-07 07:24 UTC)",
+    "quote": "Kimmarie Johnson (born Kim Marie Johnson; April 8, 1976 – November 4, 2026) was an American actress, model, businesswoman and beauty pageant titleholder.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kimmarie_Johnson&oldid=1384236188"
+  },
+  {
+    "id": "views:en:Kimmarie_Johnson:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Kimmarie Johnson\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Kimmarie_Johnson&range=latest-30"
+  },
+  {
+    "id": "views:es:Kimmarie_Johnson:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 3,997 readers of \"Kimmarie Johnson\" on 6 November 2026",
+    "value": 3997,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Kimmarie_Johnson"
+  },
+  {
+    "id": "views:ar:كيماري_جونسون:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 176 readers of \"كيماري جونسون\" on 6 November 2026",
+    "value": 176,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D9%83%D9%8A%D9%85%D8%A7%D8%B1%D9%8A_%D8%AC%D9%88%D9%86%D8%B3%D9%88%D9%86"
+  },
+  {
+    "id": "wd:Q6410167:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kimmarie Johnson\": born 8 April 1976",
+    "url": "https://www.wikidata.org/wiki/Q6410167#P569"
+  },
+  {
+    "id": "wd:Q6410167:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kimmarie Johnson\": birthplace Pittsburgh",
+    "url": "https://www.wikidata.org/wiki/Q6410167#P19"
+  },
+  {
+    "id": "wd:Q6410167:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kimmarie Johnson\": died 4 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q6410167#P570"
+  },
+  {
+    "id": "wd:Q6410167:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kimmarie Johnson\": place of death Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q6410167#P20"
+  },
+  {
+    "id": "wd:Q6410167:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kimmarie Johnson\": occupation model, beauty pageant contestant",
+    "url": "https://www.wikidata.org/wiki/Q6410167#P106"
+  },
+  {
+    "id": "wd:Q6410167:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kimmarie Johnson\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q6410167#P27"
+  },
+  {
+    "id": "wd:Q6410167:P69:Q5021159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kimmarie Johnson\": educated at PennWest California",
+    "url": "https://www.wikidata.org/wiki/Q6410167#P69"
+  }
+]

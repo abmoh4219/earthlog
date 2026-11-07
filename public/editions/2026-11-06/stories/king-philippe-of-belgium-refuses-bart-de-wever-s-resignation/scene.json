@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-king-philippe-of-belgium-refuses-bart-de-wever-s-resignation",
+  "title": "King Philippe of Belgium refuses Bart De Wever's resignation as the prime…",
+  "subtitle": "News · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:00:33Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -5.2,
+    "south": 42.79,
+    "east": 14.8,
+    "north": 58.79
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-06T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": 42.799999999999955,
+      "lat": 29.198999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:07Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:09Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:12Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:17Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:20Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:28Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:33Z",
+      "lon": -20.200000000000045,
+      "lat": 48.665,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "King Philippe of Belgium has refused Bart De Wever's resignation as prime minister, asking him to continue with budget negotiations.",
+      "cites": [
+        "wiki:2026-11-06:16"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:11Z",
+      "text": "The events take place in Belgium, the country where the reports place this story.",
+      "cites": [
+        "wiki:2026-11-06:16"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:19Z",
+      "text": "The story is reported by Euronews and Xinhua.",
+      "cites": [
+        "wiki:2026-11-06:16"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:27Z",
+      "text": "The sources for this film are Wikipedia and Current events, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-06:16"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BE",
+    "lon": 4.8,
+    "lat": 50.79,
+    "label": "Belgium"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-06T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-06T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-06T00:00:19Z",
+      "until": "2026-11-06T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Euronews",
+          "text": "Open",
+          "url": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks",
+          "cites": [
+            "wiki:2026-11-06:16"
+          ]
+        },
+        {
+          "label": "Xinhua",
+          "text": "Open",
+          "url": "https://english.news.cn/20261106/5c03e1c1987748fc9d9df9925a23d7d6/c.html",
+          "cites": [
+            "wiki:2026-11-06:16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:00:27Z",
+      "until": "2026-11-06T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-06:16"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.000422
+  }
+}

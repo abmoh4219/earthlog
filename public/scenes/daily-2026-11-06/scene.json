@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-06",
+  "title": "The world on 6 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-07T00:00:00Z"
+  },
+  "focus": "2026-11-06T01:12:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": -57.63555556,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T01:12:00Z",
+      "lon": -57.63555556,
+      "lat": -25.91888889,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T02:31:12Z",
+      "lon": -57.63555556,
+      "lat": -25.91888889,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T03:36:00Z",
+      "lon": 29,
+      "lat": -1.24,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T04:55:12Z",
+      "lon": 29,
+      "lat": -1.24,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T06:00:00Z",
+      "lon": 116.31666667,
+      "lat": 0.41000000000000003,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T07:19:12Z",
+      "lon": 116.31666667,
+      "lat": 0.41000000000000003,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T08:24:00Z",
+      "lon": -84.32833333,
+      "lat": 33.15944444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T09:38:29Z",
+      "lon": -84.32833333,
+      "lat": 33.15944444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T10:39:27Z",
+      "lon": 142.1175,
+      "lat": 34.0877,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T11:43:28Z",
+      "lon": 142.1175,
+      "lat": 34.0877,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T12:35:51Z",
+      "lon": 113.84,
+      "lat": 1.2499999999999998,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T13:39:52Z",
+      "lon": 113.84,
+      "lat": 1.2499999999999998,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T14:32:15Z",
+      "lon": -57.63555556,
+      "lat": -25.91888889,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T15:36:16Z",
+      "lon": -57.63555556,
+      "lat": -25.91888889,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T16:28:39Z",
+      "lon": 5.1964,
+      "lat": 45.4803,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T17:32:40Z",
+      "lon": 5.1964,
+      "lat": 45.4803,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T18:25:03Z",
+      "lon": 106.34,
+      "lat": 31.22,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T19:30:28Z",
+      "lon": 106.34,
+      "lat": 31.22,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-06T20:24:00Z",
+      "lon": 106.34,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T22:48:00Z",
+      "lon": -57.63555556,
+      "lat": -25.91888889,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-06T23:27:36Z",
+      "lon": -57.63555556,
+      "lat": -25.91888889,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": -57.63555556,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 873
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T01:12:00Z",
+      "text": "Politics: The Paraguayan Senate unanimously removes Santiago Peña as country's president over alleged conflicts of interest involving Ueno Bank…",
+      "cites": [
+        "wiki:2026-11-06:13"
+      ]
+    },
+    {
+      "t": "2026-11-06T03:36:00Z",
+      "text": "Conflict: The death toll from an armed attack yesterday by suspected Allied Democratic Forces militants on several villages in North Kivu…",
+      "cites": [
+        "wiki:2026-11-06:1"
+      ]
+    },
+    {
+      "t": "2026-11-06T06:00:00Z",
+      "text": "Disaster: Australia deploys a C-130 Hercules aircraft, a Cessna Citation aircraft, and 20 personnel to help extinguish wildfires in East Kalimantan…",
+      "cites": [
+        "wiki:2026-11-06:2"
+      ]
+    },
+    {
+      "t": "2026-11-06T08:24:00Z",
+      "text": "Health & environment: The United States Centers for Disease Control and Prevention reports 5,182 measles cases in 2026…",
+      "cites": [
+        "wiki:2026-11-06:4"
+      ]
+    },
+    {
+      "t": "2026-11-06T10:39:27Z",
+      "text": "10:39 UTC. The day's strongest earthquake: magnitude 6.1, 29 km deep, 144 km SE of Hasaki, Japan.",
+      "cites": [
+        "usgs:us7000twg9"
+      ]
+    },
+    {
+      "t": "2026-11-06T12:35:51Z",
+      "text": "Law & crime: Malaysia's UMNO party pays a RM50-million (US$12 million) fine for imprisoned former prime minister Najib Razak…",
+      "cites": [
+        "wiki:2026-11-06:6"
+      ]
+    },
+    {
+      "t": "2026-11-06T14:32:15Z",
+      "text": "Politics: The Public Prosecutor's Office orders the arrest of Santiago Peña, who is placed under house arrest.",
+      "cites": [
+        "wiki:2026-11-06:14"
+      ]
+    },
+    {
+      "t": "2026-11-06T16:28:39Z",
+      "text": "Disaster: Two people are killed and 16 injured in a bus crash in Lent, Ain, France.",
+      "cites": [
+        "wiki:2026-11-06:3"
+      ]
+    },
+    {
+      "t": "2026-11-06T18:25:03Z",
+      "text": "Health & environment: The Standing Committee of the National People's Congress of China adopts a law regulating Chinese research, tourism, shipping…",
+      "cites": [
+        "wiki:2026-11-06:5"
+      ]
+    },
+    {
+      "t": "2026-11-06T20:24:00Z",
+      "text": "Law & crime: Kenyan cult leader Paul Mackenzie is sentenced to 200 years in prison for the mass murder of children.",
+      "cites": [
+        "wiki:2026-11-06:7"
+      ]
+    },
+    {
+      "t": "2026-11-06T22:48:00Z",
+      "text": "Politics: Vice President Pedro Alliana is sworn in as the interim president of Paraguay.",
+      "cites": [
+        "wiki:2026-11-06:15"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-07T11:22:08Z"
+  }
+}

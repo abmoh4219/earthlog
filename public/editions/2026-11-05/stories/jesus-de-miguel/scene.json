@@ -254,21 +254,21 @@
       "t": "2026-11-05T00:00:01Z",
       "text": "On 2 November 2026, Jesús de Miguel suffered a blunt cardiac injury in a collision with FC Andorra goalkeeper Jesús Owono, which caused him to go into cardiac arrest.",
       "cites": [
-        "wiki:rev:1384009398:26"
+        "wiki:rev:1384119673:26"
       ]
     },
     {
       "t": "2026-11-05T00:00:08Z",
       "text": "His funeral was held on 5 November at the Parish Church of Saint Michael the Archangel in Navahermosa.",
       "cites": [
-        "wiki:rev:1384009398:33"
+        "wiki:rev:1384119673:33"
       ]
     },
     {
       "t": "2026-11-05T00:00:15Z",
-      "text": "Jesús de Miguel Alameda was a Spanish professional footballer who played as a striker, born 21 September 1996 and died 3 November 2026.",
+      "text": "Jesús de Miguel Alameda, born 21 September 1996 and died 3 November 2026, was a Spanish professional footballer who played as a striker.",
       "cites": [
-        "wiki:rev:1384009398:0"
+        "wiki:rev:1384119673:0"
       ]
     },
     {
@@ -281,15 +281,9 @@
     },
     {
       "t": "2026-11-05T00:00:33Z",
-      "text": "Between 2015 and 2026 he played for 8 clubs, beginning with CD Leganés B and ending with C.D. Tenerife.",
+      "text": "Between 2015 and 2026 he played for 8 clubs, starting with CD Leganés B and ending with C.D. Tenerife.",
       "cites": [
         "wd:Q116992476:P54:Q9196665",
-        "wd:Q116992476:P54:Q9008987",
-        "wd:Q116992476:P54:Q108708",
-        "wd:Q116992476:P54:Q4651246",
-        "wd:Q116992476:P54:Q840620",
-        "wd:Q116992476:P54:Q20278773",
-        "wd:Q116992476:P54:Q743557",
         "wd:Q116992476:P54:Q216661"
       ]
     },
@@ -304,7 +298,7 @@
     },
     {
       "t": "2026-11-05T00:01:00Z",
-      "text": "On 5 November 2026, 72,137 people read about him on English Wikipedia, while in the weeks before, a median of 4 readers a day visited.",
+      "text": "On 5 November 2026, English Wikipedia recorded 72,137 readers of the article, while in the weeks before it normally had a median of 4 a day.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-05",
         "views:en:Jesús_de_Miguel:prior"
@@ -312,7 +306,7 @@
     },
     {
       "t": "2026-11-05T00:01:07Z",
-      "text": "The article was read in 11 languages, and after English, the most readers used Spanish, with 30,814.",
+      "text": "The article was read in 11 languages, and after English the most readers were in Spanish, with 30,814.",
       "cites": [
         "views:en:Jesús_de_Miguel:2026-11-05",
         "views:es:Jesús_de_Miguel_Alameda:2026-11-05"
@@ -324,17 +318,14 @@
       "cites": [
         "views:es:Jesús_de_Miguel_Alameda:2026-11-05",
         "views:fr:Jesús_de_Miguel:2026-11-05",
-        "views:de:Jesús_de_Miguel:2026-11-05",
-        "views:ru:Де_Мигель,_Хесус_(футболист):2026-11-05",
-        "views:fa:خسوس_د_میگل:2026-11-05",
-        "views:ar:خيسوس_دي_ميغيل:2026-11-05"
+        "views:de:Jesús_de_Miguel:2026-11-05"
       ]
     },
     {
       "t": "2026-11-05T00:01:24Z",
-      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1384009398:26",
+        "wiki:rev:1384119673:26",
         "views:en:Jesús_de_Miguel:2026-11-05",
         "wd:Q116992476:P31"
       ]
@@ -679,7 +670,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1384009398:26"
+            "wiki:rev:1384119673:26"
           ]
         },
         {
@@ -704,7 +695,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-06T12:20:07Z",
-    "costUsd": 0.003365
+    "at": "2026-11-07T11:16:56Z",
+    "costUsd": 0.003214
   }
 }

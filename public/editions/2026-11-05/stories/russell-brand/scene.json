@@ -252,28 +252,28 @@
   "beats": [
     {
       "t": "2026-11-05T00:00:01Z",
-      "text": "Brand was later charged with multiple counts of rape, oral rape, indecent assault and sexual assault, and his trial began in October 2026.",
+      "text": "Charges of multiple counts of rape, oral rape, indecent assault and sexual assault followed, and his trial began in October 2026.",
       "cites": [
-        "wiki:rev:1384072766:14"
+        "wiki:rev:1384253667:14"
       ]
     },
     {
       "t": "2026-11-05T00:00:08Z",
-      "text": "On 5 November 2026, he was convicted of one count of rape and three counts of sexual assault and remanded in custody.",
+      "text": "On 5 November 2026, Brand was convicted of one count of rape and three counts of sexual assault and remanded in custody.",
       "cites": [
-        "wiki:rev:1384072766:335"
+        "wiki:rev:1384253667:334"
       ]
     },
     {
       "t": "2026-11-05T00:00:15Z",
-      "text": "Russell Edward Brand, born 4 June 1975, is an English comedian, actor and media personality, and the article describes him as a convicted rapist.",
+      "text": "Russell Edward Brand, born 4 June 1975, is an English comedian and actor.",
       "cites": [
-        "wiki:rev:1384072766:0"
+        "wiki:rev:1384253667:0"
       ]
     },
     {
       "t": "2026-11-05T00:00:25Z",
-      "text": "He was born on 4 June 1975 in Grays.",
+      "text": "Brand was born on 4 June 1975 in Grays.",
       "cites": [
         "wd:Q296609:P569",
         "wd:Q296609:P19"
@@ -291,14 +291,14 @@
     },
     {
       "t": "2026-11-05T00:00:46Z",
-      "text": "The record shows 1 award on file, including the James Joyce Awards.",
+      "text": "1 award on record, including the James Joyce Awards.",
       "cites": [
         "wd:Q296609:P166:Q3806623"
       ]
     },
     {
       "t": "2026-11-05T00:01:05Z",
-      "text": "On 5 November 2026, 571,124 people read the English article, about 162 times the usual daily figure.",
+      "text": "On 5 November 2026, 571,124 people read the English article, about 162× the usual.",
       "cites": [
         "views:en:Russell_Brand:2026-11-05",
         "views:en:Russell_Brand:prior"
@@ -306,7 +306,7 @@
     },
     {
       "t": "2026-11-05T00:01:12Z",
-      "text": "The article was read in 11 languages, and after English, German was the most read, with 24,476 readers.",
+      "text": "The article was read in 11 languages, and after English, German had the most readers at 24,476.",
       "cites": [
         "views:en:Russell_Brand:2026-11-05",
         "views:de:Russell_Brand:2026-11-05"
@@ -314,7 +314,7 @@
     },
     {
       "t": "2026-11-05T00:01:19Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
       "cites": [
         "views:de:Russell_Brand:2026-11-05",
         "views:es:Russell_Brand:2026-11-05",
@@ -326,9 +326,9 @@
     },
     {
       "t": "2026-11-05T00:01:29Z",
-      "text": "These figures come from Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1384072766:14",
+        "wiki:rev:1384253667:14",
         "views:en:Russell_Brand:2026-11-05",
         "wd:Q296609:P31"
       ]
@@ -683,7 +683,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1384072766:14"
+            "wiki:rev:1384253667:14"
           ]
         },
         {
@@ -708,7 +708,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-06T12:20:07Z",
-    "costUsd": 0.00358
+    "at": "2026-11-07T11:16:56Z",
+    "costUsd": 0.003379
   }
 }

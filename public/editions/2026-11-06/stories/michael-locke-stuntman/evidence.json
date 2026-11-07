@@ -1,0 +1,140 @@
+[
+  {
+    "id": "views:en:Michael_Locke_(stuntman):2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 92,092 readers of \"Michael Locke (stuntman)\" on 6 Nov 2026",
+    "value": 92092,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Michael_Locke_(stuntman)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Michael_Locke_(stuntman):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Michael Locke (stuntman)\": normally a median of 38 readers a day (8 to 60 days before)",
+    "value": 38,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Michael_Locke_(stuntman)",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q5962128:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"Michael Locke\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q5962128",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384234232:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Michael Locke (stuntman)\" (revision of 2026-11-07 07:08 UTC)",
+    "quote": "He was best known for MTV UK's Dirty Sanchez.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Michael_Locke_(stuntman)&oldid=1384234232"
+  },
+  {
+    "id": "wiki:rev:1384234232:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Michael Locke (stuntman)\" (revision of 2026-11-07 07:08 UTC)",
+    "quote": "He starred in the film Dirty Sanchez: The Movie, released in 2006.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Michael_Locke_(stuntman)&oldid=1384234232"
+  },
+  {
+    "id": "wiki:rev:1384234232:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Michael Locke (stuntman)\" (revision of 2026-11-07 07:08 UTC)",
+    "quote": "Michael Richard Locke (13 March 1979 – November 2026), better known as Pancho, was a Welsh professional stuntman and skateboarder.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Michael_Locke_(stuntman)&oldid=1384234232"
+  },
+  {
+    "id": "views:en:Michael_Locke_(stuntman):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Michael Locke (stuntman)\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Michael_Locke_(stuntman)&range=latest-30"
+  },
+  {
+    "id": "views:sv:Michael_Locke:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Swedish Wikipedia: 465 readers of \"Michael Locke\" on 6 November 2026",
+    "value": 465,
+    "unit": "readers",
+    "url": "https://sv.wikipedia.org/wiki/Michael_Locke"
+  },
+  {
+    "id": "views:pl:Michael_Locke:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 72 readers of \"Michael Locke\" on 6 November 2026",
+    "value": 72,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Michael_Locke"
+  },
+  {
+    "id": "wd:Q5962128:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Michael Locke\": born 13 March 1979",
+    "url": "https://www.wikidata.org/wiki/Q5962128#P569"
+  },
+  {
+    "id": "wd:Q5962128:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Michael Locke\": birthplace Port Talbot",
+    "url": "https://www.wikidata.org/wiki/Q5962128#P19"
+  },
+  {
+    "id": "wd:Q5962128:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Michael Locke\": died 6 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q5962128#P570"
+  },
+  {
+    "id": "wd:Q5962128:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Michael Locke\": occupation comedian, stunt performer",
+    "url": "https://www.wikidata.org/wiki/Q5962128#P106"
+  },
+  {
+    "id": "wd:Q5962128:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Michael Locke\": citizenship United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q5962128#P27"
+  }
+]

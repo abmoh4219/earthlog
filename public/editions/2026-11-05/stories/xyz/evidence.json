@@ -128,28 +128,6 @@
     "url": "https://it.wikipedia.org/wiki/.xyz"
   },
   {
-    "id": "views:pl:.xyz:2026-11-05",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-05T00:00:00Z",
-    "precision": "day",
-    "label": "Polish Wikipedia: 2 readers of \".xyz\" on 5 November 2026",
-    "value": 2,
-    "unit": "readers",
-    "url": "https://pl.wikipedia.org/wiki/.xyz"
-  },
-  {
-    "id": "views:ar:.xyz:2026-11-05",
-    "kind": "sensor",
-    "source": "wikimedia",
-    "t": "2026-11-05T00:00:00Z",
-    "precision": "day",
-    "label": "Arabic Wikipedia: 2 readers of \".xyz\" on 5 November 2026",
-    "value": 2,
-    "unit": "readers",
-    "url": "https://ar.wikipedia.org/wiki/.xyz"
-  },
-  {
     "id": "views:pt:.xyz:2026-11-05",
     "kind": "sensor",
     "source": "wikimedia",

@@ -1,0 +1,318 @@
+[
+  {
+    "id": "views:en:Jay_Rockefeller:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 71,552 readers of \"Jay Rockefeller\" on 6 Nov 2026",
+    "value": 71552,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jay_Rockefeller",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jay_Rockefeller:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Jay Rockefeller\": normally a median of 460 readers a day (8 to 60 days before)",
+    "value": 460,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jay_Rockefeller",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q285102:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"Jay Rockefeller\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q285102",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384244769:127",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jay Rockefeller\" (revision of 2026-11-07 08:29 UTC)",
+    "quote": "Jay Rockefeller died at his home in Washington, D.C., on November 6, 2026, at the age of 89.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jay_Rockefeller&oldid=1384244769"
+  },
+  {
+    "id": "wiki:rev:1384244769:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jay Rockefeller\" (revision of 2026-11-07 08:29 UTC)",
+    "quote": "He was a member of the Democratic Party.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jay_Rockefeller&oldid=1384244769"
+  },
+  {
+    "id": "wiki:rev:1384244769:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jay Rockefeller\" (revision of 2026-11-07 08:29 UTC)",
+    "quote": "John Davison \"Jay\" Rockefeller IV (June 18, 1937 – November 6, 2026) was an American politician who served as a United States senator from West Virginia from 1985 to 2015 and previously as governor of West Virginia from 1977 to 1985.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jay_Rockefeller&oldid=1384244769"
+  },
+  {
+    "id": "views:en:Jay_Rockefeller:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jay Rockefeller\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jay_Rockefeller&range=latest-30"
+  },
+  {
+    "id": "views:ru:Рокфеллер,_Джон_Дэвисон_IV:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 4,073 readers of \"Рокфеллер, Джон Дэвисон IV\" on 6 November 2026",
+    "value": 4073,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BA%D1%84%D0%B5%D0%BB%D0%BB%D0%B5%D1%80%2C_%D0%94%D0%B6%D0%BE%D0%BD_%D0%94%D1%8D%D0%B2%D0%B8%D1%81%D0%BE%D0%BD_IV"
+  },
+  {
+    "id": "views:fr:Jay_Rockefeller:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 2,530 readers of \"Jay Rockefeller\" on 6 November 2026",
+    "value": 2530,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Jay_Rockefeller"
+  },
+  {
+    "id": "views:de:Jay_Rockefeller:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 1,687 readers of \"Jay Rockefeller\" on 6 November 2026",
+    "value": 1687,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Jay_Rockefeller"
+  },
+  {
+    "id": "views:es:Jay_Rockefeller:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 740 readers of \"Jay Rockefeller\" on 6 November 2026",
+    "value": 740,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Jay_Rockefeller"
+  },
+  {
+    "id": "views:pl:Jay_Rockefeller:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 707 readers of \"Jay Rockefeller\" on 6 November 2026",
+    "value": 707,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Jay_Rockefeller"
+  },
+  {
+    "id": "views:ja:ジョン・ロックフェラー4世:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 205 readers of \"ジョン・ロックフェラー4世\" on 6 November 2026",
+    "value": 205,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF%E3%83%95%E3%82%A7%E3%83%A9%E3%83%BC4%E4%B8%96"
+  },
+  {
+    "id": "views:it:Jay_Rockefeller:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 192 readers of \"Jay Rockefeller\" on 6 November 2026",
+    "value": 192,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Jay_Rockefeller"
+  },
+  {
+    "id": "views:pt:Jay_Rockefeller:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 152 readers of \"Jay Rockefeller\" on 6 November 2026",
+    "value": 152,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Jay_Rockefeller"
+  },
+  {
+    "id": "views:zh:傑伊·洛克斐勒:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 122 readers of \"傑伊·洛克斐勒\" on 6 November 2026",
+    "value": 122,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E5%82%91%E4%BC%8A%C2%B7%E6%B4%9B%E5%85%8B%E6%96%90%E5%8B%92"
+  },
+  {
+    "id": "views:ar:جاي_روكفلر:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 59 readers of \"جاي روكفلر\" on 6 November 2026",
+    "value": 59,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D9%8A_%D8%B1%D9%88%D9%83%D9%81%D9%84%D8%B1"
+  },
+  {
+    "id": "wd:Q285102:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": born 18 June 1937",
+    "url": "https://www.wikidata.org/wiki/Q285102#P569"
+  },
+  {
+    "id": "wd:Q285102:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": birthplace Manhattan",
+    "url": "https://www.wikidata.org/wiki/Q285102#P19"
+  },
+  {
+    "id": "wd:Q285102:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": died 6 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q285102#P570"
+  },
+  {
+    "id": "wd:Q285102:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": place of death Washington, D.C.",
+    "url": "https://www.wikidata.org/wiki/Q285102#P20"
+  },
+  {
+    "id": "wd:Q285102:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": occupation politician",
+    "url": "https://www.wikidata.org/wiki/Q285102#P106"
+  },
+  {
+    "id": "wd:Q285102:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q285102#P27"
+  },
+  {
+    "id": "wd:Q285102:P69:Q49123",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": educated at Harvard College (1961)",
+    "url": "https://www.wikidata.org/wiki/Q285102#P69"
+  },
+  {
+    "id": "wd:Q285102:P69:Q1426464",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": educated at Phillips Exeter Academy (1954)",
+    "url": "https://www.wikidata.org/wiki/Q285102#P69"
+  },
+  {
+    "id": "wd:Q285102:P69:Q1141728",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": educated at International Christian University (1957–60)",
+    "url": "https://www.wikidata.org/wiki/Q285102#P69"
+  },
+  {
+    "id": "wd:Q285102:P69:Q7586750",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": educated at St. Albans School",
+    "url": "https://www.wikidata.org/wiki/Q285102#P69"
+  },
+  {
+    "id": "wd:Q285102:P69:Q3017750",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": educated at Eliot House",
+    "url": "https://www.wikidata.org/wiki/Q285102#P69"
+  },
+  {
+    "id": "wd:Q285102:P69:Q49112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": educated at Yale University",
+    "url": "https://www.wikidata.org/wiki/Q285102#P69"
+  },
+  {
+    "id": "wd:Q285102:P108:Q4742476",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": worked for AmeriCorps VISTA (1964–66)",
+    "url": "https://www.wikidata.org/wiki/Q285102#P108"
+  },
+  {
+    "id": "wd:Q285102:P937:Q61",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": worked in Washington, D.C.",
+    "url": "https://www.wikidata.org/wiki/Q285102#P937"
+  },
+  {
+    "id": "wd:Q285102:P166:Q55339171",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jay Rockefeller\": award received: Grand Cordon of the Order of the Rising Sun (2013)",
+    "url": "https://www.wikidata.org/wiki/Q285102#P166"
+  }
+]

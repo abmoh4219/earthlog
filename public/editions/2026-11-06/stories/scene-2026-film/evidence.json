@@ -1,0 +1,276 @@
+[
+  {
+    "id": "views:en:Scene_(2026_film):2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 159,862 readers of \"Scene (2026 film)\" on 6 Nov 2026",
+    "value": 159862,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Scene_(2026_film):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Scene (2026 film)\": normally a median of 3,403 readers a day (8 to 60 days before)",
+    "value": 3403,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q141438727:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"Scene\" is an instance of film project",
+    "url": "https://www.wikidata.org/wiki/Q141438727",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384248457:8",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC)",
+    "quote": "Scene was released on 6 November 2026, in the week of Diwali and received mostly positive reviews from critics.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:rev:1384248457:57",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC)",
+    "quote": "Scene was released on 6 November 2026, the week of Diwali, clashing with Mookuthi Amman 2.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:rev:1384248457:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC)",
+    "quote": "Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "views:en:Scene_(2026_film):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Scene (2026 film)\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Scene_(2026_film)&range=latest-30"
+  },
+  {
+    "id": "views:ms:Scene:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Malay Wikipedia: 14 readers of \"Scene\" on 6 November 2026",
+    "value": 14,
+    "unit": "readers",
+    "url": "https://ms.wikipedia.org/wiki/Scene"
+  },
+  {
+    "id": "wd:Q141438727:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scene\": released 6 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q141438727#P577"
+  },
+  {
+    "id": "wd:Q141438727:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scene\": director Jithu Madhavan",
+    "url": "https://www.wikidata.org/wiki/Q141438727#P57"
+  },
+  {
+    "id": "wd:Q141438727:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scene\": country of origin India",
+    "url": "https://www.wikidata.org/wiki/Q141438727#P495"
+  },
+  {
+    "id": "wiki:box:1384248457:directed-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Directed by: Jithu Madhavan",
+    "quote": "Directed by: Jithu Madhavan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:starring",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Starring: Suriya, Naslen, Nazriya Nazim",
+    "quote": "Starring: Suriya, Naslen, Nazriya Nazim",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Music: Sushin Shyam",
+    "quote": "Music: Sushin Shyam",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:studio",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Studio: Zhagaram Studios, 2D Entertainment",
+    "quote": "Studio: Zhagaram Studios, 2D Entertainment",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:released",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Released: 6 November 2026",
+    "quote": "Released: 6 November 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Runtime: 149 minutes",
+    "quote": "Runtime: 149 minutes",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:language",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Language: Tamil",
+    "quote": "Language: Tamil",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:budget",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Budget: ₹22 crore",
+    "quote": "Budget: ₹22 crore",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:box:1384248457:box-office",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\" (revision of 2026-11-07 09:03 UTC): Box office: ₹34.25 crore",
+    "quote": "Box office: ₹34.25 crore",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wd:Q22916734:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2D Entertainment\": headquarters Chennai",
+    "url": "https://www.wikidata.org/wiki/Q22916734#P159"
+  },
+  {
+    "id": "wiki:film:1384248457:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\", filming (revision of 2026-11-07 09:03 UTC)",
+    "quote": "Reports initially stated that the first schedule would begin in Kerala on 8 December, while the production's launch ceremony had taken place the previous day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:film:1384248457:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\", filming (revision of 2026-11-07 09:03 UTC)",
+    "quote": "Most of the filming was expected to take place in Kochi.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wiki:film:1384248457:6",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scene (2026 film)\", filming (revision of 2026-11-07 09:03 UTC)",
+    "quote": "Nazriya reportedly began her portions with an action sequence in Chennai, choreographed by Chethan D'Souza, with a set built in VGN Cosmos in Avadi.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scene_(2026_film)&oldid=1384248457"
+  },
+  {
+    "id": "wd:Q108385315:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Naslen K. Gafoor\": place of birth Kodungallur",
+    "url": "https://www.wikidata.org/wiki/Q108385315#P19"
+  },
+  {
+    "id": "wd:Q29453931:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Sushin Shyam\": place of birth Thalassery",
+    "url": "https://www.wikidata.org/wiki/Q29453931#P19"
+  },
+  {
+    "id": "wd:Q3165960:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nazriya Nazim\": place of birth Thiruvananthapuram",
+    "url": "https://www.wikidata.org/wiki/Q3165960#P19"
+  },
+  {
+    "id": "wd:Q3345518:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Suriya\": place of birth Chennai",
+    "url": "https://www.wikidata.org/wiki/Q3345518#P19"
+  }
+]

@@ -1,0 +1,621 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-kimmarie-johnson",
+  "title": "Kimmarie Johnson",
+  "subtitle": "People · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:01:30Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -128.24367999999998,
+    "south": 26.05223,
+    "east": -108.24368,
+    "north": 42.05223
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:00:59Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:00:59Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-06T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": -80.24367999999998,
+      "lat": 20.018838,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:14Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:27Z",
+      "lon": -80,
+      "lat": 39.54166666666667,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "lon": -80,
+      "lat": 39.54166666666667,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:31Z",
+      "lon": -80,
+      "lat": 39.54166666666667,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:35Z",
+      "lon": -93.21648917203684,
+      "lat": 37.42527204823126,
+      "range": 11037207.463658443,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:38Z",
+      "lon": -93.21648917203684,
+      "lat": 37.42527204823126,
+      "range": 9994616.443295203,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:41Z",
+      "lon": -93.21648917203684,
+      "lat": 37.42527204823126,
+      "range": 9050510.120199922,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:45Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:47Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 814984.6624323674,
+      "heading": -26.9,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:49Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 738000,
+      "heading": -35.8,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:53Z",
+      "lon": -99.96482467160095,
+      "lat": 37.17784079474957,
+      "range": 8220011.21319191,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:56Z",
+      "lon": -99.96482467160095,
+      "lat": 37.17784079474957,
+      "range": 7443536.737526093,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:58Z",
+      "lon": -99.96482467160095,
+      "lat": 37.17784079474957,
+      "range": 6740409.194817365,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:03Z",
+      "lon": 22.90291013932362,
+      "lat": 32.004837886522246,
+      "range": 14000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:13Z",
+      "lon": 22.90291013932362,
+      "lat": 32.004837886522246,
+      "range": 12677539.193392383,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:22Z",
+      "lon": 22.90291013932362,
+      "lat": 32.004837886522246,
+      "range": 11480000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:26Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:27Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:30Z",
+      "lon": -143.24367999999998,
+      "lat": 33.36473,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "On October 27, 2026, Johnson had a heart-related emergency at her Los Angeles home, then was hospitalized at Cedars-Sinai Medical Center with a diagnosed heart aneurysm condition.",
+      "cites": [
+        "wiki:rev:1384236188:34"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:08Z",
+      "text": "She died on the afternoon of November 4, at the age of 50.",
+      "cites": [
+        "wiki:rev:1384236188:35"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "text": "Born Kim Marie Johnson on April 8, 1976, she was an American actress, model, businesswoman and beauty pageant titleholder.",
+      "cites": [
+        "wiki:rev:1384236188:0"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "text": "Johnson was born in Pittsburgh on 8 April 1976.",
+      "cites": [
+        "wd:Q6410167:P569",
+        "wd:Q6410167:P19"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:33Z",
+      "text": "Johnson was educated at PennWest California.",
+      "cites": [
+        "wd:Q6410167:P69:Q5021159"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:43Z",
+      "text": "Johnson died on 4 November 2026 in Los Angeles, aged 50.",
+      "cites": [
+        "wd:Q6410167:P570",
+        "wd:Q6410167:P20",
+        "wd:Q6410167:P569"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:00Z",
+      "text": "English Wikipedia readers reached 82,033 on 6 November 2026, while the article normally drew a median of 9 readers a day in the weeks before.",
+      "cites": [
+        "views:en:Kimmarie_Johnson:2026-11-06",
+        "views:en:Kimmarie_Johnson:prior"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:07Z",
+      "text": "Readers used 3 languages, and after English, Spanish was the most common with 3,997 readers.",
+      "cites": [
+        "views:en:Kimmarie_Johnson:2026-11-06",
+        "views:es:Kimmarie_Johnson:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:14Z",
+      "text": "On the globe, each language lights up where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:es:Kimmarie_Johnson:2026-11-06",
+        "views:ar:كيماري_جونسون:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:24Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384236188:34",
+        "views:en:Kimmarie_Johnson:2026-11-06",
+        "wd:Q6410167:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -118.24368,
+    "lat": 34.05223,
+    "label": "Los Angeles"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-06T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-06T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-06T00:00:50Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-06T00:00:59Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-06T00:01:23Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-06T00:00:33Z",
+      "until": "2026-11-06T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1976 born",
+          "text": "Pittsburgh",
+          "cites": [
+            "wd:Q6410167:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "PennWest California",
+          "cites": [
+            "wd:Q6410167:P69:Q5021159"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Los Angeles",
+          "cites": [
+            "wd:Q6410167:P20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-06T00:01:00Z",
+      "until": "2026-11-06T00:01:23Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Kimmarie Johnson",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 9
+            },
+            {
+              "x": "10-09",
+              "y": 12
+            },
+            {
+              "x": "10-10",
+              "y": 5
+            },
+            {
+              "x": "10-11",
+              "y": 8
+            },
+            {
+              "x": "10-12",
+              "y": 14
+            },
+            {
+              "x": "10-13",
+              "y": 18
+            },
+            {
+              "x": "10-14",
+              "y": 8
+            },
+            {
+              "x": "10-15",
+              "y": 9
+            },
+            {
+              "x": "10-16",
+              "y": 8
+            },
+            {
+              "x": "10-17",
+              "y": 16
+            },
+            {
+              "x": "10-18",
+              "y": 14
+            },
+            {
+              "x": "10-19",
+              "y": 6
+            },
+            {
+              "x": "10-20",
+              "y": 14
+            },
+            {
+              "x": "10-21",
+              "y": 17
+            },
+            {
+              "x": "10-22",
+              "y": 13
+            },
+            {
+              "x": "10-23",
+              "y": 8
+            },
+            {
+              "x": "10-24",
+              "y": 19
+            },
+            {
+              "x": "10-25",
+              "y": 8
+            },
+            {
+              "x": "10-26",
+              "y": 5
+            },
+            {
+              "x": "10-27",
+              "y": 11
+            },
+            {
+              "x": "10-28",
+              "y": 9
+            },
+            {
+              "x": "10-29",
+              "y": 12
+            },
+            {
+              "x": "10-30",
+              "y": 9
+            },
+            {
+              "x": "10-31",
+              "y": 5
+            },
+            {
+              "x": "11-01",
+              "y": 13
+            },
+            {
+              "x": "11-02",
+              "y": 7
+            },
+            {
+              "x": "11-03",
+              "y": 13
+            },
+            {
+              "x": "11-04",
+              "y": 173
+            },
+            {
+              "x": "11-05",
+              "y": 62844
+            },
+            {
+              "x": "11-06",
+              "y": 82033
+            }
+          ],
+          "cites": [
+            "views:en:Kimmarie_Johnson:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-06T00:01:00Z",
+      "until": "2026-11-06T00:01:23Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "82,033",
+          "value": 82033,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Kimmarie_Johnson:2026-11-06"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "3,997",
+          "value": 3997,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Kimmarie_Johnson:2026-11-06"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "176",
+          "value": 176,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:كيماري_جونسون:2026-11-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:01:24Z",
+      "until": "2026-11-06T00:01:30Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384236188:34"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Kimmarie_Johnson:2026-11-06"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q6410167:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.00426
+  }
+}

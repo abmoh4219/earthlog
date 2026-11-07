@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-the-paraguayan-senate-unanimously-removes-santiago-pena-as-c",
+  "title": "The Paraguayan Senate unanimously removes Santiago Peña as country's president…",
+  "subtitle": "News · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:00:57Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -67.63555556,
+    "south": -33.278888890000005,
+    "east": -47.63555556,
+    "north": -17.27888889
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-06T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": -19.635555560000057,
+      "lat": -15.579833334,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:14Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:26Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:31Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:34Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:38Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:41Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:44Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:47Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:49Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:52Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:53Z",
+      "lon": -57.63555556,
+      "lat": -25.96638889,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:57Z",
+      "lon": -82.63555556,
+      "lat": -25.96638889,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "The Paraguayan Senate unanimously removed Santiago Peña as the country's president over alleged conflicts of interest involving Ueno Bank, whose accounts the central bank froze.",
+      "cites": [
+        "wiki:2026-11-06:13"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:08Z",
+      "text": "On 5 November 2026, Peña announced his intent to resign, saying he did so for the stability of the country, social peace, and the need to preserve public institutions.",
+      "cites": [
+        "wiki:rev:1384238656:12"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "text": "The situation is part of an ongoing financial crisis that is primarily affecting Paraguay's economy, following the collapse of Ueno Bank, which has left millions of customers unable to reach their savings.",
+      "cites": [
+        "wiki:rev:1384238656:0"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "text": "The events are placed on the map at the Congress of Paraguay, in Paraguay, where the reports place them.",
+      "cites": [
+        "wiki:2026-11-06:13"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:33Z",
+      "text": "The record is dated 3 November 2026, with Paraguay as the country.",
+      "cites": [
+        "wd:Q142059724:P585",
+        "wd:Q142059724:P17"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:43Z",
+      "text": "The story was reported by AFP, Reuters and UPI.",
+      "cites": [
+        "wiki:2026-11-06:13",
+        "wiki:2026-11-06:14",
+        "wiki:2026-11-06:15"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:51Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-06:13",
+        "wiki:rev:1384238656:12",
+        "views:en:2026_Paraguay_banking_crisis:30d",
+        "wd:Q142059724:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PY",
+    "lon": -57.63555556,
+    "lat": -25.27888889,
+    "label": "Congress of Paraguay"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-06T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-06T00:00:42Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-06T00:00:50Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-06T00:00:33Z",
+      "until": "2026-11-06T00:00:42Z",
+      "title": "On record: 2026 Paraguay banking crisis",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Date",
+          "text": "3 November 2026",
+          "cites": [
+            "wd:Q142059724:P585"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Paraguay",
+          "cites": [
+            "wd:Q142059724:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-06T00:00:43Z",
+      "until": "2026-11-06T00:00:50Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/paraguay-senate-begins-president-impeachment-trial",
+          "cites": [
+            "wiki:2026-11-06:13"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/americas/paraguay-senate-votes-impeach-president-pea-2026-11-06/",
+          "cites": [
+            "wiki:2026-11-06:13"
+          ]
+        },
+        {
+          "label": "UPI",
+          "text": "Open",
+          "url": "https://www.upi.com/Top_News/World-News/2026/11/06/latam-paraguay-president-impached-arrested/1841794018965/",
+          "cites": [
+            "wiki:2026-11-06:14"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/americas/paraguays-alliana-sworn-president-after-pea-impeachment-2026-11-06/",
+          "cites": [
+            "wiki:2026-11-06:15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:00:51Z",
+      "until": "2026-11-06T00:00:57Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-06:13"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384238656:12"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Paraguay_banking_crisis:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142059724:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.000797
+  }
+}

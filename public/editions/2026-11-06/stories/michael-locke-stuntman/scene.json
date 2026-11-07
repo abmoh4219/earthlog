@@ -1,0 +1,501 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-michael-locke-stuntman",
+  "title": "Michael Locke (stuntman)",
+  "subtitle": "People · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:01:12Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -12.120000000000001,
+    "south": 46.4,
+    "east": 7.88,
+    "north": 62.4
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:00:41Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:00:41Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": 35.879999999999995,
+      "lat": 31.365,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:14Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:26Z",
+      "lon": -3.7648354,
+      "lat": 50.6980898,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "lon": -3.7648354,
+      "lat": 50.6980898,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:31Z",
+      "lon": -3.7648354,
+      "lat": 50.6980898,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:34Z",
+      "lon": -2.9691096879636216,
+      "lat": 52.70187889527753,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:37Z",
+      "lon": -2.9691096879636216,
+      "lat": 52.70187889527753,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:40Z",
+      "lon": -2.9691096879636216,
+      "lat": 52.70187889527753,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:44Z",
+      "lon": 19.30243092652609,
+      "lat": 58.186102881366196,
+      "range": 14000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:54Z",
+      "lon": 19.30243092652609,
+      "lat": 58.186102881366196,
+      "range": 12677539.193392383,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:04Z",
+      "lon": 19.30243092652609,
+      "lat": 58.186102881366196,
+      "range": 11480000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:08Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:09Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:12Z",
+      "lon": -27.120000000000005,
+      "lat": 52.275,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "Michael Richard Locke, known as Pancho, was a Welsh professional stuntman and skateboarder who lived from 13 March 1979 to November 2026.",
+      "cites": [
+        "wiki:rev:1384234232:0"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:12Z",
+      "text": "He was best known for MTV UK's Dirty Sanchez, and he starred in the 2006 film Dirty Sanchez: The Movie.",
+      "cites": [
+        "wiki:rev:1384234232:1",
+        "wiki:rev:1384234232:2"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "text": "Michael Locke was born on 13 March 1979 in Port Talbot.",
+      "cites": [
+        "wd:Q5962128:P569",
+        "wd:Q5962128:P19"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:42Z",
+      "text": "On 6 November 2026, the English article was read by 92,092 people, while normally a median of 38 people read it each day.",
+      "cites": [
+        "views:en:Michael_Locke_(stuntman):2026-11-06",
+        "views:en:Michael_Locke_(stuntman):prior"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:49Z",
+      "text": "The article was read in 3 languages, and after English, Swedish had the most readers with 465.",
+      "cites": [
+        "views:en:Michael_Locke_(stuntman):2026-11-06",
+        "views:sv:Michael_Locke:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:56Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
+      "cites": [
+        "views:sv:Michael_Locke:2026-11-06",
+        "views:pl:Michael_Locke:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:06Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384234232:1",
+        "views:en:Michael_Locke_(stuntman):2026-11-06",
+        "wd:Q5962128:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -2.12,
+    "lat": 54.4,
+    "label": "United Kingdom"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-06T00:00:32Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-06T00:00:41Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-06T00:01:05Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-06T00:00:42Z",
+      "until": "2026-11-06T00:01:05Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Michael Locke (stuntman)",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 25
+            },
+            {
+              "x": "10-09",
+              "y": 39
+            },
+            {
+              "x": "10-10",
+              "y": 26
+            },
+            {
+              "x": "10-11",
+              "y": 29
+            },
+            {
+              "x": "10-12",
+              "y": 40
+            },
+            {
+              "x": "10-13",
+              "y": 27
+            },
+            {
+              "x": "10-14",
+              "y": 29
+            },
+            {
+              "x": "10-15",
+              "y": 27
+            },
+            {
+              "x": "10-16",
+              "y": 22
+            },
+            {
+              "x": "10-17",
+              "y": 27
+            },
+            {
+              "x": "10-18",
+              "y": 33
+            },
+            {
+              "x": "10-19",
+              "y": 34
+            },
+            {
+              "x": "10-20",
+              "y": 29
+            },
+            {
+              "x": "10-21",
+              "y": 22
+            },
+            {
+              "x": "10-22",
+              "y": 31
+            },
+            {
+              "x": "10-23",
+              "y": 53
+            },
+            {
+              "x": "10-24",
+              "y": 42
+            },
+            {
+              "x": "10-25",
+              "y": 32
+            },
+            {
+              "x": "10-26",
+              "y": 26
+            },
+            {
+              "x": "10-27",
+              "y": 41
+            },
+            {
+              "x": "10-28",
+              "y": 51
+            },
+            {
+              "x": "10-29",
+              "y": 54
+            },
+            {
+              "x": "10-30",
+              "y": 27
+            },
+            {
+              "x": "10-31",
+              "y": 35
+            },
+            {
+              "x": "11-01",
+              "y": 25
+            },
+            {
+              "x": "11-02",
+              "y": 36
+            },
+            {
+              "x": "11-03",
+              "y": 30
+            },
+            {
+              "x": "11-04",
+              "y": 40
+            },
+            {
+              "x": "11-05",
+              "y": 45
+            },
+            {
+              "x": "11-06",
+              "y": 92092
+            }
+          ],
+          "cites": [
+            "views:en:Michael_Locke_(stuntman):30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-06T00:00:42Z",
+      "until": "2026-11-06T00:01:05Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "92,092",
+          "value": 92092,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Michael_Locke_(stuntman):2026-11-06"
+          ]
+        },
+        {
+          "label": "Swedish",
+          "text": "465",
+          "value": 465,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:sv:Michael_Locke:2026-11-06"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "72",
+          "value": 72,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Michael_Locke:2026-11-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:01:06Z",
+      "until": "2026-11-06T00:01:12Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384234232:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Michael_Locke_(stuntman):2026-11-06"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q5962128:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.002852
+  }
+}

@@ -1,0 +1,1090 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-2026-united-states-elections",
+  "title": "2026 United States elections",
+  "subtitle": "Election · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:01:42Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:01:11Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:01:11Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-senate.json",
+      "name": "senate",
+      "from": "2026-11-06T00:00:24Z",
+      "until": "2026-11-06T00:00:38Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-governors.json",
+      "name": "governors",
+      "from": "2026-11-06T00:00:38Z",
+      "until": "2026-11-06T00:00:48Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-house.json",
+      "name": "house",
+      "from": "2026-11-06T00:00:48Z",
+      "until": "2026-11-06T00:01:11Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:26Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 6200000,
+      "heading": 0,
+      "pitch": -58,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:32Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5946831.088907773,
+      "heading": 2,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:37Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5704000,
+      "heading": 4,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:40Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 6200000,
+      "heading": 0,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:44Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5946831.088907773,
+      "heading": 2,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:47Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5704000,
+      "heading": 4,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:50Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5704000,
+      "heading": 0,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:56Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5471084.601795151,
+      "heading": 2,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:01Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5247680,
+      "heading": 4,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6800000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:07Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6157661.893933443,
+      "heading": 21.7,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:10Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 5576000,
+      "heading": 31.4,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:15Z",
+      "lon": 34.00097473886643,
+      "lat": 45.99160848829329,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:25Z",
+      "lon": 34.00097473886643,
+      "lat": 45.99160848829329,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:34Z",
+      "lon": 34.00097473886643,
+      "lat": 45.99160848829329,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:38Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:39Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:42Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "Elections in the United States were held on November 3, 2026.",
+      "cites": [
+        "wiki:rev:1384252488:0"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:08Z",
+      "text": "As the article records, support for Medicare for All and a wealth tax points to an economic populist thread that extends beyond young Democrats.",
+      "cites": [
+        "wiki:rev:1384252488:230"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "text": "Democrats won Senate seats previously held by Republicans in Iowa, Ohio, South Carolina, Maine, Kansas, North Carolina, and Texas.",
+      "cites": [
+        "wiki:rev:1384252488:9"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "text": "Of 35 Senate races this year, Democrats won 20, Republicans 13, and 2 have not yet been called.",
+      "cites": [
+        "elex:2026-united-states-senate-elections:the-senate-table"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:31Z",
+      "text": "Democrats flipped seats in Iowa, North Carolina, Kansas, Maine, Ohio, South Carolina and Texas.",
+      "cites": [
+        "elex:2026-united-states-senate-elections:senate-ia",
+        "elex:2026-united-states-senate-elections:senate-nc",
+        "elex:2026-united-states-senate-elections:senate-ks",
+        "elex:2026-united-states-senate-elections:senate-me",
+        "elex:2026-united-states-senate-elections:senate-oh-special",
+        "elex:2026-united-states-senate-elections:senate-sc",
+        "elex:2026-united-states-senate-elections:senate-tx"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:39Z",
+      "text": "Of 36 governor's races this year, Democrats have won 0 and Republicans 0, with all 36 not yet called.",
+      "cites": [
+        "elex:2026-united-states-gubernatorial-elections:governors-table"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:49Z",
+      "text": "In the House, Democrats hold 254 seats and Republicans 162, with 19 still to be called, and 218 seats make a majority.",
+      "cites": [
+        "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:55Z",
+      "text": "On the map, 53 districts changed party, and 20 are not yet called in the race tables.",
+      "cites": [
+        "elex:2026-united-states-house-of-representatives-elections:house-table"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:03Z",
+      "text": "Readers also looked up Jon Ossoff with 211,594 readers, Gina Hinojosa with 138,504, and the 2026 United States Senate elections with 101,863.",
+      "cites": [
+        "views:en:Jon_Ossoff:2026-11-06",
+        "views:en:Gina_Hinojosa:2026-11-06",
+        "views:en:2026_United_States_Senate_elections:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:12Z",
+      "text": "On 6 November 2026, 219,097 people read about the 2026 United States elections, about 8× the usual.",
+      "cites": [
+        "views:en:2026_United_States_elections:2026-11-06",
+        "views:en:2026_United_States_elections:prior"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:19Z",
+      "text": "The article was read in 11 languages, and after English, Chinese was the most read with 10,629 readers.",
+      "cites": [
+        "views:en:2026_United_States_elections:2026-11-06",
+        "views:zh:2026年美國選舉:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:26Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "cites": [
+        "views:zh:2026年美國選舉:2026-11-06",
+        "views:de:Wahlen_in_den_Vereinigten_Staaten_2026:2026-11-06",
+        "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-06",
+        "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-06",
+        "views:fr:Élections_de_2026_aux_États-Unis:2026-11-06",
+        "views:it:Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:36Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384252488:0",
+        "views:en:2026_United_States_elections:2026-11-06",
+        "wd:Q115857612:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:24Z",
+      "title": "The Senate"
+    },
+    {
+      "t": "2026-11-06T00:00:38Z",
+      "title": "Governors"
+    },
+    {
+      "t": "2026-11-06T00:00:48Z",
+      "title": "The House"
+    },
+    {
+      "t": "2026-11-06T00:01:02Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-06T00:01:11Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-06T00:01:35Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "senate-tally",
+      "t": "2026-11-06T00:00:25Z",
+      "until": "2026-11-06T00:00:38Z",
+      "title": "Senate races won",
+      "note": "As recorded by Wikipedia at 07:22 UTC, 2026-11-07. Called or projected, not certified.",
+      "kind": "bars",
+      "unit": "races",
+      "items": [
+        {
+          "label": "Democratic",
+          "value": 20,
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:the-senate-table"
+          ]
+        },
+        {
+          "label": "Republican",
+          "value": 13,
+          "color": "#ec5a52",
+          "cites": [
+            "elex:2026-united-states-senate-elections:the-senate-table"
+          ]
+        },
+        {
+          "label": "Not yet called",
+          "value": 2,
+          "color": "#8a96a3",
+          "cites": [
+            "elex:2026-united-states-senate-elections:the-senate-table"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "senate-flips",
+      "t": "2026-11-06T00:00:25Z",
+      "until": "2026-11-06T00:00:38Z",
+      "title": "Seats that changed party",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Iowa",
+          "text": "Democratic gain · Josh Turek",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-ia"
+          ]
+        },
+        {
+          "label": "North Carolina",
+          "text": "Democratic gain · Roy Cooper",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-nc"
+          ]
+        },
+        {
+          "label": "Kansas",
+          "text": "Democratic gain · Adam Hamilton",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-ks"
+          ]
+        },
+        {
+          "label": "Maine",
+          "text": "Democratic gain · Troy Jackson",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-me"
+          ]
+        },
+        {
+          "label": "Ohio",
+          "text": "Democratic gain · Sherrod Brown",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-oh-special"
+          ]
+        },
+        {
+          "label": "South Carolina",
+          "text": "Democratic gain · Annie Andrews",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-sc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governors-tally",
+      "t": "2026-11-06T00:00:39Z",
+      "until": "2026-11-06T00:00:48Z",
+      "title": "Governor's races won",
+      "note": "As recorded by Wikipedia at 04:59 UTC, 2026-11-07. Called or projected, not certified.",
+      "kind": "bars",
+      "unit": "races",
+      "items": [
+        {
+          "label": "Democratic",
+          "value": 0,
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-gubernatorial-elections:governors-table"
+          ]
+        },
+        {
+          "label": "Republican",
+          "value": 0,
+          "color": "#ec5a52",
+          "cites": [
+            "elex:2026-united-states-gubernatorial-elections:governors-table"
+          ]
+        },
+        {
+          "label": "Not yet called",
+          "value": 36,
+          "color": "#8a96a3",
+          "cites": [
+            "elex:2026-united-states-gubernatorial-elections:governors-table"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "house-seats",
+      "t": "2026-11-06T00:00:49Z",
+      "until": "2026-11-06T00:01:02Z",
+      "title": "The new House",
+      "note": "One dot per seat. Infobox as of 11:15 PM, November 6, 2026; called or projected, not certified.",
+      "kind": "seats",
+      "total": 435,
+      "majority": 218,
+      "items": [
+        {
+          "label": "Democratic",
+          "text": "254 (was 214)",
+          "value": 254,
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+          ]
+        },
+        {
+          "label": "Republican",
+          "text": "162 (was 218)",
+          "value": 162,
+          "color": "#ec5a52",
+          "cites": [
+            "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+          ]
+        },
+        {
+          "label": "Not yet called",
+          "value": 19,
+          "color": "#8a96a3",
+          "cites": [
+            "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-06T00:01:12Z",
+      "until": "2026-11-06T00:01:35Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "2026 United States elections",
+          "color": "#4a8cf7",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 29506
+            },
+            {
+              "x": "10-09",
+              "y": 30946
+            },
+            {
+              "x": "10-10",
+              "y": 29069
+            },
+            {
+              "x": "10-11",
+              "y": 29877
+            },
+            {
+              "x": "10-12",
+              "y": 34213
+            },
+            {
+              "x": "10-13",
+              "y": 34228
+            },
+            {
+              "x": "10-14",
+              "y": 35082
+            },
+            {
+              "x": "10-15",
+              "y": 35189
+            },
+            {
+              "x": "10-16",
+              "y": 32127
+            },
+            {
+              "x": "10-17",
+              "y": 31730
+            },
+            {
+              "x": "10-18",
+              "y": 34956
+            },
+            {
+              "x": "10-19",
+              "y": 40470
+            },
+            {
+              "x": "10-20",
+              "y": 43689
+            },
+            {
+              "x": "10-21",
+              "y": 44850
+            },
+            {
+              "x": "10-22",
+              "y": 48650
+            },
+            {
+              "x": "10-23",
+              "y": 47215
+            },
+            {
+              "x": "10-24",
+              "y": 42984
+            },
+            {
+              "x": "10-25",
+              "y": 56877
+            },
+            {
+              "x": "10-26",
+              "y": 79986
+            },
+            {
+              "x": "10-27",
+              "y": 66149
+            },
+            {
+              "x": "10-28",
+              "y": 71701
+            },
+            {
+              "x": "10-29",
+              "y": 69515
+            },
+            {
+              "x": "10-30",
+              "y": 75111
+            },
+            {
+              "x": "10-31",
+              "y": 71088
+            },
+            {
+              "x": "11-01",
+              "y": 94454
+            },
+            {
+              "x": "11-02",
+              "y": 201102
+            },
+            {
+              "x": "11-03",
+              "y": 455194
+            },
+            {
+              "x": "11-04",
+              "y": 1153444
+            },
+            {
+              "x": "11-05",
+              "y": 356470
+            },
+            {
+              "x": "11-06",
+              "y": 219097
+            }
+          ],
+          "cites": [
+            "views:en:2026_United_States_elections:30d"
+          ]
+        },
+        {
+          "label": "Jon Ossoff",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 9130
+            },
+            {
+              "x": "10-09",
+              "y": 33888
+            },
+            {
+              "x": "10-10",
+              "y": 21441
+            },
+            {
+              "x": "10-11",
+              "y": 16021
+            },
+            {
+              "x": "10-12",
+              "y": 18816
+            },
+            {
+              "x": "10-13",
+              "y": 13976
+            },
+            {
+              "x": "10-14",
+              "y": 26714
+            },
+            {
+              "x": "10-15",
+              "y": 28936
+            },
+            {
+              "x": "10-16",
+              "y": 21769
+            },
+            {
+              "x": "10-17",
+              "y": 18289
+            },
+            {
+              "x": "10-18",
+              "y": 29499
+            },
+            {
+              "x": "10-19",
+              "y": 21751
+            },
+            {
+              "x": "10-20",
+              "y": 16797
+            },
+            {
+              "x": "10-21",
+              "y": 15297
+            },
+            {
+              "x": "10-22",
+              "y": 19529
+            },
+            {
+              "x": "10-23",
+              "y": 15422
+            },
+            {
+              "x": "10-24",
+              "y": 21021
+            },
+            {
+              "x": "10-25",
+              "y": 19198
+            },
+            {
+              "x": "10-26",
+              "y": 16385
+            },
+            {
+              "x": "10-27",
+              "y": 15329
+            },
+            {
+              "x": "10-28",
+              "y": 16636
+            },
+            {
+              "x": "10-29",
+              "y": 37484
+            },
+            {
+              "x": "10-30",
+              "y": 32526
+            },
+            {
+              "x": "10-31",
+              "y": 23702
+            },
+            {
+              "x": "11-01",
+              "y": 19866
+            },
+            {
+              "x": "11-02",
+              "y": 26815
+            },
+            {
+              "x": "11-03",
+              "y": 46502
+            },
+            {
+              "x": "11-04",
+              "y": 611863
+            },
+            {
+              "x": "11-05",
+              "y": 325378
+            },
+            {
+              "x": "11-06",
+              "y": 211594
+            }
+          ],
+          "cites": [
+            "views:en:Jon_Ossoff:30d"
+          ]
+        },
+        {
+          "label": "Gina Hinojosa",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 8928
+            },
+            {
+              "x": "10-09",
+              "y": 7037
+            },
+            {
+              "x": "10-10",
+              "y": 7737
+            },
+            {
+              "x": "10-11",
+              "y": 5872
+            },
+            {
+              "x": "10-12",
+              "y": 5220
+            },
+            {
+              "x": "10-13",
+              "y": 10607
+            },
+            {
+              "x": "10-14",
+              "y": 6749
+            },
+            {
+              "x": "10-15",
+              "y": 8725
+            },
+            {
+              "x": "10-16",
+              "y": 6679
+            },
+            {
+              "x": "10-17",
+              "y": 9593
+            },
+            {
+              "x": "10-18",
+              "y": 6355
+            },
+            {
+              "x": "10-19",
+              "y": 8390
+            },
+            {
+              "x": "10-20",
+              "y": 10832
+            },
+            {
+              "x": "10-21",
+              "y": 8074
+            },
+            {
+              "x": "10-22",
+              "y": 7563
+            },
+            {
+              "x": "10-23",
+              "y": 7250
+            },
+            {
+              "x": "10-24",
+              "y": 10108
+            },
+            {
+              "x": "10-25",
+              "y": 11346
+            },
+            {
+              "x": "10-26",
+              "y": 9883
+            },
+            {
+              "x": "10-27",
+              "y": 9079
+            },
+            {
+              "x": "10-28",
+              "y": 8724
+            },
+            {
+              "x": "10-29",
+              "y": 8903
+            },
+            {
+              "x": "10-30",
+              "y": 9055
+            },
+            {
+              "x": "10-31",
+              "y": 7463
+            },
+            {
+              "x": "11-01",
+              "y": 8286
+            },
+            {
+              "x": "11-02",
+              "y": 12755
+            },
+            {
+              "x": "11-03",
+              "y": 25636
+            },
+            {
+              "x": "11-04",
+              "y": 1242354
+            },
+            {
+              "x": "11-05",
+              "y": 284450
+            },
+            {
+              "x": "11-06",
+              "y": 138504
+            }
+          ],
+          "cites": [
+            "views:en:Gina_Hinojosa:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-06T00:01:12Z",
+      "until": "2026-11-06T00:01:35Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "219,097",
+          "value": 219097,
+          "color": "#4a8cf7",
+          "cites": [
+            "views:en:2026_United_States_elections:2026-11-06"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "10,629",
+          "value": 10629,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:2026年美國選舉:2026-11-06"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "7,460",
+          "value": 7460,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Wahlen_in_den_Vereinigten_Staaten_2026:2026-11-06"
+          ]
+        },
+        {
+          "label": "Persian",
+          "text": "4,815",
+          "value": 4815,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-06"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "3,996",
+          "value": 3996,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-06"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "3,880",
+          "value": 3880,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Élections_de_2026_aux_États-Unis:2026-11-06"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "3,525",
+          "value": 3525,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026:2026-11-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:01:36Z",
+      "until": "2026-11-06T00:01:42Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384252488:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_United_States_elections:2026-11-06"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q115857612:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.002276
+  }
+}

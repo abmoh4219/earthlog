@@ -1,0 +1,671 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-scene-2026-film",
+  "title": "Scene (2026 film)",
+  "subtitle": "Culture · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:01:25Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 69.36,
+    "south": 14.690000000000001,
+    "east": 89.36,
+    "north": 30.69
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-06T00:00:24Z",
+      "until": "2026-11-06T00:00:42Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-filming.json",
+      "name": "filming",
+      "from": "2026-11-06T00:00:42Z",
+      "until": "2026-11-06T00:00:54Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-filming.json",
+      "name": "filming",
+      "from": "2026-11-06T00:00:42Z",
+      "until": "2026-11-06T00:00:54Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-06T00:00:54Z",
+      "until": "2026-11-06T00:01:06Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-people.json",
+      "name": "people",
+      "from": "2026-11-06T00:00:54Z",
+      "until": "2026-11-06T00:01:06Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": 117.36000000000001,
+      "lat": 12.339,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:14Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:27Z",
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:34Z",
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1629969.324864735,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:41Z",
+      "lon": 80.275,
+      "lat": 10.8825,
+      "range": 1476000,
+      "heading": -12,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:44Z",
+      "lon": 77.54515266080342,
+      "lat": 10.67186389672135,
+      "range": 1734645.9535018604,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:49Z",
+      "lon": 77.54515266080342,
+      "lat": 10.67186389672135,
+      "range": 1570788.7187270953,
+      "heading": 12.420000000000002,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:54Z",
+      "lon": 77.54515266080342,
+      "lat": 10.67186389672135,
+      "range": 1422409.6818715255,
+      "heading": 24.840000000000003,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:56Z",
+      "lon": 77.83392123162913,
+      "lat": 11.014731672172257,
+      "range": 1584366.4353861837,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:01Z",
+      "lon": 77.83392123162913,
+      "lat": 11.014731672172257,
+      "range": 1434704.8272359802,
+      "heading": -12.100000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:06Z",
+      "lon": 77.83392123162913,
+      "lat": 11.014731672172257,
+      "range": 1299180.4770166706,
+      "heading": -24.200000000000003,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:09Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 5440000,
+      "heading": -15,
+      "pitch": -52,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:14Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 4926129.515146755,
+      "heading": -2.8999999999999986,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:18Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 4460800,
+      "heading": 9.200000000000003,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:20Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:21Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 8004960.462113476,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:22Z",
+      "lon": 79.36,
+      "lat": 20.565,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:25Z",
+      "lon": 54.360000000000014,
+      "lat": 20.565,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "Scene is a 2026 Indian Tamil-language action comedy written and directed by Jithu Madhavan, released on 6 November 2026.",
+      "cites": [
+        "wiki:rev:1384248457:0",
+        "wiki:rev:1384248457:8"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:08Z",
+      "text": "The film opened in the week of Diwali, clashing with Mookuthi Amman 2.",
+      "cites": [
+        "wiki:rev:1384248457:57"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "text": "It received mostly positive reviews from critics.",
+      "cites": [
+        "wiki:rev:1384248457:8"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "text": "Suriya, Naslen and Nazriya Nazim star, with music by Sushin Shyam.",
+      "cites": [
+        "wiki:box:1384248457:starring",
+        "wiki:box:1384248457:music"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:33Z",
+      "text": "The film was released on 6 November 2026, and the Wikipedia infobox records its box office at ₹34.25 crore.",
+      "cites": [
+        "wiki:box:1384248457:released",
+        "wiki:box:1384248457:box-office"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:43Z",
+      "text": "According to the article, filming was placed in Kerala, Kochi and Avadi.",
+      "cites": [
+        "wiki:film:1384248457:1",
+        "wiki:film:1384248457:2",
+        "wiki:film:1384248457:6"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:48Z",
+      "text": "Most filming was expected in Kochi, and a set was built at VGN Cosmos in Avadi.",
+      "cites": [
+        "wiki:film:1384248457:2",
+        "wiki:film:1384248457:6"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:55Z",
+      "text": "4 of the credited people have a birthplace on record, and all were born in India.",
+      "cites": [
+        "wd:Q108385315:P19",
+        "wd:Q29453931:P19",
+        "wd:Q3165960:P19",
+        "wd:Q3345518:P19"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:00Z",
+      "text": "Their recorded birthplaces include Kodungallur, Thalassery, Thiruvananthapuram and Chennai.",
+      "cites": [
+        "wd:Q108385315:P19",
+        "wd:Q29453931:P19",
+        "wd:Q3165960:P19",
+        "wd:Q3345518:P19"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:07Z",
+      "text": "On 6 November 2026, 159,862 people read the English Wikipedia article, about 47 times the usual.",
+      "cites": [
+        "views:en:Scene_(2026_film):2026-11-06",
+        "views:en:Scene_(2026_film):prior"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:12Z",
+      "text": "Normally the article drew a median of 3,403 readers a day in the 8 to 60 days before.",
+      "cites": [
+        "views:en:Scene_(2026_film):prior"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:19Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata.",
+      "cites": [
+        "wiki:rev:1384248457:8",
+        "views:en:Scene_(2026_film):2026-11-06",
+        "wd:Q141438727:P31"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:20Z",
+      "text": "Each caption in this film is linked to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384248457:8"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IN",
+    "lon": 79.36,
+    "lat": 22.69,
+    "label": "India"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:24Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-06T00:00:42Z",
+      "title": "Where it was filmed"
+    },
+    {
+      "t": "2026-11-06T00:00:54Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-06T00:01:06Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-06T00:01:18Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-06T00:00:25Z",
+      "until": "2026-11-06T00:00:42Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-07).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Directed by",
+          "text": "Jithu Madhavan",
+          "cites": [
+            "wiki:box:1384248457:directed-by"
+          ]
+        },
+        {
+          "label": "Starring",
+          "text": "Suriya, Naslen, Nazriya Nazim",
+          "cites": [
+            "wiki:box:1384248457:starring"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Sushin Shyam",
+          "cites": [
+            "wiki:box:1384248457:music"
+          ]
+        },
+        {
+          "label": "Studio",
+          "text": "Zhagaram Studios, 2D Entertainment",
+          "cites": [
+            "wiki:box:1384248457:studio"
+          ]
+        },
+        {
+          "label": "Released",
+          "text": "6 November 2026",
+          "cites": [
+            "wiki:box:1384248457:released"
+          ]
+        },
+        {
+          "label": "Runtime",
+          "text": "149 minutes",
+          "cites": [
+            "wiki:box:1384248457:runtime"
+          ]
+        },
+        {
+          "label": "Language",
+          "text": "Tamil",
+          "cites": [
+            "wiki:box:1384248457:language"
+          ]
+        },
+        {
+          "label": "Budget",
+          "text": "₹22 crore",
+          "cites": [
+            "wiki:box:1384248457:budget"
+          ]
+        },
+        {
+          "label": "Box office",
+          "text": "₹34.25 crore",
+          "cites": [
+            "wiki:box:1384248457:box-office"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "born-in",
+      "t": "2026-11-06T00:00:55Z",
+      "until": "2026-11-06T00:01:06Z",
+      "title": "Born in",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "India",
+          "text": "4",
+          "value": 4,
+          "color": "#e8838f",
+          "cites": [
+            "wd:Q108385315:P19",
+            "wd:Q29453931:P19",
+            "wd:Q3165960:P19",
+            "wd:Q3345518:P19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-06T00:01:07Z",
+      "until": "2026-11-06T00:01:18Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Scene (2026 film)",
+          "color": "#e8838f",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 5600
+            },
+            {
+              "x": "10-09",
+              "y": 5225
+            },
+            {
+              "x": "10-10",
+              "y": 3930
+            },
+            {
+              "x": "10-11",
+              "y": 3198
+            },
+            {
+              "x": "10-12",
+              "y": 2966
+            },
+            {
+              "x": "10-13",
+              "y": 2884
+            },
+            {
+              "x": "10-14",
+              "y": 2297
+            },
+            {
+              "x": "10-15",
+              "y": 2640
+            },
+            {
+              "x": "10-16",
+              "y": 2761
+            },
+            {
+              "x": "10-17",
+              "y": 2840
+            },
+            {
+              "x": "10-18",
+              "y": 3528
+            },
+            {
+              "x": "10-19",
+              "y": 5849
+            },
+            {
+              "x": "10-20",
+              "y": 7869
+            },
+            {
+              "x": "10-21",
+              "y": 6262
+            },
+            {
+              "x": "10-22",
+              "y": 11707
+            },
+            {
+              "x": "10-23",
+              "y": 13569
+            },
+            {
+              "x": "10-24",
+              "y": 9447
+            },
+            {
+              "x": "10-25",
+              "y": 9864
+            },
+            {
+              "x": "10-26",
+              "y": 18101
+            },
+            {
+              "x": "10-27",
+              "y": 14467
+            },
+            {
+              "x": "10-28",
+              "y": 13648
+            },
+            {
+              "x": "10-29",
+              "y": 11703
+            },
+            {
+              "x": "10-30",
+              "y": 9208
+            },
+            {
+              "x": "10-31",
+              "y": 17936
+            },
+            {
+              "x": "11-01",
+              "y": 32330
+            },
+            {
+              "x": "11-02",
+              "y": 20421
+            },
+            {
+              "x": "11-03",
+              "y": 18895
+            },
+            {
+              "x": "11-04",
+              "y": 17665
+            },
+            {
+              "x": "11-05",
+              "y": 25986
+            },
+            {
+              "x": "11-06",
+              "y": 159862
+            }
+          ],
+          "cites": [
+            "views:en:Scene_(2026_film):30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:01:19Z",
+      "until": "2026-11-06T00:01:25Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384248457:8"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Scene_(2026_film):2026-11-06"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141438727:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.002745
+  }
+}

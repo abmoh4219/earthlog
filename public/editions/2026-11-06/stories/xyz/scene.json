@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-xyz",
+  "title": ".xyz",
+  "subtitle": "Tech & business · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:00:59Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:00:28Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:00:28Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-06T00:00:10Z",
+      "until": "2026-11-06T00:00:28Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:07Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 10.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:09Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 21,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:13Z",
+      "lon": -115.14861111111111,
+      "lat": 35.367222222222225,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "lon": -115.14861111111111,
+      "lat": 35.367222222222225,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:17Z",
+      "lon": -115.14861111111111,
+      "lat": 35.367222222222225,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:20Z",
+      "lon": -115.14861111111111,
+      "lat": 34.16722222222222,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:24Z",
+      "lon": -115.14861111111111,
+      "lat": 34.16722222222222,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:27Z",
+      "lon": -115.14861111111111,
+      "lat": 34.16722222222222,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:32Z",
+      "lon": 26.17305788741955,
+      "lat": 46.99474461608803,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:42Z",
+      "lon": 26.17305788741955,
+      "lat": 46.99474461608803,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:51Z",
+      "lon": 26.17305788741955,
+      "lat": 46.99474461608803,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:55Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:56Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:59Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "The .xyz domain is a top-level domain introduced through ICANN's new generic top-level domain (gTLD) Program.",
+      "cites": [
+        "wiki:rev:1382089482:0"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:11Z",
+      "text": "The domain is operated by XYZ, which is headquartered in Las Vegas, United States.",
+      "cites": [
+        "wd:Q16049593:P137"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:19Z",
+      "text": "The domain was founded in 2014, according to Wikidata.",
+      "cites": [
+        "wd:Q16049593:P571"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "text": "Its official website is listed as https://gen.xyz/ in the same record.",
+      "cites": [
+        "wd:Q16049593:P856"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "text": "On 6 November 2026, English Wikipedia recorded 209,858 readers of the .xyz article, about 4× the usual median of 54,841 a day.",
+      "cites": [
+        "views:en:.xyz:2026-11-06",
+        "views:en:.xyz:prior"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:36Z",
+      "text": "The article was read in 11 languages, and after English the largest audience was Russian, with 17 readers.",
+      "cites": [
+        "views:en:.xyz:2026-11-06",
+        "views:ru:.xyz:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:43Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:ru:.xyz:2026-11-06",
+        "views:es:.xyz:2026-11-06",
+        "views:de:.xyz:2026-11-06",
+        "views:ja:.xyz:2026-11-06",
+        "views:fr:.xyz:2026-11-06",
+        "views:pt:.xyz:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:53Z",
+      "text": "This explainer draws on Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1382089482:0",
+        "views:en:.xyz:2026-11-06",
+        "wd:Q16049593:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:10Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-06T00:00:18Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-06T00:00:28Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-06T00:00:52Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-06T00:00:19Z",
+      "until": "2026-11-06T00:00:28Z",
+      "title": "On record: .xyz",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "2014",
+          "cites": [
+            "wd:Q16049593:P571"
+          ]
+        },
+        {
+          "label": "Operator",
+          "text": "XYZ",
+          "cites": [
+            "wd:Q16049593:P137"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "gen.xyz",
+          "url": "https://gen.xyz/",
+          "cites": [
+            "wd:Q16049593:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-06T00:00:29Z",
+      "until": "2026-11-06T00:00:52Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": ".xyz",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 42259
+            },
+            {
+              "x": "10-09",
+              "y": 70046
+            },
+            {
+              "x": "10-10",
+              "y": 48359
+            },
+            {
+              "x": "10-11",
+              "y": 54784
+            },
+            {
+              "x": "10-12",
+              "y": 45198
+            },
+            {
+              "x": "10-13",
+              "y": 41164
+            },
+            {
+              "x": "10-14",
+              "y": 35397
+            },
+            {
+              "x": "10-15",
+              "y": 37996
+            },
+            {
+              "x": "10-16",
+              "y": 29539
+            },
+            {
+              "x": "10-17",
+              "y": 41750
+            },
+            {
+              "x": "10-18",
+              "y": 57398
+            },
+            {
+              "x": "10-19",
+              "y": 34330
+            },
+            {
+              "x": "10-20",
+              "y": 30058
+            },
+            {
+              "x": "10-21",
+              "y": 29037
+            },
+            {
+              "x": "10-22",
+              "y": 43170
+            },
+            {
+              "x": "10-23",
+              "y": 38417
+            },
+            {
+              "x": "10-24",
+              "y": 34598
+            },
+            {
+              "x": "10-25",
+              "y": 36624
+            },
+            {
+              "x": "10-26",
+              "y": 36770
+            },
+            {
+              "x": "10-27",
+              "y": 23647
+            },
+            {
+              "x": "10-28",
+              "y": 17765
+            },
+            {
+              "x": "10-29",
+              "y": 26416
+            },
+            {
+              "x": "10-30",
+              "y": 29480
+            },
+            {
+              "x": "10-31",
+              "y": 31598
+            },
+            {
+              "x": "11-01",
+              "y": 52164
+            },
+            {
+              "x": "11-02",
+              "y": 65692
+            },
+            {
+              "x": "11-03",
+              "y": 104155
+            },
+            {
+              "x": "11-04",
+              "y": 254329
+            },
+            {
+              "x": "11-05",
+              "y": 255809
+            },
+            {
+              "x": "11-06",
+              "y": 209858
+            }
+          ],
+          "cites": [
+            "views:en:.xyz:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-06T00:00:29Z",
+      "until": "2026-11-06T00:00:52Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "209,858",
+          "value": 209858,
+          "color": "#4cc9e8",
+          "cites": [
+            "views:en:.xyz:2026-11-06"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "17",
+          "value": 17,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:.xyz:2026-11-06"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "6",
+          "value": 6,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:.xyz:2026-11-06"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "5",
+          "value": 5,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:.xyz:2026-11-06"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "4",
+          "value": 4,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:.xyz:2026-11-06"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "4",
+          "value": 4,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:.xyz:2026-11-06"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "4",
+          "value": 4,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:.xyz:2026-11-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:00:53Z",
+      "until": "2026-11-06T00:00:59Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1382089482:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:.xyz:2026-11-06"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q16049593:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.001564
+  }
+}

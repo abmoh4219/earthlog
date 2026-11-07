@@ -1,0 +1,18 @@
+[
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia, Current events",
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Wikipedia contributors",
+    "retrievedAt": "2026-11-07T11:13:59Z"
+  },
+  {
+    "id": "terrain-tiles",
+    "name": "Terrain Tiles (Tilezen joerd, AWS Open Data)",
+    "url": "https://registry.opendata.aws/terrain-tiles/",
+    "license": "Per source, redistributable with attribution (https://github.com/tilezen/joerd/blob/master/docs/attribution.md)",
+    "attribution": "Terrain: SRTM, GMTED2010 and 3DEP courtesy of the U.S. Geological Survey; ETOPO1, NOAA; and the regional sources credited by Tilezen joerd",
+    "retrievedAt": "2026-11-07T11:13:59Z"
+  }
+]

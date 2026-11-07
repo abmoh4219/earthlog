@@ -224,29 +224,29 @@
   ],
   "beats": [
     {
-      "t": "2026-11-05T00:00:01Z",
-      "text": "His father, Wilbur Colom, was a lawyer and the 1987 Republican nominee for state treasurer, and his mother, Dorothy, was the first Black person elected to a Mississippi Chancery Courts judgeship.",
+      "t": "2026-11-05T00:00:00Z",
+      "text": "His father, Wilbur Colom, also a lawyer, was the Republican nominee for state treasurer in 1987, and his mother, Dorothy Colom…",
       "cites": [
-        "wiki:rev:1384062624:3"
+        "wiki:rev:1384197697:3"
       ]
     },
     {
       "t": "2026-11-05T00:00:08Z",
-      "text": "Colom earned a Bachelor of Arts with a double major in English and history from Millsaps College in 2005, and a Juris Doctor cum laude from the University of Wisconsin Law School in 2009.",
+      "text": "Colom earned a Bachelor of Arts with a double major in English and history from Millsaps College in 2005 and a Juris Doctor, cum laude, from the University of Wisconsin Law School in 2009.",
       "cites": [
-        "wiki:rev:1384062624:4"
+        "wiki:rev:1384197697:4"
       ]
     },
     {
-      "t": "2026-11-05T00:00:15Z",
-      "text": "Born December 24, 1982, Colom has served as district attorney for the 16th Judicial District of Mississippi since 2016.",
+      "t": "2026-11-05T00:00:16Z",
+      "text": "Scott Winston Colom (; born December 24, 1982) is an American lawyer and politician serving since 2016 as district attorney for the 16th Judicial District of Mississippi.",
       "cites": [
-        "wiki:rev:1384062624:0"
+        "wiki:rev:1384197697:0"
       ]
     },
     {
       "t": "2026-11-05T00:00:25Z",
-      "text": "According to Wikidata, Scott Colom was born on 24 December 1983 in Columbus.",
+      "text": "The record lists Scott Colom's birth as 24 December 1983, in Columbus.",
       "cites": [
         "wd:Q115492489:P569",
         "wd:Q115492489:P19"
@@ -254,7 +254,7 @@
     },
     {
       "t": "2026-11-05T00:00:33Z",
-      "text": "He was educated at Millsaps College and the University of Wisconsin–Madison.",
+      "text": "His education includes Millsaps College and the University of Wisconsin–Madison.",
       "cites": [
         "wd:Q115492489:P69:Q6860022",
         "wd:Q115492489:P69:Q838330"
@@ -262,14 +262,14 @@
     },
     {
       "t": "2026-11-05T00:00:43Z",
-      "text": "Readers also turned to the article on Cindy Hyde-Smith (81,671).",
+      "text": "Readers also turned to the article on Cindy Hyde-Smith, which drew 81,671 readers.",
       "cites": [
         "views:en:Cindy_Hyde-Smith:2026-11-05"
       ]
     },
     {
       "t": "2026-11-05T00:00:52Z",
-      "text": "On 5 November 2026, 132,877 people read the article, about 303 times the usual.",
+      "text": "On 5 November 2026, 132,877 people read the English article, about 303 times the usual daily count.",
       "cites": [
         "views:en:Scott_Colom:2026-11-05",
         "views:en:Scott_Colom:prior"
@@ -277,7 +277,7 @@
     },
     {
       "t": "2026-11-05T00:00:59Z",
-      "text": "The article was read in 5 languages, and after English, Spanish was the most common, with 713 readers.",
+      "text": "The article was read in 5 languages, and after English, Spanish readers were the most numerous at 713.",
       "cites": [
         "views:en:Scott_Colom:2026-11-05",
         "views:es:Scott_Colom:2026-11-05"
@@ -285,7 +285,7 @@
     },
     {
       "t": "2026-11-05T00:01:06Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:es:Scott_Colom:2026-11-05",
         "views:fr:Scott_Colom:2026-11-05",
@@ -295,9 +295,9 @@
     },
     {
       "t": "2026-11-05T00:01:16Z",
-      "text": "Sources include Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence beneath it.",
       "cites": [
-        "wiki:rev:1384062624:3",
+        "wiki:rev:1384197697:3",
         "views:en:Scott_Colom:2026-11-05",
         "wd:Q115492489:P31"
       ]
@@ -707,7 +707,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1384062624:3"
+            "wiki:rev:1384197697:3"
           ]
         },
         {
@@ -732,7 +732,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-06T12:20:07Z",
-    "costUsd": 0.003431
+    "at": "2026-11-07T11:16:56Z",
+    "costUsd": 0.003499
   }
 }

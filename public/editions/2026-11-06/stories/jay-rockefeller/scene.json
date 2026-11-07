@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-jay-rockefeller",
+  "title": "Jay Rockefeller",
+  "subtitle": "People · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:01:46Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -87.036666666667,
+    "south": 30.895000000000003,
+    "east": -67.036666666667,
+    "north": 46.895
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:01:15Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-06T00:01:15Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-06T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": -39.036666666666974,
+      "lat": 22.924500000000002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": -77.036666666667,
+      "lat": 38.2075,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:14Z",
+      "lon": -77.036666666667,
+      "lat": 38.2075,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": -77.036666666667,
+      "lat": 38.2075,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:26Z",
+      "lon": -73.994166666667,
+      "lat": 39.828333333333,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "lon": -73.994166666667,
+      "lat": 39.828333333333,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:31Z",
+      "lon": -73.994166666667,
+      "lat": 39.828333333333,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:35Z",
+      "lon": -81.06138121656834,
+      "lat": 42.07372704018644,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:41Z",
+      "lon": -81.06138121656834,
+      "lat": 42.07372704018644,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:47Z",
+      "lon": -81.06138121656834,
+      "lat": 42.07372704018644,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:50Z",
+      "lon": -81.06138121656834,
+      "lat": 42.07372704018644,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:54Z",
+      "lon": -81.06138121656834,
+      "lat": 42.07372704018644,
+      "range": 19921847.303902317,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:57Z",
+      "lon": -81.06138121656834,
+      "lat": 42.07372704018644,
+      "range": 18040000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:01Z",
+      "lon": -77.036666666667,
+      "lat": 37.995000000000005,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:03Z",
+      "lon": -77.036666666667,
+      "lat": 37.995000000000005,
+      "range": 814984.6624323674,
+      "heading": -9.1,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:05Z",
+      "lon": -77.036666666667,
+      "lat": 37.995000000000005,
+      "range": 738000,
+      "heading": -0.1999999999999993,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:08Z",
+      "lon": -75.53570943064605,
+      "lat": 39.521598843350226,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:11Z",
+      "lon": -75.53570943064605,
+      "lat": 39.521598843350226,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:14Z",
+      "lon": -75.53570943064605,
+      "lat": 39.521598843350226,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:19Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:29Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:38Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:42Z",
+      "lon": -77.036666666667,
+      "lat": 38.2075,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:01:43Z",
+      "lon": -77.036666666667,
+      "lat": 38.2075,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:01:46Z",
+      "lon": -102.03666666666697,
+      "lat": 38.2075,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "Jay Rockefeller died at his home in Washington, D.C., on November 6, 2026, at the age of 89.",
+      "cites": [
+        "wiki:rev:1384244769:127"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:08Z",
+      "text": "Born June 18, 1937, Jay Rockefeller was an American politician who served as a United States senator from West Virginia from 1985 to 2015 and earlier as its governor from 1977 to 1985.",
+      "cites": [
+        "wiki:rev:1384244769:0"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "text": "He was a member of the Democratic Party.",
+      "cites": [
+        "wiki:rev:1384244769:1"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "text": "Jay Rockefeller was born on 18 June 1937 in Manhattan.",
+      "cites": [
+        "wd:Q285102:P569",
+        "wd:Q285102:P19"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:33Z",
+      "text": "He was educated at Harvard College, Phillips Exeter Academy, St. Albans School and 3 more.",
+      "cites": [
+        "wd:Q285102:P69:Q49123",
+        "wd:Q285102:P69:Q1426464",
+        "wd:Q285102:P69:Q7586750",
+        "wd:Q285102:P69:Q3017750",
+        "wd:Q285102:P69:Q49112",
+        "wd:Q285102:P69:Q1141728"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:40Z",
+      "text": "He worked for AmeriCorps VISTA and in Washington, D.C.",
+      "cites": [
+        "wd:Q285102:P108:Q4742476",
+        "wd:Q285102:P937:Q61"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:49Z",
+      "text": "Wikidata records 1 award, the Grand Cordon of the Order of the Rising Sun, received in 2013.",
+      "cites": [
+        "wd:Q285102:P166:Q55339171"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:59Z",
+      "text": "He died in Washington, D.C., on 6 November 2026, at the age of 89.",
+      "cites": [
+        "wd:Q285102:P570",
+        "wd:Q285102:P20",
+        "wd:Q285102:P569"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:16Z",
+      "text": "English Wikipedia recorded 71,552 readers of the article on 6 November 2026, about 156× the usual.",
+      "cites": [
+        "views:en:Jay_Rockefeller:2026-11-06",
+        "views:en:Jay_Rockefeller:prior"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:23Z",
+      "text": "The article was read in 11 languages, and after English the most readers were in Russian, with 4,073.",
+      "cites": [
+        "views:en:Jay_Rockefeller:2026-11-06",
+        "views:ru:Рокфеллер,_Джон_Дэвисон_IV:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:30Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "cites": [
+        "views:ru:Рокфеллер,_Джон_Дэвисон_IV:2026-11-06",
+        "views:fr:Jay_Rockefeller:2026-11-06",
+        "views:de:Jay_Rockefeller:2026-11-06",
+        "views:es:Jay_Rockefeller:2026-11-06",
+        "views:pl:Jay_Rockefeller:2026-11-06",
+        "views:ja:ジョン・ロックフェラー4世:2026-11-06"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:01:40Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384244769:127",
+        "views:en:Jay_Rockefeller:2026-11-06",
+        "wd:Q285102:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -77.036666666667,
+    "lat": 38.895,
+    "label": "Washington, D.C."
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-06T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-06T00:00:48Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-06T00:00:58Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-06T00:01:06Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-06T00:01:15Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-06T00:01:39Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-06T00:00:33Z",
+      "until": "2026-11-06T00:00:48Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1937 born",
+          "text": "Manhattan",
+          "cites": [
+            "wd:Q285102:P19"
+          ]
+        },
+        {
+          "label": "1961",
+          "text": "Harvard College",
+          "cites": [
+            "wd:Q285102:P69:Q49123"
+          ]
+        },
+        {
+          "label": "1954",
+          "text": "Phillips Exeter Academy",
+          "cites": [
+            "wd:Q285102:P69:Q1426464"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "St. Albans School",
+          "cites": [
+            "wd:Q285102:P69:Q7586750"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Eliot House",
+          "cites": [
+            "wd:Q285102:P69:Q3017750"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Yale University",
+          "cites": [
+            "wd:Q285102:P69:Q49112"
+          ]
+        },
+        {
+          "label": "1957–60",
+          "text": "International Christian University",
+          "cites": [
+            "wd:Q285102:P69:Q1141728"
+          ]
+        },
+        {
+          "label": "1964–66",
+          "text": "AmeriCorps VISTA",
+          "cites": [
+            "wd:Q285102:P108:Q4742476"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Washington, D.C.",
+          "cites": [
+            "wd:Q285102:P937:Q61"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-06T00:00:49Z",
+      "until": "2026-11-06T00:00:58Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2013",
+          "text": "Grand Cordon of the Order of the Rising Sun",
+          "cites": [
+            "wd:Q285102:P166:Q55339171"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-06T00:01:16Z",
+      "until": "2026-11-06T00:01:39Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Jay Rockefeller",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-08",
+              "y": 419
+            },
+            {
+              "x": "10-09",
+              "y": 389
+            },
+            {
+              "x": "10-10",
+              "y": 475
+            },
+            {
+              "x": "10-11",
+              "y": 445
+            },
+            {
+              "x": "10-12",
+              "y": 479
+            },
+            {
+              "x": "10-13",
+              "y": 474
+            },
+            {
+              "x": "10-14",
+              "y": 452
+            },
+            {
+              "x": "10-15",
+              "y": 441
+            },
+            {
+              "x": "10-16",
+              "y": 474
+            },
+            {
+              "x": "10-17",
+              "y": 618
+            },
+            {
+              "x": "10-18",
+              "y": 442
+            },
+            {
+              "x": "10-19",
+              "y": 508
+            },
+            {
+              "x": "10-20",
+              "y": 478
+            },
+            {
+              "x": "10-21",
+              "y": 463
+            },
+            {
+              "x": "10-22",
+              "y": 460
+            },
+            {
+              "x": "10-23",
+              "y": 412
+            },
+            {
+              "x": "10-24",
+              "y": 468
+            },
+            {
+              "x": "10-25",
+              "y": 450
+            },
+            {
+              "x": "10-26",
+              "y": 389
+            },
+            {
+              "x": "10-27",
+              "y": 440
+            },
+            {
+              "x": "10-28",
+              "y": 521
+            },
+            {
+              "x": "10-29",
+              "y": 447
+            },
+            {
+              "x": "10-30",
+              "y": 410
+            },
+            {
+              "x": "10-31",
+              "y": 541
+            },
+            {
+              "x": "11-01",
+              "y": 423
+            },
+            {
+              "x": "11-02",
+              "y": 604
+            },
+            {
+              "x": "11-03",
+              "y": 712
+            },
+            {
+              "x": "11-04",
+              "y": 1128
+            },
+            {
+              "x": "11-05",
+              "y": 920
+            },
+            {
+              "x": "11-06",
+              "y": 71552
+            }
+          ],
+          "cites": [
+            "views:en:Jay_Rockefeller:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-06T00:01:16Z",
+      "until": "2026-11-06T00:01:39Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "71,552",
+          "value": 71552,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Jay_Rockefeller:2026-11-06"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "4,073",
+          "value": 4073,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Рокфеллер,_Джон_Дэвисон_IV:2026-11-06"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "2,530",
+          "value": 2530,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Jay_Rockefeller:2026-11-06"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "1,687",
+          "value": 1687,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Jay_Rockefeller:2026-11-06"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "740",
+          "value": 740,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Jay_Rockefeller:2026-11-06"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "707",
+          "value": 707,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Jay_Rockefeller:2026-11-06"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "205",
+          "value": 205,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:ジョン・ロックフェラー4世:2026-11-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:01:40Z",
+      "until": "2026-11-06T00:01:46Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384244769:127"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Jay_Rockefeller:2026-11-06"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q285102:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.004583
+  }
+}

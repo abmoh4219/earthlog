@@ -236,28 +236,28 @@
   "beats": [
     {
       "t": "2026-11-05T00:00:01Z",
-      "text": "A special election is expected in Tennessee to fill the unexpired Senate term of Marsha Blackburn.",
+      "text": "A special election is expected to be held in Tennessee to fill Marsha Blackburn's unexpired Senate term.",
       "cites": [
-        "wiki:rev:1384053890:2"
+        "wiki:rev:1384240998:2"
       ]
     },
     {
       "t": "2026-11-05T00:00:08Z",
       "text": "Democrats are defending five seats in states that voted for Donald Trump in 2024.",
       "cites": [
-        "wiki:rev:1384053890:4"
+        "wiki:rev:1384240998:4"
       ]
     },
     {
       "t": "2026-11-05T00:00:15Z",
-      "text": "Senators serve in three classes with staggered terms, so one class is elected every other year.",
+      "text": "Senators serve in three classes with staggered terms, so a different class is elected every other year.",
       "cites": [
-        "wiki:rev:1384053890:0"
+        "wiki:rev:1384240998:0"
       ]
     },
     {
       "t": "2026-11-05T00:00:25Z",
-      "text": "Of this year's 35 Senate races, Democrats won 20, Republicans won 13, and 2 have not yet been called.",
+      "text": "Across 35 Senate races this year, Democrats won 20, Republicans 13, and 2 have not yet been called.",
       "cites": [
         "elex:2026-united-states-senate-elections:the-senate-table"
       ]
@@ -277,28 +277,28 @@
     },
     {
       "t": "2026-11-05T00:00:39Z",
-      "text": "Of 36 governor's races this year, Democrats won 0, Republicans won 0, and 36 are not yet called.",
+      "text": "For the 36 governor's races this year, 36 have not yet been called, with Democrats and Republicans each at 0.",
       "cites": [
         "elex:2026-united-states-gubernatorial-elections:governors-table"
       ]
     },
     {
       "t": "2026-11-05T00:00:49Z",
-      "text": "In the House, Democrats hold 253 seats and Republicans 157, with 25 still to be called; 218 seats make a majority.",
+      "text": "In the House, Democrats hold 254 seats and Republicans 162, with 19 still to be called; 218 seats make a majority.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-infobox"
       ]
     },
     {
       "t": "2026-11-05T00:00:55Z",
-      "text": "The race tables show 52 districts changed party, and 29 are not yet called.",
+      "text": "In the race tables, 53 districts changed party, and 20 are not yet called.",
       "cites": [
         "elex:2026-united-states-house-of-representatives-elections:house-table"
       ]
     },
     {
       "t": "2026-11-05T00:01:03Z",
-      "text": "On 5 November 2026, 111,686 people read the English article, about 49 times the usual level.",
+      "text": "On 5 November 2026, 111,686 people read the English article, about 49 times the usual daily level.",
       "cites": [
         "views:en:2028_United_States_Senate_elections:2026-11-05",
         "views:en:2028_United_States_Senate_elections:prior"
@@ -306,7 +306,7 @@
     },
     {
       "t": "2026-11-05T00:01:10Z",
-      "text": "The article was read in 3 languages, and after English, the most readers were in Turkish, with 18.",
+      "text": "The article was read in 3 languages, and after English the most readers were in Turkish, with 18.",
       "cites": [
         "views:en:2028_United_States_Senate_elections:2026-11-05",
         "views:tr:2028_Amerika_Birleşik_Devletleri_Senatosu_seçimleri:2026-11-05"
@@ -324,7 +324,7 @@
       "t": "2026-11-05T00:01:27Z",
       "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1384053890:2",
+        "wiki:rev:1384240998:2",
         "views:en:2028_United_States_Senate_elections:2026-11-05",
         "wd:Q115858135:P31"
       ]
@@ -369,7 +369,7 @@
       "t": "2026-11-05T00:00:25Z",
       "until": "2026-11-05T00:00:38Z",
       "title": "Senate races won",
-      "note": "As recorded by Wikipedia at 06:02 UTC, 2026-11-06. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 07:22 UTC, 2026-11-07. Called or projected, not certified.",
       "kind": "bars",
       "unit": "races",
       "items": [
@@ -461,7 +461,7 @@
       "t": "2026-11-05T00:00:39Z",
       "until": "2026-11-05T00:00:48Z",
       "title": "Governor's races won",
-      "note": "As recorded by Wikipedia at 11:05 UTC, 2026-11-06. Called or projected, not certified.",
+      "note": "As recorded by Wikipedia at 04:59 UTC, 2026-11-07. Called or projected, not certified.",
       "kind": "bars",
       "unit": "races",
       "items": [
@@ -496,15 +496,15 @@
       "t": "2026-11-05T00:00:49Z",
       "until": "2026-11-05T00:01:02Z",
       "title": "The new House",
-      "note": "One dot per seat. Infobox as of 9:00 PM, November 5, 2026; called or projected, not certified.",
+      "note": "One dot per seat. Infobox as of 11:15 PM, November 6, 2026; called or projected, not certified.",
       "kind": "seats",
       "total": 435,
       "majority": 218,
       "items": [
         {
           "label": "Democratic",
-          "text": "253 (was 214)",
-          "value": 253,
+          "text": "254 (was 214)",
+          "value": 254,
           "color": "#4a8cf7",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -512,8 +512,8 @@
         },
         {
           "label": "Republican",
-          "text": "157 (was 218)",
-          "value": 157,
+          "text": "162 (was 218)",
+          "value": 162,
           "color": "#ec5a52",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -521,7 +521,7 @@
         },
         {
           "label": "Not yet called",
-          "value": 25,
+          "value": 19,
           "color": "#8a96a3",
           "cites": [
             "elex:2026-united-states-house-of-representatives-elections:house-infobox"
@@ -721,7 +721,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1384053890:2"
+            "wiki:rev:1384240998:2"
           ]
         },
         {
@@ -746,7 +746,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-06T12:20:07Z",
-    "costUsd": 0.002497
+    "at": "2026-11-07T11:16:56Z",
+    "costUsd": 0.001268
   }
 }

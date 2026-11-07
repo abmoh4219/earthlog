@@ -1,0 +1,136 @@
+[
+  {
+    "id": "wiki:2026-11-06:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-06T00:00:00Z",
+    "lon": 29,
+    "lat": -0.6,
+    "label": "Conflict: The death toll from an armed attack yesterday by suspected Allied Democratic Forces militants on several villages in North Kivu, eastern Democratic Republic of Congo, has risen to 33.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_6&oldid=1384256199",
+    "quote": "The death toll from an armed attack yesterday by suspected Allied Democratic Forces militants on several villages in North Kivu, eastern Democratic Republic of Congo, has risen to 33.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AA",
+        "url": "https://www.aa.com.tr/en/africa/death-toll-from-adf-attack-in-dr-congo-rises-to-33/4114820"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q16960307:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"Allied Democratic Forces insurgency\" is an instance of rebellion",
+    "url": "https://www.wikidata.org/wiki/Q16960307",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384239626:455",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Allied Democratic Forces insurgency\" (revision of 2026-11-07 07:53 UTC)",
+    "quote": "On November 6, ADF forces raided a rural health clinic in the village of Cantine-Aloya, North Kivu Province, killing 33 civilians and causing the release of six clinic patients suspected to have Ebola, with one being a confirmed case.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Allied_Democratic_Forces_insurgency&oldid=1384239626"
+  },
+  {
+    "id": "wiki:rev:1384239626:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Allied Democratic Forces insurgency\" (revision of 2026-11-07 07:53 UTC)",
+    "quote": "The Allied Democratic Forces insurgency is an ongoing conflict waged by the Islamic State-aligned Allied Democratic Forces (ADF) in Uganda and the Democratic Republic of the Congo (DRC), against the governments of those two countries and the MONUSCO.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Allied_Democratic_Forces_insurgency&oldid=1384239626"
+  },
+  {
+    "id": "views:en:Allied_Democratic_Forces_insurgency:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Allied Democratic Forces insurgency\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Allied_Democratic_Forces_insurgency&range=latest-30"
+  },
+  {
+    "id": "wd:Q16960307:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Allied Democratic Forces insurgency\": date 1996",
+    "url": "https://www.wikidata.org/wiki/Q16960307#P585"
+  },
+  {
+    "id": "wd:Q16960307:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Allied Democratic Forces insurgency\": location Uganda",
+    "url": "https://www.wikidata.org/wiki/Q16960307#P276"
+  },
+  {
+    "id": "wd:Q16960307:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Allied Democratic Forces insurgency\": country Uganda",
+    "url": "https://www.wikidata.org/wiki/Q16960307#P17"
+  },
+  {
+    "id": "wiki:box:1384239626:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Allied Democratic Forces insurgency\" (revision of 2026-11-07 07:53 UTC): side 1: ADF (1996–2015), NALU (early 1996), ISIL",
+    "quote": "ADF (1996–2015), NALU (early 1996), ISIL",
+    "url": "https://en.wikipedia.org/w/index.php?title=Allied_Democratic_Forces_insurgency&oldid=1384239626"
+  },
+  {
+    "id": "wiki:box:1384239626:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Allied Democratic Forces insurgency\" (revision of 2026-11-07 07:53 UTC): Status: Ongoing",
+    "quote": "Ongoing",
+    "url": "https://en.wikipedia.org/w/index.php?title=Allied_Democratic_Forces_insurgency&oldid=1384239626"
+  },
+  {
+    "id": "wiki:box:1384239626:casualties-side-1-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Allied Democratic Forces insurgency\" (revision of 2026-11-07 07:53 UTC): Casualties (side 1): Unknown; Many; 17+ killed (at least 15 Tanzanians, 1 Malawian, 1 South African)",
+    "quote": "Unknown; Many; 17+ killed (at least 15 Tanzanians, 1 Malawian, 1 South African)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Allied_Democratic_Forces_insurgency&oldid=1384239626"
+  },
+  {
+    "id": "wiki:box:1384239626:casualties-side-2-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Allied Democratic Forces insurgency\" (revision of 2026-11-07 07:53 UTC): Casualties (side 2): 1,590–2,090+ killed (In 1999); 314+ captured",
+    "quote": "1,590–2,090+ killed (In 1999); 314+ captured",
+    "url": "https://en.wikipedia.org/w/index.php?title=Allied_Democratic_Forces_insurgency&oldid=1384239626"
+  },
+  {
+    "id": "wiki:box:1384239626:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Allied Democratic Forces insurgency\" (revision of 2026-11-07 07:53 UTC): Casualties: 8,000 people killed (including civilians, soldiers and rebels); 150,000+ displaced",
+    "quote": "8,000 people killed (including civilians, soldiers and rebels); 150,000+ displaced",
+    "url": "https://en.wikipedia.org/w/index.php?title=Allied_Democratic_Forces_insurgency&oldid=1384239626"
+  }
+]

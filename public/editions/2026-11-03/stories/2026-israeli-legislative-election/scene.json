@@ -168,24 +168,23 @@
   "beats": [
     {
       "t": "2026-11-03T00:00:01Z",
-      "text": "Israel held legislative elections on 27 October 2026 to elect the 120 members of the 26th Knesset.",
+      "text": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
       "cites": [
-        "wiki:rev:1384064225:0"
+        "wiki:rev:1384089295:0"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "The vote is meant to determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
+      "text": "The official results were confirmed on 4 November.",
       "cites": [
-        "wiki:rev:1384064225:0"
+        "wiki:rev:1384089295:32"
       ]
     },
     {
       "t": "2026-11-03T00:00:15Z",
-      "text": "Official results were confirmed, and final results published, on 4 November.",
+      "text": "Final results followed on the same date, 4 November.",
       "cites": [
-        "wiki:rev:1384064225:32",
-        "wiki:rev:1384064225:76"
+        "wiki:rev:1384089295:76"
       ]
     },
     {
@@ -198,14 +197,14 @@
     },
     {
       "t": "2026-11-03T00:00:31Z",
-      "text": "Turnout reached 77.98% across the 120 seats.",
+      "text": "Turnout reached 77.98%.",
       "cites": [
         "elex:2026-israeli-legislative-election:summary"
       ]
     },
     {
       "t": "2026-11-03T00:00:39Z",
-      "text": "The English article drew 60,786 readers on 3 November 2026, about 6× the usual.",
+      "text": "On 3 November 2026, 60,786 people read the English article, about 6 times the usual level.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:en:2026_Israeli_legislative_election:prior"
@@ -213,7 +212,7 @@
     },
     {
       "t": "2026-11-03T00:00:46Z",
-      "text": "The article was read in 11 languages, and after English the largest audience was French, with 3,789 readers.",
+      "text": "The article was read in 11 languages, and after English the most readers were in French, with 3,789.",
       "cites": [
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "views:fr:Élections_législatives_israéliennes_de_2026:2026-11-03"
@@ -233,9 +232,9 @@
     },
     {
       "t": "2026-11-03T00:01:03Z",
-      "text": "This explainer draws on Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption cites the evidence it rests on.",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1384064225:0",
+        "wiki:rev:1384089295:0",
         "views:en:2026_Israeli_legislative_election:2026-11-03",
         "wd:Q115632366:P31"
       ]
@@ -659,7 +658,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1384064225:0"
+            "wiki:rev:1384089295:0"
           ]
         },
         {
@@ -684,7 +683,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-06T12:25:42Z",
-    "costUsd": 0.001823
+    "at": "2026-11-07T00:00:00Z",
+    "costUsd": 0.001161
   }
 }

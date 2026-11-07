@@ -1,0 +1,190 @@
+[
+  {
+    "id": "views:en:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 209,858 readers of \".xyz\" on 6 Nov 2026",
+    "value": 209858,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/.xyz",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:.xyz:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\".xyz\": normally a median of 54,841 readers a day (8 to 60 days before)",
+    "value": 54841,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/.xyz",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q16049593:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \".xyz\" is an instance of sponsored top-level domain",
+    "url": "https://www.wikidata.org/wiki/Q16049593",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1382089482:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \".xyz\" (revision of 2026-10-26 15:00 UTC)",
+    "quote": ".xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program.",
+    "url": "https://en.wikipedia.org/w/index.php?title=.xyz&oldid=1382089482"
+  },
+  {
+    "id": "views:en:.xyz:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \".xyz\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=.xyz&range=latest-30"
+  },
+  {
+    "id": "views:ru:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 17 readers of \".xyz\" on 6 November 2026",
+    "value": 17,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:es:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 6 readers of \".xyz\" on 6 November 2026",
+    "value": 6,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:de:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 5 readers of \".xyz\" on 6 November 2026",
+    "value": 5,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:ja:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 4 readers of \".xyz\" on 6 November 2026",
+    "value": 4,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:fr:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 4 readers of \".xyz\" on 6 November 2026",
+    "value": 4,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:pt:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 4 readers of \".xyz\" on 6 November 2026",
+    "value": 4,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:it:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 3 readers of \".xyz\" on 6 November 2026",
+    "value": 3,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:zh:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 3 readers of \".xyz\" on 6 November 2026",
+    "value": 3,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:pl:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 2 readers of \".xyz\" on 6 November 2026",
+    "value": 2,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "views:ar:.xyz:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 1 readers of \".xyz\" on 6 November 2026",
+    "value": 1,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/.xyz"
+  },
+  {
+    "id": "wd:Q16049593:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \".xyz\": founded 2014",
+    "url": "https://www.wikidata.org/wiki/Q16049593#P571"
+  },
+  {
+    "id": "wd:Q16049593:P137",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \".xyz\": operated by XYZ, headquartered in Las Vegas",
+    "url": "https://www.wikidata.org/wiki/Q16049593#P137"
+  },
+  {
+    "id": "wd:Q16049593:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \".xyz\": official website https://gen.xyz/",
+    "url": "https://www.wikidata.org/wiki/Q16049593#P856"
+  }
+]

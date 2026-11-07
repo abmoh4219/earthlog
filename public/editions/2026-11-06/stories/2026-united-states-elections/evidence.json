@@ -1,0 +1,496 @@
+[
+  {
+    "id": "views:en:2026_United_States_elections:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 219,097 readers of \"2026 United States elections\" on 6 Nov 2026",
+    "value": 219097,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"2026 United States elections\": normally a median of 27,072 readers a day (8 to 60 days before)",
+    "value": 27072,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jon_Ossoff:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 211,594 readers of \"Jon Ossoff\" on 6 Nov 2026",
+    "value": 211594,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jon_Ossoff:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Jon Ossoff\": normally a median of 12,301 readers a day (8 to 60 days before)",
+    "value": 12301,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Gina_Hinojosa:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 138,504 readers of \"Gina Hinojosa\" on 6 Nov 2026",
+    "value": 138504,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Gina_Hinojosa:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Gina Hinojosa\": normally a median of 6,679 readers a day (8 to 60 days before)",
+    "value": 6679,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_elections:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 101,863 readers of \"2026 United States Senate elections\" on 6 Nov 2026",
+    "value": 101863,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"2026 United States Senate elections\": normally a median of 14,843 readers a day (8 to 60 days before)",
+    "value": 14843,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_House_of_Representatives_elections:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 97,301 readers of \"2026 United States House of Representatives elections\" on 6 Nov 2026",
+    "value": 97301,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_House_of_Representatives_elections:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"2026 United States House of Representatives elections\": normally a median of 6,433 readers a day (8 to 60 days before)",
+    "value": 6433,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Rob_Sand:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 88,526 readers of \"Rob Sand\" on 6 Nov 2026",
+    "value": 88526,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Rob_Sand",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Rob_Sand:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Rob Sand\": normally a median of 1,890 readers a day (8 to 60 days before)",
+    "value": 1890,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Rob_Sand",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Mississippi:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 68,707 readers of \"2026 United States Senate election in Mississippi\" on 6 Nov 2026",
+    "value": 68707,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_United_States_Senate_election_in_Mississippi:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"2026 United States Senate election in Mississippi\": normally a median of 1,163 readers a day (8 to 60 days before)",
+    "value": 1163,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Hakeem_Jeffries:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 59,684 readers of \"Hakeem Jeffries\" on 6 Nov 2026",
+    "value": 59684,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Hakeem_Jeffries:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Hakeem Jeffries\": normally a median of 1,824 readers a day (8 to 60 days before)",
+    "value": 1824,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:United_States_midterm_election:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 56,948 readers of \"United States midterm election\" on 6 Nov 2026",
+    "value": 56948,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_midterm_election",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:United_States_midterm_election:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"United States midterm election\": normally a median of 15,110 readers a day (8 to 60 days before)",
+    "value": 15110,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/United_States_midterm_election",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q115857612:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"2026 United States elections\" is an instance of events in a specific year or time period, United States midterm election",
+    "url": "https://www.wikidata.org/wiki/Q115857612",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384252488:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-07 09:42 UTC)",
+    "quote": "Elections in the United States were held on November 3, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1384252488"
+  },
+  {
+    "id": "wiki:rev:1384252488:230",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-07 09:42 UTC)",
+    "quote": "They also wrote on November 3, 2026 that \"Support for Medicare for All and a wealth tax points to an economic populist thread that extends beyond young Democrats.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1384252488"
+  },
+  {
+    "id": "wiki:rev:1384252488:9",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States elections\" (revision of 2026-11-07 09:42 UTC)",
+    "quote": "Democrats won Senate seats previously belonging to Republicans in Iowa, Ohio, South Carolina, Maine, Kansas, North Carolina, and Texas, the last two by double digits; seats in Alaska and Mississippi remain uncalled by major media outlets as of November 6, with Democrats favored to win both states.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_elections&oldid=1384252488"
+  },
+  {
+    "id": "views:en:2026_United_States_elections:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 United States elections\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_United_States_elections&range=latest-30"
+  },
+  {
+    "id": "views:en:Jon_Ossoff:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jon Ossoff\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jon_Ossoff&range=latest-30"
+  },
+  {
+    "id": "views:en:Gina_Hinojosa:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gina Hinojosa\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gina_Hinojosa&range=latest-30"
+  },
+  {
+    "id": "views:zh:2026年美國選舉:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 10,629 readers of \"2026年美國選舉\" on 6 November 2026",
+    "value": 10629,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E7%BE%8E%E5%9C%8B%E9%81%B8%E8%88%89"
+  },
+  {
+    "id": "views:de:Wahlen_in_den_Vereinigten_Staaten_2026:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 7,460 readers of \"Wahlen in den Vereinigten Staaten 2026\" on 6 November 2026",
+    "value": 7460,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Wahlen_in_den_Vereinigten_Staaten_2026"
+  },
+  {
+    "id": "views:fa:انتخابات_۲۰۲۶_ایالات_متحده_آمریکا:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 4,815 readers of \"انتخابات ۲۰۲۶ ایالات متحده آمریکا\" on 6 November 2026",
+    "value": 4815,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA_%DB%B2%DB%B0%DB%B2%DB%B6_%D8%A7%DB%8C%D8%A7%D9%84%D8%A7%D8%AA_%D9%85%D8%AA%D8%AD%D8%AF%D9%87_%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7"
+  },
+  {
+    "id": "views:pt:Eleições_nos_Estados_Unidos_em_2026:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 3,996 readers of \"Eleições nos Estados Unidos em 2026\" on 6 November 2026",
+    "value": 3996,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_nos_Estados_Unidos_em_2026"
+  },
+  {
+    "id": "views:fr:Élections_de_2026_aux_États-Unis:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 3,880 readers of \"Élections de 2026 aux États-Unis\" on 6 November 2026",
+    "value": 3880,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89lections_de_2026_aux_%C3%89tats-Unis"
+  },
+  {
+    "id": "views:it:Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 3,525 readers of \"Elezioni parlamentari negli Stati Uniti d'America del 2026\" on 6 November 2026",
+    "value": 3525,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Elezioni_parlamentari_negli_Stati_Uniti_d'America_del_2026"
+  },
+  {
+    "id": "views:ja:2026年アメリカ合衆国選挙:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 1,671 readers of \"2026年アメリカ合衆国選挙\" on 6 November 2026",
+    "value": 1671,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/2026%E5%B9%B4%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD%E9%81%B8%E6%8C%99"
+  },
+  {
+    "id": "views:ar:انتخابات_الولايات_المتحدة_2026:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 1,011 readers of \"انتخابات الولايات المتحدة 2026\" on 6 November 2026",
+    "value": 1011,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA_%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9_2026"
+  },
+  {
+    "id": "views:nl:Amerikaanse_congresverkiezingen_2026:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 295 readers of \"Amerikaanse congresverkiezingen 2026\" on 6 November 2026",
+    "value": 295,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Amerikaanse_congresverkiezingen_2026"
+  },
+  {
+    "id": "views:ru:Выборы_в_США_(2026):2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 185 readers of \"Выборы в США (2026)\" on 6 November 2026",
+    "value": 185,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%D1%8B_%D0%B2_%D0%A1%D0%A8%D0%90_(2026)"
+  },
+  {
+    "id": "wd:Q115857612:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United States elections\": date 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q115857612#P585"
+  },
+  {
+    "id": "wd:Q115857612:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United States elections\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q115857612#P17"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:the-senate-table",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): Senate races: 20 won by Democrats, 13 by Republicans, 2 not yet called",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-ia",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): Iowa: Democratic gain, Josh Turek",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-nc",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): North Carolina: Democratic gain, Roy Cooper",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-ks",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): Kansas: Democratic gain, Adam Hamilton",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-me",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): Maine: Democratic gain, Troy Jackson",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-oh-special",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): Ohio: Democratic gain, Sherrod Brown",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-sc",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): South Carolina: Democratic gain, Annie Andrews",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-senate-elections:senate-tx",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States Senate elections\" (revision of 2026-11-07 07:22 UTC): Texas: Democratic gain, James Talarico",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_Senate_elections&oldid=1384235855"
+  },
+  {
+    "id": "elex:2026-united-states-gubernatorial-elections:governors-table",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States gubernatorial elections\" (revision of 2026-11-07 04:59 UTC): governor's races: 0 won by Democrats, 0 by Republicans, 36 not yet called",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_gubernatorial_elections&oldid=1384216916"
+  },
+  {
+    "id": "elex:2026-united-states-house-of-representatives-elections:house-table",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-07 10:05 UTC): race tables: 249 districts won by Democrats, 160 by Republicans, 20 not yet called, 53 changed party",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1384254851"
+  },
+  {
+    "id": "elex:2026-united-states-house-of-representatives-elections:house-infobox",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United States House of Representatives elections\" (revision of 2026-11-07 10:05 UTC): House seats: Democrats 254, Republicans 162; 218 for a majority (last updated 11:15 PM, November 6, 2026)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_States_House_of_Representatives_elections&oldid=1384254851"
+  }
+]

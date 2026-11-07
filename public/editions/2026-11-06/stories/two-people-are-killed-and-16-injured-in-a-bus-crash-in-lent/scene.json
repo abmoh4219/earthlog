@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-two-people-are-killed-and-16-injured-in-a-bus-crash-in-lent",
+  "title": "Two people are killed and 16 injured in a bus crash in Lent",
+  "subtitle": "Accident · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:00:33Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -4.8036,
+    "south": 38.1203,
+    "east": 15.1964,
+    "north": 54.1203
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-06T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": 43.19640000000004,
+      "lat": 27.25968,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:07Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:09Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:12Z",
+      "lon": 5.1964,
+      "lat": 46.1203,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "lon": 5.1964,
+      "lat": 46.1203,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:17Z",
+      "lon": 5.1964,
+      "lat": 46.1203,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:20Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:25Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:28Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "lon": 5.1964,
+      "lat": 45.4328,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:33Z",
+      "lon": -19.80359999999996,
+      "lat": 45.4328,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "According to the reports, two people were killed and 16 injured in a bus crash in Lent, Ain, France.",
+      "cites": [
+        "wiki:2026-11-06:3"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:11Z",
+      "text": "The crash took place in Lent, Ain, France, the location where the reports place it.",
+      "cites": [
+        "wiki:2026-11-06:3"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:19Z",
+      "text": "The story was reported by AP and Le Monde.",
+      "cites": [
+        "wiki:2026-11-06:3"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:27Z",
+      "text": "Sources for this story are Wikipedia and Current events, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-06:3"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "FR",
+    "lon": 5.1964,
+    "lat": 46.1203,
+    "label": "Lent, Ain"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-06T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-06T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-06T00:00:19Z",
+      "until": "2026-11-06T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/france-bus-crash-e024a5428966dd6c3415c881bc503811",
+          "cites": [
+            "wiki:2026-11-06:3"
+          ]
+        },
+        {
+          "label": "Le Monde",
+          "text": "Open",
+          "url": "https://www.lemonde.fr/en/france/article/2026/11/06/at-least-two-people-killed-after-bus-carrying-schoolchildren-crashes-in-france_6773528_7.html",
+          "cites": [
+            "wiki:2026-11-06:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:00:27Z",
+      "until": "2026-11-06T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-06:3"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.000607
+  }
+}

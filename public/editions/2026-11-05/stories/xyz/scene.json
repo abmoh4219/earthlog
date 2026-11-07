@@ -137,8 +137,8 @@
     },
     {
       "t": "2026-11-05T00:00:32Z",
-      "lon": 26.173057887419542,
-      "lat": 46.99474461608802,
+      "lon": 22.209271687620728,
+      "lat": 51.154999288343895,
       "range": 22000000,
       "heading": 0,
       "pitch": -60,
@@ -146,8 +146,8 @@
     },
     {
       "t": "2026-11-05T00:00:42Z",
-      "lon": 26.173057887419542,
-      "lat": 46.99474461608802,
+      "lon": 22.209271687620728,
+      "lat": 51.154999288343895,
       "range": 19921847.303902317,
       "heading": -14,
       "pitch": -57.5,
@@ -155,8 +155,8 @@
     },
     {
       "t": "2026-11-05T00:00:51Z",
-      "lon": 26.173057887419542,
-      "lat": 46.99474461608802,
+      "lon": 22.209271687620728,
+      "lat": 51.154999288343895,
       "range": 18040000,
       "heading": -28,
       "pitch": -55,
@@ -199,28 +199,29 @@
   "beats": [
     {
       "t": "2026-11-05T00:00:01Z",
-      "text": "The .xyz top-level domain name was introduced through ICANN's new generic top-level domain program.",
+      "text": "The .xyz name is a top-level domain introduced through ICANN's new generic top-level domain (gTLD) Program.",
       "cites": [
         "wiki:rev:1382089482:0"
       ]
     },
     {
       "t": "2026-11-05T00:00:11Z",
-      "text": "XYZ runs .xyz from Las Vegas, United States.",
+      "text": "Wikidata records that .xyz is operated by XYZ, which is headquartered in Las Vegas, United States.",
       "cites": [
         "wd:Q16049593:P137"
       ]
     },
     {
       "t": "2026-11-05T00:00:19Z",
-      "text": "The domain was founded in 2014.",
+      "text": "Wikidata gives 2014 as the founding year, and lists the official website as gen.xyz.",
       "cites": [
-        "wd:Q16049593:P571"
+        "wd:Q16049593:P571",
+        "wd:Q16049593:P856"
       ]
     },
     {
       "t": "2026-11-05T00:00:29Z",
-      "text": "English Wikipedia readers of .xyz numbered 255,809 on 5 November 2026, about 5 times the usual level.",
+      "text": "English Wikipedia recorded 255,809 readers of .xyz on 5 November 2026, about 5 times the usual median of 55,581 a day.",
       "cites": [
         "views:en:.xyz:2026-11-05",
         "views:en:.xyz:prior"
@@ -228,7 +229,7 @@
     },
     {
       "t": "2026-11-05T00:00:36Z",
-      "text": "The article was read in 11 languages, and after English, Russian came next with 21 readers.",
+      "text": "The article was read in 9 languages, and after English, Russian had the most readers with 21.",
       "cites": [
         "views:en:.xyz:2026-11-05",
         "views:ru:.xyz:2026-11-05"
@@ -236,7 +237,7 @@
     },
     {
       "t": "2026-11-05T00:00:43Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:ru:.xyz:2026-11-05",
         "views:de:.xyz:2026-11-05",
@@ -248,7 +249,7 @@
     },
     {
       "t": "2026-11-05T00:00:53Z",
-      "text": "Sources for this story are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
       "cites": [
         "wiki:rev:1382089482:0",
         "views:en:.xyz:2026-11-05",
@@ -565,7 +566,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-06T12:20:07Z",
-    "costUsd": 0.00118
+    "at": "2026-11-07T11:16:56Z",
+    "costUsd": 0.000793
   }
 }

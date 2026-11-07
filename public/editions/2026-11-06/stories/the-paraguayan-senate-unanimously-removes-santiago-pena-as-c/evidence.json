@@ -1,0 +1,117 @@
+[
+  {
+    "id": "wiki:2026-11-06:13",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-06T00:00:00Z",
+    "lon": -57.63555556,
+    "lat": -25.27888889,
+    "label": "Politics: The Paraguayan Senate unanimously removes Santiago Peña as country's president over alleged conflicts of interest involving Ueno Bank, whose accounts the central bank froze. Congress postpones consideration of Peña's resignation to allow impeachment proceedings.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_6&oldid=1384256199",
+    "quote": "The Paraguayan Senate unanimously removes Santiago Peña as country's president over alleged conflicts of interest involving Ueno Bank, whose accounts the central bank froze. Congress postpones consideration of Peña's resignation to allow impeachment proceedings.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/paraguay-senate-begins-president-impeachment-trial"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/americas/paraguay-senate-votes-impeach-president-pea-2026-11-06/"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-06:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-06T00:00:00Z",
+    "lon": -57.63555556,
+    "lat": -25.27888889,
+    "label": "Politics: The Public Prosecutor's Office orders the arrest of Santiago Peña, who is placed under house arrest.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_6&oldid=1384256199",
+    "quote": "The Public Prosecutor's Office orders the arrest of Santiago Peña, who is placed under house arrest.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "UPI",
+        "url": "https://www.upi.com/Top_News/World-News/2026/11/06/latam-paraguay-president-impached-arrested/1841794018965/"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-06:15",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-06T00:00:00Z",
+    "lon": -57.63555556,
+    "lat": -25.27888889,
+    "label": "Politics: Vice President Pedro Alliana is sworn in as the interim president of Paraguay.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_6&oldid=1384256199",
+    "quote": "Vice President Pedro Alliana is sworn in as the interim president of Paraguay.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/americas/paraguays-alliana-sworn-president-after-pea-impeachment-2026-11-06/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q142059724:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"2026 Paraguay banking crisis\" is an instance of banking crisis",
+    "url": "https://www.wikidata.org/wiki/Q142059724",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384238656:12",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Paraguay banking crisis\" (revision of 2026-11-07 07:44 UTC)",
+    "quote": "On 5 November 2026, Peña announced his intent to resign, stating that he did so with the \"stability of our country, social peace, and the need to preserve our public institutions\", and the peace of mind of the Paraguayans as his priorities.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Paraguay_banking_crisis&oldid=1384238656"
+  },
+  {
+    "id": "wiki:rev:1384238656:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Paraguay banking crisis\" (revision of 2026-11-07 07:44 UTC)",
+    "quote": "The 2026 Paraguay banking crisis is an ongoing financial crisis primarily impacting the economy of Paraguay, following the collapse of Ueno Bank which has left millions of customers unable to reach their savings.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Paraguay_banking_crisis&oldid=1384238656"
+  },
+  {
+    "id": "views:en:2026_Paraguay_banking_crisis:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Paraguay banking crisis\", 5 November 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Paraguay_banking_crisis&range=latest-30"
+  },
+  {
+    "id": "wd:Q142059724:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Paraguay banking crisis\": date 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142059724#P585"
+  },
+  {
+    "id": "wd:Q142059724:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Paraguay banking crisis\": country Paraguay",
+    "url": "https://www.wikidata.org/wiki/Q142059724#P17"
+  }
+]

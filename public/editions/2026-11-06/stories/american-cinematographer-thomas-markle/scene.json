@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "id": "story-2026-11-06-american-cinematographer-thomas-markle",
+  "title": "American cinematographer Thomas Markle",
+  "subtitle": "News · 6 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-06T00:00:00Z",
+    "end": "2026-11-06T00:00:42Z"
+  },
+  "focus": "2026-11-06T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -92.45833333,
+    "south": 19.945,
+    "east": -72.45833333,
+    "north": 35.945
+  },
+  "imagery": {
+    "day": "2026-11-06",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-06T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-06T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-06T00:00:18Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "lon": -44.458333330000016,
+      "lat": 16.354499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-06T00:00:04Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-06T00:00:07Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:09Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:12Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:15Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:17Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:20Z",
+      "lon": -82.22922508145427,
+      "lat": 27.672689851963224,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:23Z",
+      "lon": -82.22922508145427,
+      "lat": 27.672689851963224,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:26Z",
+      "lon": -82.22922508145427,
+      "lat": 27.672689851963224,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:29Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:32Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:34Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:37Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:38Z",
+      "lon": -82.45833333,
+      "lat": 27.2575,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-06T00:00:42Z",
+      "lon": -107.45833333000002,
+      "lat": 27.2575,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-06T00:00:01Z",
+      "text": "American cinematographer Thomas Markle, the father of Meghan, Duchess of Sussex, has been arrested in Tampa, Florida, over allegations of possessing child sexual abuse material.",
+      "cites": [
+        "wiki:2026-11-06:8"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:11Z",
+      "text": "The arrest is placed in Tampa, United States, according to the reports.",
+      "cites": [
+        "wiki:2026-11-06:8"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:19Z",
+      "text": "Florida is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-06:8"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:28Z",
+      "text": "BBC News and CBS News reported the story.",
+      "cites": [
+        "wiki:2026-11-06:8"
+      ]
+    },
+    {
+      "t": "2026-11-06T00:00:36Z",
+      "text": "The sources are Wikipedia and Current events, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-06:8"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -82.45833333,
+    "lat": 27.945,
+    "label": "Tampa"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-06T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-06T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-06T00:00:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-06T00:00:27Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-06T00:00:35Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-06T00:00:28Z",
+      "until": "2026-11-06T00:00:35Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/live/cwnv03203yvmt",
+          "cites": [
+            "wiki:2026-11-06:8"
+          ]
+        },
+        {
+          "label": "CBS News",
+          "text": "Open",
+          "url": "https://www.cbsnews.com/news/thomas-markle-sr-meghan-father-arrested-florida/",
+          "cites": [
+            "wiki:2026-11-06:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-06T00:00:36Z",
+      "until": "2026-11-06T00:00:42Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-06:8"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-07T11:13:59Z",
+    "costUsd": 0.000495
+  }
+}

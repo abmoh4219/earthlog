@@ -1,0 +1,447 @@
+[
+  {
+    "id": "views:en:Godzilla_Minus_Zero:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "English Wikipedia: 122,560 readers of \"Godzilla Minus Zero\" on 6 Nov 2026",
+    "value": 122560,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Godzilla_Minus_Zero:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "\"Godzilla Minus Zero\": normally a median of 7,726 readers a day (8 to 60 days before)",
+    "value": 7726,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q136700760:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "label": "Wikidata: \"Godzilla Minus Zero\" is an instance of film",
+    "url": "https://www.wikidata.org/wiki/Q136700760",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384239405:66",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC)",
+    "quote": "It released in Japan on November 3, 2026, and North America on November 6, 2026, also in IMAX.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:rev:1384239405:69",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC)",
+    "quote": "On January 9, 2026, the film was announced to be distributed by Toho's subsidiary GKIDS in North American theatres on November 6, 2026, three days after its Japanese release date on November 3, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:rev:1384239405:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC)",
+    "quote": "Godzilla Minus Zero is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "views:en:Godzilla_Minus_Zero:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Godzilla Minus Zero\", 8 October 2026 to 6 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Godzilla_Minus_Zero&range=latest-30"
+  },
+  {
+    "id": "views:ja:ゴジラ-0.0:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 20,382 readers of \"ゴジラ-0.0\" on 6 November 2026",
+    "value": 20382,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%82%B8%E3%83%A9-0.0"
+  },
+  {
+    "id": "views:zh:哥吉拉-0.0:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 7,379 readers of \"哥吉拉-0.0\" on 6 November 2026",
+    "value": 7379,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E5%93%A5%E5%90%89%E6%8B%89-0.0"
+  },
+  {
+    "id": "views:es:Godzilla_Minus_Zero:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 4,632 readers of \"Godzilla Minus Zero\" on 6 November 2026",
+    "value": 4632,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Godzilla_Minus_Zero"
+  },
+  {
+    "id": "views:fr:Godzilla_Minus_Zero:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 2,555 readers of \"Godzilla Minus Zero\" on 6 November 2026",
+    "value": 2555,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Godzilla_Minus_Zero"
+  },
+  {
+    "id": "views:ru:Годзилла:_Минус_ноль:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 1,551 readers of \"Годзилла: Минус ноль\" on 6 November 2026",
+    "value": 1551,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B4%D0%B7%D0%B8%D0%BB%D0%BB%D0%B0%3A_%D0%9C%D0%B8%D0%BD%D1%83%D1%81_%D0%BD%D0%BE%D0%BB%D1%8C"
+  },
+  {
+    "id": "views:it:Godzilla_Minus_Zero:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 1,199 readers of \"Godzilla Minus Zero\" on 6 November 2026",
+    "value": 1199,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Godzilla_Minus_Zero"
+  },
+  {
+    "id": "views:pl:Godzilla_Minus_Zero:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 501 readers of \"Godzilla Minus Zero\" on 6 November 2026",
+    "value": 501,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Godzilla_Minus_Zero"
+  },
+  {
+    "id": "views:fa:گودزیلا_منفی_صفر:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 100 readers of \"گودزیلا منفی صفر\" on 6 November 2026",
+    "value": 100,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%DA%AF%D9%88%D8%AF%D8%B2%DB%8C%D9%84%D8%A7_%D9%85%D9%86%D9%81%DB%8C_%D8%B5%D9%81%D8%B1"
+  },
+  {
+    "id": "views:ar:غودزيلا_ناقص_صفر:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 84 readers of \"غودزيلا ناقص صفر\" on 6 November 2026",
+    "value": 84,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%BA%D9%88%D8%AF%D8%B2%D9%8A%D9%84%D8%A7_%D9%86%D8%A7%D9%82%D8%B5_%D8%B5%D9%81%D8%B1"
+  },
+  {
+    "id": "views:ko:고지라-0.0:2026-11-06",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 17 readers of \"고지라-0.0\" on 6 November 2026",
+    "value": 17,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A7%80%EB%9D%BC-0.0"
+  },
+  {
+    "id": "wd:Q136700760:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Godzilla Minus Zero\": released 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q136700760#P577"
+  },
+  {
+    "id": "wd:Q136700760:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Godzilla Minus Zero\": director Takashi Yamazaki",
+    "url": "https://www.wikidata.org/wiki/Q136700760#P57"
+  },
+  {
+    "id": "wd:Q136700760:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Godzilla Minus Zero\": country of origin Japan",
+    "url": "https://www.wikidata.org/wiki/Q136700760#P495"
+  },
+  {
+    "id": "wiki:box:1384239405:directed-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Directed by: Takashi Yamazaki",
+    "quote": "Directed by: Takashi Yamazaki",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:box:1384239405:starring",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Starring: Ryunosuke Kamiki, Minami Hamabe, Min Tanaka, Hidetaka Yoshioka and 6 more",
+    "quote": "Starring: Ryunosuke Kamiki, Minami Hamabe, Min Tanaka, Hidetaka Yoshioka and 6 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:box:1384239405:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Music: Naoki Satō",
+    "quote": "Music: Naoki Satō",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:box:1384239405:studio",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Studio: Toho Studios, Robot Communications",
+    "quote": "Studio: Toho Studios, Robot Communications",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:box:1384239405:released",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Released: 26 September 2026 (NYFF), 3 November 2026 (Japan)",
+    "quote": "Released: 26 September 2026 (NYFF), 3 November 2026 (Japan)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:box:1384239405:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Runtime: 135 minutes",
+    "quote": "Runtime: 135 minutes",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:box:1384239405:language",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Language: Japanese, English",
+    "quote": "Language: Japanese, English",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:box:1384239405:box-office",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\" (revision of 2026-11-07 07:51 UTC): Box office: USD 15.4 million",
+    "quote": "Box office: USD 15.4 million",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wd:Q11235263:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"TOHO Studios Co., Ltd.\": headquarters Yūrakuchō",
+    "url": "https://www.wikidata.org/wiki/Q11235263#P159"
+  },
+  {
+    "id": "wiki:film:1384239405:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\", filming (revision of 2026-11-07 07:51 UTC)",
+    "quote": "Principal photography took place with extras on location in Ibaraki Prefecture from August 30 to September 14, 2025. The Hollywood Reporter claimed additional shooting took place in New Zealand and Norway.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:film:1384239405:6",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\", filming (revision of 2026-11-07 07:51 UTC)",
+    "quote": "A scene featuring Japanese maintenance soldiers was shot at a temple in Maizuru on November 3, which was Godzilla Day in Japan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:film:1384239405:7",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\", filming (revision of 2026-11-07 07:51 UTC)",
+    "quote": "Filming occurred around Seijōgakuen-mae Station on November 25, and in Inashiki District, Ibaraki on December 15.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wiki:film:1384239405:11",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Godzilla Minus Zero\", filming (revision of 2026-11-07 07:51 UTC)",
+    "quote": "At the opening ceremony of Godzilla Fest 2025, held on November 3, 2025, at the Tokyo Dome City Hall, Toho unveiled the official title of Yamazaki's next Godzilla feature as Godzilla Minus Zero.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godzilla_Minus_Zero&oldid=1384239405"
+  },
+  {
+    "id": "wd:Q1041546:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ryūnosuke Kamiki\": place of birth Fujimi",
+    "url": "https://www.wikidata.org/wiki/Q1041546#P19"
+  },
+  {
+    "id": "wd:Q1050102:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Yuki Yamada\": place of birth Nagoya",
+    "url": "https://www.wikidata.org/wiki/Q1050102#P19"
+  },
+  {
+    "id": "wd:Q1052140:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Kuranosuke Sasaki\": place of birth Kyoto",
+    "url": "https://www.wikidata.org/wiki/Q1052140#P19"
+  },
+  {
+    "id": "wd:Q1052320:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Takashi Yamazaki\": place of birth Matsumoto",
+    "url": "https://www.wikidata.org/wiki/Q1052320#P19"
+  },
+  {
+    "id": "wd:Q1060139:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Sakura Andō\": place of birth Tokyo City",
+    "url": "https://www.wikidata.org/wiki/Q1060139#P19"
+  },
+  {
+    "id": "wd:Q11284289:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Minami Hamabe\": place of birth Ishikawa Prefecture",
+    "url": "https://www.wikidata.org/wiki/Q11284289#P19"
+  },
+  {
+    "id": "wd:Q11422725:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jun Kunimura\": place of birth Kumamoto",
+    "url": "https://www.wikidata.org/wiki/Q11422725#P19"
+  },
+  {
+    "id": "wd:Q1189115:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Hidetaka Yoshioka\": place of birth Saitama",
+    "url": "https://www.wikidata.org/wiki/Q1189115#P19"
+  },
+  {
+    "id": "wd:Q1351571:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Naoki Satō\": place of birth Chiba",
+    "url": "https://www.wikidata.org/wiki/Q1351571#P19"
+  },
+  {
+    "id": "wd:Q20041273:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Miō Tanaka\": place of birth Kobe",
+    "url": "https://www.wikidata.org/wiki/Q20041273#P19"
+  },
+  {
+    "id": "wd:Q253900:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Masami Nagasawa\": place of birth Iwata",
+    "url": "https://www.wikidata.org/wiki/Q253900#P19"
+  },
+  {
+    "id": "wd:Q3108327:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-06T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Min Tanaka\": place of birth Tokyo",
+    "url": "https://www.wikidata.org/wiki/Q3108327#P19"
+  }
+]

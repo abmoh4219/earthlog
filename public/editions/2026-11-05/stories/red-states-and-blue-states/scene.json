@@ -134,28 +134,28 @@
   "beats": [
     {
       "t": "2026-11-05T00:00:01Z",
-      "text": "In 2023, Humanities Magazine published an article, \"Red Map, Blue Map,\" about political geographer Kenneth C. Martis and his work mapping every congressional district, color-coded by party from the first Congress onward.",
+      "text": "In 2023, Humanities Magazine published \"Red Map, Blue Map,\" about political geographer Kenneth C. Martis's work coloring every congressional district by party, from the first Congress onward.",
       "cites": [
-        "wiki:rev:1384017607:69"
+        "wiki:rev:1384076376:69"
       ]
     },
     {
       "t": "2026-11-05T00:00:08Z",
-      "text": "Published in 1989, The Historical Atlas of Political Parties in the United States Congress: 1789-1989 was the first to map all U.S. congressional elections by state and district and by party.",
+      "text": "The Historical Atlas of Political Parties in the United States Congress, covering 1789 to 1989 and published in 1989, was the first to map all U.S. congressional elections by the party of each person elected.",
       "cites": [
-        "wiki:rev:1384017607:70"
+        "wiki:rev:1384076376:70"
       ]
     },
     {
       "t": "2026-11-05T00:00:15Z",
-      "text": "Since the 2000 United States presidential election, \"red state\" has referred to states that predominantly vote Republican, and \"blue state\" to states that predominantly vote Democratic.",
+      "text": "Since the 2000 United States presidential election, \"red state\" has referred to states that predominantly vote Republican, and \"blue state\" to those that predominantly vote Democratic.",
       "cites": [
-        "wiki:rev:1384017607:0"
+        "wiki:rev:1384076376:0"
       ]
     },
     {
       "t": "2026-11-05T00:00:25Z",
-      "text": "On 5 November 2026, 69,411 people read the article, about 33× the usual.",
+      "text": "On 5 November 2026, 69,411 people read the English article, about 33× the usual daily level.",
       "cites": [
         "views:en:Red_states_and_blue_states:2026-11-05",
         "views:en:Red_states_and_blue_states:prior"
@@ -163,7 +163,7 @@
     },
     {
       "t": "2026-11-05T00:00:32Z",
-      "text": "The article was read in 11 languages, and after English, German was highest with 1,602 readers.",
+      "text": "The article was read in 11 languages, and after English, German was the most read, with 1,602 readers.",
       "cites": [
         "views:en:Red_states_and_blue_states:2026-11-05",
         "views:de:Rote_Staaten_und_blaue_Staaten:2026-11-05"
@@ -171,7 +171,7 @@
     },
     {
       "t": "2026-11-05T00:00:39Z",
-      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
       "cites": [
         "views:de:Rote_Staaten_und_blaue_Staaten:2026-11-05",
         "views:es:Estados_rojos_y_estados_azules:2026-11-05",
@@ -183,9 +183,9 @@
     },
     {
       "t": "2026-11-05T00:00:49Z",
-      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1384017607:69",
+        "wiki:rev:1384076376:69",
         "views:en:Red_states_and_blue_states:2026-11-05",
         "wd:Q1190344:P31"
       ]
@@ -435,7 +435,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1384017607:69"
+            "wiki:rev:1384076376:69"
           ]
         },
         {
@@ -460,7 +460,7 @@
   "generatedBy": {
     "method": "claude",
     "model": "claude-haiku-5-5",
-    "at": "2026-11-06T12:20:07Z",
-    "costUsd": 0.001353
+    "at": "2026-11-07T11:16:56Z",
+    "costUsd": 0.001432
   }
 }
