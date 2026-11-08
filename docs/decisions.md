@@ -408,3 +408,25 @@ From 2 to 6 November, the same stories filled most editions: the 2026 US electio
 ### Why
 
 The launch look (navy with one pale blue everywhere) read as a generic template. Of the three directions, the night side matches the films (which are dark) and gives a reason to open the page (the globe is different every visit). Dark plus a globe is also the look of intelligence dashboards, so the serif headlines, warm text and single amber accent are what keep Earthlog editorial instead.
+
+---
+
+## ADR-0017: A news engine from outlets' feeds
+
+- **Date:** 2026-11-08
+- **Status:** Accepted
+
+### Decision
+
+- Earthlog reads eight outlets' **official RSS feeds** (BBC News, The Guardian, Sky News, DW, France 24, Al Jazeera, NPR, AllAfrica) every three hours (`pnpm news`, `.github/workflows/news.yml`) and keeps **only the headline, link and time** of each item, for **72 hours**, in `public/now/now.json`. Never article text or summaries.
+- Headlines are grouped into stories (`scripts/news/cluster.ts`): IDF-weighted word overlap with a light stemmer, places folded into one token each, then a second pass that merges groups naming the same city or region with a telling word in common. Each story is placed from the place names its headlines use (`scripts/news/place.ts`: Natural Earth cities, Wikipedia region coordinates, country names and demonyms; disputed places get no country), given a topic by keyword rules (`scripts/news/topic.ts`) and scored for heat and "breaking" (`scripts/news/hot.ts`).
+- The nightly edition refreshes the headlines, then credits the outlets that reported each story **that day** (`scripts/edition/coverage.ts`): each headline is `report` evidence quoted exactly, each outlet a credited source, breadth of reporting adds to heat, and a story told in the last week returns as an update when outlets report on it again.
+- The edition page shows "Reported by …", each name opening the outlet's own article, and credits the outlets with links to their home pages.
+
+### Why
+
+Wikipedia alone was one source: slower than the news and missing whole regions. Outlets' feeds are free, keyless and official. Headlines with links, credited by name, are what feed readers show; only BBC and AllAfrica say so explicitly, so the rest is kept to the minimum (no text, 72 hours, links to the outlet) and any outlet that objects is removed. Wire services (Reuters, AP) and CNN offer no usable public feed.
+
+### Tested on
+
+196 real headlines recorded from the eight feeds on 8 November 2026: the Krakow shooting is one story from six outlets (Al Jazeera's headline joins without naming Krakow) placed in Kraków; the Egypt train crash one story from four outlets despite different tolls; unrelated stories that share a country or a theme stay apart; the Kenyan cult leader's sentencing on 6 November matches BBC and AllAfrica.

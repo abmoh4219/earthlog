@@ -24,7 +24,8 @@
     "validate:scenes": "node scripts/validate-scenes.ts",
     "edition": "node scripts/edition.ts",
     "stories": "node scripts/stories.ts",
-    "direct": "node scripts/direct.ts"
+    "direct": "node scripts/direct.ts",
+    "news": "node scripts/news.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.4.0",

@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/landing/SiteFooter";
 import { SiteNav } from "@/components/landing/SiteNav";
 import { listEditions, listStoryFilms, loadEdition } from "@/lib/bundles";
 import { LENS_INFO } from "@/scene/edition";
+import { OUTLETS, outletById } from "@/scene/outlets";
 
 export const dynamicParams = false;
 
@@ -98,6 +99,26 @@ export default async function EditionPage({ params }: Props) {
                   <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-dust/55">
                     {s.headline ?? s.about ?? s.summary}
                   </p>
+                  {/* Which outlets reported it that day: each name opens the outlet's article. */}
+                  {s.coverage && s.coverage.length > 0 && (
+                    <p className="mt-2 text-sm text-dust/45">
+                      Reported by{" "}
+                      {s.coverage.map((c, k) => (
+                        <span key={c.evidence}>
+                          {k > 0 && (k === (s.coverage?.length ?? 0) - 1 ? " and " : ", ")}
+                          <a
+                            href={c.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            title={c.title}
+                            className="relative z-10 text-dust/75 underline decoration-moon/20 underline-offset-4 hover:text-moon"
+                          >
+                            {outletById(c.outlet)?.name ?? c.outlet}
+                          </a>
+                        </span>
+                      ))}
+                    </p>
+                  )}
                   {/* Updates link back to how the story was told before. */}
                   {s.update && (
                     <p className="mt-2 text-sm text-dust/45">
@@ -133,6 +154,23 @@ export default async function EditionPage({ params }: Props) {
             );
           })}
         </ol>
+        {/* Outlets are credited by name with a link home (AllAfrica's terms ask for it). */}
+        {edition.stories.some((s) => s.coverage?.length) && (
+          <p className="mt-8 text-xs leading-relaxed text-dust/40">
+            Headlines and links from{" "}
+            {OUTLETS.filter((o) =>
+              edition.stories.some((s) => s.coverage?.some((c) => c.outlet === o.id)),
+            ).map((o, k, list) => (
+              <span key={o.id}>
+                {k > 0 && (k === list.length - 1 ? " and " : ", ")}
+                <a href={o.homepage} target="_blank" rel="noreferrer" className="hover:text-moon">
+                  {o.name}
+                </a>
+              </span>
+            ))}
+            , each linking to the outlet&apos;s own article.
+          </p>
+        )}
       </div>
       <SiteFooter />
     </main>

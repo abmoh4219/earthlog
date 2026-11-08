@@ -19,8 +19,9 @@ on:
 permissions:
   contents: write
 
+# One queue for every job that commits data (this one and news.yml), so pushes never race.
 concurrency:
-  group: nightly-edition
+  group: data-commits
   cancel-in-progress: false
 
 jobs:
@@ -53,6 +54,8 @@ jobs:
           set -euo pipefail
           DATE="${INPUT_DATE:-$(date -u -d yesterday +%F)}"
           echo "DATE=$DATE" >> "$GITHUB_ENV"
+          # Fresh outlets' headlines first: the edition matches them to its stories (ADR-0017).
+          pnpm news || echo "::warning::news feeds unavailable; edition built without coverage"
           pnpm edition "$DATE"
           # One failed film must not sink the edition: it simply has no film (listed as text).
           pnpm stories "$DATE" || echo "::warning::some films of $DATE failed"
@@ -82,10 +85,12 @@ jobs:
         run: |
           git config user.name "earthlog-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/editions public/scenes
+          git add public/editions public/scenes public/now
           if git diff --cached --quiet; then
             echo "Nothing new."
           else
             git commit -m "data: edition $DATE"
+            # A news run may have pushed meanwhile: replay this data commit on top.
+            git pull --rebase
             git push
           fi

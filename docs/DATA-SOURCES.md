@@ -46,6 +46,28 @@ Researched 2026-11-04. Endpoints marked ✅ were called successfully from the de
 
 **Decision: IODA (2026-11-04, Abdelah).** We bundle the small, normalised series with clear attribution and a link to IODA, in a free, non-commercial, open-source project. We don't email first. **If IODA ever asks**, we switch to having the browser fetch their API at view time (CORS echoes the requesting origin, verified 2026-11-04), so nothing is redistributed.
 
+## News outlets (verified 2026-11-08, ADR-0017)
+
+Read every three hours from each outlet's **official public RSS feed** (`pnpm news`, `.github/workflows/news.yml`). Only the **headline, the link and the time** are kept, for **72 hours** (`public/now/now.json`); never the article or its summary. Every headline is shown with the outlet's name and links to the outlet's own article; the edition credits each outlet with a link to its home page.
+
+| Outlet | Feed | Terms found | Notes |
+| --- | --- | --- | --- |
+| BBC News | `feeds.bbci.co.uk/news/world/rss.xml` | "We encourage the use of BBC News feeds as part of a website"; attribute "BBC News"; no logos (https://www.bbc.co.uk/news/10628494) | Explicitly allowed |
+| AllAfrica | `allafrica.com/tools/headlines/rdf/latest/headlines.rdf` | Headlines on a website with attribution and a link to the AllAfrica home page or section (https://allafrica.com/misc/tools/rss.html) | Explicitly allowed; headlines start with the country ("Kenya: …") |
+| NPR | `feeds.npr.org/1004/rss.xml` | Display, excerpt and link on a personal or 501(c)(3) site; say "NPR"; do not redistribute the feed (https://www.npr.org/about-npr/179876898/terms-of-use) | Non-commercial, credited; the raw feed is never republished |
+| The Guardian | `theguardian.com/world/rss` | Site terms: personal, non-commercial use (archived feeds help page; live page blocked by a bot check: **unverified live**) | |
+| Al Jazeera | `aljazeera.com/xml/rss/all.xml` | No RSS terms; general terms: personal, non-commercial; no storing without permission (https://www.aljazeera.com/terms-and-conditions) | Kept 72 h only, headline and link |
+| DW | `rss.dw.com/rdf/rss-en-all` | Feed list at https://www.dw.com/en/rss-feeds/a-68693346; no terms stated (**unverified**) | |
+| France 24 | `france24.com/en/rss` | Terms page blocked (**unverified**) | |
+| Sky News | `feeds.skynews.com/feeds/rss/world.xml` | Feed list at https://news.sky.com/info/rss; no terms stated; feed says "All Rights Reserved" (**unverified**) | |
+
+Not usable: Reuters (feeds closed in 2020), AP (no public feed, 403), CNN (feed frozen since 2023), NHK English (404). If any outlet objects, it is removed from `src/scene/outlets.ts`.
+
+| Gazetteer | Source | Licence |
+| --- | --- | --- |
+| Cities (3,089 with 100k+ people or a capital) | Natural Earth 10m populated places v5.1.2 | Public domain |
+| Regions (130: Gaza Strip, Darfur, US states…) | Wikipedia article coordinates (`prop=coordinates`) | Facts |
+
 ## Gotchas found
 
 - **Times:** IODA uses Unix seconds, and USGS uses epoch milliseconds or ISO. Everything is normalised to ISO UTC at bake time.

@@ -12,8 +12,10 @@
 //      continent with a story that day is represented.
 import type { Continent, Edition, EditionStory, Lens } from "../../src/scene/edition.ts";
 import { countryAt, nearestCountry } from "../../src/scene/geo.ts";
+import { outletById } from "../../src/scene/outlets.ts";
 import type { Country, Evidence, NewsStory, Source } from "../../src/scene/schema.ts";
 import type { RawStory } from "../bake/wikinews.ts";
+import type { Coverage } from "./coverage.ts";
 import {
   EVENT_LENSES,
   isEventPage,
@@ -52,6 +54,8 @@ export interface BuildInput {
   countries: Country[];
   /** Recent editions (any order), so stories already told don't come back without news. */
   history?: { date: string; stories: EditionStory[] }[];
+  /** Outlets' headlines of the day, matched to stories (scripts/edition/coverage.ts). */
+  coverage?: Coverage;
 }
 
 /** The same story across editions: its Wikidata item, else its article, else its title. */
@@ -194,6 +198,15 @@ export function buildEdition(input: BuildInput): {
     const types = typeLabels(leadQid);
     const lens: Lens = lensFromTypes(types) ?? headingLens;
 
+    // Which outlets reported it that day: breadth of reporting is heat, and each headline is
+    // cited evidence (ADR-0017).
+    const reported =
+      input.coverage?.match(
+        [c.lead?.title, c.lead?.description, c.topic, ...items.map((it) => it.raw?.text)].filter(
+          (t): t is string => Boolean(t),
+        ),
+      ) ?? [];
+
     const readers = c.members.reduce((sum, m) => sum + m.views, 0);
     const spike = c.lead ? spikeOf(c.lead) : undefined;
     const sources = items.reduce((n, it) => n + (it.raw?.sources.length ?? 0), 0);
@@ -209,6 +222,7 @@ export function buildEdition(input: BuildInput): {
       // disasters never reach the English most-read list, and must still make the edition.
       3 * Math.min(2, items.length) +
       0.3 * Math.min(10, sources) +
+      0.6 * Math.min(6, reported.length) +
       (diedNow ? 2 : 0);
 
     const place = placeOf(c, items[0]?.story, leadQid, entities, countries, date);
@@ -267,6 +281,19 @@ export function buildEdition(input: BuildInput): {
         ids.push(base);
       }
     }
+    for (const h of reported) {
+      const id = `news:${h.outlet}:${h.id}`;
+      addEvidence({
+        id,
+        kind: "report",
+        source: `outlet:${h.outlet}`,
+        t: h.t,
+        label: `${outletById(h.outlet)?.name ?? h.outlet}: ${h.title}`,
+        url: h.url,
+        quote: h.title,
+      });
+      ids.push(id);
+    }
     if (leadQid && types.length) {
       const id = `wd:${leadQid}:P31`;
       addEvidence({
@@ -318,6 +345,17 @@ export function buildEdition(input: BuildInput): {
       ...(readers ? { readers } : {}),
       ...(spike !== undefined ? { spike: Math.round(spike * 10) / 10 } : {}),
       sources,
+      ...(reported.length
+        ? {
+            coverage: reported.map((h) => ({
+              outlet: h.outlet,
+              title: h.title,
+              url: h.url,
+              t: h.t,
+              evidence: `news:${h.outlet}:${h.id}`,
+            })),
+          }
+        : {}),
       related: c.members.filter((m) => m !== c.lead).map((m) => m.title),
       evidence: ids,
       rawHeat: raw,
@@ -340,7 +378,10 @@ export function buildEdition(input: BuildInput): {
   const fresh = scored.flatMap((s) => {
     const previous = seen.get(storyKey(s));
     if (!previous) return [s];
-    const reportedToday = s.evidence.some((id) => id.startsWith(`wiki:${date}:`));
+    // New reporting that day: a Current events item, or an outlet's headline of the day.
+    const reportedToday = s.evidence.some(
+      (id) => id.startsWith(`wiki:${date}:`) || id.startsWith("news:"),
+    );
     if (!reportedToday) {
       repeats.push(s.title);
       return [];
@@ -420,6 +461,24 @@ export function buildEdition(input: BuildInput): {
       attribution: "Wikidata contributors",
       retrievedAt: at,
     },
+    // Outlets whose headlines are cited: the headline and link only, credited by name.
+    ...[...sourcesUsed]
+      .filter((id) => id.startsWith("outlet:"))
+      .flatMap((id) => {
+        const o = outletById(id.slice("outlet:".length));
+        return o
+          ? [
+              {
+                id,
+                name: o.name,
+                url: o.homepage,
+                license: "Headline and link only, quoted with attribution; © the outlet",
+                attribution: o.name,
+                retrievedAt: at,
+              },
+            ]
+          : [];
+      }),
   ].filter((s) => sourcesUsed.has(s.id));
 
   return {

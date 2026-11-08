@@ -9,6 +9,8 @@
       "!public/scenes/*",
       "!public/geo",
       "!public/editions",
+      "!public/now",
+      "!scripts/news/places.json",
       "!test/fixtures",
       "!next-env.d.ts",
       "!.cache",

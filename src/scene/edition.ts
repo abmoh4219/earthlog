@@ -88,6 +88,21 @@ export const EditionStory = z.object({
   spike: z.number().nonnegative().optional(),
   /** Number of outlets cited by the day's news items for this story. */
   sources: z.number().int().nonnegative(),
+  /**
+   * Outlets that reported it that day: one headline each, linking to the outlet's article
+   * (ADR-0017). Each is also cited evidence (`evidence`).
+   */
+  coverage: z
+    .array(
+      z.object({
+        outlet: z.string(),
+        title: z.string(),
+        url: z.url(),
+        t: z.iso.datetime({ offset: false }),
+        evidence: EvidenceId,
+      }),
+    )
+    .optional(),
   /** Other most-read articles folded into this story (e.g. candidates into an election). */
   related: z.array(z.string()),
   /** Why it is in the edition and what it rests on: news reports, readers, the lens's basis. */

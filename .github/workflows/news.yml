@@ -1,0 +1,49 @@
+# Outlets' headlines, every three hours (ADR-0017).
+# Reads each outlet's official RSS feed, keeps 72 hours of headlines (headline, link, time:
+# never the article), groups them into stories, and commits public/now/now.json as a `data:`
+# commit. The push triggers a Vercel deploy (8 a day, well within the Hobby plan's 100 a day:
+# https://vercel.com/docs/limits). The site reads the file for its "Now" view; the nightly
+# edition reads it to credit the outlets that reported each story.
+name: News
+
+on:
+  schedule:
+    - cron: "15 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with the nightly edition: one data commit at a time.
+concurrency:
+  group: data-commits
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Read the feeds
+        run: pnpm news
+
+      - name: Commit the headlines
+        run: |
+          git config user.name "earthlog-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/now
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+          else
+            git commit -m "data: news $(date -u +%FT%H:%MZ)"
+            git pull --rebase
+            git push
+          fi
