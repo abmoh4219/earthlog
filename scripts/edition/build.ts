@@ -14,7 +14,14 @@ import type { Continent, Edition, EditionStory, Lens } from "../../src/scene/edi
 import { countryAt, nearestCountry } from "../../src/scene/geo.ts";
 import type { Country, Evidence, NewsStory, Source } from "../../src/scene/schema.ts";
 import type { RawStory } from "../bake/wikinews.ts";
-import { isNotAStory, lensFromHeading, lensFromTypes } from "./lens.ts";
+import {
+  EVENT_LENSES,
+  isEventPage,
+  isEvergreen,
+  isNotAStory,
+  lensFromHeading,
+  lensFromTypes,
+} from "./lens.ts";
 import type { MostRead, WdEntity } from "./sources.ts";
 
 export const MAX_STORIES = 14;
@@ -22,6 +29,13 @@ export const MAX_WITH_BALANCE = 18;
 export const MAX_PER_LENS = 3;
 /** Readers that day ÷ the article's normal level; below this a page is "evergreen". */
 export const SPIKE_MIN = 2.5;
+/**
+ * An article no news item mentions needs a bigger spike to be a story: a web domain read 4×
+ * its usual made three editions in a row (2026-11-04 to 06).
+ */
+export const NEWSLESS_SPIKE_MIN = 5;
+/** A story seen in this many previous days returns only with new reporting (ADR-0015). */
+export const REPEAT_DAYS = 7;
 
 const NOISE_TITLE = /^(Main Page|Special:|Deaths in |List of |Portal:|Wikipedia:|File:|Template:)/;
 
@@ -36,7 +50,23 @@ export interface BuildInput {
   /** Article title → candidate titles it links to. */
   links: Map<string, Set<string>>;
   countries: Country[];
+  /** Recent editions (any order), so stories already told don't come back without news. */
+  history?: { date: string; stories: EditionStory[] }[];
 }
+
+/** The same story across editions: its Wikidata item, else its article, else its title. */
+export function storyKey(s: {
+  title: string;
+  article?: { title: string; qid?: string | undefined } | undefined;
+}): string {
+  return (
+    s.article?.qid ??
+    (s.article ? `article:${s.article.title.toLowerCase()}` : `title:${slugify(s.title)}`)
+  );
+}
+
+const daysBetween = (from: string, to: string) =>
+  Math.round((Date.parse(`${to}T00:00:00Z`) - Date.parse(`${from}T00:00:00Z`)) / 86_400_000);
 
 interface Cluster {
   lead?: MostRead;
@@ -53,6 +83,8 @@ export function buildEdition(input: BuildInput): {
   edition: Edition;
   evidence: Evidence[];
   sources: Source[];
+  /** Titles left out because a recent edition told them and nothing new was reported. */
+  repeats: string[];
 } {
   const { date, mostRead, news, qids, entities, links, countries } = input;
   const typeLabels = (qid?: string) =>
@@ -85,17 +117,34 @@ export function buildEdition(input: BuildInput): {
     else newsOnly.push({ members: [], newsIdx: [i], ...(r.topic ? { topic: r.topic } : {}) });
   });
 
-  // 3. Keep most-read pages that spiked or that the news mentions; drop lists and specials.
+  // 3. Keep most-read pages the news mentions, or that spiked hard and are not evergreen
+  //    reading (holidays, domains, terms); drop lists and specials.
   const kept = candidates
-    .filter((m) => clusters.has(m.title) || (spikeOf(m) ?? SPIKE_MIN) >= SPIKE_MIN)
+    .filter(
+      (m) =>
+        clusters.has(m.title) ||
+        ((spikeOf(m) ?? NEWSLESS_SPIKE_MIN) >= NEWSLESS_SPIKE_MIN &&
+          !isEvergreen(typeLabels(m.qid))),
+    )
     .sort((a, b) => b.views - a.views);
 
-  // 4. Fold an article into a hotter story that links to it.
+  // 4. Fold an article into a hotter story that links to it, and a thing into the event it
+  //    belongs to whichever was read more ("Learjet 60" into the Learjet 60 crash). Events go
+  //    first so they are leads before the things that fold into them.
+  const isEvent = (m: MostRead) => isEventPage(typeLabels(m.qid));
+  const linked = (a: MostRead, b: MostRead) =>
+    links.get(a.title)?.has(b.title) || links.get(b.title)?.has(a.title);
   const leadOf = new Map<string, string>();
-  for (const m of kept) {
+  const order = [...kept].sort(
+    (a, b) => Number(isEvent(b)) - Number(isEvent(a)) || b.views - a.views,
+  );
+  for (const m of order) {
     const parent = kept.find(
       (p) =>
-        p.views > m.views && leadOf.get(p.title) === p.title && links.get(p.title)?.has(m.title),
+        p !== m &&
+        leadOf.get(p.title) === p.title &&
+        ((p.views > m.views && links.get(p.title)?.has(m.title)) ||
+          (isEvent(p) && !isEvent(m) && linked(p, m))),
     );
     if (parent && !clusters.get(m.title)?.newsIdx.length) {
       leadOf.set(m.title, parent.title);
@@ -276,6 +325,31 @@ export function buildEdition(input: BuildInput): {
     return story;
   });
 
+  // 5b. Already told: a story from the last REPEAT_DAYS editions comes back only when the
+  //     day's news reports something new about it, and then as an update linking back.
+  const seen = new Map<string, { date: string; slug: string; title: string }[]>();
+  for (const h of [...(input.history ?? [])].sort((a, b) => b.date.localeCompare(a.date))) {
+    const age = daysBetween(h.date, date);
+    if (age < 1 || age > REPEAT_DAYS) continue;
+    for (const s of h.stories) {
+      const k = storyKey(s);
+      seen.set(k, [...(seen.get(k) ?? []), { date: h.date, slug: s.slug, title: s.title }]);
+    }
+  }
+  const repeats: string[] = [];
+  const fresh = scored.flatMap((s) => {
+    const previous = seen.get(storyKey(s));
+    if (!previous) return [s];
+    const reportedToday = s.evidence.some((id) => id.startsWith(`wiki:${date}:`));
+    if (!reportedToday) {
+      repeats.push(s.title);
+      return [];
+    }
+    const first = previous.reduce((a, b) => (a.date < b.date ? a : b));
+    return [{ ...s, update: { day: daysBetween(first.date, date) + 1, previous } }];
+  });
+  scored.splice(0, scored.length, ...fresh);
+
   // 6. Pick: hottest first with a per-lens cap, then fill missing continents.
   scored.sort((a, b) => b.rawHeat - a.rawHeat);
   const picked: typeof scored = [];
@@ -352,6 +426,7 @@ export function buildEdition(input: BuildInput): {
     edition: { version: 1, date, generatedAt: at, candidates: all.length, stories },
     evidence: shipped,
     sources,
+    repeats,
   };
 }
 
@@ -365,8 +440,10 @@ function leadLinkQid(
   for (const t of raw?.links ?? []) {
     const q = qids.get(t);
     if (!q || !entities.has(q)) continue;
+    // A guess from a linked page may only make the story an event (a crash, a war, a vote):
+    // "Hungarian People's Republic" is a "satellite state", which is not a space story.
     const lens = lensFromTypes(typeLabels(q));
-    if (lens && lens !== "person") return q;
+    if (lens && EVENT_LENSES.has(lens)) return q;
   }
   return undefined;
 }

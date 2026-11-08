@@ -50,7 +50,7 @@ export function SiteFooter() {
             rel="noreferrer"
             className="mt-4 inline-flex items-center gap-2 text-sm text-ice/80 hover:text-frost"
           >
-            <GithubMark size={16} /> Star us on GitHub
+            <GithubMark size={16} /> Source on GitHub
           </a>
         </div>
         {columns.map((c) => (

@@ -211,7 +211,7 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     version: 1,
     id: `story-${date}-${story.slug}`,
     title: story.title,
-    subtitle: `${LENS_INFO[story.lens].label} · ${day}`,
+    subtitle: `${LENS_INFO[story.lens].label} · ${day}${story.update ? ` · Update, day ${story.update.day}` : ""}`,
     category: "daily",
     window: { start: iso(start), end: iso(end) },
     focus: iso(start),

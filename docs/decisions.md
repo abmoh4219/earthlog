@@ -368,3 +368,24 @@ Results fill in for days. The US election film baked on 4 November afternoon sho
 ### Cost
 
 The nightly job re-films the last three editions (minutes, all free APIs). Old editions never change.
+
+---
+
+## ADR-0015: No repeated stories; real developments return as updates
+
+- **Date:** 2026-11-08
+- **Status:** Accepted
+
+### Decision
+
+- A story told in any of the last 7 editions (same Wikidata item, else same article, else same title) is left out, unless the day's news (a Current events item that day) reports something new about it.
+- When it does return, it carries `update: { day, previous }`: "Update, day N" in the film's subtitle and on the edition page, with links back to its earlier films.
+- Selection also got stricter: an article no news item mentions needs a reading spike of at least 5× (was 2.5×) and must not be evergreen reading (holidays, festivals, web domains, terms); a thing folds into the event it belongs to ("Learjet 60" into the crash), whichever was read more; a lens guessed from a linked page may only be an event lens.
+
+### Why
+
+From 2 to 6 November, the same stories filled most editions: the 2026 US elections five days running, *Ramayana: Part 1* four times, *Jailer 2* and Jesús de Miguel three times each, and ".xyz", a web domain, three times on readers alone. On those days nothing new had been reported. Dry runs of 5 and 6 November with the new rules left out 7 repeats each day and filled the space with reported world news (Nigeria, Somalia, Kenya, Pakistan, Nepal, Mexico).
+
+### How it is built
+
+`buildEdition` takes the recent editions as `history` (`scripts/edition.ts` reads them from `public/editions/`); the rules are pure and tested (`test/repeats.test.ts`). `pnpm edition <date> --dry` prints the picks without writing.

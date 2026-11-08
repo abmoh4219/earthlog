@@ -285,6 +285,7 @@ export default async function Landing() {
               <Link href={href(lead.slug)} className="group block">
                 <p className="text-sm font-medium" style={{ color: LENS_INFO[lead.lens].color }}>
                   {LENS_INFO[lead.lens].label}
+                  {lead.update && ` · Update, day ${lead.update.day}`}
                 </p>
                 <h3 className="mt-2 text-2xl font-semibold tracking-tight text-frost group-hover:underline group-hover:decoration-ice/40 group-hover:underline-offset-4 sm:text-3xl">
                   {lead.title}
@@ -309,6 +310,7 @@ export default async function Landing() {
                           style={{ color: LENS_INFO[s.lens].color }}
                         >
                           {LENS_INFO[s.lens].label}
+                          {s.update && ` · Update, day ${s.update.day}`}
                         </span>
                         <span className="mt-0.5 block font-medium leading-snug text-frost group-hover:text-white group-hover:underline group-hover:decoration-ice/40 group-hover:underline-offset-4">
                           {s.title}
@@ -516,7 +518,7 @@ pnpm validate:scenes      # every sentence cited`}</code>
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-ice px-5 py-3 font-semibold text-void transition hover:bg-frost"
             >
-              <GithubMark size={16} /> Star on GitHub
+              <GithubMark size={16} /> Read the source
             </a>
             <a
               href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}

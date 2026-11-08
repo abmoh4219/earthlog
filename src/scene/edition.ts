@@ -92,6 +92,20 @@ export const EditionStory = z.object({
   related: z.array(z.string()),
   /** Why it is in the edition and what it rests on: news reports, readers, the lens's basis. */
   evidence: z.array(EvidenceId).min(1),
+  /**
+   * A story already in a recent edition that returns because the day's news reports something
+   * new about it (repeats without new reporting are dropped; ADR-0015).
+   */
+  update: z
+    .object({
+      /** Days since the story first appeared: 2 is the day after. */
+      day: z.number().int().min(2),
+      /** Its earlier films, newest first. */
+      previous: z
+        .array(z.object({ date: z.iso.date(), slug: z.string(), title: z.string() }))
+        .min(1),
+    })
+    .optional(),
 });
 export type EditionStory = z.infer<typeof EditionStory>;
 

@@ -22,6 +22,7 @@ import { organizationLens } from "./lenses/organization.ts";
 import { personLens } from "./lenses/person.ts";
 import { scienceLens } from "./lenses/science.ts";
 import { sportsLens } from "./lenses/sports.ts";
+import { report } from "./report.ts";
 
 /** Which lens films which kind of story. Specialised lenses replace `general` phase by phase. */
 const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
@@ -104,4 +105,7 @@ await writeJson(join(dir, "edition.json"), {
   ),
 });
 
+report(
+  `- Films ${date}: ${headlines.size} made${failed ? `, **${failed} failed** (those stories show as text only)` : ""}`,
+);
 if (failed) process.exit(1);

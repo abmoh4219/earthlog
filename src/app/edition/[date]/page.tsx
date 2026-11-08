@@ -75,6 +75,11 @@ export default async function EditionPage({ params }: Props) {
                   >
                     {lens.label}
                   </span>
+                  {s.update && (
+                    <span className="shrink-0 text-xs font-medium text-[#f2b65a]">
+                      Update · day {s.update.day}
+                    </span>
+                  )}
                   {s.place && <span className="truncate text-xs text-ice/60">{s.place.name}</span>}
                   <span
                     className="ml-auto h-1 w-16 overflow-hidden rounded-full bg-ice/10"
@@ -103,6 +108,27 @@ export default async function EditionPage({ params }: Props) {
                   </Link>
                 ) : (
                   <div className="glass rounded-2xl p-4 opacity-70">{body}</div>
+                )}
+                {/* Updates link back to how the story was told before. */}
+                {s.update && (
+                  <p className="mt-1.5 pl-[3.25rem] text-xs text-ice/55">
+                    Earlier:{" "}
+                    {s.update.previous.map((p, k) => (
+                      <span key={`${p.date}-${p.slug}`}>
+                        {k > 0 && " · "}
+                        <Link
+                          href={`/story/${p.date}/${p.slug}`}
+                          className="text-ice/75 hover:text-frost hover:underline"
+                        >
+                          {new Date(`${p.date}T00:00:00Z`).toLocaleDateString("en-GB", {
+                            day: "numeric",
+                            month: "short",
+                            timeZone: "UTC",
+                          })}
+                        </Link>
+                      </span>
+                    ))}
+                  </p>
                 )}
               </li>
             );

@@ -1,6 +1,7 @@
-// pnpm edition [YYYY-MM-DD]   (default: yesterday, UTC)
+// pnpm edition [YYYY-MM-DD] [--dry]   (default: yesterday, UTC; --dry writes nothing)
 // Finds the day's stories, types each into a lens and ranks them.
 // Writes public/editions/<date>/{edition,evidence,sources}.json. Downloads are cached.
+import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
 import { Edition } from "../src/scene/edition.ts";
@@ -8,7 +9,7 @@ import { Country } from "../src/scene/schema.ts";
 import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, writeJson } from "./bake/lib.ts";
 import { fetchCoordinates, fetchPortal, parsePortal, toStories } from "./bake/wikinews.ts";
-import { buildEdition, secondRoundIds } from "./edition/build.ts";
+import { buildEdition, REPEAT_DAYS, secondRoundIds } from "./edition/build.ts";
 import {
   fetchEntities,
   fetchLinkGraph,
@@ -16,6 +17,7 @@ import {
   fetchNormal,
   fetchQids,
 } from "./edition/sources.ts";
+import { report } from "./report.ts";
 
 const date =
   process.argv.slice(2).find((a) => !a.startsWith("--")) ??
@@ -85,7 +87,20 @@ if (process.argv.includes("--record")) {
   );
 }
 
-const { edition, evidence, sources } = buildEdition({
+// The editions of the last REPEAT_DAYS days, so stories already told don't come back unless
+// the day's news reports something new about them (ADR-0015).
+const editionsDir = join(ROOT, "public", "editions");
+const history: { date: string; stories: Edition["stories"] }[] = [];
+for (const d of await readdir(editionsDir).catch(() => [])) {
+  const age = (Date.parse(`${date}T00:00:00Z`) - Date.parse(`${d}T00:00:00Z`)) / 86_400_000;
+  if (!(age >= 1 && age <= REPEAT_DAYS)) continue;
+  const past = Edition.safeParse(
+    await readJson(join(editionsDir, d, "edition.json")).catch(() => null),
+  );
+  if (past.success) history.push({ date: d, stories: past.data.stories });
+}
+
+const { edition, evidence, sources, repeats } = buildEdition({
   date,
   generatedAt,
   mostRead,
@@ -94,6 +109,7 @@ const { edition, evidence, sources } = buildEdition({
   entities,
   links,
   countries,
+  history,
 });
 Edition.parse(edition);
 
@@ -132,18 +148,33 @@ if (errors.length) {
   process.exit(1);
 }
 
+// --dry: print the picks without writing (to check the rules on a day already published).
+const dry = process.argv.includes("--dry");
 const dir = join(ROOT, "public", "editions", date);
-await writeJson(join(dir, "edition.json"), edition);
-await writeJson(join(dir, "evidence.json"), evidence);
-await writeJson(join(dir, "sources.json"), sources);
+if (!dry) {
+  await writeJson(join(dir, "edition.json"), edition);
+  await writeJson(join(dir, "evidence.json"), evidence);
+  await writeJson(join(dir, "sources.json"), sources);
+} else console.log("  (dry run: nothing written)");
 
 console.log(
   `✓ ${edition.stories.length} stories from ${edition.candidates} candidates → public/editions/${date}/`,
 );
+const updates = edition.stories.filter((s) => s.update);
+if (repeats.length)
+  console.log(
+    `  left out (told in the last ${REPEAT_DAYS} days, nothing new): ${repeats.join("; ")}`,
+  );
+report(`### Edition ${date}`);
+report(
+  `- ${edition.stories.length} stories from ${edition.candidates} candidates; ${updates.length} updates; ${repeats.length} repeats left out`,
+);
+for (const s of updates) report(`- Update, day ${s.update?.day}: ${s.title}`);
+if (repeats.length) report(`- Left out as repeats: ${repeats.join("; ")}`);
 for (const s of edition.stories) {
   const where = s.place ? `${s.place.name}${s.continent ? `, ${s.continent}` : ""}` : "no place";
   const readers = s.readers ? `${(s.readers / 1000).toFixed(0)}k readers` : "news only";
   console.log(
-    `  ${String(s.heat).padStart(3)}  ${s.lens.padEnd(12)} ${s.title.slice(0, 48).padEnd(48)} ${readers.padEnd(13)} ${where}`,
+    `  ${String(s.heat).padStart(3)}  ${s.lens.padEnd(12)} ${s.title.slice(0, 48).padEnd(48)} ${readers.padEnd(13)} ${where}${s.update ? `  [update, day ${s.update.day}]` : ""}`,
   );
 }

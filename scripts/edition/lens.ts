@@ -83,7 +83,8 @@ const RULES: [Lens, string[]][] = [
       "space probe",
       "spacecraft",
       "rocket launch",
-      "satellite",
+      // Not plain "satellite": Wikidata calls Cold War states "satellite states" (seen 2026-11-04).
+      "artificial satellite",
       "space mission",
       "space telescope",
       "comet",
@@ -166,6 +167,56 @@ const NOT_A_STORY = [
 
 export function isNotAStory(p31Labels: string[]): boolean {
   return p31Labels.some((l) => NOT_A_STORY.includes(l.toLowerCase()));
+}
+
+/**
+ * Pages people read every year or out of curiosity: holidays, festivals, web domains, terms.
+ * They make a story only when the day's news reports something about them (Guy Fawkes Night,
+ * Day of the Dead, ".xyz" and "Red states and blue states" all made editions on readers alone).
+ */
+const EVERGREEN = [
+  "holiday",
+  "observance",
+  "festival",
+  "top-level domain",
+  "term",
+  "concept",
+  "internet meme",
+];
+
+export function isEvergreen(p31Labels: string[]): boolean {
+  return p31Labels.some((label) => EVERGREEN.some((w) => matches(label, w)));
+}
+
+/** Lenses for events (things that happen), as opposed to things, people and places. */
+export const EVENT_LENSES: ReadonlySet<Lens> = new Set([
+  "election",
+  "conflict",
+  "accident",
+  "disaster",
+  "sports",
+]);
+
+/** Sports pages that are events (a race, a final), not clubs, leagues or players. */
+const SPORTS_EVENTS = [
+  "sporting event",
+  "horse race",
+  "tournament",
+  "championship",
+  "grand prix",
+  "match",
+  "cup final",
+  "olympic",
+  "season of",
+];
+
+/** Is this page an event? Clubs and leagues share the sports lens but are things, not events. */
+export function isEventPage(p31Labels: string[]): boolean {
+  const lens = lensFromTypes(p31Labels);
+  if (!lens || !EVENT_LENSES.has(lens)) return false;
+  return (
+    lens !== "sports" || p31Labels.some((label) => SPORTS_EVENTS.some((w) => matches(label, w)))
+  );
 }
 
 function matches(label: string, word: string): boolean {

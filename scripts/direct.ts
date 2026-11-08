@@ -25,6 +25,7 @@ import {
   SYSTEM,
   storyPrompt,
 } from "./director/claude.ts";
+import { report } from "./report.ts";
 
 const args = process.argv.slice(2);
 const flags = new Set(args.filter((a) => a.startsWith("--")).map((a) => a.split("=")[0]));
@@ -39,7 +40,10 @@ try {
   // No .env: the environment may still hold the key; if not, the template stays.
 }
 const ai = flags.has("--ai") && Boolean(process.env.ANTHROPIC_API_KEY);
-if (flags.has("--ai") && !ai) console.log("No ANTHROPIC_API_KEY: template captions kept.");
+if (flags.has("--ai") && !ai) {
+  console.log("No ANTHROPIC_API_KEY: template captions kept.");
+  report(`- Narration ${date}: no API key, every film keeps its template narration`);
+}
 if (!ai) {
   console.log("Template mode: nothing to do (run with --ai to direct with Claude).");
   process.exit(0);
@@ -49,9 +53,14 @@ const client = new Anthropic();
 const edition = Edition.parse(await readJson(join(dir, "edition.json")));
 const filmed = new Set(await readdir(join(dir, "stories")));
 let spent = 0;
+let keyRejected = false;
 let directed = 0;
 for (const story of edition.stories) {
   if ((only && story.slug !== only) || !filmed.has(story.slug)) continue;
+  if (keyRejected) {
+    console.log(`· ${story.slug}: API key rejected earlier this run, template kept`);
+    continue;
+  }
   if (spent >= maxUsd) {
     console.log(`· ${story.slug}: ceiling $${maxUsd} reached, template kept`);
     continue;
@@ -112,7 +121,13 @@ for (const story of edition.stories) {
         content: `These chapters broke the rules; fix only them and return the full JSON again:\n${failures.join("\n")}`,
       });
     } catch (err) {
-      // Expired key, rate limit, network: the template stays (CLAUDE.md §3.4).
+      // Expired key, rate limit, network: the template stays (CLAUDE.md §3.4). A rejected key
+      // (401/403) won't recover this run, so the remaining films skip Claude straight away.
+      if (
+        err instanceof Anthropic.AuthenticationError ||
+        err instanceof Anthropic.PermissionDeniedError
+      )
+        keyRejected = true;
       const status = err instanceof Anthropic.APIError ? ` (${err.status})` : "";
       console.log(`· ${story.slug}: Claude unavailable${status}, template kept`);
       break;
@@ -153,4 +168,9 @@ for (const story of edition.stories) {
 }
 console.log(
   `\n${directed} films directed by ${MODEL}; total $${spent.toFixed(4)} (ceiling $${maxUsd}).`,
+);
+report(
+  keyRejected
+    ? `- Narration ${date}: **the API key was rejected (expired or invalid)**; films keep their template narration. Renew the ANTHROPIC_API_KEY secret.`
+    : `- Narration ${date}: ${directed} films directed by ${MODEL}, $${spent.toFixed(4)} (ceiling $${maxUsd})`,
 );
