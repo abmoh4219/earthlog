@@ -6,12 +6,12 @@
 import { join } from "node:path";
 import { z } from "zod";
 import { type Cluster, type Headline, NowFile } from "../src/scene/headlines.ts";
+import { heatOf, normalise } from "../src/scene/hot.ts";
 import { OUTLETS } from "../src/scene/outlets.ts";
 import { Country } from "../src/scene/schema.ts";
 import { ROOT, readJson, USER_AGENT, writeJson } from "./bake/lib.ts";
 import { clusterHeadlines } from "./news/cluster.ts";
 import { parseFeed } from "./news/feeds.ts";
-import { heatOf, normalise } from "./news/hot.ts";
 import { type Gazetteer, makePlacer } from "./news/place.ts";
 import { topicOf } from "./news/topic.ts";
 import { report } from "./report.ts";

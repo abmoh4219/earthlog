@@ -6,6 +6,7 @@ import { join } from "node:path";
 import { z } from "zod";
 import type { SceneBundle } from "@/player/store";
 import { Edition } from "@/scene/edition";
+import { NowFile } from "@/scene/headlines";
 import { Evidence, LayerData, Scene, SceneIndexEntry, Source } from "@/scene/schema";
 
 const PUBLIC = join(process.cwd(), "public");
@@ -65,4 +66,12 @@ export async function listStoryFilms(date: string): Promise<string[]> {
 
 export function loadStoryBundle(date: string, slug: string): Promise<SceneBundle> {
   return loadBundleAt(join(EDITIONS_DIR, date, "stories", slug));
+}
+
+/** The outlets' headlines of the last 72 hours (pnpm news), if collected. */
+export async function loadNow(): Promise<NowFile | undefined> {
+  const parsed = NowFile.safeParse(
+    await readJson(join(PUBLIC, "now", "now.json")).catch(() => null),
+  );
+  return parsed.success ? parsed.data : undefined;
 }

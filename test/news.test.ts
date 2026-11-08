@@ -3,11 +3,11 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
 import { clusterHeadlines, tokensOf } from "../scripts/news/cluster";
-import { BREAKING_OUTLETS, heatOf, normalise } from "../scripts/news/hot";
 import { type Gazetteer, makePlacer } from "../scripts/news/place";
 import { stem, words } from "../scripts/news/text";
 import { topicOf } from "../scripts/news/topic";
 import { Headline } from "../src/scene/headlines";
+import { BREAKING_OUTLETS, heatOf, normalise } from "../src/scene/hot";
 import { Country } from "../src/scene/schema";
 
 const root = join(__dirname, "..");

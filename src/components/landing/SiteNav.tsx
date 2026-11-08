@@ -4,6 +4,7 @@ import { GithubMark } from "./GithubMark";
 import { LogoMark } from "./LogoMark";
 
 const LINKS = [
+  { href: "/now", label: "Now" },
   { href: "/#archive", label: "Archive" },
   { href: "/#lenses", label: "Lenses" },
   { href: "/#how", label: "How it works" },

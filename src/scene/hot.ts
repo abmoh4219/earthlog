@@ -2,7 +2,7 @@
 // Heat rewards breadth (how many outlets), freshness (outlets in the last three hours) and
 // fades with time since the last report. Breaking is strict on purpose: a story first seen in
 // the last two hours that at least three outlets reported within that window.
-import type { Headline } from "../../src/scene/headlines.ts";
+import type { Headline } from "./headlines.ts";
 
 const HOUR = 3_600_000;
 export const BREAKING_WINDOW_H = 2;

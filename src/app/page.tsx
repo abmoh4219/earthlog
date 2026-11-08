@@ -11,10 +11,14 @@ import {
   listStoryFilms,
   loadEdition,
   loadIndex,
+  loadNow,
   loadStoryBundle,
 } from "@/lib/bundles";
 import { type EditionStory, LENS_INFO, type Lens } from "@/scene/edition";
+import { ago, blindSpot, storiesIn } from "@/scene/now";
+import { outletById } from "@/scene/outlets";
 import type { Evidence, Source } from "@/scene/schema";
+import { TOPIC_LABEL } from "@/scene/topics";
 
 const day = (date: string, opts: Intl.DateTimeFormatOptions) =>
   new Date(`${date}T00:00:00Z`).toLocaleDateString("en-GB", { ...opts, timeZone: "UTC" });
@@ -236,6 +240,10 @@ export default async function Landing() {
   );
   const stories = edition?.stories ?? [];
   const proof = latest ? await findProof(latest, stories, films) : undefined;
+  // What the outlets are reporting, as of the last collection before this build.
+  const nowFile = await loadNow();
+  const nowAt = nowFile ? Date.parse(nowFile.generatedAt) : 0;
+  const happening = nowFile ? storiesIn(nowFile, "24h", nowAt).slice(0, 4) : [];
   const href = (slug: string) =>
     latest && films.has(slug) ? `/story/${latest}/${slug}` : `/edition/${latest}`;
   const globeStories = stories.flatMap((s) =>
@@ -340,6 +348,54 @@ export default async function Landing() {
           </div>
         )}
       </section>
+
+      {/* Now: the outlets' stories of the last hours, as the latest collection grouped them. */}
+      {nowFile && happening.length > 0 && (
+        <section className="border-t border-moon/8">
+          <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 lg:py-24">
+            <div className="flex flex-wrap items-end justify-between gap-6">
+              <Heading title="Happening now.">
+                While yesterday becomes films, the news keeps coming. {nowFile.outlets.length}{" "}
+                outlets, grouped into stories every three hours.
+              </Heading>
+              <Link
+                href="/now"
+                className="group inline-flex items-center gap-2 text-sm text-dust/70 transition-colors hover:text-moon"
+              >
+                Open the live globe
+                <ArrowRight
+                  size={15}
+                  className="transition-transform group-hover:translate-x-0.5"
+                />
+              </Link>
+            </div>
+            <ol className="mt-12 grid gap-x-10 border-t border-moon/8 sm:grid-cols-2">
+              {happening.map((s) => {
+                const spot = blindSpot(s.outlets);
+                return (
+                  <li key={s.cluster.id} className="border-b border-moon/8">
+                    <Link href="/now" className="group block py-5">
+                      <span className="flex flex-wrap gap-x-2 text-xs text-dust/50">
+                        {s.breaking && <span className="font-medium text-sodium">Breaking</span>}
+                        <span>{TOPIC_LABEL[s.cluster.topic]}</span>
+                        {s.cluster.place && <span>· {s.cluster.place.name}</span>}
+                        <span>· {ago(s.headlines[0]?.t ?? nowFile.generatedAt, nowAt)}</span>
+                      </span>
+                      <span className="mt-1.5 block font-serif text-xl leading-snug text-moon group-hover:underline group-hover:decoration-moon/30 group-hover:underline-offset-4">
+                        {s.cluster.title}
+                      </span>
+                      <span className="mt-1.5 block text-xs text-dust/45">
+                        {s.outlets.map((o) => outletById(o)?.name ?? o).join(", ")}
+                        {spot && ` · only outlets based in ${spot}`}
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        </section>
+      )}
 
       {/* Proof: a real line from today's films, and the report it cites. */}
       {proof && latest && (

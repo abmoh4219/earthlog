@@ -401,7 +401,7 @@ From 2 to 6 November, the same stories filled most editions: the 2026 US electio
 
 - The site is the dark side of the planet. Tokens in `src/app/globals.css`: `void` (background), `night` (raised bands), `moon` (text), `dust` (secondary text and hairlines), `sodium` (the amber of city lights: the one accent, used once or twice per screen). The colours that carry meaning in films (loss, energy, attention, lens colours) are unchanged.
 - Headlines in Newsreader (OFL, self-hosted at build by `next/font`, no new dependency); text stays Geist.
-- The landing globe is lit by the real sun at the moment of the visit (`src/globe/sun.ts`, tested), faces the dawn line so both the night side and the sunrise are always in view, and shows city lights from NASA Black Marble, labelled as a 2016 composite, never as last night.
+- The landing globe is lit by the real sun at the moment of the visit (`src/globe/sun.ts`, tested), faces a day/night line (sunrise or sunset, whichever is nearer the day's stories) so night and daylight are always both in view, and shows city lights from NASA Black Marble, labelled as a 2016 composite, never as last night.
 - The landing shows proof instead of claiming it: a real line from one of the day's films with the report it cites and the outlets behind it, picked at build time.
 - No eyebrow labels over sections, no glows or breathing animations, no icon feature grids; story markers are flat amber points.
 
@@ -430,3 +430,22 @@ Wikipedia alone was one source: slower than the news and missing whole regions. 
 ### Tested on
 
 196 real headlines recorded from the eight feeds on 8 November 2026: the Krakow shooting is one story from six outlets (Al Jazeera's headline joins without naming Krakow) placed in Kraków; the Egypt train crash one story from four outlets despite different tolls; unrelated stories that share a country or a theme stay apart; the Kenyan cult leader's sentencing on 6 November matches BBC and AllAfrica.
+
+---
+
+## ADR-0018: "Now": the outlets' stories, live while the page is open
+
+- **Date:** 2026-11-08
+- **Status:** Accepted
+
+### Decision
+
+- `/now` shows the outlets' stories (ADR-0017) on a globe lit by the real sun, as amber points sized by heat, with a list beside it: last hour, 3 hours, 24 hours; topic filters; "Breaking"; "only outlets based in Europe" when every outlet that reported a story is based in one region; each headline opens the outlet's own article, and each placed story says why it is placed where it is.
+- The page is rendered at build time (complete without JavaScript) and stays fresh while open: it re-reads `/now/now.json` every 10 minutes and when the tab becomes visible again, and re-ranks every minute. Ranking and "breaking" are computed at the moment of viewing (`src/scene/now.ts`), never frozen at collection time.
+- It says when the headlines were collected and when the next collection is due (every three hours, `.github/workflows/news.yml`), so an empty "last hour" is explained, not hidden.
+- The landing gains "Happening now": the four hottest stories of the last 24 hours as of the build.
+- No AI on this page for now: the headlines speak for themselves, credited to their outlets. A short summary of the hottest stories by Claude (cached, capped) stays possible later.
+
+### Why
+
+The editions explain yesterday; readers also want to know what is happening. Collecting every three hours keeps the free plans comfortable (8 deploys a day of Vercel Hobby's 100) and the repository's growth small; hourly collection waits for the data to live outside the main repository.

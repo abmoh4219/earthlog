@@ -20,6 +20,8 @@ export interface FrontStory {
 export interface FrontGlobe {
   /** Fly to a story (or back to the whole edition with undefined). */
   focus: (slug: string | undefined) => void;
+  /** Replace the stories shown (the Now page refreshes while open). */
+  update: (stories: FrontStory[]) => void;
   destroy: () => void;
 }
 
@@ -35,9 +37,11 @@ export async function createFrontGlobe(
   /**
    * zoom: wheel zooms the globe (off in a scrolling page, where the wheel must scroll).
    * hero: a floating globe for a page (no stars, closer, no names).
-   * night: lit by the real sun at this moment, city lights on the night side, amber points.
+   * night: lit by the real sun at this moment, city lights on the night side, amber points
+   * sized by heat. face: where the camera settles: the dawn line (default at night) or the
+   * stories' centre.
    */
-  options: { zoom?: boolean; hero?: boolean; night?: boolean } = {},
+  options: { zoom?: boolean; hero?: boolean; night?: boolean; face?: "dawn" | "stories" } = {},
 ): Promise<FrontGlobe> {
   window.CESIUM_BASE_URL = "/cesium/";
   const C = await import("cesium");
@@ -99,43 +103,65 @@ export async function createFrontGlobe(
   const lines = s.primitives.add(new C.PolylineCollection());
   const points = s.primitives.add(new C.PointPrimitiveCollection());
   const labels = s.primitives.add(new C.LabelCollection());
-  const maxHeat = Math.max(1, ...stories.map((st) => st.heat));
-  const ranked = [...stories].sort((a, b) => b.heat - a.heat).map((st) => st.slug);
-  const marks = stories.map((st) => {
-    const color = C.Color.fromCssColorString(options.night ? SODIUM : st.color);
-    const h = 250_000 + (Math.log1p(st.heat) / Math.log1p(maxHeat)) * 1_650_000;
-    const line = lines.add({
-      id: st.slug,
-      positions: [
-        C.Cartesian3.fromDegrees(st.lon, st.lat, 0),
-        C.Cartesian3.fromDegrees(st.lon, st.lat, h),
-      ],
-      width: 1.5,
-      show: !options.night,
-      material: C.Material.fromType("Color", { color: color.withAlpha(0.8) }),
+  type Mark = {
+    st: FrontStory;
+    color: CesiumNS.Color;
+    line: CesiumNS.Polyline;
+    dot: CesiumNS.PointPrimitive;
+    label: CesiumNS.Label;
+    size: number;
+    tint: CesiumNS.Color;
+  };
+  let marks: Mark[] = [];
+  let ranked: string[] = [];
+  // Names of the three hottest by day; at night (many small points) only the chosen one's.
+  const nameShown = (slug: string) =>
+    !options.hero && !options.night && container.clientWidth >= 640 && ranked.indexOf(slug) < 3;
+  const build = (list: FrontStory[]) => {
+    lines.removeAll();
+    points.removeAll();
+    labels.removeAll();
+    const maxHeat = Math.max(1, ...list.map((st) => st.heat));
+    ranked = [...list].sort((a, b) => b.heat - a.heat).map((st) => st.slug);
+    marks = list.map((st) => {
+      const color = C.Color.fromCssColorString(options.night ? SODIUM : st.color);
+      const h = 250_000 + (Math.log1p(st.heat) / Math.log1p(maxHeat)) * 1_650_000;
+      // At night the heat is the point's size (the columns are off): 5 to 13 px.
+      const size = options.night ? 5 + 8 * (st.heat / maxHeat) : 8;
+      const line = lines.add({
+        id: st.slug,
+        positions: [
+          C.Cartesian3.fromDegrees(st.lon, st.lat, 0),
+          C.Cartesian3.fromDegrees(st.lon, st.lat, h),
+        ],
+        width: 1.5,
+        show: !options.night,
+        material: C.Material.fromType("Color", { color: color.withAlpha(0.8) }),
+      });
+      const dot = points.add({
+        id: st.slug,
+        position: C.Cartesian3.fromDegrees(st.lon, st.lat, 8_000),
+        pixelSize: size,
+        color,
+        outlineColor: C.Color.BLACK.withAlpha(0.7),
+        outlineWidth: 2,
+      });
+      const label = labels.add({
+        position: C.Cartesian3.fromDegrees(st.lon, st.lat, options.night ? 120_000 : h + 60_000),
+        text: st.title.length > 46 ? `${st.title.slice(0, 44)}…` : st.title,
+        font: "500 13px Geist, system-ui, sans-serif",
+        fillColor: C.Color.WHITE,
+        outlineColor: C.Color.BLACK.withAlpha(0.9),
+        outlineWidth: 3,
+        style: C.LabelStyle.FILL_AND_OUTLINE,
+        verticalOrigin: C.VerticalOrigin.BOTTOM,
+        // Narrow screens: names only on focus (three would pile up on a small globe).
+        show: nameShown(st.slug),
+      });
+      return { st, color, line, dot, label, size, tint: new C.Color() };
     });
-    const dot = points.add({
-      id: st.slug,
-      position: C.Cartesian3.fromDegrees(st.lon, st.lat, 8_000),
-      pixelSize: options.night ? 7 : 8,
-      color,
-      outlineColor: C.Color.BLACK.withAlpha(0.7),
-      outlineWidth: 2,
-    });
-    const label = labels.add({
-      position: C.Cartesian3.fromDegrees(st.lon, st.lat, h + 60_000),
-      text: st.title.length > 46 ? `${st.title.slice(0, 44)}…` : st.title,
-      font: "600 13px Geist, system-ui, sans-serif",
-      fillColor: C.Color.WHITE,
-      outlineColor: C.Color.BLACK.withAlpha(0.9),
-      outlineWidth: 3,
-      style: C.LabelStyle.FILL_AND_OUTLINE,
-      verticalOrigin: C.VerticalOrigin.BOTTOM,
-      // Narrow screens: names only on focus (three would pile up on a small globe).
-      show: !options.hero && container.clientWidth >= 640 && ranked.indexOf(st.slug) < 3,
-    });
-    return { st, color, line, dot, label, tint: new C.Color() };
-  });
+  };
+  build(stories);
 
   // The intro: from deep space down onto the edition's centre of gravity.
   let x = 0;
@@ -150,16 +176,24 @@ export async function createFrontGlobe(
     lon: stories.length ? Math.atan2(y, x) / DEG : 10,
     lat: stories.length ? Math.max(-30, Math.min(40, Math.atan2(z, Math.hypot(x, y)) / DEG)) : 20,
   };
-  // Night hero: face the dawn line (90° west of where the sun is overhead), a little into the
-  // day, so the visitor always sees both the night side and the sunrise, whatever the hour.
-  if (options.night) {
-    home.lon = subsolarPoint(new Date()).lon - 75;
+  // Night hero: face a day/night line (90° from where the sun is overhead), 15° into the day,
+  // so the visitor always sees both night and daylight: the sunrise line or the sunset line,
+  // whichever is nearer the day's stories (at 18:00 UTC sunrise is over the empty Pacific and
+  // sunset over Europe and Africa).
+  if (options.night && options.face !== "stories") {
+    const sun = subsolarPoint(new Date()).lon;
+    const gap = (a: number) => Math.abs(((a - home.lon + 540) % 360) - 180);
+    const dawn = sun - 75;
+    const dusk = sun + 75;
+    home.lon = gap(dawn) <= gap(dusk) ? dawn : dusk;
     home.lat = 18;
   }
+  // How far the camera settles: closer for a page's hero and for the Now panel.
+  const homeRange = options.hero ? 1.15e7 : options.night ? 1.6e7 : 2.3e7;
   s.camera.setView({ destination: C.Cartesian3.fromDegrees(home.lon + 70, home.lat, 9e7) });
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   s.camera.flyTo({
-    destination: C.Cartesian3.fromDegrees(home.lon, home.lat - 6, options.hero ? 1.15e7 : 2.3e7),
+    destination: C.Cartesian3.fromDegrees(home.lon, home.lat - 6, homeRange),
     duration: reduce ? 0 : 4.5,
     easingFunction: C.EasingFunction.QUINTIC_OUT,
   });
@@ -192,9 +226,10 @@ export async function createFrontGlobe(
       s.camera.rotate(C.Cartesian3.UNIT_Z, options.night ? 0.00015 : 0.00045);
     for (const m of marks) {
       const on = focused === m.st.slug;
+      if (options.night) m.label.show = on;
       m.line.width = on ? 3 : 1.5;
       m.line.material.uniforms.color = m.color.withAlpha(on ? 1 : focused ? 0.3 : 0.8, m.tint);
-      m.dot.pixelSize = on ? 12 : options.night ? 7 : 8;
+      m.dot.pixelSize = on ? m.size + 5 : m.size;
       if (focused) m.label.show = on;
     }
   });
@@ -203,19 +238,22 @@ export async function createFrontGlobe(
     focus: (slug) => {
       focused = slug;
       const m = marks.find((k) => k.st.slug === slug);
-      if (!slug)
-        for (const k of marks)
-          k.label.show =
-            !options.hero && container.clientWidth >= 640 && ranked.indexOf(k.st.slug) < 3;
+      if (!slug) for (const k of marks) k.label.show = nameShown(k.st.slug);
+      // By day a chosen story is seen at an angle (its column stands up); at night from above.
+      const tilt = m && !options.night;
       const target = m
-        ? C.Cartesian3.fromDegrees(m.st.lon, m.st.lat - 14, 9e6)
-        : C.Cartesian3.fromDegrees(home.lon, home.lat - 6, 2.3e7);
+        ? C.Cartesian3.fromDegrees(m.st.lon, tilt ? m.st.lat - 14 : m.st.lat, tilt ? 9e6 : 8e6)
+        : C.Cartesian3.fromDegrees(home.lon, home.lat - 6, homeRange);
       s.camera.flyTo({
         destination: target,
-        orientation: { heading: 0, pitch: (m ? -62 : -90) * DEG, roll: 0 },
+        orientation: { heading: 0, pitch: (tilt ? -62 : -90) * DEG, roll: 0 },
         duration: reduce ? 0 : 2.2,
         easingFunction: C.EasingFunction.QUADRATIC_IN_OUT,
       });
+    },
+    update: (list) => {
+      build(list);
+      if (focused && !marks.some((k) => k.st.slug === focused)) focused = undefined;
     },
     destroy: () => {
       remove();
