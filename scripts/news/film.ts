@@ -1,44 +1,45 @@
-// A short film for a "Now" story (ADR-0020): what the outlets reported, where, and the
-// background, every caption cited, no AI. Pure. Built in story time like edition films; the
-// film's day is the day of its latest headline, and only that day's headlines are quoted
-// (cited at day precision, the exact time kept in the label), so every citation falls in the
-// film's window.
-import type { EditionStory } from "../../src/scene/edition.ts";
+// Films for the stories of "Now" (ADR-0020), every caption cited, no AI.
+// - A story whose headlines name a Wikipedia article (ADR-0019) is filmed by the lens of that
+//   article's kind, typed through Wikidata like an edition story: a person's life, a conflict's
+//   week and figures, a company's numbers, an accident site; it opens on the news itself.
+// - Otherwise a short film: the news as reported, where, each outlet's headline, the sources.
+// Built in story time like edition films. The film's day is the day of its latest headline;
+// only that day's headlines are quoted, cited at day precision with the exact time in the label.
+import { type EditionStory, LENS_INFO, type Lens } from "../../src/scene/edition.ts";
 import type { Cluster, Headline } from "../../src/scene/headlines.ts";
 import { outletById } from "../../src/scene/outlets.ts";
-import type { Evidence, Scene, Source } from "../../src/scene/schema.ts";
-import { TOPIC_LABEL } from "../../src/scene/topics.ts";
+import type { Country, Evidence, LayerData, Scene, Source } from "../../src/scene/schema.ts";
+import { TOPIC_LABEL, type Topic } from "../../src/scene/topics.ts";
+import { lensFromTypes } from "../edition/lens.ts";
+import { fetchEntities, fetchQids } from "../edition/sources.ts";
 import { buildFilm, type ChapterDraft } from "../lenses/film.ts";
+import { LENS_FILMS } from "../lenses/index.ts";
 
 export interface NowFilm {
   scene: Scene;
   evidence: Evidence[];
   sources: Source[];
+  layers: LayerData[];
 }
 
 const name = (id: string) => outletById(id)?.name ?? id;
 const list = (xs: string[]) =>
   xs.length <= 1 ? (xs[0] ?? "") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`;
 
-export function buildNowFilm(
-  cluster: Cluster,
-  byId: Map<string, Headline>,
-  at: string,
-): NowFilm | undefined {
+/** The day's headlines of a story (first per outlet), cited as evidence of that day. */
+export function dayReports(cluster: Cluster, byId: Map<string, Headline>, at: string) {
   const all = cluster.headlines.flatMap((id) => byId.get(id) ?? []);
   const date = cluster.last.slice(0, 10);
   const dayStart = `${date}T00:00:00Z`;
-  // That day's headlines, the first of each outlet.
   const firstOf = new Map<string, Headline>();
   for (const h of [...all]
     .filter((x) => x.t.startsWith(date))
     .sort((a, b) => a.t.localeCompare(b.t)))
     if (!firstOf.has(h.outlet)) firstOf.set(h.outlet, h);
   const day = [...firstOf.values()];
-  if (day.length < 2) return undefined;
-
+  const idOf = (h: Headline) => `news:${h.outlet}:${h.id}`;
   const evidence: Evidence[] = day.map((h) => ({
-    id: `news:${h.outlet}:${h.id}`,
+    id: idOf(h),
     kind: "report",
     source: `outlet:${h.outlet}`,
     t: dayStart,
@@ -47,7 +48,6 @@ export function buildNowFilm(
     url: h.url,
     quote: h.title,
   }));
-  const ids = evidence.map((e) => e.id);
   const sources: Source[] = day.map((h) => ({
     id: `outlet:${h.outlet}`,
     name: name(h.outlet),
@@ -56,7 +56,123 @@ export function buildNowFilm(
     attribution: name(h.outlet),
     retrievedAt: at,
   }));
+  const coverage = day.map((h) => ({
+    outlet: h.outlet,
+    title: h.title,
+    url: h.url,
+    t: h.t,
+    evidence: idOf(h),
+  }));
+  return { all, date, dayStart, day, evidence, sources, coverage, idOf };
+}
 
+/**
+ * The news itself as one outlet reported it: "Russian strikes on Ukraine leave hundreds of
+ * thousands without electricity, Al Jazeera reports." Questions are never the lead, and a
+ * short label before a colon ("Ukraine: …", "Middle East live: …") is dropped.
+ */
+export function leadLine(
+  day: Headline[],
+  preferred?: string,
+): { text: string; headline: Headline } | undefined {
+  const usable = day.filter((h) => !/\?\s*$/.test(h.title));
+  const h = usable.find((x) => x.title === preferred) ?? usable[0];
+  if (!h) return undefined;
+  const statement = h.title
+    .replace(/^[^:]{2,32}:\s+(?=\S)/, (m) => (m.split(/\s+/).length <= 5 ? "" : m))
+    .replace(/[.!…\s]+$/, "");
+  return { text: `${statement}, ${name(h.outlet)} reports.`, headline: h };
+}
+
+/** The lens a topic implies when no article says more. */
+const TOPIC_LENS: Partial<Record<Topic, Lens>> = { conflict: "conflict" };
+
+/** A film by the lens of the article the headlines name; undefined if that can't be made. */
+export async function buildLensFilm(
+  cluster: Cluster,
+  byId: Map<string, Headline>,
+  countries: Country[],
+  at: string,
+): Promise<NowFilm | undefined> {
+  const context = cluster.context;
+  if (!context) return undefined;
+  const r = dayReports(cluster, byId, at);
+  if (!r.day.length) return undefined;
+  const qid = (await fetchQids([context.title])).get(context.title);
+  const entities = qid ? await fetchEntities([qid]) : new Map();
+  const typeIds: string[] = qid ? (entities.get(qid)?.items.P31 ?? []) : [];
+  const typeEntities = typeIds.length ? await fetchEntities(typeIds) : new Map();
+  const labels = typeIds.map((t) => typeEntities.get(t)?.label ?? t);
+  const lens: Lens = lensFromTypes(labels) ?? TOPIC_LENS[cluster.topic] ?? "general";
+  const lead = leadLine(r.day, cluster.title);
+  const place = cluster.place;
+  const story = {
+    slug: cluster.id,
+    lens,
+    title: context.title,
+    summary: lead?.headline.title ?? cluster.title,
+    about: context.text,
+    article: {
+      title: context.title,
+      url: `https://en.wikipedia.org/wiki/${encodeURIComponent(context.title.replace(/ /g, "_"))}`,
+      ...(qid ? { qid } : {}),
+    },
+    ...(place
+      ? {
+          place: {
+            name: place.name,
+            lon: place.lon,
+            lat: place.lat,
+            ...(place.country ? { country: place.country } : {}),
+          },
+        }
+      : {}),
+    heat: cluster.heat,
+    sources: r.day.length,
+    related: [],
+    evidence: r.evidence.map((e) => e.id),
+    coverage: r.coverage,
+  } satisfies EditionStory;
+  const film = await LENS_FILMS[lens]({
+    date: r.date,
+    story,
+    evidence: r.evidence,
+    news: [],
+    countries,
+    at,
+    ...(lead ? { lead: { text: lead.text, cites: [r.idOf(lead.headline)] } } : {}),
+  });
+  // The outlets' headlines and credits travel with the film, as in edition films, and the
+  // closing line names them with the rest.
+  for (const e of r.evidence) if (!film.evidence.some((x) => x.id === e.id)) film.evidence.push(e);
+  for (const s of r.sources) if (!film.sources.some((x) => x.id === s.id)) film.sources.push(s);
+  const outletNames = list(r.day.map((h) => name(h.outlet)));
+  film.scene.beats = film.scene.beats.map((b) =>
+    b.text.startsWith("Sources: ")
+      ? { ...b, text: b.text.replace(/^Sources: /, `Sources: ${outletNames}, `) }
+      : b,
+  );
+  const dayLabel = film.scene.subtitle.split(" · ").at(-1) ?? r.date;
+  return {
+    ...film,
+    scene: {
+      ...film.scene,
+      id: `now-${cluster.id}`,
+      subtitle: `${LENS_INFO[lens].label} · Now · ${dayLabel}`,
+    },
+  };
+}
+
+/** The short film of a story no article explains (or when the lens can't film it). */
+export function buildNowFilm(
+  cluster: Cluster,
+  byId: Map<string, Headline>,
+  at: string,
+): NowFilm | undefined {
+  const r = dayReports(cluster, byId, at);
+  if (r.day.length < 2) return undefined;
+  const { evidence, sources } = r;
+  const ids = evidence.map((e) => e.id);
   const context = cluster.context;
   const contextId = context ? `wiki:context:${cluster.id}` : undefined;
   if (context && contextId) {
@@ -64,7 +180,7 @@ export function buildNowFilm(
       id: contextId,
       kind: "report",
       source: "wikipedia-article",
-      t: dayStart,
+      t: r.dayStart,
       precision: "day",
       label: `Wikipedia: ${context.title}`,
       url: context.url,
@@ -84,22 +200,25 @@ export function buildNowFilm(
   const home = place
     ? { lon: place.lon, lat: place.lat, range: place.basis === "country" ? 4.5e6 : 1.6e6 }
     : { lon: 10, lat: 25, range: 2.2e7 };
-  const outlets = day.map((h) => name(h.outlet));
+  const lead = leadLine(r.day, cluster.title);
+  const others = r.day.filter((h) => h !== lead?.headline).map((h) => name(h.outlet));
+  const opening: ChapterDraft["beats"] = [];
+  if (lead) opening.push({ text: lead.text, cites: [r.idOf(lead.headline)] });
+  if (others.length)
+    opening.push({
+      text: `Also reported by ${list(others)}.`,
+      cites: r.day.filter((h) => h !== lead?.headline).map(r.idOf),
+    });
   const chapters: ChapterDraft[] = [
     {
-      title: "What was reported",
-      seconds: 10,
+      title: "What happened",
+      seconds: 4 + opening.length * 6,
       shot: { ...home, range: home.range * 1.4, pitch: -60 },
-      beats: [
-        {
-          text: `${day.length} outlets reported this on ${new Date(dayStart).toLocaleDateString("en-GB", { day: "numeric", month: "long", timeZone: "UTC" })}: ${list(outlets)}.`,
-          cites: ids,
-        },
-      ],
+      beats: opening,
     },
   ];
   if (place) {
-    const naming = day.filter((h) => h.title.includes(place.name.split(",")[0] ?? place.name));
+    const naming = r.day.filter((h) => h.title.includes(place.name.split(",")[0] ?? place.name));
     chapters.push({
       title: "Where",
       seconds: 8,
@@ -107,7 +226,7 @@ export function buildNowFilm(
       beats: [
         {
           text: `On the map: ${place.name}, ${place.basis === "country" ? "the country" : "the place"} the headlines name.`,
-          cites: (naming.length ? naming : day).map((h) => `news:${h.outlet}:${h.id}`),
+          cites: (naming.length ? naming : r.day).map(r.idOf),
         },
       ],
     });
@@ -126,42 +245,36 @@ export function buildNowFilm(
     shot: { ...home, range: home.range * 2.4, pitch: -70 },
     beats: [
       {
-        text: `Sources: ${list([...outlets, ...(context ? ["Wikipedia"] : [])])}. Every caption links to the evidence it rests on.`,
+        text: `Sources: ${list([...r.day.map((h) => name(h.outlet)), ...(context ? ["Wikipedia"] : [])])}. Every caption links to the evidence it rests on.`,
         cites: [...ids, ...(contextId ? [contextId] : [])],
       },
     ],
   });
 
-  // The film reads its story like an edition story; "In the news" quotes each outlet.
   const story = {
     slug: cluster.id,
     lens: "general",
     title: context?.title ?? cluster.title,
     summary: cluster.title,
     heat: cluster.heat,
-    sources: day.length,
+    sources: r.day.length,
     related: [],
     evidence: ids,
     ...(place ? { place: { name: place.name, lon: place.lon, lat: place.lat } } : {}),
-    coverage: day.map((h) => ({
-      outlet: h.outlet,
-      title: h.title,
-      url: h.url,
-      t: h.t,
-      evidence: `news:${h.outlet}:${h.id}`,
-    })),
+    coverage: r.coverage,
   } satisfies EditionStory;
-  const scene = buildFilm({ date, story, chapters, layers: [], at });
+  const scene = buildFilm({ date: r.date, story, chapters, layers: [], at });
   // A title that is one outlet's headline says whose it is.
-  const lead = context ? undefined : all.find((h) => h.title === cluster.title);
-  const dayLabel = scene.subtitle.split(" · ").at(-1) ?? date;
+  const titleFrom = context ? undefined : r.all.find((h) => h.title === cluster.title);
+  const dayLabel = scene.subtitle.split(" · ").at(-1) ?? r.date;
   return {
     scene: {
       ...scene,
       id: `now-${cluster.id}`,
-      subtitle: `${TOPIC_LABEL[cluster.topic]} · Now · ${dayLabel}${lead ? ` · headline from ${name(lead.outlet)}` : ""}`,
+      subtitle: `${TOPIC_LABEL[cluster.topic]} · Now · ${dayLabel}${titleFrom ? ` · headline from ${name(titleFrom.outlet)}` : ""}`,
     },
     evidence,
     sources,
+    layers: [],
   };
 }

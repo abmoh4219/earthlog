@@ -25,6 +25,11 @@ export interface LensContext {
   news: RawStory[];
   countries: Country[];
   at: string;
+  /**
+   * A first caption given by the caller: for a film of "Now", the news itself as an outlet
+   * reported it ("…, Al Jazeera reports."), cited to that headline (ADR-0020).
+   */
+  lead?: { text: string; cites: string[] };
 }
 
 /**
@@ -252,7 +257,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
       url: `https://en.wikipedia.org/w/index.php?title=${encodeURIComponent(rev.title.replace(/ /g, "_"))}&oldid=${rev.revid}`,
     });
   };
-  const opening: ChapterDraft["beats"] = [];
+  const opening: ChapterDraft["beats"] = ctx.lead ? [ctx.lead] : [];
   // An article about the event itself ("On November 1, 2026, a … jet crashed …") opens with
   // that event; later developments follow.
   const eventFirst =

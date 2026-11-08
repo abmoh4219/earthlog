@@ -7,7 +7,7 @@ import { z } from "zod";
 import { Player } from "@/components/player/Player";
 import { NOW_DATA_BASE } from "@/config";
 import type { SceneBundle } from "@/player/store";
-import { Evidence, Scene, Source } from "@/scene/schema";
+import { Evidence, LayerData, Scene, Source } from "@/scene/schema";
 
 /** One film from the hourly data: the now-data branch first, else the deployed copy. */
 async function loadFilm(id: string): Promise<SceneBundle | undefined> {
@@ -23,11 +23,16 @@ async function loadFilm(id: string): Promise<SceneBundle | undefined> {
         get("evidence.json"),
         get("sources.json"),
       ]);
+      const parsed = Scene.parse(scene);
+      // Lens films carry map and chart data files (data/<layer>.json), listed by the scene.
+      const layers = await Promise.all(
+        parsed.layers.map(async (ref) => LayerData.parse(await get(ref.file))),
+      );
       return {
-        scene: Scene.parse(scene),
+        scene: parsed,
         evidence: z.array(Evidence).parse(evidence),
         sources: z.array(Source).parse(sources),
-        layers: [],
+        layers,
       };
     } catch {
       // Not there (an earlier hour's film), or offline: try the next copy.

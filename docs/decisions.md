@@ -487,7 +487,7 @@ Reading them also exposed a real fault: news evidence ids count items in a revis
 
 ### Decision
 
-- Each hour, the five hottest Now stories told by two or more outlets that day get a short film (`scripts/news/film.ts`), with no AI: what was reported and by whom, where (the place the headlines name), the background (the Wikipedia lead, ADR-0019) when there is one, each outlet's headline quoted and credited ("In the news"), and the sources. Every caption is cited and every film passes the same validator as edition films; one that does not is skipped.
+- Each hour, up to 25 of the hottest Now stories get a film (`scripts/news/film.ts`), with no AI. A story whose headlines name a Wikipedia article (ADR-0019) is typed through Wikidata and filmed by that article's lens, like an edition story: a person's life across the globe, a conflict's week and figures, a company's numbers, an event's facts on record, with their maps, charts and panels. It opens on the news itself as an outlet reported it ("…, France 24 reports."). A story told by two or more outlets that no article explains gets a short film: the news as reported, who else reported it, where, each outlet's headline, the sources. Every caption is cited and every film passes the same validator as edition films; a lens film that fails falls back to the short film. Downloads are cached between hourly runs (about a minute when warm).
 - Films are built in story time like edition films. The film's day is the day of its latest headline; only that day's headlines are quoted, cited at day precision with the exact time kept in the label, so every citation falls inside the film's window. Edition films cite their outlets' headlines the same way.
 - When a film's title is one outlet's headline (no Wikipedia article explains the story), its subtitle says whose headline it is.
 - The films are written beside `now.json` (`films/<story>/`) and published with it to the `now-data` branch (ADR-0018). `/now/film?id=<story>` loads one in the browser (side branch first, deployed copy second) and says plainly when a film has been replaced by a newer hour.
@@ -495,4 +495,4 @@ Reading them also exposed a real fault: news evidence ids count items in a revis
 
 ### Why
 
-Readers expect the stories of "Now" to be explained like the editions, not only listed. Five films an hour keep the hourly job short (a minute or two) and the side branch small (about 200 KB, replaced every hour). These films show what was reported and where, credited to the outlets; deep analysis stays with the editions' lenses.
+Readers expect the stories of "Now" to be explained like the editions, with analysis, not only listed. The editions' lenses already do that from Wikipedia and Wikidata; a Now story reaches them through the article its headlines name, matched strictly (ADR-0019: every title word in the headlines, a name not an everyday word, no stale years or unsupported disambiguations).

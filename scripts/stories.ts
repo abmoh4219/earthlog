@@ -4,7 +4,7 @@
 import { rm } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
-import { Edition, type Lens } from "../src/scene/edition.ts";
+import { Edition } from "../src/scene/edition.ts";
 import { Country, Evidence, LayerData, Scene, Source } from "../src/scene/schema.ts";
 import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, writeJson } from "./bake/lib.ts";
@@ -14,36 +14,11 @@ import {
   newsMismatches,
   parsePortal,
 } from "./bake/wikinews.ts";
-import { accidentLens } from "./lenses/accident.ts";
-import { conflictLens } from "./lenses/conflict.ts";
-import { cultureLens } from "./lenses/culture.ts";
-import { disasterLens } from "./lenses/disaster.ts";
-import { economyLens } from "./lenses/economy.ts";
 import { captionIssues } from "./lenses/editor.ts";
-import { electionLens } from "./lenses/election/index.ts";
 import { layerKey } from "./lenses/film.ts";
-import { generalLens, type LensContext, type LensResult } from "./lenses/general.ts";
+import { LENS_FILMS } from "./lenses/index.ts";
 import { revisionCutoff, setRevisionCutoff } from "./lenses/news-context.ts";
-import { organizationLens } from "./lenses/organization.ts";
-import { personLens } from "./lenses/person.ts";
-import { scienceLens } from "./lenses/science.ts";
-import { sportsLens } from "./lenses/sports.ts";
 import { report } from "./report.ts";
-
-/** Which lens films which kind of story. Specialised lenses replace `general` phase by phase. */
-const LENS_FILMS: Record<Lens, (ctx: LensContext) => Promise<LensResult>> = {
-  election: electionLens,
-  conflict: conflictLens,
-  accident: accidentLens,
-  disaster: disasterLens,
-  sports: sportsLens,
-  economy: economyLens,
-  science: scienceLens,
-  culture: cultureLens,
-  organization: organizationLens,
-  person: personLens,
-  general: generalLens,
-};
 
 const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const date = args[0] ?? new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);

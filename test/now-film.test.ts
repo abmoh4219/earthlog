@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
 import { clusterHeadlines } from "../scripts/news/cluster";
-import { buildNowFilm } from "../scripts/news/film";
+import { buildNowFilm, leadLine } from "../scripts/news/film";
 import { type Gazetteer, makePlacer } from "../scripts/news/place";
 import { type Cluster, Headline } from "../src/scene/headlines";
 import { Country, Scene } from "../src/scene/schema";
@@ -54,7 +54,7 @@ describe("a film for a Now story", () => {
 
   it("tells what was reported, where, the background, the outlets' words and the sources", () => {
     expect(film?.scene.chapters.map((c) => c.title)).toEqual([
-      "What was reported",
+      "What happened",
       "Where",
       "Background",
       "In the news",
@@ -91,5 +91,49 @@ describe("a film for a Now story", () => {
         AT,
       ),
     ).toBeUndefined();
+  });
+});
+
+describe("the lead line: the news as an outlet reported it", () => {
+  const h = (outlet: string, title: string): Headline => ({
+    id: "aaaaaaaaaaaa",
+    outlet,
+    title,
+    url: "https://example.org/a",
+    t: "2026-11-08T10:00:00Z",
+    seen: "2026-11-08T10:00:00Z",
+  });
+
+  it("states the headline and credits the outlet", () => {
+    expect(
+      leadLine([
+        h(
+          "aljazeera",
+          "Russian strikes on Ukraine leave hundreds of thousands without electricity",
+        ),
+      ])?.text,
+    ).toBe(
+      "Russian strikes on Ukraine leave hundreds of thousands without electricity, Al Jazeera reports.",
+    );
+  });
+
+  it("drops a short label before a colon, keeps quotes whole, and never leads with a question", () => {
+    expect(
+      leadLine([h("dw", "Ukraine: Russian strikes leave hundreds of thousands without power")])
+        ?.text,
+    ).toBe("Russian strikes leave hundreds of thousands without power, DW reports.");
+    expect(
+      leadLine([
+        h("guardian", "Hakeem Jeffries supports impeachment of Pete Hegseth: ‘He has got to go’"),
+      ])?.text,
+    ).toBe(
+      "Hakeem Jeffries supports impeachment of Pete Hegseth: ‘He has got to go’, The Guardian reports.",
+    );
+    expect(
+      leadLine([
+        h("aljazeera", "Could UFC boss Dana White be next press secretary?"),
+        h("dw", "Trump offers press secretary role to Dana White"),
+      ])?.headline.outlet,
+    ).toBe("dw");
   });
 });

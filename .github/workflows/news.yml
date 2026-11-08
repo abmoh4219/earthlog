@@ -22,7 +22,7 @@ concurrency:
 jobs:
   news:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -31,6 +31,14 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+
+      # Lens films read Wikipedia and Wikidata: keep downloads between runs (fast and polite).
+      - name: Restore the download cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: news-cache-${{ github.run_id }}
+          restore-keys: news-cache-
 
       # The last 72 hours live on the branch: start from there, so headlines older than the
       # feeds' own window are kept until they age out.

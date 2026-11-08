@@ -39,18 +39,44 @@ export function searchTerms(titles: string[]): string {
  * Whether an article can explain a story: every word of its title (numbers and the
  * parenthetical aside) appears in the headlines, it is not just a place, and not a list.
  */
-export function acceptArticle(title: string, headlines: string[], placer: Placer): boolean {
+export function acceptArticle(
+  title: string,
+  headlines: string[],
+  placer: Placer,
+  year = new Date().getUTCFullYear(),
+): boolean {
   // Lists and year pages ("2026 in Kenya") explain nothing about one story.
   if (/^(List of|Index of|Outline of|Timeline of|\d{4} in )|disambiguation/i.test(title))
     return false;
+  const aside = /\(([^)]*)\)\s*$/.exec(title)?.[1];
   const bare = title.replace(/\s*\([^)]*\)\s*$/, "");
   const place = placer.mentions(bare)[0];
   if (place && fold(place.name) === fold(bare)) return false;
   const text = fold(headlines.join(" "));
-  const needed = words(bare).filter((w) => !/^\d+$/.test(w));
-  if (!needed.length) return false;
   const have = new Set(words(text));
-  return needed.every((w) => have.has(w));
+  const needed = words(bare).filter((w) => !/^\d+$/.test(w));
+  if (!needed.length || !needed.every((w) => have.has(w))) return false;
+  // A disambiguation the headlines don't support ("Backlash (2024)", "Opposition (politics)").
+  // Asides that only say what someone is ("politician", "footballer") are fine.
+  const role =
+    /^([\p{L}-]+ )?(politician|footballer|singer|actor|actress|musician|rapper|boxer|cricketer|tennis player|athlete|journalist|businessman|businesswoman|author|writer|director|judge|general|activist|presenter|band|company)$/iu;
+  if (aside && !role.test(aside) && !words(aside).every((w) => have.has(w))) return false;
+  // Years: this year or last, or one the headlines name ("2014–15 La Liga" is not tonight's).
+  for (const y of bare.match(/\b(?:19|20)\d{2}\b/g) ?? [])
+    if (Number(y) < year - 1 && !text.includes(y)) return false;
+  // A one-word title must be a name in the headlines, not an everyday word ("Progress",
+  // "Darkness"), and not capitalised only because it opens the headline.
+  if (needed.length === 1) {
+    const word = bare.split(/\s+/)[0] ?? "";
+    const asName = headlines.some((h) =>
+      h
+        .split(/\s+/)
+        .slice(1)
+        .some((w) => fold(w.replace(/[^\p{L}\p{N}-]/gu, "")) === fold(word) && /^\p{Lu}/u.test(w)),
+    );
+    if (!asName) return false;
+  }
+  return true;
 }
 
 /** An article lead that only describes a region or a continent: not a story's background. */

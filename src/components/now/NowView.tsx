@@ -239,7 +239,7 @@ export function NowView({ initial }: { initial: NowFile }) {
                       {others.length > 0 && ` · also ${others.map(name).join(", ")}`}
                       {spot && <span> · only outlets based in {spot}</span>}
                       {(s.cluster.nowFilm || s.cluster.film) && (
-                        <span className="text-dust/70"> · Film</span>
+                        <span className="font-medium text-sodium"> · Film</span>
                       )}
                     </span>
                   </button>

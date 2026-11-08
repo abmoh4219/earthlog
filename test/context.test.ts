@@ -44,6 +44,37 @@ describe("background from Wikipedia", () => {
     ).toBe(true);
   });
 
+  it("rejects everyday words, unsupported disambiguations and stale years", () => {
+    expect(
+      acceptArticle("Progress", ["Cop31 must deliver climate progress, host says"], placer),
+    ).toBe(false);
+    expect(acceptArticle("Stimulant", ["Stimulant overdoses on the rise"], placer)).toBe(false);
+    expect(acceptArticle("Diwali", ["Photos: Diwali celebrations light up India"], placer)).toBe(
+      true,
+    );
+    expect(
+      acceptArticle(
+        "Backlash (2024)",
+        ["US voters reject AI data centres: could the backlash spread?"],
+        placer,
+      ),
+    ).toBe(false);
+    expect(
+      acceptArticle("Opposition (politics)", ["Israeli opposition leader warns of crisis"], placer),
+    ).toBe(false);
+    expect(
+      acceptArticle(
+        "2014–15 La Liga",
+        ["LIVE: Atletico Madrid vs Barcelona – La Liga"],
+        placer,
+        2026,
+      ),
+    ).toBe(false);
+    expect(
+      acceptArticle("2026 WTA Finals", ["Rybakina withdraws from WTA Finals"], placer, 2026),
+    ).toBe(true);
+  });
+
   it("never takes a place, a list or a year page", () => {
     expect(acceptArticle("Israel", eisenkot, placer)).toBe(false);
     expect(acceptArticle("2026 in Kenya", ["Kenya: cult leader sentenced in 2026"], placer)).toBe(

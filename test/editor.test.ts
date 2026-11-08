@@ -137,6 +137,9 @@ describe("the caption editor (real captions from the 6 November films)", () => {
       "Scott Winston Colom (born December 24, 1982) is a lawyer.",
     );
     expect(tidy("Ana Pérez () is a judge.")).toBe("Ana Pérez is a judge.");
+    expect(tidy("Gadi Eisenkot (\u200f; born 19 May 1960) is a general.")).toBe(
+      "Gadi Eisenkot (born 19 May 1960) is a general.",
+    );
     const long = `${"The first sentence runs long enough to pass the middle of the limit, with detail. ".repeat(2)}And a third that would not fit at all within the limit anyway.`;
     expect(clip(long).endsWith(".")).toBe(true);
     expect(clip(long).length).toBeLessThanOrEqual(220);

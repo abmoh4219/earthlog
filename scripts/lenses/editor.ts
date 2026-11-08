@@ -75,6 +75,8 @@ export function repeats(
 export function tidy(text: string): string {
   return (
     text
+      // Invisible direction marks left where right-to-left text was stripped.
+      .replace(/[\u200b-\u200f\u202a-\u202e\u2066-\u2069]/g, "")
       .replace(/\s+/g, " ")
       // Wikipedia's stripped pronunciation guides leave "(; born …)" or "()".
       .replace(/\(\s*[;,]\s*/g, "(")
