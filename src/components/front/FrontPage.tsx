@@ -4,8 +4,6 @@ import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { GithubMark } from "@/components/landing/GithubMark";
-import { REPO_URL } from "@/config";
 import type { FrontGlobe, FrontStory } from "@/globe/front";
 
 export interface RailStory extends FrontStory {
@@ -101,14 +99,14 @@ export function FrontPage({
       <header className="pointer-events-none absolute inset-x-0 top-0 z-10 p-6 md:p-8">
         <Link
           href="/"
-          className="font-medium pointer-events-auto text-xs text-ice/80 hover:text-frost"
+          className="pointer-events-auto font-serif text-xl text-moon/90 hover:text-moon"
         >
           Earthlog
         </Link>
-        <h1 className="mt-3 max-w-xl text-3xl font-semibold tracking-tight text-frost md:text-5xl">
+        <h1 className="mt-4 max-w-xl font-serif text-4xl leading-[1.04] font-light tracking-[-0.02em] text-moon md:text-6xl">
           Yesterday&apos;s world, explained in 3D.
         </h1>
-        <p className="mt-2 max-w-md text-sm text-ice/70 md:text-base">
+        <p className="mt-2 max-w-md text-sm text-dust/70 md:text-base">
           The edition of {dateLabel}: {stories.length} stories, each told with its own analysis.
           Every claim links to its source.
         </p>
@@ -119,24 +117,16 @@ export function FrontPage({
               setTouring((t) => !t);
               if (touring) choose(undefined);
             }}
-            className="rounded-full bg-ice px-5 py-2 text-sm font-semibold text-void transition hover:bg-frost"
+            className="rounded-full bg-sodium px-5 py-2 text-sm font-medium text-[#1a1206] transition-colors hover:bg-[#ffc46e] active:scale-[0.98]"
           >
-            {touring ? "Stop the tour" : "▶ Play the edition"}
+            {touring ? "Stop the tour" : "Play the edition"}
           </button>
           <Link
             href={`/edition/${date}`}
-            className="glass rounded-full px-5 py-2 text-sm text-ice transition hover:border-ice/40"
+            className="glass rounded-full px-5 py-2 text-sm text-dust transition hover:border-dust/40"
           >
             All stories
           </Link>
-          <a
-            href={REPO_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="glass inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm text-ice transition hover:border-ice/40"
-          >
-            <GithubMark size={15} /> GitHub
-          </a>
         </div>
       </header>
 
@@ -151,18 +141,16 @@ export function FrontPage({
             transition={{ duration: 0.5 }}
             className="glass absolute bottom-40 left-1/2 z-10 w-[min(92vw,640px)] -translate-x-1/2 rounded-2xl px-5 py-4 md:bottom-24 md:px-6 md:py-5"
           >
-            <span
-              className="font-medium rounded-md px-2 py-0.5 text-xs text-void"
-              style={{ background: current.color }}
-            >
+            <span className="flex items-center gap-2 text-xs text-dust/60">
+              <span className="size-2 rounded-full" style={{ background: current.color }} />
               {current.lensLabel}
             </span>
-            <h2 className="mt-2 text-xl font-semibold text-frost">{current.title}</h2>
-            <p className="mt-1 line-clamp-2 text-sm text-ice/70">{current.headline}</p>
+            <h2 className="mt-2 font-serif text-2xl leading-snug text-moon">{current.title}</h2>
+            <p className="mt-1 line-clamp-2 text-sm text-dust/70">{current.headline}</p>
             {current.hasFilm && (
               <Link
                 href={filmHref(current.slug)}
-                className="mt-3 inline-block text-sm font-semibold text-ice hover:text-frost"
+                className="mt-3 inline-block text-sm font-medium text-sodium hover:text-[#ffc46e]"
               >
                 Watch the full story →
               </Link>
@@ -183,14 +171,14 @@ export function FrontPage({
                   choose(s.slug);
                 }}
                 onFocus={() => choose(s.slug)}
-                className={`glass block rounded-xl px-4 py-3 transition hover:border-ice/40 ${focus === s.slug ? "border-ice/50" : ""}`}
+                className={`glass block rounded-xl px-4 py-3 transition hover:border-dust/40 ${focus === s.slug ? "border-dust/50" : ""}`}
               >
                 <span className="flex items-center gap-2">
-                  <span className="font-mono text-[11px] text-ice/40 tabular-nums">{i + 1}</span>
+                  <span className="font-mono text-[11px] text-dust/40 tabular-nums">{i + 1}</span>
                   <span className="h-2 w-2 rounded-full" style={{ background: s.color }} />
-                  <span className="font-medium text-xs text-ice/60">{s.lensLabel}</span>
+                  <span className="font-medium text-xs text-dust/60">{s.lensLabel}</span>
                 </span>
-                <span className="mt-1 block text-sm font-medium leading-snug text-frost">
+                <span className="mt-1 block font-serif text-[15px] leading-snug text-moon">
                   {s.title}
                 </span>
               </Link>
@@ -214,7 +202,7 @@ export function FrontPage({
             <span className="text-xs font-medium" style={{ color: s.color }}>
               {s.lensLabel}
             </span>
-            <span className="mt-0.5 line-clamp-2 block text-sm leading-snug font-medium text-frost">
+            <span className="mt-0.5 line-clamp-2 block text-sm leading-snug font-medium text-moon">
               {s.title}
             </span>
           </Link>
@@ -223,24 +211,24 @@ export function FrontPage({
 
       {/* Earlier editions and the classics (classics from tablets up). */}
       <footer className="absolute inset-x-0 bottom-0 z-10 flex items-center gap-2 overflow-x-auto px-4 pb-4 text-xs sm:flex-wrap sm:px-6 sm:pb-5">
-        <span className="font-medium text-ice/50">Editions</span>
+        <span className="font-medium text-dust/50">Editions</span>
         {editions.map((e) => (
           <Link
             key={e.date}
             href={e.date === date ? `/edition/${e.date}` : `/edition/${e.date}`}
-            className={`rounded-full px-3 py-1 ${e.date === date ? "bg-ice/20 text-frost" : "glass text-ice/80 hover:text-frost"}`}
+            className={`rounded-full px-3 py-1 ${e.date === date ? "bg-dust/20 text-moon" : "glass text-dust/80 hover:text-moon"}`}
           >
             {e.label}
           </Link>
         ))}
         {classics.length > 0 && (
-          <span className="ml-4 hidden font-medium text-ice/50 sm:inline">Classics</span>
+          <span className="ml-4 hidden font-medium text-dust/50 sm:inline">Classics</span>
         )}
         {classics.map((c) => (
           <Link
             key={c.id}
             href={`/replay/${c.id}`}
-            className="glass hidden shrink-0 rounded-full px-3 py-1 text-ice/80 hover:text-frost sm:inline-block"
+            className="glass hidden shrink-0 rounded-full px-3 py-1 text-dust/80 hover:text-moon sm:inline-block"
           >
             {c.title}
           </Link>
@@ -254,7 +242,7 @@ export function FrontPage({
             className="absolute inset-0 z-20 grid place-items-center bg-void"
             exit={{ opacity: 0, transition: { duration: 1.2 } }}
           >
-            <span className="font-medium text-xs text-ice/70">Loading the edition…</span>
+            <span className="font-medium text-xs text-dust/70">Loading the edition…</span>
           </motion.div>
         )}
       </AnimatePresence>

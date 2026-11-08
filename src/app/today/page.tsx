@@ -18,7 +18,7 @@ export default async function Today() {
     .map((e) => ({ id: e.id, title: e.title }));
   if (!latest) {
     return (
-      <main className="grid h-dvh place-items-center bg-void text-ice/70">
+      <main className="grid h-dvh place-items-center bg-void text-dust/70">
         No edition yet. Run pnpm edition, pnpm stories and pnpm direct.
       </main>
     );

@@ -30,14 +30,14 @@ export function ChapterCard() {
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="text-center [text-shadow:0_4px_40px_rgb(0_0_0/0.85)]"
           >
-            <div className="font-medium text-xs text-ice/80">
+            <div className="font-medium text-xs text-dust/80">
               {String(Number(n) + 1).padStart(2, "0")}
             </div>
-            <div className="mt-2 text-5xl font-light tracking-tight text-frost md:text-7xl">
+            <div className="mt-2 font-serif text-5xl font-light tracking-[-0.02em] text-moon md:text-7xl">
               {title}
             </div>
             <motion.div
-              className="mx-auto mt-4 h-px bg-linear-to-r from-transparent via-ice/70 to-transparent"
+              className="mx-auto mt-4 h-px bg-linear-to-r from-transparent via-dust/70 to-transparent"
               initial={{ width: 0 }}
               animate={{ width: 220 }}
               transition={{ delay: 0.25, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}

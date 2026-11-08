@@ -1,9 +1,12 @@
-// The front-page globe: the latest edition's stories as columns of light on the planet,
-// coloured by lens and as tall as their heat. The camera falls from orbit onto the edition
-// (the intro), drifts slowly while idle, and flies to a story when it is chosen.
+// The front-page globe: the latest edition's stories as thin columns on the planet, coloured
+// by lens and as tall as their heat. The camera falls from orbit onto the edition (the intro),
+// drifts slowly while idle, and flies to a story when it is chosen.
+// The landing hero ("night" option) shows the planet as it is lit at the moment of the visit:
+// the real sun position, the night side dark with city lights, the stories as amber points.
 // Separate from the film engine on purpose: no scene clock, no evidence, no layers to time.
 import type * as CesiumNS from "cesium";
-import { BLUE_MARBLE_RELIEF, gibsTemplate, STATIC_DATES } from "./gibs";
+import { BLACK_MARBLE, BLUE_MARBLE_RELIEF, gibsTemplate, STATIC_DATES } from "./gibs";
+import { subsolarPoint } from "./sun";
 
 export interface FrontStory {
   slug: string;
@@ -21,15 +24,20 @@ export interface FrontGlobe {
 }
 
 const DEG = Math.PI / 180;
+/** City-light amber, the site's one accent (globals.css --color-sodium). */
+const SODIUM = "#ffb547";
 
 export async function createFrontGlobe(
   container: HTMLElement,
   creditContainer: HTMLElement,
   stories: FrontStory[],
   onPick: (slug: string) => void,
-  /** In a scrolling page the wheel must scroll the page, not zoom the globe. */
-  /** zoom: wheel zooms the globe. hero: a floating globe for a page (no stars, closer, no names). */
-  options: { zoom?: boolean; hero?: boolean } = {},
+  /**
+   * zoom: wheel zooms the globe (off in a scrolling page, where the wheel must scroll).
+   * hero: a floating globe for a page (no stars, closer, no names).
+   * night: lit by the real sun at this moment, city lights on the night side, amber points.
+   */
+  options: { zoom?: boolean; hero?: boolean; night?: boolean } = {},
 ): Promise<FrontGlobe> {
   window.CESIUM_BASE_URL = "/cesium/";
   const C = await import("cesium");
@@ -41,10 +49,13 @@ export async function createFrontGlobe(
       credit: new C.Credit(`${BLUE_MARBLE_RELIEF.credit} · NASA GIBS`),
     }),
   );
-  // The same ice grade as the story films.
+  // The same grade as the story films.
   base.brightness = 0.9;
   base.contrast = 1.06;
   base.saturation = 0.74;
+  // Night: the day image only on the lit side (a trace on the night side keeps the continents
+  // readable), and the city lights only on the dark side.
+  if (options.night) base.nightAlpha = 0.12;
   const widget = new C.CesiumWidget(container, {
     baseLayer: base,
     skyAtmosphere: new C.SkyAtmosphere(),
@@ -60,20 +71,38 @@ export async function createFrontGlobe(
   s.globe.baseColor = C.Color.BLACK;
   s.globe.showGroundAtmosphere = true;
   s.screenSpaceCameraController.minimumZoomDistance = 1_500_000;
+  // Cesium lights the globe from the real sun at the widget clock's time, which starts at now
+  // and does not run. Black Marble is a multi-year composite: "a typical night", credited so.
+  if (options.night) {
+    s.globe.enableLighting = true;
+    s.globe.dynamicAtmosphereLighting = true;
+    s.globe.dynamicAtmosphereLightingFromSun = true;
+    const lights = s.imageryLayers.addImageryProvider(
+      new C.UrlTemplateImageryProvider({
+        url: gibsTemplate(BLACK_MARBLE, STATIC_DATES.blackMarble),
+        maximumLevel: BLACK_MARBLE.maxLevel,
+        credit: new C.Credit(`${BLACK_MARBLE.credit} (2016 composite) · NASA GIBS`),
+      }),
+    );
+    lights.dayAlpha = 0;
+    lights.nightAlpha = 1;
+    // The composite is dim at globe scale; lift it so cities read as lights, not specks.
+    lights.brightness = 2.2;
+  }
   if (options.zoom === false) {
     s.screenSpaceCameraController.enableZoom = false;
     s.screenSpaceCameraController.enableTilt = false;
   }
 
-  // Columns of light: height from heat (log), a bright dot at the foot, a name that shows on
-  // focus (and for the three hottest).
+  // Columns: height from heat (log), a dot at the foot, a name that shows on focus (and for the
+  // three hottest). In the night hero, the columns go and every story is an amber point.
   const lines = s.primitives.add(new C.PolylineCollection());
   const points = s.primitives.add(new C.PointPrimitiveCollection());
   const labels = s.primitives.add(new C.LabelCollection());
   const maxHeat = Math.max(1, ...stories.map((st) => st.heat));
   const ranked = [...stories].sort((a, b) => b.heat - a.heat).map((st) => st.slug);
   const marks = stories.map((st) => {
-    const color = C.Color.fromCssColorString(st.color);
+    const color = C.Color.fromCssColorString(options.night ? SODIUM : st.color);
     const h = 250_000 + (Math.log1p(st.heat) / Math.log1p(maxHeat)) * 1_650_000;
     const line = lines.add({
       id: st.slug,
@@ -81,20 +110,17 @@ export async function createFrontGlobe(
         C.Cartesian3.fromDegrees(st.lon, st.lat, 0),
         C.Cartesian3.fromDegrees(st.lon, st.lat, h),
       ],
-      width: 10,
-      material: C.Material.fromType("PolylineGlow", {
-        color: color.withAlpha(0.85),
-        glowPower: 0.28,
-        taperPower: 0.4,
-      }),
+      width: 1.5,
+      show: !options.night,
+      material: C.Material.fromType("Color", { color: color.withAlpha(0.8) }),
     });
     const dot = points.add({
       id: st.slug,
       position: C.Cartesian3.fromDegrees(st.lon, st.lat, 8_000),
-      pixelSize: 9,
+      pixelSize: options.night ? 7 : 8,
       color,
-      outlineColor: C.Color.BLACK.withAlpha(0.6),
-      outlineWidth: 1.5,
+      outlineColor: C.Color.BLACK.withAlpha(0.7),
+      outlineWidth: 2,
     });
     const label = labels.add({
       position: C.Cartesian3.fromDegrees(st.lon, st.lat, h + 60_000),
@@ -124,6 +150,12 @@ export async function createFrontGlobe(
     lon: stories.length ? Math.atan2(y, x) / DEG : 10,
     lat: stories.length ? Math.max(-30, Math.min(40, Math.atan2(z, Math.hypot(x, y)) / DEG)) : 20,
   };
+  // Night hero: face the dawn line (90° west of where the sun is overhead), a little into the
+  // day, so the visitor always sees both the night side and the sunrise, whatever the hour.
+  if (options.night) {
+    home.lon = subsolarPoint(new Date()).lon - 75;
+    home.lat = 18;
+  }
   s.camera.setView({ destination: C.Cartesian3.fromDegrees(home.lon + 70, home.lat, 9e7) });
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   s.camera.flyTo({
@@ -155,14 +187,14 @@ export async function createFrontGlobe(
 
   const remove = s.preRender.addEventListener(() => {
     const now = performance.now();
+    // The night hero turns three times slower, so the dawn line stays in view for minutes.
     if (!reduce && !focused && now - touchedAt > 8000)
-      s.camera.rotate(C.Cartesian3.UNIT_Z, 0.00045);
-    const breathe = 0.65 + 0.3 * Math.sin((now / 2600) * Math.PI * 2);
+      s.camera.rotate(C.Cartesian3.UNIT_Z, options.night ? 0.00015 : 0.00045);
     for (const m of marks) {
       const on = focused === m.st.slug;
-      m.line.width = on ? 16 : 10;
-      m.line.material.uniforms.color = m.color.withAlpha(on ? 1 : focused ? 0.35 : breathe, m.tint);
-      m.dot.pixelSize = on ? 14 : 9;
+      m.line.width = on ? 3 : 1.5;
+      m.line.material.uniforms.color = m.color.withAlpha(on ? 1 : focused ? 0.3 : 0.8, m.tint);
+      m.dot.pixelSize = on ? 12 : options.night ? 7 : 8;
       if (focused) m.label.show = on;
     }
   });

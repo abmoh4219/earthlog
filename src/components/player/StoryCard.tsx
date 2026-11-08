@@ -50,11 +50,11 @@ export function StoryCard() {
               {cat.label}
             </span>
             {story.place && (
-              <span className="truncate text-xs text-frost/80">{story.place.name}</span>
+              <span className="truncate text-xs text-moon/80">{story.place.name}</span>
             )}
           </div>
-          {story.topic && <p className="mt-2 text-[11px] text-ice/55">{story.topic}</p>}
-          <p className="mt-1.5 text-sm leading-relaxed text-frost">{story.text}</p>
+          {story.topic && <p className="mt-2 text-[11px] text-dust/55">{story.topic}</p>}
+          <p className="mt-1.5 text-sm leading-relaxed text-moon">{story.text}</p>
           {evidence?.links && evidence.links.length > 0 && (
             <ul className="mt-3 flex flex-wrap gap-1.5">
               {evidence.links.map((l) => (
@@ -63,7 +63,7 @@ export function StoryCard() {
                     href={l.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-1 rounded-md border border-ice/20 bg-ice/5 px-2 py-0.5 text-[11px] text-ice transition hover:border-ice/50 hover:bg-ice/10"
+                    className="inline-flex items-center gap-1 rounded-md border border-dust/20 bg-dust/5 px-2 py-0.5 text-[11px] text-dust transition hover:border-dust/50 hover:bg-dust/10"
                   >
                     {l.name}
                     <ExternalLink size={10} />
@@ -72,14 +72,14 @@ export function StoryCard() {
               ))}
             </ul>
           )}
-          <p className="mt-3 border-t border-ice/10 pt-2 font-mono text-[10px] leading-snug text-ice/45">
+          <p className="mt-3 border-t border-dust/10 pt-2 font-mono text-[10px] leading-snug text-dust/45">
             {day} · time of day not recorded ·{" "}
             {evidence?.url ? (
               <a
                 href={evidence.url}
                 target="_blank"
                 rel="noreferrer"
-                className="underline hover:text-ice"
+                className="underline hover:text-dust"
               >
                 Wikipedia, Current events
               </a>

@@ -64,10 +64,10 @@ export function Timeline() {
         dragging.current = false;
       }}
     >
-      <div className="absolute inset-x-0 top-1/2 h-0.75 -translate-y-1/2 overflow-hidden rounded-full bg-ice/15">
+      <div className="absolute inset-x-0 top-1/2 h-0.75 -translate-y-1/2 overflow-hidden rounded-full bg-dust/15">
         <div
           ref={fillRef}
-          className="h-full origin-left bg-linear-to-r from-ice/60 to-ice shadow-[0_0_12px_rgb(154_217_255/0.8)]"
+          className="h-full origin-left bg-linear-to-r from-dust/60 to-dust shadow-[0_0_12px_rgb(154_217_255/0.8)]"
           style={{ transform: "scaleX(0)" }}
         />
       </div>
@@ -81,7 +81,7 @@ export function Timeline() {
             e.stopPropagation();
             seekTo(window.start + c.u * span + 1);
           }}
-          className="absolute top-1/2 z-10 size-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full border border-ice/60 bg-void transition hover:scale-150 hover:bg-ice"
+          className="absolute top-1/2 z-10 size-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full border border-dust/60 bg-void transition hover:scale-150 hover:bg-dust"
           style={{ left: `${c.u * 100}%` }}
         />
       ))}
@@ -89,7 +89,7 @@ export function Timeline() {
         <span
           // biome-ignore lint/suspicious/noArrayIndexKey: markers are positional and stable per scene
           key={i}
-          className="absolute top-1/2 h-2.5 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-frost/70"
+          className="absolute top-1/2 h-2.5 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-moon/70"
           style={{ left: `${u * 100}%` }}
         />
       ))}

@@ -1,11 +1,10 @@
 import Link from "next/link";
 import { REPO_URL } from "@/config";
-import { GithubMark } from "./GithubMark";
 import { LogoMark } from "./LogoMark";
 
 const doc = (path: string) => `${REPO_URL}/blob/main/${path}`;
 
-/** The site footer: project, documentation, data and licence. */
+/** The site footer: the project, its documentation, its data and licences. */
 export function SiteFooter() {
   const columns = [
     {
@@ -14,12 +13,13 @@ export function SiteFooter() {
         { label: "Today's edition", href: "/today" },
         { label: "Archive", href: "/#archive" },
         { label: "How it works", href: "/#how" },
+        { label: "FAQ", href: "/#faq" },
       ],
     },
     {
       title: "Open source",
       links: [
-        { label: "Repository", href: REPO_URL },
+        { label: "Source code", href: REPO_URL },
         { label: "Contributing", href: doc("CONTRIBUTING.md") },
         { label: "Changelog", href: doc("CHANGELOG.md") },
         { label: "Architecture", href: doc("docs/ARCHITECTURE.md") },
@@ -35,32 +35,24 @@ export function SiteFooter() {
     },
   ];
   return (
-    <footer className="border-t border-ice/10 bg-void">
-      <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
+    <footer className="border-t border-moon/8 bg-void">
+      <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:grid-cols-2 sm:px-8 lg:grid-cols-[1.5fr_repeat(3,1fr)]">
         <div>
-          <p className="flex items-center gap-2 font-semibold text-frost">
-            <LogoMark size={20} /> Earthlog
+          <p className="flex items-center gap-2 font-serif text-xl text-moon">
+            <LogoMark size={18} /> Earthlog
           </p>
-          <p className="mt-2 max-w-xs text-sm text-ice/60">
-            Yesterday&apos;s world, explained in 3D. Free, open source, no account, no tracking.
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-dust/55">
+            Yesterday&apos;s world, explained in 3D. A new edition every morning, every line cited.
           </p>
-          <a
-            href={REPO_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-4 inline-flex items-center gap-2 text-sm text-ice/80 hover:text-frost"
-          >
-            <GithubMark size={16} /> Source on GitHub
-          </a>
         </div>
         {columns.map((c) => (
           <div key={c.title}>
-            <p className="font-medium text-xs text-ice/50">{c.title}</p>
+            <p className="text-sm text-dust/45">{c.title}</p>
             <ul className="mt-3 space-y-2 text-sm">
               {c.links.map((l) => (
                 <li key={l.label}>
                   {l.href.startsWith("/") ? (
-                    <Link href={l.href} className="text-ice/75 hover:text-frost">
+                    <Link href={l.href} className="text-dust/75 transition-colors hover:text-moon">
                       {l.label}
                     </Link>
                   ) : (
@@ -68,7 +60,7 @@ export function SiteFooter() {
                       href={l.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-ice/75 hover:text-frost"
+                      className="text-dust/75 transition-colors hover:text-moon"
                     >
                       {l.label}
                     </a>
@@ -79,10 +71,10 @@ export function SiteFooter() {
           </div>
         ))}
       </div>
-      <div className="border-t border-ice/10">
-        <p className="mx-auto max-w-6xl px-5 py-5 text-xs text-ice/45 sm:px-6">
+      <div className="border-t border-moon/8">
+        <p className="mx-auto max-w-6xl px-5 py-5 text-xs text-dust/40 sm:px-8">
           MIT licence. Data keeps its own licences; text adapted from Wikipedia is CC BY-SA 4.0.
-          Imagery: NASA. Borders: Natural Earth.
+          Imagery and city lights: NASA. Borders: Natural Earth.
         </p>
       </div>
     </footer>

@@ -54,7 +54,7 @@ export function GlobeView({ bundle }: { bundle: SceneBundle }) {
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 1.2, ease: "easeOut" } }}
           >
-            <div className="text-center font-mono text-xs tracking-[0.35em] text-ice/70 uppercase">
+            <div className="text-center font-mono text-xs tracking-[0.35em] text-dust/70 uppercase">
               {error ? (
                 <span className="text-loss">Globe failed to start: {error}</span>
               ) : (

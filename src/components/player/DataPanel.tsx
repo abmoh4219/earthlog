@@ -48,14 +48,14 @@ function SignalBlock({ layer, timezone }: { layer: SignalLayer; timezone: string
   const color = layer.tone === "loss" ? "var(--color-loss)" : "var(--color-attention)";
   return (
     <section>
-      <h2 className="font-medium text-xs text-ice/60">Internet · vs normal</h2>
-      <p className="mt-1 text-xs text-frost/80">{layer.label}</p>
+      <h2 className="font-medium text-xs text-dust/60">Internet · vs normal</h2>
+      <p className="mt-1 text-xs text-moon/80">{layer.label}</p>
       <ul className="mt-3 space-y-3">
         {layer.series.map((s) => (
           <SeriesRow key={s.code} series={s} color={color} timezone={timezone} />
         ))}
       </ul>
-      <p className="mt-3 border-t border-ice/10 pt-2 text-[10px] leading-snug text-ice/45">
+      <p className="mt-3 border-t border-dust/10 pt-2 text-[10px] leading-snug text-dust/45">
         {layer.baseline} Source: IODA, Georgia Tech.
       </p>
     </section>
@@ -84,9 +84,9 @@ function SeriesRow({
   return (
     <li>
       <div className="flex items-baseline justify-between">
-        <span className="text-sm font-medium text-frost">{series.name}</span>
+        <span className="text-sm font-medium text-moon">{series.name}</span>
         <span
-          className={cn("font-mono text-xl tabular-nums transition-colors", !drop && "text-frost")}
+          className={cn("font-mono text-xl tabular-nums transition-colors", !drop && "text-moon")}
           style={drop ? { color } : undefined}
         >
           {value === null ? "—" : `${value}%`}
@@ -104,23 +104,23 @@ function SeriesRow({
           x2={W}
           y1={y(1)}
           y2={y(1)}
-          stroke="rgb(154 217 255 / 0.25)"
+          stroke="rgb(212 205 191 / 0.25)"
           strokeDasharray="2 3"
         />
         <path d={area} fill={color} opacity={0.22} />
         <path d={line} fill="none" stroke={color} strokeWidth={1.4} strokeLinejoin="round" />
         {gaps.map((g) => (
-          <rect key={g} x={g} y={0} width={2} height={H} fill="rgb(154 217 255 / 0.12)" />
+          <rect key={g} x={g} y={0} width={2} height={H} fill="rgb(212 205 191 / 0.12)" />
         ))}
         {x >= 0 && (
           <>
-            <line x1={x} x2={x} y1={0} y2={H} stroke="rgb(232 246 255 / 0.6)" strokeWidth={1} />
+            <line x1={x} x2={x} y1={0} y2={H} stroke="rgb(241 235 223 / 0.6)" strokeWidth={1} />
             <circle cx={x} cy={y(sample?.ratio ?? 1)} r={3} fill={color} />
           </>
         )}
       </svg>
       {sample && (
-        <div className="mt-0.5 font-mono text-[10px] text-ice/40 tabular-nums">
+        <div className="mt-0.5 font-mono text-[10px] text-dust/40 tabular-nums">
           measured {clockText(sample.t, timezone).slice(0, 5)} local
         </div>
       )}
@@ -173,18 +173,18 @@ function QuakeBlock({ layer }: { layer: QuakeLayer }) {
     null,
   );
   return (
-    <section className="mt-4 border-t border-ice/10 pt-3 first:mt-0 first:border-0 first:pt-0">
-      <h2 className="font-medium text-xs text-ice/60">Earthquakes · USGS</h2>
+    <section className="mt-4 border-t border-dust/10 pt-3 first:mt-0 first:border-0 first:pt-0">
+      <h2 className="font-medium text-xs text-dust/60">Earthquakes · USGS</h2>
       <div className="mt-2 flex items-end justify-between">
         <div>
-          <div className="font-mono text-2xl text-frost tabular-nums">{happened.length}</div>
-          <div className="text-[10px] text-ice/50">recorded so far</div>
+          <div className="font-mono text-2xl text-moon tabular-nums">{happened.length}</div>
+          <div className="text-[10px] text-dust/50">recorded so far</div>
         </div>
         <div className="text-right">
           <div className="font-mono text-2xl tabular-nums" style={{ color: "var(--color-energy)" }}>
             {largest === null ? "—" : `M${largest.toFixed(1)}`}
           </div>
-          <div className="text-[10px] text-ice/50">largest</div>
+          <div className="text-[10px] text-dust/50">largest</div>
         </div>
       </div>
     </section>
@@ -200,15 +200,15 @@ function StormBlock({ layer }: { layer: StormLayer }) {
     return at ? [{ name: s.name, at }] : [];
   });
   return (
-    <section className="mt-4 border-t border-ice/10 pt-3 first:mt-0 first:border-0 first:pt-0">
-      <h2 className="font-medium text-xs text-ice/60">Storms · NASA EONET</h2>
+    <section className="mt-4 border-t border-dust/10 pt-3 first:mt-0 first:border-0 first:pt-0">
+      <h2 className="font-medium text-xs text-dust/60">Storms · NASA EONET</h2>
       {live.length === 0 ? (
-        <p className="mt-2 text-xs text-ice/50">No tracked storm at this moment.</p>
+        <p className="mt-2 text-xs text-dust/50">No tracked storm at this moment.</p>
       ) : (
         <ul className="mt-2 space-y-1.5">
           {live.map(({ name, at }) => (
             <li key={name} className="flex items-baseline justify-between gap-2">
-              <span className="truncate text-sm text-frost">{name}</span>
+              <span className="truncate text-sm text-moon">{name}</span>
               <span
                 className="shrink-0 font-mono text-sm tabular-nums"
                 style={{ color: "var(--color-energy)" }}
@@ -219,7 +219,7 @@ function StormBlock({ layer }: { layer: StormLayer }) {
           ))}
         </ul>
       )}
-      <p className="mt-2 text-[10px] leading-snug text-ice/45">
+      <p className="mt-2 text-[10px] leading-snug text-dust/45">
         Positions every 6 hours from the tracking agency; the marker moves in a straight line
         between them.
       </p>

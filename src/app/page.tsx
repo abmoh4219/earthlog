@@ -1,21 +1,20 @@
-import {
-  ArrowRight,
-  ArrowUpRight,
-  BadgeCheck,
-  Database,
-  HeartHandshake,
-  ListChecks,
-  Plus,
-} from "lucide-react";
+import { ArrowRight, ArrowUpRight, Plus } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { GithubMark } from "@/components/landing/GithubMark";
-import { HeroGlobe } from "@/components/landing/HeroGlobe";
+import type { ReactNode } from "react";
+import { HeroGlobe, LitCaption } from "@/components/landing/HeroGlobe";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { SiteNav } from "@/components/landing/SiteNav";
 import { REPO_URL } from "@/config";
-import { listEditions, listStoryFilms, loadEdition, loadIndex } from "@/lib/bundles";
-import { LENS_INFO, type Lens } from "@/scene/edition";
+import {
+  listEditions,
+  listStoryFilms,
+  loadEdition,
+  loadIndex,
+  loadStoryBundle,
+} from "@/lib/bundles";
+import { type EditionStory, LENS_INFO, type Lens } from "@/scene/edition";
+import type { Evidence, Source } from "@/scene/schema";
 
 const day = (date: string, opts: Intl.DateTimeFormatOptions) =>
   new Date(`${date}T00:00:00Z`).toLocaleDateString("en-GB", { ...opts, timeZone: "UTC" });
@@ -24,7 +23,7 @@ const LENSES: { lens: Lens; title: string; text: string }[] = [
   {
     lens: "election",
     title: "Elections",
-    text: "Results race by race; flipped seats pulse, uncalled races stay grey.",
+    text: "Results race by race; flipped seats stand out, uncalled races stay grey.",
   },
   {
     lens: "person",
@@ -55,7 +54,7 @@ const LENSES: { lens: Lens; title: string; text: string }[] = [
   {
     lens: "disaster",
     title: "Earthquakes",
-    text: "USGS shaking spreading outward, the fault, people exposed.",
+    text: "USGS shaking spreading outward, the fault, the people exposed.",
   },
   {
     lens: "conflict",
@@ -69,49 +68,41 @@ const LENSES: { lens: Lens; title: string; text: string }[] = [
   },
 ];
 
-const TRUST = [
+const PROMISES = [
   {
-    icon: BadgeCheck,
-    title: "Every claim is cited",
-    text: "Each sentence and number links to the evidence it rests on. A validator rejects anything else, whoever wrote it.",
+    title: "AI is optional and labelled",
+    text: "Templates write every film. Claude may rewrite the captions once, offline; each chapter is checked in code, or the template stays.",
   },
   {
-    icon: ListChecks,
-    title: "AI is optional and checked",
-    text: "A template writes every film. Claude may rewrite captions once, offline; each chapter is checked in code or keeps the template.",
+    title: "Open data, shown honestly",
+    text: "Wikipedia, Wikidata, World Bank, USGS and NASA. Estimates say so, gaps stay visible, and every film says when its data was read.",
   },
   {
-    icon: Database,
-    title: "Open data, honestly shown",
-    text: "Wikipedia, Wikidata, World Bank, USGS, NASA. Estimates say so, and every film says when its data was read.",
-  },
-  {
-    icon: HeartHandshake,
-    title: "Free for everyone",
-    text: "No account, no ads, no tracking, no backend. MIT-licensed and built to be forked.",
+    title: "Nothing about you is recorded",
+    text: "No account, no ads, no analytics. The site is static files, and visitors never trigger an AI call.",
   },
 ];
 
 const STEPS = [
   {
     title: "Find the stories",
-    text: "What the news reported and what the world read on Wikipedia, ranked by attention and balanced across continents.",
+    text: "What the news reported and what the world read on Wikipedia, ranked by attention and balanced across continents. Stories told in the last week return only with new reporting.",
   },
   {
     title: "Choose the lens",
-    text: "Wikidata says what each story is (an election, a person, a crash, a quake) and the matching lens gathers its data.",
+    text: "Wikidata says what each story is (an election, a person, a crash, a quake), and the matching lens gathers its data.",
   },
   {
     title: "Make the film",
-    text: "Chapters, camera moves, maps, charts and captions, every sentence cited, then validated.",
+    text: "Chapters, camera moves, maps, charts and captions. Every sentence cites its evidence, and a validator checks each one.",
   },
   {
     title: "Publish by morning",
-    text: "A GitHub Action runs it overnight and commits the edition. Visitors download static pages: nothing runs per visit.",
+    text: "A scheduled job builds the edition overnight. Visitors download static pages: nothing runs per visit.",
   },
 ];
 
-const SHOWCASE = [
+const STILLS = [
   {
     src: "/media/learjet.jpg",
     title: "The journey",
@@ -148,6 +139,10 @@ const FAQ = [
     a: "Every film is first written by templates from the data. Claude may then rewrite the captions once, offline, and each chapter is checked in code: every number must appear in the cited evidence, or the template stays. Films with AI narration say so on screen. Visitors never trigger an AI call.",
   },
   {
+    q: "Why does the globe look different each time I visit?",
+    a: "It is lit by the sun as it is at that moment, so the night side, with its city lights, is where night really is. The lights come from NASA's Black Marble, a composite of many nights, not from last night.",
+  },
+  {
     q: "How fresh is the data?",
     a: "A new edition is built every night. For three days an edition follows the news (results and reports still fill in), then it freezes. Every film shows when its data was read.",
   },
@@ -157,11 +152,11 @@ const FAQ = [
   },
   {
     q: "Can I share a story or download a video?",
-    a: "Yes. The link button copies a link to the exact moment you are watching. The film button exports the story as an MP4, landscape or vertical, with its captions, stats and sources.",
+    a: "Yes. The link button copies a link to the exact moment you are watching. The film button exports the story as a video, landscape or vertical, with its captions, stats and sources.",
   },
   {
     q: "Does it work on my phone?",
-    a: "Yes, on any recent phone or computer with WebGL. The globe is heavy, so the first load takes a few seconds on a slow connection.",
+    a: "Yes, on any recent phone or computer with WebGL. It is at its best on a larger screen for now, and the phone layout is being improved.",
   },
   {
     q: "Can I use the code or add a kind of story?",
@@ -169,22 +164,65 @@ const FAQ = [
   },
 ];
 
-function SectionHead({
-  kicker,
-  title,
-  children,
-}: {
-  kicker: string;
-  title: string;
-  children?: React.ReactNode;
-}) {
+function Heading({ title, children }: { title: string; children?: ReactNode }) {
   return (
     <div className="max-w-2xl">
-      <p className="text-sm font-medium text-ice">{kicker}</p>
-      <h2 className="mt-2 text-3xl font-semibold tracking-tight text-frost sm:text-4xl">{title}</h2>
-      {children && <p className="mt-3 text-base text-ice/70 sm:text-lg">{children}</p>}
+      <h2 className="font-serif text-4xl leading-[1.08] font-light tracking-[-0.015em] text-balance text-moon sm:text-5xl">
+        {title}
+      </h2>
+      {children && <p className="mt-4 text-base text-dust/65 sm:text-lg">{children}</p>}
     </div>
   );
+}
+
+/** The story label: "Update, day N" in amber when the story returns, else its lens. */
+function StoryLabel({ story }: { story: EditionStory }) {
+  return story.update ? (
+    <span className="text-sodium">Update, day {story.update.day}</span>
+  ) : (
+    <span className="text-dust/50">{LENS_INFO[story.lens].label}</span>
+  );
+}
+
+interface Proof {
+  story: EditionStory;
+  sentence: string;
+  evidence: Evidence;
+  source: Source | undefined;
+  ai: boolean;
+}
+
+/**
+ * A real line from one of the day's films and the report it cites, to show what "every line is
+ * cited" means. Prefers a news report that names its outlets; read at build time from the films.
+ */
+async function findProof(
+  date: string,
+  stories: EditionStory[],
+  films: Set<string>,
+): Promise<Proof | undefined> {
+  let fallback: Proof | undefined;
+  for (const story of stories.slice(0, 10)) {
+    if (!films.has(story.slug)) continue;
+    const bundle = await loadStoryBundle(date, story.slug);
+    const byId = new Map(bundle.evidence.map((e) => [e.id, e]));
+    for (const beat of bundle.scene.beats) {
+      for (const id of beat.cites) {
+        const evidence = byId.get(id);
+        if (evidence?.kind !== "report" || !evidence.quote || !evidence.url) continue;
+        const proof = {
+          story,
+          sentence: beat.text,
+          evidence,
+          source: bundle.sources.find((s) => s.id === evidence.source),
+          ai: bundle.scene.generatedBy.method === "claude",
+        };
+        if (evidence.links?.length) return proof;
+        fallback ??= proof;
+      }
+    }
+  }
+  return fallback;
 }
 
 export default async function Landing() {
@@ -197,6 +235,7 @@ export default async function Landing() {
     editions.slice(0, 8).map(async (d) => ({ date: d, edition: await loadEdition(d) })),
   );
   const stories = edition?.stories ?? [];
+  const proof = latest ? await findProof(latest, stories, films) : undefined;
   const href = (slug: string) =>
     latest && films.has(slug) ? `/story/${latest}/${slug}` : `/edition/${latest}`;
   const globeStories = stories.flatMap((s) =>
@@ -213,141 +252,204 @@ export default async function Landing() {
         ]
       : [],
   );
-  const [lead, ...rest] = stories;
+  const dayLong = latest
+    ? day(latest, { weekday: "long", day: "numeric", month: "long", year: "numeric" })
+    : "";
+  const dayShort = latest ? day(latest, { day: "numeric", month: "long" }) : "";
 
   return (
     <div className="h-dvh overflow-x-hidden overflow-y-auto bg-void">
       <SiteNav />
 
-      {/* Hero */}
-      <div className="bg-[linear-gradient(180deg,#0a1728_0%,#020409_100%)]">
-        <section className="mx-auto grid max-w-6xl items-center gap-8 px-5 pt-12 pb-8 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:gap-12 lg:pt-20 lg:pb-16">
-          <div>
-            {latest && (
-              <p className="flex items-center gap-2 text-sm text-ice/75">
-                <span className="size-2 rounded-full bg-[#f2b65a]" aria-hidden="true" />
-                Edition of{" "}
-                {day(latest, { weekday: "long", day: "numeric", month: "long", year: "numeric" })}
-              </p>
-            )}
-            <h1 className="mt-4 text-[2.6rem] leading-[1.05] font-semibold tracking-tight text-frost sm:text-6xl">
-              Yesterday&apos;s world, <span className="text-ice">explained in 3D.</span>
-            </h1>
-            <p className="mt-5 max-w-xl text-base text-ice/75 sm:text-lg">
-              Every morning, the previous day&apos;s most-followed stories become short films on a
-              3D globe. Each story gets the analysis its kind needs, and every claim links to its
-              source.
-            </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Link
-                href="/today"
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-ice px-5 py-3 font-semibold text-void transition hover:bg-frost"
-              >
-                Open today&apos;s edition <ArrowRight size={16} />
-              </Link>
-              <a
-                href={REPO_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-ice/20 px-5 py-3 font-semibold text-frost transition hover:border-ice/45 hover:bg-ice/5"
-              >
-                <GithubMark size={16} /> View the source
-              </a>
-            </div>
-            <p className="mt-6 text-sm text-ice/55">
-              {stories.length} stories today · {editions.length} editions · every sentence cited ·
-              no account
-            </p>
-          </div>
-          <div className="relative mx-auto aspect-square w-full max-w-[340px] sm:max-w-[460px] lg:max-w-[560px]">
+      {/* Hero: the planet as it is lit right now, the edition over its night side. */}
+      <section className="relative overflow-hidden">
+        <div className="relative mx-auto max-w-6xl px-5 sm:px-8 lg:min-h-[720px]">
+          <div className="relative mx-auto aspect-square w-full max-w-[480px] lg:absolute lg:top-1/2 lg:-right-[22%] lg:w-[78%] lg:max-w-[1000px] lg:-translate-y-1/2">
             {latest && <HeroGlobe date={latest} stories={globeStories} />}
           </div>
-        </section>
-      </div>
-
-      {/* Today's edition, set like a front page: the lead, then the rest by rank. */}
-      {latest && lead && (
-        <section className="border-t border-ice/10">
-          <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
-            <div className="flex flex-wrap items-end justify-between gap-4">
-              <SectionHead
-                kicker="Today's edition"
-                title={day(latest, { weekday: "long", day: "numeric", month: "long" })}
-              />
+          {/* A scrim keeps the headline readable where it overlaps the globe's limb. */}
+          <div
+            className="pointer-events-none absolute inset-y-0 left-0 hidden w-1/2 bg-gradient-to-r from-void via-void/80 to-transparent lg:block"
+            aria-hidden="true"
+          />
+          <div className="relative max-w-xl pt-2 pb-14 lg:pt-36 lg:pb-40">
+            {latest && (
+              <p className="text-sm text-dust/60">
+                Edition of {dayLong} · {films.size} films
+              </p>
+            )}
+            <h1 className="mt-5 font-serif text-[2.9rem] leading-[1.02] font-light tracking-[-0.02em] text-balance text-moon sm:text-6xl lg:text-[4.6rem]">
+              Yesterday&apos;s world, explained in 3D.
+            </h1>
+            <p className="mt-6 max-w-[42ch] text-base leading-relaxed text-dust/70 sm:text-lg">
+              Every morning, the previous day&apos;s most-followed stories become short films on a
+              3D globe. Each story gets the analysis its kind deserves, and every claim links to its
+              source.
+            </p>
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Link
-                href={`/edition/${latest}`}
-                className="inline-flex items-center gap-1 text-sm font-medium text-ice hover:text-frost"
+                href="/today"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-sodium px-6 py-3 font-medium text-[#1a1206] transition-colors hover:bg-[#ffc46e] active:scale-[0.98]"
               >
-                All {stories.length} stories <ArrowRight size={14} />
+                Watch the {dayShort} edition <ArrowRight size={16} />
+              </Link>
+              <Link
+                href="/#how"
+                className="inline-flex items-center justify-center rounded-full border border-moon/18 px-6 py-3 text-moon transition-colors hover:border-moon/35 hover:bg-moon/5"
+              >
+                How it works
               </Link>
             </div>
-            <div className="mt-10 grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:gap-14">
-              <Link href={href(lead.slug)} className="group block">
-                <p className="text-sm font-medium" style={{ color: LENS_INFO[lead.lens].color }}>
-                  {LENS_INFO[lead.lens].label}
-                  {lead.update && ` · Update, day ${lead.update.day}`}
-                </p>
-                <h3 className="mt-2 text-2xl font-semibold tracking-tight text-frost group-hover:underline group-hover:decoration-ice/40 group-hover:underline-offset-4 sm:text-3xl">
-                  {lead.title}
-                </h3>
-                <p className="mt-3 text-base leading-relaxed text-ice/70 sm:text-lg">
-                  {lead.headline ?? lead.summary}
-                </p>
-                <span className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-ice group-hover:text-frost">
-                  Watch the film <ArrowRight size={14} />
-                </span>
-              </Link>
-              <ol className="divide-y divide-ice/10 border-y border-ice/10">
-                {rest.slice(0, 5).map((s, i) => (
-                  <li key={s.slug}>
-                    <Link href={href(s.slug)} className="group flex gap-4 py-4">
-                      <span className="w-5 shrink-0 pt-0.5 text-sm text-ice/40 tabular-nums">
-                        {i + 2}
-                      </span>
-                      <span className="min-w-0">
-                        <span
-                          className="text-xs font-medium"
-                          style={{ color: LENS_INFO[s.lens].color }}
-                        >
-                          {LENS_INFO[s.lens].label}
-                          {s.update && ` · Update, day ${s.update.day}`}
-                        </span>
-                        <span className="mt-0.5 block font-medium leading-snug text-frost group-hover:text-white group-hover:underline group-hover:decoration-ice/40 group-hover:underline-offset-4">
-                          {s.title}
-                        </span>
-                      </span>
-                    </Link>
-                  </li>
+            <LitCaption className="mt-10 max-w-sm" />
+          </div>
+        </div>
+
+        {/* The edition's first stories, like reels under the screen. */}
+        {latest && stories.length > 0 && (
+          <div className="relative border-t border-moon/8 bg-void/80 backdrop-blur-md">
+            <ol className="mx-auto grid max-w-6xl grid-cols-1 px-5 sm:grid-cols-2 sm:px-8 lg:grid-cols-5">
+              {stories.slice(0, 4).map((s) => (
+                <li key={s.slug} className="border-moon/8 max-lg:border-b lg:border-r">
+                  <Link
+                    href={href(s.slug)}
+                    className="group block py-5 text-sm sm:pr-6 lg:min-h-full lg:pl-0"
+                  >
+                    <StoryLabel story={s} />
+                    <span className="mt-1 line-clamp-2 block leading-snug text-moon group-hover:underline group-hover:decoration-moon/30 group-hover:underline-offset-4">
+                      {s.title}
+                    </span>
+                    {s.place && (
+                      <span className="mt-1 block truncate text-dust/45">{s.place.name}</span>
+                    )}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link
+                  href={`/edition/${latest}`}
+                  className="group flex h-full items-center gap-2 py-5 text-sm text-dust/70 transition-colors hover:text-moon lg:pl-6"
+                >
+                  All {stories.length} stories
+                  <ArrowRight
+                    size={15}
+                    className="transition-transform group-hover:translate-x-0.5"
+                  />
+                </Link>
+              </li>
+            </ol>
+          </div>
+        )}
+      </section>
+
+      {/* Proof: a real line from today's films, and the report it cites. */}
+      {proof && latest && (
+        <section className="border-t border-moon/8">
+          <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1fr_1.15fr] lg:gap-20 lg:py-28">
+            <div>
+              <Heading title="Proof on every line.">
+                Every sentence in a film cites the evidence it rests on, and a validator rejects any
+                sentence that doesn&apos;t. This is a line from one of today&apos;s films.
+              </Heading>
+              <dl className="mt-10 grid gap-6">
+                {PROMISES.map((p) => (
+                  <div key={p.title}>
+                    <dt className="text-moon">{p.title}</dt>
+                    <dd className="mt-1 text-sm leading-relaxed text-dust/60">{p.text}</dd>
+                  </div>
                 ))}
-              </ol>
+              </dl>
             </div>
+            <figure className="self-start rounded-2xl border border-moon/10 bg-night p-6 sm:p-8">
+              <p className="text-sm text-dust/50">
+                From the film{" "}
+                <Link
+                  href={href(proof.story.slug)}
+                  className="text-dust/80 underline decoration-moon/20 underline-offset-4 hover:text-moon"
+                >
+                  {proof.story.title}
+                </Link>
+              </p>
+              <blockquote className="mt-4 font-serif text-2xl leading-snug font-light text-moon sm:text-[1.7rem]">
+                {proof.sentence}
+                <sup className="ml-1 font-sans text-sm font-medium text-sodium">1</sup>
+              </blockquote>
+              {proof.ai && (
+                <p className="mt-3 text-xs text-dust/45">
+                  AI-written narration, every sentence checked against cited data.
+                </p>
+              )}
+              <figcaption className="mt-7 border-t border-moon/10 pt-5 text-sm">
+                <p className="flex gap-3">
+                  <span className="font-medium text-sodium">1</span>
+                  <span className="min-w-0">
+                    <a
+                      href={proof.evidence.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1 text-moon hover:underline hover:decoration-moon/30 hover:underline-offset-4"
+                    >
+                      {proof.source?.name ?? "Source"},{" "}
+                      {day(latest, { day: "numeric", month: "long", year: "numeric" })}
+                      <ArrowUpRight size={14} className="text-dust/50" />
+                    </a>
+                    <span className="mt-2 block leading-relaxed text-dust/60">
+                      &ldquo;{proof.evidence.quote}&rdquo;
+                    </span>
+                    {proof.evidence.links && proof.evidence.links.length > 0 && (
+                      <span className="mt-3 block text-dust/50">
+                        Reported by{" "}
+                        {proof.evidence.links.map((l, i) => (
+                          <span key={l.url}>
+                            {i > 0 && ", "}
+                            <a
+                              href={l.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="text-dust/80 underline decoration-moon/20 underline-offset-4 hover:text-moon"
+                            >
+                              {l.name}
+                            </a>
+                          </span>
+                        ))}
+                      </span>
+                    )}
+                    {proof.source && (
+                      <span className="mt-3 block text-xs text-dust/40">
+                        {proof.source.attribution} · {proof.source.license}
+                      </span>
+                    )}
+                  </span>
+                </p>
+              </figcaption>
+            </figure>
           </div>
         </section>
       )}
 
       {/* Lenses */}
-      <section id="lenses" className="scroll-mt-16 border-t border-ice/10 bg-[#050b14]">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
-          <SectionHead kicker="Lenses" title="Each story gets the analysis its kind needs.">
+      <section id="lenses" className="scroll-mt-16 border-t border-moon/8 bg-night">
+        <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 lg:py-28">
+          <Heading title="Each story gets the analysis its kind deserves.">
             An election is told with its results, a person with their life, a crash with its route.
             Anything else gets a general film: what happened, where, and who read about it.
-          </SectionHead>
-          <dl className="mt-10 grid gap-x-12 sm:grid-cols-2">
+          </Heading>
+          <dl className="mt-12 grid gap-x-14 sm:grid-cols-2">
             {LENSES.map(({ lens, title, text }) => (
-              <div key={lens} className="flex gap-4 border-t border-ice/10 py-4">
+              <div key={lens} className="flex gap-4 border-t border-moon/8 py-4">
                 <span
-                  className="mt-1.5 h-4 w-0.5 shrink-0 rounded-full"
+                  className="mt-[7px] size-2 shrink-0 rounded-full"
                   style={{ background: LENS_INFO[lens].color }}
+                  aria-hidden="true"
                 />
                 <span>
-                  <dt className="font-medium text-frost">{title}</dt>
-                  <dd className="mt-0.5 text-sm text-ice/65">{text}</dd>
+                  <dt className="text-moon">{title}</dt>
+                  <dd className="mt-0.5 text-sm text-dust/55">{text}</dd>
                 </span>
               </div>
             ))}
           </dl>
-          <div className="mt-14 grid gap-x-8 gap-y-10 sm:grid-cols-2">
-            {SHOWCASE.map((s) => (
+          <div className="mt-16 grid gap-x-8 gap-y-10 sm:grid-cols-2">
+            {STILLS.map((s) => (
               <figure key={s.src}>
                 <Image
                   src={s.src}
@@ -355,11 +457,11 @@ export default async function Landing() {
                   width={1366}
                   height={681}
                   sizes="(min-width: 640px) 50vw, 100vw"
-                  className="aspect-[1366/681] w-full rounded-xl border border-ice/10 object-cover"
+                  className="aspect-[1366/681] w-full rounded-xl border border-moon/8 object-cover"
                 />
-                <figcaption className="mt-3">
-                  <span className="font-medium text-frost">{s.title}.</span>{" "}
-                  <span className="text-sm text-ice/65">{s.text}</span>
+                <figcaption className="mt-3 text-sm">
+                  <span className="text-moon">{s.title}.</span>{" "}
+                  <span className="text-dust/55">{s.text}</span>
                 </figcaption>
               </figure>
             ))}
@@ -367,44 +469,22 @@ export default async function Landing() {
         </div>
       </section>
 
-      {/* Trust */}
-      <section className="border-t border-ice/10">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
-          <SectionHead kicker="Why you can trust it" title="Proof on every line." />
-          <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {TRUST.map(({ icon: Icon, title, text }) => (
-              <div key={title}>
-                <Icon className="text-ice" size={18} />
-                <p className="mt-3 font-medium text-frost">{title}</p>
-                <p className="mt-1.5 text-sm leading-relaxed text-ice/65">{text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* How it works */}
-      <section id="how" className="scroll-mt-16 border-t border-ice/10 bg-[#050b14]">
-        <div className="mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_1.1fr] lg:py-20">
-          <div>
-            <SectionHead kicker="How it works" title="Made overnight, free to watch.">
-              The work happens once a night in a GitHub Action. Visitors download static files: no
-              AI calls, no keys, no backend.
-            </SectionHead>
-            <pre className="mt-8 overflow-x-auto rounded-xl border border-ice/10 bg-black/40 p-4 font-mono text-[12px] leading-6 text-ice/80 sm:text-[13px]">
-              <code>{`pnpm edition 2026-11-04   # find and rank the stories
-pnpm stories 2026-11-04   # one film per story
-pnpm direct 2026-11-04 --ai   # optional narration
-pnpm validate:scenes      # every sentence cited`}</code>
-            </pre>
-          </div>
-          <ol className="divide-y divide-ice/10 border-y border-ice/10">
+      <section id="how" className="scroll-mt-16 border-t border-moon/8">
+        <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1fr_1.15fr] lg:gap-20 lg:py-28">
+          <Heading title="Made overnight, free to watch.">
+            The work happens once a night, before anyone visits. Watching a film downloads static
+            files: no AI calls, no keys, no server.
+          </Heading>
+          <ol className="divide-y divide-moon/8 border-y border-moon/8">
             {STEPS.map((s, i) => (
-              <li key={s.title} className="flex gap-4 py-5">
-                <span className="w-5 shrink-0 text-sm text-ice/40 tabular-nums">{i + 1}</span>
+              <li key={s.title} className="flex gap-5 py-5">
+                <span className="w-5 shrink-0 font-serif text-lg leading-6 text-dust/40 tabular-nums">
+                  {i + 1}
+                </span>
                 <span>
-                  <span className="block font-medium text-frost">{s.title}</span>
-                  <span className="mt-1 block text-sm leading-relaxed text-ice/65">{s.text}</span>
+                  <span className="block text-moon">{s.title}</span>
+                  <span className="mt-1 block text-sm leading-relaxed text-dust/60">{s.text}</span>
                 </span>
               </li>
             ))}
@@ -413,23 +493,23 @@ pnpm validate:scenes      # every sentence cited`}</code>
       </section>
 
       {/* Archive */}
-      <section id="archive" className="scroll-mt-16 border-t border-ice/10">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
-          <SectionHead kicker="Archive" title="Every edition is kept.">
+      <section id="archive" className="scroll-mt-16 border-t border-moon/8 bg-night">
+        <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 lg:py-28">
+          <Heading title="Every edition is kept.">
             Editions follow the news for three days, then freeze. Day by day, the archive becomes a
             record of the planet.
-          </SectionHead>
-          <ul className="mt-10 divide-y divide-ice/10 border-y border-ice/10">
+          </Heading>
+          <ul className="mt-12 divide-y divide-moon/8 border-y border-moon/8">
             {archive.map(({ date, edition: e }) => (
               <li key={date}>
                 <Link
                   href={`/edition/${date}`}
-                  className="group grid gap-1 py-4 sm:grid-cols-[14rem_1fr_auto] sm:items-center sm:gap-6"
+                  className="group grid gap-1 py-4 sm:grid-cols-[15rem_1fr_auto] sm:items-baseline sm:gap-8"
                 >
-                  <span className="font-medium text-frost">
+                  <span className="font-serif text-xl text-moon">
                     {day(date, { weekday: "long", day: "numeric", month: "long" })}
                   </span>
-                  <span className="truncate text-sm text-ice/65">
+                  <span className="truncate text-sm text-dust/55">
                     {e.stories.length} stories ·{" "}
                     {e.stories
                       .slice(0, 3)
@@ -438,7 +518,7 @@ pnpm validate:scenes      # every sentence cited`}</code>
                   </span>
                   <ArrowRight
                     size={16}
-                    className="hidden text-ice/40 transition group-hover:translate-x-0.5 group-hover:text-ice sm:block"
+                    className="hidden text-dust/35 transition group-hover:translate-x-0.5 group-hover:text-moon sm:block"
                   />
                 </Link>
               </li>
@@ -446,25 +526,25 @@ pnpm validate:scenes      # every sentence cited`}</code>
           </ul>
           {classics.length > 0 && (
             <>
-              <h3 className="mt-14 font-medium text-frost">
+              <h3 className="mt-16 font-serif text-2xl font-light text-moon">
                 Classics: landmark events, replayed minute by minute
               </h3>
-              <ul className="mt-4 grid gap-x-8 sm:grid-cols-2">
+              <ul className="mt-5 grid gap-x-10 sm:grid-cols-2">
                 {classics.map((c) => (
-                  <li key={c.id} className="border-t border-ice/10">
+                  <li key={c.id} className="border-t border-moon/8">
                     <Link
                       href={`/replay/${c.id}`}
                       className="group flex items-baseline justify-between gap-4 py-3"
                     >
                       <span>
-                        <span className="font-medium text-frost group-hover:underline group-hover:decoration-ice/40 group-hover:underline-offset-4">
+                        <span className="text-moon group-hover:underline group-hover:decoration-moon/30 group-hover:underline-offset-4">
                           {c.title}
                         </span>
-                        <span className="ml-2 text-sm text-ice/55">{c.date}</span>
+                        <span className="ml-2 text-sm text-dust/45">{c.date}</span>
                       </span>
                       <ArrowUpRight
                         size={15}
-                        className="shrink-0 text-ice/40 group-hover:text-ice"
+                        className="shrink-0 text-dust/35 group-hover:text-moon"
                       />
                     </Link>
                   </li>
@@ -476,23 +556,21 @@ pnpm validate:scenes      # every sentence cited`}</code>
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="scroll-mt-16 border-t border-ice/10">
-        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1fr_1.6fr] lg:py-20">
-          <SectionHead kicker="FAQ" title="Questions, answered.">
-            Something else? Open an issue on GitHub.
-          </SectionHead>
-          <div className="divide-y divide-ice/10 border-y border-ice/10">
+      <section id="faq" className="scroll-mt-16 border-t border-moon/8">
+        <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1fr_1.6fr] lg:gap-20 lg:py-28">
+          <Heading title="Questions, answered.">Something else? Open an issue on GitHub.</Heading>
+          <div className="divide-y divide-moon/8 border-y border-moon/8">
             {FAQ.map((f) => (
               <details key={f.q} className="group">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-4 font-medium text-frost [&::-webkit-details-marker]:hidden">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-4 text-moon [&::-webkit-details-marker]:hidden">
                   {f.q}
                   <Plus
                     size={18}
-                    className="shrink-0 text-ice/60 transition group-open:rotate-45"
+                    className="shrink-0 text-dust/50 transition-transform group-open:rotate-45"
                     aria-hidden="true"
                   />
                 </summary>
-                <p className="pb-5 text-sm leading-relaxed text-ice/70 sm:text-base">{f.a}</p>
+                <p className="pb-5 text-sm leading-relaxed text-dust/65 sm:text-base">{f.a}</p>
               </details>
             ))}
           </div>
@@ -500,13 +578,13 @@ pnpm validate:scenes      # every sentence cited`}</code>
       </section>
 
       {/* Open source */}
-      <section className="border-t border-ice/10">
-        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-16 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:py-20">
+      <section className="border-t border-moon/8">
+        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-16 sm:px-8 lg:flex-row lg:items-end lg:justify-between lg:py-20">
           <div className="max-w-xl">
-            <h2 className="text-2xl font-semibold tracking-tight text-frost sm:text-3xl">
+            <h2 className="font-serif text-3xl font-light tracking-[-0.01em] text-moon sm:text-4xl">
               Open source. Add a lens.
             </h2>
-            <p className="mt-2 text-ice/70">
+            <p className="mt-3 text-dust/65">
               Earthlog is MIT-licensed. Fork it, run it for your own region, or teach it a new kind
               of story: a lens is one file and a few tests.
             </p>
@@ -516,17 +594,17 @@ pnpm validate:scenes      # every sentence cited`}</code>
               href={REPO_URL}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-ice px-5 py-3 font-semibold text-void transition hover:bg-frost"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-moon/18 px-5 py-2.5 text-moon transition-colors hover:border-moon/35 hover:bg-moon/5"
             >
-              <GithubMark size={16} /> Read the source
+              Read the source <ArrowUpRight size={15} />
             </a>
             <a
               href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-ice/20 px-5 py-3 font-semibold text-frost transition hover:border-ice/45 hover:bg-ice/5"
+              className="inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-dust/75 transition-colors hover:text-moon"
             >
-              How to contribute
+              How to contribute <ArrowUpRight size={15} />
             </a>
           </div>
         </div>

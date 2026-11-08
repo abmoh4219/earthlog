@@ -33,7 +33,7 @@ export function Legend() {
           className="glass pointer-events-none absolute bottom-[calc(9vh+5.5rem)] left-6 z-20 hidden space-y-1.5 rounded-xl px-3 py-2.5 md:block"
         >
           {legend.map((l) => (
-            <li key={l.label} className="flex items-center gap-2 text-[11px] text-frost/85">
+            <li key={l.label} className="flex items-center gap-2 text-[11px] text-moon/85">
               <span className="size-2.5 rounded-sm" style={{ background: l.color }} />
               {l.label}
             </li>

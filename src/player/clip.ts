@@ -62,11 +62,12 @@ function clipText(ctx: CanvasRenderingContext2D, text: string, width: number): s
   return `${t.trimEnd()}…`;
 }
 
+// The site's night-side palette (globals.css): moonlight text, dust for secondary text.
 const INK = {
-  frost: "#e8f6ff",
-  ice: "rgba(154,217,255,0.85)",
-  muted: "rgba(154,217,255,0.55)",
-  track: "rgba(154,217,255,0.14)",
+  frost: "#f1ebdf",
+  ice: "rgba(212,205,191,0.85)",
+  muted: "rgba(212,205,191,0.55)",
+  track: "rgba(212,205,191,0.14)",
 };
 
 /**

@@ -35,29 +35,29 @@ function ClockHud({
       <div className="max-w-xl">
         <Link
           href={back?.href ?? "/"}
-          className="font-medium pointer-events-auto text-xs text-ice/80 hover:text-ice"
+          className="font-medium pointer-events-auto text-xs text-dust/80 hover:text-dust"
         >
           Earthlog{back ? ` · ${back.label}` : ""}
         </Link>
-        <h1 className="mt-2 line-clamp-2 text-xl font-semibold tracking-tight text-frost sm:mt-3 sm:text-2xl md:text-4xl">
+        <h1 className="mt-2 line-clamp-2 font-serif text-xl leading-tight font-normal tracking-[-0.015em] text-moon sm:mt-3 sm:text-2xl md:text-4xl">
           {scene.title}
         </h1>
-        <p className="mt-1.5 text-sm text-ice/70 md:text-base">{scene.subtitle}</p>
+        <p className="mt-1.5 text-sm text-dust/70 md:text-base">{scene.subtitle}</p>
         {/* Results and reports fill in for days: say when this film read its sources. */}
-        <p className="font-medium mt-1 text-xs text-ice/45">
+        <p className="font-medium mt-1 text-xs text-dust/45">
           Data as of {asOf(scene.generatedBy.at)}
         </p>
       </div>
 
       {second > 0 && (
         <div className="text-right font-mono tabular-nums">
-          <div className="text-3xl font-light tracking-tight text-frost md:text-5xl">
+          <div className="font-serif text-3xl font-light tracking-[-0.02em] text-moon md:text-5xl">
             {clockText(t, tz)}
           </div>
-          <div className="font-medium mt-1 text-xs text-ice/70">
+          <div className="font-medium mt-1 text-xs text-dust/70">
             {dateText(t, tz)} · {zoneText(t, tz)}
           </div>
-          <div className="font-medium mt-0.5 text-xs text-ice/45">{clockText(t, "UTC")} UTC</div>
+          <div className="font-medium mt-0.5 text-xs text-dust/45">{clockText(t, "UTC")} UTC</div>
           {typicalNight && (
             <div
               className="font-medium mt-3 inline-block rounded-md border border-energy/30 bg-energy/10 px-2 py-1 text-xs text-energy/90"
@@ -115,28 +115,28 @@ function StoryHud({
       <div className="max-w-2xl">
         <Link
           href={back?.href ?? "/"}
-          className="font-medium pointer-events-auto text-xs text-ice/80 hover:text-ice"
+          className="font-medium pointer-events-auto text-xs text-dust/80 hover:text-dust"
         >
           Earthlog{back ? ` · ${back.label}` : ""}
         </Link>
-        <h1 className="mt-2 line-clamp-2 text-xl font-semibold tracking-tight text-frost sm:mt-3 sm:text-2xl md:text-4xl">
+        <h1 className="mt-2 line-clamp-2 font-serif text-xl leading-tight font-normal tracking-[-0.015em] text-moon sm:mt-3 sm:text-2xl md:text-4xl">
           {scene.title}
         </h1>
-        <p className="mt-1.5 text-sm text-ice/70 md:text-base">{scene.subtitle}</p>
+        <p className="mt-1.5 text-sm text-dust/70 md:text-base">{scene.subtitle}</p>
         {/* Results and reports fill in for days: say when this film read its sources. */}
-        <p className="font-medium mt-1 text-xs text-ice/45">
+        <p className="font-medium mt-1 text-xs text-dust/45">
           Data as of {asOf(scene.generatedBy.at)}
         </p>
         {/* CLAUDE.md §3.3: AI narration is always labelled. */}
         {scene.generatedBy.method === "claude" && (
-          <p className="mt-1 text-[11px] text-ice/55">
+          <p className="mt-1 text-[11px] text-dust/55">
             AI-written narration, every sentence checked against cited data
           </p>
         )}
       </div>
       {/* Phones: the chapter card announces each chapter; this column would crowd the title. */}
       <div className="hidden shrink-0 text-right sm:block">
-        <div className="font-mono text-xs text-ice/55 tabular-nums">
+        <div className="font-mono text-xs text-dust/55 tabular-nums">
           {String(index + 1).padStart(2, "0")} / {String(scene.chapters.length).padStart(2, "0")}
         </div>
         <AnimatePresence mode="wait">
@@ -146,12 +146,12 @@ function StoryHud({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.45 }}
-            className="mt-1 text-2xl font-light tracking-tight text-frost md:text-4xl"
+            className="mt-1 font-serif text-2xl font-light tracking-[-0.02em] text-moon md:text-4xl"
           >
             {chapter?.title}
           </motion.div>
         </AnimatePresence>
-        <div className="font-medium mt-1 text-xs text-ice/55">{day}</div>
+        <div className="font-medium mt-1 text-xs text-dust/55">{day}</div>
       </div>
     </header>
   );

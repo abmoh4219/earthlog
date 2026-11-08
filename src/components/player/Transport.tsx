@@ -42,8 +42,8 @@ function Toggle({
       className={cn(
         "grid size-9 place-items-center rounded-lg border transition",
         on
-          ? "border-ice/40 bg-ice/15 text-ice shadow-[0_0_14px_rgb(154_217_255/0.25)]"
-          : "border-transparent text-ice/45 hover:text-ice/80",
+          ? "border-dust/40 bg-dust/15 text-dust shadow-[0_0_14px_rgb(154_217_255/0.25)]"
+          : "border-transparent text-dust/45 hover:text-dust/80",
       )}
     >
       {children}
@@ -72,7 +72,7 @@ export function Transport() {
           type="button"
           onClick={a.togglePlay}
           aria-label={playing ? "Pause" : "Play"}
-          className="grid size-10 shrink-0 place-items-center rounded-xl bg-ice text-void transition hover:bg-frost"
+          className="grid size-10 shrink-0 place-items-center rounded-xl bg-dust text-void transition hover:bg-moon"
         >
           {playing ? (
             <Pause size={18} fill="currentColor" />
@@ -94,7 +94,7 @@ export function Transport() {
             onClick={a.setAuto}
             className={cn(
               "rounded-md px-2 py-1 tracking-wider uppercase transition",
-              auto ? "bg-ice/15 text-ice" : "text-ice/50 hover:text-ice/80",
+              auto ? "bg-dust/15 text-dust" : "text-dust/50 hover:text-dust/80",
             )}
             title="Follow the director's pacing"
           >
@@ -107,13 +107,15 @@ export function Transport() {
               onClick={() => a.setSpeed(s)}
               className={cn(
                 "rounded-md px-2 py-1 transition",
-                !auto && manualSpeed === s ? "bg-ice/15 text-ice" : "text-ice/50 hover:text-ice/80",
+                !auto && manualSpeed === s
+                  ? "bg-dust/15 text-dust"
+                  : "text-dust/50 hover:text-dust/80",
               )}
             >
               {speedText(s)}
             </button>
           ))}
-          <span className="w-20 text-right whitespace-nowrap text-ice/40 tabular-nums">
+          <span className="w-20 text-right whitespace-nowrap text-dust/40 tabular-nums">
             {speedText(speed)}
           </span>
         </div>
@@ -122,7 +124,7 @@ export function Transport() {
         <div className="shrink-0 sm:hidden">
           <ShareButton />
         </div>
-        <div className="hidden shrink-0 items-center gap-1 border-l border-ice/10 pl-2 sm:flex">
+        <div className="hidden shrink-0 items-center gap-1 border-l border-dust/10 pl-2 sm:flex">
           <ShareButton />
           {story && <ClipButton />}
           <Toggle

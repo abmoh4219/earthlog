@@ -43,16 +43,16 @@ export function Help() {
             transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 className="font-medium text-xs text-ice/70">Controls</h2>
+            <h2 className="font-medium text-xs text-dust/70">Controls</h2>
             <ul className="mt-4 space-y-2.5">
               {SHORTCUTS.map(([keys, action]) => (
                 <li key={action} className="flex items-center justify-between gap-4 text-sm">
-                  <span className="text-frost/85">{action}</span>
+                  <span className="text-moon/85">{action}</span>
                   <span className="flex shrink-0 gap-1">
                     {keys.map((k) => (
                       <kbd
                         key={k}
-                        className="min-w-7 rounded-md border border-ice/25 bg-ice/10 px-1.5 py-0.5 text-center font-mono text-[11px] text-ice"
+                        className="min-w-7 rounded-md border border-dust/25 bg-dust/10 px-1.5 py-0.5 text-center font-mono text-[11px] text-dust"
                       >
                         {k}
                       </kbd>
@@ -61,7 +61,7 @@ export function Help() {
                 </li>
               ))}
             </ul>
-            <p className="mt-5 border-t border-ice/10 pt-3 text-xs leading-relaxed text-ice/55">
+            <p className="mt-5 border-t border-dust/10 pt-3 text-xs leading-relaxed text-dust/55">
               Every caption cites the measurements behind it: hover a numbered chip to see the
               reading. Colours show each country against its own normal, not against other
               countries.

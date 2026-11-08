@@ -39,10 +39,10 @@ export function Panels() {
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             className="glass shrink-0 rounded-2xl p-4 [@media(max-height:820px)]:p-3"
           >
-            <h2 className="font-medium text-xs text-ice/60">{p.title}</h2>
+            <h2 className="font-medium text-xs text-dust/60">{p.title}</h2>
             <PanelBody panel={p} evidence={evidence} />
             {p.note && (
-              <p className="mt-3 border-t border-ice/10 pt-2 text-[10px] leading-snug text-ice/45 [@media(max-height:820px)]:mt-2">
+              <p className="mt-3 border-t border-dust/10 pt-2 text-[10px] leading-snug text-dust/45 [@media(max-height:820px)]:mt-2">
                 {p.note}
               </p>
             )}
@@ -58,7 +58,7 @@ function Chip({ ids, evidence }: { ids: string[]; evidence: Map<string, Evidence
   return (
     <sup
       title={title}
-      className="ml-1 cursor-help text-[10px] font-medium text-ice/45 tabular-nums transition hover:text-ice"
+      className="ml-1 cursor-help text-[10px] font-medium text-dust/45 tabular-nums transition hover:text-dust"
     >
       {ids.length}
     </sup>
@@ -77,14 +77,14 @@ function PanelBody({ panel, evidence }: { panel: Panel; evidence: Map<string, Ev
             transition={{ delay: 0.15 + i * 0.12, duration: 0.4 }}
             className="grid grid-cols-[minmax(0,2fr)_minmax(0,3fr)] items-baseline gap-x-3"
           >
-            <dt className="text-xs break-words text-ice/55">{item.label}</dt>
-            <dd className="text-right text-sm break-words text-frost [@media(max-height:820px)]:text-xs">
+            <dt className="text-xs break-words text-dust/55">{item.label}</dt>
+            <dd className="text-right text-sm break-words text-moon [@media(max-height:820px)]:text-xs">
               {item.url ? (
                 <a
                   href={item.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-1 text-ice underline-offset-2 hover:underline"
+                  className="inline-flex items-center gap-1 text-dust underline-offset-2 hover:underline"
                 >
                   {item.text ?? "Open"}
                   <ExternalLink size={11} />
@@ -110,10 +110,10 @@ function PanelBody({ panel, evidence }: { panel: Panel; evidence: Map<string, Ev
         {markerAt !== undefined && panel.marker && (
           <li
             aria-hidden
-            className="pointer-events-none absolute -top-1 bottom-0 z-10 w-px bg-frost/60"
+            className="pointer-events-none absolute -top-1 bottom-0 z-10 w-px bg-moon/60"
             style={{ left: `${markerAt}%` }}
           >
-            <span className="absolute -bottom-4 -translate-x-1/2 font-mono text-[9px] whitespace-nowrap text-frost/70">
+            <span className="absolute -bottom-4 -translate-x-1/2 font-mono text-[9px] whitespace-nowrap text-moon/70">
               {panel.marker.label}
             </span>
           </li>
@@ -121,18 +121,18 @@ function PanelBody({ panel, evidence }: { panel: Panel; evidence: Map<string, Ev
         {panel.items.map((item, i) => (
           <li key={`${item.label}:${item.cites.join(",")}`}>
             <div className="flex items-baseline justify-between gap-2 text-xs">
-              <span className="min-w-0 truncate text-frost/85" title={item.label}>
+              <span className="min-w-0 truncate text-moon/85" title={item.label}>
                 {item.label}
               </span>
-              <span className="shrink-0 font-mono text-frost tabular-nums">
+              <span className="shrink-0 font-mono text-moon tabular-nums">
                 {item.text ?? item.value.toLocaleString("en-GB")}
                 <Chip ids={item.cites} evidence={evidence} />
               </span>
             </div>
-            <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-ice/10">
+            <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-dust/10">
               <motion.div
                 className="h-full rounded-full"
-                style={{ background: item.color ?? "var(--color-ice)" }}
+                style={{ background: item.color ?? "var(--color-dust)" }}
                 initial={{ width: 0 }}
                 animate={{ width: `${(item.value / max) * 100}%` }}
                 transition={{ delay: 0.2 + i * 0.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
@@ -180,12 +180,12 @@ function LineChart({
             x2={W}
             y1={y(max * f)}
             y2={y(max * f)}
-            stroke="rgb(154 217 255 / 0.1)"
+            stroke="rgb(212 205 191 / 0.1)"
           />
         ))}
         {panel.series.map((s, k) => {
           const d = s.points.map((p, i) => `${i ? "L" : "M"}${x(i)},${y(p.y)}`).join("");
-          const color = s.color ?? "var(--color-ice)";
+          const color = s.color ?? "var(--color-dust)";
           return (
             <g key={s.label}>
               {k === 0 && (
@@ -215,27 +215,27 @@ function LineChart({
             cx={x(mark)}
             cy={y(panel.series[0].points[mark]?.y ?? 0)}
             r={4}
-            fill={panel.series[0].color ?? "var(--color-ice)"}
+            fill={panel.series[0].color ?? "var(--color-dust)"}
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ delay: 1.5, type: "spring", stiffness: 300, damping: 14 }}
           />
         )}
-        <text x={0} y={10} className="fill-ice/45 font-mono text-[9px]">
+        <text x={0} y={10} className="fill-dust/45 font-mono text-[9px]">
           {Math.round(max).toLocaleString("en-GB")}
         </text>
       </svg>
-      <div className="mt-1 flex justify-between font-mono text-[9px] text-ice/40">
+      <div className="mt-1 flex justify-between font-mono text-[9px] text-dust/40">
         <span>{first}</span>
         <span>{panel.unit}</span>
         <span>{last}</span>
       </div>
       <ul className="mt-2 space-y-1">
         {panel.series.map((s) => (
-          <li key={s.label} className="flex items-center gap-2 text-[11px] text-frost/80">
+          <li key={s.label} className="flex items-center gap-2 text-[11px] text-moon/80">
             <span
               className="h-0.5 w-3 rounded-full"
-              style={{ background: s.color ?? "var(--color-ice)" }}
+              style={{ background: s.color ?? "var(--color-dust)" }}
             />
             <span className="truncate">{s.label}</span>
             <Chip ids={s.cites} evidence={evidence} />
@@ -260,7 +260,7 @@ function Parliament({
   const seats = useMemo(() => parliamentSeats(panel.total), [panel.total]);
   const colors: string[] = [];
   for (const item of panel.items)
-    for (let k = 0; k < item.value; k++) colors.push(item.color ?? "var(--color-ice)");
+    for (let k = 0; k < item.value; k++) colors.push(item.color ?? "var(--color-dust)");
   const Wd = 300;
   const Hd = 156;
   return (
@@ -279,7 +279,7 @@ function Parliament({
               cx={Wd / 2 + d.x * (Wd / 2 - 6)}
               cy={Hd - 4 - d.y * (Hd - 10)}
               r={seats.r * (Wd / 2 - 6)}
-              fill={colors[i] ?? "rgb(154 217 255 / 0.12)"}
+              fill={colors[i] ?? "rgb(212 205 191 / 0.12)"}
             />
           ))}
         </motion.g>
@@ -290,7 +290,7 @@ function Parliament({
               x2={Wd / 2}
               y1={Hd - 4 - 1.04 * (Hd - 10)}
               y2={Hd - 4 - 0.36 * (Hd - 10)}
-              stroke="rgb(232 246 255 / 0.55)"
+              stroke="rgb(241 235 223 / 0.55)"
               strokeDasharray="2 3"
             />
             {/* In the arc's hollow centre: the number big, the meaning small. */}
@@ -298,7 +298,7 @@ function Parliament({
               x={Wd / 2}
               y={Hd - 20}
               textAnchor="middle"
-              className="fill-frost font-mono text-[18px]"
+              className="fill-moon font-mono text-[18px]"
             >
               {panel.majority}
             </text>
@@ -306,7 +306,7 @@ function Parliament({
               x={Wd / 2}
               y={Hd - 6}
               textAnchor="middle"
-              className="fill-ice/60 font-mono text-[8px] tracking-wider uppercase"
+              className="fill-dust/60 font-mono text-[8px] tracking-wider uppercase"
             >
               for a majority
             </text>
@@ -319,11 +319,11 @@ function Parliament({
         {panel.items.map((item) => (
           <li
             key={`${item.label}:${item.cites.join(",")}`}
-            className="flex min-w-0 items-center gap-1.5 text-[11px] text-frost/85"
+            className="flex min-w-0 items-center gap-1.5 text-[11px] text-moon/85"
           >
             <span
               className="size-2 shrink-0 rounded-full"
-              style={{ background: item.color ?? "var(--color-ice)" }}
+              style={{ background: item.color ?? "var(--color-dust)" }}
             />
             <span className="min-w-0 truncate" title={item.label}>
               {item.label}

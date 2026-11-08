@@ -23,9 +23,9 @@ export function ShareButton() {
       type="button"
       onClick={share}
       title={copied ? "Link copied" : "Copy a link to this moment"}
-      className="grid size-9 place-items-center rounded-lg border border-transparent text-ice/45 transition hover:text-ice/80"
+      className="grid size-9 place-items-center rounded-lg border border-transparent text-dust/45 transition hover:text-dust/80"
     >
-      {copied ? <Check size={16} className="text-ice" /> : <Link2 size={16} />}
+      {copied ? <Check size={16} className="text-dust" /> : <Link2 size={16} />}
     </button>
   );
 }

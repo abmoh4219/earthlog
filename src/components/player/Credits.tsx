@@ -27,7 +27,7 @@ export function Credits() {
 
   return (
     <div className="pointer-events-auto absolute inset-x-0 bottom-0 z-30 flex h-[9vh] items-end justify-center px-6 pb-2">
-      <p className="max-w-5xl text-center font-mono text-[10px] leading-relaxed text-ice/40">
+      <p className="max-w-5xl text-center font-mono text-[10px] leading-relaxed text-dust/40">
         Imagery: {imageryCredit}
         {dataCredit && <> · Data: {dataCredit}</>} · Borders: Natural Earth · Globe: CesiumJS
       </p>

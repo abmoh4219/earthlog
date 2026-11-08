@@ -389,3 +389,22 @@ From 2 to 6 November, the same stories filled most editions: the 2026 US electio
 ### How it is built
 
 `buildEdition` takes the recent editions as `history` (`scripts/edition.ts` reads them from `public/editions/`); the rules are pure and tested (`test/repeats.test.ts`). `pnpm edition <date> --dry` prints the picks without writing.
+
+---
+
+## ADR-0016: Visual identity: the night side
+
+- **Date:** 2026-11-08
+- **Status:** Accepted (chosen by Abdelah from three directions: a logbook, the night side, an atlas plate)
+
+### Decision
+
+- The site is the dark side of the planet. Tokens in `src/app/globals.css`: `void` (background), `night` (raised bands), `moon` (text), `dust` (secondary text and hairlines), `sodium` (the amber of city lights: the one accent, used once or twice per screen). The colours that carry meaning in films (loss, energy, attention, lens colours) are unchanged.
+- Headlines in Newsreader (OFL, self-hosted at build by `next/font`, no new dependency); text stays Geist.
+- The landing globe is lit by the real sun at the moment of the visit (`src/globe/sun.ts`, tested), faces the dawn line so both the night side and the sunrise are always in view, and shows city lights from NASA Black Marble, labelled as a 2016 composite, never as last night.
+- The landing shows proof instead of claiming it: a real line from one of the day's films with the report it cites and the outlets behind it, picked at build time.
+- No eyebrow labels over sections, no glows or breathing animations, no icon feature grids; story markers are flat amber points.
+
+### Why
+
+The launch look (navy with one pale blue everywhere) read as a generic template. Of the three directions, the night side matches the films (which are dark) and gives a reason to open the page (the globe is different every visit). Dark plus a globe is also the look of intelligence dashboards, so the serif headlines, warm text and single amber accent are what keep Earthlog editorial instead.
