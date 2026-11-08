@@ -1,22 +1,22 @@
-# Outlets' headlines, every three hours (ADR-0017).
+# Outlets' headlines, every hour (ADR-0017, ADR-0018).
 # Reads each outlet's official RSS feed, keeps 72 hours of headlines (headline, link, time:
-# never the article), groups them into stories, and commits public/now/now.json as a `data:`
-# commit. The push triggers a Vercel deploy (8 a day, well within the Hobby plan's 100 a day:
-# https://vercel.com/docs/limits). The site reads the file for its "Now" view; the nightly
-# edition reads it to credit the outlets that reported each story.
+# never the article), groups them into stories and films the hottest five (ADR-0020). The
+# result, now.json and films/, is force-pushed to the `now-data` branch as a single commit: the branch never grows,
+# main gets no hourly commits and Vercel no hourly deploys (that branch carries its own
+# vercel.json turning deployments off). The site reads the file from raw.githubusercontent.com
+# while /now is open; the nightly edition reads it to credit the outlets of each story.
 name: News
 
 on:
   schedule:
-    - cron: "15 */3 * * *"
+    - cron: "15 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Shared with the nightly edition: one data commit at a time.
 concurrency:
-  group: data-commits
+  group: now-data
   cancel-in-progress: false
 
 jobs:
@@ -32,18 +32,30 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
 
+      # The last 72 hours live on the branch: start from there, so headlines older than the
+      # feeds' own window are kept until they age out.
+      - name: Restore the headlines
+        run: |
+          if git fetch --depth=1 origin now-data 2>/dev/null; then
+            git show FETCH_HEAD:now.json > public/now/now.json
+          fi
+
       - name: Read the feeds
         run: pnpm news
 
-      - name: Commit the headlines
+      - name: Publish to the now-data branch
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
+          dir="$(mktemp -d)"
+          # now.json and this hour's films (films/<story>/scene.json, evidence.json, sources.json).
+          cp -r public/now/. "$dir/"
+          printf '{\n  "git": { "deploymentEnabled": false }\n}\n' > "$dir/vercel.json"
+          cd "$dir"
+          git init -q -b now-data
           git config user.name "earthlog-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/now
-          if git diff --cached --quiet; then
-            echo "Nothing new."
-          else
-            git commit -m "data: news $(date -u +%FT%H:%MZ)"
-            git pull --rebase
-            git push
-          fi
+          git add -A
+          git commit -q -m "data: news $(date -u +%FT%H:%MZ)"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" now-data

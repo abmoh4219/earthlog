@@ -101,40 +101,40 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:20Z",
-      "lon": 120.68806407286813,
-      "lat": 14.958491549062174,
-      "range": 1500000,
+      "t": "2026-11-04T00:00:21Z",
+      "lon": 111.69753983009855,
+      "lat": 16.47340810332359,
+      "range": 4980261.728403901,
       "heading": 0,
       "pitch": -55,
-      "move": "glide"
+      "move": "flight"
     },
     {
-      "t": "2026-11-04T00:00:23Z",
-      "lon": 120.68806407286813,
-      "lat": 14.958491549062174,
-      "range": 1358307.7707206125,
+      "t": "2026-11-04T00:00:24Z",
+      "lon": 111.69753983009855,
+      "lat": 16.47340810332359,
+      "range": 4509818.803942325,
       "heading": 9.7,
       "pitch": -52.5,
       "move": "glide"
     },
     {
       "t": "2026-11-04T00:00:26Z",
-      "lon": 120.68806407286813,
-      "lat": 14.958491549062174,
-      "range": 1230000,
+      "lon": 111.69753983009855,
+      "lat": 16.47340810332359,
+      "range": 4083814.6172911986,
       "heading": 19.4,
       "pitch": -50,
       "move": "glide"
     },
     {
-      "t": "2026-11-04T00:00:29Z",
+      "t": "2026-11-04T00:00:30Z",
       "lon": 120.95444444,
       "lat": 13.90916667,
       "range": 1430000,
       "heading": -10,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
       "t": "2026-11-04T00:00:32Z",
@@ -190,43 +190,36 @@
   ],
   "beats": [
     {
-      "t": "2026-11-04T00:00:01Z",
-      "text": "Philippine authorities seized a shipment of methamphetamine at the Manila International Container Port, and its origin is traced to Laos.",
+      "t": "2026-11-04T00:00:00Z",
+      "text": "Philippine authorities seize a shipment of methamphetamine, whose origin is traced to Laos, at the Manila International Container Port.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
-      "t": "2026-11-04T00:00:05Z",
-      "text": "The shipment arrived six days after local police in Laos found similar contraband, supposed to be brought to the Philippines, on October 1.",
+      "t": "2026-11-04T00:00:10Z",
+      "text": "On the map: Port of Manila, Philippines, where the reports place it.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
-      "t": "2026-11-04T00:00:11Z",
-      "text": "The seizure is placed at the Port of Manila in the Philippines, as the reports describe it.",
+      "t": "2026-11-04T00:00:18Z",
+      "text": "Also named in the reports: 2026 Laos private jet drug smuggling case.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
-      "t": "2026-11-04T00:00:19Z",
-      "text": "The reports also name Malasiqui, Pangasinan.",
+      "t": "2026-11-04T00:00:27Z",
+      "text": "Reported by Arab News and Philippine Daily Inquirer.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
     },
     {
-      "t": "2026-11-04T00:00:28Z",
-      "text": "The Philippine Star reported the story.",
-      "cites": [
-        "wiki:2026-11-04:3"
-      ]
-    },
-    {
-      "t": "2026-11-04T00:00:36Z",
-      "text": "The sources are Wikipedia and Current events, and each caption links to the evidence it rests on.",
+      "t": "2026-11-04T00:00:35Z",
+      "text": "Sources: Wikipedia, Current events. Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:3"
       ]
@@ -264,29 +257,35 @@
   "panels": [
     {
       "id": "sources",
-      "t": "2026-11-04T00:00:28Z",
-      "until": "2026-11-04T00:00:35Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
-          "label": "The Philippine Star",
+          "label": "Arab News",
           "text": "Open",
-          "url": "https://www.philstar.com/nation/2026/11/06/2568219/5-killed-pangasinan-firecracker-factory-explosion/",
+          "url": "https://www.arabnews.com/world/philippines-seizes-200-kg-of-methamphetamine-at-manila-port-3009754",
+          "cites": [
+            "wiki:2026-11-04:3"
+          ]
+        },
+        {
+          "label": "Philippine Daily Inquirer",
+          "text": "Open",
+          "url": "https://globalnation.inquirer.net/345789/this-time-shabu-cargo-from-laos-reaches-ph-before-seizure",
           "cites": [
             "wiki:2026-11-04:3"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-04T00:00:28Z",
+      "until": "2026-11-04T00:00:35Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-04T00:00:36Z",
-      "until": "2026-11-04T00:00:42Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -296,13 +295,13 @@
             "wiki:2026-11-04:3"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-04T00:00:36Z",
+      "until": "2026-11-04T00:00:42Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-07T11:18:47Z",
-    "costUsd": 0
+    "method": "template",
+    "at": "2026-11-08T00:00:00Z"
   }
 }

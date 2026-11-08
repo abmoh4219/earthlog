@@ -1,10 +1,12 @@
 "use client";
 
 import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { LitCaption } from "@/components/landing/HeroGlobe";
 import type { FrontGlobe, FrontStory } from "@/globe/front";
-import { type Headline, NowFile } from "@/scene/headlines";
+import { fresherNow } from "@/lib/live-now";
+import type { Headline, NowFile } from "@/scene/headlines";
 import {
   ago,
   blindSpot,
@@ -34,6 +36,8 @@ function lead(s: NowStory): Headline | undefined {
 
 export function NowView({ initial }: { initial: NowFile }) {
   const [file, setFile] = useState(initial);
+  const fileRef = useRef(file);
+  fileRef.current = file;
   // The first render uses the collection time as "now", so the server and the browser agree;
   // the real clock takes over after mount and ticks every minute (re-ranking, "3 h ago").
   const [now, setNow] = useState(() => Date.parse(initial.generatedAt));
@@ -50,16 +54,12 @@ export function NowView({ initial }: { initial: NowFile }) {
   useEffect(() => {
     setNow(Date.now());
     const tick = setInterval(() => setNow(Date.now()), 60_000);
-    // Fresh headlines while the page is open: the file is redeployed every three hours.
+    // Fresh headlines while the page is open: the hourly file, read at once and every 10 min.
     const poll = async () => {
-      try {
-        const res = await fetch("/now/now.json", { cache: "no-store" });
-        const next = NowFile.safeParse(await res.json());
-        if (next.success) setFile((f) => (next.data.generatedAt !== f.generatedAt ? next.data : f));
-      } catch {
-        // Offline or mid-deploy: keep what we have.
-      }
+      const next = await fresherNow(fileRef.current);
+      if (next) setFile(next);
     };
+    poll();
     const every = setInterval(poll, POLL_MS);
     const onVisible = () => document.visibilityState === "visible" && poll();
     document.addEventListener("visibilitychange", onVisible);
@@ -198,8 +198,8 @@ export function NowView({ initial }: { initial: NowFile }) {
 
         {stories.length === 0 ? (
           <div className="px-5 py-10 text-sm leading-relaxed text-dust/55 sm:px-6">
-            No headlines in this window yet. Headlines are collected every three hours; the next
-            collection is at {hhmm(nextCollection(file.generatedAt))}.
+            No headlines in this window yet. Headlines are collected every hour; the next collection
+            is at {hhmm(nextCollection(file.generatedAt))}.
             {win !== "24h" && (
               <button
                 type="button"
@@ -238,8 +238,54 @@ export function NowView({ initial }: { initial: NowFile }) {
                       {first && <span className="text-dust/70">{name(first.outlet)}</span>}
                       {others.length > 0 && ` · also ${others.map(name).join(", ")}`}
                       {spot && <span> · only outlets based in {spot}</span>}
+                      {(s.cluster.nowFilm || s.cluster.film) && (
+                        <span className="text-dust/70"> · Film</span>
+                      )}
                     </span>
                   </button>
+                  {isOpen && (s.cluster.context || s.cluster.film || s.cluster.nowFilm) && (
+                    <div className="space-y-3 px-5 pb-4 sm:px-6">
+                      {/* This hour's film first; an edition's earlier film of the story after it. */}
+                      {s.cluster.nowFilm && (
+                        <Link
+                          href={`/now/film?id=${s.cluster.id}`}
+                          className="inline-flex items-center gap-2 rounded-full bg-sodium px-4 py-1.5 text-sm font-medium text-[#1a1206] transition-colors hover:bg-[#ffc46e] active:scale-[0.98]"
+                        >
+                          Watch the film
+                        </Link>
+                      )}
+                      {s.cluster.film && (
+                        <Link
+                          href={`/story/${s.cluster.film.date}/${s.cluster.film.slug}`}
+                          className="group flex items-center gap-2 text-sm text-dust/70 hover:text-moon"
+                        >
+                          {s.cluster.nowFilm ? "Earlier on Earthlog" : "Watch Earthlog's film"}
+                          <span className="truncate text-dust/50 group-hover:text-dust/70">
+                            · {s.cluster.film.title}
+                          </span>
+                        </Link>
+                      )}
+                      {s.cluster.context && (
+                        <div className="rounded-xl border border-moon/8 bg-moon/[0.03] p-3.5">
+                          <p className="text-xs text-dust/45">
+                            Background from{" "}
+                            <a
+                              href={s.cluster.context.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="text-dust/70 underline decoration-moon/20 underline-offset-4 hover:text-moon"
+                            >
+                              Wikipedia: {s.cluster.context.title}
+                            </a>{" "}
+                            · CC BY-SA
+                          </p>
+                          <p className="mt-1.5 text-sm leading-relaxed text-dust/75">
+                            {s.cluster.context.text}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                  )}
                   {isOpen && (
                     <ul className="space-y-3 px-5 pb-5 sm:px-6">
                       {s.headlines.map((h) => (

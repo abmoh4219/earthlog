@@ -219,36 +219,36 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:01Z",
-      "text": "The Reserve Bank of Australia raised its benchmark interest rate by 0.25 percentage points, to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs linked to the Iran war.",
+      "t": "2026-11-03T00:00:00Z",
+      "text": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
     },
     {
       "t": "2026-11-03T00:00:08Z",
-      "text": "On November 3, oil prices fell after U.S. President Donald Trump announced that the United States would no longer provide billions of dollars in annual military support to Israel.",
+      "text": "On November 3, oil prices fell following an announcement by U.S. President Donald Trump that the United States would no longer provide billions of dollars in annual military support to Israel.",
       "cites": [
         "wiki:rev:1383825251:48"
       ]
     },
     {
-      "t": "2026-11-03T00:00:15Z",
+      "t": "2026-11-03T00:00:16Z",
       "text": "The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition.",
       "cites": [
         "wiki:rev:1383825251:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:25Z",
-      "text": "The decision came from the Reserve Bank of Australia, which is headquartered in Sydney.",
+      "t": "2026-11-03T00:00:24Z",
+      "text": "The decision came from the Reserve Bank of Australia, in Sydney.",
       "cites": [
         "wd:Q1506724:P159",
         "wiki:2026-11-03:4"
       ]
     },
     {
-      "t": "2026-11-03T00:00:33Z",
+      "t": "2026-11-03T00:00:32Z",
       "text": "Inflation in Australia was 2.9% in 2025, down from 6.6% in 2022.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:AU"
@@ -256,42 +256,35 @@
     },
     {
       "t": "2026-11-03T00:00:41Z",
-      "text": "The economy grew 1.4% in 2025, and unemployment stood at 4.1%.",
+      "text": "The economy grew 1.4% in 2025; unemployment stood at 4.1%.",
       "cites": [
         "wb:NY.GDP.MKTP.KD.ZG:AU",
         "wb:SL.UEM.TOTL.ZS:AU"
       ]
     },
     {
-      "t": "2026-11-03T00:00:51Z",
-      "text": "Across East Asia & Pacific, Australia's 2.9% compares with a median of 2.1%, while the highest is Mongolia at 8.6%.",
+      "t": "2026-11-03T00:00:50Z",
+      "text": "Across East Asia & Pacific, Australia's 2.9% compares with a median of 2.1%; the highest is Mongolia at 8.6%.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
       ]
     },
     {
-      "t": "2026-11-03T00:01:05Z",
-      "text": "The report was filed by AFP and published via France 24.",
+      "t": "2026-11-03T00:01:04Z",
+      "text": "Reported by AFP via France 24.",
       "cites": [
         "wiki:2026-11-03:4"
       ]
     },
     {
-      "t": "2026-11-03T00:01:13Z",
-      "text": "The sources are Wikipedia's Current events and articles, Wikimedia pageviews, Wikidata, and World Bank Open Data (World Development Indicators).",
+      "t": "2026-11-03T00:01:12Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data (World Development Indicators). Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:4",
         "wiki:rev:1383825251:48",
         "views:en:2026_Iran_war_fuel_crisis:30d",
         "wd:Q138843305:P31",
         "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:01:14Z",
-      "text": "Every caption cites the evidence it rests on.",
-      "cites": [
-        "wiki:2026-11-03:4"
       ]
     }
   ],
@@ -331,10 +324,8 @@
   "panels": [
     {
       "id": "inflation",
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:50Z",
-      "title": "Inflation, consumer prices, Australia",
       "kind": "line",
+      "title": "Inflation, consumer prices, Australia",
       "unit": "% a year",
       "series": [
         {
@@ -411,14 +402,14 @@
           ]
         }
       ],
-      "mark": 15
+      "mark": 15,
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:50Z"
     },
     {
       "id": "growth",
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:50Z",
-      "title": "GDP growth, Australia",
       "kind": "line",
+      "title": "GDP growth, Australia",
       "unit": "% a year",
       "series": [
         {
@@ -495,15 +486,14 @@
           ]
         }
       ],
-      "mark": 15
+      "mark": 15,
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:50Z"
     },
     {
       "id": "unemployment",
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:50Z",
-      "title": "Unemployment, Australia",
-      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
       "kind": "line",
+      "title": "Unemployment, Australia",
       "unit": "% of the labour force",
       "series": [
         {
@@ -580,21 +570,22 @@
           ]
         }
       ],
-      "mark": 15
+      "mark": 15,
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "t": "2026-11-03T00:00:33Z",
+      "until": "2026-11-03T00:00:50Z"
     },
     {
       "id": "region",
-      "t": "2026-11-03T00:00:51Z",
-      "until": "2026-11-03T00:01:04Z",
-      "title": "Inflation, East Asia & Pacific",
-      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
       "kind": "bars",
+      "title": "Inflation, East Asia & Pacific",
       "unit": "%",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
       "items": [
         {
           "label": "Mongolia",
-          "text": "8.6%",
           "value": 8.60536487369694,
+          "text": "8.6%",
           "color": "#9ad9ff",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:MN"
@@ -602,8 +593,8 @@
         },
         {
           "label": "Laos",
-          "text": "7.7%",
           "value": 7.74226936553694,
+          "text": "7.7%",
           "color": "#9ad9ff",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:LA"
@@ -611,8 +602,8 @@
         },
         {
           "label": "Papua New Guinea",
-          "text": "4.4%",
           "value": 4.42141364166485,
+          "text": "4.4%",
           "color": "#9ad9ff",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:PG"
@@ -620,8 +611,8 @@
         },
         {
           "label": "Solomon Islands",
-          "text": "3.4%",
           "value": 3.36462189317824,
+          "text": "3.4%",
           "color": "#9ad9ff",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:SB"
@@ -629,8 +620,8 @@
         },
         {
           "label": "Vietnam",
-          "text": "3.3%",
           "value": 3.30999314219739,
+          "text": "3.3%",
           "color": "#9ad9ff",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:VN"
@@ -638,8 +629,8 @@
         },
         {
           "label": "Japan",
-          "text": "3.2%",
           "value": 3.17253034260247,
+          "text": "3.2%",
           "color": "#9ad9ff",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:JP"
@@ -647,8 +638,8 @@
         },
         {
           "label": "Australia",
-          "text": "2.9%",
           "value": 2.87403791660173,
+          "text": "2.9%",
           "color": "#e3b341",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:AU"
@@ -656,8 +647,8 @@
         },
         {
           "label": "New Zealand",
-          "text": "2.8%",
           "value": 2.8397963180572,
+          "text": "2.8%",
           "color": "#9ad9ff",
           "cites": [
             "wb:FP.CPI.TOTL.ZG:NZ"
@@ -667,15 +658,15 @@
       "marker": {
         "value": 2.12309421458659,
         "label": "median 2.1%"
-      }
+      },
+      "t": "2026-11-03T00:00:51Z",
+      "until": "2026-11-03T00:01:04Z"
     },
     {
       "id": "sources",
-      "t": "2026-11-03T00:01:05Z",
-      "until": "2026-11-03T00:01:12Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
           "label": "AFP via France 24",
@@ -685,15 +676,15 @@
             "wiki:2026-11-03:4"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:01:05Z",
+      "until": "2026-11-03T00:01:12Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-03T00:01:13Z",
-      "until": "2026-11-03T00:01:19Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -735,13 +726,13 @@
             "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:01:13Z",
+      "until": "2026-11-03T00:01:19Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-07T00:00:00Z",
-    "costUsd": 0
+    "method": "template",
+    "at": "2026-11-07T00:00:00Z"
   }
 }

@@ -194,43 +194,36 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:01Z",
-      "text": "Two helicopters operated by Air Dynasty and Fishtail Air collided while landing in Solukhumbu District, Nepal, near Mount Everest.",
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Two helicopters operated by Air Dynasty and Fishtail Air collide while landing in Solukhumbu District, Nepal, near Mount Everest, killing an Indian tourist and injuring a New Zealand national.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
     },
     {
-      "t": "2026-11-03T00:00:05Z",
-      "text": "According to the report, the collision killed an Indian tourist and injured a New Zealand national.",
+      "t": "2026-11-03T00:00:10Z",
+      "text": "On the map: Solukhumbu District, Nepal, where the reports place it.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
     },
     {
-      "t": "2026-11-03T00:00:11Z",
-      "text": "The event took place in Solukhumbu District, Nepal, as the reports place it.",
+      "t": "2026-11-03T00:00:18Z",
+      "text": "Also named in the reports: Mount Everest.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
     },
     {
-      "t": "2026-11-03T00:00:19Z",
-      "text": "Mount Everest is also named in the reports.",
+      "t": "2026-11-03T00:00:27Z",
+      "text": "Reported by AFP via Times of Malta.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
     },
     {
-      "t": "2026-11-03T00:00:28Z",
-      "text": "The story was reported by AFP and carried by Times of Malta.",
-      "cites": [
-        "wiki:2026-11-03:5"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:36Z",
-      "text": "The sources are Wikipedia and Current events, and every caption links to the evidence it rests on.",
+      "t": "2026-11-03T00:00:35Z",
+      "text": "Sources: Wikipedia, Current events. Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:5"
       ]
@@ -268,11 +261,9 @@
   "panels": [
     {
       "id": "sources",
-      "t": "2026-11-03T00:00:28Z",
-      "until": "2026-11-03T00:00:35Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
           "label": "AFP via Times of Malta",
@@ -282,15 +273,15 @@
             "wiki:2026-11-03:5"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:00:28Z",
+      "until": "2026-11-03T00:00:35Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-03T00:00:36Z",
-      "until": "2026-11-03T00:00:42Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -300,13 +291,13 @@
             "wiki:2026-11-03:5"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:00:36Z",
+      "until": "2026-11-03T00:00:42Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-07T00:00:00Z",
-    "costUsd": 0
+    "method": "template",
+    "at": "2026-11-07T00:00:00Z"
   }
 }

@@ -217,29 +217,29 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:01Z",
-      "text": "According to the report, unidentified attackers ambushed a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers.",
+      "t": "2026-11-03T00:00:00Z",
+      "text": "Unidentified attackers ambush a police convoy near Gidan-Giye village in Zamfara State, Nigeria, killing at least five police officers and three members of the Zamfara Community Protection Guard, injuring two officers…",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
       "t": "2026-11-03T00:00:09Z",
-      "text": "As the article records, the most impacted states are in Nigeria's Middle Belt, including Benue, Taraba and Plateau.",
+      "text": "The most impacted states are those of the Nigerian Middle Belt like Benue, Taraba and Plateau.",
       "cites": [
         "wiki:rev:1383141847:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:18Z",
-      "text": "The reports place the ambush in Zamfara State, Nigeria.",
+      "t": "2026-11-03T00:00:17Z",
+      "text": "On the map: Zamfara State, Nigeria, where the reports place it.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
-      "t": "2026-11-03T00:00:26Z",
-      "text": "The article lists three sides: Christians, Adara, Berom, Jukun, Tiv and Tarok farmers; Muslims, Fulani and Hausa herders; and the Nigerian Armed Forces with the Nigeria Police Force.",
+      "t": "2026-11-03T00:00:25Z",
+      "text": "The article lists three sides: Christians, Adara, Berom, Jukun, Tiv and Tarok farmers; Muslims, Fulani and Hausa herders; Nigerian Armed Forces, Nigeria Police Force.",
       "cites": [
         "wiki:box:1383141847:side-1",
         "wiki:box:1383141847:side-2",
@@ -248,36 +248,36 @@
     },
     {
       "t": "2026-11-03T00:00:33Z",
-      "text": "As the article records, the status is ongoing.",
+      "text": "Wikipedia lists it as ongoing.",
       "cites": [
         "wiki:box:1383141847:status"
       ]
     },
     {
       "t": "2026-11-03T00:00:40Z",
-      "text": "According to the article, casualties attributed to side 1 are 4,877–28,551 civilians killed, and casualties attributed to side 2 are 10,519 civilians killed.",
+      "text": "Casualties, as Wikipedia records them from its sources: on one side, 4,877–28,551 civilians killed; on the other, 10,519 civilians killed.",
       "cites": [
         "wiki:box:1383141847:casualties-side-1-",
         "wiki:box:1383141847:casualties-side-2-"
       ]
     },
     {
-      "t": "2026-11-03T00:00:49Z",
-      "text": "The reports also name Nigeria.",
+      "t": "2026-11-03T00:00:48Z",
+      "text": "Also named in the reports: Nigeria.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
-      "t": "2026-11-03T00:00:58Z",
-      "text": "The story is reported by Reuters.",
+      "t": "2026-11-03T00:00:57Z",
+      "text": "Reported by Reuters.",
       "cites": [
         "wiki:2026-11-03:2"
       ]
     },
     {
-      "t": "2026-11-03T00:01:06Z",
-      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "t": "2026-11-03T00:01:05Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:2",
         "wiki:rev:1383141847:0",
@@ -322,11 +322,9 @@
   "panels": [
     {
       "id": "sides",
-      "t": "2026-11-03T00:00:26Z",
-      "until": "2026-11-03T00:00:48Z",
+      "kind": "facts",
       "title": "As the article records them",
       "note": "From the article's infobox; contested figures are attributed there to their sources.",
-      "kind": "facts",
       "items": [
         {
           "label": "Side 1",
@@ -377,15 +375,15 @@
             "wiki:box:1383141847:casualties"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:00:26Z",
+      "until": "2026-11-03T00:00:48Z"
     },
     {
       "id": "sources",
-      "t": "2026-11-03T00:00:58Z",
-      "until": "2026-11-03T00:01:05Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
           "label": "Reuters",
@@ -395,15 +393,15 @@
             "wiki:2026-11-03:2"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:00:58Z",
+      "until": "2026-11-03T00:01:05Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-03T00:01:06Z",
-      "until": "2026-11-03T00:01:12Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -437,13 +435,13 @@
             "wd:Q21039541:P31"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:01:06Z",
+      "until": "2026-11-03T00:01:12Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-07T00:00:00Z",
-    "costUsd": 0
+    "method": "template",
+    "at": "2026-11-07T00:00:00Z"
   }
 }

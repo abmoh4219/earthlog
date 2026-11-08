@@ -8,20 +8,24 @@
 name: Nightly edition
 
 on:
+  # Three attempts a day: Wikimedia publishes a day's most-read list with a delay of hours
+  # (on 8 Nov 2026 it was still missing at 18:40 UTC). Each run builds any missing edition of
+  # the last three days, so a late list only delays the edition.
   schedule:
-    - cron: "30 4 * * *"
+    - cron: "30 11 * * *"
+    - cron: "30 17 * * *"
+    - cron: "30 23 * * *"
   workflow_dispatch:
     inputs:
       date:
-        description: "Edition date (YYYY-MM-DD); default: yesterday (UTC)"
+        description: "Edition date to (re)build (YYYY-MM-DD); default: any missing of the last 3 days"
         required: false
 
 permissions:
   contents: write
 
-# One queue for every job that commits data (this one and news.yml), so pushes never race.
 concurrency:
-  group: data-commits
+  group: nightly-edition
   cancel-in-progress: false
 
 jobs:
@@ -51,25 +55,51 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           INPUT_DATE: ${{ inputs.date }}
         run: |
-          set -euo pipefail
-          DATE="${INPUT_DATE:-$(date -u -d yesterday +%F)}"
-          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          set -uo pipefail
           # Fresh outlets' headlines first: the edition matches them to its stories (ADR-0017).
-          pnpm news || echo "::warning::news feeds unavailable; edition built without coverage"
-          pnpm edition "$DATE"
-          # One failed film must not sink the edition: it simply has no film (listed as text).
-          pnpm stories "$DATE" || echo "::warning::some films of $DATE failed"
-          pnpm direct "$DATE" --ai --max-usd=0.25
-          # The three editions before it are still fresh (ADR-0014): re-film and re-direct.
-          for k in 1 2 3; do
-            D="$(date -u -d "$DATE -$k days" +%F)"
-            if [ -f "public/editions/$D/edition.json" ]; then
-              pnpm stories "$D" || echo "::warning::some films of $D failed"
-              pnpm direct "$D" --ai --max-usd=0.10
+          # The last 72 hours live on the now-data branch (news.yml, ADR-0018).
+          if git fetch --depth=1 origin now-data 2>/dev/null; then
+            git show FETCH_HEAD:now.json > public/now/now.json
+          fi
+          pnpm news || echo "::warning::news feeds unavailable; editions built without coverage"
+
+          # Build every missing edition of the last three days, oldest first (or the one asked).
+          built=""
+          for k in 3 2 1; do
+            D="$(date -u -d "today -$k days" +%F)"
+            if [ -n "${INPUT_DATE:-}" ] && [ "$D" != "$INPUT_DATE" ]; then continue; fi
+            if [ -z "${INPUT_DATE:-}" ] && [ -f "public/editions/$D/edition.json" ]; then continue; fi
+            pnpm edition "$D"
+            code=$?
+            if [ $code -eq 2 ]; then
+              echo "::warning::most-read list for $D not published yet; the next run retries"
+              continue
+            elif [ $code -ne 0 ]; then
+              exit $code
             fi
+            built="$built $D"
+            # One failed film must not sink the edition: it simply has no film (listed as text).
+            pnpm stories "$D" || echo "::warning::some films of $D failed"
+            pnpm direct "$D" --ai --max-usd=0.25 || echo "::warning::narration of $D kept as template"
+            pnpm bake daily "$D" || echo "::warning::day-at-a-glance replay of $D skipped"
           done
-          # The day at a glance (quakes, outages, natural events); optional, never blocks.
-          pnpm bake daily "$DATE" || echo "::warning::day-at-a-glance replay skipped"
+
+          # The three editions before today stay fresh (ADR-0014): re-film and re-direct them
+          # once a day, on the first run (re-directing costs tokens when articles changed).
+          refreshed=""
+          if [ "$(date -u +%H)" = "11" ] || [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            for k in 1 2 3; do
+              D="$(date -u -d "today -$k days" +%F)"
+              case " $built " in *" $D "*) continue ;; esac
+              if [ -f "public/editions/$D/edition.json" ]; then
+                pnpm stories "$D" || echo "::warning::some films of $D failed"
+                pnpm direct "$D" --ai --max-usd=0.10 || echo "::warning::narration of $D kept as template"
+                refreshed="$refreshed $D"
+              fi
+            done
+          fi
+          echo "BUILT=${built# }" >> "$GITHUB_ENV"
+          echo "REFRESHED=${refreshed# }" >> "$GITHUB_ENV"
 
       - name: Validate every bundle
         run: pnpm validate:scenes
@@ -85,12 +115,14 @@ jobs:
         run: |
           git config user.name "earthlog-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/editions public/scenes public/now
+          git add public/editions public/scenes
+          # The bundled headlines ride along only with real edition changes (no commit per run).
+          if [ -n "$BUILT$REFRESHED" ]; then git add public/now; fi
           if git diff --cached --quiet; then
             echo "Nothing new."
           else
-            git commit -m "data: edition $DATE"
-            # A news run may have pushed meanwhile: replay this data commit on top.
+            git commit -m "data: edition ${BUILT:-refresh ${REFRESHED}}"
+            # A commit may have landed during the run: replay this data commit on top.
             git pull --rebase
             git push
           fi

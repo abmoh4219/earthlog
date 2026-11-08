@@ -229,50 +229,50 @@
   ],
   "beats": [
     {
-      "t": "2026-11-02T00:00:01Z",
+      "t": "2026-11-02T00:00:00Z",
       "text": "The Rapid Support Forces launches drone strikes against three distribution stations in Sudan's Kassala and Northern states.",
       "cites": [
         "wiki:2026-11-02:6"
       ]
     },
     {
-      "t": "2026-11-02T00:00:11Z",
-      "text": "On 26 October, twenty-one people are killed and 40 more injured in a drone strike in Nyala, Sudan.",
+      "t": "2026-11-02T00:00:10Z",
+      "text": "26 October: Twenty-one people are killed and 40 more injured in a drone strike in Nyala, Sudan.",
       "cites": [
         "wiki:2026-10-26:6"
       ]
     },
     {
       "t": "2026-11-02T00:00:18Z",
-      "text": "Two days later, on 28 October, eight women and children are reported to be injured in an airstrike in Kadugli, South Kordofan, Sudan.",
+      "text": "28 October: Eight women and children are reported to be injured in a airstrike in Kadugli, South Kordofan, Sudan.",
       "cites": [
         "wiki:2026-10-28:2"
       ]
     },
     {
-      "t": "2026-11-02T00:00:27Z",
-      "text": "On the map is Kassala State in Sudan, where the reports place the strikes.",
+      "t": "2026-11-02T00:00:26Z",
+      "text": "On the map: Kassala State, Sudan, where the reports place it.",
       "cites": [
         "wiki:2026-11-02:6"
       ]
     },
     {
-      "t": "2026-11-02T00:00:35Z",
-      "text": "Northern State is also named in the reports.",
+      "t": "2026-11-02T00:00:34Z",
+      "text": "Also named in the reports: Northern State.",
       "cites": [
         "wiki:2026-11-02:6"
       ]
     },
     {
-      "t": "2026-11-02T00:00:44Z",
-      "text": "The report comes from Sudan Tribune.",
+      "t": "2026-11-02T00:00:43Z",
+      "text": "Reported by Sudan Tribune.",
       "cites": [
         "wiki:2026-11-02:6"
       ]
     },
     {
-      "t": "2026-11-02T00:00:52Z",
-      "text": "The sources are Wikipedia's Current events page for 2026, along with its 26 October and 28 October portal pages, and every caption links to the evidence it rests on.",
+      "t": "2026-11-02T00:00:51Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia, Portal:Current events/2026 October 26 and Wikipedia, Portal:Current events/2026 October 28. Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-02:6",
         "wiki:2026-10-26:6",
@@ -316,11 +316,9 @@
   "panels": [
     {
       "id": "thread",
-      "t": "2026-11-02T00:00:11Z",
-      "until": "2026-11-02T00:00:26Z",
+      "kind": "facts",
       "title": "The days before",
       "note": "Earlier items under the same topic on Wikipedia's Current events.",
-      "kind": "facts",
       "items": [
         {
           "label": "26 October",
@@ -336,15 +334,15 @@
             "wiki:2026-10-28:2"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:26Z"
     },
     {
       "id": "sources",
-      "t": "2026-11-02T00:00:44Z",
-      "until": "2026-11-02T00:00:51Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
           "label": "Sudan Tribune",
@@ -354,15 +352,15 @@
             "wiki:2026-11-02:6"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:00:44Z",
+      "until": "2026-11-02T00:00:51Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-02T00:00:52Z",
-      "until": "2026-11-02T00:00:58Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -388,13 +386,13 @@
             "wiki:2026-10-28:2"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:00:52Z",
+      "until": "2026-11-02T00:00:58Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.00105
+    "method": "template",
+    "at": "2026-11-06T00:00:00Z"
   }
 }

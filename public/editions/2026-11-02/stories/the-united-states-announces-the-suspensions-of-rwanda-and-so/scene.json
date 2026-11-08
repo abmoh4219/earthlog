@@ -147,44 +147,37 @@
   ],
   "beats": [
     {
-      "t": "2026-11-02T00:00:01Z",
-      "text": "The United States is suspending Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act, beginning January 1, 2027.",
+      "t": "2026-11-02T00:00:00Z",
+      "text": "The United States announces the suspensions of Rwanda and South Africa from duty-free trade benefits under the African Growth and Opportunity Act beginning January 1, 2027, citing trade barriers, human rights concerns…",
       "cites": [
         "wiki:2026-11-02:10"
       ]
     },
     {
-      "t": "2026-11-02T00:00:05Z",
-      "text": "The stated reasons are trade barriers, human rights concerns, and threats to U.S. interests.",
-      "cites": [
-        "wiki:2026-11-02:10"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:11Z",
-      "text": "Inflation in the United States fell to 2.9% in 2024, down from 8.0% in 2022.",
+      "t": "2026-11-02T00:00:10Z",
+      "text": "Inflation in United States was 2.9% in 2024, down from 8.0% in 2022.",
       "cites": [
         "wb:FP.CPI.TOTL.ZG:US"
       ]
     },
     {
       "t": "2026-11-02T00:00:19Z",
-      "text": "The economy grew 2.2% in 2025, and unemployment stood at 4.2%.",
+      "text": "The economy grew 2.2% in 2025; unemployment stood at 4.2%.",
       "cites": [
         "wb:NY.GDP.MKTP.KD.ZG:US",
         "wb:SL.UEM.TOTL.ZS:US"
       ]
     },
     {
-      "t": "2026-11-02T00:00:29Z",
-      "text": "The story is reported by Reuters.",
+      "t": "2026-11-02T00:00:28Z",
+      "text": "Reported by Reuters.",
       "cites": [
         "wiki:2026-11-02:10"
       ]
     },
     {
-      "t": "2026-11-02T00:00:37Z",
-      "text": "Sources include Wikipedia, Current events, and World Bank Open Data from the World Development Indicators, and each caption links to the evidence it rests on.",
+      "t": "2026-11-02T00:00:36Z",
+      "text": "Sources: Wikipedia, Current events and World Bank Open Data (World Development Indicators). Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-02:10",
         "wb:FP.CPI.TOTL.ZG:US"
@@ -219,10 +212,8 @@
   "panels": [
     {
       "id": "inflation",
-      "t": "2026-11-02T00:00:11Z",
-      "until": "2026-11-02T00:00:28Z",
-      "title": "Inflation, consumer prices, United States",
       "kind": "line",
+      "title": "Inflation, consumer prices, United States",
       "unit": "% a year",
       "series": [
         {
@@ -295,14 +286,14 @@
           ]
         }
       ],
-      "mark": 14
+      "mark": 14,
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:28Z"
     },
     {
       "id": "growth",
-      "t": "2026-11-02T00:00:11Z",
-      "until": "2026-11-02T00:00:28Z",
-      "title": "GDP growth, United States",
       "kind": "line",
+      "title": "GDP growth, United States",
       "unit": "% a year",
       "series": [
         {
@@ -379,15 +370,14 @@
           ]
         }
       ],
-      "mark": 15
+      "mark": 15,
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:28Z"
     },
     {
       "id": "unemployment",
-      "t": "2026-11-02T00:00:11Z",
-      "until": "2026-11-02T00:00:28Z",
-      "title": "Unemployment, United States",
-      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
       "kind": "line",
+      "title": "Unemployment, United States",
       "unit": "% of the labour force",
       "series": [
         {
@@ -464,15 +454,16 @@
           ]
         }
       ],
-      "mark": 15
+      "mark": 15,
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "t": "2026-11-02T00:00:11Z",
+      "until": "2026-11-02T00:00:28Z"
     },
     {
       "id": "sources",
-      "t": "2026-11-02T00:00:29Z",
-      "until": "2026-11-02T00:00:36Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
           "label": "Reuters",
@@ -482,15 +473,15 @@
             "wiki:2026-11-02:10"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:00:29Z",
+      "until": "2026-11-02T00:00:36Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-02T00:00:37Z",
-      "until": "2026-11-02T00:00:43Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -508,13 +499,13 @@
             "wb:FP.CPI.TOTL.ZG:US"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:00:37Z",
+      "until": "2026-11-02T00:00:43Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.000617
+    "method": "template",
+    "at": "2026-11-06T00:00:00Z"
   }
 }

@@ -442,10 +442,57 @@ Wikipedia alone was one source: slower than the news and missing whole regions. 
 
 - `/now` shows the outlets' stories (ADR-0017) on a globe lit by the real sun, as amber points sized by heat, with a list beside it: last hour, 3 hours, 24 hours; topic filters; "Breaking"; "only outlets based in Europe" when every outlet that reported a story is based in one region; each headline opens the outlet's own article, and each placed story says why it is placed where it is.
 - The page is rendered at build time (complete without JavaScript) and stays fresh while open: it re-reads `/now/now.json` every 10 minutes and when the tab becomes visible again, and re-ranks every minute. Ranking and "breaking" are computed at the moment of viewing (`src/scene/now.ts`), never frozen at collection time.
-- It says when the headlines were collected and when the next collection is due (every three hours, `.github/workflows/news.yml`), so an empty "last hour" is explained, not hidden.
-- The landing gains "Happening now": the four hottest stories of the last 24 hours as of the build.
+- Headlines are collected **every hour**. The news job force-pushes the single file `now.json` to the repository's `now-data` branch (one commit, so the branch never grows; that branch carries a `vercel.json` turning deployments off). The browser reads it from `raw.githubusercontent.com` (`NOW_DATA_URL` in `src/config.ts`) as soon as /now or the landing opens, and falls back to the copy bundled with the last deploy if it can't (repository private, offline). The nightly edition restores the file from that branch before it matches coverage. Main gets no hourly commits and Vercel no hourly deploys.
+- It says when the headlines were collected and when the next collection is due, so an empty "last hour" is explained, not hidden.
+- The landing gains "Happening now": the four hottest stories of the last 24 hours, refreshed from the hourly file in the browser.
 - No AI on this page for now: the headlines speak for themselves, credited to their outlets. A short summary of the hottest stories by Claude (cached, capped) stays possible later.
 
 ### Why
 
-The editions explain yesterday; readers also want to know what is happening. Collecting every three hours keeps the free plans comfortable (8 deploys a day of Vercel Hobby's 100) and the repository's growth small; hourly collection waits for the data to live outside the main repository.
+The editions explain yesterday; readers also want to know what is happening, within the hour. Hourly commits to main would add 24 commits and 24 deploys a day and about 100 MB of history a year; a force-pushed side branch costs none of that. Its limits: the repository must be public for raw.githubusercontent.com to serve it, and GitHub does not publish raw's rate limits (they apply per visitor's address). The separate data repository planned for old films may host this file later.
+
+---
+
+## ADR-0019: Captions that read well without AI, and context for "Now"
+
+- **Date:** 2026-11-08
+- **Status:** Accepted
+
+### Decision
+
+- **Writing rules in code** (`scripts/lenses/editor.ts`), applied to every film before it is timed. The editor only removes, trims or tidies; it never adds a fact, and every caption keeps its citations:
+  - a caption that repeats an earlier one is dropped, unless it names a new person, place or thing ("born … in Manhattan" stays after "(June 18, 1937 – …)"); the subject's own name never counts as repetition;
+  - a sentence that leans on a missing one ("They also wrote…") or carries a broken quote is dropped;
+  - a chapter of a single-subject film opening on "He"/"She"/"It" gets the subject's name;
+  - long captions are cut at a sentence or clause end, never mid-phrase; stray markup ("(; born", "D.C..") is tidied;
+  - a chapter whose captions all go becomes a short silent shot instead of repeating a line.
+- **A quality check** (`captionIssues`) runs on every film and reports repeats, orphan sentences, broken quotes, cuts and stray punctuation in the run log and the nightly health report.
+- **Lens fixes found by reading every caption of a day**: future elections show no results (a 2028 race never borrows 2026's); "none of the races had been called" instead of "Democrats won 0, Republicans 0"; "worked for" an employer, "in" a place; casualty figures only with numbers, one side and the other, attributed; "most in Turkish (14)" no longer shown.
+- **Multi-source films**: when outlets reported the story that day (ADR-0017), the film gets an "In the news" chapter quoting each outlet's headline exactly, credited, with a panel of links.
+- **Context for "Now"**: each hour the hottest stories get a background card, the lead of the Wikipedia article their headlines name (every word of the title must appear in the headlines; places, regions, lists and year pages never qualify; CC BY-SA, linked to the exact revision), and a link to Earthlog's film when one of the last week's editions told the same story.
+- **Films read the exact Current events revision their edition was built from**, and refuse to run if an item no longer reads as quoted (`editionPortalRevision`, `newsMismatches`).
+
+### Why
+
+The bar is "a reader can't tell which films had AI", and the AI key may expire. Reading every template caption of 6 November showed the problems were extraction, not facts: repeats, orphan pronouns, cut quotes, raw infobox dumps.
+
+Reading them also exposed a real fault: news evidence ids count items in a revision of the Current events page, but films fetched the latest revision, so when the download cache missed, an editor's later insertion put another story's text under the right id. Four live films of 3 and 4 November said something about another story (a footballer's film with US election results). Those editions are frozen, so their news films were re-filmed from the pinned revision (template narration).
+
+---
+
+## ADR-0020: Films for the news of "Now", every hour
+
+- **Date:** 2026-11-08
+- **Status:** Accepted
+
+### Decision
+
+- Each hour, the five hottest Now stories told by two or more outlets that day get a short film (`scripts/news/film.ts`), with no AI: what was reported and by whom, where (the place the headlines name), the background (the Wikipedia lead, ADR-0019) when there is one, each outlet's headline quoted and credited ("In the news"), and the sources. Every caption is cited and every film passes the same validator as edition films; one that does not is skipped.
+- Films are built in story time like edition films. The film's day is the day of its latest headline; only that day's headlines are quoted, cited at day precision with the exact time kept in the label, so every citation falls inside the film's window. Edition films cite their outlets' headlines the same way.
+- When a film's title is one outlet's headline (no Wikipedia article explains the story), its subtitle says whose headline it is.
+- The films are written beside `now.json` (`films/<story>/`) and published with it to the `now-data` branch (ADR-0018). `/now/film?id=<story>` loads one in the browser (side branch first, deployed copy second) and says plainly when a film has been replaced by a newer hour.
+- The Now list offers "Watch the film" for stories with a film this hour, and "Earlier on Earthlog" for an edition's film of the same story.
+
+### Why
+
+Readers expect the stories of "Now" to be explained like the editions, not only listed. Five films an hour keep the hourly job short (a minute or two) and the side branch small (about 200 KB, replaced every hour). These films show what was reported and where, credited to the outlets; deep analysis stays with the editions' lenses.

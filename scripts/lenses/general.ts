@@ -11,6 +11,7 @@ import { fetchJson } from "../bake/lib.ts";
 import { fetchCoordinates, type RawStory } from "../bake/wikinews.ts";
 import { fetchEntities, type WdEntity } from "../edition/sources.ts";
 import { curiosityLayers, fetchLanguageReaders, LANGUAGE } from "./attention.ts";
+import { clip } from "./editor.ts";
 import { buildFilm, type ChapterDraft, type PanelDraft, type Shot } from "./film.ts";
 import { chronological, contextIsTheEvent, fetchNews } from "./news-context.ts";
 import { fetchThread, recencyColor } from "./thread.ts";
@@ -258,19 +259,19 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     found && !newsFirst && contextIsTheEvent(found, date) ? found.context : undefined;
   if (eventFirst) {
     const id = fromArticle(eventFirst);
-    if (id) opening.push({ text: clip(eventFirst.text, 210), cites: [id] });
+    if (id) opening.push({ text: clip(eventFirst.text), cites: [id] });
   }
-  if (newsFirst) opening.push({ text: clip(newsFirst.raw.text, 210), cites: [newsFirst.id] });
+  if (newsFirst) opening.push({ text: clip(newsFirst.raw.text), cites: [newsFirst.id] });
   const room = (eventFirst ? 3 : 2) - opening.length;
   for (const sentence of chronological((found?.news ?? []).slice(0, Math.max(0, room)), date)) {
     const id = fromArticle(sentence);
-    if (id) opening.push({ text: clip(sentence.text, 210), cites: [id] });
+    if (id) opening.push({ text: clip(sentence.text), cites: [id] });
   }
   // Context last: who or what this is (unless the news already said it all).
   const context = eventFirst ? undefined : found?.context;
   if (context && opening.length < 3) {
     const id = fromArticle(context);
-    if (id) opening.push({ text: clip(context.text, 210), cites: [id] });
+    if (id) opening.push({ text: clip(context.text), cites: [id] });
   }
   if (!opening.length && story.article && (story.about ?? story.summary)) {
     const id = add({
@@ -283,7 +284,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
       quote: story.about ?? story.summary,
       url: story.article.url,
     });
-    opening.push({ text: clip(story.about ?? story.summary, 210), cites: [id] });
+    opening.push({ text: clip(story.about ?? story.summary), cites: [id] });
   }
   if (opening.length) {
     chapters.push({
@@ -465,7 +466,8 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     const beatsR: ChapterDraft["beats"] = [
       { text, cites: [leadViewsId, ...(prior && priorId ? [use(priorId) ?? priorId] : [])] },
     ];
-    const topOther = others[0];
+    // Other languages only when they say something: "most in Turkish (14)" is noise.
+    const topOther = others[0] && others[0].views >= 200 ? others[0] : undefined;
     if (langs.length >= 3 && topOther) {
       beatsR.push({
         text: `Read in ${langs.length} languages; after English, most in ${LANGUAGE[topOther.lang] ?? topOther.lang} (${fmt(topOther.views)}).`,
@@ -478,7 +480,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     const curiosityShot = curiosity.layers.length ? wideShot(curiosity.points) : undefined;
     if (curiosity.layers.length && topOther)
       beatsR.push({
-        text: `On the globe, each language glows where it is mainly spoken, brighter for more readers; a language is not a country.`,
+        text: `Each language glows where it is mainly spoken, brighter for more readers. A language is not a country.`,
         cites: langIds.filter((_, i) => langs[i]?.lang !== "en").slice(0, 6),
       });
     chapters.push({
@@ -719,13 +721,6 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
   }
   const scene = buildFilm({ date, story, chapters, layers, at });
   return { scene, evidence: shipped, sources, layers };
-}
-
-function clip(text: string, limit: number): string {
-  if (text.length <= limit) return text;
-  const cut = text.slice(0, limit);
-  const end = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf(", "));
-  return `${cut.slice(0, end > limit * 0.5 ? end : cut.lastIndexOf(" ")).replace(/[,;:\s]+$/, "")}…`;
 }
 
 function list(names: string[]): string {

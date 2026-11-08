@@ -6,7 +6,7 @@
   "category": "daily",
   "window": {
     "start": "2026-11-03T00:00:00Z",
-    "end": "2026-11-03T00:01:13Z"
+    "end": "2026-11-03T00:01:10Z"
   },
   "focus": "2026-11-03T00:00:00Z",
   "timezone": "UTC",
@@ -82,25 +82,25 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-03T00:00:29Z",
+      "t": "2026-11-03T00:00:27Z",
       "lon": 144.9125,
       "lat": -38.29027778,
       "range": 498046.1825975579,
-      "heading": 11.1,
+      "heading": 13.5,
       "pitch": -31.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:31Z",
+      "t": "2026-11-03T00:00:28Z",
       "lon": 144.9125,
       "lat": -38.29027778,
       "range": 451000,
-      "heading": 2.1999999999999993,
+      "heading": 7,
       "pitch": -29,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:34Z",
+      "t": "2026-11-03T00:00:31Z",
       "lon": 144.9125,
       "lat": -38.99027778,
       "range": 1300000,
@@ -109,7 +109,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:41Z",
+      "t": "2026-11-03T00:00:38Z",
       "lon": 144.9125,
       "lat": -38.99027778,
       "range": 1177200.0679578641,
@@ -118,7 +118,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:48Z",
+      "t": "2026-11-03T00:00:45Z",
       "lon": 144.9125,
       "lat": -38.99027778,
       "range": 1066000,
@@ -127,43 +127,43 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:53Z",
-      "lon": -111.83412881336254,
-      "lat": 28.43843864530431,
-      "range": 22000000,
+      "t": "2026-11-03T00:00:48Z",
+      "lon": 144.5948392822325,
+      "lat": -37.622641549409394,
+      "range": 1500000,
       "heading": 0,
       "pitch": -55,
-      "move": "flight"
+      "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:55Z",
-      "lon": -111.83412881336254,
-      "lat": 28.43843864530431,
-      "range": 19921847.303902317,
+      "t": "2026-11-03T00:00:51Z",
+      "lon": 144.5948392822325,
+      "lat": -37.622641549409394,
+      "range": 1358307.7707206125,
       "heading": -9.7,
       "pitch": -52.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:00:57Z",
-      "lon": -111.83412881336254,
-      "lat": 28.43843864530431,
-      "range": 18040000,
+      "t": "2026-11-03T00:00:54Z",
+      "lon": 144.5948392822325,
+      "lat": -37.622641549409394,
+      "range": 1230000,
       "heading": -19.4,
       "pitch": -50,
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:01Z",
+      "t": "2026-11-03T00:00:57Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 1430000,
       "heading": -10,
       "pitch": -42,
-      "move": "flight"
+      "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:03Z",
+      "t": "2026-11-03T00:01:00Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 1294920.0747536505,
@@ -172,7 +172,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:05Z",
+      "t": "2026-11-03T00:01:02Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 1172600,
@@ -181,7 +181,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:08Z",
+      "t": "2026-11-03T00:01:05Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 2860000,
@@ -190,7 +190,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:09Z",
+      "t": "2026-11-03T00:01:06Z",
       "lon": 144.9125,
       "lat": -38.47777778,
       "range": 2345200,
@@ -199,7 +199,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-03T00:01:13Z",
+      "t": "2026-11-03T00:01:10Z",
       "lon": 119.91250000000002,
       "lat": -38.47777778,
       "range": 14000000,
@@ -216,28 +216,28 @@
   ],
   "beats": [
     {
-      "t": "2026-11-03T00:00:01Z",
+      "t": "2026-11-03T00:00:00Z",
+      "text": "In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia.",
+      "cites": [
+        "wiki:2026-11-03:13"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:08Z",
+      "text": "The race, ran over 3200 m, was held on 3 November 2026 at Melbourne's Flemington Racecourse.",
+      "cites": [
+        "wiki:rev:1383838055:1"
+      ]
+    },
+    {
+      "t": "2026-11-03T00:00:16Z",
       "text": "The 2026 Melbourne Cup, known commercially as the 2026 Lexus Melbourne Cup, was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
       "cites": [
         "wiki:rev:1383838055:0"
       ]
     },
     {
-      "t": "2026-11-03T00:00:12Z",
-      "text": "The race was run over 3200 m on 3 November 2026 at Melbourne's Flemington Racecourse.",
-      "cites": [
-        "wiki:rev:1383838055:1"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:25Z",
-      "text": "The 2026 Melbourne Cup took place at Flemington Racecourse in Melbourne, Australia.",
-      "cites": [
-        "wiki:box:1383838055:venue"
-      ]
-    },
-    {
-      "t": "2026-11-03T00:00:33Z",
+      "t": "2026-11-03T00:00:29Z",
       "text": "Point Of Law won, ridden by Ethan Brown and trained by Ciaron Maher.",
       "cites": [
         "wiki:box:1383838055:winner",
@@ -246,29 +246,29 @@
       ]
     },
     {
-      "t": "2026-11-03T00:00:41Z",
-      "text": "Attendance was 97,112.",
+      "t": "2026-11-03T00:00:38Z",
+      "text": "97,112 people were there.",
       "cites": [
         "wiki:box:1383838055:attendance"
       ]
     },
     {
-      "t": "2026-11-03T00:00:50Z",
-      "text": "Zahrann and Juja Kibo, also trained by Ciaron Maher, finished second and third.",
+      "t": "2026-11-03T00:00:46Z",
+      "text": "Also named in the reports: Victoria.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
-      "t": "2026-11-03T00:00:59Z",
-      "text": "This summary draws on a sports report of the race.",
+      "t": "2026-11-03T00:00:55Z",
+      "text": "Reported by AFP.",
       "cites": [
         "wiki:2026-11-03:13"
       ]
     },
     {
-      "t": "2026-11-03T00:01:07Z",
-      "text": "Sources include Wikipedia, Wikimedia pageviews and Wikidata.",
+      "t": "2026-11-03T00:01:03Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-03:13",
         "wiki:rev:1383838055:1",
@@ -294,30 +294,28 @@
       "title": "The venue"
     },
     {
-      "t": "2026-11-03T00:00:32Z",
+      "t": "2026-11-03T00:00:29Z",
       "title": "The result"
     },
     {
-      "t": "2026-11-03T00:00:49Z",
+      "t": "2026-11-03T00:00:46Z",
       "title": "Connected"
     },
     {
-      "t": "2026-11-03T00:00:58Z",
+      "t": "2026-11-03T00:00:55Z",
       "title": "Reported by"
     },
     {
-      "t": "2026-11-03T00:01:06Z",
+      "t": "2026-11-03T00:01:03Z",
       "title": "Sources"
     }
   ],
   "panels": [
     {
       "id": "result",
-      "t": "2026-11-03T00:00:33Z",
-      "until": "2026-11-03T00:00:49Z",
+      "kind": "facts",
       "title": "The result",
       "note": "From the event's Wikipedia infobox (revision of 2026-11-05).",
-      "kind": "facts",
       "items": [
         {
           "label": "Winner",
@@ -361,41 +359,33 @@
             "wiki:box:1383838055:dates"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:00:30Z",
+      "until": "2026-11-03T00:00:46Z"
     },
     {
       "id": "sources",
-      "t": "2026-11-03T00:00:59Z",
-      "until": "2026-11-03T00:01:06Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
-          "label": "The Washington Post",
+          "label": "AFP",
           "text": "Open",
-          "url": "https://www.washingtonpost.com/elections/results/2026/11/03/michigan-senate-el-sayed-rogers-live-updates/",
-          "cites": [
-            "wiki:2026-11-03:13"
-          ]
-        },
-        {
-          "label": "Time",
-          "text": "Open",
-          "url": "https://time.com/article/2026/11/03/abdul-el-sayed-michigan-senate-2026-midterm-elections-mike-rogers/",
+          "url": "https://www.afp.com/en/king-charless-former-horse-point-law-wins-melbourne-cup",
           "cites": [
             "wiki:2026-11-03:13"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:00:56Z",
+      "until": "2026-11-03T00:01:03Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-03T00:01:07Z",
-      "until": "2026-11-03T00:01:13Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -429,13 +419,13 @@
             "wd:Q141736900:P31"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-03T00:01:04Z",
+      "until": "2026-11-03T00:01:10Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-07T00:00:00Z",
-    "costUsd": 0
+    "method": "template",
+    "at": "2026-11-07T00:00:00Z"
   }
 }

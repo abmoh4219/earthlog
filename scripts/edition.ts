@@ -35,7 +35,18 @@ const countries = z
   .parse(await readJson(join(ROOT, "public", "geo", "countries.json")));
 
 console.log(`edition ${date}`);
-const mostRead = await fetchMostRead(date);
+// Wikimedia publishes a day's most-read list with a delay that is usually hours and sometimes
+// most of a day. Not yet published is not a failure: exit 2, and the next run tries again.
+const mostRead = await fetchMostRead(date).catch((err: unknown) => {
+  if (/\b404\b/.test(String(err))) {
+    console.error(`  most-read list for ${date} not published yet by Wikimedia; try again later`);
+    report(
+      `- Edition ${date}: Wikimedia has not published the most-read list yet; the next run retries`,
+    );
+    process.exit(2);
+  }
+  throw err;
+});
 await fetchNormal(mostRead, date);
 console.log(`  most read: ${mostRead.length} articles, with their normal readership`);
 

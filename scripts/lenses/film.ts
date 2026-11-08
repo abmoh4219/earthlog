@@ -3,6 +3,7 @@
 // day's 00:00 UTC so day-precision evidence falls inside the window). Pure.
 import { centralAngle } from "../../src/scene/camera.ts";
 import { type EditionStory, LENS_INFO } from "../../src/scene/edition.ts";
+import { outletById } from "../../src/scene/outlets.ts";
 import type {
   Beat,
   Chapter,
@@ -12,6 +13,7 @@ import type {
   Panel,
   Scene,
 } from "../../src/scene/schema.ts";
+import { editChapters } from "./editor.ts";
 
 export interface Shot {
   lon: number;
@@ -59,10 +61,53 @@ export interface FilmInput {
   at: string;
 }
 
+/**
+ * "In the news": the outlets that reported the story that day (ADR-0017), each headline quoted
+ * exactly and credited, with a panel linking to each article. Placed before the sources.
+ */
+export function withCoverage(chapters: ChapterDraft[], story: EditionStory): ChapterDraft[] {
+  const coverage = story.coverage ?? [];
+  if (!coverage.length) return chapters;
+  const at = chapters.findIndex((c) => c.title === "Sources");
+  const before = chapters[at > 0 ? at - 1 : chapters.length - 1];
+  const shot = before?.shot ?? chapters[0]?.shot ?? { lon: 0, lat: 20, range: SPACE };
+  const name = (id: string) => outletById(id)?.name ?? id;
+  const quoted = coverage.slice(0, 3);
+  const chapter: ChapterDraft = {
+    title: "In the news",
+    seconds: 6 + quoted.length * 5,
+    shot: { ...shot, heading: (shot.heading ?? 0) - 12, motion: "still" },
+    beats: quoted.map((c) => ({
+      text: `${name(c.outlet)} headlined it: “${c.title}”`,
+      cites: [c.evidence],
+    })),
+    panels: [
+      {
+        id: "coverage",
+        kind: "facts",
+        title: "In the news that day",
+        note: "Each outlet's headline links to its own article.",
+        items: coverage
+          .slice(0, 6)
+          .map((c) => ({ label: name(c.outlet), text: "Open", url: c.url, cites: [c.evidence] })),
+      },
+    ],
+  };
+  return at >= 0
+    ? [...chapters.slice(0, at), chapter, ...chapters.slice(at)]
+    : [...chapters, chapter];
+}
+
 const iso = (t: number) => new Date(t).toISOString().replace(/\.\d{3}Z$/, "Z");
 const SPACE = 2.2e7;
 
-export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Scene {
+export function buildFilm({ date, story, chapters: drafts, layers, at }: FilmInput): Scene {
+  // How the outlets reported it, then the writing rules (ADR-0019): repeats, orphan pronouns,
+  // broken quotes, clean clipping.
+  const chapters = editChapters(withCoverage(drafts, story), {
+    lens: story.lens,
+    title: story.title,
+  });
   const start = Date.parse(`${date}T00:00:00Z`);
   const total = chapters.reduce((s, c) => s + c.seconds, 0);
   const end = start + total * 1000;
@@ -100,10 +145,7 @@ export function buildFilm({ date, story, chapters, layers, at }: FilmInput): Sce
     // Captions spread across the chapter, the first one shortly after it begins.
     const step = (c.seconds * 1000) / Math.max(1, c.beats.length);
     c.beats.forEach((b, k) => {
-      // Captions are capped at 220 characters; a longer one is cut at a word and marked.
-      const text =
-        b.text.length <= 220 ? b.text : `${b.text.slice(0, b.text.lastIndexOf(" ", 217))}…`;
-      beats.push({ t: iso(chStart + 600 + k * step), text, cites: b.cites });
+      beats.push({ t: iso(chStart + 600 + k * step), text: b.text, cites: b.cites });
     });
 
     for (const p of c.panels ?? []) {

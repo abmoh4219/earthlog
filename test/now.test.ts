@@ -92,9 +92,9 @@ describe("time words", () => {
     expect(ago(iso(3 * 24 * 60), NOW)).toBe("3 days ago");
   });
 
-  it("knows when the next collection is due (minute 15 of every third hour, UTC)", () => {
-    expect(nextCollection("2026-11-08T12:16:00Z")).toBe("2026-11-08T15:15:00Z");
+  it("knows when the next collection is due (minute 15 of every hour, UTC)", () => {
+    expect(nextCollection("2026-11-08T12:16:00Z")).toBe("2026-11-08T13:15:00Z");
     expect(nextCollection("2026-11-08T12:14:00Z")).toBe("2026-11-08T12:15:00Z");
-    expect(nextCollection("2026-11-08T22:30:00Z")).toBe("2026-11-09T00:15:00Z");
+    expect(nextCollection("2026-11-08T23:30:00Z")).toBe("2026-11-09T00:15:00Z");
   });
 });

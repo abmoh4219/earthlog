@@ -217,69 +217,62 @@
   ],
   "beats": [
     {
-      "t": "2026-11-02T00:00:01Z",
-      "text": "A truck bomb exploded near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.",
+      "t": "2026-11-02T00:00:00Z",
+      "text": "A truck bomb explodes near a military base in Planadas, Tolima Department, Colombia, killing four people, including a baby, and wounding several others.",
       "cites": [
         "wiki:2026-11-02:7"
       ]
     },
     {
       "t": "2026-11-02T00:00:09Z",
-      "text": "The Colombian conflict began on May 27, 1964, and is described as a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates, and far-left guerrilla groups.",
+      "text": "The Colombian conflict began on May 27, 1964, and is a low-intensity asymmetric war between the government of Colombia, paramilitary groups, crime syndicates,…",
       "cites": [
-        "wiki:rev:1383713402:0"
+        "wiki:rev:1383891635:0"
       ]
     },
     {
-      "t": "2026-11-02T00:00:18Z",
-      "text": "The event took place in Tolima Department, Colombia, where the reports place it.",
-      "cites": [
-        "wiki:2026-11-02:7"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:26Z",
-      "text": "The article lists two sides: cartels and paramilitaries, such as La Oficina (1993) and Clan del Golfo (AGC) (2001), and guerrilla groups, such as FARC dissidents (2016) and CGSB (1987–1990).",
-      "cites": [
-        "wiki:box:1383713402:side-1",
-        "wiki:box:1383713402:side-2"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:33Z",
-      "text": "The article records the status as ongoing, noting the Colombia–FARC peace deal in 2016 and the start of the Catatumbo campaign in 2018.",
-      "cites": [
-        "wiki:box:1383713402:status"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:40Z",
-      "text": "According to the article, side 1's Army and Police casualties were 4,908 killed and 20,001 injured since 2004, and side 2's AUC casualties were 2,200 killed and 35,000 demobilized.",
-      "cites": [
-        "wiki:box:1383713402:casualties-side-1-",
-        "wiki:box:1383713402:casualties-side-2-"
-      ]
-    },
-    {
-      "t": "2026-11-02T00:00:49Z",
-      "text": "Colombia is also named in the reports.",
+      "t": "2026-11-02T00:00:17Z",
+      "text": "On the map: Tolima Department, Colombia, where the reports place it.",
       "cites": [
         "wiki:2026-11-02:7"
       ]
     },
     {
-      "t": "2026-11-02T00:00:58Z",
-      "text": "The event was reported by BBC News and Reuters.",
+      "t": "2026-11-02T00:00:25Z",
+      "text": "The article lists two sides: Colombian cartels and paramilitaries:, La Oficina (1993–), Clan del Golfo (AGC) (2001–); Colombian rebel guerrilla groups:, FARC dissidents (2016–), CGSB (1987–1990).",
+      "cites": [
+        "wiki:box:1383891635:side-1",
+        "wiki:box:1383891635:side-2"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:37Z",
+      "text": "Casualties, as Wikipedia records them from its sources: on one side, 4,908 killed since 2004; 20,001 injured since 2004; on the other, 2,200 killed; 35,000 demobilized; 222 killed; 18,506 captured; 2,100 killed.",
+      "cites": [
+        "wiki:box:1383891635:casualties-side-1-",
+        "wiki:box:1383891635:casualties-side-2-"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:00:48Z",
+      "text": "Also named in the reports: Colombia.",
       "cites": [
         "wiki:2026-11-02:7"
       ]
     },
     {
-      "t": "2026-11-02T00:01:06Z",
-      "text": "This explainer draws on Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "t": "2026-11-02T00:00:57Z",
+      "text": "Reported by BBC News and Reuters.",
+      "cites": [
+        "wiki:2026-11-02:7"
+      ]
+    },
+    {
+      "t": "2026-11-02T00:01:05Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-02:7",
-        "wiki:rev:1383713402:0",
+        "wiki:rev:1383891635:0",
         "views:en:Colombian_conflict:30d",
         "wd:Q169072:P31"
       ]
@@ -321,56 +314,54 @@
   "panels": [
     {
       "id": "sides",
-      "t": "2026-11-02T00:00:26Z",
-      "until": "2026-11-02T00:00:48Z",
+      "kind": "facts",
       "title": "As the article records them",
       "note": "From the article's infobox; contested figures are attributed there to their sources.",
-      "kind": "facts",
       "items": [
         {
           "label": "Side 1",
           "text": "Colombian cartels and paramilitaries:, La Oficina (1993–), Clan del Golfo (AGC) (2001–)",
           "cites": [
-            "wiki:box:1383713402:side-1"
+            "wiki:box:1383891635:side-1"
           ]
         },
         {
           "label": "Side 2",
           "text": "Colombian rebel guerrilla groups:, FARC dissidents (2016–), CGSB (1987–1990)",
           "cites": [
-            "wiki:box:1383713402:side-2"
+            "wiki:box:1383891635:side-2"
           ]
         },
         {
           "label": "Status",
           "text": "Ongoing; Colombia–FARC peace deal in 2016; Start of Catatumbo campaign in 2018",
           "cites": [
-            "wiki:box:1383713402:status"
+            "wiki:box:1383891635:status"
           ]
         },
         {
           "label": "Casualties (side 1)",
           "text": "Army and Police:; 4,908 killed since 2004; 20,001 injured since 2004",
           "cites": [
-            "wiki:box:1383713402:casualties-side-1-"
+            "wiki:box:1383891635:casualties-side-1-"
           ]
         },
         {
           "label": "Casualties (side 2)",
           "text": "AUC:; 2,200 killed; 35,000 demobilized; BACRIM:; 222 killed; 18,506 captured; Medellín Cartel:; 2,100 killed",
           "cites": [
-            "wiki:box:1383713402:casualties-side-2-"
+            "wiki:box:1383891635:casualties-side-2-"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:00:26Z",
+      "until": "2026-11-02T00:00:48Z"
     },
     {
       "id": "sources",
-      "t": "2026-11-02T00:00:58Z",
-      "until": "2026-11-02T00:01:05Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
           "label": "BBC News",
@@ -388,15 +379,15 @@
             "wiki:2026-11-02:7"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:00:58Z",
+      "until": "2026-11-02T00:01:05Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-02T00:01:06Z",
-      "until": "2026-11-02T00:01:12Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -411,7 +402,7 @@
           "text": "CC BY-SA 4.0",
           "url": "https://en.wikipedia.org/",
           "cites": [
-            "wiki:rev:1383713402:0"
+            "wiki:rev:1383891635:0"
           ]
         },
         {
@@ -430,13 +421,13 @@
             "wd:Q169072:P31"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-02T00:01:06Z",
+      "until": "2026-11-02T00:01:12Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-05T06:55:08Z",
-    "costUsd": 0.003136
+    "method": "template",
+    "at": "2026-11-06T00:00:00Z"
   }
 }

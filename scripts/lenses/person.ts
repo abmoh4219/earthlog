@@ -298,12 +298,20 @@ export async function personLens(ctx: LensContext): Promise<LensResult> {
             text: `Educated at ${listOf(school.map((s) => s.name))}.`,
             cites: school.map((s) => s.evidence),
           });
-        const work = middle.filter((s) => s.kind === "employer" || s.kind === "work");
-        if (work.length && beats.length < 2)
+        // Employers are worked for; work locations are worked in ("Worked with Washington,
+        // D.C." read as nonsense).
+        const employers = middle.filter((s) => s.kind === "employer");
+        const workPlaces = middle.filter((s) => s.kind === "work");
+        if ((employers.length || workPlaces.length) && beats.length < 2) {
+          const parts = [
+            employers.length ? `for ${listOf(employers.map((s) => s.name))}` : "",
+            workPlaces.length ? `in ${listOf(workPlaces.map((s) => s.name))}` : "",
+          ].filter(Boolean);
           beats.push({
-            text: `Worked with ${listOf(work.map((s) => s.name))}.`,
-            cites: work.map((s) => s.evidence),
+            text: `Worked ${parts.join(", ")}.`,
+            cites: [...employers, ...workPlaces].map((s) => s.evidence),
           });
+        }
         if (!beats.length)
           beats.push({
             text: `${middle.length} places on record across a life.`,
@@ -357,7 +365,10 @@ export async function personLens(ctx: LensContext): Promise<LensResult> {
           const top = awards.filter((a) => a.when).slice(-2);
           const shown = top.length ? top : awards.slice(0, 2);
           beats.push({
-            text: `${awards.length} award${awards.length > 1 ? "s" : ""} on record, including ${listOf(shown.map((a) => `${a.name}${a.when ? ` (${year(a.when)})` : ""}`))}.`,
+            text:
+              awards.length === 1
+                ? `One award on record: ${listOf(shown.map((a) => `${a.name}${a.when ? ` (${year(a.when)})` : ""}`))}.`
+                : `${awards.length} awards on record, among them ${listOf(shown.map((a) => `${a.name}${a.when ? ` (${year(a.when)})` : ""}`))}.`,
             cites: shown.map((a) => awardIds[awards.indexOf(a)] ?? awardIds[0] ?? ""),
           });
         }

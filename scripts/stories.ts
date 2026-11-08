@@ -8,12 +8,18 @@ import { Edition, type Lens } from "../src/scene/edition.ts";
 import { Country, Evidence, LayerData, Scene, Source } from "../src/scene/schema.ts";
 import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, writeJson } from "./bake/lib.ts";
-import { fetchPortal, parsePortal } from "./bake/wikinews.ts";
+import {
+  editionPortalRevision,
+  fetchPortal,
+  newsMismatches,
+  parsePortal,
+} from "./bake/wikinews.ts";
 import { accidentLens } from "./lenses/accident.ts";
 import { conflictLens } from "./lenses/conflict.ts";
 import { cultureLens } from "./lenses/culture.ts";
 import { disasterLens } from "./lenses/disaster.ts";
 import { economyLens } from "./lenses/economy.ts";
+import { captionIssues } from "./lenses/editor.ts";
 import { electionLens } from "./lenses/election/index.ts";
 import { layerKey } from "./lenses/film.ts";
 import { generalLens, type LensContext, type LensResult } from "./lenses/general.ts";
@@ -56,17 +62,47 @@ console.log(
 
 const edition = Edition.parse(await readJson(join(dir, "edition.json")));
 const evidence = z.array(Evidence).parse(await readJson(join(dir, "evidence.json")));
+const editionSources = z
+  .array(Source)
+  .parse(await readJson(join(dir, "sources.json")).catch(() => []));
 const countries = z
   .array(Country)
   .parse(await readJson(join(ROOT, "public", "geo", "countries.json")));
-const news = parsePortal((await fetchPortal(date)).wikitext);
+// The exact Current events revision the edition was built from: its item numbers are the ids
+// of the edition's news evidence. Each item must still read as the edition quoted it.
+const portalRevision = editionPortalRevision(date, evidence);
+const news = parsePortal((await fetchPortal(date, portalRevision)).wikitext);
+const mismatched = newsMismatches(date, evidence, news);
+if (mismatched.length) {
+  console.error(
+    `✗ Current events items no longer match the edition's quotes (${mismatched.join(", ")}): films not made`,
+  );
+  process.exit(1);
+}
 
 let failed = 0;
+let issues = 0;
 const headlines = new Map<string, string>();
 for (const story of edition.stories) {
   if (only && story.slug !== only) continue;
   try {
     const film = await LENS_FILMS[story.lens]({ date, story, evidence, news, countries, at });
+    // The "In the news" chapter cites the outlets' headlines: bring their evidence and the
+    // outlets' credits over from the edition (ADR-0017).
+    for (const c of story.coverage ?? []) {
+      const e = evidence.find((x) => x.id === c.evidence);
+      // A film's window is its day in story time: the headline is cited as reported that day,
+      // its exact time kept in the label.
+      if (e && !film.evidence.some((x) => x.id === e.id))
+        film.evidence.push({
+          ...e,
+          t: `${date}T00:00:00Z`,
+          precision: "day",
+          label: `${e.label} (${e.t.slice(11, 16)} UTC)`,
+        });
+      const src = editionSources.find((x) => x.id === e?.source);
+      if (src && !film.sources.some((x) => x.id === src.id)) film.sources.push(src);
+    }
     // Schema first (ids, formats), then the cross-file rules: what the site will load must parse.
     Scene.parse(film.scene);
     z.array(Evidence).parse(film.evidence);
@@ -86,6 +122,14 @@ for (const story of edition.stories) {
     bytes += await writeJson(join(out, "scene.json"), film.scene);
     bytes += await writeJson(join(out, "evidence.json"), film.evidence);
     bytes += await writeJson(join(out, "sources.json"), film.sources);
+    // The quality check: what a reader would trip on (ADR-0019). Reported, never hidden.
+    const found = captionIssues(
+      film.scene.beats.map((b) => b.text),
+      story.title,
+    );
+    issues += found.length;
+    for (const f of found)
+      console.log(`    caption ${f.index + 1} (${f.kind}): ${f.text.slice(0, 90)}`);
     const first = film.scene.beats[0]?.text;
     if (first) headlines.set(story.slug, first);
     const secs = (Date.parse(film.scene.window.end) - Date.parse(film.scene.window.start)) / 1000;
@@ -106,6 +150,6 @@ await writeJson(join(dir, "edition.json"), {
 });
 
 report(
-  `- Films ${date}: ${headlines.size} made${failed ? `, **${failed} failed** (those stories show as text only)` : ""}`,
+  `- Films ${date}: ${headlines.size} made${failed ? `, **${failed} failed** (those stories show as text only)` : ""}; ${issues} caption issues`,
 );
 if (failed) process.exit(1);

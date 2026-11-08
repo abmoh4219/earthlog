@@ -90,7 +90,11 @@ const listOf = (xs: string[]) =>
 
 export async function electionLens(ctx: LensContext): Promise<LensResult> {
   const { story, date } = ctx;
-  const year = date.slice(0, 4);
+  // The election's own year (a "2028 … elections" story read in 2026 is about a future vote:
+  // no results exist, and this year's must never stand in for them).
+  const editionYear = date.slice(0, 4);
+  const year = /\b(?:19|20)\d{2}\b/.exec(story.title)?.[0] ?? editionYear;
+  const future = year > editionYear;
   const dayStart = `${date}T00:00:00Z`;
   const us = story.place?.country === "US" || /United States/.test(story.title);
 
@@ -99,13 +103,14 @@ export async function electionLens(ctx: LensContext): Promise<LensResult> {
   const titles = [
     ...new Set([story.article?.title, ...story.related].filter((t): t is string => !!t)),
   ];
-  const usTitles = us
-    ? {
-        senate: `${year} United States Senate elections`,
-        house: `${year} United States House of Representatives elections`,
-        governors: `${year} United States gubernatorial elections`,
-      }
-    : undefined;
+  const usTitles =
+    us && !future
+      ? {
+          senate: `${year} United States Senate elections`,
+          house: `${year} United States House of Representatives elections`,
+          governors: `${year} United States gubernatorial elections`,
+        }
+      : undefined;
   const articles = new Map<string, Article>();
   for (const t of [...titles, ...Object.values(usTitles ?? {})]) {
     const a = await fetchArticle(t);
@@ -282,7 +287,10 @@ function stateMapChapter(
   );
   const beats = [
     {
-      text: `${races.length} ${office} this year: Democrats won ${t.D}, Republicans ${t.R}${t.uncalled ? `, ${t.uncalled} not yet called` : ""}.`,
+      text:
+        t.D + t.R + t.I === 0
+          ? `None of the ${races.length} ${office} had been called in the race tables when the data was read.`
+          : `${races.length} ${office} this year: Democrats won ${t.D}, Republicans ${t.R}${t.uncalled ? `, ${t.uncalled} not yet called` : ""}.`,
       cites: [sumId],
     },
   ];

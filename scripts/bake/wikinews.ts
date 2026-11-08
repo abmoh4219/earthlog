@@ -37,9 +37,45 @@ const ParseResponse = z.object({
   parse: z.object({ revid: z.number(), wikitext: z.string() }),
 });
 
-export async function fetchPortal(date: string) {
-  const url = `${API}?action=parse&page=${encodeURIComponent(portalTitle(date))}&prop=wikitext%7Crevid&format=json&formatversion=2`;
+/**
+ * A day's Current events page: its latest revision, or exactly `revid` when given. News
+ * evidence ids ("wiki:<date>:<n>") count items in the revision the edition was built from, so
+ * films must read that same revision: editors add and reorder items for days, and a newer
+ * revision would put another story's text under the same id.
+ */
+export async function fetchPortal(date: string, revid?: number) {
+  const which = revid ? `oldid=${revid}` : `page=${encodeURIComponent(portalTitle(date))}`;
+  const url = `${API}?action=parse&${which}&prop=wikitext%7Crevid&format=json&formatversion=2`;
   return ParseResponse.parse(await fetchJson(url)).parse;
+}
+
+/** The portal revision an edition's news evidence was read from (its links carry oldid). */
+export function editionPortalRevision(
+  date: string,
+  evidence: { id: string; url?: string | undefined }[],
+): number | undefined {
+  for (const e of evidence) {
+    if (!e.id.startsWith(`wiki:${date}:`) || !e.url) continue;
+    const oldid = Number(new URL(e.url).searchParams.get("oldid"));
+    if (Number.isInteger(oldid) && oldid > 0) return oldid;
+  }
+  return undefined;
+}
+
+/**
+ * News evidence whose item no longer reads as quoted: ids "wiki:<date>:<n>" whose n-th item in
+ * `news` differs from the evidence's quote. Empty when the revision is the edition's own.
+ */
+export function newsMismatches(
+  date: string,
+  evidence: { id: string; quote?: string | undefined }[],
+  news: RawStory[],
+): string[] {
+  return evidence.flatMap((e) => {
+    const m = new RegExp(`^wiki:${date}:(\\d+)$`).exec(e.id);
+    if (!m || e.quote === undefined) return [];
+    return news[Number(m[1]) - 1]?.text === e.quote ? [] : [e.id];
+  });
 }
 
 /** "[[A|B]]" → B, "[[A]]" → A, drop bold/italic quotes and templates. */

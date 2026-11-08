@@ -217,59 +217,58 @@
   ],
   "beats": [
     {
-      "t": "2026-11-04T00:00:01Z",
-      "text": "Singapore's parliament amends the Transboundary Haze Pollution Act of 2014, adding arrest powers and tenfold fines up to S$20 million (US$15 million).",
+      "t": "2026-11-04T00:00:00Z",
+      "text": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present,…",
       "cites": [
         "wiki:2026-11-04:2"
       ]
     },
     {
       "t": "2026-11-04T00:00:08Z",
-      "text": "After five days of worker protests and clashes with police, Bangladesh's garment wage board agrees to raise minimum wages; workers demand ৳30,000 (US$240) monthly, up from ৳12,500 (US$100).",
+      "text": "Due to improving haze conditions, the Singapore government announced on 5 November they will close all air-conditioned rooms serving as haze shelters and cease all haze mitigation procedures from 7 November…",
       "cites": [
-        "wiki:2026-11-04:2"
-      ]
-    },
-    {
-      "t": "2026-11-04T00:00:15Z",
-      "text": "Haze has affected several Southeast Asian countries since August 2026, and on 5 November Singapore said it will close haze shelters and end mitigation from 7 November.",
-      "cites": [
-        "wiki:rev:1384099676:0",
         "wiki:rev:1384099676:65"
       ]
     },
     {
-      "t": "2026-11-04T00:00:25Z",
-      "text": "The reports place the haze in Singapore and Malaysia.",
+      "t": "2026-11-04T00:00:16Z",
+      "text": "The 2026 Southeast Asian haze crisis is an air pollution event and the current continuous transboundary haze season that is affecting several countries in Southeast Asia since August 2026, including Brunei, Indonesia…",
+      "cites": [
+        "wiki:rev:1384099676:0"
+      ]
+    },
+    {
+      "t": "2026-11-04T00:00:24Z",
+      "text": "On the map: Singapore, Malaysia, where the reports place it.",
       "cites": [
         "wiki:2026-11-04:2"
       ]
     },
     {
-      "t": "2026-11-04T00:00:33Z",
-      "text": "The haze began in 2026, in Southeast Asia.",
+      "t": "2026-11-04T00:00:32Z",
+      "text": "Began: 2026. Location: Southeast Asia.",
       "cites": [
         "wd:Q141274248:P580",
         "wd:Q141274248:P276"
       ]
     },
     {
-      "t": "2026-11-04T00:00:43Z",
-      "text": "The reports also name Southeast Asia as the affected region.",
+      "t": "2026-11-04T00:00:42Z",
+      "text": "Also named in the reports: Southeast Asia.",
       "cites": [
         "wiki:2026-11-04:2"
       ]
     },
     {
-      "t": "2026-11-04T00:00:52Z",
-      "text": "The story was reported by AFP.",
+      "t": "2026-11-04T00:00:51Z",
+      "text": "Reported by AFP.",
       "cites": [
         "wiki:2026-11-04:2"
       ]
     },
     {
-      "t": "2026-11-04T00:01:00Z",
-      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "t": "2026-11-04T00:00:59Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:2026-11-04:2",
         "wiki:rev:1384099676:65",
@@ -314,11 +313,9 @@
   "panels": [
     {
       "id": "record",
-      "t": "2026-11-04T00:00:33Z",
-      "until": "2026-11-04T00:00:42Z",
+      "kind": "facts",
       "title": "On record: 2026 Southeast Asian haze",
       "note": "As recorded in Wikidata (CC0).",
-      "kind": "facts",
       "items": [
         {
           "label": "Began",
@@ -341,33 +338,33 @@
             "wd:Q141274248:P17"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-04T00:00:33Z",
+      "until": "2026-11-04T00:00:42Z"
     },
     {
       "id": "sources",
-      "t": "2026-11-04T00:00:52Z",
-      "until": "2026-11-04T00:00:59Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Via Wikipedia's Current events, which cites each outlet.",
-      "kind": "facts",
       "items": [
         {
           "label": "AFP",
           "text": "Open",
-          "url": "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests",
+          "url": "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines",
           "cites": [
             "wiki:2026-11-04:2"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-04T00:00:52Z",
+      "until": "2026-11-04T00:00:59Z"
     },
     {
       "id": "film-sources",
-      "t": "2026-11-04T00:01:00Z",
-      "until": "2026-11-04T00:01:06Z",
+      "kind": "facts",
       "title": "Sources",
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
-      "kind": "facts",
       "items": [
         {
           "label": "Wikipedia, Current events",
@@ -401,13 +398,13 @@
             "wd:Q141274248:P31"
           ]
         }
-      ]
+      ],
+      "t": "2026-11-04T00:01:00Z",
+      "until": "2026-11-04T00:01:06Z"
     }
   ],
   "generatedBy": {
-    "method": "claude",
-    "model": "claude-haiku-5-5",
-    "at": "2026-11-07T11:18:47Z",
-    "costUsd": 0.002386
+    "method": "template",
+    "at": "2026-11-08T00:00:00Z"
   }
 }

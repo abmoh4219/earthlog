@@ -89,13 +89,12 @@ export function ago(iso: string, now: number): string {
 }
 
 /**
- * When the next collection is due: the news job runs at minute 15 of every third hour, UTC
+ * When the next collection is due: the news job runs at minute 15 of every hour, UTC
  * (.github/workflows/news.yml). GitHub may start scheduled jobs late; this is the plan, not a promise.
  */
 export function nextCollection(generatedAt: string): string {
   const d = new Date(generatedAt);
   d.setUTCMinutes(15, 0, 0);
-  while (d.getTime() <= Date.parse(generatedAt) || d.getUTCHours() % 3 !== 0)
-    d.setUTCHours(d.getUTCHours() + 1);
+  if (d.getTime() <= Date.parse(generatedAt)) d.setUTCHours(d.getUTCHours() + 1);
   return d.toISOString().replace(/\.\d{3}Z$/, "Z");
 }

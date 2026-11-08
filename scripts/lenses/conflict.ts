@@ -248,13 +248,31 @@ export async function conflictLens(ctx: LensContext): Promise<LensResult> {
         const status = figures.find((f) => f.label === "Status");
         if (status)
           beats.push({
-            text: `Status, as the article records it: ${status.text}.`,
+            text:
+              status.text.length <= 30
+                ? `Wikipedia lists it as ${status.text.toLowerCase()}.`
+                : `Its status, as Wikipedia records it: ${status.text}.`,
             cites: [status.id],
           });
-        const counts = figures.filter((f) => f.label !== "Status").slice(0, 2);
+        // Casualty figures: only the parts with a number ("Unknown; Many" says nothing), each
+        // side named as one side or the other, attributed to Wikipedia's sources (ADR-0011).
+        const counts = figures
+          .filter((f) => f.label !== "Status")
+          .slice(0, 2)
+          .map((f) => ({
+            ...f,
+            text: f.text
+              .split(/\s*;\s*/)
+              .filter((part) => /\d/.test(part))
+              .join("; "),
+          }))
+          .filter((f) => f.text);
         if (counts.length)
           beats.push({
-            text: `Figures as the article records them, each attributed there to its sources: ${counts.map((f) => `${f.label.toLowerCase()}, ${f.text}`).join("; ")}.`,
+            text:
+              counts.length === 2
+                ? `Casualties, as Wikipedia records them from its sources: on one side, ${counts[0]?.text}; on the other, ${counts[1]?.text}.`
+                : `Casualties, as Wikipedia records them from its sources: ${counts[0]?.text}.`,
             cites: counts.map((f) => f.id),
           });
         inserts.push({

@@ -51,6 +51,12 @@ export const Cluster = z.object({
   heat: z.number().min(0).max(100),
   /** Several outlets within the last two hours of a story first seen in that window. */
   breaking: z.boolean(),
+  /** Background from Wikipedia: the lead of the article the headlines name (ADR-0019). */
+  context: z.object({ title: z.string(), url: z.url(), text: z.string() }).optional(),
+  /** This story has its own short film this hour: films/<id>/ beside now.json (ADR-0020). */
+  nowFilm: z.boolean().optional(),
+  /** Earthlog's film of the same story, from one of the last editions. */
+  film: z.object({ date: z.iso.date(), slug: z.string(), title: z.string() }).optional(),
 });
 export type Cluster = z.infer<typeof Cluster>;
 
