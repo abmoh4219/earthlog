@@ -111,14 +111,20 @@ export async function findContext(
   headlines: string[],
   placer: Placer,
 ): Promise<Context | undefined> {
-  const query = searchTerms(headlines);
-  if (!query) return undefined;
-  const search = (await fetchJson(
-    `${API}?action=query&list=search&srsearch=${encodeURIComponent(query)}&srlimit=5&format=json&formatversion=2`,
-  )) as { query?: { search?: { title: string }[] } };
-  const title = (search.query?.search ?? [])
-    .map((r) => r.title)
-    .find((t) => acceptArticle(t, headlines, placer));
+  // Two searches: the names the headlines repeat, then a headline itself (Wikipedia's search
+  // reads a sentence well, and finds event articles written within hours: "2026 … collision").
+  const plain = headlines.find((h) => !/\?\s*$/.test(h))?.replace(/^[^:]{2,32}:\s+/, "");
+  const queries = [searchTerms(headlines), plain].filter((q): q is string => !!q && q.length > 2);
+  let title: string | undefined;
+  for (const query of queries) {
+    const search = (await fetchJson(
+      `${API}?action=query&list=search&srsearch=${encodeURIComponent(query)}&srlimit=5&format=json&formatversion=2`,
+    )) as { query?: { search?: { title: string }[] } };
+    title = (search.query?.search ?? [])
+      .map((r) => r.title)
+      .find((t) => acceptArticle(t, headlines, placer));
+    if (title) break;
+  }
   if (!title) return undefined;
   const page = (await fetchJson(
     `${API}?action=query&prop=extracts%7Crevisions&exintro=1&explaintext=1&exsentences=2&rvprop=ids&redirects=1&format=json&formatversion=2&titles=${encodeURIComponent(title)}`,

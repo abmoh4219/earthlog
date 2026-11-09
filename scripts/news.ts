@@ -17,7 +17,7 @@ import { layerKey } from "./lenses/film.ts";
 import { clusterHeadlines } from "./news/cluster.ts";
 import { findContext, matchFilms } from "./news/context.ts";
 import { parseFeed } from "./news/feeds.ts";
-import { buildLensFilm, buildNowFilm, type NowFilm } from "./news/film.ts";
+import { buildLensFilm, buildNowFilm, buildPlaceFilm, type NowFilm } from "./news/film.ts";
 import { type Gazetteer, makePlacer } from "./news/place.ts";
 import { topicOf } from "./news/topic.ts";
 import { report } from "./report.ts";
@@ -111,7 +111,7 @@ let cards = 0;
 for (const c of clusters) {
   const film = filmFor.get(c.id);
   if (film) c.film = film;
-  if (cards >= 25) continue;
+  if (cards >= 60) continue;
   try {
     const context = await findContext(
       c.headlines.flatMap((id) => titleOf.get(id) ?? []),
@@ -129,50 +129,65 @@ console.log(
   `  context: ${cards} background cards, ${filmFor.size} stories linked to Earthlog films`,
 );
 
-// Films for the hottest stories (ADR-0020): up to 25 an hour, hottest first. A story whose
-// headlines name a Wikipedia article is filmed by that article's lens (charts, maps, panels);
-// one told by two or more outlets otherwise gets the short film. Each is validated like an
-// edition film, and a lens film that fails falls back to the short one.
+// Films for every story of the last 24 hours (ADR-0020), hottest first, each validated like
+// an edition film: by the lens of the article its headlines name; else by its place (the week
+// in that country, its other stories that day, what it is, its economy); else, for a story
+// told by two or more outlets, the short film. A film that fails falls back to the next kind.
 const filmsDir = join(ROOT, "public", "now", "films");
 await rm(filmsDir, { recursive: true, force: true });
 const byId = new Map(headlines.map((h) => [h.id, h]));
+const since = now - 24 * 3_600_000;
+const kinds = { lens: 0, place: 0, short: 0 };
 let made = 0;
-let lensMade = 0;
+const ok = (f: NowFilm | undefined, what: string, c: Cluster): f is NowFilm => {
+  if (!f) return false;
+  // Schema first (lengths, formats): one bad film must never stop the run.
+  const shape = Scene.safeParse(f.scene);
+  const errors = shape.success
+    ? validateBundle(f)
+    : [`scene: ${shape.error.issues[0]?.path.join(".")} ${shape.error.issues[0]?.message}`];
+  if (!errors.length && f.scene.chapters.length >= 3) return true;
+  console.log(`  ${what} film failed for "${c.title.slice(0, 50)}": ${errors[0] ?? "too short"}`);
+  return false;
+};
 for (const c of clusters) {
-  if (made >= 25) break;
+  if (made >= 120) break;
+  if (!c.headlines.some((id) => Date.parse(byId.get(id)?.t ?? "") >= since)) continue;
   let film: NowFilm | undefined;
-  if (c.context) {
+  let kind: keyof typeof kinds | undefined;
+  const attempt = async (what: keyof typeof kinds, make: () => Promise<NowFilm | undefined>) => {
+    if (film) return;
     try {
-      const lensFilm = await buildLensFilm(c, byId, countries, seen);
-      if (lensFilm && !validateBundle(lensFilm).length && lensFilm.scene.chapters.length >= 3) {
-        film = lensFilm;
-        lensMade++;
-      } else if (lensFilm) {
-        console.log(
-          `  lens film failed for "${c.title.slice(0, 50)}": ${validateBundle(lensFilm)[0] ?? "too short"}`,
-        );
+      const f = await make();
+      if (ok(f, what, c)) {
+        film = f;
+        kind = what;
       }
     } catch (err) {
       console.log(
-        `  lens film failed for "${c.title.slice(0, 50)}": ${err instanceof Error ? err.message : String(err)}`,
+        `  ${what} film failed for "${c.title.slice(0, 50)}": ${err instanceof Error ? err.message : String(err)}`,
       );
     }
-  }
-  if (!film && c.outlets.length >= 2) {
-    const simple = buildNowFilm(c, byId, seen);
-    if (simple && !validateBundle(simple).length) film = simple;
-  }
-  if (!film) continue;
+  };
+  if (c.context) await attempt("lens", () => buildLensFilm(c, byId, countries, seen));
+  if (c.place?.country || c.place?.basis === "region")
+    await attempt("place", () => buildPlaceFilm(c, byId, clusters, countries, seen));
+  if (c.outlets.length >= 2) await attempt("short", async () => buildNowFilm(c, byId, seen));
+  const done = film as NowFilm | undefined;
+  if (!done || !kind) continue;
   const out = join(filmsDir, c.id);
-  for (const layer of film.layers)
+  for (const layer of done.layers)
     await writeJson(join(out, "data", `${layerKey(layer)}.json`), LayerData.parse(layer), false);
-  await writeJson(join(out, "scene.json"), Scene.parse(film.scene), false);
-  await writeJson(join(out, "evidence.json"), film.evidence, false);
-  await writeJson(join(out, "sources.json"), film.sources, false);
+  await writeJson(join(out, "scene.json"), Scene.parse(done.scene), false);
+  await writeJson(join(out, "evidence.json"), done.evidence, false);
+  await writeJson(join(out, "sources.json"), done.sources, false);
   c.nowFilm = true;
+  kinds[kind]++;
   made++;
 }
-console.log(`  films: ${made} made (${lensMade} by a lens, ${made - lensMade} short)`);
+console.log(
+  `  films: ${made} made (${kinds.lens} by a lens, ${kinds.place} by place, ${kinds.short} short)`,
+);
 
 const file = NowFile.parse({ version: 1, generatedAt: seen, outlets: status, headlines, clusters });
 const bytes = await writeJson(FILE, file, false);

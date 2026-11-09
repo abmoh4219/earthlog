@@ -23,8 +23,17 @@ const ENTITIES: Record<string, string> = {
 /** The text inside an element: CDATA unwrapped, tags stripped, entities decoded, spaces collapsed. */
 export function textOf(raw: string): string {
   const unwrapped = raw.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1");
-  return unwrapped
-    .replace(/<[^>]+>/g, " ")
+  return (
+    decode(unwrapped.replace(/<[^>]+>/g, " "))
+      // Feeds that escape their markup ("&lt;a href=…&gt;") only show tags once decoded.
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+  );
+}
+
+function decode(text: string): string {
+  return text
     .replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e: string) => {
       if (e[0] === "#") {
         const code =

@@ -79,4 +79,12 @@ describe("urls and text", () => {
   it("strips tags and decodes numeric entities", () => {
     expect(textOf("<p>Caf&#233; &#x2013; <b>open</b></p>")).toBe("Café – open");
   });
+
+  it("strips markup a feed escaped inside its title (Sky News, 8 Nov 2026)", () => {
+    expect(
+      textOf(
+        "&lt;a href='https://news.sky.com/video/x'&gt;Russia's last major independent news outlet closing&lt;/a&gt;",
+      ),
+    ).toBe("Russia's last major independent news outlet closing");
+  });
 });

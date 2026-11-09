@@ -30,6 +30,16 @@ export interface LensContext {
    * reported it ("…, Al Jazeera reports."), cited to that headline (ADR-0020).
    */
   lead?: { text: string; cites: string[] };
+  /** More opening captions after the lead ("Also reported by …"). */
+  alsoBeats?: { text: string; cites: string[] }[];
+  /**
+   * The article is background, not the story: the place the story happened (a Now story no
+   * article explains). Its dated sentences are not "what happened"; its lead becomes "About …",
+   * the week's thread "The week in …", and its readers are no sign of this story's.
+   */
+  background?: string;
+  /** Chapters the caller adds after "Where" (e.g. other stories from the same country). */
+  extraChapters?: ChapterDraft[];
 }
 
 /**
@@ -257,28 +267,41 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
       url: `https://en.wikipedia.org/w/index.php?title=${encodeURIComponent(rev.title.replace(/ /g, "_"))}&oldid=${rev.revid}`,
     });
   };
-  const opening: ChapterDraft["beats"] = ctx.lead ? [ctx.lead] : [];
+  const opening: ChapterDraft["beats"] = [
+    ...(ctx.lead ? [ctx.lead] : []),
+    ...(ctx.alsoBeats ?? []),
+  ];
+  const background = ctx.background;
   // An article about the event itself ("On November 1, 2026, a … jet crashed …") opens with
   // that event; later developments follow.
   const eventFirst =
-    found && !newsFirst && contextIsTheEvent(found, date) ? found.context : undefined;
+    found && !newsFirst && !background && contextIsTheEvent(found, date)
+      ? found.context
+      : undefined;
   if (eventFirst) {
     const id = fromArticle(eventFirst);
     if (id) opening.push({ text: clip(eventFirst.text), cites: [id] });
   }
   if (newsFirst) opening.push({ text: clip(newsFirst.raw.text), cites: [newsFirst.id] });
-  const room = (eventFirst ? 3 : 2) - opening.length;
+  const room = background ? 0 : (eventFirst ? 3 : 2) - opening.length;
   for (const sentence of chronological((found?.news ?? []).slice(0, Math.max(0, room)), date)) {
     const id = fromArticle(sentence);
     if (id) opening.push({ text: clip(sentence.text), cites: [id] });
   }
-  // Context last: who or what this is (unless the news already said it all).
+  // Context last: who or what this is (unless the news already said it all). For a
+  // background place it gets its own chapter, "About …", after "Where".
   const context = eventFirst ? undefined : found?.context;
-  if (context && opening.length < 3) {
+  const aboutBeats: ChapterDraft["beats"] = [];
+  if (context && background) {
+    const id = fromArticle(context);
+    // In "About Ukraine", a leading "It is …" is Ukraine.
+    const text = context.text.replace(/^It (is|was|has|lies)\b/, `${background} $1`);
+    if (id) aboutBeats.push({ text: clip(text), cites: [id] });
+  } else if (context && opening.length < 3) {
     const id = fromArticle(context);
     if (id) opening.push({ text: clip(context.text), cites: [id] });
   }
-  if (!opening.length && story.article && (story.about ?? story.summary)) {
+  if (!opening.length && !background && story.article && (story.about ?? story.summary)) {
     const id = add({
       id: `wiki:article:${story.article.title.replace(/ /g, "_")}`,
       kind: "report",
@@ -351,7 +374,7 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     }
     const shown = thread.items.slice(-4);
     chapters.push({
-      title: "How it unfolded",
+      title: background ? `The week in ${background}` : "How it unfolded",
       seconds: 4 + shown.length * 6,
       shot: wideShot(placed.map((i) => i.place ?? { lon: 0, lat: 0 })) ?? {
         ...home,
@@ -634,12 +657,26 @@ export async function generalLens(ctx: LensContext, hooks: LensHooks = {}): Prom
     });
   }
 
+  // A background place's own lead, and the caller's chapters (ADR-0020).
+  const aboutTitle = background ? `About ${background}` : undefined;
+  if (aboutTitle && aboutBeats.length)
+    chapters.push({
+      title: aboutTitle,
+      seconds: 4 + aboutBeats.length * 7,
+      shot: { ...home, range: home.range * 3, pitch: -62, heading: 10 },
+      beats: aboutBeats,
+    });
+  const extra = ctx.extraChapters ?? [];
+  chapters.push(...extra);
+
   // The story and its analysis first; how many people read about it is a side note near
   // the end, before the sources.
   const ORDER = [
     "What happened",
-    "How it unfolded",
+    background ? `The week in ${background}` : "How it unfolded",
     "Where",
+    ...extra.map((c) => c.title),
+    ...(aboutTitle ? [aboutTitle] : []),
     "On record",
     "Connected",
     "Readers",
