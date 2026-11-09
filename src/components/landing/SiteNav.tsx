@@ -4,14 +4,15 @@ import { SearchButton } from "@/components/Search";
 import { REPO_URL } from "@/config";
 import { GithubMark } from "./GithubMark";
 import { LogoMark } from "./LogoMark";
+import { MobileMenu } from "./MobileMenu";
 
 const LINKS = [
   { href: "/now", label: "Now" },
+  { href: "/brief", label: "Brief" },
   { href: "/play", label: "Play" },
+  { href: "/week", label: "Week" },
   { href: "/#archive", label: "Archive" },
-  { href: "/#lenses", label: "Lenses" },
   { href: "/#how", label: "How it works" },
-  { href: "/#faq", label: "FAQ" },
 ];
 
 /** The site's top bar: the name, the sections, the source, and the way into today's edition. */
@@ -37,10 +38,11 @@ export function SiteNav() {
         </ul>
         <div className="ml-auto flex items-center gap-2">
           <SearchButton />
+          <MobileMenu links={LINKS} />
           <Link
             href="/yours"
             aria-label="Yours: what you follow, your game, your history"
-            className="grid size-9 place-items-center rounded-full text-dust/70 transition-colors hover:bg-moon/6 hover:text-moon"
+            className="hidden size-9 place-items-center rounded-full text-dust/70 transition-colors hover:bg-moon/6 hover:text-moon md:grid"
           >
             <Bookmark size={17} aria-hidden />
           </Link>

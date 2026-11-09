@@ -604,3 +604,22 @@ A daily ritual built from the edition itself teaches where the news happened; fo
 ### Cost
 
 Streaks and follows don't move between devices, and clearing the browser clears them. A story without an article is followed only through the edition's own update links.
+
+## ADR-0025: The morning brief, listen mode and the week
+
+Status: accepted (9 November 2026)
+
+### Decision
+
+- **`/brief`**, built with the latest edition (`src/scene/brief.ts`): the five biggest stories, each with its film's opening caption (itself cited; left out when it only repeats the title) and why it is news; the rest by name; "Since then", the Now stories first reported after the edition's day; the day's game. The brief says nothing the films don't.
+- **Listen mode** reads the brief with the browser's own speech synthesis (Web Speech API). Only voices that run on the device (`localService`) are used, because some browsers offer cloud voices that send the text to a server; without a local English voice the button is not shown. No key, no service, nothing sent.
+- **`/week`**, built from the last seven editions: each day's three biggest stories, the stories that ran three days or more (from the editions' "Update, day n"), and where the week's stories happened.
+- The nav lists Now, Brief, Play, Week, Archive and How it works; on phones they sit behind a menu button.
+
+### Why
+
+A two-minute version of the edition, readable or audible, is the morning habit; the week is the catch-up for readers who missed days. Built from the editions, they cost nothing to run and repeat only what the films already cite.
+
+### Cost
+
+Listen mode depends on the reader's device having a local voice (most desktop and mobile systems do; some Linux browsers don't). The brief is as fresh as the latest edition, plus "Since then" from Now.
