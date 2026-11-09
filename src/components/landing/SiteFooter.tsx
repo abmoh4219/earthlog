@@ -11,9 +11,11 @@ export function SiteFooter() {
       title: "Earthlog",
       links: [
         { label: "Today's edition", href: "/today" },
+        { label: "Morning brief", href: "/brief" },
+        { label: "The week", href: "/week" },
         { label: "Archive", href: "/#archive" },
-        { label: "How it works", href: "/#how" },
         { label: "FAQ", href: "/#faq" },
+        { label: "RSS feed", href: "/feed.xml" },
       ],
     },
     {
@@ -51,7 +53,8 @@ export function SiteFooter() {
             <ul className="mt-3 space-y-2 text-sm">
               {c.links.map((l) => (
                 <li key={l.label}>
-                  {l.href.startsWith("/") ? (
+                  {/* Pages go through the router; the feed is a file. */}
+                  {l.href.startsWith("/") && !l.href.endsWith(".xml") ? (
                     <Link href={l.href} className="text-dust/75 transition-colors hover:text-moon">
                       {l.label}
                     </Link>

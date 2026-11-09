@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: story.title,
     description,
     openGraph: { title: `${story.title} · Earthlog`, description, type: "video.other" },
-    twitter: { card: "summary", title: story.title, description },
+    twitter: { card: "summary_large_image", title: story.title, description },
   };
 }
 

@@ -10,6 +10,15 @@ export function ShareButton() {
   const share = async () => {
     const t = new Date(usePlayer.getState().clock.t).toISOString().replace(/\.\d{3}Z$/, "Z");
     const url = `${window.location.origin}${window.location.pathname}?t=${t}&play`;
+    // Phones: the system's share sheet (messages, apps); elsewhere, copy the link.
+    if (typeof navigator.share === "function" && window.matchMedia("(pointer: coarse)").matches) {
+      try {
+        await navigator.share({ title: document.title, url });
+        return;
+      } catch {
+        // Dismissed, or not allowed: fall back to copying.
+      }
+    }
     try {
       await navigator.clipboard.writeText(url);
       setCopied(true);

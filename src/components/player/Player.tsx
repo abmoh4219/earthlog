@@ -25,7 +25,7 @@ export function Player({
   follow,
 }: {
   bundle: SceneBundle;
-  back?: { href: string; label: string };
+  back?: { href: string; label: string; external?: boolean };
   /** The story, to follow it (ADR-0024). */
   follow?: FollowTarget;
 }) {
@@ -33,9 +33,12 @@ export function Player({
   const loaded = usePlayer((s) => s.bundle?.scene.id === bundle.scene.id);
 
   // The reader's history: films they watched, in their browser only (ADR-0024).
+  // Not when embedded on another site: that is the host page's reader, not a visit here.
+  const embedded = back?.external === true;
   useEffect(() => {
-    recordVisit(window.location.pathname + window.location.search, bundle.scene.title);
-  }, [bundle.scene.title]);
+    if (!embedded)
+      recordVisit(window.location.pathname + window.location.search, bundle.scene.title);
+  }, [bundle.scene.title, embedded]);
 
   useEffect(() => {
     load(bundle);
@@ -59,11 +62,12 @@ export function Player({
       <Panels />
       <Legend />
       <StoryCard />
-      <ChapterCard />
+      {/* Embedded in a small frame: no full-screen chapter titles, a simpler toolbar. */}
+      {!embedded && <ChapterCard />}
       <Captions />
-      <Transport />
+      <Transport compact={embedded} />
       <Credits />
-      <Help />
+      {!embedded && <Help />}
     </main>
   );
 }

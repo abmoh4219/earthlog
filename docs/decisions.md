@@ -623,3 +623,23 @@ A two-minute version of the edition, readable or audible, is the morning habit; 
 ### Cost
 
 Listen mode depends on the reader's device having a local voice (most desktop and mobile systems do; some Linux browsers don't). The brief is as fresh as the latest edition, plus "Since then" from Now.
+
+## ADR-0026: Built to be shared: share cards, RSS, embeds
+
+Status: accepted (9 November 2026)
+
+### Decision
+
+- **Share cards:** every story film, every edition and the site have a 1200 × 630 preview image, made at build time with `next/og` (Satori; static PNG files, nothing rendered per visitor): the story's kind, date and place, its title, why it is news, and a world map from Earthlog's own country outlines with the story's place in amber (an edition marks all its stories). Pages without their own card use the site's. Set in Geist (OFL, from the `geist` package), because Satori reads TTF and the Newsreader serif is available here only through `next/font`. Story pages use the large-image card on X.
+- **RSS:** `/feed.xml`, RSS 2.0 of the last seven editions' films, one item per story (its title, its film's opening caption, the link), written at build time; announced in every page's head and linked from the footer.
+- **Embeds:** `/embed/<date>/<slug>` is the same player for an iframe on another site; the way to Earthlog opens a new tab, the page is kept out of search results (its canonical is the film's own page), and it records no history. The player's toolbar copies the embed code.
+- **Sharing on phones** uses the system share sheet (Web Share API); elsewhere the link is copied.
+- The site's address lives only in `src/config.ts` (`SITE_URL`, or `NEXT_PUBLIC_SITE_URL` on Vercel): a custom domain later is one value.
+
+### Why
+
+A link that shows the story and its map gets opened; feeds and embeds let Earthlog travel without accounts or a backend. All of it is static, so sharing costs nothing at any scale.
+
+### Cost
+
+Each card adds about 120 KB to the build output (about 100 cards today, growing by about 15 a day; old editions' cards go with old films when the archive moves to its own repository).

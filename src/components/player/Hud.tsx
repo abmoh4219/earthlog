@@ -16,7 +16,7 @@ export function Hud({
   follow,
 }: {
   scene: Scene;
-  back?: { href: string; label: string };
+  back?: { href: string; label: string; external?: boolean };
   follow?: FollowTarget;
 }) {
   return scene.time === "story" ? (
@@ -31,7 +31,7 @@ function ClockHud({
   back,
 }: {
   scene: Scene;
-  back: { href: string; label: string } | undefined;
+  back: { href: string; label: string; external?: boolean } | undefined;
 }) {
   // Re-render once per scene second, not every frame.
   const second = usePlayer((s) => Math.floor(s.clock.t / 1000));
@@ -104,7 +104,7 @@ function StoryHud({
   follow,
 }: {
   scene: Scene;
-  back: { href: string; label: string } | undefined;
+  back: { href: string; label: string; external?: boolean } | undefined;
   follow: FollowTarget | undefined;
 }) {
   const index = usePlayer((s) => {
@@ -125,12 +125,24 @@ function StoryHud({
   return (
     <header className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between gap-4 p-4 sm:p-6 md:p-8">
       <div className="max-w-2xl">
-        <Link
-          href={back?.href ?? "/"}
-          className="font-medium pointer-events-auto text-xs text-dust/80 hover:text-dust"
-        >
-          Earthlog{back ? ` · ${back.label}` : ""}
-        </Link>
+        {back?.external ? (
+          // Embedded on another site: the way to Earthlog opens a new tab.
+          <a
+            href={back.href}
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium pointer-events-auto text-xs text-dust/80 hover:text-dust"
+          >
+            Earthlog · {back.label} ↗
+          </a>
+        ) : (
+          <Link
+            href={back?.href ?? "/"}
+            className="font-medium pointer-events-auto text-xs text-dust/80 hover:text-dust"
+          >
+            Earthlog{back ? ` · ${back.label}` : ""}
+          </Link>
+        )}
         <h1 className="mt-2 line-clamp-2 font-serif text-xl leading-tight font-normal tracking-[-0.015em] text-moon sm:mt-3 sm:text-2xl md:text-4xl">
           {scene.title}
         </h1>

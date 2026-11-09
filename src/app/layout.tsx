@@ -23,6 +23,8 @@ export const metadata: Metadata = {
   title: { default: `${SITE_NAME}: ${TAGLINE}`, template: `%s · ${SITE_NAME}` },
   description: DESCRIPTION,
   openGraph: { siteName: SITE_NAME, type: "website" },
+  // The editions as a feed (ADR-0026), for feed readers.
+  alternates: { types: { "application/rss+xml": "/feed.xml" } },
   twitter: { card: "summary_large_image" },
 };
 

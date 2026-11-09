@@ -17,6 +17,7 @@ import { usePlayer } from "@/player/store";
 import { effectiveSpeed } from "@/scene/clock";
 import { speedText } from "@/scene/format";
 import { ClipButton } from "./ClipButton";
+import { EmbedButton } from "./EmbedButton";
 import { ShareButton } from "./ShareButton";
 import { Timeline } from "./Timeline";
 
@@ -52,7 +53,7 @@ function Toggle({
 }
 
 /** Bottom control bar: play, scrubber, speed, camera and layer toggles. */
-export function Transport() {
+export function Transport({ compact = false }: { compact?: boolean }) {
   const playing = usePlayer((s) => s.clock.playing);
   const auto = usePlayer((s) => s.clock.auto);
   const manualSpeed = usePlayer((s) => s.clock.speed);
@@ -121,11 +122,14 @@ export function Transport() {
         </div>
 
         {/* Phones: play, the timeline and share; the layer toggles and clip export need room. */}
-        <div className="shrink-0 sm:hidden">
+        <div className={`shrink-0 ${compact ? "" : "sm:hidden"}`}>
           <ShareButton />
         </div>
-        <div className="hidden shrink-0 items-center gap-1 border-l border-dust/10 pl-2 sm:flex">
+        <div
+          className={`hidden shrink-0 items-center gap-1 border-l border-dust/10 pl-2 ${compact ? "" : "sm:flex"}`}
+        >
           <ShareButton />
+          {story && <EmbedButton />}
           {story && <ClipButton />}
           <Toggle
             on={director}
