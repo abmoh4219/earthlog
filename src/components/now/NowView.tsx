@@ -11,7 +11,9 @@ import {
   type Selection,
   SelectionCard,
 } from "@/components/now/EarthPanel";
+import { ForYouChooser, RegionChips, TopicChips } from "@/components/now/Filters";
 import type { FrontGlobe, FrontStory, NaturePoint } from "@/globe/front";
+import { type ForYou, hasPrefs, useForYou } from "@/lib/for-you";
 import { fresherLive, fresherNow } from "@/lib/live-now";
 import { countryAt } from "@/scene/geo";
 import type { Headline, NowFile } from "@/scene/headlines";
@@ -19,6 +21,7 @@ import type { LiveFile } from "@/scene/live";
 import {
   ago,
   blindSpot,
+  type NowFilter,
   type NowStory,
   type NowWindow,
   nextCollection,
@@ -28,6 +31,7 @@ import {
 } from "@/scene/now";
 import { OUTLETS, outletById } from "@/scene/outlets";
 import { countryPulse, type PulseStory, surprise } from "@/scene/pulse";
+import type { Region } from "@/scene/regions";
 import { Country } from "@/scene/schema";
 import { TOPIC_LABEL, type Topic } from "@/scene/topics";
 
@@ -81,12 +85,46 @@ export function NowView({
   const [win, setWin] = useState<NowWindow>(() =>
     storiesIn(initial, "3h", Date.parse(initial.generatedAt)).length >= 6 ? "3h" : "24h",
   );
-  const [topic, setTopic] = useState<Topic | undefined>();
+  const [topic, setTopicOnly] = useState<Topic | undefined>();
+  const [region, setRegion] = useState<Region | undefined>();
+  const [prefs, savePrefs] = useForYou();
+  const [forYouOn, setForYouOn] = useState(false);
+  const [choosing, setChoosing] = useState<ForYou>();
+  const setTopic = useCallback((t: Topic | undefined) => {
+    setTopicOnly(t);
+    setForYouOn(false);
+  }, []);
+  // "For you" with nothing chosen yet opens the chooser; chosen, it toggles.
+  const onForYou = useCallback(() => {
+    if (!hasPrefs(prefs) || forYouOn) {
+      if (!hasPrefs(prefs)) setChoosing(prefs);
+      else setForYouOn(false);
+      return;
+    }
+    setTopicOnly(undefined);
+    setForYouOn(true);
+  }, [prefs, forYouOn]);
   const [open, setOpen] = useState<string>();
   const globeEl = useRef<HTMLDivElement>(null);
   const credits = useRef<HTMLDivElement>(null);
   const globe = useRef<FrontGlobe | undefined>(undefined);
   const listRef = useRef<HTMLOListElement>(null);
+
+  // /now?story=<id> (from search, or a shared link): open that story once the list is ready.
+  const pending = useRef<string | undefined>(undefined);
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get("story") ?? undefined;
+    if (id && initial.clusters.some((c) => c.id === id)) {
+      pending.current = id;
+      setWin("24h");
+      setOpen(id);
+      requestAnimationFrame(() =>
+        listRef.current
+          ?.querySelector(`[data-id="${id}"]`)
+          ?.scrollIntoView({ block: "center", behavior: "smooth" }),
+      );
+    }
+  }, [initial]);
 
   useEffect(() => {
     setNow(Date.now());
@@ -111,14 +149,31 @@ export function NowView({
     };
   }, []);
 
-  const counts = useMemo(() => windowCounts(file, now, topic), [file, now, topic]);
-  const stories = useMemo(() => storiesIn(file, win, now, topic), [file, win, now, topic]);
+  // The reader's filter: a topic chip or the followed topics; a region chip or the followed
+  // regions (ADR-0023).
+  const filter = useMemo<NowFilter>(
+    () => ({
+      topics: forYouOn ? prefs.topics : topic ? [topic] : [],
+      regions: region ? [region] : forYouOn ? prefs.regions : [],
+    }),
+    [forYouOn, prefs, topic, region],
+  );
+  const counts = useMemo(() => windowCounts(file, now, filter), [file, now, filter]);
+  const stories = useMemo(() => storiesIn(file, win, now, filter), [file, win, now, filter]);
+  // Chip counts: each row counts within the other row's choice.
   const topics = useMemo(() => {
-    const all = storiesIn(file, win, now);
+    const all = storiesIn(file, win, now, { regions: filter.regions ?? [] });
     const n = new Map<Topic, number>();
     for (const s of all) n.set(s.cluster.topic, (n.get(s.cluster.topic) ?? 0) + 1);
     return [...n.entries()].sort((a, b) => b[1] - a[1]);
-  }, [file, win, now]);
+  }, [file, win, now, filter.regions]);
+  const regionCounts = useMemo(() => {
+    const all = storiesIn(file, win, now, { topics: filter.topics ?? [] });
+    const n = new Map<Region, number>();
+    for (const s of all)
+      if (s.cluster.region) n.set(s.cluster.region, (n.get(s.cluster.region) ?? 0) + 1);
+    return n;
+  }, [file, win, now, filter.topics]);
   const failed = file.outlets.filter((o) => !o.ok).map((o) => name(o.id));
 
   const placed = useMemo<FrontStory[]>(
@@ -261,6 +316,7 @@ export function NowView({
           globe.current = g;
           g.update(placedRef.current);
           g.setNature(natureRef.current);
+          if (pending.current) g.focus(pending.current);
         }
       })
       .catch(() => {});
@@ -310,20 +366,39 @@ export function NowView({
             ))}
           </div>
 
-          {topics.length > 1 && (
-            <div className="-mx-1 mt-3 flex flex-wrap gap-1 text-[13px]">
-              {[undefined, ...topics.map(([t]) => t)].map((t) => (
-                <button
-                  key={t ?? "all"}
-                  type="button"
-                  onClick={() => setTopic(t)}
-                  aria-pressed={t === topic}
-                  className={`rounded-full px-2.5 py-1 transition-colors ${t === topic ? "bg-moon/12 text-moon" : "text-dust/55 hover:bg-moon/5 hover:text-moon"}`}
-                >
-                  {t ? TOPIC_LABEL[t] : "All"}
-                </button>
-              ))}
-            </div>
+          <RegionChips counts={regionCounts} region={region} setRegion={setRegion} />
+          <TopicChips
+            topics={topics}
+            topic={topic}
+            setTopic={setTopic}
+            forYou={prefs}
+            forYouOn={forYouOn}
+            onForYou={onForYou}
+          />
+          {forYouOn && !choosing && (
+            <p className="mt-2 text-xs text-dust/45">
+              Following {[...prefs.topics.map((t) => TOPIC_LABEL[t]), ...prefs.regions].join(", ")}{" "}
+              ·{" "}
+              <button
+                type="button"
+                onClick={() => setChoosing(prefs)}
+                className="text-dust/70 underline decoration-moon/30 underline-offset-4 hover:text-moon"
+              >
+                Edit
+              </button>
+            </p>
+          )}
+          {choosing && (
+            <ForYouChooser
+              value={choosing}
+              onChange={setChoosing}
+              onDone={() => {
+                savePrefs(choosing);
+                setChoosing(undefined);
+                setTopicOnly(undefined);
+                setForYouOn(hasPrefs(choosing));
+              }}
+            />
           )}
         </div>
 

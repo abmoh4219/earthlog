@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { FrontPage, type RailStory } from "@/components/front/FrontPage";
 import { listEditions, listStoryFilms, loadEdition, loadIndex } from "@/lib/bundles";
 import { LENS_INFO } from "@/scene/edition";
+import { regionOf } from "@/scene/regions";
 
 const label = (date: string, opts: Intl.DateTimeFormatOptions) =>
   new Date(`${date}T00:00:00Z`).toLocaleDateString("en-GB", { ...opts, timeZone: "UTC" });
@@ -27,11 +28,13 @@ export default async function Today() {
   const films = new Set(await listStoryFilms(latest));
   const stories: RailStory[] = edition.stories.map((s) => {
     const lens = LENS_INFO[s.lens];
+    const region = regionOf(s.place?.country, s.continent);
     return {
       slug: s.slug,
       title: s.title,
       headline: s.headline ?? s.summary,
       ...(s.why ? { why: s.why } : {}),
+      ...(region ? { region } : {}),
       color: lens.color,
       lensLabel: lens.label,
       heat: s.heat,

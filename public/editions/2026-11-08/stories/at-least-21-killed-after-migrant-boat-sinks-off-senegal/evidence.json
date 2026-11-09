@@ -66,5 +66,365 @@
     "precision": "day",
     "label": "Wikidata, \"Senegal\": country Senegal",
     "url": "https://www.wikidata.org/wiki/Q1041#P17"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:region:sub-saharan-africa",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, inflation, latest year, Sub-Saharan Africa: South Sudan 91.4% (2024); Burundi 34.1% (2025); Malawi 28.4% (2025); Nigeria 23.0% (2025); Angola 20.2% (2025); Ghana 14.2% (2025); Zambia 13.9% (2025); Ethiopia 13.2% (2025); Gambia 11.6% (2024); Liberia 8.3% (2025); Madagascar 8.1% (2025); Sierra Leone 7.5% (2025); Rwanda 5.9% (2025); Mozambique 4.4% (2025); Lesotho 4.3% (2025); Kenya 4.1% (2025); Uganda 3.6% (2025); Guinea 3.6% (2025); Namibia 3.5% (2025); Cameroon 3.4% (2025); Tanzania 3.3% (2025); Mali 3.3% (2025); South Africa 3.2% (2025); Equatorial Guinea 2.9% (2024); Botswana 2.7% (2025); Congo 2.4% (2025); Gabon 1.8% (2025); Mauritania 1.5% (2025); Senegal 1.5% (2025); Benin 1.1% (2025); Central African Republic 1.0% (2025); Guinea-Bissau 0.9% (2025); Togo 0.4% (2025); Ivory Coast 0.1% (2025); Burkina Faso -0.6% (2025); Chad -3.9% (2025); Niger -4.5% (2025)",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:SN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Senegal: 2020 2.5%; 2021 2.2%; 2022 9.7%; 2023 5.9%; 2024 0.8%; 2025 1.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+  },
+  {
+    "id": "wb:NY.GDP.MKTP.KD.ZG:SN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, GDP growth, Senegal: 2020 1.3%; 2021 6.5%; 2022 3.9%; 2023 4.3%; 2024 6.5%; 2025 6.7%",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=SN"
+  },
+  {
+    "id": "wb:SL.UEM.TOTL.ZS:SN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Unemployment, Senegal: 2020 3.4%; 2021 3.4%; 2022 2.8%; 2023 2.8%; 2024 2.8%; 2025 2.7%",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:AO",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Angola: 2020 22.3%; 2021 25.8%; 2022 21.4%; 2023 13.6%; 2024 28.2%; 2025 20.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AO"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BI",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Burundi: 2020 7.3%; 2021 8.4%; 2022 18.8%; 2023 26.9%; 2024 20.2%; 2025 34.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BI"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BJ",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Benin: 2020 3.0%; 2021 1.7%; 2022 1.4%; 2023 2.7%; 2024 1.2%; 2025 1.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BJ"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BF",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Burkina Faso: 2020 1.9%; 2021 3.7%; 2022 14.3%; 2023 0.7%; 2024 4.2%; 2025 -0.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BF"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BW",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Botswana: 2020 1.9%; 2021 7.2%; 2022 11.7%; 2023 5.1%; 2024 2.8%; 2025 2.7%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BW"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CF",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Central African Republic: 2020 1.7%; 2021 4.3%; 2022 5.6%; 2023 3.0%; 2024 1.5%; 2025 1.0%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CF"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CI",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Ivory Coast: 2020 2.4%; 2021 4.2%; 2022 5.2%; 2023 4.4%; 2024 3.5%; 2025 0.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CI"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CM",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Cameroon: 2020 2.4%; 2021 2.3%; 2022 6.2%; 2023 7.4%; 2024 4.5%; 2025 3.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CM"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CG",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Congo: 2020 1.8%; 2021 1.7%; 2022 3.0%; 2023 4.3%; 2024 3.1%; 2025 2.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:ET",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Ethiopia: 2020 20.4%; 2021 26.8%; 2022 33.9%; 2023 30.2%; 2024 21.0%; 2025 13.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ET"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GA",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Gabon: 2020 1.4%; 2021 1.1%; 2022 4.2%; 2023 3.6%; 2024 1.2%; 2025 1.8%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GA"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GH",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Ghana: 2020 9.9%; 2021 10.0%; 2022 31.3%; 2023 38.1%; 2024 22.8%; 2025 14.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GH"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Guinea: 2020 10.6%; 2021 12.6%; 2022 10.5%; 2023 7.8%; 2024 8.1%; 2025 3.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GM",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Gambia: 2019 7.1%; 2020 5.9%; 2021 7.4%; 2022 11.5%; 2023 17.0%; 2024 11.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GM"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GW",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Guinea-Bissau: 2020 1.1%; 2021 2.2%; 2022 9.4%; 2023 7.1%; 2024 3.8%; 2025 0.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GW"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GQ",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Equatorial Guinea: 2019 1.5%; 2020 4.8%; 2021 -0.1%; 2022 4.8%; 2023 2.9%; 2024 2.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GQ"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:KE",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Kenya: 2020 5.4%; 2021 6.1%; 2022 7.7%; 2023 7.7%; 2024 4.5%; 2025 4.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KE"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:LR",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Liberia: 2020 17.0%; 2021 7.8%; 2022 7.6%; 2023 10.1%; 2024 8.2%; 2025 8.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LR"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:LS",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Lesotho: 2020 5.0%; 2021 6.0%; 2022 8.3%; 2023 6.3%; 2024 6.1%; 2025 4.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LS"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:MG",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Madagascar: 2020 4.2%; 2021 5.8%; 2022 8.2%; 2023 9.9%; 2024 7.6%; 2025 8.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:ML",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Mali: 2020 0.4%; 2021 3.9%; 2022 9.6%; 2023 2.1%; 2024 3.2%; 2025 3.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ML"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:MZ",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Mozambique: 2020 3.5%; 2021 6.4%; 2022 10.3%; 2023 7.1%; 2024 4.1%; 2025 4.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MZ"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:MR",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Mauritania: 2020 2.4%; 2021 3.6%; 2022 9.5%; 2023 5.0%; 2024 2.5%; 2025 1.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MR"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:MW",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Malawi: 2020 8.6%; 2021 9.3%; 2022 21.0%; 2023 28.8%; 2024 32.2%; 2025 28.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MW"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:NA",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Namibia: 2020 2.2%; 2021 3.6%; 2022 6.1%; 2023 5.9%; 2024 4.2%; 2025 3.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NA"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:NE",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Niger: 2020 2.9%; 2021 3.8%; 2022 4.2%; 2023 3.7%; 2024 9.1%; 2025 -4.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NE"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:NG",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Nigeria: 2020 13.2%; 2021 17.0%; 2022 18.8%; 2023 24.7%; 2024 33.2%; 2025 23.0%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:RW",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Rwanda: 2020 9.9%; 2021 -0.4%; 2022 17.7%; 2023 19.8%; 2024 1.8%; 2025 5.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=RW"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:SL",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Sierra Leone: 2020 13.4%; 2021 11.9%; 2022 27.2%; 2023 47.6%; 2024 28.6%; 2025 7.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SL"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:SS",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, South Sudan: 2019 87.2%; 2020 29.7%; 2021 10.5%; 2022 -6.7%; 2023 2.4%; 2024 91.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SS"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:TD",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Chad: 2020 4.5%; 2021 -0.8%; 2022 5.8%; 2023 10.8%; 2024 8.9%; 2025 -3.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TD"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:TG",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Togo: 2020 1.7%; 2021 4.2%; 2022 8.0%; 2023 5.5%; 2024 2.9%; 2025 0.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:TZ",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Tanzania: 2020 3.3%; 2021 3.7%; 2022 4.4%; 2023 3.8%; 2024 3.1%; 2025 3.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TZ"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:UG",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Uganda: 2020 3.3%; 2021 2.2%; 2022 7.2%; 2023 5.4%; 2024 3.3%; 2025 3.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:ZA",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, South Africa: 2020 3.2%; 2021 4.6%; 2022 7.0%; 2023 6.1%; 2024 4.4%; 2025 3.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ZA"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:ZM",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Zambia: 2020 15.7%; 2021 22.0%; 2022 11.0%; 2023 10.9%; 2024 15.0%; 2025 13.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ZM"
   }
 ]

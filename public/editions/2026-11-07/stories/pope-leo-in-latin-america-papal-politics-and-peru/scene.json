@@ -1,12 +1,12 @@
 {
   "version": 1,
   "id": "story-2026-11-07-pope-leo-in-latin-america-papal-politics-and-peru",
-  "title": "Pope Leo X",
+  "title": "Pope Leo",
   "subtitle": "People · 7 November 2026",
   "category": "daily",
   "window": {
     "start": "2026-11-07T00:00:00Z",
-    "end": "2026-11-07T00:01:15Z"
+    "end": "2026-11-07T00:00:41Z"
   },
   "focus": "2026-11-07T00:00:00Z",
   "timezone": "UTC",
@@ -24,12 +24,12 @@
     {
       "kind": "places",
       "file": "data/places.json",
-      "from": "2026-11-07T00:00:17Z"
+      "from": "2026-11-07T00:00:10Z"
     },
     {
-      "kind": "arcs",
-      "file": "data/arcs.json",
-      "from": "2026-11-07T00:00:25Z"
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-07T00:00:10Z"
     }
   ],
   "camera": [
@@ -51,160 +51,79 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-07T00:00:10Z",
+      "t": "2026-11-07T00:00:07Z",
       "lon": -72.9,
       "lat": -15.105,
       "range": 6773428.083326788,
-      "heading": 26,
+      "heading": 22.5,
       "pitch": -53.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-07T00:00:16Z",
+      "t": "2026-11-07T00:00:09Z",
       "lon": -72.9,
       "lat": -15.105,
       "range": 6133600,
-      "heading": 40,
+      "heading": 33,
       "pitch": -51,
       "move": "glide"
     },
     {
-      "t": "2026-11-07T00:00:20Z",
-      "lon": 11.254166666667,
-      "lat": 42.871388888889,
-      "range": 900000,
-      "heading": 14,
-      "pitch": -36,
-      "move": "flight"
-    },
-    {
-      "t": "2026-11-07T00:00:22Z",
-      "lon": 11.254166666667,
-      "lat": 42.871388888889,
-      "range": 814984.6624323674,
-      "heading": 5.1,
-      "pitch": -33.5,
+      "t": "2026-11-07T00:00:12Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
       "move": "glide"
     },
     {
-      "t": "2026-11-07T00:00:24Z",
-      "lon": 11.254166666667,
-      "lat": 42.871388888889,
-      "range": 738000,
-      "heading": -3.8000000000000007,
-      "pitch": -31,
+      "t": "2026-11-07T00:00:15Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:17Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:20Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 3400000,
+      "heading": 0,
+      "pitch": -42,
       "move": "glide"
     },
     {
       "t": "2026-11-07T00:00:27Z",
-      "lon": 11.597593120202369,
-      "lat": 42.51898508603644,
-      "range": 1500000,
-      "heading": 0,
-      "pitch": -55,
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 3261165.435852649,
+      "heading": 2,
+      "pitch": -42,
       "move": "glide"
     },
     {
-      "t": "2026-11-07T00:00:31Z",
-      "lon": 11.597593120202369,
-      "lat": 42.51898508603644,
-      "range": 1358307.7707206125,
-      "heading": 10.5,
-      "pitch": -52.5,
+      "t": "2026-11-07T00:00:33Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 3128000,
+      "heading": 4,
+      "pitch": -42,
       "move": "glide"
     },
     {
-      "t": "2026-11-07T00:00:34Z",
-      "lon": 11.597593120202369,
-      "lat": 42.51898508603644,
-      "range": 1230000,
-      "heading": 21,
-      "pitch": -50,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:00:37Z",
-      "lon": 12.482777777778,
-      "lat": 40.993055555556005,
-      "range": 900000,
-      "heading": -18,
-      "pitch": -34,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:00:40Z",
-      "lon": 12.482777777778,
-      "lat": 40.993055555556005,
-      "range": 814984.6624323674,
-      "heading": -26.9,
-      "pitch": -31.5,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:00:42Z",
-      "lon": 12.482777777778,
-      "lat": 40.993055555556005,
-      "range": 738000,
-      "heading": -35.8,
-      "pitch": -29,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:00:47Z",
-      "lon": -20.08681293472619,
-      "lat": 27.363418090723023,
-      "range": 22000000,
-      "heading": 0,
-      "pitch": -55,
-      "move": "flight"
-    },
-    {
-      "t": "2026-11-07T00:00:49Z",
-      "lon": -20.08681293472619,
-      "lat": 27.363418090723023,
-      "range": 19921847.303902317,
-      "heading": 9.7,
-      "pitch": -52.5,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:00:51Z",
-      "lon": -20.08681293472619,
-      "lat": 27.363418090723023,
-      "range": 18040000,
-      "heading": 19.4,
-      "pitch": -50,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:00:54Z",
-      "lon": -20.08681293472619,
-      "lat": 27.363418090723023,
-      "range": 22000000,
-      "heading": -12,
-      "pitch": -55,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:01:01Z",
-      "lon": -20.08681293472619,
-      "lat": 27.363418090723023,
-      "range": 21101658.702575967,
-      "heading": -10,
-      "pitch": -55,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:01:07Z",
-      "lon": -20.08681293472619,
-      "lat": 27.363418090723023,
-      "range": 20240000,
-      "heading": -8,
-      "pitch": -55,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-07T00:01:11Z",
+      "t": "2026-11-07T00:00:36Z",
       "lon": -72.9,
       "lat": -15.105,
       "range": 8840000,
@@ -213,20 +132,20 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-07T00:01:12Z",
+      "t": "2026-11-07T00:00:37Z",
       "lon": -72.9,
       "lat": -15.105,
       "range": 7248800,
-      "heading": 16.200000000000003,
+      "heading": -16.200000000000003,
       "pitch": -65,
       "move": "glide"
     },
     {
-      "t": "2026-11-07T00:01:15Z",
+      "t": "2026-11-07T00:00:41Z",
       "lon": -97.89999999999998,
       "lat": -15.105,
       "range": 21746400,
-      "heading": 16.200000000000003,
+      "heading": -16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -246,66 +165,24 @@
       ]
     },
     {
-      "t": "2026-11-07T00:00:09Z",
-      "text": "Pope Leo X (born Giovanni di Lorenzo de' Medici, 11 December 14751 December 1521) was head of the Catholic Church and leader of the Papal States from 9 March 1513 to his death in December 1521.",
-      "cites": [
-        "wiki:rev:1384117411:0"
-      ]
-    },
-    {
-      "t": "2026-11-07T00:00:17Z",
-      "text": "Leo X was born on 11 December 1475 in Florence.",
-      "cites": [
-        "wd:Q49237:P569",
-        "wd:Q49237:P19"
-      ]
-    },
-    {
-      "t": "2026-11-07T00:00:25Z",
-      "text": "Educated at University of Pisa.",
-      "cites": [
-        "wd:Q49237:P69:Q645663"
-      ]
-    },
-    {
-      "t": "2026-11-07T00:00:30Z",
-      "text": "Worked in Rome, Papal States and Pisa.",
-      "cites": [
-        "wd:Q49237:P937:Q220",
-        "wd:Q49237:P937:Q170174",
-        "wd:Q49237:P937:Q13375"
-      ]
-    },
-    {
-      "t": "2026-11-07T00:00:35Z",
-      "text": "Leo X died on 1 December 1521 in Rome, aged 45.",
-      "cites": [
-        "wd:Q49237:P570",
-        "wd:Q49237:P20",
-        "wd:Q49237:P569"
-      ]
-    },
-    {
-      "t": "2026-11-07T00:00:52Z",
+      "t": "2026-11-07T00:00:18Z",
       "text": "BBC News headlined it: “Pope in 'pretty good health' as he starts Latin America tour”",
       "cites": [
         "news:bbc:c006246eca07"
       ]
     },
     {
-      "t": "2026-11-07T00:01:00Z",
+      "t": "2026-11-07T00:00:26Z",
       "text": "Sky News headlined it: “Thousands turn out to greet Pope Leo as he begins Latin America tour”",
       "cites": [
         "news:sky:b99e56f205f7"
       ]
     },
     {
-      "t": "2026-11-07T00:01:08Z",
-      "text": "Sources: BBC News and Sky News, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "t": "2026-11-07T00:00:34Z",
+      "text": "Sources: BBC News and Sky News, Wikimedia pageviews. Every caption links to the evidence it rests on.",
       "cites": [
-        "wiki:rev:1384117411:0",
-        "views:en:Pope_Leo_X:30d",
-        "wd:Q49237:P569"
+        "views:en:Pope_Leo:30d"
       ]
     }
   ],
@@ -322,83 +199,19 @@
       "title": "What happened"
     },
     {
-      "t": "2026-11-07T00:00:17Z",
-      "title": "Born"
+      "t": "2026-11-07T00:00:10Z",
+      "title": "Where"
     },
     {
-      "t": "2026-11-07T00:00:25Z",
-      "title": "A life across the globe"
-    },
-    {
-      "t": "2026-11-07T00:00:35Z",
-      "title": "In memory"
-    },
-    {
-      "t": "2026-11-07T00:00:43Z",
-      "title": "Connected"
-    },
-    {
-      "t": "2026-11-07T00:00:52Z",
+      "t": "2026-11-07T00:00:18Z",
       "title": "In the news"
     },
     {
-      "t": "2026-11-07T00:01:08Z",
+      "t": "2026-11-07T00:00:34Z",
       "title": "Sources"
     }
   ],
   "panels": [
-    {
-      "id": "life",
-      "kind": "facts",
-      "title": "A life on record",
-      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
-      "items": [
-        {
-          "label": "1475 born",
-          "text": "Florence",
-          "cites": [
-            "wd:Q49237:P19"
-          ]
-        },
-        {
-          "label": "educated at",
-          "text": "University of Pisa",
-          "cites": [
-            "wd:Q49237:P69:Q645663"
-          ]
-        },
-        {
-          "label": "worked in",
-          "text": "Rome",
-          "cites": [
-            "wd:Q49237:P937:Q220"
-          ]
-        },
-        {
-          "label": "worked in",
-          "text": "Papal States",
-          "cites": [
-            "wd:Q49237:P937:Q170174"
-          ]
-        },
-        {
-          "label": "worked in",
-          "text": "Pisa",
-          "cites": [
-            "wd:Q49237:P937:Q13375"
-          ]
-        },
-        {
-          "label": "1521 died",
-          "text": "Rome",
-          "cites": [
-            "wd:Q49237:P20"
-          ]
-        }
-      ],
-      "t": "2026-11-07T00:00:26Z",
-      "until": "2026-11-07T00:00:35Z"
-    },
     {
       "id": "coverage",
       "kind": "facts",
@@ -422,8 +235,8 @@
           ]
         }
       ],
-      "t": "2026-11-07T00:00:53Z",
-      "until": "2026-11-07T00:01:08Z"
+      "t": "2026-11-07T00:00:19Z",
+      "until": "2026-11-07T00:00:34Z"
     },
     {
       "id": "film-sources",
@@ -432,36 +245,20 @@
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
       "items": [
         {
-          "label": "Wikipedia articles",
-          "text": "CC BY-SA 4.0",
-          "url": "https://en.wikipedia.org/",
-          "cites": [
-            "wiki:rev:1384117411:0"
-          ]
-        },
-        {
           "label": "Wikimedia pageviews",
           "text": "CC0",
           "url": "https://wikimedia.org/api/rest_v1/",
           "cites": [
-            "views:en:Pope_Leo_X:30d"
-          ]
-        },
-        {
-          "label": "Wikidata",
-          "text": "CC0 1.0",
-          "url": "https://www.wikidata.org/",
-          "cites": [
-            "wd:Q49237:P569"
+            "views:en:Pope_Leo:30d"
           ]
         }
       ],
-      "t": "2026-11-07T00:01:09Z",
-      "until": "2026-11-07T00:01:15Z"
+      "t": "2026-11-07T00:00:35Z",
+      "until": "2026-11-07T00:00:41Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-09T04:44:39Z"
+    "at": "2026-11-09T05:55:51Z"
   }
 }

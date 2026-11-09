@@ -5,12 +5,15 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { FrontGlobe, FrontStory } from "@/globe/front";
+import { REGIONS, Region } from "@/scene/regions";
 
 export interface RailStory extends FrontStory {
   lensLabel: string;
   headline: string;
   /** Why it made the edition, in plain words (ADR-0021). */
   why?: string[];
+  /** The reader's region of its place (ADR-0023). */
+  region?: Region;
   hasFilm: boolean;
   placed: boolean;
 }
@@ -38,6 +41,21 @@ export function FrontPage({
   const [focus, setFocus] = useState<string | undefined>();
   const [touring, setTouring] = useState(false);
   const [stop, setStop] = useState(0);
+  // Where: the reader's region filter (ADR-0023). The rail, the strip, the tour and the globe
+  // show only that region's stories.
+  const [region, setRegion] = useState<Region>();
+  const regions = useMemo(
+    () => REGIONS.filter((r) => stories.some((s) => s.region === r)),
+    [stories],
+  );
+  const shown = useMemo(
+    () => (region ? stories.filter((s) => s.region === region) : stories),
+    [stories, region],
+  );
+  useEffect(() => {
+    engine.current?.update(shown.filter((s) => s.placed));
+    engine.current?.focus(undefined);
+  }, [shown]);
   const filmHref = (slug: string) => `/story/${date}/${slug}`;
   // The globe is built once per edition; its click handler reads the latest router.
   const routerRef = useRef(router);
@@ -74,7 +92,7 @@ export function FrontPage({
   }, [stories, date]);
 
   // The tour: story to story around the planet, a few seconds each.
-  const tourStories = useMemo(() => stories.filter((s) => s.placed && s.hasFilm), [stories]);
+  const tourStories = useMemo(() => shown.filter((s) => s.placed && s.hasFilm), [shown]);
   useEffect(() => {
     if (!touring || !tourStories.length) return;
     const st = tourStories[stop % tourStories.length];
@@ -166,8 +184,24 @@ export function FrontPage({
 
       {/* The story rail. */}
       <aside className="panel-stack absolute top-6 right-4 bottom-24 z-10 hidden w-80 overflow-y-auto md:block">
+        {regions.length > 1 && (
+          <fieldset className="glass mb-2 flex min-w-0 flex-wrap gap-1 rounded-xl p-1.5 text-xs">
+            <legend className="sr-only">Where</legend>
+            {[undefined, ...regions].map((r) => (
+              <button
+                key={r ?? "all"}
+                type="button"
+                aria-pressed={r === region}
+                onClick={() => setRegion(r)}
+                className={`rounded-full px-2.5 py-1 transition-colors ${r === region ? "bg-moon/12 text-moon" : "text-dust/60 hover:text-moon"}`}
+              >
+                {r ?? "Everywhere"}
+              </button>
+            ))}
+          </fieldset>
+        )}
         <ol className="space-y-2">
-          {stories.map((s, i) => (
+          {shown.map((s, i) => (
             <li key={s.slug}>
               <Link
                 href={s.hasFilm ? filmHref(s.slug) : `/edition/${date}`}
@@ -197,7 +231,22 @@ export function FrontPage({
         aria-label="Stories"
         className="absolute inset-x-0 bottom-14 z-10 flex snap-x gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:hidden"
       >
-        {stories.map((s) => (
+        {regions.length > 1 && (
+          <select
+            aria-label="Where"
+            value={region ?? ""}
+            onChange={(e) => setRegion(Region.safeParse(e.target.value).data)}
+            className="glass w-32 shrink-0 snap-start rounded-xl bg-transparent px-3 text-sm text-moon"
+          >
+            <option value="">Everywhere</option>
+            {regions.map((r) => (
+              <option key={r} value={r}>
+                {r}
+              </option>
+            ))}
+          </select>
+        )}
+        {shown.map((s) => (
           <Link
             key={s.slug}
             href={s.hasFilm ? filmHref(s.slug) : `/edition/${date}`}

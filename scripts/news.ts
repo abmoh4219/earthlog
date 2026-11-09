@@ -7,9 +7,11 @@ import { readdir, rm } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
 import { Edition } from "../src/scene/edition.ts";
+import { nearestCountry } from "../src/scene/geo.ts";
 import { type Cluster, type Headline, NowFile } from "../src/scene/headlines.ts";
 import { heatOf, normalise } from "../src/scene/hot.ts";
 import { OUTLETS } from "../src/scene/outlets.ts";
+import { regionOf } from "../src/scene/regions.ts";
 import { Country, LayerData, Scene } from "../src/scene/schema.ts";
 import { validateBundle } from "../src/scene/validate.ts";
 import { ROOT, readJson, USER_AGENT, writeJson } from "./bake/lib.ts";
@@ -72,6 +74,14 @@ const clusters: Cluster[] = groups
     const oldest = [...g.headlines].sort((a, b) => a.t.localeCompare(b.t));
     const outlets = [...new Set(oldest.map((h) => h.outlet))];
     const place = placer.place(g.headlines.map((h) => h.title));
+    // The reader's region (ADR-0023): the country's; for a region without one (the Gaza Strip,
+    // the Strait of Hormuz), the nearest country's.
+    const country = place
+      ? place.country
+        ? countries.find((x) => x.code === place.country)
+        : nearestCountry(place.lon, place.lat, countries)
+      : undefined;
+    const region = regionOf(country?.code, country?.continent);
     return {
       id: oldest[0]?.id ?? "",
       title: g.title,
@@ -81,6 +91,7 @@ const clusters: Cluster[] = groups
       last: g.headlines[0]?.t ?? seen,
       topic: topicOf(g.headlines),
       ...(place ? { place } : {}),
+      ...(region ? { region } : {}),
       heat: heat[i] ?? 0,
       breaking: heats[i]?.breaking ?? false,
       ...(heats[i]?.why.length ? { why: heats[i]?.why ?? [] } : {}),
@@ -130,10 +141,13 @@ console.log(
   `  context: ${cards} background cards, ${filmFor.size} stories linked to Earthlog films`,
 );
 
-// Films for every story of the last 24 hours (ADR-0020), hottest first, each validated like
-// an edition film: by the lens of the article its headlines name; else by its place (the week
-// in that country, its other stories that day, what it is, its economy); else, for a story
-// told by two or more outlets, the short film. A film that fails falls back to the next kind.
+// Films for the stories of the last 24 hours (ADR-0020), hottest first, each validated like
+// an edition film: by the lens of the article its headlines name; else, for a story two or
+// more outlets told, by its place (the week in that country, what it is, its economy), else
+// the short film. A lone report gets a film only through its own article (ADR-0021): a
+// country's charts don't explain one local headline, and a feed that names a country in
+// every headline (AllAfrica) would otherwise fill Now with them. A film that fails falls back
+// to the next kind.
 const filmsDir = join(ROOT, "public", "now", "films");
 await rm(filmsDir, { recursive: true, force: true });
 const byId = new Map(headlines.map((h) => [h.id, h]));
@@ -171,9 +185,10 @@ for (const c of clusters) {
     }
   };
   if (c.context) await attempt("lens", () => buildLensFilm(c, byId, countries, seen, clusters));
-  if (c.place?.country || c.place?.basis === "region")
+  const agreed = c.outlets.length >= 2;
+  if (agreed && (c.place?.country || c.place?.basis === "region"))
     await attempt("place", () => buildPlaceFilm(c, byId, clusters, countries, seen));
-  if (c.outlets.length >= 2) await attempt("short", async () => buildNowFilm(c, byId, seen));
+  if (agreed) await attempt("short", async () => buildNowFilm(c, byId, seen));
   const done = film as NowFilm | undefined;
   if (!done || !kind) continue;
   const out = join(filmsDir, c.id);

@@ -43,3 +43,11 @@ export async function fresherLive(current?: LiveFile): Promise<LiveFile | undefi
   const newest = found.sort((a, b) => b.generatedAt.localeCompare(a.generatedAt))[0];
   return newest && (!current || newest.generatedAt > current.generatedAt) ? newest : undefined;
 }
+
+/** The newest headlines file the browser can reach, side branch or deploy. */
+export async function latestNow(): Promise<NowFile | undefined> {
+  const found = (await Promise.all([read(NOW_DATA_URL), read("/now/now.json")])).filter(
+    (f): f is NowFile => f !== undefined,
+  );
+  return found.sort((a, b) => b.generatedAt.localeCompare(a.generatedAt))[0];
+}

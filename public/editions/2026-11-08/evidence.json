@@ -84,6 +84,22 @@
     ]
   },
   {
+    "id": "wiki:2026-11-08:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Sports: In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship, becoming the first driver to win two consecutive championships since 2010.",
+    "quote": "In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship, becoming the first driver to win two consecutive championships since 2010.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "links": [
+      {
+        "url": "https://apnews.com/article/nascar-championship-kyle-larson-chase-b684d52d336492b1ab3f17c21c1fa5e8",
+        "name": "AP"
+      }
+    ]
+  },
+  {
     "id": "news:bbc:e62725ac95ea",
     "kind": "report",
     "source": "outlet:bbc",
@@ -183,31 +199,85 @@
     "quote": "Nvidia CEO Huang admits affair amid rumors of China spy ties"
   },
   {
-    "id": "news:guardian:ec33d3f2667e",
-    "kind": "report",
-    "source": "outlet:guardian",
-    "t": "2026-11-08T09:00:35Z",
-    "label": "The Guardian: Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
-    "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
-    "quote": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei"
+    "id": "wd:Q136015025:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"2026 NASCAR Cup Series\" is an instance of sports season",
+    "url": "https://www.wikidata.org/wiki/Q136015025"
   },
   {
-    "id": "news:aljazeera:3e9b7a430684",
+    "id": "news:sky:c18c75ae9395",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-08T14:55:00Z",
+    "label": "Sky News: Seven dead and 114 injured in train crash near Cairo",
+    "url": "https://news.sky.com/story/four-dead-and-88-injured-in-train-crash-near-cairo-13609748",
+    "quote": "Seven dead and 114 injured in train crash near Cairo"
+  },
+  {
+    "id": "news:dw:b07ef0816c7c",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T16:49:00Z",
+    "label": "DW: Egypt train crash leaves several dead, many injured",
+    "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-many-injured/a-79892916",
+    "quote": "Egypt train crash leaves several dead, many injured"
+  },
+  {
+    "id": "news:bbc:1069919706c8",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-08T19:58:02Z",
+    "label": "BBC News: Seven dead and more than 100 injured after trains collide in Egypt",
+    "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo",
+    "quote": "Seven dead and more than 100 injured after trains collide in Egypt"
+  },
+  {
+    "id": "news:aljazeera:b64af1b67821",
     "kind": "report",
     "source": "outlet:aljazeera",
-    "t": "2026-11-08T22:16:50Z",
-    "label": "Al Jazeera: President Milei welcomes Pope Leo during historic visit to Argentina",
-    "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina",
-    "quote": "President Milei welcomes Pope Leo during historic visit to Argentina"
+    "t": "2026-11-08T13:32:17Z",
+    "label": "Al Jazeera: At least 34 dead as small boat sinks off Senegal",
+    "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal",
+    "quote": "At least 34 dead as small boat sinks off Senegal"
   },
   {
-    "id": "news:france24:0e21f75a1391",
+    "id": "news:dw:85de81bd8398",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T13:48:00Z",
+    "label": "DW: At least 21 killed after migrant boat sinks off Senegal",
+    "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883",
+    "quote": "At least 21 killed after migrant boat sinks off Senegal"
+  },
+  {
+    "id": "news:france24:c7e270d5fde4",
     "kind": "report",
     "source": "outlet:france24",
-    "t": "2026-11-08T22:23:19Z",
-    "label": "France 24: Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all",
-    "url": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei",
-    "quote": "Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all"
+    "t": "2026-11-08T20:40:33Z",
+    "label": "France 24: Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+    "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
+    "quote": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
+  },
+  {
+    "id": "news:sky:18ba836433e0",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-08T04:27:00Z",
+    "label": "Sky News: Trump 'only kidding' about offering UFC boss press secretary job",
+    "url": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613",
+    "quote": "Trump 'only kidding' about offering UFC boss press secretary job"
+  },
+  {
+    "id": "news:aljazeera:20362738277c",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T11:57:05Z",
+    "label": "Al Jazeera: Could UFC boss Dana White be next White House press secretary?",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/could-ufc-boss-dana-white-be-next-white-house-press-secretary",
+    "quote": "Could UFC boss Dana White be next White House press secretary?"
   },
   {
     "id": "news:sky:a2a8c5e3ea96",
@@ -264,22 +334,31 @@
     "quote": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe"
   },
   {
-    "id": "news:sky:18ba836433e0",
+    "id": "news:guardian:ec33d3f2667e",
     "kind": "report",
-    "source": "outlet:sky",
-    "t": "2026-11-08T04:27:00Z",
-    "label": "Sky News: Trump 'only kidding' about offering UFC boss press secretary job",
-    "url": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613",
-    "quote": "Trump 'only kidding' about offering UFC boss press secretary job"
+    "source": "outlet:guardian",
+    "t": "2026-11-08T09:00:35Z",
+    "label": "The Guardian: Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+    "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+    "quote": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei"
   },
   {
-    "id": "news:aljazeera:20362738277c",
+    "id": "news:aljazeera:3e9b7a430684",
     "kind": "report",
     "source": "outlet:aljazeera",
-    "t": "2026-11-08T11:57:05Z",
-    "label": "Al Jazeera: Could UFC boss Dana White be next White House press secretary?",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/could-ufc-boss-dana-white-be-next-white-house-press-secretary",
-    "quote": "Could UFC boss Dana White be next White House press secretary?"
+    "t": "2026-11-08T22:16:50Z",
+    "label": "Al Jazeera: President Milei welcomes Pope Leo during historic visit to Argentina",
+    "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina",
+    "quote": "President Milei welcomes Pope Leo during historic visit to Argentina"
+  },
+  {
+    "id": "news:france24:0e21f75a1391",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T22:23:19Z",
+    "label": "France 24: Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all",
+    "url": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei",
+    "quote": "Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all"
   },
   {
     "id": "news:france24:c83bf488fa4c",
@@ -316,60 +395,6 @@
     "label": "DW: Israel: Eisenkot officially tasked with forming a government",
     "url": "https://www.dw.com/en/israel-eisenkot-officially-tasked-with-forming-a-government/a-79891422",
     "quote": "Israel: Eisenkot officially tasked with forming a government"
-  },
-  {
-    "id": "news:sky:c18c75ae9395",
-    "kind": "report",
-    "source": "outlet:sky",
-    "t": "2026-11-08T14:55:00Z",
-    "label": "Sky News: Seven dead and 114 injured in train crash near Cairo",
-    "url": "https://news.sky.com/story/four-dead-and-88-injured-in-train-crash-near-cairo-13609748",
-    "quote": "Seven dead and 114 injured in train crash near Cairo"
-  },
-  {
-    "id": "news:dw:b07ef0816c7c",
-    "kind": "report",
-    "source": "outlet:dw",
-    "t": "2026-11-08T16:49:00Z",
-    "label": "DW: Egypt train crash leaves several dead, many injured",
-    "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-many-injured/a-79892916",
-    "quote": "Egypt train crash leaves several dead, many injured"
-  },
-  {
-    "id": "news:bbc:1069919706c8",
-    "kind": "report",
-    "source": "outlet:bbc",
-    "t": "2026-11-08T19:58:02Z",
-    "label": "BBC News: Seven dead and more than 100 injured after trains collide in Egypt",
-    "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo",
-    "quote": "Seven dead and more than 100 injured after trains collide in Egypt"
-  },
-  {
-    "id": "news:aljazeera:b64af1b67821",
-    "kind": "report",
-    "source": "outlet:aljazeera",
-    "t": "2026-11-08T13:32:17Z",
-    "label": "Al Jazeera: At least 34 dead as small boat sinks off Senegal",
-    "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal",
-    "quote": "At least 34 dead as small boat sinks off Senegal"
-  },
-  {
-    "id": "news:dw:85de81bd8398",
-    "kind": "report",
-    "source": "outlet:dw",
-    "t": "2026-11-08T13:48:00Z",
-    "label": "DW: At least 21 killed after migrant boat sinks off Senegal",
-    "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883",
-    "quote": "At least 21 killed after migrant boat sinks off Senegal"
-  },
-  {
-    "id": "news:france24:c7e270d5fde4",
-    "kind": "report",
-    "source": "outlet:france24",
-    "t": "2026-11-08T20:40:33Z",
-    "label": "France 24: Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-    "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
-    "quote": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
   },
   {
     "id": "news:aljazeera:0305d66ded68",

@@ -4,6 +4,7 @@
 // What is stored per headline is only what a feed reader shows: the outlet, the headline, the
 // link to the outlet's own article and the time. Never the article.
 import { z } from "zod";
+import { Region } from "./regions.ts";
 import { IsoUtc } from "./schema.ts";
 import { Topic } from "./topics.ts";
 
@@ -47,6 +48,8 @@ export const Cluster = z.object({
   last: IsoUtc,
   topic: Topic,
   place: ClusterPlace.optional(),
+  /** The reader's region of the place (src/scene/regions.ts, ADR-0023). */
+  region: Region.optional(),
   /** 0–100 within the file: outlets, how recently and how fast (scripts/news/hot.ts). */
   heat: z.number().min(0).max(100),
   /** Several outlets within the last two hours of a story first seen in that window. */

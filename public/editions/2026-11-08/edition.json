@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-11-08",
-  "generatedAt": "2026-11-09T04:47:18Z",
+  "generatedAt": "2026-11-09T05:55:56Z",
   "candidates": 22,
   "mostRead": false,
   "stories": [
@@ -244,12 +244,6 @@
       "lens": "disaster",
       "title": "Rains add misery to humanitarian catastrophe",
       "summary": "Rains add misery to humanitarian catastrophe",
-      "about": "Gaza most commonly refers to:",
-      "article": {
-        "title": "Gaza",
-        "url": "https://en.wikipedia.org/wiki/Gaza",
-        "qid": "Q1395229"
-      },
       "place": {
         "name": "Gaza Strip",
         "lon": 34.45,
@@ -364,7 +358,7 @@
     },
     {
       "slug": "at-least-21-killed-after-migrant-boat-sinks-off-senegal",
-      "lens": "culture",
+      "lens": "disaster",
       "title": "At least 21 killed after migrant boat sinks off Senegal",
       "summary": "At least 21 killed after migrant boat sinks off Senegal",
       "place": {
@@ -380,7 +374,7 @@
         "Reported by 3 outlets from 2 regions",
         "34 people involved, per the headlines"
       ],
-      "topic": "culture",
+      "topic": "disaster",
       "foundBy": "outlets",
       "sources": 0,
       "coverage": [
@@ -577,10 +571,10 @@
       "headline": "President Milei welcomes Pope Leo during historic visit to Argentina, Al Jazeera reports."
     },
     {
-      "slug": "trump-offers-white-house-press-secretary-role-to-dana-white",
+      "slug": "why-trump-joked-about-having-dana-white-as-his-white-house-p",
       "lens": "person",
-      "title": "Trump offers White House press secretary role to Dana White",
-      "summary": "Trump offers White House press secretary role to Dana White",
+      "title": "Why Trump joked about having Dana White as his White House press secretary",
+      "summary": "Why Trump joked about having Dana White as his White House press secretary",
       "about": "Dana Frederick White Jr. (born July 28, 1969) is an American businessman who is the president and chief executive officer (CEO) of the Ultimate Fighting Championship (UFC), a global mixed martial arts organization.",
       "article": {
         "title": "Dana White",
@@ -620,8 +614,8 @@
         "previous": [
           {
             "date": "2026-11-07",
-            "slug": "trump-offers-white-house-press-secretary-role-to-dana-white",
-            "title": "Trump offers White House press secretary role to Dana White"
+            "slug": "a-violent-fighter-and-warrior-trump-offers-press-secretary-r",
+            "title": "'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White"
           }
         ]
       },
@@ -810,6 +804,37 @@
         "wd:Q475678:P31"
       ],
       "headline": "Mexican Navy personnel working with intelligence from the National Intelligence Center and the U.S. DEA, arrest Rafael Álvarez Ayala, the alleged leader of the Jalisco New Generation Cartel cell \"Los Rs\", in Zapopan…"
+    },
+    {
+      "slug": "2026-nascar-cup-series",
+      "lens": "culture",
+      "title": "2026 NASCAR Cup Series",
+      "summary": "In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship, becoming the first driver to win two consecutive championships since 2010.",
+      "article": {
+        "title": "2026 NASCAR Cup Series",
+        "url": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "qid": "Q136015025"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country",
+        "evidence": "wd:Q136015025:P17"
+      },
+      "continent": "North America",
+      "heat": 17,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-08:9",
+        "wd:Q136015025:P31"
+      ],
+      "headline": "In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship, becoming the first driver to win two consecutive championships since 2010."
     }
   ]
 }

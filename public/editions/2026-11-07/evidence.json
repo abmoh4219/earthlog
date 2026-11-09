@@ -239,24 +239,6 @@
     "url": "https://www.wikidata.org/wiki/Q104843407"
   },
   {
-    "id": "news:dw:1be42ae6d9cc",
-    "kind": "report",
-    "source": "outlet:dw",
-    "t": "2026-11-07T21:34:00Z",
-    "label": "DW: Poland: Gunman kills 6 in Krakow main square, police say",
-    "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489",
-    "quote": "Poland: Gunman kills 6 in Krakow main square, police say"
-  },
-  {
-    "id": "news:france24:dc06bdec4f54",
-    "kind": "report",
-    "source": "outlet:france24",
-    "t": "2026-11-07T22:47:06Z",
-    "label": "France 24: Gunman kills six in Krakow, three more bodies found at his house",
-    "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
-    "quote": "Gunman kills six in Krakow, three more bodies found at his house"
-  },
-  {
     "id": "news:dw:34dff2f985d0",
     "kind": "report",
     "source": "outlet:dw",
@@ -273,6 +255,24 @@
     "label": "France 24: 'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White",
     "url": "https://www.france24.com/en/americas/20261107-a-violent-fighter-and-warrior-trump-offers-press-secretary-role-to-ufc-chief-dana-white",
     "quote": "'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White"
+  },
+  {
+    "id": "news:dw:1be42ae6d9cc",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-07T21:34:00Z",
+    "label": "DW: Poland: Gunman kills 6 in Krakow main square, police say",
+    "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489",
+    "quote": "Poland: Gunman kills 6 in Krakow main square, police say"
+  },
+  {
+    "id": "news:france24:dc06bdec4f54",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-07T22:47:06Z",
+    "label": "France 24: Gunman kills six in Krakow, three more bodies found at his house",
+    "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+    "quote": "Gunman kills six in Krakow, three more bodies found at his house"
   },
   {
     "id": "news:npr:193d985bb4f1",

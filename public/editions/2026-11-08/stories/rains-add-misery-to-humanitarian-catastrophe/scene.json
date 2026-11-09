@@ -1,12 +1,12 @@
 {
   "version": 1,
   "id": "story-2026-11-08-rains-add-misery-to-humanitarian-catastrophe",
-  "title": "Gaza",
-  "subtitle": "News · 8 November 2026",
+  "title": "Rains add misery to humanitarian catastrophe",
+  "subtitle": "Disasters · 8 November 2026",
   "category": "daily",
   "window": {
     "start": "2026-11-08T00:00:00Z",
-    "end": "2026-11-08T00:00:46Z"
+    "end": "2026-11-08T00:01:23Z"
   },
   "focus": "2026-11-08T00:00:00Z",
   "timezone": "UTC",
@@ -24,7 +24,12 @@
     {
       "kind": "places",
       "file": "data/places.json",
-      "from": "2026-11-08T00:00:10Z"
+      "from": "2026-11-08T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-08T00:00:46Z"
     }
   ],
   "camera": [
@@ -46,25 +51,25 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-08T00:00:07Z",
+      "t": "2026-11-08T00:00:10Z",
       "lon": 34.45,
       "lat": 30.8125,
       "range": 2191403.2034292547,
-      "heading": 22.5,
+      "heading": 26,
       "pitch": -53.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:09Z",
+      "t": "2026-11-08T00:00:16Z",
       "lon": 34.45,
       "lat": 30.8125,
       "range": 1984399.9999999998,
-      "heading": 33,
+      "heading": 40,
       "pitch": -51,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:12Z",
+      "t": "2026-11-08T00:00:19Z",
       "lon": 34.45,
       "lat": 30.8125,
       "range": 1100000,
@@ -73,7 +78,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:15Z",
+      "t": "2026-11-08T00:00:22Z",
       "lon": 34.45,
       "lat": 30.8125,
       "range": 996092.3651951158,
@@ -82,7 +87,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:17Z",
+      "t": "2026-11-08T00:00:24Z",
       "lon": 34.45,
       "lat": 30.8125,
       "range": 902000,
@@ -91,56 +96,137 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:20Z",
+      "t": "2026-11-08T00:00:27Z",
       "lon": 34.45,
       "lat": 30.8125,
-      "range": 1100000,
-      "heading": 0,
-      "pitch": -42,
+      "range": 3300000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:31Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2988277.095585347,
+      "heading": 21.3,
+      "pitch": -59.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:29Z",
+      "t": "2026-11-08T00:00:35Z",
       "lon": 34.45,
       "lat": 30.8125,
-      "range": 1055082.9351287982,
-      "heading": 2,
-      "pitch": -42,
+      "range": 2706000,
+      "heading": 32.6,
+      "pitch": -57,
       "move": "glide"
     },
     {
       "t": "2026-11-08T00:00:38Z",
       "lon": 34.45,
       "lat": 30.8125,
-      "range": 1012000,
-      "heading": 4,
+      "range": 1100000,
+      "heading": 20,
       "pitch": -42,
-      "move": "glide"
+      "move": "flight"
     },
     {
       "t": "2026-11-08T00:00:41Z",
       "lon": 34.45,
       "lat": 30.8125,
+      "range": 996092.3651951158,
+      "heading": 9.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:45Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 902000,
+      "heading": -1,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:48Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:51Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:54Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:57Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:06Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:15Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:18Z",
+      "lon": 34.45,
+      "lat": 30.8125,
       "range": 2860000,
       "heading": 0,
       "pitch": -70,
-      "move": "flight"
+      "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:42Z",
+      "t": "2026-11-08T00:01:19Z",
       "lon": 34.45,
       "lat": 30.8125,
       "range": 2345200,
-      "heading": -16.200000000000003,
+      "heading": 16.200000000000003,
       "pitch": -65,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:46Z",
+      "t": "2026-11-08T00:01:23Z",
       "lon": 9.450000000000045,
       "lat": 30.8125,
       "range": 14000000,
-      "heading": -16.200000000000003,
+      "heading": 16.200000000000003,
       "pitch": -88,
       "move": "flight"
     }
@@ -160,32 +246,56 @@
       ]
     },
     {
-      "t": "2026-11-08T00:00:18Z",
+      "t": "2026-11-08T00:00:09Z",
+      "text": "Also reported by France 24 and DW.",
+      "cites": [
+        "news:france24:9e19bbe6af60",
+        "news:dw:aadff38d36aa"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:25Z",
+      "text": "The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories (the other being the West Bank) that make up the State of Palestine in the Southern Levant region of West Asia.",
+      "cites": [
+        "wiki:rev:1384283092:0"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:36Z",
+      "text": "Location: Southern Levant. Founded: 1949.",
+      "cites": [
+        "wd:Q39760:P276",
+        "wd:Q39760:P571"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:55Z",
       "text": "Al Jazeera headlined it: “Floods in Gaza leave tens of thousands without shelter”",
       "cites": [
         "news:aljazeera:9ad78c0ede43"
       ]
     },
     {
-      "t": "2026-11-08T00:00:25Z",
+      "t": "2026-11-08T00:01:02Z",
       "text": "France 24 headlined it: “Gaza: Heavy rain inundates thousands of tents”",
       "cites": [
         "news:france24:9e19bbe6af60"
       ]
     },
     {
-      "t": "2026-11-08T00:00:32Z",
+      "t": "2026-11-08T00:01:09Z",
       "text": "DW headlined it: “Gaza: Rains add misery to humanitarian catastrophe”",
       "cites": [
         "news:dw:aadff38d36aa"
       ]
     },
     {
-      "t": "2026-11-08T00:00:39Z",
-      "text": "Sources: Al Jazeera, France 24 and DW, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "t": "2026-11-08T00:01:16Z",
+      "text": "Sources: Al Jazeera, France 24 and DW, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
       "cites": [
-        "views:en:Gaza:30d",
-        "wd:Q1395229:P17"
+        "wiki:rev:1384283092:0",
+        "views:en:Gaza_Strip:30d",
+        "wd:Q39760:P276"
       ]
     }
   ],
@@ -201,19 +311,62 @@
       "title": "What happened"
     },
     {
-      "t": "2026-11-08T00:00:10Z",
+      "t": "2026-11-08T00:00:17Z",
       "title": "Where"
     },
     {
-      "t": "2026-11-08T00:00:18Z",
+      "t": "2026-11-08T00:00:25Z",
+      "title": "About Gaza Strip"
+    },
+    {
+      "t": "2026-11-08T00:00:36Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-08T00:00:46Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-08T00:00:55Z",
       "title": "In the news"
     },
     {
-      "t": "2026-11-08T00:00:39Z",
+      "t": "2026-11-08T00:01:16Z",
       "title": "Sources"
     }
   ],
   "panels": [
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: Gaza Strip",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Location",
+          "text": "Southern Levant",
+          "cites": [
+            "wd:Q39760:P276"
+          ]
+        },
+        {
+          "label": "Founded",
+          "text": "1949",
+          "cites": [
+            "wd:Q39760:P571"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Palestine, United Arab Republic",
+          "cites": [
+            "wd:Q39760:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:00:37Z",
+      "until": "2026-11-08T00:00:46Z"
+    },
     {
       "id": "coverage",
       "kind": "facts",
@@ -245,8 +398,8 @@
           ]
         }
       ],
-      "t": "2026-11-08T00:00:19Z",
-      "until": "2026-11-08T00:00:39Z"
+      "t": "2026-11-08T00:00:56Z",
+      "until": "2026-11-08T00:01:16Z"
     },
     {
       "id": "film-sources",
@@ -255,11 +408,19 @@
       "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
       "items": [
         {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384283092:0"
+          ]
+        },
+        {
           "label": "Wikimedia pageviews",
           "text": "CC0",
           "url": "https://wikimedia.org/api/rest_v1/",
           "cites": [
-            "views:en:Gaza:30d"
+            "views:en:Gaza_Strip:30d"
           ]
         },
         {
@@ -267,16 +428,16 @@
           "text": "CC0 1.0",
           "url": "https://www.wikidata.org/",
           "cites": [
-            "wd:Q1395229:P17"
+            "wd:Q39760:P276"
           ]
         }
       ],
-      "t": "2026-11-08T00:00:40Z",
-      "until": "2026-11-08T00:00:46Z"
+      "t": "2026-11-08T00:01:17Z",
+      "until": "2026-11-08T00:01:23Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-09T04:47:34Z"
+    "at": "2026-11-09T05:56:45Z"
   }
 }

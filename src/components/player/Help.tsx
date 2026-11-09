@@ -6,6 +6,7 @@ import { usePlayer } from "@/player/store";
 /** One list drives both the sheet and useKeyboard's documentation. */
 export const SHORTCUTS: [keys: string[], action: string][] = [
   [["Space"], "Play / pause"],
+  [["/"], "Search Earthlog"],
   [["←", "→"], "Jump back / forward"],
   [["A"], "Auto pacing: the director slows down at key moments"],
   [["Drag", "Scroll"], "Fly the camera yourself"],

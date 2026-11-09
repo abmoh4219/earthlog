@@ -80,3 +80,26 @@ body {
     animation: none;
   }
 }
+
+/* The ticker: one slow loop (two copies of the line, moved by half), paused under the pointer
+   or keyboard focus; still and scrollable for reduced motion. */
+.ticker-track {
+  animation: ticker 90s linear infinite;
+}
+.ticker:hover .ticker-track,
+.ticker:focus-within .ticker-track {
+  animation-play-state: paused;
+}
+@keyframes ticker {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
+  }
+  .ticker-window {
+    overflow-x: auto;
+  }
+}

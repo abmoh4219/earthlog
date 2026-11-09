@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SearchButton } from "@/components/Search";
 import { REPO_URL } from "@/config";
 import { GithubMark } from "./GithubMark";
 import { LogoMark } from "./LogoMark";
@@ -33,6 +34,7 @@ export function SiteNav() {
           ))}
         </ul>
         <div className="ml-auto flex items-center gap-2">
+          <SearchButton />
           <a
             href={REPO_URL}
             target="_blank"
@@ -44,7 +46,7 @@ export function SiteNav() {
           </a>
           <Link
             href="/today"
-            className="rounded-full border border-moon/18 px-4 py-1.5 text-sm text-moon transition-colors hover:border-moon/35 hover:bg-moon/5"
+            className="rounded-full border border-moon/18 px-4 py-1.5 text-sm whitespace-nowrap text-moon transition-colors hover:border-moon/35 hover:bg-moon/5"
           >
             Today&apos;s edition
           </Link>

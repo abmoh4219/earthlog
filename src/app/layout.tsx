@@ -3,6 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import type { Metadata, Viewport } from "next";
 import { Newsreader } from "next/font/google";
 import type { ReactNode } from "react";
+import { SearchDialog } from "@/components/Search";
 import { DESCRIPTION, SITE_NAME, SITE_URL, TAGLINE } from "@/config";
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import "./globals.css";
@@ -36,7 +37,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       lang="en"
       className={`${GeistSans.variable} ${GeistMono.variable} ${newsreader.variable}`}
     >
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        {children}
+        <SearchDialog />
+      </body>
     </html>
   );
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T05:12:49Z",
+  "generatedAt": "2026-11-09T05:55:21Z",
   "quakes": [
     {
       "id": "us7000tx16",
@@ -41,6 +41,16 @@
       "lat": -25.1858,
       "depthKm": 136.311,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0x"
+    },
+    {
+      "id": "us7000tx1p",
+      "t": "2026-11-09T05:16:56Z",
+      "mag": 4.8,
+      "place": "26 km SW of Lata, Solomon Islands",
+      "lon": 165.6396,
+      "lat": -10.912,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1p"
     },
     {
       "id": "us7000twyc",
@@ -91,6 +101,16 @@
       "lat": 39.8647,
       "depthKm": 10,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx1"
+    },
+    {
+      "id": "us7000tx1i",
+      "t": "2026-11-09T05:01:53Z",
+      "mag": 4.6,
+      "place": "69 km ESE of Takahagi, Japan",
+      "lon": 141.4485,
+      "lat": 36.4941,
+      "depthKm": 35,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1i"
     },
     {
       "id": "us7000twyd",

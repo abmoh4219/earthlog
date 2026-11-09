@@ -30,22 +30,50 @@
     "precision": "day"
   },
   {
-    "id": "views:en:Gaza:30d",
+    "id": "wiki:rev:1384283092:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza Strip\" (revision of 2026-11-07 14:14 UTC)",
+    "quote": "The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories (the other being the West Bank) that make up the State of Palestine in the Southern Levant region of West Asia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_Strip&oldid=1384283092"
+  },
+  {
+    "id": "views:en:Gaza_Strip:30d",
     "kind": "sensor",
     "source": "wikimedia",
     "t": "2026-11-08T00:00:00Z",
     "precision": "day",
-    "label": "English Wikipedia daily readers of \"Gaza\", 10 October 2026 to 8 November 2026",
+    "label": "English Wikipedia daily readers of \"Gaza Strip\", 10 October 2026 to 8 November 2026",
     "unit": "readers",
-    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza&range=latest-30"
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_Strip&range=latest-30"
   },
   {
-    "id": "wd:Q1395229:P17",
+    "id": "wd:Q39760:P276",
     "kind": "sensor",
     "source": "wikidata",
     "t": "2026-11-08T00:00:00Z",
     "precision": "day",
-    "label": "Wikidata, \"Gaza\": country Palestine",
-    "url": "https://www.wikidata.org/wiki/Q1395229#P17"
+    "label": "Wikidata, \"Gaza Strip\": location Southern Levant",
+    "url": "https://www.wikidata.org/wiki/Q39760#P276"
+  },
+  {
+    "id": "wd:Q39760:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": founded 1949",
+    "url": "https://www.wikidata.org/wiki/Q39760#P571"
+  },
+  {
+    "id": "wd:Q39760:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": country Palestine, United Arab Republic",
+    "url": "https://www.wikidata.org/wiki/Q39760#P17"
   }
 ]

@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "id": "story-2026-11-08-2026-nascar-cup-series",
+  "title": "2026 NASCAR Cup Series",
+  "subtitle": "Culture · 8 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-08T00:00:00Z",
+    "end": "2026-11-08T00:00:57Z"
+  },
+  "focus": "2026-11-08T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-08",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-08T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-08T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-08T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:26Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:29Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:31Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:34Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 3400000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:38Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 3078830.9469667217,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:41Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 2788000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:44Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:47Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 4002480.231056738,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:49Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 3624400,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:52Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:53Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:57Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "text": "In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship, becoming the first driver to win two consecutive championships since 2010.",
+      "cites": [
+        "wiki:2026-11-08:9"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:08Z",
+      "text": "The season ended at Homestead–Miami Speedway on November 8.",
+      "cites": [
+        "wiki:rev:1384610001:2"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:16Z",
+      "text": "The 2026 NASCAR Cup Series was the 78th season for NASCAR professional stock car racing in the United States and the 55th season for the modern-era Cup Series.",
+      "cites": [
+        "wiki:rev:1384610001:0"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:32Z",
+      "text": "Date: 2026. Began: 1 February 2026.",
+      "cites": [
+        "wd:Q136015025:P585",
+        "wd:Q136015025:P580"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:42Z",
+      "text": "Reported by AP.",
+      "cites": [
+        "wiki:2026-11-08:9"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:50Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-08:9",
+        "wiki:rev:1384610001:2",
+        "views:en:2026_NASCAR_Cup_Series:30d",
+        "wd:Q136015025:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-08T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-08T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-08T00:00:42Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-08T00:00:50Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: 2026 NASCAR Cup Series",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Date",
+          "text": "2026",
+          "cites": [
+            "wd:Q136015025:P585"
+          ]
+        },
+        {
+          "label": "Began",
+          "text": "1 February 2026",
+          "cites": [
+            "wd:Q136015025:P580"
+          ]
+        },
+        {
+          "label": "Ended",
+          "text": "8 November 2026",
+          "cites": [
+            "wd:Q136015025:P582"
+          ]
+        },
+        {
+          "label": "Sport",
+          "text": "auto racing",
+          "cites": [
+            "wd:Q136015025:P641"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "United States",
+          "cites": [
+            "wd:Q136015025:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:00:33Z",
+      "until": "2026-11-08T00:00:42Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/nascar-championship-kyle-larson-chase-b684d52d336492b1ab3f17c21c1fa5e8",
+          "cites": [
+            "wiki:2026-11-08:9"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:00:43Z",
+      "until": "2026-11-08T00:00:50Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-08:9"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384610001:2"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_NASCAR_Cup_Series:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q136015025:P31"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:00:51Z",
+      "until": "2026-11-08T00:00:57Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T05:56:45Z"
+  }
+}

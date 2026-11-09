@@ -6,6 +6,7 @@ import { HappeningNow } from "@/components/landing/HappeningNow";
 import { HeroGlobe, LitCaption } from "@/components/landing/HeroGlobe";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { SiteNav } from "@/components/landing/SiteNav";
+import { Ticker } from "@/components/landing/Ticker";
 import { REPO_URL } from "@/config";
 import {
   listEditions,
@@ -130,7 +131,7 @@ const STILLS = [
 const FAQ = [
   {
     q: "What is Earthlog?",
-    a: "A daily edition of yesterday's most-followed stories, each told as a short film on a 3D globe: an election state by state, a life drawn across the map, a flight's route to the crash site. Every sentence links to its source.",
+    a: "A daily edition of yesterday's biggest stories, as the newsrooms covered them, each told as a short film on a 3D globe: an election state by state, a life drawn across the map, a flight's route to the crash site. Every sentence links to its source.",
   },
   {
     q: "Where do the stories come from?",
@@ -264,6 +265,7 @@ export default async function Landing() {
   return (
     <div className="h-dvh overflow-x-hidden overflow-y-auto bg-void">
       <SiteNav />
+      {nowFile && <Ticker initial={nowFile} />}
 
       {/* Hero: the planet as it is lit right now, the edition over its night side. */}
       <section className="relative overflow-hidden">
@@ -286,8 +288,8 @@ export default async function Landing() {
               Yesterday&apos;s world, explained in 3D.
             </h1>
             <p className="mt-6 max-w-[42ch] text-base leading-relaxed text-dust/70 sm:text-lg">
-              Every morning, the previous day&apos;s most-followed stories become short films on a
-              3D globe. Each story gets the analysis its kind deserves, and every claim links to its
+              Every morning, the previous day&apos;s biggest stories become short films on a 3D
+              globe. Each story gets the analysis its kind deserves, and every claim links to its
               source.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">

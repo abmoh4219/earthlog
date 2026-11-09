@@ -98,6 +98,15 @@ describe("topics", () => {
     );
   });
 
+  it("keeps whole words whole: authorities are not authors (live data, 9 November)", () => {
+    expect(
+      topicOf([
+        { title: "Migrant boat sinks off Senegal, killing at least 34 people, authorities say" },
+      ]),
+    ).toBe("disaster");
+    expect(topicOf([{ title: "Booker-winning author publishes new novel" }])).toBe("culture");
+  });
+
   it("lets a feed's section settle it", () => {
     expect(topicOf([{ title: "Tenerife honour teammate with tribute", section: "Sport" }])).toBe(
       "sports",

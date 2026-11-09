@@ -41,8 +41,12 @@ const file: NowFile = {
   clusters: [
     cluster("fresh", fresh, "conflict"),
     cluster("older", older, "politics"),
-    // One outlet, but filmed: listed.
-    { ...cluster("stale", stale), nowFilm: true },
+    // One outlet, but filmed through its own article: listed.
+    {
+      ...cluster("stale", stale),
+      nowFilm: true,
+      context: { title: "Subject", url: "https://en.wikipedia.org/wiki/Subject", text: "x" },
+    },
   ],
 };
 
@@ -54,7 +58,7 @@ describe("stories in a window, at the moment of viewing", () => {
     expect(windowCounts(file, NOW)).toEqual({ "1h": 1, "3h": 2, "24h": 3 });
   });
 
-  it("lists only stories with a film or two or more outlets (ADR-0021)", () => {
+  it("lists stories two outlets told, or lone ones filmed through their own article (ADR-0021)", () => {
     const lone = [h("guardian", 30)];
     const f = {
       ...file,
@@ -62,6 +66,10 @@ describe("stories in a window, at the moment of viewing", () => {
       clusters: [...file.clusters, cluster("lone", lone)],
     };
     expect(storiesIn(f, "24h", NOW).map((s) => s.cluster.id)).not.toContain("lone");
+    // A lone local headline with a place film only (a feed naming a country in every headline).
+    const placeOnly = { ...cluster("lone", lone), nowFilm: true };
+    const g = { ...f, clusters: [...file.clusters, placeOnly] };
+    expect(storiesIn(g, "24h", NOW).map((s) => s.cluster.id)).not.toContain("lone");
     expect(storiesIn(f, "24h", NOW).map((s) => s.cluster.id)).toContain("stale");
   });
 
@@ -108,5 +116,33 @@ describe("time words", () => {
     expect(nextCollection("2026-11-08T12:16:00Z")).toBe("2026-11-08T13:15:00Z");
     expect(nextCollection("2026-11-08T12:14:00Z")).toBe("2026-11-08T12:15:00Z");
     expect(nextCollection("2026-11-08T23:30:00Z")).toBe("2026-11-09T00:15:00Z");
+  });
+});
+
+describe("the reader's filters (ADR-0023)", () => {
+  it("narrows by topics and regions, any of each", () => {
+    const extra: Headline[] = [];
+    const placed = (id: string, region: "Europe" | "Africa", topic: Cluster["topic"]) => {
+      const hs = [h("bbc", 30), h("dw", 40)];
+      extra.push(...hs);
+      return { ...cluster(id, hs, topic), region };
+    };
+    const f: NowFile = {
+      ...file,
+      headlines: extra,
+      clusters: [
+        placed("a", "Europe", "politics"),
+        placed("b", "Africa", "politics"),
+        placed("c", "Africa", "sports"),
+      ],
+    };
+    const ids = (filter: Parameters<typeof storiesIn>[3]) =>
+      storiesIn(f, "24h", NOW, filter)
+        .map((s) => s.cluster.id)
+        .sort();
+    expect(ids({ regions: ["Africa"] })).toEqual(["b", "c"]);
+    expect(ids({ topics: ["politics"], regions: ["Africa"] })).toEqual(["b"]);
+    expect(ids({ topics: ["politics", "sports"] })).toEqual(["a", "b", "c"]);
+    expect(ids({})).toEqual(["a", "b", "c"]);
   });
 });

@@ -2,11 +2,11 @@
   "version": 1,
   "id": "story-2026-11-08-at-least-21-killed-after-migrant-boat-sinks-off-senegal",
   "title": "At least 21 killed after migrant boat sinks off Senegal",
-  "subtitle": "Culture · 8 November 2026 · headline from DW",
+  "subtitle": "Disasters · 8 November 2026 · headline from DW",
   "category": "daily",
   "window": {
     "start": "2026-11-08T00:00:00Z",
-    "end": "2026-11-08T00:01:14Z"
+    "end": "2026-11-08T00:01:28Z"
   },
   "focus": "2026-11-08T00:00:00Z",
   "timezone": "UTC",
@@ -22,14 +22,16 @@
   },
   "layers": [
     {
-      "kind": "places",
-      "file": "data/places.json",
-      "from": "2026-11-08T00:00:17Z"
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-08T00:00:35Z"
     },
     {
-      "kind": "regions",
-      "file": "data/regions.json",
-      "from": "2026-11-08T00:00:17Z"
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-08T00:00:35Z"
     }
   ],
   "camera": [
@@ -69,34 +71,61 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:19Z",
+      "t": "2026-11-08T00:00:20Z",
       "lon": -14.78,
-      "lat": 13.015,
-      "range": 3400000,
-      "heading": 12,
-      "pitch": -42,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-08T00:00:22Z",
-      "lon": -14.78,
-      "lat": 13.015,
-      "range": 3078830.9469667217,
-      "heading": 3.0999999999999996,
-      "pitch": -39.5,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-08T00:00:24Z",
-      "lon": -14.78,
-      "lat": 13.015,
-      "range": 2788000,
-      "heading": -5.800000000000001,
-      "pitch": -37,
-      "move": "glide"
+      "lat": 7.140000000000001,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
     },
     {
       "t": "2026-11-08T00:00:27Z",
+      "lon": -14.78,
+      "lat": 7.140000000000001,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:34Z",
+      "lon": -14.78,
+      "lat": 7.140000000000001,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:38Z",
+      "lon": -8.0304,
+      "lat": 13.228200000000001,
+      "range": 4601288.965981707,
+      "heading": 106.35333757834904,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:43Z",
+      "lon": -8.0304,
+      "lat": 13.228200000000001,
+      "range": 4166644.371882643,
+      "heading": 120.05333757834904,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:48Z",
+      "lon": -8.0304,
+      "lat": 13.228200000000001,
+      "range": 3773056.9521049997,
+      "heading": 133.75333757834903,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:52Z",
       "lon": -14.78,
       "lat": 13.015,
       "range": 10200000,
@@ -105,88 +134,61 @@
       "move": "flight"
     },
     {
-      "t": "2026-11-08T00:00:31Z",
+      "t": "2026-11-08T00:00:56Z",
       "lon": -14.78,
       "lat": 13.015,
       "range": 9236492.840900164,
-      "heading": 21.3,
+      "heading": -1.3000000000000007,
       "pitch": -59.5,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:35Z",
+      "t": "2026-11-08T00:00:59Z",
       "lon": -14.78,
       "lat": 13.015,
       "range": 8363999.999999999,
-      "heading": 32.6,
+      "heading": -12.600000000000001,
       "pitch": -57,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:38Z",
+      "t": "2026-11-08T00:01:02Z",
       "lon": -14.78,
       "lat": 13.015,
-      "range": 3400000,
-      "heading": 20,
-      "pitch": -42,
-      "move": "flight"
-    },
-    {
-      "t": "2026-11-08T00:00:41Z",
-      "lon": -14.78,
-      "lat": 13.015,
-      "range": 3078830.9469667217,
-      "heading": 9.5,
-      "pitch": -39.5,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:45Z",
+      "t": "2026-11-08T00:01:11Z",
       "lon": -14.78,
       "lat": 13.015,
-      "range": 2788000,
-      "heading": -1,
-      "pitch": -37,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:48Z",
+      "t": "2026-11-08T00:01:20Z",
       "lon": -14.78,
       "lat": 13.015,
-      "range": 3400000,
-      "heading": 8,
-      "pitch": -42,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:00:57Z",
-      "lon": -14.78,
-      "lat": 13.015,
-      "range": 3261165.435852649,
-      "heading": 10,
-      "pitch": -42,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-08T00:01:06Z",
-      "lon": -14.78,
-      "lat": 13.015,
-      "range": 3128000,
-      "heading": 12,
-      "pitch": -42,
-      "move": "glide"
-    },
-    {
-      "t": "2026-11-08T00:01:09Z",
+      "t": "2026-11-08T00:01:23Z",
       "lon": -14.78,
       "lat": 13.015,
       "range": 8840000,
       "heading": 0,
       "pitch": -70,
-      "move": "flight"
+      "move": "glide"
     },
     {
-      "t": "2026-11-08T00:01:10Z",
+      "t": "2026-11-08T00:01:24Z",
       "lon": -14.78,
       "lat": 13.015,
       "range": 7248800,
@@ -195,7 +197,7 @@
       "move": "glide"
     },
     {
-      "t": "2026-11-08T00:01:14Z",
+      "t": "2026-11-08T00:01:28Z",
       "lon": -39.77999999999997,
       "lat": 13.015,
       "range": 21746400,
@@ -227,48 +229,63 @@
       ]
     },
     {
-      "t": "2026-11-08T00:00:25Z",
+      "t": "2026-11-08T00:00:17Z",
+      "text": "Inflation in Senegal was 1.5% in 2025, down from 9.7% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:SN"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:26Z",
+      "text": "The economy grew 6.7% in 2025; unemployment stood at 2.7%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:SN",
+        "wb:SL.UEM.TOTL.ZS:SN"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:35Z",
+      "text": "Across Sub-Saharan Africa, Senegal's 1.5% compares with a median of 3.5%; the highest is South Sudan at 91.4%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:sub-saharan-africa"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:49Z",
       "text": "Senegal, officially the Republic of Senegal, is the westernmost country of mainland West Africa, situated along the Atlantic Ocean coast.",
       "cites": [
         "wiki:rev:1384463039:0"
       ]
     },
     {
-      "t": "2026-11-08T00:00:36Z",
-      "text": "Founded: 1960. Country: Senegal.",
-      "cites": [
-        "wd:Q1041:P571",
-        "wd:Q1041:P17"
-      ]
-    },
-    {
-      "t": "2026-11-08T00:00:46Z",
+      "t": "2026-11-08T00:01:00Z",
       "text": "Al Jazeera headlined it: “At least 34 dead as small boat sinks off Senegal”",
       "cites": [
         "news:aljazeera:b64af1b67821"
       ]
     },
     {
-      "t": "2026-11-08T00:00:53Z",
+      "t": "2026-11-08T00:01:07Z",
       "text": "DW headlined it: “At least 21 killed after migrant boat sinks off Senegal”",
       "cites": [
         "news:dw:85de81bd8398"
       ]
     },
     {
-      "t": "2026-11-08T00:01:00Z",
+      "t": "2026-11-08T00:01:14Z",
       "text": "France 24 headlined it: “Migrant boat sinks off Senegal, killing at least 34 people, authorities say”",
       "cites": [
         "news:france24:c7e270d5fde4"
       ]
     },
     {
-      "t": "2026-11-08T00:01:07Z",
-      "text": "Sources: Al Jazeera, DW and France 24, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "t": "2026-11-08T00:01:21Z",
+      "text": "Sources: Al Jazeera, DW and France 24, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data (World Development Indicators). Every caption links to the evidence it rests on.",
       "cites": [
         "wiki:rev:1384463039:0",
         "views:en:Senegal:30d",
-        "wd:Q1041:P571"
+        "wd:Q1041:P571",
+        "wb:FP.CPI.TOTL.ZG:region:sub-saharan-africa"
       ]
     }
   ],
@@ -286,49 +303,365 @@
     },
     {
       "t": "2026-11-08T00:00:17Z",
-      "title": "Where"
+      "title": "Senegal in numbers"
     },
     {
-      "t": "2026-11-08T00:00:25Z",
+      "t": "2026-11-08T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-08T00:00:49Z",
       "title": "About Senegal"
     },
     {
-      "t": "2026-11-08T00:00:36Z",
-      "title": "On record"
-    },
-    {
-      "t": "2026-11-08T00:00:46Z",
+      "t": "2026-11-08T00:01:00Z",
       "title": "In the news"
     },
     {
-      "t": "2026-11-08T00:01:07Z",
+      "t": "2026-11-08T00:01:21Z",
       "title": "Sources"
     }
   ],
   "panels": [
     {
-      "id": "record",
-      "kind": "facts",
-      "title": "On record: Senegal",
-      "note": "As recorded in Wikidata (CC0).",
-      "items": [
+      "id": "inflation",
+      "kind": "line",
+      "title": "Inflation, consumer prices, Senegal",
+      "unit": "% a year",
+      "series": [
         {
-          "label": "Founded",
-          "text": "1960",
+          "label": "Senegal",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 1.22868119673344
+            },
+            {
+              "x": "2011",
+              "y": 3.40322829786971
+            },
+            {
+              "x": "2012",
+              "y": 1.41822871177854
+            },
+            {
+              "x": "2013",
+              "y": 0.710245486695175
+            },
+            {
+              "x": "2014",
+              "y": -1.09025507446894
+            },
+            {
+              "x": "2015",
+              "y": 0.135211933635164
+            },
+            {
+              "x": "2016",
+              "y": 0.837284942557434
+            },
+            {
+              "x": "2017",
+              "y": 1.31815314847789
+            },
+            {
+              "x": "2018",
+              "y": 0.460985642464188
+            },
+            {
+              "x": "2019",
+              "y": 1.76011151192938
+            },
+            {
+              "x": "2020",
+              "y": 2.54314685681661
+            },
+            {
+              "x": "2021",
+              "y": 2.18032278088146
+            },
+            {
+              "x": "2022",
+              "y": 9.69681899081073
+            },
+            {
+              "x": "2023",
+              "y": 5.93947798773214
+            },
+            {
+              "x": "2024",
+              "y": 0.804503298792438
+            },
+            {
+              "x": "2025",
+              "y": 1.45900719841384
+            }
+          ],
           "cites": [
-            "wd:Q1041:P571"
-          ]
-        },
-        {
-          "label": "Country",
-          "text": "Senegal",
-          "cites": [
-            "wd:Q1041:P17"
+            "wb:FP.CPI.TOTL.ZG:SN"
           ]
         }
       ],
-      "t": "2026-11-08T00:00:37Z",
-      "until": "2026-11-08T00:00:46Z"
+      "mark": 15,
+      "t": "2026-11-08T00:00:18Z",
+      "until": "2026-11-08T00:00:35Z"
+    },
+    {
+      "id": "growth",
+      "kind": "line",
+      "title": "GDP growth, Senegal",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Senegal",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.39088925336209
+            },
+            {
+              "x": "2011",
+              "y": 1.33409107961258
+            },
+            {
+              "x": "2012",
+              "y": 4.00299555090457
+            },
+            {
+              "x": "2013",
+              "y": 2.41238527605579
+            },
+            {
+              "x": "2014",
+              "y": 6.22407443790986
+            },
+            {
+              "x": "2015",
+              "y": 6.36704365066983
+            },
+            {
+              "x": "2016",
+              "y": 6.35606857208136
+            },
+            {
+              "x": "2017",
+              "y": 7.40748618589598
+            },
+            {
+              "x": "2018",
+              "y": 6.20924103388887
+            },
+            {
+              "x": "2019",
+              "y": 4.6136280976221
+            },
+            {
+              "x": "2020",
+              "y": 1.34207377285524
+            },
+            {
+              "x": "2021",
+              "y": 6.5440010991951
+            },
+            {
+              "x": "2022",
+              "y": 3.85043193752725
+            },
+            {
+              "x": "2023",
+              "y": 4.25743083300657
+            },
+            {
+              "x": "2024",
+              "y": 6.46220577412338
+            },
+            {
+              "x": "2025",
+              "y": 6.68227744849194
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:SN"
+          ]
+        }
+      ],
+      "mark": 15,
+      "t": "2026-11-08T00:00:18Z",
+      "until": "2026-11-08T00:00:35Z"
+    },
+    {
+      "id": "unemployment",
+      "kind": "line",
+      "title": "Unemployment, Senegal",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Senegal",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.795
+            },
+            {
+              "x": "2011",
+              "y": 2.853
+            },
+            {
+              "x": "2012",
+              "y": 3.896
+            },
+            {
+              "x": "2013",
+              "y": 5.012
+            },
+            {
+              "x": "2014",
+              "y": 5.849
+            },
+            {
+              "x": "2015",
+              "y": 6.757
+            },
+            {
+              "x": "2016",
+              "y": 4.455
+            },
+            {
+              "x": "2017",
+              "y": 4.078
+            },
+            {
+              "x": "2018",
+              "y": 3.453
+            },
+            {
+              "x": "2019",
+              "y": 2.863
+            },
+            {
+              "x": "2020",
+              "y": 3.432
+            },
+            {
+              "x": "2021",
+              "y": 3.436
+            },
+            {
+              "x": "2022",
+              "y": 2.837
+            },
+            {
+              "x": "2023",
+              "y": 2.784
+            },
+            {
+              "x": "2024",
+              "y": 2.788
+            },
+            {
+              "x": "2025",
+              "y": 2.735
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:SN"
+          ]
+        }
+      ],
+      "mark": 15,
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "t": "2026-11-08T00:00:18Z",
+      "until": "2026-11-08T00:00:35Z"
+    },
+    {
+      "id": "region",
+      "kind": "bars",
+      "title": "Inflation, Sub-Saharan Africa",
+      "unit": "%",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "items": [
+        {
+          "label": "South Sudan",
+          "value": 91.4408220769045,
+          "text": "91.4%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SS"
+          ]
+        },
+        {
+          "label": "Burundi",
+          "value": 34.1339985744831,
+          "text": "34.1%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BI"
+          ]
+        },
+        {
+          "label": "Malawi",
+          "value": 28.3702565330281,
+          "text": "28.4%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MW"
+          ]
+        },
+        {
+          "label": "Nigeria",
+          "value": 23.0101235833333,
+          "text": "23.0%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NG"
+          ]
+        },
+        {
+          "label": "Angola",
+          "value": 20.1620197572331,
+          "text": "20.2%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AO"
+          ]
+        },
+        {
+          "label": "Ghana",
+          "value": 14.2046755548989,
+          "text": "14.2%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:GH"
+          ]
+        },
+        {
+          "label": "Zambia",
+          "value": 13.9099095827735,
+          "text": "13.9%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:ZM"
+          ]
+        },
+        {
+          "label": "Ethiopia",
+          "value": 13.2296432836808,
+          "text": "13.2%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:ET"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.51074539609587,
+        "label": "median 3.5%"
+      },
+      "t": "2026-11-08T00:00:36Z",
+      "until": "2026-11-08T00:00:49Z"
     },
     {
       "id": "coverage",
@@ -361,8 +694,8 @@
           ]
         }
       ],
-      "t": "2026-11-08T00:00:47Z",
-      "until": "2026-11-08T00:01:07Z"
+      "t": "2026-11-08T00:01:01Z",
+      "until": "2026-11-08T00:01:21Z"
     },
     {
       "id": "film-sources",
@@ -393,14 +726,22 @@
           "cites": [
             "wd:Q1041:P571"
           ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:sub-saharan-africa"
+          ]
         }
       ],
-      "t": "2026-11-08T00:01:08Z",
-      "until": "2026-11-08T00:01:14Z"
+      "t": "2026-11-08T00:01:22Z",
+      "until": "2026-11-08T00:01:28Z"
     }
   ],
   "generatedBy": {
     "method": "template",
-    "at": "2026-11-09T04:47:34Z"
+    "at": "2026-11-09T05:56:45Z"
   }
 }

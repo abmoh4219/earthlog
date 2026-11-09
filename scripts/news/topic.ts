@@ -3,7 +3,10 @@
 // takes the topic with most votes, ties broken by the order of RULES (more specific first).
 import type { Topic } from "../../src/scene/topics.ts";
 
-/** Lower-case phrases matched at word starts ("flood" matches "floods", "flooding"). */
+/**
+ * Lower-case phrases matched at word starts ("flood" matches "floods", "flooding"). A phrase
+ * ending in "$" must end with the word too (a plural allowed): "author$" is not "authorities".
+ */
 const RULES: [Topic, string[]][] = [
   [
     "conflict",
@@ -68,6 +71,10 @@ const RULES: [Topic, string[]][] = [
       "derail",
       "capsiz",
       "shipwreck",
+      "sink",
+      "sank",
+      "sinking",
+      "drown",
       "avalanche",
       "heatwave",
       "collapse",
@@ -327,8 +334,8 @@ const RULES: [Topic, string[]][] = [
       "actress",
       "festival",
       "museum",
-      "novel",
-      "author",
+      "novel$",
+      "author$",
       "oscar",
       "grammy",
       "fashion",
@@ -363,13 +370,17 @@ function votes(title: string): Map<Topic, number> {
   const out = new Map<Topic, number>();
   for (const [topic, phrases] of RULES) {
     let n = 0;
-    for (const p of phrases) {
+    for (const phrase of phrases) {
+      const whole = phrase.endsWith("$");
+      const p = whole ? phrase.slice(0, -1) : phrase;
       // Word start: "war" must not match "award" or "toward"; trailing letters are allowed.
       for (let i = text.indexOf(p); i > 0; i = text.indexOf(p, i + 1)) {
         if (/[a-z0-9]/.test(text[i - 1] ?? "")) continue;
-        // Short words must end there too (plural allowed): "war" is not "warning".
+        // Short words (and "$" phrases) must end there too, plural allowed: "war" is not
+        // "warning", "author" is not "authorities".
         const after = text.slice(i + p.length, i + p.length + 2);
-        if (p.length <= 4 && /^[a-z0-9]/.test(after) && !/^s[^a-z0-9]/.test(after)) continue;
+        if ((whole || p.length <= 4) && /^[a-z0-9]/.test(after) && !/^s[^a-z0-9]/.test(after))
+          continue;
         n++;
         break;
       }

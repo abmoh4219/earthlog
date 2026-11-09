@@ -7,6 +7,7 @@ import type { EditionStory } from "../../src/scene/edition.ts";
 import type { Headline } from "../../src/scene/headlines.ts";
 import { fetchJson } from "../bake/lib.ts";
 import { makeCoverage } from "../edition/coverage.ts";
+import { DEMONYMS } from "./demonyms.ts";
 import type { Placer } from "./place.ts";
 import { words } from "./text.ts";
 
@@ -35,6 +36,52 @@ export function searchTerms(titles: string[]): string {
     .join(" ");
 }
 
+/**
+ * A headline in Title Case ("Mwesige Exits Parliament After Five Years As Clerk", AllAfrica's
+ * style): its capitals say nothing about what is a name.
+ */
+export function isTitleCase(headline: string): boolean {
+  const ws = headline
+    .replace(/^[^:]{2,40}:\s+/, "")
+    .split(/\s+/)
+    .map((w) => w.replace(/^[("'“‘]+|[)"'”’,.;:!?]+$/g, ""))
+    .filter((w) => w.length > 3);
+  if (ws.length < 4) return false;
+  return ws.filter((w) => /^\p{Lu}/u.test(w)).length / ws.length >= 0.75;
+}
+
+// Continents and world regions: places, never a story's background.
+const REGIONS = new Set(
+  [
+    "Africa",
+    "Asia",
+    "Europe",
+    "North America",
+    "South America",
+    "Latin America",
+    "Oceania",
+    "Antarctica",
+    "Middle East",
+    "West Africa",
+    "East Africa",
+    "Southern Africa",
+    "North Africa",
+    "Central Africa",
+    "Horn of Africa",
+    "Sahel",
+    "Southeast Asia",
+    "South Asia",
+    "Central Asia",
+    "East Asia",
+    "Caribbean",
+    "Balkans",
+    "Scandinavia",
+  ].map((r) => r.toLowerCase()),
+);
+
+const CALENDAR =
+  /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|(January|February|March|April|May|June|July|August|September|October|November|December)( \d{1,2})?|Christmas|Christmas Day|Christmas Eve|Easter|New Year|New Year's Eve|New Year's Day|Halloween|Thanksgiving|Weekend)$/i;
+
 // Labels before a colon that say what kind of piece it is, not what it is about.
 const KIND_LABEL =
   /^(live|watch|analysis|explainer|opinion|comment|exclusive|breaking|update|video|photos|podcast|q&a|interview|review|factbox|timeline|in pictures|week in review)$/i;
@@ -45,6 +92,11 @@ const NAME_GLUE = new Set([
   "of",
   "the",
   "de",
+  "du",
+  "des",
+  "la",
+  "le",
+  "el",
   "da",
   "del",
   "di",
@@ -95,6 +147,8 @@ export function searchQueries(titles: string[]): Query[] {
   // name ("Messi becomes…"): kept as a weaker "first" query, accepted only for a person.
   const firsts: string[] = [];
   for (const t of titles) {
+    // In Title Case every word looks like a name: no names to read from it.
+    if (isTitleCase(t)) continue;
     const tokens = t.replace(/^[^:]{2,40}:\s+/, "").split(/\s+/);
     const seen = new Set<string>();
     let run: string[] = [];
@@ -145,6 +199,7 @@ export function acceptNamed(title: string, query: Query, rank: number, placer: P
   const bare = title.replace(/\s*\([^)]*\)\s*$/, "");
   const place = placer.mentions(bare)[0];
   if (place && fold(place.name) === fold(bare)) return false;
+  if (REGIONS.has(fold(bare)) || DEMONYMS[fold(bare)]) return false;
   if (query.kind === "cop") return fold(title) === fold(query.q);
   const words = bare.split(/\s+/);
   if ((query.kind === "name" || query.kind === "first") && !query.q.includes(" "))
@@ -174,6 +229,28 @@ export function acceptArticle(
   const bare = title.replace(/\s*\([^)]*\)\s*$/, "");
   const place = placer.mentions(bare)[0];
   if (place && fold(place.name) === fold(bare)) return false;
+  // A region, or its people ("Latin Americans" → Latin America).
+  if (REGIONS.has(fold(bare)) || REGIONS.has(fold(bare).replace(/ns?$/, ""))) return false;
+  // Places are where, not what: one word that names a place ("Gaza"), or "City, Country".
+  if (!bare.includes(" ") && placer.mentions(bare).length) return false;
+  if (bare.includes(", ") && bare.split(", ").every((part) => placer.mentions(part).length))
+    return false;
+  // Initials and numerals must be in the headlines too: "Pope Leo X" is not Pope Leo XIV.
+  const shortTokens = bare
+    .split(/\s+/)
+    .filter((w) => /^[\p{Lu}\d]{1,3}$/u.test(w) && !/^\d{4}$/.test(w));
+  const raw = ` ${headlines.join(" ")} `;
+  if (shortTokens.some((w) => !new RegExp(`[^\\p{L}\\p{N}]${w}[^\\p{L}\\p{N}]`, "u").test(raw)))
+    return false;
+  // Dates in a headline ("…in for Christmas", "on Monday") are when, not what.
+  if (CALENDAR.test(bare)) return false;
+  // A people ("Nigerians") is not a story's subject.
+  if (DEMONYMS[fold(bare).replace(/s$/, "")] || DEMONYMS[fold(bare)]) return false;
+  // A common-noun phrase ("Street children", "Police state", "Climate change"): Wikipedia
+  // capitalises only its first word. A subject has a name in it, a year, or a dated aside.
+  const rest = bare.split(/\s+/).slice(1);
+  const named = rest.some((w) => /^\p{Lu}/u.test(w) || /\d/.test(w));
+  if (rest.length && !named && !/\b(19|20)\d{2}\b/.test(title) && !/\d/.test(bare)) return false;
   const text = fold(headlines.join(" "));
   const have = new Set(words(text));
   const needed = words(bare).filter((w) => !/^\d+$/.test(w));
@@ -196,16 +273,34 @@ export function acceptArticle(
   // "Darkness"), and not capitalised only because it opens the headline.
   if (needed.length === 1) {
     const word = bare.split(/\s+/)[0] ?? "";
-    const asName = headlines.some((h) =>
-      h
-        // After a subject label ("Poland: Gunman kills…") the next word opens the sentence;
-        // after a kind label ("Photos: Diwali celebrations…") it is the subject itself.
-        .replace(/^([^:]{2,40}):\s+/, (m, label: string) =>
-          KIND_LABEL.test(label.trim()) ? m : "",
-        )
-        .split(/\s+/)
-        .slice(1)
-        .some((w) => fold(w.replace(/[^\p{L}\p{N}-]/gu, "")) === fold(word) && /^\p{Lu}/u.test(w)),
+    const asName = headlines.some(
+      (h) =>
+        !isTitleCase(h) &&
+        h
+          // After a subject label ("Poland: Gunman kills…") the next word opens the sentence;
+          // after a kind label ("Photos: Diwali celebrations…") it is the subject itself.
+          .replace(/^([^:]{2,40}):\s+/, (m, label: string) =>
+            KIND_LABEL.test(label.trim()) ? m : "",
+          )
+          .split(/\s+/)
+          .some((w, i, all) => {
+            if (i === 0) return false;
+            if (fold(w.replace(/[^\p{L}\p{N}-]/gu, "")) !== fold(word) || !/^\p{Lu}/u.test(w))
+              return false;
+            // Part of a longer name ("60 Minutes", "Route du Rhum", "Rhum Festival"): that
+            // name is the subject, not this word.
+            const before = all[i - 1] ?? "";
+            const beforeThat = all[i - 2] ?? "";
+            const after = all[i + 1] ?? "";
+            const capital = (x: string) => /^\p{Lu}/u.test(x) || /^\d/.test(x);
+            const glued = NAME_GLUE.has(before.toLowerCase()) && capital(beforeThat);
+            return !(
+              (i > 1 && capital(before)) ||
+              /^\d/.test(before) ||
+              glued ||
+              (capital(after) && !/[,.;:!?]$/.test(w))
+            );
+          }),
     );
     if (!asName) return false;
   }

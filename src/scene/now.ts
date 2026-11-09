@@ -4,7 +4,23 @@
 import type { Cluster, Headline, NowFile } from "./headlines.ts";
 import { heatOf, normalise } from "./hot.ts";
 import { outletById, type Region } from "./outlets.ts";
+import type { Region as WorldRegion } from "./regions.ts";
 import type { Topic } from "./topics.ts";
+
+/** What the reader narrowed the news to: topics and regions (any of each; empty = all). */
+export interface NowFilter {
+  topics?: readonly Topic[];
+  regions?: readonly WorldRegion[];
+}
+
+/** Whether a story passes the reader's filter (a bare topic is a one-topic filter). */
+export function passes(cluster: Cluster, filter?: Topic | NowFilter): boolean {
+  if (!filter) return true;
+  const f: NowFilter = typeof filter === "string" ? { topics: [filter] } : filter;
+  if (f.topics?.length && !f.topics.includes(cluster.topic)) return false;
+  if (f.regions?.length && !(cluster.region && f.regions.includes(cluster.region))) return false;
+  return true;
+}
 
 export const WINDOWS = ["1h", "3h", "24h"] as const;
 export type NowWindow = (typeof WINDOWS)[number];
@@ -22,22 +38,26 @@ export interface NowStory {
   breaking: boolean;
 }
 
-/** Stories with at least one headline in the window, hottest first; optionally one topic. */
-/** Whether a story belongs on Now: it has a film, or two or more outlets told it. */
+/**
+ * Whether a story belongs on Now (ADR-0021): two or more outlets told it, or a lone report
+ * names a subject with its own Wikipedia article and was filmed through it. A lone local
+ * headline is not news enough, however many a feed publishes.
+ */
 export function worthListing(cluster: Cluster): boolean {
-  return cluster.nowFilm === true || cluster.outlets.length >= 2;
+  return cluster.outlets.length >= 2 || (cluster.nowFilm === true && !!cluster.context);
 }
 
+/** Stories with at least one headline in the window, hottest first; optionally filtered. */
 export function storiesIn(
   file: NowFile,
   window: NowWindow,
   now: number,
-  topic?: Topic,
+  filter?: Topic | NowFilter,
 ): NowStory[] {
   const byId = new Map(file.headlines.map((h) => [h.id, h]));
   const since = now - HOURS[window] * HOUR;
   const picked = file.clusters.flatMap((cluster) => {
-    if (topic && cluster.topic !== topic) return [];
+    if (!passes(cluster, filter)) return [];
     // Earthlog lists what it can explain or what the newsrooms agree on (ADR-0021): a story
     // with a film, or one told by two or more outlets. A lone report with nothing to explain
     // (an opinion piece, a feature) stays in the data, for editions to credit, but not here.
@@ -70,9 +90,13 @@ export function storiesIn(
 }
 
 /** How many stories each window holds (for the tabs). */
-export function windowCounts(file: NowFile, now: number, topic?: Topic): Record<NowWindow, number> {
+export function windowCounts(
+  file: NowFile,
+  now: number,
+  filter?: Topic | NowFilter,
+): Record<NowWindow, number> {
   return Object.fromEntries(
-    WINDOWS.map((w) => [w, storiesIn(file, w, now, topic).length]),
+    WINDOWS.map((w) => [w, storiesIn(file, w, now, filter).length]),
   ) as Record<NowWindow, number>;
 }
 

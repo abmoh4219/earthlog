@@ -1,0 +1,102 @@
+[
+  {
+    "id": "wiki:2026-11-08:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Sports: In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship, becoming the first driver to win two consecutive championships since 2010.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "quote": "In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship, becoming the first driver to win two consecutive championships since 2010.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/nascar-championship-kyle-larson-chase-b684d52d336492b1ab3f17c21c1fa5e8"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q136015025:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Wikidata: \"2026 NASCAR Cup Series\" is an instance of sports season",
+    "url": "https://www.wikidata.org/wiki/Q136015025",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384610001:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 NASCAR Cup Series\" (revision of 2026-11-09 03:12 UTC)",
+    "quote": "The season ended at Homestead–Miami Speedway on November 8.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_NASCAR_Cup_Series&oldid=1384610001"
+  },
+  {
+    "id": "wiki:rev:1384610001:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 NASCAR Cup Series\" (revision of 2026-11-09 03:12 UTC)",
+    "quote": "The 2026 NASCAR Cup Series was the 78th season for NASCAR professional stock car racing in the United States and the 55th season for the modern-era Cup Series.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_NASCAR_Cup_Series&oldid=1384610001"
+  },
+  {
+    "id": "views:en:2026_NASCAR_Cup_Series:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 NASCAR Cup Series\", 10 October 2026 to 8 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_NASCAR_Cup_Series&range=latest-30"
+  },
+  {
+    "id": "wd:Q136015025:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 NASCAR Cup Series\": date 2026",
+    "url": "https://www.wikidata.org/wiki/Q136015025#P585"
+  },
+  {
+    "id": "wd:Q136015025:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 NASCAR Cup Series\": began 1 February 2026",
+    "url": "https://www.wikidata.org/wiki/Q136015025#P580"
+  },
+  {
+    "id": "wd:Q136015025:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 NASCAR Cup Series\": ended 8 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q136015025#P582"
+  },
+  {
+    "id": "wd:Q136015025:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 NASCAR Cup Series\": sport auto racing",
+    "url": "https://www.wikidata.org/wiki/Q136015025#P641"
+  },
+  {
+    "id": "wd:Q136015025:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 NASCAR Cup Series\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q136015025#P17"
+  }
+]

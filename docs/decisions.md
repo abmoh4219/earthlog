@@ -554,3 +554,29 @@ Static and hourly keeps the promise (free, no backend, nothing to break at runti
 ### Cost
 
 The earthquakes are up to an hour old. EONET's open events are few, and storm fixes can lag by days; the cards date every position.
+
+## ADR-0023: Filters, For you, search and the ticker; a lone report needs its own article
+
+Status: accepted (9 November 2026)
+
+### Context
+
+After the living globe went live, Now was mostly African: 39 of 73 listed stories. AllAfrica republishes hundreds of local papers, and every one of its headlines starts with a country ("Uganda: …"); the place film that a country allows made each a "story with a film", and ADR-0021 listed every story with a film. AllAfrica's Title Case headlines also fooled the background matching ("Clerk", "Street children", even "Africa"). Readers also asked to filter by region.
+
+### Decision
+
+- **A lone report is listed on Now only when it names a subject with its own Wikipedia article** and was filmed through it; place films and short films are made only for stories two or more outlets told. Any outlet, any region: the same rule.
+- **Background matching:** a Title Case headline's capitals say nothing; common-noun titles ("Police state"), continents and their peoples, calendar words, single place names, "City, Country", one word that is part of a longer name ("60 Minutes", "Route du Rhum") and titles whose initials or numerals the headlines lack ("Pope Leo X") are refused.
+- **Regions** (`src/scene/regions.ts`): Natural Earth's continents with the Middle East taken out of Asia (Turkey and Cyprus with it, Egypt in Africa). Stored per Now story (`region`), derived for edition stories. Region chips on Now and on the edition front, each with its count.
+- **For you:** the reader picks topics and regions to follow; kept in their browser only (localStorage), nothing sent, no account.
+- **Search** (`/`, Ctrl/Cmd+K, or the nav's button): every edition story and classic from `/search.json` (a static file written at build time) plus the last 24 hours of Now, matched in the page by word starts, accents folded.
+- **The ticker:** the day's top Now stories under the landing page's nav, breaking first; pauses on hover or focus, still for reduced motion.
+- `/now?story=<id>` opens a story (search results, links).
+
+### Why
+
+The rule for what is news must not depend on how a feed writes its headlines. Filters and search let readers find their part of the world without changing what Earthlog ranks as news; preferences stay with the reader.
+
+### Cost
+
+Lone reports about local news, however important there, wait for a second outlet. Preferences don't follow a reader across devices.

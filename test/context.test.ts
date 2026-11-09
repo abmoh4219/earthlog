@@ -8,6 +8,7 @@ import {
   cleanLead,
   isPersonLead,
   isRegionLead,
+  isTitleCase,
   matchFilms,
   searchQueries,
   searchTerms,
@@ -223,3 +224,58 @@ describe("searching for a story's article by its names (real headlines, 8 Novemb
     );
   });
 });
+
+describe("AllAfrica's Title Case headlines and common nouns (live data, 9 November)", () => {
+  it("knows Title Case, where capitals say nothing", () => {
+    expect(isTitleCase("Uganda: Mwesige Exits Parliament After Five Years As Clerk")).toBe(true);
+    expect(isTitleCase("Lisa Nandy wary of circular arguments about rejoining EU")).toBe(false);
+  });
+
+  it("refuses everyday words, common-noun phrases, continents and peoples", () => {
+    const cases: [string, string][] = [
+      ["Clerk", "Uganda: Mwesige Exits Parliament After Five Years As Clerk"],
+      ["Street children", "Uganda: KCCA Rescues 114 Street Children in Kampala Operation"],
+      ["Police state", "Malawi: 'Malawi Is Not a Police State' - Kapito Warns Govt"],
+      ["Family", "Nigeria: Bandits Burn 11 Family Members to Death in Zamfara"],
+      ["Nigerians", "Nigeria: Doctors Raise the Alarm Over Hypertension Among Nigerians"],
+      ["Africa", "Africa: Africa CDC Welcomes the Appointment of Dr Mark Dybul"],
+      ["Christmas", "Burnham's homelessness pledge to 'get everyone in for Christmas'"],
+    ];
+    for (const [title, h] of cases) expect(acceptArticle(title, [h], placer), title).toBe(false);
+    expect(acceptNamed("Africa", { q: "Africa", kind: "label" }, 0, placer)).toBe(false);
+  });
+
+  it("refuses part of a longer name, the wrong numeral, places and dates", () => {
+    const cases: [string, string][] = [
+      ["Minutes", "Trump tells 60 Minutes that deportation policy was 'too tough'"],
+      ["Rhum", "French skipper wins Route du Rhum"],
+      ["Pope Leo X", "After a successful trip to Uruguay, Pope Leo heads to Argentina"],
+      ["Gaza", "Deadly sand cliff collapses on displaced families in Gaza"],
+      ["Tripoli, Libya", "Egyptian embassy reopens in Tripoli, Libya after 12 years"],
+      ["January 1", "Iran executes three men for 'armed unrest' after January protests"],
+      ["Latin Americans", "Pope Leo urges men to respect wives amid Latin American protests"],
+    ];
+    for (const [title, h] of cases) expect(acceptArticle(title, [h], placer), title).toBe(false);
+    expect(acceptArticle("Diwali", ["India's night lights up for Diwali"], placer)).toBe(true);
+  });
+
+  it("still accepts names and events", () => {
+    expect(
+      acceptArticle(
+        "Bola Tinubu",
+        ["Nigeria: Account for Subsidy Savings - Obi to Bola Tinubu"],
+        placer,
+      ),
+    ).toBe(true);
+    expect(
+      acceptArticle("2026 Kraków shooting", ["2026 Kraków shooting: police name gunman"], placer),
+    ).toBe(true);
+    expect(qsOf("Uganda: KCCA Rescues 114 Street Children in Kampala Operation")).not.toContain(
+      "name:KCCA Rescues",
+    );
+  });
+});
+
+function qsOf(h: string) {
+  return searchQueries([h]).map((q) => `${q.kind}:${q.q}`);
+}
