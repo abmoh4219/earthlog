@@ -3,45 +3,16 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { z } from "zod";
 import { Player } from "@/components/player/Player";
 import { NOW_DATA_BASE } from "@/config";
 import { latestNow } from "@/lib/live-now";
+import { loadRemoteFilm } from "@/lib/remote-film";
 import type { SceneBundle } from "@/player/store";
 import { type FollowTarget, followKey } from "@/scene/follow";
-import { Evidence, LayerData, Scene, Source } from "@/scene/schema";
 
 /** One film from the hourly data: the now-data branch first, else the deployed copy. */
-async function loadFilm(id: string): Promise<SceneBundle | undefined> {
-  for (const base of [`${NOW_DATA_BASE}films/${id}/`, `/now/films/${id}/`]) {
-    try {
-      const get = async (file: string) => {
-        const res = await fetch(`${base}${file}`, { cache: "no-store" });
-        if (!res.ok) throw new Error(String(res.status));
-        return (await res.json()) as unknown;
-      };
-      const [scene, evidence, sources] = await Promise.all([
-        get("scene.json"),
-        get("evidence.json"),
-        get("sources.json"),
-      ]);
-      const parsed = Scene.parse(scene);
-      // Lens films carry map and chart data files (data/<layer>.json), listed by the scene.
-      const layers = await Promise.all(
-        parsed.layers.map(async (ref) => LayerData.parse(await get(ref.file))),
-      );
-      return {
-        scene: parsed,
-        evidence: z.array(Evidence).parse(evidence),
-        sources: z.array(Source).parse(sources),
-        layers,
-      };
-    } catch {
-      // Not there (an earlier hour's film), or offline: try the next copy.
-    }
-  }
-  return undefined;
-}
+const loadFilm = (id: string) =>
+  loadRemoteFilm([`${NOW_DATA_BASE}films/${id}/`, `/now/films/${id}/`]);
 
 export function NowFilmPlayer() {
   const id = useSearchParams().get("id") ?? "";

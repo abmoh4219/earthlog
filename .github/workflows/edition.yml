@@ -128,6 +128,43 @@ jobs:
           echo "BUILT=${built# }" >> "$GITHUB_ENV"
           echo "REFRESHED=${refreshed# }" >> "$GITHUB_ENV"
 
+      # Films older than two weeks move to this year's archive repository, published by GitHub
+      # Pages (ADR-0027). The archive is pushed first; only then do the films leave this
+      # repository (each edition keeps films.json saying where they went). Without the deploy
+      # key (scripts/setup-archive.sh), nothing moves.
+      - name: Move old films to the archive
+        env:
+          ARCHIVE_DEPLOY_KEY: ${{ secrets.ARCHIVE_DEPLOY_KEY }}
+        run: |
+          set -euo pipefail
+          dates="$(node scripts/archive.ts plan)"
+          if [ -z "$dates" ]; then echo "Nothing to archive."; exit 0; fi
+          if [ -z "${ARCHIVE_DEPLOY_KEY:-}" ]; then
+            echo "::warning::films older than two weeks wait: no ARCHIVE_DEPLOY_KEY (run scripts/setup-archive.sh)"
+            exit 0
+          fi
+          year="$(date -u +%Y)"
+          repo="earthlog-archive-$year"
+          base="https://abmoh4219.github.io/$repo/"
+          key="$(mktemp)"
+          printf '%s\n' "$ARCHIVE_DEPLOY_KEY" > "$key"
+          chmod 600 "$key"
+          export GIT_SSH_COMMAND="ssh -i $key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+          dir="$(mktemp -d)"
+          git clone -q --depth=1 "git@github.com:abmoh4219/$repo.git" "$dir"
+          for d in $dates; do node scripts/archive.ts copy "$d" "$dir"; done
+          (
+            cd "$dir"
+            git config user.name "earthlog-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -q -m "data: archive $(echo $dates | tr '\n' ' ')"
+            git push -q
+          )
+          rm -f "$key"
+          for d in $dates; do node scripts/archive.ts finalize "$d" "$base"; done
+          echo "ARCHIVED=$(echo $dates | tr '\n' ' ')" >> "$GITHUB_ENV"
+
       - name: Validate every bundle
         run: pnpm validate:scenes
 
@@ -148,7 +185,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing new."
           else
-            git commit -m "data: edition ${BUILT:-refresh ${REFRESHED}}"
+            msg="data: edition ${BUILT:-refresh ${REFRESHED}}"
+            if [ -n "${ARCHIVED:-}" ]; then msg="$msg; archive ${ARCHIVED}"; fi
+            git commit -m "$msg"
             # A commit may have landed during the run: replay this data commit on top.
             git pull --rebase
             git push

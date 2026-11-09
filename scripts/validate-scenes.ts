@@ -2,6 +2,7 @@
 import { access, readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
+import { ArchiveManifest } from "../src/scene/archive.ts";
 import { Edition } from "../src/scene/edition.ts";
 import { Evidence, LayerData, Scene, SceneIndexEntry, Source } from "../src/scene/schema.ts";
 import { validateBundle } from "../src/scene/validate.ts";
@@ -73,9 +74,22 @@ for (const day of days.sort()) {
       }
       if (!edition.stories.some((s) => s.slug === slug)) errors.push(`${slug}: not in the edition`);
     }
+    // Archived films (ADR-0027) were validated before they moved; the manifest must parse and
+    // name only the edition's stories.
+    const archive = films.length
+      ? undefined
+      : ArchiveManifest.safeParse(await read(join(dir, "films.json")).catch(() => null));
+    if (archive?.success)
+      for (const slug of archive.data.films)
+        if (!edition.stories.some((s) => s.slug === slug))
+          errors.push(`films.json: ${slug} is not in the edition`);
     if (errors.length) {
       failed++;
       console.error(`✗ edition ${day}\n  ${errors.join("\n  ")}`);
+    } else if (archive?.success) {
+      console.log(
+        `✓ edition ${day}: ${edition.stories.length} stories, ${archive.data.films.length} films in the archive (${archive.data.base})`,
+      );
     } else {
       console.log(
         `✓ edition ${day}: ${edition.stories.length} stories, ${films.length} films, all cited`,

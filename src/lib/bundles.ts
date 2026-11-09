@@ -5,6 +5,7 @@ import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
 import type { SceneBundle } from "@/player/store";
+import { ArchiveManifest } from "@/scene/archive";
 import { Edition } from "@/scene/edition";
 import { NowFile } from "@/scene/headlines";
 import { LiveFile } from "@/scene/live";
@@ -59,10 +60,25 @@ export async function loadEdition(date: string): Promise<Edition> {
   return Edition.parse(await readJson(join(EDITIONS_DIR, date, "edition.json")));
 }
 
-/** Story slugs of an edition that have a film. */
-export async function listStoryFilms(date: string): Promise<string[]> {
+/** Where an edition's archived films are (ADR-0027), if they were archived. */
+export async function loadArchive(date: string): Promise<ArchiveManifest | undefined> {
+  const parsed = ArchiveManifest.safeParse(
+    await readJson(join(EDITIONS_DIR, date, "films.json")).catch(() => null),
+  );
+  return parsed.success ? parsed.data : undefined;
+}
+
+/** Films still in this repository (the last two weeks). */
+export async function listLocalFilms(date: string): Promise<string[]> {
   const dirs = await readdir(join(EDITIONS_DIR, date, "stories")).catch(() => [] as string[]);
   return dirs.sort();
+}
+
+/** Story slugs of an edition that have a film: here, or in the archive (ADR-0027). */
+export async function listStoryFilms(date: string): Promise<string[]> {
+  const local = await listLocalFilms(date);
+  if (local.length) return local;
+  return (await loadArchive(date))?.films ?? [];
 }
 
 export function loadStoryBundle(date: string, slug: string): Promise<SceneBundle> {

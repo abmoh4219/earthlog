@@ -643,3 +643,27 @@ A link that shows the story and its map gets opened; feeds and embeds let Earthl
 ### Cost
 
 Each card adds about 120 KB to the build output (about 100 cards today, growing by about 15 a day; old editions' cards go with old films when the archive moves to its own repository).
+
+## ADR-0027: Old films move to a yearly archive repository on GitHub Pages
+
+Status: accepted (9 November 2026). Supersedes the "separate data repo" option left open earlier.
+
+### Context
+
+Every story now has a film and a share card: about 2 MB of films a day, roughly 700 MB a year in the working tree and more in git history (films are re-made while an edition is fresh). A repository that size slows every clone and every Vercel build, and GitHub recommends repositories under 1 GB. jsDelivr was ruled out in the earlier research (not suited to a growing archive of many small files).
+
+### Decision
+
+- **Films older than 14 days move** (`KEEP_DAYS`, `src/scene/archive.ts`) to `abmoh4219/earthlog-archive-<year>`, a public repository published with GitHub Pages, one per year of archiving (a year of films stays under Pages' 1 GB site limit). Verified 2026-11-09: Pages answers with `access-control-allow-origin: *`, so the site fetches the files directly ([GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits): 1 GB site, 100 GB/month soft bandwidth).
+- **Each edition keeps its index files forever** (`edition.json`, `evidence.json`, `sources.json`: about 50 KB a day) and gains `films.json`, saying where its films went. Search, the week, the archive list, share cards and every story page keep working; an archived story's page is built as before (title, description, card) and its player loads the film from the archive (`ArchivedFilm`), parsed with Zod like every fetched file. Embeds likewise.
+- **The nightly workflow** moves them (`pnpm archive plan | copy | finalize`): it copies the films into a clone of this year's archive, pushes it, and only then writes `films.json` and removes the films here, in the same `data:` commit. It writes to the archive with a **deploy key** that can write to that one repository only (secret `ARCHIVE_DEPLOY_KEY`); without it nothing moves and a warning says so.
+- **Setup, once a year:** `bash scripts/setup-archive.sh [year]` creates the repository, publishes it with Pages and installs the key (the private key never leaves the script, and is deleted after it is stored as the secret).
+- Rehearsed on 2026-11-09 with the 2 November edition archived to a local Pages-like server: the edition validated, the story page and its card built, and the film played from the archive.
+
+### Why
+
+The main repository stays small and fast to build; the archive is free, static and served by GitHub's CDN; nothing about reading an old film changes for visitors.
+
+### Cost
+
+Existing git history is not rewritten (the rule is never to rewrite history), so what is already in it stays. Old films depend on GitHub Pages being up. Once a year a new archive repository and key are set up (the old ones stay as they are, read-only in practice).
