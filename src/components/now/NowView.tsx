@@ -3,10 +3,19 @@
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { z } from "zod";
 import { LitCaption } from "@/components/landing/HeroGlobe";
-import type { FrontGlobe, FrontStory } from "@/globe/front";
-import { fresherNow } from "@/lib/live-now";
+import {
+  EarthControls,
+  type Layers,
+  type Selection,
+  SelectionCard,
+} from "@/components/now/EarthPanel";
+import type { FrontGlobe, FrontStory, NaturePoint } from "@/globe/front";
+import { fresherLive, fresherNow } from "@/lib/live-now";
+import { countryAt } from "@/scene/geo";
 import type { Headline, NowFile } from "@/scene/headlines";
+import type { LiveFile } from "@/scene/live";
 import {
   ago,
   blindSpot,
@@ -18,6 +27,8 @@ import {
   windowCounts,
 } from "@/scene/now";
 import { OUTLETS, outletById } from "@/scene/outlets";
+import { countryPulse, type PulseStory, surprise } from "@/scene/pulse";
+import { Country } from "@/scene/schema";
 import { TOPIC_LABEL, type Topic } from "@/scene/topics";
 
 const WINDOW_LABEL: Record<NowWindow, string> = {
@@ -34,8 +45,34 @@ function lead(s: NowStory): Headline | undefined {
   return s.headlines.find((h) => h.title === s.cluster.title) ?? s.headlines[0];
 }
 
-export function NowView({ initial }: { initial: NowFile }) {
+/** Country outlines, loaded on the first click on the ground (150 KB, not needed before). */
+let countriesOnce: Promise<Country[]> | undefined;
+const loadCountries = () => {
+  countriesOnce ??= fetch("/geo/countries.json")
+    .then((r) => r.json())
+    .then((j) => z.array(Country).parse(j))
+    .catch(() => {
+      countriesOnce = undefined;
+      return [];
+    });
+  return countriesOnce;
+};
+
+export function NowView({
+  initial,
+  initialLive,
+  recent = [],
+}: {
+  initial: NowFile;
+  initialLive?: LiveFile | undefined;
+  recent?: PulseStory[];
+}) {
   const [file, setFile] = useState(initial);
+  const [live, setLive] = useState(initialLive);
+  const liveRef = useRef(live);
+  liveRef.current = live;
+  const [layers, setLayers] = useState<Layers>({ news: true, quakes: true, nature: true });
+  const [selection, setSelection] = useState<Selection>();
   const fileRef = useRef(file);
   fileRef.current = file;
   // The first render uses the collection time as "now", so the server and the browser agree;
@@ -56,8 +93,12 @@ export function NowView({ initial }: { initial: NowFile }) {
     const tick = setInterval(() => setNow(Date.now()), 60_000);
     // Fresh headlines while the page is open: the hourly file, read at once and every 10 min.
     const poll = async () => {
-      const next = await fresherNow(fileRef.current);
+      const [next, nextLive] = await Promise.all([
+        fresherNow(fileRef.current),
+        fresherLive(liveRef.current),
+      ]);
       if (next) setFile(next);
+      if (nextLive) setLive(nextLive);
     };
     poll();
     const every = setInterval(poll, POLL_MS);
@@ -98,10 +139,42 @@ export function NowView({ initial }: { initial: NowFile }) {
       ),
     [stories],
   );
-  const placedRef = useRef(placed);
-  placedRef.current = placed;
+  const shown = useMemo(() => (layers.news ? placed : []), [placed, layers.news]);
+  const nature = useMemo<NaturePoint[]>(
+    () => [
+      ...(layers.quakes
+        ? (live?.quakes ?? []).map((q) => ({
+            id: `q:${q.id}`,
+            kind: "quake" as const,
+            lon: q.lon,
+            lat: q.lat,
+            mag: q.mag,
+          }))
+        : []),
+      ...(layers.nature
+        ? (live?.events ?? []).map((e) => ({
+            id: `e:${e.id}`,
+            kind: e.kind,
+            lon: e.lon,
+            lat: e.lat,
+          }))
+        : []),
+    ],
+    [live, layers.quakes, layers.nature],
+  );
+  const natureRef = useRef(nature);
+  natureRef.current = nature;
+  // A country's pulse reads the whole day, whatever window the list shows.
+  const day = useMemo(() => storiesIn(file, "24h", now), [file, now]);
+  const storiesRef = useRef(day);
+  storiesRef.current = day;
+  const recentRef = useRef(recent);
+  recentRef.current = recent;
+  const placedRef = useRef(shown);
+  placedRef.current = shown;
 
   const choose = useCallback((id: string | undefined, fromGlobe = false) => {
+    setSelection(undefined);
     setOpen((cur) => (cur === id && !fromGlobe ? undefined : id));
     globe.current?.focus(id);
     if (fromGlobe && id)
@@ -112,6 +185,59 @@ export function NowView({ initial }: { initial: NowFile }) {
       );
   }, []);
 
+  // A click on the globe: an earthquake or an event opens its card; a story opens in the list.
+  const pick = useCallback(
+    (id: string) => {
+      const l = liveRef.current;
+      if (id.startsWith("q:")) {
+        const quake = l?.quakes.find((q) => `q:${q.id}` === id);
+        if (quake) {
+          setSelection({ kind: "quake", quake });
+          globe.current?.look(quake.lon, quake.lat, 8e6);
+        }
+        return;
+      }
+      if (id.startsWith("e:")) {
+        const event = l?.events.find((e) => `e:${e.id}` === id);
+        if (event) {
+          setSelection({ kind: "event", event });
+          globe.current?.look(event.lon, event.lat, 8e6);
+        }
+        return;
+      }
+      choose(id, true);
+    },
+    [choose],
+  );
+  // A click on the ground: that country's pulse.
+  const ground = useCallback(async (lon: number, lat: number) => {
+    const countries = await loadCountries();
+    const country = countryAt(lon, lat, countries);
+    if (!country) return setSelection(undefined);
+    setOpen(undefined);
+    setSelection({
+      kind: "country",
+      pulse: countryPulse(
+        country,
+        storiesRef.current,
+        liveRef.current,
+        recentRef.current,
+        countries,
+      ),
+    });
+    globe.current?.look(country.label[0], country.label[1], 6e6);
+  }, []);
+  const groundRef = useRef(ground);
+  groundRef.current = ground;
+  const filmed = useMemo(
+    () => stories.filter((s) => s.cluster.nowFilm).map((s) => ({ id: s.cluster.id, heat: s.heat })),
+    [stories],
+  );
+  const onSurprise = useCallback(() => {
+    const next = surprise(filmed, Math.random(), open);
+    if (next) choose(next.id, true);
+  }, [filmed, open, choose]);
+
   // The globe is built once; story changes go through update().
   useEffect(() => {
     const el = globeEl.current;
@@ -121,10 +247,11 @@ export function NowView({ initial }: { initial: NowFile }) {
     let made: FrontGlobe | undefined;
     import("@/globe/front")
       .then(({ createFrontGlobe }) =>
-        createFrontGlobe(el, cr, placedRef.current, (id) => choose(id, true), {
+        createFrontGlobe(el, cr, placedRef.current, (id) => pick(id), {
           zoom: true,
           night: true,
           face: "stories",
+          onGround: (lon, lat) => groundRef.current(lon, lat),
         }),
       )
       .then((g) => {
@@ -133,6 +260,7 @@ export function NowView({ initial }: { initial: NowFile }) {
           made = g;
           globe.current = g;
           g.update(placedRef.current);
+          g.setNature(natureRef.current);
         }
       })
       .catch(() => {});
@@ -141,10 +269,13 @@ export function NowView({ initial }: { initial: NowFile }) {
       made?.destroy();
       globe.current = undefined;
     };
-  }, [choose]);
+  }, [pick]);
   useEffect(() => {
-    globe.current?.update(placed);
-  }, [placed]);
+    globe.current?.update(shown);
+  }, [shown]);
+  useEffect(() => {
+    globe.current?.setNature(nature);
+  }, [nature]);
 
   return (
     <main className="grid min-h-0 flex-1 grid-rows-[40vh_1fr] lg:grid-cols-[minmax(380px,460px)_1fr] lg:grid-rows-1">
@@ -345,6 +476,25 @@ export function NowView({ initial }: { initial: NowFile }) {
       <div className="relative order-1 min-h-0 lg:order-2">
         <div ref={globeEl} className="earthlog-globe absolute inset-0" />
         <div ref={credits} className="hidden" aria-hidden />
+        <EarthControls
+          live={live}
+          layers={layers}
+          setLayers={setLayers}
+          onSurprise={onSurprise}
+          canSurprise={filmed.length > 1}
+        />
+        {selection ? (
+          <SelectionCard
+            selection={selection}
+            now={now}
+            onClose={() => setSelection(undefined)}
+            onStory={(id) => choose(id, true)}
+          />
+        ) : (
+          <p className="pointer-events-none absolute bottom-3 left-4 hidden font-mono text-[11px] text-dust/45 sm:block">
+            Click a country for its pulse
+          </p>
+        )}
         <LitCaption className="pointer-events-none absolute right-4 bottom-3 hidden text-right sm:block" />
       </div>
     </main>

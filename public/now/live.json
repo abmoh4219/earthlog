@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-09T05:12:49Z",
+  "quakes": [
+    {
+      "id": "us7000tx16",
+      "t": "2026-11-09T03:34:59Z",
+      "mag": 6.4,
+      "place": "30 km WSW of Lata, Solomon Islands",
+      "lon": 165.5616,
+      "lat": -10.8669,
+      "depthKm": 17,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16"
+    },
+    {
+      "id": "us7000tx1f",
+      "t": "2026-11-09T04:52:51Z",
+      "mag": 5.7,
+      "place": "106 km ENE of Hasaki, Japan",
+      "lon": 141.8299,
+      "lat": 36.2471,
+      "depthKm": 24.173,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f"
+    },
+    {
+      "id": "us7000tx0f",
+      "t": "2026-11-09T00:46:59Z",
+      "mag": 5.1,
+      "place": "south of the Fiji Islands",
+      "lon": 179.2119,
+      "lat": -23.6774,
+      "depthKm": 535.494,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0f"
+    },
+    {
+      "id": "us7000tx0x",
+      "t": "2026-11-09T02:21:57Z",
+      "mag": 4.9,
+      "place": "south of the Fiji Islands",
+      "lon": -176.9956,
+      "lat": -25.1858,
+      "depthKm": 136.311,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0x"
+    },
+    {
+      "id": "us7000twyc",
+      "t": "2026-11-08T16:33:24Z",
+      "mag": 4.8,
+      "place": "central Mid-Atlantic Ridge",
+      "lon": -36.9451,
+      "lat": 7.703,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc"
+    },
+    {
+      "id": "us7000twzn",
+      "t": "2026-11-08T22:30:10Z",
+      "mag": 4.7,
+      "place": "119 km SW of Kokopo, Papua New Guinea",
+      "lon": 151.4884,
+      "lat": -5.0941,
+      "depthKm": 120.843,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twzn"
+    },
+    {
+      "id": "us7000twxn",
+      "t": "2026-11-08T12:29:17Z",
+      "mag": 4.7,
+      "place": "Southwest Indian Ridge",
+      "lon": 64.443,
+      "lat": -27.6901,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn"
+    },
+    {
+      "id": "us7000twxf",
+      "t": "2026-11-08T11:58:32Z",
+      "mag": 4.7,
+      "place": "46 km NW of Huara, Chile",
+      "lon": -70.0603,
+      "lat": -19.6811,
+      "depthKm": 68.785,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxf"
+    },
+    {
+      "id": "us7000twx1",
+      "t": "2026-11-08T09:23:35Z",
+      "mag": 4.7,
+      "place": "137 km E of Miyako, Japan",
+      "lon": 143.5257,
+      "lat": 39.8647,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx1"
+    },
+    {
+      "id": "us7000twyd",
+      "t": "2026-11-08T16:45:12Z",
+      "mag": 4.6,
+      "place": "117 km NE of Tobelo, Indonesia",
+      "lon": 128.6755,
+      "lat": 2.5497,
+      "depthKm": 224.59,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd"
+    },
+    {
+      "id": "us7000twz2",
+      "t": "2026-11-08T20:16:30Z",
+      "mag": 4.5,
+      "place": "43 km E of Onagawa Chō, Japan",
+      "lon": 141.937,
+      "lat": 38.3782,
+      "depthKm": 55.699,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twz2"
+    }
+  ],
+  "events": [
+    {
+      "id": "EONET_26057",
+      "kind": "wildfire",
+      "title": "Wildfire Wild River, Coos, New Hampshire",
+      "t": "2026-11-02T07:58:00Z",
+      "lon": -71.031283,
+      "lat": 44.330583,
+      "size": "982 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26057"
+    },
+    {
+      "id": "EONET_25984",
+      "kind": "wildfire",
+      "title": "Prescribed Fire Dry Lake Hills Piles RX, Coconino, Arizona",
+      "t": "2026-10-30T10:13:00Z",
+      "lon": -111.616667,
+      "lat": 35.266667,
+      "size": "902 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25984"
+    },
+    {
+      "id": "EONET_25728",
+      "kind": "storm",
+      "title": "Super Typhoon In-fa",
+      "t": "2026-11-05T06:00:00Z",
+      "lon": 141.5,
+      "lat": 29.4,
+      "size": "60 kts",
+      "agency": "JTWC",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728"
+    }
+  ],
+  "sources": [
+    {
+      "id": "usgs",
+      "name": "USGS Earthquake Hazards Program",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/",
+      "license": "Public domain (U.S. Government work)",
+      "ok": true
+    },
+    {
+      "id": "eonet",
+      "name": "NASA EONET",
+      "url": "https://eonet.gsfc.nasa.gov/",
+      "license": "NASA data, no copyright restrictions; credited with the reporting agency",
+      "ok": true
+    }
+  ]
+}

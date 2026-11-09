@@ -529,3 +529,28 @@ The news decides what is news, as in a newsroom: several independent desks cover
 ### Cost
 
 Editions built before the most-read list arrive have no readers line and lean to hard news until the rebuild. Stories found by the outlets depend on the eight feeds; a story only one outlet told never joins an edition on its own. The magnitude count reads headlines, so it is labelled "per the headlines".
+
+## ADR-0022: A living globe on Now
+
+Status: accepted (9 November 2026)
+
+### Context
+
+Phase 4 asks for a globe that feels alive: the news, and the planet itself, with something to click. Earthlog is static (no backend, nothing called at runtime but files), and every point it shows must say where it comes from.
+
+### Decision
+
+- **The living Earth is collected with the headlines, every hour** (`scripts/live.ts`, run by the news workflow): earthquakes of magnitude 4.5 and up in the last 24 hours plus the week's significant ones (USGS summary feeds), and open storms, wildfires and volcanoes (NASA EONET), each at its latest fix. Written to `live.json` beside `now.json` and published with it to the `now-data` branch (ADR-0018); the browser reads it from there, or from the copy in the deploy. No new runtime dependency: visitors still only download files.
+- **Layers on the Now globe:** News (amber), Earthquakes (coral rings sized by magnitude), Storms and fires (small points). Each layer can be switched off.
+- **What a click shows:** an earthquake's card says only what USGS measured (magnitude, depth, time, its place name, a link to the event page); an event's card says its last reported position date, the size the agency gives and the agency; a story opens in the list.
+- **A country's pulse:** a click on the ground opens the country under it: the last 24 hours of news placed there, its earthquakes (inside the outline, or offshore and named so by USGS), its open natural events, and Earthlog's films from it in the last week. A quiet country says it is quiet.
+- **Surprise me** flies to a story with a film this hour, hotter stories more often, never the same one twice in a row.
+- The globe keeps turning slowly while untouched (existing), and stops on whatever was chosen.
+
+### Why
+
+Static and hourly keeps the promise (free, no backend, nothing to break at runtime) and is as fresh as the news beside it. Collecting at build time also lets the data be parsed and checked once, with Zod, instead of in every visitor's browser.
+
+### Cost
+
+The earthquakes are up to an hour old. EONET's open events are few, and storm fixes can lag by days; the cards date every position.

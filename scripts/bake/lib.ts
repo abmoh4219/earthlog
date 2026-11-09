@@ -33,6 +33,11 @@ export function maxAgeMs(url: string, now = Date.now()): number {
   // files carry a version in their URL and never change.
   if (u.hostname === "earthquake.usgs.gov" && u.pathname.startsWith("/fdsnws/")) return 6 * HOUR;
   if (u.hostname === "api.worldbank.org") return 30 * 24 * HOUR;
+  // The live feeds (scripts/live.ts) change by the minute: read fresh on every hourly run.
+  if (u.hostname === "earthquake.usgs.gov" && u.pathname.startsWith("/earthquakes/feed/"))
+    return 0.25 * HOUR;
+  if (u.hostname === "eonet.gsfc.nasa.gov" && u.searchParams.get("status") === "open")
+    return 0.25 * HOUR;
   const days = /\/daily\/\d{8,10}\/(\d{4})(\d{2})(\d{2})/.exec(u.pathname);
   if (u.hostname === "wikimedia.org" && days) {
     const end = Date.UTC(Number(days[1]), Number(days[2]) - 1, Number(days[3]));

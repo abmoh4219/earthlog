@@ -17,9 +17,32 @@ export interface FrontStory {
   lat: number;
 }
 
+/** A thing on the living Earth (ADR-0022): an earthquake or an open natural event. */
+export interface NaturePoint {
+  /** "q:<usgs id>" or "e:<eonet id>": what a click reports. */
+  id: string;
+  kind: "quake" | "storm" | "wildfire" | "volcano";
+  lon: number;
+  lat: number;
+  /** Earthquakes: magnitude (sizes the ring). */
+  mag?: number;
+}
+
+/** Colours of the living Earth, apart from the news amber (legend in the Now view). */
+export const NATURE_COLOR: Record<NaturePoint["kind"], string> = {
+  quake: "#ff7a6b",
+  storm: "#8fd3ff",
+  wildfire: "#ff9d45",
+  volcano: "#e46cff",
+};
+
 export interface FrontGlobe {
   /** Fly to a story (or back to the whole edition with undefined). */
   focus: (slug: string | undefined) => void;
+  /** Fly to a place (a country, an earthquake) and stop the idle spin there. */
+  look: (lon: number, lat: number, range?: number) => void;
+  /** The living Earth's points; `show` hides or shows them all. */
+  setNature: (points: NaturePoint[]) => void;
   /** Replace the stories shown (the Now page refreshes while open). */
   update: (stories: FrontStory[]) => void;
   destroy: () => void;
@@ -33,7 +56,7 @@ export async function createFrontGlobe(
   container: HTMLElement,
   creditContainer: HTMLElement,
   stories: FrontStory[],
-  onPick: (slug: string) => void,
+  onPick: (id: string) => void,
   /**
    * zoom: wheel zooms the globe (off in a scrolling page, where the wheel must scroll).
    * hero: a floating globe for a page (no stars, closer, no names).
@@ -41,7 +64,14 @@ export async function createFrontGlobe(
    * sized by heat. face: where the camera settles: the dawn line (default at night) or the
    * stories' centre.
    */
-  options: { zoom?: boolean; hero?: boolean; night?: boolean; face?: "dawn" | "stories" } = {},
+  options: {
+    zoom?: boolean;
+    hero?: boolean;
+    night?: boolean;
+    face?: "dawn" | "stories";
+    /** A click on the ground (no point under it): where, to find the country. */
+    onGround?: (lon: number, lat: number) => void;
+  } = {},
 ): Promise<FrontGlobe> {
   window.CESIUM_BASE_URL = "/cesium/";
   const C = await import("cesium");
@@ -163,6 +193,26 @@ export async function createFrontGlobe(
   };
   build(stories);
 
+  // The living Earth: earthquakes as rings sized by magnitude, events as small points. Drawn
+  // under the news points (added first would not help: a separate collection, smaller sizes).
+  const nature = s.primitives.add(new C.PointPrimitiveCollection());
+  const setNature = (list: NaturePoint[]) => {
+    nature.removeAll();
+    for (const p of list) {
+      const color = C.Color.fromCssColorString(NATURE_COLOR[p.kind]);
+      const quake = p.kind === "quake";
+      nature.add({
+        id: p.id,
+        position: C.Cartesian3.fromDegrees(p.lon, p.lat, 4_000),
+        // M4.5 → 7 px, M7 → 19 px: a ring (dim fill, bright edge) so news points stay legible.
+        pixelSize: quake ? 7 + Math.max(0, (p.mag ?? 4.5) - 4.5) * 4.8 : 7,
+        color: quake ? color.withAlpha(0.25) : color,
+        outlineColor: quake ? color : C.Color.BLACK.withAlpha(0.7),
+        outlineWidth: quake ? 2 : 1.5,
+      });
+    }
+  };
+
   // The intro: from deep space down onto the edition's centre of gravity.
   let x = 0;
   let y = 0;
@@ -212,7 +262,13 @@ export async function createFrontGlobe(
     }, type);
   handler.setInputAction((e: { position: CesiumNS.Cartesian2 }) => {
     const hit = s.pick(e.position) as { id?: unknown } | undefined;
-    if (typeof hit?.id === "string") onPick(hit.id);
+    if (typeof hit?.id === "string") return onPick(hit.id);
+    // Nothing under the pointer: the ground there (the country is found by the caller).
+    const ground = s.camera.pickEllipsoid(e.position, s.globe.ellipsoid);
+    if (ground && options.onGround) {
+      const c = C.Cartographic.fromCartesian(ground);
+      options.onGround(c.longitude / DEG, c.latitude / DEG);
+    }
   }, C.ScreenSpaceEventType.LEFT_CLICK);
   handler.setInputAction((e: { endPosition: CesiumNS.Cartesian2 }) => {
     const hit = s.pick(e.endPosition) as { id?: unknown } | undefined;
@@ -235,6 +291,17 @@ export async function createFrontGlobe(
   });
 
   return {
+    setNature,
+    look: (lon, lat, range = 5.5e6) => {
+      focused = "__place";
+      for (const k of marks) k.label.show = false;
+      s.camera.flyTo({
+        destination: C.Cartesian3.fromDegrees(lon, lat, range),
+        orientation: { heading: 0, pitch: -90 * DEG, roll: 0 },
+        duration: reduce ? 0 : 2,
+        easingFunction: C.EasingFunction.QUADRATIC_IN_OUT,
+      });
+    },
     focus: (slug) => {
       focused = slug;
       const m = marks.find((k) => k.st.slug === slug);

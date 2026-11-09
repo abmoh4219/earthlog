@@ -51,13 +51,17 @@ jobs:
       - name: Read the feeds
         run: pnpm news
 
+      # Earthquakes and open natural events beside the news (ADR-0022). Never blocks the news.
+      - name: Read the living Earth
+        run: pnpm live || echo "::warning::earthquakes and natural events not collected this hour"
+
       - name: Publish to the now-data branch
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           dir="$(mktemp -d)"
-          # now.json and this hour's films (films/<story>/scene.json, evidence.json, sources.json).
+          # now.json, live.json and this hour's films (films/<story>/scene.json, evidence.json, sources.json).
           cp -r public/now/. "$dir/"
           printf '{\n  "git": { "deploymentEnabled": false }\n}\n' > "$dir/vercel.json"
           cd "$dir"

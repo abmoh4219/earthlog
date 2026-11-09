@@ -7,6 +7,7 @@ import { z } from "zod";
 import type { SceneBundle } from "@/player/store";
 import { Edition } from "@/scene/edition";
 import { NowFile } from "@/scene/headlines";
+import { LiveFile } from "@/scene/live";
 import { Evidence, LayerData, Scene, SceneIndexEntry, Source } from "@/scene/schema";
 
 const PUBLIC = join(process.cwd(), "public");
@@ -74,4 +75,38 @@ export async function loadNow(): Promise<NowFile | undefined> {
     await readJson(join(PUBLIC, "now", "now.json")).catch(() => null),
   );
   return parsed.success ? parsed.data : undefined;
+}
+
+/** The living Earth collected with the headlines (pnpm live, ADR-0022), if collected. */
+export async function loadLive(): Promise<LiveFile | undefined> {
+  const parsed = LiveFile.safeParse(
+    await readJson(join(PUBLIC, "now", "live.json")).catch(() => null),
+  );
+  return parsed.success ? parsed.data : undefined;
+}
+
+/** A story of a recent edition, for a country's pulse: where it was and where its film is. */
+export interface RecentStory {
+  date: string;
+  slug: string;
+  title: string;
+  country?: string;
+}
+
+/** The filmed stories of the last `days` editions, newest first. */
+export async function loadRecentStories(days = 7): Promise<RecentStory[]> {
+  const out: RecentStory[] = [];
+  for (const date of (await listEditions()).slice(0, days)) {
+    const films = new Set(await listStoryFilms(date));
+    const e = await loadEdition(date).catch(() => undefined);
+    for (const s of e?.stories ?? [])
+      if (films.has(s.slug))
+        out.push({
+          date,
+          slug: s.slug,
+          title: s.title,
+          ...(s.place?.country ? { country: s.place.country } : {}),
+        });
+  }
+  return out;
 }

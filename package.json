@@ -25,7 +25,8 @@
     "edition": "node scripts/edition.ts",
     "stories": "node scripts/stories.ts",
     "direct": "node scripts/direct.ts",
-    "news": "node scripts/news.ts"
+    "news": "node scripts/news.ts",
+    "live": "node scripts/live.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.4.0",

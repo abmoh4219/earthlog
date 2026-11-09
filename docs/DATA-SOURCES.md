@@ -68,6 +68,13 @@ Not usable: Reuters (feeds closed in 2020), AP (no public feed, 403), CNN (feed 
 | Cities (3,089 with 100k+ people or a capital) | Natural Earth 10m populated places v5.1.2 | Public domain |
 | Regions (130: Gaza Strip, Darfur, US states…) | Wikipedia article coordinates (`prop=coordinates`) | Facts |
 
+## The living Earth on Now (verified 2026-11-09, ADR-0022)
+
+Collected every hour with the headlines (`scripts/live.ts` → `live.json` on the `now-data` branch):
+
+- **USGS summary feeds** `earthquakes/feed/v1.0/summary/4.5_day.geojson` and `significant_week.geojson`: GeoJSON features with `properties {mag, place, time (ms), url}` and `coordinates [lon, lat, depthKm]`. Public domain (U.S. Government work); credit USGS. Shown as measured: magnitude, depth, time, USGS's own place name.
+- **NASA EONET v3** `api/v3/events?status=open&days=10`: open events with `categories[{id}]`, `sources[{id}]` (the reporting agency: JTWC for storms, IRWIN for US wildfires) and point fixes with `magnitudeValue`/`magnitudeUnit` ("kts", "acres"). Only severe storms, wildfires and volcanoes are kept, each at its latest fix, dated: an open event's last fix can be days old, and the card says when it was. NASA data, no copyright; credited with the agency.
+
 ## Gotchas found
 
 - **Times:** IODA uses Unix seconds, and USGS uses epoch milliseconds or ISO. Everything is normalised to ISO UTC at bake time.
