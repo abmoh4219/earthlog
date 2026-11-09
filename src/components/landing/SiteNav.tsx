@@ -1,3 +1,4 @@
+import { Bookmark } from "lucide-react";
 import Link from "next/link";
 import { SearchButton } from "@/components/Search";
 import { REPO_URL } from "@/config";
@@ -6,6 +7,7 @@ import { LogoMark } from "./LogoMark";
 
 const LINKS = [
   { href: "/now", label: "Now" },
+  { href: "/play", label: "Play" },
   { href: "/#archive", label: "Archive" },
   { href: "/#lenses", label: "Lenses" },
   { href: "/#how", label: "How it works" },
@@ -35,12 +37,19 @@ export function SiteNav() {
         </ul>
         <div className="ml-auto flex items-center gap-2">
           <SearchButton />
+          <Link
+            href="/yours"
+            aria-label="Yours: what you follow, your game, your history"
+            className="grid size-9 place-items-center rounded-full text-dust/70 transition-colors hover:bg-moon/6 hover:text-moon"
+          >
+            <Bookmark size={17} aria-hidden />
+          </Link>
           <a
             href={REPO_URL}
             target="_blank"
             rel="noreferrer"
             aria-label="Earthlog's source on GitHub"
-            className="grid size-9 place-items-center rounded-full text-dust/70 transition-colors hover:bg-moon/6 hover:text-moon"
+            className="hidden size-9 place-items-center rounded-full text-dust/70 transition-colors hover:bg-moon/6 hover:text-moon sm:grid"
           >
             <GithubMark size={17} />
           </a>

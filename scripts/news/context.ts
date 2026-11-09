@@ -38,6 +38,13 @@ export function searchTerms(titles: string[]): string {
     .join(" ");
 }
 
+// Peoples ("Nigerians", "Israelis"): DEMONYMS keys are capitalised; folded once here.
+const PEOPLES = new Set(Object.keys(DEMONYMS).map((d) => fold(d)));
+const isPeople = (title: string) => {
+  const f = fold(title);
+  return PEOPLES.has(f) || PEOPLES.has(f.replace(/s$/, "")) || PEOPLES.has(f.replace(/es$/, ""));
+};
+
 // Continents and world regions: places, never a story's background.
 const REGIONS = new Set(
   [
@@ -187,7 +194,7 @@ export function acceptNamed(title: string, query: Query, rank: number, placer: P
   const bare = title.replace(/\s*\([^)]*\)\s*$/, "");
   const place = placer.mentions(bare)[0];
   if (place && fold(place.name) === fold(bare)) return false;
-  if (REGIONS.has(fold(bare)) || DEMONYMS[fold(bare)]) return false;
+  if (REGIONS.has(fold(bare)) || isPeople(bare)) return false;
   if (query.kind === "cop") return fold(title) === fold(query.q);
   const words = bare.split(/\s+/);
   if ((query.kind === "name" || query.kind === "first") && !query.q.includes(" "))
@@ -233,7 +240,7 @@ export function acceptArticle(
   // Dates in a headline ("…in for Christmas", "on Monday") are when, not what.
   if (CALENDAR.test(bare)) return false;
   // A people ("Nigerians") is not a story's subject.
-  if (DEMONYMS[fold(bare).replace(/s$/, "")] || DEMONYMS[fold(bare)]) return false;
+  if (isPeople(bare)) return false;
   // A common-noun phrase ("Street children", "Police state", "Climate change"): Wikipedia
   // capitalises only its first word. A subject has a name in it, a year, or a dated aside.
   const rest = bare.split(/\s+/).slice(1);

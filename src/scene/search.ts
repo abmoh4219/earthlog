@@ -12,6 +12,10 @@ export interface SearchItem {
   date: string;
   /** Words to match besides the title: lens, topic, place, region, article. */
   keys: string;
+  /** What it is about, for following (src/scene/follow.ts). */
+  key?: string;
+  /** Earlier films of the same story this one updates (an edition's "Update, day n"). */
+  prev?: string[];
 }
 
 const fold = (s: string) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();

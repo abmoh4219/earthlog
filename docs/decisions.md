@@ -580,3 +580,27 @@ The rule for what is news must not depend on how a feed writes its headlines. Fi
 ### Cost
 
 Lone reports about local news, however important there, wait for a second outlet. Preferences don't follow a reader across devices.
+
+## ADR-0024: Reasons to come back: the daily game, following stories, history
+
+Status: accepted (9 November 2026)
+
+### Context
+
+Phase 5: give readers reasons to return every morning, with no accounts and no backend.
+
+### Decision
+
+- **"Where was it?"** (`/play`, `src/scene/game.ts`): up to five placed stories of the latest edition, built at build time. The clue is the story's first sentence with every place hidden (the gazetteer's cities, regions, countries and demonyms, plus the story's own place name, accents folded); outlets' names are kept ("France 24" is not France). A whole country is never an answer (too vague to score), and at most two rounds come from one country. The reader clicks the globe (with country borders) and confirms; the score is 1,000 within 50 km, falling with great-circle distance (about 500 at 1,400 km). The answer, the distance and the film follow each guess. A streak counts consecutive editions played; a result can be copied as squares, without the answers.
+- **Follow a story:** from its film or from Now. A story is followed by its subject, the Wikipedia article it is about (`a:<title>`), so a later edition story or a Now story about the same article is an update; an edition's own "Update, day n" link back to a followed film counts too.
+- **History:** the films a reader watched, last 40.
+- **"Yours"** (`/yours`): following with updates, the game's streak and best, For you, recently watched.
+- All of it lives in the reader's browser (localStorage), parsed with Zod when read; nothing is sent and there is no account.
+
+### Why
+
+A daily ritual built from the edition itself teaches where the news happened; following turns a single film into a thread. Keeping everything in the browser keeps the promise of no accounts, no tracking, no backend.
+
+### Cost
+
+Streaks and follows don't move between devices, and clearing the browser clears them. A story without an article is followed only through the edition's own update links.

@@ -6,11 +6,8 @@
 import { Search as SearchIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { latestNow } from "@/lib/live-now";
-import { ago, storiesIn } from "@/scene/now";
-import { outletById } from "@/scene/outlets";
+import { loadItems } from "@/lib/items";
 import { type SearchItem, search } from "@/scene/search";
-import { TOPIC_LABEL } from "@/scene/topics";
 
 export const OPEN_SEARCH = "earthlog:search";
 
@@ -19,34 +16,6 @@ const KIND_LABEL: Record<SearchItem["kind"], string> = {
   story: "Edition",
   classic: "Classic",
 };
-
-async function loadItems(): Promise<SearchItem[]> {
-  const [index, now] = await Promise.all([
-    fetch("/search.json")
-      .then((r) => (r.ok ? (r.json() as Promise<SearchItem[]>) : []))
-      .catch(() => [] as SearchItem[]),
-    latestNow(),
-  ]);
-  const t = Date.now();
-  const live: SearchItem[] = now
-    ? storiesIn(now, "24h", t).map((s) => ({
-        kind: "now" as const,
-        title: s.cluster.title,
-        detail: `Now · ${ago(s.headlines[0]?.t ?? now.generatedAt, t)}${s.cluster.place ? ` · ${s.cluster.place.name}` : ""}`,
-        href: `/now?story=${s.cluster.id}`,
-        date: s.cluster.last,
-        keys: [
-          TOPIC_LABEL[s.cluster.topic],
-          s.cluster.region,
-          s.cluster.context?.title,
-          ...s.outlets.map((o) => outletById(o)?.name),
-        ]
-          .filter(Boolean)
-          .join(" "),
-      }))
-    : [];
-  return [...live, ...index];
-}
 
 export function SearchDialog() {
   const router = useRouter();

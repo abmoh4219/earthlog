@@ -41,6 +41,11 @@ interface Entry {
 export interface Placer {
   /** Every place named in one headline (a name may appear once per headline). */
   mentions: (title: string) => Entry[];
+  /**
+   * The text with every place it names hidden ("A train derails near ▢▢▢, ▢▢▢, killing…"):
+   * cities, regions, countries and demonyms, punctuation kept. For the daily game.
+   */
+  mask: (text: string, hidden?: string) => string;
   /** The place of a story told by these headlines, or undefined if none names one. */
   place: (titles: string[]) => ClusterPlace | undefined;
 }
@@ -109,7 +114,7 @@ export function makePlacer(gaz: Gazetteer, countries: Country[]): Placer {
     w
       .replace(/^[("'‘“[]+/, "")
       .replace(/['’]s$/, "")
-      .replace(/[,:;!?"'’”)\]]+$/, "");
+      .replace(/[,:;!?"'’”)\]…]+$/, "");
 
   const mentions = (title: string): Entry[] => {
     const out: Entry[] = [];
@@ -133,6 +138,32 @@ export function makePlacer(gaz: Gazetteer, countries: Country[]): Placer {
       i += step;
     }
     return out;
+  };
+
+  const mask = (text: string, hidden = "▢▢▢"): string => {
+    const raw = text.split(/\s+/);
+    const ws = raw.map(clean);
+    const out: string[] = [];
+    for (let i = 0; i < ws.length; ) {
+      let step = 1;
+      let hit = false;
+      for (let n = Math.min(maxWords, ws.length - i); n >= 1; n--) {
+        const phrase = ws.slice(i, i + n).join(" ");
+        if (byName.get(phrase) ?? byName.get(phrase.replace(/\.$/, ""))) {
+          const first = raw[i] ?? "";
+          const last = raw[i + n - 1] ?? "";
+          const lead = /^[("'‘“[]+/.exec(first)?.[0] ?? "";
+          const tail = /(['’]s)?[,.:;!?"'’”)\]…]*$/.exec(last)?.[0] ?? "";
+          out.push(`${lead}${hidden}${tail}`);
+          step = n;
+          hit = true;
+          break;
+        }
+      }
+      if (!hit) out.push(raw[i] ?? "");
+      i += step;
+    }
+    return out.join(" ");
   };
 
   const place = (titles: string[]): ClusterPlace | undefined => {
@@ -187,5 +218,5 @@ export function makePlacer(gaz: Gazetteer, countries: Country[]): Placer {
     return undefined;
   };
 
-  return { mentions, place };
+  return { mentions, mask, place };
 }

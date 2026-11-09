@@ -36,6 +36,13 @@ export const NATURE_COLOR: Record<NaturePoint["kind"], string> = {
   volcano: "#e46cff",
 };
 
+export interface GameMark {
+  lon: number;
+  lat: number;
+  color: string;
+  label?: string;
+}
+
 export interface FrontGlobe {
   /** Fly to a story (or back to the whole edition with undefined). */
   focus: (slug: string | undefined) => void;
@@ -43,6 +50,8 @@ export interface FrontGlobe {
   look: (lon: number, lat: number, range?: number) => void;
   /** The living Earth's points; `show` hides or shows them all. */
   setNature: (points: NaturePoint[]) => void;
+  /** Markers of the game (a guess, an answer) and the line between them; [] clears. */
+  setMarks: (marks: GameMark[], line?: [GameMark, GameMark]) => void;
   /** Replace the stories shown (the Now page refreshes while open). */
   update: (stories: FrontStory[]) => void;
   destroy: () => void;
@@ -71,6 +80,10 @@ export async function createFrontGlobe(
     face?: "dawn" | "stories";
     /** A click on the ground (no point under it): where, to find the country. */
     onGround?: (lon: number, lat: number) => void;
+    /** Country borders, for finding places by eye (the game). */
+    borders?: boolean;
+    /** The slow idle turn (default on; off where the reader aims, as in the game). */
+    spin?: boolean;
   } = {},
 ): Promise<FrontGlobe> {
   window.CESIUM_BASE_URL = "/cesium/";
@@ -239,7 +252,10 @@ export async function createFrontGlobe(
     home.lat = 18;
   }
   // How far the camera settles: closer for a page's hero and for the Now panel.
-  const homeRange = options.hero ? 1.15e7 : options.night ? 1.6e7 : 2.3e7;
+  // In a tall, narrow frame (a phone held upright) the view is narrow across: come closer so
+  // the planet still fills it.
+  const portrait = container.clientWidth < container.clientHeight * 0.9;
+  const homeRange = (options.hero ? 1.15e7 : options.night ? 1.6e7 : 2.3e7) * (portrait ? 0.7 : 1);
   s.camera.setView({ destination: C.Cartesian3.fromDegrees(home.lon + 70, home.lat, 9e7) });
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   s.camera.flyTo({
@@ -278,7 +294,7 @@ export async function createFrontGlobe(
   const remove = s.preRender.addEventListener(() => {
     const now = performance.now();
     // The night hero turns three times slower, so the dawn line stays in view for minutes.
-    if (!reduce && !focused && now - touchedAt > 8000)
+    if (options.spin !== false && !reduce && !focused && now - touchedAt > 8000)
       s.camera.rotate(C.Cartesian3.UNIT_Z, options.night ? 0.00015 : 0.00045);
     for (const m of marks) {
       const on = focused === m.st.slug;
@@ -290,8 +306,92 @@ export async function createFrontGlobe(
     }
   });
 
+  // Borders: Natural Earth outlines (public/geo/countries.json), faint, read once.
+  if (options.borders) {
+    const outlines = s.primitives.add(new C.PolylineCollection());
+    fetch("/geo/countries.json")
+      .then((r) => r.json())
+      .then((list: unknown) => {
+        if (!Array.isArray(list)) return;
+        const material = C.Material.fromType("Color", {
+          color: C.Color.WHITE.withAlpha(0.32),
+        });
+        for (const c of list) {
+          const rings = (c as { rings?: unknown }).rings;
+          if (!Array.isArray(rings)) continue;
+          for (const ring of rings) {
+            // A ring is a flat list: lon, lat, lon, lat… (scripts/bake/countries.ts). Drawn a
+            // little above the ground, so the globe's surface never hides the line.
+            if (!Array.isArray(ring) || ring.length < 4) continue;
+            const flat: number[] = [];
+            for (let k = 0; k + 1 < ring.length; k += 2) {
+              const lon = ring[k];
+              const lat = ring[k + 1];
+              if (typeof lon === "number" && typeof lat === "number") flat.push(lon, lat, 3_000);
+            }
+            if (flat.length >= 6)
+              outlines.add({
+                positions: C.Cartesian3.fromDegreesArrayHeights(flat),
+                width: 1,
+                material,
+              });
+          }
+        }
+      })
+      .catch(() => {});
+  }
+
+  // The game's markers: a guess, an answer, the arc between them.
+  const marksLayer = s.primitives.add(new C.PointPrimitiveCollection());
+  const marksLabels = s.primitives.add(new C.LabelCollection());
+  const marksLines = s.primitives.add(new C.PolylineCollection());
+  const setMarks = (list: GameMark[], line?: [GameMark, GameMark]) => {
+    marksLayer.removeAll();
+    marksLabels.removeAll();
+    marksLines.removeAll();
+    for (const m of list) {
+      marksLayer.add({
+        position: C.Cartesian3.fromDegrees(m.lon, m.lat, 10_000),
+        pixelSize: 12,
+        color: C.Color.fromCssColorString(m.color),
+        outlineColor: C.Color.BLACK.withAlpha(0.8),
+        outlineWidth: 2,
+      });
+      if (m.label)
+        marksLabels.add({
+          position: C.Cartesian3.fromDegrees(m.lon, m.lat, 60_000),
+          text: m.label,
+          font: "500 13px Geist, system-ui, sans-serif",
+          fillColor: C.Color.WHITE,
+          outlineColor: C.Color.BLACK.withAlpha(0.9),
+          outlineWidth: 3,
+          style: C.LabelStyle.FILL_AND_OUTLINE,
+          verticalOrigin: C.VerticalOrigin.BOTTOM,
+        });
+    }
+    if (line) {
+      // The great circle between guess and answer, sampled so it follows the globe.
+      const [a, b] = line;
+      const geo = new C.EllipsoidGeodesic(
+        C.Cartographic.fromDegrees(a.lon, a.lat),
+        C.Cartographic.fromDegrees(b.lon, b.lat),
+      );
+      const pts: CesiumNS.Cartesian3[] = [];
+      for (let i = 0; i <= 64; i++) {
+        const c = geo.interpolateUsingFraction(i / 64);
+        pts.push(C.Cartesian3.fromRadians(c.longitude, c.latitude, 20_000));
+      }
+      marksLines.add({
+        positions: pts,
+        width: 2,
+        material: C.Material.fromType("Color", { color: C.Color.WHITE.withAlpha(0.85) }),
+      });
+    }
+  };
+
   return {
     setNature,
+    setMarks,
     look: (lon, lat, range = 5.5e6) => {
       focused = "__place";
       for (const k of marks) k.label.show = false;

@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { z } from "zod";
+import { FollowButton } from "@/components/FollowButton";
 import { LitCaption } from "@/components/landing/HeroGlobe";
 import {
   EarthControls,
@@ -15,6 +16,7 @@ import { ForYouChooser, RegionChips, TopicChips } from "@/components/now/Filters
 import type { FrontGlobe, FrontStory, NaturePoint } from "@/globe/front";
 import { type ForYou, hasPrefs, useForYou } from "@/lib/for-you";
 import { fresherLive, fresherNow } from "@/lib/live-now";
+import { followKey } from "@/scene/follow";
 import { countryAt } from "@/scene/geo";
 import type { Headline, NowFile } from "@/scene/headlines";
 import type { LiveFile } from "@/scene/live";
@@ -454,6 +456,13 @@ export function NowView({
                   {isOpen &&
                     (s.cluster.context || s.cluster.film || s.cluster.nowFilm || s.cluster.why) && (
                       <div className="space-y-3 px-5 pb-4 sm:px-6">
+                        <FollowButton
+                          target={{
+                            key: followKey(s.cluster.context?.title, `/now?story=${s.cluster.id}`),
+                            title: s.cluster.title,
+                            href: `/now?story=${s.cluster.id}`,
+                          }}
+                        />
                         {/* Why it is news, measured (ADR-0021). */}
                         {s.cluster.why && s.cluster.why.length > 0 && (
                           <p className="text-xs text-dust/55">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Player } from "@/components/player/Player";
 import { listEditions, listStoryFilms, loadEdition, loadStoryBundle } from "@/lib/bundles";
+import { followKey } from "@/scene/follow";
 
 // Every story film is pre-rendered at build time; unknown ones are a 404.
 export const dynamicParams = false;
@@ -34,5 +35,17 @@ export default async function StoryPage({ params }: Props) {
   const { date, slug } = await params;
   if (!(await listStoryFilms(date)).includes(slug)) notFound();
   const bundle = await loadStoryBundle(date, slug);
-  return <Player bundle={bundle} back={{ href: `/edition/${date}`, label: "Edition" }} />;
+  const story = (await loadEdition(date)).stories.find((s) => s.slug === slug);
+  const href = `/story/${date}/${slug}`;
+  return (
+    <Player
+      bundle={bundle}
+      back={{ href: `/edition/${date}`, label: "Edition" }}
+      follow={{
+        key: followKey(story?.article?.title, href),
+        title: story?.title ?? bundle.scene.title,
+        href,
+      }}
+    />
+  );
 }

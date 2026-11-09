@@ -2,6 +2,7 @@
 // (a static file; ADR-0023). The browser adds Now's stories from the hourly file.
 import { listEditions, listStoryFilms, loadEdition, loadIndex } from "@/lib/bundles";
 import { LENS_INFO } from "@/scene/edition";
+import { followKey } from "@/scene/follow";
 import { regionOf } from "@/scene/regions";
 import type { SearchItem } from "@/scene/search";
 
@@ -23,11 +24,14 @@ export async function GET() {
     for (const s of edition.stories) {
       if (!films.has(s.slug)) continue;
       const region = regionOf(s.place?.country, s.continent);
+      const href = `/story/${date}/${s.slug}`;
       items.push({
         kind: "story",
         title: s.title,
         detail: `${day(date)} · ${LENS_INFO[s.lens].label}${s.place ? ` · ${s.place.name}` : ""}`,
-        href: `/story/${date}/${s.slug}`,
+        href,
+        key: followKey(s.article?.title, href),
+        ...(s.update ? { prev: s.update.previous.map((p) => `/story/${p.date}/${p.slug}`) } : {}),
         date,
         keys: [s.summary, s.article?.title, region, s.topic].filter(Boolean).join(" "),
       });

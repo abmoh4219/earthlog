@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
+import { recordVisit } from "@/lib/library";
 import { type SceneBundle, usePlayer } from "@/player/store";
+import type { FollowTarget } from "@/scene/follow";
 import { Captions } from "./Captions";
 import { ChapterCard } from "./ChapterCard";
 import { Credits } from "./Credits";
@@ -20,12 +22,20 @@ import { Vignette } from "./Vignette";
 export function Player({
   bundle,
   back,
+  follow,
 }: {
   bundle: SceneBundle;
   back?: { href: string; label: string };
+  /** The story, to follow it (ADR-0024). */
+  follow?: FollowTarget;
 }) {
   const load = usePlayer((s) => s.load);
   const loaded = usePlayer((s) => s.bundle?.scene.id === bundle.scene.id);
+
+  // The reader's history: films they watched, in their browser only (ADR-0024).
+  useEffect(() => {
+    recordVisit(window.location.pathname + window.location.search, bundle.scene.title);
+  }, [bundle.scene.title]);
 
   useEffect(() => {
     load(bundle);
@@ -44,7 +54,7 @@ export function Player({
       {loaded && <GlobeView bundle={bundle} />}
       <Vignette />
       <Letterbox />
-      <Hud scene={bundle.scene} {...(back ? { back } : {})} />
+      <Hud scene={bundle.scene} {...(back ? { back } : {})} {...(follow ? { follow } : {})} />
       <DataPanel />
       <Panels />
       <Legend />

@@ -2,15 +2,25 @@
 
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
+import { FollowButton } from "@/components/FollowButton";
 import { usePlayer } from "@/player/store";
+import type { FollowTarget } from "@/scene/follow";
 import { clockText, dateText, zoneText } from "@/scene/format";
 import type { Scene } from "@/scene/schema";
 import { ms } from "@/scene/schema";
 
 /** Title block (top left) and the big clock (top right); in story time, the chapter. */
-export function Hud({ scene, back }: { scene: Scene; back?: { href: string; label: string } }) {
+export function Hud({
+  scene,
+  back,
+  follow,
+}: {
+  scene: Scene;
+  back?: { href: string; label: string };
+  follow?: FollowTarget;
+}) {
   return scene.time === "story" ? (
-    <StoryHud scene={scene} back={back} />
+    <StoryHud scene={scene} back={back} follow={follow} />
   ) : (
     <ClockHud scene={scene} back={back} />
   );
@@ -91,9 +101,11 @@ function asOf(iso: string): string {
 function StoryHud({
   scene,
   back,
+  follow,
 }: {
   scene: Scene;
   back: { href: string; label: string } | undefined;
+  follow: FollowTarget | undefined;
 }) {
   const index = usePlayer((s) => {
     let i = 0;
@@ -127,6 +139,7 @@ function StoryHud({
         <p className="font-medium mt-1 text-xs text-dust/45">
           Data as of {asOf(scene.generatedBy.at)}
         </p>
+        {follow && <FollowButton target={follow} className="pointer-events-auto mt-2" />}
         {/* CLAUDE.md §3.3: AI narration is always labelled. */}
         {scene.generatedBy.method === "claude" && (
           <p className="mt-1 text-[11px] text-dust/55">
