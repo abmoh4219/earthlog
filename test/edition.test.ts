@@ -149,6 +149,11 @@ describe("source parsers", () => {
         "A commercial vessel is hit by an unidentified object in the waters of Musandam Governorate, Oman, killing…",
       ),
     ).toBe("A commercial vessel is hit by an unidentified object in the waters of Musandam…");
+    expect(
+      headline(
+        "Several floors of Aramco Tower, a skyscraper owned by Saudi Aramco located in Riyadh, Saudi Arabia, are damaged after a drone strike.",
+      ),
+    ).toBe("Several floors of Aramco Tower are damaged after a drone strike.");
     expect(slugify("Jesús de Miguel")).toBe("jesus-de-miguel");
     expect(slugify("2026 Palm Beach County Learjet 60 crash")).toBe(
       "2026-palm-beach-county-learjet-60-crash",
@@ -246,7 +251,10 @@ describe("the 3 Nov 2026 edition", () => {
     expect(story("Jesús de Miguel")?.lens).toBe("person");
     expect(story("Patrick Stewart")?.lens).toBe("person");
     expect(story("2026 Palm Beach County Learjet 60 crash")?.lens).toBe("accident");
-    expect(story("Jailer 2")?.lens).toBe("culture");
+    // Readers alone no longer make news (ADR-0021): the day's culture story is the prize the
+    // news reported, not the film people read about ("Jailer 2").
+    expect(story("Spanish author Cristina Fernández Cubas")?.lens).toBe("culture");
+    expect(story("Jailer 2")).toBeUndefined();
     expect(story("The Reserve Bank of Australia")?.lens).toBe("economy");
     expect(story("Two helicopters")?.lens).toBe("accident");
   });

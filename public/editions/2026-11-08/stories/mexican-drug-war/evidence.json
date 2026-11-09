@@ -1,0 +1,140 @@
+[
+  {
+    "id": "wiki:2026-11-08:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "lon": -99.236,
+    "lat": 19.304,
+    "label": "Conflict: Mexican Navy personnel working with intelligence from the National Intelligence Center and the U.S. DEA, arrest Rafael Álvarez Ayala, the alleged leader of the Jalisco New Generation Cartel cell \"Los Rs\", in Zapopan, Jalisco, Mexico. He is wounded in a shootout during the operation and is wanted on a Michoacán warrant for aggravated homicide.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "quote": "Mexican Navy personnel working with intelligence from the National Intelligence Center and the U.S. DEA, arrest Rafael Álvarez Ayala, the alleged leader of the Jalisco New Generation Cartel cell \"Los Rs\", in Zapopan, Jalisco, Mexico. He is wounded in a shootout during the operation and is wanted on a Michoacán warrant for aggravated homicide.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Infobae {{small|in Spanish}}",
+        "url": "https://www.infobae.com/mexico/2026/11/08/tras-enfrentamiento-detienen-en-jalisco-a-rafael-n-alias-el-r2-cabecilla-de-los-rs-del-cjng/"
+      },
+      {
+        "name": "El Financiero {{small|in Spanish}}",
+        "url": "https://www.elfinanciero.com.mx/nacional/2026/11/08/detienen-a-r2-en-zapopan-lo-vinculan-con-el-asesinato-de-carlos-manzo/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q475678:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Wikidata: \"Mexican drug war\" is an instance of asymmetric warfare, irregular warfare, drug war",
+    "url": "https://www.wikidata.org/wiki/Q475678",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384243123:19",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mexican drug war\" (revision of 2026-11-07 08:13 UTC)",
+    "quote": "In 1940, under president Lázaro Cárdenas and the direction of Mexican psychiatrist Leopoldo Salazar Viniegra, Mexico legalized all drugs, in an early attempt to prevent the development of illegal drug trafficking organizations.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mexican_drug_war&oldid=1384243123"
+  },
+  {
+    "id": "wiki:rev:1384243123:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mexican drug war\" (revision of 2026-11-07 08:13 UTC)",
+    "quote": "The Mexican drug war is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mexican_drug_war&oldid=1384243123"
+  },
+  {
+    "id": "views:en:Mexican_drug_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Mexican drug war\", 10 October 2026 to 8 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Mexican_drug_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q475678:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mexican drug war\": began 11 December 2006",
+    "url": "https://www.wikidata.org/wiki/Q475678#P580"
+  },
+  {
+    "id": "wd:Q475678:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mexican drug war\": location Mexico City",
+    "url": "https://www.wikidata.org/wiki/Q475678#P276"
+  },
+  {
+    "id": "wd:Q475678:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mexican drug war\": country Mexico",
+    "url": "https://www.wikidata.org/wiki/Q475678#P17"
+  },
+  {
+    "id": "wiki:box:1384243123:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mexican drug war\" (revision of 2026-11-07 08:13 UTC): side 1: Mexico, Armed Forces, *",
+    "quote": "Mexico, Armed Forces, *",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mexican_drug_war&oldid=1384243123"
+  },
+  {
+    "id": "wiki:box:1384243123:side-2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mexican drug war\" (revision of 2026-11-07 08:13 UTC): side 2: Mexican cartels:, Sinaloa Cartel, CJNG",
+    "quote": "Mexican cartels:, Sinaloa Cartel, CJNG",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mexican_drug_war&oldid=1384243123"
+  },
+  {
+    "id": "wiki:box:1384243123:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mexican drug war\" (revision of 2026-11-07 08:13 UTC): Status: Ongoing",
+    "quote": "Ongoing",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mexican_drug_war&oldid=1384243123"
+  },
+  {
+    "id": "wiki:box:1384243123:casualties-side-1-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mexican drug war\" (revision of 2026-11-07 08:13 UTC): Casualties (side 1): Total: 4,986 killed or missing",
+    "quote": "Total: 4,986 killed or missing",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mexican_drug_war&oldid=1384243123"
+  },
+  {
+    "id": "wiki:box:1384243123:casualties-side-2-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mexican drug war\" (revision of 2026-11-07 08:13 UTC): Casualties (side 2): Total: 12,456 killed (2006–10 )",
+    "quote": "Total: 12,456 killed (2006–10 )",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mexican_drug_war&oldid=1384243123"
+  }
+]

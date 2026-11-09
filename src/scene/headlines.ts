@@ -51,6 +51,8 @@ export const Cluster = z.object({
   heat: z.number().min(0).max(100),
   /** Several outlets within the last two hours of a story first seen in that window. */
   breaking: z.boolean(),
+  /** Why it counts as news, in plain words (src/scene/newsworthy.ts, ADR-0021). */
+  why: z.array(z.string()).optional(),
   /** Background from Wikipedia: the lead of the article the headlines name (ADR-0019). */
   context: z.object({ title: z.string(), url: z.url(), text: z.string() }).optional(),
   /** This story has its own short film this hour: films/<id>/ beside now.json (ADR-0020). */

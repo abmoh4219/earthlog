@@ -88,7 +88,7 @@ const PROMISES = [
 const STEPS = [
   {
     title: "Find the stories",
-    text: "What the news reported and what the world read on Wikipedia, ranked by attention and balanced across continents. Stories told in the last week return only with new reporting.",
+    text: "What eight outlets and Wikipedia's Current events reported, ranked by what newsrooms agree on: how many outlets, from how many regions, how fast, and how many people it touches. Stories told in the last week return only with new reporting.",
   },
   {
     title: "Choose the lens",
@@ -134,7 +134,7 @@ const FAQ = [
   },
   {
     q: "Where do the stories come from?",
-    a: "Two public signals: what the news reported (Wikipedia's Current events, which cites news outlets) and what the world read (Wikipedia's most-read articles). Stories are ranked by attention and balanced across continents and kinds of news.",
+    a: "What the news reported: the headlines of eight outlets (BBC News, The Guardian, Sky News, DW, France 24, Al Jazeera, NPR and AllAfrica) and Wikipedia's Current events. A story is hot when newsrooms agree on it: several outlets, from several regions, within hours, with follow-ups, and by how many people it touches. Wikipedia's most-read list adds readers when it is published. Each story says why it made the edition, and editions are balanced across continents and kinds of news.",
   },
   {
     q: "Is any of it written by AI?",

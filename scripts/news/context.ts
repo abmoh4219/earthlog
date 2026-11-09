@@ -35,6 +35,128 @@ export function searchTerms(titles: string[]): string {
     .join(" ");
 }
 
+// Labels before a colon that say what kind of piece it is, not what it is about.
+const KIND_LABEL =
+  /^(live|watch|analysis|explainer|opinion|comment|exclusive|breaking|update|video|photos|podcast|q&a|interview|review|factbox|timeline|in pictures|week in review)$/i;
+const OUTLET_NAMES =
+  /^(BBC|BBC News|Al Jazeera|France 24|DW|Deutsche Welle|NPR|Sky News|Sky|Guardian|The Guardian|AllAfrica)$/i;
+// Small words that may sit inside a name ("Bank of England", "Pope Leo XIV").
+const NAME_GLUE = new Set([
+  "of",
+  "the",
+  "de",
+  "da",
+  "del",
+  "di",
+  "von",
+  "van",
+  "al",
+  "bin",
+  "and",
+  "&",
+]);
+
+export interface Query {
+  q: string;
+  /** label: the subject named before a colon ("Diwali: …"); name: a proper name; words: the rest. */
+  kind: "label" | "name" | "first" | "cop" | "words";
+}
+
+/**
+ * What to search Wikipedia for, best first: the subject a headline names before its colon
+ * ("Ebola: Why is there still no vaccine?"), the proper names the headlines repeat ("Lisa
+ * Nandy", "Messi"), a COP climate summit by its number, then telling words and a headline.
+ */
+export function searchQueries(titles: string[]): Query[] {
+  const out: Query[] = [];
+  const add = (q: string, kind: Query["kind"]) => {
+    if (q.length > 2 && !out.some((x) => fold(x.q) === fold(q))) out.push({ q, kind });
+  };
+  for (const t of titles) {
+    const label = /^([^:]{2,40}):\s+\S/.exec(t)?.[1]?.trim();
+    if (
+      label &&
+      label.split(/\s+/).length <= 3 &&
+      /^\p{Lu}/u.test(label) &&
+      !KIND_LABEL.test(label) &&
+      !/\blive\b/i.test(label)
+    )
+      add(label, "label");
+  }
+  for (const t of titles) {
+    const cop = /\bCOP ?(\d{2})\b/i.exec(t)?.[1];
+    // COP1 met in 1995, one a year, none in 2020: COP25 was 2019, COP31 is 2026.
+    const n = Number(cop);
+    if (cop)
+      add(`${n <= 25 ? 1994 + n : 1995 + n} United Nations Climate Change Conference`, "cop");
+  }
+  const count = new Map<string, number>();
+  // A headline's first word alone may only open the sentence ("After the midterms…"), or be a
+  // name ("Messi becomes…"): kept as a weaker "first" query, accepted only for a person.
+  const firsts: string[] = [];
+  for (const t of titles) {
+    const tokens = t.replace(/^[^:]{2,40}:\s+/, "").split(/\s+/);
+    const seen = new Set<string>();
+    let run: string[] = [];
+    let start = 0;
+    const flush = () => {
+      while (run.length && NAME_GLUE.has(run.at(-1)?.toLowerCase() ?? "")) run.pop();
+      const name = run.join(" ");
+      if (run.length && !OUTLET_NAMES.test(name)) {
+        if (start === 0 && run.length === 1) firsts.push(name);
+        else if (!seen.has(fold(name))) {
+          count.set(name, (count.get(name) ?? 0) + 1);
+          seen.add(fold(name));
+        }
+      }
+      run = [];
+    };
+    tokens.forEach((raw, i) => {
+      const w = raw.replace(/^[("'“‘]+|[)"'”’,.;:!?]+$/g, "").replace(/['’]s$/, "");
+      const capital = /^\p{Lu}[\p{L}\p{N}-]*$/u.test(w);
+      if (capital || (run.length && NAME_GLUE.has(w.toLowerCase()))) {
+        if (!run.length) start = i;
+        run.push(w);
+      } else flush();
+      if (/[,.;:!?]$/.test(raw)) flush();
+    });
+    flush();
+  }
+  for (const [name] of [...count.entries()]
+    .sort((a, b) => b[1] - a[1] || b[0].length - a[0].length)
+    .slice(0, 3))
+    add(name, "name");
+  // Everyday openers ("After", "Why", "Over") are not names.
+  for (const f of firsts.filter((x) => words(x).length > 0).slice(0, 1)) add(f, "first");
+  add(searchTerms(titles), "words");
+  const plain = titles.find((h) => !/\?\s*$/.test(h))?.replace(/^[^:]{2,32}:\s+/, "");
+  if (plain) add(plain, "words");
+  return out;
+}
+
+/**
+ * An article a name or label search found that the every-word rule would miss: a person's
+ * full name from a surname the headlines use ("Messi" → "Lionel Messi"), the subject itself
+ * from a label ("Ebola" → "Ebola disease"), the COP conference. Only the top result counts.
+ */
+export function acceptNamed(title: string, query: Query, rank: number, placer: Placer): boolean {
+  if (rank > 0 || /^(List of|Index of|Outline of|Timeline of)|disambiguation/i.test(title))
+    return false;
+  const bare = title.replace(/\s*\([^)]*\)\s*$/, "");
+  const place = placer.mentions(bare)[0];
+  if (place && fold(place.name) === fold(bare)) return false;
+  if (query.kind === "cop") return fold(title) === fold(query.q);
+  const words = bare.split(/\s+/);
+  if ((query.kind === "name" || query.kind === "first") && !query.q.includes(" "))
+    return words.length >= 2 && words.length <= 3 && fold(words.at(-1) ?? "") === fold(query.q);
+  if (query.kind === "label")
+    return (
+      fold(bare) === fold(query.q) ||
+      (fold(bare).startsWith(`${fold(query.q)} `) && words.length <= 3)
+    );
+  return false;
+}
+
 /**
  * Whether an article can explain a story: every word of its title (numbers and the
  * parenthetical aside) appears in the headlines, it is not just a place, and not a list.
@@ -55,12 +177,18 @@ export function acceptArticle(
   const text = fold(headlines.join(" "));
   const have = new Set(words(text));
   const needed = words(bare).filter((w) => !/^\d+$/.test(w));
+  // A title that repeats its word is a work's ("Europe, Europe", a book), not a news subject.
+  if (new Set(needed).size < needed.length) return false;
   if (!needed.length || !needed.every((w) => have.has(w))) return false;
   // A disambiguation the headlines don't support ("Backlash (2024)", "Opposition (politics)").
   // Asides that only say what someone is ("politician", "footballer") are fine.
   const role =
     /^([\p{L}-]+ )?(politician|footballer|singer|actor|actress|musician|rapper|boxer|cricketer|tennis player|athlete|journalist|businessman|businesswoman|author|writer|director|judge|general|activist|presenter|band|company)$/iu;
-  if (aside && !role.test(aside) && !words(aside).every((w) => have.has(w))) return false;
+  // An aside naming a country only says which one ("Republican Party (United States)").
+  const asideIsCountry =
+    !!aside && placer.mentions(aside).some((p) => p.kind === "country" && words(aside).length <= 3);
+  if (aside && !role.test(aside) && !asideIsCountry && !words(aside).every((w) => have.has(w)))
+    return false;
   // Years: this year or last, or one the headlines name ("2014–15 La Liga" is not tonight's).
   for (const y of bare.match(/\b(?:19|20)\d{2}\b/g) ?? [])
     if (Number(y) < year - 1 && !text.includes(y)) return false;
@@ -70,6 +198,11 @@ export function acceptArticle(
     const word = bare.split(/\s+/)[0] ?? "";
     const asName = headlines.some((h) =>
       h
+        // After a subject label ("Poland: Gunman kills…") the next word opens the sentence;
+        // after a kind label ("Photos: Diwali celebrations…") it is the subject itself.
+        .replace(/^([^:]{2,40}):\s+/, (m, label: string) =>
+          KIND_LABEL.test(label.trim()) ? m : "",
+        )
         .split(/\s+/)
         .slice(1)
         .some((w) => fold(w.replace(/[^\p{L}\p{N}-]/gu, "")) === fold(word) && /^\p{Lu}/u.test(w)),
@@ -93,6 +226,7 @@ export function isRegionLead(text: string): boolean {
 export function cleanLead(text: string): string {
   return text
     .replace(/\s*\([^()]*(\[|:)[^()]*\)/g, "")
+    .replace(/\s*\(\s*[;,]?\s*\)/g, "")
     .replace(/\s+,/g, ",")
     .replace(/^([^,(]{2,80}), (is|was|are|were) /, "$1 $2 ")
     .replace(/\s+/g, " ")
@@ -111,21 +245,37 @@ export async function findContext(
   headlines: string[],
   placer: Placer,
 ): Promise<Context | undefined> {
-  // Two searches: the names the headlines repeat, then a headline itself (Wikipedia's search
-  // reads a sentence well, and finds event articles written within hours: "2026 … collision").
-  const plain = headlines.find((h) => !/\?\s*$/.test(h))?.replace(/^[^:]{2,32}:\s+/, "");
-  const queries = [searchTerms(headlines), plain].filter((q): q is string => !!q && q.length > 2);
-  let title: string | undefined;
-  for (const query of queries) {
+  // Searches, best first (searchQueries): the subject before a colon, the names the headlines
+  // repeat, a COP summit, telling words, then a headline itself (Wikipedia's search reads a
+  // sentence well, and finds event articles written within hours: "2026 … collision").
+  for (const query of searchQueries(headlines).slice(0, 6)) {
     const search = (await fetchJson(
-      `${API}?action=query&list=search&srsearch=${encodeURIComponent(query)}&srlimit=5&format=json&formatversion=2`,
+      `${API}?action=query&list=search&srsearch=${encodeURIComponent(query.q)}&srlimit=5&format=json&formatversion=2`,
     )) as { query?: { search?: { title: string }[] } };
-    title = (search.query?.search ?? [])
-      .map((r) => r.title)
-      .find((t) => acceptArticle(t, headlines, placer));
-    if (title) break;
+    const found = (search.query?.search ?? []).map((r) => r.title);
+    const titles = found.filter(
+      (t, rank) => acceptArticle(t, headlines, placer) || acceptNamed(t, query, rank, placer),
+    );
+    for (const title of titles.slice(0, 2)) {
+      const context = await leadOf(title);
+      // A full name found from a single word must be a person's ("Messi" → "Lionel Messi").
+      const byOneName = !acceptArticle(title, headlines, placer) && !query.q.includes(" ");
+      if (context && (!byOneName || query.kind === "label" || isPersonLead(context.text)))
+        return context;
+    }
   }
-  if (!title) return undefined;
+  return undefined;
+}
+
+/** A lead that introduces a person: a birth date, or what they do. */
+export function isPersonLead(text: string): boolean {
+  return /\(born\b|\bborn \d|\b(is|was) an? ([\p{L}-]+ ){0,3}(footballer|player|politician|singer|actor|actress|rapper|musician|businessman|businesswoman|journalist|author|writer|athlete|boxer|cricketer|coach|manager|entrepreneur|activist|presenter|comedian|director|lawyer|judge|diplomat|official)\b/iu.test(
+    text.slice(0, 240),
+  );
+}
+
+/** The first one or two sentences of an article, cited by its exact revision. */
+async function leadOf(title: string): Promise<Context | undefined> {
   const page = (await fetchJson(
     `${API}?action=query&prop=extracts%7Crevisions&exintro=1&explaintext=1&exsentences=2&rvprop=ids&redirects=1&format=json&formatversion=2&titles=${encodeURIComponent(title)}`,
   )) as {
@@ -134,7 +284,9 @@ export async function findContext(
   const p = page.query?.pages?.[0];
   const text = p?.extract ? cleanLead(p.extract) : undefined;
   const revid = p?.revisions?.[0]?.revid;
-  if (!p || !text || !revid || /may refer to/i.test(text) || isRegionLead(text)) return undefined;
+  // Disambiguation in prose ("Republican Party is a name used by many political parties").
+  const ambiguous = /may refer to|can refer to|is a name used by|is the name of (several|many)/i;
+  if (!p || !text || !revid || ambiguous.test(text) || isRegionLead(text)) return undefined;
   return {
     title: p.title,
     url: `https://en.wikipedia.org/w/index.php?title=${encodeURIComponent(p.title.replace(/ /g, "_"))}&oldid=${revid}`,

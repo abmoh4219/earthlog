@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "id": "story-2026-11-07-2026-new-zealand-general-election",
+  "title": "2026 New Zealand general election",
+  "subtitle": "Election · 7 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-07T00:00:00Z",
+    "end": "2026-11-07T00:00:53Z"
+  },
+  "focus": "2026-11-07T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 162.79,
+    "south": -47.76,
+    "east": 182.79,
+    "north": -31.759999999999998
+  },
+  "imagery": {
+    "day": "2026-11-07",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-result.json",
+      "name": "result",
+      "from": "2026-11-07T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": -149.21000000000004,
+      "lat": -25.130999999999997,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-07T00:00:04Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:14Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:23Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "lon": 172.79,
+      "lat": -43.885,
+      "range": 3400000,
+      "heading": 0,
+      "pitch": -48,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "lon": 172.79,
+      "lat": -43.885,
+      "range": 3078830.9469667217,
+      "heading": -13.700000000000001,
+      "pitch": -45.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:37Z",
+      "lon": 172.79,
+      "lat": -43.885,
+      "range": 2788000,
+      "heading": -27.400000000000002,
+      "pitch": -43,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:40Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:43Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:45Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:48Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:49Z",
+      "lon": 172.79,
+      "lat": -41.885,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:53Z",
+      "lon": 147.78999999999996,
+      "lat": -41.885,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "text": "New Zealanders vote to elect 120 members of the House of Representatives, with 11 additional overhang seats. National leader Christopher Luxon…",
+      "cites": [
+        "wiki:2026-11-07:8"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:08Z",
+      "text": "On 21 January 2026, Prime Minister Christopher Luxon announced that the election will be held on 7 November 2026.",
+      "cites": [
+        "wiki:rev:1384597913:82"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:16Z",
+      "text": "The 2026 New Zealand general election was held on 7 November 2026 to determine the composition of the 55th Parliament of New Zealand.",
+      "cites": [
+        "wiki:rev:1384597913:0"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "text": "New Zealand National Party, led by Christopher Luxon, won the most seats: 42.",
+      "cites": [
+        "elex:2026-new-zealand-general-election:party1"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:38Z",
+      "text": "Reported by AP and RNZ.",
+      "cites": [
+        "wiki:2026-11-07:8"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:46Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-07:8",
+        "wiki:rev:1384597913:82",
+        "views:en:2026_New_Zealand_general_election:30d",
+        "wd:Q104843407:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "NZ",
+    "lon": 172.79,
+    "lat": -39.76,
+    "label": "New Zealand"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "title": "The result"
+    },
+    {
+      "t": "2026-11-07T00:00:38Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-07T00:00:46Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "parliament",
+      "kind": "seats",
+      "title": "The new parliament",
+      "total": 131,
+      "note": "One dot per seat; parties ordered by size, not by political position. As recorded by Wikipedia (1:46 PM, 8 November 2026).",
+      "items": [
+        {
+          "label": "New Zealand National Party",
+          "value": 42,
+          "color": "#538abe",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party1"
+          ]
+        },
+        {
+          "label": "New Zealand Labour Party",
+          "value": 36,
+          "color": "#e36861",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party2"
+          ]
+        },
+        {
+          "label": "Green Party of Aotearoa New Zealand",
+          "value": 16,
+          "color": "#00b235",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party3"
+          ]
+        },
+        {
+          "label": "ACT New Zealand",
+          "value": 13,
+          "color": "#fde401",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party4"
+          ]
+        },
+        {
+          "label": "New Zealand First",
+          "value": 12,
+          "color": "#999999",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party5"
+          ]
+        },
+        {
+          "label": "Opportunity Party (New Zealand)",
+          "value": 7,
+          "color": "#8688ad",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party6"
+          ]
+        },
+        {
+          "label": "Te Pāti Māori",
+          "value": 5,
+          "color": "#f26a63",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party7"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:25Z",
+      "until": "2026-11-07T00:00:38Z"
+    },
+    {
+      "id": "votes",
+      "kind": "bars",
+      "title": "Share of the vote",
+      "unit": "%",
+      "items": [
+        {
+          "label": "New Zealand National Party",
+          "value": 29.21,
+          "text": "29.21%",
+          "color": "#538abe",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party1"
+          ]
+        },
+        {
+          "label": "New Zealand Labour Party",
+          "value": 29.36,
+          "text": "29.36%",
+          "color": "#e36861",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party2"
+          ]
+        },
+        {
+          "label": "Green Party of Aotearoa New Zealand",
+          "value": 13.3,
+          "text": "13.3%",
+          "color": "#00b235",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party3"
+          ]
+        },
+        {
+          "label": "ACT New Zealand",
+          "value": 10.92,
+          "text": "10.92%",
+          "color": "#fde401",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party4"
+          ]
+        },
+        {
+          "label": "New Zealand First",
+          "value": 9.78,
+          "text": "9.78%",
+          "color": "#999999",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party5"
+          ]
+        },
+        {
+          "label": "Opportunity Party (New Zealand)",
+          "value": 5.96,
+          "text": "5.96%",
+          "color": "#8688ad",
+          "cites": [
+            "elex:2026-new-zealand-general-election:party6"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:25Z",
+      "until": "2026-11-07T00:00:38Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/new-zealand-election-results-luxon-hipkins-voting-8c1728ae2533201f68d5a5e75fc9e907",
+          "cites": [
+            "wiki:2026-11-07:8"
+          ]
+        },
+        {
+          "label": "RNZ",
+          "text": "Open",
+          "url": "https://www.rnz.co.nz/news/politics_election-2026/2420113/too-close-to-call-wait-begins-for-special-votes-after-cliffhanger-election-night",
+          "cites": [
+            "wiki:2026-11-07:8"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:39Z",
+      "until": "2026-11-07T00:00:46Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-07:8"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384597913:82"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_New_Zealand_general_election:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q104843407:P31"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:47Z",
+      "until": "2026-11-07T00:00:53Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:44:39Z"
+  }
+}

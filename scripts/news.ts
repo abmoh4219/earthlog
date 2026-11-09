@@ -83,6 +83,7 @@ const clusters: Cluster[] = groups
       ...(place ? { place } : {}),
       heat: heat[i] ?? 0,
       breaking: heats[i]?.breaking ?? false,
+      ...(heats[i]?.why.length ? { why: heats[i]?.why ?? [] } : {}),
     };
   })
   .sort((a, b) => b.heat - a.heat || b.last.localeCompare(a.last));
@@ -169,7 +170,7 @@ for (const c of clusters) {
       );
     }
   };
-  if (c.context) await attempt("lens", () => buildLensFilm(c, byId, countries, seen));
+  if (c.context) await attempt("lens", () => buildLensFilm(c, byId, countries, seen, clusters));
   if (c.place?.country || c.place?.basis === "region")
     await attempt("place", () => buildPlaceFilm(c, byId, clusters, countries, seen));
   if (c.outlets.length >= 2) await attempt("short", async () => buildNowFilm(c, byId, seen));

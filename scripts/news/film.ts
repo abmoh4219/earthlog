@@ -7,10 +7,17 @@
 // only that day's headlines are quoted, cited at day precision with the exact time in the label.
 import { type EditionStory, LENS_INFO, type Lens } from "../../src/scene/edition.ts";
 import { countryName } from "../../src/scene/geo.ts";
-import type { Cluster, Headline } from "../../src/scene/headlines.ts";
+import type { Cluster, ClusterPlace, Headline } from "../../src/scene/headlines.ts";
 import { outletById } from "../../src/scene/outlets.ts";
-import type { Country, Evidence, LayerData, Scene, Source } from "../../src/scene/schema.ts";
-import { TOPIC_LABEL, type Topic } from "../../src/scene/topics.ts";
+import {
+  type Country,
+  type Evidence,
+  type LayerData,
+  Scene,
+  type Source,
+} from "../../src/scene/schema.ts";
+import { LENS_TOPIC, TOPIC_LABEL, type Topic } from "../../src/scene/topics.ts";
+import { validateBundle } from "../../src/scene/validate.ts";
 import { fetchJson } from "../bake/lib.ts";
 import { lensFromTypes } from "../edition/lens.ts";
 import { fetchEntities, fetchQids } from "../edition/sources.ts";
@@ -92,6 +99,10 @@ export function leadLine(
 ): { text: string; headline: Headline } | undefined {
   const usable = day.filter((h) => !/\?\s*$/.test(h.title));
   const h = usable.find((x) => x.title === preferred) ?? usable[0];
+  // Only questions ("After the midterms, where does the Republican Party stand?"): the news is
+  // the question an outlet asks, quoted as asked.
+  const asked = day[0];
+  if (!h && asked) return { text: `${name(asked.outlet)} asks: “${asked.title}”`, headline: asked };
   if (!h) return undefined;
   const statement = h.title
     .replace(/^[^:]{2,32}:\s+(?=\S)/, (m) => (m.split(/\s+/).length <= 5 ? "" : m))
@@ -108,6 +119,7 @@ export async function buildLensFilm(
   byId: Map<string, Headline>,
   countries: Country[],
   at: string,
+  clusters: Cluster[] = [],
 ): Promise<NowFilm | undefined> {
   const context = cluster.context;
   if (!context) return undefined;
@@ -121,6 +133,12 @@ export async function buildLensFilm(
   const lens: Lens = lensFromTypes(labels) ?? TOPIC_LENS[cluster.topic] ?? "general";
   const lead = leadLine(r.day, cluster.title);
   const place = cluster.place;
+  // Where it happened, lately: the other stories from the same country or region.
+  const country = place?.country ? countries.find((c) => c.code === place.country) : undefined;
+  const area = country ? countryName(country) : place?.basis === "region" ? place.name : undefined;
+  const lately = area
+    ? latelyIn(cluster, byId, clusters, country, area, r, at)
+    : { lately: [], extraEvidence: [], extraSources: [], extraChapters: [] };
   const story = {
     slug: cluster.id,
     lens,
@@ -151,20 +169,22 @@ export async function buildLensFilm(
   const film = await LENS_FILMS[lens]({
     date: r.date,
     story,
-    evidence: r.evidence,
+    evidence: [...r.evidence, ...lately.extraEvidence],
     news: [],
     countries,
     at,
     ...(lead ? { lead: { text: lead.text, cites: [r.idOf(lead.headline)] } } : {}),
+    extraChapters: lately.extraChapters,
   });
   // The outlets' headlines and credits travel with the film, as in edition films, and the
   // closing line names them with the rest.
-  for (const e of r.evidence) if (!film.evidence.some((x) => x.id === e.id)) film.evidence.push(e);
-  for (const s of r.sources) if (!film.sources.some((x) => x.id === s.id)) film.sources.push(s);
-  film.scene.beats = creditOutlets(
-    film.scene.beats,
-    r.day.map((h) => name(h.outlet)),
-  );
+  for (const e of [...r.evidence, ...lately.extraEvidence])
+    if (!film.evidence.some((x) => x.id === e.id)) film.evidence.push(e);
+  for (const s of [...r.sources, ...lately.extraSources])
+    if (!film.sources.some((x) => x.id === s.id)) film.sources.push(s);
+  film.scene.beats = creditOutlets(film.scene.beats, [
+    ...new Set([...r.day, ...lately.lately].map((h) => name(h.outlet))),
+  ]);
   const dayLabel = film.scene.subtitle.split(" · ").at(-1) ?? r.date;
   return {
     ...film,
@@ -185,49 +205,26 @@ async function canonicalTitle(title: string): Promise<string | undefined> {
   return page && !page.missing ? page.title : undefined;
 }
 
-/** Topics where a country's economy is not the frame (their films use the general lens). */
-const NO_ECONOMY_TOPICS: ReadonlySet<Topic> = new Set(["sports", "culture"]);
-
 /**
- * The film of a story no article explains but whose place is known (ADR-0020): the news as
- * reported, the week's reported events in that country (Current events), the other stories
- * reported from there that day, what the country is (Wikipedia, Wikidata) and, for politics,
- * business and conflict, its economy in World Bank charts.
+ * "Lately in <place>": the other stories placed in the same country (or region) over the last
+ * three days, newest first, one headline each. Earlier days are cited on the film's day with
+ * their own date and time in the label, as edition films cite earlier days.
  */
-export async function buildPlaceFilm(
+function latelyIn(
   cluster: Cluster,
   byId: Map<string, Headline>,
   clusters: Cluster[],
-  countries: Country[],
+  country: Country | undefined,
+  label: string,
+  r: ReturnType<typeof dayReports>,
   at: string,
-): Promise<NowFilm | undefined> {
+) {
   const place = cluster.place;
   const iso = place?.country;
-  const country = iso ? countries.find((c) => c.code === iso) : undefined;
-  // A country, or a region the news names without one (Strait of Hormuz, Gaza Strip).
-  const region = !country && place?.basis === "region" ? place.name : undefined;
-  if (!place || (!country && !region)) return undefined;
-  const r = dayReports(cluster, byId, at);
-  if (!r.day.length) return undefined;
-  const label = country ? countryName(country) : (region ?? place.name);
   const sameArea = (c: Cluster) =>
-    c.id !== cluster.id && (iso ? c.place?.country === iso : c.place?.name === place.name);
-  const title = (await canonicalTitle(label)) ?? label;
-  const qid = (await fetchQids([title])).get(title);
-  const lead = leadLine(r.day, cluster.title);
-  const others = r.day.filter((h) => h !== lead?.headline);
-  const alsoBeats = others.length
-    ? [
-        {
-          text: `Also reported by ${list(others.map((h) => name(h.outlet)))}.`,
-          cites: others.map(r.idOf),
-        },
-      ]
-    : [];
-
-  // Lately there: the other stories placed in the same country (or region) over the last
-  // three days, newest first, one headline each. Earlier days are cited on the film's day with
-  // their own date and time in the label, as edition films cite earlier days.
+    !!place &&
+    c.id !== cluster.id &&
+    (iso ? c.place?.country === iso : c.place?.name === place.name);
   const lately = clusters
     .filter(sameArea)
     .flatMap((c) => {
@@ -272,7 +269,7 @@ export async function buildPlaceFilm(
                 pitch: -58,
                 heading: -8,
               }
-            : { lon: place.lon, lat: place.lat, range: 2.4e6, pitch: -58, heading: -8 },
+            : { lon: place?.lon ?? 0, lat: place?.lat ?? 0, range: 2.4e6, pitch: -58, heading: -8 },
           beats: lately.flatMap((h) => {
             const line = leadLine([h]);
             if (!line) return [];
@@ -284,6 +281,57 @@ export async function buildPlaceFilm(
         },
       ]
     : [];
+
+  return { lately, extraEvidence, extraSources, extraChapters };
+}
+
+/** Topics where a country's economy is not the frame (their films use the general lens). */
+const NO_ECONOMY_TOPICS: ReadonlySet<Topic> = new Set(["sports", "culture"]);
+
+/**
+ * The film of a story no article explains but whose place is known (ADR-0020): the news as
+ * reported, the week's reported events in that country (Current events), the other stories
+ * reported from there that day, what the country is (Wikipedia, Wikidata) and, for politics,
+ * business and conflict, its economy in World Bank charts.
+ */
+export async function buildPlaceFilm(
+  cluster: Cluster,
+  byId: Map<string, Headline>,
+  clusters: Cluster[],
+  countries: Country[],
+  at: string,
+): Promise<NowFilm | undefined> {
+  const place = cluster.place;
+  const iso = place?.country;
+  const country = iso ? countries.find((c) => c.code === iso) : undefined;
+  // A country, or a region the news names without one (Strait of Hormuz, Gaza Strip).
+  const region = !country && place?.basis === "region" ? place.name : undefined;
+  if (!place || (!country && !region)) return undefined;
+  const r = dayReports(cluster, byId, at);
+  if (!r.day.length) return undefined;
+  const label = country ? countryName(country) : (region ?? place.name);
+  const title = (await canonicalTitle(label)) ?? label;
+  const qid = (await fetchQids([title])).get(title);
+  const lead = leadLine(r.day, cluster.title);
+  const others = r.day.filter((h) => h !== lead?.headline);
+  const alsoBeats = others.length
+    ? [
+        {
+          text: `Also reported by ${list(others.map((h) => name(h.outlet)))}.`,
+          cites: others.map(r.idOf),
+        },
+      ]
+    : [];
+
+  const { lately, extraEvidence, extraSources, extraChapters } = latelyIn(
+    cluster,
+    byId,
+    clusters,
+    country,
+    label,
+    r,
+    at,
+  );
 
   // The country's numbers frame most news (charts); sports, culture and regions without a
   // country get the general lens.
@@ -449,5 +497,85 @@ export function buildNowFilm(
     evidence,
     sources,
     layers: [],
+  };
+}
+
+/** A film that will load: schema, cross-file rules and at least three chapters. */
+function playable(film: NowFilm | undefined): NowFilm | undefined {
+  if (!film || film.scene.chapters.length < 3 || !Scene.safeParse(film.scene).success)
+    return undefined;
+  const errors = validateBundle({
+    scene: film.scene,
+    evidence: film.evidence,
+    sources: film.sources,
+  });
+  return errors.length ? undefined : film;
+}
+
+/**
+ * The film of an edition story found by the outlets alone (ADR-0021): made the way a Now story
+ * is, from the outlets' headlines of that day stored in the edition (so a rebuild days later
+ * needs nothing else): the article's lens when the headlines name one, else the place's film,
+ * else the short film.
+ */
+export async function buildOutletStoryFilm(
+  story: EditionStory,
+  date: string,
+  countries: Country[],
+  at: string,
+): Promise<NowFilm | undefined> {
+  const hs: Headline[] = (story.coverage ?? []).flatMap((c) => {
+    const id = c.evidence.split(":")[2];
+    return id ? [{ id, outlet: c.outlet, title: c.title, url: c.url, t: c.t, seen: c.t }] : [];
+  });
+  if (!hs.length) return undefined;
+  const byId = new Map(hs.map((h) => [h.id, h]));
+  const newest = [...hs].sort((a, b) => b.t.localeCompare(a.t));
+  const p = story.place;
+  const country = p?.country ? countries.find((c) => c.code === p.country) : undefined;
+  const basis: ClusterPlace["basis"] = !country
+    ? "region"
+    : country.name === p?.name || countryName(country) === p?.name
+      ? "country"
+      : "city";
+  const cluster: Cluster = {
+    id: story.slug,
+    title: story.title,
+    headlines: newest.map((h) => h.id),
+    outlets: [...new Set(newest.map((h) => h.outlet).reverse())],
+    first: newest.at(-1)?.t ?? `${date}T00:00:00Z`,
+    last: newest[0]?.t ?? `${date}T00:00:00Z`,
+    topic: story.topic ?? LENS_TOPIC[story.lens],
+    ...(p
+      ? {
+          place: {
+            name: p.name,
+            lon: p.lon,
+            lat: p.lat,
+            ...(p.country ? { country: p.country } : {}),
+            basis,
+          },
+        }
+      : {}),
+    heat: story.heat,
+    breaking: false,
+    ...(story.article && story.about
+      ? { context: { title: story.article.title, url: story.article.url, text: story.about } }
+      : {}),
+  };
+  const attempt = async (make: () => Promise<NowFilm | undefined>) =>
+    playable(await make().catch(() => undefined));
+  const film =
+    (await attempt(() => buildLensFilm(cluster, byId, countries, at))) ??
+    (await attempt(() => buildPlaceFilm(cluster, byId, [], countries, at))) ??
+    (await attempt(async () => buildNowFilm(cluster, byId, at)));
+  if (!film) return undefined;
+  return {
+    ...film,
+    scene: {
+      ...film.scene,
+      id: `story-${date}-${story.slug}`,
+      subtitle: film.scene.subtitle.replace(" · Now", ""),
+    },
   };
 }

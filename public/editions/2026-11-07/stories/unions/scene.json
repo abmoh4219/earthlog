@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "id": "story-2026-11-07-unions",
+  "title": "Unions",
+  "subtitle": "News · 7 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-07T00:00:00Z",
+    "end": "2026-11-07T00:01:17Z"
+  },
+  "focus": "2026-11-07T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -7.45,
+    "south": 38.7,
+    "east": 12.55,
+    "north": 54.7
+  },
+  "imagery": {
+    "day": "2026-11-07",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-07T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-07T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-07T00:00:42Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": 40.549999999999955,
+      "lat": 26.745,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-07T00:00:04Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:14Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:23Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:29Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:31Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:34Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3400000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:38Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3078830.9469667217,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:41Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 2788000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:44Z",
+      "lon": 2.2757680167193035,
+      "lat": 46.55032928708868,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:47Z",
+      "lon": 2.2757680167193035,
+      "lat": 46.55032928708868,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:50Z",
+      "lon": 2.2757680167193035,
+      "lat": 46.55032928708868,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:53Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:56Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:58Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:01Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:05Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:09Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:12Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:13Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:17Z",
+      "lon": -22.450000000000045,
+      "lat": 44.575,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "text": "Unions, the yellow vests, and student protesters hold a fourth consecutive weekend of protests across France with about 146,000 participants.",
+      "cites": [
+        "wiki:2026-11-07:6"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:08Z",
+      "text": "The yellow vests called for continued action through 6 and 7 November.",
+      "cites": [
+        "wiki:rev:1384611435:308"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:16Z",
+      "text": "Demonstrations and protests against poor economic and school conditions by workers and lycée]] (high school) students have taken place in France since September 2026.",
+      "cites": [
+        "wiki:rev:1384611435:0"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "text": "On the map: France, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-07:6"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "text": "Date: 2026. Began: 17 September 2026.",
+      "cites": [
+        "wd:Q141615137:P585",
+        "wd:Q141615137:P580"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:42Z",
+      "text": "Also named in the reports: France.",
+      "cites": [
+        "wiki:2026-11-07:6"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:51Z",
+      "text": "Reported by AFP and Al Jazeera.",
+      "cites": [
+        "wiki:2026-11-07:6"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:59Z",
+      "text": "DW headlined it: “France sees new round of Yellow Vest, student protests”",
+      "cites": [
+        "news:dw:3a9e4c3fcc71"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:01:10Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-07:6",
+        "wiki:rev:1384611435:308",
+        "views:en:2026_French_student_protests:30d",
+        "wd:Q141615137:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "FR",
+    "lon": 2.55,
+    "lat": 46.7,
+    "label": "France"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-07T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-07T00:00:51Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-07T00:00:59Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-07T00:01:10Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "kind": "facts",
+      "title": "On record: 2026 French student protests",
+      "note": "As recorded in Wikidata (CC0).",
+      "items": [
+        {
+          "label": "Date",
+          "text": "2026",
+          "cites": [
+            "wd:Q141615137:P585"
+          ]
+        },
+        {
+          "label": "Began",
+          "text": "17 September 2026",
+          "cites": [
+            "wd:Q141615137:P580"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "France",
+          "cites": [
+            "wd:Q141615137:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "France",
+          "cites": [
+            "wd:Q141615137:P17"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:33Z",
+      "until": "2026-11-07T00:00:42Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/france-braces-protests-yellow-vests-urge-mass-disobedience",
+          "cites": [
+            "wiki:2026-11-07:6"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france",
+          "cites": [
+            "wiki:2026-11-07:6"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:52Z",
+      "until": "2026-11-07T00:00:59Z"
+    },
+    {
+      "id": "coverage",
+      "kind": "facts",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/france-sees-new-round-of-yellow-vest-student-protests/a-79884064",
+          "cites": [
+            "news:dw:3a9e4c3fcc71"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:01:00Z",
+      "until": "2026-11-07T00:01:10Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-07:6"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384611435:308"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_French_student_protests:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141615137:P31"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:01:11Z",
+      "until": "2026-11-07T00:01:17Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:44:39Z"
+  }
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "wiki:2026-11-07:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-07T00:00:00Z",
+    "lon": 2.55,
+    "lat": 46.7,
+    "label": "Politics: Unions, the yellow vests, and student protesters hold a fourth consecutive weekend of protests across France with about 146,000 participants.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_7&oldid=1384478687",
+    "quote": "Unions, the yellow vests, and student protesters hold a fourth consecutive weekend of protests across France with about 146,000 participants.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/france-braces-protests-yellow-vests-urge-mass-disobedience"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:3a9e4c3fcc71",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "DW: France sees new round of Yellow Vest, student protests (19:28 UTC)",
+    "url": "https://www.dw.com/en/france-sees-new-round-of-yellow-vest-student-protests/a-79884064",
+    "quote": "France sees new round of Yellow Vest, student protests",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q141615137:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Wikidata: \"2026 French student protests\" is an instance of school strike, social movement, student protest",
+    "url": "https://www.wikidata.org/wiki/Q141615137",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384611435:308",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 French student protests\" (revision of 2026-11-09 03:24 UTC)",
+    "quote": "The yellow vests called for continued action through 6 and 7 November.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_French_student_protests&oldid=1384611435"
+  },
+  {
+    "id": "wiki:rev:1384611435:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 French student protests\" (revision of 2026-11-09 03:24 UTC)",
+    "quote": "Demonstrations and protests against poor economic and school conditions by workers and lycée]] (high school) students have taken place in France since September 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_French_student_protests&oldid=1384611435"
+  },
+  {
+    "id": "views:en:2026_French_student_protests:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 French student protests\", 14 October 2026 to 7 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_French_student_protests&range=latest-30"
+  },
+  {
+    "id": "wd:Q141615137:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 French student protests\": date 2026",
+    "url": "https://www.wikidata.org/wiki/Q141615137#P585"
+  },
+  {
+    "id": "wd:Q141615137:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 French student protests\": began 17 September 2026",
+    "url": "https://www.wikidata.org/wiki/Q141615137#P580"
+  },
+  {
+    "id": "wd:Q141615137:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 French student protests\": location France",
+    "url": "https://www.wikidata.org/wiki/Q141615137#P276"
+  },
+  {
+    "id": "wd:Q141615137:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 French student protests\": country France",
+    "url": "https://www.wikidata.org/wiki/Q141615137#P17"
+  }
+]

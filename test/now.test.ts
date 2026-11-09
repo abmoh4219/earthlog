@@ -41,7 +41,8 @@ const file: NowFile = {
   clusters: [
     cluster("fresh", fresh, "conflict"),
     cluster("older", older, "politics"),
-    cluster("stale", stale),
+    // One outlet, but filmed: listed.
+    { ...cluster("stale", stale), nowFilm: true },
   ],
 };
 
@@ -51,6 +52,17 @@ describe("stories in a window, at the moment of viewing", () => {
     expect(storiesIn(file, "3h", NOW).map((s) => s.cluster.id)).toEqual(["fresh", "older"]);
     expect(storiesIn(file, "24h", NOW)).toHaveLength(3);
     expect(windowCounts(file, NOW)).toEqual({ "1h": 1, "3h": 2, "24h": 3 });
+  });
+
+  it("lists only stories with a film or two or more outlets (ADR-0021)", () => {
+    const lone = [h("guardian", 30)];
+    const f = {
+      ...file,
+      headlines: [...file.headlines, ...lone],
+      clusters: [...file.clusters, cluster("lone", lone)],
+    };
+    expect(storiesIn(f, "24h", NOW).map((s) => s.cluster.id)).not.toContain("lone");
+    expect(storiesIn(f, "24h", NOW).map((s) => s.cluster.id)).toContain("stale");
   });
 
   it("puts breaking first and ranks the rest by heat within the window", () => {

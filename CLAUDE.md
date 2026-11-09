@@ -9,7 +9,7 @@ Guidance for Claude Code, and any human, working in this repo. Read it before pr
 **Earthlog: yesterday's world, explained in 3D.** Every morning, Earthlog turns the previous day's hottest stories (every topic, everywhere) into short, cinematic explainers on a 3D globe. **Each story gets the analysis its kind deserves** (a *lens*: red and blue states for an election, a flight to the headquarters for a tech story, a life drawn across the globe for a person), and **every claim links to its source**. Full concept: [docs/CONCEPT.md](docs/CONCEPT.md).
 
 - **Editions:** one per day, built nightly, kept forever as an archive (ADR-0009, ADR-0012).
-- **Stories:** discovered from what the news reported (Wikipedia Current events) and what the world read (Wikipedia most-read), typed via Wikidata, ranked by heat.
+- **Stories:** discovered from what the news reported (eight outlets' headlines and Wikipedia Current events), with what the world read (Wikipedia most-read) as a bonus, typed via Wikidata, ranked by newsworthiness (ADR-0021).
 - **Lenses:** one analysis module per kind of story, in `scripts/lenses/` (how to add one: [CONTRIBUTING.md](CONTRIBUTING.md)).
 - **Story films:** chapters, captions with citations, globe layers and chart panels; exportable as video clips.
 - **Classics:** hand-made deep replays of landmark events (the planet's black box) use the same player.

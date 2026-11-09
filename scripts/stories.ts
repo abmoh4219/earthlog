@@ -18,6 +18,7 @@ import { captionIssues } from "./lenses/editor.ts";
 import { layerKey } from "./lenses/film.ts";
 import { LENS_FILMS } from "./lenses/index.ts";
 import { revisionCutoff, setRevisionCutoff } from "./lenses/news-context.ts";
+import { buildOutletStoryFilm } from "./news/film.ts";
 import { report } from "./report.ts";
 
 const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
@@ -61,20 +62,30 @@ const headlines = new Map<string, string>();
 for (const story of edition.stories) {
   if (only && story.slug !== only) continue;
   try {
-    const film = await LENS_FILMS[story.lens]({ date, story, evidence, news, countries, at });
+    // Found by the outlets alone (ADR-0021): filmed from their headlines, as Now films are.
+    const film =
+      story.foundBy === "outlets"
+        ? await buildOutletStoryFilm(story, date, countries, at)
+        : await LENS_FILMS[story.lens]({ date, story, evidence, news, countries, at });
+    if (!film) throw new Error("no film could be made from the outlets' headlines");
     // The "In the news" chapter cites the outlets' headlines: bring their evidence and the
     // outlets' credits over from the edition (ADR-0017).
     for (const c of story.coverage ?? []) {
       const e = evidence.find((x) => x.id === c.evidence);
       // A film's window is its day in story time: the headline is cited as reported that day,
       // its exact time kept in the label.
-      if (e && !film.evidence.some((x) => x.id === e.id))
-        film.evidence.push({
+      // A lens may already have copied it as the edition has it (exact time): replace it.
+      if (e && e.precision !== "day") {
+        const asDay = {
           ...e,
           t: `${date}T00:00:00Z`,
-          precision: "day",
+          precision: "day" as const,
           label: `${e.label} (${e.t.slice(11, 16)} UTC)`,
-        });
+        };
+        const idx = film.evidence.findIndex((x) => x.id === e.id);
+        if (idx >= 0) film.evidence[idx] = asDay;
+        else film.evidence.push(asDay);
+      }
       const src = editionSources.find((x) => x.id === e?.source);
       if (src && !film.sources.some((x) => x.id === src.id)) film.sources.push(src);
     }

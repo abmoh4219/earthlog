@@ -7,14 +7,26 @@
 //      as a news-only story (most of the world's conflicts and disasters never trend).
 //   3. Drop noise: lists and pages whose readership didn't spike and that no news mentions.
 //   4. Fold related articles into the story that links them (candidates → their election).
-//   5. Type each story into a lens from Wikidata, place it, score its heat.
+//   5. Type each story into a lens from Wikidata, place it, score how newsworthy it is
+//      (src/scene/newsworthy.ts: outlets, regions, speed, follow-ups, magnitude, Current
+//      events; readers only as a bonus, ADR-0021). Stories two or more outlets reported that
+//      neither Wikipedia list had join as stories found by the outlets.
 //   6. Pick about a dozen: hottest first, at most 3 per lens, then make sure every
 //      continent with a story that day is represented.
 import type { Continent, Edition, EditionStory, Lens } from "../../src/scene/edition.ts";
 import { countryAt, nearestCountry } from "../../src/scene/geo.ts";
+import type { ClusterPlace, Headline } from "../../src/scene/headlines.ts";
+import {
+  headlineSignals,
+  newsworthiness,
+  reasonsOf,
+  type Signals,
+} from "../../src/scene/newsworthy.ts";
 import { outletById } from "../../src/scene/outlets.ts";
 import type { Country, Evidence, NewsStory, Source } from "../../src/scene/schema.ts";
+import type { Topic } from "../../src/scene/topics.ts";
 import type { RawStory } from "../bake/wikinews.ts";
+import { words } from "../news/text.ts";
 import type { Coverage } from "./coverage.ts";
 import {
   EVENT_LENSES,
@@ -56,7 +68,39 @@ export interface BuildInput {
   history?: { date: string; stories: EditionStory[] }[];
   /** Outlets' headlines of the day, matched to stories (scripts/edition/coverage.ts). */
   coverage?: Coverage;
+  /** The outlets' stories of the day (clustered headlines), for stories neither list had. */
+  outletStories?: OutletStory[];
 }
+
+/** One story as the outlets told it that day (a Now cluster restricted to the day). */
+export interface OutletStory {
+  id: string;
+  title: string;
+  topic: Topic;
+  place?: ClusterPlace;
+  /** The Wikipedia article its headlines name (scripts/news/context.ts), if any. */
+  context?: { title: string; url: string; text: string };
+  /** Its headlines of the day. */
+  headlines: Headline[];
+}
+
+/** A story's lens when only its topic is known (the film comes from the headlines). */
+const TOPIC_LENS: Partial<Record<Topic, Lens>> = {
+  conflict: "conflict",
+  disaster: "disaster",
+  sports: "sports",
+  culture: "culture",
+  business: "economy",
+  science: "science",
+};
+
+/** One headline per outlet, its first: what an edition credits. */
+const firstPerOutlet = (hs: Headline[]) => {
+  const first = new Map<string, Headline>();
+  for (const h of [...hs].sort((a, b) => a.t.localeCompare(b.t)))
+    if (!first.has(h.outlet)) first.set(h.outlet, h);
+  return [...first.values()];
+};
 
 /** The same story across editions: its Wikidata item, else its article, else its title. */
 export function storyKey(s: {
@@ -182,7 +226,22 @@ export function buildEdition(input: BuildInput): {
     timeZone: "UTC",
   });
 
-  const scored = all.map((c) => {
+  // Headlines already credited to a story: an outlets' story made of them is the same story.
+  const claimed = new Map<string, number>();
+  const reportEvidence = (h: Headline) => {
+    const id = `news:${h.outlet}:${h.id}`;
+    addEvidence({
+      id,
+      kind: "report",
+      source: `outlet:${h.outlet}`,
+      t: h.t,
+      label: `${outletById(h.outlet)?.name ?? h.outlet}: ${h.title}`,
+      url: h.url,
+      quote: h.title,
+    });
+    return id;
+  };
+  const scored = all.map((c, index) => {
     const items = c.newsIdx.map((i) => ({ raw: news.raw[i], story: news.stories[i] }));
     const firstNews = items[0];
     const topicQid = c.topic ? qids.get(c.topic) : undefined;
@@ -200,12 +259,14 @@ export function buildEdition(input: BuildInput): {
 
     // Which outlets reported it that day: breadth of reporting is heat, and each headline is
     // cited evidence (ADR-0017).
-    const reported =
-      input.coverage?.match(
+    const reportedAll =
+      input.coverage?.matchAll(
         [c.lead?.title, c.lead?.description, c.topic, ...items.map((it) => it.raw?.text)].filter(
           (t): t is string => Boolean(t),
         ),
       ) ?? [];
+    for (const h of reportedAll) if (!claimed.has(h.id)) claimed.set(h.id, index);
+    const reported = firstPerOutlet(reportedAll);
 
     const readers = c.members.reduce((sum, m) => sum + m.views, 0);
     const spike = c.lead ? spikeOf(c.lead) : undefined;
@@ -216,14 +277,17 @@ export function buildEdition(input: BuildInput): {
       died !== undefined &&
       Date.parse(died) <= Date.parse(date) &&
       Date.parse(date) - Date.parse(died) <= 7 * 86_400_000;
-    const raw =
-      Math.log10(1 + readers) * (1 + Math.log2(Math.min(1024, Math.max(1, spike ?? 1))) / 10) +
-      // Reported news weighs like a strongly read article: most of the world's conflicts and
-      // disasters never reach the English most-read list, and must still make the edition.
-      3 * Math.min(2, items.length) +
-      0.3 * Math.min(10, sources) +
-      0.6 * Math.min(6, reported.length) +
-      (diedNow ? 2 : 0);
+    // How newsworthy: what the newsrooms did with it first, readers last (ADR-0021).
+    const signals: Signals = {
+      ...headlineSignals(reportedAll),
+      noted: items.length > 0,
+      eventArticle: !!c.lead && isEvent(c.lead) && (spike ?? 0) >= SPIKE_MIN,
+      notedSources: sources,
+      ...(readers ? { readers } : {}),
+      ...(spike !== undefined ? { spike } : {}),
+      died: diedNow,
+    };
+    const raw = newsworthiness(signals);
 
     const place = placeOf(c, items[0]?.story, leadQid, entities, countries, date);
     if (place?.evidence?.startsWith("wd:") && leadQid) {
@@ -281,19 +345,7 @@ export function buildEdition(input: BuildInput): {
         ids.push(base);
       }
     }
-    for (const h of reported) {
-      const id = `news:${h.outlet}:${h.id}`;
-      addEvidence({
-        id,
-        kind: "report",
-        source: `outlet:${h.outlet}`,
-        t: h.t,
-        label: `${outletById(h.outlet)?.name ?? h.outlet}: ${h.title}`,
-        url: h.url,
-        quote: h.title,
-      });
-      ids.push(id);
-    }
+    for (const h of reported) ids.push(reportEvidence(h));
     if (leadQid && types.length) {
       const id = `wd:${leadQid}:P31`;
       addEvidence({
@@ -318,7 +370,11 @@ export function buildEdition(input: BuildInput): {
         : headline(firstNews?.raw?.text ?? c.topic ?? "Untitled"));
     const summary = firstNews?.raw?.text ?? c.lead?.description ?? "";
     const about = c.lead?.extract;
-    const story: Omit<EditionStory, "slug" | "heat"> & { rawHeat: number } = {
+    const story: Omit<EditionStory, "slug" | "heat"> & {
+      rawHeat: number;
+      signals: Signals;
+      reportedAll: Headline[];
+    } = {
       lens,
       title,
       summary,
@@ -358,25 +414,145 @@ export function buildEdition(input: BuildInput): {
         : {}),
       related: c.members.filter((m) => m !== c.lead).map((m) => m.title),
       evidence: ids,
+      why: reasonsOf(signals),
       rawHeat: raw,
+      signals,
+      reportedAll,
     };
     return story;
   });
 
+  // 5a. Found by the outlets: stories two or more outlets reported that day that neither
+  //     Current events nor the most-read list had (none of their headlines credited above).
+  for (const o of input.outletStories ?? []) {
+    const day = o.headlines.filter((h) => h.t.startsWith(date));
+    if (new Set(day.map((h) => h.outlet)).size < 2) continue;
+    // Already part of a story found above: some of its headlines were credited to that story,
+    // or it happened in the same city or region ("Poland launches terrorism probe into mass
+    // shooting" and the Current events item on the Kraków shooting). The same event in other
+    // words: its headlines join that story's coverage and count toward its heat.
+    const by = day.map((h) => claimed.get(h.id)).find((i) => i !== undefined);
+    const same =
+      (by !== undefined ? scored[by] : undefined) ??
+      (o.place && o.place.basis !== "country"
+        ? scored.find((x) => x.place?.name === o.place?.name && !x.foundBy)
+        : undefined);
+    for (const h of day) if (!claimed.has(h.id)) claimed.set(h.id, scored.length);
+    if (same) {
+      const merged = [...same.reportedAll, ...day];
+      const credited = new Set((same.coverage ?? []).map((c) => c.outlet));
+      const added = firstPerOutlet(day).filter((h) => !credited.has(h.outlet));
+      same.coverage = [
+        ...(same.coverage ?? []),
+        ...added.map((h) => ({
+          outlet: h.outlet,
+          title: h.title,
+          url: h.url,
+          t: h.t,
+          evidence: `news:${h.outlet}:${h.id}`,
+        })),
+      ];
+      same.evidence = [...same.evidence, ...added.map(reportEvidence)];
+      same.reportedAll = [...new Map(merged.map((h) => [h.id, h])).values()];
+      same.signals = { ...same.signals, ...headlineSignals(same.reportedAll) };
+      same.rawHeat = newsworthiness(same.signals);
+      same.why = reasonsOf(same.signals);
+      continue;
+    }
+    const reported = firstPerOutlet(day);
+    const signals = headlineSignals(day);
+    const qid = o.context ? qids.get(o.context.title) : undefined;
+    const lens: Lens = lensFromTypes(typeLabels(qid)) ?? TOPIC_LENS[o.topic] ?? "general";
+    const ids = reported.map(reportEvidence);
+    const country = o.place?.country
+      ? countries.find((x) => x.code === o.place?.country)
+      : o.place
+        ? countryAt(o.place.lon, o.place.lat, countries)
+        : undefined;
+    const continent = asContinent(country?.continent);
+    // The headline is the title (a statement, not a question), without a short label before a
+    // colon ("Ukraine: …").
+    const statement =
+      [o.title, ...day.map((h) => h.title)].find((t) => !/\?\s*$/.test(t)) ?? o.title;
+    const title = statement.replace(/^[^:]{2,32}:\s+(?=\S)/, (m) =>
+      m.split(/\s+/).length <= 5 ? "" : m,
+    );
+    scored.push({
+      lens,
+      title,
+      summary: title,
+      ...(o.context ? { about: o.context.text } : {}),
+      ...(o.context
+        ? {
+            article: {
+              title: o.context.title,
+              url: `https://en.wikipedia.org/wiki/${encodeURIComponent(o.context.title.replace(/ /g, "_"))}`,
+              ...(qid ? { qid } : {}),
+            },
+          }
+        : {}),
+      ...(o.place
+        ? {
+            place: {
+              name: o.place.name,
+              lon: o.place.lon,
+              lat: o.place.lat,
+              ...(o.place.country ? { country: o.place.country } : {}),
+              role: "Named in the headlines",
+            },
+          }
+        : {}),
+      ...(continent ? { continent } : {}),
+      sources: 0,
+      coverage: reported.map((h) => ({
+        outlet: h.outlet,
+        title: h.title,
+        url: h.url,
+        t: h.t,
+        evidence: `news:${h.outlet}:${h.id}`,
+      })),
+      related: [],
+      evidence: ids,
+      why: reasonsOf(signals),
+      topic: o.topic,
+      foundBy: "outlets",
+      rawHeat: newsworthiness(signals),
+      signals,
+      reportedAll: day,
+    });
+  }
+
   // 5b. Already told: a story from the last REPEAT_DAYS editions comes back only when the
   //     day's news reports something new about it, and then as an update linking back.
   const seen = new Map<string, { date: string; slug: string; title: string }[]>();
+  // Stories found by the outlets have no article to key them: the same city and a shared
+  // word make the same story ("…mass shooting in Krakow" the day after the Kraków shooting).
+  const seenAt: {
+    place: string;
+    words: Set<string>;
+    ref: { date: string; slug: string; title: string };
+  }[] = [];
+  const countryNames = new Set(countries.map((x) => x.name));
   for (const h of [...(input.history ?? [])].sort((a, b) => b.date.localeCompare(a.date))) {
     const age = daysBetween(h.date, date);
     if (age < 1 || age > REPEAT_DAYS) continue;
     for (const s of h.stories) {
       const k = storyKey(s);
-      seen.set(k, [...(seen.get(k) ?? []), { date: h.date, slug: s.slug, title: s.title }]);
+      const ref = { date: h.date, slug: s.slug, title: s.title };
+      seen.set(k, [...(seen.get(k) ?? []), ref]);
+      if (s.place && !countryNames.has(s.place.name))
+        seenAt.push({ place: s.place.name, words: new Set(words(`${s.title} ${s.summary}`)), ref });
     }
   }
+  const previousAt = (s: (typeof scored)[number]) => {
+    if (!s.foundBy || !s.place || countryNames.has(s.place.name)) return undefined;
+    const own = words(`${s.title} ${(s.coverage ?? []).map((c) => c.title).join(" ")}`);
+    const hits = seenAt.filter((x) => x.place === s.place?.name && own.some((w) => x.words.has(w)));
+    return hits.length ? hits.map((x) => x.ref) : undefined;
+  };
   const repeats: string[] = [];
   const fresh = scored.flatMap((s) => {
-    const previous = seen.get(storyKey(s));
+    const previous = seen.get(storyKey(s)) ?? previousAt(s);
     if (!previous) return [s];
     // New reporting that day: a Current events item, or an outlet's headline of the day.
     const reportedToday = s.evidence.some(
@@ -424,7 +600,7 @@ export function buildEdition(input: BuildInput): {
 
   const top = picked[0]?.rawHeat ?? 1;
   const slugs = new Set<string>();
-  const stories: EditionStory[] = picked.map(({ rawHeat, ...s }) => {
+  const stories: EditionStory[] = picked.map(({ rawHeat, signals, reportedAll, ...s }) => {
     let slug = slugify(s.title);
     for (let n = 2; slugs.has(slug); n++) slug = `${slugify(s.title)}-${n}`;
     slugs.add(slug);
@@ -482,7 +658,14 @@ export function buildEdition(input: BuildInput): {
   ].filter((s) => sourcesUsed.has(s.id));
 
   return {
-    edition: { version: 1, date, generatedAt: at, candidates: all.length, stories },
+    edition: {
+      version: 1,
+      date,
+      generatedAt: at,
+      candidates: scored.length + repeats.length,
+      mostRead: mostRead.length > 0,
+      stories,
+    },
     evidence: shipped,
     sources,
     repeats,
@@ -610,7 +793,11 @@ function asContinent(name: string | undefined): Continent | undefined {
 /** A short title from a news sentence: up to the first clause, at most ~80 characters. */
 export function headline(text: string): string {
   // Sports items open with the sport ("In association football, …"): skip that lead-in.
-  const body = text.replace(/^In [^,]{3,40}, /, "");
+  // An aside after the subject would leave a title without its verb ("Several floors of Aramco
+  // Tower, a skyscraper … in Riyadh, Saudi Arabia, are damaged…"): drop it.
+  const body = text
+    .replace(/^In [^,]{3,40}, /, "")
+    .replace(/^([^,]{3,80}), (?:a|an|the) .+?, ((?:is|are|was|were|has|have|had) .+)$/, "$1 $2");
   const clean = body.charAt(0).toUpperCase() + body.slice(1);
   const first = clean.split(/[,;:]| — /)[0]?.trim() ?? clean;
   return first.length <= 80 ? first : `${first.slice(0, first.lastIndexOf(" ", 78))}…`;

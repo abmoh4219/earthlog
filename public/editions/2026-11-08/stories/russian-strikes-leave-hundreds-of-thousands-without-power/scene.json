@@ -1,0 +1,715 @@
+{
+  "version": 1,
+  "id": "story-2026-11-08-russian-strikes-leave-hundreds-of-thousands-without-power",
+  "title": "Russian strikes leave hundreds of thousands without power",
+  "subtitle": "World · 8 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-08T00:00:00Z",
+    "end": "2026-11-08T00:01:23Z"
+  },
+  "focus": "2026-11-08T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 22.14,
+    "south": 41.72,
+    "east": 42.14,
+    "north": 57.72
+  },
+  "imagery": {
+    "day": "2026-11-08",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-08T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-08T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "lon": 70.13999999999999,
+      "lat": 28.557,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-08T00:00:04Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:10Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:16Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:20Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:27Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:34Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:38Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 3500000,
+      "heading": -108.68282202997253,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:43Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 3169384.7983480957,
+      "heading": -94.98282202997252,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:48Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 2870000,
+      "heading": -81.28282202997252,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:51Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:55Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 9236492.840900164,
+      "heading": -1.3000000000000007,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:59Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 8363999.999999999,
+      "heading": -12.600000000000001,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:02Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:09Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:15Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:18Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:19Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:23Z",
+      "lon": 7.139999999999986,
+      "lat": 47.595,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "text": "Russian strikes on Ukraine leave hundreds of thousands without electricity, Al Jazeera reports.",
+      "cites": [
+        "news:aljazeera:0305d66ded68"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:09Z",
+      "text": "Also reported by France 24.",
+      "cites": [
+        "news:france24:c719f8373e32"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:17Z",
+      "text": "Inflation in Ukraine was 12.7% in 2025, down from 20.2% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:UA"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:26Z",
+      "text": "The economy grew 1.8% in 2025; unemployment stood at 9.8%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:UA",
+        "wb:SL.UEM.TOTL.ZS:UA"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:35Z",
+      "text": "Across Europe & Central Asia, Ukraine's 12.7% compares with a median of 3.8%; the highest is Turkey at 34.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:49Z",
+      "text": "Ukraine is the second-largest country in Europe after Russia, which borders it to the east and northeast.",
+      "cites": [
+        "wiki:rev:1384509897:0"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:00Z",
+      "text": "Al Jazeera headlined it: “Russian strikes on Ukraine leave hundreds of thousands without electricity”",
+      "cites": [
+        "news:aljazeera:0305d66ded68"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:08Z",
+      "text": "France 24 headlined it: “Ukraine: Russian strikes leave hundreds of thousands without power”",
+      "cites": [
+        "news:france24:c719f8373e32"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:16Z",
+      "text": "Sources: Al Jazeera and France 24, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data (World Development Indicators). Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384509897:0",
+        "views:en:Ukraine:30d",
+        "wd:Q212:P571",
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "UA",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Ukraine"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-08T00:00:17Z",
+      "title": "Ukraine in numbers"
+    },
+    {
+      "t": "2026-11-08T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-08T00:00:49Z",
+      "title": "About Ukraine"
+    },
+    {
+      "t": "2026-11-08T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-08T00:01:16Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "kind": "line",
+      "title": "Inflation, consumer prices, Ukraine",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 9.37293105078978
+            },
+            {
+              "x": "2011",
+              "y": 7.95572466274652
+            },
+            {
+              "x": "2012",
+              "y": 0.568727971803862
+            },
+            {
+              "x": "2013",
+              "y": -0.238948626045406
+            },
+            {
+              "x": "2014",
+              "y": 12.0718562874251
+            },
+            {
+              "x": "2015",
+              "y": 48.6998646434423
+            },
+            {
+              "x": "2016",
+              "y": 13.9127101997796
+            },
+            {
+              "x": "2017",
+              "y": 14.4383227488749
+            },
+            {
+              "x": "2018",
+              "y": 10.9518559353178
+            },
+            {
+              "x": "2019",
+              "y": 7.88671745611133
+            },
+            {
+              "x": "2020",
+              "y": 2.73249209419427
+            },
+            {
+              "x": "2021",
+              "y": 9.36313917695223
+            },
+            {
+              "x": "2022",
+              "y": 20.1836366617478
+            },
+            {
+              "x": "2023",
+              "y": 12.8490222828558
+            },
+            {
+              "x": "2024",
+              "y": 6.50198464669254
+            },
+            {
+              "x": "2025",
+              "y": 12.7303341026902
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        }
+      ],
+      "mark": 15,
+      "t": "2026-11-08T00:00:18Z",
+      "until": "2026-11-08T00:00:35Z"
+    },
+    {
+      "id": "growth",
+      "kind": "line",
+      "title": "GDP growth, Ukraine",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.09200436668087
+            },
+            {
+              "x": "2011",
+              "y": 5.44528081048476
+            },
+            {
+              "x": "2012",
+              "y": 0.152314967200653
+            },
+            {
+              "x": "2013",
+              "y": 0.045439094492707
+            },
+            {
+              "x": "2014",
+              "y": -10.0788949840953
+            },
+            {
+              "x": "2015",
+              "y": -9.7729872128676
+            },
+            {
+              "x": "2016",
+              "y": 2.44098194492067
+            },
+            {
+              "x": "2017",
+              "y": 2.35997228099491
+            },
+            {
+              "x": "2018",
+              "y": 3.48836234022659
+            },
+            {
+              "x": "2019",
+              "y": 3.19950386354134
+            },
+            {
+              "x": "2020",
+              "y": -3.75281793983162
+            },
+            {
+              "x": "2021",
+              "y": 3.44562065945944
+            },
+            {
+              "x": "2022",
+              "y": -28.7585842155085
+            },
+            {
+              "x": "2023",
+              "y": 5.53473354963334
+            },
+            {
+              "x": "2024",
+              "y": 3.24811808426423
+            },
+            {
+              "x": "2025",
+              "y": 1.82152376756284
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:UA"
+          ]
+        }
+      ],
+      "mark": 15,
+      "t": "2026-11-08T00:00:18Z",
+      "until": "2026-11-08T00:00:35Z"
+    },
+    {
+      "id": "unemployment",
+      "kind": "line",
+      "title": "Unemployment, Ukraine",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 8.1
+            },
+            {
+              "x": "2011",
+              "y": 7.851
+            },
+            {
+              "x": "2012",
+              "y": 7.529
+            },
+            {
+              "x": "2013",
+              "y": 7.17
+            },
+            {
+              "x": "2014",
+              "y": 9.27
+            },
+            {
+              "x": "2015",
+              "y": 9.14
+            },
+            {
+              "x": "2016",
+              "y": 9.35
+            },
+            {
+              "x": "2017",
+              "y": 9.5
+            },
+            {
+              "x": "2018",
+              "y": 8.799
+            },
+            {
+              "x": "2019",
+              "y": 8.194
+            },
+            {
+              "x": "2020",
+              "y": 9.475
+            },
+            {
+              "x": "2021",
+              "y": 9.834
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:UA"
+          ]
+        }
+      ],
+      "mark": 11,
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "t": "2026-11-08T00:00:18Z",
+      "until": "2026-11-08T00:00:35Z"
+    },
+    {
+      "id": "region",
+      "kind": "bars",
+      "title": "Inflation, Europe & Central Asia",
+      "unit": "%",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "items": [
+        {
+          "label": "Turkey",
+          "value": 34.8811700293777,
+          "text": "34.9%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:TR"
+          ]
+        },
+        {
+          "label": "Ukraine",
+          "value": 12.7303341026902,
+          "text": "12.7%",
+          "color": "#e3b341",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        },
+        {
+          "label": "Kazakhstan",
+          "value": 11.3789456104214,
+          "text": "11.4%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KZ"
+          ]
+        },
+        {
+          "label": "Uzbekistan",
+          "value": 8.79630890491107,
+          "text": "8.8%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UZ"
+          ]
+        },
+        {
+          "label": "Russia",
+          "value": 8.71986939402666,
+          "text": "8.7%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RU"
+          ]
+        },
+        {
+          "label": "Kyrgyzstan",
+          "value": 8.21496013406325,
+          "text": "8.2%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KG"
+          ]
+        },
+        {
+          "label": "Moldova",
+          "value": 7.75904124001158,
+          "text": "7.8%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MD"
+          ]
+        },
+        {
+          "label": "Romania",
+          "value": 7.18903362292063,
+          "text": "7.2%",
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RO"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.768548461408595,
+        "label": "median 3.8%"
+      },
+      "t": "2026-11-08T00:00:36Z",
+      "until": "2026-11-08T00:00:49Z"
+    },
+    {
+      "id": "coverage",
+      "kind": "facts",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity",
+          "cites": [
+            "news:aljazeera:0305d66ded68"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
+          "cites": [
+            "news:france24:c719f8373e32"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:01:01Z",
+      "until": "2026-11-08T00:01:16Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384509897:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Ukraine:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q212:P571"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:01:17Z",
+      "until": "2026-11-08T00:01:23Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:47:34Z"
+  }
+}

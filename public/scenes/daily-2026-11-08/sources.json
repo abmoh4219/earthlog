@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia, Portal:Current events/2026 November 8",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Story text adapted; adaptations shared under the same licence.",
+    "attribution": "Wikipedia contributors, Current events",
+    "retrievedAt": "2026-11-09T04:16:35Z"
+  },
+  {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program (FDSN event service)",
+    "url": "https://earthquake.usgs.gov/",
+    "license": "Public domain (U.S. Government work)",
+    "attribution": "USGS",
+    "retrievedAt": "2026-11-09T04:16:35Z"
+  },
+  {
+    "id": "ioda",
+    "name": "IODA: Internet Outage Detection and Analysis (Georgia Tech)",
+    "url": "https://ioda.inetintel.cc.gatech.edu/",
+    "license": "This data is Copyright (c) 2021-2025 Georgia Tech Research Corporation. All Rights Reserved. Bundled as small normalised series with attribution, for non-commercial use (docs/DATA-SOURCES.md).",
+    "attribution": "IODA, Georgia Tech",
+    "retrievedAt": "2026-11-09T04:16:35Z"
+  }
+]

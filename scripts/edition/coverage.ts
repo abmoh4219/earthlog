@@ -13,6 +13,8 @@ export const MATCH_SHARE = 0.55;
 export interface Coverage {
   /** One headline per outlet (its first that day), oldest first. */
   match: (texts: string[]) => Headline[];
+  /** Every matching headline of the day, follow-ups included (for the story's signals). */
+  matchAll: (texts: string[]) => Headline[];
 }
 
 export function makeCoverage(headlines: Headline[], date: string, placer?: Placer): Coverage {
@@ -20,28 +22,31 @@ export function makeCoverage(headlines: Headline[], date: string, placer?: Place
   const tokens = day.map((h) => tokensOf(h.title, placer));
   const idf = idfOf(tokens);
   const weight = (t: string) => idf.get(t) ?? 1;
-  return {
-    match(texts) {
-      const story = new Set(texts.flatMap((t) => [...tokensOf(t, placer)]));
-      const hits: Headline[] = [];
-      day.forEach((h, i) => {
-        const own = tokens[i];
-        if (!own?.size) return;
-        let shared = 0;
-        let total = 0;
-        let telling = 0;
-        for (const t of own) {
-          total += weight(t);
-          if (story.has(t)) {
-            shared += weight(t);
-            if (!t.startsWith("@") && weight(t) > 2) telling++;
-          }
+  const matchAll = (texts: string[]): Headline[] => {
+    const story = new Set(texts.flatMap((t) => [...tokensOf(t, placer)]));
+    const hits: Headline[] = [];
+    day.forEach((h, i) => {
+      const own = tokens[i];
+      if (!own?.size) return;
+      let shared = 0;
+      let total = 0;
+      let telling = 0;
+      for (const t of own) {
+        total += weight(t);
+        if (story.has(t)) {
+          shared += weight(t);
+          if (!t.startsWith("@") && weight(t) > 2) telling++;
         }
-        if (telling >= 2 && shared / total >= MATCH_SHARE) hits.push(h);
-      });
+      }
+      if (telling >= 2 && shared / total >= MATCH_SHARE) hits.push(h);
+    });
+    return hits.sort((a, b) => a.t.localeCompare(b.t));
+  };
+  return {
+    matchAll,
+    match(texts) {
       const first = new Map<string, Headline>();
-      for (const h of hits.sort((a, b) => a.t.localeCompare(b.t)))
-        if (!first.has(h.outlet)) first.set(h.outlet, h);
+      for (const h of matchAll(texts)) if (!first.has(h.outlet)) first.set(h.outlet, h);
       return [...first.values()];
     },
   };

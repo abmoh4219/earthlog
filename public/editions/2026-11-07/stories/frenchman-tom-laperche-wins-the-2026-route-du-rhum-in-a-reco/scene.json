@@ -1,0 +1,264 @@
+{
+  "version": 1,
+  "id": "story-2026-11-07-frenchman-tom-laperche-wins-the-2026-route-du-rhum-in-a-reco",
+  "title": "Frenchman Tom Laperche wins the 2026 Route du Rhum in a record six days",
+  "subtitle": "Sports · 7 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-07T00:00:00Z",
+    "end": "2026-11-07T00:00:33Z"
+  },
+  "focus": "2026-11-07T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -7.45,
+    "south": 38.7,
+    "east": 12.55,
+    "north": 54.7
+  },
+  "imagery": {
+    "day": "2026-11-07",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-07T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-07T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": 40.549999999999955,
+      "lat": 26.745,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-07T00:00:04Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:07Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:09Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:12Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:15Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:17Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:20Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:23Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:25Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:28Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:29Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:33Z",
+      "lon": -22.450000000000045,
+      "lat": 44.575,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "text": "In sailing, Frenchman Tom Laperche wins the 2026 Route du Rhum in a record six days, 13 hours, 27 minutes and 40 seconds, beating Charles Caudrelier's 2022 time by six hours and 19 minutes.",
+      "cites": [
+        "wiki:2026-11-07:9"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:10Z",
+      "text": "On the map: France, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-07:9"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:18Z",
+      "text": "Reported by AFP and Reuters.",
+      "cites": [
+        "wiki:2026-11-07:9"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "text": "Sources: Wikipedia, Current events. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-07:9"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "FR",
+    "lon": 2.55,
+    "lat": 46.7,
+    "label": "France"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-07T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-07T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/laperche-wins-route-du-rhum-record-time",
+          "cites": [
+            "wiki:2026-11-07:9"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/sports/frances-laperche-wins-route-du-rhum-ultim-record-time-2026-11-08/",
+          "cites": [
+            "wiki:2026-11-07:9"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:19Z",
+      "until": "2026-11-07T00:00:26Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-07:9"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:27Z",
+      "until": "2026-11-07T00:00:33Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:44:39Z"
+  }
+}

@@ -1,5 +1,5 @@
-# The nightly edition (ADR-0009, ADR-0012, ADR-0014).
-# Every night at 04:30 UTC: build yesterday's edition, film every story, direct the films with
+# The nightly edition (ADR-0009, ADR-0012, ADR-0014, ADR-0021).
+# Every night at 00:40 UTC: build yesterday's edition, film every story, direct the films with
 # Claude (Haiku 5.5, template fallback), refresh the three editions before it (results and
 # reports still fill in), bake the day-at-a-glance replay, validate everything, and commit only
 # the data as a `data:` commit. The push triggers the Vercel deploy.
@@ -8,17 +8,18 @@
 name: Nightly edition
 
 on:
-  # Three attempts a day: Wikimedia publishes a day's most-read list with a delay of hours
-  # (on 8 Nov 2026 it was still missing at 18:40 UTC). Each run builds any missing edition of
-  # the last three days, so a late list only delays the edition.
+  # 00:40: yesterday's edition, from what the news reported (the outlets and Current events),
+  # never waiting for Wikipedia's most-read list, which comes hours or days late (ADR-0021).
+  # 11:30 and 17:30: rebuild editions made without that list once it is published (it adds
+  # readers), refresh the editions before today (11:30), and build any edition still missing.
   schedule:
+    - cron: "40 0 * * *"
     - cron: "30 11 * * *"
     - cron: "30 17 * * *"
-    - cron: "30 23 * * *"
   workflow_dispatch:
     inputs:
       date:
-        description: "Edition date to (re)build (YYYY-MM-DD); default: any missing of the last 3 days"
+        description: "Edition date to (re)build (YYYY-MM-DD); default: any missing of the last 7 days"
         required: false
 
 permissions:
@@ -63,14 +64,18 @@ jobs:
           fi
           pnpm news || echo "::warning::news feeds unavailable; editions built without coverage"
 
-          # Build every missing edition of the last three days, oldest first (or the one asked).
+          # Build every missing edition of the last week, oldest first (or the one asked): a week,
+          # because Wikimedia's page views have stalled for more than a day before (9 November
+          # 2026), and a date that leaves the window is never built.
           built=""
-          for k in 3 2 1; do
+          for k in 7 6 5 4 3 2 1; do
             D="$(date -u -d "today -$k days" +%F)"
             if [ -n "${INPUT_DATE:-}" ] && [ "$D" != "$INPUT_DATE" ]; then continue; fi
             if [ -z "${INPUT_DATE:-}" ] && [ -f "public/editions/$D/edition.json" ]; then continue; fi
-            pnpm edition "$D"
-            code=$?
+            # GitHub runs this step with `bash -e`, so a bare failing command would end the whole
+            # step: capture the code instead, so "not published yet" (2) skips only that date.
+            code=0
+            pnpm edition "$D" || code=$?
             if [ $code -eq 2 ]; then
               echo "::warning::most-read list for $D not published yet; the next run retries"
               continue
@@ -83,6 +88,28 @@ jobs:
             pnpm direct "$D" --ai --max-usd=0.25 || echo "::warning::narration of $D kept as template"
             pnpm bake daily "$D" || echo "::warning::day-at-a-glance replay of $D skipped"
           done
+
+          # Editions of the last two days built before Wikipedia's most-read list was out: rebuild
+          # each once the list is published (exit 3: still not published). Two days, because the
+          # outlets' headlines it re-reads are kept for 72 hours.
+          if [ -z "${INPUT_DATE:-}" ]; then
+            for k in 2 1; do
+              D="$(date -u -d "today -$k days" +%F)"
+              F="public/editions/$D/edition.json"
+              case " $built " in *" $D "*) continue ;; esac
+              if [ -f "$F" ] && grep -q '"mostRead": false' "$F"; then
+                code=0
+                pnpm edition "$D" --need-readers || code=$?
+                if [ $code -eq 0 ]; then
+                  built="$built $D"
+                  pnpm stories "$D" || echo "::warning::some films of $D failed"
+                  pnpm direct "$D" --ai --max-usd=0.25 || echo "::warning::narration of $D kept as template"
+                elif [ $code -ne 3 ]; then
+                  echo "::warning::rebuilding $D with readers failed"
+                fi
+              fi
+            done
+          fi
 
           # The three editions before today stay fresh (ADR-0014): re-film and re-direct them
           # once a day, on the first run (re-directing costs tokens when articles changed).

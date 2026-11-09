@@ -1,0 +1,18 @@
+[
+  {
+    "id": "outlet:sky",
+    "name": "Sky News",
+    "url": "https://news.sky.com/world",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "Sky News",
+    "retrievedAt": "2026-11-09T04:44:39Z"
+  },
+  {
+    "id": "outlet:bbc",
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "BBC News",
+    "retrievedAt": "2026-11-09T04:44:39Z"
+  }
+]

@@ -243,49 +243,57 @@ export function NowView({ initial }: { initial: NowFile }) {
                       )}
                     </span>
                   </button>
-                  {isOpen && (s.cluster.context || s.cluster.film || s.cluster.nowFilm) && (
-                    <div className="space-y-3 px-5 pb-4 sm:px-6">
-                      {/* This hour's film first; an edition's earlier film of the story after it. */}
-                      {s.cluster.nowFilm && (
-                        <Link
-                          href={`/now/film?id=${s.cluster.id}`}
-                          className="inline-flex items-center gap-2 rounded-full bg-sodium px-4 py-1.5 text-sm font-medium text-[#1a1206] transition-colors hover:bg-[#ffc46e] active:scale-[0.98]"
-                        >
-                          Watch the film
-                        </Link>
-                      )}
-                      {s.cluster.film && (
-                        <Link
-                          href={`/story/${s.cluster.film.date}/${s.cluster.film.slug}`}
-                          className="group flex items-center gap-2 text-sm text-dust/70 hover:text-moon"
-                        >
-                          {s.cluster.nowFilm ? "Earlier on Earthlog" : "Watch Earthlog's film"}
-                          <span className="truncate text-dust/50 group-hover:text-dust/70">
-                            · {s.cluster.film.title}
-                          </span>
-                        </Link>
-                      )}
-                      {s.cluster.context && (
-                        <div className="rounded-xl border border-moon/8 bg-moon/[0.03] p-3.5">
-                          <p className="text-xs text-dust/45">
-                            Background from{" "}
-                            <a
-                              href={s.cluster.context.url}
-                              target="_blank"
-                              rel="noreferrer"
-                              className="text-dust/70 underline decoration-moon/20 underline-offset-4 hover:text-moon"
-                            >
-                              Wikipedia: {s.cluster.context.title}
-                            </a>{" "}
-                            · CC BY-SA
+                  {isOpen &&
+                    (s.cluster.context || s.cluster.film || s.cluster.nowFilm || s.cluster.why) && (
+                      <div className="space-y-3 px-5 pb-4 sm:px-6">
+                        {/* Why it is news, measured (ADR-0021). */}
+                        {s.cluster.why && s.cluster.why.length > 0 && (
+                          <p className="text-xs text-dust/55">
+                            <span className="text-dust/75">Why it's here:</span>{" "}
+                            {s.cluster.why.join(" · ")}
                           </p>
-                          <p className="mt-1.5 text-sm leading-relaxed text-dust/75">
-                            {s.cluster.context.text}
-                          </p>
-                        </div>
-                      )}
-                    </div>
-                  )}
+                        )}
+                        {/* This hour's film first; an edition's earlier film of the story after it. */}
+                        {s.cluster.nowFilm && (
+                          <Link
+                            href={`/now/film?id=${s.cluster.id}`}
+                            className="inline-flex items-center gap-2 rounded-full bg-sodium px-4 py-1.5 text-sm font-medium text-[#1a1206] transition-colors hover:bg-[#ffc46e] active:scale-[0.98]"
+                          >
+                            Watch the film
+                          </Link>
+                        )}
+                        {s.cluster.film && (
+                          <Link
+                            href={`/story/${s.cluster.film.date}/${s.cluster.film.slug}`}
+                            className="group flex items-center gap-2 text-sm text-dust/70 hover:text-moon"
+                          >
+                            {s.cluster.nowFilm ? "Earlier on Earthlog" : "Watch Earthlog's film"}
+                            <span className="truncate text-dust/50 group-hover:text-dust/70">
+                              · {s.cluster.film.title}
+                            </span>
+                          </Link>
+                        )}
+                        {s.cluster.context && (
+                          <div className="rounded-xl border border-moon/8 bg-moon/[0.03] p-3.5">
+                            <p className="text-xs text-dust/45">
+                              Background from{" "}
+                              <a
+                                href={s.cluster.context.url}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-dust/70 underline decoration-moon/20 underline-offset-4 hover:text-moon"
+                              >
+                                Wikipedia: {s.cluster.context.title}
+                              </a>{" "}
+                              · CC BY-SA
+                            </p>
+                            <p className="mt-1.5 text-sm leading-relaxed text-dust/75">
+                              {s.cluster.context.text}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    )}
                   {isOpen && (
                     <ul className="space-y-3 px-5 pb-5 sm:px-6">
                       {s.headlines.map((h) => (

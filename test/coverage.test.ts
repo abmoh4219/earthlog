@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
-import { buildEdition } from "../scripts/edition/build";
+import { buildEdition, type OutletStory } from "../scripts/edition/build";
 import { makeCoverage } from "../scripts/edition/coverage";
 import { type Gazetteer, makePlacer } from "../scripts/news/place";
 import { Headline } from "../src/scene/headlines";
@@ -122,5 +122,85 @@ describe("the edition builder with coverage", () => {
       sources: built.sources,
     });
     expect(errors).toEqual([]);
+  });
+});
+
+describe("stories found by the outlets (ADR-0021)", () => {
+  const byId = new Map(headlines.map((h) => [h.id, h]));
+  const pick = (...ids: string[]) => ids.flatMap((id) => byId.get(id) ?? []);
+  const krakow: OutletStory = {
+    id: "1be42ae6d9cc",
+    title: "Poland: Gunman kills 6 in Krakow main square, police say",
+    topic: "crime",
+    place: { name: "Kraków", lon: 19.94, lat: 50.06, country: "PL", basis: "city" },
+    headlines: pick("1be42ae6d9cc", "dc06bdec4f54"),
+  };
+  const lonely: OutletStory = {
+    id: "f6291242d992",
+    title: "A correspondent finds Cuba's people struggling",
+    topic: "world",
+    headlines: pick("f6291242d992"),
+  };
+  const build = (raw: { heading: string; text: string }[], stories: NewsStory[]) =>
+    buildEdition({
+      date: "2026-11-07",
+      generatedAt: "2026-11-08T00:40:00Z",
+      mostRead: [],
+      news: {
+        raw: raw.map((r) => ({ ...r, links: [], sources: [] })),
+        stories,
+        evidence: stories.map((s) => ({
+          id: s.evidence,
+          kind: "report",
+          source: "wikipedia",
+          t: "2026-11-07T00:00:00Z",
+          precision: "day",
+          label: s.text,
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
+          quote: s.text,
+        })),
+      } as never,
+      qids: new Map(),
+      entities: new Map(),
+      links: new Map(),
+      countries,
+      coverage: makeCoverage(headlines, "2026-11-07", placer),
+      outletStories: [krakow, lonely],
+    });
+
+  it("adds a story two outlets reported that neither Wikipedia list had, cited and explained", () => {
+    const built = build([], []);
+    expect(built.edition.mostRead).toBe(false);
+    const s = built.edition.stories.find((x) => x.foundBy === "outlets");
+    expect(s?.title).toBe("Gunman kills 6 in Krakow main square, police say");
+    expect(s?.coverage?.map((c) => c.outlet)).toEqual(["dw", "france24"]);
+    expect(s?.why?.[0]).toBe("Reported by 2 outlets");
+    expect(s?.continent).toBe("Europe");
+    for (const id of s?.evidence ?? [])
+      expect(built.evidence.find((e) => e.id === id)?.kind).toBe("report");
+  });
+
+  it("never adds a story only one outlet reported", () => {
+    const built = build([], []);
+    expect(built.edition.stories.some((x) => x.title.includes("Cuba"))).toBe(false);
+  });
+
+  it("joins the outlets' telling to the Current events item on the same city", () => {
+    const text = "Six people are killed and 15 more injured in a drive-by mass shooting in Kraków.";
+    const item = {
+      id: "wiki:2026-11-07:1",
+      text,
+      category: "attack",
+      evidence: "wiki:2026-11-07:1",
+      lon: 19.94,
+      lat: 50.06,
+      place: { name: "Kraków", lon: 19.94, lat: 50.06, country: true },
+    } as unknown as NewsStory;
+    const built = build([{ heading: "Armed conflicts and attacks", text }], [item]);
+    expect(built.edition.stories).toHaveLength(1);
+    const s = built.edition.stories[0];
+    expect(s?.foundBy).toBeUndefined();
+    expect(new Set(s?.coverage?.map((c) => c.outlet))).toEqual(new Set(["dw", "france24"]));
+    expect(s?.why).toContain("Listed on Wikipedia's Current events");
   });
 });

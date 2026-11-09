@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "id": "story-2026-11-07-six-people-are-killed-and-15-more-injured-in-a-drive-by-mass",
+  "title": "Six people are killed and 15 more injured in a drive-by mass shooting in the…",
+  "subtitle": "Conflict · 7 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-07T00:00:00Z",
+    "end": "2026-11-07T00:01:19Z"
+  },
+  "focus": "2026-11-07T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 9.937222219999999,
+    "south": 42.06138889,
+    "east": 29.93722222,
+    "north": 58.06138889
+  },
+  "imagery": {
+    "day": "2026-11-07",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-07T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-07T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-07T00:00:43Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": 57.93722221999997,
+      "lat": 29.624333334,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-07T00:00:04Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:14Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:23Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:29Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:31Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:34Z",
+      "lon": 19.93722222,
+      "lat": 48.06138889,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:38Z",
+      "lon": 19.93722222,
+      "lat": 48.06138889,
+      "range": 1086646.2165764899,
+      "heading": -4.699999999999999,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:42Z",
+      "lon": 19.93722222,
+      "lat": 48.06138889,
+      "range": 983999.9999999999,
+      "heading": 6.600000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:45Z",
+      "lon": 20.661860060527122,
+      "lat": 50.19965218793395,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:46Z",
+      "lon": 20.661860060527122,
+      "lat": 50.19965218793395,
+      "range": 1358307.7707206125,
+      "heading": -6.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:47Z",
+      "lon": 20.661860060527122,
+      "lat": 50.19965218793395,
+      "range": 1230000,
+      "heading": -13,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:50Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:53Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:55Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:58Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:05Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:11Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:14Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:15Z",
+      "lon": 19.93722222,
+      "lat": 49.37388889,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:19Z",
+      "lon": -5.062777780000033,
+      "lat": 49.37388889,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "text": "Six people are killed and 15 more injured in a drive-by mass shooting in the center of Kraków, Poland. The perpetrator, who also killed his parents and his sister at their home in Ostrowiec Świętokrzyski…",
+      "cites": [
+        "wiki:2026-11-07:2"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:12Z",
+      "text": "On 7 November 2026, around 15:00 CET, a black Subaru hatchback with an Ostrowiec Świętokrzyski license plate drove into the Main Square in Kraków.",
+      "cites": [
+        "wiki:rev:1384611689:5"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "text": "On the map: Kraków, Poland, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-07:2"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "text": "Casualties, as Wikipedia records them from its sources: on one side, 9; on the other, 16 (including the suspect).",
+      "cites": [
+        "wiki:box:1384611689:casualties",
+        "wiki:box:1384611689:injured"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:48Z",
+      "text": "Reported by Reuters.",
+      "cites": [
+        "wiki:2026-11-07:2"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:56Z",
+      "text": "DW headlined it: “Poland: Gunman kills 6 in Krakow main square, police say”",
+      "cites": [
+        "news:dw:1be42ae6d9cc"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:01:04Z",
+      "text": "France 24 headlined it: “Gunman kills six in Krakow, three more bodies found at his house”",
+      "cites": [
+        "news:france24:dc06bdec4f54"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:01:12Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles and Wikidata. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-07:2",
+        "wiki:rev:1384611689:5",
+        "wd:Q142077465:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PL",
+    "lon": 19.93722222,
+    "lat": 50.06138889,
+    "label": "Kraków"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-07T00:00:43Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-07T00:00:48Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-07T00:00:56Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-07T00:01:12Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "kind": "facts",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "items": [
+        {
+          "label": "Casualties",
+          "text": "9",
+          "cites": [
+            "wiki:box:1384611689:casualties"
+          ]
+        },
+        {
+          "label": "Injured",
+          "text": "16 (including the suspect)",
+          "cites": [
+            "wiki:box:1384611689:injured"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:33Z",
+      "until": "2026-11-07T00:00:43Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/europe/two-kiled-least-10-injured-shooting-polish-city-krakow-tvn24-reports-2026-11-07/",
+          "cites": [
+            "wiki:2026-11-07:2"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:49Z",
+      "until": "2026-11-07T00:00:56Z"
+    },
+    {
+      "id": "coverage",
+      "kind": "facts",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489",
+          "cites": [
+            "news:dw:1be42ae6d9cc"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+          "cites": [
+            "news:france24:dc06bdec4f54"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:57Z",
+      "until": "2026-11-07T00:01:12Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-07:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384611689:5"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142077465:P31"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:01:13Z",
+      "until": "2026-11-07T00:01:19Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:44:39Z"
+  }
+}

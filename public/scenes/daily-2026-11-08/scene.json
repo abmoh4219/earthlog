@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-08",
+  "title": "The world on 8 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-08T00:00:00Z",
+    "end": "2026-11-09T00:00:00Z"
+  },
+  "focus": "2026-11-08T01:20:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-08",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "lon": -75.1636,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-08T01:20:00Z",
+      "lon": -75.1636,
+      "lat": 39.3128,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T02:30:24Z",
+      "lon": -75.1636,
+      "lat": 39.3128,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-08T03:28:00Z",
+      "lon": -75.1636,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-08T05:36:00Z",
+      "lon": 46.715,
+      "lat": 23.9983,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T06:46:24Z",
+      "lon": 46.715,
+      "lat": 23.9983,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-08T07:44:00Z",
+      "lon": 31.2118,
+      "lat": 29.346999999999998,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T08:54:24Z",
+      "lon": 31.2118,
+      "lat": 29.346999999999998,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-08T09:52:00Z",
+      "lon": 31.2118,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-08T12:00:00Z",
+      "lon": 106.34,
+      "lat": 31.22,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T13:28:00Z",
+      "lon": 106.34,
+      "lat": 31.22,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-08T14:40:00Z",
+      "lon": 4.31777778,
+      "lat": 51.46555556,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T16:08:00Z",
+      "lon": 4.31777778,
+      "lat": 51.46555556,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-08T17:20:00Z",
+      "lon": 51.41216111,
+      "lat": 35.14450556,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T18:48:00Z",
+      "lon": 51.41216111,
+      "lat": 35.14450556,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-08T20:00:00Z",
+      "lon": 138.31666667,
+      "lat": 34.27666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T21:28:00Z",
+      "lon": 138.31666667,
+      "lat": 34.27666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-08T22:40:00Z",
+      "lon": -99.236,
+      "lat": 18.663999999999998,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-08T23:24:00Z",
+      "lon": -99.236,
+      "lat": 18.663999999999998,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": -99.236,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "speed": 960
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-08T01:20:00Z",
+      "text": "Politics: Pro-Palestine protesters clash with pro-Israel protesters in Philadelphia, Pennsylvania, United States…",
+      "cites": [
+        "wiki:2026-11-08:8"
+      ]
+    },
+    {
+      "t": "2026-11-08T03:28:00Z",
+      "text": "01:20 UTC. Internet outage signal in Norfolk Island: responsive address blocks down to 80% of normal.",
+      "cites": [
+        "ioda:NF:ping:2026-11-08T01:20Z",
+        "ioda:NF:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-08T05:36:00Z",
+      "text": "Conflict: Several floors of Aramco Tower, a skyscraper owned by Saudi Aramco located in the King Abdullah Financial District of Riyadh, Saudi Arabia…",
+      "cites": [
+        "wiki:2026-11-08:1"
+      ]
+    },
+    {
+      "t": "2026-11-08T07:44:00Z",
+      "text": "Disaster: A train derails near Giza, Egypt, killing seven people and wounding 125 more.",
+      "cites": [
+        "wiki:2026-11-08:4"
+      ]
+    },
+    {
+      "t": "2026-11-08T09:52:00Z",
+      "text": "Sports: In stock car racing, Hendrick Motorsports' driver Kyle Larson wins his third career NASCAR Cup Series championship…",
+      "cites": [
+        "wiki:2026-11-08:9"
+      ]
+    },
+    {
+      "t": "2026-11-08T12:00:00Z",
+      "text": "Business: NVIDIA announces it is opening an investigation into CEO Jensen Huang, after American intelligence reported that a close associate of Huang…",
+      "cites": [
+        "wiki:2026-11-08:6"
+      ]
+    },
+    {
+      "t": "2026-11-08T14:40:00Z",
+      "text": "Law & crime: Former National Congress Party politician Ahmed Haroun, who is wanted by the International Criminal Court for genocide in Sudan's Darfur…",
+      "cites": [
+        "wiki:2026-11-08:7"
+      ]
+    },
+    {
+      "t": "2026-11-08T17:20:00Z",
+      "text": "Conflict: Iranian state media reports that explosions are heard on Qeshm Island in the Strait of Hormuz after reporting that the U.S. military fired…",
+      "cites": [
+        "wiki:2026-11-08:2"
+      ]
+    },
+    {
+      "t": "2026-11-08T20:00:00Z",
+      "text": "Disaster: A earthquake strikes central Japan with its epicenter in Shizuoka Prefecture, while also affecting Aichi, Gifu…",
+      "cites": [
+        "wiki:2026-11-08:5"
+      ]
+    },
+    {
+      "t": "2026-11-08T22:40:00Z",
+      "text": "Conflict: Mexican Navy personnel working with intelligence from the National Intelligence Center and the U.S. DEA, arrest Rafael Álvarez Ayala…",
+      "cites": [
+        "wiki:2026-11-08:3"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:16:35Z"
+  }
+}

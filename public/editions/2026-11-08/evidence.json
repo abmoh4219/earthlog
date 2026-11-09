@@ -1,0 +1,473 @@
+[
+  {
+    "id": "wiki:2026-11-08:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "lon": 46.715,
+    "lat": 24.6383,
+    "label": "Conflict: Several floors of Aramco Tower, a skyscraper owned by Saudi Aramco located in the King Abdullah Financial District of Riyadh, Saudi Arabia, are damaged after a Houthi ballistic missile is intercepted over the city by Saudi air defense systems. No casualties or injuries are reported.",
+    "quote": "Several floors of Aramco Tower, a skyscraper owned by Saudi Aramco located in the King Abdullah Financial District of Riyadh, Saudi Arabia, are damaged after a Houthi ballistic missile is intercepted over the city by Saudi air defense systems. No casualties or injuries are reported.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "links": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province",
+        "name": "Al Jazeera"
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c6ly3mjx958eo",
+        "name": "BBC News"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-08:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "lon": -99.236,
+    "lat": 19.304,
+    "label": "Conflict: Mexican Navy personnel working with intelligence from the National Intelligence Center and the U.S. DEA, arrest Rafael Álvarez Ayala, the alleged leader of the Jalisco New Generation Cartel cell \"Los Rs\", in Zapopan, Jalisco, Mexico. He is wounded in a shootout during the operation and is wanted on a Michoacán warrant for aggravated homicide.",
+    "quote": "Mexican Navy personnel working with intelligence from the National Intelligence Center and the U.S. DEA, arrest Rafael Álvarez Ayala, the alleged leader of the Jalisco New Generation Cartel cell \"Los Rs\", in Zapopan, Jalisco, Mexico. He is wounded in a shootout during the operation and is wanted on a Michoacán warrant for aggravated homicide.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "links": [
+      {
+        "url": "https://www.infobae.com/mexico/2026/11/08/tras-enfrentamiento-detienen-en-jalisco-a-rafael-n-alias-el-r2-cabecilla-de-los-rs-del-cjng/",
+        "name": "Infobae {{small|in Spanish}}"
+      },
+      {
+        "url": "https://www.elfinanciero.com.mx/nacional/2026/11/08/detienen-a-r2-en-zapopan-lo-vinculan-con-el-asesinato-de-carlos-manzo/",
+        "name": "El Financiero {{small|in Spanish}}"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-08:4",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "lon": 31.2118,
+    "lat": 29.987,
+    "label": "Disaster: A train derails near Giza, Egypt, killing seven people and wounding 125 more.",
+    "quote": "A train derails near Giza, Egypt, killing seven people and wounding 125 more.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "links": [
+      {
+        "url": "https://apnews.com/article/egypt-train-crash-giza-collision-cairo-injuries-4ad591268ce015d85ae302e22185b235",
+        "name": "AP"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city",
+        "name": "Al Jazeera"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-08:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "Business: NVIDIA announces it is opening an investigation into CEO Jensen Huang, after American intelligence reported that a close associate of Huang was a spy for China. Huang admitted to an extramarital affair with the associate in a letter to the company earlier in the day.",
+    "quote": "NVIDIA announces it is opening an investigation into CEO Jensen Huang, after American intelligence reported that a close associate of Huang was a spy for China. Huang admitted to an extramarital affair with the associate in a letter to the company earlier in the day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "links": [
+      {
+        "url": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html",
+        "name": "The New York Times"
+      }
+    ]
+  },
+  {
+    "id": "news:bbc:e62725ac95ea",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-08T04:03:12Z",
+    "label": "BBC News: Houthis say at least 33 killed in Saudi air strike",
+    "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo",
+    "quote": "Houthis say at least 33 killed in Saudi air strike"
+  },
+  {
+    "id": "news:france24:fcf5a21a0bd6",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T08:11:54Z",
+    "label": "France 24: Yemen's Houthis claim attack on Aramco skyscraper in Riyadh",
+    "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+    "quote": "Yemen's Houthis claim attack on Aramco skyscraper in Riyadh"
+  },
+  {
+    "id": "wd:Q20896823:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Houthi–Saudi Arabian conflict\" is an instance of border conflict",
+    "url": "https://www.wikidata.org/wiki/Q20896823"
+  },
+  {
+    "id": "wd:Q475678:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Mexican drug war\" is an instance of asymmetric warfare, irregular warfare, drug war",
+    "url": "https://www.wikidata.org/wiki/Q475678"
+  },
+  {
+    "id": "news:aljazeera:330ea679023f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T16:31:54Z",
+    "label": "Al Jazeera: Seven killed, 112 injured in train collision in Egypt",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt",
+    "quote": "Seven killed, 112 injured in train collision in Egypt"
+  },
+  {
+    "id": "news:guardian:dfb7c585a474",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-08T17:51:17Z",
+    "label": "The Guardian: Collision of two trains in Egypt kills at least seven",
+    "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+    "quote": "Collision of two trains in Egypt kills at least seven"
+  },
+  {
+    "id": "wd:Q142086610:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"2026 El Ayyat train collision\" is an instance of railway accident, train collision",
+    "url": "https://www.wikidata.org/wiki/Q142086610"
+  },
+  {
+    "id": "news:sky:0d208e2c1172",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-08T20:41:00Z",
+    "label": "Sky News: AI giant Nvidia launches investigation into CEO's affair with 'Chinese spy'",
+    "url": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
+    "quote": "AI giant Nvidia launches investigation into CEO's affair with 'Chinese spy'"
+  },
+  {
+    "id": "news:aljazeera:24c01244f068",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T22:16:10Z",
+    "label": "Al Jazeera: US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+    "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+    "quote": "US chipmaker Nvidia investigates CEO Jensen Huang over affair"
+  },
+  {
+    "id": "news:france24:cbcae134d3b9",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T23:02:54Z",
+    "label": "France 24: Nvidia to probe reports that Chinese intelligence targeted CEO Jensen Huang",
+    "url": "https://www.france24.com/en/technology/20261108-nvidia-jensen-huang-chinese-intelligence-probe",
+    "quote": "Nvidia to probe reports that Chinese intelligence targeted CEO Jensen Huang"
+  },
+  {
+    "id": "news:dw:d2ac9a59ebd3",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T23:07:00Z",
+    "label": "DW: Nvidia CEO Huang admits affair amid rumors of China spy ties",
+    "url": "https://www.dw.com/en/nvidia-ceo-huang-admits-affair-amid-rumors-of-china-spy-ties/a-79894747",
+    "quote": "Nvidia CEO Huang admits affair amid rumors of China spy ties"
+  },
+  {
+    "id": "news:guardian:ec33d3f2667e",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-08T09:00:35Z",
+    "label": "The Guardian: Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+    "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+    "quote": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei"
+  },
+  {
+    "id": "news:aljazeera:3e9b7a430684",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T22:16:50Z",
+    "label": "Al Jazeera: President Milei welcomes Pope Leo during historic visit to Argentina",
+    "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina",
+    "quote": "President Milei welcomes Pope Leo during historic visit to Argentina"
+  },
+  {
+    "id": "news:france24:0e21f75a1391",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T22:23:19Z",
+    "label": "France 24: Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all",
+    "url": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei",
+    "quote": "Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all"
+  },
+  {
+    "id": "news:sky:a2a8c5e3ea96",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-08T02:19:00Z",
+    "label": "Sky News: Briton among six killed by 'far-right' gunman in Krakow rampage",
+    "url": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
+    "quote": "Briton among six killed by 'far-right' gunman in Krakow rampage"
+  },
+  {
+    "id": "news:france24:608f97551b17",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T08:59:56Z",
+    "label": "France 24: Poland launches terrorism probe into mass shooting in Krakow",
+    "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
+    "quote": "Poland launches terrorism probe into mass shooting in Krakow"
+  },
+  {
+    "id": "news:bbc:6729df2677d6",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-08T09:29:24Z",
+    "label": "BBC News: How the deadly shooting in Krakow unfolded",
+    "url": "https://www.bbc.co.uk/news/videos/cq74p2zpwyjmo",
+    "quote": "How the deadly shooting in Krakow unfolded"
+  },
+  {
+    "id": "news:dw:0eccdd37b487",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T09:43:00Z",
+    "label": "DW: Poland begins two days of mourning over Krakow shooting",
+    "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400",
+    "quote": "Poland begins two days of mourning over Krakow shooting"
+  },
+  {
+    "id": "news:guardian:34430db32ce5",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-08T11:50:15Z",
+    "label": "The Guardian: Polish prosecutors open terrorism investigation into Kraków shooting",
+    "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
+    "quote": "Polish prosecutors open terrorism investigation into Kraków shooting"
+  },
+  {
+    "id": "news:aljazeera:85573a8d72d2",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T12:40:12Z",
+    "label": "Al Jazeera: Poland mourns six killed in attack as authorities launch ‘terrorism’ probe",
+    "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe",
+    "quote": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe"
+  },
+  {
+    "id": "news:sky:18ba836433e0",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-08T04:27:00Z",
+    "label": "Sky News: Trump 'only kidding' about offering UFC boss press secretary job",
+    "url": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613",
+    "quote": "Trump 'only kidding' about offering UFC boss press secretary job"
+  },
+  {
+    "id": "news:aljazeera:20362738277c",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T11:57:05Z",
+    "label": "Al Jazeera: Could UFC boss Dana White be next White House press secretary?",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/could-ufc-boss-dana-white-be-next-white-house-press-secretary",
+    "quote": "Could UFC boss Dana White be next White House press secretary?"
+  },
+  {
+    "id": "news:france24:c83bf488fa4c",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T09:47:36Z",
+    "label": "France 24: Israeli president officially tasks Eisenkot with forming government",
+    "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+    "quote": "Israeli president officially tasks Eisenkot with forming government"
+  },
+  {
+    "id": "news:aljazeera:e6cc7419b188",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T11:34:58Z",
+    "label": "Al Jazeera: Will Eisenkot be able to form Israel’s next gov’t amid divided opposition?",
+    "url": "https://www.aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition",
+    "quote": "Will Eisenkot be able to form Israel’s next gov’t amid divided opposition?"
+  },
+  {
+    "id": "news:guardian:fe43e4b6ce3d",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-08T14:26:14Z",
+    "label": "The Guardian: Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+    "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+    "quote": "Israel’s president picks Yashar leader Gadi Eisenkot to form government"
+  },
+  {
+    "id": "news:dw:47e8dba46615",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T15:18:00Z",
+    "label": "DW: Israel: Eisenkot officially tasked with forming a government",
+    "url": "https://www.dw.com/en/israel-eisenkot-officially-tasked-with-forming-a-government/a-79891422",
+    "quote": "Israel: Eisenkot officially tasked with forming a government"
+  },
+  {
+    "id": "news:sky:c18c75ae9395",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-08T14:55:00Z",
+    "label": "Sky News: Seven dead and 114 injured in train crash near Cairo",
+    "url": "https://news.sky.com/story/four-dead-and-88-injured-in-train-crash-near-cairo-13609748",
+    "quote": "Seven dead and 114 injured in train crash near Cairo"
+  },
+  {
+    "id": "news:dw:b07ef0816c7c",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T16:49:00Z",
+    "label": "DW: Egypt train crash leaves several dead, many injured",
+    "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-many-injured/a-79892916",
+    "quote": "Egypt train crash leaves several dead, many injured"
+  },
+  {
+    "id": "news:bbc:1069919706c8",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-08T19:58:02Z",
+    "label": "BBC News: Seven dead and more than 100 injured after trains collide in Egypt",
+    "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo",
+    "quote": "Seven dead and more than 100 injured after trains collide in Egypt"
+  },
+  {
+    "id": "news:aljazeera:b64af1b67821",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T13:32:17Z",
+    "label": "Al Jazeera: At least 34 dead as small boat sinks off Senegal",
+    "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal",
+    "quote": "At least 34 dead as small boat sinks off Senegal"
+  },
+  {
+    "id": "news:dw:85de81bd8398",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T13:48:00Z",
+    "label": "DW: At least 21 killed after migrant boat sinks off Senegal",
+    "url": "https://www.dw.com/en/at-least-21-killed-after-migrant-boat-sinks-off-senegal/a-79890883",
+    "quote": "At least 21 killed after migrant boat sinks off Senegal"
+  },
+  {
+    "id": "news:france24:c7e270d5fde4",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T20:40:33Z",
+    "label": "France 24: Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+    "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
+    "quote": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say"
+  },
+  {
+    "id": "news:aljazeera:0305d66ded68",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T12:20:17Z",
+    "label": "Al Jazeera: Russian strikes on Ukraine leave hundreds of thousands without electricity",
+    "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity",
+    "quote": "Russian strikes on Ukraine leave hundreds of thousands without electricity"
+  },
+  {
+    "id": "news:france24:c719f8373e32",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T16:59:42Z",
+    "label": "France 24: Ukraine: Russian strikes leave hundreds of thousands without power",
+    "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
+    "quote": "Ukraine: Russian strikes leave hundreds of thousands without power"
+  },
+  {
+    "id": "news:france24:fa314d7e4925",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T03:01:54Z",
+    "label": "France 24: New Zealand's knife-edge parliamentary election delivers no clear winner",
+    "url": "https://www.france24.com/en/asia-pacific/20261108-new-zealand-election-produces-no-clear-winner-as-smaller-parties-make-record-gains",
+    "quote": "New Zealand's knife-edge parliamentary election delivers no clear winner"
+  },
+  {
+    "id": "news:npr:ab240c5c1385",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-08T16:46:15Z",
+    "label": "NPR: No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+    "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+    "quote": "No clear winner in New Zealand election, as leaders prepare for weeks of talks"
+  },
+  {
+    "id": "news:france24:26fab0b94fb6",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T16:31:53Z",
+    "label": "France 24: Spain's Alcaraz beats error-prone Shelton to win Paris Masters for first time",
+    "url": "https://www.france24.com/en/sport/20261108-spain-s-alcaraz-beats-error-prone-shelton-to-win-paris-masters-for-first-time",
+    "quote": "Spain's Alcaraz beats error-prone Shelton to win Paris Masters for first time"
+  },
+  {
+    "id": "news:aljazeera:09638caa2944",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T18:22:58Z",
+    "label": "Al Jazeera: Carlos Alcaraz beats Ben Shelton to win Paris Masters tennis title",
+    "url": "https://www.aljazeera.com/sports/2026/11/8/carlos-alcaraz-beats-ben-shelton-to-win-paris-masters-tennis-title",
+    "quote": "Carlos Alcaraz beats Ben Shelton to win Paris Masters tennis title"
+  },
+  {
+    "id": "news:aljazeera:9ad78c0ede43",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T09:28:52Z",
+    "label": "Al Jazeera: Floods in Gaza leave tens of thousands without shelter",
+    "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter",
+    "quote": "Floods in Gaza leave tens of thousands without shelter"
+  },
+  {
+    "id": "news:france24:9e19bbe6af60",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T09:42:03Z",
+    "label": "France 24: Gaza: Heavy rain inundates thousands of tents",
+    "url": "https://www.france24.com/en/gaza-heavy-rain-inundates-thousands-of-tents",
+    "quote": "Gaza: Heavy rain inundates thousands of tents"
+  },
+  {
+    "id": "news:dw:aadff38d36aa",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T10:58:00Z",
+    "label": "DW: Gaza: Rains add misery to humanitarian catastrophe",
+    "url": "https://www.dw.com/en/gaza-rains-add-misery-to-humanitarian-catastrophe/a-79889580",
+    "quote": "Gaza: Rains add misery to humanitarian catastrophe"
+  },
+  {
+    "id": "news:france24:6aeb5c550d76",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T07:08:28Z",
+    "label": "France 24: Tenerife honour teammate Jesus De Miguel with tearful tribute",
+    "url": "https://www.france24.com/en/sport/20261108-tenerife-tribute-football-striker-jesus-de-miguel-collision-death-cardiac-arrest-spain",
+    "quote": "Tenerife honour teammate Jesus De Miguel with tearful tribute"
+  },
+  {
+    "id": "news:aljazeera:f8677c8c09fc",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T15:37:16Z",
+    "label": "Al Jazeera: Tenerife’s Jesus De Miguel honoured in tearful tribute by teammates, fans",
+    "url": "https://www.aljazeera.com/sports/2026/11/8/tenerifes-jesus-de-miguel-honoured-in-tearful-tribute-by-teammates-fans",
+    "quote": "Tenerife’s Jesus De Miguel honoured in tearful tribute by teammates, fans"
+  }
+]

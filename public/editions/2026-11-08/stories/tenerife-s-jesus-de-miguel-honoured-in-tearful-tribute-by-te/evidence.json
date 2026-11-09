@@ -1,0 +1,178 @@
+[
+  {
+    "id": "news:france24:6aeb5c550d76",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "France 24: Tenerife honour teammate Jesus De Miguel with tearful tribute (07:08 UTC)",
+    "url": "https://www.france24.com/en/sport/20261108-tenerife-tribute-football-striker-jesus-de-miguel-collision-death-cardiac-arrest-spain",
+    "quote": "Tenerife honour teammate Jesus De Miguel with tearful tribute",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:f8677c8c09fc",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Al Jazeera: Tenerife’s Jesus De Miguel honoured in tearful tribute by teammates, fans (15:37 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/8/tenerifes-jesus-de-miguel-honoured-in-tearful-tribute-by-teammates-fans",
+    "quote": "Tenerife’s Jesus De Miguel honoured in tearful tribute by teammates, fans",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384461005:32",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jesús de Miguel\" (revision of 2026-11-08 09:33 UTC)",
+    "quote": "The Association of Spanish Footballers requested the postponement of all games from 3 to 9 November, but only the games of Tenerife, Castellón and Andorra were postponed at the weekend.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jes%C3%BAs_de_Miguel&oldid=1384461005"
+  },
+  {
+    "id": "wiki:rev:1384461005:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jesús de Miguel\" (revision of 2026-11-08 09:33 UTC)",
+    "quote": "Jesús de Miguel Alameda (21 September 1996 – 3 November 2026) was a Spanish professional footballer who played as a striker.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jes%C3%BAs_de_Miguel&oldid=1384461005"
+  },
+  {
+    "id": "views:en:Jesús_de_Miguel:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jesús de Miguel\", 10 October 2026 to 8 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jes%C3%BAs_de_Miguel&range=latest-30"
+  },
+  {
+    "id": "wd:Q116992476:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": born 21 September 1996",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P569"
+  },
+  {
+    "id": "wd:Q116992476:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": birthplace Madrid",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P19"
+  },
+  {
+    "id": "wd:Q116992476:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": died 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P570"
+  },
+  {
+    "id": "wd:Q116992476:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": place of death Hospital Universitario Nuestra Señora de Candelaria",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P20"
+  },
+  {
+    "id": "wd:Q116992476:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": occupation association football player",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P106"
+  },
+  {
+    "id": "wd:Q116992476:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": citizenship Spain",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P27"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q9196665",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for CD Leganés B (2015–16)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q9008987",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for Internacional de Madrid CF (2017–18)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q108708",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for CF Fuenlabrada (2018–19)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q4651246",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for AD Unión Adarve Barrio del Pilar (2019)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q840620",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for CDA Navalcarnero (2019–21)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q20278773",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for Unionistas de Salamanca CF (2021–23)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q743557",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for CD Castellón (2023–25)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  },
+  {
+    "id": "wd:Q116992476:P54:Q216661",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jesús de Miguel\": played for C.D. Tenerife (2025–26)",
+    "url": "https://www.wikidata.org/wiki/Q116992476#P54"
+  }
+]

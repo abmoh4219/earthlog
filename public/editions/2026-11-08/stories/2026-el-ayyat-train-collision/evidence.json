@@ -1,0 +1,150 @@
+[
+  {
+    "id": "wiki:2026-11-08:4",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-08T00:00:00Z",
+    "lon": 31.2118,
+    "lat": 29.987,
+    "label": "Disaster: A train derails near Giza, Egypt, killing seven people and wounding 125 more.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_8&oldid=1384616288",
+    "quote": "A train derails near Giza, Egypt, killing seven people and wounding 125 more.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/egypt-train-crash-giza-collision-cairo-injuries-4ad591268ce015d85ae302e22185b235"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:330ea679023f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Al Jazeera: Seven killed, 112 injured in train collision in Egypt (16:31 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt",
+    "quote": "Seven killed, 112 injured in train collision in Egypt",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:dfb7c585a474",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "The Guardian: Collision of two trains in Egypt kills at least seven (17:51 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+    "quote": "Collision of two trains in Egypt kills at least seven",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142086610:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Wikidata: \"2026 El Ayyat train collision\" is an instance of railway accident, train collision",
+    "url": "https://www.wikidata.org/wiki/Q142086610",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:c18c75ae9395",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Sky News: Seven dead and 114 injured in train crash near Cairo (14:55 UTC)",
+    "url": "https://news.sky.com/story/four-dead-and-88-injured-in-train-crash-near-cairo-13609748",
+    "quote": "Seven dead and 114 injured in train crash near Cairo",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:b07ef0816c7c",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "DW: Egypt train crash leaves several dead, many injured (16:49 UTC)",
+    "url": "https://www.dw.com/en/egypt-train-crash-leaves-several-dead-many-injured/a-79892916",
+    "quote": "Egypt train crash leaves several dead, many injured",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:1069919706c8",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "BBC News: Seven dead and more than 100 injured after trains collide in Egypt (19:58 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo",
+    "quote": "Seven dead and more than 100 injured after trains collide in Egypt",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384608661:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 El Ayyat train collision\" (revision of 2026-11-09 03:00 UTC)",
+    "quote": "On 8 November 2026, a train collision occurred in El Ayyat, Giza Governorate, Egypt.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_El_Ayyat_train_collision&oldid=1384608661"
+  },
+  {
+    "id": "wd:Q142086610:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 El Ayyat train collision\": date 8 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142086610#P585"
+  },
+  {
+    "id": "wd:Q142086610:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 El Ayyat train collision\": location El Ayyat",
+    "url": "https://www.wikidata.org/wiki/Q142086610#P276"
+  },
+  {
+    "id": "wd:Q142086610:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 El Ayyat train collision\": country Egypt",
+    "url": "https://www.wikidata.org/wiki/Q142086610#P17"
+  },
+  {
+    "id": "wiki:box:1384608661:fatalities",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 El Ayyat train collision\" (revision of 2026-11-09 03:00 UTC): fatalities: 7+",
+    "quote": "fatalities: 7+",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_El_Ayyat_train_collision&oldid=1384608661"
+  },
+  {
+    "id": "wiki:box:1384608661:injuries",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 El Ayyat train collision\" (revision of 2026-11-09 03:00 UTC): injuries: 125+",
+    "quote": "injuries: 125+",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_El_Ayyat_train_collision&oldid=1384608661"
+  },
+  {
+    "id": "wiki:investigation:1384608661:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 El Ayyat train collision\" (revision of 2026-11-09 03:00 UTC): investigation",
+    "quote": "President of Egypt, Abdel Fattah el-Sisi said he ordered an investigation to \"hold accountable anyone found to have been negligent\".",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_El_Ayyat_train_collision&oldid=1384608661"
+  }
+]

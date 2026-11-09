@@ -1,0 +1,252 @@
+[
+  {
+    "id": "news:france24:c83bf488fa4c",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "France 24: Israeli president officially tasks Eisenkot with forming government (09:47 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+    "quote": "Israeli president officially tasks Eisenkot with forming government",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:e6cc7419b188",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Al Jazeera: Will Eisenkot be able to form Israel’s next gov’t amid divided opposition? (11:34 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition",
+    "quote": "Will Eisenkot be able to form Israel’s next gov’t amid divided opposition?",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:fe43e4b6ce3d",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "The Guardian: Israel’s president picks Yashar leader Gadi Eisenkot to form government (14:26 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+    "quote": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:47e8dba46615",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "DW: Israel: Eisenkot officially tasked with forming a government (15:18 UTC)",
+    "url": "https://www.dw.com/en/israel-eisenkot-officially-tasked-with-forming-a-government/a-79891422",
+    "quote": "Israel: Eisenkot officially tasked with forming a government",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384509983:395",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Benjamin Netanyahu\" (revision of 2026-11-08 16:10 UTC)",
+    "quote": "On 3 November 2026, United States President Donald Trump announced that the United States would cease providing nearly 4 billion dollars in aid to Israel by December 2026, and that this had been proposed by Netanyahu.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Benjamin_Netanyahu&oldid=1384509983"
+  },
+  {
+    "id": "wiki:rev:1384509983:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Benjamin Netanyahu\" (revision of 2026-11-08 16:10 UTC)",
+    "quote": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as prime minister of Israel since 2022.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Benjamin_Netanyahu&oldid=1384509983"
+  },
+  {
+    "id": "views:en:Benjamin_Netanyahu:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Benjamin Netanyahu\", 10 October 2026 to 8 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Benjamin_Netanyahu&range=latest-30"
+  },
+  {
+    "id": "wd:Q43723:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": born 21 October 1949",
+    "url": "https://www.wikidata.org/wiki/Q43723#P569"
+  },
+  {
+    "id": "wd:Q43723:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": birthplace Tel Aviv",
+    "url": "https://www.wikidata.org/wiki/Q43723#P19"
+  },
+  {
+    "id": "wd:Q43723:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": occupation politician, diplomat",
+    "url": "https://www.wikidata.org/wiki/Q43723#P106"
+  },
+  {
+    "id": "wd:Q43723:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": citizenship Israel",
+    "url": "https://www.wikidata.org/wiki/Q43723#P27"
+  },
+  {
+    "id": "wd:Q43723:P69:Q5090207",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": educated at Cheltenham High School (1967)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P69"
+  },
+  {
+    "id": "wd:Q43723:P69:Q49108",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": educated at Massachusetts Institute of Technology (1972–75)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P69"
+  },
+  {
+    "id": "wd:Q43723:P69:Q142740",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": educated at MIT Sloan School of Management (1977)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P69"
+  },
+  {
+    "id": "wd:Q43723:P108:Q135635",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": worked for Boston Consulting Group (1976–78)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P108"
+  },
+  {
+    "id": "wd:Q43723:P551:Q2894040",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": lived in Beit Aghion",
+    "url": "https://www.wikidata.org/wiki/Q43723#P551"
+  },
+  {
+    "id": "wd:Q43723:P551:Q1615560",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": lived in Caesarea",
+    "url": "https://www.wikidata.org/wiki/Q43723#P551"
+  },
+  {
+    "id": "wd:Q43723:P551:Q1218",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": lived in Jerusalem",
+    "url": "https://www.wikidata.org/wiki/Q43723#P551"
+  },
+  {
+    "id": "wd:Q43723:P937:Q1218",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": worked in Jerusalem",
+    "url": "https://www.wikidata.org/wiki/Q43723#P937"
+  },
+  {
+    "id": "wd:Q43723:P166:Q12409316",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Jabotinsky Medal (1980)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q7018839",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Tzeltner Prize (1987)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q42293686",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: honorary doctor of the Bar-Ilan University (1988)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q6074664",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Irving Kristol Award (2015)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q22058319",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Grand Cross of the Order of the Southern Cross (2019)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P800:Q16133305",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": notable work: A Place Among the Nations",
+    "url": "https://www.wikidata.org/wiki/Q43723#P800"
+  },
+  {
+    "id": "wd:Q43723:P800:Q20502069",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": notable work: Fighting Terrorism",
+    "url": "https://www.wikidata.org/wiki/Q43723#P800"
+  },
+  {
+    "id": "wd:Q43723:P800:Q114244190",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": notable work: Bibi: My Story",
+    "url": "https://www.wikidata.org/wiki/Q43723#P800"
+  }
+]

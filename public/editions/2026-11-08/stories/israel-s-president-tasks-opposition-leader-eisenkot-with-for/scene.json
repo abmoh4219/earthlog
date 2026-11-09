@@ -1,0 +1,602 @@
+{
+  "version": 1,
+  "id": "story-2026-11-08-israel-s-president-tasks-opposition-leader-eisenkot-with-for",
+  "title": "Benjamin Netanyahu",
+  "subtitle": "People · 8 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-08T00:00:00Z",
+    "end": "2026-11-08T00:01:34Z"
+  },
+  "focus": "2026-11-08T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 25.21,
+    "south": 23.78,
+    "east": 45.21,
+    "north": 39.78
+  },
+  "imagery": {
+    "day": "2026-11-08",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-08T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-08T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "lon": 73.21000000000004,
+      "lat": 18.6555,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-08T00:00:04Z",
+      "lon": 35.21,
+      "lat": 31.0925,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:14Z",
+      "lon": 35.21,
+      "lat": 31.0925,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:23Z",
+      "lon": 35.21,
+      "lat": 31.0925,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:26Z",
+      "lon": 34.78,
+      "lat": 31.18,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:29Z",
+      "lon": 34.78,
+      "lat": 31.18,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:31Z",
+      "lon": 34.78,
+      "lat": 31.18,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:36Z",
+      "lon": -5.20229025580531,
+      "lat": 45.94743024640613,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:39Z",
+      "lon": -5.20229025580531,
+      "lat": 45.94743024640613,
+      "range": 19921847.303902317,
+      "heading": 11.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:43Z",
+      "lon": -5.20229025580531,
+      "lat": 45.94743024640613,
+      "range": 18040000,
+      "heading": 23.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:45Z",
+      "lon": -5.20229025580531,
+      "lat": 45.94743024640613,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:51Z",
+      "lon": -5.20229025580531,
+      "lat": 45.94743024640613,
+      "range": 19921847.303902317,
+      "heading": -13.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:57Z",
+      "lon": -5.20229025580531,
+      "lat": 45.94743024640613,
+      "range": 18040000,
+      "heading": -27.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:01Z",
+      "lon": 34.995350766382195,
+      "lat": 31.630181065555274,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:01:03Z",
+      "lon": 34.995350766382195,
+      "lat": 31.630181065555274,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:06Z",
+      "lon": 34.995350766382195,
+      "lat": 31.630181065555274,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:08Z",
+      "lon": 34.995350766382195,
+      "lat": 31.630181065555274,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:18Z",
+      "lon": 34.995350766382195,
+      "lat": 31.630181065555274,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:27Z",
+      "lon": 34.995350766382195,
+      "lat": 31.630181065555274,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:29Z",
+      "lon": 35.21,
+      "lat": 31.0925,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:30Z",
+      "lon": 35.21,
+      "lat": 31.0925,
+      "range": 2589840.149507301,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:31Z",
+      "lon": 35.21,
+      "lat": 31.0925,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:34Z",
+      "lon": 10.210000000000036,
+      "lat": 31.0925,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "text": "Israeli president officially tasks Eisenkot with forming government, France 24 reports.",
+      "cites": [
+        "news:france24:c83bf488fa4c"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:08Z",
+      "text": "On 3 November 2026, United States President Donald Trump announced that the United States would cease providing nearly 4 billion dollars in aid to Israel by December 2026, and that this had been proposed by Netanyahu.",
+      "cites": [
+        "wiki:rev:1384509983:395"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:16Z",
+      "text": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as prime minister of Israel since 2022.",
+      "cites": [
+        "wiki:rev:1384509983:0"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:24Z",
+      "text": "Benjamin Netanyahu was born on 21 October 1949 in Tel Aviv.",
+      "cites": [
+        "wd:Q43723:P569",
+        "wd:Q43723:P19"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:32Z",
+      "text": "Educated at Cheltenham High School, MIT Sloan School of Management and Massachusetts Institute of Technology.",
+      "cites": [
+        "wd:Q43723:P69:Q5090207",
+        "wd:Q43723:P69:Q142740",
+        "wd:Q43723:P69:Q49108"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:38Z",
+      "text": "Worked for Boston Consulting Group, in Jerusalem.",
+      "cites": [
+        "wd:Q43723:P108:Q135635",
+        "wd:Q43723:P937:Q1218"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:44Z",
+      "text": "5 awards on record, among them Irving Kristol Award (2015) and Grand Cross of the Order of the Southern Cross (2019).",
+      "cites": [
+        "wd:Q43723:P166:Q6074664",
+        "wd:Q43723:P166:Q22058319"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:51Z",
+      "text": "Known for A Place Among the Nations, Fighting Terrorism and Bibi: My Story.",
+      "cites": [
+        "wd:Q43723:P800:Q16133305",
+        "wd:Q43723:P800:Q20502069",
+        "wd:Q43723:P800:Q114244190"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:07Z",
+      "text": "France 24 headlined it: “Israeli president officially tasks Eisenkot with forming government”",
+      "cites": [
+        "news:france24:c83bf488fa4c"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:14Z",
+      "text": "Al Jazeera headlined it: “Will Eisenkot be able to form Israel’s next gov’t amid divided opposition?”",
+      "cites": [
+        "news:aljazeera:e6cc7419b188"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:21Z",
+      "text": "The Guardian headlined it: “Israel’s president picks Yashar leader Gadi Eisenkot to form government”",
+      "cites": [
+        "news:guardian:fe43e4b6ce3d"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:28Z",
+      "text": "Sources: France 24, Al Jazeera, The Guardian and DW, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384509983:395",
+        "views:en:Benjamin_Netanyahu:30d",
+        "wd:Q43723:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IL",
+    "lon": 35.21,
+    "lat": 31.78,
+    "label": "Jerusalem"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-08T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-08T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-08T00:00:43Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-08T00:00:57Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-08T00:01:06Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-08T00:01:27Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "kind": "facts",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "items": [
+        {
+          "label": "1949 born",
+          "text": "Tel Aviv",
+          "cites": [
+            "wd:Q43723:P19"
+          ]
+        },
+        {
+          "label": "1967",
+          "text": "Cheltenham High School",
+          "cites": [
+            "wd:Q43723:P69:Q5090207"
+          ]
+        },
+        {
+          "label": "1977",
+          "text": "MIT Sloan School of Management",
+          "cites": [
+            "wd:Q43723:P69:Q142740"
+          ]
+        },
+        {
+          "label": "1972–75",
+          "text": "Massachusetts Institute of Technology",
+          "cites": [
+            "wd:Q43723:P69:Q49108"
+          ]
+        },
+        {
+          "label": "1976–78",
+          "text": "Boston Consulting Group",
+          "cites": [
+            "wd:Q43723:P108:Q135635"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Beit Aghion",
+          "cites": [
+            "wd:Q43723:P551:Q2894040"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Caesarea",
+          "cites": [
+            "wd:Q43723:P551:Q1615560"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Jerusalem",
+          "cites": [
+            "wd:Q43723:P551:Q1218"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Jerusalem",
+          "cites": [
+            "wd:Q43723:P937:Q1218"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:00:33Z",
+      "until": "2026-11-08T00:00:43Z"
+    },
+    {
+      "id": "recognition",
+      "kind": "facts",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "items": [
+        {
+          "label": "1980",
+          "text": "Jabotinsky Medal",
+          "cites": [
+            "wd:Q43723:P166:Q12409316"
+          ]
+        },
+        {
+          "label": "1987",
+          "text": "Tzeltner Prize",
+          "cites": [
+            "wd:Q43723:P166:Q7018839"
+          ]
+        },
+        {
+          "label": "1988",
+          "text": "honorary doctor of the Bar-Ilan University",
+          "cites": [
+            "wd:Q43723:P166:Q42293686"
+          ]
+        },
+        {
+          "label": "2015",
+          "text": "Irving Kristol Award",
+          "cites": [
+            "wd:Q43723:P166:Q6074664"
+          ]
+        },
+        {
+          "label": "2019",
+          "text": "Grand Cross of the Order of the Southern Cross",
+          "cites": [
+            "wd:Q43723:P166:Q22058319"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "A Place Among the Nations",
+          "cites": [
+            "wd:Q43723:P800:Q16133305"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "Fighting Terrorism",
+          "cites": [
+            "wd:Q43723:P800:Q20502069"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "Bibi: My Story",
+          "cites": [
+            "wd:Q43723:P800:Q114244190"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:00:44Z",
+      "until": "2026-11-08T00:00:57Z"
+    },
+    {
+      "id": "coverage",
+      "kind": "facts",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+          "cites": [
+            "news:france24:c83bf488fa4c"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition",
+          "cites": [
+            "news:aljazeera:e6cc7419b188"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+          "cites": [
+            "news:guardian:fe43e4b6ce3d"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/israel-eisenkot-officially-tasked-with-forming-a-government/a-79891422",
+          "cites": [
+            "news:dw:47e8dba46615"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:01:07Z",
+      "until": "2026-11-08T00:01:27Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384509983:395"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Benjamin_Netanyahu:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q43723:P569"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:01:28Z",
+      "until": "2026-11-08T00:01:34Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:47:34Z"
+  }
+}

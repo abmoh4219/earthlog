@@ -1,0 +1,70 @@
+[
+  {
+    "id": "news:guardian:ec33d3f2667e",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "The Guardian: Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei (09:00 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+    "quote": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:3e9b7a430684",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Al Jazeera: President Milei welcomes Pope Leo during historic visit to Argentina (22:16 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina",
+    "quote": "President Milei welcomes Pope Leo during historic visit to Argentina",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:0e21f75a1391",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "France 24: Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all (22:23 UTC)",
+    "url": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei",
+    "quote": "Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383400664:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Economy of Argentina\" (revision of 2026-11-02 14:10 UTC)",
+    "quote": "The economy of Argentina is the second-largest in South America, behind Brazil.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Economy_of_Argentina&oldid=1383400664"
+  },
+  {
+    "id": "views:en:Economy_of_Argentina:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Economy of Argentina\", 10 October 2026 to 8 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Economy_of_Argentina&range=latest-30"
+  },
+  {
+    "id": "wd:Q1133618:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"economy of Argentina\": location Argentina",
+    "url": "https://www.wikidata.org/wiki/Q1133618#P276"
+  },
+  {
+    "id": "wd:Q1133618:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"economy of Argentina\": country Argentina",
+    "url": "https://www.wikidata.org/wiki/Q1133618#P17"
+  }
+]

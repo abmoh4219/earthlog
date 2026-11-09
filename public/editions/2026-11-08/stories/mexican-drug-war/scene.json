@@ -1,0 +1,447 @@
+{
+  "version": 1,
+  "id": "story-2026-11-08-mexican-drug-war",
+  "title": "Mexican drug war",
+  "subtitle": "Conflict · 8 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-08T00:00:00Z",
+    "end": "2026-11-08T00:01:19Z"
+  },
+  "focus": "2026-11-08T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -109.236,
+    "south": 11.303999999999998,
+    "east": -89.236,
+    "north": 27.304
+  },
+  "imagery": {
+    "day": "2026-11-08",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-08T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-08T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-08T00:00:55Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "lon": -61.23599999999999,
+      "lat": 11.169899999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-08T00:00:04Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:00:14Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:23Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:26Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:29Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:31Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:34Z",
+      "lon": -99.236,
+      "lat": 17.304,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:44Z",
+      "lon": -99.236,
+      "lat": 17.304,
+      "range": 1086646.2165764899,
+      "heading": -2,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:54Z",
+      "lon": -99.236,
+      "lat": 17.304,
+      "range": 983999.9999999999,
+      "heading": 12,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:00:57Z",
+      "lon": -101.30864830087891,
+      "lat": 19.722501625984634,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-08T00:01:00Z",
+      "lon": -101.30864830087891,
+      "lat": 19.722501625984634,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:03Z",
+      "lon": -101.30864830087891,
+      "lat": 19.722501625984634,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:06Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:09Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:11Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:14Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:15Z",
+      "lon": -99.236,
+      "lat": 18.6165,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-08T00:01:19Z",
+      "lon": -124.23599999999999,
+      "lat": 18.6165,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "text": "Mexican Navy personnel working with intelligence from the National Intelligence Center and the U.S. DEA, arrest Rafael Álvarez Ayala, the alleged leader of the Jalisco New Generation Cartel cell \"Los Rs\", in Zapopan…",
+      "cites": [
+        "wiki:2026-11-08:3"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:08Z",
+      "text": "In 1940, under president Lázaro Cárdenas and the direction of Mexican psychiatrist Leopoldo Salazar Viniegra, Mexico legalized all drugs…",
+      "cites": [
+        "wiki:rev:1384243123:19"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:16Z",
+      "text": "The Mexican drug war is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates.",
+      "cites": [
+        "wiki:rev:1384243123:0"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:24Z",
+      "text": "On the map: National Intelligence Centre, Mexico, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-08:3"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:32Z",
+      "text": "The article lists two sides: Mexico, Armed Forces, *; Mexican cartels:, Sinaloa Cartel, CJNG.",
+      "cites": [
+        "wiki:box:1384243123:side-1",
+        "wiki:box:1384243123:side-2"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:40Z",
+      "text": "Wikipedia lists it as ongoing.",
+      "cites": [
+        "wiki:box:1384243123:status"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:47Z",
+      "text": "Casualties, as Wikipedia records them from its sources: on one side, Total: 4,986 killed or missing; on the other, Total: 12,456 killed (2006–10 ).",
+      "cites": [
+        "wiki:box:1384243123:casualties-side-1-",
+        "wiki:box:1384243123:casualties-side-2-"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:00:55Z",
+      "text": "Also named in the reports: Zapopan.",
+      "cites": [
+        "wiki:2026-11-08:3"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:04Z",
+      "text": "Reported by Infobae {{small|in Spanish}} and El Financiero {{small|in Spanish}}.",
+      "cites": [
+        "wiki:2026-11-08:3"
+      ]
+    },
+    {
+      "t": "2026-11-08T00:01:12Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-08:3",
+        "wiki:rev:1384243123:19",
+        "views:en:Mexican_drug_war:30d",
+        "wd:Q475678:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "MX",
+    "lon": -99.236,
+    "lat": 19.304,
+    "label": "National Intelligence Centre"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-08T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-08T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-08T00:00:32Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-08T00:00:55Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-08T00:01:04Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-08T00:01:12Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "kind": "facts",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Mexico, Armed Forces, *",
+          "cites": [
+            "wiki:box:1384243123:side-1"
+          ]
+        },
+        {
+          "label": "Side 2",
+          "text": "Mexican cartels:, Sinaloa Cartel, CJNG",
+          "cites": [
+            "wiki:box:1384243123:side-2"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing",
+          "cites": [
+            "wiki:box:1384243123:status"
+          ]
+        },
+        {
+          "label": "Casualties (side 1)",
+          "text": "Total: 4,986 killed or missing",
+          "cites": [
+            "wiki:box:1384243123:casualties-side-1-"
+          ]
+        },
+        {
+          "label": "Casualties (side 2)",
+          "text": "Total: 12,456 killed (2006–10 )",
+          "cites": [
+            "wiki:box:1384243123:casualties-side-2-"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:00:33Z",
+      "until": "2026-11-08T00:00:55Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "Infobae {{small|in Spanish}}",
+          "text": "Open",
+          "url": "https://www.infobae.com/mexico/2026/11/08/tras-enfrentamiento-detienen-en-jalisco-a-rafael-n-alias-el-r2-cabecilla-de-los-rs-del-cjng/",
+          "cites": [
+            "wiki:2026-11-08:3"
+          ]
+        },
+        {
+          "label": "El Financiero {{small|in Spanish}}",
+          "text": "Open",
+          "url": "https://www.elfinanciero.com.mx/nacional/2026/11/08/detienen-a-r2-en-zapopan-lo-vinculan-con-el-asesinato-de-carlos-manzo/",
+          "cites": [
+            "wiki:2026-11-08:3"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:01:05Z",
+      "until": "2026-11-08T00:01:12Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-08:3"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384243123:19"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Mexican_drug_war:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q475678:P31"
+          ]
+        }
+      ],
+      "t": "2026-11-08T00:01:13Z",
+      "until": "2026-11-08T00:01:19Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:47:34Z"
+  }
+}

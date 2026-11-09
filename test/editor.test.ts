@@ -137,6 +137,10 @@ describe("the caption editor (real captions from the 6 November films)", () => {
       "Scott Winston Colom (born December 24, 1982) is a lawyer.",
     );
     expect(tidy("Ana Pérez () is a judge.")).toBe("Ana Pérez is a judge.");
+    expect(tidy("Dipavali (IAST: ), commonly known as Diwali, is a festival.")).toBe(
+      "Dipavali, commonly known as Diwali, is a festival.",
+    );
+    expect(tidy("The Thing (film: 1982) stays.")).toBe("The Thing (film: 1982) stays.");
     expect(tidy("Gadi Eisenkot (\u200f; born 19 May 1960) is a general.")).toBe(
       "Gadi Eisenkot (born 19 May 1960) is a general.",
     );

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "news:dw:34dff2f985d0",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "DW: Trump offers White House press secretary role to Dana White (19:46 UTC)",
+    "url": "https://www.dw.com/en/trump-offers-white-house-press-secretary-role-to-dana-white/a-79888119",
+    "quote": "Trump offers White House press secretary role to Dana White",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:b52c016d4787",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "France 24: 'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White (20:45 UTC)",
+    "url": "https://www.france24.com/en/americas/20261107-a-violent-fighter-and-warrior-trump-offers-press-secretary-role-to-ufc-chief-dana-white",
+    "quote": "'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384583281:104",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dana White\" (revision of 2026-11-09 00:19 UTC)",
+    "quote": "On November 7, 2026, President Trump offered White the role of White House Press Secretary in a Truth Social post, following Katie Zacharia's brief tenure at the post.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dana_White&oldid=1384583281"
+  },
+  {
+    "id": "wiki:rev:1384583281:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dana White\" (revision of 2026-11-09 00:19 UTC)",
+    "quote": "Dana Frederick White Jr. (born July 28, 1969) is an American businessman who is the president and chief executive officer (CEO) of the Ultimate Fighting Championship (UFC), a global mixed martial arts organization.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dana_White&oldid=1384583281"
+  },
+  {
+    "id": "views:en:Dana_White:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Dana White\", 9 October 2026 to 7 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Dana_White&range=latest-30"
+  },
+  {
+    "id": "wd:Q660297:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": born 29 July 1969",
+    "url": "https://www.wikidata.org/wiki/Q660297#P569"
+  },
+  {
+    "id": "wd:Q660297:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": birthplace Manchester",
+    "url": "https://www.wikidata.org/wiki/Q660297#P19"
+  },
+  {
+    "id": "wd:Q660297:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": occupation entrepreneur",
+    "url": "https://www.wikidata.org/wiki/Q660297#P106"
+  },
+  {
+    "id": "wd:Q660297:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q660297#P27"
+  },
+  {
+    "id": "wd:Q660297:P69:Q5742018",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": educated at Hermon High School",
+    "url": "https://www.wikidata.org/wiki/Q660297#P69"
+  },
+  {
+    "id": "wd:Q660297:P69:Q15144",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": educated at University of Massachusetts Boston",
+    "url": "https://www.wikidata.org/wiki/Q660297#P69"
+  },
+  {
+    "id": "wd:Q660297:P108:Q186471",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": worked for Ultimate Fighting Championship",
+    "url": "https://www.wikidata.org/wiki/Q660297#P108"
+  },
+  {
+    "id": "wd:Q660297:P551:Q23768",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dana White\": lived in Las Vegas",
+    "url": "https://www.wikidata.org/wiki/Q660297#P551"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "wiki:2026-11-07:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-07T00:00:00Z",
+    "lon": 44.20638889,
+    "lat": 15.34833333,
+    "label": "Conflict: Saudi airstrikes hit homes near Sanaa, Yemen, killing at least 27 people and wounding 36 others.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_7&oldid=1384478687",
+    "quote": "Saudi airstrikes hit homes near Sanaa, Yemen, killing at least 27 people and wounding 36 others.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6"
+      }
+    ]
+  },
+  {
+    "id": "news:sky:61cf379e31a6",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Sky News: At least 27 people killed in strike near Yemen's capital, Houthi official says (14:19 UTC)",
+    "url": "https://news.sky.com/story/at-least-27-people-killed-in-strike-near-yemens-capital-houthi-official-says-13609232",
+    "quote": "At least 27 people killed in strike near Yemen's capital, Houthi official says",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q20896823:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Wikidata: \"Houthi–Saudi Arabian conflict\" is an instance of border conflict",
+    "url": "https://www.wikidata.org/wiki/Q20896823",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384346591:225",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-07 20:57 UTC)",
+    "quote": "In October 2026, the United Arab Emirates (UAE) has decided to rejoin the Yemen conflict by starting to pay some government forces battling the Houthi group, aligned with Iran.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1384346591"
+  },
+  {
+    "id": "wiki:rev:1384346591:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-07 20:57 UTC)",
+    "quote": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1384346591"
+  },
+  {
+    "id": "views:en:Houthi–Saudi_conflict:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Houthi–Saudi conflict\", 9 October 2026 to 7 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Houthi%E2%80%93Saudi_conflict&range=latest-30"
+  },
+  {
+    "id": "wd:Q20896823:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthi–Saudi Arabian conflict\": date 2 April 2015",
+    "url": "https://www.wikidata.org/wiki/Q20896823#P585"
+  },
+  {
+    "id": "wd:Q20896823:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthi–Saudi Arabian conflict\": location Najran Province",
+    "url": "https://www.wikidata.org/wiki/Q20896823#P276"
+  },
+  {
+    "id": "wiki:week:1384346591:65",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-07 20:57 UTC): dated sentence",
+    "quote": "On 5 November, the Houthi missile was launched into the Saudi capital of Riyadh, which garnered worldwide media attention.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1384346591"
+  },
+  {
+    "id": "wiki:box:1384346591:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-07 20:57 UTC): side 1: Supreme Political Council (SPC)",
+    "quote": "Supreme Political Council (SPC)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1384346591"
+  },
+  {
+    "id": "wiki:box:1384346591:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-07 20:57 UTC): Status: Ongoing; Ceasefire declared on March 30, 2022; Escalation during the 2026 Iran War",
+    "quote": "Ongoing; Ceasefire declared on March 30, 2022; Escalation during the 2026 Iran War",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1384346591"
+  },
+  {
+    "id": "wiki:box:1384346591:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-07 20:57 UTC): Casualties: Thousands of Yemeni civilians killed and wounded, 500+ Saudi civilians killed",
+    "quote": "Thousands of Yemeni civilians killed and wounded, 500+ Saudi civilians killed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1384346591"
+  }
+]

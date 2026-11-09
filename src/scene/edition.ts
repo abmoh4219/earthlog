@@ -2,6 +2,7 @@
 // (ADR-0012). Shared by the edition builder (scripts/edition) and the site.
 import { z } from "zod";
 import { EvidenceId } from "./schema.ts";
+import { Topic } from "./topics.ts";
 
 export const LENSES = [
   "election",
@@ -80,8 +81,17 @@ export const EditionStory = z.object({
     })
     .optional(),
   continent: Continent.optional(),
-  /** 0–100 within the edition; see scripts/edition/build.ts for the formula. */
+  /** 0–100 within the edition: how newsworthy (src/scene/newsworthy.ts, ADR-0021). */
   heat: z.number().min(0).max(100),
+  /** Why it counts as news, in plain words ("Reported by 6 outlets from 3 regions"). */
+  why: z.array(z.string()).optional(),
+  /** The reader's topic, when the outlets' headlines give it (else it follows the lens). */
+  topic: Topic.optional(),
+  /**
+   * Found by the outlets alone: two or more reported it that day, but neither Wikipedia's
+   * Current events nor its most-read list had it (ADR-0021). Filmed from the headlines.
+   */
+  foundBy: z.literal("outlets").optional(),
   /** English Wikipedia readers that day, summed over the story's articles (if any). */
   readers: z.number().int().nonnegative().optional(),
   /** Readers that day ÷ the median of the previous days (if known). */
@@ -130,6 +140,11 @@ export const Edition = z.object({
   generatedAt: z.iso.datetime({ offset: false }),
   /** How many candidates were considered before ranking. */
   candidates: z.number().int().nonnegative(),
+  /**
+   * Whether Wikipedia's most-read list was in when it was built (absent in older editions:
+   * it was). Built without it, the next runs rebuild once it is published (ADR-0021).
+   */
+  mostRead: z.boolean().optional(),
   stories: z.array(EditionStory),
 });
 export type Edition = z.infer<typeof Edition>;

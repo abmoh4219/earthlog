@@ -53,8 +53,9 @@ Any film **exports as a video clip** (landscape or vertical) with captions and s
 
 ```
 every night (GitHub Action):
-  what the news reported (Wikipedia Current events) + what the world read (Wikipedia most-read)
-  → stories, typed via Wikidata into a lens, ranked by heat, balanced across continents
+  what the news reported (eight outlets' headlines + Wikipedia Current events),
+  + what the world read (Wikipedia most-read, a bonus when published)
+  → stories, typed via Wikidata into a lens, ranked by newsworthiness, balanced across continents
   → each lens bakes free public data (Wikidata, World Bank, USGS, IODA, NASA, terrain tiles…)
   → a film per story (template), optionally directed by Claude, validated, committed
 every visitor, free:
@@ -87,7 +88,7 @@ pnpm validate:scenes              # every sentence must cite real evidence
 
 1. Import the repository on [Vercel](https://vercel.com/new) (framework: Next.js; no environment variables needed for the site).
 2. In GitHub → Settings → Secrets and variables → Actions, add `ANTHROPIC_API_KEY` (optional; without it, films keep their template narration).
-3. GitHub → Actions → **Nightly edition** → *Run workflow* once. From then on it runs every night at 04:30 UTC and each commit deploys.
+3. GitHub → Actions → **Nightly edition** → *Run workflow* once. From then on it runs every night at 00:40 UTC and each commit deploys.
 4. Set `NEXT_PUBLIC_SITE_URL` on Vercel if you use your own domain.
 
 ## Data credits

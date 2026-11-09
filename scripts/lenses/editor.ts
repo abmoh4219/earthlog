@@ -80,6 +80,8 @@ export function tidy(text: string): string {
       .replace(/\s+/g, " ")
       // Wikipedia's stripped pronunciation guides leave "(; born …)" or "()".
       .replace(/\(\s*[;,]\s*/g, "(")
+      // …or a label with nothing after it: "Dipavali (IAST: )", "(Hindi: ; lit. )".
+      .replace(/\s*\((?:\s*[\p{L}. ]{1,24}:\s*[;,]?)+\s*\)/gu, "")
       .replace(/\s*\(\s*\)/g, "")
       .replace(/\s+([,.;:!?])/g, "$1")
       .replace(/([^.])\.\.(?!\.)/g, "$1.")

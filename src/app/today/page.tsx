@@ -31,6 +31,7 @@ export default async function Today() {
       slug: s.slug,
       title: s.title,
       headline: s.headline ?? s.summary,
+      ...(s.why ? { why: s.why } : {}),
       color: lens.color,
       lensLabel: lens.label,
       heat: s.heat,

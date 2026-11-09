@@ -4,9 +4,12 @@ import { describe, expect, it } from "vitest";
 import { z } from "zod";
 import {
   acceptArticle,
+  acceptNamed,
   cleanLead,
+  isPersonLead,
   isRegionLead,
   matchFilms,
+  searchQueries,
   searchTerms,
 } from "../scripts/news/context";
 import { type Gazetteer, makePlacer } from "../scripts/news/place";
@@ -145,5 +148,78 @@ describe("links to Earthlog films", () => {
       placer,
     );
     expect(films.size).toBe(0);
+  });
+});
+
+describe("searching for a story's article by its names (real headlines, 8 November)", () => {
+  const qs = (h: string) => searchQueries([h]).map((q) => `${q.kind}:${q.q}`);
+
+  it("searches the subject a headline names before its colon, not kind labels", () => {
+    expect(qs("Ebola: Why is there still no vaccine?")[0]).toBe("label:Ebola");
+    expect(qs("Diwali: Over one billion people mark victory of light over darkness")[0]).toBe(
+      "label:Diwali",
+    );
+    expect(qs("Middle East live: Israel strikes Gaza").some((q) => q.startsWith("label:"))).toBe(
+      false,
+    );
+  });
+
+  it("searches people and things by their names, never an outlet's", () => {
+    expect(qs("Russell Brand case must be wake-up call, Lisa Nandy says").slice(0, 2)).toEqual([
+      "name:Russell Brand",
+      "name:Lisa Nandy",
+    ]);
+    expect(qs("Al Jazeera tries Baseball5 at Youth Olympics")).not.toContain("name:Al Jazeera");
+    // An everyday opener is no name; a name that opens the headline is tried, last.
+    expect(qs("After the midterms, where does the Republican Party stand?")).toContain(
+      "name:Republican Party",
+    );
+    expect(qs("After the midterms, where does the Republican Party stand?")).not.toContain(
+      "first:After",
+    );
+    expect(qs("Messi becomes first player to win back-to-back MLS Golden Boot awards")).toContain(
+      "first:Messi",
+    );
+  });
+
+  it("finds a COP climate summit by its number (none met in 2020)", () => {
+    expect(qs("Cop31 must deliver climate progress, host says")[0]).toBe(
+      "cop:2026 United Nations Climate Change Conference",
+    );
+    expect(qs("What COP25 left undone")[0]).toBe(
+      "cop:2019 United Nations Climate Change Conference",
+    );
+  });
+
+  it("accepts a full name from a surname, and the subject from a label, top result only", () => {
+    expect(acceptNamed("Lionel Messi", { q: "Messi", kind: "first" }, 0, placer)).toBe(true);
+    expect(acceptNamed("Lionel Messi", { q: "Messi", kind: "first" }, 1, placer)).toBe(false);
+    expect(acceptNamed("Ebola disease", { q: "Ebola", kind: "label" }, 0, placer)).toBe(true);
+    expect(acceptNamed("Poland", { q: "Poland", kind: "label" }, 0, placer)).toBe(false);
+    expect(acceptNamed("Gaza Strip", { q: "Gaza", kind: "name" }, 0, placer)).toBe(false);
+  });
+
+  it("knows a person's lead, and a country aside", () => {
+    expect(
+      isPersonLead("Lionel Andrés Messi (born 24 June 1987) is an Argentine footballer."),
+    ).toBe(true);
+    expect(isPersonLead("The MLS Golden Boot is an annual award.")).toBe(false);
+    expect(
+      acceptArticle(
+        "Republican Party (United States)",
+        ["After the midterms, where does the Republican Party stand?"],
+        placer,
+      ),
+    ).toBe(true);
+    expect(
+      acceptArticle(
+        "Europe, Europe",
+        ["G7 ministers meet as Europe seeks greater say in Ukraine peace talks"],
+        placer,
+      ),
+    ).toBe(false);
+    expect(cleanLead("Dipavali, commonly known as Diwali (), is the Hindu festival.")).toBe(
+      "Dipavali, commonly known as Diwali, is the Hindu festival.",
+    );
   });
 });

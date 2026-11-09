@@ -26,7 +26,8 @@ Earthlog's unit is the **story**, not the feed. Everything below serves one pipe
   - **drop noise:** lists and specials, and pages read no more than ~2.5× their normal level that no news mentions;
   - **fold** an article into a hotter story that links to it (candidates into their election, the aircraft model into its crash);
   - **type** via Wikidata P31 (`scripts/edition/lens.ts`), **place** via the news place, the article's coordinates, a recent death place, headquarters, or the country;
-  - **heat** = log(readers) × (1 + log₂(spike)/10) + reported-news weight + a recent-death bonus, scaled to 0–100;
+  - **found by the outlets:** stories two or more outlets reported that day that neither Wikipedia list had join too, filmed from their headlines (ADR-0021);
+  - **heat** = newsworthiness (`src/scene/newsworthy.ts`, ADR-0021): outlets, their regions, speed, follow-ups, the people the headlines count, Current events or an event article; readers only as a bonus. Scaled to 0–100, with each story's reasons in plain words (`why`). The most-read list is never waited for;
   - **pick** about 14: hottest first, at most 3 per lens, then the best story of every continent not yet covered.
 - **Films:** `pnpm stories [date] [slug]` films each story of an edition with its lens into `public/editions/<date>/stories/<slug>/` (a normal bundle: scene, evidence, sources, data). `scripts/stories.ts` maps lenses to film functions; a kind of story without its own lens uses `general`.
 - **"What happened" opens every film, whatever the lens** (`scripts/lenses/news-context.ts`): the Current events item if there is one, else the sentences in the story's article that say what happened around the edition day (dated within ten days, or added by editors since three days before, found by comparing revisions), told in time order, then who or what this is. Every sentence is quoted and cited to the exact revision. How many people read about it comes later, as a side note.

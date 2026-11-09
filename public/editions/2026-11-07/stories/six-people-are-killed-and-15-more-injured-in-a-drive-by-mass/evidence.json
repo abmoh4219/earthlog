@@ -1,0 +1,136 @@
+[
+  {
+    "id": "wiki:2026-11-07:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-07T00:00:00Z",
+    "lon": 19.93722222,
+    "lat": 50.06138889,
+    "label": "Conflict: Six people are killed and 15 more injured in a drive-by mass shooting in the center of Kraków, Poland. The perpetrator, who also killed his parents and his sister at their home in Ostrowiec Świętokrzyski, is wounded by police and arrested.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_7&oldid=1384478687",
+    "quote": "Six people are killed and 15 more injured in a drive-by mass shooting in the center of Kraków, Poland. The perpetrator, who also killed his parents and his sister at their home in Ostrowiec Świętokrzyski, is wounded by police and arrested.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/two-kiled-least-10-injured-shooting-polish-city-krakow-tvn24-reports-2026-11-07/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q142077465:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Wikidata: \"2026 Kraków shooting\" is an instance of mass shooting, drive-by shooting, spree killing, shootout, familicide, mass murder",
+    "url": "https://www.wikidata.org/wiki/Q142077465",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:1be42ae6d9cc",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "DW: Poland: Gunman kills 6 in Krakow main square, police say (21:34 UTC)",
+    "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489",
+    "quote": "Poland: Gunman kills 6 in Krakow main square, police say",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:dc06bdec4f54",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "France 24: Gunman kills six in Krakow, three more bodies found at his house (22:47 UTC)",
+    "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+    "quote": "Gunman kills six in Krakow, three more bodies found at his house",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384611689:5",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-09 03:26 UTC)",
+    "quote": "On 7 November 2026, around 15:00 CET, a black Subaru hatchback with an Ostrowiec Świętokrzyski license plate drove into the Main Square in Kraków.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1384611689"
+  },
+  {
+    "id": "wiki:rev:1384611689:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-09 03:26 UTC)",
+    "quote": "On 7 November 2026, a mass shooting occurred at the Main Square in Kraków, Poland.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1384611689"
+  },
+  {
+    "id": "wd:Q142077465:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": date 7 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P585"
+  },
+  {
+    "id": "wd:Q142077465:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": location Old town Market Square in Krakow",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P276"
+  },
+  {
+    "id": "wd:Q142077465:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": country Poland",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P17"
+  },
+  {
+    "id": "wiki:week:1384611689:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-09 03:26 UTC): dated sentence",
+    "quote": "On 7 November 2026, a mass shooting occurred at the Main Square in Kraków, Poland.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1384611689"
+  },
+  {
+    "id": "wiki:week:1384611689:5",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-09 03:26 UTC): dated sentence",
+    "quote": "On 7 November 2026, around 15:00 CET, a black Subaru hatchback with an Ostrowiec Świętokrzyski license plate drove into the Main Square in Kraków.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1384611689"
+  },
+  {
+    "id": "wiki:box:1384611689:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-09 03:26 UTC): Casualties: 9",
+    "quote": "9",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1384611689"
+  },
+  {
+    "id": "wiki:box:1384611689:injured",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-09 03:26 UTC): Injured: 16 (including the suspect)",
+    "quote": "16 (including the suspect)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1384611689"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "news:bbc:c006246eca07",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "BBC News: Pope in 'pretty good health' as he starts Latin America tour (06:59 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo",
+    "quote": "Pope in 'pretty good health' as he starts Latin America tour",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:b99e56f205f7",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Sky News: Thousands turn out to greet Pope Leo as he begins Latin America tour (12:02 UTC)",
+    "url": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186",
+    "quote": "Thousands turn out to greet Pope Leo as he begins Latin America tour",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384117411:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pope Leo X\" (revision of 2026-11-06 18:02 UTC)",
+    "quote": "Pope Leo X (; born Giovanni di Lorenzo de' Medici, 11 December 14751 December 1521) was head of the Catholic Church and leader of the Papal States from 9 March 1513 to his death in December 1521.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pope_Leo_X&oldid=1384117411"
+  },
+  {
+    "id": "views:en:Pope_Leo_X:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Pope Leo X\", 9 October 2026 to 7 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Pope_Leo_X&range=latest-30"
+  },
+  {
+    "id": "wd:Q49237:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": born 11 December 1475",
+    "url": "https://www.wikidata.org/wiki/Q49237#P569"
+  },
+  {
+    "id": "wd:Q49237:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": birthplace Florence",
+    "url": "https://www.wikidata.org/wiki/Q49237#P19"
+  },
+  {
+    "id": "wd:Q49237:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": died 1 December 1521",
+    "url": "https://www.wikidata.org/wiki/Q49237#P570"
+  },
+  {
+    "id": "wd:Q49237:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": place of death Rome",
+    "url": "https://www.wikidata.org/wiki/Q49237#P20"
+  },
+  {
+    "id": "wd:Q49237:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": occupation Latin Catholic priest, Catholic priest",
+    "url": "https://www.wikidata.org/wiki/Q49237#P106"
+  },
+  {
+    "id": "wd:Q49237:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": citizenship Papal States",
+    "url": "https://www.wikidata.org/wiki/Q49237#P27"
+  },
+  {
+    "id": "wd:Q49237:P69:Q645663",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": educated at University of Pisa",
+    "url": "https://www.wikidata.org/wiki/Q49237#P69"
+  },
+  {
+    "id": "wd:Q49237:P937:Q220",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": worked in Rome",
+    "url": "https://www.wikidata.org/wiki/Q49237#P937"
+  },
+  {
+    "id": "wd:Q49237:P937:Q170174",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": worked in Papal States",
+    "url": "https://www.wikidata.org/wiki/Q49237#P937"
+  },
+  {
+    "id": "wd:Q49237:P937:Q13375",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Leo X\": worked in Pisa",
+    "url": "https://www.wikidata.org/wiki/Q49237#P937"
+  }
+]

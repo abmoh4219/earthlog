@@ -1,0 +1,219 @@
+[
+  {
+    "id": "wiki:2026-11-07:7",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-07T00:00:00Z",
+    "lon": 35.20527778,
+    "lat": 31.77666667,
+    "label": "Politics: Israeli president Isaac Herzog selects Yashar party leader Gadi Eisenkot to attempt to form a coalition government following inconclusive Knesset elections. Eisenkot will have 28 days to secure sufficient support in the Knesset.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_7&oldid=1384478687",
+    "quote": "Israeli president Isaac Herzog selects Yashar party leader Gadi Eisenkot to attempt to form a coalition government following inconclusive Knesset elections. Eisenkot will have 28 days to secure sufficient support in the Knesset.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "ABC News Australia",
+        "url": "https://www.abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472"
+      },
+      {
+        "name": "AFP via The Korea Herald",
+        "url": "https://www.koreaherald.com/article/10929589"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:1dfc2b75eb80",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "DW: Israeli president tasks Gadi Eisenkot with forming government (19:56 UTC)",
+    "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288",
+    "quote": "Israeli president tasks Gadi Eisenkot with forming government",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:0fd700b21f78",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "BBC News: Israel's president tasks opposition leader Eisenkot with forming government (22:19 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo",
+    "quote": "Israel's president tasks opposition leader Eisenkot with forming government",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q115632366:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Wikidata: \"2026 Israeli legislative election\" is an instance of Israeli legislative election",
+    "url": "https://www.wikidata.org/wiki/Q115632366",
+    "precision": "day"
+  },
+  {
+    "id": "news:npr:193d985bb4f1",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "NPR: Israel's president taps opposition candidate, not Netanyahu, to form a government (20:18 UTC)",
+    "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+    "quote": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384575050:118",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC)",
+    "quote": "On 8 November, Herzog officially presented the mandate to Eisenkot and tasked him to form a new government.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "wiki:rev:1384575050:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC)",
+    "quote": "Legislative elections were held in Israel on 27 October 2026 to elect the 120 members of the 26th Knesset and determine the governing coalition that succeeds the 37th government led by Prime Minister Benjamin Netanyahu.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "views:en:2026_Israeli_legislative_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Israeli legislative election\", 9 October 2026 to 7 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Israeli_legislative_election&range=latest-30"
+  },
+  {
+    "id": "wd:Q115632366:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Israeli legislative election\": date 27 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q115632366#P585"
+  },
+  {
+    "id": "wd:Q115632366:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Israeli legislative election\": country Israel",
+    "url": "https://www.wikidata.org/wiki/Q115632366#P17"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party1",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Likud (Benjamin Netanyahu): 27 seats, 20.51% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party2",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Yashar (Gadi Eisenkot): 21 seats, 16.05% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party3",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Together (Israel) (Naftali Bennett): 12 seats, 9.35% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party4",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Joint List (Yousef Jabareen): 11 seats, 8.8% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party5",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Democrats (Yair Golan): 8 seats, 6.44% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party6",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Ra'am (Mansour Abbas): 8 seats, 5.93% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party7",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Yisrael Beiteinu (Avigdor Lieberman): 7 seats, 5.93% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party8",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Otzma Yehudit (Itamar Ben-Gvir): 7 seats, 5.74% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party9",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): United Torah Judaism (Ya'akov Asher): 7 seats, 5.49% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party10",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): Shas (Aryeh Deri): 6 seats, 5.26% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:party11",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): RZP–Zehut (Bezalel Smotrich): 6 seats, 5.11% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  },
+  {
+    "id": "elex:2026-israeli-legislative-election:summary",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Israeli legislative election\" (revision of 2026-11-08 23:20 UTC): All 120 seats in the Knesset; 61 for a majority; turnout 77.98%",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Israeli_legislative_election&oldid=1384575050"
+  }
+]

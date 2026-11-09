@@ -23,6 +23,11 @@ export interface NowStory {
 }
 
 /** Stories with at least one headline in the window, hottest first; optionally one topic. */
+/** Whether a story belongs on Now: it has a film, or two or more outlets told it. */
+export function worthListing(cluster: Cluster): boolean {
+  return cluster.nowFilm === true || cluster.outlets.length >= 2;
+}
+
 export function storiesIn(
   file: NowFile,
   window: NowWindow,
@@ -33,6 +38,10 @@ export function storiesIn(
   const since = now - HOURS[window] * HOUR;
   const picked = file.clusters.flatMap((cluster) => {
     if (topic && cluster.topic !== topic) return [];
+    // Earthlog lists what it can explain or what the newsrooms agree on (ADR-0021): a story
+    // with a film, or one told by two or more outlets. A lone report with nothing to explain
+    // (an opinion piece, a feature) stays in the data, for editions to credit, but not here.
+    if (!worthListing(cluster)) return [];
     const all = cluster.headlines.flatMap((id) => byId.get(id) ?? []);
     const inside = all.filter((h) => Date.parse(h.t) >= since && Date.parse(h.t) <= now);
     if (!inside.length) return [];

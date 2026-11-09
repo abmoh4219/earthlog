@@ -1,0 +1,151 @@
+[
+  {
+    "id": "wiki:2026-11-07:8",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Politics: New Zealanders vote to elect 120 members of the House of Representatives, with 11 additional overhang seats. National leader Christopher Luxon and Labour leader Chris Hipkins both seek reappointment as the country's prime minister. Preliminary results see Labour lead in the popular vote and the Nationals having the most amount of seats, with special votes yet to be counted.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_7&oldid=1384478687",
+    "quote": "New Zealanders vote to elect 120 members of the House of Representatives, with 11 additional overhang seats. National leader Christopher Luxon and Labour leader Chris Hipkins both seek reappointment as the country's prime minister. Preliminary results see Labour lead in the popular vote and the Nationals having the most amount of seats, with special votes yet to be counted.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/new-zealand-election-results-luxon-hipkins-voting-8c1728ae2533201f68d5a5e75fc9e907"
+      },
+      {
+        "name": "RNZ",
+        "url": "https://www.rnz.co.nz/news/politics_election-2026/2420113/too-close-to-call-wait-begins-for-special-votes-after-cliffhanger-election-night"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q104843407:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "label": "Wikidata: \"2026 New Zealand general election\" is an instance of future election, New Zealand general election",
+    "url": "https://www.wikidata.org/wiki/Q104843407",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384597913:82",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC)",
+    "quote": "On 21 January 2026, Prime Minister Christopher Luxon announced that the election will be held on 7 November 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "wiki:rev:1384597913:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC)",
+    "quote": "The 2026 New Zealand general election was held on 7 November 2026 to determine the composition of the 55th Parliament of New Zealand.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "views:en:2026_New_Zealand_general_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 New Zealand general election\", 9 October 2026 to 7 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_New_Zealand_general_election&range=latest-30"
+  },
+  {
+    "id": "wd:Q104843407:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 New Zealand general election\": date 7 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q104843407#P585"
+  },
+  {
+    "id": "wd:Q104843407:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 New Zealand general election\": country New Zealand",
+    "url": "https://www.wikidata.org/wiki/Q104843407#P17"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:party1",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): New Zealand National Party (Christopher Luxon): 42 seats, 29.21% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:party2",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): New Zealand Labour Party (Chris Hipkins): 36 seats, 29.36% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:party3",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): Green Party of Aotearoa New Zealand (Marama Davidson& Chlöe Swarbrick): 16 seats, 13.3% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:party4",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): ACT New Zealand (David Seymour): 13 seats, 10.92% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:party5",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): New Zealand First (Winston Peters): 12 seats, 9.78% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:party6",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): Opportunity Party (New Zealand) (Qiulae Wong): 7 seats, 5.96% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:party7",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): Te Pāti Māori (Debbie Ngarewa-Packer& Rawiri Waititi): 5 seats, 0.56% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  },
+  {
+    "id": "elex:2026-new-zealand-general-election:summary",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-07T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New Zealand general election\" (revision of 2026-11-09 01:54 UTC): All 131 seats in the House of Representatives, including 11 overhang seats.66 seats needed for a majority; as of 1:46 PM, 8 November 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_Zealand_general_election&oldid=1384597913"
+  }
+]

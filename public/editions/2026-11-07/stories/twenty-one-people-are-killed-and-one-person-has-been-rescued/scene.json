@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "id": "story-2026-11-07-twenty-one-people-are-killed-and-one-person-has-been-rescued",
+  "title": "Twenty-one people are killed and one person has been rescued after a migrant…",
+  "subtitle": "Accident · 7 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-07T00:00:00Z",
+    "end": "2026-11-07T00:00:33Z"
+  },
+  "focus": "2026-11-07T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -24.78,
+    "south": 7.140000000000001,
+    "east": -4.779999999999999,
+    "north": 23.14
+  },
+  "imagery": {
+    "day": "2026-11-07",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-07T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-07T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": 23.220000000000027,
+      "lat": 7.809,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-07T00:00:04Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:07Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:09Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:12Z",
+      "lon": -14.78,
+      "lat": 15.14,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:15Z",
+      "lon": -14.78,
+      "lat": 15.14,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:17Z",
+      "lon": -14.78,
+      "lat": 15.14,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:20Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:23Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:25Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:28Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:29Z",
+      "lon": -14.78,
+      "lat": 13.015,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:33Z",
+      "lon": -39.77999999999997,
+      "lat": 13.015,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "text": "Twenty-one people are killed and one person has been rescued after a migrant boat sinks off the coast of Kebemer, Senegal.",
+      "cites": [
+        "wiki:2026-11-07:5"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:10Z",
+      "text": "On the map: Senegal, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-07:5"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:18Z",
+      "text": "Reported by Xinhua.",
+      "cites": [
+        "wiki:2026-11-07:5"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "text": "Sources: Wikipedia, Current events. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-07:5"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "SN",
+    "lon": -14.78,
+    "lat": 15.14,
+    "label": "Senegal"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-07T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-07T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "Xinhua",
+          "text": "Open",
+          "url": "https://english.news.cn/20261108/b421ddd6df0c45a7aff62b629f9a3581/c.html",
+          "cites": [
+            "wiki:2026-11-07:5"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:19Z",
+      "until": "2026-11-07T00:00:26Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-07:5"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:27Z",
+      "until": "2026-11-07T00:00:33Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:44:39Z"
+  }
+}

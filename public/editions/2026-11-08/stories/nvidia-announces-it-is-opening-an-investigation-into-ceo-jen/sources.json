@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia, Current events",
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Wikipedia contributors",
+    "retrievedAt": "2026-11-09T04:47:34Z"
+  },
+  {
+    "id": "wikidata",
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "license": "CC0 1.0",
+    "attribution": "Wikidata contributors",
+    "retrievedAt": "2026-11-09T04:47:34Z"
+  },
+  {
+    "id": "worldbank",
+    "name": "World Bank Open Data (World Development Indicators)",
+    "url": "https://data.worldbank.org/",
+    "license": "CC BY 4.0 (https://datacatalog.worldbank.org/public-licenses)",
+    "attribution": "World Bank",
+    "retrievedAt": "2026-11-09T04:47:34Z"
+  },
+  {
+    "id": "outlet:sky",
+    "name": "Sky News",
+    "url": "https://news.sky.com/world",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "Sky News",
+    "retrievedAt": "2026-11-09T04:47:18Z"
+  },
+  {
+    "id": "outlet:aljazeera",
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "Al Jazeera",
+    "retrievedAt": "2026-11-09T04:47:18Z"
+  },
+  {
+    "id": "outlet:france24",
+    "name": "France 24",
+    "url": "https://www.france24.com/en/",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "France 24",
+    "retrievedAt": "2026-11-09T04:47:18Z"
+  },
+  {
+    "id": "outlet:dw",
+    "name": "DW",
+    "url": "https://www.dw.com/en",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "DW",
+    "retrievedAt": "2026-11-09T04:47:18Z"
+  }
+]

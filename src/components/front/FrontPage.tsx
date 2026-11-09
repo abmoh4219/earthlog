@@ -9,6 +9,8 @@ import type { FrontGlobe, FrontStory } from "@/globe/front";
 export interface RailStory extends FrontStory {
   lensLabel: string;
   headline: string;
+  /** Why it made the edition, in plain words (ADR-0021). */
+  why?: string[];
   hasFilm: boolean;
   placed: boolean;
 }
@@ -147,6 +149,9 @@ export function FrontPage({
             </span>
             <h2 className="mt-2 font-serif text-2xl leading-snug text-moon">{current.title}</h2>
             <p className="mt-1 line-clamp-2 text-sm text-dust/70">{current.headline}</p>
+            {current.why && current.why.length > 0 && (
+              <p className="mt-2 text-xs text-dust/50">{current.why.slice(0, 3).join(" · ")}</p>
+            )}
             {current.hasFilm && (
               <Link
                 href={filmHref(current.slug)}

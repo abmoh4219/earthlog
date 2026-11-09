@@ -1,0 +1,108 @@
+[
+  {
+    "id": "news:france24:26fab0b94fb6",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "France 24: Spain's Alcaraz beats error-prone Shelton to win Paris Masters for first time (16:31 UTC)",
+    "url": "https://www.france24.com/en/sport/20261108-spain-s-alcaraz-beats-error-prone-shelton-to-win-paris-masters-for-first-time",
+    "quote": "Spain's Alcaraz beats error-prone Shelton to win Paris Masters for first time",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:09638caa2944",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-08T00:00:00Z",
+    "label": "Al Jazeera: Carlos Alcaraz beats Ben Shelton to win Paris Masters tennis title (18:22 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/8/carlos-alcaraz-beats-ben-shelton-to-win-paris-masters-tennis-title",
+    "quote": "Carlos Alcaraz beats Ben Shelton to win Paris Masters tennis title",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384560457:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Paris Masters\" (revision of 2026-11-08 21:37 UTC)",
+    "quote": "The Paris Masters, known as the Rolex Paris Masters for sponsorship reasons (formerly the BNP Paribas Masters, Paris Open), is an annual indoor tennis tournament for male professional players held in Nanterre, France, a western suburb of Paris, at La Défense Arena, and is held in early November.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Paris_Masters&oldid=1384560457"
+  },
+  {
+    "id": "views:en:Paris_Masters:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Paris Masters\", 10 October 2026 to 8 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Paris_Masters&range=latest-30"
+  },
+  {
+    "id": "wd:Q1230166:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Paris Masters\": location Plenitude Arena",
+    "url": "https://www.wikidata.org/wiki/Q1230166#P276"
+  },
+  {
+    "id": "wd:Q1230166:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Paris Masters\": founded 1969",
+    "url": "https://www.wikidata.org/wiki/Q1230166#P571"
+  },
+  {
+    "id": "wd:Q1230166:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Paris Masters\": sport tennis",
+    "url": "https://www.wikidata.org/wiki/Q1230166#P641"
+  },
+  {
+    "id": "wd:Q1230166:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Paris Masters\": country France",
+    "url": "https://www.wikidata.org/wiki/Q1230166#P17"
+  },
+  {
+    "id": "wiki:box:1384560457:prize",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Paris Masters\" infobox (revision of 2026-11-08 21:37 UTC): prize: (2026)",
+    "quote": "prize: (2026)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Paris_Masters&oldid=1384560457"
+  },
+  {
+    "id": "wiki:box:1384560457:host-country",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Paris Masters\" infobox (revision of 2026-11-08 21:37 UTC): host country: France",
+    "quote": "host country: France",
+    "url": "https://en.wikipedia.org/w/index.php?title=Paris_Masters&oldid=1384560457"
+  },
+  {
+    "id": "wiki:box:1384560457:venue",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-08T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Paris Masters\" infobox (revision of 2026-11-08 21:37 UTC): venue: Stade Pierre de Coubertin (1969–1982) , Accor Arena (1986–2024) , La Défense Arena (2025–)",
+    "quote": "venue: Stade Pierre de Coubertin (1969–1982) , Accor Arena (1986–2024) , La Défense Arena (2025–)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Paris_Masters&oldid=1384560457"
+  }
+]

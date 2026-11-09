@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "id": "story-2026-11-07-meghan-s-father-thomas-markle-under-house-arrest-after-child",
+  "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+  "subtitle": "Law and crime · 7 November 2026 · headline from BBC News",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-07T00:00:00Z",
+    "end": "2026-11-07T00:00:39Z"
+  },
+  "focus": "2026-11-07T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-07",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": 48,
+      "lat": 15,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-07T00:00:04Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:10Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 27890586.225463238,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:15Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 25255999.999999996,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:18Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": -12,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:25Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 29542322.18360635,
+      "heading": -10,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:31Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 28335999.999999996,
+      "heading": -8,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:34Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 52800000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:35Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 43296000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:39Z",
+      "lon": -15,
+      "lat": 25,
+      "range": 129888000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "text": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge, BBC News reports.",
+      "cites": [
+        "news:bbc:49308f565866"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:08Z",
+      "text": "Also reported by Sky News.",
+      "cites": [
+        "news:sky:7001648dac94"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:16Z",
+      "text": "Sky News headlined it: “Meghan's father in court charged with possessing child abuse material”",
+      "cites": [
+        "news:sky:7001648dac94"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "text": "BBC News headlined it: “Meghan's father Thomas Markle under house arrest after child sex abuse material charge”",
+      "cites": [
+        "news:bbc:49308f565866"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "text": "Sources: Sky News and BBC News. Every caption links to the evidence it rests on.",
+      "cites": [
+        "news:sky:7001648dac94",
+        "news:bbc:49308f565866"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-07T00:00:16Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "kind": "facts",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "items": [
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/meghans-father-thomas-markle-appears-in-court-charged-with-possessing-child-abuse-material-13609134",
+          "cites": [
+            "news:sky:7001648dac94"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo",
+          "cites": [
+            "news:bbc:49308f565866"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:17Z",
+      "until": "2026-11-07T00:00:32Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:44:39Z"
+  }
+}

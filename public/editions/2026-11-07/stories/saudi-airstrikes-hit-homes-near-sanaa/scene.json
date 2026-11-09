@@ -1,0 +1,465 @@
+{
+  "version": 1,
+  "id": "story-2026-11-07-saudi-airstrikes-hit-homes-near-sanaa",
+  "title": "Saudi airstrikes hit homes near Sanaa",
+  "subtitle": "Conflict · 7 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-07T00:00:00Z",
+    "end": "2026-11-07T00:01:24Z"
+  },
+  "focus": "2026-11-07T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 34.20638889,
+    "south": 7.348333330000001,
+    "east": 54.20638889,
+    "north": 23.348333330000003
+  },
+  "imagery": {
+    "day": "2026-11-07",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-07T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-07T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-07T00:00:49Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "lon": 82.20638888999997,
+      "lat": 8.796499998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-07T00:00:04Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:14Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:23Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:26Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:29Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:31Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:34Z",
+      "lon": 44.20638889,
+      "lat": 13.34833333,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:41Z",
+      "lon": 44.20638889,
+      "lat": 13.34833333,
+      "range": 1086646.2165764899,
+      "heading": -2,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:48Z",
+      "lon": 44.20638889,
+      "lat": 13.34833333,
+      "range": 983999.9999999999,
+      "heading": 12,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:51Z",
+      "lon": 44.16950998386194,
+      "lat": 16.12000325218189,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-07T00:00:54Z",
+      "lon": 44.16950998386194,
+      "lat": 16.12000325218189,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:00:57Z",
+      "lon": 44.16950998386194,
+      "lat": 16.12000325218189,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:00Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:03Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:05Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:08Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:12Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:16Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:19Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:20Z",
+      "lon": 44.20638889,
+      "lat": 14.66083333,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-07T00:01:24Z",
+      "lon": 19.20638888999997,
+      "lat": 14.66083333,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "text": "Saudi airstrikes hit homes near Sanaa, Yemen, killing at least 27 people and wounding 36 others.",
+      "cites": [
+        "wiki:2026-11-07:3"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:08Z",
+      "text": "In October 2026, the United Arab Emirates (UAE) has decided to rejoin the Yemen conflict by starting to pay some government forces battling the Houthi group, aligned with Iran.",
+      "cites": [
+        "wiki:rev:1384346591:225"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:16Z",
+      "text": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan,…",
+      "cites": [
+        "wiki:rev:1384346591:0"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "text": "On the map: Sanaa, Yemen, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-07:3"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "text": "Casualties, as Wikipedia records them from its sources: Thousands of Yemeni civilians killed and wounded, 500+ Saudi civilians killed.",
+      "cites": [
+        "wiki:box:1384346591:casualties"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:49Z",
+      "text": "Also named in the reports: Najran Province.",
+      "cites": [
+        "wiki:2026-11-07:3"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:00:58Z",
+      "text": "Reported by AP.",
+      "cites": [
+        "wiki:2026-11-07:3"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:01:06Z",
+      "text": "Sky News headlined it: “At least 27 people killed in strike near Yemen's capital, Houthi official says”",
+      "cites": [
+        "news:sky:61cf379e31a6"
+      ]
+    },
+    {
+      "t": "2026-11-07T00:01:17Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata. Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-07:3",
+        "wiki:rev:1384346591:225",
+        "views:en:Houthi–Saudi_conflict:30d",
+        "wd:Q20896823:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "YE",
+    "lon": 44.20638889,
+    "lat": 15.34833333,
+    "label": "Sanaa"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-07T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-07T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-07T00:00:32Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-07T00:00:49Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-07T00:00:58Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-07T00:01:06Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-07T00:01:17Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "kind": "facts",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Supreme Political Council (SPC)",
+          "cites": [
+            "wiki:box:1384346591:side-1"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing; Ceasefire declared on March 30, 2022; Escalation during the 2026 Iran War",
+          "cites": [
+            "wiki:box:1384346591:status"
+          ]
+        },
+        {
+          "label": "Casualties",
+          "text": "Thousands of Yemeni civilians killed and wounded, 500+ Saudi civilians killed",
+          "cites": [
+            "wiki:box:1384346591:casualties"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:33Z",
+      "until": "2026-11-07T00:00:49Z"
+    },
+    {
+      "id": "sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6",
+          "cites": [
+            "wiki:2026-11-07:3"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:00:59Z",
+      "until": "2026-11-07T00:01:06Z"
+    },
+    {
+      "id": "coverage",
+      "kind": "facts",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "items": [
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/at-least-27-people-killed-in-strike-near-yemens-capital-houthi-official-says-13609232",
+          "cites": [
+            "news:sky:61cf379e31a6"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:01:07Z",
+      "until": "2026-11-07T00:01:17Z"
+    },
+    {
+      "id": "film-sources",
+      "kind": "facts",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-07:3"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384346591:225"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Houthi–Saudi_conflict:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q20896823:P31"
+          ]
+        }
+      ],
+      "t": "2026-11-07T00:01:18Z",
+      "until": "2026-11-07T00:01:24Z"
+    }
+  ],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-09T04:44:39Z"
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "version": 1,
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-09T04:43:41Z",
+  "candidates": 12,
+  "mostRead": false,
+  "stories": [
+    {
+      "slug": "2026-israeli-legislative-election",
+      "lens": "election",
+      "title": "2026 Israeli legislative election",
+      "summary": "Israeli president Isaac Herzog selects Yashar party leader Gadi Eisenkot to attempt to form a coalition government following inconclusive Knesset elections. Eisenkot will have 28 days to secure sufficient support in the Knesset.",
+      "headline": "Israeli president Isaac Herzog selects Yashar party leader Gadi Eisenkot to attempt to form a coalition government following inconclusive Knesset elections.",
+      "article": {
+        "title": "2026 Israeli legislative election",
+        "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+        "qid": "Q115632366"
+      },
+      "place": {
+        "name": "Knesset",
+        "lon": 35.20527778,
+        "lat": 31.77666667,
+        "country": "PS",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-07:7"
+      },
+      "continent": "Asia",
+      "heat": 100,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Israeli president tasks Gadi Eisenkot with forming government",
+          "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288",
+          "t": "2026-11-07T19:56:00Z",
+          "evidence": "news:dw:1dfc2b75eb80"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo",
+          "t": "2026-11-07T22:19:59Z",
+          "evidence": "news:bbc:0fd700b21f78"
+        },
+        {
+          "outlet": "npr",
+          "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+          "t": "2026-11-07T20:18:18Z",
+          "evidence": "news:npr:193d985bb4f1"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:7",
+        "news:dw:1dfc2b75eb80",
+        "news:bbc:0fd700b21f78",
+        "wd:Q115632366:P31",
+        "news:npr:193d985bb4f1"
+      ],
+      "update": {
+        "day": 5,
+        "previous": [
+          {
+            "date": "2026-11-03",
+            "slug": "2026-israeli-legislative-election",
+            "title": "2026 Israeli legislative election"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "six-people-are-killed-and-15-more-injured-in-a-drive-by-mass",
+      "lens": "conflict",
+      "title": "Six people are killed and 15 more injured in a drive-by mass shooting in the…",
+      "summary": "Six people are killed and 15 more injured in a drive-by mass shooting in the center of Kraków, Poland. The perpetrator, who also killed his parents and his sister at their home in Ostrowiec Świętokrzyski, is wounded by police and arrested.",
+      "headline": "Six people are killed and 15 more injured in a drive-by mass shooting in the center of Kraków, Poland. The perpetrator, who also killed his parents and his sister at their home in Ostrowiec Świętokrzyski…",
+      "article": {
+        "title": "2026 Kraków shooting",
+        "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting",
+        "qid": "Q142077465"
+      },
+      "place": {
+        "name": "Kraków",
+        "lon": 19.93722222,
+        "lat": 50.06138889,
+        "country": "PL",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-07:2"
+      },
+      "continent": "Europe",
+      "heat": 65,
+      "why": [
+        "Reported by 2 outlets",
+        "Listed on Wikipedia's Current events",
+        "6 people involved, per the headlines"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Poland: Gunman kills 6 in Krakow main square, police say",
+          "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square-police-say/a-79886489",
+          "t": "2026-11-07T21:34:00Z",
+          "evidence": "news:dw:1be42ae6d9cc"
+        },
+        {
+          "outlet": "france24",
+          "title": "Gunman kills six in Krakow, three more bodies found at his house",
+          "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+          "t": "2026-11-07T22:47:06Z",
+          "evidence": "news:france24:dc06bdec4f54"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:2",
+        "wd:Q142077465:P31",
+        "news:dw:1be42ae6d9cc",
+        "news:france24:dc06bdec4f54"
+      ]
+    },
+    {
+      "slug": "saudi-airstrikes-hit-homes-near-sanaa",
+      "lens": "conflict",
+      "title": "Saudi airstrikes hit homes near Sanaa",
+      "summary": "Saudi airstrikes hit homes near Sanaa, Yemen, killing at least 27 people and wounding 36 others.",
+      "headline": "Saudi airstrikes hit homes near Sanaa, Yemen, killing at least 27 people and wounding 36 others.",
+      "article": {
+        "title": "Houthi–Saudi conflict",
+        "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict",
+        "qid": "Q20896823"
+      },
+      "place": {
+        "name": "Sanaa",
+        "lon": 44.20638889,
+        "lat": 15.34833333,
+        "country": "YE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-07:3"
+      },
+      "continent": "Asia",
+      "heat": 57,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events",
+        "27 people involved, per the headlines"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "At least 27 people killed in strike near Yemen's capital, Houthi official says",
+          "url": "https://news.sky.com/story/at-least-27-people-killed-in-strike-near-yemens-capital-houthi-official-says-13609232",
+          "t": "2026-11-07T14:19:00Z",
+          "evidence": "news:sky:61cf379e31a6"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:3",
+        "news:sky:61cf379e31a6",
+        "wd:Q20896823:P31"
+      ]
+    },
+    {
+      "slug": "unions",
+      "lens": "general",
+      "title": "Unions",
+      "summary": "Unions, the yellow vests, and student protesters hold a fourth consecutive weekend of protests across France with about 146,000 participants.",
+      "headline": "Unions, the yellow vests, and student protesters hold a fourth consecutive weekend of protests across France with about 146,000 participants.",
+      "article": {
+        "title": "2026 French student protests",
+        "url": "https://en.wikipedia.org/wiki/2026_French_student_protests",
+        "qid": "Q141615137"
+      },
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-07:6"
+      },
+      "continent": "Europe",
+      "heat": 46,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "France sees new round of Yellow Vest, student protests",
+          "url": "https://www.dw.com/en/france-sees-new-round-of-yellow-vest-student-protests/a-79884064",
+          "t": "2026-11-07T19:28:00Z",
+          "evidence": "news:dw:3a9e4c3fcc71"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:6",
+        "news:dw:3a9e4c3fcc71",
+        "wd:Q141615137:P31"
+      ]
+    },
+    {
+      "slug": "pope-leo-in-latin-america-papal-politics-and-peru",
+      "lens": "person",
+      "title": "Pope Leo in Latin America: Papal Politics and Peru",
+      "summary": "Pope Leo in Latin America: Papal Politics and Peru",
+      "about": "Pope Leo X was head of the Catholic Church and leader of the Papal States from 9 March 1513 to his death in December 1521. Born into the prominent political and banking Medici family of Florence, Giovanni was the second son of Lorenzo de' Medici, the de-facto ruler of the Florentine Republic, and was elevated to the…",
+      "headline": "Pope in 'pretty good health' as he starts Latin America tour, BBC News reports.",
+      "article": {
+        "title": "Pope Leo X",
+        "url": "https://en.wikipedia.org/wiki/Pope_Leo_X",
+        "qid": "Q49237"
+      },
+      "place": {
+        "name": "Peru",
+        "lon": -72.9,
+        "lat": -12.98,
+        "country": "PE",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 38,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "health",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Pope in 'pretty good health' as he starts Latin America tour",
+          "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo",
+          "t": "2026-11-07T06:59:48Z",
+          "evidence": "news:bbc:c006246eca07"
+        },
+        {
+          "outlet": "sky",
+          "title": "Thousands turn out to greet Pope Leo as he begins Latin America tour",
+          "url": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186",
+          "t": "2026-11-07T12:02:00Z",
+          "evidence": "news:sky:b99e56f205f7"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:c006246eca07",
+        "news:sky:b99e56f205f7"
+      ]
+    },
+    {
+      "slug": "meghan-s-father-thomas-markle-under-house-arrest-after-child",
+      "lens": "general",
+      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+      "summary": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+      "headline": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge, BBC News reports.",
+      "heat": 35,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "Meghan's father in court charged with possessing child abuse material",
+          "url": "https://news.sky.com/story/meghans-father-thomas-markle-appears-in-court-charged-with-possessing-child-abuse-material-13609134",
+          "t": "2026-11-07T05:42:00Z",
+          "evidence": "news:sky:7001648dac94"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+          "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo",
+          "t": "2026-11-07T07:27:44Z",
+          "evidence": "news:bbc:49308f565866"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:sky:7001648dac94",
+        "news:bbc:49308f565866"
+      ]
+    },
+    {
+      "slug": "trump-offers-white-house-press-secretary-role-to-dana-white",
+      "lens": "person",
+      "title": "Trump offers White House press secretary role to Dana White",
+      "summary": "Trump offers White House press secretary role to Dana White",
+      "about": "Dana Frederick White Jr. (born July 28, 1969) is an American businessman who is the president and chief executive officer (CEO) of the Ultimate Fighting Championship (UFC), a global mixed martial arts organization.",
+      "headline": "Trump offers White House press secretary role to Dana White, DW reports.",
+      "article": {
+        "title": "Dana White",
+        "url": "https://en.wikipedia.org/wiki/Dana_White",
+        "qid": "Q660297"
+      },
+      "heat": 34,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Trump offers White House press secretary role to Dana White",
+          "url": "https://www.dw.com/en/trump-offers-white-house-press-secretary-role-to-dana-white/a-79888119",
+          "t": "2026-11-07T19:46:00Z",
+          "evidence": "news:dw:34dff2f985d0"
+        },
+        {
+          "outlet": "france24",
+          "title": "'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White",
+          "url": "https://www.france24.com/en/americas/20261107-a-violent-fighter-and-warrior-trump-offers-press-secretary-role-to-ufc-chief-dana-white",
+          "t": "2026-11-07T20:45:45Z",
+          "evidence": "news:france24:b52c016d4787"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:34dff2f985d0",
+        "news:france24:b52c016d4787"
+      ]
+    },
+    {
+      "slug": "2026-new-zealand-general-election",
+      "lens": "election",
+      "title": "2026 New Zealand general election",
+      "summary": "New Zealanders vote to elect 120 members of the House of Representatives, with 11 additional overhang seats. National leader Christopher Luxon and Labour leader Chris Hipkins both seek reappointment as the country's prime minister. Preliminary results see Labour lead in the popular vote and the Nationals having the most amount of seats, with special votes yet to be counted.",
+      "headline": "New Zealanders vote to elect 120 members of the House of Representatives, with 11 additional overhang seats. National leader Christopher Luxon…",
+      "article": {
+        "title": "2026 New Zealand general election",
+        "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+        "qid": "Q104843407"
+      },
+      "place": {
+        "name": "New Zealand",
+        "lon": 172.79,
+        "lat": -39.76,
+        "country": "NZ",
+        "role": "Country",
+        "evidence": "wd:Q104843407:P17"
+      },
+      "continent": "Oceania",
+      "heat": 25,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:8",
+        "wd:Q104843407:P31"
+      ]
+    },
+    {
+      "slug": "frenchman-tom-laperche-wins-the-2026-route-du-rhum-in-a-reco",
+      "lens": "sports",
+      "title": "Frenchman Tom Laperche wins the 2026 Route du Rhum in a record six days",
+      "summary": "In sailing, Frenchman Tom Laperche wins the 2026 Route du Rhum in a record six days, 13 hours, 27 minutes and 40 seconds, beating Charles Caudrelier's 2022 time by six hours and 19 minutes.",
+      "headline": "In sailing, Frenchman Tom Laperche wins the 2026 Route du Rhum in a record six days, 13 hours, 27 minutes and 40 seconds, beating Charles Caudrelier's 2022 time by six hours and 19 minutes.",
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-07:9"
+      },
+      "continent": "Europe",
+      "heat": 25,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:9"
+      ]
+    },
+    {
+      "slug": "sudan-s-armed-forces-saf-says-that-they-have-recaptured-the",
+      "lens": "conflict",
+      "title": "Sudan's armed forces (SAF) says that they have recaptured the West Kordofan…",
+      "summary": "Sudan's armed forces (SAF) says that they have recaptured the West Kordofan town of Iyal Bakhit. Additionally, the SAF also says that they have downed a Rapid Support Forces drone.",
+      "headline": "Sudan's armed forces (SAF) says that they have recaptured the West Kordofan town of Iyal Bakhit. Additionally, the SAF also says that they have downed a Rapid Support Forces drone.",
+      "article": {
+        "title": "Kordofan campaign",
+        "url": "https://en.wikipedia.org/wiki/Kordofan_campaign"
+      },
+      "place": {
+        "name": "West Kordofan",
+        "lon": 28.15,
+        "lat": 12,
+        "country": "SD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-07:1"
+      },
+      "continent": "Africa",
+      "heat": 23,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:1"
+      ]
+    },
+    {
+      "slug": "twenty-one-people-are-killed-and-one-person-has-been-rescued",
+      "lens": "accident",
+      "title": "Twenty-one people are killed and one person has been rescued after a migrant…",
+      "summary": "Twenty-one people are killed and one person has been rescued after a migrant boat sinks off the coast of Kebemer, Senegal.",
+      "headline": "Twenty-one people are killed and one person has been rescued after a migrant boat sinks off the coast of Kebemer, Senegal.",
+      "place": {
+        "name": "Senegal",
+        "lon": -14.78,
+        "lat": 15.14,
+        "country": "SN",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-07:5"
+      },
+      "continent": "Africa",
+      "heat": 23,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-07:5"
+      ]
+    }
+  ]
+}

@@ -496,3 +496,36 @@ Reading them also exposed a real fault: news evidence ids count items in a revis
 ### Why
 
 Readers expect the stories of "Now" to be explained like the editions, with analysis, not only listed. The editions' lenses already do that from Wikipedia and Wikidata; a Now story reaches them through the article its headlines name, matched strictly (ADR-0019: every title word in the headlines, a name not an everyday word, no stale years or unsupported disambiguations).
+
+## ADR-0021: Hot means what the newsrooms agree on, and editions never wait for readers
+
+Status: accepted (9 November 2026)
+
+### Context
+
+Editions waited for Wikipedia's most-read list, and ranked stories mostly by how many people read their articles. Wikimedia publishes that list hours or days late: on 9 November 2026 its page views had stalled since 6 November, so the editions of 7 and 8 November were not built, although eight outlets and Wikipedia's Current events had reported the day in full. And readership is not what makes news hot: a film release can top the list on a quiet day, while most of the world's conflicts and disasters never reach it.
+
+### Decision
+
+- **Hot is newsworthiness, measured** (`src/scene/newsworthy.ts`), one definition for editions and for Now. Each signal stands in for a news value from journalism research (Harcup & O'Neill, "What is news? News values revisited (again)", Journalism Studies 18(12), 2017, building on Galtung & Ruge, 1965) or for how aggregators rank a story cluster by "aggregate editorial interest" (Google News engineers, Nieman Lab, 2009):
+  - **agreement:** how many outlets told it;
+  - **reach:** outlets from how many regions;
+  - **speed:** three or more outlets within three hours of the first report;
+  - **persistence:** follow-up headlines, and coverage lasting through the day ("follow-up"; sustained coverage as in "media storms", Jurgens & Card, arXiv 2312.02118);
+  - **magnitude:** the number of people the headlines say are involved; deaths, injuries and displacement weigh more than a crowd ("magnitude", "bad news");
+  - **notability:** listed on Wikipedia's Current events, or the subject of its own Wikipedia event article that spiked that day;
+  - **readers:** a small bonus when the most-read list is in, never required.
+- Each story says **why it is news** in plain words ("Reported by 6 outlets from 3 regions · 114 people involved, per the headlines"), stored as `why` in editions and in `now.json`.
+- **Editions never wait.** Yesterday's edition is built at 00:40 UTC from the outlets' headlines and Current events. Built without the most-read list, it says so (`mostRead: false`), and the 11:30 and 17:30 runs rebuild it once the list is published (within two days, while the outlets' headlines are still kept).
+- **Stories found by the outlets:** a story two or more outlets reported that day, that neither Wikipedia list had, joins the edition (`foundBy: "outlets"`), titled by its headline and filmed the way a Now story is (the article its headlines name, else its place, else the short film), from the headlines stored in the edition. If its headlines were partly credited to another story, or it happened in the same city or region as one, it is that story: its outlets join that story's coverage. A story found by the outlets the day after an edition story in the same city, sharing a word, is that story's update.
+- **Now lists what Earthlog can explain or the newsrooms agree on:** a story with a film, or one told by two or more outlets. A lone report with nothing to explain (an opinion piece, a feature) stays in the data for editions to credit, but is not listed.
+- **Finding a story's article** searches the subject before a headline's colon ("Ebola: …"), the proper names the headlines repeat ("Lisa Nandy"), a COP summit by its number, then telling words and a headline. A full name found from one word ("Messi" → "Lionel Messi") must be a person's; a label finds the subject itself ("Ebola" → "Ebola disease"); asides naming a country are accepted ("Republican Party (United States)"); disambiguation written as prose is refused.
+- Lens films of Now stories also get "Lately in <country>" when the place is known.
+
+### Why
+
+The news decides what is news, as in a newsroom: several independent desks covering the same event within hours is the strongest signal there is, and it is in hand the same night. Readers stay a signal, the last one. The rule keeps the promise of the product: every morning, yesterday's world, on time.
+
+### Cost
+
+Editions built before the most-read list arrive have no readers line and lean to hard news until the rebuild. Stories found by the outlets depend on the eight feeds; a story only one outlet told never joins an edition on its own. The magnitude count reads headlines, so it is labelled "per the headlines".
