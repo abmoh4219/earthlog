@@ -8,7 +8,7 @@ import { REGIONS, type Region } from "@/scene/regions";
 import { TOPIC_LABEL, TOPICS, type Topic } from "@/scene/topics";
 
 const chip = (on: boolean) =>
-  `rounded-full px-2.5 py-1 transition-colors ${on ? "bg-moon/12 text-moon" : "text-dust/55 hover:bg-moon/5 hover:text-moon"}`;
+  `shrink-0 rounded-full px-2.5 py-1 whitespace-nowrap transition-colors ${on ? "bg-moon/12 text-moon" : "text-dust/55 hover:bg-moon/5 hover:text-moon"}`;
 
 export function RegionChips({
   counts,
@@ -22,7 +22,7 @@ export function RegionChips({
   const present = REGIONS.filter((r) => (counts.get(r) ?? 0) > 0 || r === region);
   if (present.length < 2) return null;
   return (
-    <fieldset className="-mx-1 mt-3 flex min-w-0 flex-wrap gap-1 text-[13px]">
+    <fieldset className="-mx-1 mt-3 flex min-w-0 gap-1 overflow-x-auto text-[13px] [scrollbar-width:none] sm:flex-wrap">
       <legend className="sr-only">Where</legend>
       <button
         type="button"
@@ -63,7 +63,7 @@ export function TopicChips({
   onForYou: () => void;
 }) {
   return (
-    <fieldset className="-mx-1 mt-2 flex min-w-0 flex-wrap gap-1 text-[13px]">
+    <fieldset className="-mx-1 mt-2 flex min-w-0 gap-1 overflow-x-auto text-[13px] [scrollbar-width:none] sm:flex-wrap">
       <legend className="sr-only">Topics</legend>
       <button
         type="button"

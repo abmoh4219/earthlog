@@ -65,8 +65,10 @@ export default async function EditionPage({ params }: Props) {
           {long(date)}
         </h1>
         <p className="mt-4 text-dust/65 sm:text-lg">
-          {edition.stories.length} stories, ranked by how much the world read and how widely they
-          were reported.
+          {edition.stories.length} stories, ranked by what the newsrooms agreed on: how many outlets
+          reported each, from where, how fast, and how many people it touches.
+          {edition.mostRead === false &&
+            " Wikipedia's reading figures were not published yet when it was built."}
         </p>
         <ol className="mt-12 divide-y divide-moon/8 border-y border-moon/8">
           {edition.stories.map((s, i) => {
@@ -118,6 +120,10 @@ export default async function EditionPage({ params }: Props) {
                         </span>
                       ))}
                     </p>
+                  )}
+                  {/* Why it made the edition, measured (ADR-0021). */}
+                  {s.why && s.why.length > 0 && (
+                    <p className="mt-1.5 text-xs text-dust/40">{s.why.slice(0, 3).join(" · ")}</p>
                   )}
                   {/* Updates link back to how the story was told before. */}
                   {s.update && (

@@ -116,17 +116,18 @@ export function FrontPage({
       <div ref={globeRef} className="earthlog-globe absolute inset-0" />
       <div ref={creditsRef} className="hidden" aria-hidden />
 
-      <header className="pointer-events-none absolute inset-x-0 top-0 z-10 p-6 md:p-8">
+      {/* Phones: a fade under the header keeps it readable over the globe. */}
+      <header className="pointer-events-none absolute inset-x-0 top-0 z-10 bg-gradient-to-b from-void via-void/70 to-transparent p-5 pb-16 md:bg-none md:p-8">
         <Link
           href="/"
           className="pointer-events-auto font-serif text-xl text-moon/90 hover:text-moon"
         >
           Earthlog
         </Link>
-        <h1 className="mt-4 max-w-xl font-serif text-4xl leading-[1.04] font-light tracking-[-0.02em] text-moon md:text-6xl">
+        <h1 className="mt-3 max-w-xl font-serif text-[2rem] leading-[1.04] font-light tracking-[-0.02em] text-moon sm:text-4xl md:mt-4 md:text-6xl">
           Yesterday&apos;s world, explained in 3D.
         </h1>
-        <p className="mt-2 max-w-md text-sm text-dust/70 md:text-base">
+        <p className="mt-2 max-w-md text-[13px] text-dust/70 sm:text-sm md:text-base">
           The edition of {dateLabel}: {stories.length} stories, each told with its own analysis.
           Every claim links to its source.
         </p>
@@ -235,8 +236,9 @@ export function FrontPage({
           <select
             aria-label="Where"
             value={region ?? ""}
+            style={{ colorScheme: "dark" }}
             onChange={(e) => setRegion(Region.safeParse(e.target.value).data)}
-            className="glass w-32 shrink-0 snap-start rounded-xl bg-transparent px-3 text-sm text-moon"
+            className="glass h-10 shrink-0 snap-start self-center rounded-full bg-transparent px-3 text-xs text-moon"
           >
             <option value="">Everywhere</option>
             {regions.map((r) => (
@@ -265,12 +267,12 @@ export function FrontPage({
 
       {/* Earlier editions and the classics (classics from tablets up). */}
       <footer className="absolute inset-x-0 bottom-0 z-10 flex items-center gap-2 overflow-x-auto px-4 pb-4 text-xs sm:flex-wrap sm:px-6 sm:pb-5">
-        <span className="font-medium text-dust/50">Editions</span>
+        <span className="shrink-0 font-medium text-dust/50">Editions</span>
         {editions.map((e) => (
           <Link
             key={e.date}
             href={e.date === date ? `/edition/${e.date}` : `/edition/${e.date}`}
-            className={`rounded-full px-3 py-1 ${e.date === date ? "bg-dust/20 text-moon" : "glass text-dust/80 hover:text-moon"}`}
+            className={`shrink-0 rounded-full px-3 py-1 whitespace-nowrap ${e.date === date ? "bg-dust/20 text-moon" : "glass text-dust/80 hover:text-moon"}`}
           >
             {e.label}
           </Link>
@@ -282,7 +284,7 @@ export function FrontPage({
           <Link
             key={c.id}
             href={`/replay/${c.id}`}
-            className="glass hidden shrink-0 rounded-full px-3 py-1 text-dust/80 hover:text-moon sm:inline-block"
+            className="glass hidden shrink-0 rounded-full px-3 py-1 whitespace-nowrap text-dust/80 hover:text-moon sm:inline-block"
           >
             {c.title}
           </Link>

@@ -44,7 +44,7 @@ function Chip({
       type="button"
       aria-pressed={on}
       onClick={onClick}
-      className={`flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs transition-colors ${on ? "bg-moon/12 text-moon" : "text-dust/50 hover:text-moon"}`}
+      className={`flex shrink-0 items-center gap-1.5 rounded-full px-2.5 py-1 text-xs whitespace-nowrap transition-colors ${on ? "bg-moon/12 text-moon" : "text-dust/50 hover:text-moon"}`}
     >
       <span
         className="size-2 rounded-full"
@@ -71,8 +71,9 @@ export function EarthControls({
 }) {
   const nature = live?.events.length ?? 0;
   return (
-    <div className="pointer-events-none absolute inset-x-3 top-3 flex flex-wrap items-start justify-between gap-2">
-      <div className="glass pointer-events-auto flex flex-wrap items-center gap-0.5 rounded-full p-1">
+    <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-between gap-2">
+      {/* One row: on phones it scrolls sideways rather than covering the globe. */}
+      <div className="glass pointer-events-auto flex min-w-0 items-center gap-0.5 overflow-x-auto rounded-full p-1 [scrollbar-width:none]">
         <Chip
           on={layers.news}
           color={SODIUM}
@@ -102,10 +103,11 @@ export function EarthControls({
         <button
           type="button"
           onClick={onSurprise}
-          className="glass pointer-events-auto flex items-center gap-1.5 rounded-full px-3.5 py-2 text-xs font-medium text-sodium transition-colors hover:text-[#ffc46e]"
+          aria-label="Surprise me"
+          className="glass pointer-events-auto flex shrink-0 items-center gap-1.5 rounded-full px-3 py-2 text-xs font-medium whitespace-nowrap text-sodium transition-colors hover:text-[#ffc46e] sm:px-3.5"
         >
           <Shuffle size={14} aria-hidden />
-          Surprise me
+          <span className="hidden sm:inline">Surprise me</span>
         </button>
       )}
     </div>

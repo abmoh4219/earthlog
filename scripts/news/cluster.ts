@@ -5,7 +5,7 @@
 // can meet. Thresholds were tuned on recorded feeds (test/cluster.test.ts).
 import type { Headline } from "../../src/scene/headlines.ts";
 import type { Placer } from "./place.ts";
-import { idfOf, similarity, words } from "./text.ts";
+import { idfOf, isTitleCase, similarity, words } from "./text.ts";
 
 export const LINK_THRESHOLD = 0.34;
 const MAX_GAP_MS = 36 * 3_600_000;
@@ -113,6 +113,10 @@ export function clusterHeadlines(items: Headline[], placer?: Placer): HeadlineGr
       let s = 0;
       for (const j of idx)
         if (i !== j) s += similarity(tokens[i] as Set<string>, tokens[j] as Set<string>, idf);
+      // A headline that reads well names the story: not a question, not Title Case, not
+      // prefixed with a label ("Egypt: Egypt Train Crash…"), unless nothing else is there.
+      const title = (items[i] as Headline).title;
+      if (/\?\s*$/.test(title) || isTitleCase(title) || /^[^:]{2,32}:\s/.test(title)) s *= 0.5;
       if (s > bestScore) {
         bestScore = s;
         best = i;

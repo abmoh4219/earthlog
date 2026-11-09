@@ -9,7 +9,9 @@ import { fetchJson } from "../bake/lib.ts";
 import { makeCoverage } from "../edition/coverage.ts";
 import { DEMONYMS } from "./demonyms.ts";
 import type { Placer } from "./place.ts";
-import { words } from "./text.ts";
+import { isTitleCase, words } from "./text.ts";
+
+export { isTitleCase };
 
 const API = "https://en.wikipedia.org/w/api.php";
 const fold = (s: string) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -34,20 +36,6 @@ export function searchTerms(titles: string[]): string {
     .slice(0, 4)
     .map(([w]) => w)
     .join(" ");
-}
-
-/**
- * A headline in Title Case ("Mwesige Exits Parliament After Five Years As Clerk", AllAfrica's
- * style): its capitals say nothing about what is a name.
- */
-export function isTitleCase(headline: string): boolean {
-  const ws = headline
-    .replace(/^[^:]{2,40}:\s+/, "")
-    .split(/\s+/)
-    .map((w) => w.replace(/^[("'“‘]+|[)"'”’,.;:!?]+$/g, ""))
-    .filter((w) => w.length > 3);
-  if (ws.length < 4) return false;
-  return ws.filter((w) => /^\p{Lu}/u.test(w)).length / ws.length >= 0.75;
 }
 
 // Continents and world regions: places, never a story's background.

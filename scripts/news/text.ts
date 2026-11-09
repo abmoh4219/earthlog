@@ -71,3 +71,17 @@ export function similarity(a: Set<string>, b: Set<string>, idf: Map<string, numb
   for (const t of b) nb += w(t) ** 2;
   return na && nb ? shared / Math.sqrt(na * nb) : 0;
 }
+
+/**
+ * A headline in Title Case ("Mwesige Exits Parliament After Five Years As Clerk", AllAfrica's
+ * style): its capitals say nothing about what is a name.
+ */
+export function isTitleCase(headline: string): boolean {
+  const ws = headline
+    .replace(/^[^:]{2,40}:\s+/, "")
+    .split(/\s+/)
+    .map((w) => w.replace(/^[("'“‘]+|[)"'”’,.;:!?]+$/g, ""))
+    .filter((w) => w.length > 3);
+  if (ws.length < 4) return false;
+  return ws.filter((w) => /^\p{Lu}/u.test(w)).length / ws.length >= 0.75;
+}

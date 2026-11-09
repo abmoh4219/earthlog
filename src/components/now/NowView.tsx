@@ -336,9 +336,11 @@ export function NowView({
   return (
     <main className="grid min-h-0 flex-1 grid-rows-[40vh_1fr] lg:grid-cols-[minmax(380px,460px)_1fr] lg:grid-rows-1">
       <aside className="panel-stack order-2 min-h-0 overflow-y-auto border-moon/8 lg:order-1 lg:border-r">
-        <div className="px-5 pt-8 pb-4 sm:px-6">
-          <h1 className="font-serif text-4xl font-light tracking-[-0.02em] text-moon">Now</h1>
-          <p className="mt-2 text-sm leading-relaxed text-dust/60">
+        <div className="px-5 pt-5 pb-4 sm:px-6 sm:pt-8">
+          <h1 className="font-serif text-3xl font-light tracking-[-0.02em] text-moon sm:text-4xl">
+            Now
+          </h1>
+          <p className="mt-2 text-[13px] leading-relaxed text-dust/60 sm:text-sm">
             The news of the last hours from {file.outlets.length} outlets, grouped into stories.
             Every headline opens the outlet&apos;s own article.
           </p>
