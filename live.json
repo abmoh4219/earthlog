@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-14T17:06:51Z",
+  "quakes": [
+    {
+      "id": "us7000tx16",
+      "t": "2026-11-09T03:34:59Z",
+      "mag": 6.4,
+      "place": "30 km WSW of Lata, Solomon Islands",
+      "lon": 165.5616,
+      "lat": -10.8669,
+      "depthKm": 17,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16"
+    },
+    {
+      "id": "us7000ty84",
+      "t": "2026-11-14T09:26:13Z",
+      "mag": 5.5,
+      "place": "northern Mid-Atlantic Ridge",
+      "lon": -42.6346,
+      "lat": 30.122,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty84"
+    },
+    {
+      "id": "us7000ty7d",
+      "t": "2026-11-14T06:52:26Z",
+      "mag": 5.2,
+      "place": "State of Yap, Federated States of Micronesia",
+      "lon": 147.3631,
+      "lat": 9.7032,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7d"
+    },
+    {
+      "id": "us7000ty6n",
+      "t": "2026-11-14T02:59:29Z",
+      "mag": 5.2,
+      "place": "off the west coast of northern Sumatra",
+      "lon": 92.8261,
+      "lat": 3.304,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6n"
+    },
+    {
+      "id": "us7000ty56",
+      "t": "2026-11-13T23:30:38Z",
+      "mag": 5.1,
+      "place": "153 km NW of Kavieng, Papua New Guinea",
+      "lon": 149.92,
+      "lat": -1.5038,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty56"
+    },
+    {
+      "id": "us7000ty3q",
+      "t": "2026-11-13T19:04:07Z",
+      "mag": 5.1,
+      "place": "South Sandwich Islands region",
+      "lon": -25.7253,
+      "lat": -58.962,
+      "depthKm": 63.81,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3q"
+    },
+    {
+      "id": "us7000ty9l",
+      "t": "2026-11-14T16:04:22Z",
+      "mag": 4.9,
+      "place": "7 km SE of Tagbina, Philippines",
+      "lon": 126.2112,
+      "lat": 8.3996,
+      "depthKm": 154.123,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l"
+    },
+    {
+      "id": "us7000ty90",
+      "t": "2026-11-14T13:17:20Z",
+      "mag": 4.9,
+      "place": "south of the Kermadec Islands",
+      "lon": -178.3404,
+      "lat": -33.0019,
+      "depthKm": 12.019,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty90"
+    },
+    {
+      "id": "us7000ty4w",
+      "t": "2026-11-13T22:10:42Z",
+      "mag": 4.9,
+      "place": "south of the Kermadec Islands",
+      "lon": -178.6351,
+      "lat": -32.746,
+      "depthKm": 36.931,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4w"
+    },
+    {
+      "id": "us7000ty3g",
+      "t": "2026-11-13T18:55:40Z",
+      "mag": 4.9,
+      "place": "south of the Fiji Islands",
+      "lon": 178.9205,
+      "lat": -23.1808,
+      "depthKm": 563.277,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3g"
+    },
+    {
+      "id": "us7000ty7b",
+      "t": "2026-11-14T06:33:19Z",
+      "mag": 4.8,
+      "place": "West Chile Rise",
+      "lon": -97.9575,
+      "lat": -36.4613,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7b"
+    },
+    {
+      "id": "us7000ty43",
+      "t": "2026-11-13T19:49:21Z",
+      "mag": 4.8,
+      "place": "153 km NW of Kavieng, Papua New Guinea",
+      "lon": 149.9613,
+      "lat": -1.4671,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty43"
+    },
+    {
+      "id": "us7000ty6p",
+      "t": "2026-11-14T03:18:26Z",
+      "mag": 4.7,
+      "place": "54 km NW of San Antonio de los Cobres, Argentina",
+      "lon": -66.7642,
+      "lat": -23.9436,
+      "depthKm": 216.092,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6p"
+    },
+    {
+      "id": "us7000ty7h",
+      "t": "2026-11-14T07:02:22Z",
+      "mag": 4.6,
+      "place": "102 km NNE of Hihifo, Tonga",
+      "lon": -173.446,
+      "lat": -15.0887,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7h"
+    },
+    {
+      "id": "us7000ty59",
+      "t": "2026-11-13T23:55:15Z",
+      "mag": 4.6,
+      "place": "100 km WSW of Lebu, Chile",
+      "lon": -74.7229,
+      "lat": -37.922,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty59"
+    },
+    {
+      "id": "us7000ty53",
+      "t": "2026-11-13T23:22:54Z",
+      "mag": 4.6,
+      "place": "74 km S of Yudomari, Japan",
+      "lon": 130.4805,
+      "lat": 29.5604,
+      "depthKm": 40.852,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty53"
+    },
+    {
+      "id": "us7000ty4n",
+      "t": "2026-11-13T21:19:55Z",
+      "mag": 4.6,
+      "place": "33 km SSW of La Libertad, El Salvador",
+      "lon": -89.4564,
+      "lat": 13.2186,
+      "depthKm": 59.125,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4n"
+    },
+    {
+      "id": "us7000ty8u",
+      "t": "2026-11-14T12:28:00Z",
+      "mag": 4.5,
+      "place": "137 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "lon": 160.2984,
+      "lat": 52.3603,
+      "depthKm": 17.439,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty8u"
+    },
+    {
+      "id": "us7000ty73",
+      "t": "2026-11-14T04:59:00Z",
+      "mag": 4.5,
+      "place": "western Indian-Antarctic Ridge",
+      "lon": 139.6657,
+      "lat": -50.3735,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty73"
+    },
+    {
+      "id": "us7000ty6e",
+      "t": "2026-11-14T02:21:07Z",
+      "mag": 4.5,
+      "place": "Fiji region",
+      "lon": -177.739,
+      "lat": -19.5803,
+      "depthKm": 587.447,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6e"
+    },
+    {
+      "id": "us7000ty3x",
+      "t": "2026-11-13T19:43:17Z",
+      "mag": 4.5,
+      "place": "9 km WSW of Chaparral, Colombia",
+      "lon": -75.5584,
+      "lat": 3.6793,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3x"
+    }
+  ],
+  "events": [
+    {
+      "id": "EONET_26331",
+      "kind": "wildfire",
+      "title": "Wildfire Red Hill, Perry, Mississippi",
+      "t": "2026-11-12T00:22:00Z",
+      "lon": -89.063853,
+      "lat": 31.130069,
+      "size": "519 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331"
+    },
+    {
+      "id": "EONET_26332",
+      "kind": "wildfire",
+      "title": "Prescribed Fire Bienville CPT 29 Sub 2 RX, Scott, Mississippi",
+      "t": "2026-11-11T09:57:00Z",
+      "lon": -89.5974,
+      "lat": 32.425,
+      "size": "660 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26332"
+    },
+    {
+      "id": "EONET_26333",
+      "kind": "wildfire",
+      "title": "Prescribed Fire Compartment 170 RX, Greene, Georgia",
+      "t": "2026-11-09T16:30:00Z",
+      "lon": -83.259363,
+      "lat": 33.747313,
+      "size": "643 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26333"
+    },
+    {
+      "id": "EONET_26157",
+      "kind": "storm",
+      "title": "Typhoon Cempaka",
+      "t": "2026-11-11T12:00:00Z",
+      "lon": 154.1,
+      "lat": 30.2,
+      "size": "65 kts",
+      "agency": "JTWC",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26157"
+    },
+    {
+      "id": "EONET_26158",
+      "kind": "storm",
+      "title": "Tropical Storm Pena",
+      "t": "2026-11-12T12:00:00Z",
+      "lon": -173.2,
+      "lat": 9.8,
+      "size": "30 kts",
+      "agency": "JTWC",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26158"
+    },
+    {
+      "id": "EONET_26258",
+      "kind": "wildfire",
+      "title": "Wildfire FOOT CREEK, Johnson, Wyoming",
+      "t": "2026-11-05T16:11:00Z",
+      "lon": -106.93255,
+      "lat": 44.318717,
+      "size": "683 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26258"
+    }
+  ],
+  "sources": [
+    {
+      "id": "usgs",
+      "name": "USGS Earthquake Hazards Program",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/",
+      "license": "Public domain (U.S. Government work)",
+      "ok": true
+    },
+    {
+      "id": "eonet",
+      "name": "NASA EONET",
+      "url": "https://eonet.gsfc.nasa.gov/",
+      "license": "NASA data, no copyright restrictions; credited with the reporting agency",
+      "ok": true
+    }
+  ]
+}
