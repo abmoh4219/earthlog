@@ -8,6 +8,7 @@ dist/
 
 # --- test & coverage ---
 coverage/
+.testdriver/
 
 # --- secrets: real keys NEVER live in this repo ---
 .env
