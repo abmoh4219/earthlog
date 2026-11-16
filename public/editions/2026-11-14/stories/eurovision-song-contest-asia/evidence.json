@@ -1,0 +1,234 @@
+[
+  {
+    "id": "wiki:2026-11-14:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-14T00:00:00Z",
+    "lon": 100.49416667,
+    "lat": 13.7525,
+    "label": "Culture: The Philippines, with the song \"Sobra-Sobra\" by Carmelle, wins the inaugural Eurovision Song Contest Asia held in Bangkok, Thailand.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929",
+    "quote": "The Philippines, with the song \"Sobra-Sobra\" by Carmelle, wins the inaugural Eurovision Song Contest Asia held in Bangkok, Thailand.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/philippines-wins-eurovisions-first-asia-contest"
+      },
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/thailand-eurovision-asia-2026-carmelle-winner-099ca558c4638949e637d3a8f8061d6d"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Eurovision_Song_Contest_Asia:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "English Wikipedia: 71,577 readers of \"Eurovision Song Contest Asia\" on 14 Nov 2026",
+    "value": 71577,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Eurovision_Song_Contest_Asia:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "\"Eurovision Song Contest Asia\": normally a median of 2,514 readers a day (8 to 60 days before)",
+    "value": 2514,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:3883c6948f3d",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "BBC News: Philippines wins first Eurovision Song Contest Asia (18:17 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo",
+    "quote": "Philippines wins first Eurovision Song Contest Asia",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:c629975f6df7",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "The Guardian: Philippines’ Carmelle wins first Eurovision contest in Asia (19:01 UTC)",
+    "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+    "quote": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:13c562f8bc59",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "DW: Philippines wins first Eurovision Song Contest Asia (22:44 UTC)",
+    "url": "https://www.dw.com/en/philippines-wins-first-eurovision-song-contest-asia/a-79950050",
+    "quote": "Philippines wins first Eurovision Song Contest Asia",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q37276325:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "Wikidata: \"Eurovision Song Contest Asia\" is an instance of television program, singing competition",
+    "url": "https://www.wikidata.org/wiki/Q37276325",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385971115:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Eurovision Song Contest Asia\" (revision of 2026-11-16 05:06 UTC)",
+    "quote": "The inaugural edition, organised by Voxovation under licence from the European Broadcasting Union (EBU), produced by S2O Productions, and staged by host broadcaster Channel 3, was held on 14 November 2026 at One Bangkok Forum in Bangkok, Thailand, with broadcasters from eleven countries taking part.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Eurovision_Song_Contest_Asia&oldid=1385971115"
+  },
+  {
+    "id": "wiki:rev:1385971115:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Eurovision Song Contest Asia\" (revision of 2026-11-16 05:06 UTC)",
+    "quote": "The Eurovision Song Contest Asia (ESCA) is an international song competition modelled after the Eurovision Song Contest, where broadcasters from the Asia-Pacific region compete representing their countries.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Eurovision_Song_Contest_Asia&oldid=1385971115"
+  },
+  {
+    "id": "views:en:Eurovision_Song_Contest_Asia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Eurovision Song Contest Asia\", 16 October 2026 to 14 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Eurovision_Song_Contest_Asia&range=latest-30"
+  },
+  {
+    "id": "views:es:Festival_de_la_Canción_de_Eurovisión_Asia:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 2,451 readers of \"Festival de la Canción de Eurovisión Asia\" on 14 November 2026",
+    "value": 2451,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Festival_de_la_Canci%C3%B3n_de_Eurovisi%C3%B3n_Asia"
+  },
+  {
+    "id": "views:de:Eurovision_Song_Contest_Asia:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 888 readers of \"Eurovision Song Contest Asia\" on 14 November 2026",
+    "value": 888,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Eurovision_Song_Contest_Asia"
+  },
+  {
+    "id": "views:it:Eurovision_Song_Contest_Asia:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 694 readers of \"Eurovision Song Contest Asia\" on 14 November 2026",
+    "value": 694,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Eurovision_Song_Contest_Asia"
+  },
+  {
+    "id": "views:fr:Concours_Eurovision_Asie_de_la_chanson:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 593 readers of \"Concours Eurovision Asie de la chanson\" on 14 November 2026",
+    "value": 593,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Concours_Eurovision_Asie_de_la_chanson"
+  },
+  {
+    "id": "views:ru:Евровидение_Азия:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 556 readers of \"Евровидение Азия\" on 14 November 2026",
+    "value": 556,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D1%80%D0%BE%D0%B2%D0%B8%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%90%D0%B7%D0%B8%D1%8F"
+  },
+  {
+    "id": "views:ja:ユーロビジョン・ソング・コンテスト・アジア:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 194 readers of \"ユーロビジョン・ソング・コンテスト・アジア\" on 14 November 2026",
+    "value": 194,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%83%AD%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%BD%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%83%BB%E3%82%A2%E3%82%B8%E3%82%A2"
+  },
+  {
+    "id": "views:pt:Festival_Eurovisão_Ásia_da_Canção:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 45 readers of \"Festival Eurovisão Ásia da Canção\" on 14 November 2026",
+    "value": 45,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Festival_Eurovis%C3%A3o_%C3%81sia_da_Can%C3%A7%C3%A3o"
+  },
+  {
+    "id": "views:nl:Eurovisiesongfestival_Azië:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 16 readers of \"Eurovisiesongfestival Azië\" on 14 November 2026",
+    "value": 16,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_Azi%C3%AB"
+  },
+  {
+    "id": "views:fa:مسابقه_آواز_یوروویژن_آسیا:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 10 readers of \"مسابقه آواز یوروویژن آسیا\" on 14 November 2026",
+    "value": 10,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%A2%D9%88%D8%A7%D8%B2_%DB%8C%D9%88%D8%B1%D9%88%D9%88%DB%8C%DA%98%D9%86_%D8%A2%D8%B3%DB%8C%D8%A7"
+  },
+  {
+    "id": "views:ar:مسابقة_يوروفيجن_آسيا_الموسيقية:2026-11-14",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 2 readers of \"مسابقة يوروفيجن آسيا الموسيقية\" on 14 November 2026",
+    "value": 2,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9_%D9%8A%D9%88%D8%B1%D9%88%D9%81%D9%8A%D8%AC%D9%86_%D8%A2%D8%B3%D9%8A%D8%A7_%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%8A%D8%A9"
+  },
+  {
+    "id": "wd:Q37276325:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Eurovision Song Contest Asia\": genre song",
+    "url": "https://www.wikidata.org/wiki/Q37276325#P136"
+  }
+]

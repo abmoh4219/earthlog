@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wiki:2026-11-15:20",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "lon": 153.02805556,
+    "lat": -27.46777778,
+    "label": "Sports: In women's rugby league, Australia wins its fourth consecutive World Cup title after defeating New Zealand 34–10 in the final in Brisbane.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "In women's rugby league, Australia wins its fourth consecutive World Cup title after defeating New Zealand 34–10 in the final in Brisbane.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/sports/20261115-australia-crush-new-zealand-34-10-to-win-women-s-rugby-league-world-cup"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:ebef98ce5088",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Australia crush New Zealand to win fourth Women’s Rugby League World Cup (12:21 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/15/australia-crush-new-zealand-to-win-fourth-womens-rugby-league-world-cup",
+    "quote": "Australia crush New Zealand to win fourth Women’s Rugby League World Cup",
+    "precision": "day"
+  }
+]

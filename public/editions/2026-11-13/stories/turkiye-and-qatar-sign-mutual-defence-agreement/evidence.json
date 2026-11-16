@@ -1,0 +1,118 @@
+[
+  {
+    "id": "news:aljazeera:7d93c5c4e4f3",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Al Jazeera: Turkiye and Qatar sign mutual defence agreement (15:49 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+    "quote": "Turkiye and Qatar sign mutual defence agreement",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:78a12542999d",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "France 24: Turkey and Qatar pledge unified stance against attacks in mutual defence pact (20:06 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact",
+    "quote": "Turkey and Qatar pledge unified stance against attacks in mutual defence pact",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386011160:419",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-16 10:49 UTC)",
+    "quote": "An \"enemy\" attack on Bandar Sirik was reported by the Islamic Republic News Agency on 12 November.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1386011160"
+  },
+  {
+    "id": "wiki:rev:1386011160:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-16 10:49 UTC)",
+    "quote": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1386011160"
+  },
+  {
+    "id": "views:en:2026_Iran_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Iran war\", 15 October 2026 to 13 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Iran_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q138503695:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": date 2026",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P585"
+  },
+  {
+    "id": "wd:Q138503695:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": began 28 February 2026",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P580"
+  },
+  {
+    "id": "wd:Q138503695:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": location Tehran, Qom",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P276"
+  },
+  {
+    "id": "wd:Q138503695:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": country Iran",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P17"
+  },
+  {
+    "id": "wiki:week:1386011160:425",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-16 10:49 UTC): dated sentence",
+    "quote": "An \"enemy\" attack on Bandar Sirik was reported by the Islamic Republic News Agency on 12 November.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1386011160"
+  },
+  {
+    "id": "wiki:week:1386011160:465",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-16 10:49 UTC): dated sentence",
+    "quote": "Since the start of the US-Israeli war on Iran, at least 25 seafarers had been killed in the vicinity of the Strait of Hormuz by 11 November, according to the UN.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1386011160"
+  },
+  {
+    "id": "wiki:week:1386011160:419",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-16 10:49 UTC): dated sentence",
+    "quote": "Iranian state media claimed that US forces fired projectiles at Qeshm Island in the Strait of Hormuz overnight on 8–9 November.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1386011160"
+  }
+]

@@ -1,0 +1,692 @@
+{
+  "version": 1,
+  "id": "story-2026-11-11-2026-united-states-senate-election-in-mississippi",
+  "title": "2026 United States Senate election in Mississippi",
+  "subtitle": "Election · 11 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-11T00:00:00Z",
+    "end": "2026-11-11T00:01:21Z"
+  },
+  "focus": "2026-11-11T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-11",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-senate.json",
+      "name": "senate",
+      "from": "2026-11-11T00:00:24Z",
+      "until": "2026-11-11T00:00:38Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-governors.json",
+      "name": "governors",
+      "from": "2026-11-11T00:00:38Z",
+      "until": "2026-11-11T00:00:48Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-house.json",
+      "name": "house",
+      "from": "2026-11-11T00:00:48Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-11T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-11T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:26Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 6200000,
+      "heading": 0,
+      "pitch": -58,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-11T00:00:32Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5946831.088907773,
+      "heading": 2,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:37Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5704000,
+      "heading": 4,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:40Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 6200000,
+      "heading": 0,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:44Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5946831.088907773,
+      "heading": 2,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:47Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5704000,
+      "heading": 4,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:50Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5704000,
+      "heading": 0,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:56Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5471084.601795151,
+      "heading": 2,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:01Z",
+      "lon": -97,
+      "lat": 34.5,
+      "range": 5247680,
+      "heading": 4,
+      "pitch": -58,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 5440000,
+      "heading": -15,
+      "pitch": -52,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-11T00:01:09Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 4926129.515146755,
+      "heading": -2.8999999999999986,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:13Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 4460800,
+      "heading": 9.200000000000003,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:16Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:17Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:21Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-11T00:00:01Z",
+      "text": "Voters in Mississippi chose a member of the United States Senate in an election held on November 3, 2026.",
+      "cites": [
+        "wiki:rev:1385729256:0"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:08Z",
+      "text": "After more than a week of ballot counting, Colom was projected the winner on November 11.",
+      "cites": [
+        "wiki:rev:1385729256:6"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:15Z",
+      "text": "On November 11, Colom was ahead by 4,585 votes in unofficial results, and news outlets projected him the winner, although the count had not yet been certified.",
+      "cites": [
+        "wiki:rev:1385729256:29"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:25Z",
+      "text": "Across 35 Senate races this year, Democrats won 19, Republicans won 11, and 5 had not yet been called.",
+      "cites": [
+        "elex:2026-united-states-senate-elections:the-senate-table"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:31Z",
+      "text": "Democratic gains were recorded in Iowa, North Carolina, Kansas, Maine, Mississippi, Ohio and Texas.",
+      "cites": [
+        "elex:2026-united-states-senate-elections:senate-ia",
+        "elex:2026-united-states-senate-elections:senate-nc",
+        "elex:2026-united-states-senate-elections:senate-ks",
+        "elex:2026-united-states-senate-elections:senate-me",
+        "elex:2026-united-states-senate-elections:senate-ms",
+        "elex:2026-united-states-senate-elections:senate-oh-special",
+        "elex:2026-united-states-senate-elections:senate-tx"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:39Z",
+      "text": "When the data was read, the race tables had not called any of the 36 governor's races.",
+      "cites": [
+        "elex:2026-united-states-gubernatorial-elections:governors-table"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:49Z",
+      "text": "In the House, Democrats held 257 seats and Republicans 169, with 9 still to be called; a majority requires 218.",
+      "cites": [
+        "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:55Z",
+      "text": "On the map, 51 districts changed party, and 35 were not yet called in the race tables.",
+      "cites": [
+        "elex:2026-united-states-house-of-representatives-elections:house-table"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:01:03Z",
+      "text": "On 11 November 2026, 65,024 people read the English Wikipedia article, about 52× the usual.",
+      "cites": [
+        "views:en:2026_United_States_Senate_election_in_Mississippi:2026-11-11",
+        "views:en:2026_United_States_Senate_election_in_Mississippi:prior"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:01:08Z",
+      "text": "Normally, the article draws a median of 1,258 readers a day.",
+      "cites": [
+        "views:en:2026_United_States_Senate_election_in_Mississippi:prior"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:01:15Z",
+      "text": "This explainer draws on Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption cites the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385729256:0",
+        "views:en:2026_United_States_Senate_election_in_Mississippi:2026-11-11",
+        "wd:Q133933238:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-11T00:00:24Z",
+      "title": "The Senate"
+    },
+    {
+      "t": "2026-11-11T00:00:38Z",
+      "title": "Governors"
+    },
+    {
+      "t": "2026-11-11T00:00:48Z",
+      "title": "The House"
+    },
+    {
+      "t": "2026-11-11T00:01:02Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-11T00:01:14Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "senate-tally",
+      "t": "2026-11-11T00:00:25Z",
+      "until": "2026-11-11T00:00:38Z",
+      "title": "Senate races won",
+      "note": "As recorded by Wikipedia at 21:06 UTC, 2026-11-14. Called or projected, not certified.",
+      "kind": "bars",
+      "unit": "races",
+      "items": [
+        {
+          "label": "Democratic",
+          "value": 19,
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:the-senate-table"
+          ]
+        },
+        {
+          "label": "Republican",
+          "value": 11,
+          "color": "#ec5a52",
+          "cites": [
+            "elex:2026-united-states-senate-elections:the-senate-table"
+          ]
+        },
+        {
+          "label": "Not yet called",
+          "value": 5,
+          "color": "#8a96a3",
+          "cites": [
+            "elex:2026-united-states-senate-elections:the-senate-table"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "senate-flips",
+      "t": "2026-11-11T00:00:25Z",
+      "until": "2026-11-11T00:00:38Z",
+      "title": "Seats that changed party",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Iowa",
+          "text": "Democratic gain · Josh Turek",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-ia"
+          ]
+        },
+        {
+          "label": "North Carolina",
+          "text": "Democratic gain · Roy Cooper",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-nc"
+          ]
+        },
+        {
+          "label": "Kansas",
+          "text": "Democratic gain · Adam Hamilton",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-ks"
+          ]
+        },
+        {
+          "label": "Maine",
+          "text": "Democratic gain · Troy Jackson",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-me"
+          ]
+        },
+        {
+          "label": "Mississippi",
+          "text": "Democratic gain · Scott Colom",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-ms"
+          ]
+        },
+        {
+          "label": "Ohio",
+          "text": "Democratic gain · Sherrod Brown",
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-senate-elections:senate-oh-special"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governors-tally",
+      "t": "2026-11-11T00:00:39Z",
+      "until": "2026-11-11T00:00:48Z",
+      "title": "Governor's races won",
+      "note": "As recorded by Wikipedia at 21:56 UTC, 2026-11-14. Called or projected, not certified.",
+      "kind": "bars",
+      "unit": "races",
+      "items": [
+        {
+          "label": "Democratic",
+          "value": 0,
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-gubernatorial-elections:governors-table"
+          ]
+        },
+        {
+          "label": "Republican",
+          "value": 0,
+          "color": "#ec5a52",
+          "cites": [
+            "elex:2026-united-states-gubernatorial-elections:governors-table"
+          ]
+        },
+        {
+          "label": "Not yet called",
+          "value": 36,
+          "color": "#8a96a3",
+          "cites": [
+            "elex:2026-united-states-gubernatorial-elections:governors-table"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "house-seats",
+      "t": "2026-11-11T00:00:49Z",
+      "until": "2026-11-11T00:01:02Z",
+      "title": "The new House",
+      "note": "One dot per seat. Infobox as of 5:05 PM, November 13, 2026; called or projected, not certified.",
+      "kind": "seats",
+      "total": 435,
+      "majority": 218,
+      "items": [
+        {
+          "label": "Democratic",
+          "text": "257 (was 214)",
+          "value": 257,
+          "color": "#4a8cf7",
+          "cites": [
+            "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+          ]
+        },
+        {
+          "label": "Republican",
+          "text": "169 (was 218)",
+          "value": 169,
+          "color": "#ec5a52",
+          "cites": [
+            "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+          ]
+        },
+        {
+          "label": "Not yet called",
+          "value": 9,
+          "color": "#8a96a3",
+          "cites": [
+            "elex:2026-united-states-house-of-representatives-elections:house-infobox"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-11T00:01:03Z",
+      "until": "2026-11-11T00:01:14Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "2026 United States Senate election in Mississippi",
+          "color": "#4a8cf7",
+          "points": [
+            {
+              "x": "10-13",
+              "y": 1385
+            },
+            {
+              "x": "10-14",
+              "y": 2811
+            },
+            {
+              "x": "10-15",
+              "y": 3405
+            },
+            {
+              "x": "10-16",
+              "y": 1853
+            },
+            {
+              "x": "10-17",
+              "y": 1590
+            },
+            {
+              "x": "10-18",
+              "y": 1864
+            },
+            {
+              "x": "10-19",
+              "y": 2135
+            },
+            {
+              "x": "10-20",
+              "y": 3208
+            },
+            {
+              "x": "10-21",
+              "y": 3986
+            },
+            {
+              "x": "10-22",
+              "y": 3877
+            },
+            {
+              "x": "10-23",
+              "y": 3295
+            },
+            {
+              "x": "10-24",
+              "y": 2847
+            },
+            {
+              "x": "10-25",
+              "y": 2686
+            },
+            {
+              "x": "10-26",
+              "y": 3833
+            },
+            {
+              "x": "10-27",
+              "y": 5016
+            },
+            {
+              "x": "10-28",
+              "y": 3953
+            },
+            {
+              "x": "10-29",
+              "y": 3509
+            },
+            {
+              "x": "10-30",
+              "y": 3405
+            },
+            {
+              "x": "10-31",
+              "y": 3303
+            },
+            {
+              "x": "11-01",
+              "y": 3513
+            },
+            {
+              "x": "11-02",
+              "y": 5952
+            },
+            {
+              "x": "11-03",
+              "y": 6161
+            },
+            {
+              "x": "11-04",
+              "y": 141842
+            },
+            {
+              "x": "11-05",
+              "y": 110692
+            },
+            {
+              "x": "11-06",
+              "y": 68707
+            },
+            {
+              "x": "11-07",
+              "y": 51200
+            },
+            {
+              "x": "11-08",
+              "y": 48195
+            },
+            {
+              "x": "11-09",
+              "y": 48738
+            },
+            {
+              "x": "11-10",
+              "y": 39326
+            },
+            {
+              "x": "11-11",
+              "y": 65024
+            }
+          ],
+          "cites": [
+            "views:en:2026_United_States_Senate_election_in_Mississippi:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-11T00:01:15Z",
+      "until": "2026-11-11T00:01:21Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385729256:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_United_States_Senate_election_in_Mississippi:2026-11-11"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q133933238:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-15T00:00:00Z",
+    "costUsd": 0.001778
+  }
+}

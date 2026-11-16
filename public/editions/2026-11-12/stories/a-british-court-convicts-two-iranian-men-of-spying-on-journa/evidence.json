@@ -1,0 +1,63 @@
+[
+  {
+    "id": "wiki:2026-11-12:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-12T00:00:00Z",
+    "lon": -0.1275,
+    "lat": 51.50722222,
+    "label": "Law & crime: A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also convicted of preparing a violent attack, while a third defendant is acquitted.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_12&oldid=1385702080",
+    "quote": "A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also convicted of preparing a violent attack, while a third defendant is acquitted.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/middle-east/20261112-iran-pair-guilty-of-spying-on-london-based-journalists-for-tehran"
+      },
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/britain-iran-spying-tehran-sepahvand-manesh-journalists-273c38362d3c0a0e8ece8a2075442dd0"
+      }
+    ]
+  },
+  {
+    "id": "wiki:rev:1384678308:46",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Iranian external operations\" (revision of 2026-11-09 14:47 UTC)",
+    "quote": "He was convicted of \"preparing an assassination and aggravated arson\" and sentenced to eight years and six months in prison, after another plotter, an Afghan national, was convicted.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Iranian_external_operations&oldid=1384678308"
+  },
+  {
+    "id": "wiki:rev:1384678308:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Iranian external operations\" (revision of 2026-11-09 14:47 UTC)",
+    "quote": "Iranian external operations refer to the activities conducted by the Islamic Republic of Iran in foreign countries since the 1979 Islamic Revolution.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Iranian_external_operations&oldid=1384678308"
+  },
+  {
+    "id": "views:en:Iranian_external_operations:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Iranian external operations\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Iranian_external_operations&range=latest-30"
+  },
+  {
+    "id": "wd:Q135426544:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Iranian external operations\": country Iran",
+    "url": "https://www.wikidata.org/wiki/Q135426544#P17"
+  }
+]

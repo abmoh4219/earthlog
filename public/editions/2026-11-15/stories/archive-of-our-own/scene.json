@@ -1,0 +1,799 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-archive-of-our-own",
+  "title": "Archive of Our Own",
+  "subtitle": "Tech & business · 15 November 2026 · Update, day 5",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:01:30Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-15T00:00:51Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-15T00:00:51Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:24Z",
+      "until": "2026-11-15T00:00:51Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "lon": -77.108333333333,
+      "lat": 38.080277777778,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:29Z",
+      "lon": -77.108333333333,
+      "lat": 38.080277777778,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:31Z",
+      "lon": -77.108333333333,
+      "lat": 38.080277777778,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:34Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:38Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:41Z",
+      "lon": -77.108333333333,
+      "lat": 36.880277777778,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:44Z",
+      "lon": -77.108333333333,
+      "lat": 34.880277777778,
+      "range": 5500000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:47Z",
+      "lon": -77.108333333333,
+      "lat": 34.880277777778,
+      "range": 4980461.825975579,
+      "heading": -9.7,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:50Z",
+      "lon": -77.108333333333,
+      "lat": 34.880277777778,
+      "range": 4510000,
+      "heading": -19.4,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:55Z",
+      "lon": 25.839892550808408,
+      "lat": 48.63405151332216,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:01:05Z",
+      "lon": 25.839892550808408,
+      "lat": 48.63405151332216,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:14Z",
+      "lon": 25.839892550808408,
+      "lat": 48.63405151332216,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:18Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -10,
+      "pitch": -85,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:01:20Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 18835201.087325826,
+      "heading": -18.9,
+      "pitch": -82.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:22Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 17056000,
+      "heading": -27.8,
+      "pitch": -80,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:25Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:26Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:30Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "Non-profit fanfiction repository Archive of Our Own was restored to limited functionality 17 days after being targeted in a cyberattack.",
+      "cites": [
+        "wiki:2026-11-15:16"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:08Z",
+      "text": "The site came back online with limited functionality on 15 November 2026.",
+      "cites": [
+        "wiki:rev:1385849964:25"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "text": "Archive of Our Own, or AO3, is a nonprofit, open-source repository for fanfiction and other fanworks contributed by users.",
+      "cites": [
+        "wiki:rev:1385849964:0"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "text": "The site is run by Organization for Transformative Works, based in Arlington County, United States.",
+      "cites": [
+        "wd:Q27764876:P137"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:33Z",
+      "text": "Founded in 2008, the site is owned by Organization for Transformative Works.",
+      "cites": [
+        "wd:Q27764876:P571",
+        "wd:Q27764876:P127"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:43Z",
+      "text": "5 Hacker News stories mentioned Archive of Our Own in the two weeks to 15 November 2026.",
+      "cites": [
+        "hn:2026-11-15:Q27764876"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:52Z",
+      "text": "On 15 November 2026, 860,729 people read about it, about 559× the usual.",
+      "cites": [
+        "views:en:Archive_of_Our_Own:2026-11-15",
+        "views:en:Archive_of_Our_Own:prior"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:59Z",
+      "text": "After English, the most readers were in Russian, with 4,954; the article was read in 11 languages.",
+      "cites": [
+        "views:en:Archive_of_Our_Own:2026-11-15",
+        "views:ru:Archive_of_Our_Own:2026-11-15"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:06Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
+      "cites": [
+        "views:ru:Archive_of_Our_Own:2026-11-15",
+        "views:de:Archive_of_Our_Own:2026-11-15",
+        "views:zh:AO3作品库:2026-11-15",
+        "views:es:Archive_of_Our_Own:2026-11-15",
+        "views:fr:Archive_of_Our_Own:2026-11-15",
+        "views:it:Archive_of_Our_Own:2026-11-15"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:16Z",
+      "text": "The story was reported by AP.",
+      "cites": [
+        "wiki:2026-11-15:16"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:24Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews, Wikidata and Hacker News via the Algolia search API; every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:16",
+        "wiki:rev:1385849964:25",
+        "views:en:Archive_of_Our_Own:2026-11-15",
+        "wd:Q27764876:P31",
+        "hn:2026-11-15:Q27764876"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-15T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-15T00:00:42Z",
+      "title": "Tech talk"
+    },
+    {
+      "t": "2026-11-15T00:00:51Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-15T00:01:15Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:01:23Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-15T00:00:33Z",
+      "until": "2026-11-15T00:00:42Z",
+      "title": "On record: Archive of Our Own",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "2008",
+          "cites": [
+            "wd:Q27764876:P571"
+          ]
+        },
+        {
+          "label": "Operator",
+          "text": "Organization for Transformative Works",
+          "cites": [
+            "wd:Q27764876:P137"
+          ]
+        },
+        {
+          "label": "Owned by",
+          "text": "Organization for Transformative Works",
+          "cites": [
+            "wd:Q27764876:P127"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "archiveofourown.org",
+          "url": "http://archiveofourown.org/",
+          "cites": [
+            "wd:Q27764876:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hn",
+      "t": "2026-11-15T00:00:43Z",
+      "until": "2026-11-15T00:00:51Z",
+      "title": "Hacker News stories a day",
+      "note": "Stories with \"Archive of Our Own\" in the title, over 14 days.",
+      "kind": "line",
+      "unit": "stories",
+      "series": [
+        {
+          "label": "Archive of Our Own",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "11-02",
+              "y": 0
+            },
+            {
+              "x": "11-03",
+              "y": 1
+            },
+            {
+              "x": "11-04",
+              "y": 0
+            },
+            {
+              "x": "11-05",
+              "y": 0
+            },
+            {
+              "x": "11-06",
+              "y": 0
+            },
+            {
+              "x": "11-07",
+              "y": 0
+            },
+            {
+              "x": "11-08",
+              "y": 0
+            },
+            {
+              "x": "11-09",
+              "y": 1
+            },
+            {
+              "x": "11-10",
+              "y": 0
+            },
+            {
+              "x": "11-11",
+              "y": 0
+            },
+            {
+              "x": "11-12",
+              "y": 0
+            },
+            {
+              "x": "11-13",
+              "y": 0
+            },
+            {
+              "x": "11-14",
+              "y": 0
+            },
+            {
+              "x": "11-15",
+              "y": 3
+            }
+          ],
+          "cites": [
+            "hn:2026-11-15:Q27764876"
+          ]
+        }
+      ],
+      "mark": 13
+    },
+    {
+      "id": "hn-top",
+      "t": "2026-11-15T00:00:43Z",
+      "until": "2026-11-15T00:00:51Z",
+      "title": "Most discussed",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "4 points",
+          "text": "Archive Of Our Own (AO3) back online after 17 days",
+          "url": "https://news.ycombinator.com/item?id=50509624",
+          "cites": [
+            "hn:2026-11-15:Q27764876"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-15T00:00:52Z",
+      "until": "2026-11-15T00:01:15Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Archive of Our Own",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "10-17",
+              "y": 1955
+            },
+            {
+              "x": "10-18",
+              "y": 2111
+            },
+            {
+              "x": "10-19",
+              "y": 2070
+            },
+            {
+              "x": "10-20",
+              "y": 1760
+            },
+            {
+              "x": "10-21",
+              "y": 1763
+            },
+            {
+              "x": "10-22",
+              "y": 1631
+            },
+            {
+              "x": "10-23",
+              "y": 1539
+            },
+            {
+              "x": "10-24",
+              "y": 1731
+            },
+            {
+              "x": "10-25",
+              "y": 1795
+            },
+            {
+              "x": "10-26",
+              "y": 1791
+            },
+            {
+              "x": "10-27",
+              "y": 1818
+            },
+            {
+              "x": "10-28",
+              "y": 1691
+            },
+            {
+              "x": "10-29",
+              "y": 27230
+            },
+            {
+              "x": "10-30",
+              "y": 55142
+            },
+            {
+              "x": "10-31",
+              "y": 45549
+            },
+            {
+              "x": "11-01",
+              "y": 43286
+            },
+            {
+              "x": "11-02",
+              "y": 78713
+            },
+            {
+              "x": "11-03",
+              "y": 85012
+            },
+            {
+              "x": "11-04",
+              "y": 78683
+            },
+            {
+              "x": "11-05",
+              "y": 62148
+            },
+            {
+              "x": "11-06",
+              "y": 46593
+            },
+            {
+              "x": "11-07",
+              "y": 37233
+            },
+            {
+              "x": "11-08",
+              "y": 43788
+            },
+            {
+              "x": "11-09",
+              "y": 52047
+            },
+            {
+              "x": "11-10",
+              "y": 36360
+            },
+            {
+              "x": "11-11",
+              "y": 55989
+            },
+            {
+              "x": "11-12",
+              "y": 99746
+            },
+            {
+              "x": "11-13",
+              "y": 87286
+            },
+            {
+              "x": "11-14",
+              "y": 43198
+            },
+            {
+              "x": "11-15",
+              "y": 860729
+            }
+          ],
+          "cites": [
+            "views:en:Archive_of_Our_Own:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-15T00:00:52Z",
+      "until": "2026-11-15T00:01:15Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "860,729",
+          "value": 860729,
+          "color": "#4cc9e8",
+          "cites": [
+            "views:en:Archive_of_Our_Own:2026-11-15"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "4,954",
+          "value": 4954,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Archive_of_Our_Own:2026-11-15"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "4,475",
+          "value": 4475,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Archive_of_Our_Own:2026-11-15"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "3,909",
+          "value": 3909,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:AO3作品库:2026-11-15"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "3,634",
+          "value": 3634,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Archive_of_Our_Own:2026-11-15"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "2,782",
+          "value": 2782,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Archive_of_Our_Own:2026-11-15"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "1,251",
+          "value": 1251,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Archive_of_Our_Own:2026-11-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:01:16Z",
+      "until": "2026-11-15T00:01:23Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/ao3-fandom-archive-transformative-9e752c2cf91409434fcde7188140d066",
+          "cites": [
+            "wiki:2026-11-15:16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:01:24Z",
+      "until": "2026-11-15T00:01:30Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:16"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385849964:25"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Archive_of_Our_Own:2026-11-15"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q27764876:P31"
+          ]
+        },
+        {
+          "label": "Hacker News (via the Algolia search API)",
+          "text": "No licence stated: story counts ",
+          "url": "https://news.ycombinator.com/",
+          "cites": [
+            "hn:2026-11-15:Q27764876"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.001825
+  }
+}

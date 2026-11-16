@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-australia-wins-its-fourth-consecutive-world-cup-title-after",
+  "title": "Australia wins its fourth consecutive World Cup title after defeating New…",
+  "subtitle": "Sports · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:00:44Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 143.02805556,
+    "south": -35.46777778,
+    "east": 163.02805556,
+    "north": -19.46777778
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": -168.97194444000002,
+      "lat": -16.893166668,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:07Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:09Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:12Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:17Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:20Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:28Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:32Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:36Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:39Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:40Z",
+      "lon": 153.02805556,
+      "lat": -28.15527778,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:44Z",
+      "lon": 128.02805555999998,
+      "lat": -28.15527778,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "In women's rugby league, Australia won its fourth consecutive World Cup title, defeating New Zealand 34–10 in the final in Brisbane.",
+      "cites": [
+        "wiki:2026-11-15:20"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:11Z",
+      "text": "The final took place in Brisbane, Australia, according to the reports.",
+      "cites": [
+        "wiki:2026-11-15:20"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:19Z",
+      "text": "The story was reported by AFP via RFI.",
+      "cites": [
+        "wiki:2026-11-15:20"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "text": "Al Jazeera headlined the result: “Australia crush New Zealand to win fourth Women’s Rugby League World Cup.”",
+      "cites": [
+        "news:aljazeera:ebef98ce5088"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:38Z",
+      "text": "This explainer draws on Wikipedia's current events page, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:20"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "AU",
+    "lon": 153.02805556,
+    "lat": -27.46777778,
+    "label": "Brisbane"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-15T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:00:37Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:00:19Z",
+      "until": "2026-11-15T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via RFI",
+          "text": "Open",
+          "url": "https://www.rfi.fr/en/sports/20261115-australia-crush-new-zealand-34-10-to-win-women-s-rugby-league-world-cup",
+          "cites": [
+            "wiki:2026-11-15:20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:00:27Z",
+      "until": "2026-11-15T00:00:37Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/sports/2026/11/15/australia-crush-new-zealand-to-win-fourth-womens-rugby-league-world-cup",
+          "cites": [
+            "news:aljazeera:ebef98ce5088"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:00:38Z",
+      "until": "2026-11-15T00:00:44Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:20"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.000498
+  }
+}

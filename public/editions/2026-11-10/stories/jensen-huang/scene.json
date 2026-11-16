@@ -1,0 +1,1026 @@
+{
+  "version": 1,
+  "id": "story-2026-11-10-jensen-huang",
+  "title": "Jensen Huang",
+  "subtitle": "People · 10 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-10T00:00:00Z",
+    "end": "2026-11-10T00:01:36Z"
+  },
+  "focus": "2026-11-10T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 110.87,
+    "south": 15.649999999999999,
+    "east": 130.87,
+    "north": 31.65
+  },
+  "imagery": {
+    "day": "2026-11-10",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-10T00:01:05Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-10T00:01:05Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-10T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-10T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "lon": 158.87,
+      "lat": 12.915,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-10T00:00:04Z",
+      "lon": 120.87,
+      "lat": 21.525,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:14Z",
+      "lon": 120.87,
+      "lat": 21.525,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:23Z",
+      "lon": 120.87,
+      "lat": 21.525,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:26Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:29Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:31Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:36Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:41Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:46Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:48Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:52Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 19921847.303902317,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:56Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 18040000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:00Z",
+      "lon": 121.21435305535674,
+      "lat": 24.044142914960236,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:01:02Z",
+      "lon": 121.21435305535674,
+      "lat": 24.044142914960236,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:05Z",
+      "lon": 121.21435305535674,
+      "lat": 24.044142914960236,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:09Z",
+      "lon": 21.76690003158609,
+      "lat": 50.61937003635128,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:01:19Z",
+      "lon": 21.76690003158609,
+      "lat": 50.61937003635128,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:29Z",
+      "lon": 21.76690003158609,
+      "lat": 50.61937003635128,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:32Z",
+      "lon": 120.87,
+      "lat": 21.525,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:01:33Z",
+      "lon": 120.87,
+      "lat": 21.525,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:34Z",
+      "lon": 120.87,
+      "lat": 21.525,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:36Z",
+      "lon": 95.87,
+      "lat": 21.525,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-10T00:00:01Z",
+      "text": "As Wikipedia records, The New York Times reported on November 11, 2026, that Huang had a second affair with Nvidia's vice president of healthcare, Kimberly Powell, a married woman who reports to him.",
+      "cites": [
+        "wiki:rev:1385563690:84"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:12Z",
+      "text": "Jen-Hsun \"Jensen\" Huang, born February 17, 1963, is a Taiwanese and American electrical engineer and businessman.",
+      "cites": [
+        "wiki:rev:1385563690:0"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:25Z",
+      "text": "Huang was born in Taipei on 17 February 1963.",
+      "cites": [
+        "wd:Q305177:P569",
+        "wd:Q305177:P19"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:33Z",
+      "text": "He was educated at Stanford University, Aloha High School and Oneida Baptist Institute, among 2 more schools.",
+      "cites": [
+        "wd:Q305177:P69:Q41506",
+        "wd:Q305177:P69:Q4734192",
+        "wd:Q305177:P69:Q7093656",
+        "wd:Q305177:P69:Q7375693",
+        "wd:Q305177:P69:Q861888"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:39Z",
+      "text": "Records also show that he worked in Los Altos.",
+      "cites": [
+        "wd:Q305177:P937:Q864124"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:47Z",
+      "text": "On record are 6 awards, including the Queen Elizabeth Prize for Engineering in 2025 and the National Medal of Science in 2026.",
+      "cites": [
+        "wd:Q305177:P166:Q4273323",
+        "wd:Q305177:P166:Q737051"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:57Z",
+      "text": "Readers also turned to the Nvidia article, which drew 123,851 readers, and the Lisa Su article, which drew 62,648.",
+      "cites": [
+        "views:en:Nvidia:2026-11-10",
+        "views:en:Lisa_Su:2026-11-10"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:01:06Z",
+      "text": "On 10 November 2026, 542,553 people read the English article, about 73 times the usual level.",
+      "cites": [
+        "views:en:Jensen_Huang:2026-11-10",
+        "views:en:Jensen_Huang:prior"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:01:13Z",
+      "text": "The article was read in 10 languages, and after English, the largest readership was in Chinese, with 65,740 readers.",
+      "cites": [
+        "views:en:Jensen_Huang:2026-11-10",
+        "views:zh:黃仁勳:2026-11-10"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:01:20Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
+      "cites": [
+        "views:zh:黃仁勳:2026-11-10",
+        "views:ja:ジェンスン・フアン:2026-11-10",
+        "views:es:Jensen_Huang:2026-11-10",
+        "views:fr:Jensen_Huang:2026-11-10",
+        "views:pt:Jensen_Huang:2026-11-10",
+        "views:ru:Хуанг,_Дженсен:2026-11-10"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:01:30Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385563690:84",
+        "views:en:Jensen_Huang:2026-11-10",
+        "wd:Q305177:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "TW",
+    "lon": 120.87,
+    "lat": 23.65,
+    "label": "Taiwan"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-10T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-10T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-10T00:00:46Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-10T00:00:56Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-10T00:01:05Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-10T00:01:29Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-10T00:00:33Z",
+      "until": "2026-11-10T00:00:46Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1963 born",
+          "text": "Taipei",
+          "cites": [
+            "wd:Q305177:P19"
+          ]
+        },
+        {
+          "label": "1992",
+          "text": "Stanford University",
+          "cites": [
+            "wd:Q305177:P69:Q41506"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Aloha High School",
+          "cites": [
+            "wd:Q305177:P69:Q4734192"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Oneida Baptist Institute",
+          "cites": [
+            "wd:Q305177:P69:Q7093656"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Ruamrudee International School",
+          "cites": [
+            "wd:Q305177:P69:Q7375693"
+          ]
+        },
+        {
+          "label": "1980–84",
+          "text": "Oregon State University",
+          "cites": [
+            "wd:Q305177:P69:Q861888"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "United States",
+          "cites": [
+            "wd:Q305177:P551:Q30"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Los Altos",
+          "cites": [
+            "wd:Q305177:P937:Q864124"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-10T00:00:47Z",
+      "until": "2026-11-10T00:00:56Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2020",
+          "text": "IEEE Founders Medal",
+          "cites": [
+            "wd:Q305177:P166:Q5970365"
+          ]
+        },
+        {
+          "label": "2021",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q305177:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2024",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q305177:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2025",
+          "text": "Queen Elizabeth Prize for Engineering",
+          "cites": [
+            "wd:Q305177:P166:Q4273323"
+          ]
+        },
+        {
+          "label": "2026",
+          "text": "National Medal of Science",
+          "cites": [
+            "wd:Q305177:P166:Q737051"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Dostyk Order of grade I",
+          "cites": [
+            "wd:Q305177:P166:Q18080682"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-10T00:01:06Z",
+      "until": "2026-11-10T00:01:29Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Jensen Huang",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-12",
+              "y": 5059
+            },
+            {
+              "x": "10-13",
+              "y": 5184
+            },
+            {
+              "x": "10-14",
+              "y": 6452
+            },
+            {
+              "x": "10-15",
+              "y": 7762
+            },
+            {
+              "x": "10-16",
+              "y": 7744
+            },
+            {
+              "x": "10-17",
+              "y": 6414
+            },
+            {
+              "x": "10-18",
+              "y": 7696
+            },
+            {
+              "x": "10-19",
+              "y": 7313
+            },
+            {
+              "x": "10-20",
+              "y": 10450
+            },
+            {
+              "x": "10-21",
+              "y": 8175
+            },
+            {
+              "x": "10-22",
+              "y": 8928
+            },
+            {
+              "x": "10-23",
+              "y": 8059
+            },
+            {
+              "x": "10-24",
+              "y": 8318
+            },
+            {
+              "x": "10-25",
+              "y": 6523
+            },
+            {
+              "x": "10-26",
+              "y": 6412
+            },
+            {
+              "x": "10-27",
+              "y": 5581
+            },
+            {
+              "x": "10-28",
+              "y": 5183
+            },
+            {
+              "x": "10-29",
+              "y": 13876
+            },
+            {
+              "x": "10-30",
+              "y": 12234
+            },
+            {
+              "x": "10-31",
+              "y": 7094
+            },
+            {
+              "x": "11-01",
+              "y": 5539
+            },
+            {
+              "x": "11-02",
+              "y": 5265
+            },
+            {
+              "x": "11-03",
+              "y": 6492
+            },
+            {
+              "x": "11-04",
+              "y": 4768
+            },
+            {
+              "x": "11-05",
+              "y": 4819
+            },
+            {
+              "x": "11-06",
+              "y": 6023
+            },
+            {
+              "x": "11-07",
+              "y": 33238
+            },
+            {
+              "x": "11-08",
+              "y": 122360
+            },
+            {
+              "x": "11-09",
+              "y": 733363
+            },
+            {
+              "x": "11-10",
+              "y": 542553
+            }
+          ],
+          "cites": [
+            "views:en:Jensen_Huang:30d"
+          ]
+        },
+        {
+          "label": "Nvidia",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-12",
+              "y": 4968
+            },
+            {
+              "x": "10-13",
+              "y": 5153
+            },
+            {
+              "x": "10-14",
+              "y": 5297
+            },
+            {
+              "x": "10-15",
+              "y": 6295
+            },
+            {
+              "x": "10-16",
+              "y": 6885
+            },
+            {
+              "x": "10-17",
+              "y": 4554
+            },
+            {
+              "x": "10-18",
+              "y": 4985
+            },
+            {
+              "x": "10-19",
+              "y": 6137
+            },
+            {
+              "x": "10-20",
+              "y": 6351
+            },
+            {
+              "x": "10-21",
+              "y": 5736
+            },
+            {
+              "x": "10-22",
+              "y": 6412
+            },
+            {
+              "x": "10-23",
+              "y": 6012
+            },
+            {
+              "x": "10-24",
+              "y": 5532
+            },
+            {
+              "x": "10-25",
+              "y": 4918
+            },
+            {
+              "x": "10-26",
+              "y": 5353
+            },
+            {
+              "x": "10-27",
+              "y": 4431
+            },
+            {
+              "x": "10-28",
+              "y": 4367
+            },
+            {
+              "x": "10-29",
+              "y": 6090
+            },
+            {
+              "x": "10-30",
+              "y": 6889
+            },
+            {
+              "x": "10-31",
+              "y": 4177
+            },
+            {
+              "x": "11-01",
+              "y": 3510
+            },
+            {
+              "x": "11-02",
+              "y": 4035
+            },
+            {
+              "x": "11-03",
+              "y": 4743
+            },
+            {
+              "x": "11-04",
+              "y": 4112
+            },
+            {
+              "x": "11-05",
+              "y": 4743
+            },
+            {
+              "x": "11-06",
+              "y": 4626
+            },
+            {
+              "x": "11-07",
+              "y": 5535
+            },
+            {
+              "x": "11-08",
+              "y": 17886
+            },
+            {
+              "x": "11-09",
+              "y": 142333
+            },
+            {
+              "x": "11-10",
+              "y": 123851
+            }
+          ],
+          "cites": [
+            "views:en:Nvidia:30d"
+          ]
+        },
+        {
+          "label": "Lisa Su",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-12",
+              "y": 1920
+            },
+            {
+              "x": "10-13",
+              "y": 1700
+            },
+            {
+              "x": "10-14",
+              "y": 1682
+            },
+            {
+              "x": "10-15",
+              "y": 1795
+            },
+            {
+              "x": "10-16",
+              "y": 3539
+            },
+            {
+              "x": "10-17",
+              "y": 2015
+            },
+            {
+              "x": "10-18",
+              "y": 1881
+            },
+            {
+              "x": "10-19",
+              "y": 1752
+            },
+            {
+              "x": "10-20",
+              "y": 2190
+            },
+            {
+              "x": "10-21",
+              "y": 1681
+            },
+            {
+              "x": "10-22",
+              "y": 1822
+            },
+            {
+              "x": "10-23",
+              "y": 1914
+            },
+            {
+              "x": "10-24",
+              "y": 1811
+            },
+            {
+              "x": "10-25",
+              "y": 1498
+            },
+            {
+              "x": "10-26",
+              "y": 1440
+            },
+            {
+              "x": "10-27",
+              "y": 1397
+            },
+            {
+              "x": "10-28",
+              "y": 1339
+            },
+            {
+              "x": "10-29",
+              "y": 2206
+            },
+            {
+              "x": "10-30",
+              "y": 2240
+            },
+            {
+              "x": "10-31",
+              "y": 1568
+            },
+            {
+              "x": "11-01",
+              "y": 1168
+            },
+            {
+              "x": "11-02",
+              "y": 1377
+            },
+            {
+              "x": "11-03",
+              "y": 2265
+            },
+            {
+              "x": "11-04",
+              "y": 2652
+            },
+            {
+              "x": "11-05",
+              "y": 2007
+            },
+            {
+              "x": "11-06",
+              "y": 2035
+            },
+            {
+              "x": "11-07",
+              "y": 5179
+            },
+            {
+              "x": "11-08",
+              "y": 13941
+            },
+            {
+              "x": "11-09",
+              "y": 89426
+            },
+            {
+              "x": "11-10",
+              "y": 62648
+            }
+          ],
+          "cites": [
+            "views:en:Lisa_Su:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-10T00:01:06Z",
+      "until": "2026-11-10T00:01:29Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "542,553",
+          "value": 542553,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Jensen_Huang:2026-11-10"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "65,740",
+          "value": 65740,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:黃仁勳:2026-11-10"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "43,197",
+          "value": 43197,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:ジェンスン・フアン:2026-11-10"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "23,155",
+          "value": 23155,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Jensen_Huang:2026-11-10"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "17,366",
+          "value": 17366,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Jensen_Huang:2026-11-10"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "14,047",
+          "value": 14047,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Jensen_Huang:2026-11-10"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "13,874",
+          "value": 13874,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Хуанг,_Дженсен:2026-11-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-10T00:01:30Z",
+      "until": "2026-11-10T00:01:36Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385563690:84"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Jensen_Huang:2026-11-10"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q305177:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-14T00:00:00Z",
+    "costUsd": 0.0029
+  }
+}

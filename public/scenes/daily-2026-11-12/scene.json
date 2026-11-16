@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-12",
+  "title": "The world on 12 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-12T00:00:00Z",
+    "end": "2026-11-13T00:00:00Z"
+  },
+  "focus": "2026-11-12T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-12",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "lon": -169.9,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-12T01:04:01Z",
+      "lon": -169.9,
+      "lat": 8.600000000000001,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T01:56:24Z",
+      "lon": -72.3425,
+      "lat": 17.89611111,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T03:00:25Z",
+      "lon": -72.3425,
+      "lat": 17.89611111,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T03:52:48Z",
+      "lon": 56.33333333,
+      "lat": 24.62666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T05:02:45Z",
+      "lon": 56.33333333,
+      "lat": 24.62666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T06:00:00Z",
+      "lon": 27.28,
+      "lat": 61.97,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T07:19:12Z",
+      "lon": 27.28,
+      "lat": 61.97,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T08:24:00Z",
+      "lon": 27.28,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-12T10:48:00Z",
+      "lon": 106.34,
+      "lat": 31.22,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T12:07:12Z",
+      "lon": 106.34,
+      "lat": 31.22,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T13:12:00Z",
+      "lon": 89.68,
+      "lat": 22.93,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T14:31:12Z",
+      "lon": 89.68,
+      "lat": 22.93,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T15:36:00Z",
+      "lon": -90.5133,
+      "lat": 14.0017,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T16:55:12Z",
+      "lon": -90.5133,
+      "lat": 14.0017,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T18:00:00Z",
+      "lon": -0.1275,
+      "lat": 50.86722222,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T19:19:12Z",
+      "lon": -0.1275,
+      "lat": 50.86722222,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T20:24:00Z",
+      "lon": 32.14,
+      "lat": 48.44,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T21:28:01Z",
+      "lon": 32.14,
+      "lat": 48.44,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-12T22:20:24Z",
+      "lon": 149.8877,
+      "lat": -2.4682,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-12T23:15:10Z",
+      "lon": 149.8877,
+      "lat": -2.4682,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": 149.8877,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "speed": 873
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "text": "00:00 UTC. Tropical Storm Pena at 9.8°N, 169.9°W, sustained winds of 40 knots.",
+      "cites": [
+        "eonet:EONET_26158:2026-11-12T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-12T01:56:24Z",
+      "text": "Conflict: Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in Port-au-Prince after two years of gang control.",
+      "cites": [
+        "wiki:2026-11-12:1"
+      ]
+    },
+    {
+      "t": "2026-11-12T03:52:48Z",
+      "text": "Disaster: Fourteen people are killed and 30 more injured in a multiple-vehicle collision involving 18 cars and five trucks in the Emirate of…",
+      "cites": [
+        "wiki:2026-11-12:7"
+      ]
+    },
+    {
+      "t": "2026-11-12T06:00:00Z",
+      "text": "Sports: Finland announces visa restrictions preventing Russian athletes, including neutral competitors…",
+      "cites": [
+        "wiki:2026-11-12:16"
+      ]
+    },
+    {
+      "t": "2026-11-12T08:24:00Z",
+      "text": "Science & tech: A major outage impacts multiple Microsoft services, including Microsoft 365, Copilot and Teams, worldwide.",
+      "cites": [
+        "wiki:2026-11-12:15"
+      ]
+    },
+    {
+      "t": "2026-11-12T10:48:00Z",
+      "text": "Business: Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two…",
+      "cites": [
+        "wiki:2026-11-12:5"
+      ]
+    },
+    {
+      "t": "2026-11-12T13:12:00Z",
+      "text": "Health & environment: Four more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,299.",
+      "cites": [
+        "wiki:2026-11-12:11"
+      ]
+    },
+    {
+      "t": "2026-11-12T15:36:00Z",
+      "text": "Culture: Guatemala receives the remains of 1967 Nobel Prize in Literature recipient Miguel Ángel Asturias from France…",
+      "cites": [
+        "wiki:2026-11-12:4"
+      ]
+    },
+    {
+      "t": "2026-11-12T18:00:00Z",
+      "text": "Law & crime: A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also…",
+      "cites": [
+        "wiki:2026-11-12:12"
+      ]
+    },
+    {
+      "t": "2026-11-12T20:24:00Z",
+      "text": "Conflict: Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared Kushner announce that European representatives will join…",
+      "cites": [
+        "wiki:2026-11-12:2"
+      ]
+    },
+    {
+      "t": "2026-11-12T22:20:24Z",
+      "text": "22:04 UTC. The day's strongest earthquake: magnitude 5.8, 10 km deep, 148 km NW of Kavieng, Papua New Guinea.",
+      "cites": [
+        "usgs:us7000txwp"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-16T12:00:37Z"
+  }
+}

@@ -1,0 +1,754 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-2026-27-uefa-nations-league",
+  "title": "2026–27 UEFA Nations League",
+  "subtitle": "Culture · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:01:23Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-15T00:00:33Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-15T00:00:33Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 32000000,
+      "heading": 0,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:29Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28977232.442039732,
+      "heading": -9.7,
+      "pitch": -82.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:32Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 26240000,
+      "heading": -19.4,
+      "pitch": -80,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:37Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:47Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:56Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:00Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -10,
+      "pitch": -85,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:01:02Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 18835201.087325826,
+      "heading": -18.9,
+      "pitch": -82.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 17056000,
+      "heading": -27.8,
+      "pitch": -80,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:07Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -22,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:11Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 19950659.136980914,
+      "heading": -20,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:15Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 19136000,
+      "heading": -18,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:18Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:19Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:23Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "In association football, England beat Spain 3–2 in the group stage of UEFA Nations League A, ending Spain's 43-match unbeaten streak, the longest by a national team.",
+      "cites": [
+        "wiki:2026-11-15:21"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:08Z",
+      "text": "The competition runs from September to November 2026 for the league phase, March 2027 for the League A quarter-finals and play-offs, and June 2027 for the Nations League Finals.",
+      "cites": [
+        "wiki:rev:1385905886:1"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "text": "The 2026–27 UEFA Nations League is the fifth season of the competition, an international association football competition for the men's national teams of UEFA's member associations.",
+      "cites": [
+        "wiki:rev:1385905886:0"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "text": "Readers also turned to the English article on the UEFA Nations League, which drew 64,739 readers on 15 November 2026.",
+      "cites": [
+        "views:en:UEFA_Nations_League:2026-11-15"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:34Z",
+      "text": "On 15 November 2026, 79,669 people read the English article about the season, about 22 times the usual daily figure.",
+      "cites": [
+        "views:en:2026–27_UEFA_Nations_League:2026-11-15",
+        "views:en:2026–27_UEFA_Nations_League:prior"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:41Z",
+      "text": "The article was read in 11 languages, and after English, French was the most read, with 18,332 readers.",
+      "cites": [
+        "views:en:2026–27_UEFA_Nations_League:2026-11-15",
+        "views:fr:Ligue_des_nations_de_l'UEFA_2026-2027:2026-11-15"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:48Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:fr:Ligue_des_nations_de_l'UEFA_2026-2027:2026-11-15",
+        "views:it:UEFA_Nations_League_2026-2027:2026-11-15",
+        "views:es:Liga_de_Naciones_de_la_UEFA_2026-27:2026-11-15",
+        "views:de:UEFA_Nations_League_2026/27:2026-11-15",
+        "views:pl:Liga_Narodów_UEFA_(2026/2027):2026-11-15",
+        "views:ru:Лига_наций_УЕФА_2026/2027:2026-11-15"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:58Z",
+      "text": "The report on the match was filed by AP.",
+      "cites": [
+        "wiki:2026-11-15:21"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:06Z",
+      "text": "Al Jazeera headlined its coverage, “Spain vs England live: UEFA Nations League.”",
+      "cites": [
+        "news:aljazeera:dc59968902c5"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:17Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:21",
+        "wiki:rev:1385905886:1",
+        "views:en:2026–27_UEFA_Nations_League:2026-11-15",
+        "wd:Q123347490:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:24Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-15T00:00:33Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-15T00:00:57Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:01:05Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:01:16Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-15T00:00:34Z",
+      "until": "2026-11-15T00:00:57Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "2026–27 UEFA Nations League",
+          "color": "#e8838f",
+          "points": [
+            {
+              "x": "10-17",
+              "y": 1951
+            },
+            {
+              "x": "10-18",
+              "y": 2030
+            },
+            {
+              "x": "10-19",
+              "y": 2009
+            },
+            {
+              "x": "10-20",
+              "y": 2033
+            },
+            {
+              "x": "10-21",
+              "y": 1971
+            },
+            {
+              "x": "10-22",
+              "y": 1831
+            },
+            {
+              "x": "10-23",
+              "y": 1640
+            },
+            {
+              "x": "10-24",
+              "y": 1519
+            },
+            {
+              "x": "10-25",
+              "y": 1656
+            },
+            {
+              "x": "10-26",
+              "y": 1815
+            },
+            {
+              "x": "10-27",
+              "y": 1997
+            },
+            {
+              "x": "10-28",
+              "y": 1892
+            },
+            {
+              "x": "10-29",
+              "y": 1672
+            },
+            {
+              "x": "10-30",
+              "y": 1744
+            },
+            {
+              "x": "10-31",
+              "y": 1483
+            },
+            {
+              "x": "11-01",
+              "y": 1645
+            },
+            {
+              "x": "11-02",
+              "y": 1963
+            },
+            {
+              "x": "11-03",
+              "y": 2161
+            },
+            {
+              "x": "11-04",
+              "y": 2179
+            },
+            {
+              "x": "11-05",
+              "y": 2844
+            },
+            {
+              "x": "11-06",
+              "y": 3858
+            },
+            {
+              "x": "11-07",
+              "y": 2885
+            },
+            {
+              "x": "11-08",
+              "y": 3203
+            },
+            {
+              "x": "11-09",
+              "y": 5503
+            },
+            {
+              "x": "11-10",
+              "y": 5945
+            },
+            {
+              "x": "11-11",
+              "y": 6581
+            },
+            {
+              "x": "11-12",
+              "y": 25140
+            },
+            {
+              "x": "11-13",
+              "y": 37306
+            },
+            {
+              "x": "11-14",
+              "y": 43185
+            },
+            {
+              "x": "11-15",
+              "y": 79669
+            }
+          ],
+          "cites": [
+            "views:en:2026–27_UEFA_Nations_League:30d"
+          ]
+        },
+        {
+          "label": "UEFA Nations League",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-17",
+              "y": 1538
+            },
+            {
+              "x": "10-18",
+              "y": 1507
+            },
+            {
+              "x": "10-19",
+              "y": 1457
+            },
+            {
+              "x": "10-20",
+              "y": 1412
+            },
+            {
+              "x": "10-21",
+              "y": 1368
+            },
+            {
+              "x": "10-22",
+              "y": 1691
+            },
+            {
+              "x": "10-23",
+              "y": 1494
+            },
+            {
+              "x": "10-24",
+              "y": 1245
+            },
+            {
+              "x": "10-25",
+              "y": 1249
+            },
+            {
+              "x": "10-26",
+              "y": 1500
+            },
+            {
+              "x": "10-27",
+              "y": 1564
+            },
+            {
+              "x": "10-28",
+              "y": 1285
+            },
+            {
+              "x": "10-29",
+              "y": 1181
+            },
+            {
+              "x": "10-30",
+              "y": 1203
+            },
+            {
+              "x": "10-31",
+              "y": 1127
+            },
+            {
+              "x": "11-01",
+              "y": 1141
+            },
+            {
+              "x": "11-02",
+              "y": 1109
+            },
+            {
+              "x": "11-03",
+              "y": 1430
+            },
+            {
+              "x": "11-04",
+              "y": 1280
+            },
+            {
+              "x": "11-05",
+              "y": 2597
+            },
+            {
+              "x": "11-06",
+              "y": 2785
+            },
+            {
+              "x": "11-07",
+              "y": 2034
+            },
+            {
+              "x": "11-08",
+              "y": 2250
+            },
+            {
+              "x": "11-09",
+              "y": 3682
+            },
+            {
+              "x": "11-10",
+              "y": 4189
+            },
+            {
+              "x": "11-11",
+              "y": 4852
+            },
+            {
+              "x": "11-12",
+              "y": 21758
+            },
+            {
+              "x": "11-13",
+              "y": 25698
+            },
+            {
+              "x": "11-14",
+              "y": 28181
+            },
+            {
+              "x": "11-15",
+              "y": 64739
+            }
+          ],
+          "cites": [
+            "views:en:UEFA_Nations_League:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-15T00:00:34Z",
+      "until": "2026-11-15T00:00:57Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "79,669",
+          "value": 79669,
+          "color": "#e8838f",
+          "cites": [
+            "views:en:2026–27_UEFA_Nations_League:2026-11-15"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "18,332",
+          "value": 18332,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Ligue_des_nations_de_l'UEFA_2026-2027:2026-11-15"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "11,719",
+          "value": 11719,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:UEFA_Nations_League_2026-2027:2026-11-15"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "9,635",
+          "value": 9635,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Liga_de_Naciones_de_la_UEFA_2026-27:2026-11-15"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "6,801",
+          "value": 6801,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:UEFA_Nations_League_2026/27:2026-11-15"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "5,895",
+          "value": 5895,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Liga_Narodów_UEFA_(2026/2027):2026-11-15"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "3,827",
+          "value": 3827,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Лига_наций_УЕФА_2026/2027:2026-11-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:00:58Z",
+      "until": "2026-11-15T00:01:05Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/nations-league-england-spain-kane-france-7e32be3d9b49ad4d7f6ed0b59ca7410c",
+          "cites": [
+            "wiki:2026-11-15:21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:01:06Z",
+      "until": "2026-11-15T00:01:16Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league",
+          "cites": [
+            "news:aljazeera:dc59968902c5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:01:17Z",
+      "until": "2026-11-15T00:01:23Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:21"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385905886:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026–27_UEFA_Nations_League:2026-11-15"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q123347490:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.002327
+  }
+}

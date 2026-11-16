@@ -1,0 +1,145 @@
+[
+  {
+    "id": "wiki:2026-11-14:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "Conflict: The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929",
+    "quote": "The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "The National News",
+        "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q138531790:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "Wikidata: \"2026 Iranian strikes on American bases in Bahrain\" is an instance of missile strike, drone warfare",
+    "url": "https://www.wikidata.org/wiki/Q138531790",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385842480:66",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC)",
+    "quote": "On November 13, Bahrain's Ministry of Foreign Affairs condemned what it described as Iran's renewed aggression after recent air strikes on Riffa Air Base.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "wiki:rev:1385842480:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC)",
+    "quote": "On 28 February 2026, following the initial strikes during the 2026 Iran war, Iran conducted retaliatory missile and drone strikes on Bahrain, hitting multiple buildings in the capital Manama including the district of Juffair, where the US Navy's 5th Fleet is headquartered at Naval Support Activity Bahrain.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "views:en:2026_Iranian_strikes_on_Bahrain:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Iranian strikes on Bahrain\", 16 October 2026 to 14 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Iranian_strikes_on_Bahrain&range=latest-30"
+  },
+  {
+    "id": "wd:Q138531790:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iranian strikes on American bases in Bahrain\": began 28 February 2026",
+    "url": "https://www.wikidata.org/wiki/Q138531790#P580"
+  },
+  {
+    "id": "wd:Q138531790:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iranian strikes on American bases in Bahrain\": country Bahrain",
+    "url": "https://www.wikidata.org/wiki/Q138531790#P17"
+  },
+  {
+    "id": "wiki:week:1385842480:67",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC): dated sentence",
+    "quote": "On November 13, Bahrain's Ministry of Foreign Affairs condemned what it described as Iran's renewed aggression after recent air strikes on Riffa Air Base.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "wiki:box:1385842480:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC): side 1: Islamic Resistance in Iraq, Jaysh al-Ghadab",
+    "quote": "Islamic Resistance in Iraq, Jaysh al-Ghadab",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "wiki:box:1385842480:side-2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC): side 2: Defensive/precautionary:",
+    "quote": "Defensive/precautionary:",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "wiki:box:1385842480:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC): Status: Ongoing; US Navy Fifth Fleet central headquarters base damaged by Iranian attacks",
+    "quote": "Ongoing; US Navy Fifth Fleet central headquarters base damaged by Iranian attacks",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "wiki:box:1385842480:casualties-side-1-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC): Casualties (side 1): Several missiles and drones intercepted",
+    "quote": "Several missiles and drones intercepted",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "wiki:box:1385842480:casualties-side-2-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC): Casualties (side 2): 2 DOD employes wounded; 1 oil tanker damaged",
+    "quote": "2 DOD employes wounded; 1 oil tanker damaged",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  },
+  {
+    "id": "wiki:box:1385842480:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain in the 2026 Iran war\" (revision of 2026-11-15 14:10 UTC): Casualties: 1 civilian killed and 51 injured; 1 Bangladeshi civilian killed",
+    "quote": "1 civilian killed and 51 injured; 1 Bangladeshi civilian killed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain_in_the_2026_Iran_war&oldid=1385842480"
+  }
+]

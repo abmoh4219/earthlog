@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "id": "story-2026-11-09-cypriot-president-nikos-christodoulides-and-northern-cypriot",
+  "title": "Cypriot president Nikos Christodoulides and Northern Cypriot president Tufan…",
+  "subtitle": "News · 9 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-09T00:00:57Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 23.08,
+    "south": 26.909999999999997,
+    "east": 43.08,
+    "north": 42.91
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-09T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-09T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 71.07999999999993,
+      "lat": 19.670999999999996,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:00:04Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:14Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:23Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:26Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:29Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:31Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:34Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 3400000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:38Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 3078830.9469667217,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:41Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 2788000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:44Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:47Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 4002480.231056738,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:49Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 3624400,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:52Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:53Z",
+      "lon": 33.08,
+      "lat": 32.785,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:57Z",
+      "lon": 8.079999999999927,
+      "lat": 32.785,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:01Z",
+      "text": "Cypriot president Nikos Christodoulides and Northern Cypriot president Tufan Erhürman agreed to establish two additional crossings across the United Nations Buffer Zone in Cyprus and to hold further peace negotiations.",
+      "cites": [
+        "wiki:2026-11-09:10"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:08Z",
+      "text": "On 9 November 2026, the two leaders met in a UN buffer zone and agreed to open two new border crossings and to resume talks before the end of 2026.",
+      "cites": [
+        "wiki:rev:1384776266:479"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:15Z",
+      "text": "The dispute between the Greek and Turkish communities in Cyprus over how the island should be governed is ongoing.",
+      "cites": [
+        "wiki:rev:1384776266:0"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:25Z",
+      "text": "The map shows Cyprus, the island where the reports place this story.",
+      "cites": [
+        "wiki:2026-11-09:10"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:33Z",
+      "text": "The Cyprus problem began on 1 April 1955 and ended on 18 August 1974.",
+      "cites": [
+        "wd:Q245831:P580",
+        "wd:Q245831:P582"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:43Z",
+      "text": "The report was carried by Reuters.",
+      "cites": [
+        "wiki:2026-11-09:10"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:51Z",
+      "text": "This explainer draws on Wikipedia current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-09:10",
+        "wiki:rev:1384776266:479",
+        "views:en:Cyprus_problem:30d",
+        "wd:Q245831:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CY",
+    "lon": 33.08,
+    "lat": 34.91,
+    "label": "Cyprus"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-09T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-09T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-09T00:00:42Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-09T00:00:50Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-09T00:00:33Z",
+      "until": "2026-11-09T00:00:42Z",
+      "title": "On record: Cyprus problem",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Began",
+          "text": "1 April 1955",
+          "cites": [
+            "wd:Q245831:P580"
+          ]
+        },
+        {
+          "label": "Ended",
+          "text": "18 August 1974",
+          "cites": [
+            "wd:Q245831:P582"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Cyprus",
+          "cites": [
+            "wd:Q245831:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-09T00:00:43Z",
+      "until": "2026-11-09T00:00:50Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/middle-east/cyprus-leaders-agree-open-new-border-crossings-future-talks-2026-11-09/",
+          "cites": [
+            "wiki:2026-11-09:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-09T00:00:51Z",
+      "until": "2026-11-09T00:00:57Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-09:10"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384776266:479"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Cyprus_problem:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q245831:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-13T00:00:00Z",
+    "costUsd": 0.000735
+  }
+}

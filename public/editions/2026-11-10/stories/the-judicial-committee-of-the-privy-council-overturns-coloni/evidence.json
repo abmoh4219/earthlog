@@ -1,0 +1,72 @@
+[
+  {
+    "id": "wiki:2026-11-10:13",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-10T00:00:00Z",
+    "lon": -0.12813889,
+    "lat": 51.50036111,
+    "label": "Law & crime: The Judicial Committee of the Privy Council overturns colonial-era provisions criminalizing consensual same-sex sexual activity between adults in Trinidad and Tobago, ruling them unconstitutional following a legal challenge by activist Jason Jones.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_10&oldid=1385622378",
+    "quote": "The Judicial Committee of the Privy Council overturns colonial-era provisions criminalizing consensual same-sex sexual activity between adults in Trinidad and Tobago, ruling them unconstitutional following a legal challenge by activist Jason Jones.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "CNN",
+        "url": "https://edition.cnn.com/2026/11/10/americas/trinidad-tobago-gay-sex-law-latam-intl"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/uk/uk-court-overturns-trinidad-tobago-law-criminalising-homosexual-sex-2026-11-10/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q1626379:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "label": "Wikidata: \"LGBT rights in Trinidad and Tobago\" is an instance of LGBT rights by country or territory",
+    "url": "https://www.wikidata.org/wiki/Q1626379",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385553591:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"LGBTQ rights in Trinidad and Tobago\" (revision of 2026-11-13 22:37 UTC)",
+    "quote": "Although same-sex sexual activity has been legalised as of November 10, 2026, households headed by same-sex couples are not eligible for the same rights and benefits as that of opposite-sex couples.",
+    "url": "https://en.wikipedia.org/w/index.php?title=LGBTQ_rights_in_Trinidad_and_Tobago&oldid=1385553591"
+  },
+  {
+    "id": "wiki:rev:1385553591:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"LGBTQ rights in Trinidad and Tobago\" (revision of 2026-11-13 22:37 UTC)",
+    "quote": "Lesbian, gay, bisexual, transgender and queer (LGBTQ) people in Trinidad and Tobago face legal challenges not experienced by non-LGBTQ residents.",
+    "url": "https://en.wikipedia.org/w/index.php?title=LGBTQ_rights_in_Trinidad_and_Tobago&oldid=1385553591"
+  },
+  {
+    "id": "views:en:LGBTQ_rights_in_Trinidad_and_Tobago:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"LGBTQ rights in Trinidad and Tobago\", 12 October 2026 to 10 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=LGBTQ_rights_in_Trinidad_and_Tobago&range=latest-30"
+  },
+  {
+    "id": "wd:Q1626379:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"LGBT rights in Trinidad and Tobago\": country Trinidad and Tobago",
+    "url": "https://www.wikidata.org/wiki/Q1626379#P17"
+  }
+]

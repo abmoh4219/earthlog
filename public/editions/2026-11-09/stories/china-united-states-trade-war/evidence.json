@@ -1,0 +1,67 @@
+[
+  {
+    "id": "wiki:2026-11-09:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-09T00:00:00Z",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "Business: The Chinese commerce ministry extends the suspension of export restrictions on certain rare earths, industrial diamonds, and lithium battery technology to January 10, 2027, amid ongoing trade negotiations with the United States.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_9&oldid=1385079275",
+    "quote": "The Chinese commerce ministry extends the suspension of export restrictions on certain rare earths, industrial diamonds, and lithium battery technology to January 10, 2027, amid ongoing trade negotiations with the United States.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/china/china-extends-suspension-new-rare-earth-controls-until-january-2026-11-09/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q51557538:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "label": "Wikidata: \"China–United States trade war\" is an instance of trade war",
+    "url": "https://www.wikidata.org/wiki/Q51557538",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383990841:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"China–United States trade war\" (revision of 2026-11-06 01:09 UTC)",
+    "quote": "The first Trump administration stated that these practices may contribute to the US–China trade deficit, and that the Chinese government requires the transfer of American technology to China.",
+    "url": "https://en.wikipedia.org/w/index.php?title=China%E2%80%93United_States_trade_war&oldid=1383990841"
+  },
+  {
+    "id": "views:en:China–United_States_trade_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"China–United States trade war\", 11 October 2026 to 9 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=China%E2%80%93United_States_trade_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q51557538:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"China–United States trade war\": date 2018",
+    "url": "https://www.wikidata.org/wiki/Q51557538#P585"
+  },
+  {
+    "id": "wd:Q51557538:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"China–United States trade war\": began 6 July 2018",
+    "url": "https://www.wikidata.org/wiki/Q51557538#P580"
+  }
+]

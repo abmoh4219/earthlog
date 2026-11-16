@@ -1,0 +1,813 @@
+{
+  "version": 1,
+  "id": "story-2026-11-12-anthony-clark-actor",
+  "title": "Anthony Clark (actor)",
+  "subtitle": "People · 12 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-12T00:00:00Z",
+    "end": "2026-11-12T00:01:27Z"
+  },
+  "focus": "2026-11-12T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-12",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-12T00:00:56Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-12T00:00:56Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-12T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-12T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-12T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:27Z",
+      "lon": -79.170205,
+      "lat": 36.503672,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:29Z",
+      "lon": -79.170205,
+      "lat": 36.503672,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:31Z",
+      "lon": -79.170205,
+      "lat": 36.503672,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:34Z",
+      "lon": -76.6223835019593,
+      "lat": 38.52745962145033,
+      "range": 2835434.8284793454,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:38Z",
+      "lon": -76.6223835019593,
+      "lat": 38.52745962145033,
+      "range": 2567595.440596908,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:41Z",
+      "lon": -76.6223835019593,
+      "lat": 38.52745962145033,
+      "range": 2325056.559353063,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:44Z",
+      "lon": -76.6223835019593,
+      "lat": 38.52745962145033,
+      "range": 2835434.8284793454,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:45Z",
+      "lon": -76.6223835019593,
+      "lat": 38.52745962145033,
+      "range": 2567595.440596908,
+      "heading": -6.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:46Z",
+      "lon": -76.6223835019593,
+      "lat": 38.52745962145033,
+      "range": 2325056.559353063,
+      "heading": -13,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:50Z",
+      "lon": -88.18829706322838,
+      "lat": 38.05921205874474,
+      "range": 3854126.3049612907,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:53Z",
+      "lon": -88.18829706322838,
+      "lat": 38.05921205874474,
+      "range": 3490059.8062450946,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:55Z",
+      "lon": -88.18829706322838,
+      "lat": 38.05921205874474,
+      "range": 3160383.5700682583,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:00Z",
+      "lon": 39.700281037476785,
+      "lat": 38.957970443872064,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:01:10Z",
+      "lon": 39.700281037476785,
+      "lat": 38.957970443872064,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:19Z",
+      "lon": 39.700281037476785,
+      "lat": 38.957970443872064,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:01:24Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:27Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-12T00:00:01Z",
+      "text": "According to the Wikipedia article, Clark died of complications from pneumonia on November 10, 2026, at the age of 62.",
+      "cites": [
+        "wiki:rev:1385674487:18"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:08Z",
+      "text": "At age 12, his family moved to a tobacco farm 20 miles south in Gladys, Virginia, where his stepfather lived.",
+      "cites": [
+        "wiki:rev:1385674487:3"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:15Z",
+      "text": "Anthony Duane Clark, born April 4, 1964, was an American actor, producer and comedian, best known for starring in the CBS sitcom Yes, Dear as Greg Warner.",
+      "cites": [
+        "wiki:rev:1385674487:0"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:25Z",
+      "text": "Anthony Clark was born on 4 April 1964 in Lynchburg.",
+      "cites": [
+        "wd:Q4772274:P569",
+        "wd:Q4772274:P19"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:33Z",
+      "text": "He was educated at Emerson College and Brookville High School.",
+      "cites": [
+        "wd:Q4772274:P69:Q1335573",
+        "wd:Q4772274:P69:Q4975206"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:43Z",
+      "text": "Wikidata lists Yes, Dear among the notable works of Anthony Clark.",
+      "cites": [
+        "wd:Q4772274:P800:Q738447"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:48Z",
+      "text": "On 12 November 2026, 61,246 readers also opened the English Wikipedia article on Yes, Dear.",
+      "cites": [
+        "views:en:Yes,_Dear:2026-11-12"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:57Z",
+      "text": "On 12 November 2026, 374,893 readers opened the English article, about 2,245× its usual daily count.",
+      "cites": [
+        "views:en:Anthony_Clark_(actor):2026-11-12",
+        "views:en:Anthony_Clark_(actor):prior"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:04Z",
+      "text": "The article appears in 7 languages, and after English, the largest readership was in Polish, with 1,336 readers.",
+      "cites": [
+        "views:en:Anthony_Clark_(actor):2026-11-12",
+        "views:pl:Anthony_Clark_(aktor):2026-11-12"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:11Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
+      "cites": [
+        "views:pl:Anthony_Clark_(aktor):2026-11-12",
+        "views:it:Anthony_Clark_(attore):2026-11-12",
+        "views:es:Anthony_Clark_(actor):2026-11-12",
+        "views:ar:أنطوني_كلارك:2026-11-12",
+        "views:zh:安東尼·克拉克_(演員):2026-11-12",
+        "views:fa:آنتونی_کلارک:2026-11-12"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:21Z",
+      "text": "The story draws on Wikipedia articles, Wikimedia pageview counts and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1385674487:18",
+        "views:en:Anthony_Clark_(actor):2026-11-12",
+        "wd:Q4772274:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-12T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-12T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-12T00:00:42Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-12T00:00:47Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-12T00:00:56Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-12T00:01:20Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-12T00:00:33Z",
+      "until": "2026-11-12T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1964 born",
+          "text": "Lynchburg",
+          "cites": [
+            "wd:Q4772274:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Emerson College",
+          "cites": [
+            "wd:Q4772274:P69:Q1335573"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Brookville High School",
+          "cites": [
+            "wd:Q4772274:P69:Q4975206"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-12T00:00:43Z",
+      "until": "2026-11-12T00:00:47Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Known for",
+          "text": "Yes, Dear",
+          "cites": [
+            "wd:Q4772274:P800:Q738447"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-12T00:00:57Z",
+      "until": "2026-11-12T00:01:20Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Anthony Clark (actor)",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-14",
+              "y": 154
+            },
+            {
+              "x": "10-15",
+              "y": 132
+            },
+            {
+              "x": "10-16",
+              "y": 133
+            },
+            {
+              "x": "10-17",
+              "y": 194
+            },
+            {
+              "x": "10-18",
+              "y": 190
+            },
+            {
+              "x": "10-19",
+              "y": 171
+            },
+            {
+              "x": "10-20",
+              "y": 153
+            },
+            {
+              "x": "10-21",
+              "y": 812
+            },
+            {
+              "x": "10-22",
+              "y": 311
+            },
+            {
+              "x": "10-23",
+              "y": 234
+            },
+            {
+              "x": "10-24",
+              "y": 188
+            },
+            {
+              "x": "10-25",
+              "y": 224
+            },
+            {
+              "x": "10-26",
+              "y": 187
+            },
+            {
+              "x": "10-27",
+              "y": 210
+            },
+            {
+              "x": "10-28",
+              "y": 194
+            },
+            {
+              "x": "10-29",
+              "y": 195
+            },
+            {
+              "x": "10-30",
+              "y": 155
+            },
+            {
+              "x": "10-31",
+              "y": 188
+            },
+            {
+              "x": "11-01",
+              "y": 148
+            },
+            {
+              "x": "11-02",
+              "y": 204
+            },
+            {
+              "x": "11-03",
+              "y": 133
+            },
+            {
+              "x": "11-04",
+              "y": 119
+            },
+            {
+              "x": "11-05",
+              "y": 153
+            },
+            {
+              "x": "11-06",
+              "y": 131
+            },
+            {
+              "x": "11-07",
+              "y": 165
+            },
+            {
+              "x": "11-08",
+              "y": 218
+            },
+            {
+              "x": "11-09",
+              "y": 143
+            },
+            {
+              "x": "11-10",
+              "y": 157
+            },
+            {
+              "x": "11-11",
+              "y": 1991
+            },
+            {
+              "x": "11-12",
+              "y": 374893
+            }
+          ],
+          "cites": [
+            "views:en:Anthony_Clark_(actor):30d"
+          ]
+        },
+        {
+          "label": "Yes, Dear",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-14",
+              "y": 277
+            },
+            {
+              "x": "10-15",
+              "y": 273
+            },
+            {
+              "x": "10-16",
+              "y": 258
+            },
+            {
+              "x": "10-17",
+              "y": 371
+            },
+            {
+              "x": "10-18",
+              "y": 347
+            },
+            {
+              "x": "10-19",
+              "y": 336
+            },
+            {
+              "x": "10-20",
+              "y": 283
+            },
+            {
+              "x": "10-21",
+              "y": 2951
+            },
+            {
+              "x": "10-22",
+              "y": 1025
+            },
+            {
+              "x": "10-23",
+              "y": 586
+            },
+            {
+              "x": "10-24",
+              "y": 479
+            },
+            {
+              "x": "10-25",
+              "y": 578
+            },
+            {
+              "x": "10-26",
+              "y": 427
+            },
+            {
+              "x": "10-27",
+              "y": 416
+            },
+            {
+              "x": "10-28",
+              "y": 336
+            },
+            {
+              "x": "10-29",
+              "y": 453
+            },
+            {
+              "x": "10-30",
+              "y": 378
+            },
+            {
+              "x": "10-31",
+              "y": 377
+            },
+            {
+              "x": "11-01",
+              "y": 349
+            },
+            {
+              "x": "11-02",
+              "y": 319
+            },
+            {
+              "x": "11-03",
+              "y": 270
+            },
+            {
+              "x": "11-04",
+              "y": 254
+            },
+            {
+              "x": "11-05",
+              "y": 283
+            },
+            {
+              "x": "11-06",
+              "y": 252
+            },
+            {
+              "x": "11-07",
+              "y": 346
+            },
+            {
+              "x": "11-08",
+              "y": 348
+            },
+            {
+              "x": "11-09",
+              "y": 322
+            },
+            {
+              "x": "11-10",
+              "y": 291
+            },
+            {
+              "x": "11-11",
+              "y": 492
+            },
+            {
+              "x": "11-12",
+              "y": 61246
+            }
+          ],
+          "cites": [
+            "views:en:Yes,_Dear:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-12T00:00:57Z",
+      "until": "2026-11-12T00:01:20Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "374,893",
+          "value": 374893,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Anthony_Clark_(actor):2026-11-12"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "1,336",
+          "value": 1336,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Anthony_Clark_(aktor):2026-11-12"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "881",
+          "value": 881,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Anthony_Clark_(attore):2026-11-12"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "871",
+          "value": 871,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Anthony_Clark_(actor):2026-11-12"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "115",
+          "value": 115,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:أنطوني_كلارك:2026-11-12"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "79",
+          "value": 79,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:安東尼·克拉克_(演員):2026-11-12"
+          ]
+        },
+        {
+          "label": "Persian",
+          "text": "11",
+          "value": 11,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fa:آنتونی_کلارک:2026-11-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-12T00:01:21Z",
+      "until": "2026-11-12T00:01:27Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385674487:18"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Anthony_Clark_(actor):2026-11-12"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q4772274:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T00:00:00Z",
+    "costUsd": 0.001995
+  }
+}

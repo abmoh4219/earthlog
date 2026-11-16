@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-14",
+  "title": "The world on 14 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-15T00:00:00Z"
+  },
+  "focus": "2026-11-14T01:12:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": 2.55,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T01:12:00Z",
+      "lon": 2.55,
+      "lat": 45.42,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T02:31:12Z",
+      "lon": 2.55,
+      "lat": 45.42,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T03:36:00Z",
+      "lon": 24.88333333,
+      "lat": 11.41,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T04:55:12Z",
+      "lon": 24.88333333,
+      "lat": 11.41,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T06:00:00Z",
+      "lon": -75.65777778,
+      "lat": 1.54194444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T07:19:12Z",
+      "lon": -75.65777778,
+      "lat": 1.54194444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T08:24:00Z",
+      "lon": -122.14833333,
+      "lat": 36.845,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T09:28:01Z",
+      "lon": -122.14833333,
+      "lat": 36.845,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T10:20:24Z",
+      "lon": -42.6346,
+      "lat": 29.242,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T11:24:25Z",
+      "lon": -42.6346,
+      "lat": 29.242,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T12:16:48Z",
+      "lon": -42.6346,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T14:13:12Z",
+      "lon": 89.68,
+      "lat": 22.93,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T15:17:13Z",
+      "lon": 89.68,
+      "lat": 22.93,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T16:09:36Z",
+      "lon": 100.49416667,
+      "lat": 13.112499999999999,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T17:13:37Z",
+      "lon": 100.49416667,
+      "lat": 13.112499999999999,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T18:06:00Z",
+      "lon": 88.75166667,
+      "lat": 25.62194444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T19:21:54Z",
+      "lon": 88.75166667,
+      "lat": 25.62194444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T20:24:00Z",
+      "lon": 30.39,
+      "lat": 5.95,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-14T21:43:12Z",
+      "lon": 30.39,
+      "lat": 5.95,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T22:48:00Z",
+      "lon": 30.39,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 30.39,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 873
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T01:12:00Z",
+      "text": "Politics: Student protesters, unions, and the yellow vests hold another nationwide protest in France, with over 100,000 participants.",
+      "cites": [
+        "wiki:2026-11-14:12"
+      ]
+    },
+    {
+      "t": "2026-11-14T03:36:00Z",
+      "text": "Conflict: Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF)…",
+      "cites": [
+        "wiki:2026-11-14:1"
+      ]
+    },
+    {
+      "t": "2026-11-14T06:00:00Z",
+      "text": "Disaster: A bus overturns on the Garzón–Neiva highway in Colombia, killing six people and wounding eleven more.",
+      "cites": [
+        "wiki:2026-11-14:6"
+      ]
+    },
+    {
+      "t": "2026-11-14T08:24:00Z",
+      "text": "Science & tech: The Italian Data Protection Authority fines American technology company Meta for €805 million (US$887 million) after it was found that the…",
+      "cites": [
+        "wiki:2026-11-14:14"
+      ]
+    },
+    {
+      "t": "2026-11-14T10:20:24Z",
+      "text": "09:26 UTC. The day's strongest earthquake: magnitude 5.5, 10 km deep, northern Mid-Atlantic Ridge.",
+      "cites": [
+        "usgs:us7000ty84"
+      ]
+    },
+    {
+      "t": "2026-11-14T12:16:48Z",
+      "text": "Business: The Bangladesh Garment Manufacturers and Exporters Association threatens to indefinitely close unrest-affected factories without pay under…",
+      "cites": [
+        "wiki:2026-11-14:4"
+      ]
+    },
+    {
+      "t": "2026-11-14T14:13:12Z",
+      "text": "Health & environment: Eight more people in Bangladesh are reported to have died from dengue fever, bringing this year's outbreak's death toll to 491.",
+      "cites": [
+        "wiki:2026-11-14:9"
+      ]
+    },
+    {
+      "t": "2026-11-14T16:09:36Z",
+      "text": "Culture: The Philippines, with the song \"Sobra-Sobra\" by Carmelle, wins the inaugural Eurovision Song Contest Asia held in Bangkok, Thailand.",
+      "cites": [
+        "wiki:2026-11-14:3"
+      ]
+    },
+    {
+      "t": "2026-11-14T18:06:00Z",
+      "text": "Law & crime: Border Guard Bangladesh seize 48 high-power explosive gel sticks, 100 detonators…",
+      "cites": [
+        "wiki:2026-11-14:10"
+      ]
+    },
+    {
+      "t": "2026-11-14T20:24:00Z",
+      "text": "Politics: The South Sudanese election commission postpones the country's first presidential and parliamentary elections since independence in 2011…",
+      "cites": [
+        "wiki:2026-11-14:13"
+      ]
+    },
+    {
+      "t": "2026-11-14T22:48:00Z",
+      "text": "Conflict: The Iranian military attacks, with drones and missiles, an American military facility in Bahrain…",
+      "cites": [
+        "wiki:2026-11-14:2"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-16T12:08:28Z"
+  }
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "wiki:2026-11-15:21",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Sports: In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/nations-league-england-spain-kane-france-7e32be3d9b49ad4d7f6ed0b59ca7410c"
+      }
+    ]
+  },
+  {
+    "id": "views:en:2026–27_UEFA_Nations_League:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "English Wikipedia: 79,669 readers of \"2026–27 UEFA Nations League\" on 15 Nov 2026",
+    "value": 79669,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026–27_UEFA_Nations_League:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "\"2026–27 UEFA Nations League\": normally a median of 3,569 readers a day (8 to 60 days before)",
+    "value": 3569,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:UEFA_Nations_League:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "English Wikipedia: 64,739 readers of \"UEFA Nations League\" on 15 Nov 2026",
+    "value": 64739,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/UEFA_Nations_League",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:UEFA_Nations_League:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "\"UEFA Nations League\": normally a median of 2,785 readers a day (8 to 60 days before)",
+    "value": 2785,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/UEFA_Nations_League",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:dc59968902c5",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Spain vs England live: UEFA Nations League (16:45 UTC)",
+    "url": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league",
+    "quote": "Spain vs England live: UEFA Nations League",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q123347490:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Wikidata: \"2026–27 UEFA Nations League\" is an instance of sports season",
+    "url": "https://www.wikidata.org/wiki/Q123347490",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385905886:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026–27 UEFA Nations League\" (revision of 2026-11-15 22:20 UTC)",
+    "quote": "The competition is being held from September to November 2026 (league phase), March 2027 (League A quarter-finals, and League A/B and B/C play-offs), and June 2027 (Nations League Finals).",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026%E2%80%9327_UEFA_Nations_League&oldid=1385905886"
+  },
+  {
+    "id": "wiki:rev:1385905886:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026–27 UEFA Nations League\" (revision of 2026-11-15 22:20 UTC)",
+    "quote": "The 2026–27 UEFA Nations League is the fifth season of the UEFA Nations League, an international association football competition involving the men's national teams of the member associations of UEFA.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026%E2%80%9327_UEFA_Nations_League&oldid=1385905886"
+  },
+  {
+    "id": "views:en:2026–27_UEFA_Nations_League:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026–27 UEFA Nations League\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026%E2%80%9327_UEFA_Nations_League&range=latest-30"
+  },
+  {
+    "id": "views:en:UEFA_Nations_League:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"UEFA Nations League\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=UEFA_Nations_League&range=latest-30"
+  },
+  {
+    "id": "views:fr:Ligue_des_nations_de_l'UEFA_2026-2027:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 18,332 readers of \"Ligue des nations de l'UEFA 2026-2027\" on 15 November 2026",
+    "value": 18332,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Ligue_des_nations_de_l'UEFA_2026-2027"
+  },
+  {
+    "id": "views:it:UEFA_Nations_League_2026-2027:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 11,719 readers of \"UEFA Nations League 2026-2027\" on 15 November 2026",
+    "value": 11719,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/UEFA_Nations_League_2026-2027"
+  },
+  {
+    "id": "views:es:Liga_de_Naciones_de_la_UEFA_2026-27:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 9,635 readers of \"Liga de Naciones de la UEFA 2026-27\" on 15 November 2026",
+    "value": 9635,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Liga_de_Naciones_de_la_UEFA_2026-27"
+  },
+  {
+    "id": "views:de:UEFA_Nations_League_2026/27:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 6,801 readers of \"UEFA Nations League 2026/27\" on 15 November 2026",
+    "value": 6801,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/UEFA_Nations_League_2026%2F27"
+  },
+  {
+    "id": "views:pl:Liga_Narodów_UEFA_(2026/2027):2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 5,895 readers of \"Liga Narodów UEFA (2026/2027)\" on 15 November 2026",
+    "value": 5895,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Liga_Narod%C3%B3w_UEFA_(2026%2F2027)"
+  },
+  {
+    "id": "views:ru:Лига_наций_УЕФА_2026/2027:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 3,827 readers of \"Лига наций УЕФА 2026/2027\" on 15 November 2026",
+    "value": 3827,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B3%D0%B0_%D0%BD%D0%B0%D1%86%D0%B8%D0%B9_%D0%A3%D0%95%D0%A4%D0%90_2026%2F2027"
+  },
+  {
+    "id": "views:pt:Liga_das_Nações_da_UEFA_de_2026–27:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 1,559 readers of \"Liga das Nações da UEFA de 2026–27\" on 15 November 2026",
+    "value": 1559,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Liga_das_Na%C3%A7%C3%B5es_da_UEFA_de_2026%E2%80%9327"
+  },
+  {
+    "id": "views:zh:2026年至2027年歐洲國家聯賽:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 1,310 readers of \"2026年至2027年歐洲國家聯賽\" on 15 November 2026",
+    "value": 1310,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E8%87%B32027%E5%B9%B4%E6%AD%90%E6%B4%B2%E5%9C%8B%E5%AE%B6%E8%81%AF%E8%B3%BD"
+  },
+  {
+    "id": "views:ja:UEFAネーションズリーグ2026-27:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 1,242 readers of \"UEFAネーションズリーグ2026-27\" on 15 November 2026",
+    "value": 1242,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/UEFA%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA%E3%83%AA%E3%83%BC%E3%82%B02026-27"
+  },
+  {
+    "id": "views:ar:دوري_الأمم_الأوروبية_2026–27:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 560 readers of \"دوري الأمم الأوروبية 2026–27\" on 15 November 2026",
+    "value": 560,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AF%D9%88%D8%B1%D9%8A_%D8%A7%D9%84%D8%A3%D9%85%D9%85_%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A%D8%A9_2026%E2%80%9327"
+  },
+  {
+    "id": "wd:Q123347490:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026–27 UEFA Nations League\": began 21 September 2026",
+    "url": "https://www.wikidata.org/wiki/Q123347490#P580"
+  },
+  {
+    "id": "wd:Q123347490:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026–27 UEFA Nations League\": ended 13 June 2027",
+    "url": "https://www.wikidata.org/wiki/Q123347490#P582"
+  },
+  {
+    "id": "wd:Q123347490:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026–27 UEFA Nations League\": sport association football",
+    "url": "https://www.wikidata.org/wiki/Q123347490#P641"
+  }
+]

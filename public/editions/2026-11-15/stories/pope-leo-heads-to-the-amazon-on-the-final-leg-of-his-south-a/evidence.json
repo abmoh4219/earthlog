@@ -1,0 +1,32 @@
+[
+  {
+    "id": "news:dw:2d76c56d2268",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "DW: Pope Leo heads to high Andes on final leg of South America tour (15:23 UTC)",
+    "url": "https://www.dw.com/en/pope-leo-heads-to-high-andes-on-final-leg-of-south-america-tour/a-79952884",
+    "quote": "Pope Leo heads to high Andes on final leg of South America tour",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:3b02c4b3cb53",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour (20:54 UTC)",
+    "url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour",
+    "quote": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Pope_Leo:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Pope Leo\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Pope_Leo&range=latest-30"
+  }
+]

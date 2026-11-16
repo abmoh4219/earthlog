@@ -1,0 +1,179 @@
+[
+  {
+    "id": "views:en:Dan_Hicks_(sportscaster):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 157,094 readers of \"Dan Hicks (sportscaster)\" on 12 Nov 2026",
+    "value": 157094,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dan_Hicks_(sportscaster)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Dan_Hicks_(sportscaster):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Dan Hicks (sportscaster)\": normally a median of 71 readers a day (8 to 60 days before)",
+    "value": 71,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Dan_Hicks_(sportscaster)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Hannah_Storm:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 127,755 readers of \"Hannah Storm\" on 12 Nov 2026",
+    "value": 127755,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Hannah_Storm",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Hannah_Storm:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Hannah Storm\": normally a median of 236 readers a day (8 to 60 days before)",
+    "value": 236,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Hannah_Storm",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q5213677:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "Wikidata: \"Dan Hicks\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q5213677",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385907272:89",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dan Hicks (sportscaster)\" (revision of 2026-11-15 22:28 UTC)",
+    "quote": "Hicks died from an acute illness on November 11, 2026, at the age of 64.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dan_Hicks_(sportscaster)&oldid=1385907272"
+  },
+  {
+    "id": "wiki:rev:1385907272:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dan Hicks (sportscaster)\" (revision of 2026-11-15 22:28 UTC)",
+    "quote": "He was a lead announcer for Golf on NBC from 2000, the lead play-by-play announcer for Notre Dame Football on NBC from 2013 to 2016 and from 2024, and covered 16 Olympic Games.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dan_Hicks_(sportscaster)&oldid=1385907272"
+  },
+  {
+    "id": "wiki:rev:1385907272:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Dan Hicks (sportscaster)\" (revision of 2026-11-15 22:28 UTC)",
+    "quote": "John Daniel Hicks (June 2, 1962 – November 11, 2026) was an American sportscaster who worked for NBC Sports from 1992 until his death.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dan_Hicks_(sportscaster)&oldid=1385907272"
+  },
+  {
+    "id": "views:en:Dan_Hicks_(sportscaster):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Dan Hicks (sportscaster)\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Dan_Hicks_(sportscaster)&range=latest-30"
+  },
+  {
+    "id": "views:en:Hannah_Storm:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Hannah Storm\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Hannah_Storm&range=latest-30"
+  },
+  {
+    "id": "views:ar:دان_هيكس_(معلق_رياضي):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 3 readers of \"دان هيكس (معلق رياضي)\" on 12 November 2026",
+    "value": 3,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AF%D8%A7%D9%86_%D9%87%D9%8A%D9%83%D8%B3_(%D9%85%D8%B9%D9%84%D9%82_%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A)"
+  },
+  {
+    "id": "wd:Q5213677:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dan Hicks\": born 2 June 1962",
+    "url": "https://www.wikidata.org/wiki/Q5213677#P569"
+  },
+  {
+    "id": "wd:Q5213677:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dan Hicks\": birthplace Tucson",
+    "url": "https://www.wikidata.org/wiki/Q5213677#P19"
+  },
+  {
+    "id": "wd:Q5213677:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dan Hicks\": died 11 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q5213677#P570"
+  },
+  {
+    "id": "wd:Q5213677:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dan Hicks\": place of death Connecticut",
+    "url": "https://www.wikidata.org/wiki/Q5213677#P20"
+  },
+  {
+    "id": "wd:Q5213677:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dan Hicks\": occupation sports commentator",
+    "url": "https://www.wikidata.org/wiki/Q5213677#P106"
+  },
+  {
+    "id": "wd:Q5213677:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dan Hicks\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q5213677#P27"
+  },
+  {
+    "id": "wd:Q5213677:P69:Q503419",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Dan Hicks\": educated at University of Arizona",
+    "url": "https://www.wikidata.org/wiki/Q5213677#P69"
+  }
+]

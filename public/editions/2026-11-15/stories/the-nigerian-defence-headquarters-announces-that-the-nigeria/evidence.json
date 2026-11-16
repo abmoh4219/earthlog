@@ -1,0 +1,107 @@
+[
+  {
+    "id": "wiki:2026-11-15:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "lon": 7.489195,
+    "lat": 9.040929,
+    "label": "Conflict: The Nigerian Defence Headquarters announces that the Nigerian Army killed eight terrorists, arrested 22 additional terrorists, logistical personnel and their families, and rescued 125 kidnapping victims in various raids in the states of Adamawa, Bauchi, Yobe, and Borno between November 6 and 12.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "The Nigerian Defence Headquarters announces that the Nigerian Army killed eight terrorists, arrested 22 additional terrorists, logistical personnel and their families, and rescued 125 kidnapping victims in various raids in the states of Adamawa, Bauchi, Yobe, and Borno between November 6 and 12.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "The Vanguard",
+        "url": "https://www.vanguardngr.com/2026/11/military-rescues-125-kidnap-victims-neutralises-eight-terrorists/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q18393989:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Wikidata: \"religious violence in Nigeria\" is an instance of aspect in a geographic region",
+    "url": "https://www.wikidata.org/wiki/Q18393989",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385396737:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Religious violence in Nigeria\" (revision of 2026-11-13 03:13 UTC)",
+    "quote": "Religious violence in Nigeria refers to Christian–Muslim strife in Nigeria tracing back to 1953.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Religious_violence_in_Nigeria&oldid=1385396737"
+  },
+  {
+    "id": "views:en:Religious_violence_in_Nigeria:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Religious violence in Nigeria\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Religious_violence_in_Nigeria&range=latest-30"
+  },
+  {
+    "id": "wd:Q18393989:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"religious violence in Nigeria\": began 1953",
+    "url": "https://www.wikidata.org/wiki/Q18393989#P580"
+  },
+  {
+    "id": "wd:Q18393989:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"religious violence in Nigeria\": country Nigeria",
+    "url": "https://www.wikidata.org/wiki/Q18393989#P17"
+  },
+  {
+    "id": "wiki:box:1385396737:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Religious violence in Nigeria\" (revision of 2026-11-13 03:13 UTC): side 1: Christians:, Adara, Atyap, Berom, Jukun, Tiv and Tarok farmers, Biafran separatists",
+    "quote": "Christians:, Adara, Atyap, Berom, Jukun, Tiv and Tarok farmers, Biafran separatists",
+    "url": "https://en.wikipedia.org/w/index.php?title=Religious_violence_in_Nigeria&oldid=1385396737"
+  },
+  {
+    "id": "wiki:box:1385396737:side-2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Religious violence in Nigeria\" (revision of 2026-11-13 03:13 UTC): side 2: Muslims:, Fulani and Hausa herders, Boko Haram",
+    "quote": "Muslims:, Fulani and Hausa herders, Boko Haram",
+    "url": "https://en.wikipedia.org/w/index.php?title=Religious_violence_in_Nigeria&oldid=1385396737"
+  },
+  {
+    "id": "wiki:box:1385396737:side-3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Religious violence in Nigeria\" (revision of 2026-11-13 03:13 UTC): side 3: :, Nigerian Armed Forces, Nigeria Police Force",
+    "quote": ":, Nigerian Armed Forces, Nigeria Police Force",
+    "url": "https://en.wikipedia.org/w/index.php?title=Religious_violence_in_Nigeria&oldid=1385396737"
+  },
+  {
+    "id": "wiki:box:1385396737:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Religious violence in Nigeria\" (revision of 2026-11-13 03:13 UTC): Status: Ongoing",
+    "quote": "Ongoing",
+    "url": "https://en.wikipedia.org/w/index.php?title=Religious_violence_in_Nigeria&oldid=1385396737"
+  }
+]

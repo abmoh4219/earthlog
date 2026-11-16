@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "id": "story-2026-11-13-the-united-states-department-of-state-designates-three-guate",
+  "title": "The United States Department of State designates three Guatemalan criminal…",
+  "subtitle": "Conflict · 13 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-13T00:00:33Z"
+  },
+  "focus": "2026-11-13T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -87.04833333,
+    "south": 30.894166669999997,
+    "east": -67.04833333,
+    "north": 46.89416667
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-13T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-13T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": -39.04833332999999,
+      "lat": 22.924000001999996,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T00:00:04Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:07Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:09Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:12Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:15Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:17Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:20Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:23Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:25Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:28Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:29Z",
+      "lon": -77.04833333,
+      "lat": 38.20666667,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:33Z",
+      "lon": -102.04833332999999,
+      "lat": 38.20666667,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T00:00:01Z",
+      "text": "The United States Department of State has designated three Guatemalan criminal groups as foreign terrorist organizations, citing material support to Mexican cartels.",
+      "cites": [
+        "wiki:2026-11-13:6"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:11Z",
+      "text": "The designation comes from the United States Department of State, based in the United States.",
+      "cites": [
+        "wiki:2026-11-13:6"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:19Z",
+      "text": "AFP, via Macau Business, reported the story.",
+      "cites": [
+        "wiki:2026-11-13:6"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:27Z",
+      "text": "The sources are Wikipedia, Current events and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-13:6",
+        "wd:Q2170633:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -77.04833333,
+    "lat": 38.89416667,
+    "label": "United States Department of State"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-13T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-13T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-13T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-13T00:00:19Z",
+      "until": "2026-11-13T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via Macau Business",
+          "text": "Open",
+          "url": "https://macaubusiness.com/us-imposes-terrorist-designations-on-three-guatemala-groups/",
+          "cites": [
+            "wiki:2026-11-13:6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-13T00:00:27Z",
+      "until": "2026-11-13T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-13:6"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q2170633:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:01:26Z",
+    "costUsd": 0.000684
+  }
+}

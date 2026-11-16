@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "id": "story-2026-11-13-turkiye-and-qatar-sign-mutual-defence-agreement",
+  "title": "2026 Iran war",
+  "subtitle": "Conflict · 13 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-13T00:01:21Z"
+  },
+  "focus": "2026-11-13T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 41.14,
+    "south": 17.24,
+    "east": 61.14,
+    "north": 33.239999999999995
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-13T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-13T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-13T00:00:49Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-week.json",
+      "name": "week",
+      "from": "2026-11-13T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": 89.13999999999999,
+      "lat": 13.868999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T00:00:04Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:14Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:23Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:26Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:29Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:31Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:34Z",
+      "lon": 51.14,
+      "lat": 23.74,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -45,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:41Z",
+      "lon": 51.14,
+      "lat": 23.74,
+      "range": 1358307.7707206125,
+      "heading": 14,
+      "pitch": -42.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:48Z",
+      "lon": 51.14,
+      "lat": 23.74,
+      "range": 1230000,
+      "heading": 28,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:52Z",
+      "lon": 51.25814553401174,
+      "lat": 29.907669485189494,
+      "range": 2784171.214073164,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:55Z",
+      "lon": 51.25814553401174,
+      "lat": 29.907669485189494,
+      "range": 2521174.2633948135,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:57Z",
+      "lon": 51.25814553401174,
+      "lat": 29.907669485189494,
+      "range": 2283020.3955399944,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "lon": 51.25814553401174,
+      "lat": 29.907669485189494,
+      "range": 2784171.214073164,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:07Z",
+      "lon": 51.25814553401174,
+      "lat": 29.907669485189494,
+      "range": 2670483.214950385,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:13Z",
+      "lon": 51.25814553401174,
+      "lat": 29.907669485189494,
+      "range": 2561437.516947311,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:17Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:01:18Z",
+      "lon": 51.14,
+      "lat": 23.115,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:21Z",
+      "lon": 26.139999999999986,
+      "lat": 23.115,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T00:00:01Z",
+      "text": "Turkiye and Qatar signed a mutual defence agreement, Al Jazeera reports.",
+      "cites": [
+        "news:aljazeera:7d93c5c4e4f3"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:08Z",
+      "text": "The Islamic Republic News Agency reported an \"enemy\" attack on Bandar Sirik on 12 November.",
+      "cites": [
+        "wiki:rev:1386011160:419"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:15Z",
+      "text": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025.",
+      "cites": [
+        "wiki:rev:1386011160:0"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:33Z",
+      "text": "Iranian state media claimed that US forces fired projectiles at Qeshm Island in the Strait of Hormuz overnight on 8–9 November.",
+      "cites": [
+        "wiki:week:1386011160:419"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:41Z",
+      "text": "By 11 November, at least 25 seafarers had been killed near the Strait of Hormuz since the start of the war, according to the UN.",
+      "cites": [
+        "wiki:week:1386011160:465"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:59Z",
+      "text": "Al Jazeera headlined the story “Turkiye and Qatar sign mutual defence agreement”.",
+      "cites": [
+        "news:aljazeera:7d93c5c4e4f3"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:06Z",
+      "text": "France 24 headlined its version “Turkey and Qatar pledge unified stance against attacks in mutual defence pact”.",
+      "cites": [
+        "news:france24:78a12542999d"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:15Z",
+      "text": "Sources include Al Jazeera and France 24, Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386011160:419",
+        "views:en:2026_Iran_war:30d",
+        "wd:Q138503695:P585"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "QA",
+    "lon": 51.14,
+    "lat": 25.24,
+    "label": "Qatar"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-13T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-13T00:00:32Z",
+      "title": "Day by day"
+    },
+    {
+      "t": "2026-11-13T00:00:49Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-13T00:00:58Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-13T00:01:14Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-13T00:00:59Z",
+      "until": "2026-11-13T00:01:14Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+          "cites": [
+            "news:aljazeera:7d93c5c4e4f3"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact",
+          "cites": [
+            "news:france24:78a12542999d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-13T00:01:15Z",
+      "until": "2026-11-13T00:01:21Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386011160:419"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Iran_war:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138503695:P585"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:01:26Z",
+    "costUsd": 0.002168
+  }
+}

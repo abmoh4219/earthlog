@@ -1,0 +1,155 @@
+[
+  {
+    "id": "wiki:2026-11-15:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Conflict: Three Palestinians are killed and others are injured in shelling and shooting attacks by Israeli troops in various areas of the Gaza Strip, in a continuation of the violation of the ceasefire agreement signed in October 2025.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "Three Palestinians are killed and others are injured in shelling and shooting attacks by Israeli troops in various areas of the Gaza Strip, in a continuation of the violation of the ceasefire agreement signed in October 2025.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AA",
+        "url": "https://www.aa.com.tr/en/middle-east/3-palestinians-killed-in-israeli-attacks-across-gaza-medical-sources/4126079"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q122962941:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Wikidata: \"Gaza War\" is an instance of war",
+    "url": "https://www.wikidata.org/wiki/Q122962941",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:620b63821f89",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Israeli air strike kills senior Hamas commander in Gaza (01:00 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza",
+    "quote": "Israeli air strike kills senior Hamas commander in Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:7a2cbc437957",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Sky News: Hamas says senior commander killed in Israeli airstrike (05:16 UTC)",
+    "url": "https://news.sky.com/story/hamas-says-senior-commander-killed-in-israeli-airstrike-13612384",
+    "quote": "Hamas says senior commander killed in Israeli airstrike",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:6d8f0dff3438",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "BBC News: Israel kills Hamas commander in strike on Gaza camp, officials say (08:17 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo",
+    "quote": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:b280762ad201",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "France 24: Israel kills senior member of Hamas's military wing in Gaza strike (16:41 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
+    "quote": "Israel kills senior member of Hamas's military wing in Gaza strike",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:c3d4650f8144",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "The Guardian: Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter (22:28 UTC)",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
+    "quote": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386011506:367",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-16 10:52 UTC)",
+    "quote": "On 15 November 2026, Palestinians in northern Gaza buried the remains of around 70 people recovered from the rubble of buildings in the Jabalia refugee camp and Beit Lahia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1386011506"
+  },
+  {
+    "id": "wiki:rev:1386011506:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-16 10:52 UTC)",
+    "quote": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1386011506"
+  },
+  {
+    "id": "views:en:Gaza_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gaza war\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q122962941:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P585"
+  },
+  {
+    "id": "wd:Q122962941:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": began 7 October 2023",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P580"
+  },
+  {
+    "id": "wd:Q122962941:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": location Levant, Yemen",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P276"
+  },
+  {
+    "id": "wd:Q122962941:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": country Israel, Palestine",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P17"
+  },
+  {
+    "id": "wiki:week:1386011506:381",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-16 10:52 UTC): dated sentence",
+    "quote": "On 15 November 2026, Palestinians in northern Gaza buried the remains of around 70 people recovered from the rubble of buildings in the Jabalia refugee camp and Beit Lahia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1386011506"
+  }
+]

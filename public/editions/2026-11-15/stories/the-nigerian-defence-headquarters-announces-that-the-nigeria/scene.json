@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-the-nigerian-defence-headquarters-announces-that-the-nigeria",
+  "title": "The Nigerian Defence Headquarters announces that the Nigerian Army killed…",
+  "subtitle": "Conflict · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:01:06Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -2.5108050000000004,
+    "south": 1.0409290000000002,
+    "east": 17.489195,
+    "north": 17.040929
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-15T00:00:42Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 45.489194999999995,
+      "lat": 5.0120574,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:10Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:16Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:19Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:22Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:24Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "lon": 7.489195,
+      "lat": 7.040929,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:34Z",
+      "lon": 7.489195,
+      "lat": 7.040929,
+      "range": 1086646.2165764899,
+      "heading": -2,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:41Z",
+      "lon": 7.489195,
+      "lat": 7.040929,
+      "range": 983999.9999999999,
+      "heading": 12,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:45Z",
+      "lon": 10.856554845272761,
+      "lat": 10.058570097095451,
+      "range": 1919414.851567969,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:48Z",
+      "lon": 10.856554845272761,
+      "lat": 10.058570097095451,
+      "range": 1738104.072080882,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:50Z",
+      "lon": 10.856554845272761,
+      "lat": 10.058570097095451,
+      "range": 1573920.1782857345,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:54Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:56Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:58Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:01Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:02Z",
+      "lon": 7.489195,
+      "lat": 8.353429,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:06Z",
+      "lon": -17.510805000000005,
+      "lat": 8.353429,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "The Nigerian Defence Headquarters announces that the Nigerian Army killed eight terrorists and arrested 22 additional terrorists, logistical personnel and their families, in raids between November 6 and 12.",
+      "cites": [
+        "wiki:2026-11-15:3"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:09Z",
+      "text": "Religious violence in Nigeria refers to Christian–Muslim strife in Nigeria tracing back to 1953.",
+      "cites": [
+        "wiki:rev:1385396737:0"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:18Z",
+      "text": "The reports place the announcement with the Nigerian Defence Headquarters in Nigeria.",
+      "cites": [
+        "wiki:2026-11-15:3"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "text": "The article lists Christians, including Adara, Atyap, Berom, Jukun, Tiv and Tarok farmers, and Biafran separatists, as one side.",
+      "cites": [
+        "wiki:box:1385396737:side-1"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:31Z",
+      "text": "Muslims, including Fulani and Hausa herders and Boko Haram, are listed as another side, and the Nigerian Armed Forces and Nigeria Police Force as a third.",
+      "cites": [
+        "wiki:box:1385396737:side-2",
+        "wiki:box:1385396737:side-3"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:36Z",
+      "text": "Wikipedia lists the conflict as ongoing.",
+      "cites": [
+        "wiki:box:1385396737:status"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:43Z",
+      "text": "Also named in the reports are Adamawa State, Bauchi State and Yobe State.",
+      "cites": [
+        "wiki:2026-11-15:3"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:52Z",
+      "text": "The report is from The Vanguard.",
+      "cites": [
+        "wiki:2026-11-15:3"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:00Z",
+      "text": "This explainer draws on Wikipedia, Wikipedia pageview data and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:3",
+        "wiki:rev:1385396737:0",
+        "views:en:Religious_violence_in_Nigeria:30d",
+        "wd:Q18393989:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "NG",
+    "lon": 7.489195,
+    "lat": 9.040929,
+    "label": "Nigerian Defence Headquarters"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-15T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-15T00:00:51Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:00:59Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-15T00:00:26Z",
+      "until": "2026-11-15T00:00:42Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Christians:, Adara, Atyap, Berom, Jukun, Tiv and Tarok farmers, Biafran separatists",
+          "cites": [
+            "wiki:box:1385396737:side-1"
+          ]
+        },
+        {
+          "label": "Side 2",
+          "text": "Muslims:, Fulani and Hausa herders, Boko Haram",
+          "cites": [
+            "wiki:box:1385396737:side-2"
+          ]
+        },
+        {
+          "label": "Side 3",
+          "text": ":, Nigerian Armed Forces, Nigeria Police Force",
+          "cites": [
+            "wiki:box:1385396737:side-3"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing",
+          "cites": [
+            "wiki:box:1385396737:status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:00:52Z",
+      "until": "2026-11-15T00:00:59Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Vanguard",
+          "text": "Open",
+          "url": "https://www.vanguardngr.com/2026/11/military-rescues-125-kidnap-victims-neutralises-eight-terrorists/",
+          "cites": [
+            "wiki:2026-11-15:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:01:00Z",
+      "until": "2026-11-15T00:01:06Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:3"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385396737:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Religious_violence_in_Nigeria:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q18393989:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.001957
+  }
+}

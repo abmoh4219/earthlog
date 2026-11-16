@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "id": "story-2026-11-10-twelve-people-are-killed-and-51-others-are-seriously-injured",
+  "title": "Twelve people are killed and 51 others are seriously injured in a…",
+  "subtitle": "Accident · 10 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-10T00:00:00Z",
+    "end": "2026-11-10T00:00:33Z"
+  },
+  "focus": "2026-11-10T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 16.5,
+    "south": 34.48333333,
+    "east": 36.5,
+    "north": 50.48333333
+  },
+  "imagery": {
+    "day": "2026-11-10",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-10T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-10T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "lon": 64.5,
+      "lat": 25.077499998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-10T00:00:04Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:07Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:09Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:12Z",
+      "lon": 26.5,
+      "lat": 42.48333333,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:15Z",
+      "lon": 26.5,
+      "lat": 42.48333333,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:17Z",
+      "lon": 26.5,
+      "lat": 42.48333333,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:20Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:23Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:25Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:28Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:29Z",
+      "lon": 26.5,
+      "lat": 41.79583333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:33Z",
+      "lon": 1.5,
+      "lat": 41.79583333,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-10T00:00:01Z",
+      "text": "Twelve people are killed and 51 others are seriously injured in a multiple-vehicle collision involving 86 vehicles on the Trakia motorway near Yambol, Bulgaria.",
+      "cites": [
+        "wiki:2026-11-10:7"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:11Z",
+      "text": "The crash took place on the Trakia motorway near Yambol, a town in Bulgaria.",
+      "cites": [
+        "wiki:2026-11-10:7"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:19Z",
+      "text": "Al Jazeera and Plovdiv24 are the outlets reporting on the collision.",
+      "cites": [
+        "wiki:2026-11-10:7"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:27Z",
+      "text": "The account draws on Wikipedia's Current events page, and each caption is linked to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-10:7"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BG",
+    "lon": 26.5,
+    "lat": 42.48333333,
+    "label": "Yambol"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-10T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-10T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-10T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-10T00:00:19Z",
+      "until": "2026-11-10T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/10/at-least-12-people-killed-in-motorway-crash-in-southeastern-bulgaria",
+          "cites": [
+            "wiki:2026-11-10:7"
+          ]
+        },
+        {
+          "label": "Plovdiv24",
+          "text": "Open",
+          "url": "https://www.plovdiv24.bg/novini/Bylgaria/Dron-zasne-nevizhdanite-mashtabi-na-tragediyata-na-AM-Trakiya-86-koli-i-kamioni-11-zhertvi-i-50-raneni-3054257",
+          "cites": [
+            "wiki:2026-11-10:7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-10T00:00:27Z",
+      "until": "2026-11-10T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-10:7"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-14T00:00:00Z",
+    "costUsd": 0.000457
+  }
+}

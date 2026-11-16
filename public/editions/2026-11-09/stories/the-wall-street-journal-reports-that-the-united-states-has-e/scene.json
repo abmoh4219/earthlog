@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "id": "story-2026-11-09-the-wall-street-journal-reports-that-the-united-states-has-e",
+  "title": "The Wall Street Journal reports that the United States has evacuated aircraft…",
+  "subtitle": "Conflict · 9 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-09T00:00:40Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -9.51916667,
+    "south": 44.365,
+    "east": 10.48083333,
+    "north": 60.365
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-09T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-09T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 38.480833329999996,
+      "lat": 31.0065,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:00:04Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:10Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:16Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:19Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:22Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:24Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:27Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:30Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:32Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:35Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:36Z",
+      "lon": 0.48083333,
+      "lat": 51.6775,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:40Z",
+      "lon": -24.519166670000004,
+      "lat": 51.6775,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:01Z",
+      "text": "The Wall Street Journal reports that the United States has evacuated aircraft from RAF Mildenhall in the United Kingdom, citing threats from Iran.",
+      "cites": [
+        "wiki:2026-11-09:1"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:09Z",
+      "text": "Since the 2026 Iran war began on 28 February, the United Kingdom has shot down Iranian drones and missiles over allied countries in the Middle East, including Qatar, Iraq, and Jordan.",
+      "cites": [
+        "wiki:rev:1384127483:0"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:18Z",
+      "text": "The reports place the base at RAF Mildenhall in the United Kingdom.",
+      "cites": [
+        "wiki:2026-11-09:1"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:26Z",
+      "text": "The account is credited to Reuters.",
+      "cites": [
+        "wiki:2026-11-09:1"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:34Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-09:1",
+        "wiki:rev:1384127483:0",
+        "views:en:United_Kingdom_involvement_in_the_2026_Iran_war:30d",
+        "wd:Q138577811:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": 0.48083333,
+    "lat": 52.365,
+    "label": "RAF Mildenhall"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-09T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-09T00:00:25Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-09T00:00:33Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-09T00:00:26Z",
+      "until": "2026-11-09T00:00:33Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/europe/us-aircraft-evacuated-second-uk-base-due-iran-threat-wsj-reports-2026-11-10/",
+          "cites": [
+            "wiki:2026-11-09:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-09T00:00:34Z",
+      "until": "2026-11-09T00:00:40Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-09:1"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384127483:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:United_Kingdom_involvement_in_the_2026_Iran_war:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138577811:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-13T00:00:00Z",
+    "costUsd": 0.001032
+  }
+}

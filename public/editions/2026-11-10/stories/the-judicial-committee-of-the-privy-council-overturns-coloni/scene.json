@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "id": "story-2026-11-10-the-judicial-committee-of-the-privy-council-overturns-coloni",
+  "title": "The Judicial Committee of the Privy Council overturns colonial-era provisions…",
+  "subtitle": "News · 10 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-10T00:00:00Z",
+    "end": "2026-11-10T00:00:47Z"
+  },
+  "focus": "2026-11-10T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -10.12813889,
+    "south": 43.50036111,
+    "east": 9.87186111,
+    "north": 59.50036111
+  },
+  "imagery": {
+    "day": "2026-11-10",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-10T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-10T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "lon": 37.871861110000054,
+      "lat": 30.487716665999997,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-10T00:00:04Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:14Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:23Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:26Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:29Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:31Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:34Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:37Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:39Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:42Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:43Z",
+      "lon": -0.12813889,
+      "lat": 50.81286111,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:47Z",
+      "lon": -25.128138889999946,
+      "lat": 50.81286111,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "text": "The Judicial Committee of the Privy Council overturns colonial-era provisions criminalizing consensual same-sex sexual activity between adults in Trinidad and Tobago…",
+      "cites": [
+        "wiki:2026-11-10:13"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:08Z",
+      "text": "Although same-sex sexual activity has been legalised as of November 10, 2026, households headed by same-sex couples are not eligible for the same rights and benefits as that of opposite-sex couples.",
+      "cites": [
+        "wiki:rev:1385553591:1"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:16Z",
+      "text": "Lesbian, gay, bisexual, transgender and queer (LGBTQ) people in Trinidad and Tobago face legal challenges not experienced by non-LGBTQ residents.",
+      "cites": [
+        "wiki:rev:1385553591:0"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:25Z",
+      "text": "The map shows the Judicial Committee of the Privy Council in the United Kingdom, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-10:13"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:33Z",
+      "text": "The story was reported by CNN and Reuters.",
+      "cites": [
+        "wiki:2026-11-10:13"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:41Z",
+      "text": "This film draws on Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-10:13",
+        "wiki:rev:1385553591:1",
+        "views:en:LGBTQ_rights_in_Trinidad_and_Tobago:30d",
+        "wd:Q1626379:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -0.12813889,
+    "lat": 51.50036111,
+    "label": "Judicial Committee of the Privy Council"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-10T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-10T00:00:32Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-10T00:00:40Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-10T00:00:33Z",
+      "until": "2026-11-10T00:00:40Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "CNN",
+          "text": "Open",
+          "url": "https://edition.cnn.com/2026/11/10/americas/trinidad-tobago-gay-sex-law-latam-intl",
+          "cites": [
+            "wiki:2026-11-10:13"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/uk/uk-court-overturns-trinidad-tobago-law-criminalising-homosexual-sex-2026-11-10/",
+          "cites": [
+            "wiki:2026-11-10:13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-10T00:00:41Z",
+      "until": "2026-11-10T00:00:47Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-10:13"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385553591:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:LGBTQ_rights_in_Trinidad_and_Tobago:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1626379:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-14T00:00:00Z",
+    "costUsd": 0.001611
+  }
+}

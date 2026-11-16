@@ -1,0 +1,90 @@
+[
+  {
+    "id": "news:aljazeera:89d8b8b26cf9",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Thousands rally in Czech Republic against state media funding changes (16:32 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes",
+    "quote": "Thousands rally in Czech Republic against state media funding changes",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:bc033adbd821",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "The Guardian: Hundreds of thousands of Czechs protest in Prague over media freedom (18:20 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+    "quote": "Hundreds of thousands of Czechs protest in Prague over media freedom",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:804bd6cc316f",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "DW: Czechia: Scores protest against public media reform (19:12 UTC)",
+    "url": "https://www.dw.com/en/czechia-scores-protest-against-public-media-reform/a-79953057",
+    "quote": "Czechia: Scores protest against public media reform",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:1767661cd6ab",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "France 24: Pragues's fight for public TV - Why Renowned Presenter Will Leave Czech TV Over Reforms (19:13 UTC)",
+    "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-pragues-s-fight-for-public-tv-why-renowned-presenter-will-leave-czech-tv-over-reforms",
+    "quote": "Pragues's fight for public TV - Why Renowned Presenter Will Leave Czech TV Over Reforms",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:7aaf12aa88ce",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "BBC News: Czechs rally against plan to switch funding of public media (21:03 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o",
+    "quote": "Czechs rally against plan to switch funding of public media",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383649447:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Czech Republic\" (revision of 2026-11-03 23:12 UTC)",
+    "quote": "The Czech Republic, also known as Czechia and historically known as Bohemia, is a landlocked country in Central Europe.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Czech_Republic&oldid=1383649447"
+  },
+  {
+    "id": "views:en:Czech_Republic:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Czech Republic\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Czech_Republic&range=latest-30"
+  },
+  {
+    "id": "wd:Q213:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Czech Republic\": founded 1 January 1993",
+    "url": "https://www.wikidata.org/wiki/Q213#P571"
+  },
+  {
+    "id": "wd:Q213:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Czech Republic\": country Czech Republic",
+    "url": "https://www.wikidata.org/wiki/Q213#P17"
+  }
+]

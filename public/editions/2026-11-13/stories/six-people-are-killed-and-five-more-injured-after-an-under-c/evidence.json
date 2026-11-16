@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wiki:2026-11-13:5",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-13T00:00:00Z",
+    "lon": 36.81722222,
+    "lat": -1.28638889,
+    "label": "Disaster: Six people are killed and five more injured after an under-construction building partially collapses in Nairobi, Kenya.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806",
+    "quote": "Six people are killed and five more injured after an under-construction building partially collapses in Nairobi, Kenya.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Xinhua",
+        "url": "https://english.news.cn/africa/20261113/75a689cf03b845409fd909fec59f84ba/c.html"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:f3a0a31ada62",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Al Jazeera: Kenyan building collapse near Nairobi kills six people (13:11 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people",
+    "quote": "Kenyan building collapse near Nairobi kills six people",
+    "precision": "day"
+  }
+]

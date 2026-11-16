@@ -1,0 +1,39 @@
+[
+  {
+    "id": "wiki:2026-11-14:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-14T00:00:00Z",
+    "lon": 24.88333333,
+    "lat": 12.05,
+    "label": "Conflict: Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF), dies of the wounds he suffered a month ago during an assassination attack by drone strike against his home in Nyala, South Darfur, Sudan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929",
+    "quote": "Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF), dies of the wounds he suffered a month ago during an assassination attack by drone strike against his home in Nyala, South Darfur, Sudan.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Sudan Tribune",
+        "url": "https://sudantribune.com/article/321241"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q132128135:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "Wikidata: \"Darfur campaign\" is an instance of Wikimedia disambiguation page",
+    "url": "https://www.wikidata.org/wiki/Q132128135",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Darfur_campaign:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Darfur campaign\", 17 October 2026 to 14 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Darfur_campaign&range=latest-30"
+  }
+]

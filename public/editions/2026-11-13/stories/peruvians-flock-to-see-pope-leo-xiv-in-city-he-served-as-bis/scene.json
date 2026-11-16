@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "id": "story-2026-11-13-peruvians-flock-to-see-pope-leo-xiv-in-city-he-served-as-bis",
+  "title": "Peruvians flock to see Pope Leo XIV in city he served as bishop",
+  "subtitle": "World · 13 November 2026 · headline from France 24",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-13T00:01:28Z"
+  },
+  "focus": "2026-11-13T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -82.9,
+    "south": -20.98,
+    "east": -62.900000000000006,
+    "north": -4.98
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-13T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-13T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": -34.89999999999998,
+      "lat": -9.063,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T00:00:04Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:10Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:16Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:20Z",
+      "lon": -72.9,
+      "lat": -20.98,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:27Z",
+      "lon": -72.9,
+      "lat": -20.98,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:34Z",
+      "lon": -72.9,
+      "lat": -20.98,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:38Z",
+      "lon": -72.9,
+      "lat": -7.909,
+      "range": 3500000,
+      "heading": 0,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:43Z",
+      "lon": -72.9,
+      "lat": -7.909,
+      "range": 3169384.7983480957,
+      "heading": 13.700000000000001,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:48Z",
+      "lon": -72.9,
+      "lat": -7.909,
+      "range": 2870000,
+      "heading": 27.400000000000002,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:52Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:56Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 9236492.840900164,
+      "heading": -1.3000000000000007,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:59Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 8363999.999999999,
+      "heading": -12.600000000000001,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:02Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:11Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:20Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:23Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:24Z",
+      "lon": -72.9,
+      "lat": -15.105,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:28Z",
+      "lon": -97.89999999999998,
+      "lat": -15.105,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T00:00:01Z",
+      "text": "Peruvians are turning out to see Pope Leo XIV in the city where he once served as bishop, according to France 24.",
+      "cites": [
+        "news:france24:3753f8041ccf"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:09Z",
+      "text": "BBC News and Al Jazeera also covered the visit, describing a city that has embraced the pope and a warm return.",
+      "cites": [
+        "news:bbc:841377b7806a",
+        "news:aljazeera:0cc82106b9ee"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:18Z",
+      "text": "Inflation in Peru fell to 1.5% in 2025, from 8.3% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:PE"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:26Z",
+      "text": "The economy grew 3.4% in 2025, and unemployment stood at 5.1%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:PE",
+        "wb:SL.UEM.TOTL.ZS:PE"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:36Z",
+      "text": "Across Latin America and the Caribbean, Peru's 1.5% compares with a median of 3.8%, while the highest is Argentina at 219.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:latin-america-caribbean"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:50Z",
+      "text": "Peru, officially the Republic of Peru, is a country in western South America.",
+      "cites": [
+        "wiki:rev:1385814421:0"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:01Z",
+      "text": "France 24 headlined the story, \"Peruvians flock to see Pope Leo XIV in city he served as bishop.\"",
+      "cites": [
+        "news:france24:3753f8041ccf"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:07Z",
+      "text": "BBC News chose the headline, \"The Peruvian city that has embraced Pope Leo as one of its own.\"",
+      "cites": [
+        "news:bbc:841377b7806a"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:13Z",
+      "text": "Al Jazeera headlined its report, \"Pope Leo cheered on return to Peru city where he served as bishop.\"",
+      "cites": [
+        "news:aljazeera:0cc82106b9ee"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:22Z",
+      "text": "The sources are France 24, BBC News and Al Jazeera, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385814421:0",
+        "views:en:Peru:30d",
+        "wd:Q419:P571",
+        "wb:FP.CPI.TOTL.ZG:region:latin-america-caribbean"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PE",
+    "lon": -72.9,
+    "lat": -12.98,
+    "label": "Peru"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-13T00:00:17Z",
+      "title": "Peru in numbers"
+    },
+    {
+      "t": "2026-11-13T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-13T00:00:49Z",
+      "title": "About Peru"
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-13T00:01:21Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-13T00:00:18Z",
+      "until": "2026-11-13T00:00:35Z",
+      "title": "Inflation, consumer prices, Peru",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Peru",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 1.52832059732901
+            },
+            {
+              "x": "2011",
+              "y": 3.36931095333853
+            },
+            {
+              "x": "2012",
+              "y": 3.61121294940163
+            },
+            {
+              "x": "2013",
+              "y": 2.76789666082001
+            },
+            {
+              "x": "2014",
+              "y": 3.41194579807464
+            },
+            {
+              "x": "2015",
+              "y": 3.39809194746307
+            },
+            {
+              "x": "2016",
+              "y": 3.55717663556278
+            },
+            {
+              "x": "2017",
+              "y": 2.99490045809442
+            },
+            {
+              "x": "2018",
+              "y": 1.50915423024741
+            },
+            {
+              "x": "2019",
+              "y": 2.25212191358027
+            },
+            {
+              "x": "2020",
+              "y": 2.00241205759291
+            },
+            {
+              "x": "2021",
+              "y": 4.27166381536797
+            },
+            {
+              "x": "2022",
+              "y": 8.3337063009623
+            },
+            {
+              "x": "2023",
+              "y": 6.45561348369586
+            },
+            {
+              "x": "2024",
+              "y": 2.00770739412712
+            },
+            {
+              "x": "2025",
+              "y": 1.53125450314272
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PE"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-13T00:00:18Z",
+      "until": "2026-11-13T00:00:35Z",
+      "title": "GDP growth, Peru",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Peru",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 8.33245910749577
+            },
+            {
+              "x": "2011",
+              "y": 6.32719240161117
+            },
+            {
+              "x": "2012",
+              "y": 6.13972470560435
+            },
+            {
+              "x": "2013",
+              "y": 5.85251821084928
+            },
+            {
+              "x": "2014",
+              "y": 2.38215737180541
+            },
+            {
+              "x": "2015",
+              "y": 3.25224477218451
+            },
+            {
+              "x": "2016",
+              "y": 3.95331871520767
+            },
+            {
+              "x": "2017",
+              "y": 2.51883544233135
+            },
+            {
+              "x": "2018",
+              "y": 3.969351341365
+            },
+            {
+              "x": "2019",
+              "y": 2.24063176875049
+            },
+            {
+              "x": "2020",
+              "y": -10.9333065010382
+            },
+            {
+              "x": "2021",
+              "y": 13.4166456126513
+            },
+            {
+              "x": "2022",
+              "y": 2.81819976419922
+            },
+            {
+              "x": "2023",
+              "y": -0.350699814345759
+            },
+            {
+              "x": "2024",
+              "y": 3.5152749274832
+            },
+            {
+              "x": "2025",
+              "y": 3.43056395124466
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:PE"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-13T00:00:18Z",
+      "until": "2026-11-13T00:00:35Z",
+      "title": "Unemployment, Peru",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Peru",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.6
+            },
+            {
+              "x": "2011",
+              "y": 3.477
+            },
+            {
+              "x": "2012",
+              "y": 3.238
+            },
+            {
+              "x": "2013",
+              "y": 3.575
+            },
+            {
+              "x": "2014",
+              "y": 3.208
+            },
+            {
+              "x": "2015",
+              "y": 3.272
+            },
+            {
+              "x": "2016",
+              "y": 3.741
+            },
+            {
+              "x": "2017",
+              "y": 3.691
+            },
+            {
+              "x": "2018",
+              "y": 3.492
+            },
+            {
+              "x": "2019",
+              "y": 3.379
+            },
+            {
+              "x": "2020",
+              "y": 7.179
+            },
+            {
+              "x": "2021",
+              "y": 5.097
+            },
+            {
+              "x": "2022",
+              "y": 4.291
+            },
+            {
+              "x": "2023",
+              "y": 4.899
+            },
+            {
+              "x": "2024",
+              "y": 5.199
+            },
+            {
+              "x": "2025",
+              "y": 5.117
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:PE"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-13T00:00:36Z",
+      "until": "2026-11-13T00:00:49Z",
+      "title": "Inflation, Latin America & Caribbean",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Argentina",
+          "text": "219.9%",
+          "value": 219.883929014578,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AR"
+          ]
+        },
+        {
+          "label": "Haiti",
+          "text": "28.6%",
+          "value": 28.6427976686095,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:HT"
+          ]
+        },
+        {
+          "label": "Bolivia",
+          "text": "19.5%",
+          "value": 19.5171208047329,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BO"
+          ]
+        },
+        {
+          "label": "Suriname",
+          "text": "9.2%",
+          "value": 9.2054681878919,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SR"
+          ]
+        },
+        {
+          "label": "Colombia",
+          "text": "5.1%",
+          "value": 5.14222911946201,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:CO"
+          ]
+        },
+        {
+          "label": "Brazil",
+          "text": "5.0%",
+          "value": 5.01675279604836,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BR"
+          ]
+        },
+        {
+          "label": "Uruguay",
+          "text": "4.7%",
+          "value": 4.65032720433323,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UY"
+          ]
+        },
+        {
+          "label": "Honduras",
+          "text": "4.6%",
+          "value": 4.59657982325258,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:HN"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.84134859042761,
+        "label": "median 3.8%"
+      }
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-13T00:01:01Z",
+      "until": "2026-11-13T00:01:21Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261113-peruvians-flock-to-see-pope-leo-xiv-in-city-he-served-as-bishop",
+          "cites": [
+            "news:france24:3753f8041ccf"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo",
+          "cites": [
+            "news:bbc:841377b7806a"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop",
+          "cites": [
+            "news:aljazeera:0cc82106b9ee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-13T00:01:22Z",
+      "until": "2026-11-13T00:01:28Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385814421:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Peru:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q419:P571"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:latin-america-caribbean"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:01:26Z",
+    "costUsd": 0.001138
+  }
+}

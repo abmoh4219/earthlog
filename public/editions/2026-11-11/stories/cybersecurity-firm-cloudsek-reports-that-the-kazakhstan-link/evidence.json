@@ -1,0 +1,24 @@
+[
+  {
+    "id": "wiki:2026-11-11:28",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-11T00:00:00Z",
+    "lon": 68.69,
+    "lat": 49.05,
+    "label": "Science & tech: Cybersecurity firm CloudSek reports that the Kazakhstan-linked hacker group Silent Lynx used an autonomous agent to breach Tajikistan's government database and steal more than 2,000 national security-related documents.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893",
+    "quote": "Cybersecurity firm CloudSek reports that the Kazakhstan-linked hacker group Silent Lynx used an autonomous agent to breach Tajikistan's government database and steal more than 2,000 national security-related documents.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/legal/government/kazakhstan-linked-hackers-used-ai-steal-tajik-government-documents-researchers-2026-11-11/"
+      }
+    ]
+  }
+]

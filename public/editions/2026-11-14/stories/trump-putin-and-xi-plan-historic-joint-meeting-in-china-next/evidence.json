@@ -1,0 +1,99 @@
+[
+  {
+    "id": "news:france24:a3483041e474",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "France 24: China to host first-ever trilateral meeting between Trump, Xi and Putin next week (05:09 UTC)",
+    "url": "https://www.france24.com/en/asia-pacific/20261114-china-to-host-first-ever-trilateral-meeting-between-trump-xi-and-putin-next-week-us-says",
+    "quote": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:509c714a90c1",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "Sky News: Trump, Xi and Putin to hold unprecedented meeting, White House says (08:19 UTC)",
+    "url": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+    "quote": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:536f0b28a8ec",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "Al Jazeera: Trump-Xi-Putin trilateral meeting at APEC: What to expect (12:14 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect",
+    "quote": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:70275d0e699d",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "BBC News: Trump, Putin and Xi plan historic joint meeting in China next week, White House says (15:53 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do",
+    "quote": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385281895:19",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"White House\" (revision of 2026-11-12 16:48 UTC)",
+    "quote": "In 2025, President Donald Trump oversaw the demolition of the original East Wing for the construction of a new ballroom and underground complex.",
+    "url": "https://en.wikipedia.org/w/index.php?title=White_House&oldid=1385281895"
+  },
+  {
+    "id": "wiki:rev:1385281895:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"White House\" (revision of 2026-11-12 16:48 UTC)",
+    "quote": "The White House is the official residence and workplace of the president of the United States.",
+    "url": "https://en.wikipedia.org/w/index.php?title=White_House&oldid=1385281895"
+  },
+  {
+    "id": "views:en:White_House:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"White House\", 16 October 2026 to 14 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=White_House&range=latest-30"
+  },
+  {
+    "id": "wd:Q35525:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"White House\": location Northwest",
+    "url": "https://www.wikidata.org/wiki/Q35525#P276"
+  },
+  {
+    "id": "wd:Q35525:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"White House\": founded 1800",
+    "url": "https://www.wikidata.org/wiki/Q35525#P571"
+  },
+  {
+    "id": "wd:Q35525:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-14T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"White House\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q35525#P17"
+  }
+]

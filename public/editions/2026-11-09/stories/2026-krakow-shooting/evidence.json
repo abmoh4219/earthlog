@@ -1,0 +1,266 @@
+[
+  {
+    "id": "wiki:2026-11-09:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-09T00:00:00Z",
+    "lon": 19.93722222,
+    "lat": 50.06166667,
+    "label": "Conflict: The 24-year-old man responsible for the drive-by mass shooting at the Main Square in Kraków, Poland, two days ago, which killed six people and injured 16 others, dies at a hospital after being seriously wounded in a shootout with police.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_9&oldid=1385079275",
+    "quote": "The 24-year-old man responsible for the drive-by mass shooting at the Main Square in Kraków, Poland, two days ago, which killed six people and injured 16 others, dies at a hospital after being seriously wounded in a shootout with police.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say"
+      }
+    ]
+  },
+  {
+    "id": "views:en:2026_Kraków_shooting:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "label": "English Wikipedia: 114,724 readers of \"2026 Kraków shooting\" on 9 Nov 2026",
+    "value": 114724,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:2026_Kraków_shooting:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "label": "\"2026 Kraków shooting\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_shooting",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142077465:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "label": "Wikidata: \"2026 Kraków shooting\" is an instance of mass shooting, drive-by shooting, spree killing, shootout, familicide, mass murder",
+    "url": "https://www.wikidata.org/wiki/Q142077465",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385329913:6",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-12 20:46 UTC)",
+    "quote": "On 7 November 2026, around 14:59 CET, a black 3rd generation Subaru Impreza hatchback with an Ostrowiec Świętokrzyski number plate entered the Main Square in Kraków from Sławkowska Street.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1385329913"
+  },
+  {
+    "id": "wiki:rev:1385329913:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-12 20:46 UTC)",
+    "quote": "On 7 November 2026, a mass shooting took place in Kraków, Poland, when 24-year-old Michał Oksiński opened fire from his car as he drove through the Main Square, killing six people and injuring 16 others before being shot by police.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1385329913"
+  },
+  {
+    "id": "views:en:2026_Kraków_shooting:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Kraków shooting\", 7 November 2026 to 9 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Krak%C3%B3w_shooting&range=latest-30"
+  },
+  {
+    "id": "views:pl:Strzelanina_w_Krakowie_(2026):2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 36,015 readers of \"Strzelanina w Krakowie (2026)\" on 9 November 2026",
+    "value": 36015,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Strzelanina_w_Krakowie_(2026)"
+  },
+  {
+    "id": "views:ru:Стрельба_в_Кракове:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 9,515 readers of \"Стрельба в Кракове\" on 9 November 2026",
+    "value": 9515,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B0_%D0%B2_%D0%9A%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B5"
+  },
+  {
+    "id": "views:fr:Fusillade_de_Cracovie_en_2026:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 6,483 readers of \"Fusillade de Cracovie en 2026\" on 9 November 2026",
+    "value": 6483,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Fusillade_de_Cracovie_en_2026"
+  },
+  {
+    "id": "views:zh:2026年波兰克拉科夫枪击案:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 3,468 readers of \"2026年波兰克拉科夫枪击案\" on 9 November 2026",
+    "value": 3468,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%B3%A2%E5%85%B0%E5%85%8B%E6%8B%89%E7%A7%91%E5%A4%AB%E6%9E%AA%E5%87%BB%E6%A1%88"
+  },
+  {
+    "id": "views:es:Tiroteo_de_Cracovia_de_2026:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 1,031 readers of \"Tiroteo de Cracovia de 2026\" on 9 November 2026",
+    "value": 1031,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Tiroteo_de_Cracovia_de_2026"
+  },
+  {
+    "id": "views:de:Anschlag_in_Krakau:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 976 readers of \"Anschlag in Krakau\" on 9 November 2026",
+    "value": 976,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Anschlag_in_Krakau"
+  },
+  {
+    "id": "views:nl:Schietpartij_Krakau_2026:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 206 readers of \"Schietpartij Krakau 2026\" on 9 November 2026",
+    "value": 206,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Schietpartij_Krakau_2026"
+  },
+  {
+    "id": "views:ar:إطلاق_نار_كراكوف_2026:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 190 readers of \"إطلاق نار كراكوف 2026\" on 9 November 2026",
+    "value": 190,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A5%D8%B7%D9%84%D8%A7%D9%82_%D9%86%D8%A7%D8%B1_%D9%83%D8%B1%D8%A7%D9%83%D9%88%D9%81_2026"
+  },
+  {
+    "id": "views:pt:Tiroteio_em_Cracóvia_de_2026:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 150 readers of \"Tiroteio em Cracóvia de 2026\" on 9 November 2026",
+    "value": 150,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Tiroteio_em_Crac%C3%B3via_de_2026"
+  },
+  {
+    "id": "views:fa:تیراندازی_۲۰۲۶_کراکوف:2026-11-09",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 55 readers of \"تیراندازی ۲۰۲۶ کراکوف\" on 9 November 2026",
+    "value": 55,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%AA%DB%8C%D8%B1%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C_%DB%B2%DB%B0%DB%B2%DB%B6_%DA%A9%D8%B1%D8%A7%DA%A9%D9%88%D9%81"
+  },
+  {
+    "id": "wd:Q142077465:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": date 7 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P585"
+  },
+  {
+    "id": "wd:Q142077465:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": began 7 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P580"
+  },
+  {
+    "id": "wd:Q142077465:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": ended 7 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P582"
+  },
+  {
+    "id": "wd:Q142077465:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": location Main Square",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P276"
+  },
+  {
+    "id": "wd:Q142077465:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Kraków shooting\": country Poland",
+    "url": "https://www.wikidata.org/wiki/Q142077465#P17"
+  },
+  {
+    "id": "wiki:week:1385329913:7",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-12 20:46 UTC): dated sentence",
+    "quote": "On 7 November 2026, around 14:59 CET, a black 3rd generation Subaru Impreza hatchback with an Ostrowiec Świętokrzyski number plate entered the Main Square in Kraków from Sławkowska Street.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1385329913"
+  },
+  {
+    "id": "wiki:box:1385329913:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-12 20:46 UTC): Casualties: 10 (7 in Kraków, including the perpetrator; 3 at the perpetrator's home in Ostrowiec Świętokrzyski)",
+    "quote": "10 (7 in Kraków, including the perpetrator; 3 at the perpetrator's home in Ostrowiec Świętokrzyski)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1385329913"
+  },
+  {
+    "id": "wiki:box:1385329913:injured",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Kraków shooting\" (revision of 2026-11-12 20:46 UTC): Injured: 16",
+    "quote": "16",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Krak%C3%B3w_shooting&oldid=1385329913"
+  }
+]

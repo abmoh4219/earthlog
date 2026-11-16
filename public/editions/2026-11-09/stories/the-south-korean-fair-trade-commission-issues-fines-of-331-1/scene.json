@@ -1,0 +1,715 @@
+{
+  "version": 1,
+  "id": "story-2026-11-09-the-south-korean-fair-trade-commission-issues-fines-of-331-1",
+  "title": "The South Korean Fair Trade Commission issues fines of ₩331.1 billion (US$247…",
+  "subtitle": "Economy · 9 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-09T00:01:05Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 118.13,
+    "south": 28.380000000000003,
+    "east": 138.13,
+    "north": 44.38
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-09T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-09T00:00:36Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-09T00:00:36Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 166.13,
+      "lat": 20.553,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:00:04Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:07Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:09Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:12Z",
+      "lon": 127.282234,
+      "lat": 35.687002,
+      "range": 800000,
+      "heading": 16,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:15Z",
+      "lon": 127.282234,
+      "lat": 35.687002,
+      "range": 724430.8110509933,
+      "heading": 7.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:17Z",
+      "lon": 127.282234,
+      "lat": 35.687002,
+      "range": 656000,
+      "heading": -1.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:21Z",
+      "lon": 128.13,
+      "lat": 28.380000000000003,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:28Z",
+      "lon": 128.13,
+      "lat": 28.380000000000003,
+      "range": 4346584.866305959,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:35Z",
+      "lon": 128.13,
+      "lat": 28.380000000000003,
+      "range": 3935999.9999999995,
+      "heading": 16,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:38Z",
+      "lon": 126.8848,
+      "lat": 29.355400000000003,
+      "range": 4679327.72902743,
+      "heading": -171.87791236060693,
+      "pitch": -38,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:44Z",
+      "lon": 126.8848,
+      "lat": 29.355400000000003,
+      "range": 4237311.477390929,
+      "heading": -185.57791236060692,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:49Z",
+      "lon": 126.8848,
+      "lat": 29.355400000000003,
+      "range": 3837048.737802492,
+      "heading": -199.27791236060693,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:53Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:55Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:57Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:00Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:01Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:05Z",
+      "lon": 103.13,
+      "lat": 34.255,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:01Z",
+      "text": "The South Korean Fair Trade Commission has fined Woowa Brothers ₩331.1 billion (US$247 million) and Coupang ₩300.8 billion ($222 million).",
+      "cites": [
+        "wiki:2026-11-09:7"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:05Z",
+      "text": "It found that both food-delivery platforms restricted competition by requiring restaurants to match rival platforms' terms.",
+      "cites": [
+        "wiki:2026-11-09:7"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:11Z",
+      "text": "The regulator behind the decision is the Korea Fair Trade Commission, a competition body headquartered in Sejong.",
+      "cites": [
+        "wd:Q624479:P159",
+        "wiki:2026-11-09:7"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:19Z",
+      "text": "Inflation in South Korea was 2.1% in 2025, down from 5.1% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:KR"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:27Z",
+      "text": "The economy grew 1.0% in 2025, and unemployment stood at 2.7%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:KR",
+        "wb:SL.UEM.TOTL.ZS:KR"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:37Z",
+      "text": "Across East Asia & Pacific, South Korea's 2.1% inflation sits at the regional median of 2.1%, while Mongolia has the highest rate at 8.6%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:51Z",
+      "text": "The story was reported by AFP and carried via France 24.",
+      "cites": [
+        "wiki:2026-11-09:7"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:59Z",
+      "text": "Sources include Wikipedia's Current events, Wikidata and World Bank Open Data (World Development Indicators), and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-09:7",
+        "wd:Q624479:P159",
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "KR",
+    "lon": 128.13,
+    "lat": 36.38,
+    "label": "South Korea"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-09T00:00:10Z",
+      "title": "Who decided"
+    },
+    {
+      "t": "2026-11-09T00:00:18Z",
+      "title": "South Korea in numbers"
+    },
+    {
+      "t": "2026-11-09T00:00:36Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-09T00:00:50Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-09T00:00:58Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-09T00:00:19Z",
+      "until": "2026-11-09T00:00:36Z",
+      "title": "Inflation, consumer prices, South Korea",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "South Korea",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.93928652655685
+            },
+            {
+              "x": "2011",
+              "y": 4.0259650043609
+            },
+            {
+              "x": "2012",
+              "y": 2.18707104433313
+            },
+            {
+              "x": "2013",
+              "y": 1.30134754547412
+            },
+            {
+              "x": "2014",
+              "y": 1.27477446401321
+            },
+            {
+              "x": "2015",
+              "y": 0.706331772455749
+            },
+            {
+              "x": "2016",
+              "y": 0.971685739912167
+            },
+            {
+              "x": "2017",
+              "y": 1.94433230786366
+            },
+            {
+              "x": "2018",
+              "y": 1.47583935002645
+            },
+            {
+              "x": "2019",
+              "y": 0.383000303608135
+            },
+            {
+              "x": "2020",
+              "y": 0.537288023411737
+            },
+            {
+              "x": "2021",
+              "y": 2.49833333333339
+            },
+            {
+              "x": "2022",
+              "y": 5.08951365062841
+            },
+            {
+              "x": "2023",
+              "y": 3.5974562502901
+            },
+            {
+              "x": "2024",
+              "y": 2.32174328643542
+            },
+            {
+              "x": "2025",
+              "y": 2.12309421458659
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KR"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-09T00:00:19Z",
+      "until": "2026-11-09T00:00:36Z",
+      "title": "GDP growth, South Korea",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "South Korea",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 6.98166138853071
+            },
+            {
+              "x": "2011",
+              "y": 3.6880320602952
+            },
+            {
+              "x": "2012",
+              "y": 2.54766550568242
+            },
+            {
+              "x": "2013",
+              "y": 3.2913959543442
+            },
+            {
+              "x": "2014",
+              "y": 3.21468019683108
+            },
+            {
+              "x": "2015",
+              "y": 2.92029267301234
+            },
+            {
+              "x": "2016",
+              "y": 3.17152748983935
+            },
+            {
+              "x": "2017",
+              "y": 3.433191763972
+            },
+            {
+              "x": "2018",
+              "y": 3.17611568177327
+            },
+            {
+              "x": "2019",
+              "y": 2.31380210595475
+            },
+            {
+              "x": "2020",
+              "y": -0.700242317542106
+            },
+            {
+              "x": "2021",
+              "y": 4.61296795454287
+            },
+            {
+              "x": "2022",
+              "y": 2.72756456708991
+            },
+            {
+              "x": "2023",
+              "y": 1.58301467403629
+            },
+            {
+              "x": "2024",
+              "y": 2.00361101838986
+            },
+            {
+              "x": "2025",
+              "y": 1.00701840291242
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:KR"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-09T00:00:19Z",
+      "until": "2026-11-09T00:00:36Z",
+      "title": "Unemployment, South Korea",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "South Korea",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.324
+            },
+            {
+              "x": "2011",
+              "y": 2.992
+            },
+            {
+              "x": "2012",
+              "y": 2.812
+            },
+            {
+              "x": "2013",
+              "y": 3.067
+            },
+            {
+              "x": "2014",
+              "y": 3.082
+            },
+            {
+              "x": "2015",
+              "y": 3.546
+            },
+            {
+              "x": "2016",
+              "y": 3.65
+            },
+            {
+              "x": "2017",
+              "y": 3.653
+            },
+            {
+              "x": "2018",
+              "y": 3.824
+            },
+            {
+              "x": "2019",
+              "y": 3.746
+            },
+            {
+              "x": "2020",
+              "y": 3.931
+            },
+            {
+              "x": "2021",
+              "y": 3.639
+            },
+            {
+              "x": "2022",
+              "y": 2.857
+            },
+            {
+              "x": "2023",
+              "y": 2.675
+            },
+            {
+              "x": "2024",
+              "y": 2.784
+            },
+            {
+              "x": "2025",
+              "y": 2.683
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:KR"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-09T00:00:37Z",
+      "until": "2026-11-09T00:00:50Z",
+      "title": "Inflation, East Asia & Pacific",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Mongolia",
+          "text": "8.6%",
+          "value": 8.60536487369694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MN"
+          ]
+        },
+        {
+          "label": "Laos",
+          "text": "7.7%",
+          "value": 7.74226936553694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LA"
+          ]
+        },
+        {
+          "label": "Papua New Guinea",
+          "text": "4.4%",
+          "value": 4.42141364166485,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PG"
+          ]
+        },
+        {
+          "label": "Solomon Islands",
+          "text": "3.4%",
+          "value": 3.36462189317824,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SB"
+          ]
+        },
+        {
+          "label": "Vietnam",
+          "text": "3.3%",
+          "value": 3.30999314219739,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:VN"
+          ]
+        },
+        {
+          "label": "Japan",
+          "text": "3.2%",
+          "value": 3.17253034260247,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:JP"
+          ]
+        },
+        {
+          "label": "Australia",
+          "text": "2.9%",
+          "value": 2.87403791660173,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AU"
+          ]
+        },
+        {
+          "label": "New Zealand",
+          "text": "2.8%",
+          "value": 2.8397963180572,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NZ"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.12309421458659,
+        "label": "median 2.1%"
+      }
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-09T00:00:51Z",
+      "until": "2026-11-09T00:00:58Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/live-news/20261109-south-korea-s-coupang-woowa-brothers-hit-with-huge-antitrust-fines",
+          "cites": [
+            "wiki:2026-11-09:7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-09T00:00:59Z",
+      "until": "2026-11-09T00:01:05Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-09:7"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q624479:P159"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-13T00:00:00Z",
+    "costUsd": 0.001547
+  }
+}

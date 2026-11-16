@@ -1,0 +1,62 @@
+[
+  {
+    "id": "wiki:2026-11-11:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-11T00:00:00Z",
+    "lon": 54.93,
+    "lat": 32.17,
+    "label": "World: Iran designates the Argentinian naval and air forces as terrorist organizations, in response to Argentina designating the Islamic Revolutionary Guard Corps as such in March.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893",
+    "quote": "Iran designates the Argentinian naval and air forces as terrorist organizations, in response to Argentina designating the Islamic Revolutionary Guard Corps as such in March.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/americas/iran-designates-argentinas-navy-air-force-terrorist-organizations-2026-11-11/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q56347197:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "Wikidata: \"Argentina–Iran relations\" is an instance of bilateral relation",
+    "url": "https://www.wikidata.org/wiki/Q56347197",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1363838369:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Argentina–Iran relations\" (revision of 2026-07-12 20:02 UTC)",
+    "quote": "Argentina and Iran maintain diplomatic relations.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Argentina%E2%80%93Iran_relations&oldid=1363838369"
+  },
+  {
+    "id": "views:en:Argentina–Iran_relations:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Argentina–Iran relations\", 13 October 2026 to 11 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Argentina%E2%80%93Iran_relations&range=latest-30"
+  },
+  {
+    "id": "wd:Q56347197:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Argentina–Iran relations\": country Argentina, Iran",
+    "url": "https://www.wikidata.org/wiki/Q56347197#P17"
+  }
+]

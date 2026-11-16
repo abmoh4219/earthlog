@@ -1,0 +1,259 @@
+[
+  {
+    "id": "news:aljazeera:d16b98a3f374",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Starshield restrictions help Russia’s energy attacks on Ukraine: Zelenskyy (13:37 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy",
+    "quote": "Starshield restrictions help Russia’s energy attacks on Ukraine: Zelenskyy",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:505b8186cf0a",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "DW: Zelenskyy urges removal of Starshield limits on Ukraine (20:39 UTC)",
+    "url": "https://www.dw.com/en/zelenskyy-urges-removal-of-starshield-limits-on-ukraine/a-79953300",
+    "quote": "Zelenskyy urges removal of Starshield limits on Ukraine",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385471664:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Volodymyr Zelenskyy\" (revision of 2026-11-13 12:41 UTC)",
+    "quote": "As well as visiting Ukrainian troops on the frontlines, Zelenskyy has often met world leaders, urging the international community to support Ukraine's resistance and its efforts to end Russia's war.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Volodymyr_Zelenskyy&oldid=1385471664"
+  },
+  {
+    "id": "wiki:rev:1385471664:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Volodymyr Zelenskyy\" (revision of 2026-11-13 12:41 UTC)",
+    "quote": "Volodymyr Oleksandrovych Zelenskyy (born 25 January 1978) is a Ukrainian politician and former entertainer who has served as the sixth president of Ukraine since 2019.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Volodymyr_Zelenskyy&oldid=1385471664"
+  },
+  {
+    "id": "views:en:Volodymyr_Zelenskyy:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Volodymyr Zelenskyy\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Volodymyr_Zelenskyy&range=latest-30"
+  },
+  {
+    "id": "wd:Q3874799:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": born 25 January 1978",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P569"
+  },
+  {
+    "id": "wd:Q3874799:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": birthplace Kryvyi Rih",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P19"
+  },
+  {
+    "id": "wd:Q3874799:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": occupation politician, comedian",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P106"
+  },
+  {
+    "id": "wd:Q3874799:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": citizenship Ukraine, Soviet Union",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P27"
+  },
+  {
+    "id": "wd:Q3874799:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": genre parody, comedy",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P136"
+  },
+  {
+    "id": "wd:Q3874799:P69:Q12114704",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": educated at Kryvyi Rih Institute of Economics (1995–2000)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P69"
+  },
+  {
+    "id": "wd:Q3874799:P69:Q134446124",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": educated at Kryvyi Rih Lyceum 95 (1985–95)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P69"
+  },
+  {
+    "id": "wd:Q3874799:P108:Q4444575",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": worked for Kvartal 95",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P108"
+  },
+  {
+    "id": "wd:Q3874799:P108:Q2914786",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": worked for Inter",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P108"
+  },
+  {
+    "id": "wd:Q3874799:P108:Q161257",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": worked for 1+1",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P108"
+  },
+  {
+    "id": "wd:Q3874799:P108:Q5764175",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": worked for Office of the President of Ukraine",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P108"
+  },
+  {
+    "id": "wd:Q3874799:P551:Q732489",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": lived in Mariinskyi Palace (2019–)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P551"
+  },
+  {
+    "id": "wd:Q3874799:P551:Q230628",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": lived in Erdenet (1986)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P551"
+  },
+  {
+    "id": "wd:Q3874799:P551:Q157137",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": lived in Kryvyi Rih (1978–)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P551"
+  },
+  {
+    "id": "wd:Q3874799:P937:Q157137",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": worked in Kryvyi Rih",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P937"
+  },
+  {
+    "id": "wd:Q3874799:P937:Q1899",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": worked in Kyiv",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P937"
+  },
+  {
+    "id": "wd:Q3874799:P166:Q4375456",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": award received: Honorary Diploma of the Cabinet of Ministers of Ukraine (2003)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P166"
+  },
+  {
+    "id": "wd:Q3874799:P166:Q5449677",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": award received: Financial Times Person of the Year (2022)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P166"
+  },
+  {
+    "id": "wd:Q3874799:P166:Q207826",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": award received: Time Person of the Year (2022)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P166"
+  },
+  {
+    "id": "wd:Q3874799:P166:Q219070",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": award received: Profile in Courage Award (2022)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P166"
+  },
+  {
+    "id": "wd:Q3874799:P166:Q23058092",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": award received: Grand Cross with collar of the Order of Vytautas the Great (2022)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P166"
+  },
+  {
+    "id": "wd:Q3874799:P166:Q130376438",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": award received: Order of Viesturs, 1st class (2022)",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P166"
+  },
+  {
+    "id": "wd:Q3874799:P800:Q21546165",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Volodymyr Zelenskyy\": notable work: Servant of the People",
+    "url": "https://www.wikidata.org/wiki/Q3874799#P800"
+  }
+]

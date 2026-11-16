@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-16T12:00:45Z",
+  "candidates": 44,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "2026-new-orleans-ship-collision",
+      "lens": "accident",
+      "title": "2026 New Orleans ship collision",
+      "summary": "A tanker and the cruise ship American Heritage collide in the Mississippi River of the United States. The cruise ship, carrying 130 people, sinks. All aboard the American Heritage survive, with some taken to local hospitals for treatment of minor injuries.",
+      "article": {
+        "title": "2026 New Orleans ship collision",
+        "url": "https://en.wikipedia.org/wiki/2026_New_Orleans_ship_collision",
+        "qid": "Q142149760"
+      },
+      "place": {
+        "name": "Mississippi River",
+        "lon": -89.25333333,
+        "lat": 29.15111111,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-13:2"
+      },
+      "continent": "North America",
+      "heat": 100,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events",
+        "32 people involved, per the headlines"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Tanker collides with cruise ship on Mississippi near New Orleans",
+          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-near-new-orleans/a-79945080",
+          "t": "2026-11-13T21:31:00Z",
+          "evidence": "news:dw:1fae3f0a5d8d"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
+          "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us",
+          "t": "2026-11-13T22:47:16Z",
+          "evidence": "news:aljazeera:3720529b60cf"
+        },
+        {
+          "outlet": "guardian",
+          "title": "New Orleans boat crash live: all passengers and crew found alive in ‘miracle on the Mississippi’",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
+          "t": "2026-11-13T22:29:05Z",
+          "evidence": "news:guardian:77c86922fa84"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-13:2",
+        "news:dw:1fae3f0a5d8d",
+        "news:aljazeera:3720529b60cf",
+        "wd:Q142149760:P31",
+        "news:guardian:77c86922fa84"
+      ],
+      "headline": "A tanker and the cruise ship American Heritage collide in the Mississippi River of the United States. The cruise ship, carrying 130 people, sinks."
+    },
+    {
+      "slug": "the-united-states-federal-aviation-administration-issues-a-n",
+      "lens": "accident",
+      "title": "The United States Federal Aviation Administration issues a nationwide ground…",
+      "summary": "The United States Federal Aviation Administration issues a nationwide ground stop for all flights due to \"extraordinary circumstances involving communications failures\". It is later lifted.",
+      "article": {
+        "title": "2026 FAA nationwide ground stop",
+        "url": "https://en.wikipedia.org/wiki/2026_FAA_nationwide_ground_stop",
+        "qid": "Q142148320"
+      },
+      "place": {
+        "name": "Federal Aviation Administration",
+        "lon": -77.02277778,
+        "lat": 38.88694444,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-13:3"
+      },
+      "continent": "North America",
+      "heat": 93,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+          "t": "2026-11-13T21:32:08Z",
+          "evidence": "news:aljazeera:706b1608b1a0"
+        },
+        {
+          "outlet": "dw",
+          "title": "FAA issues US national ground stop on all flights",
+          "url": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062",
+          "t": "2026-11-13T21:54:00Z",
+          "evidence": "news:dw:c0cfbcc007e2"
+        },
+        {
+          "outlet": "france24",
+          "title": "🔴 US flight authority orders national ground stop over air traffic control 'communication issue'",
+          "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+          "t": "2026-11-13T21:29:31Z",
+          "evidence": "news:france24:bea6c8926b2d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-13:3",
+        "news:aljazeera:706b1608b1a0",
+        "news:dw:c0cfbcc007e2",
+        "wd:Q142148320:P31",
+        "news:france24:bea6c8926b2d"
+      ],
+      "headline": "The United States Federal Aviation Administration issues a nationwide ground stop for all flights due to \"extraordinary circumstances involving communications failures\". It is later lifted."
+    },
+    {
+      "slug": "david-walliams",
+      "lens": "person",
+      "title": "David Walliams",
+      "summary": "In the United Kingdom, Metropolitan Police announce a criminal investigation into actor David Walliams about \"alleged serious sexual offences\". The police say they are separate to those investigated by ITN and The Guardian.",
+      "about": "David Edward Williams, known professionally as David Walliams, is an English actor, comedian, writer and television personality. He rose to prominence for his work with Matt Lucas on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011).",
+      "article": {
+        "title": "David Walliams",
+        "url": "https://en.wikipedia.org/wiki/David_Walliams",
+        "qid": "Q359665"
+      },
+      "place": {
+        "name": "United Kingdom",
+        "lon": -2.12,
+        "lat": 54.4,
+        "country": "GB",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-13:9"
+      },
+      "continent": "Europe",
+      "heat": 87,
+      "why": [
+        "Reported by 3 outlets",
+        "Listed on Wikipedia's Current events",
+        "Read by 98,000 on Wikipedia that day"
+      ],
+      "readers": 97674,
+      "spike": 37.3,
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Met police launch investigation into David Walliams allegations",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
+          "t": "2026-11-13T16:07:59Z",
+          "evidence": "news:guardian:72dc6a881824"
+        },
+        {
+          "outlet": "dw",
+          "title": "David Walliams: UK police launch sex offense probe into comedian",
+          "url": "https://www.dw.com/en/david-walliams-uk-police-launch-sex-offense-probe-into-comedian/a-79944161",
+          "t": "2026-11-13T19:25:00Z",
+          "evidence": "news:dw:cffd271a388c"
+        },
+        {
+          "outlet": "france24",
+          "title": "UK rocked by comedians' sex scandals",
+          "url": "https://www.france24.com/en/tv-shows/the-51/20261113-uk-rocked-by-comedians-sex-scandals",
+          "t": "2026-11-13T13:47:30Z",
+          "evidence": "news:france24:23c096cd618a"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-13:9",
+        "views:en:David_Walliams:2026-11-13",
+        "views:en:David_Walliams:prior",
+        "news:guardian:72dc6a881824",
+        "news:dw:cffd271a388c",
+        "wd:Q359665:P31",
+        "news:france24:23c096cd618a"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-10",
+            "slug": "david-walliams",
+            "title": "David Walliams"
+          }
+        ]
+      },
+      "headline": "In the United Kingdom, Metropolitan Police announce a criminal investigation into actor David Walliams about \"alleged serious sexual offences\"."
+    },
+    {
+      "slug": "microsoft-says-all-services-fully-recovered-after-global-out",
+      "lens": "general",
+      "title": "Microsoft says all services 'fully recovered' after global outage",
+      "summary": "Microsoft says all services 'fully recovered' after global outage",
+      "heat": 85,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
+          "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
+          "t": "2026-11-13T10:53:41Z",
+          "evidence": "news:france24:fe1a4ad6291e"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users",
+          "t": "2026-11-13T11:18:01Z",
+          "evidence": "news:aljazeera:40604ce7f0e2"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+          "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po",
+          "t": "2026-11-13T11:43:27Z",
+          "evidence": "news:bbc:803535c4dcf7"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "t": "2026-11-13T17:41:15Z",
+          "evidence": "news:guardian:af1bb13de8c3"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:fe1a4ad6291e",
+        "news:aljazeera:40604ce7f0e2",
+        "news:bbc:803535c4dcf7",
+        "news:guardian:af1bb13de8c3"
+      ],
+      "headline": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’, France 24 reports."
+    },
+    {
+      "slug": "at-least-10-killed-in-guinea-clashes-over-gold-mining-ban",
+      "lens": "general",
+      "title": "At least 10 killed in Guinea clashes over gold mining ban",
+      "summary": "At least 10 killed in Guinea clashes over gold mining ban",
+      "place": {
+        "name": "Guinea",
+        "lon": -10.02,
+        "lat": 10.62,
+        "country": "GN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 62,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "1,200 people involved, per the headlines"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Guinea opens illegal gold mining trial, 1,200 people arrested",
+          "url": "https://www.france24.com/en/video/20261113-guinea-opens-illegal-gold-mining-trial-1-200-people-arrested",
+          "t": "2026-11-13T10:28:40Z",
+          "evidence": "news:france24:3d42129ab965"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "At least 10 killed in Guinea clashes over gold mining ban",
+          "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining",
+          "t": "2026-11-13T18:44:45Z",
+          "evidence": "news:aljazeera:5bc7d4c5388b"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:3d42129ab965",
+        "news:aljazeera:5bc7d4c5388b"
+      ],
+      "headline": "At least 10 killed in Guinea clashes over gold mining ban, Al Jazeera reports."
+    },
+    {
+      "slug": "peruvians-flock-to-see-pope-leo-xiv-in-city-he-served-as-bis",
+      "lens": "general",
+      "title": "Peruvians flock to see Pope Leo XIV in city he served as bishop",
+      "summary": "Peruvians flock to see Pope Leo XIV in city he served as bishop",
+      "place": {
+        "name": "Peru",
+        "lon": -72.9,
+        "lat": -12.98,
+        "country": "PE",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 58,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Peruvians flock to see Pope Leo XIV in city he served as bishop",
+          "url": "https://www.france24.com/en/video/20261113-peruvians-flock-to-see-pope-leo-xiv-in-city-he-served-as-bishop",
+          "t": "2026-11-13T10:55:09Z",
+          "evidence": "news:france24:3753f8041ccf"
+        },
+        {
+          "outlet": "bbc",
+          "title": "The Peruvian city that has embraced Pope Leo as one of its own",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo",
+          "t": "2026-11-13T18:34:45Z",
+          "evidence": "news:bbc:841377b7806a"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Pope Leo cheered on return to Peru city where he served as bishop",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop",
+          "t": "2026-11-13T20:52:31Z",
+          "evidence": "news:aljazeera:0cc82106b9ee"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:3753f8041ccf",
+        "news:bbc:841377b7806a",
+        "news:aljazeera:0cc82106b9ee"
+      ],
+      "headline": "Peruvians flock to see Pope Leo XIV in city he served as bishop, France 24 reports."
+    },
+    {
+      "slug": "iran-says-it-has-destroyed-an-early-warning-radar-in-bahrain",
+      "lens": "conflict",
+      "title": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation…",
+      "summary": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik.",
+      "article": {
+        "title": "2026 Iranian strikes on Bahrain",
+        "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Bahrain",
+        "qid": "Q138531790"
+      },
+      "place": {
+        "name": "Bandar Sirik",
+        "lon": 57.10166667,
+        "lat": 26.51638889,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-13:1"
+      },
+      "continent": "Asia",
+      "heat": 55,
+      "why": [
+        "Reported by 2 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+          "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+          "t": "2026-11-13T13:52:11Z",
+          "evidence": "news:guardian:a4db15e2b4ef"
+        },
+        {
+          "outlet": "dw",
+          "title": "Iran targeted US radar system in Bahrain",
+          "url": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640",
+          "t": "2026-11-13T15:32:00Z",
+          "evidence": "news:dw:6a6890129eef"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-13:1",
+        "news:guardian:a4db15e2b4ef",
+        "news:dw:6a6890129eef",
+        "wd:Q138531790:P31"
+      ],
+      "headline": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik."
+    },
+    {
+      "slug": "at-least-24-killed-after-bus-collides-with-truck-in-north-ea",
+      "lens": "disaster",
+      "title": "At least 24 killed after bus collides with truck in north-east India",
+      "summary": "At least 24 killed after bus collides with truck in north-east India",
+      "place": {
+        "name": "Assam",
+        "lon": 91.77,
+        "lat": 26.14,
+        "country": "IN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 53,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "24 people involved, per the headlines"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "At least 24 killed after bus collides with truck in north-east India",
+          "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo",
+          "t": "2026-11-13T15:16:50Z",
+          "evidence": "news:bbc:5f884eae5b33"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
+          "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people",
+          "t": "2026-11-13T16:01:45Z",
+          "evidence": "news:aljazeera:ab4193ed9b34"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:5f884eae5b33",
+        "news:aljazeera:ab4193ed9b34"
+      ],
+      "headline": "At least 24 killed after bus collides with truck in north-east India, BBC News reports."
+    },
+    {
+      "slug": "what-s-next-for-the-us-tech-company",
+      "lens": "organization",
+      "title": "What’s next for the US tech company?",
+      "summary": "What’s next for the US tech company?",
+      "about": "Nvidia Corporation ( en-VID-ee-ə) is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial…",
+      "article": {
+        "title": "Nvidia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "qid": "Q182477"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 51,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Nvidia scandal: What’s next for the US tech company?",
+          "url": "https://www.aljazeera.com/news/2026/11/13/nvidia-scandal-whats-next-for-the-us-tech-company",
+          "t": "2026-11-13T13:36:19Z",
+          "evidence": "news:aljazeera:00c04b1d51fa"
+        },
+        {
+          "outlet": "france24",
+          "title": "Nvidia scandal: How close was ex-CEO to Trump?",
+          "url": "https://www.france24.com/en/video/20261113-nvidia-scandal-how-close-was-ex-ceo-to-trump",
+          "t": "2026-11-13T15:50:41Z",
+          "evidence": "news:france24:b0c156ec823c"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:00c04b1d51fa",
+        "news:france24:b0c156ec823c"
+      ],
+      "headline": "Al Jazeera asks: “Nvidia scandal: What’s next for the US tech company?”"
+    },
+    {
+      "slug": "turkiye-and-qatar-sign-mutual-defence-agreement",
+      "lens": "conflict",
+      "title": "Turkiye and Qatar sign mutual defence agreement",
+      "summary": "Turkiye and Qatar sign mutual defence agreement",
+      "about": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023. Amid ongoing US–Iran negotiations regarding Iran's nuclear program,…",
+      "article": {
+        "title": "2026 Iran war",
+        "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+        "qid": "Q138503695"
+      },
+      "place": {
+        "name": "Qatar",
+        "lon": 51.14,
+        "lat": 25.24,
+        "country": "QA",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 51,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+          "t": "2026-11-13T15:49:51Z",
+          "evidence": "news:aljazeera:7d93c5c4e4f3"
+        },
+        {
+          "outlet": "france24",
+          "title": "Turkey and Qatar pledge unified stance against attacks in mutual defence pact",
+          "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact",
+          "t": "2026-11-13T20:06:40Z",
+          "evidence": "news:france24:78a12542999d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:7d93c5c4e4f3",
+        "news:france24:78a12542999d"
+      ],
+      "headline": "Turkiye and Qatar sign mutual defence agreement, Al Jazeera reports."
+    },
+    {
+      "slug": "six-people-are-killed-and-five-more-injured-after-an-under-c",
+      "lens": "accident",
+      "title": "Six people are killed and five more injured after an under-construction…",
+      "summary": "Six people are killed and five more injured after an under-construction building partially collapses in Nairobi, Kenya.",
+      "place": {
+        "name": "Nairobi",
+        "lon": 36.81722222,
+        "lat": -1.28638889,
+        "country": "KE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-13:5"
+      },
+      "continent": "Africa",
+      "heat": 48,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events",
+        "People involved, per the headlines: six"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Kenyan building collapse near Nairobi kills six people",
+          "url": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people",
+          "t": "2026-11-13T13:11:24Z",
+          "evidence": "news:aljazeera:f3a0a31ada62"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-13:5",
+        "news:aljazeera:f3a0a31ada62"
+      ],
+      "headline": "Six people are killed and five more injured after an under-construction building partially collapses in Nairobi, Kenya."
+    },
+    {
+      "slug": "russia-strikes-targets-across-ukraine-as-kyiv-launches-nearl",
+      "lens": "science",
+      "title": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+      "summary": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+      "place": {
+        "name": "Kyiv",
+        "lon": 30.51,
+        "lat": 50.44,
+        "country": "UA",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 35,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "science",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
+          "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+          "t": "2026-11-13T11:24:30Z",
+          "evidence": "news:guardian:14dfc28111e6"
+        },
+        {
+          "outlet": "france24",
+          "title": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+          "url": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
+          "t": "2026-11-13T15:46:36Z",
+          "evidence": "news:france24:8c91678fb217"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:14dfc28111e6",
+        "news:france24:8c91678fb217"
+      ],
+      "headline": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones, France 24 reports."
+    },
+    {
+      "slug": "the-united-states-department-of-state-designates-three-guate",
+      "lens": "conflict",
+      "title": "The United States Department of State designates three Guatemalan criminal…",
+      "summary": "The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels.",
+      "article": {
+        "title": "Guatemala–United States relations, Mexican drug war",
+        "url": "https://en.wikipedia.org/wiki/Guatemala%E2%80%93United_States_relations%2C_Mexican_drug_war"
+      },
+      "place": {
+        "name": "United States Department of State",
+        "lon": -77.04833333,
+        "lat": 38.89416667,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-13:6"
+      },
+      "continent": "North America",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-13:6",
+        "wd:Q2170633:P31"
+      ],
+      "headline": "The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels."
+    },
+    {
+      "slug": "2026-27-segunda-division",
+      "lens": "culture",
+      "title": "2026–27 Segunda División",
+      "summary": "In association football, the Royal Spanish Football Federation suspends FC Andorra goalkeeper Jesús Owono for 12 matches following a collision with CD Tenerife forward Jesús de Miguel during a November 2 match, which resulted in de Miguel's death.",
+      "article": {
+        "title": "2026–27 Segunda División",
+        "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n",
+        "qid": "Q139897969"
+      },
+      "place": {
+        "name": "Spain",
+        "lon": -3.46,
+        "lat": 40.09,
+        "country": "ES",
+        "role": "Country",
+        "evidence": "wd:Q139897969:P17"
+      },
+      "continent": "Europe",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-13:10",
+        "wd:Q139897969:P31"
+      ],
+      "headline": "In association football, the Royal Spanish Football Federation suspends FC Andorra goalkeeper Jesús Owono for 12 matches following a collision with CD Tenerife forward Jesús de Miguel during a November 2 match,…"
+    }
+  ]
+}

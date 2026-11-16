@@ -1,0 +1,853 @@
+{
+  "version": 1,
+  "id": "story-2026-11-13-david-walliams",
+  "title": "David Walliams",
+  "subtitle": "People · 13 November 2026 · Update, day 4",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-13T00:02:01Z"
+  },
+  "focus": "2026-11-13T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -12.120000000000001,
+    "south": 46.4,
+    "east": 7.88,
+    "north": 62.4
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-13T00:01:01Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-13T00:01:01Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-13T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-13T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": 35.879999999999995,
+      "lat": 31.365,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T00:00:04Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:14Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:23Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:26Z",
+      "lon": -0.2171,
+      "lat": 50.5235,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:29Z",
+      "lon": -0.2171,
+      "lat": 50.5235,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:31Z",
+      "lon": -0.2171,
+      "lat": 50.5235,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:34Z",
+      "lon": -1.405504434113133,
+      "lat": 51.09905423114399,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:38Z",
+      "lon": -1.405504434113133,
+      "lat": 51.09905423114399,
+      "range": 1358307.7707206125,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:41Z",
+      "lon": -1.405504434113133,
+      "lat": 51.09905423114399,
+      "range": 1230000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:44Z",
+      "lon": -1.405504434113133,
+      "lat": 51.09905423114399,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:48Z",
+      "lon": -1.405504434113133,
+      "lat": 51.09905423114399,
+      "range": 1358307.7707206125,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:51Z",
+      "lon": -1.405504434113133,
+      "lat": 51.09905423114399,
+      "range": 1230000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:54Z",
+      "lon": -1.1358482319100218,
+      "lat": 52.61554586560896,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:57Z",
+      "lon": -1.1358482319100218,
+      "lat": 52.61554586560896,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "lon": -1.1358482319100218,
+      "lat": 52.61554586560896,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:04Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:01:14Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:24Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:28Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:01:30Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:32Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:35Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:44Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:53Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:56Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:57Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:02:01Z",
+      "lon": -27.120000000000005,
+      "lat": 52.275,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T00:00:01Z",
+      "text": "The Metropolitan Police in the United Kingdom have announced a criminal investigation into actor David Walliams over \"alleged serious sexual offences\".",
+      "cites": [
+        "wiki:2026-11-13:9",
+        "wiki:rev:1385873065:193"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:08Z",
+      "text": "The announcement was made on 13 November 2026, and the police say the probe is separate to those investigated by ITN and The Guardian.",
+      "cites": [
+        "wiki:rev:1385873065:193",
+        "wiki:2026-11-13:9"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:15Z",
+      "text": "Walliams, born David Edward Williams on 20 August 1971, is an English actor, comedian, writer and television personality.",
+      "cites": [
+        "wiki:rev:1385873065:0"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:25Z",
+      "text": "Walliams was born on 20 August 1971 in Wimbledon.",
+      "cites": [
+        "wd:Q359665:P569",
+        "wd:Q359665:P19"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:33Z",
+      "text": "He was educated at the University of Bristol, Reigate Grammar School and Manor Hall, Bristol.",
+      "cites": [
+        "wd:Q359665:P69:Q459506",
+        "wd:Q359665:P69:Q7310077",
+        "wd:Q359665:P69:Q6751333"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:43Z",
+      "text": "The one award on record is Officer of the Order of the British Empire, received in 2017.",
+      "cites": [
+        "wd:Q359665:P166:Q10762848"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:53Z",
+      "text": "Wimbledon is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-13:9"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:02Z",
+      "text": "The English Wikipedia article was read by 97,674 people on 13 November 2026, about 37 times the usual level.",
+      "cites": [
+        "views:en:David_Walliams:2026-11-13",
+        "views:en:David_Walliams:prior"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:09Z",
+      "text": "The article is available in 11 languages, and after English, German has the most readers with 6,515.",
+      "cites": [
+        "views:en:David_Walliams:2026-11-13",
+        "views:de:David_Walliams:2026-11-13"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:16Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:de:David_Walliams:2026-11-13",
+        "views:fr:David_Walliams:2026-11-13",
+        "views:es:David_Walliams:2026-11-13",
+        "views:ja:デヴィッド・ウォリアムス:2026-11-13",
+        "views:pl:David_Walliams:2026-11-13",
+        "views:it:David_Walliams:2026-11-13"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:26Z",
+      "text": "The story was reported by AP and BBC News.",
+      "cites": [
+        "wiki:2026-11-13:9"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:34Z",
+      "text": "The Guardian headlined it: \"Met police launch investigation into David Walliams allegations\".",
+      "cites": [
+        "news:guardian:72dc6a881824"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:40Z",
+      "text": "DW headlined it: \"David Walliams: UK police launch sex offense probe into comedian\".",
+      "cites": [
+        "news:dw:cffd271a388c"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:46Z",
+      "text": "France 24 headlined it: \"UK rocked by comedians' sex scandals\".",
+      "cites": [
+        "news:france24:23c096cd618a"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:55Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-13:9",
+        "wiki:rev:1385873065:193",
+        "views:en:David_Walliams:2026-11-13",
+        "wd:Q359665:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -2.12,
+    "lat": 54.4,
+    "label": "United Kingdom"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-13T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-13T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-13T00:00:42Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-13T00:00:52Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-13T00:01:01Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-13T00:01:25Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-13T00:01:33Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-13T00:01:54Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-13T00:00:33Z",
+      "until": "2026-11-13T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1971 born",
+          "text": "Wimbledon",
+          "cites": [
+            "wd:Q359665:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "University of Bristol",
+          "cites": [
+            "wd:Q359665:P69:Q459506"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Reigate Grammar School",
+          "cites": [
+            "wd:Q359665:P69:Q7310077"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Manor Hall, Bristol",
+          "cites": [
+            "wd:Q359665:P69:Q6751333"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-13T00:00:43Z",
+      "until": "2026-11-13T00:00:52Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2017",
+          "text": "Officer of the Order of the British Empire",
+          "cites": [
+            "wd:Q359665:P166:Q10762848"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-13T00:01:02Z",
+      "until": "2026-11-13T00:01:25Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "David Walliams",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-15",
+              "y": 1998
+            },
+            {
+              "x": "10-16",
+              "y": 2741
+            },
+            {
+              "x": "10-17",
+              "y": 8568
+            },
+            {
+              "x": "10-18",
+              "y": 5523
+            },
+            {
+              "x": "10-19",
+              "y": 3143
+            },
+            {
+              "x": "10-20",
+              "y": 5922
+            },
+            {
+              "x": "10-21",
+              "y": 3901
+            },
+            {
+              "x": "10-22",
+              "y": 3578
+            },
+            {
+              "x": "10-23",
+              "y": 2326
+            },
+            {
+              "x": "10-24",
+              "y": 2781
+            },
+            {
+              "x": "10-25",
+              "y": 2621
+            },
+            {
+              "x": "10-26",
+              "y": 2580
+            },
+            {
+              "x": "10-27",
+              "y": 25528
+            },
+            {
+              "x": "10-28",
+              "y": 71358
+            },
+            {
+              "x": "10-29",
+              "y": 41230
+            },
+            {
+              "x": "10-30",
+              "y": 24185
+            },
+            {
+              "x": "10-31",
+              "y": 15054
+            },
+            {
+              "x": "11-01",
+              "y": 13062
+            },
+            {
+              "x": "11-02",
+              "y": 10910
+            },
+            {
+              "x": "11-03",
+              "y": 110365
+            },
+            {
+              "x": "11-04",
+              "y": 74140
+            },
+            {
+              "x": "11-05",
+              "y": 53727
+            },
+            {
+              "x": "11-06",
+              "y": 39045
+            },
+            {
+              "x": "11-07",
+              "y": 25116
+            },
+            {
+              "x": "11-08",
+              "y": 18535
+            },
+            {
+              "x": "11-09",
+              "y": 32765
+            },
+            {
+              "x": "11-10",
+              "y": 512804
+            },
+            {
+              "x": "11-11",
+              "y": 325997
+            },
+            {
+              "x": "11-12",
+              "y": 138004
+            },
+            {
+              "x": "11-13",
+              "y": 97674
+            }
+          ],
+          "cites": [
+            "views:en:David_Walliams:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-13T00:01:02Z",
+      "until": "2026-11-13T00:01:25Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "97,674",
+          "value": 97674,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:David_Walliams:2026-11-13"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "6,515",
+          "value": 6515,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:David_Walliams:2026-11-13"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "956",
+          "value": 956,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:David_Walliams:2026-11-13"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "402",
+          "value": 402,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:David_Walliams:2026-11-13"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "346",
+          "value": 346,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:デヴィッド・ウォリアムス:2026-11-13"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "237",
+          "value": 237,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:David_Walliams:2026-11-13"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "219",
+          "value": 219,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:David_Walliams:2026-11-13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-13T00:01:26Z",
+      "until": "2026-11-13T00:01:33Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/david-walliams-uk-police-investigation-84a5d758f0b9a2b3e67d6a6fe01b5dca",
+          "cites": [
+            "wiki:2026-11-13:9"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/cwx2emg4xe72o",
+          "cites": [
+            "wiki:2026-11-13:9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-13T00:01:34Z",
+      "until": "2026-11-13T00:01:54Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
+          "cites": [
+            "news:guardian:72dc6a881824"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/david-walliams-uk-police-launch-sex-offense-probe-into-comedian/a-79944161",
+          "cites": [
+            "news:dw:cffd271a388c"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/the-51/20261113-uk-rocked-by-comedians-sex-scandals",
+          "cites": [
+            "news:france24:23c096cd618a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-13T00:01:55Z",
+      "until": "2026-11-13T00:02:01Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-13:9"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385873065:193"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:David_Walliams:2026-11-13"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q359665:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:01:26Z",
+    "costUsd": 0.002445
+  }
+}

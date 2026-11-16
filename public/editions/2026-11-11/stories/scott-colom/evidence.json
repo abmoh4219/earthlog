@@ -1,0 +1,187 @@
+[
+  {
+    "id": "wiki:2026-11-11:22",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-11T00:00:00Z",
+    "lon": -77.00888889,
+    "lat": 38.89055556,
+    "label": "Politics: After a week of counting affidavit ballots, the Associated Press and CNN project the election to the U.S. Senate in Mississippi for Democratic candidate Scott Colom, defeating the incumbent Republican Cindy Hyde-Smith and becoming the first black senator from the state since Blanche Bruce in the 1874–75 elections.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893",
+    "quote": "After a week of counting affidavit ballots, the Associated Press and CNN project the election to the U.S. Senate in Mississippi for Democratic candidate Scott Colom, defeating the incumbent Republican Cindy Hyde-Smith and becoming the first black senator from the state since Blanche Bruce in the 1874–75 elections.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/mississippi-democrat-flips-us-senate-seat-stunning-upset"
+      },
+      {
+        "name": "AP",
+        "url": "https://apnews.com/live/trump-congress-midterm-elections-politics-news-updates-11-11-2026"
+      },
+      {
+        "name": "CNN",
+        "url": "https://www.cnn.com/2026/11/11/politics/live-news/hegseth-impeachment-congress"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Scott_Colom:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "English Wikipedia: 80,972 readers of \"Scott Colom\" on 11 Nov 2026",
+    "value": 80972,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Scott_Colom:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "\"Scott Colom\": normally a median of 649 readers a day (8 to 60 days before)",
+    "value": 649,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q115492489:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "Wikidata: \"Q115492489\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q115492489",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385713347:41",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scott Colom\" (revision of 2026-11-14 22:00 UTC)",
+    "quote": "In October 2026, Colom's campaign released an ad mocking Hyde-Smith's comment, dismissing concerns about the rising price of beef, that consumers \"have so many proteins to choose from\".",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scott_Colom&oldid=1385713347"
+  },
+  {
+    "id": "wiki:rev:1385713347:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Scott Colom\" (revision of 2026-11-14 22:00 UTC)",
+    "quote": "Scott Winston Colom (; born December 24, 1982) is an American politician, lawyer, and jurist who is the United States senator-elect from Mississippi.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Scott_Colom&oldid=1385713347"
+  },
+  {
+    "id": "views:en:Scott_Colom:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Scott Colom\", 13 October 2026 to 11 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Scott_Colom&range=latest-30"
+  },
+  {
+    "id": "views:fr:Scott_Colom:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 464 readers of \"Scott Colom\" on 11 November 2026",
+    "value": 464,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Scott_Colom"
+  },
+  {
+    "id": "views:es:Scott_Colom:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 331 readers of \"Scott Colom\" on 11 November 2026",
+    "value": 331,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Scott_Colom"
+  },
+  {
+    "id": "views:he:סקוט_קולום:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Hebrew Wikipedia: 14 readers of \"סקוט קולום\" on 11 November 2026",
+    "value": 14,
+    "unit": "readers",
+    "url": "https://he.wikipedia.org/wiki/%D7%A1%D7%A7%D7%95%D7%98_%D7%A7%D7%95%D7%9C%D7%95%D7%9D"
+  },
+  {
+    "id": "views:ko:스콧_콜럼:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 12 readers of \"스콧 콜럼\" on 11 November 2026",
+    "value": 12,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%BD%A7_%EC%BD%9C%EB%9F%BC"
+  },
+  {
+    "id": "wd:Q115492489:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q115492489\": born 24 December 1983",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P569"
+  },
+  {
+    "id": "wd:Q115492489:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q115492489\": birthplace Columbus",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P19"
+  },
+  {
+    "id": "wd:Q115492489:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q115492489\": occupation lawyer, judge",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P106"
+  },
+  {
+    "id": "wd:Q115492489:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q115492489\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P27"
+  },
+  {
+    "id": "wd:Q115492489:P69:Q6860022",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": educated at Millsaps College",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P69"
+  },
+  {
+    "id": "wd:Q115492489:P69:Q838330",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Scott Colom\": educated at University of Wisconsin–Madison",
+    "url": "https://www.wikidata.org/wiki/Q115492489#P69"
+  }
+]

@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-hungary-seizes-18m-cash-tied-to-ex-orban-era-minister-in-pro",
+  "title": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe",
+  "subtitle": "Politics · 14 November 2026 · headline from Al Jazeera",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:01:28Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 9.45,
+    "south": 39.09,
+    "east": 29.45,
+    "north": 55.09
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-14T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-14T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": 57.450000000000045,
+      "lat": 26.979000000000003,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:10Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:16Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:20Z",
+      "lon": 19.45,
+      "lat": 39.09,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:27Z",
+      "lon": 19.45,
+      "lat": 39.09,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:34Z",
+      "lon": 19.45,
+      "lat": 39.09,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:38Z",
+      "lon": 19.5952,
+      "lat": 47.09,
+      "range": 3500000,
+      "heading": 90,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:43Z",
+      "lon": 19.5952,
+      "lat": 47.09,
+      "range": 3169384.7983480957,
+      "heading": 103.7,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:48Z",
+      "lon": 19.5952,
+      "lat": 47.09,
+      "range": 2870000,
+      "heading": 117.4,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:51Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:55Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 9236492.840900164,
+      "heading": -1.3000000000000007,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:59Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 8363999.999999999,
+      "heading": -12.600000000000001,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:02Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:11Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:20Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:23Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:24Z",
+      "lon": 19.45,
+      "lat": 44.965,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:28Z",
+      "lon": -5.5499999999999545,
+      "lat": 44.965,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "Hungary has seized $18m in cash tied to a former minister from the Orbán era, as part of a probe.",
+      "cites": [
+        "news:aljazeera:68fa57495838"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:09Z",
+      "text": "Coverage from DW and BBC News reports the same case, with DW describing millions in hidden cash and BBC News citing $20m.",
+      "cites": [
+        "news:dw:46c1c05194eb",
+        "news:bbc:412d1643733c"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:18Z",
+      "text": "Inflation in Hungary fell to 4.4% in 2025, from 17.1% in 2023.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:HU"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:26Z",
+      "text": "The economy grew 0.5% in 2025, and unemployment stood at 4.5%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:HU",
+        "wb:SL.UEM.TOTL.ZS:HU"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:36Z",
+      "text": "Across Europe and Central Asia, Hungary's 4.4% inflation compares with a median of 3.8%, while Turkey is highest at 34.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:50Z",
+      "text": "Hungary is a landlocked country in Central Europe.",
+      "cites": [
+        "wiki:rev:1385113512:0"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:01Z",
+      "text": "Al Jazeera headlined the story: “Hungary seizes $18m cash tied to ex-Orban-era minister in probe”.",
+      "cites": [
+        "news:aljazeera:68fa57495838"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:07Z",
+      "text": "DW headlined it: “Hungary: Millions in hidden cash found in Orban graft probe”.",
+      "cites": [
+        "news:dw:46c1c05194eb"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:13Z",
+      "text": "BBC News headlined it: “Hungarian authorities uncover $20m during probe of Orbán-era minister”.",
+      "cites": [
+        "news:bbc:412d1643733c"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:22Z",
+      "text": "The sources for this film are Al Jazeera, DW and BBC News, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data.",
+      "cites": [
+        "wiki:rev:1385113512:0",
+        "views:en:Hungary:30d",
+        "wd:Q28:P571",
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "HU",
+    "lon": 19.45,
+    "lat": 47.09,
+    "label": "Hungary"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:17Z",
+      "title": "Hungary in numbers"
+    },
+    {
+      "t": "2026-11-14T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-14T00:00:49Z",
+      "title": "About Hungary"
+    },
+    {
+      "t": "2026-11-14T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-14T00:01:21Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-14T00:00:18Z",
+      "until": "2026-11-14T00:00:35Z",
+      "title": "Inflation, consumer prices, Hungary",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Hungary",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.8771702326921
+            },
+            {
+              "x": "2011",
+              "y": 3.908503915373
+            },
+            {
+              "x": "2012",
+              "y": 5.66536656309913
+            },
+            {
+              "x": "2013",
+              "y": 1.72672672672673
+            },
+            {
+              "x": "2014",
+              "y": -0.227552275522772
+            },
+            {
+              "x": "2015",
+              "y": -0.0616408802316966
+            },
+            {
+              "x": "2016",
+              "y": 0.388577067784991
+            },
+            {
+              "x": "2017",
+              "y": 2.34701400835596
+            },
+            {
+              "x": "2018",
+              "y": 2.85148277104088
+            },
+            {
+              "x": "2019",
+              "y": 3.33858635382016
+            },
+            {
+              "x": "2020",
+              "y": 3.32674385766727
+            },
+            {
+              "x": "2021",
+              "y": 5.11096534382864
+            },
+            {
+              "x": "2022",
+              "y": 14.6081439492433
+            },
+            {
+              "x": "2023",
+              "y": 17.1249659678736
+            },
+            {
+              "x": "2024",
+              "y": 3.70370370370363
+            },
+            {
+              "x": "2025",
+              "y": 4.41198445905566
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:HU"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-14T00:00:18Z",
+      "until": "2026-11-14T00:00:35Z",
+      "title": "GDP growth, Hungary",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Hungary",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 1.06795068152046
+            },
+            {
+              "x": "2011",
+              "y": 1.91670916599742
+            },
+            {
+              "x": "2012",
+              "y": -1.33948446518181
+            },
+            {
+              "x": "2013",
+              "y": 2.03216990678146
+            },
+            {
+              "x": "2014",
+              "y": 4.33435364113967
+            },
+            {
+              "x": "2015",
+              "y": 3.65981615406955
+            },
+            {
+              "x": "2016",
+              "y": 2.43864141309342
+            },
+            {
+              "x": "2017",
+              "y": 4.12418389451805
+            },
+            {
+              "x": "2018",
+              "y": 5.60613813768876
+            },
+            {
+              "x": "2019",
+              "y": 5.07718495088933
+            },
+            {
+              "x": "2020",
+              "y": -4.33872540024058
+            },
+            {
+              "x": "2021",
+              "y": 7.22291580811137
+            },
+            {
+              "x": "2022",
+              "y": 4.15238057779229
+            },
+            {
+              "x": "2023",
+              "y": -0.817107370513455
+            },
+            {
+              "x": "2024",
+              "y": 0.709070599066038
+            },
+            {
+              "x": "2025",
+              "y": 0.509542309726868
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:HU"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-14T00:00:18Z",
+      "until": "2026-11-14T00:00:35Z",
+      "title": "Unemployment, Hungary",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Hungary",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 11.172
+            },
+            {
+              "x": "2011",
+              "y": 11.029
+            },
+            {
+              "x": "2012",
+              "y": 11.003
+            },
+            {
+              "x": "2013",
+              "y": 10.177
+            },
+            {
+              "x": "2014",
+              "y": 7.725
+            },
+            {
+              "x": "2015",
+              "y": 6.813
+            },
+            {
+              "x": "2016",
+              "y": 5.115
+            },
+            {
+              "x": "2017",
+              "y": 4.156
+            },
+            {
+              "x": "2018",
+              "y": 3.667
+            },
+            {
+              "x": "2019",
+              "y": 3.411
+            },
+            {
+              "x": "2020",
+              "y": 4.248
+            },
+            {
+              "x": "2021",
+              "y": 4.021
+            },
+            {
+              "x": "2022",
+              "y": 3.583
+            },
+            {
+              "x": "2023",
+              "y": 4.096
+            },
+            {
+              "x": "2024",
+              "y": 4.5
+            },
+            {
+              "x": "2025",
+              "y": 4.521
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:HU"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-14T00:00:36Z",
+      "until": "2026-11-14T00:00:49Z",
+      "title": "Inflation, Europe & Central Asia",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Turkey",
+          "text": "34.9%",
+          "value": 34.8811700293777,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:TR"
+          ]
+        },
+        {
+          "label": "Ukraine",
+          "text": "12.7%",
+          "value": 12.7303341026902,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        },
+        {
+          "label": "Kazakhstan",
+          "text": "11.4%",
+          "value": 11.3789456104214,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KZ"
+          ]
+        },
+        {
+          "label": "Uzbekistan",
+          "text": "8.8%",
+          "value": 8.79630890491107,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UZ"
+          ]
+        },
+        {
+          "label": "Russia",
+          "text": "8.7%",
+          "value": 8.71986939402666,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RU"
+          ]
+        },
+        {
+          "label": "Kyrgyzstan",
+          "text": "8.2%",
+          "value": 8.21496013406325,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KG"
+          ]
+        },
+        {
+          "label": "Moldova",
+          "text": "7.8%",
+          "value": 7.75904124001158,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MD"
+          ]
+        },
+        {
+          "label": "Romania",
+          "text": "7.2%",
+          "value": 7.18903362292063,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RO"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.768548461408595,
+        "label": "median 3.8%"
+      }
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-14T00:01:01Z",
+      "until": "2026-11-14T00:01:21Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/hungary-seizes-18m-cash-tied-to-ex-orban-era-minister-in-probe",
+          "cites": [
+            "news:aljazeera:68fa57495838"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/hungary-millions-in-hidden-cash-found-in-orban-graft-probe/a-79946923",
+          "cites": [
+            "news:dw:46c1c05194eb"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo",
+          "cites": [
+            "news:bbc:412d1643733c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-14T00:01:22Z",
+      "until": "2026-11-14T00:01:28Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385113512:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Hungary:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q28:P571"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.001124
+  }
+}

@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "id": "story-2026-11-10-ss-edmund-fitzgerald",
+  "title": "SS Edmund Fitzgerald",
+  "subtitle": "Accident · 10 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-10T00:00:00Z",
+    "end": "2026-11-10T00:01:04Z"
+  },
+  "focus": "2026-11-10T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -95.11,
+    "south": 38.998333333333,
+    "east": -75.11,
+    "north": 54.998333333333
+  },
+  "imagery": {
+    "day": "2026-11-10",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-10T00:00:33Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-10T00:00:33Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-10T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "lon": -47.110000000000014,
+      "lat": 27.7864999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-10T00:00:04Z",
+      "lon": -85.11,
+      "lat": 46.310833333333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:14Z",
+      "lon": -85.11,
+      "lat": 46.310833333333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:23Z",
+      "lon": -85.11,
+      "lat": 46.310833333333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:26Z",
+      "lon": -85.11,
+      "lat": 46.998333333333,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:29Z",
+      "lon": -85.11,
+      "lat": 46.998333333333,
+      "range": 126775.39193392382,
+      "heading": 14.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:32Z",
+      "lon": -85.11,
+      "lat": 46.998333333333,
+      "range": 114800,
+      "heading": 4.600000000000001,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:37Z",
+      "lon": 21.766900031586086,
+      "lat": 50.61937003635127,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:00:47Z",
+      "lon": 21.766900031586086,
+      "lat": 50.61937003635127,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:00:56Z",
+      "lon": 21.766900031586086,
+      "lat": 50.61937003635127,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:00Z",
+      "lon": -85.11,
+      "lat": 46.310833333333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-10T00:01:01Z",
+      "lon": -85.11,
+      "lat": 46.310833333333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-10T00:01:04Z",
+      "lon": -110.11000000000001,
+      "lat": 46.310833333333,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-10T00:00:01Z",
+      "text": "According to the article, Captain Peter Pulcer played music over the ship's intercom day or night while passing the St. Clair and Detroit rivers, and gave Soo Locks spectators a running commentary.",
+      "cites": [
+        "wiki:rev:1385124621:5"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:08Z",
+      "text": "Northwestern Mutual wanted to name the ship after its president and chairman of the board, Edmund Fitzgerald, whose son was Edmund B. Fitzgerald.",
+      "cites": [
+        "wiki:rev:1385124621:33"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:15Z",
+      "text": "The SS Edmund Fitzgerald was an American Great Lakes freighter that sank in Lake Superior during a storm on November 10, 1975, with the loss of the entire crew of 29 men.",
+      "cites": [
+        "wiki:rev:1385124621:0"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:34Z",
+      "text": "On 10 November 2026, 163,598 people read the English article, about 54 times the usual level.",
+      "cites": [
+        "views:en:SS_Edmund_Fitzgerald:2026-11-10",
+        "views:en:SS_Edmund_Fitzgerald:prior"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:41Z",
+      "text": "The article was read in 10 languages, and after English, German came first with 3,340 readers.",
+      "cites": [
+        "views:en:SS_Edmund_Fitzgerald:2026-11-10",
+        "views:de:Edmund_Fitzgerald_(Schiff):2026-11-10"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:48Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:de:Edmund_Fitzgerald_(Schiff):2026-11-10",
+        "views:pl:SS_Edmund_Fitzgerald:2026-11-10",
+        "views:fr:SS_Edmund_Fitzgerald:2026-11-10",
+        "views:it:Edmund_Fitzgerald:2026-11-10",
+        "views:es:SS_Edmund_Fitzgerald:2026-11-10",
+        "views:pt:SS_Edmund_Fitzgerald:2026-11-10"
+      ]
+    },
+    {
+      "t": "2026-11-10T00:00:58Z",
+      "text": "Sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385124621:5",
+        "views:en:SS_Edmund_Fitzgerald:2026-11-10",
+        "wd:Q1286267:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CA",
+    "lon": -85.11,
+    "lat": 46.998333333333,
+    "label": "SS Edmund Fitzgerald"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-10T00:00:24Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-10T00:00:33Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-10T00:00:57Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-10T00:00:34Z",
+      "until": "2026-11-10T00:00:57Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "SS Edmund Fitzgerald",
+          "color": "#dfe6ee",
+          "points": [
+            {
+              "x": "10-12",
+              "y": 3183
+            },
+            {
+              "x": "10-13",
+              "y": 3756
+            },
+            {
+              "x": "10-14",
+              "y": 3515
+            },
+            {
+              "x": "10-15",
+              "y": 4898
+            },
+            {
+              "x": "10-16",
+              "y": 5631
+            },
+            {
+              "x": "10-17",
+              "y": 5809
+            },
+            {
+              "x": "10-18",
+              "y": 3936
+            },
+            {
+              "x": "10-19",
+              "y": 3562
+            },
+            {
+              "x": "10-20",
+              "y": 3271
+            },
+            {
+              "x": "10-21",
+              "y": 3394
+            },
+            {
+              "x": "10-22",
+              "y": 4288
+            },
+            {
+              "x": "10-23",
+              "y": 3924
+            },
+            {
+              "x": "10-24",
+              "y": 3954
+            },
+            {
+              "x": "10-25",
+              "y": 3247
+            },
+            {
+              "x": "10-26",
+              "y": 3595
+            },
+            {
+              "x": "10-27",
+              "y": 3703
+            },
+            {
+              "x": "10-28",
+              "y": 4733
+            },
+            {
+              "x": "10-29",
+              "y": 5459
+            },
+            {
+              "x": "10-30",
+              "y": 5054
+            },
+            {
+              "x": "10-31",
+              "y": 5593
+            },
+            {
+              "x": "11-01",
+              "y": 8870
+            },
+            {
+              "x": "11-02",
+              "y": 15256
+            },
+            {
+              "x": "11-03",
+              "y": 14609
+            },
+            {
+              "x": "11-04",
+              "y": 10698
+            },
+            {
+              "x": "11-05",
+              "y": 12203
+            },
+            {
+              "x": "11-06",
+              "y": 13251
+            },
+            {
+              "x": "11-07",
+              "y": 13485
+            },
+            {
+              "x": "11-08",
+              "y": 13632
+            },
+            {
+              "x": "11-09",
+              "y": 24535
+            },
+            {
+              "x": "11-10",
+              "y": 163598
+            }
+          ],
+          "cites": [
+            "views:en:SS_Edmund_Fitzgerald:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-10T00:00:34Z",
+      "until": "2026-11-10T00:00:57Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "163,598",
+          "value": 163598,
+          "color": "#dfe6ee",
+          "cites": [
+            "views:en:SS_Edmund_Fitzgerald:2026-11-10"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "3,340",
+          "value": 3340,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Edmund_Fitzgerald_(Schiff):2026-11-10"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "783",
+          "value": 783,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:SS_Edmund_Fitzgerald:2026-11-10"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "595",
+          "value": 595,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:SS_Edmund_Fitzgerald:2026-11-10"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "540",
+          "value": 540,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Edmund_Fitzgerald:2026-11-10"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "347",
+          "value": 347,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:SS_Edmund_Fitzgerald:2026-11-10"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "316",
+          "value": 316,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:SS_Edmund_Fitzgerald:2026-11-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-10T00:00:58Z",
+      "until": "2026-11-10T00:01:04Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385124621:5"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:SS_Edmund_Fitzgerald:2026-11-10"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1286267:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-14T00:00:00Z",
+    "costUsd": 0.002637
+  }
+}

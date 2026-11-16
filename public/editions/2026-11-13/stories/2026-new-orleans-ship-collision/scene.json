@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "id": "story-2026-11-13-2026-new-orleans-ship-collision",
+  "title": "2026 New Orleans ship collision",
+  "subtitle": "Accident · 13 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-13T00:01:22Z"
+  },
+  "focus": "2026-11-13T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -99.25333333,
+    "south": 21.15111111,
+    "east": -79.25333333,
+    "north": 37.15111111
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-13T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": -51.25333333000003,
+      "lat": 17.078166665999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T00:00:04Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:10Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:16Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:19Z",
+      "lon": -90.06083333333333,
+      "lat": 29.936944444444446,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:22Z",
+      "lon": -90.06083333333333,
+      "lat": 29.936944444444446,
+      "range": 126775.39193392382,
+      "heading": 14.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:25Z",
+      "lon": -90.06083333333333,
+      "lat": 29.936944444444446,
+      "range": 114800,
+      "heading": 4.600000000000001,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:28Z",
+      "lon": -90.06083333333333,
+      "lat": 29.936944444444446,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:32Z",
+      "lon": -90.06083333333333,
+      "lat": 29.936944444444446,
+      "range": 81498.46624323675,
+      "heading": 81.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:36Z",
+      "lon": -90.06083333333333,
+      "lat": 29.936944444444446,
+      "range": 73800,
+      "heading": 92.6,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:39Z",
+      "lon": -89.66414869364372,
+      "lat": 29.2642483582126,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:42Z",
+      "lon": -89.66414869364372,
+      "lat": 29.2642483582126,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:45Z",
+      "lon": -89.66414869364372,
+      "lat": 29.2642483582126,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:48Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:51Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:53Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:56Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:05Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:14Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:17Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:18Z",
+      "lon": -89.25333333,
+      "lat": 28.46361111,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:22Z",
+      "lon": -114.25333333000003,
+      "lat": 28.46361111,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T00:00:01Z",
+      "text": "A tanker and the cruise ship American Heritage collided in the Mississippi River, and the cruise ship, carrying 130 people, sank. All aboard survived, and some were taken to local hospitals for minor injuries.",
+      "cites": [
+        "wiki:2026-11-13:2"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:09Z",
+      "text": "On November 13, 2026, the asphalt and bitumen tanker Atlantic Asphalt collided with the docked riverboat American Heritage in New Orleans, Louisiana.",
+      "cites": [
+        "wiki:rev:1385948113:0"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:18Z",
+      "text": "The collision took place in New Orleans.",
+      "cites": [
+        "wiki:box:1385948113:summary"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:27Z",
+      "text": "The article records 0 deaths and 32 injuries.",
+      "cites": [
+        "wiki:box:1385948113:fatalities",
+        "wiki:box:1385948113:injuries"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:38Z",
+      "text": "New Orleans is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-13:2"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:47Z",
+      "text": "The reports are attributed to BBC News and CNN.",
+      "cites": [
+        "wiki:2026-11-13:2"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:55Z",
+      "text": "DW headlined it: “Tanker collides with cruise ship on Mississippi near New Orleans”.",
+      "cites": [
+        "news:dw:1fae3f0a5d8d"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:01Z",
+      "text": "Al Jazeera headlined it: “32 passengers taken to hospital after tanker hits river cruise boat in US”.",
+      "cites": [
+        "news:aljazeera:3720529b60cf"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:07Z",
+      "text": "The Guardian headlined it: “New Orleans boat crash live: all passengers and crew found alive in ‘miracle on the Mississippi’”.",
+      "cites": [
+        "news:guardian:77c86922fa84"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:16Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-13:2",
+        "wiki:rev:1385948113:0",
+        "wd:Q142149760:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": -89.25333333,
+    "lat": 29.15111111,
+    "label": "Mississippi River"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-13T00:00:17Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-13T00:00:26Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-13T00:00:37Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-13T00:00:46Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-13T00:00:54Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-13T00:01:15Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "on-board",
+      "t": "2026-11-13T00:00:27Z",
+      "until": "2026-11-13T00:00:37Z",
+      "title": "People",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "Fatalities",
+          "text": "0",
+          "value": 0,
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1385948113:fatalities"
+          ]
+        },
+        {
+          "label": "Injuries",
+          "text": "32",
+          "value": 32,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1385948113:injuries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-13T00:00:47Z",
+      "until": "2026-11-13T00:00:54Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/cw20xmy0m5yyo",
+          "cites": [
+            "wiki:2026-11-13:2"
+          ]
+        },
+        {
+          "label": "CNN",
+          "text": "Open",
+          "url": "https://edition.cnn.com/2026/11/13/us/new-orleans-river-cruise-collision",
+          "cites": [
+            "wiki:2026-11-13:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-13T00:00:55Z",
+      "until": "2026-11-13T00:01:15Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-near-new-orleans/a-79945080",
+          "cites": [
+            "news:dw:1fae3f0a5d8d"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us",
+          "cites": [
+            "news:aljazeera:3720529b60cf"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
+          "cites": [
+            "news:guardian:77c86922fa84"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-13T00:01:16Z",
+      "until": "2026-11-13T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-13:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385948113:0"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142149760:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:01:26Z",
+    "costUsd": 0.001368
+  }
+}

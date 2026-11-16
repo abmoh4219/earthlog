@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-twelve-people-are-killed-and-16-others-are-injured-when-a-bu",
+  "title": "Twelve people are killed and 16 others are injured when a bus carrying gas…",
+  "subtitle": "Accident · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:00:33Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 36.66666667,
+    "south": 25.183333330000004,
+    "east": 56.66666667,
+    "north": 41.18333333
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 84.66666667000004,
+      "lat": 19.497499998000002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:07Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:09Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:12Z",
+      "lon": 46.66666667,
+      "lat": 33.18333333,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "lon": 46.66666667,
+      "lat": 33.18333333,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:17Z",
+      "lon": 46.66666667,
+      "lat": 33.18333333,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:20Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:28Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:29Z",
+      "lon": 46.66666667,
+      "lat": 32.49583333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:33Z",
+      "lon": 21.66666667000004,
+      "lat": 32.49583333,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "A bus carrying gas refinery workers overturns in Ilam province, Iran, and according to the report, twelve people are killed and 16 others are injured.",
+      "cites": [
+        "wiki:2026-11-15:6"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:11Z",
+      "text": "The crash took place in Ilam province, Iran, the location the reports give.",
+      "cites": [
+        "wiki:2026-11-15:6"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:19Z",
+      "text": "The account was reported by IRNA English.",
+      "cites": [
+        "wiki:2026-11-15:6"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "text": "This explainer draws on Wikipedia's Current events page, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:6"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IR",
+    "lon": 46.66666667,
+    "lat": 33.18333333,
+    "label": "Ilam province"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-15T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:00:19Z",
+      "until": "2026-11-15T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "IRNA English",
+          "text": "Open",
+          "url": "https://en.irna.ir/amp/86321950/",
+          "cites": [
+            "wiki:2026-11-15:6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:00:27Z",
+      "until": "2026-11-15T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:6"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.000424
+  }
+}

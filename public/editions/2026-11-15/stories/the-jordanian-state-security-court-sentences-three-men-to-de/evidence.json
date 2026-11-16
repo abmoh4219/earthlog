@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wiki:2026-11-15:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "lon": 35.76194444,
+    "lat": 31.16472222,
+    "label": "Law & crime: The Jordanian State Security Court sentences three men to death for an October 23 shooting at a Greek Orthodox church in Karak Governorate that killed nine people and injured 25 others. Two accomplices receive six-year prison sentences.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "The Jordanian State Security Court sentences three men to death for an October 23 shooting at a Greek Orthodox church in Karak Governorate that killed nine people and injured 25 others. Two accomplices receive six-year prison sentences.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261115-three-men-sentenced-to-death-over-jordan-church-attack"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:7ac0787cb8cf",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Jordan sentences three men to death by hanging after deadly church attack (08:15 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack",
+    "quote": "Jordan sentences three men to death by hanging after deadly church attack",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:cfdbddd0326e",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "France 24: Three sentenced to death over Jordan church attack (08:53 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
+    "quote": "Three sentenced to death over Jordan church attack",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:11f7e70ff488",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "BBC News: Three men sentenced to death in Jordan over fatal church mass shooting (11:06 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo",
+    "quote": "Three men sentenced to death in Jordan over fatal church mass shooting",
+    "precision": "day"
+  }
+]

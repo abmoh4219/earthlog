@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-2026-cape-verdean-presidential-election",
+  "title": "2026 Cape Verdean presidential election",
+  "subtitle": "Election · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:01:09Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "lon": 0,
+      "lat": 18,
+      "range": 16000000,
+      "heading": 0,
+      "pitch": -48,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:32Z",
+      "lon": 0,
+      "lat": 18,
+      "range": 14488616.221019866,
+      "heading": -13.700000000000001,
+      "pitch": -45.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:37Z",
+      "lon": 0,
+      "lat": 18,
+      "range": 13120000,
+      "heading": -27.400000000000002,
+      "pitch": -43,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:40Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -10,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:43Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 18835201.087325826,
+      "heading": -1.0999999999999996,
+      "pitch": -82.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:45Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 17056000,
+      "heading": 7.800000000000001,
+      "pitch": -80,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:48Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -22,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:55Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 19950659.136980914,
+      "heading": -20,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:01Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 19136000,
+      "heading": -18,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:05Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:09Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "Cape Verdeans vote to elect a president, and the two main candidates are the incumbent PAICV candidate José Maria Neves and the MpD candidate Joana Rosa.",
+      "cites": [
+        "wiki:2026-11-15:13"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:12Z",
+      "text": "Presidential elections were held in Cape Verde on 15 November 2026.",
+      "cites": [
+        "wiki:rev:1386018219:0"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "text": "The African Party for the Independence of Cape Verde led with 63.85% of the vote.",
+      "cites": [
+        "elex:2026-cape-verdean-presidential-election:party1"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:39Z",
+      "text": "The election is reported by AP, AFP via France 24 and Inforpress <small>in Portuguese</small>.",
+      "cites": [
+        "wiki:2026-11-15:13",
+        "wiki:2026-11-15:14"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:47Z",
+      "text": "DW headlined it: “Cape Verde election: Jose Maria Neves set to win second term”",
+      "cites": [
+        "news:dw:b48b9d9ee543"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:54Z",
+      "text": "France 24 headlined it: “Cape Verde could make election history with first female president”",
+      "cites": [
+        "news:france24:3cb625736ad1"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:03Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:13",
+        "wiki:rev:1386018219:1",
+        "views:en:2026_Cape_Verdean_presidential_election:30d",
+        "wd:Q111592838:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:24Z",
+      "title": "The result"
+    },
+    {
+      "t": "2026-11-15T00:00:38Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:00:46Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:01:02Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "votes",
+      "t": "2026-11-15T00:00:25Z",
+      "until": "2026-11-15T00:00:38Z",
+      "title": "Share of the vote",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "African Party for the Independence of Cape Verde",
+          "text": "63.85%",
+          "value": 63.85,
+          "color": "#e26d72",
+          "cites": [
+            "elex:2026-cape-verdean-presidential-election:party1"
+          ]
+        },
+        {
+          "label": "Movement for Democracy (Cape Verde)",
+          "text": "31.54%",
+          "value": 31.54,
+          "color": "#3d9f3d",
+          "cites": [
+            "elex:2026-cape-verdean-presidential-election:party2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:00:39Z",
+      "until": "2026-11-15T00:00:46Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/cape-verde-presidential-election-rosa-neves-b066358194132f21ea91bcbd6699d5e0",
+          "cites": [
+            "wiki:2026-11-15:13"
+          ]
+        },
+        {
+          "label": "AFP via France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/live-news/20261115-cape-verde-s-president-jose-maria-neves-re-elected-provisional-election-results",
+          "cites": [
+            "wiki:2026-11-15:14"
+          ]
+        },
+        {
+          "label": "Inforpress <small>in Portuguese</small>",
+          "text": "Open",
+          "url": "https://inforpress.cv/pt/presidenciais2026-joana-rosa-reconhece-derrota-eleitoral-e-reafirma-compromisso-com-a-democracia-e-politica",
+          "cites": [
+            "wiki:2026-11-15:14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:00:47Z",
+      "until": "2026-11-15T00:01:02Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/cape-verde-election-jose-maria-neves-set-to-win-second-term/a-79952606",
+          "cites": [
+            "news:dw:b48b9d9ee543"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
+          "cites": [
+            "news:france24:3cb625736ad1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:01:03Z",
+      "until": "2026-11-15T00:01:09Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:13"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386018219:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Cape_Verdean_presidential_election:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q111592838:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.000723
+  }
+}

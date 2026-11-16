@@ -1,0 +1,539 @@
+{
+  "version": 1,
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-16T11:51:49Z",
+  "candidates": 50,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "scott-colom",
+      "lens": "person",
+      "title": "Scott Colom",
+      "summary": "After a week of counting affidavit ballots, the Associated Press and CNN project the election to the U.S. Senate in Mississippi for Democratic candidate Scott Colom, defeating the incumbent Republican Cindy Hyde-Smith and becoming the first black senator from the state since Blanche Bruce in the 1874–75 elections.",
+      "about": "Scott Winston Colom is an American politician, lawyer, and jurist who is a United States senator-elect from Mississippi. A member of the Democratic Party, Colom has served as district attorney for the 16th Judicial District of Mississippi since 2016.",
+      "article": {
+        "title": "Scott Colom",
+        "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+        "qid": "Q115492489"
+      },
+      "place": {
+        "name": "U.S. Senate",
+        "lon": -77.00888889,
+        "lat": 38.89055556,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:22"
+      },
+      "continent": "North America",
+      "heat": 100,
+      "why": [
+        "Listed on Wikipedia's Current events",
+        "Read by 81,000 on Wikipedia that day"
+      ],
+      "readers": 80972,
+      "spike": 124.8,
+      "sources": 3,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:22",
+        "views:en:Scott_Colom:2026-11-11",
+        "views:en:Scott_Colom:prior",
+        "wd:Q115492489:P31"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-05",
+            "slug": "scott-colom",
+            "title": "Scott Colom"
+          }
+        ]
+      },
+      "headline": "After a week of counting affidavit ballots, the Associated Press and CNN project the election to the U.S. Senate in Mississippi for Democratic candidate Scott Colom…"
+    },
+    {
+      "slug": "stacy-keach",
+      "lens": "person",
+      "title": "Stacy Keach",
+      "summary": "American actor (1941–2026)",
+      "about": "Walter Stacy Keach Jr. was an American actor. He was the elder son of theatre director Stacy Keach Sr., and the brother of actor James Keach. Known for his roles on stage and screen, his accolades include four Drama Desk Awards and a Golden Globe Award, as well as nominations for a Primetime Emmy Award and Tony Award. He is an inductee of the Theatre Hall of Fame and was honored with a star on the Hollywood Walk of Fame in 2019.",
+      "article": {
+        "title": "Stacy Keach",
+        "url": "https://en.wikipedia.org/wiki/Stacy_Keach",
+        "qid": "Q315090"
+      },
+      "place": {
+        "name": "Magdalenka, Masovian Voivodeship",
+        "lon": 20.90916667,
+        "lat": 52.09666667,
+        "country": "PL",
+        "role": "Place of death",
+        "evidence": "wd:Q315090:P20"
+      },
+      "continent": "Europe",
+      "heat": 83,
+      "why": [
+        "Died this week",
+        "Read by 663,000 on Wikipedia that day"
+      ],
+      "readers": 662517,
+      "spike": 330.6,
+      "sources": 0,
+      "related": [
+        "James Keach"
+      ],
+      "evidence": [
+        "views:en:Stacy_Keach:2026-11-11",
+        "views:en:Stacy_Keach:prior",
+        "views:en:James_Keach:2026-11-11",
+        "views:en:James_Keach:prior",
+        "wd:Q315090:P31"
+      ],
+      "headline": "Walter Stacy Keach Jr. (June 2, 1941 – November 10, 2026) was an American actor."
+    },
+    {
+      "slug": "2026-united-states-senate-election-in-mississippi",
+      "lens": "election",
+      "title": "2026 United States Senate election in Mississippi",
+      "summary": "",
+      "about": "The 2026 United States Senate election in Mississippi was held on November 3, 2026, to elect a member of the United States Senate to represent the state of Mississippi. Democratic district attorney Scott Colom defeated Republican incumbent Cindy Hyde-Smith in what was considered an upset.",
+      "article": {
+        "title": "2026 United States Senate election in Mississippi",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+        "qid": "Q133933238"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country",
+        "evidence": "wd:Q133933238:P17"
+      },
+      "continent": "North America",
+      "heat": 83,
+      "why": [
+        "Has its own Wikipedia article as an event",
+        "Read by 65,000 on Wikipedia that day"
+      ],
+      "readers": 65024,
+      "spike": 51.7,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:2026_United_States_Senate_election_in_Mississippi:2026-11-11",
+        "views:en:2026_United_States_Senate_election_in_Mississippi:prior",
+        "wd:Q133933238:P31"
+      ],
+      "headline": "The 2026 United States Senate election in Mississippi was held on November 3, 2026, to elect a member of the United States Senate to represent the state of Mississippi."
+    },
+    {
+      "slug": "danny-kelly-journalist",
+      "lens": "person",
+      "title": "Danny Kelly (journalist)",
+      "summary": "Music journalist and sports presenter (1956–2026)",
+      "about": "Daniel Kelly was a British music journalist, sports presenter and internet publisher. He was the editor of the music weekly New Musical Express and Q magazine.",
+      "article": {
+        "title": "Danny Kelly (journalist)",
+        "url": "https://en.wikipedia.org/wiki/Danny_Kelly_(journalist)",
+        "qid": "Q5220508"
+      },
+      "place": {
+        "name": "Kilkenny",
+        "lon": -7.251388888888889,
+        "lat": 52.650555555555556,
+        "country": "IE",
+        "role": "Place of death",
+        "evidence": "wd:Q5220508:P20"
+      },
+      "continent": "Europe",
+      "heat": 66,
+      "why": [
+        "Died this week",
+        "Read by 65,000 on Wikipedia that day"
+      ],
+      "readers": 64926,
+      "spike": 1623.2,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Danny_Kelly_(journalist):2026-11-11",
+        "views:en:Danny_Kelly_(journalist):prior",
+        "wd:Q5220508:P31"
+      ],
+      "headline": "During the White & Jordan Show on talkSPORT on 11 November 2026 it was announced that Kelly had died the previous day, at St. James's Hospital in Dublin, aged 69."
+    },
+    {
+      "slug": "israel-launches-an-airstrike-against-the-nasser-medical-comp",
+      "lens": "conflict",
+      "title": "Israel launches an airstrike against the Nasser Medical Complex in Khan Younis",
+      "summary": "Israel launches an airstrike against the Nasser Medical Complex in Khan Younis, killing six Palestinians, including a surgeon, and wounding over 20 more. Four more people are also killed in other airstrikes in the Gaza Strip.",
+      "article": {
+        "title": "Attacks on health facilities during the Gaza war",
+        "url": "https://en.wikipedia.org/wiki/Attacks_on_health_facilities_during_the_Gaza_war",
+        "qid": "Q123550499"
+      },
+      "place": {
+        "name": "Nasser Medical Complex",
+        "lon": 34.293,
+        "lat": 31.3471,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:2"
+      },
+      "continent": "Asia",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:2",
+        "wd:Q123550499:P31"
+      ],
+      "headline": "Israel launches an airstrike against the Nasser Medical Complex in Khan Younis, killing six Palestinians, including a surgeon, and wounding over 20 more."
+    },
+    {
+      "slug": "portugal-closes-approximately-8",
+      "lens": "accident",
+      "title": "Portugal closes approximately 8",
+      "summary": "Portugal closes approximately 8,000 schools nationwide and suspends non-essential public services as Storm Charles approaches. The second day of the Web Summit in Lisbon is also cancelled.",
+      "article": {
+        "title": "2026–27 European windstorm season",
+        "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_European_windstorm_season",
+        "qid": "Q140628909"
+      },
+      "place": {
+        "name": "Web Summit",
+        "lon": -9.09516667,
+        "lat": 38.76802778,
+        "country": "PT",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:9"
+      },
+      "continent": "Europe",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:9",
+        "wd:Q140628909:P31"
+      ],
+      "headline": "Portugal closes approximately 8,000 schools nationwide and suspends non-essential public services as Storm Charles approaches. The second day of the Web Summit in Lisbon is also cancelled."
+    },
+    {
+      "slug": "2026-new-york-city-building-collapse",
+      "lens": "accident",
+      "title": "2026 New York City building collapse",
+      "summary": "A 3-story apartment building collapses near a construction site in Brooklyn, New York City, United States, killing eight people and wounding 19 more.",
+      "article": {
+        "title": "2026 New York City building collapse",
+        "url": "https://en.wikipedia.org/wiki/2026_New_York_City_building_collapse",
+        "qid": "Q142131356"
+      },
+      "place": {
+        "name": "2026 New York City building collapse",
+        "lon": -73.95383,
+        "lat": 40.63897,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:10"
+      },
+      "continent": "North America",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:10",
+        "wd:Q142131356:P31"
+      ],
+      "headline": "A 3-story apartment building collapses near a construction site in Brooklyn, New York City, United States, killing eight people and wounding 19 more."
+    },
+    {
+      "slug": "the-kenyan-health-ministry-reports-that-the-country-has-disc",
+      "lens": "general",
+      "title": "The Kenyan health ministry reports that the country has discharged its last…",
+      "summary": "The Kenyan health ministry reports that the country has discharged its last Ebola patient from a hospital in Nairobi after eleven contact cases were treated. Kenya will be declared Ebola-free on December 23 if no one else exhibits symptoms.",
+      "article": {
+        "title": "2026 Ebola epidemic",
+        "url": "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
+        "qid": "Q139821980"
+      },
+      "place": {
+        "name": "Nairobi",
+        "lon": 36.81722222,
+        "lat": -1.28638889,
+        "country": "KE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:11"
+      },
+      "continent": "Africa",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:11",
+        "wiki:2026-11-11:12",
+        "wd:Q139821980:P31"
+      ],
+      "headline": "The Kenyan health ministry reports that the country has discharged its last Ebola patient from a hospital in Nairobi after eleven contact cases were treated."
+    },
+    {
+      "slug": "the-american-ocean-liner-is-sunk-off-the-coast-of-destin-for",
+      "lens": "general",
+      "title": "The American ocean liner is sunk off the coast of Destin–Fort Walton Beach",
+      "summary": "The American ocean liner is sunk off the coast of Destin–Fort Walton Beach, Florida, United States, to become the world's largest artificial reef.",
+      "place": {
+        "name": "Destin, Florida",
+        "lon": -86.48361111,
+        "lat": 30.38944444,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:13"
+      },
+      "continent": "North America",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:13"
+      ],
+      "headline": "The American ocean liner is sunk off the coast of Destin–Fort Walton Beach, Florida, United States, to become the world's largest artificial reef."
+    },
+    {
+      "slug": "iran-designates-the-argentinian-naval-and-air-forces-as-terr",
+      "lens": "general",
+      "title": "Iran designates the Argentinian naval and air forces as terrorist organizations",
+      "summary": "Iran designates the Argentinian naval and air forces as terrorist organizations, in response to Argentina designating the Islamic Revolutionary Guard Corps as such in March.",
+      "article": {
+        "title": "Argentina–Iran relations",
+        "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Iran_relations",
+        "qid": "Q56347197"
+      },
+      "place": {
+        "name": "Iran",
+        "lon": 54.93,
+        "lat": 32.17,
+        "country": "IR",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:14"
+      },
+      "continent": "Asia",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:14",
+        "wd:Q56347197:P31"
+      ],
+      "headline": "Iran designates the Argentinian naval and air forces as terrorist organizations, in response to Argentina designating the Islamic Revolutionary Guard Corps as such in March."
+    },
+    {
+      "slug": "cybersecurity-firm-cloudsek-reports-that-the-kazakhstan-link",
+      "lens": "science",
+      "title": "Cybersecurity firm CloudSek reports that the Kazakhstan-linked hacker group…",
+      "summary": "Cybersecurity firm CloudSek reports that the Kazakhstan-linked hacker group Silent Lynx used an autonomous agent to breach Tajikistan's government database and steal more than 2,000 national security-related documents.",
+      "place": {
+        "name": "Kazakhstan",
+        "lon": 68.69,
+        "lat": 49.05,
+        "country": "KZ",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:28"
+      },
+      "continent": "Asia",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:28"
+      ],
+      "headline": "Cybersecurity firm CloudSek reports that the Kazakhstan-linked hacker group Silent Lynx used an autonomous agent to breach Tajikistan's government database and steal more than 2,000 national security-related documents."
+    },
+    {
+      "slug": "2026-fifa-u-17-world-cup",
+      "lens": "culture",
+      "title": "2026 FIFA U-17 World Cup",
+      "summary": "The United States men's national under-17 soccer team withdraws from the upcoming FIFA U-17 World Cup in Qatar, citing safety concerns related to the Houthi–Saudi conflict.",
+      "article": {
+        "title": "2026 FIFA U-17 World Cup",
+        "url": "https://en.wikipedia.org/wiki/2026_FIFA_U-17_World_Cup",
+        "qid": "Q136449696"
+      },
+      "place": {
+        "name": "Qatar",
+        "lon": 51.14,
+        "lat": 25.24,
+        "country": "QA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:29"
+      },
+      "continent": "Asia",
+      "heat": 62,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:29",
+        "wd:Q136449696:P31"
+      ],
+      "headline": "The United States men's national under-17 soccer team withdraws from the upcoming FIFA U-17 World Cup in Qatar, citing safety concerns related to the Houthi–Saudi conflict."
+    },
+    {
+      "slug": "iran-attacks-ship-navigation-systems-on-didamar-island",
+      "lens": "conflict",
+      "title": "Iran attacks ship navigation systems on Didamar Island",
+      "summary": "Iran attacks ship navigation systems on Didamar Island, Oman. Unknown damage is caused.",
+      "article": {
+        "title": "2026 Iranian strikes on Oman",
+        "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Oman",
+        "qid": "Q138546638"
+      },
+      "place": {
+        "name": "As Salamah Archipelago",
+        "lon": 56.52916667,
+        "lat": 26.49416667,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:1"
+      },
+      "continent": "Asia",
+      "heat": 57,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:1",
+        "wd:Q138546638:P31"
+      ],
+      "headline": "Iran attacks ship navigation systems on Didamar Island, Oman. Unknown damage is caused."
+    },
+    {
+      "slug": "at-least-22-people-are-killed-by-islamic-state-affiliated-al",
+      "lens": "conflict",
+      "title": "At least 22 people are killed by Islamic State-affiliated Allied Democratic…",
+      "summary": "At least 22 people are killed by Islamic State-affiliated Allied Democratic Forces rebels across eight locations in Mambasa Territory, Ituri Province, Democratic Republic of the Congo.",
+      "article": {
+        "title": "Allied Democratic Forces insurgency, Ituri war",
+        "url": "https://en.wikipedia.org/wiki/Allied_Democratic_Forces_insurgency%2C_Ituri_war"
+      },
+      "place": {
+        "name": "Mambasa Territory",
+        "lon": 29.03629,
+        "lat": 1.36022,
+        "country": "CD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:3"
+      },
+      "continent": "Africa",
+      "heat": 57,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:3"
+      ],
+      "headline": "At least 22 people are killed by Islamic State-affiliated Allied Democratic Forces rebels across eight locations in Mambasa Territory, Ituri Province, Democratic Republic of the Congo."
+    },
+    {
+      "slug": "the-central-bank-of-paraguay-reports-providing-partial-refun",
+      "lens": "economy",
+      "title": "The Central Bank of Paraguay reports providing partial refunds to 1",
+      "summary": "The Central Bank of Paraguay reports providing partial refunds to 1,812,348 eligible Ueno Bank depositors following the bank's collapse.",
+      "article": {
+        "title": "2026 Paraguay banking crisis",
+        "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+        "qid": "Q142059724"
+      },
+      "place": {
+        "name": "Paraguay",
+        "lon": -60.15,
+        "lat": -21.67,
+        "country": "PY",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-11:8"
+      },
+      "continent": "South America",
+      "heat": 57,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-11:8",
+        "wd:Q142059724:P31"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-09",
+            "slug": "paraguayan-president-pedro-alliana-appoints-economist-jorge",
+            "title": "Paraguayan president Pedro Alliana appoints economist Jorge Schreiner to lead…"
+          },
+          {
+            "date": "2026-11-06",
+            "slug": "the-paraguayan-senate-unanimously-removes-santiago-pena-as-c",
+            "title": "The Paraguayan Senate unanimously removes Santiago Peña as country's president…"
+          },
+          {
+            "date": "2026-11-05",
+            "slug": "paraguayan-president-santiago-pena-announces-his-resignation",
+            "title": "Paraguayan president Santiago Peña announces his resignation after the…"
+          }
+        ]
+      },
+      "headline": "The Central Bank of Paraguay reports providing partial refunds to 1,812,348 eligible Ueno Bank depositors following the bank's collapse."
+    },
+    {
+      "slug": "archive-of-our-own",
+      "lens": "organization",
+      "title": "Archive of Our Own",
+      "summary": "Nonprofit fanfiction repository",
+      "about": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works.",
+      "article": {
+        "title": "Archive of Our Own",
+        "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+        "qid": "Q27764876"
+      },
+      "heat": 30,
+      "why": [
+        "Read by 56,000 on Wikipedia that day"
+      ],
+      "readers": 55989,
+      "spike": 37,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Archive_of_Our_Own:2026-11-11",
+        "views:en:Archive_of_Our_Own:prior",
+        "wd:Q27764876:P31"
+      ],
+      "headline": "OTW also urged users to change passwords on other sites if they use the same passwords as AO3."
+    }
+  ]
+}

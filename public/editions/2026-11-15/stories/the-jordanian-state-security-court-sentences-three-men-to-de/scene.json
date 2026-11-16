@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-the-jordanian-state-security-court-sentences-three-men-to-de",
+  "title": "The Jordanian State Security Court sentences three men to death for an October…",
+  "subtitle": "News · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:00:54Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 25.76194444,
+    "south": 23.16472222,
+    "east": 45.76194444,
+    "north": 39.16472222
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 73.76194443999998,
+      "lat": 18.286333332,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:07Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:09Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:12Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:17Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:20Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:28Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:37Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:46Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:49Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:50Z",
+      "lon": 35.76194444,
+      "lat": 30.47722222,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:54Z",
+      "lon": 10.76194443999998,
+      "lat": 30.47722222,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "The Jordanian State Security Court has sentenced three men to death for an October 23 shooting at a Greek Orthodox church in Karak Governorate that killed nine people and injured 25 others.",
+      "cites": [
+        "wiki:2026-11-15:12"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:11Z",
+      "text": "The attack took place in Karak Governorate, Jordan, the location the reports give.",
+      "cites": [
+        "wiki:2026-11-15:12"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:19Z",
+      "text": "The report comes from AFP, carried by France 24.",
+      "cites": [
+        "wiki:2026-11-15:12"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "text": "Al Jazeera headlined the story: “Jordan sentences three men to death by hanging after deadly church attack”.",
+      "cites": [
+        "news:aljazeera:7ac0787cb8cf"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:33Z",
+      "text": "France 24 headlined it: “Three sentenced to death over Jordan church attack”.",
+      "cites": [
+        "news:france24:cfdbddd0326e"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:39Z",
+      "text": "BBC News headlined it: “Three men sentenced to death in Jordan over fatal church mass shooting”.",
+      "cites": [
+        "news:bbc:11f7e70ff488"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:48Z",
+      "text": "The sources are Wikipedia's Current events page, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:12"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "JO",
+    "lon": 35.76194444,
+    "lat": 31.16472222,
+    "label": "Karak Governorate"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-15T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:00:47Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:00:19Z",
+      "until": "2026-11-15T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/live-news/20261115-three-men-sentenced-to-death-over-jordan-church-attack",
+          "cites": [
+            "wiki:2026-11-15:12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:00:27Z",
+      "until": "2026-11-15T00:00:47Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack",
+          "cites": [
+            "news:aljazeera:7ac0787cb8cf"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
+          "cites": [
+            "news:france24:cfdbddd0326e"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo",
+          "cites": [
+            "news:bbc:11f7e70ff488"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:00:48Z",
+      "until": "2026-11-15T00:00:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:12"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.000613
+  }
+}

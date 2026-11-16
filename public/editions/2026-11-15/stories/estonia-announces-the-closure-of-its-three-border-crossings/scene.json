@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-estonia-announces-the-closure-of-its-three-border-crossings",
+  "title": "Estonia announces the closure of its three border crossings with Russia…",
+  "subtitle": "News · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:00:54Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 15.870000000000001,
+    "south": 50.72,
+    "east": 35.870000000000005,
+    "north": 66.72
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 63.870000000000005,
+      "lat": 33.957,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:07Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:09Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:12Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:17Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:20Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:28Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:37Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:46Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:49Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:50Z",
+      "lon": 25.87,
+      "lat": 56.595,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:54Z",
+      "lon": 0.8700000000000045,
+      "lat": 56.595,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "Estonia announces the closure of its three border crossings with Russia starting December 1, after eight suspects were detained over an attempted arson attack on drone manufacturer Threod Systems.",
+      "cites": [
+        "wiki:2026-11-15:11"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:05Z",
+      "text": "Estonian intelligence attributes the attack to Russia's GRU.",
+      "cites": [
+        "wiki:2026-11-15:11"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:11Z",
+      "text": "The reports place the story in Estonia, which is highlighted on the map.",
+      "cites": [
+        "wiki:2026-11-15:11"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:19Z",
+      "text": "The story is reported by CNN.",
+      "cites": [
+        "wiki:2026-11-15:11"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "text": "France 24 headlined the story: Estonia to close Russian border crossings after 'sabotage' attempt at drone factory.",
+      "cites": [
+        "news:france24:c99dd3720425"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:33Z",
+      "text": "Al Jazeera headlined it as Estonia to close border crossings with Russia after attack on drone maker.",
+      "cites": [
+        "news:aljazeera:b04d4d555188"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:39Z",
+      "text": "DW's headline read: Estonia closes border to Russia after suspected drone factory arson.",
+      "cites": [
+        "news:dw:0e59b4bde9de"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:48Z",
+      "text": "The sources are Wikipedia and Current events, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-15:11"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "EE",
+    "lon": 25.87,
+    "lat": 58.72,
+    "label": "Estonia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-15T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:00:47Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-15T00:00:19Z",
+      "until": "2026-11-15T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "CNN",
+          "text": "Open",
+          "url": "https://edition.cnn.com/2026/11/15/europe/estonia-close-russian-border-attack-intl",
+          "cites": [
+            "wiki:2026-11-15:11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:00:27Z",
+      "until": "2026-11-15T00:00:47Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
+          "cites": [
+            "news:france24:c99dd3720425"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+          "cites": [
+            "news:aljazeera:b04d4d555188"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/estonia-closes-border-to-russia-after-suspected-drone-factory-arson/a-79953115",
+          "cites": [
+            "news:dw:0e59b4bde9de"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+          "cites": [
+            "news:guardian:fca971b253c0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:00:48Z",
+      "until": "2026-11-15T00:00:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-15:11"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.000637
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-15",
+  "title": "The world on 15 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-16T00:00:00Z"
+  },
+  "focus": "2026-11-15T01:12:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 56.5,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T01:12:00Z",
+      "lon": 56.5,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T02:50:24Z",
+      "lon": 56.5,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T04:28:48Z",
+      "lon": 56.5,
+      "lat": 25.96,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-15T05:22:55Z",
+      "lon": 56.5,
+      "lat": 25.96,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-15T06:07:12Z",
+      "lon": -177.8215,
+      "lat": -20.435399999999998,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-15T07:01:19Z",
+      "lon": -177.8215,
+      "lat": -20.435399999999998,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-15T07:45:36Z",
+      "lon": 46.66666667,
+      "lat": 32.54333333,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-15T08:39:43Z",
+      "lon": 46.66666667,
+      "lat": 32.54333333,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-15T09:24:00Z",
+      "lon": 46.66666667,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T11:02:24Z",
+      "lon": 46.66666667,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T13:12:00Z",
+      "lon": 90.43,
+      "lat": 23.36,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-15T14:22:24Z",
+      "lon": 90.43,
+      "lat": 23.36,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-15T15:20:00Z",
+      "lon": 90.43,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T16:58:24Z",
+      "lon": 120.9772,
+      "lat": 13.9558,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-15T17:52:31Z",
+      "lon": 120.9772,
+      "lat": 13.9558,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-15T18:36:48Z",
+      "lon": 89.68,
+      "lat": 22.93,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-15T19:35:45Z",
+      "lon": 89.68,
+      "lat": 22.93,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-15T20:24:00Z",
+      "lon": 35.76194444,
+      "lat": 30.52472222,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-15T21:43:12Z",
+      "lon": 35.76194444,
+      "lat": 30.52472222,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-15T22:48:00Z",
+      "lon": 35.76194444,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 35.76194444,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 738
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T01:12:00Z",
+      "text": "Politics: Cape Verdeans vote to elect a president, where the main two candidates are the incumbent PAICV candidate José Maria Neves and the MpD…",
+      "cites": [
+        "wiki:2026-11-15:13"
+      ]
+    },
+    {
+      "t": "2026-11-15T02:50:24Z",
+      "text": "02:50 UTC. Internet outage signal in Central African Rep.: responsive address blocks down to 77% of normal.",
+      "cites": [
+        "ioda:CF:ping:2026-11-15T02:50Z",
+        "ioda:CF:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-15T04:28:48Z",
+      "text": "Conflict: Iran's Islamic Revolutionary Guard Corps says that a supertanker carrying two million barrels of oil has sunk in the Strait of Hormuz after…",
+      "cites": [
+        "wiki:2026-11-15:1"
+      ]
+    },
+    {
+      "t": "2026-11-15T06:07:12Z",
+      "text": "05:15 UTC. The day's strongest earthquake: magnitude 5.5, 470 km deep, Fiji region.",
+      "cites": [
+        "usgs:us7000tyca"
+      ]
+    },
+    {
+      "t": "2026-11-15T07:45:36Z",
+      "text": "Disaster: Twelve people are killed and 16 others are injured when a bus carrying gas refinery workers overturns in Ilam province, Iran.",
+      "cites": [
+        "wiki:2026-11-15:6"
+      ]
+    },
+    {
+      "t": "2026-11-15T09:24:00Z",
+      "text": "Sports: In tennis, Kateřina Siniaková and Taylor Townsend win their second and first WTA Finals doubles titles, respectively…",
+      "cites": [
+        "wiki:2026-11-15:17"
+      ]
+    },
+    {
+      "t": "2026-11-15T11:02:24Z",
+      "text": "Science & tech: Non-profit fanfiction repository website Archive of Our Own is restored to limited functionality 17 days after being targeted in a…",
+      "cites": [
+        "wiki:2026-11-15:16"
+      ]
+    },
+    {
+      "t": "2026-11-15T13:12:00Z",
+      "text": "Business: Amid minimum wage protests by garment workers, 13 garment factories in Gazipur are shut indefinitely under the Bangladesh Labour Act…",
+      "cites": [
+        "wiki:2026-11-15:5"
+      ]
+    },
+    {
+      "t": "2026-11-15T15:20:00Z",
+      "text": "15:20 UTC. Internet outage signal in Gabon: responsive address blocks down to 84% of normal.",
+      "cites": [
+        "ioda:GA:ping:2026-11-15T15:20Z",
+        "ioda:GA:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-15T16:58:24Z",
+      "text": "World: Australia and the Philippines sign a defence cooperation agreement in Manila…",
+      "cites": [
+        "wiki:2026-11-15:10"
+      ]
+    },
+    {
+      "t": "2026-11-15T18:36:48Z",
+      "text": "Health & environment: Eight more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,314.",
+      "cites": [
+        "wiki:2026-11-15:8"
+      ]
+    },
+    {
+      "t": "2026-11-15T20:24:00Z",
+      "text": "Law & crime: The Jordanian State Security Court sentences three men to death for an October 23 shooting at a Greek Orthodox church in Karak Governorate…",
+      "cites": [
+        "wiki:2026-11-15:12"
+      ]
+    },
+    {
+      "t": "2026-11-15T22:48:00Z",
+      "text": "Politics: Neves wins re-election to a second five-year term with 63.8% of the vote…",
+      "cites": [
+        "wiki:2026-11-15:14"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-16T12:13:22Z"
+  }
+}

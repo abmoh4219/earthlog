@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-10",
+  "title": "The world on 10 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-10T00:00:00Z",
+    "end": "2026-11-11T00:00:00Z"
+  },
+  "focus": "2026-11-10T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-10",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "lon": 138,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-10T00:50:18Z",
+      "lon": 138,
+      "lat": 23.8,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T01:31:28Z",
+      "lon": -162.1,
+      "lat": 10.5,
+      "range": 3000000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T02:21:46Z",
+      "lon": -162.1,
+      "lat": 10.5,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T03:02:56Z",
+      "lon": -162.1,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-10T04:34:24Z",
+      "lon": 54.36666667,
+      "lat": 23.826666669999998,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T05:24:42Z",
+      "lon": 54.36666667,
+      "lat": 23.826666669999998,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T06:05:52Z",
+      "lon": 54.36666667,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-10T07:37:20Z",
+      "lon": 26.5,
+      "lat": 41.84333333,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T08:27:38Z",
+      "lon": 26.5,
+      "lat": 41.84333333,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T09:08:48Z",
+      "lon": 134.05,
+      "lat": -25.41,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T10:03:21Z",
+      "lon": 134.05,
+      "lat": -25.41,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T10:48:00Z",
+      "lon": -66.91583333,
+      "lat": 9.865555559999999,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T12:07:12Z",
+      "lon": -66.91583333,
+      "lat": 9.865555559999999,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T13:12:00Z",
+      "lon": 101.07,
+      "lat": 14.180000000000001,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T14:08:16Z",
+      "lon": 101.07,
+      "lat": 14.180000000000001,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T14:54:19Z",
+      "lon": -90.8534,
+      "lat": 12.6822,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T15:44:37Z",
+      "lon": -90.8534,
+      "lat": 12.6822,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T16:25:47Z",
+      "lon": 110.36444444,
+      "lat": -8.44138889,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T17:17:36Z",
+      "lon": 110.36444444,
+      "lat": -8.44138889,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T18:00:00Z",
+      "lon": -88.89,
+      "lat": 12.41,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T19:19:12Z",
+      "lon": -88.89,
+      "lat": 12.41,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T20:24:00Z",
+      "lon": 104.5,
+      "lat": 11.370000000000001,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-10T21:16:48Z",
+      "lon": 104.5,
+      "lat": 11.370000000000001,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T22:00:00Z",
+      "lon": 104.5,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "lon": 104.5,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "speed": 686
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "text": "00:00 UTC. Typhoon Cempaka at 25.0°N, 138.0°E, sustained winds of 95 knots.",
+      "cites": [
+        "eonet:EONET_26157:2026-11-10T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-10T01:31:28Z",
+      "text": "00:00 UTC. Tropical Storm Pena at 11.7°N, 162.1°W, sustained winds of 35 knots.",
+      "cites": [
+        "eonet:EONET_26158:2026-11-10T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-10T03:02:56Z",
+      "text": "Politics: Indonesian vice president Gibran Rakabuming Raka announces his intention to resign following controversies about the authenticity of his…",
+      "cites": [
+        "wiki:2026-11-10:17"
+      ]
+    },
+    {
+      "t": "2026-11-10T04:34:24Z",
+      "text": "Conflict: A third round of United States-mediated talks between Ukrainian and Russian delegations begins in Abu Dhabi, United Arab Emirates…",
+      "cites": [
+        "wiki:2026-11-10:1"
+      ]
+    },
+    {
+      "t": "2026-11-10T06:05:52Z",
+      "text": "05:20 UTC. Internet outage signal in Central African Rep.: responsive address blocks down to 73% of normal.",
+      "cites": [
+        "ioda:CF:ping:2026-11-10T05:20Z",
+        "ioda:CF:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-10T07:37:20Z",
+      "text": "Disaster: Twelve people are killed and 51 others are seriously injured in a multiple-vehicle collision involving 86 vehicles on the Trakia motorway…",
+      "cites": [
+        "wiki:2026-11-10:7"
+      ]
+    },
+    {
+      "t": "2026-11-10T09:08:48Z",
+      "text": "Science & tech: Australian prime minister Anthony Albanese announces plans to introduce mandatory safeguards for artificial intelligence companies…",
+      "cites": [
+        "wiki:2026-11-10:18"
+      ]
+    },
+    {
+      "t": "2026-11-10T10:48:00Z",
+      "text": "Business: The Venezuelan National Assembly unanimously approves a reform of the electricity law which allows private companies and joint ventures to…",
+      "cites": [
+        "wiki:2026-11-10:5"
+      ]
+    },
+    {
+      "t": "2026-11-10T13:12:00Z",
+      "text": "Health & environment: The Thai cabinet approves new environmental regulations for data centers, including limits on noise and temperature increases…",
+      "cites": [
+        "wiki:2026-11-10:10"
+      ]
+    },
+    {
+      "t": "2026-11-10T14:54:19Z",
+      "text": "14:54 UTC. The day's strongest earthquake: magnitude 5.5, 60 km deep, 40 km S of Puerto San José, Guatemala.",
+      "cites": [
+        "usgs:us7000txb8"
+      ]
+    },
+    {
+      "t": "2026-11-10T16:25:47Z",
+      "text": "Law & crime: Indonesian police detain 154 people following clashes with protesters in Yogyakarta…",
+      "cites": [
+        "wiki:2026-11-10:12"
+      ]
+    },
+    {
+      "t": "2026-11-10T18:00:00Z",
+      "text": "Conflict: El Salvador announces it has launched a joint military operation with the Haitian police against the 400 Mawozo gang…",
+      "cites": [
+        "wiki:2026-11-10:2"
+      ]
+    },
+    {
+      "t": "2026-11-10T20:24:00Z",
+      "text": "Disaster: Five schoolgirls are killed and 21 others are injured when a school bus plunges into a pond in Kandal province, Cambodia.",
+      "cites": [
+        "wiki:2026-11-10:8"
+      ]
+    },
+    {
+      "t": "2026-11-10T22:00:00Z",
+      "text": "22:00 UTC. Internet outage signal in Cape Verde: responsive address blocks down to 78% of normal.",
+      "cites": [
+        "ioda:CV:ping:2026-11-10T22:00Z",
+        "ioda:CV:ping:baseline"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-16T11:51:42Z"
+  }
+}

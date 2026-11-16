@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "id": "story-2026-11-09-2026-booker-prize",
+  "title": "2026 Booker Prize",
+  "subtitle": "Culture · 9 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-09T00:00:39Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -10.0841,
+    "south": 43.5087,
+    "east": 9.9159,
+    "north": 59.5087
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 37.915899999999965,
+      "lat": 30.49272,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:00:04Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:14Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:23Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:26Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:29Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:31Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:34Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:35Z",
+      "lon": -0.0841,
+      "lat": 50.8212,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:39Z",
+      "lon": -25.084100000000035,
+      "lat": 50.8212,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:01Z",
+      "text": "English author M. John Harrison has won the 2026 Booker Prize for his post-apocalyptic novel The End of Everything.",
+      "cites": [
+        "wiki:2026-11-09:3"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:08Z",
+      "text": "The winner was announced on 9 November 2026 at Old Billingsgate in the City of London, and at 81 Harrison is the oldest winner, as well as the first science fiction writer to receive the prize.",
+      "cites": [
+        "wiki:rev:1385064068:3"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:15Z",
+      "text": "The prize is worth £50,000 and is given for the best English-language novel published between 1 October 2025 and 30 September 2026 in the United Kingdom or Ireland.",
+      "cites": [
+        "wiki:rev:1385064068:0"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:25Z",
+      "text": "The story is reported by The Guardian.",
+      "cites": [
+        "wiki:2026-11-09:3"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:33Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption is linked to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-09:3",
+        "wiki:rev:1385064068:3",
+        "views:en:2026_Booker_Prize:30d",
+        "wd:Q140752087:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -0.0841,
+    "lat": 51.5087,
+    "label": "Old Billingsgate Market"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-09T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-09T00:00:32Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-09T00:00:25Z",
+      "until": "2026-11-09T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
+          "cites": [
+            "wiki:2026-11-09:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-09T00:00:33Z",
+      "until": "2026-11-09T00:00:39Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-09:3"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385064068:3"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Booker_Prize:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q140752087:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-13T00:00:00Z",
+    "costUsd": 0.000964
+  }
+}

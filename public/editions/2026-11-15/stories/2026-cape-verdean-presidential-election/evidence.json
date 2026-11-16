@@ -1,0 +1,142 @@
+[
+  {
+    "id": "wiki:2026-11-15:13",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Politics: Cape Verdeans vote to elect a president, where the main two candidates are the incumbent PAICV candidate José Maria Neves and the MpD candidate Joana Rosa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "Cape Verdeans vote to elect a president, where the main two candidates are the incumbent PAICV candidate José Maria Neves and the MpD candidate Joana Rosa.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/cape-verde-presidential-election-rosa-neves-b066358194132f21ea91bcbd6699d5e0"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-15:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Politics: Neves wins re-election to a second five-year term with 63.8% of the vote, according to provisional results from the election commission. Rosa concedes defeat.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "Neves wins re-election to a second five-year term with 63.8% of the vote, according to provisional results from the election commission. Rosa concedes defeat.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261115-cape-verde-s-president-jose-maria-neves-re-elected-provisional-election-results"
+      },
+      {
+        "name": "Inforpress <small>in Portuguese</small>",
+        "url": "https://inforpress.cv/pt/presidenciais2026-joana-rosa-reconhece-derrota-eleitoral-e-reafirma-compromisso-com-a-democracia-e-politica"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:b48b9d9ee543",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "DW: Cape Verde election: Jose Maria Neves set to win second term (16:47 UTC)",
+    "url": "https://www.dw.com/en/cape-verde-election-jose-maria-neves-set-to-win-second-term/a-79952606",
+    "quote": "Cape Verde election: Jose Maria Neves set to win second term",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q111592838:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Wikidata: \"2026 Cape Verdean presidential election\" is an instance of presidential election",
+    "url": "https://www.wikidata.org/wiki/Q111592838",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:3cb625736ad1",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "France 24: Cape Verde could make election history with first female president (07:56 UTC)",
+    "url": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
+    "quote": "Cape Verde could make election history with first female president",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386018219:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Cape Verdean presidential election\" (revision of 2026-11-16 11:55 UTC)",
+    "quote": "Incumbent president José Maria Neves won a second consecutive term against Joana Rosa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Cape_Verdean_presidential_election&oldid=1386018219"
+  },
+  {
+    "id": "wiki:rev:1386018219:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Cape Verdean presidential election\" (revision of 2026-11-16 11:55 UTC)",
+    "quote": "Presidential elections were held in Cape Verde on 15 November 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Cape_Verdean_presidential_election&oldid=1386018219"
+  },
+  {
+    "id": "views:en:2026_Cape_Verdean_presidential_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Cape Verdean presidential election\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Cape_Verdean_presidential_election&range=latest-30"
+  },
+  {
+    "id": "wd:Q111592838:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Cape Verdean presidential election\": date 15 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q111592838#P585"
+  },
+  {
+    "id": "wd:Q111592838:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Cape Verdean presidential election\": country Cape Verde",
+    "url": "https://www.wikidata.org/wiki/Q111592838#P17"
+  },
+  {
+    "id": "elex:2026-cape-verdean-presidential-election:party1",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Cape Verdean presidential election\" (revision of 2026-11-16 11:55 UTC): African Party for the Independence of Cape Verde: 63.85% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Cape_Verdean_presidential_election&oldid=1386018219"
+  },
+  {
+    "id": "elex:2026-cape-verdean-presidential-election:party2",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Cape Verdean presidential election\" (revision of 2026-11-16 11:55 UTC): Movement for Democracy (Cape Verde): 31.54% of the vote",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Cape_Verdean_presidential_election&oldid=1386018219"
+  },
+  {
+    "id": "elex:2026-cape-verdean-presidential-election:summary",
+    "kind": "sensor",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Cape Verdean presidential election\" (revision of 2026-11-16 11:55 UTC): ",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Cape_Verdean_presidential_election&oldid=1386018219"
+  }
+]

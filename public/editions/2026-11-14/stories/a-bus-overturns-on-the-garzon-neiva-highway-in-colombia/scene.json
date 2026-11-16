@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-a-bus-overturns-on-the-garzon-neiva-highway-in-colombia",
+  "title": "A bus overturns on the Garzón–Neiva highway in Colombia",
+  "subtitle": "Accident · 14 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:00:42Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -85.65777778,
+    "south": -5.8180555599999995,
+    "east": -65.65777778,
+    "north": 10.18194444
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-14T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-14T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-14T00:00:18Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": -37.65777778,
+      "lat": 0.8966666640000001,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:07Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:09Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:12Z",
+      "lon": -75.65777778,
+      "lat": 2.18194444,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:15Z",
+      "lon": -75.65777778,
+      "lat": 2.18194444,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:17Z",
+      "lon": -75.65777778,
+      "lat": 2.18194444,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:20Z",
+      "lon": -75.46939418140394,
+      "lat": 2.2582277024287634,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:23Z",
+      "lon": -75.46939418140394,
+      "lat": 2.2582277024287634,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:26Z",
+      "lon": -75.46939418140394,
+      "lat": 2.2582277024287634,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:29Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:32Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:34Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:37Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:38Z",
+      "lon": -75.65777778,
+      "lat": 1.49444444,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:42Z",
+      "lon": -100.65777778,
+      "lat": 1.49444444,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "A bus overturns on the Garzón–Neiva highway in Colombia, killing six people and wounding eleven more.",
+      "cites": [
+        "wiki:2026-11-14:6"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:11Z",
+      "text": "The crash is placed in Garzón, Huila, Colombia, according to the reports.",
+      "cites": [
+        "wiki:2026-11-14:6"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:19Z",
+      "text": "Neiva, Huila, is also named in the reports, as the other end of the highway.",
+      "cites": [
+        "wiki:2026-11-14:6"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:28Z",
+      "text": "The story is reported by AP.",
+      "cites": [
+        "wiki:2026-11-14:6"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:36Z",
+      "text": "The sources are Wikipedia and its Current events page, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-14:6"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CO",
+    "lon": -75.65777778,
+    "lat": 2.18194444,
+    "label": "Garzón, Huila"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-14T00:00:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-14T00:00:27Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-14T00:00:35Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-14T00:00:28Z",
+      "until": "2026-11-14T00:00:35Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/colombia-bus-crash-caqueta-driver-sleep-083df4d921603bc7566ce9299174b20d",
+          "cites": [
+            "wiki:2026-11-14:6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-14T00:00:36Z",
+      "until": "2026-11-14T00:00:42Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-14:6"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.000469
+  }
+}

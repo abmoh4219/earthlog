@@ -1,0 +1,129 @@
+[
+  {
+    "id": "wiki:2026-11-13:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-13T00:00:00Z",
+    "lon": -77.02277778,
+    "lat": 38.88694444,
+    "label": "Disaster: The United States Federal Aviation Administration issues a nationwide ground stop for all flights due to \"extraordinary circumstances involving communications failures\". It is later lifted.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806",
+    "quote": "The United States Federal Aviation Administration issues a nationwide ground stop for all flights due to \"extraordinary circumstances involving communications failures\". It is later lifted.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-14/faa-lifts-ground-stop-allowing-flights-to-resume-after-outage"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:706b1608b1a0",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Al Jazeera: US flights resume after FAA lifts hours-long nationwide ground stop (21:32 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+    "quote": "US flights resume after FAA lifts hours-long nationwide ground stop",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:c0cfbcc007e2",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "DW: FAA issues US national ground stop on all flights (21:54 UTC)",
+    "url": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062",
+    "quote": "FAA issues US national ground stop on all flights",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142148320:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Wikidata: \"2026 FAA nationwide ground stop\" is an instance of ground stop, occurrence",
+    "url": "https://www.wikidata.org/wiki/Q142148320",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:bea6c8926b2d",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "France 24: 🔴 US flight authority orders national ground stop over air traffic control 'communication issue' (21:29 UTC)",
+    "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+    "quote": "🔴 US flight authority orders national ground stop over air traffic control 'communication issue'",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386016697:47",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 FAA nationwide ground stop\" (revision of 2026-11-16 11:42 UTC)",
+    "quote": "On November 12, 2026, Microsoft experienced a global outage, that continued into the morning of the same day as the FAA outage.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_FAA_nationwide_ground_stop&oldid=1386016697"
+  },
+  {
+    "id": "wiki:rev:1386016697:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 FAA nationwide ground stop\" (revision of 2026-11-16 11:42 UTC)",
+    "quote": "On November 13, 2026, the Federal Aviation Administration (FAA) issued a nationwide ground stop when a communications failure reported in the Chicago area was found to be affecting multiple systems across the National Airspace System.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_FAA_nationwide_ground_stop&oldid=1386016697"
+  },
+  {
+    "id": "wd:Q142148320:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 FAA nationwide ground stop\": date 13 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142148320#P585"
+  },
+  {
+    "id": "wd:Q142148320:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 FAA nationwide ground stop\": began 13 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142148320#P580"
+  },
+  {
+    "id": "wd:Q142148320:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 FAA nationwide ground stop\": ended 13 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142148320#P582"
+  },
+  {
+    "id": "wd:Q142148320:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 FAA nationwide ground stop\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q142148320#P17"
+  },
+  {
+    "id": "wiki:box:1386016697:summary",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 FAA nationwide ground stop\" (revision of 2026-11-16 11:42 UTC): summary: Communication issues involving area control centers",
+    "quote": "summary: Communication issues involving area control centers",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_FAA_nationwide_ground_stop&oldid=1386016697"
+  }
+]

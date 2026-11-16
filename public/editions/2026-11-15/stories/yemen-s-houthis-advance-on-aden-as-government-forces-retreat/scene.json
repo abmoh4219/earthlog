@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-yemen-s-houthis-advance-on-aden-as-government-forces-retreat",
+  "title": "Houthis",
+  "subtitle": "Tech & business · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:01:19Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 35.01,
+    "south": 4.779999999999999,
+    "east": 55.01,
+    "north": 20.78
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 83.00999999999999,
+      "lat": 7.2555,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 45.01,
+      "lat": 12.0925,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:14Z",
+      "lon": 45.01,
+      "lat": 12.0925,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 45.01,
+      "lat": 12.0925,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "lon": 43.759166666666665,
+      "lat": 16.14,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:29Z",
+      "lon": 43.759166666666665,
+      "lat": 16.14,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:31Z",
+      "lon": 43.759166666666665,
+      "lat": 16.14,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:34Z",
+      "lon": 43.759166666666665,
+      "lat": 14.940000000000001,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:38Z",
+      "lon": 43.759166666666665,
+      "lat": 14.940000000000001,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:41Z",
+      "lon": 43.759166666666665,
+      "lat": 14.940000000000001,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:44Z",
+      "lon": 44.39061042625084,
+      "lat": 14.560846075079894,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:47Z",
+      "lon": 44.39061042625084,
+      "lat": 14.560846075079894,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:50Z",
+      "lon": 44.39061042625084,
+      "lat": 14.560846075079894,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:53Z",
+      "lon": 44.39061042625084,
+      "lat": 14.560846075079894,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:02Z",
+      "lon": 44.39061042625084,
+      "lat": 14.560846075079894,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:11Z",
+      "lon": 44.39061042625084,
+      "lat": 14.560846075079894,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:14Z",
+      "lon": 45.01,
+      "lat": 12.0925,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:15Z",
+      "lon": 45.01,
+      "lat": 12.0925,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:19Z",
+      "lon": 20.00999999999999,
+      "lat": 12.0925,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "Yemen's Houthis are advancing on Aden, while government forces retreat to defend their capital, according to France 24.",
+      "cites": [
+        "news:france24:21793fe41f25"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:08Z",
+      "text": "The Wall Street Journal reported in October 2026 that the Houthis have relied on Chinese equipment and parts to build a version of the Kheibar Shekan ballistic missile.",
+      "cites": [
+        "wiki:rev:1384523612:292"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "text": "The Houthis, officially Ansar Allah or Ansarullah, are a Zaydi revivalist and Shia Islamist political and paramilitary organization that emerged from Yemen in the 1990s.",
+      "cites": [
+        "wiki:rev:1384523612:0"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "text": "The Houthis are headquartered in Saada, Yemen.",
+      "cites": [
+        "wd:Q3042087:P159"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:33Z",
+      "text": "The organization was founded in 2000 by Hussein al-Houthi.",
+      "cites": [
+        "wd:Q3042087:P571",
+        "wd:Q3042087:P112"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:52Z",
+      "text": "Al Jazeera headlined its report “Yemeni government forces redeploy from Bab al-Mandeb to defend Aden.”",
+      "cites": [
+        "news:aljazeera:8d45b4ebac30"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:58Z",
+      "text": "France 24 headlined its report “Yemen's Houthis advance on Aden as government forces retreat to defend their capital.”",
+      "cites": [
+        "news:france24:21793fe41f25"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:04Z",
+      "text": "DW headlined its report “Yemen: Anti-Houthi forces pull back as rebels advance.”",
+      "cites": [
+        "news:dw:bce2a6257bd5"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:13Z",
+      "text": "This explainer draws on Al Jazeera, France 24, DW, Wikipedia, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384523612:292",
+        "views:en:Houthis:30d",
+        "wd:Q3042087:P571"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "YE",
+    "lon": 45.01,
+    "lat": 12.78,
+    "label": "Aden"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-15T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-15T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-15T00:00:51Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:01:12Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-15T00:00:33Z",
+      "until": "2026-11-15T00:00:42Z",
+      "title": "On record: Houthis",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "2000",
+          "cites": [
+            "wd:Q3042087:P571"
+          ]
+        },
+        {
+          "label": "Founded by",
+          "text": "Hussein al-Houthi",
+          "cites": [
+            "wd:Q3042087:P112"
+          ]
+        },
+        {
+          "label": "Chair",
+          "text": "Abd al-Malik al-Houthi",
+          "cites": [
+            "wd:Q3042087:P488"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "ansarollah.com.ye",
+          "url": "https://ansarollah.com.ye/",
+          "cites": [
+            "wd:Q3042087:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:00:52Z",
+      "until": "2026-11-15T00:01:12Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden",
+          "cites": [
+            "news:aljazeera:8d45b4ebac30"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
+          "cites": [
+            "news:france24:21793fe41f25"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692",
+          "cites": [
+            "news:dw:bce2a6257bd5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:01:13Z",
+      "until": "2026-11-15T00:01:19Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384523612:292"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Houthis:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q3042087:P571"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.002285
+  }
+}

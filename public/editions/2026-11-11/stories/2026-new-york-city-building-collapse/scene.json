@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "id": "story-2026-11-11-2026-new-york-city-building-collapse",
+  "title": "2026 New York City building collapse",
+  "subtitle": "Accident · 11 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-11T00:00:00Z",
+    "end": "2026-11-11T00:01:17Z"
+  },
+  "focus": "2026-11-11T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -83.95383,
+    "south": 32.63897,
+    "east": -63.953829999999996,
+    "north": 48.63897
+  },
+  "imagery": {
+    "day": "2026-11-11",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-11T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "lon": -35.95382999999998,
+      "lat": 23.970882,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-11T00:00:04Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-11T00:00:14Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:23Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:26Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-11T00:00:27Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 126775.39193392382,
+      "heading": 17.5,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:28Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 114800,
+      "heading": 11,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:31Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:35Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 81498.46624323675,
+      "heading": 81.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:39Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 73800,
+      "heading": 92.6,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:00:42Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 350000,
+      "heading": 140,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-11T00:00:51Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 316938.47983480955,
+      "heading": 126,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:01Z",
+      "lon": -73.95383,
+      "lat": 40.63897,
+      "range": 287000,
+      "heading": 112,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:04Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-11T00:01:07Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:09Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:12Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:13Z",
+      "lon": -73.95383,
+      "lat": 39.95147,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-11T00:01:17Z",
+      "lon": -98.95382999999998,
+      "lat": 39.95147,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-11T00:00:01Z",
+      "text": "On November 11, 2026, a three-story mixed-use building at 1321 Flatbush Avenue in Flatbush, a Brooklyn neighborhood, collapsed into an adjacent excavation site.",
+      "cites": [
+        "wiki:rev:1385718195:0"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:08Z",
+      "text": "A 3-story apartment building collapsed near a construction site in Brooklyn, New York City, killing eight people and wounding 19 more.",
+      "cites": [
+        "wiki:2026-11-11:10"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:15Z",
+      "text": "The New York City Fire Department received the first 911 call reporting the collapse at 16:01 EST on November 11.",
+      "cites": [
+        "wiki:rev:1385718195:5"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:30Z",
+      "text": "According to the article, 8 people died and 18 were injured, one of them critically.",
+      "cites": [
+        "wiki:box:1385718195:fatalities",
+        "wiki:box:1385718195:injuries"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:41Z",
+      "text": "On March 20, 2026, the DOB ordered demolition halted at the neighboring construction site after inspectors found inadequate overhead protection for adjacent properties.",
+      "cites": [
+        "wiki:investigation:1385718195:0"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:48Z",
+      "text": "When inspectors returned on April 23, they found demolition had resumed despite the stop-work order and issued another violation.",
+      "cites": [
+        "wiki:investigation:1385718195:1"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:00:55Z",
+      "text": "The DOB lifted the order on May 8 after conditions were corrected, and CBS News reported, based on court records, that the contractor had been sued \"at least 67 times since 2012.\"",
+      "cites": [
+        "wiki:investigation:1385718195:2"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:01:03Z",
+      "text": "The story is reported by AFP and Reuters.",
+      "cites": [
+        "wiki:2026-11-11:10"
+      ]
+    },
+    {
+      "t": "2026-11-11T00:01:11Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-11:10",
+        "wiki:rev:1385718195:5",
+        "wd:Q142131356:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -73.95383,
+    "lat": 40.63897,
+    "label": "2026 New York City building collapse"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-11T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-11T00:00:24Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-11T00:00:29Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-11T00:00:40Z",
+      "title": "The investigation"
+    },
+    {
+      "t": "2026-11-11T00:01:02Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-11T00:01:10Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "on-board",
+      "t": "2026-11-11T00:00:30Z",
+      "until": "2026-11-11T00:00:40Z",
+      "title": "People",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "Fatalities",
+          "text": "8",
+          "value": 8,
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1385718195:fatalities"
+          ]
+        },
+        {
+          "label": "Injuries",
+          "text": "18",
+          "value": 18,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1385718195:injuries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-11T00:01:03Z",
+      "until": "2026-11-11T00:01:10Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/eight-dead-new-york-building-collapse",
+          "cites": [
+            "wiki:2026-11-11:10"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/building-collapse-brooklyn-kills-least-one-injures-10-2026-11-12/",
+          "cites": [
+            "wiki:2026-11-11:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-11T00:01:11Z",
+      "until": "2026-11-11T00:01:17Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-11:10"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385718195:5"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142131356:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-15T00:00:00Z",
+    "costUsd": 0.003254
+  }
+}

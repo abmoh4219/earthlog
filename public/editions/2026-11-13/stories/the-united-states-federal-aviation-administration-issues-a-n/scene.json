@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "id": "story-2026-11-13-the-united-states-federal-aviation-administration-issues-a-n",
+  "title": "The United States Federal Aviation Administration issues a nationwide ground…",
+  "subtitle": "Accident · 13 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-13T00:01:09Z"
+  },
+  "focus": "2026-11-13T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -87.02277778,
+    "south": 30.88694444,
+    "east": -67.02277778,
+    "north": 46.88694444
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-13T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": -39.02277778000001,
+      "lat": 22.919666664,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T00:00:04Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:14Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:23Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:26Z",
+      "lon": -77.02277778,
+      "lat": 38.88694444,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:29Z",
+      "lon": -77.02277778,
+      "lat": 38.88694444,
+      "range": 126775.39193392382,
+      "heading": 14.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:32Z",
+      "lon": -77.02277778,
+      "lat": 38.88694444,
+      "range": 114800,
+      "heading": 4.600000000000001,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:35Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:38Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:40Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:43Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:52Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:01Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:04Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:05Z",
+      "lon": -77.02277778,
+      "lat": 38.19944444,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:01:09Z",
+      "lon": -102.02277778000001,
+      "lat": 38.19944444,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T00:00:01Z",
+      "text": "On November 13, 2026, the FAA issued a nationwide ground stop after a Chicago-area communications failure was found to affect multiple systems across the National Airspace System.",
+      "cites": [
+        "wiki:rev:1386016697:0"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:08Z",
+      "text": "The agency cited \"extraordinary circumstances involving communications failures\", and the ground stop was later lifted.",
+      "cites": [
+        "wiki:2026-11-13:3"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:15Z",
+      "text": "A Microsoft global outage had occurred on November 12, 2026, and continued into the morning of the same day as the FAA outage.",
+      "cites": [
+        "wiki:rev:1386016697:47"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:25Z",
+      "text": "The issues involved communication problems at area control centers in the United States.",
+      "cites": [
+        "wiki:box:1386016697:summary"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:34Z",
+      "text": "Bloomberg and Reuters reported the story.",
+      "cites": [
+        "wiki:2026-11-13:3"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:42Z",
+      "text": "Al Jazeera headlined the story \"US flights resume after FAA lifts hours-long nationwide ground stop\".",
+      "cites": [
+        "news:aljazeera:706b1608b1a0"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:48Z",
+      "text": "DW headlined it \"FAA issues US national ground stop on all flights\".",
+      "cites": [
+        "news:dw:c0cfbcc007e2"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:54Z",
+      "text": "France 24 headlined it \"US flight authority orders national ground stop over air traffic control 'communication issue'\".",
+      "cites": [
+        "news:france24:bea6c8926b2d"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:01:03Z",
+      "text": "Sources include Wikipedia, its current events and related articles, and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-13:3",
+        "wiki:rev:1386016697:47",
+        "wd:Q142148320:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -77.02277778,
+    "lat": 38.88694444,
+    "label": "Federal Aviation Administration"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-13T00:00:24Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-13T00:00:33Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-13T00:00:41Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-13T00:01:02Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-13T00:00:34Z",
+      "until": "2026-11-13T00:00:41Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Bloomberg",
+          "text": "Open",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/faa-lifts-ground-stop-allowing-flights-to-resume-after-outage",
+          "cites": [
+            "wiki:2026-11-13:3"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
+          "cites": [
+            "wiki:2026-11-13:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-13T00:00:42Z",
+      "until": "2026-11-13T00:01:02Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+          "cites": [
+            "news:aljazeera:706b1608b1a0"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062",
+          "cites": [
+            "news:dw:c0cfbcc007e2"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+          "cites": [
+            "news:france24:bea6c8926b2d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-13T00:01:03Z",
+      "until": "2026-11-13T00:01:09Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-13:3"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386016697:47"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142148320:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:01:26Z",
+    "costUsd": 0.001575
+  }
+}

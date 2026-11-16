@@ -1,0 +1,42 @@
+[
+  {
+    "id": "news:france24:fe1a4ad6291e",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "France 24: Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’ (10:53 UTC)",
+    "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
+    "quote": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:40604ce7f0e2",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Al Jazeera: Microsoft outage live: Outlook, Teams recover as disruptions continue (11:18 UTC)",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users",
+    "quote": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:803535c4dcf7",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "BBC News: Watch: How a server outage took down Microsoft Teams and Outlook (11:43 UTC)",
+    "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po",
+    "quote": "Watch: How a server outage took down Microsoft Teams and Outlook",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:af1bb13de8c3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "The Guardian: Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams (17:41 UTC)",
+    "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+    "quote": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+    "precision": "day"
+  }
+]

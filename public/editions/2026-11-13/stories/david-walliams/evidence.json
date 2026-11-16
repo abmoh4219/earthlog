@@ -1,0 +1,306 @@
+[
+  {
+    "id": "wiki:2026-11-13:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-13T00:00:00Z",
+    "lon": -2.12,
+    "lat": 54.4,
+    "label": "Law & crime: In the United Kingdom, Metropolitan Police announce a criminal investigation into actor David Walliams about \"alleged serious sexual offences\". The police say they are separate to those investigated by ITN and The Guardian.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806",
+    "quote": "In the United Kingdom, Metropolitan Police announce a criminal investigation into actor David Walliams about \"alleged serious sexual offences\". The police say they are separate to those investigated by ITN and The Guardian.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/david-walliams-uk-police-investigation-84a5d758f0b9a2b3e67d6a6fe01b5dca"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cwx2emg4xe72o"
+      }
+    ]
+  },
+  {
+    "id": "views:en:David_Walliams:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "English Wikipedia: 97,674 readers of \"David Walliams\" on 13 Nov 2026",
+    "value": 97674,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/David_Walliams",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:David_Walliams:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "\"David Walliams\": normally a median of 2,621 readers a day (8 to 60 days before)",
+    "value": 2621,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/David_Walliams",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:72dc6a881824",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "The Guardian: Met police launch investigation into David Walliams allegations (16:07 UTC)",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
+    "quote": "Met police launch investigation into David Walliams allegations",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:cffd271a388c",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "DW: David Walliams: UK police launch sex offense probe into comedian (19:25 UTC)",
+    "url": "https://www.dw.com/en/david-walliams-uk-police-launch-sex-offense-probe-into-comedian/a-79944161",
+    "quote": "David Walliams: UK police launch sex offense probe into comedian",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q359665:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Wikidata: \"David Walliams\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q359665",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:23c096cd618a",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "France 24: UK rocked by comedians' sex scandals (13:47 UTC)",
+    "url": "https://www.france24.com/en/tv-shows/the-51/20261113-uk-rocked-by-comedians-sex-scandals",
+    "quote": "UK rocked by comedians' sex scandals",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385873065:193",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"David Walliams\" (revision of 2026-11-15 18:46 UTC)",
+    "quote": "On 13 November 2026, the Metropolitan Police announced that it had launched an investigation into Walliams over \"alleged serious sexual offences\".",
+    "url": "https://en.wikipedia.org/w/index.php?title=David_Walliams&oldid=1385873065"
+  },
+  {
+    "id": "wiki:rev:1385873065:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"David Walliams\" (revision of 2026-11-15 18:46 UTC)",
+    "quote": "David Edward Williams (born 20 August 1971), known professionally as David Walliams, is an English actor, comedian, writer and television personality.",
+    "url": "https://en.wikipedia.org/w/index.php?title=David_Walliams&oldid=1385873065"
+  },
+  {
+    "id": "views:en:David_Walliams:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"David Walliams\", 15 October 2026 to 13 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=David_Walliams&range=latest-30"
+  },
+  {
+    "id": "views:de:David_Walliams:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 6,515 readers of \"David Walliams\" on 13 November 2026",
+    "value": 6515,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/David_Walliams"
+  },
+  {
+    "id": "views:fr:David_Walliams:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 956 readers of \"David Walliams\" on 13 November 2026",
+    "value": 956,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/David_Walliams"
+  },
+  {
+    "id": "views:es:David_Walliams:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 402 readers of \"David Walliams\" on 13 November 2026",
+    "value": 402,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/David_Walliams"
+  },
+  {
+    "id": "views:ja:デヴィッド・ウォリアムス:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 346 readers of \"デヴィッド・ウォリアムス\" on 13 November 2026",
+    "value": 346,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89%E3%83%BB%E3%82%A6%E3%82%A9%E3%83%AA%E3%82%A2%E3%83%A0%E3%82%B9"
+  },
+  {
+    "id": "views:pl:David_Walliams:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 237 readers of \"David Walliams\" on 13 November 2026",
+    "value": 237,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/David_Walliams"
+  },
+  {
+    "id": "views:it:David_Walliams:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 219 readers of \"David Walliams\" on 13 November 2026",
+    "value": 219,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/David_Walliams"
+  },
+  {
+    "id": "views:pt:David_Walliams:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 216 readers of \"David Walliams\" on 13 November 2026",
+    "value": 216,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/David_Walliams"
+  },
+  {
+    "id": "views:zh:戴维·沃廉姆斯:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 124 readers of \"戴维·沃廉姆斯\" on 13 November 2026",
+    "value": 124,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E7%BB%B4%C2%B7%E6%B2%83%E5%BB%89%E5%A7%86%E6%96%AF"
+  },
+  {
+    "id": "views:ru:Уолльямс,_Дэвид:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 116 readers of \"Уолльямс, Дэвид\" on 13 November 2026",
+    "value": 116,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A3%D0%BE%D0%BB%D0%BB%D1%8C%D1%8F%D0%BC%D1%81%2C_%D0%94%D1%8D%D0%B2%D0%B8%D0%B4"
+  },
+  {
+    "id": "views:ar:ديفيد_وليمز:2026-11-13",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 11 readers of \"ديفيد وليمز\" on 13 November 2026",
+    "value": 11,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%81%D9%8A%D8%AF_%D9%88%D9%84%D9%8A%D9%85%D8%B2"
+  },
+  {
+    "id": "wd:Q359665:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": born 20 August 1971",
+    "url": "https://www.wikidata.org/wiki/Q359665#P569"
+  },
+  {
+    "id": "wd:Q359665:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": birthplace Wimbledon, Banstead",
+    "url": "https://www.wikidata.org/wiki/Q359665#P19"
+  },
+  {
+    "id": "wd:Q359665:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": occupation actor, comedian",
+    "url": "https://www.wikidata.org/wiki/Q359665#P106"
+  },
+  {
+    "id": "wd:Q359665:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": citizenship United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q359665#P27"
+  },
+  {
+    "id": "wd:Q359665:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": sport competitive swimming",
+    "url": "https://www.wikidata.org/wiki/Q359665#P641"
+  },
+  {
+    "id": "wd:Q359665:P69:Q459506",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": educated at University of Bristol",
+    "url": "https://www.wikidata.org/wiki/Q359665#P69"
+  },
+  {
+    "id": "wd:Q359665:P69:Q7310077",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": educated at Reigate Grammar School",
+    "url": "https://www.wikidata.org/wiki/Q359665#P69"
+  },
+  {
+    "id": "wd:Q359665:P69:Q6751333",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": educated at Manor Hall, Bristol",
+    "url": "https://www.wikidata.org/wiki/Q359665#P69"
+  },
+  {
+    "id": "wd:Q359665:P166:Q10762848",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"David Walliams\": award received: Officer of the Order of the British Empire (2017)",
+    "url": "https://www.wikidata.org/wiki/Q359665#P166"
+  }
+]

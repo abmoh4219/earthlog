@@ -1,0 +1,136 @@
+[
+  {
+    "id": "views:en:Toukie_Smith:2026-11-10",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-10T00:00:00Z",
+    "label": "English Wikipedia: 73,111 readers of \"Toukie Smith\" on 10 Nov 2026",
+    "value": 73111,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Toukie_Smith",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Toukie_Smith:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-10T00:00:00Z",
+    "label": "\"Toukie Smith\": normally a median of 368 readers a day (8 to 60 days before)",
+    "value": 368,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Toukie_Smith",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q7828852:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "label": "Wikidata: \"Toukie Smith\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q7828852",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385050196:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Toukie Smith\" (revision of 2026-11-11 16:36 UTC)",
+    "quote": "Doris A. Smith (September 25, 1952 – November 4, 2026), known professionally as Toukie Smith, was an American actress and model.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Toukie_Smith&oldid=1385050196"
+  },
+  {
+    "id": "wiki:rev:1385050196:15",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Toukie Smith\" (revision of 2026-11-11 16:36 UTC)",
+    "quote": "Smith died from complications of multiple sclerosis at a hospital in New York, on November 4, 2026, at the age of 74.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Toukie_Smith&oldid=1385050196"
+  },
+  {
+    "id": "wiki:rev:1385050196:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Toukie Smith\" (revision of 2026-11-11 16:36 UTC)",
+    "quote": "She was best known for her role as Eva Rawley on the NBC sitcom 227 (1989–90).",
+    "url": "https://en.wikipedia.org/w/index.php?title=Toukie_Smith&oldid=1385050196"
+  },
+  {
+    "id": "views:en:Toukie_Smith:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Toukie Smith\", 12 October 2026 to 10 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Toukie_Smith&range=latest-30"
+  },
+  {
+    "id": "wd:Q7828852:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Toukie Smith\": born 25 September 1952",
+    "url": "https://www.wikidata.org/wiki/Q7828852#P569"
+  },
+  {
+    "id": "wd:Q7828852:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Toukie Smith\": birthplace Philadelphia",
+    "url": "https://www.wikidata.org/wiki/Q7828852#P19"
+  },
+  {
+    "id": "wd:Q7828852:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Toukie Smith\": died 4 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q7828852#P570"
+  },
+  {
+    "id": "wd:Q7828852:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Toukie Smith\": place of death New York City",
+    "url": "https://www.wikidata.org/wiki/Q7828852#P20"
+  },
+  {
+    "id": "wd:Q7828852:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Toukie Smith\": occupation actor, model",
+    "url": "https://www.wikidata.org/wiki/Q7828852#P106"
+  },
+  {
+    "id": "wd:Q7828852:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Toukie Smith\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q7828852#P27"
+  },
+  {
+    "id": "wd:Q7828852:P69:Q844999",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-10T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Toukie Smith\": educated at Fashion Institute of Technology",
+    "url": "https://www.wikidata.org/wiki/Q7828852#P69"
+  }
+]

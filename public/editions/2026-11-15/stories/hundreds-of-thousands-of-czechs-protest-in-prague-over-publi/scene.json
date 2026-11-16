@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-hundreds-of-thousands-of-czechs-protest-in-prague-over-publi",
+  "title": "Czech Republic",
+  "subtitle": "News · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:01:03Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 4.460000000000001,
+    "south": 42.09,
+    "east": 24.46,
+    "north": 58.09
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-15T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 52.460000000000036,
+      "lat": 29.6415,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:10Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:16Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:19Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:22Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:24Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:27Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:31Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:34Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:37Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 1100000,
+      "heading": 8,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:46Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 1055082.9351287982,
+      "heading": 10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:55Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 1012000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:58Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:59Z",
+      "lon": 14.46,
+      "lat": 49.4025,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:03Z",
+      "lon": -10.539999999999964,
+      "lat": 49.4025,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "Thousands rallied in the Czech Republic against changes to state media funding, Al Jazeera reports.",
+      "cites": [
+        "news:aljazeera:89d8b8b26cf9"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:09Z",
+      "text": "The Czech Republic, also known as Czechia and historically as Bohemia, is a landlocked country in Central Europe.",
+      "cites": [
+        "wiki:rev:1383649447:0"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "text": "The Czech Republic was founded on 1 January 1993, and it is recorded in Wikidata as a country.",
+      "cites": [
+        "wd:Q213:P571",
+        "wd:Q213:P17"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:36Z",
+      "text": "Al Jazeera headlined the story: “Thousands rally in Czech Republic against state media funding changes.”",
+      "cites": [
+        "news:aljazeera:89d8b8b26cf9"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:42Z",
+      "text": "The Guardian headlined it: “Hundreds of thousands of Czechs protest in Prague over media freedom.”",
+      "cites": [
+        "news:guardian:bc033adbd821"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:48Z",
+      "text": "DW headlined it: “Czechia: Scores protest against public media reform.”",
+      "cites": [
+        "news:dw:804bd6cc316f"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:57Z",
+      "text": "The sources are Al Jazeera, The Guardian, DW, France 24 and BBC News, along with Wikipedia articles, Wikimedia pageviews and Wikidata.",
+      "cites": [
+        "wiki:rev:1383649447:0",
+        "views:en:Czech_Republic:30d",
+        "wd:Q213:P571"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CZ",
+    "lon": 14.46,
+    "lat": 50.09,
+    "label": "Prague"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-15T00:00:35Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:00:56Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-15T00:00:26Z",
+      "until": "2026-11-15T00:00:35Z",
+      "title": "On record: Czech Republic",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "1 January 1993",
+          "cites": [
+            "wd:Q213:P571"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Czech Republic",
+          "cites": [
+            "wd:Q213:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:00:36Z",
+      "until": "2026-11-15T00:00:56Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes",
+          "cites": [
+            "news:aljazeera:89d8b8b26cf9"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+          "cites": [
+            "news:guardian:bc033adbd821"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/czechia-scores-protest-against-public-media-reform/a-79953057",
+          "cites": [
+            "news:dw:804bd6cc316f"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-pragues-s-fight-for-public-tv-why-renowned-presenter-will-leave-czech-tv-over-reforms",
+          "cites": [
+            "news:france24:1767661cd6ab"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o",
+          "cites": [
+            "news:bbc:7aaf12aa88ce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:00:57Z",
+      "until": "2026-11-15T00:01:03Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383649447:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Czech_Republic:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q213:P571"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.001966
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-the-iranian-military-attacks",
+  "title": "The Iranian military attacks",
+  "subtitle": "Conflict · 14 November 2026 · Update, day 2",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:01:10Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 44.93,
+    "south": 24.17,
+    "east": 64.93,
+    "north": 40.17
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-14T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-14T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": 92.93000000000006,
+      "lat": 18.027,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:14Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:23Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:26Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:29Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:31Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:34Z",
+      "lon": 54.93,
+      "lat": 30.17,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:44Z",
+      "lon": 54.93,
+      "lat": 30.17,
+      "range": 1086646.2165764899,
+      "heading": -2,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:54Z",
+      "lon": 54.93,
+      "lat": 30.17,
+      "range": 983999.9999999999,
+      "heading": 12,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:57Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:01:00Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 4002480.231056738,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:02Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 3624400,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:05Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:06Z",
+      "lon": 54.93,
+      "lat": 30.045,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:10Z",
+      "lon": 29.930000000000064,
+      "lat": 30.045,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "The Iranian military has attacked an American military facility in Bahrain with drones and missiles, in one of the largest attacks on the country in months.",
+      "cites": [
+        "wiki:2026-11-14:2"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:08Z",
+      "text": "On November 13, Bahrain's Ministry of Foreign Affairs condemned what it described as Iran's renewed aggression after recent air strikes on Riffa Air Base.",
+      "cites": [
+        "wiki:rev:1385842480:66"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:15Z",
+      "text": "On 28 February 2026, during the 2026 Iran war, Iran carried out retaliatory missile and drone strikes on Bahrain after the initial strikes.",
+      "cites": [
+        "wiki:rev:1385842480:0"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:33Z",
+      "text": "The article lists side 1 as Islamic Resistance in Iraq and Jaysh al-Ghadab, and side 2 as Defensive/precautionary.",
+      "cites": [
+        "wiki:box:1385842480:side-1",
+        "wiki:box:1385842480:side-2"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:44Z",
+      "text": "According to Wikipedia's sources, 2 DOD employees were wounded and 1 oil tanker was damaged.",
+      "cites": [
+        "wiki:box:1385842480:casualties-side-2-"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:56Z",
+      "text": "The story is reported by The National News.",
+      "cites": [
+        "wiki:2026-11-14:2"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:04Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption points to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-14:2",
+        "wiki:rev:1385842480:66",
+        "views:en:2026_Iranian_strikes_on_Bahrain:30d",
+        "wd:Q138531790:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IR",
+    "lon": 54.93,
+    "lat": 32.17,
+    "label": "Iran"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-14T00:00:32Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-14T00:00:55Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-14T00:01:03Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-14T00:00:33Z",
+      "until": "2026-11-14T00:00:55Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Islamic Resistance in Iraq, Jaysh al-Ghadab",
+          "cites": [
+            "wiki:box:1385842480:side-1"
+          ]
+        },
+        {
+          "label": "Side 2",
+          "text": "Defensive/precautionary:",
+          "cites": [
+            "wiki:box:1385842480:side-2"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing; US Navy Fifth Fleet central headquarters base damaged by Iranian attacks",
+          "cites": [
+            "wiki:box:1385842480:status"
+          ]
+        },
+        {
+          "label": "Casualties (side 1)",
+          "text": "Several missiles and drones intercepted",
+          "cites": [
+            "wiki:box:1385842480:casualties-side-1-"
+          ]
+        },
+        {
+          "label": "Casualties (side 2)",
+          "text": "2 DOD employes wounded; 1 oil tanker damaged",
+          "cites": [
+            "wiki:box:1385842480:casualties-side-2-"
+          ]
+        },
+        {
+          "label": "Casualties",
+          "text": "1 civilian killed and 51 injured; 1 Bangladeshi civilian killed",
+          "cites": [
+            "wiki:box:1385842480:casualties"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-14T00:00:56Z",
+      "until": "2026-11-14T00:01:03Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The National News",
+          "text": "Open",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/",
+          "cites": [
+            "wiki:2026-11-14:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-14T00:01:04Z",
+      "until": "2026-11-14T00:01:10Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-14:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385842480:66"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Iranian_strikes_on_Bahrain:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138531790:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.003063
+  }
+}

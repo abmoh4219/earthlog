@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "id": "story-2026-11-09-the-pitt-rivers-museum-in-oxford",
+  "title": "The Pitt Rivers Museum in Oxford",
+  "subtitle": "Culture · 9 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-09T00:00:42Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -11.254999999999999,
+    "south": 43.7586,
+    "east": 8.745000000000001,
+    "north": 59.7586
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-09T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-09T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-09T00:00:18Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 36.745000000000005,
+      "lat": 30.64266,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:00:04Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:07Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:09Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:12Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:15Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:17Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:22Z",
+      "lon": 57.962674686127784,
+      "lat": 45.49578630468892,
+      "range": 19517403.582272217,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:24Z",
+      "lon": 57.962674686127784,
+      "lat": 45.49578630468892,
+      "range": 17673760.63339378,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:26Z",
+      "lon": 57.962674686127784,
+      "lat": 45.49578630468892,
+      "range": 16004270.937463216,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:30Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:32Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:34Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:37Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:38Z",
+      "lon": -1.255,
+      "lat": 51.0711,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:42Z",
+      "lon": -26.254999999999995,
+      "lat": 51.0711,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:01Z",
+      "text": "The Pitt Rivers Museum in Oxford, England, is returning the remains of 39 Naga people, collected during the British Raj, to a delegation from Nagaland, India, after six years of discussions over repatriation.",
+      "cites": [
+        "wiki:2026-11-09:4"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:11Z",
+      "text": "The museum is in Oxford, in the United Kingdom, and the reports place it there.",
+      "cites": [
+        "wiki:2026-11-09:4"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:19Z",
+      "text": "Nagaland, the Indian state receiving the remains, is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-09:4"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:28Z",
+      "text": "The story was reported by AFP and carried by France 24.",
+      "cites": [
+        "wiki:2026-11-09:4"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:36Z",
+      "text": "The sources are Wikipedia's current events page, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-09:4"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -1.255,
+    "lat": 51.7586,
+    "label": "Pitt Rivers Museum"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-09T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-09T00:00:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-09T00:00:27Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-09T00:00:35Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-09T00:00:28Z",
+      "until": "2026-11-09T00:00:35Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/live-news/20261109-oxford-museum-makes-historic-return-of-naga-human-remains",
+          "cites": [
+            "wiki:2026-11-09:4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-09T00:00:36Z",
+      "until": "2026-11-09T00:00:42Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-09:4"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-13T00:00:00Z",
+    "costUsd": 0.000522
+  }
+}

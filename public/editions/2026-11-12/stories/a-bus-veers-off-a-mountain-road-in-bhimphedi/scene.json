@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "id": "story-2026-11-12-a-bus-veers-off-a-mountain-road-in-bhimphedi",
+  "title": "A bus veers off a mountain road in Bhimphedi",
+  "subtitle": "Accident · 12 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-12T00:00:00Z",
+    "end": "2026-11-12T00:00:33Z"
+  },
+  "focus": "2026-11-12T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 75.125,
+    "south": 19.55,
+    "east": 95.125,
+    "north": 35.55
+  },
+  "imagery": {
+    "day": "2026-11-12",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-12T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-12T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "lon": 123.125,
+      "lat": 16.1175,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-12T00:00:04Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:07Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:09Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:12Z",
+      "lon": 85.125,
+      "lat": 27.55,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:15Z",
+      "lon": 85.125,
+      "lat": 27.55,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:17Z",
+      "lon": 85.125,
+      "lat": 27.55,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:20Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:23Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:25Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:28Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:29Z",
+      "lon": 85.125,
+      "lat": 26.8625,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:33Z",
+      "lon": 60.125,
+      "lat": 26.8625,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-12T00:00:01Z",
+      "text": "A bus veers off a mountain road in Bhimphedi, Nepal, killing ten people and wounding five more.",
+      "cites": [
+        "wiki:2026-11-12:9"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:11Z",
+      "text": "The event took place in Bhimphedi, Nepal, a mountain area where the bus left the road.",
+      "cites": [
+        "wiki:2026-11-12:9"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:19Z",
+      "text": "The report on this event is credited to AP.",
+      "cites": [
+        "wiki:2026-11-12:9"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:27Z",
+      "text": "This film draws on Wikipedia's Current events listing, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-12:9"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "NP",
+    "lon": 85.125,
+    "lat": 27.55,
+    "label": "Bhimphedi"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-12T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-12T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-12T00:00:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-12T00:00:19Z",
+      "until": "2026-11-12T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/nepal-van-accident-tihar-mountain-road-5a40f5b0091d0189f9185fbb833eb652",
+          "cites": [
+            "wiki:2026-11-12:9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-12T00:00:27Z",
+      "until": "2026-11-12T00:00:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-12:9"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T00:00:00Z",
+    "costUsd": 0.000418
+  }
+}

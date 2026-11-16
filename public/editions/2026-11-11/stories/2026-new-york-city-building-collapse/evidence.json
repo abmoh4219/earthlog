@@ -1,0 +1,140 @@
+[
+  {
+    "id": "wiki:2026-11-11:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-11T00:00:00Z",
+    "lon": -73.95383,
+    "lat": 40.63897,
+    "label": "Disaster: A 3-story apartment building collapses near a construction site in Brooklyn, New York City, United States, killing eight people and wounding 19 more.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893",
+    "quote": "A 3-story apartment building collapses near a construction site in Brooklyn, New York City, United States, killing eight people and wounding 19 more.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/eight-dead-new-york-building-collapse"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/building-collapse-brooklyn-kills-least-one-injures-10-2026-11-12/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q142131356:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "Wikidata: \"2026 New York City building collapse\" is an instance of structural failure",
+    "url": "https://www.wikidata.org/wiki/Q142131356",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385718195:5",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC)",
+    "quote": "The New York City Fire Department (FDNY) received the first 911 call reporting the collapse at 16:01 EST on November 11.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  },
+  {
+    "id": "wiki:rev:1385718195:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC)",
+    "quote": "On November 11, 2026, a three-story mixed-use building at 1321 Flatbush Avenue in Flatbush, a neighborhood in Brooklyn, New York City, United States, collapsed into an adjacent excavation site, killing eight people and injuring eighteen others.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  },
+  {
+    "id": "wd:Q142131356:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 New York City building collapse\": date 11 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142131356#P585"
+  },
+  {
+    "id": "wd:Q142131356:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 New York City building collapse\": location Flatbush",
+    "url": "https://www.wikidata.org/wiki/Q142131356#P276"
+  },
+  {
+    "id": "wd:Q142131356:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 New York City building collapse\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q142131356#P17"
+  },
+  {
+    "id": "wiki:box:1385718195:fatalities",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC): fatalities: 8",
+    "quote": "fatalities: 8",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  },
+  {
+    "id": "wiki:box:1385718195:injuries",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC): injuries: 18 (1 critically)",
+    "quote": "injuries: 18 (1 critically)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  },
+  {
+    "id": "wiki:box:1385718195:summary",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC): summary: Under investigation",
+    "quote": "summary: Under investigation",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  },
+  {
+    "id": "wiki:investigation:1385718195:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC): investigation",
+    "quote": "On March 20, 2026, the DOB ordered the stoppage of demolition at the neighboring construction site after inspectors found inadequate overhead protection for adjacent properties.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  },
+  {
+    "id": "wiki:investigation:1385718195:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC): investigation",
+    "quote": "When inspectors returned on April 23, they found that demolition had resumed despite the stop-work order and issued another violation.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  },
+  {
+    "id": "wiki:investigation:1385718195:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 New York City building collapse\" (revision of 2026-11-14 22:33 UTC): investigation",
+    "quote": "The DOB lifted the order on May 8 after the conditions were corrected. CBS News reported based on court records that the contractor targeted by the stop-work order had been sued \"at least 67 times since 2012\".",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_New_York_City_building_collapse&oldid=1385718195"
+  }
+]

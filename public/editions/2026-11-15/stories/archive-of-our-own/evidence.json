@@ -1,0 +1,236 @@
+[
+  {
+    "id": "wiki:2026-11-15:16",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Science & tech: Non-profit fanfiction repository website Archive of Our Own is restored to limited functionality 17 days after being targeted in a cyberattack.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_15&oldid=1385966128",
+    "quote": "Non-profit fanfiction repository website Archive of Our Own is restored to limited functionality 17 days after being targeted in a cyberattack.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/ao3-fandom-archive-transformative-9e752c2cf91409434fcde7188140d066"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "English Wikipedia: 860,729 readers of \"Archive of Our Own\" on 15 Nov 2026",
+    "value": 860729,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Archive_of_Our_Own:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "\"Archive of Our Own\": normally a median of 1,539 readers a day (8 to 60 days before)",
+    "value": 1539,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q27764876:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Wikidata: \"Archive of Our Own\" is an instance of service on Internet, fiction repository",
+    "url": "https://www.wikidata.org/wiki/Q27764876",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385849964:25",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Archive of Our Own\" (revision of 2026-11-15 15:22 UTC)",
+    "quote": "On 15 November 2026, the site came back online with limited functionality.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Archive_of_Our_Own&oldid=1385849964"
+  },
+  {
+    "id": "wiki:rev:1385849964:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Archive of Our Own\" (revision of 2026-11-15 15:22 UTC)",
+    "quote": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Archive_of_Our_Own&oldid=1385849964"
+  },
+  {
+    "id": "views:en:Archive_of_Our_Own:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Archive of Our Own\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Archive_of_Our_Own&range=latest-30"
+  },
+  {
+    "id": "views:ru:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 4,954 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 4954,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:de:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 4,475 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 4475,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:zh:AO3作品库:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 3,909 readers of \"AO3作品库\" on 15 November 2026",
+    "value": 3909,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/AO3%E4%BD%9C%E5%93%81%E5%BA%93"
+  },
+  {
+    "id": "views:es:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 3,634 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 3634,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:fr:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 2,782 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 2782,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:it:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 1,251 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 1251,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:pt:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 915 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 915,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:ja:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 160 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 160,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:nl:Archive_of_Our_Own:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 109 readers of \"Archive of Our Own\" on 15 November 2026",
+    "value": 109,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Archive_of_Our_Own"
+  },
+  {
+    "id": "views:fa:آرشیو_آف_آر_اون:2026-11-15",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 23 readers of \"آرشیو آف آر اون\" on 15 November 2026",
+    "value": 23,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%A2%D8%B1%D8%B4%DB%8C%D9%88_%D8%A2%D9%81_%D8%A2%D8%B1_%D8%A7%D9%88%D9%86"
+  },
+  {
+    "id": "wd:Q27764876:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": founded 2008-10-00",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P571"
+  },
+  {
+    "id": "hn:2026-11-15:Q27764876",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 5 stories with \"Archive of Our Own\" in the title in the 14 days to 15 November 2026",
+    "value": 5,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=Archive%20of%20Our%20Own&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q27764876:P137",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": operated by Organization for Transformative Works, headquartered in Arlington County",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P137"
+  },
+  {
+    "id": "wd:Q27764876:P127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": owned by: Organization for Transformative Works",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P127"
+  },
+  {
+    "id": "wd:Q27764876:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Archive of Our Own\": official website http://archiveofourown.org/",
+    "url": "https://www.wikidata.org/wiki/Q27764876#P856"
+  }
+]

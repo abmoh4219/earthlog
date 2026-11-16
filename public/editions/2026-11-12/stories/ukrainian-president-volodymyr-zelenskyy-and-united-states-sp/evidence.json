@@ -1,0 +1,178 @@
+[
+  {
+    "id": "wiki:2026-11-12:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-12T00:00:00Z",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Conflict: Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared Kushner announce that European representatives will join future peace negotiations with Russia, which Russian president Vladimir Putin agrees to while maintaining his territorial demands and rejecting foreign peacekeeping troops in Ukraine.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_12&oldid=1385702080",
+    "quote": "Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared Kushner announce that European representatives will join future peace negotiations with Russia, which Russian president Vladimir Putin agrees to while maintaining his territorial demands and rejecting foreign peacekeeping troops in Ukraine.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via New Straits Times",
+        "url": "https://www.nst.com.my/amp/world/world/2026/11/1576502/us-ukraine-say-europe-join-russia-talks-putin-sticks-hardline-stance"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/"
+      }
+    ]
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-10-30",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-10-30 at 98% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.984,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-10-31",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-10-31 at 97% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.972,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-01",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-01 at 97% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.966,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-02",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-02 at 97% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.971,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-03",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-03 at 90% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.904,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-04",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-04 at 88% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.881,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-05",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-05 at 93% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.933,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-06",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-06 at 93% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.929,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-07",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-07 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.944,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-08",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-08 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.942,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-09",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-09 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.944,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-10",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-10 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.94,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-11",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-11 at 97% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.969,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-12",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-12 at 97% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.971,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  }
+]

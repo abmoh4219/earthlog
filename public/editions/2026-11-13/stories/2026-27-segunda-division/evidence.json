@@ -1,0 +1,75 @@
+[
+  {
+    "id": "wiki:2026-11-13:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Sports: In association football, the Royal Spanish Football Federation suspends FC Andorra goalkeeper Jesús Owono for 12 matches following a collision with CD Tenerife forward Jesús de Miguel during a November 2 match, which resulted in de Miguel's death.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806",
+    "quote": "In association football, the Royal Spanish Football Federation suspends FC Andorra goalkeeper Jesús Owono for 12 matches following a collision with CD Tenerife forward Jesús de Miguel during a November 2 match, which resulted in de Miguel's death.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/11/14/jesus-de-miguel-death-goalkeeper-owono-12-match-ban-collision-tenerife-andorra"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q139897969:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Wikidata: \"2026–27 Segunda División\" is an instance of sports season",
+    "url": "https://www.wikidata.org/wiki/Q139897969",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385882271:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026–27 Segunda División\" (revision of 2026-11-15 19:54 UTC)",
+    "quote": "On 3 November 2026, Tenerife player Jesús de Miguel died while on Tenerife's match against FC Andorra previous day, following a collision with Andorra goalkeeper Jesús Owono.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026%E2%80%9327_Segunda_Divisi%C3%B3n&oldid=1385882271"
+  },
+  {
+    "id": "wiki:rev:1385882271:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026–27 Segunda División\" (revision of 2026-11-15 19:54 UTC)",
+    "quote": "The 2026–27 La Liga 2, also known as La Liga Hypermotion due to sponsorship reasons, is the 96th season of the Segunda División since its establishment in Spain.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026%E2%80%9327_Segunda_Divisi%C3%B3n&oldid=1385882271"
+  },
+  {
+    "id": "views:en:2026–27_Segunda_División:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026–27 Segunda División\", 15 October 2026 to 13 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026%E2%80%9327_Segunda_Divisi%C3%B3n&range=latest-30"
+  },
+  {
+    "id": "wd:Q139897969:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026–27 Segunda División\": sport association football",
+    "url": "https://www.wikidata.org/wiki/Q139897969#P641"
+  },
+  {
+    "id": "wd:Q139897969:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026–27 Segunda División\": country Spain",
+    "url": "https://www.wikidata.org/wiki/Q139897969#P17"
+  }
+]

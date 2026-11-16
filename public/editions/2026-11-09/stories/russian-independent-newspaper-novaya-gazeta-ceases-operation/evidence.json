@@ -1,0 +1,59 @@
+[
+  {
+    "id": "wiki:2026-11-09:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-09T00:00:00Z",
+    "lon": 37.61777778,
+    "lat": 55.75583333,
+    "label": "Politics: Russian independent newspaper Novaya Gazeta ceases operations as it closes its offices in Moscow, citing pressure from Russian authorities and security services, including restrictions on its operations, loss of media registration, and blocked donations.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_9&oldid=1385079275",
+    "quote": "Russian independent newspaper Novaya Gazeta ceases operations as it closes its offices in Moscow, citing pressure from Russian authorities and security services, including restrictions on its operations, loss of media registration, and blocked donations.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/russian-newspaper-media-novaya-gazeta-closure-01cca444cb9636ee74a57979b0dcd604"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q4503889:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "label": "Wikidata: \"censorship in Russia\" is an instance of censorship by country",
+    "url": "https://www.wikidata.org/wiki/Q4503889",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1370578503:154",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Censorship in Russia\" (revision of 2026-08-21 22:58 UTC)",
+    "quote": "Since 1 November the register of forbidden sites on the Russian segment of Internet works.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Censorship_in_Russia&oldid=1370578503"
+  },
+  {
+    "id": "wiki:rev:1370578503:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Censorship in Russia\" (revision of 2026-08-21 22:58 UTC)",
+    "quote": "The constitution of the Russian Federation prohibits censorship in paragraph 5 of Article 29.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Censorship_in_Russia&oldid=1370578503"
+  },
+  {
+    "id": "views:en:Censorship_in_Russia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Censorship in Russia\", 11 October 2026 to 9 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Censorship_in_Russia&range=latest-30"
+  }
+]

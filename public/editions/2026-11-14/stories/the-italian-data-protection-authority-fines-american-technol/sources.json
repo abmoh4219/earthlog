@@ -1,0 +1,34 @@
+[
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia, Current events",
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Wikipedia contributors",
+    "retrievedAt": "2026-11-16T12:04:58Z"
+  },
+  {
+    "id": "outlet:aljazeera",
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "Al Jazeera",
+    "retrievedAt": "2026-11-16T12:04:10Z"
+  },
+  {
+    "id": "outlet:bbc",
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "BBC News",
+    "retrievedAt": "2026-11-16T12:04:10Z"
+  },
+  {
+    "id": "outlet:dw",
+    "name": "DW",
+    "url": "https://www.dw.com/en",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "DW",
+    "retrievedAt": "2026-11-16T12:04:10Z"
+  }
+]

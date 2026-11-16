@@ -1,0 +1,574 @@
+{
+  "version": 1,
+  "id": "story-2026-11-15-zelenskyy-urges-removal-of-starshield-limits-on-ukraine",
+  "title": "Volodymyr Zelenskyy",
+  "subtitle": "People · 15 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-15T00:00:00Z",
+    "end": "2026-11-15T00:01:28Z"
+  },
+  "focus": "2026-11-15T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 22.14,
+    "south": 41.72,
+    "east": 42.14,
+    "north": 57.72
+  },
+  "imagery": {
+    "day": "2026-11-15",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-15T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-15T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "lon": 70.13999999999999,
+      "lat": 28.557,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-15T00:00:04Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:14Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:23Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:26Z",
+      "lon": 33.39,
+      "lat": 47.01,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:29Z",
+      "lon": 33.39,
+      "lat": 47.01,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:31Z",
+      "lon": 33.39,
+      "lat": 47.01,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:34Z",
+      "lon": 36.70619399079424,
+      "lat": 46.46612370831644,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:00:38Z",
+      "lon": 36.70619399079424,
+      "lat": 46.46612370831644,
+      "range": 19921847.303902317,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:41Z",
+      "lon": 36.70619399079424,
+      "lat": 46.46612370831644,
+      "range": 18040000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:44Z",
+      "lon": 36.70619399079424,
+      "lat": 46.46612370831644,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:50Z",
+      "lon": 36.70619399079424,
+      "lat": 46.46612370831644,
+      "range": 19921847.303902317,
+      "heading": -13.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:55Z",
+      "lon": 36.70619399079424,
+      "lat": 46.46612370831644,
+      "range": 18040000,
+      "heading": -27.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:00:59Z",
+      "lon": 32.77628406038673,
+      "lat": 48.516688808571224,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:01:01Z",
+      "lon": 32.77628406038673,
+      "lat": 48.516688808571224,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:04Z",
+      "lon": 32.77628406038673,
+      "lat": 48.516688808571224,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:07Z",
+      "lon": 32.77628406038673,
+      "lat": 48.516688808571224,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:14Z",
+      "lon": 32.77628406038673,
+      "lat": 48.516688808571224,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:20Z",
+      "lon": 32.77628406038673,
+      "lat": 48.516688808571224,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:23Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-15T00:01:24Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:25Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-15T00:01:28Z",
+      "lon": 7.139999999999986,
+      "lat": 47.595,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-15T00:00:01Z",
+      "text": "Zelenskyy has urged the removal of Starshield limits on Ukraine, according to DW.",
+      "cites": [
+        "news:dw:505b8186cf0a"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:08Z",
+      "text": "As well as visiting Ukrainian troops on the frontlines, Zelenskyy has often met world leaders, urging the international community to support Ukraine's resistance and its efforts to end Russia's war.",
+      "cites": [
+        "wiki:rev:1385471664:2"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:15Z",
+      "text": "Volodymyr Oleksandrovych Zelenskyy, born 25 January 1978, is a Ukrainian politician and former entertainer who has served as the sixth president of Ukraine since 2019.",
+      "cites": [
+        "wiki:rev:1385471664:0"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:25Z",
+      "text": "Volodymyr Zelenskyy was born on 25 January 1978 in Kryvyi Rih.",
+      "cites": [
+        "wd:Q3874799:P569",
+        "wd:Q3874799:P19"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:33Z",
+      "text": "He was educated at Kryvyi Rih Lyceum 95 and Kryvyi Rih Institute of Economics.",
+      "cites": [
+        "wd:Q3874799:P69:Q134446124",
+        "wd:Q3874799:P69:Q12114704"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:37Z",
+      "text": "He worked for Kvartal 95, Inter, 1+1 and the Office of the President of Ukraine, in Kryvyi Rih and Kyiv.",
+      "cites": [
+        "wd:Q3874799:P108:Q4444575",
+        "wd:Q3874799:P108:Q2914786",
+        "wd:Q3874799:P108:Q161257",
+        "wd:Q3874799:P108:Q5764175",
+        "wd:Q3874799:P937:Q157137",
+        "wd:Q3874799:P937:Q1899"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:43Z",
+      "text": "Wikidata lists 35 awards on record, among them The Cross of Good Neighbourliness and Order of the Republic, both from 2026.",
+      "cites": [
+        "wd:Q3874799:P166:Q4375456"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:00:49Z",
+      "text": "He is known for Servant of the People.",
+      "cites": [
+        "wd:Q3874799:P800:Q21546165"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:06Z",
+      "text": "Al Jazeera headlined its report “Starshield restrictions help Russia’s energy attacks on Ukraine: Zelenskyy”.",
+      "cites": [
+        "news:aljazeera:d16b98a3f374"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:13Z",
+      "text": "DW headlined its report “Zelenskyy urges removal of Starshield limits on Ukraine”.",
+      "cites": [
+        "news:dw:505b8186cf0a"
+      ]
+    },
+    {
+      "t": "2026-11-15T00:01:22Z",
+      "text": "This film draws on Al Jazeera and DW reporting, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385471664:2",
+        "views:en:Volodymyr_Zelenskyy:30d",
+        "wd:Q3874799:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "UA",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Ukraine"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-15T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-15T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-15T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-15T00:00:42Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-15T00:00:56Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-15T00:01:05Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-15T00:01:21Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-15T00:00:33Z",
+      "until": "2026-11-15T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1978 born",
+          "text": "Kryvyi Rih",
+          "cites": [
+            "wd:Q3874799:P19"
+          ]
+        },
+        {
+          "label": "1978–",
+          "text": "Kryvyi Rih",
+          "cites": [
+            "wd:Q3874799:P551:Q157137"
+          ]
+        },
+        {
+          "label": "1985–95",
+          "text": "Kryvyi Rih Lyceum 95",
+          "cites": [
+            "wd:Q3874799:P69:Q134446124"
+          ]
+        },
+        {
+          "label": "1995–2000",
+          "text": "Kryvyi Rih Institute of Economics",
+          "cites": [
+            "wd:Q3874799:P69:Q12114704"
+          ]
+        },
+        {
+          "label": "2019–",
+          "text": "Mariinskyi Palace",
+          "cites": [
+            "wd:Q3874799:P551:Q732489"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "Kvartal 95",
+          "cites": [
+            "wd:Q3874799:P108:Q4444575"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "Inter",
+          "cites": [
+            "wd:Q3874799:P108:Q2914786"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "1+1",
+          "cites": [
+            "wd:Q3874799:P108:Q161257"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "Office of the President of Ukraine",
+          "cites": [
+            "wd:Q3874799:P108:Q5764175"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-15T00:00:43Z",
+      "until": "2026-11-15T00:00:56Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2003",
+          "text": "Honorary Diploma of the Cabinet of Ministers of Ukraine",
+          "cites": [
+            "wd:Q3874799:P166:Q4375456"
+          ]
+        },
+        {
+          "label": "2022",
+          "text": "Financial Times Person of the Year",
+          "cites": [
+            "wd:Q3874799:P166:Q5449677"
+          ]
+        },
+        {
+          "label": "2022",
+          "text": "Time Person of the Year",
+          "cites": [
+            "wd:Q3874799:P166:Q207826"
+          ]
+        },
+        {
+          "label": "2022",
+          "text": "Profile in Courage Award",
+          "cites": [
+            "wd:Q3874799:P166:Q219070"
+          ]
+        },
+        {
+          "label": "2022",
+          "text": "Grand Cross with collar of the Order of Vytautas the Great",
+          "cites": [
+            "wd:Q3874799:P166:Q23058092"
+          ]
+        },
+        {
+          "label": "2022",
+          "text": "Order of Viesturs, 1st class",
+          "cites": [
+            "wd:Q3874799:P166:Q130376438"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "Servant of the People",
+          "cites": [
+            "wd:Q3874799:P800:Q21546165"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-15T00:01:06Z",
+      "until": "2026-11-15T00:01:21Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy",
+          "cites": [
+            "news:aljazeera:d16b98a3f374"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/zelenskyy-urges-removal-of-starshield-limits-on-ukraine/a-79953300",
+          "cites": [
+            "news:dw:505b8186cf0a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-15T00:01:22Z",
+      "until": "2026-11-15T00:01:28Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385471664:2"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Volodymyr_Zelenskyy:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q3874799:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:09:28Z",
+    "costUsd": 0.003156
+  }
+}

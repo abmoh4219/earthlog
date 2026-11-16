@@ -1,0 +1,51 @@
+[
+  {
+    "id": "news:bbc:2836d51dacc7",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "BBC News: New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision (14:33 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o",
+    "quote": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:ca1e6375eb3b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "The Guardian: US officials recover audio from ‘Mississippi miracle’ cruise ship and tanker crash (23:20 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/15/audio-new-orleans-mississippi-river-cruise-tanker-crash",
+    "quote": "US officials recover audio from ‘Mississippi miracle’ cruise ship and tanker crash",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385369731:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mississippi River\" (revision of 2026-11-13 00:40 UTC)",
+    "quote": "The Mississippi River is the primary river of the largest drainage basin in the United States.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mississippi_River&oldid=1385369731"
+  },
+  {
+    "id": "views:en:Mississippi_River:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Mississippi River\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Mississippi_River&range=latest-30"
+  },
+  {
+    "id": "wd:Q1497:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mississippi River\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q1497#P17"
+  }
+]

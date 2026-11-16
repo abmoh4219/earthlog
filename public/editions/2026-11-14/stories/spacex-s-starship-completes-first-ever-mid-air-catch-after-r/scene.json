@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-spacex-s-starship-completes-first-ever-mid-air-catch-after-r",
+  "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+  "subtitle": "Science and space · 14 November 2026 · headline from France 24",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:00:44Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": 48,
+      "lat": 15,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:10Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 27890586.225463238,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:15Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 25255999.999999996,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:18Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": -12,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:27Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 29542322.18360635,
+      "heading": -10,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:36Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 28335999.999999996,
+      "heading": -8,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:39Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 52800000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:40Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 43296000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:44Z",
+      "lon": -15,
+      "lat": 25,
+      "range": 129888000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "France 24 reports that SpaceX's Starship completed the first-ever mid-air catch after returning from orbit.",
+      "cites": [
+        "news:france24:ffcd9c7babb7"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:08Z",
+      "text": "BBC News, DW and The Guardian also covered the story.",
+      "cites": [
+        "news:bbc:6756af101ccd",
+        "news:dw:a4ef41f2a49e",
+        "news:guardian:b10be80ef7c5"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:17Z",
+      "text": "France 24 headlined the story: “SpaceX's Starship completes first-ever mid-air catch after return from orbit”.",
+      "cites": [
+        "news:france24:ffcd9c7babb7"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:23Z",
+      "text": "BBC News headlined its story: “Second catch attempt as SpaceX Starship rocket heads back to Earth”.",
+      "cites": [
+        "news:bbc:6756af101ccd"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:29Z",
+      "text": "DW headlined its story: “SpaceX carries out first-ever spaceship capture”.",
+      "cites": [
+        "news:dw:a4ef41f2a49e"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:38Z",
+      "text": "The sources are France 24, BBC News, DW and The Guardian, and each caption links to the evidence it rests on.",
+      "cites": [
+        "news:france24:ffcd9c7babb7",
+        "news:bbc:6756af101ccd",
+        "news:dw:a4ef41f2a49e",
+        "news:guardian:b10be80ef7c5"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:16Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-14T00:00:37Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-14T00:00:17Z",
+      "until": "2026-11-14T00:00:37Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+          "cites": [
+            "news:france24:ffcd9c7babb7"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo",
+          "cites": [
+            "news:bbc:6756af101ccd"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/spacex-carries-out-first-ever-spaceship-capture/a-79950275",
+          "cites": [
+            "news:dw:a4ef41f2a49e"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+          "cites": [
+            "news:guardian:b10be80ef7c5"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.00066
+  }
+}

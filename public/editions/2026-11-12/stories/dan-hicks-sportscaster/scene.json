@@ -1,0 +1,691 @@
+{
+  "version": 1,
+  "id": "story-2026-11-12-dan-hicks-sportscaster",
+  "title": "Dan Hicks (sportscaster)",
+  "subtitle": "People · 12 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-12T00:00:00Z",
+    "end": "2026-11-12T00:01:18Z"
+  },
+  "focus": "2026-11-12T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -82.7,
+    "south": 33.6,
+    "east": -62.7,
+    "north": 49.6
+  },
+  "imagery": {
+    "day": "2026-11-12",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-12T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-12T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "lon": -34.69999999999999,
+      "lat": 24.5475,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-12T00:00:04Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:14Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:23Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:27Z",
+      "lon": -110.92638888889,
+      "lat": 31.321666666667,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:29Z",
+      "lon": -110.92638888889,
+      "lat": 31.321666666667,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:31Z",
+      "lon": -110.92638888889,
+      "lat": 31.321666666667,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:35Z",
+      "lon": -99.46034425621804,
+      "lat": 34.386738582370704,
+      "range": 11321312.989646047,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:38Z",
+      "lon": -99.46034425621804,
+      "lat": 34.386738582370704,
+      "range": 10251884.93906429,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:41Z",
+      "lon": -99.46034425621804,
+      "lat": 34.386738582370704,
+      "range": 9283476.651509758,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:45Z",
+      "lon": -72.7,
+      "lat": 40.7,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:47Z",
+      "lon": -72.7,
+      "lat": 40.7,
+      "range": 814984.6624323674,
+      "heading": -26.9,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:49Z",
+      "lon": -72.7,
+      "lat": 40.7,
+      "range": 738000,
+      "heading": -35.8,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:53Z",
+      "lon": -93.03629027827998,
+      "lat": 36.788208795756454,
+      "range": 8439970.937844623,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:56Z",
+      "lon": -93.03629027827998,
+      "lat": 36.788208795756454,
+      "range": 7642718.739686991,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:58Z",
+      "lon": -93.03629027827998,
+      "lat": 36.788208795756454,
+      "range": 6920776.16903259,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:02Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 1760000,
+      "heading": -15,
+      "pitch": -52,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:01:06Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 1593747.7843121854,
+      "heading": -27.1,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:10Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 1443200,
+      "heading": -39.2,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:13Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:14Z",
+      "lon": -72.7,
+      "lat": 40.9125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:18Z",
+      "lon": -97.69999999999999,
+      "lat": 40.9125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-12T00:00:01Z",
+      "text": "Hicks died from an acute illness on November 11, 2026, at the age of 64.",
+      "cites": [
+        "wiki:rev:1385907272:89"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:08Z",
+      "text": "He was a lead announcer for Golf on NBC from 2000, and the lead play-by-play announcer for Notre Dame Football on NBC from 2013 to 2016 and again from 2024, covering 16 Olympic Games.",
+      "cites": [
+        "wiki:rev:1385907272:1"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:15Z",
+      "text": "John Daniel Hicks, born June 2, 1962, was an American sportscaster who worked for NBC Sports from 1992 until his death.",
+      "cites": [
+        "wiki:rev:1385907272:0"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:25Z",
+      "text": "Dan Hicks was born on 2 June 1962 in Tucson.",
+      "cites": [
+        "wd:Q5213677:P569",
+        "wd:Q5213677:P19"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:33Z",
+      "text": "He was educated at the University of Arizona.",
+      "cites": [
+        "wd:Q5213677:P69:Q503419"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:43Z",
+      "text": "Dan Hicks died on 11 November 2026 in Connecticut, aged 64.",
+      "cites": [
+        "wd:Q5213677:P570",
+        "wd:Q5213677:P20",
+        "wd:Q5213677:P569"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:51Z",
+      "text": "Readers also turned to the article on Hannah Storm, which drew 127,755 readers.",
+      "cites": [
+        "views:en:Hannah_Storm:2026-11-12"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:00Z",
+      "text": "On 12 November 2026, 157,094 people read his article, about 2,213 times the usual daily level.",
+      "cites": [
+        "views:en:Dan_Hicks_(sportscaster):2026-11-12",
+        "views:en:Dan_Hicks_(sportscaster):prior"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:12Z",
+      "text": "This explainer draws on Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385907272:89",
+        "views:en:Dan_Hicks_(sportscaster):2026-11-12",
+        "wd:Q5213677:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -72.7,
+    "lat": 41.6,
+    "label": "Connecticut"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-12T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-12T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-12T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-12T00:00:50Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-12T00:00:59Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-12T00:01:11Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-12T00:00:33Z",
+      "until": "2026-11-12T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1962 born",
+          "text": "Tucson",
+          "cites": [
+            "wd:Q5213677:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "University of Arizona",
+          "cites": [
+            "wd:Q5213677:P69:Q503419"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Connecticut",
+          "cites": [
+            "wd:Q5213677:P20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-12T00:01:00Z",
+      "until": "2026-11-12T00:01:11Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Dan Hicks (sportscaster)",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-14",
+              "y": 71
+            },
+            {
+              "x": "10-15",
+              "y": 53
+            },
+            {
+              "x": "10-16",
+              "y": 48
+            },
+            {
+              "x": "10-17",
+              "y": 71
+            },
+            {
+              "x": "10-18",
+              "y": 160
+            },
+            {
+              "x": "10-19",
+              "y": 48
+            },
+            {
+              "x": "10-20",
+              "y": 52
+            },
+            {
+              "x": "10-21",
+              "y": 54
+            },
+            {
+              "x": "10-22",
+              "y": 39
+            },
+            {
+              "x": "10-23",
+              "y": 48
+            },
+            {
+              "x": "10-24",
+              "y": 24
+            },
+            {
+              "x": "10-25",
+              "y": 28
+            },
+            {
+              "x": "10-26",
+              "y": 33
+            },
+            {
+              "x": "10-27",
+              "y": 38
+            },
+            {
+              "x": "10-28",
+              "y": 92
+            },
+            {
+              "x": "10-29",
+              "y": 297
+            },
+            {
+              "x": "10-30",
+              "y": 85
+            },
+            {
+              "x": "10-31",
+              "y": 72
+            },
+            {
+              "x": "11-01",
+              "y": 84
+            },
+            {
+              "x": "11-02",
+              "y": 97
+            },
+            {
+              "x": "11-03",
+              "y": 52
+            },
+            {
+              "x": "11-04",
+              "y": 44
+            },
+            {
+              "x": "11-05",
+              "y": 31
+            },
+            {
+              "x": "11-06",
+              "y": 29
+            },
+            {
+              "x": "11-07",
+              "y": 43
+            },
+            {
+              "x": "11-08",
+              "y": 134
+            },
+            {
+              "x": "11-09",
+              "y": 115
+            },
+            {
+              "x": "11-10",
+              "y": 44
+            },
+            {
+              "x": "11-11",
+              "y": 58
+            },
+            {
+              "x": "11-12",
+              "y": 157094
+            }
+          ],
+          "cites": [
+            "views:en:Dan_Hicks_(sportscaster):30d"
+          ]
+        },
+        {
+          "label": "Hannah Storm",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-14",
+              "y": 160
+            },
+            {
+              "x": "10-15",
+              "y": 144
+            },
+            {
+              "x": "10-16",
+              "y": 174
+            },
+            {
+              "x": "10-17",
+              "y": 236
+            },
+            {
+              "x": "10-18",
+              "y": 692
+            },
+            {
+              "x": "10-19",
+              "y": 147
+            },
+            {
+              "x": "10-20",
+              "y": 159
+            },
+            {
+              "x": "10-21",
+              "y": 163
+            },
+            {
+              "x": "10-22",
+              "y": 152
+            },
+            {
+              "x": "10-23",
+              "y": 199
+            },
+            {
+              "x": "10-24",
+              "y": 170
+            },
+            {
+              "x": "10-25",
+              "y": 160
+            },
+            {
+              "x": "10-26",
+              "y": 148
+            },
+            {
+              "x": "10-27",
+              "y": 112
+            },
+            {
+              "x": "10-28",
+              "y": 360
+            },
+            {
+              "x": "10-29",
+              "y": 918
+            },
+            {
+              "x": "10-30",
+              "y": 408
+            },
+            {
+              "x": "10-31",
+              "y": 272
+            },
+            {
+              "x": "11-01",
+              "y": 323
+            },
+            {
+              "x": "11-02",
+              "y": 265
+            },
+            {
+              "x": "11-03",
+              "y": 237
+            },
+            {
+              "x": "11-04",
+              "y": 140
+            },
+            {
+              "x": "11-05",
+              "y": 117
+            },
+            {
+              "x": "11-06",
+              "y": 126
+            },
+            {
+              "x": "11-07",
+              "y": 146
+            },
+            {
+              "x": "11-08",
+              "y": 233
+            },
+            {
+              "x": "11-09",
+              "y": 171
+            },
+            {
+              "x": "11-10",
+              "y": 174
+            },
+            {
+              "x": "11-11",
+              "y": 154
+            },
+            {
+              "x": "11-12",
+              "y": 127755
+            }
+          ],
+          "cites": [
+            "views:en:Hannah_Storm:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-12T00:01:12Z",
+      "until": "2026-11-12T00:01:18Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385907272:89"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Dan_Hicks_(sportscaster):2026-11-12"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q5213677:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T00:00:00Z",
+    "costUsd": 0.000912
+  }
+}

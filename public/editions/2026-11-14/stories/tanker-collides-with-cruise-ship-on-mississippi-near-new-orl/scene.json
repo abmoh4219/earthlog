@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-tanker-collides-with-cruise-ship-on-mississippi-near-new-orl",
+  "title": "Mississippi River",
+  "subtitle": "News · 14 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:00:53Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -100.04,
+    "south": 22,
+    "east": -80.04,
+    "north": 38
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-14T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-14T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": -52.04000000000002,
+      "lat": 17.5875,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:10Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:16Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:19Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:22Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:24Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:27Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 1100000,
+      "heading": 0,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:36Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 1055082.9351287982,
+      "heading": 2,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:45Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 1012000,
+      "heading": 4,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:48Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:49Z",
+      "lon": -90.04,
+      "lat": 29.3125,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:53Z",
+      "lon": -115.04000000000002,
+      "lat": 29.3125,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "Every passenger and crew member was accounted for after a boat crash in New Orleans, which The Guardian called a ‘miracle on the Mississippi’.",
+      "cites": [
+        "news:guardian:315e43dca758"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:09Z",
+      "text": "The Mississippi River is the primary river of the largest drainage basin in the United States.",
+      "cites": [
+        "wiki:rev:1385369731:0"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:26Z",
+      "text": "The Guardian headlined the story “All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’”.",
+      "cites": [
+        "news:guardian:315e43dca758"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:32Z",
+      "text": "France 24 ran the headline “USA: All passengers survive after tanker hits docked river cruise ship in New Orleans”.",
+      "cites": [
+        "news:france24:196361a3fb34"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:38Z",
+      "text": "Under its own headline, BBC News reported “Watch: Cruise ship overturns after collision with tanker in New Orleans”.",
+      "cites": [
+        "news:bbc:db67b4f4eace"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:47Z",
+      "text": "The sources for this film are The Guardian, France 24 and BBC News, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1385369731:0",
+        "views:en:Mississippi_River:30d",
+        "wd:Q1497:P17"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -90.04,
+    "lat": 30,
+    "label": "New Orleans"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-14T00:00:25Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-14T00:00:46Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-14T00:00:26Z",
+      "until": "2026-11-14T00:00:46Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+          "cites": [
+            "news:guardian:315e43dca758"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
+          "cites": [
+            "news:france24:196361a3fb34"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o",
+          "cites": [
+            "news:bbc:db67b4f4eace"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-14T00:00:47Z",
+      "until": "2026-11-14T00:00:53Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385369731:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Mississippi_River:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1497:P17"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.002341
+  }
+}

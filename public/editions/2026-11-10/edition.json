@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-16T11:47:23Z",
+  "candidates": 34,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "david-walliams",
+      "lens": "person",
+      "title": "David Walliams",
+      "summary": "British news outlets The Guardian and ITV News identify comedian and author David Walliams as the subject of sexual misconduct allegations after the High Court of Justice rejects his attempt to prevent their publication. Walliams denies the allegations.",
+      "about": "David Edward Williams, known professionally as David Walliams, is an English actor, comedian, writer and television personality. He rose to prominence for his work with Matt Lucas on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011).",
+      "article": {
+        "title": "David Walliams",
+        "url": "https://en.wikipedia.org/wiki/David_Walliams",
+        "qid": "Q359665"
+      },
+      "place": {
+        "name": "United Kingdom",
+        "lon": -2.12,
+        "lat": 54.4,
+        "country": "GB",
+        "role": "Country of citizenship",
+        "evidence": "wd:Q359665:P27"
+      },
+      "continent": "Europe",
+      "heat": 100,
+      "why": [
+        "Listed on Wikipedia's Current events",
+        "Read by 652,000 on Wikipedia that day"
+      ],
+      "readers": 651921,
+      "spike": 220.5,
+      "sources": 2,
+      "related": [
+        "Lara Stone"
+      ],
+      "evidence": [
+        "wiki:2026-11-10:16",
+        "views:en:David_Walliams:2026-11-10",
+        "views:en:David_Walliams:prior",
+        "views:en:Lara_Stone:2026-11-10",
+        "views:en:Lara_Stone:prior",
+        "wd:Q359665:P31"
+      ],
+      "headline": "British news outlets The Guardian and ITV News identify comedian and author David Walliams as the subject of sexual misconduct allegations after the High Court of Justice rejects his attempt to prevent their…"
+    },
+    {
+      "slug": "ss-edmund-fitzgerald",
+      "lens": "accident",
+      "title": "SS Edmund Fitzgerald",
+      "summary": "Great Lakes freighter sunk in Lake Superior",
+      "about": "SS Edmund Fitzgerald was an American Great Lakes freighter that sank in Lake Superior during a storm on November 10, 1975, with the loss of the entire crew of 29 men. When launched on June 7, 1958, she was the largest ship on North America's Great Lakes and remains the largest to have sunk there. Her wreck was located in deep water on November 14, 1975, by a U.S. Navy aircraft detecting magnetic anomalies, and soon afterwards found to be in two large pieces.",
+      "article": {
+        "title": "SS Edmund Fitzgerald",
+        "url": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald",
+        "qid": "Q1286267"
+      },
+      "place": {
+        "name": "SS Edmund Fitzgerald",
+        "lon": -85.11,
+        "lat": 46.998333333333,
+        "country": "CA",
+        "role": "Location",
+        "evidence": "wd:Q1286267:P625"
+      },
+      "continent": "North America",
+      "heat": 81,
+      "why": [
+        "Has its own Wikipedia article as an event",
+        "Read by 164,000 on Wikipedia that day"
+      ],
+      "readers": 163598,
+      "spike": 54.5,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:SS_Edmund_Fitzgerald:2026-11-10",
+        "views:en:SS_Edmund_Fitzgerald:prior",
+        "wd:Q1286267:P31"
+      ],
+      "headline": "Captain Peter Pulcer was known for playing music day or night over the ship's intercom while passing through the St. Clair and Detroit rivers (between Lake Huron and Lake Erie),…"
+    },
+    {
+      "slug": "a-third-round-of-united-states-mediated-talks-between-ukrain",
+      "lens": "conflict",
+      "title": "A third round of United States-mediated talks between Ukrainian and Russian…",
+      "summary": "A third round of United States-mediated talks between Ukrainian and Russian delegations begins in Abu Dhabi, United Arab Emirates, focusing on the humanitarian impact of the war, prisoners of war, and security guarantees. Earlier in the day, the American and Ukrainian teams held a separate meeting with representatives of France, Germany, Italy, the United Kingdom, the European Commission, and NATO.",
+      "article": {
+        "title": "2026 United States–Ukraine–Russia meetings in Abu Dhabi",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Ukraine%E2%80%93Russia_meetings_in_Abu_Dhabi",
+        "qid": "Q137969305"
+      },
+      "place": {
+        "name": "Abu Dhabi",
+        "lon": 54.36666667,
+        "lat": 24.46666667,
+        "country": "AE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:1"
+      },
+      "continent": "Asia",
+      "heat": 61,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 3,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:1",
+        "wd:Q137969305:P31"
+      ],
+      "headline": "A third round of United States-mediated talks between Ukrainian and Russian delegations begins in Abu Dhabi, United Arab Emirates, focusing on the humanitarian impact of the war, prisoners of war,…"
+    },
+    {
+      "slug": "the-thai-cabinet-approves-new-environmental-regulations-for",
+      "lens": "general",
+      "title": "The Thai cabinet approves new environmental regulations for data centers",
+      "summary": "The Thai cabinet approves new environmental regulations for data centers, including limits on noise and temperature increases, requirements for cooling-water recycling and testing, and industrial zoning for facilities consuming more than 20 megawatts.",
+      "article": {
+        "title": "AI boom",
+        "url": "https://en.wikipedia.org/wiki/AI_boom",
+        "qid": "Q117336820"
+      },
+      "place": {
+        "name": "Thailand",
+        "lon": 101.07,
+        "lat": 15.46,
+        "country": "TH",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:10"
+      },
+      "continent": "Asia",
+      "heat": 61,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 3,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:10",
+        "wiki:2026-11-10:18",
+        "wd:Q117336820:P31"
+      ],
+      "headline": "The Thai cabinet approves new environmental regulations for data centers, including limits on noise and temperature increases, requirements for cooling-water recycling and testing,…"
+    },
+    {
+      "slug": "toukie-smith",
+      "lens": "person",
+      "title": "Toukie Smith",
+      "summary": "American actress and model (1952–2026)",
+      "about": "Doris A. Smith, known professionally as Toukie Smith, was an American actress and model. She was best known for her role as Eva Rawley on the NBC sitcom 227 (1989–90). She was the sister of fashion designer Willi Smith.",
+      "article": {
+        "title": "Toukie Smith",
+        "url": "https://en.wikipedia.org/wiki/Toukie_Smith",
+        "qid": "Q7828852"
+      },
+      "place": {
+        "name": "New York City",
+        "lon": -74.00611111111111,
+        "lat": 40.71277777777778,
+        "country": "US",
+        "role": "Place of death",
+        "evidence": "wd:Q7828852:P20"
+      },
+      "continent": "North America",
+      "heat": 60,
+      "why": [
+        "Died this week",
+        "Read by 73,000 on Wikipedia that day"
+      ],
+      "readers": 73111,
+      "spike": 198.7,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Toukie_Smith:2026-11-10",
+        "views:en:Toukie_Smith:prior",
+        "wd:Q7828852:P31"
+      ],
+      "headline": "Doris A. Smith (September 25, 1952 – November 4, 2026), known professionally as Toukie Smith, was an American actress and model."
+    },
+    {
+      "slug": "eight-people",
+      "lens": "conflict",
+      "title": "Eight people",
+      "summary": "Eight people, including five workers and two police reservists, are killed by suspected al-Shabaab militants in Mandera County, Kenya, near the border with Somalia, during an ambush against a vehicle.",
+      "article": {
+        "title": "Terrorism in Kenya, Somali Civil War",
+        "url": "https://en.wikipedia.org/wiki/Terrorism_in_Kenya%2C_Somali_Civil_War"
+      },
+      "place": {
+        "name": "Mandera County",
+        "lon": 40.6667,
+        "lat": 3.41667,
+        "country": "KE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:4"
+      },
+      "continent": "Africa",
+      "heat": 56,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:4"
+      ],
+      "headline": "Eight people, including five workers and two police reservists, are killed by suspected al-Shabaab militants in Mandera County, Kenya, near the border with Somalia, during an ambush against a vehicle."
+    },
+    {
+      "slug": "the-monetary-authority-of-singapore-launches-a-gold-reserve",
+      "lens": "economy",
+      "title": "The Monetary Authority of Singapore launches a gold reserve service for…",
+      "summary": "The Monetary Authority of Singapore launches a gold reserve service for foreign central banks, international financial institutions, and sovereign entities, and announces expanded tax exemptions for wholesale gold services.",
+      "place": {
+        "name": "Monetary Authority of Singapore",
+        "lon": 103.84666667,
+        "lat": 1.27472222,
+        "country": "MY",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:6"
+      },
+      "continent": "Asia",
+      "heat": 56,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:6"
+      ],
+      "headline": "The Monetary Authority of Singapore launches a gold reserve service for foreign central banks, international financial institutions, and sovereign entities,…"
+    },
+    {
+      "slug": "twelve-people-are-killed-and-51-others-are-seriously-injured",
+      "lens": "accident",
+      "title": "Twelve people are killed and 51 others are seriously injured in a…",
+      "summary": "Twelve people are killed and 51 others are seriously injured in a multiple-vehicle collision involving 86 vehicles on the Trakia motorway near Yambol, Bulgaria.",
+      "place": {
+        "name": "Yambol",
+        "lon": 26.5,
+        "lat": 42.48333333,
+        "country": "BG",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:7"
+      },
+      "continent": "Europe",
+      "heat": 56,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:7"
+      ],
+      "headline": "Twelve people are killed and 51 others are seriously injured in a multiple-vehicle collision involving 86 vehicles on the Trakia motorway near Yambol, Bulgaria."
+    },
+    {
+      "slug": "the-british-columbia-conservation-officer-service-kills-a-fe",
+      "lens": "accident",
+      "title": "The British Columbia Conservation Officer Service kills a female grizzly bear…",
+      "summary": "The British Columbia Conservation Officer Service kills a female grizzly bear and her three cubs after DNA evidence confirmed that the bears killed two people near Bella Coola, B.C., Canada.",
+      "place": {
+        "name": "Bella Coola, British Columbia",
+        "lon": -126.75,
+        "lat": 52.36666667,
+        "country": "CA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:9"
+      },
+      "continent": "North America",
+      "heat": 56,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:9"
+      ],
+      "headline": "The British Columbia Conservation Officer Service kills a female grizzly bear and her three cubs after DNA evidence confirmed that the bears killed two people near Bella Coola, B.C., Canada."
+    },
+    {
+      "slug": "the-united-states-food-and-drug-administration-orders-manufa",
+      "lens": "general",
+      "title": "The United States Food and Drug Administration orders manufacturers of GLP-1…",
+      "summary": "The United States Food and Drug Administration orders manufacturers of GLP-1 medicines such as semaglutide and tirzepatide, originally intended for the treatment of type 2 diabetes but also commonly used for weight loss, to add warnings that use of such drugs may increase the risk of developing non-arteritic anterior ischemic optic neuropathy, an optic nerve disorder that can cause permanent blindness.",
+      "place": {
+        "name": "Food and Drug Administration",
+        "lon": -76.9831,
+        "lat": 39.0353,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:11"
+      },
+      "continent": "North America",
+      "heat": 56,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:11"
+      ],
+      "headline": "The United States Food and Drug Administration orders manufacturers of GLP-1 medicines such as semaglutide and tirzepatide, originally intended for the treatment of type 2 diabetes…"
+    },
+    {
+      "slug": "the-judicial-committee-of-the-privy-council-overturns-coloni",
+      "lens": "general",
+      "title": "The Judicial Committee of the Privy Council overturns colonial-era provisions…",
+      "summary": "The Judicial Committee of the Privy Council overturns colonial-era provisions criminalizing consensual same-sex sexual activity between adults in Trinidad and Tobago, ruling them unconstitutional following a legal challenge by activist Jason Jones.",
+      "article": {
+        "title": "LGBTQ rights in Trinidad and Tobago",
+        "url": "https://en.wikipedia.org/wiki/LGBTQ_rights_in_Trinidad_and_Tobago",
+        "qid": "Q1626379"
+      },
+      "place": {
+        "name": "Judicial Committee of the Privy Council",
+        "lon": -0.12813889,
+        "lat": 51.50036111,
+        "country": "GB",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:13"
+      },
+      "continent": "Europe",
+      "heat": 56,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:13",
+        "wd:Q1626379:P31"
+      ],
+      "headline": "The Judicial Committee of the Privy Council overturns colonial-era provisions criminalizing consensual same-sex sexual activity between adults in Trinidad and Tobago…"
+    },
+    {
+      "slug": "el-salvador-announces-it-has-launched-a-joint-military-opera",
+      "lens": "conflict",
+      "title": "El Salvador announces it has launched a joint military operation with the…",
+      "summary": "El Salvador announces it has launched a joint military operation with the Haitian police against the 400 Mawozo gang, killing 20 people and destroying a house linked to its leader, Wilson Joseph.",
+      "article": {
+        "title": "Salvadoran military intervention in Haiti, El Salvador–Haiti relations",
+        "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti%2C_El_Salvador%E2%80%93Haiti_relations"
+      },
+      "place": {
+        "name": "El Salvador",
+        "lon": -88.89,
+        "lat": 13.69,
+        "country": "SV",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:2"
+      },
+      "continent": "North America",
+      "heat": 51,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:2"
+      ],
+      "headline": "El Salvador announces it has launched a joint military operation with the Haitian police against the 400 Mawozo gang, killing 20 people and destroying a house linked to its leader, Wilson Joseph."
+    },
+    {
+      "slug": "the-venezuelan-national-assembly-unanimously-approves-a-refo",
+      "lens": "economy",
+      "title": "The Venezuelan National Assembly unanimously approves a reform of the…",
+      "summary": "The Venezuelan National Assembly unanimously approves a reform of the electricity law which allows private companies and joint ventures to invest in the nationalised electricity sector, which the government has controlled since 2007.",
+      "article": {
+        "title": "Energy crisis in Venezuela",
+        "url": "https://en.wikipedia.org/wiki/Energy_crisis_in_Venezuela",
+        "qid": "Q5791134"
+      },
+      "place": {
+        "name": "National Assembly of Venezuela",
+        "lon": -66.91583333,
+        "lat": 10.50555556,
+        "country": "VE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-10:5"
+      },
+      "continent": "South America",
+      "heat": 51,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-10:5",
+        "wd:Q5791134:P31"
+      ],
+      "headline": "The Venezuelan National Assembly unanimously approves a reform of the electricity law which allows private companies and joint ventures to invest in the nationalised electricity sector,…"
+    },
+    {
+      "slug": "jensen-huang",
+      "lens": "person",
+      "title": "Jensen Huang",
+      "summary": "Taiwanese-American businessman (born 1963)",
+      "about": "Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in 2026. As of November 2026, Forbes estimates his net worth at US$141.9 billion, making him the thirteenth-wealthiest person in the world.",
+      "article": {
+        "title": "Jensen Huang",
+        "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+        "qid": "Q305177"
+      },
+      "place": {
+        "name": "Taiwan",
+        "lon": 120.87,
+        "lat": 23.65,
+        "country": "TW",
+        "role": "Country of citizenship",
+        "evidence": "wd:Q305177:P27"
+      },
+      "continent": "Asia",
+      "heat": 45,
+      "why": [
+        "Read by 729,000 on Wikipedia that day"
+      ],
+      "readers": 729052,
+      "spike": 73.2,
+      "sources": 0,
+      "related": [
+        "Nvidia",
+        "Lisa Su"
+      ],
+      "evidence": [
+        "views:en:Jensen_Huang:2026-11-10",
+        "views:en:Jensen_Huang:prior",
+        "views:en:Nvidia:2026-11-10",
+        "views:en:Nvidia:prior",
+        "views:en:Lisa_Su:2026-11-10",
+        "views:en:Lisa_Su:prior",
+        "wd:Q305177:P31"
+      ],
+      "headline": "On November 11, 2026, The New York Times reported that Huang had a second affair with Nvidia's vice president of healthcare Kimberly Powell, a married woman who reports to him."
+    },
+    {
+      "slug": "grand-theft-auto-vi",
+      "lens": "culture",
+      "title": "Grand Theft Auto VI",
+      "summary": "Upcoming video game",
+      "about": "Grand Theft Auto VI is an upcoming action-adventure game developed and published by Rockstar Games. It is due to be the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos. Players will be able to freely roam Leonida's open world, which features the Miami-inspired Vice City.",
+      "article": {
+        "title": "Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+        "qid": "Q23648408"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country of origin",
+        "evidence": "wd:Q23648408:P495"
+      },
+      "continent": "North America",
+      "heat": 28,
+      "why": [
+        "Read by 64,000 on Wikipedia that day"
+      ],
+      "readers": 64375,
+      "spike": 5.3,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Grand_Theft_Auto_VI:2026-11-10",
+        "views:en:Grand_Theft_Auto_VI:prior",
+        "wd:Q23648408:P31"
+      ],
+      "headline": "The game is planned to be released for PlayStation 5 and Xbox Series X and Series S systems, with no Windows release scheduled as of October 2026."
+    }
+  ]
+}

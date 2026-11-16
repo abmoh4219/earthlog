@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "id": "story-2026-11-09-2026-krakow-shooting",
+  "title": "2026 Kraków shooting",
+  "subtitle": "Conflict · 9 November 2026 · Update, day 3",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-09T00:01:19Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 9.937222219999999,
+    "south": 42.06166667,
+    "east": 29.93722222,
+    "north": 58.06166667
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-09T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-09T00:00:24Z",
+      "until": "2026-11-09T00:00:40Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-09T00:00:40Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-09T00:00:40Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 57.93722221999997,
+      "lat": 29.624500001999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:00:04Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:14Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:23Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:26Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:27Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 996092.3651951158,
+      "heading": 5.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:28Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 902000,
+      "heading": -1,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:31Z",
+      "lon": 19.93722222,
+      "lat": 48.06166667,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:35Z",
+      "lon": 19.93722222,
+      "lat": 48.06166667,
+      "range": 1086646.2165764899,
+      "heading": -4.699999999999999,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:39Z",
+      "lon": 19.93722222,
+      "lat": 48.06166667,
+      "range": 983999.9999999999,
+      "heading": 6.600000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:43Z",
+      "lon": 22.381671677665015,
+      "lat": 41.89025009530979,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:53Z",
+      "lon": 22.381671677665015,
+      "lat": 41.89025009530979,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:03Z",
+      "lon": 22.381671677665015,
+      "lat": 41.89025009530979,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:07Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:01:09Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:11Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:14Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:15Z",
+      "lon": 19.93722222,
+      "lat": 49.37416667,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:19Z",
+      "lon": -5.062777780000033,
+      "lat": 49.37416667,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:01Z",
+      "text": "On 7 November 2026, 24-year-old Michał Oksiński opened fire from his car in the Main Square in Kraków, Poland, killing six people and injuring 16 others.",
+      "cites": [
+        "wiki:rev:1385329913:0"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:08Z",
+      "text": "Around 14:59 CET that day, a black 3rd generation Subaru Impreza hatchback with an Ostrowiec Świętokrzyski number plate entered the Main Square from Sławkowska Street.",
+      "cites": [
+        "wiki:rev:1385329913:6"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:15Z",
+      "text": "The 24-year-old man responsible for the drive-by mass shooting died at a hospital two days ago after being seriously wounded in a shootout with police.",
+      "cites": [
+        "wiki:2026-11-09:2"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:30Z",
+      "text": "As Wikipedia records them, the casualties number 10: 7 in Kraków, including the perpetrator, and 3 at the perpetrator's home in Ostrowiec Świętokrzyski; the injured number 16.",
+      "cites": [
+        "wiki:box:1385329913:casualties",
+        "wiki:box:1385329913:injured"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:41Z",
+      "text": "On 9 November 2026, the English article drew 114,724 readers; in the 8 to 60 days before, it had none, as it is a new article.",
+      "cites": [
+        "views:en:2026_Kraków_shooting:2026-11-09",
+        "views:en:2026_Kraków_shooting:prior"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:48Z",
+      "text": "The article is read in 11 languages, and after English the largest readership is in Polish, with 36,015 readers.",
+      "cites": [
+        "views:en:2026_Kraków_shooting:2026-11-09",
+        "views:pl:Strzelanina_w_Krakowie_(2026):2026-11-09"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:55Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not a country.",
+      "cites": [
+        "views:pl:Strzelanina_w_Krakowie_(2026):2026-11-09",
+        "views:ru:Стрельба_в_Кракове:2026-11-09",
+        "views:fr:Fusillade_de_Cracovie_en_2026:2026-11-09",
+        "views:zh:2026年波兰克拉科夫枪击案:2026-11-09",
+        "views:es:Tiroteo_de_Cracovia_de_2026:2026-11-09",
+        "views:de:Anschlag_in_Krakau:2026-11-09"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:01:05Z",
+      "text": "The story is reported by Al Jazeera.",
+      "cites": [
+        "wiki:2026-11-09:2"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:01:13Z",
+      "text": "The figures come from Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-09:2",
+        "wiki:rev:1385329913:6",
+        "views:en:2026_Kraków_shooting:2026-11-09",
+        "wd:Q142077465:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PL",
+    "lon": 19.93722222,
+    "lat": 50.06166667,
+    "label": "Main Square, Kraków"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-09T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-09T00:00:29Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-09T00:00:40Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-09T00:01:04Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-09T00:01:12Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-09T00:00:30Z",
+      "until": "2026-11-09T00:00:40Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Casualties",
+          "text": "10 (7 in Kraków, including the perpetrator; 3 at the perpetrator's home in Ostrowiec Świętokrzyski)",
+          "cites": [
+            "wiki:box:1385329913:casualties"
+          ]
+        },
+        {
+          "label": "Injured",
+          "text": "16",
+          "cites": [
+            "wiki:box:1385329913:injured"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-09T00:00:41Z",
+      "until": "2026-11-09T00:01:04Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "2026 Kraków shooting",
+          "color": "#ec5a52",
+          "points": [
+            {
+              "x": "11-07",
+              "y": 78832
+            },
+            {
+              "x": "11-08",
+              "y": 144105
+            }
+          ],
+          "cites": [
+            "views:en:2026_Kraków_shooting:30d"
+          ]
+        }
+      ],
+      "mark": 1
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-09T00:00:41Z",
+      "until": "2026-11-09T00:01:04Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "114,724",
+          "value": 114724,
+          "color": "#ec5a52",
+          "cites": [
+            "views:en:2026_Kraków_shooting:2026-11-09"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "36,015",
+          "value": 36015,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Strzelanina_w_Krakowie_(2026):2026-11-09"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "9,515",
+          "value": 9515,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Стрельба_в_Кракове:2026-11-09"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "6,483",
+          "value": 6483,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Fusillade_de_Cracovie_en_2026:2026-11-09"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "3,468",
+          "value": 3468,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:2026年波兰克拉科夫枪击案:2026-11-09"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "1,031",
+          "value": 1031,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Tiroteo_de_Cracovia_de_2026:2026-11-09"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "976",
+          "value": 976,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Anschlag_in_Krakau:2026-11-09"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-09T00:01:05Z",
+      "until": "2026-11-09T00:01:12Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say",
+          "cites": [
+            "wiki:2026-11-09:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-09T00:01:13Z",
+      "until": "2026-11-09T00:01:19Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-09:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385329913:6"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Kraków_shooting:2026-11-09"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142077465:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-13T00:00:00Z",
+    "costUsd": 0.004502
+  }
+}

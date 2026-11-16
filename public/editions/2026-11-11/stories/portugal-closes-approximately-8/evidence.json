@@ -1,0 +1,91 @@
+[
+  {
+    "id": "wiki:2026-11-11:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-11T00:00:00Z",
+    "lon": -9.09516667,
+    "lat": 38.76802778,
+    "label": "Disaster: Portugal closes approximately 8,000 schools nationwide and suspends non-essential public services as Storm Charles approaches. The second day of the Web Summit in Lisbon is also cancelled.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893",
+    "quote": "Portugal closes approximately 8,000 schools nationwide and suspends non-essential public services as Storm Charles approaches. The second day of the Web Summit in Lisbon is also cancelled.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/portugal-storm-charles-wind-rain-schools-462f7dfd9a5abb0ea0a21d5163d49f37"
+      },
+      {
+        "name": "Deadline",
+        "url": "https://deadline.com/2026/11/web-summit-cancels-day-two-as-storm-charles-hits-lisbon-1237220064/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q140628909:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "Wikidata: \"2026–27 European windstorm season\" is an instance of events in a specific year or time period",
+    "url": "https://www.wikidata.org/wiki/Q140628909",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385700550:130",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026–27 European windstorm season\" (revision of 2026-11-14 20:27 UTC)",
+    "quote": "The red wind warnings for 11 November ran from 09:00 to 21:00 in Beja, Faro and Setúbal, and from 12:00 to 21:00 in Évora, Leiria, Lisbon, Portalegre and Santarém, while the red rain warnings ran from 12:00 to 18:00 in Castelo Branco, Leiria, Lisbon, Portalegre, Santarém and Setúbal.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026%E2%80%9327_European_windstorm_season&oldid=1385700550"
+  },
+  {
+    "id": "wiki:rev:1385700550:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026–27 European windstorm season\" (revision of 2026-11-14 20:27 UTC)",
+    "quote": "The 2026–27 European windstorm season is the current and twelfth occurrence of the continent's coordinated severe weather naming programme.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026%E2%80%9327_European_windstorm_season&oldid=1385700550"
+  },
+  {
+    "id": "views:en:2026–27_European_windstorm_season:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026–27 European windstorm season\", 13 October 2026 to 11 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026%E2%80%9327_European_windstorm_season&range=latest-30"
+  },
+  {
+    "id": "wd:Q140628909:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026–27 European windstorm season\": began 1 September 2026",
+    "url": "https://www.wikidata.org/wiki/Q140628909#P580"
+  },
+  {
+    "id": "wd:Q140628909:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026–27 European windstorm season\": ended 31 August 2027",
+    "url": "https://www.wikidata.org/wiki/Q140628909#P582"
+  },
+  {
+    "id": "wiki:box:1385700550:fatalities",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026–27 European windstorm season\" (revision of 2026-11-14 20:27 UTC): fatalities: 13 (1)",
+    "quote": "fatalities: 13 (1)",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026%E2%80%9327_European_windstorm_season&oldid=1385700550"
+  }
+]

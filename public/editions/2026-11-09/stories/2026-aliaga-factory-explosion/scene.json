@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "id": "story-2026-11-09-2026-aliaga-factory-explosion",
+  "title": "2026 Aliağa factory explosion",
+  "subtitle": "Accident · 9 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-09T00:01:21Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 16.97277778,
+    "south": 30.800833330000003,
+    "east": 36.97277778,
+    "north": 46.80083333
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-09T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 64.97277778,
+      "lat": 22.867999998000002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:00:04Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:14Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:23Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:26Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:29Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 126775.39193392382,
+      "heading": 14.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:32Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 114800,
+      "heading": 4.600000000000001,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:35Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:39Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 81498.46624323675,
+      "heading": 81.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:43Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 73800,
+      "heading": 92.6,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:00:46Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 350000,
+      "heading": 140,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:00:55Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 316938.47983480955,
+      "heading": 126,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:05Z",
+      "lon": 26.950166666666664,
+      "lat": 38.75147222222222,
+      "range": 287000,
+      "heading": 112,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:08Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-09T00:01:11Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:13Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:16Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:17Z",
+      "lon": 26.97277778,
+      "lat": 38.11333333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-09T00:01:21Z",
+      "lon": 1.9727777800000013,
+      "lat": 38.11333333,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:01Z",
+      "text": "Seventeen people are killed and twelve others are injured in an explosion at a factory in Aliağa, Turkey.",
+      "cites": [
+        "wiki:2026-11-09:8"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:08Z",
+      "text": "On 9 November 2026, an explosion and fire at the HABAŞ Demir Çelik iron and steel plant in Aliağa, in Turkey's İzmir Province, killed 18 workers and injured at least 12 others.",
+      "cites": [
+        "wiki:rev:1385224407:0"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:15Z",
+      "text": "Hakan Doğan, 55, a subcontractor, died on 21 October 2026 after a fall of about 8 m from a ladder, and Eyüp Eğinli died on 5 November 2026 when a heavy vehicle tyre exploded during inflation.",
+      "cites": [
+        "wiki:rev:1385224407:21"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:25Z",
+      "text": "The article gives a preliminary finding that an overhead crane collapsed into an electric arc furnace during casting at the HABAŞ Demir Çelik plant.",
+      "cites": [
+        "wiki:box:1385224407:summary",
+        "wiki:box:1385224407:coordinates"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:34Z",
+      "text": "The article records 18 deaths.",
+      "cites": [
+        "wiki:box:1385224407:fatalities"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:45Z",
+      "text": "Erdoğan promised that \"how and why it happened, whether there was any negligence and who bears responsibility\" would be established.",
+      "cites": [
+        "wiki:investigation:1385224407:0"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:52Z",
+      "text": "Five people were initially detained in connection with the blast, with the number rising to six by the evening of 9 November.",
+      "cites": [
+        "wiki:investigation:1385224407:1"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:00:59Z",
+      "text": "On 10 November, HABAŞ Chairman Mehmet Rüştü Başaran was arrested in Istanbul, and ten others were still wanted.",
+      "cites": [
+        "wiki:investigation:1385224407:2"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:01:07Z",
+      "text": "The report comes from BBC News.",
+      "cites": [
+        "wiki:2026-11-09:8"
+      ]
+    },
+    {
+      "t": "2026-11-09T00:01:15Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-09:8",
+        "wiki:rev:1385224407:21",
+        "wd:Q142108639:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "TR",
+    "lon": 26.97277778,
+    "lat": 38.80083333,
+    "label": "Aliağa"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-09T00:00:24Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-09T00:00:33Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-09T00:00:44Z",
+      "title": "The investigation"
+    },
+    {
+      "t": "2026-11-09T00:01:06Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-09T00:01:14Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "on-board",
+      "t": "2026-11-09T00:00:34Z",
+      "until": "2026-11-09T00:00:44Z",
+      "title": "People",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "Fatalities",
+          "text": "18",
+          "value": 18,
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1385224407:fatalities"
+          ]
+        },
+        {
+          "label": "Injuries",
+          "text": "12",
+          "value": 12,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1385224407:injuries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-09T00:01:07Z",
+      "until": "2026-11-09T00:01:14Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/cq2d6d5z9y5jo",
+          "cites": [
+            "wiki:2026-11-09:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-09T00:01:15Z",
+      "until": "2026-11-09T00:01:21Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-09:8"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385224407:21"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142108639:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-13T00:00:00Z",
+    "costUsd": 0.002195
+  }
+}

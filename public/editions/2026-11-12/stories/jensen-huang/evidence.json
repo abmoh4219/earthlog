@@ -1,0 +1,511 @@
+[
+  {
+    "id": "wiki:2026-11-12:5",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-12T00:00:00Z",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "Business: Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese intelligence agent. Chief financial officer Colette Kress becomes interim CEO.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_12&oldid=1385702080",
+    "quote": "Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese intelligence agent. Chief financial officer Colette Kress becomes interim CEO.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/nvidia-ceo-jensen-huang-resigns"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Jensen_Huang:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 1,072,168 readers of \"Jensen Huang\" on 12 Nov 2026",
+    "value": 1072168,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jensen_Huang:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Jensen Huang\": normally a median of 7,415 readers a day (8 to 60 days before)",
+    "value": 7415,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Colette_Kress:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 463,931 readers of \"Colette Kress\" on 12 Nov 2026",
+    "value": 463931,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Colette_Kress",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Colette_Kress:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Colette Kress\": normally a median of 118 readers a day (8 to 60 days before)",
+    "value": 118,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Colette_Kress",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Nvidia:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 366,417 readers of \"Nvidia\" on 12 Nov 2026",
+    "value": 366417,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Nvidia:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Nvidia\": normally a median of 5,297 readers a day (8 to 60 days before)",
+    "value": 5297,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Alice_Huang_(executive):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 160,121 readers of \"Alice Huang (executive)\" on 12 Nov 2026",
+    "value": 160121,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Alice_Huang_(executive)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Alice_Huang_(executive):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Alice Huang (executive)\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Alice_Huang_(executive)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Lisa_Su:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 136,248 readers of \"Lisa Su\" on 12 Nov 2026",
+    "value": 136248,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Lisa_Su",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Lisa_Su:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Lisa Su\": normally a median of 2,102 readers a day (8 to 60 days before)",
+    "value": 2102,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Lisa_Su",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Chris_Malachowsky:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 100,152 readers of \"Chris Malachowsky\" on 12 Nov 2026",
+    "value": 100152,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Chris_Malachowsky",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Chris_Malachowsky:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Chris Malachowsky\": normally a median of 642 readers a day (8 to 60 days before)",
+    "value": 642,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Chris_Malachowsky",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jensen_Huang_spying_scandal:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 97,209 readers of \"Jensen Huang spying scandal\" on 12 Nov 2026",
+    "value": 97209,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Jensen_Huang_spying_scandal:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Jensen Huang spying scandal\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Curtis_Priem:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 79,910 readers of \"Curtis Priem\" on 12 Nov 2026",
+    "value": 79910,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Curtis_Priem",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Curtis_Priem:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Curtis Priem\": normally a median of 537 readers a day (8 to 60 days before)",
+    "value": 537,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Curtis_Priem",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q305177:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "Wikidata: \"Jensen Huang\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q305177",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385920815:91",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jensen Huang\" (revision of 2026-11-15 23:47 UTC)",
+    "quote": "Huang resigned as president and CEO on November 12, with CFO and executive vice president Colette Kress becoming the company's interim CEO.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jensen_Huang&oldid=1385920815"
+  },
+  {
+    "id": "wiki:rev:1385920815:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jensen Huang\" (revision of 2026-11-15 23:47 UTC)",
+    "quote": "Jen-Hsun \"Jensen\" Huang (born February 17, 1963) is a Taiwanese and American electrical engineer and businessman.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jensen_Huang&oldid=1385920815"
+  },
+  {
+    "id": "views:en:Jensen_Huang:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jensen Huang\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jensen_Huang&range=latest-30"
+  },
+  {
+    "id": "views:en:Colette_Kress:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Colette Kress\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Colette_Kress&range=latest-30"
+  },
+  {
+    "id": "views:en:Nvidia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Nvidia\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Nvidia&range=latest-30"
+  },
+  {
+    "id": "views:ja:ジェンスン・フアン:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 149,925 readers of \"ジェンスン・フアン\" on 12 November 2026",
+    "value": 149925,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%B9%E3%83%B3%E3%83%BB%E3%83%95%E3%82%A2%E3%83%B3"
+  },
+  {
+    "id": "views:zh:黃仁勳:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 131,571 readers of \"黃仁勳\" on 12 November 2026",
+    "value": 131571,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%BB%81%E5%8B%B3"
+  },
+  {
+    "id": "views:ru:Хуанг,_Дженсен:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 65,015 readers of \"Хуанг, Дженсен\" on 12 November 2026",
+    "value": 65015,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D0%B0%D0%BD%D0%B3%2C_%D0%94%D0%B6%D0%B5%D0%BD%D1%81%D0%B5%D0%BD"
+  },
+  {
+    "id": "views:fr:Jensen_Huang:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 50,329 readers of \"Jensen Huang\" on 12 November 2026",
+    "value": 50329,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Jensen_Huang"
+  },
+  {
+    "id": "views:de:Jensen_Huang:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 48,546 readers of \"Jensen Huang\" on 12 November 2026",
+    "value": 48546,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Jensen_Huang"
+  },
+  {
+    "id": "views:es:Jensen_Huang:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 42,885 readers of \"Jensen Huang\" on 12 November 2026",
+    "value": 42885,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Jensen_Huang"
+  },
+  {
+    "id": "views:it:Jen-Hsun_Huang:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 27,313 readers of \"Jen-Hsun Huang\" on 12 November 2026",
+    "value": 27313,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Jen-Hsun_Huang"
+  },
+  {
+    "id": "views:pt:Jensen_Huang:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 21,150 readers of \"Jensen Huang\" on 12 November 2026",
+    "value": 21150,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Jensen_Huang"
+  },
+  {
+    "id": "views:pl:Jen-Hsun_Huang:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 18,965 readers of \"Jen-Hsun Huang\" on 12 November 2026",
+    "value": 18965,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Jen-Hsun_Huang"
+  },
+  {
+    "id": "wd:Q305177:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": born 17 February 1963",
+    "url": "https://www.wikidata.org/wiki/Q305177#P569"
+  },
+  {
+    "id": "wd:Q305177:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": birthplace Taipei",
+    "url": "https://www.wikidata.org/wiki/Q305177#P19"
+  },
+  {
+    "id": "wd:Q305177:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": occupation entrepreneur, computer scientist",
+    "url": "https://www.wikidata.org/wiki/Q305177#P106"
+  },
+  {
+    "id": "wd:Q305177:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": citizenship Taiwan, United States",
+    "url": "https://www.wikidata.org/wiki/Q305177#P27"
+  },
+  {
+    "id": "wd:Q305177:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": sport table tennis",
+    "url": "https://www.wikidata.org/wiki/Q305177#P641"
+  },
+  {
+    "id": "wd:Q305177:P69:Q861888",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": educated at Oregon State University (1980–84)",
+    "url": "https://www.wikidata.org/wiki/Q305177#P69"
+  },
+  {
+    "id": "wd:Q305177:P69:Q41506",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": educated at Stanford University (1992)",
+    "url": "https://www.wikidata.org/wiki/Q305177#P69"
+  },
+  {
+    "id": "wd:Q305177:P69:Q4734192",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": educated at Aloha High School",
+    "url": "https://www.wikidata.org/wiki/Q305177#P69"
+  },
+  {
+    "id": "wd:Q305177:P69:Q7093656",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": educated at Oneida Baptist Institute",
+    "url": "https://www.wikidata.org/wiki/Q305177#P69"
+  },
+  {
+    "id": "wd:Q305177:P69:Q7375693",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": educated at Ruamrudee International School",
+    "url": "https://www.wikidata.org/wiki/Q305177#P69"
+  },
+  {
+    "id": "wd:Q305177:P551:Q30",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": lived in United States",
+    "url": "https://www.wikidata.org/wiki/Q305177#P551"
+  },
+  {
+    "id": "wd:Q305177:P937:Q864124",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": worked in Los Altos",
+    "url": "https://www.wikidata.org/wiki/Q305177#P937"
+  },
+  {
+    "id": "wd:Q305177:P166:Q5970365",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": award received: IEEE Founders Medal (2020)",
+    "url": "https://www.wikidata.org/wiki/Q305177#P166"
+  },
+  {
+    "id": "wd:Q305177:P166:Q604370",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": award received: Time 100 (2021)",
+    "url": "https://www.wikidata.org/wiki/Q305177#P166"
+  },
+  {
+    "id": "wd:Q305177:P166:Q4273323",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": award received: Queen Elizabeth Prize for Engineering (2025)",
+    "url": "https://www.wikidata.org/wiki/Q305177#P166"
+  },
+  {
+    "id": "wd:Q305177:P166:Q737051",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": award received: National Medal of Science (2026)",
+    "url": "https://www.wikidata.org/wiki/Q305177#P166"
+  },
+  {
+    "id": "wd:Q305177:P166:Q18080682",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jensen Huang\": award received: Dostyk Order of grade I",
+    "url": "https://www.wikidata.org/wiki/Q305177#P166"
+  }
+]

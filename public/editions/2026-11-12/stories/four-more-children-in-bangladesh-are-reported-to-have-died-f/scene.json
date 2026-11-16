@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "id": "story-2026-11-12-four-more-children-in-bangladesh-are-reported-to-have-died-f",
+  "title": "Four more children in Bangladesh are reported to have died from measles",
+  "subtitle": "News · 12 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-12T00:00:00Z",
+    "end": "2026-11-12T00:00:47Z"
+  },
+  "focus": "2026-11-12T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 79.68,
+    "south": 16.21,
+    "east": 99.68,
+    "north": 32.21
+  },
+  "imagery": {
+    "day": "2026-11-12",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-12T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-12T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "lon": 127.68000000000006,
+      "lat": 13.251,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-12T00:00:04Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:14Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:23Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:26Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:29Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:31Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:34Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:37Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:39Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:42Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:43Z",
+      "lon": 89.68,
+      "lat": 22.085,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:47Z",
+      "lon": 64.68000000000006,
+      "lat": 22.085,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-12T00:00:01Z",
+      "text": "Four more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,299.",
+      "cites": [
+        "wiki:2026-11-12:11"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:08Z",
+      "text": "According to the Directorate General of Health Services (DGHS), as of 5 November 2026, 1,167 have died with suspected measles symptoms, alongside 105 confirmed measles deaths.",
+      "cites": [
+        "wiki:rev:1385459480:1"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:15Z",
+      "text": "A measles outbreak started in Bangladesh in mid-March 2026.",
+      "cites": [
+        "wiki:rev:1385459480:0"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:25Z",
+      "text": "The reports place the outbreak in Bangladesh, shown here on the map.",
+      "cites": [
+        "wiki:2026-11-12:11"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:33Z",
+      "text": "The report was filed by BSS.",
+      "cites": [
+        "wiki:2026-11-12:11"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:41Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles and Wikimedia pageviews, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-12:11",
+        "wiki:rev:1385459480:1",
+        "views:en:2026_Bangladesh_measles_outbreak:30d"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BD",
+    "lon": 89.68,
+    "lat": 24.21,
+    "label": "Bangladesh"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-12T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-12T00:00:32Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-12T00:00:40Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-12T00:00:33Z",
+      "until": "2026-11-12T00:00:40Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BSS",
+          "text": "Open",
+          "url": "https://www.bssnews.net/news/445020",
+          "cites": [
+            "wiki:2026-11-12:11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-12T00:00:41Z",
+      "until": "2026-11-12T00:00:47Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-12:11"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385459480:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Bangladesh_measles_outbreak:30d"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T00:00:00Z",
+    "costUsd": 0.00061
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "wiki:2026-11-13:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-13T00:00:00Z",
+    "lon": -77.04833333,
+    "lat": 38.89416667,
+    "label": "World: The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806",
+    "quote": "The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via Macau Business",
+        "url": "https://macaubusiness.com/us-imposes-terrorist-designations-on-three-guatemala-groups/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q2170633:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-13T00:00:00Z",
+    "label": "Wikidata: \"United States Department of State list of Foreign Terrorist Organizations\" is an instance of official list of designated terrorists and terrorist organization, Wikimedia list article",
+    "url": "https://www.wikidata.org/wiki/Q2170633",
+    "precision": "day"
+  }
+]

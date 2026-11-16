@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-13",
+  "title": "The world on 13 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-14T00:00:00Z"
+  },
+  "focus": "2026-11-13T01:12:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": 57.10166667,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T01:12:00Z",
+      "lon": 57.10166667,
+      "lat": 25.87638889,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T02:10:40Z",
+      "lon": 57.10166667,
+      "lat": 25.87638889,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T02:58:40Z",
+      "lon": 57.10166667,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T04:45:20Z",
+      "lon": -89.25333333,
+      "lat": 28.511111109999998,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T05:44:00Z",
+      "lon": -89.25333333,
+      "lat": 28.511111109999998,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T06:32:00Z",
+      "lon": -89.25333333,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T08:24:00Z",
+      "lon": -77.04833333,
+      "lat": 38.25416667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T09:43:12Z",
+      "lon": -77.04833333,
+      "lat": 38.25416667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T10:48:00Z",
+      "lon": 19.45,
+      "lat": 45.81,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T12:07:12Z",
+      "lon": 19.45,
+      "lat": 45.81,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T13:12:00Z",
+      "lon": -77.02277778,
+      "lat": 38.24694444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T14:31:12Z",
+      "lon": -77.02277778,
+      "lat": 38.24694444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T15:36:00Z",
+      "lon": 28.955,
+      "lat": 40.37361111,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T16:34:40Z",
+      "lon": 28.955,
+      "lat": 40.37361111,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T17:22:40Z",
+      "lon": -75.8807,
+      "lat": -15.8734,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T18:21:20Z",
+      "lon": -75.8807,
+      "lat": -15.8734,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T19:09:20Z",
+      "lon": -2.12,
+      "lat": 53.12,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T20:08:00Z",
+      "lon": -2.12,
+      "lat": 53.12,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T20:56:00Z",
+      "lon": 93.97,
+      "lat": 25.88,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T21:57:36Z",
+      "lon": 93.97,
+      "lat": 25.88,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-13T22:48:00Z",
+      "lon": 36.81722222,
+      "lat": -1.9263888900000001,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-13T23:27:36Z",
+      "lon": 36.81722222,
+      "lat": -1.9263888900000001,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": 36.81722222,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 800
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T01:12:00Z",
+      "text": "Conflict: Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication…",
+      "cites": [
+        "wiki:2026-11-13:1"
+      ]
+    },
+    {
+      "t": "2026-11-13T02:58:40Z",
+      "text": "02:20 UTC. Internet outage signal in Kosovo: responsive address blocks down to 50% of normal.",
+      "cites": [
+        "ioda:XK:ping:2026-11-13T02:20Z",
+        "ioda:XK:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-13T04:45:20Z",
+      "text": "Disaster: A tanker and the cruise ship American Heritage collide in the Mississippi River of the United States. The cruise ship, carrying 130 people…",
+      "cites": [
+        "wiki:2026-11-13:2"
+      ]
+    },
+    {
+      "t": "2026-11-13T06:32:00Z",
+      "text": "Sports: In association football, the Royal Spanish Football Federation suspends FC Andorra goalkeeper Jesús Owono for 12 matches following a…",
+      "cites": [
+        "wiki:2026-11-13:10"
+      ]
+    },
+    {
+      "t": "2026-11-13T08:24:00Z",
+      "text": "World: The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material…",
+      "cites": [
+        "wiki:2026-11-13:6"
+      ]
+    },
+    {
+      "t": "2026-11-13T10:48:00Z",
+      "text": "Law & crime: Hungary's National Asset Recovery and Protection Office recovers cash worth around US$19.5 million, including 5 billion Ft…",
+      "cites": [
+        "wiki:2026-11-13:8"
+      ]
+    },
+    {
+      "t": "2026-11-13T13:12:00Z",
+      "text": "Disaster: The United States Federal Aviation Administration issues a nationwide ground stop for all flights due to \"extraordinary circumstances…",
+      "cites": [
+        "wiki:2026-11-13:3"
+      ]
+    },
+    {
+      "t": "2026-11-13T15:36:00Z",
+      "text": "World: Qatar and Turkey sign a defense pact in Istanbul.",
+      "cites": [
+        "wiki:2026-11-13:7"
+      ]
+    },
+    {
+      "t": "2026-11-13T17:22:40Z",
+      "text": "16:43 UTC. The day's strongest earthquake: magnitude 5.8, 10 km deep, 79 km WSW of Changuillo, Peru.",
+      "cites": [
+        "usgs:us7000ty1a"
+      ]
+    },
+    {
+      "t": "2026-11-13T19:09:20Z",
+      "text": "Law & crime: In the United Kingdom, Metropolitan Police announce a criminal investigation into actor David Walliams about \"alleged serious sexual…",
+      "cites": [
+        "wiki:2026-11-13:9"
+      ]
+    },
+    {
+      "t": "2026-11-13T20:56:00Z",
+      "text": "Disaster: Twenty-six people are killed and eleven more are injured in a bus–truck collision in Golaghat, India.",
+      "cites": [
+        "wiki:2026-11-13:4"
+      ]
+    },
+    {
+      "t": "2026-11-13T22:48:00Z",
+      "text": "Disaster: Six people are killed and five more injured after an under-construction building partially collapses in Nairobi, Kenya.",
+      "cites": [
+        "wiki:2026-11-13:5"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-16T12:04:04Z"
+  }
+}

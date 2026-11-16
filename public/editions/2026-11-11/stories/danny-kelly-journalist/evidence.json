@@ -1,0 +1,156 @@
+[
+  {
+    "id": "views:en:Danny_Kelly_(journalist):2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "English Wikipedia: 64,926 readers of \"Danny Kelly (journalist)\" on 11 Nov 2026",
+    "value": 64926,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Danny_Kelly_(journalist)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Danny_Kelly_(journalist):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "\"Danny Kelly (journalist)\": normally a median of 40 readers a day (8 to 60 days before)",
+    "value": 40,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Danny_Kelly_(journalist)",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q5220508:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "Wikidata: \"Danny Kelly\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q5220508",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385419391:27",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Danny Kelly (journalist)\" (revision of 2026-11-13 05:33 UTC)",
+    "quote": "During the White & Jordan Show on talkSPORT on 11 November 2026 it was announced that Kelly had died the previous day, at St. James's Hospital in Dublin, aged 69.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Danny_Kelly_(journalist)&oldid=1385419391"
+  },
+  {
+    "id": "wiki:rev:1385419391:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Danny Kelly (journalist)\" (revision of 2026-11-13 05:33 UTC)",
+    "quote": "He was the editor of the music weekly New Musical Express and Q magazine.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Danny_Kelly_(journalist)&oldid=1385419391"
+  },
+  {
+    "id": "wiki:rev:1385419391:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Danny Kelly (journalist)\" (revision of 2026-11-13 05:33 UTC)",
+    "quote": "Daniel Kelly (22 December 1956 – 10 November 2026) was a British music journalist, sports presenter and internet publisher.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Danny_Kelly_(journalist)&oldid=1385419391"
+  },
+  {
+    "id": "views:en:Danny_Kelly_(journalist):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Danny Kelly (journalist)\", 13 October 2026 to 11 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Danny_Kelly_(journalist)&range=latest-30"
+  },
+  {
+    "id": "views:ar:داني_كيلي_(مقدم_تلفزيوني):2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 10 readers of \"داني كيلي (مقدم تلفزيوني)\" on 11 November 2026",
+    "value": 10,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AF%D8%A7%D9%86%D9%8A_%D9%83%D9%8A%D9%84%D9%8A_(%D9%85%D9%82%D8%AF%D9%85_%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86%D9%8A)"
+  },
+  {
+    "id": "wd:Q5220508:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": born 23 December 1956",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P569"
+  },
+  {
+    "id": "wd:Q5220508:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": birthplace London Borough of Islington",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P19"
+  },
+  {
+    "id": "wd:Q5220508:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": died 10 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P570"
+  },
+  {
+    "id": "wd:Q5220508:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": place of death Kilkenny",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P20"
+  },
+  {
+    "id": "wd:Q5220508:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": occupation television presenter, sports journalist",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P106"
+  },
+  {
+    "id": "wd:Q5220508:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": citizenship United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P27"
+  },
+  {
+    "id": "wd:Q5220508:P108:Q192632",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": worked for NME",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P108"
+  },
+  {
+    "id": "wd:Q5220508:P108:Q217629",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Danny Kelly\": worked for Q",
+    "url": "https://www.wikidata.org/wiki/Q5220508#P108"
+  }
+]

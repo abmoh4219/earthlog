@@ -1,0 +1,341 @@
+[
+  {
+    "id": "views:en:Stacy_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "English Wikipedia: 562,990 readers of \"Stacy Keach\" on 11 Nov 2026",
+    "value": 562990,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Stacy_Keach",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Stacy_Keach:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "\"Stacy Keach\": normally a median of 1,703 readers a day (8 to 60 days before)",
+    "value": 1703,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Stacy_Keach",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:James_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "English Wikipedia: 99,527 readers of \"James Keach\" on 11 Nov 2026",
+    "value": 99527,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Keach",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:James_Keach:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "\"James Keach\": normally a median of 728 readers a day (8 to 60 days before)",
+    "value": 728,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/James_Keach",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q315090:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "Wikidata: \"Stacy Keach\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q315090",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385535604:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Stacy Keach\" (revision of 2026-11-13 20:33 UTC)",
+    "quote": "Walter Stacy Keach Jr. (June 2, 1941 – November 10, 2026) was an American actor.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Stacy_Keach&oldid=1385535604"
+  },
+  {
+    "id": "wiki:rev:1385535604:117",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Stacy Keach\" (revision of 2026-11-13 20:33 UTC)",
+    "quote": "Keach died from heart failure complicated by heart disease at his home in Magdalenka, Poland, on November 10, 2026, at the age of 85.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Stacy_Keach&oldid=1385535604"
+  },
+  {
+    "id": "wiki:rev:1385535604:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Stacy Keach\" (revision of 2026-11-13 20:33 UTC)",
+    "quote": "He was the elder son of theatre director Stacy Keach Sr., and the brother of actor James Keach.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Stacy_Keach&oldid=1385535604"
+  },
+  {
+    "id": "views:en:Stacy_Keach:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Stacy Keach\", 13 October 2026 to 11 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Stacy_Keach&range=latest-30"
+  },
+  {
+    "id": "views:en:James_Keach:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"James Keach\", 13 October 2026 to 11 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=James_Keach&range=latest-30"
+  },
+  {
+    "id": "views:de:Stacy_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 107,656 readers of \"Stacy Keach\" on 11 November 2026",
+    "value": 107656,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Stacy_Keach"
+  },
+  {
+    "id": "views:fr:Stacy_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 48,673 readers of \"Stacy Keach\" on 11 November 2026",
+    "value": 48673,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Stacy_Keach"
+  },
+  {
+    "id": "views:pl:Stacy_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 44,601 readers of \"Stacy Keach\" on 11 November 2026",
+    "value": 44601,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Stacy_Keach"
+  },
+  {
+    "id": "views:es:Stacy_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 14,921 readers of \"Stacy Keach\" on 11 November 2026",
+    "value": 14921,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Stacy_Keach"
+  },
+  {
+    "id": "views:it:Stacy_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 11,457 readers of \"Stacy Keach\" on 11 November 2026",
+    "value": 11457,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Stacy_Keach"
+  },
+  {
+    "id": "views:ru:Кич,_Стейси:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 7,907 readers of \"Кич, Стейси\" on 11 November 2026",
+    "value": 7907,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%87%2C_%D0%A1%D1%82%D0%B5%D0%B9%D1%81%D0%B8"
+  },
+  {
+    "id": "views:pt:Stacy_Keach:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 3,236 readers of \"Stacy Keach\" on 11 November 2026",
+    "value": 3236,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Stacy_Keach"
+  },
+  {
+    "id": "views:ja:ステイシー・キーチ:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 2,030 readers of \"ステイシー・キーチ\" on 11 November 2026",
+    "value": 2030,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%86%E3%82%A4%E3%82%B7%E3%83%BC%E3%83%BB%E3%82%AD%E3%83%BC%E3%83%81"
+  },
+  {
+    "id": "views:ar:ستيسي_كيتش:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 395 readers of \"ستيسي كيتش\" on 11 November 2026",
+    "value": 395,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%B3%D8%AA%D9%8A%D8%B3%D9%8A_%D9%83%D9%8A%D8%AA%D8%B4"
+  },
+  {
+    "id": "views:zh:史戴西·奇屈:2026-11-11",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 157 readers of \"史戴西·奇屈\" on 11 November 2026",
+    "value": 157,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E6%88%B4%E8%A5%BF%C2%B7%E5%A5%87%E5%B1%88"
+  },
+  {
+    "id": "wd:Q315090:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": born 2 June 1941",
+    "url": "https://www.wikidata.org/wiki/Q315090#P569"
+  },
+  {
+    "id": "wd:Q315090:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": birthplace Savannah",
+    "url": "https://www.wikidata.org/wiki/Q315090#P19"
+  },
+  {
+    "id": "wd:Q315090:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": died 10 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q315090#P570"
+  },
+  {
+    "id": "wd:Q315090:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": place of death Magdalenka, Masovian Voivodeship",
+    "url": "https://www.wikidata.org/wiki/Q315090#P20"
+  },
+  {
+    "id": "wd:Q315090:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": occupation television actor, film actor",
+    "url": "https://www.wikidata.org/wiki/Q315090#P106"
+  },
+  {
+    "id": "wd:Q315090:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": citizenship United States, Poland",
+    "url": "https://www.wikidata.org/wiki/Q315090#P27"
+  },
+  {
+    "id": "wd:Q315090:P69:Q8047423",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": educated at Yale School of Drama",
+    "url": "https://www.wikidata.org/wiki/Q315090#P69"
+  },
+  {
+    "id": "wd:Q315090:P69:Q385471",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": educated at London Academy of Music and Dramatic Art",
+    "url": "https://www.wikidata.org/wiki/Q315090#P69"
+  },
+  {
+    "id": "wd:Q315090:P69:Q49112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": educated at Yale University",
+    "url": "https://www.wikidata.org/wiki/Q315090#P69"
+  },
+  {
+    "id": "wd:Q315090:P69:Q4008476",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": educated at Van Nuys High School (1959)",
+    "url": "https://www.wikidata.org/wiki/Q315090#P69"
+  },
+  {
+    "id": "wd:Q315090:P69:Q168756",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": educated at University of California, Berkeley (1963)",
+    "url": "https://www.wikidata.org/wiki/Q315090#P69"
+  },
+  {
+    "id": "wd:Q315090:P166:Q253936",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": award received: Fulbright Scholarship",
+    "url": "https://www.wikidata.org/wiki/Q315090#P166"
+  },
+  {
+    "id": "wd:Q315090:P166:Q17985761",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": award received: star on Hollywood Walk of Fame",
+    "url": "https://www.wikidata.org/wiki/Q315090#P166"
+  },
+  {
+    "id": "wd:Q315090:P166:Q21595675",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Stacy Keach\": award received: Mary Pickford Award",
+    "url": "https://www.wikidata.org/wiki/Q315090#P166"
+  }
+]

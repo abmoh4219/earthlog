@@ -1,0 +1,635 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-eurovision-song-contest-asia",
+  "title": "Eurovision Song Contest Asia",
+  "subtitle": "Culture · 14 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:01:24Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 90.49416667,
+    "south": 5.7524999999999995,
+    "east": 110.49416667,
+    "north": 21.752499999999998
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-14T00:00:24Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-14T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": 138.49416667000003,
+      "lat": 7.8389999999999995,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:14Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:23Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:28Z",
+      "lon": 19.954936432553364,
+      "lat": 43.62254787979129,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:38Z",
+      "lon": 19.954936432553364,
+      "lat": 43.62254787979129,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:47Z",
+      "lon": 19.954936432553364,
+      "lat": 43.62254787979129,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:51Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:53Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:55Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:58Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:07Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:16Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:19Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:20Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:01:24Z",
+      "lon": 75.49416667000003,
+      "lat": 13.065,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "The Philippines won the inaugural Eurovision Song Contest Asia, held in Bangkok, Thailand, with the song \"Sobra-Sobra\" by Carmelle.",
+      "cites": [
+        "wiki:2026-11-14:3"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:08Z",
+      "text": "Voxovation organised the contest under licence from the European Broadcasting Union, with S2O Productions producing and Channel 3 staging it at One Bangkok Forum on 14 November 2026.",
+      "cites": [
+        "wiki:rev:1385971115:1"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:15Z",
+      "text": "The Eurovision Song Contest Asia is an international song competition modelled on the Eurovision Song Contest, in which broadcasters from the Asia-Pacific region compete representing their countries.",
+      "cites": [
+        "wiki:rev:1385971115:0"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:25Z",
+      "text": "On 14 November 2026, 71,577 people read the English Wikipedia article, about 28 times the usual daily figure.",
+      "cites": [
+        "views:en:Eurovision_Song_Contest_Asia:2026-11-14",
+        "views:en:Eurovision_Song_Contest_Asia:prior"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:32Z",
+      "text": "The article was read in 11 languages, and after English, the most readers were in Spanish, with 2,451.",
+      "cites": [
+        "views:en:Eurovision_Song_Contest_Asia:2026-11-14",
+        "views:es:Festival_de_la_Canción_de_Eurovisión_Asia:2026-11-14"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:39Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, and a language is not the same as a country.",
+      "cites": [
+        "views:es:Festival_de_la_Canción_de_Eurovisión_Asia:2026-11-14",
+        "views:de:Eurovision_Song_Contest_Asia:2026-11-14",
+        "views:it:Eurovision_Song_Contest_Asia:2026-11-14",
+        "views:fr:Concours_Eurovision_Asie_de_la_chanson:2026-11-14",
+        "views:ru:Евровидение_Азия:2026-11-14",
+        "views:ja:ユーロビジョン・ソング・コンテスト・アジア:2026-11-14"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:49Z",
+      "text": "The result was reported by AFP and AP.",
+      "cites": [
+        "wiki:2026-11-14:3"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:57Z",
+      "text": "BBC News headlined its report “Philippines wins first Eurovision Song Contest Asia.”",
+      "cites": [
+        "news:bbc:3883c6948f3d"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:03Z",
+      "text": "The Guardian headlined its report “Philippines’ Carmelle wins first Eurovision contest in Asia.”",
+      "cites": [
+        "news:guardian:c629975f6df7"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:09Z",
+      "text": "DW headlined its report “Philippines wins first Eurovision Song Contest Asia.”",
+      "cites": [
+        "news:dw:13c562f8bc59"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:01:18Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-14:3",
+        "wiki:rev:1385971115:1",
+        "views:en:Eurovision_Song_Contest_Asia:2026-11-14",
+        "wd:Q37276325:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "TH",
+    "lon": 100.49416667,
+    "lat": 13.7525,
+    "label": "Bangkok"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:24Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-14T00:00:48Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-14T00:00:56Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-14T00:01:17Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-14T00:00:25Z",
+      "until": "2026-11-14T00:00:48Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Eurovision Song Contest Asia",
+          "color": "#e8838f",
+          "points": [
+            {
+              "x": "10-16",
+              "y": 1969
+            },
+            {
+              "x": "10-17",
+              "y": 4891
+            },
+            {
+              "x": "10-18",
+              "y": 4337
+            },
+            {
+              "x": "10-19",
+              "y": 3064
+            },
+            {
+              "x": "10-20",
+              "y": 2463
+            },
+            {
+              "x": "10-21",
+              "y": 2866
+            },
+            {
+              "x": "10-22",
+              "y": 3475
+            },
+            {
+              "x": "10-23",
+              "y": 2809
+            },
+            {
+              "x": "10-24",
+              "y": 2620
+            },
+            {
+              "x": "10-25",
+              "y": 2355
+            },
+            {
+              "x": "10-26",
+              "y": 1927
+            },
+            {
+              "x": "10-27",
+              "y": 2127
+            },
+            {
+              "x": "10-28",
+              "y": 2014
+            },
+            {
+              "x": "10-29",
+              "y": 2526
+            },
+            {
+              "x": "10-30",
+              "y": 1937
+            },
+            {
+              "x": "10-31",
+              "y": 1971
+            },
+            {
+              "x": "11-01",
+              "y": 1906
+            },
+            {
+              "x": "11-02",
+              "y": 1829
+            },
+            {
+              "x": "11-03",
+              "y": 1719
+            },
+            {
+              "x": "11-04",
+              "y": 1660
+            },
+            {
+              "x": "11-05",
+              "y": 2035
+            },
+            {
+              "x": "11-06",
+              "y": 2150
+            },
+            {
+              "x": "11-07",
+              "y": 3397
+            },
+            {
+              "x": "11-08",
+              "y": 3621
+            },
+            {
+              "x": "11-09",
+              "y": 3225
+            },
+            {
+              "x": "11-10",
+              "y": 3207
+            },
+            {
+              "x": "11-11",
+              "y": 3687
+            },
+            {
+              "x": "11-12",
+              "y": 4617
+            },
+            {
+              "x": "11-13",
+              "y": 9680
+            },
+            {
+              "x": "11-14",
+              "y": 71577
+            }
+          ],
+          "cites": [
+            "views:en:Eurovision_Song_Contest_Asia:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-14T00:00:25Z",
+      "until": "2026-11-14T00:00:48Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "71,577",
+          "value": 71577,
+          "color": "#e8838f",
+          "cites": [
+            "views:en:Eurovision_Song_Contest_Asia:2026-11-14"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "2,451",
+          "value": 2451,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Festival_de_la_Canción_de_Eurovisión_Asia:2026-11-14"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "888",
+          "value": 888,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Eurovision_Song_Contest_Asia:2026-11-14"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "694",
+          "value": 694,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Eurovision_Song_Contest_Asia:2026-11-14"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "593",
+          "value": 593,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Concours_Eurovision_Asie_de_la_chanson:2026-11-14"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "556",
+          "value": 556,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Евровидение_Азия:2026-11-14"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "194",
+          "value": 194,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:ユーロビジョン・ソング・コンテスト・アジア:2026-11-14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-14T00:00:49Z",
+      "until": "2026-11-14T00:00:56Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/philippines-wins-eurovisions-first-asia-contest",
+          "cites": [
+            "wiki:2026-11-14:3"
+          ]
+        },
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/thailand-eurovision-asia-2026-carmelle-winner-099ca558c4638949e637d3a8f8061d6d",
+          "cites": [
+            "wiki:2026-11-14:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-14T00:00:57Z",
+      "until": "2026-11-14T00:01:17Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo",
+          "cites": [
+            "news:bbc:3883c6948f3d"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+          "cites": [
+            "news:guardian:c629975f6df7"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/philippines-wins-first-eurovision-song-contest-asia/a-79950050",
+          "cites": [
+            "news:dw:13c562f8bc59"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-14T00:01:18Z",
+      "until": "2026-11-14T00:01:24Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-14:3"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385971115:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Eurovision_Song_Contest_Asia:2026-11-14"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q37276325:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.002338
+  }
+}

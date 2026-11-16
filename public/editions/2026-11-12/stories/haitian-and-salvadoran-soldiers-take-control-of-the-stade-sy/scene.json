@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "id": "story-2026-11-12-haitian-and-salvadoran-soldiers-take-control-of-the-stade-sy",
+  "title": "Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in…",
+  "subtitle": "Conflict · 12 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-12T00:00:00Z",
+    "end": "2026-11-12T00:01:33Z"
+  },
+  "focus": "2026-11-12T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -82.3425,
+    "south": 10.53611111,
+    "east": -62.3425,
+    "north": 26.53611111
+  },
+  "imagery": {
+    "day": "2026-11-12",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-12T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-12T00:00:24Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-week.json",
+      "name": "week",
+      "from": "2026-11-12T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "lon": -34.34249999999997,
+      "lat": 10.709166666,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-12T00:00:04Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-12T00:00:14Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:23Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:26Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:29Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:31Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:34Z",
+      "lon": -72.3425,
+      "lat": 17.03611111,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -45,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:44Z",
+      "lon": -72.3425,
+      "lat": 17.03611111,
+      "range": 1358307.7707206125,
+      "heading": 14,
+      "pitch": -42.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:54Z",
+      "lon": -72.3425,
+      "lat": 17.03611111,
+      "range": 1230000,
+      "heading": 28,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:00:57Z",
+      "lon": -72.3425,
+      "lat": 16.53611111,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:07Z",
+      "lon": -72.3425,
+      "lat": 16.53611111,
+      "range": 1086646.2165764899,
+      "heading": -30,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:17Z",
+      "lon": -72.3425,
+      "lat": 16.53611111,
+      "range": 983999.9999999999,
+      "heading": -44,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:20Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:23Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:25Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:28Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:29Z",
+      "lon": -72.3425,
+      "lat": 17.84861111,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-12T00:01:33Z",
+      "lon": -97.34249999999997,
+      "lat": 17.84861111,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-12T00:00:01Z",
+      "text": "Haitian and Salvadoran soldiers have taken control of the Stade Sylvio Cator in Port-au-Prince, ending two years of gang control.",
+      "cites": [
+        "wiki:2026-11-12:1"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:08Z",
+      "text": "On 11 November, Fils-Aimé stated that the Salvadoran intervention was helping the Haitian government regain control of territory.",
+      "cites": [
+        "wiki:rev:1385920278:70"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:15Z",
+      "text": "El Salvador has intervened militarily in Haiti since 21 October 2026, after a gang ambush on 18 October kidnapped four Salvadoran Gang Suppression Force (GSF) aviation technicians.",
+      "cites": [
+        "wiki:rev:1385920278:0"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:25Z",
+      "text": "The stadium is Stade Sylvio Cator in Haiti, where the reports place the takeover.",
+      "cites": [
+        "wiki:2026-11-12:1"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:33Z",
+      "text": "On 6 November, a 400 Mawozo spokesperson told the Associated Press (AP) that the gang was ready to enter peace negotiations and undergo disarmament in exchange for an end of \"international interference\" in Haiti.",
+      "cites": [
+        "wiki:week:1385920278:74"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:40Z",
+      "text": "On 8 November, Salvadoran helicopters and a Task Force loitering munition struck a house belonging to Joseph, described as 400 Mawozo's alleged headquarters, killing up to 20 gang members.",
+      "cites": [
+        "wiki:week:1385920278:68"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:47Z",
+      "text": "Before 10 November, US chargé d'affaires to Haiti David Howell stated that three Salvadoran soldiers had been injured and one had been medically evacuated back to El Salvador.",
+      "cites": [
+        "wiki:week:1385920278:78"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:00:56Z",
+      "text": "The article lists two sides: on one, the Gang Suppression Force and Task Force mercenaries with logistical support; on the other, Haitian gangs including 400 Mawozo and Chèn Méchan.",
+      "cites": [
+        "wiki:box:1385920278:side-1",
+        "wiki:box:1385920278:side-2"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:03Z",
+      "text": "Wikipedia lists the conflict's status as ongoing.",
+      "cites": [
+        "wiki:box:1385920278:status"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:10Z",
+      "text": "As Wikipedia records them from its sources, casualties are 3 Salvadorans injured on one side, a figure El Salvador denies, and about 32 killed on the other.",
+      "cites": [
+        "wiki:box:1385920278:casualties-side-1-",
+        "wiki:box:1385920278:casualties-side-2-"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:19Z",
+      "text": "The takeover is reported by France 24.",
+      "cites": [
+        "wiki:2026-11-12:1"
+      ]
+    },
+    {
+      "t": "2026-11-12T00:01:27Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-12:1",
+        "wiki:rev:1385920278:70",
+        "views:en:Salvadoran_military_intervention_in_Haiti:30d",
+        "wd:Q141921562:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "HT",
+    "lon": -72.3425,
+    "lat": 18.53611111,
+    "label": "Stade Sylvio Cator"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-12T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-12T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-12T00:00:32Z",
+      "title": "Day by day"
+    },
+    {
+      "t": "2026-11-12T00:00:55Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-12T00:01:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-12T00:01:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-12T00:00:56Z",
+      "until": "2026-11-12T00:01:18Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Gang Suppression Force, Task Force mercenaries, Logistical support:",
+          "cites": [
+            "wiki:box:1385920278:side-1"
+          ]
+        },
+        {
+          "label": "Side 2",
+          "text": "Haitian gangs, 400 Mawozo, Chèn Méchan",
+          "cites": [
+            "wiki:box:1385920278:side-2"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing",
+          "cites": [
+            "wiki:box:1385920278:status"
+          ]
+        },
+        {
+          "label": "Casualties (side 1)",
+          "text": "3 Salvadorans injured (denied by El Salvador)",
+          "cites": [
+            "wiki:box:1385920278:casualties-side-1-"
+          ]
+        },
+        {
+          "label": "Casualties (side 2)",
+          "text": "~32 killed",
+          "cites": [
+            "wiki:box:1385920278:casualties-side-2-"
+          ]
+        },
+        {
+          "label": "Casualties",
+          "text": "30 civilians wounded",
+          "cites": [
+            "wiki:box:1385920278:casualties"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-12T00:01:19Z",
+      "until": "2026-11-12T00:01:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/americas/20261113-haitian-police-retake-national-stadium-from-gangs-after-two-years",
+          "cites": [
+            "wiki:2026-11-12:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-12T00:01:27Z",
+      "until": "2026-11-12T00:01:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-12:1"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385920278:70"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Salvadoran_military_intervention_in_Haiti:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141921562:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T00:00:00Z",
+    "costUsd": 0.002301
+  }
+}

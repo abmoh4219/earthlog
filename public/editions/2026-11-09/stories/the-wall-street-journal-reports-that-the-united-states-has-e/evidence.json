@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wiki:2026-11-09:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-09T00:00:00Z",
+    "lon": 0.48083333,
+    "lat": 52.365,
+    "label": "Conflict: The Wall Street Journal reports that the United States has evacuated aircraft from the RAF Mildenhall base in the United Kingdom, citing threats from Iran.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_9&oldid=1385079275",
+    "quote": "The Wall Street Journal reports that the United States has evacuated aircraft from the RAF Mildenhall base in the United Kingdom, citing threats from Iran.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/europe/us-aircraft-evacuated-second-uk-base-due-iran-threat-wsj-reports-2026-11-10/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q138577811:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "label": "Wikidata: \"United Kingdom in the 2026 Iran war\" is an instance of involvement",
+    "url": "https://www.wikidata.org/wiki/Q138577811",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384127483:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"United Kingdom involvement in the 2026 Iran war\" (revision of 2026-11-06 19:04 UTC)",
+    "quote": "Since the beginning of the 2026 Iran war on 28 February, when the United States and Israel conducted joint airstrikes across Iran, the United Kingdom has shot down Iranian drones and missiles over allied countries in the Middle East, including Qatar, Iraq, and Jordan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=United_Kingdom_involvement_in_the_2026_Iran_war&oldid=1384127483"
+  },
+  {
+    "id": "views:en:United_Kingdom_involvement_in_the_2026_Iran_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"United Kingdom involvement in the 2026 Iran war\", 11 October 2026 to 9 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=United_Kingdom_involvement_in_the_2026_Iran_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q138577811:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-09T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Kingdom in the 2026 Iran war\": country United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q138577811#P17"
+  }
+]

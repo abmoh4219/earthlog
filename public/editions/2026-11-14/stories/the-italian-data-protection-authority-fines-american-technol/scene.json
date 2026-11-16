@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-the-italian-data-protection-authority-fines-american-technol",
+  "title": "The Italian Data Protection Authority fines American technology company Meta…",
+  "subtitle": "Science & space · 14 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:00:54Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -132.14833333,
+    "south": 29.485,
+    "east": -112.14833333,
+    "north": 45.485
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-14T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-14T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": -84.14833333000001,
+      "lat": 22.0785,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:07Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:09Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:12Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:15Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:17Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:20Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:23Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:25Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:28Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:37Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:46Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:49Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:50Z",
+      "lon": -122.14833333,
+      "lat": 36.7975,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:54Z",
+      "lon": -147.14833333,
+      "lat": 36.7975,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "The Italian Data Protection Authority has fined Meta €805 million (US$887 million) after finding the Facebook Android app accessed users' photos and videos without specific consent or disclosure.",
+      "cites": [
+        "wiki:2026-11-14:14"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:11Z",
+      "text": "The fine concerns Meta Platforms, an American company based in the United States, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-14:14"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:19Z",
+      "text": "The story was reported by BBC News and Reuters.",
+      "cites": [
+        "wiki:2026-11-14:14"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:27Z",
+      "text": "Al Jazeera headlined the story, “Italy fines Meta $880m over photo privacy.”",
+      "cites": [
+        "news:aljazeera:8fc02da52c9b"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:33Z",
+      "text": "BBC News headlined it, “Italy fines Meta €805m over accessing users' photos.”",
+      "cites": [
+        "news:bbc:a2e4f8948c51"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:39Z",
+      "text": "DW headlined it, “Italy slaps Meta with €805mn fine over access to Android photos.”",
+      "cites": [
+        "news:dw:ab41c604ff8f"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:48Z",
+      "text": "The sources for this story are Wikipedia and Current events, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-14:14"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -122.14833333,
+    "lat": 37.485,
+    "label": "Meta Platforms"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-14T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-14T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-14T00:00:47Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-14T00:00:19Z",
+      "until": "2026-11-14T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/cwn83gxemk35o",
+          "cites": [
+            "wiki:2026-11-14:14"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+          "cites": [
+            "wiki:2026-11-14:14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-14T00:00:27Z",
+      "until": "2026-11-14T00:00:47Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy",
+          "cites": [
+            "news:aljazeera:8fc02da52c9b"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o",
+          "cites": [
+            "news:bbc:a2e4f8948c51"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/italy-slaps-meta-with-%E2%82%AC805mn-fine-over-access-to-android-photos/a-79949032",
+          "cites": [
+            "news:dw:ab41c604ff8f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-14T00:00:48Z",
+      "until": "2026-11-14T00:00:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-14:14"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.001235
+  }
+}

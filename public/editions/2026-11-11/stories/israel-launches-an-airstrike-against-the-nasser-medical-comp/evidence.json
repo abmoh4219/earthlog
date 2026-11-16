@@ -1,0 +1,109 @@
+[
+  {
+    "id": "wiki:2026-11-11:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-11T00:00:00Z",
+    "lon": 34.293,
+    "lat": 31.3471,
+    "label": "Conflict: Israel launches an airstrike against the Nasser Medical Complex in Khan Younis, killing six Palestinians, including a surgeon, and wounding over 20 more. Four more people are also killed in other airstrikes in the Gaza Strip.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893",
+    "quote": "Israel launches an airstrike against the Nasser Medical Complex in Khan Younis, killing six Palestinians, including a surgeon, and wounding over 20 more. Four more people are also killed in other airstrikes in the Gaza Strip.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strike-southern-gaza-hospital-kills-four-gaza-civil-defence-says-2026-11-11/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q123550499:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "label": "Wikidata: \"attacks on health facilities during the Gaza war\" is an instance of offensive, chain of events, crime against humanity",
+    "url": "https://www.wikidata.org/wiki/Q123550499",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385635476:195",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Attacks on health facilities during the Gaza war\" (revision of 2026-11-14 10:55 UTC)",
+    "quote": "On 12 November 2026, an Israeli airstrike hit the surgical wing of the Al-Yassin building at the Nasser Medical Complex in Khan Younis, killing six people, including a doctor and a child.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Attacks_on_health_facilities_during_the_Gaza_war&oldid=1385635476"
+  },
+  {
+    "id": "wiki:rev:1385635476:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Attacks on health facilities during the Gaza war\" (revision of 2026-11-14 10:55 UTC)",
+    "quote": "A significant number of attacks on healthcare facilities occurred during the Gaza war and genocide.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Attacks_on_health_facilities_during_the_Gaza_war&oldid=1385635476"
+  },
+  {
+    "id": "views:en:Attacks_on_health_facilities_during_the_Gaza_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Attacks on health facilities during the Gaza war\", 13 October 2026 to 11 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Attacks_on_health_facilities_during_the_Gaza_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q123550499:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"attacks on health facilities during the Gaza war\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q123550499#P585"
+  },
+  {
+    "id": "wd:Q123550499:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"attacks on health facilities during the Gaza war\": began 7 October 2023",
+    "url": "https://www.wikidata.org/wiki/Q123550499#P580"
+  },
+  {
+    "id": "wd:Q123550499:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"attacks on health facilities during the Gaza war\": location Gaza Strip, Israel",
+    "url": "https://www.wikidata.org/wiki/Q123550499#P276"
+  },
+  {
+    "id": "wd:Q123550499:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"attacks on health facilities during the Gaza war\": country Palestine, Israel",
+    "url": "https://www.wikidata.org/wiki/Q123550499#P17"
+  },
+  {
+    "id": "wiki:week:1385635476:203",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-11T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Attacks on health facilities during the Gaza war\" (revision of 2026-11-14 10:55 UTC): dated sentence",
+    "quote": "On 12 November 2026, an Israeli airstrike hit the surgical wing of the Al-Yassin building at the Nasser Medical Complex in Khan Younis, killing six people, including a doctor and a child.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Attacks_on_health_facilities_during_the_Gaza_war&oldid=1385635476"
+  }
+]

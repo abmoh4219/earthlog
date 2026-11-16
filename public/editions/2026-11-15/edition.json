@@ -1,0 +1,883 @@
+{
+  "version": 1,
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-16T12:08:36Z",
+  "candidates": 56,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "gaza-war",
+      "lens": "conflict",
+      "title": "Gaza war",
+      "summary": "Three Palestinians are killed and others are injured in shelling and shooting attacks by Israeli troops in various areas of the Gaza Strip, in a continuation of the violation of the ceasefire agreement signed in October 2025.",
+      "article": {
+        "title": "Gaza war",
+        "url": "https://en.wikipedia.org/wiki/Gaza_war",
+        "qid": "Q122962941"
+      },
+      "place": {
+        "name": "Gaza Strip",
+        "lon": 34.45,
+        "lat": 31.5,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-15:2"
+      },
+      "continent": "Asia",
+      "heat": 100,
+      "why": [
+        "Reported by 5 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "9 headlines over 21 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Israeli air strike kills senior Hamas commander in Gaza",
+          "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza",
+          "t": "2026-11-15T01:00:42Z",
+          "evidence": "news:aljazeera:620b63821f89"
+        },
+        {
+          "outlet": "sky",
+          "title": "Hamas says senior commander killed in Israeli airstrike",
+          "url": "https://news.sky.com/story/hamas-says-senior-commander-killed-in-israeli-airstrike-13612384",
+          "t": "2026-11-15T05:16:00Z",
+          "evidence": "news:sky:7a2cbc437957"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo",
+          "t": "2026-11-15T08:17:41Z",
+          "evidence": "news:bbc:6d8f0dff3438"
+        },
+        {
+          "outlet": "france24",
+          "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
+          "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
+          "t": "2026-11-15T16:41:48Z",
+          "evidence": "news:france24:b280762ad201"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
+          "t": "2026-11-15T22:28:02Z",
+          "evidence": "news:guardian:c3d4650f8144"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:2",
+        "wd:Q122962941:P31",
+        "news:aljazeera:620b63821f89",
+        "news:sky:7a2cbc437957",
+        "news:bbc:6d8f0dff3438",
+        "news:france24:b280762ad201",
+        "news:guardian:c3d4650f8144"
+      ],
+      "headline": "Three Palestinians are killed and others are injured in shelling and shooting attacks by Israeli troops in various areas of the Gaza Strip…"
+    },
+    {
+      "slug": "the-jordanian-state-security-court-sentences-three-men-to-de",
+      "lens": "general",
+      "title": "The Jordanian State Security Court sentences three men to death for an October…",
+      "summary": "The Jordanian State Security Court sentences three men to death for an October 23 shooting at a Greek Orthodox church in Karak Governorate that killed nine people and injured 25 others. Two accomplices receive six-year prison sentences.",
+      "article": {
+        "title": "2026 Karak church shooting, Capital punishment in Jordan",
+        "url": "https://en.wikipedia.org/wiki/2026_Karak_church_shooting%2C_Capital_punishment_in_Jordan"
+      },
+      "place": {
+        "name": "Karak Governorate",
+        "lon": 35.76194444,
+        "lat": 31.16472222,
+        "country": "JO",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-15:12"
+      },
+      "continent": "Asia",
+      "heat": 99,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Jordan sentences three men to death by hanging after deadly church attack",
+          "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack",
+          "t": "2026-11-15T08:15:04Z",
+          "evidence": "news:aljazeera:7ac0787cb8cf"
+        },
+        {
+          "outlet": "france24",
+          "title": "Three sentenced to death over Jordan church attack",
+          "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
+          "t": "2026-11-15T08:53:39Z",
+          "evidence": "news:france24:cfdbddd0326e"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+          "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo",
+          "t": "2026-11-15T11:06:32Z",
+          "evidence": "news:bbc:11f7e70ff488"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:12",
+        "news:aljazeera:7ac0787cb8cf",
+        "news:france24:cfdbddd0326e",
+        "news:bbc:11f7e70ff488"
+      ],
+      "headline": "The Jordanian State Security Court sentences three men to death for an October 23 shooting at a Greek Orthodox church in Karak Governorate that killed nine people and injured 25 others."
+    },
+    {
+      "slug": "hundreds-of-thousands-of-czechs-protest-in-prague-over-publi",
+      "lens": "general",
+      "title": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+      "summary": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+      "about": "The Czech Republic, also known as Czechia and historically known as Bohemia, is a landlocked country in Central Europe. The country is bordered by Austria to the south, Germany to the west, Poland to the northeast, and Slovakia to the southeast.",
+      "article": {
+        "title": "Czech Republic",
+        "url": "https://en.wikipedia.org/wiki/Czech_Republic",
+        "qid": "Q213"
+      },
+      "place": {
+        "name": "Prague",
+        "lon": 14.46,
+        "lat": 50.09,
+        "country": "CZ",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 97,
+      "why": [
+        "Reported by 5 outlets from 2 regions",
+        "4 outlets within 3 hours",
+        "People involved, per the headlines: hundreds of thousands"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Thousands rally in Czech Republic against state media funding changes",
+          "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes",
+          "t": "2026-11-15T16:32:22Z",
+          "evidence": "news:aljazeera:89d8b8b26cf9"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
+          "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+          "t": "2026-11-15T18:20:36Z",
+          "evidence": "news:guardian:bc033adbd821"
+        },
+        {
+          "outlet": "dw",
+          "title": "Czechia: Scores protest against public media reform",
+          "url": "https://www.dw.com/en/czechia-scores-protest-against-public-media-reform/a-79953057",
+          "t": "2026-11-15T19:12:00Z",
+          "evidence": "news:dw:804bd6cc316f"
+        },
+        {
+          "outlet": "france24",
+          "title": "Pragues's fight for public TV - Why Renowned Presenter Will Leave Czech TV Over Reforms",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-pragues-s-fight-for-public-tv-why-renowned-presenter-will-leave-czech-tv-over-reforms",
+          "t": "2026-11-15T19:13:35Z",
+          "evidence": "news:france24:1767661cd6ab"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Czechs rally against plan to switch funding of public media",
+          "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o",
+          "t": "2026-11-15T21:03:40Z",
+          "evidence": "news:bbc:7aaf12aa88ce"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:89d8b8b26cf9",
+        "news:guardian:bc033adbd821",
+        "news:dw:804bd6cc316f",
+        "news:france24:1767661cd6ab",
+        "news:bbc:7aaf12aa88ce"
+      ],
+      "headline": "Thousands rally in Czech Republic against state media funding changes, Al Jazeera reports."
+    },
+    {
+      "slug": "estonia-announces-the-closure-of-its-three-border-crossings",
+      "lens": "general",
+      "title": "Estonia announces the closure of its three border crossings with Russia…",
+      "summary": "Estonia announces the closure of its three border crossings with Russia starting December 1 after eight suspects were detained over an attempted arson attack on drone manufacturer Threod Systems, which Estonian intelligence attributes to Russia's GRU.",
+      "article": {
+        "title": "Estonia–Russia relations, Russian sabotage operations in Europe",
+        "url": "https://en.wikipedia.org/wiki/Estonia%E2%80%93Russia_relations%2C_Russian_sabotage_operations_in_Europe"
+      },
+      "place": {
+        "name": "Estonia",
+        "lon": 25.87,
+        "lat": 58.72,
+        "country": "EE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-15:11"
+      },
+      "continent": "Europe",
+      "heat": 96,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+          "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
+          "t": "2026-11-15T17:05:14Z",
+          "evidence": "news:france24:c99dd3720425"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Estonia to close border crossings with Russia after attack on drone maker",
+          "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+          "t": "2026-11-15T18:07:02Z",
+          "evidence": "news:aljazeera:b04d4d555188"
+        },
+        {
+          "outlet": "dw",
+          "title": "Estonia closes border to Russia after suspected drone factory arson",
+          "url": "https://www.dw.com/en/estonia-closes-border-to-russia-after-suspected-drone-factory-arson/a-79953115",
+          "t": "2026-11-15T18:29:00Z",
+          "evidence": "news:dw:0e59b4bde9de"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+          "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+          "t": "2026-11-15T22:17:09Z",
+          "evidence": "news:guardian:fca971b253c0"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:11",
+        "news:france24:c99dd3720425",
+        "news:aljazeera:b04d4d555188",
+        "news:dw:0e59b4bde9de",
+        "news:guardian:fca971b253c0"
+      ],
+      "headline": "Estonia announces the closure of its three border crossings with Russia starting December 1 after eight suspects were detained over an attempted arson attack on drone manufacturer Threod Systems,…"
+    },
+    {
+      "slug": "iran-targets-us-military-base-in-bahrain-with-drone-attack",
+      "lens": "conflict",
+      "title": "Iran targets US military base in Bahrain with drone attack",
+      "summary": "Iran targets US military base in Bahrain with drone attack",
+      "about": "Bahrain, officially the Kingdom of Bahrain, is an island country in the eastern part of Arabian Peninsula in West Asia. Situated near the western shore of the Persian Gulf, the country comprises a small archipelago of 33 natural islands and an additional 50 artificial islands, centred on Bahrain Island, which makes…",
+      "article": {
+        "title": "Bahrain",
+        "url": "https://en.wikipedia.org/wiki/Bahrain",
+        "qid": "Q398"
+      },
+      "place": {
+        "name": "Iran",
+        "lon": 54.93,
+        "lat": 32.17,
+        "country": "IR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 71,
+      "why": [
+        "Reported by 4 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status",
+          "t": "2026-11-15T00:00:08Z",
+          "evidence": "news:aljazeera:0b7f22cc7e17"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Iran targets US military base in Bahrain with drone attack",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo",
+          "t": "2026-11-15T13:42:58Z",
+          "evidence": "news:bbc:985f21bc1fc2"
+        },
+        {
+          "outlet": "france24",
+          "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
+          "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
+          "t": "2026-11-15T13:55:32Z",
+          "evidence": "news:france24:e8fd9186a781"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Iran launches drone attacks against US military base in Bahrain",
+          "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+          "t": "2026-11-15T18:03:56Z",
+          "evidence": "news:guardian:c019bab26c7e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:0b7f22cc7e17",
+        "news:bbc:985f21bc1fc2",
+        "news:france24:e8fd9186a781",
+        "news:guardian:c019bab26c7e"
+      ],
+      "headline": "Iran targets US military base in Bahrain with drone attack, BBC News reports."
+    },
+    {
+      "slug": "2026-cape-verdean-presidential-election",
+      "lens": "election",
+      "title": "2026 Cape Verdean presidential election",
+      "summary": "Cape Verdeans vote to elect a president, where the main two candidates are the incumbent PAICV candidate José Maria Neves and the MpD candidate Joana Rosa.",
+      "article": {
+        "title": "2026 Cape Verdean presidential election",
+        "url": "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election",
+        "qid": "Q111592838"
+      },
+      "heat": 66,
+      "why": [
+        "Reported by 2 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 3,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Cape Verde election: Jose Maria Neves set to win second term",
+          "url": "https://www.dw.com/en/cape-verde-election-jose-maria-neves-set-to-win-second-term/a-79952606",
+          "t": "2026-11-15T16:47:00Z",
+          "evidence": "news:dw:b48b9d9ee543"
+        },
+        {
+          "outlet": "france24",
+          "title": "Cape Verde could make election history with first female president",
+          "url": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
+          "t": "2026-11-15T07:56:14Z",
+          "evidence": "news:france24:3cb625736ad1"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:13",
+        "wiki:2026-11-15:14",
+        "news:dw:b48b9d9ee543",
+        "wd:Q111592838:P31",
+        "news:france24:3cb625736ad1"
+      ],
+      "headline": "Cape Verdeans vote to elect a president, where the main two candidates are the incumbent PAICV candidate José Maria Neves and the MpD candidate Joana Rosa."
+    },
+    {
+      "slug": "2026-27-uefa-nations-league",
+      "lens": "culture",
+      "title": "2026–27 UEFA Nations League",
+      "summary": "In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team.",
+      "about": "The 2026–27 UEFA Nations League is the fifth season of the UEFA Nations League, an international association football competition involving the men's national teams of the member associations of UEFA. The competition is being held from September to November 2026, March 2027, and June 2027.",
+      "article": {
+        "title": "2026–27 UEFA Nations League",
+        "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League",
+        "qid": "Q123347490"
+      },
+      "heat": 53,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events",
+        "Read by 144,000 on Wikipedia that day"
+      ],
+      "readers": 144408,
+      "spike": 22.3,
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Spain vs England live: UEFA Nations League",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league",
+          "t": "2026-11-15T16:45:00Z",
+          "evidence": "news:aljazeera:dc59968902c5"
+        }
+      ],
+      "related": [
+        "UEFA Nations League"
+      ],
+      "evidence": [
+        "wiki:2026-11-15:21",
+        "views:en:2026–27_UEFA_Nations_League:2026-11-15",
+        "views:en:2026–27_UEFA_Nations_League:prior",
+        "views:en:UEFA_Nations_League:2026-11-15",
+        "views:en:UEFA_Nations_League:prior",
+        "news:aljazeera:dc59968902c5",
+        "wd:Q123347490:P31"
+      ],
+      "headline": "In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team."
+    },
+    {
+      "slug": "yemen-s-houthis-advance-on-aden-as-government-forces-retreat",
+      "lens": "organization",
+      "title": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital",
+      "summary": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital",
+      "about": "The Houthis, officially known as Ansar Allah or Ansarullah, are a Zaydi revivalist and Shia Islamist political and paramilitary organization that emerged from Yemen in the 1990s. It is predominantly made up of Zaydis, whose namesake leadership is drawn largely from the al-Houthi family.",
+      "article": {
+        "title": "Houthis",
+        "url": "https://en.wikipedia.org/wiki/Houthis",
+        "qid": "Q3042087"
+      },
+      "place": {
+        "name": "Aden",
+        "lon": 45.01,
+        "lat": 12.78,
+        "country": "YE",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 52,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
+          "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden",
+          "t": "2026-11-15T17:33:00Z",
+          "evidence": "news:aljazeera:8d45b4ebac30"
+        },
+        {
+          "outlet": "france24",
+          "title": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital",
+          "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
+          "t": "2026-11-15T19:28:54Z",
+          "evidence": "news:france24:21793fe41f25"
+        },
+        {
+          "outlet": "dw",
+          "title": "Yemen: Anti-Houthi forces pull back as rebels advance",
+          "url": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692",
+          "t": "2026-11-15T23:29:00Z",
+          "evidence": "news:dw:bce2a6257bd5"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:8d45b4ebac30",
+        "news:france24:21793fe41f25",
+        "news:dw:bce2a6257bd5"
+      ],
+      "headline": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital, France 24 reports."
+    },
+    {
+      "slug": "pope-leo-heads-to-the-amazon-on-the-final-leg-of-his-south-a",
+      "lens": "person",
+      "title": "Pope Leo heads to the Amazon on the final leg of his South American tour",
+      "summary": "Pope Leo heads to the Amazon on the final leg of his South American tour",
+      "about": "Pope Leo is the name of fourteen heads of the Catholic Church:",
+      "article": {
+        "title": "Pope Leo",
+        "url": "https://en.wikipedia.org/wiki/Pope_Leo",
+        "qid": "Q4375855"
+      },
+      "place": {
+        "name": "Peru",
+        "lon": -72.9,
+        "lat": -12.98,
+        "country": "PE",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 49,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Pope Leo heads to high Andes on final leg of South America tour",
+          "url": "https://www.dw.com/en/pope-leo-heads-to-high-andes-on-final-leg-of-south-america-tour/a-79952884",
+          "t": "2026-11-15T15:23:00Z",
+          "evidence": "news:dw:2d76c56d2268"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+          "url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour",
+          "t": "2026-11-15T20:54:13Z",
+          "evidence": "news:aljazeera:3b02c4b3cb53"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:2d76c56d2268",
+        "news:aljazeera:3b02c4b3cb53"
+      ],
+      "headline": "Pope Leo heads to high Andes on final leg of South America tour, DW reports."
+    },
+    {
+      "slug": "zelenskyy-urges-removal-of-starshield-limits-on-ukraine",
+      "lens": "person",
+      "title": "Zelenskyy urges removal of Starshield limits on Ukraine",
+      "summary": "Zelenskyy urges removal of Starshield limits on Ukraine",
+      "about": "Volodymyr Oleksandrovych Zelenskyy (born 25 January 1978) is a Ukrainian politician and former entertainer who has served as the sixth president of Ukraine since 2019. He took office five years after the start of the Russo-Ukrainian war with Russia's annexation of Crimea and invasion of the Donbas, and has continued…",
+      "article": {
+        "title": "Volodymyr Zelenskyy",
+        "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+        "qid": "Q3874799"
+      },
+      "place": {
+        "name": "Ukraine",
+        "lon": 32.14,
+        "lat": 49.72,
+        "country": "UA",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 45,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Starshield restrictions help Russia’s energy attacks on Ukraine: Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy",
+          "t": "2026-11-15T13:37:08Z",
+          "evidence": "news:aljazeera:d16b98a3f374"
+        },
+        {
+          "outlet": "dw",
+          "title": "Zelenskyy urges removal of Starshield limits on Ukraine",
+          "url": "https://www.dw.com/en/zelenskyy-urges-removal-of-starshield-limits-on-ukraine/a-79953300",
+          "t": "2026-11-15T20:39:00Z",
+          "evidence": "news:dw:505b8186cf0a"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:d16b98a3f374",
+        "news:dw:505b8186cf0a"
+      ],
+      "headline": "Zelenskyy urges removal of Starshield limits on Ukraine, DW reports."
+    },
+    {
+      "slug": "tanker-collides-with-cruise-ship-on-mississippi-near-new-orl",
+      "lens": "disaster",
+      "title": "Tanker collides with cruise ship on Mississippi near New Orleans",
+      "summary": "Tanker collides with cruise ship on Mississippi near New Orleans",
+      "about": "The Mississippi River is the primary river of the largest drainage basin in the United States. It is the second-longest river in the U.S. after the Missouri.",
+      "article": {
+        "title": "Mississippi River",
+        "url": "https://en.wikipedia.org/wiki/Mississippi_River",
+        "qid": "Q1497"
+      },
+      "place": {
+        "name": "New Orleans",
+        "lon": -90.04,
+        "lat": 30,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 42,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+          "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o",
+          "t": "2026-11-15T14:33:59Z",
+          "evidence": "news:bbc:2836d51dacc7"
+        },
+        {
+          "outlet": "guardian",
+          "title": "US officials recover audio from ‘Mississippi miracle’ cruise ship and tanker crash",
+          "url": "https://www.theguardian.com/us-news/2026/nov/15/audio-new-orleans-mississippi-river-cruise-tanker-crash",
+          "t": "2026-11-15T23:20:59Z",
+          "evidence": "news:guardian:ca1e6375eb3b"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:2836d51dacc7",
+        "news:guardian:ca1e6375eb3b"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-14",
+            "slug": "tanker-collides-with-cruise-ship-on-mississippi-near-new-orl",
+            "title": "Tanker collides with cruise ship on Mississippi near New Orleans"
+          }
+        ]
+      },
+      "headline": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision, BBC News reports."
+    },
+    {
+      "slug": "faa-lifts-nationwide-ground-stop-on-all-us-flights",
+      "lens": "person",
+      "title": "FAA lifts nationwide ground stop on all US flights",
+      "summary": "FAA lifts nationwide ground stop on all US flights",
+      "about": "Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.",
+      "article": {
+        "title": "Donald Trump",
+        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "qid": "Q22686"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 40,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno",
+          "t": "2026-11-15T07:10:31Z",
+          "evidence": "news:bbc:5bfebd58b944"
+        },
+        {
+          "outlet": "france24",
+          "title": "Air travel issues persist in the US after nationwide ground stop",
+          "url": "https://www.france24.com/en/air-travel-issues-persist-in-the-us-after-nationwide-ground-stop",
+          "t": "2026-11-15T12:12:28Z",
+          "evidence": "news:france24:ae8922ebd6d2"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:5bfebd58b944",
+        "news:france24:ae8922ebd6d2"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-14",
+            "slug": "faa-lifts-nationwide-ground-stop-on-all-us-flights",
+            "title": "FAA lifts nationwide ground stop on all US flights"
+          }
+        ]
+      },
+      "headline": "Copper wire upgrade behind US flight suspension, transport secretary says, BBC News reports."
+    },
+    {
+      "slug": "australia-wins-its-fourth-consecutive-world-cup-title-after",
+      "lens": "sports",
+      "title": "Australia wins its fourth consecutive World Cup title after defeating New…",
+      "summary": "In women's rugby league, Australia wins its fourth consecutive World Cup title after defeating New Zealand 34–10 in the final in Brisbane.",
+      "article": {
+        "title": "2026 Women's Rugby League World Cup, Australia–New Zealand sports rivalries",
+        "url": "https://en.wikipedia.org/wiki/2026_Women's_Rugby_League_World_Cup%2C_Australia%E2%80%93New_Zealand_sports_rivalries"
+      },
+      "place": {
+        "name": "Brisbane",
+        "lon": 153.02805556,
+        "lat": -27.46777778,
+        "country": "AU",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-15:20"
+      },
+      "continent": "Oceania",
+      "heat": 40,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Australia crush New Zealand to win fourth Women’s Rugby League World Cup",
+          "url": "https://www.aljazeera.com/sports/2026/11/15/australia-crush-new-zealand-to-win-fourth-womens-rugby-league-world-cup",
+          "t": "2026-11-15T12:21:28Z",
+          "evidence": "news:aljazeera:ebef98ce5088"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:20",
+        "news:aljazeera:ebef98ce5088"
+      ],
+      "headline": "In women's rugby league, Australia wins its fourth consecutive World Cup title after defeating New Zealand 34–10 in the final in Brisbane."
+    },
+    {
+      "slug": "archive-of-our-own",
+      "lens": "organization",
+      "title": "Archive of Our Own",
+      "summary": "Non-profit fanfiction repository website Archive of Our Own is restored to limited functionality 17 days after being targeted in a cyberattack.",
+      "about": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works.",
+      "article": {
+        "title": "Archive of Our Own",
+        "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+        "qid": "Q27764876"
+      },
+      "heat": 39,
+      "why": [
+        "Listed on Wikipedia's Current events",
+        "Read by 861,000 on Wikipedia that day"
+      ],
+      "readers": 860729,
+      "spike": 559.3,
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:16",
+        "views:en:Archive_of_Our_Own:2026-11-15",
+        "views:en:Archive_of_Our_Own:prior",
+        "wd:Q27764876:P31"
+      ],
+      "update": {
+        "day": 5,
+        "previous": [
+          {
+            "date": "2026-11-11",
+            "slug": "archive-of-our-own",
+            "title": "Archive of Our Own"
+          }
+        ]
+      },
+      "headline": "Non-profit fanfiction repository website Archive of Our Own is restored to limited functionality 17 days after being targeted in a cyberattack."
+    },
+    {
+      "slug": "the-nigerian-defence-headquarters-announces-that-the-nigeria",
+      "lens": "conflict",
+      "title": "The Nigerian Defence Headquarters announces that the Nigerian Army killed…",
+      "summary": "The Nigerian Defence Headquarters announces that the Nigerian Army killed eight terrorists, arrested 22 additional terrorists, logistical personnel and their families, and rescued 125 kidnapping victims in various raids in the states of Adamawa, Bauchi, Yobe, and Borno between November 6 and 12.",
+      "article": {
+        "title": "Religious violence in Nigeria",
+        "url": "https://en.wikipedia.org/wiki/Religious_violence_in_Nigeria",
+        "qid": "Q18393989"
+      },
+      "place": {
+        "name": "Nigerian Defence Headquarters",
+        "lon": 7.489195,
+        "lat": 9.040929,
+        "country": "NG",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-15:3"
+      },
+      "continent": "Africa",
+      "heat": 21,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:3",
+        "wd:Q18393989:P31"
+      ],
+      "headline": "The Nigerian Defence Headquarters announces that the Nigerian Army killed eight terrorists, arrested 22 additional terrorists, logistical personnel and their families,…"
+    },
+    {
+      "slug": "amid-minimum-wage-protests-by-garment-workers",
+      "lens": "economy",
+      "title": "Amid minimum wage protests by garment workers",
+      "summary": "Amid minimum wage protests by garment workers, 13 garment factories in Gazipur are shut indefinitely under the Bangladesh Labour Act, 2006 and over 50 remain closed in Savar and Ashulia, while 48 platoons of the Border Guard, Ansar, and Special Response Battalion deploy across industrial zones in Dhaka, Gazipur, and Narayanganj.",
+      "article": {
+        "title": "2026 Bangladesh garment workers protests",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+        "qid": "Q142084937"
+      },
+      "place": {
+        "name": "Gazipur District",
+        "lon": 90.43,
+        "lat": 24,
+        "country": "BD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-15:5"
+      },
+      "continent": "Asia",
+      "heat": 21,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:5",
+        "wd:Q142084937:P31"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-14",
+            "slug": "the-bangladesh-garment-manufacturers-and-exporters-associati",
+            "title": "The Bangladesh Garment Manufacturers and Exporters Association threatens to…"
+          },
+          {
+            "date": "2026-11-12",
+            "slug": "over-200-garment-factories-shut-down-as-workers-block-the-dh",
+            "title": "Over 200 garment factories shut down as workers block the Dhaka–Tangail…"
+          }
+        ]
+      },
+      "headline": "Amid minimum wage protests by garment workers, 13 garment factories in Gazipur are shut indefinitely under the Bangladesh Labour Act, 2006 and over 50 remain closed in Savar and Ashulia,…"
+    },
+    {
+      "slug": "twelve-people-are-killed-and-16-others-are-injured-when-a-bu",
+      "lens": "accident",
+      "title": "Twelve people are killed and 16 others are injured when a bus carrying gas…",
+      "summary": "Twelve people are killed and 16 others are injured when a bus carrying gas refinery workers overturns in Ilam province, Iran.",
+      "place": {
+        "name": "Ilam province",
+        "lon": 46.66666667,
+        "lat": 33.18333333,
+        "country": "IR",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-15:6"
+      },
+      "continent": "Asia",
+      "heat": 21,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-15:6"
+      ],
+      "headline": "Twelve people are killed and 16 others are injured when a bus carrying gas refinery workers overturns in Ilam province, Iran."
+    }
+  ]
+}

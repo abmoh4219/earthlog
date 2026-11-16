@@ -1,0 +1,110 @@
+[
+  {
+    "id": "news:aljazeera:0b7f22cc7e17",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Iran war live: Bahrain targeted as Gulf nations warned against US support (00:00 UTC)",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status",
+    "quote": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:985f21bc1fc2",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "BBC News: Iran targets US military base in Bahrain with drone attack (13:42 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo",
+    "quote": "Iran targets US military base in Bahrain with drone attack",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:e8fd9186a781",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "France 24: Bahrain says air defences destroyed several Iranian drones attacking US base (13:55 UTC)",
+    "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
+    "quote": "Bahrain says air defences destroyed several Iranian drones attacking US base",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:c019bab26c7e",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "The Guardian: Iran launches drone attacks against US military base in Bahrain (18:03 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+    "quote": "Iran launches drone attacks against US military base in Bahrain",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385859397:485",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain\" (revision of 2026-11-15 16:42 UTC)",
+    "quote": "Houda Nonoo, former Bahraini ambassador to America, is Jewish.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain&oldid=1385859397"
+  },
+  {
+    "id": "wiki:rev:1385859397:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain\" (revision of 2026-11-15 16:42 UTC)",
+    "quote": "Bahrain, officially the Kingdom of Bahrain, is an island country in the eastern part of Arabian Peninsula in West Asia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain&oldid=1385859397"
+  },
+  {
+    "id": "wiki:2026-11-13:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-13",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-13: Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik.",
+    "quote": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806"
+  },
+  {
+    "id": "wiki:2026-11-14:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-14",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-14: The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months.",
+    "quote": "The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929"
+  },
+  {
+    "id": "views:en:Bahrain:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Bahrain\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Bahrain&range=latest-30"
+  },
+  {
+    "id": "wd:Q398:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Bahrain\": founded 14 August 1971",
+    "url": "https://www.wikidata.org/wiki/Q398#P571"
+  },
+  {
+    "id": "wd:Q398:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Bahrain\": country Bahrain",
+    "url": "https://www.wikidata.org/wiki/Q398#P17"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "wiki:2026-11-14:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-14T00:00:00Z",
+    "lon": -122.14833333,
+    "lat": 37.485,
+    "label": "Science & tech: The Italian Data Protection Authority fines American technology company Meta for €805 million (US$887 million) after it was found that the Facebook Android app had access to users' photos and videos without specific consent or disclosure.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929",
+    "quote": "The Italian Data Protection Authority fines American technology company Meta for €805 million (US$887 million) after it was found that the Facebook Android app had access to users' photos and videos without specific consent or disclosure.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cwn83gxemk35o"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:8fc02da52c9b",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "Al Jazeera: Italy fines Meta $880m over photo privacy (16:16 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy",
+    "quote": "Italy fines Meta $880m over photo privacy",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:a2e4f8948c51",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "BBC News: Italy fines Meta €805m over accessing users' photos (18:28 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o",
+    "quote": "Italy fines Meta €805m over accessing users' photos",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:ab41c604ff8f",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-14T00:00:00Z",
+    "label": "DW: Italy slaps Meta with €805mn fine over access to Android photos (18:41 UTC)",
+    "url": "https://www.dw.com/en/italy-slaps-meta-with-%E2%82%AC805mn-fine-over-access-to-android-photos/a-79949032",
+    "quote": "Italy slaps Meta with €805mn fine over access to Android photos",
+    "precision": "day"
+  }
+]

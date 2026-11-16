@@ -1,0 +1,116 @@
+[
+  {
+    "id": "news:aljazeera:8d45b4ebac30",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "Al Jazeera: Yemeni government forces redeploy from Bab al-Mandeb to defend Aden (17:33 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden",
+    "quote": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:21793fe41f25",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "France 24: Yemen's Houthis advance on Aden as government forces retreat to defend their capital (19:28 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
+    "quote": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:bce2a6257bd5",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-15T00:00:00Z",
+    "label": "DW: Yemen: Anti-Houthi forces pull back as rebels advance (23:29 UTC)",
+    "url": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692",
+    "quote": "Yemen: Anti-Houthi forces pull back as rebels advance",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384523612:292",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthis\" (revision of 2026-11-08 17:44 UTC)",
+    "quote": "The Wall Street Journal reported in October 2026 that Houthis have relied on Chinese equipment and parts to build a version of the Kheibar Shekan ballistic missile.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthis&oldid=1384523612"
+  },
+  {
+    "id": "wiki:rev:1384523612:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthis\" (revision of 2026-11-08 17:44 UTC)",
+    "quote": "The Houthis, officially known as Ansar Allah or Ansarullah, are a Zaydi revivalist and Shia Islamist political and paramilitary organization that emerged from Yemen in the 1990s.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthis&oldid=1384523612"
+  },
+  {
+    "id": "views:en:Houthis:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Houthis\", 17 October 2026 to 15 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Houthis&range=latest-30"
+  },
+  {
+    "id": "wd:Q3042087:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthis\": founded 2000",
+    "url": "https://www.wikidata.org/wiki/Q3042087#P571"
+  },
+  {
+    "id": "wd:Q3042087:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthis\": headquarters Saada, Sanaa",
+    "url": "https://www.wikidata.org/wiki/Q3042087#P159"
+  },
+  {
+    "id": "wd:Q3042087:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthis\": country Yemen",
+    "url": "https://www.wikidata.org/wiki/Q3042087#P17"
+  },
+  {
+    "id": "wd:Q3042087:P112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthis\": founded by: Hussein al-Houthi",
+    "url": "https://www.wikidata.org/wiki/Q3042087#P112"
+  },
+  {
+    "id": "wd:Q3042087:P488",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthis\": chair: Abd al-Malik al-Houthi",
+    "url": "https://www.wikidata.org/wiki/Q3042087#P488"
+  },
+  {
+    "id": "wd:Q3042087:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-15T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthis\": official website https://ansarollah.com.ye/",
+    "url": "https://www.wikidata.org/wiki/Q3042087#P856"
+  }
+]

@@ -1,0 +1,785 @@
+{
+  "version": 1,
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-16T12:04:10Z",
+  "candidates": 46,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "faa-lifts-nationwide-ground-stop-on-all-us-flights",
+      "lens": "person",
+      "title": "FAA lifts nationwide ground stop on all US flights",
+      "summary": "FAA lifts nationwide ground stop on all US flights",
+      "about": "Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.",
+      "article": {
+        "title": "Donald Trump",
+        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "qid": "Q22686"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 100,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "15 headlines over 20 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "US lifts nationwide ground stop for airports hours after halting all departures",
+          "url": "https://www.dw.com/en/us-lifts-nationwide-ground-stop-for-airports-hours-after-halting-all-departures/a-79945062",
+          "t": "2026-11-14T01:41:00Z",
+          "evidence": "news:dw:ab4e85db51f9"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+          "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+          "t": "2026-11-14T02:15:53Z",
+          "evidence": "news:guardian:27fee21f2e30"
+        },
+        {
+          "outlet": "france24",
+          "title": "US flights resume after nationwide ground stop lifted",
+          "url": "https://www.france24.com/en/americas/20261114-us-flights-resume-after-nationwide-ground-stop-lifted-aviation",
+          "t": "2026-11-14T02:35:48Z",
+          "evidence": "news:france24:ee4c7a228fe5"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "US air travel thrown into chaos after nationwide ground stop halts flights",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel",
+          "t": "2026-11-14T05:42:41Z",
+          "evidence": "news:aljazeera:7710eb8ca29d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:ab4e85db51f9",
+        "news:guardian:27fee21f2e30",
+        "news:france24:ee4c7a228fe5",
+        "news:aljazeera:7710eb8ca29d"
+      ],
+      "headline": "US lifts nationwide ground stop for airports hours after halting all departures, DW reports."
+    },
+    {
+      "slug": "the-italian-data-protection-authority-fines-american-technol",
+      "lens": "science",
+      "title": "The Italian Data Protection Authority fines American technology company Meta…",
+      "summary": "The Italian Data Protection Authority fines American technology company Meta for €805 million (US$887 million) after it was found that the Facebook Android app had access to users' photos and videos without specific consent or disclosure.",
+      "place": {
+        "name": "Meta Platforms",
+        "lon": -122.14833333,
+        "lat": 37.485,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-14:14"
+      },
+      "continent": "North America",
+      "heat": 90,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Italy fines Meta $880m over photo privacy",
+          "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy",
+          "t": "2026-11-14T16:16:15Z",
+          "evidence": "news:aljazeera:8fc02da52c9b"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Italy fines Meta €805m over accessing users' photos",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o",
+          "t": "2026-11-14T18:28:06Z",
+          "evidence": "news:bbc:a2e4f8948c51"
+        },
+        {
+          "outlet": "dw",
+          "title": "Italy slaps Meta with €805mn fine over access to Android photos",
+          "url": "https://www.dw.com/en/italy-slaps-meta-with-%E2%82%AC805mn-fine-over-access-to-android-photos/a-79949032",
+          "t": "2026-11-14T18:41:00Z",
+          "evidence": "news:dw:ab41c604ff8f"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-14:14",
+        "news:aljazeera:8fc02da52c9b",
+        "news:bbc:a2e4f8948c51",
+        "news:dw:ab41c604ff8f"
+      ],
+      "headline": "The Italian Data Protection Authority fines American technology company Meta for €805 million (US$887 million) after it was found that the Facebook Android app had access to users' photos…"
+    },
+    {
+      "slug": "eurovision-song-contest-asia",
+      "lens": "culture",
+      "title": "Eurovision Song Contest Asia",
+      "summary": "The Philippines, with the song \"Sobra-Sobra\" by Carmelle, wins the inaugural Eurovision Song Contest Asia held in Bangkok, Thailand.",
+      "about": "The Eurovision Song Contest Asia (ESCA) is an international song competition modelled after the Eurovision Song Contest, where broadcasters from the Asia-Pacific region compete representing their countries. The inaugural edition, organised by Voxovation under licence from the European Broadcasting Union (EBU), produced by S2O Productions, and staged by host broadcaster Channel 3, was held on 14 November 2026 at One Bangkok Forum in Bangkok, Thailand, with broadcasters from eleven countries taking part.",
+      "article": {
+        "title": "Eurovision Song Contest Asia",
+        "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
+        "qid": "Q37276325"
+      },
+      "place": {
+        "name": "Bangkok",
+        "lon": 100.49416667,
+        "lat": 13.7525,
+        "country": "TH",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-14:3"
+      },
+      "continent": "Asia",
+      "heat": 81,
+      "why": [
+        "Reported by 3 outlets",
+        "Listed on Wikipedia's Current events",
+        "Read by 72,000 on Wikipedia that day"
+      ],
+      "readers": 71577,
+      "spike": 28.5,
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Philippines wins first Eurovision Song Contest Asia",
+          "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo",
+          "t": "2026-11-14T18:17:58Z",
+          "evidence": "news:bbc:3883c6948f3d"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+          "t": "2026-11-14T19:01:32Z",
+          "evidence": "news:guardian:c629975f6df7"
+        },
+        {
+          "outlet": "dw",
+          "title": "Philippines wins first Eurovision Song Contest Asia",
+          "url": "https://www.dw.com/en/philippines-wins-first-eurovision-song-contest-asia/a-79950050",
+          "t": "2026-11-14T22:44:00Z",
+          "evidence": "news:dw:13c562f8bc59"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-14:3",
+        "views:en:Eurovision_Song_Contest_Asia:2026-11-14",
+        "views:en:Eurovision_Song_Contest_Asia:prior",
+        "news:bbc:3883c6948f3d",
+        "news:guardian:c629975f6df7",
+        "news:dw:13c562f8bc59",
+        "wd:Q37276325:P31"
+      ],
+      "headline": "The Philippines, with the song \"Sobra-Sobra\" by Carmelle, wins the inaugural Eurovision Song Contest Asia held in Bangkok, Thailand."
+    },
+    {
+      "slug": "us-has-floated-ukraine-ceding-donbas-for-nato-membership-zel",
+      "lens": "conflict",
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "summary": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "place": {
+        "name": "Ukraine",
+        "lon": 32.14,
+        "lat": 49.72,
+        "country": "UA",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 81,
+      "why": [
+        "Reported by 4 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Ukraine is running out of options, and Russia knows it",
+          "url": "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it",
+          "t": "2026-11-14T06:39:09Z",
+          "evidence": "news:aljazeera:8b260024601b"
+        },
+        {
+          "outlet": "france24",
+          "title": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+          "t": "2026-11-14T10:30:04Z",
+          "evidence": "news:france24:b3597e97289d"
+        },
+        {
+          "outlet": "sky",
+          "title": "US asked if Ukraine would give up parts of Donbas for NATO membership, Zelenskyy says",
+          "url": "https://news.sky.com/story/us-asks-if-ukraine-would-give-up-parts-of-donbas-for-nato-membership-zelenskyy-says-13612188",
+          "t": "2026-11-14T13:12:00Z",
+          "evidence": "news:sky:7ec42b978b9d"
+        },
+        {
+          "outlet": "bbc",
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo",
+          "t": "2026-11-14T22:37:25Z",
+          "evidence": "news:bbc:45c521b7aced"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:8b260024601b",
+        "news:france24:b3597e97289d",
+        "news:sky:7ec42b978b9d",
+        "news:bbc:45c521b7aced"
+      ],
+      "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says, BBC News reports."
+    },
+    {
+      "slug": "microsoft-says-all-services-fully-recovered-after-global-out",
+      "lens": "general",
+      "title": "Microsoft says all services 'fully recovered' after global outage",
+      "summary": "Microsoft says all services 'fully recovered' after global outage",
+      "heat": 73,
+      "why": [
+        "Reported by 5 outlets from 2 regions"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Microsoft services begin recovering after global outage",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage",
+          "t": "2026-11-14T00:17:59Z",
+          "evidence": "news:aljazeera:2c4706a70a5c"
+        },
+        {
+          "outlet": "france24",
+          "title": "Microsoft says all services 'fully recovered' after global outage",
+          "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
+          "t": "2026-11-14T06:07:56Z",
+          "evidence": "news:france24:42e4ac49238f"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o",
+          "t": "2026-11-14T06:42:27Z",
+          "evidence": "news:bbc:a61501fbc50a"
+        },
+        {
+          "outlet": "dw",
+          "title": "Microsoft says all services working again",
+          "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887",
+          "t": "2026-11-14T09:06:00Z",
+          "evidence": "news:dw:03062deb25b6"
+        },
+        {
+          "outlet": "sky",
+          "title": "Microsoft confirms all services are restored after global outage",
+          "url": "https://news.sky.com/story/microsoft-confirms-all-services-are-restored-after-global-outage-13612219",
+          "t": "2026-11-14T14:56:00Z",
+          "evidence": "news:sky:596f71582e62"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:2c4706a70a5c",
+        "news:france24:42e4ac49238f",
+        "news:bbc:a61501fbc50a",
+        "news:dw:03062deb25b6",
+        "news:sky:596f71582e62"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-13",
+            "slug": "microsoft-says-all-services-fully-recovered-after-global-out",
+            "title": "Microsoft says all services 'fully recovered' after global outage"
+          }
+        ]
+      },
+      "headline": "Microsoft says all services 'fully recovered' after global outage, France 24 reports."
+    },
+    {
+      "slug": "spacex-s-starship-completes-first-ever-mid-air-catch-after-r",
+      "lens": "science",
+      "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+      "summary": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+      "heat": 70,
+      "why": [
+        "Reported by 4 outlets",
+        "4 outlets within 3 hours"
+      ],
+      "topic": "science",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+          "url": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+          "t": "2026-11-14T20:51:24Z",
+          "evidence": "news:france24:ffcd9c7babb7"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
+          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo",
+          "t": "2026-11-14T21:05:14Z",
+          "evidence": "news:bbc:6756af101ccd"
+        },
+        {
+          "outlet": "dw",
+          "title": "SpaceX carries out first-ever spaceship capture",
+          "url": "https://www.dw.com/en/spacex-carries-out-first-ever-spaceship-capture/a-79950275",
+          "t": "2026-11-14T21:35:00Z",
+          "evidence": "news:dw:a4ef41f2a49e"
+        },
+        {
+          "outlet": "guardian",
+          "title": "SpaceX’s Starship returns to launch pad from orbit in victory for company",
+          "url": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+          "t": "2026-11-14T22:35:06Z",
+          "evidence": "news:guardian:b10be80ef7c5"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:ffcd9c7babb7",
+        "news:bbc:6756af101ccd",
+        "news:dw:a4ef41f2a49e",
+        "news:guardian:b10be80ef7c5"
+      ],
+      "headline": "SpaceX's Starship completes first-ever mid-air catch after return from orbit, France 24 reports."
+    },
+    {
+      "slug": "trump-putin-and-xi-plan-historic-joint-meeting-in-china-next",
+      "lens": "general",
+      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "summary": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "about": "The White House is the official residence and workplace of the president of the United States. Located at 1600 Pennsylvania Avenue NW in Washington, D.C., it has served as the residence of every U.S. president since John Adams in 1800 when the national capital was moved from Philadelphia.",
+      "article": {
+        "title": "White House",
+        "url": "https://en.wikipedia.org/wiki/White_House",
+        "qid": "Q35525"
+      },
+      "place": {
+        "name": "China",
+        "lon": 106.34,
+        "lat": 32.5,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 66,
+      "why": [
+        "Reported by 4 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week",
+          "url": "https://www.france24.com/en/asia-pacific/20261114-china-to-host-first-ever-trilateral-meeting-between-trump-xi-and-putin-next-week-us-says",
+          "t": "2026-11-14T05:09:23Z",
+          "evidence": "news:france24:a3483041e474"
+        },
+        {
+          "outlet": "sky",
+          "title": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+          "url": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+          "t": "2026-11-14T08:19:00Z",
+          "evidence": "news:sky:509c714a90c1"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect",
+          "t": "2026-11-14T12:14:14Z",
+          "evidence": "news:aljazeera:536f0b28a8ec"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do",
+          "t": "2026-11-14T15:53:55Z",
+          "evidence": "news:bbc:70275d0e699d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:a3483041e474",
+        "news:sky:509c714a90c1",
+        "news:aljazeera:536f0b28a8ec",
+        "news:bbc:70275d0e699d"
+      ],
+      "headline": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says, BBC News reports."
+    },
+    {
+      "slug": "hungary-seizes-18m-cash-tied-to-ex-orban-era-minister-in-pro",
+      "lens": "general",
+      "title": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe",
+      "summary": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe",
+      "place": {
+        "name": "Hungary",
+        "lon": 19.45,
+        "lat": 47.09,
+        "country": "HU",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 66,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/hungary-seizes-18m-cash-tied-to-ex-orban-era-minister-in-probe",
+          "t": "2026-11-14T08:39:07Z",
+          "evidence": "news:aljazeera:68fa57495838"
+        },
+        {
+          "outlet": "dw",
+          "title": "Hungary: Millions in hidden cash found in Orban graft probe",
+          "url": "https://www.dw.com/en/hungary-millions-in-hidden-cash-found-in-orban-graft-probe/a-79946923",
+          "t": "2026-11-14T09:19:00Z",
+          "evidence": "news:dw:46c1c05194eb"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
+          "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo",
+          "t": "2026-11-14T10:42:20Z",
+          "evidence": "news:bbc:412d1643733c"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:68fa57495838",
+        "news:dw:46c1c05194eb",
+        "news:bbc:412d1643733c"
+      ],
+      "headline": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe, Al Jazeera reports."
+    },
+    {
+      "slug": "tanker-collides-with-cruise-ship-on-mississippi-near-new-orl",
+      "lens": "disaster",
+      "title": "Tanker collides with cruise ship on Mississippi near New Orleans",
+      "summary": "Tanker collides with cruise ship on Mississippi near New Orleans",
+      "about": "The Mississippi River is the primary river of the largest drainage basin in the United States. It is the second-longest river in the U.S. after the Missouri.",
+      "article": {
+        "title": "Mississippi River",
+        "url": "https://en.wikipedia.org/wiki/Mississippi_River",
+        "qid": "Q1497"
+      },
+      "place": {
+        "name": "New Orleans",
+        "lon": -90.04,
+        "lat": 30,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 56,
+      "why": [
+        "Reported by 3 outlets"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+          "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+          "t": "2026-11-14T03:11:28Z",
+          "evidence": "news:guardian:315e43dca758"
+        },
+        {
+          "outlet": "france24",
+          "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
+          "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
+          "t": "2026-11-14T13:15:42Z",
+          "evidence": "news:france24:196361a3fb34"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o",
+          "t": "2026-11-14T19:14:33Z",
+          "evidence": "news:bbc:db67b4f4eace"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:315e43dca758",
+        "news:france24:196361a3fb34",
+        "news:bbc:db67b4f4eace"
+      ],
+      "headline": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’, The Guardian reports."
+    },
+    {
+      "slug": "netanyahu-sends-plea-to-eisenkot-for-unity-government",
+      "lens": "person",
+      "title": "Netanyahu sends plea to Eisenkot for unity government",
+      "summary": "Netanyahu sends plea to Eisenkot for unity government",
+      "about": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as prime minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.",
+      "article": {
+        "title": "Benjamin Netanyahu",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+        "qid": "Q43723"
+      },
+      "place": {
+        "name": "Israel",
+        "lon": 34.85,
+        "lat": 30.91,
+        "country": "IL",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 44,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
+          "url": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+          "t": "2026-11-14T20:35:22Z",
+          "evidence": "news:france24:fd54d0cd7431"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Netanyahu says only a unity government can guarantee Israel’s security",
+          "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security",
+          "t": "2026-11-14T23:01:30Z",
+          "evidence": "news:aljazeera:d452bc7110e4"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:fd54d0cd7431",
+        "news:aljazeera:d452bc7110e4"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-08",
+            "slug": "israel-s-president-tasks-opposition-leader-eisenkot-with-for",
+            "title": "Israel's president tasks opposition leader Eisenkot with forming government"
+          }
+        ]
+      },
+      "headline": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks', France 24 reports."
+    },
+    {
+      "slug": "2027-south-sudanese-general-election",
+      "lens": "election",
+      "title": "2027 South Sudanese general election",
+      "summary": "The South Sudanese election commission postpones the country's first presidential and parliamentary elections since independence in 2011 from December 22, 2026, to February 11, 2027, amid political tensions and continuing violence.",
+      "article": {
+        "title": "2027 South Sudanese general election",
+        "url": "https://en.wikipedia.org/wiki/2027_South_Sudanese_general_election",
+        "qid": "Q17020570"
+      },
+      "place": {
+        "name": "South Sudan",
+        "lon": 30.39,
+        "lat": 7.23,
+        "country": "SS",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-14:13"
+      },
+      "continent": "Africa",
+      "heat": 42,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "South Sudan postpones first-ever national elections until February",
+          "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february",
+          "t": "2026-11-14T10:30:32Z",
+          "evidence": "news:aljazeera:60bd50e5e1b7"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-14:13",
+        "news:aljazeera:60bd50e5e1b7",
+        "wd:Q17020570:P31"
+      ],
+      "headline": "The South Sudanese election commission postpones the country's first presidential and parliamentary elections since independence in 2011 from December 22, 2026, to February 11, 2027, amid political tensions…"
+    },
+    {
+      "slug": "the-bangladesh-garment-manufacturers-and-exporters-associati",
+      "lens": "economy",
+      "title": "The Bangladesh Garment Manufacturers and Exporters Association threatens to…",
+      "summary": "The Bangladesh Garment Manufacturers and Exporters Association threatens to indefinitely close unrest-affected factories without pay under the Bangladesh Labour Act 2006, after ongoing wage protests force the shutdown of 55 units and halt production at 147 others.",
+      "article": {
+        "title": "2026 Bangladesh garment workers protests",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+        "qid": "Q142084937"
+      },
+      "place": {
+        "name": "Bangladesh",
+        "lon": 89.68,
+        "lat": 24.21,
+        "country": "BD",
+        "role": "Country",
+        "evidence": "wd:Q142084937:P17"
+      },
+      "continent": "Asia",
+      "heat": 24,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-14:4",
+        "wd:Q142084937:P31"
+      ],
+      "update": {
+        "day": 3,
+        "previous": [
+          {
+            "date": "2026-11-12",
+            "slug": "over-200-garment-factories-shut-down-as-workers-block-the-dh",
+            "title": "Over 200 garment factories shut down as workers block the Dhaka–Tangail…"
+          }
+        ]
+      },
+      "headline": "The Bangladesh Garment Manufacturers and Exporters Association threatens to indefinitely close unrest-affected factories without pay under the Bangladesh Labour Act 2006…"
+    },
+    {
+      "slug": "ahmed-abdallah-bishr",
+      "lens": "conflict",
+      "title": "Ahmed Abdallah Bishr",
+      "summary": "Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF), dies of the wounds he suffered a month ago during an assassination attack by drone strike against his home in Nyala, South Darfur, Sudan.",
+      "article": {
+        "title": "Darfur campaign",
+        "url": "https://en.wikipedia.org/wiki/Darfur_campaign",
+        "qid": "Q132128135"
+      },
+      "place": {
+        "name": "Nyala, Sudan",
+        "lon": 24.88333333,
+        "lat": 12.05,
+        "country": "SD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-14:1"
+      },
+      "continent": "Africa",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-14:1",
+        "wd:Q132128135:P31"
+      ],
+      "headline": "Ahmed Abdallah Bishr, the general chief of staff for the Gathering of Sudan Liberation Forces (GSLF), dies of the wounds he suffered a month ago during an assassination attack by drone strike against his home in Nyala…"
+    },
+    {
+      "slug": "the-iranian-military-attacks",
+      "lens": "conflict",
+      "title": "The Iranian military attacks",
+      "summary": "The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months.",
+      "article": {
+        "title": "2026 Iranian strikes on Bahrain",
+        "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Bahrain",
+        "qid": "Q138531790"
+      },
+      "place": {
+        "name": "Iran",
+        "lon": 54.93,
+        "lat": 32.17,
+        "country": "IR",
+        "role": "Country"
+      },
+      "continent": "Asia",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-14:2",
+        "wd:Q138531790:P31"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-13",
+            "slug": "iran-says-it-has-destroyed-an-early-warning-radar-in-bahrain",
+            "title": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation…"
+          }
+        ]
+      },
+      "headline": "The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months."
+    },
+    {
+      "slug": "a-bus-overturns-on-the-garzon-neiva-highway-in-colombia",
+      "lens": "accident",
+      "title": "A bus overturns on the Garzón–Neiva highway in Colombia",
+      "summary": "A bus overturns on the Garzón–Neiva highway in Colombia, killing six people and wounding eleven more.",
+      "place": {
+        "name": "Garzón, Huila",
+        "lon": -75.65777778,
+        "lat": 2.18194444,
+        "country": "CO",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-14:6"
+      },
+      "continent": "South America",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-14:6"
+      ],
+      "headline": "A bus overturns on the Garzón–Neiva highway in Colombia, killing six people and wounding eleven more."
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "id": "story-2026-11-14-2027-south-sudanese-general-election",
+  "title": "2027 South Sudanese general election",
+  "subtitle": "Election · 14 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-14T00:00:00Z",
+    "end": "2026-11-14T00:00:50Z"
+  },
+  "focus": "2026-11-14T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 20.39,
+    "south": -0.7699999999999996,
+    "east": 40.39,
+    "north": 15.23
+  },
+  "imagery": {
+    "day": "2026-11-14",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "lon": 68.38999999999999,
+      "lat": 3.9255,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-14T00:00:04Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-14T00:00:14Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:23Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:26Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:29Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:31Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:34Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:38Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:42Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:45Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:46Z",
+      "lon": 30.39,
+      "lat": 6.5425,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-14T00:00:50Z",
+      "lon": 5.389999999999986,
+      "lat": 6.5425,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-14T00:00:01Z",
+      "text": "The South Sudanese election commission has postponed the country's first presidential and parliamentary elections since independence in 2011.",
+      "cites": [
+        "wiki:2026-11-14:13"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:08Z",
+      "text": "The new date is February 11, 2027, moved from December 22, 2026, amid political tensions and continuing violence.",
+      "cites": [
+        "wiki:2026-11-14:13"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:15Z",
+      "text": "Elections have been postponed six times, to 2018, 2021, 2023, 2024, 2026, and finally the currently scheduled date in 2027. General elections are due to be held on 11 February 2027, the first since independence.",
+      "cites": [
+        "wiki:rev:1385800982:2",
+        "wiki:rev:1385800982:0"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:25Z",
+      "text": "The report comes from AFP via RFI.",
+      "cites": [
+        "wiki:2026-11-14:13"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:33Z",
+      "text": "Al Jazeera headlined it: “South Sudan postpones first-ever national elections until February.”",
+      "cites": [
+        "news:aljazeera:60bd50e5e1b7"
+      ]
+    },
+    {
+      "t": "2026-11-14T00:00:44Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-14:13",
+        "wiki:rev:1385800982:2",
+        "wd:Q17020570:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "SS",
+    "lon": 30.39,
+    "lat": 7.23,
+    "label": "South Sudan"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-14T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-14T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-14T00:00:32Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-14T00:00:43Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-14T00:00:25Z",
+      "until": "2026-11-14T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via RFI",
+          "text": "Open",
+          "url": "https://www.rfi.fr/en/international-news/20261114-south-sudan-postpones-first-national-elections-until-february",
+          "cites": [
+            "wiki:2026-11-14:13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-14T00:00:33Z",
+      "until": "2026-11-14T00:00:43Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february",
+          "cites": [
+            "news:aljazeera:60bd50e5e1b7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-14T00:00:44Z",
+      "until": "2026-11-14T00:00:50Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-14:13"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385800982:2"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q17020570:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:04:58Z",
+    "costUsd": 0.001548
+  }
+}

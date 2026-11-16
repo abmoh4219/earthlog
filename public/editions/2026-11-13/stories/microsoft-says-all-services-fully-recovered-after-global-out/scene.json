@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "id": "story-2026-11-13-microsoft-says-all-services-fully-recovered-after-global-out",
+  "title": "Microsoft says all services 'fully recovered' after global outage",
+  "subtitle": "Tech · 13 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-13T00:00:00Z",
+    "end": "2026-11-13T00:00:44Z"
+  },
+  "focus": "2026-11-13T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-13",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "lon": 48,
+      "lat": 15,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-13T00:00:04Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-13T00:00:10Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 27890586.225463238,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:15Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 25255999.999999996,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:18Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": -12,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:27Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 29542322.18360635,
+      "heading": -10,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:36Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 28335999.999999996,
+      "heading": -8,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:39Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 52800000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:40Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 43296000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-13T00:00:44Z",
+      "lon": -15,
+      "lat": 25,
+      "range": 129888000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-13T00:00:01Z",
+      "text": "France 24 reports that Microsoft faces a major Outlook outage, with ‘no signs of a cyberattack’.",
+      "cites": [
+        "news:france24:fe1a4ad6291e"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:08Z",
+      "text": "Al Jazeera, BBC News and The Guardian also covered the disruption.",
+      "cites": [
+        "news:aljazeera:40604ce7f0e2",
+        "news:bbc:803535c4dcf7",
+        "news:guardian:af1bb13de8c3"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:17Z",
+      "text": "France 24 headlined its story “Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’”.",
+      "cites": [
+        "news:france24:fe1a4ad6291e"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:23Z",
+      "text": "Al Jazeera’s headline was “Microsoft outage live: Outlook, Teams recover as disruptions continue”.",
+      "cites": [
+        "news:aljazeera:40604ce7f0e2"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:29Z",
+      "text": "BBC News ran the headline “Watch: How a server outage took down Microsoft Teams and Outlook”.",
+      "cites": [
+        "news:bbc:803535c4dcf7"
+      ]
+    },
+    {
+      "t": "2026-11-13T00:00:38Z",
+      "text": "The sources for this story are France 24, Al Jazeera, BBC News and The Guardian, and each caption links to the evidence it rests on.",
+      "cites": [
+        "news:france24:fe1a4ad6291e",
+        "news:aljazeera:40604ce7f0e2",
+        "news:bbc:803535c4dcf7",
+        "news:guardian:af1bb13de8c3"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-13T00:00:16Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-13T00:00:37Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-13T00:00:17Z",
+      "until": "2026-11-13T00:00:37Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
+          "cites": [
+            "news:france24:fe1a4ad6291e"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users",
+          "cites": [
+            "news:aljazeera:40604ce7f0e2"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po",
+          "cites": [
+            "news:bbc:803535c4dcf7"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "cites": [
+            "news:guardian:af1bb13de8c3"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-16T12:01:26Z",
+    "costUsd": 0.000659
+  }
+}

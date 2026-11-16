@@ -1,0 +1,373 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-09",
+  "title": "The world on 9 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-09T00:00:00Z",
+    "end": "2026-11-10T00:00:00Z"
+  },
+  "focus": "2026-11-09T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-09",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "lon": 134.9,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T00:46:56Z",
+      "lon": 134.9,
+      "lat": 22.6,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T01:25:20Z",
+      "lon": -157.2,
+      "lat": 10.200000000000001,
+      "range": 3000000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T02:12:16Z",
+      "lon": -157.2,
+      "lat": 10.200000000000001,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T02:50:40Z",
+      "lon": -157.2,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T04:16:00Z",
+      "lon": 37.61777778,
+      "lat": 55.11583333,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T05:02:56Z",
+      "lon": 37.61777778,
+      "lat": 55.11583333,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T05:41:20Z",
+      "lon": 37.61777778,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T07:06:40Z",
+      "lon": 165.5616,
+      "lat": -11.7469,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T07:53:36Z",
+      "lon": 165.5616,
+      "lat": -11.7469,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T08:32:00Z",
+      "lon": 0.48083333,
+      "lat": 51.725,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T09:18:56Z",
+      "lon": 0.48083333,
+      "lat": 51.725,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T09:57:20Z",
+      "lon": 26.97277778,
+      "lat": 38.16083333,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T10:44:16Z",
+      "lon": 26.97277778,
+      "lat": 38.16083333,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T11:22:40Z",
+      "lon": 26.97277778,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T12:48:00Z",
+      "lon": -60.15,
+      "lat": -22.950000000000003,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T13:34:56Z",
+      "lon": -60.15,
+      "lat": -22.950000000000003,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T14:13:20Z",
+      "lon": 33.08,
+      "lat": 33.629999999999995,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T15:00:16Z",
+      "lon": 33.08,
+      "lat": 33.629999999999995,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T15:38:40Z",
+      "lon": 33.08,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T18:00:00Z",
+      "lon": 33.08,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-09T20:24:00Z",
+      "lon": 23.46,
+      "lat": -3.14,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T21:43:12Z",
+      "lon": 23.46,
+      "lat": -3.14,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-09T22:48:00Z",
+      "lon": 19.93722222,
+      "lat": 49.42166667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-09T23:27:36Z",
+      "lon": 19.93722222,
+      "lat": 49.42166667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-10T00:00:00Z",
+      "lon": 19.93722222,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "speed": 640
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-09T00:00:00Z",
+      "text": "00:00 UTC. Typhoon Cempaka at 23.8°N, 134.9°E, sustained winds of 80 knots.",
+      "cites": [
+        "eonet:EONET_26157:2026-11-09T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-09T01:25:20Z",
+      "text": "00:00 UTC. Tropical Storm Pena at 11.4°N, 157.2°W, sustained winds of 40 knots.",
+      "cites": [
+        "eonet:EONET_26158:2026-11-09T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-09T02:50:40Z",
+      "text": "00:10 UTC. Internet outage signal in North Korea: responsive address blocks down to 50% of normal.",
+      "cites": [
+        "ioda:KP:ping:2026-11-09T00:10Z",
+        "ioda:KP:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-09T04:16:00Z",
+      "text": "Politics: Russian independent newspaper Novaya Gazeta ceases operations as it closes its offices in Moscow…",
+      "cites": [
+        "wiki:2026-11-09:12"
+      ]
+    },
+    {
+      "t": "2026-11-09T05:41:20Z",
+      "text": "01:20 UTC. Internet outage signal in Norfolk Island: responsive address blocks down to 80% of normal.",
+      "cites": [
+        "ioda:NF:ping:2026-11-09T01:20Z",
+        "ioda:NF:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-09T07:06:40Z",
+      "text": "03:34 UTC. The day's strongest earthquake: magnitude 6.4, 17 km deep, 30 km WSW of Lata, Solomon Islands.",
+      "cites": [
+        "usgs:us7000tx16"
+      ]
+    },
+    {
+      "t": "2026-11-09T08:32:00Z",
+      "text": "Conflict: The Wall Street Journal reports that the United States has evacuated aircraft from the RAF Mildenhall base in the United Kingdom…",
+      "cites": [
+        "wiki:2026-11-09:1"
+      ]
+    },
+    {
+      "t": "2026-11-09T09:57:20Z",
+      "text": "Disaster: Seventeen people are killed and twelve others are injured in an explosion at a factory in Aliağa, Turkey.",
+      "cites": [
+        "wiki:2026-11-09:8"
+      ]
+    },
+    {
+      "t": "2026-11-09T11:22:40Z",
+      "text": "Sports: In college football, the College Football Playoff announces it will expand from 12 to 24 teams starting in the 2027 season.",
+      "cites": [
+        "wiki:2026-11-09:14"
+      ]
+    },
+    {
+      "t": "2026-11-09T12:48:00Z",
+      "text": "Business: Paraguayan president Pedro Alliana appoints economist Jorge Schreiner to lead the central bank following Ueno Bank's collapse. The Senate…",
+      "cites": [
+        "wiki:2026-11-09:5"
+      ]
+    },
+    {
+      "t": "2026-11-09T14:13:20Z",
+      "text": "World: Cypriot president Nikos Christodoulides and Northern Cypriot president Tufan Erhürman agree to establish two additional crossings across…",
+      "cites": [
+        "wiki:2026-11-09:10"
+      ]
+    },
+    {
+      "t": "2026-11-09T15:38:40Z",
+      "text": "Culture: English author M. John Harrison wins the 2026 Booker Prize for his post-apocalyptic novel The End of Everything.",
+      "cites": [
+        "wiki:2026-11-09:3"
+      ]
+    },
+    {
+      "t": "2026-11-09T18:00:00Z",
+      "text": "Law & crime: English actor Russell Brand is sentenced to 10 years and 6 months imprisonment for one rape and three counts of sexual assault.",
+      "cites": [
+        "wiki:2026-11-09:11"
+      ]
+    },
+    {
+      "t": "2026-11-09T20:24:00Z",
+      "text": "Politics: D.R. Congolese president Félix Tshisekedi signs a law allowing constitutional changes through referendums.",
+      "cites": [
+        "wiki:2026-11-09:13"
+      ]
+    },
+    {
+      "t": "2026-11-09T22:48:00Z",
+      "text": "Conflict: The 24-year-old man responsible for the drive-by mass shooting at the Main Square in Kraków, Poland, two days ago…",
+      "cites": [
+        "wiki:2026-11-09:2"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-16T11:47:15Z"
+  }
+}

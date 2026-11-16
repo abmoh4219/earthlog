@@ -1,0 +1,243 @@
+[
+  {
+    "id": "views:en:Anthony_Clark_(actor):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 374,893 readers of \"Anthony Clark (actor)\" on 12 Nov 2026",
+    "value": 374893,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Anthony_Clark_(actor)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Anthony_Clark_(actor):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Anthony Clark (actor)\": normally a median of 167 readers a day (8 to 60 days before)",
+    "value": 167,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Anthony_Clark_(actor)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Yes,_Dear:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "English Wikipedia: 61,246 readers of \"Yes, Dear\" on 12 Nov 2026",
+    "value": 61246,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Yes%2C_Dear",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Yes,_Dear:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "\"Yes, Dear\": normally a median of 328 readers a day (8 to 60 days before)",
+    "value": 328,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Yes%2C_Dear",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q4772274:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "label": "Wikidata: \"Anthony Clark\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q4772274",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385674487:18",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Anthony Clark (actor)\" (revision of 2026-11-14 17:12 UTC)",
+    "quote": "Clark died of complications from pneumonia on November 10, 2026, at the age of 62.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Anthony_Clark_(actor)&oldid=1385674487"
+  },
+  {
+    "id": "wiki:rev:1385674487:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Anthony Clark (actor)\" (revision of 2026-11-14 17:12 UTC)",
+    "quote": "When he was 12, the family moved to a tobacco farm 20 miles south in Gladys, Virginia, where his stepfather lived.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Anthony_Clark_(actor)&oldid=1385674487"
+  },
+  {
+    "id": "wiki:rev:1385674487:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Anthony Clark (actor)\" (revision of 2026-11-14 17:12 UTC)",
+    "quote": "Anthony Duane Clark (April 4, 1964 – November 10, 2026) was an American actor, producer and comedian best known for starring in the CBS sitcom Yes, Dear, in which he played the character Greg Warner.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Anthony_Clark_(actor)&oldid=1385674487"
+  },
+  {
+    "id": "views:en:Anthony_Clark_(actor):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Anthony Clark (actor)\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Anthony_Clark_(actor)&range=latest-30"
+  },
+  {
+    "id": "views:en:Yes,_Dear:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Yes, Dear\", 14 October 2026 to 12 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Yes%2C_Dear&range=latest-30"
+  },
+  {
+    "id": "views:pl:Anthony_Clark_(aktor):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 1,336 readers of \"Anthony Clark (aktor)\" on 12 November 2026",
+    "value": 1336,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Anthony_Clark_(aktor)"
+  },
+  {
+    "id": "views:it:Anthony_Clark_(attore):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 881 readers of \"Anthony Clark (attore)\" on 12 November 2026",
+    "value": 881,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Anthony_Clark_(attore)"
+  },
+  {
+    "id": "views:es:Anthony_Clark_(actor):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 871 readers of \"Anthony Clark (actor)\" on 12 November 2026",
+    "value": 871,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Anthony_Clark_(actor)"
+  },
+  {
+    "id": "views:ar:أنطوني_كلارك:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 115 readers of \"أنطوني كلارك\" on 12 November 2026",
+    "value": 115,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A3%D9%86%D8%B7%D9%88%D9%86%D9%8A_%D9%83%D9%84%D8%A7%D8%B1%D9%83"
+  },
+  {
+    "id": "views:zh:安東尼·克拉克_(演員):2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 79 readers of \"安東尼·克拉克 (演員)\" on 12 November 2026",
+    "value": 79,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E6%9D%B1%E5%B0%BC%C2%B7%E5%85%8B%E6%8B%89%E5%85%8B_(%E6%BC%94%E5%93%A1)"
+  },
+  {
+    "id": "views:fa:آنتونی_کلارک:2026-11-12",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Persian Wikipedia: 11 readers of \"آنتونی کلارک\" on 12 November 2026",
+    "value": 11,
+    "unit": "readers",
+    "url": "https://fa.wikipedia.org/wiki/%D8%A2%D9%86%D8%AA%D9%88%D9%86%DB%8C_%DA%A9%D9%84%D8%A7%D8%B1%DA%A9"
+  },
+  {
+    "id": "wd:Q4772274:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": born 4 April 1964",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P569"
+  },
+  {
+    "id": "wd:Q4772274:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": birthplace Lynchburg",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P19"
+  },
+  {
+    "id": "wd:Q4772274:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": died 10 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P570"
+  },
+  {
+    "id": "wd:Q4772274:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": occupation actor, comedian",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P106"
+  },
+  {
+    "id": "wd:Q4772274:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P27"
+  },
+  {
+    "id": "wd:Q4772274:P69:Q1335573",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": educated at Emerson College",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P69"
+  },
+  {
+    "id": "wd:Q4772274:P69:Q4975206",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": educated at Brookville High School",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P69"
+  },
+  {
+    "id": "wd:Q4772274:P800:Q738447",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-12T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthony Clark\": notable work: Yes, Dear",
+    "url": "https://www.wikidata.org/wiki/Q4772274#P800"
+  }
+]

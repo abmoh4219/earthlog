@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-16T11:56:33Z",
+  "candidates": 37,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "jensen-huang",
+      "lens": "person",
+      "title": "Jensen Huang",
+      "summary": "Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese intelligence agent. Chief financial officer Colette Kress becomes interim CEO.",
+      "article": {
+        "title": "Jensen Huang",
+        "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+        "qid": "Q305177"
+      },
+      "place": {
+        "name": "China",
+        "lon": 106.34,
+        "lat": 32.5,
+        "country": "CN",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:5"
+      },
+      "continent": "Asia",
+      "heat": 100,
+      "why": [
+        "Listed on Wikipedia's Current events",
+        "Read by 2.5 million on Wikipedia that day"
+      ],
+      "readers": 2476156,
+      "spike": 144.6,
+      "sources": 2,
+      "related": [
+        "Colette Kress",
+        "Nvidia",
+        "Alice Huang (executive)",
+        "Lisa Su",
+        "Chris Malachowsky",
+        "Jensen Huang spying scandal",
+        "Curtis Priem"
+      ],
+      "evidence": [
+        "wiki:2026-11-12:5",
+        "views:en:Jensen_Huang:2026-11-12",
+        "views:en:Jensen_Huang:prior",
+        "views:en:Colette_Kress:2026-11-12",
+        "views:en:Colette_Kress:prior",
+        "views:en:Nvidia:2026-11-12",
+        "views:en:Nvidia:prior",
+        "views:en:Alice_Huang_(executive):2026-11-12",
+        "views:en:Alice_Huang_(executive):prior",
+        "views:en:Lisa_Su:2026-11-12",
+        "views:en:Lisa_Su:prior",
+        "views:en:Chris_Malachowsky:2026-11-12",
+        "views:en:Chris_Malachowsky:prior",
+        "views:en:Jensen_Huang_spying_scandal:2026-11-12",
+        "views:en:Jensen_Huang_spying_scandal:prior",
+        "views:en:Curtis_Priem:2026-11-12",
+        "views:en:Curtis_Priem:prior",
+        "wd:Q305177:P31"
+      ],
+      "update": {
+        "day": 3,
+        "previous": [
+          {
+            "date": "2026-11-10",
+            "slug": "jensen-huang",
+            "title": "Jensen Huang"
+          }
+        ]
+      },
+      "headline": "Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese intelligence agent."
+    },
+    {
+      "slug": "abu-ghraib-torture-and-prisoner-abuse",
+      "lens": "conflict",
+      "title": "Abu Ghraib torture and prisoner abuse",
+      "summary": "",
+      "article": {
+        "title": "Abu Ghraib torture and prisoner abuse",
+        "url": "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse",
+        "qid": "Q334720"
+      },
+      "place": {
+        "name": "Baghdad Central Prison",
+        "lon": 44.065,
+        "lat": 33.2925,
+        "country": "IQ",
+        "role": "Location",
+        "evidence": "wd:Q334720:P625"
+      },
+      "continent": "Asia",
+      "heat": 73,
+      "why": [
+        "Has its own Wikipedia article as an event",
+        "Read by 65,000 on Wikipedia that day"
+      ],
+      "readers": 64718,
+      "spike": 28.3,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Abu_Ghraib_torture_and_prisoner_abuse:2026-11-12",
+        "views:en:Abu_Ghraib_torture_and_prisoner_abuse:prior",
+        "wd:Q334720:P31"
+      ],
+      "headline": "The plaintiffs alleged that CACI interrogators conspired with low-level military personnel to \"soften up\" detainees for interrogation by subjecting them to cruel, inhuman, and degrading treatment."
+    },
+    {
+      "slug": "anthony-clark-actor",
+      "lens": "person",
+      "title": "Anthony Clark (actor)",
+      "summary": "",
+      "article": {
+        "title": "Anthony Clark (actor)",
+        "url": "https://en.wikipedia.org/wiki/Anthony_Clark_(actor)",
+        "qid": "Q4772274"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country of citizenship",
+        "evidence": "wd:Q4772274:P27"
+      },
+      "continent": "North America",
+      "heat": 70,
+      "why": [
+        "Died this week",
+        "Read by 436,000 on Wikipedia that day"
+      ],
+      "readers": 436139,
+      "spike": 2244.9,
+      "sources": 0,
+      "related": [
+        "Yes, Dear"
+      ],
+      "evidence": [
+        "views:en:Anthony_Clark_(actor):2026-11-12",
+        "views:en:Anthony_Clark_(actor):prior",
+        "views:en:Yes,_Dear:2026-11-12",
+        "views:en:Yes,_Dear:prior",
+        "wd:Q4772274:P31"
+      ],
+      "headline": "Clark died of complications from pneumonia on November 10, 2026, at the age of 62."
+    },
+    {
+      "slug": "dan-hicks-sportscaster",
+      "lens": "person",
+      "title": "Dan Hicks (sportscaster)",
+      "summary": "",
+      "article": {
+        "title": "Dan Hicks (sportscaster)",
+        "url": "https://en.wikipedia.org/wiki/Dan_Hicks_(sportscaster)",
+        "qid": "Q5213677"
+      },
+      "place": {
+        "name": "Connecticut",
+        "lon": -72.7,
+        "lat": 41.6,
+        "country": "US",
+        "role": "Place of death",
+        "evidence": "wd:Q5213677:P20"
+      },
+      "continent": "North America",
+      "heat": 67,
+      "why": [
+        "Died this week",
+        "Read by 285,000 on Wikipedia that day"
+      ],
+      "readers": 284849,
+      "spike": 2212.6,
+      "sources": 0,
+      "related": [
+        "Hannah Storm"
+      ],
+      "evidence": [
+        "views:en:Dan_Hicks_(sportscaster):2026-11-12",
+        "views:en:Dan_Hicks_(sportscaster):prior",
+        "views:en:Hannah_Storm:2026-11-12",
+        "views:en:Hannah_Storm:prior",
+        "wd:Q5213677:P31"
+      ],
+      "headline": "Hicks died from an acute illness on November 11, 2026, at the age of 64."
+    },
+    {
+      "slug": "ukrainian-president-volodymyr-zelenskyy-and-united-states-sp",
+      "lens": "conflict",
+      "title": "Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared…",
+      "summary": "Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared Kushner announce that European representatives will join future peace negotiations with Russia, which Russian president Vladimir Putin agrees to while maintaining his territorial demands and rejecting foreign peacekeeping troops in Ukraine.",
+      "article": {
+        "title": "Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war",
+        "url": "https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war%2C_United_States_and_the_Russo-Ukrainian_war"
+      },
+      "place": {
+        "name": "Ukraine",
+        "lon": 32.14,
+        "lat": 49.72,
+        "country": "UA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:2"
+      },
+      "continent": "Europe",
+      "heat": 55,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:2"
+      ],
+      "headline": "Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared Kushner announce that European representatives will join future peace negotiations with Russia,…"
+    },
+    {
+      "slug": "over-200-garment-factories-shut-down-as-workers-block-the-dh",
+      "lens": "economy",
+      "title": "Over 200 garment factories shut down as workers block the Dhaka–Tangail…",
+      "summary": "Over 200 garment factories shut down as workers block the Dhaka–Tangail Highway in Gazipur, leading police to fire stun grenades at the protesting workers.",
+      "article": {
+        "title": "2026 Bangladesh garment workers protests",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+        "qid": "Q142084937"
+      },
+      "place": {
+        "name": "Gazipur District",
+        "lon": 90.43,
+        "lat": 24,
+        "country": "BD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:6"
+      },
+      "continent": "Asia",
+      "heat": 55,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:6",
+        "wd:Q142084937:P31"
+      ],
+      "headline": "Over 200 garment factories shut down as workers block the Dhaka–Tangail Highway in Gazipur, leading police to fire stun grenades at the protesting workers."
+    },
+    {
+      "slug": "fourteen-people-are-killed-and-30-more-injured-in-a-multiple",
+      "lens": "accident",
+      "title": "Fourteen people are killed and 30 more injured in a multiple-vehicle collision…",
+      "summary": "Fourteen people are killed and 30 more injured in a multiple-vehicle collision involving 18 cars and five trucks in the Emirate of Fujairah, United Arab Emirates.",
+      "place": {
+        "name": "Emirate of Fujairah",
+        "lon": 56.33333333,
+        "lat": 25.26666667,
+        "country": "AE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:7"
+      },
+      "continent": "Asia",
+      "heat": 55,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:7"
+      ],
+      "headline": "Fourteen people are killed and 30 more injured in a multiple-vehicle collision involving 18 cars and five trucks in the Emirate of Fujairah, United Arab Emirates."
+    },
+    {
+      "slug": "a-british-court-convicts-two-iranian-men-of-spying-on-journa",
+      "lens": "general",
+      "title": "A British court convicts two Iranian men of spying on journalists from…",
+      "summary": "A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also convicted of preparing a violent attack, while a third defendant is acquitted.",
+      "article": {
+        "title": "Iranian external operations",
+        "url": "https://en.wikipedia.org/wiki/Iranian_external_operations",
+        "qid": "Q135426544"
+      },
+      "place": {
+        "name": "London",
+        "lon": -0.1275,
+        "lat": 51.50722222,
+        "country": "GB",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:12"
+      },
+      "continent": "Europe",
+      "heat": 55,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:12"
+      ],
+      "headline": "A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also convicted of preparing a violent attack, while a third defendant is acquitted."
+    },
+    {
+      "slug": "one-person-is-killed-and-four-more-are-injured-in-a-shooting",
+      "lens": "general",
+      "title": "One person is killed and four more are injured in a shooting spree in Logan…",
+      "summary": "One person is killed and four more are injured in a shooting spree in Logan Circle, Washington D.C., United States. The suspected gunman later kills himself after barricading himself from police inside a nearby apartment.",
+      "article": {
+        "title": "2026 Logan Circle shooting",
+        "url": "https://en.wikipedia.org/wiki/2026_Logan_Circle_shooting"
+      },
+      "place": {
+        "name": "Logan Circle",
+        "lon": -77.03027778,
+        "lat": 38.90972222,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:13"
+      },
+      "continent": "North America",
+      "heat": 55,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:13"
+      ],
+      "headline": "One person is killed and four more are injured in a shooting spree in Logan Circle, Washington D.C., United States. The suspected gunman later kills himself after barricading himself from police inside a nearby…"
+    },
+    {
+      "slug": "haitian-and-salvadoran-soldiers-take-control-of-the-stade-sy",
+      "lens": "conflict",
+      "title": "Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in…",
+      "summary": "Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in Port-au-Prince after two years of gang control.",
+      "article": {
+        "title": "Salvadoran military intervention in Haiti",
+        "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti",
+        "qid": "Q141921562"
+      },
+      "place": {
+        "name": "Stade Sylvio Cator",
+        "lon": -72.3425,
+        "lat": 18.53611111,
+        "country": "HT",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:1"
+      },
+      "continent": "North America",
+      "heat": 50,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:1",
+        "wd:Q141921562:P31"
+      ],
+      "headline": "Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in Port-au-Prince after two years of gang control."
+    },
+    {
+      "slug": "guatemala-receives-the-remains-of-1967-nobel-prize-in-litera",
+      "lens": "culture",
+      "title": "Guatemala receives the remains of 1967 Nobel Prize in Literature recipient…",
+      "summary": "Guatemala receives the remains of 1967 Nobel Prize in Literature recipient Miguel Ángel Asturias from France, 52 years after his death. President Bernardo Arévalo attends a ceremony ahead of the writer's burial in Guatemala City.",
+      "place": {
+        "name": "Guatemala City",
+        "lon": -90.5133,
+        "lat": 14.6417,
+        "country": "GT",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:4"
+      },
+      "continent": "North America",
+      "heat": 50,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:4"
+      ],
+      "headline": "Guatemala receives the remains of 1967 Nobel Prize in Literature recipient Miguel Ángel Asturias from France, 52 years after his death."
+    },
+    {
+      "slug": "a-passenger-van-plunges-off-a-road-in-gilgit-baltistan",
+      "lens": "accident",
+      "title": "A passenger van plunges off a road in Gilgit-Baltistan",
+      "summary": "A passenger van plunges off a road in Gilgit-Baltistan, Pakistan, killing eleven people and wounding three more.",
+      "place": {
+        "name": "Gilgit-Baltistan",
+        "lon": 75.9,
+        "lat": 35.35,
+        "country": "PK",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:8"
+      },
+      "continent": "Asia",
+      "heat": 50,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:8"
+      ],
+      "headline": "A passenger van plunges off a road in Gilgit-Baltistan, Pakistan, killing eleven people and wounding three more."
+    },
+    {
+      "slug": "a-bus-veers-off-a-mountain-road-in-bhimphedi",
+      "lens": "accident",
+      "title": "A bus veers off a mountain road in Bhimphedi",
+      "summary": "A bus veers off a mountain road in Bhimphedi, Nepal, killing ten people and wounding five more.",
+      "place": {
+        "name": "Bhimphedi",
+        "lon": 85.125,
+        "lat": 27.55,
+        "country": "NP",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:9"
+      },
+      "continent": "Asia",
+      "heat": 50,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:9"
+      ],
+      "headline": "A bus veers off a mountain road in Bhimphedi, Nepal, killing ten people and wounding five more."
+    },
+    {
+      "slug": "four-more-children-in-bangladesh-are-reported-to-have-died-f",
+      "lens": "general",
+      "title": "Four more children in Bangladesh are reported to have died from measles",
+      "summary": "Four more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,299.",
+      "article": {
+        "title": "2026 Bangladesh measles outbreak",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_measles_outbreak",
+        "qid": "Q138942965"
+      },
+      "place": {
+        "name": "Bangladesh",
+        "lon": 89.68,
+        "lat": 24.21,
+        "country": "BD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:11"
+      },
+      "continent": "Asia",
+      "heat": 50,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:11"
+      ],
+      "headline": "Four more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,299."
+    },
+    {
+      "slug": "a-major-outage-impacts-multiple-microsoft-services",
+      "lens": "science",
+      "title": "A major outage impacts multiple Microsoft services",
+      "summary": "A major outage impacts multiple Microsoft services, including Microsoft 365, Copilot and Teams, worldwide.",
+      "heat": 50,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:15"
+      ],
+      "headline": "A major outage impacts multiple Microsoft services, including Microsoft 365, Copilot and Teams, worldwide."
+    },
+    {
+      "slug": "finland-announces-visa-restrictions-preventing-russian-athle",
+      "lens": "sports",
+      "title": "Finland announces visa restrictions preventing Russian athletes",
+      "summary": "Finland announces visa restrictions preventing Russian athletes, including neutral competitors, from entering for sporting events beginning November 16. Norway also announces similar restrictions on Russian and Belarusian athletes and their support staff.",
+      "article": {
+        "title": "International sporting sanctions during the Russian invasion of Ukraine, Finland–Russia relations, Norway–Russia relations",
+        "url": "https://en.wikipedia.org/wiki/International_sporting_sanctions_during_the_Russian_invasion_of_Ukraine%2C_Finland%E2%80%93Russia_relations%2C_Norway%E2%80%93Russia_relations"
+      },
+      "place": {
+        "name": "Finland",
+        "lon": 27.28,
+        "lat": 63.25,
+        "country": "FI",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-12:16"
+      },
+      "continent": "Europe",
+      "heat": 50,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-12:16"
+      ],
+      "headline": "Finland announces visa restrictions preventing Russian athletes, including neutral competitors, from entering for sporting events beginning November 16."
+    },
+    {
+      "slug": "mauricio-pochettino",
+      "lens": "person",
+      "title": "Mauricio Pochettino",
+      "summary": "",
+      "article": {
+        "title": "Mauricio Pochettino",
+        "url": "https://en.wikipedia.org/wiki/Mauricio_Pochettino",
+        "qid": "Q313000"
+      },
+      "place": {
+        "name": "Argentina",
+        "lon": -64.17,
+        "lat": -33.5,
+        "country": "AR",
+        "role": "Country of citizenship",
+        "evidence": "wd:Q313000:P27"
+      },
+      "continent": "South America",
+      "heat": 36,
+      "why": [
+        "Read by 236,000 on Wikipedia that day"
+      ],
+      "readers": 235662,
+      "spike": 179.5,
+      "sources": 0,
+      "related": [
+        "Michael Carrick"
+      ],
+      "evidence": [
+        "views:en:Mauricio_Pochettino:2026-11-12",
+        "views:en:Mauricio_Pochettino:prior",
+        "views:en:Michael_Carrick:2026-11-12",
+        "views:en:Michael_Carrick:prior",
+        "wd:Q313000:P31"
+      ],
+      "headline": "Mauricio Pochettino signed a two-and-a-half-year deal and replaced Michael Carrick in the role, who had been dismissed on 12 November."
+    }
+  ]
+}
