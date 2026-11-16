@@ -12,8 +12,50 @@ const CACHE = join(ROOT, ".cache");
 // IPv6-less network the Wikimedia hosts then "time out" though curl reaches them. 2.5 s each.
 setDefaultAutoSelectFamilyAttemptTimeout(2_500);
 
-/** Wikimedia and USGS ask for an identifying User-Agent; no personal contact details. */
-export const USER_AGENT = "Earthlog/0.1 (+https://github.com/abmoh4219/earthlog)";
+/**
+ * Wikimedia and USGS ask for an identifying User-Agent with contact information: a website
+ * is accepted (Wikimedia Foundation User-Agent Policy, checked 2026-11-16). No personal email.
+ */
+export const USER_AGENT =
+  "Earthlog/0.2 (https://earthlog-abdi.vercel.app; https://github.com/abmoh4219/earthlog) node-fetch";
+
+// Wikimedia asks API clients to send requests one at a time and, when rate-limited, to back
+// off exponentially (mediawiki.org API:Etiquette, checked 2026-11-16). From GitHub's shared
+// runners, bursts of parallel requests were answered "429 too many requests" and sank the
+// nightly edition (13 to 16 November 2026). So: one Wikimedia request at a time, at least
+// 250 ms apart, and 429/5xx answers retried after Retry-After or a growing wait.
+const POLITE_HOSTS = /(^|\.)(wikipedia|wikimedia|wikidata)\.org$/;
+const GAP_MS = 250;
+let queue: Promise<unknown> = Promise.resolve();
+let lastAt = 0;
+function polite<T>(url: string, run: () => Promise<T>): Promise<T> {
+  if (!POLITE_HOSTS.test(new URL(url).hostname)) return run();
+  const next = queue.then(async () => {
+    const wait = lastAt + GAP_MS - Date.now();
+    if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+    try {
+      return await run();
+    } finally {
+      lastAt = Date.now();
+    }
+  });
+  queue = next.catch(() => undefined);
+  return next;
+}
+
+/** Statuses worth waiting for: rate limits and passing server trouble. */
+export const RETRY_STATUS = new Set([429, 502, 503, 504]);
+
+/**
+ * How long to wait before attempt `attempt + 1`: the server's Retry-After when it gives one
+ * (seconds, at most a minute), else 2, 4, 8, 16, 32 seconds.
+ */
+export function retryDelayMs(attempt: number, retryAfter: string | null): number {
+  const seconds = Number(retryAfter);
+  if (retryAfter && Number.isFinite(seconds) && seconds >= 0) return Math.min(60, seconds) * 1000;
+  return Math.min(60_000, 2000 * 2 ** (attempt - 1));
+}
+const MAX_ATTEMPTS = 6;
 
 const HOUR = 3_600_000;
 
@@ -68,11 +110,18 @@ export async function fetchJson(
     console.log(`  fetch ${url}`);
     let res: Response;
     try {
-      res = await fetch(url, { headers: { "user-agent": USER_AGENT } });
+      res = await polite(url, () => fetch(url, { headers: { "user-agent": USER_AGENT } }));
     } catch (err) {
       // Network hiccups (reset, timeout) are retried a few times before giving up.
       if (attempt >= 4) throw err;
       await new Promise((r) => setTimeout(r, 1500 * attempt));
+      continue;
+    }
+    if (RETRY_STATUS.has(res.status) && attempt < MAX_ATTEMPTS) {
+      const wait = retryDelayMs(attempt, res.headers.get("retry-after"));
+      console.log(`  ${res.status}: waiting ${Math.round(wait / 1000)} s before trying again`);
+      await res.body?.cancel();
+      await new Promise((r) => setTimeout(r, wait));
       continue;
     }
     if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
@@ -100,7 +149,14 @@ export async function fetchBytes(url: string): Promise<Uint8Array> {
   for (let attempt = 1; ; attempt++) {
     console.log(`  fetch ${url}`);
     try {
-      const res = await fetch(url, { headers: { "user-agent": USER_AGENT } });
+      const res = await polite(url, () => fetch(url, { headers: { "user-agent": USER_AGENT } }));
+      if (RETRY_STATUS.has(res.status) && attempt < MAX_ATTEMPTS) {
+        await res.body?.cancel();
+        await new Promise((r) =>
+          setTimeout(r, retryDelayMs(attempt, res.headers.get("retry-after"))),
+        );
+        continue;
+      }
       if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
       const bytes = new Uint8Array(await res.arrayBuffer());
       await mkdir(CACHE, { recursive: true });

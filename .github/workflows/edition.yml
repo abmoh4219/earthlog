@@ -32,7 +32,7 @@ concurrency:
 jobs:
   edition:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -57,12 +57,14 @@ jobs:
           INPUT_DATE: ${{ inputs.date }}
         run: |
           set -uo pipefail
-          # Fresh outlets' headlines first: the edition matches them to its stories (ADR-0017).
-          # The last 72 hours live on the now-data branch (news.yml, ADR-0018).
+          # The outlets' headlines of the last 72 hours, as the hourly job published them
+          # (now-data branch, ADR-0018): the edition matches them to its stories (ADR-0017).
+          # Not collected again here: re-running the news pass (its background cards and films)
+          # sent Wikipedia hundreds of requests and got the edition rate-limited (ADR-0028).
           if git fetch --depth=1 origin now-data 2>/dev/null; then
             git show FETCH_HEAD:now.json > public/now/now.json
           fi
-          pnpm news || echo "::warning::news feeds unavailable; editions built without coverage"
+          failed=""
 
           # Build every missing edition of the last week, oldest first (or the one asked): a week,
           # because Wikimedia's page views have stalled for more than a day before (9 November
@@ -80,7 +82,10 @@ jobs:
               echo "::warning::most-read list for $D not published yet; the next run retries"
               continue
             elif [ $code -ne 0 ]; then
-              exit $code
+              # One date's failure must not lose the others: keep going, report it at the end.
+              echo "::warning::edition $D failed (exit $code); the next run retries"
+              failed="$failed $D"
+              continue
             fi
             built="$built $D"
             # One failed film must not sink the edition: it simply has no film (listed as text).
@@ -126,6 +131,7 @@ jobs:
             done
           fi
           echo "BUILT=${built# }" >> "$GITHUB_ENV"
+          echo "FAILED=${failed# }" >> "$GITHUB_ENV"
           echo "REFRESHED=${refreshed# }" >> "$GITHUB_ENV"
 
       # Films older than two weeks move to this year's archive repository, published by GitHub
@@ -192,3 +198,11 @@ jobs:
             git pull --rebase
             git push
           fi
+
+      # Everything that worked is saved above; a date that could not be built is reported here,
+      # so a failure email means a real, lasting problem.
+      - name: Report editions that failed
+        if: env.FAILED != ''
+        run: |
+          echo "::error::editions not built this run: ${FAILED} (the next run retries them)"
+          exit 1

@@ -667,3 +667,24 @@ The main repository stays small and fast to build; the archive is free, static a
 ### Cost
 
 Existing git history is not rewritten (the rule is never to rewrite history), so what is already in it stays. Old films depend on GitHub Pages being up. Once a year a new archive repository and key are set up (the old ones stay as they are, read-only in practice).
+
+## ADR-0028: Polite to Wikimedia, and a nightly job that survives a bad date
+
+Status: accepted (16 November 2026)
+
+### Context
+
+From 9 to 16 November 2026 the nightly edition failed on almost every run (20 of 21), so no edition was built after 8 November. The logs show Wikipedia answering "429 Your bot is making too many requests": the job first re-ran the whole hourly news pass (background cards and films, hundreds of Wikipedia requests), then built the edition from GitHub's shared runners, and the download helper gave up at the first 429. One failed date also ended the job, losing the dates after it.
+
+### Decision
+
+- **One Wikimedia request at a time, at least 250 ms apart** (Wikipedia, Wikimedia, Wikidata hosts), as Wikimedia's API etiquette asks (mediawiki.org API:Etiquette, checked 2026-11-16).
+- **429 and 502–504 are retried**, after the server's Retry-After (at most a minute) or 2, 4, 8, 16, 32 seconds: the backoff the etiquette recommends.
+- **A User-Agent with contact information** (the site and the repository), per the Wikimedia Foundation User-Agent Policy; no personal email.
+- **The nightly job no longer re-runs the news pass**: it reads the headlines the hourly job published (now-data branch). The hourly job is the only one collecting news.
+- **A date that fails no longer stops the job**: the other dates are built and committed, and a last step reports the failed dates (the next run retries them). A failure email now means a lasting problem.
+- The job may run 150 minutes (catch-up of a week at the gentler pace).
+
+### Cost
+
+Runs take longer (a full edition with its films about 4 minutes locally). Editions caught up more than three days late have no outlets' headlines (they are kept 72 hours) and rest on Current events and the most-read list.
