@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-nine-people-are-killed-in-a-mass-shooting-at-a-shack-near-pr",
+  "title": "Nine people are killed in a mass shooting at a shack near Pretoria",
+  "subtitle": "Conflict · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:01:05Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 18.18805556,
+    "south": -33.74611111,
+    "east": 38.188055559999995,
+    "north": -17.74611111
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-16T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 66.18805556000007,
+      "lat": -15.860166666,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:27Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 996092.3651951158,
+      "heading": 5.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:28Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 902000,
+      "heading": -1,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:36Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:39Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:48Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:57Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:00Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:01Z",
+      "lon": 28.18805556,
+      "lat": -26.43361111,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:05Z",
+      "lon": 3.188055560000066,
+      "lat": -26.43361111,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "Nine people are killed in a mass shooting at a shack near Pretoria, South Africa.",
+      "cites": [
+        "wiki:2026-11-16:4"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "In 2003, Thabo Mbeki told parliament that the rural government militias, known as the Commando System, would be disbanded, despite warnings that this would leave rural areas vulnerable to a surge in crime.",
+      "cites": [
+        "wiki:rev:1385950565:142"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "The crime rate later fell to 30 per 100,000 in 2011, then rose steadily to 44 per 100,000 in 2023, after a brief drop in 2020.",
+      "cites": [
+        "wiki:rev:1385950565:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:30Z",
+      "text": "NBC News and AP reported the story.",
+      "cites": [
+        "wiki:2026-11-16:4",
+        "wiki:2026-11-16:5"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:38Z",
+      "text": "DW headlined its report, “South Africa: 17 killed in separate mass shooting incidents.”",
+      "cites": [
+        "news:dw:4668c90e6459"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "text": "Sky News headlined its report, “At least 17 people killed in two separate shootings in South Africa.”",
+      "cites": [
+        "news:sky:18976cf851ad"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:50Z",
+      "text": "BBC News headlined its report, “Two mass shootings in South Africa leave 17 dead.”",
+      "cites": [
+        "news:bbc:f7febecbed77"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:59Z",
+      "text": "This explainer draws on Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-16:4",
+        "wiki:rev:1385950565:142",
+        "views:en:Crime_in_South_Africa:30d",
+        "wd:Q3697178:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "ZA",
+    "lon": 28.18805556,
+    "lat": -25.74611111,
+    "label": "Pretoria"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-16T00:00:37Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:00:58Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-16T00:00:30Z",
+      "until": "2026-11-16T00:00:37Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "NBC News",
+          "text": "Open",
+          "url": "https://www.nbcnews.com/world/africa/least-17-people-killed-2-mass-shootings-day-south-africa-rcna609688",
+          "cites": [
+            "wiki:2026-11-16:4"
+          ]
+        },
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/south-africa-shootings-pretoria-1d8c73c660ebe7feda8d4c3848f6ac4f",
+          "cites": [
+            "wiki:2026-11-16:5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:00:38Z",
+      "until": "2026-11-16T00:00:58Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/south-africa-17-killed-in-separate-mass-shooting-incidents/a-79956966",
+          "cites": [
+            "news:dw:4668c90e6459"
+          ]
+        },
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/at-least-17-people-killed-in-two-separate-shootings-in-south-africa-13612711",
+          "cites": [
+            "news:sky:18976cf851ad"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo",
+          "cites": [
+            "news:bbc:f7febecbed77"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings",
+          "cites": [
+            "news:aljazeera:84c50a637939"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:00:59Z",
+      "until": "2026-11-16T00:01:05Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-16:4"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385950565:142"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Crime_in_South_Africa:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q3697178:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.002694
+  }
+}

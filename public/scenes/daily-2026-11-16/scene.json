@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-16",
+  "title": "The world on 16 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-17T00:00:00Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": -160.6,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:58:40Z",
+      "lon": -160.6,
+      "lat": -9.5,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T01:46:40Z",
+      "lon": -15,
+      "lat": 12.360000000000001,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T02:46:48Z",
+      "lon": -15,
+      "lat": 12.360000000000001,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T03:36:00Z",
+      "lon": 32.14,
+      "lat": 48.44,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T04:55:12Z",
+      "lon": 32.14,
+      "lat": 48.44,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T06:00:00Z",
+      "lon": 98.29833333,
+      "lat": 7.25305556,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T06:58:40Z",
+      "lon": 98.29833333,
+      "lat": 7.25305556,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T07:46:40Z",
+      "lon": 98.29833333,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T09:33:20Z",
+      "lon": -97.48,
+      "lat": 38.26,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T10:32:00Z",
+      "lon": -97.48,
+      "lat": 38.26,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T11:20:00Z",
+      "lon": -97.48,
+      "lat": 38.26,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T12:21:36Z",
+      "lon": -97.48,
+      "lat": 38.26,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T13:12:00Z",
+      "lon": -57.5796,
+      "lat": -25.875,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T14:31:12Z",
+      "lon": -57.5796,
+      "lat": -25.875,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T15:36:00Z",
+      "lon": -77.01638889,
+      "lat": 38.264722219999996,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T16:55:12Z",
+      "lon": -77.01638889,
+      "lat": 38.264722219999996,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T18:00:00Z",
+      "lon": -77.01638889,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T20:24:00Z",
+      "lon": 54.93,
+      "lat": 30.89,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T21:22:40Z",
+      "lon": 54.93,
+      "lat": 30.89,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-16T22:10:40Z",
+      "lon": 131.4868,
+      "lat": -6.9604,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-16T23:10:48Z",
+      "lon": 131.4868,
+      "lat": -6.9604,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": 131.4868,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 800
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "text": "00:00 UTC. Tropical Cyclone Xavier at 8.3°S, 160.6°W, sustained winds of 50 knots.",
+      "cites": [
+        "eonet:EONET_26463:2026-11-16T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-16T01:46:40Z",
+      "text": "Politics: The Gambian election commission approves President Adama Barrow's candidacy for a third term in the December 5 presidential election as the…",
+      "cites": [
+        "wiki:2026-11-16:14"
+      ]
+    },
+    {
+      "t": "2026-11-16T03:36:00Z",
+      "text": "Conflict: The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close vehicle…",
+      "cites": [
+        "wiki:2026-11-16:1"
+      ]
+    },
+    {
+      "t": "2026-11-16T06:00:00Z",
+      "text": "Disaster: Eleven people are killed and 16 others are injured in a fire at a four-story building in Patong, Phuket province, Thailand.",
+      "cites": [
+        "wiki:2026-11-16:9"
+      ]
+    },
+    {
+      "t": "2026-11-16T07:46:40Z",
+      "text": "07:10 UTC. Internet outage signal in Congo: responsive address blocks down to 83% of normal.",
+      "cites": [
+        "ioda:CG:ping:2026-11-16T07:10Z",
+        "ioda:CG:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-16T09:33:20Z",
+      "text": "Business: The European Commission (EC) and the United States Federal Reserve approve Italian bank UniCredit's proposed €45 billion (US$49 billion)…",
+      "cites": [
+        "wiki:2026-11-16:8"
+      ]
+    },
+    {
+      "t": "2026-11-16T11:20:00Z",
+      "text": "World: The United States Agency for International Development reverses its decision to withdraw funding from the United Nations Support Office for…",
+      "cites": [
+        "wiki:2026-11-16:10"
+      ]
+    },
+    {
+      "t": "2026-11-16T13:12:00Z",
+      "text": "Law & crime: A Paraguayan judge orders impeached former president Santiago Peña transferred to the Viñas Cué military prison pending trial on charges of…",
+      "cites": [
+        "wiki:2026-11-16:12"
+      ]
+    },
+    {
+      "t": "2026-11-16T15:36:00Z",
+      "text": "Conflict: Reported intel that Iran is developing plans to potentially detonate a Dirty bomb in Washington, D.C.",
+      "cites": [
+        "wiki:2026-11-16:2"
+      ]
+    },
+    {
+      "t": "2026-11-16T18:00:00Z",
+      "text": "World: Togolese Gilbert Houngbo is re-elected director-general of the International Labour Organization.",
+      "cites": [
+        "wiki:2026-11-16:11"
+      ]
+    },
+    {
+      "t": "2026-11-16T20:24:00Z",
+      "text": "Law & crime: Bahrain sentences 64 Shia Muslims, mostly clerics, to life in prison for establishing a terrorist group linked to Iran's Islamic…",
+      "cites": [
+        "wiki:2026-11-16:13"
+      ]
+    },
+    {
+      "t": "2026-11-16T22:10:40Z",
+      "text": "21:11 UTC. The day's strongest earthquake: magnitude 6.6, 68 km deep, 148 km WSW of Tual, Indonesia.",
+      "cites": [
+        "usgs:us7000tymu"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-17T01:04:53Z"
+  }
+}

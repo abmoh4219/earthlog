@@ -1,0 +1,171 @@
+[
+  {
+    "id": "news:dw:55e18f26535e",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "DW: British actor Robert Pattinson confirmed as new James Bond (15:41 UTC)",
+    "url": "https://www.dw.com/en/british-actor-robert-pattinson-confirmed-as-new-james-bond/a-79961789",
+    "quote": "British actor Robert Pattinson confirmed as new James Bond",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:2aad54206da2",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "France 24: Robert Pattinson named as new James Bond (15:43 UTC)",
+    "url": "https://www.france24.com/en/culture/20261116-robert-pattinson-named-as-new-james-bond",
+    "quote": "Robert Pattinson named as new James Bond",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:4b6cc1e3f95b",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "BBC News: When will we see Robert Pattinson as Bond in cinemas? (17:18 UTC)",
+    "url": "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o",
+    "quote": "When will we see Robert Pattinson as Bond in cinemas?",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:cc5bdfab36e8",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Al Jazeera: British actor Robert Pattinson named as new James Bond (18:13 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond",
+    "quote": "British actor Robert Pattinson named as new James Bond",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386156147:172",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Robert Pattinson\" (revision of 2026-11-17 00:49 UTC)",
+    "quote": "In November 2026, he was announced as the next actor to play James Bond, succeeding Daniel Craig whose final appearance in the role was in the 2021 film No Time to Die.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Robert_Pattinson&oldid=1386156147"
+  },
+  {
+    "id": "wiki:rev:1386156147:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Robert Pattinson\" (revision of 2026-11-17 00:49 UTC)",
+    "quote": "Robert Douglas Thomas Pattinson (born 13 May 1986) is an English actor and producer.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Robert_Pattinson&oldid=1386156147"
+  },
+  {
+    "id": "views:en:Robert_Pattinson:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Robert Pattinson\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Robert_Pattinson&range=latest-30"
+  },
+  {
+    "id": "wd:Q36767:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": born 13 May 1986",
+    "url": "https://www.wikidata.org/wiki/Q36767#P569"
+  },
+  {
+    "id": "wd:Q36767:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": birthplace London",
+    "url": "https://www.wikidata.org/wiki/Q36767#P19"
+  },
+  {
+    "id": "wd:Q36767:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": occupation actor, film actor",
+    "url": "https://www.wikidata.org/wiki/Q36767#P106"
+  },
+  {
+    "id": "wd:Q36767:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": citizenship United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q36767#P27"
+  },
+  {
+    "id": "wd:Q36767:P69:Q7738938",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": educated at The Harrodian School",
+    "url": "https://www.wikidata.org/wiki/Q36767#P69"
+  },
+  {
+    "id": "wd:Q36767:P69:Q7829703",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": educated at Tower House School",
+    "url": "https://www.wikidata.org/wiki/Q36767#P69"
+  },
+  {
+    "id": "wd:Q36767:P551:Q84",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": lived in London",
+    "url": "https://www.wikidata.org/wiki/Q36767#P551"
+  },
+  {
+    "id": "wd:Q36767:P166:Q257235",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": award received: MTV Movie Award for Best Kiss (2009)",
+    "url": "https://www.wikidata.org/wiki/Q36767#P166"
+  },
+  {
+    "id": "wd:Q36767:P166:Q734036",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": award received: MTV Movie Award for Best Fight (2009)",
+    "url": "https://www.wikidata.org/wiki/Q36767#P166"
+  },
+  {
+    "id": "wd:Q36767:P166:Q1161101",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": award received: MTV Award for Global Superstar (2010)",
+    "url": "https://www.wikidata.org/wiki/Q36767#P166"
+  },
+  {
+    "id": "wd:Q36767:P166:Q4220901",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Robert Pattinson\": award received: MTV Movie Award for Best Male Performance (2010)",
+    "url": "https://www.wikidata.org/wiki/Q36767#P166"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "wiki:2026-11-16:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-16T00:00:00Z",
+    "lon": -15,
+    "lat": 13.64,
+    "label": "Politics: The Gambian election commission approves President Adama Barrow's candidacy for a third term in the December 5 presidential election as the country's constitution does not limit presidential terms.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+    "quote": "The Gambian election commission approves President Adama Barrow's candidacy for a third term in the December 5 presidential election as the country's constitution does not limit presidential terms.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/africa/gambia-clears-barrow-run-third-presidential-term-approves-eight-other-candidates-2026-11-16/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q111594398:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Wikidata: \"2026 Gambian presidential election\" is an instance of Gambian presidential election",
+    "url": "https://www.wikidata.org/wiki/Q111594398",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386107602:8",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Gambian presidential election\" (revision of 2026-11-17 00:02 UTC)",
+    "quote": "On 16 November 2026, the Independent Electoral Commission of Gambia approved Barrow's candidacy for a third term.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Gambian_presidential_election&oldid=1386107602"
+  },
+  {
+    "id": "wiki:rev:1386107602:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Gambian presidential election\" (revision of 2026-11-17 00:02 UTC)",
+    "quote": "Presidential elections are scheduled to be held in the Gambia on 5 December 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Gambian_presidential_election&oldid=1386107602"
+  },
+  {
+    "id": "views:en:2026_Gambian_presidential_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Gambian presidential election\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Gambian_presidential_election&range=latest-30"
+  },
+  {
+    "id": "wd:Q111594398:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Gambian presidential election\": date 5 December 2026",
+    "url": "https://www.wikidata.org/wiki/Q111594398#P585"
+  },
+  {
+    "id": "wd:Q111594398:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Gambian presidential election\": country The Gambia",
+    "url": "https://www.wikidata.org/wiki/Q111594398#P17"
+  }
+]

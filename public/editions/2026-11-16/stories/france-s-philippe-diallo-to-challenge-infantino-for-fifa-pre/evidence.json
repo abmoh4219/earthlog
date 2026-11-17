@@ -1,0 +1,187 @@
+[
+  {
+    "id": "news:sky:77df0b0c2405",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Sky News: FIFA president Gianni Infantino faces challenge from French football chief (15:25 UTC)",
+    "url": "https://news.sky.com/story/head-of-french-football-to-stand-against-infantino-in-fifa-presidential-election-13612894",
+    "quote": "FIFA president Gianni Infantino faces challenge from French football chief",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:3ea308e836a0",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Al Jazeera: UEFA backs France’s Philippe Diallo to challenge Infantino in FIFA election (16:46 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/16/uefa-backs-frances-philippe-diallo-to-challenge-infantino-in-fifa-election",
+    "quote": "UEFA backs France’s Philippe Diallo to challenge Infantino in FIFA election",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:6fe08ae5c0bf",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "DW: France's Philippe Diallo to challenge Infantino for FIFA presidency (20:24 UTC)",
+    "url": "https://www.dw.com/en/france-s-philippe-diallo-to-challenge-infantino-for-fifa-presidency/a-79962843",
+    "quote": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384695862:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gianni Infantino\" (revision of 2026-11-09 17:13 UTC)",
+    "quote": "Giovanni Vincenzo \"Gianni\" Infantino (born 23 March 1970) is a Swiss football administrator who has served as the president of FIFA since 2016.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gianni_Infantino&oldid=1384695862"
+  },
+  {
+    "id": "views:en:Gianni_Infantino:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gianni Infantino\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gianni_Infantino&range=latest-30"
+  },
+  {
+    "id": "wd:Q124138:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q124138\": born 23 March 1970",
+    "url": "https://www.wikidata.org/wiki/Q124138#P569"
+  },
+  {
+    "id": "wd:Q124138:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q124138\": birthplace Brig-Glis, Brig",
+    "url": "https://www.wikidata.org/wiki/Q124138#P19"
+  },
+  {
+    "id": "wd:Q124138:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q124138\": occupation sports official, lawyer",
+    "url": "https://www.wikidata.org/wiki/Q124138#P106"
+  },
+  {
+    "id": "wd:Q124138:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q124138\": citizenship Switzerland, Italy",
+    "url": "https://www.wikidata.org/wiki/Q124138#P27"
+  },
+  {
+    "id": "wd:Q124138:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q124138\": sport association football",
+    "url": "https://www.wikidata.org/wiki/Q124138#P641"
+  },
+  {
+    "id": "wd:Q124138:P69:Q36188",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": educated at University of Fribourg",
+    "url": "https://www.wikidata.org/wiki/Q124138#P69"
+  },
+  {
+    "id": "wd:Q124138:P69:Q541548",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": educated at University of Neuchâtel",
+    "url": "https://www.wikidata.org/wiki/Q124138#P69"
+  },
+  {
+    "id": "wd:Q124138:P108:Q253414",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": worked for FIFA (2016–)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P108"
+  },
+  {
+    "id": "wd:Q124138:P108:Q35572",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": worked for Union of European Football Associations (2000–16)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P108"
+  },
+  {
+    "id": "wd:Q124138:P166:Q25342379",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": award received: Grand Cross of the Order of the Condor of the Andes (2016)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P166"
+  },
+  {
+    "id": "wd:Q124138:P166:Q3885162",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": award received: Order of Merit of Niger (2017)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P166"
+  },
+  {
+    "id": "wd:Q124138:P166:Q3682699",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": award received: Gold Collar for Sports Merit (2017)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P166"
+  },
+  {
+    "id": "wd:Q124138:P166:Q791135",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": award received: Order of Friendship (2019)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P166"
+  },
+  {
+    "id": "wd:Q124138:P166:Q2612174",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": award received: Order of the Nigeria (2019)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P166"
+  },
+  {
+    "id": "wd:Q124138:P166:Q2758023",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gianni Infantino\": award received: Order of Boyacá (2022)",
+    "url": "https://www.wikidata.org/wiki/Q124138#P166"
+  }
+]

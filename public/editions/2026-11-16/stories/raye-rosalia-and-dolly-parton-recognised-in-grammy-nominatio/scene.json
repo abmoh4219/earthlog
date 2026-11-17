@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-raye-rosalia-and-dolly-parton-recognised-in-grammy-nominatio",
+  "title": "Grammy Awards",
+  "subtitle": "Culture · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:00:52Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places-home.json",
+      "name": "home",
+      "from": "2026-11-16T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": -80.24367999999998,
+      "lat": 20.018838,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:10Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:16Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:21Z",
+      "lon": -73.97938889,
+      "lat": 38.558972219999994,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "lon": -73.97938889,
+      "lat": 38.558972219999994,
+      "range": 1629969.324864735,
+      "heading": 3.8999999999999986,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:28Z",
+      "lon": -73.97938889,
+      "lat": 38.558972219999994,
+      "range": 1476000,
+      "heading": -8.200000000000003,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": -73.97938889,
+      "lat": 38.558972219999994,
+      "range": 1800000,
+      "heading": 4,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:38Z",
+      "lon": -73.97938889,
+      "lat": 38.558972219999994,
+      "range": 1726499.348392579,
+      "heading": 6,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "lon": -73.97938889,
+      "lat": 38.558972219999994,
+      "range": 1656000,
+      "heading": 8,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:48Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:49Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:52Z",
+      "lon": -143.24367999999998,
+      "lat": 33.36473,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "Raye, Rosalía and Dolly Parton were recognised in Grammy nominations, according to BBC News.",
+      "cites": [
+        "news:bbc:ff72e800a1d8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:09Z",
+      "text": "The Grammy Awards, often called the Grammys, are presented by the Recording Academy of the United States to recognize outstanding achievements in music.",
+      "cites": [
+        "wiki:rev:1383488200:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:18Z",
+      "text": "The show has aired on NBC from 1959 to 1970, on ABC in 1971, 1972 and 2027, and on CBS from 1973 to 2026, and it is hosted by The Recording Academy.",
+      "cites": [
+        "wiki:box:1383488200:network",
+        "wiki:box:1383488200:hosts"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:30Z",
+      "text": "BBC News headlined its report “Raye, Rosalía and Dolly Parton recognised in Grammy nominations”.",
+      "cites": [
+        "news:bbc:ff72e800a1d8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:37Z",
+      "text": "DW headlined its report “Grammy Awards: Raye and Rosalia lead nominations”.",
+      "cites": [
+        "news:dw:04fc79c7dd7d"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:46Z",
+      "text": "This explainer draws on BBC News and DW reporting, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1383488200:0",
+        "views:en:Grammy_Awards:30d",
+        "wd:Q41254:P276"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:17Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:00:45Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-16T00:00:18Z",
+      "until": "2026-11-16T00:00:29Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-02).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Hosts",
+          "text": "The Recording Academy",
+          "cites": [
+            "wiki:box:1383488200:hosts"
+          ]
+        },
+        {
+          "label": "Network",
+          "text": "NBC (1959–1970), ABC (1971–1972; 2027), CBS (1973–2026)",
+          "cites": [
+            "wiki:box:1383488200:network"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:00:30Z",
+      "until": "2026-11-16T00:00:45Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o",
+          "cites": [
+            "news:bbc:ff72e800a1d8"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/grammy-awards-raye-and-rosalia-lead-nominations/a-79961198",
+          "cites": [
+            "news:dw:04fc79c7dd7d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:00:46Z",
+      "until": "2026-11-16T00:00:52Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383488200:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Grammy_Awards:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q41254:P276"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.000659
+  }
+}

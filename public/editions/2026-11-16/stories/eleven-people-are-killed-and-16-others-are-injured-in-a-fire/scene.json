@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-eleven-people-are-killed-and-16-others-are-injured-in-a-fire",
+  "title": "Eleven people are killed and 16 others are injured in a fire at a four-story…",
+  "subtitle": "Accident · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:00:59Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 88.29833333,
+    "south": -0.10694444000000036,
+    "east": 108.29833333,
+    "north": 15.89305556
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-16T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 136.29833333,
+      "lat": 4.323333335999999,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "lon": 98.29833333,
+      "lat": 7.89305556,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "lon": 98.29833333,
+      "lat": 7.89305556,
+      "range": 126775.39193392382,
+      "heading": 14.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "lon": 98.29833333,
+      "lat": 7.89305556,
+      "range": 114800,
+      "heading": 4.600000000000001,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:35Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:38Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:40Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:43Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:47Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:51Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:54Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:55Z",
+      "lon": 98.29833333,
+      "lat": 7.20555556,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:59Z",
+      "lon": 73.29833332999999,
+      "lat": 7.20555556,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "Eleven people are killed and 16 others are injured in a fire at a four-story building in Patong, Phuket province, Thailand.",
+      "cites": [
+        "wiki:2026-11-16:9"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:12Z",
+      "text": "As of 16 November, Phuket police are still investigating the cause, and they have ruled out arson as a cause.",
+      "cites": [
+        "wiki:rev:1386091002:6"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "text": "The incident was reported by Al Jazeera.",
+      "cites": [
+        "wiki:2026-11-16:9"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:42Z",
+      "text": "Al Jazeera headlined the story, “Shophouse fire kills at least 11 in Phuket.”",
+      "cites": [
+        "news:aljazeera:8151d7c43cef"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:53Z",
+      "text": "This explainer draws on Wikipedia, Current events, Wikipedia articles and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-16:9",
+        "wiki:rev:1386091002:6",
+        "wd:Q142179721:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 98.29833333,
+    "lat": 7.89305556,
+    "label": "Patong"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-16T00:00:41Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:00:52Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-16T00:00:34Z",
+      "until": "2026-11-16T00:00:41Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11",
+          "cites": [
+            "wiki:2026-11-16:9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:00:42Z",
+      "until": "2026-11-16T00:00:52Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket",
+          "cites": [
+            "news:aljazeera:8151d7c43cef"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:00:53Z",
+      "until": "2026-11-16T00:00:59Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-16:9"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386091002:6"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142179721:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.001765
+  }
+}

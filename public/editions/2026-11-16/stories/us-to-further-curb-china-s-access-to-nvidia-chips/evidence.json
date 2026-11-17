@@ -1,0 +1,225 @@
+[
+  {
+    "id": "news:sky:fce31fdfe774",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Sky News: US to further curb China's access to Nvidia chips (14:59 UTC)",
+    "url": "https://news.sky.com/story/us-to-further-curb-chinas-access-to-ai-chips-from-companies-like-nvidia-13612884",
+    "quote": "US to further curb China's access to Nvidia chips",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:39b6798086ba",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "DW: Nvidia scandal: China's chips dilemma, US rivalry shape AI race (16:32 UTC)",
+    "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766",
+    "quote": "Nvidia scandal: China's chips dilemma, US rivalry shape AI race",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386037839:227",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Nvidia\" (revision of 2026-11-16 15:06 UTC)",
+    "quote": "In October 2026, Meta expressed intent for further use of Nvidia hardware for the development of Muse agent, and its plans to incorporate almost all of Nvidia's planned upcoming enterprise products, including the Vera Rubin GPUs, Vera CPUs, Spectrum-X network adaptors, and the BlueField-4.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nvidia&oldid=1386037839"
+  },
+  {
+    "id": "wiki:rev:1386037839:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Nvidia\" (revision of 2026-11-16 15:06 UTC)",
+    "quote": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nvidia&oldid=1386037839"
+  },
+  {
+    "id": "views:en:Nvidia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Nvidia\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Nvidia&range=latest-30"
+  },
+  {
+    "id": "wd:Q182477:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": founded 5 April 1993",
+    "url": "https://www.wikidata.org/wiki/Q182477#P571"
+  },
+  {
+    "id": "wd:Q182477:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": headquarters Santa Clara",
+    "url": "https://www.wikidata.org/wiki/Q182477#P159"
+  },
+  {
+    "id": "wd:Q182477:P452",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": industry semiconductor industry",
+    "url": "https://www.wikidata.org/wiki/Q182477#P452"
+  },
+  {
+    "id": "wd:Q182477:P1128",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": employees 11,528",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1128"
+  },
+  {
+    "id": "wd:Q182477:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q182477#P17"
+  },
+  {
+    "id": "hn:2026-11-16:Q182477",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 230 stories with \"Nvidia\" in the title in the 14 days to 16 November 2026",
+    "value": 230,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=Nvidia&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q182477:P112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": founded by: Jensen Huang, Chris Malachowsky and Curtis Priem",
+    "url": "https://www.wikidata.org/wiki/Q182477#P112"
+  },
+  {
+    "id": "wd:Q182477:P169",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": chief executive: Colette Kress",
+    "url": "https://www.wikidata.org/wiki/Q182477#P169"
+  },
+  {
+    "id": "wd:Q182477:P127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": owned by: Jensen Huang",
+    "url": "https://www.wikidata.org/wiki/Q182477#P127"
+  },
+  {
+    "id": "wd:Q182477:P414",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": listed on: Nasdaq",
+    "url": "https://www.wikidata.org/wiki/Q182477#P414"
+  },
+  {
+    "id": "wd:Q182477:P1128:latest",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": employees: 42,000 (2026)",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1128"
+  },
+  {
+    "id": "wd:Q182477:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": official website https://www.nvidia.com/",
+    "url": "https://www.wikidata.org/wiki/Q182477#P856"
+  },
+  {
+    "id": "wd:Q182477:P2139:series",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": revenue 2007: $4.1 billion; 2008: $3.4 billion; 2009: $3.3 billion; 2010: $3.5 billion; 2011: $4 billion; 2012: $4.3 billion; 2013: $4.1 billion; 2014: $4.7 billion; 2015: $5 billion; 2016: $6.9 billion; 2017: $9.7 billion; 2018: $11.7 billion; 2019: $10.9 billion; 2020: $16.7 billion; 2021: $26.9 billion; 2022: $27 billion; 2023: $60.9 billion; 2024: $130.5 billion; 2025: $215.9 billion",
+    "url": "https://www.wikidata.org/wiki/Q182477#P2139"
+  },
+  {
+    "id": "wd:Q182477:P1128:series",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": employees 2018: 11,528; 2020: 13,775; 2025: 36,000; 2026: 42,000",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1128"
+  },
+  {
+    "id": "wd:Q182477:P355:Q29000344",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Nvidia Ltd.",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P355:Q5985959",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Icera",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P355:Q6817432",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Mental Images",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P355:Q6813052",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Mellanox Technologies",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P1830:Q392357",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": owns Ageia",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1830"
+  }
+]

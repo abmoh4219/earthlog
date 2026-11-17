@@ -1,0 +1,566 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-2026-yemen-offensives",
+  "title": "2026 Yemen offensives",
+  "subtitle": "Conflict · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:02:03Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 33.33333333,
+    "south": 4.58333333,
+    "east": 53.33333333,
+    "north": 20.583333330000002
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-16T00:01:18Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-week.json",
+      "name": "week",
+      "from": "2026-11-16T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 81.33333332999996,
+      "lat": 7.137499998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": 43.33333333,
+      "lat": 11.08333333,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -45,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:47Z",
+      "lon": 43.33333333,
+      "lat": 11.08333333,
+      "range": 1358307.7707206125,
+      "heading": 14,
+      "pitch": -42.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:00Z",
+      "lon": 43.33333333,
+      "lat": 11.08333333,
+      "range": 1230000,
+      "heading": 28,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:03Z",
+      "lon": 43.33333333,
+      "lat": 10.58333333,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:10Z",
+      "lon": 43.33333333,
+      "lat": 10.58333333,
+      "range": 1086646.2165764899,
+      "heading": -30,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:17Z",
+      "lon": 43.33333333,
+      "lat": 10.58333333,
+      "range": 983999.9999999999,
+      "heading": -44,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:20Z",
+      "lon": 44.18297136007106,
+      "lat": 12.393018171493784,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:23Z",
+      "lon": 44.18297136007106,
+      "lat": 12.393018171493784,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:26Z",
+      "lon": 44.18297136007106,
+      "lat": 12.393018171493784,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:29Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:32Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:34Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:37Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:46Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:55Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:58Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:59Z",
+      "lon": 43.33333333,
+      "lat": 11.89583333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:02:03Z",
+      "lon": 18.33333332999996,
+      "lat": 11.89583333,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "Saudi King Salman appoints Fayyadh Al Ruwaili, Chairman of the General Staff, as commander of the Saudi-led coalition in Yemen after government forces retreated near Bab al-Mandeb to Aden.",
+      "cites": [
+        "wiki:2026-11-16:3"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "On 15 November, PLC forces withdrew from the Bab al-Mandeb Strait and redeployed towards Aden.",
+      "cites": [
+        "wiki:rev:1386099969:387"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "On 3 September 2026, Iran-backed Houthis launched an offensive against the Saudi-backed Presidential Leadership Council (PLC), Yemen's internationally recognized government, amid the civil war.",
+      "cites": [
+        "wiki:rev:1386099969:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "text": "On the map, you can see Bab al-Mandeb, the place the reports identify.",
+      "cites": [
+        "wiki:2026-11-16:3"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "text": "On 11 November, Southern Resistance and the PLC cooperated to seize Jabal al-Nasirah and al-Mamdar from Houthi forces.",
+      "cites": [
+        "wiki:week:1386099969:373"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:42Z",
+      "text": "On 12 November, PLC forces claimed to have carried out 703 operations against Houthi-held positions.",
+      "cites": [
+        "wiki:week:1386099969:375"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:51Z",
+      "text": "On 13 November, the Houthis launched an offensive towards Jabal Kharaz, capturing al-Shatt and the Al-Sarih crossing, and on 14 November PLC forces claimed recapture of positions near that crossing.",
+      "cites": [
+        "wiki:week:1386099969:376",
+        "wiki:week:1386099969:377"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:02Z",
+      "text": "The article lists two sides: Supreme Political Council and AQAP on one, Presidential Leadership Council and Southern Resistance on the other.",
+      "cites": [
+        "wiki:box:1386099969:side-1",
+        "wiki:box:1386099969:side-2"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:10Z",
+      "text": "Wikipedia lists the conflict as ongoing.",
+      "cites": [
+        "wiki:box:1386099969:status"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:19Z",
+      "text": "Aden is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-16:3"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:28Z",
+      "text": "The story is reported by Al Jazeera.",
+      "cites": [
+        "wiki:2026-11-16:3"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:36Z",
+      "text": "Al Jazeera headlined it: “Saudi Arabia dismisses commander of coalition forces fighting Houthis”.",
+      "cites": [
+        "news:aljazeera:5de9237e8298"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:42Z",
+      "text": "BBC News headlined it: “Yemeni forces retreat to defend port city from Houthis”.",
+      "cites": [
+        "news:bbc:e3c6bc678a27"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:48Z",
+      "text": "France 24 headlined it: “Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance”.",
+      "cites": [
+        "news:france24:f6d733473972"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:57Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-16:3",
+        "wiki:rev:1386099969:387",
+        "views:en:2026_Yemen_offensives:30d",
+        "wd:Q141349562:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 43.33333333,
+    "lat": 12.58333333,
+    "label": "Bab al-Mandeb"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "title": "Day by day"
+    },
+    {
+      "t": "2026-11-16T00:01:01Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-16T00:01:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-16T00:01:27Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-16T00:01:35Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:01:56Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-16T00:01:02Z",
+      "until": "2026-11-16T00:01:18Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Supreme Political Council, AQAP",
+          "cites": [
+            "wiki:box:1386099969:side-1"
+          ]
+        },
+        {
+          "label": "Side 2",
+          "text": "Presidential Leadership Council, Southern Resistance",
+          "cites": [
+            "wiki:box:1386099969:side-2"
+          ]
+        },
+        {
+          "label": "Status",
+          "text": "Ongoing",
+          "cites": [
+            "wiki:box:1386099969:status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-16T00:01:28Z",
+      "until": "2026-11-16T00:01:35Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis",
+          "cites": [
+            "wiki:2026-11-16:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:01:36Z",
+      "until": "2026-11-16T00:01:56Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis",
+          "cites": [
+            "news:aljazeera:5de9237e8298"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo",
+          "cites": [
+            "news:bbc:e3c6bc678a27"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/yemen/20261116-saudi-arabia-dismisses-commander-of-anti-houthi-coalition-as-rebels-advance",
+          "cites": [
+            "news:france24:f6d733473972"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+          "cites": [
+            "news:guardian:46481e98f2ed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:01:57Z",
+      "until": "2026-11-16T00:02:03Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-16:3"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386099969:387"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Yemen_offensives:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141349562:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.003997
+  }
+}

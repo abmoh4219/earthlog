@@ -1,0 +1,207 @@
+[
+  {
+    "id": "wiki:2026-11-16:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-16T00:00:00Z",
+    "lon": 43.33333333,
+    "lat": 12.58333333,
+    "label": "Conflict: Saudi Arabia's King Salman appoints Chairman of the General Staff Fayyadh Al Ruwaili as commander of the Saudi-led coalition in Yemen, following the retreat of Yemeni government forces from areas near the Bab al-Mandeb to Aden.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+    "quote": "Saudi Arabia's King Salman appoints Chairman of the General Staff Fayyadh Al Ruwaili as commander of the Saudi-led coalition in Yemen, following the retreat of Yemeni government forces from areas near the Bab al-Mandeb to Aden.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:5de9237e8298",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Al Jazeera: Saudi Arabia dismisses commander of coalition forces fighting Houthis (19:19 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis",
+    "quote": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q141349562:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Wikidata: \"2026 Yemen offensives\" is an instance of conflict, civil war",
+    "url": "https://www.wikidata.org/wiki/Q141349562",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:e3c6bc678a27",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "BBC News: Yemeni forces retreat to defend port city from Houthis (11:09 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo",
+    "quote": "Yemeni forces retreat to defend port city from Houthis",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:f6d733473972",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "France 24: Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance (14:42 UTC)",
+    "url": "https://www.france24.com/en/yemen/20261116-saudi-arabia-dismisses-commander-of-anti-houthi-coalition-as-rebels-advance",
+    "quote": "Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:46481e98f2ed",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "The Guardian: Saudi Arabia strategy challenged by anti-Houthi forces in Yemen (19:04 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+    "quote": "Saudi Arabia strategy challenged by anti-Houthi forces in Yemen",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386099969:387",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC)",
+    "quote": "On 15 November, PLC forces withdrew from the Bab al-Mandeb Strait and redeployed towards Aden.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:rev:1386099969:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC)",
+    "quote": "On 3 September 2026, the Iran-backed Houthis launched an offensive against the Saudi-backed Presidential Leadership Council (PLC), the internationally recognized government of Yemen, amid the ongoing Yemeni civil war.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "views:en:2026_Yemen_offensives:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Yemen offensives\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Yemen_offensives&range=latest-30"
+  },
+  {
+    "id": "wd:Q141349562:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Yemen offensives\": began 3 September 2026",
+    "url": "https://www.wikidata.org/wiki/Q141349562#P580"
+  },
+  {
+    "id": "wd:Q141349562:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Yemen offensives\": country Yemen",
+    "url": "https://www.wikidata.org/wiki/Q141349562#P17"
+  },
+  {
+    "id": "wiki:week:1386099969:378",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): dated sentence",
+    "quote": "On 15 November, PLC forces withdrew from the Bab al-Mandeb Strait and redeployed towards Aden.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:week:1386099969:377",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): dated sentence",
+    "quote": "On 14 November, PLC forces claimed to have recaptured positions around the Al-Sarih crossing area.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:week:1386099969:376",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): dated sentence",
+    "quote": "On 13 November, the Houthis launched an offensive towards Jabal Kharaz, capturing al-Shatt and the Al-Sarih crossing.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:week:1386099969:375",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): dated sentence",
+    "quote": "On 12 November, PLC forces claimed to have carried out 703 operations against Houthi-held positions.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:week:1386099969:373",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): dated sentence",
+    "quote": "On 11 November, Southern Resistance and the PLC cooperated to seize Jabal al-Nasirah and al-Mamdar from Houthi forces.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:week:1386099969:372",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): dated sentence",
+    "quote": "On 10 November, PLC forces claimed to have full control of the Khabub Mountains after repelling a Houthi infiltration.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:box:1386099969:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): side 1: Supreme Political Council, AQAP",
+    "quote": "Supreme Political Council, AQAP",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:box:1386099969:side-2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): side 2: Presidential Leadership Council, Southern Resistance",
+    "quote": "Presidential Leadership Council, Southern Resistance",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  },
+  {
+    "id": "wiki:box:1386099969:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Yemen offensives\" (revision of 2026-11-16 22:59 UTC): Status: Ongoing",
+    "quote": "Ongoing",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Yemen_offensives&oldid=1386099969"
+  }
+]

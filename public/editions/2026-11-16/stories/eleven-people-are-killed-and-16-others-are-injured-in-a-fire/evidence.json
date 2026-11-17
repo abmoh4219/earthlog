@@ -1,0 +1,97 @@
+[
+  {
+    "id": "wiki:2026-11-16:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-16T00:00:00Z",
+    "lon": 98.29833333,
+    "lat": 7.89305556,
+    "label": "Disaster: Eleven people are killed and 16 others are injured in a fire at a four-story building in Patong, Phuket province, Thailand.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+    "quote": "Eleven people are killed and 16 others are injured in a fire at a four-story building in Patong, Phuket province, Thailand.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:8151d7c43cef",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Al Jazeera: Shophouse fire kills at least 11 in Phuket (03:51 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket",
+    "quote": "Shophouse fire kills at least 11 in Phuket",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142179721:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Wikidata: \"2026 Patong fire\" is an instance of conflagration",
+    "url": "https://www.wikidata.org/wiki/Q142179721",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386091002:6",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Patong fire\" (revision of 2026-11-16 21:47 UTC)",
+    "quote": "As of 16 November, Phuket police are still investigating the cause of the fire, but have ruled out arson as a cause.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Patong_fire&oldid=1386091002"
+  },
+  {
+    "id": "wiki:rev:1386091002:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Patong fire\" (revision of 2026-11-16 21:47 UTC)",
+    "quote": "On 16 November 2026, at approximately 3:17 a.m., a fire in a commercial district in Patong, Phuket, Thailand, killed 11 people and injured at least 16.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Patong_fire&oldid=1386091002"
+  },
+  {
+    "id": "wd:Q142179721:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Patong fire\": date 16 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142179721#P585"
+  },
+  {
+    "id": "wd:Q142179721:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Patong fire\": country Thailand",
+    "url": "https://www.wikidata.org/wiki/Q142179721#P17"
+  },
+  {
+    "id": "wiki:box:1386091002:fatalities",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Patong fire\" (revision of 2026-11-16 21:47 UTC): fatalities: 11",
+    "quote": "fatalities: 11",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Patong_fire&oldid=1386091002"
+  },
+  {
+    "id": "wiki:box:1386091002:injuries",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Patong fire\" (revision of 2026-11-16 21:47 UTC): injuries: At least 16",
+    "quote": "injuries: At least 16",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Patong_fire&oldid=1386091002"
+  }
+]

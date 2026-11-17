@@ -1,0 +1,656 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-the-crimean-bridge-is-struck-by-a-ukrainian-kamikaze-drone",
+  "title": "The Crimean Bridge is struck by a Ukrainian kamikaze drone",
+  "subtitle": "Conflict · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:01:40Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 22.14,
+    "south": 41.72,
+    "east": 42.14,
+    "north": 57.72
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-16T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-16T00:00:55Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 70.13999999999999,
+      "lat": 28.557,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": 32.14,
+      "lat": 47.72,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:38Z",
+      "lon": 32.14,
+      "lat": 47.72,
+      "range": 1086646.2165764899,
+      "heading": -4.699999999999999,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:42Z",
+      "lon": 32.14,
+      "lat": 47.72,
+      "range": 983999.9999999999,
+      "heading": 6.600000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:45Z",
+      "lon": 32.14,
+      "lat": 45.72,
+      "range": 3200000,
+      "heading": 0,
+      "pitch": -50,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:50Z",
+      "lon": 32.14,
+      "lat": 45.72,
+      "range": 2897723.244203973,
+      "heading": -12.100000000000001,
+      "pitch": -47.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:54Z",
+      "lon": 32.14,
+      "lat": 45.72,
+      "range": 2624000,
+      "heading": -24.200000000000003,
+      "pitch": -45,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:57Z",
+      "lon": 33.111626855457615,
+      "lat": 47.06375364978984,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:00Z",
+      "lon": 33.111626855457615,
+      "lat": 47.06375364978984,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:03Z",
+      "lon": 33.111626855457615,
+      "lat": 47.06375364978984,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:06Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:09Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 4002480.231056738,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:11Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 3624400,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:14Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:23Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:32Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:35Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:36Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:40Z",
+      "lon": 7.139999999999986,
+      "lat": 47.595,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "A Ukrainian kamikaze drone struck the Crimean Bridge, damaging the structure and prompting Russian authorities to close it to vehicle traffic.",
+      "cites": [
+        "wiki:2026-11-16:1"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "Ukrainian military intelligence said that on 10 November, one Russian Serna-class landing craft and one other craft were sunk by drone boats in Vuzka Bay, Crimea.",
+      "cites": [
+        "wiki:rev:1386105508:127"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "Since July 2022, a series of explosions and fires has occurred on the Russian-occupied Crimean Peninsula, which the Russian Army used to launch its offensive on Southern Ukraine.",
+      "cites": [
+        "wiki:rev:1386105508:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "text": "The map shows Ukraine, where the reports place the events.",
+      "cites": [
+        "wiki:2026-11-16:1"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "text": "According to the Russian claim recorded by Wikipedia, 3 rockets, 70+ aerial drones and 15+ maritime drones were shot down or destroyed.",
+      "cites": [
+        "wiki:box:1386105508:casualties-side-2-"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:38Z",
+      "text": "As Wikipedia records, 9 civilians were killed and 126 were injured.",
+      "cites": [
+        "wiki:box:1386105508:casualties"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "text": "IODA recorded responsive internet address blocks in Ukraine falling to 88% of their usual level on 2026-11-04.",
+      "cites": [
+        "ioda:UA:ping:day:2026-11-04"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:49Z",
+      "text": "By 2026-11-16, the same measure had recovered to 98% of its usual level.",
+      "cites": [
+        "ioda:UA:ping:day:2026-11-16"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:56Z",
+      "text": "Crimea is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-16:1"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:05Z",
+      "text": "The story has been reported by The Guardian and the BBC.",
+      "cites": [
+        "wiki:2026-11-16:1"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:13Z",
+      "text": "France 24 headlined it: Live: 600 Ukrainian drones target Moscow, and the Crimea bridge strike halts traffic.",
+      "cites": [
+        "news:france24:59995b76c236"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:19Z",
+      "text": "BBC News headlined it: Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war.",
+      "cites": [
+        "news:bbc:b9b16089c989"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:25Z",
+      "text": "The Guardian headlined it: Ukraine hits Kerch bridge between Russia and occupied Crimea.",
+      "cites": [
+        "news:guardian:3c35d058abb8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:34Z",
+      "text": "Sources include Wikipedia current events and articles, Wikimedia pageviews, Wikidata, and IODA at Georgia Tech.",
+      "cites": [
+        "wiki:2026-11-16:1",
+        "wiki:rev:1386105508:127",
+        "views:en:Crimea_attacks:30d",
+        "wd:Q114550059:P31",
+        "ioda:UA:ping:day:2026-11-03"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:35Z",
+      "text": "Each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-16:1"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "UA",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Ukraine"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-16T00:00:43Z",
+      "title": "Connectivity"
+    },
+    {
+      "t": "2026-11-16T00:00:55Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-16T00:01:04Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-16T00:01:12Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:01:33Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-16T00:00:33Z",
+      "until": "2026-11-16T00:00:43Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Casualties (side 2)",
+          "text": "Russian claim:; 3 rockets shot down; 70+ aerial drones shot down; 15+ maritime drones destroyed",
+          "cites": [
+            "wiki:box:1386105508:casualties-side-2-"
+          ]
+        },
+        {
+          "label": "Casualties",
+          "text": "9 civilians killed; 126 injured",
+          "cites": [
+            "wiki:box:1386105508:casualties"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connectivity",
+      "t": "2026-11-16T00:00:44Z",
+      "until": "2026-11-16T00:00:55Z",
+      "title": "Internet connectivity (IODA)",
+      "note": "Responsive address blocks (active probing), daily median, against the same time and weekday over the previous four weeks. A connectivity signal, not a count of people offline.",
+      "kind": "line",
+      "unit": "% of usual",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#5ef2ff",
+          "points": [
+            {
+              "x": "11-03",
+              "y": 90
+            },
+            {
+              "x": "11-04",
+              "y": 88
+            },
+            {
+              "x": "11-05",
+              "y": 93
+            },
+            {
+              "x": "11-06",
+              "y": 93
+            },
+            {
+              "x": "11-07",
+              "y": 94
+            },
+            {
+              "x": "11-08",
+              "y": 94
+            },
+            {
+              "x": "11-09",
+              "y": 94
+            },
+            {
+              "x": "11-10",
+              "y": 94
+            },
+            {
+              "x": "11-11",
+              "y": 97
+            },
+            {
+              "x": "11-12",
+              "y": 97
+            },
+            {
+              "x": "11-13",
+              "y": 99
+            },
+            {
+              "x": "11-14",
+              "y": 102
+            },
+            {
+              "x": "11-15",
+              "y": 100
+            },
+            {
+              "x": "11-16",
+              "y": 98
+            }
+          ],
+          "cites": [
+            "ioda:UA:ping:day:2026-11-03",
+            "ioda:UA:ping:day:2026-11-04",
+            "ioda:UA:ping:day:2026-11-05",
+            "ioda:UA:ping:day:2026-11-06",
+            "ioda:UA:ping:day:2026-11-07",
+            "ioda:UA:ping:day:2026-11-08",
+            "ioda:UA:ping:day:2026-11-09",
+            "ioda:UA:ping:day:2026-11-10",
+            "ioda:UA:ping:day:2026-11-11",
+            "ioda:UA:ping:day:2026-11-12",
+            "ioda:UA:ping:day:2026-11-13",
+            "ioda:UA:ping:day:2026-11-14",
+            "ioda:UA:ping:day:2026-11-15",
+            "ioda:UA:ping:day:2026-11-16"
+          ]
+        }
+      ],
+      "mark": 13
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-16T00:01:05Z",
+      "until": "2026-11-16T00:01:12Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+          "cites": [
+            "wiki:2026-11-16:1"
+          ]
+        },
+        {
+          "label": "BBC",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/ckx27v6dpjz0o",
+          "cites": [
+            "wiki:2026-11-16:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:01:13Z",
+      "until": "2026-11-16T00:01:33Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
+          "cites": [
+            "news:france24:59995b76c236"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o",
+          "cites": [
+            "news:bbc:b9b16089c989"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+          "cites": [
+            "news:guardian:3c35d058abb8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:01:34Z",
+      "until": "2026-11-16T00:01:40Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-16:1"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386105508:127"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Crimea_attacks:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q114550059:P31"
+          ]
+        },
+        {
+          "label": "IODA: Internet Outage Detection and Analysis (…",
+          "text": "This data is Copyright",
+          "url": "https://ioda.inetintel.cc.gatech.edu/",
+          "cites": [
+            "ioda:UA:ping:day:2026-11-03"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.002148
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-the-european-commission-ec-and-the-united-states-federal-res",
+  "title": "The European Commission (EC) and the United States Federal Reserve approve…",
+  "subtitle": "Economy · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:00:51Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 23.3115,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:07Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:09Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:13Z",
+      "lon": -77.0458,
+      "lat": 38.092800000000004,
+      "range": 800000,
+      "heading": 16,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "lon": -77.0458,
+      "lat": 38.092800000000004,
+      "range": 724430.8110509933,
+      "heading": 7.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:17Z",
+      "lon": -77.0458,
+      "lat": 38.092800000000004,
+      "range": 656000,
+      "heading": -1.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:21Z",
+      "lon": -97.48,
+      "lat": 31.54,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:28Z",
+      "lon": -97.48,
+      "lat": 31.54,
+      "range": 4346584.866305959,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:35Z",
+      "lon": -97.48,
+      "lat": 31.54,
+      "range": 3935999.9999999995,
+      "heading": 16,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:39Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:41Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:43Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:46Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:47Z",
+      "lon": -97.48,
+      "lat": 38.8525,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:51Z",
+      "lon": -122.48000000000002,
+      "lat": 38.8525,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "Italian bank UniCredit's proposed €45 billion (US$49 billion) acquisition of Germany's Commerzbank is approved by the European Commission and the United States Federal Reserve.",
+      "cites": [
+        "wiki:2026-11-16:8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:05Z",
+      "text": "The European Central Bank gave its approval in October, and the EC grants unconditional antitrust clearance for the deal.",
+      "cites": [
+        "wiki:2026-11-16:8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:11Z",
+      "text": "The decision came from the Federal Reserve System, an independent agency of the United States government headquartered in Eccles Building.",
+      "cites": [
+        "wd:Q53536:P159",
+        "wiki:2026-11-16:8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:19Z",
+      "text": "Inflation in the United States was 2.9% in 2024, down from 8.0% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:US"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:27Z",
+      "text": "The economy grew 2.2% in 2025, and unemployment stood at 4.2%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:US",
+        "wb:SL.UEM.TOTL.ZS:US"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:37Z",
+      "text": "The story was reported by Reuters.",
+      "cites": [
+        "wiki:2026-11-16:8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:45Z",
+      "text": "This explainer draws on Wikipedia's current events, Wikidata and World Bank Open Data, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-16:8",
+        "wd:Q53536:P159",
+        "wb:FP.CPI.TOTL.ZG:US"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:10Z",
+      "title": "Who decided"
+    },
+    {
+      "t": "2026-11-16T00:00:18Z",
+      "title": "United States in numbers"
+    },
+    {
+      "t": "2026-11-16T00:00:36Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-16T00:00:19Z",
+      "until": "2026-11-16T00:00:36Z",
+      "title": "Inflation, consumer prices, United States",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "United States",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 1.6400434423899
+            },
+            {
+              "x": "2011",
+              "y": 3.156841568622
+            },
+            {
+              "x": "2012",
+              "y": 2.06933726526066
+            },
+            {
+              "x": "2013",
+              "y": 1.46483265562716
+            },
+            {
+              "x": "2014",
+              "y": 1.62222297740817
+            },
+            {
+              "x": "2015",
+              "y": 0.11862713555245
+            },
+            {
+              "x": "2016",
+              "y": 1.26158320570535
+            },
+            {
+              "x": "2017",
+              "y": 2.13011000365961
+            },
+            {
+              "x": "2018",
+              "y": 2.44258329692816
+            },
+            {
+              "x": "2019",
+              "y": 1.8122100752602
+            },
+            {
+              "x": "2020",
+              "y": 1.23358439630629
+            },
+            {
+              "x": "2021",
+              "y": 4.69785886363742
+            },
+            {
+              "x": "2022",
+              "y": 8.00279982052121
+            },
+            {
+              "x": "2023",
+              "y": 4.11633838374487
+            },
+            {
+              "x": "2024",
+              "y": 2.94952520485207
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:US"
+          ]
+        }
+      ],
+      "mark": 14
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-16T00:00:19Z",
+      "until": "2026-11-16T00:00:36Z",
+      "title": "GDP growth, United States",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "United States",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.69519258673525
+            },
+            {
+              "x": "2011",
+              "y": 1.56440685205419
+            },
+            {
+              "x": "2012",
+              "y": 2.28911339009767
+            },
+            {
+              "x": "2013",
+              "y": 2.11783009443471
+            },
+            {
+              "x": "2014",
+              "y": 2.52381981757846
+            },
+            {
+              "x": "2015",
+              "y": 2.94555045227337
+            },
+            {
+              "x": "2016",
+              "y": 1.81945147909089
+            },
+            {
+              "x": "2017",
+              "y": 2.45762230126449
+            },
+            {
+              "x": "2018",
+              "y": 2.96650506701943
+            },
+            {
+              "x": "2019",
+              "y": 2.58382533052225
+            },
+            {
+              "x": "2020",
+              "y": -2.081375977796
+            },
+            {
+              "x": "2021",
+              "y": 6.15202247867526
+            },
+            {
+              "x": "2022",
+              "y": 2.52421385073222
+            },
+            {
+              "x": "2023",
+              "y": 2.93436322440155
+            },
+            {
+              "x": "2024",
+              "y": 2.79318715363841
+            },
+            {
+              "x": "2025",
+              "y": 2.16138195623856
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:US"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-16T00:00:19Z",
+      "until": "2026-11-16T00:00:36Z",
+      "title": "Unemployment, United States",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "United States",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 9.633
+            },
+            {
+              "x": "2011",
+              "y": 8.949
+            },
+            {
+              "x": "2012",
+              "y": 8.069
+            },
+            {
+              "x": "2013",
+              "y": 7.375
+            },
+            {
+              "x": "2014",
+              "y": 6.168
+            },
+            {
+              "x": "2015",
+              "y": 5.28
+            },
+            {
+              "x": "2016",
+              "y": 4.869
+            },
+            {
+              "x": "2017",
+              "y": 4.355
+            },
+            {
+              "x": "2018",
+              "y": 3.896
+            },
+            {
+              "x": "2019",
+              "y": 3.669
+            },
+            {
+              "x": "2020",
+              "y": 8.055
+            },
+            {
+              "x": "2021",
+              "y": 5.349
+            },
+            {
+              "x": "2022",
+              "y": 3.65
+            },
+            {
+              "x": "2023",
+              "y": 3.638
+            },
+            {
+              "x": "2024",
+              "y": 4.022
+            },
+            {
+              "x": "2025",
+              "y": 4.198
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:US"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-16T00:00:37Z",
+      "until": "2026-11-16T00:00:44Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/business/finance/unicredit-wins-eu-approval-commerzbank-acquisition-2026-11-16/",
+          "cites": [
+            "wiki:2026-11-16:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:00:45Z",
+      "until": "2026-11-16T00:00:51Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-16:8"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q53536:P159"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:US"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.001711
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-a-paraguayan-judge-orders-impeached-former-president-santiag",
+  "title": "A Paraguayan judge orders impeached former president Santiago Peña transferred…",
+  "subtitle": "News · 16 November 2026 · Update, day 8",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:01:13Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -67.5796,
+    "south": -33.235,
+    "east": -47.5796,
+    "north": -17.235
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:40Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-16T00:00:40Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-16T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": -19.579600000000028,
+      "lat": -15.5535,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:27Z",
+      "lon": -60.15,
+      "lat": -21.969999999999995,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "lon": -60.15,
+      "lat": -21.969999999999995,
+      "range": 1358307.7707206125,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:39Z",
+      "lon": -60.15,
+      "lat": -21.969999999999995,
+      "range": 1230000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:43Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:45Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 996092.3651951158,
+      "heading": 20.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:47Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 902000,
+      "heading": 29.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:50Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:54Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 996092.3651951158,
+      "heading": 9.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:57Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 902000,
+      "heading": -1,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:00Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:03Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:05Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:08Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:09Z",
+      "lon": -57.5796,
+      "lat": -25.9225,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:13Z",
+      "lon": -82.57960000000003,
+      "lat": -25.9225,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "A Paraguayan judge has ordered former president Santiago Peña transferred to Viñas Cué military prison pending trial on charges of criminal association, breach of trust, and misuse of public office.",
+      "cites": [
+        "wiki:2026-11-16:12"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "On 6 November 2026, the Senate removed Santiago Peña from office and revoked his constitutional immunity, and Vice President Pedro Alliana assumed the presidency.",
+      "cites": [
+        "wiki:rev:1385819313:3"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "The crisis is an ongoing financial and political one, triggered by the regulatory intervention and shutdown of Ueno Bank, the country's largest digital financial institution.",
+      "cites": [
+        "wiki:rev:1385819313:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "text": "On 9 November, President Pedro Alliana appointed economist Jorge Schreiner to lead the central bank after Ueno Bank's collapse, and the Senate approved the appointment.",
+      "cites": [
+        "wiki:2026-11-09:5"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "text": "By 11 November, the Central Bank of Paraguay reported providing partial refunds to 1,812,348 eligible Ueno Bank depositors.",
+      "cites": [
+        "wiki:2026-11-11:8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:41Z",
+      "text": "The reports place the Viñas Cué military prison in Paraguay, where the former president was ordered transferred.",
+      "cites": [
+        "wiki:2026-11-16:12"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:49Z",
+      "text": "The crisis began on 3 November 2026, and it is recorded as taking place in Paraguay.",
+      "cites": [
+        "wd:Q142059724:P580",
+        "wd:Q142059724:P17"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:59Z",
+      "text": "The report was published by Reuters.",
+      "cites": [
+        "wiki:2026-11-16:12"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:07Z",
+      "text": "This explainer draws on Wikipedia's Current events portal for 2026 November 9, Wikipedia articles, Wikimedia pageviews, and Wikidata, and each statement links to its evidence.",
+      "cites": [
+        "wiki:2026-11-16:12",
+        "wiki:rev:1385819313:3",
+        "views:en:2026_Paraguay_banking_crisis:30d",
+        "wd:Q142059724:P31",
+        "wiki:2026-11-09:5"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PY",
+    "lon": -57.5796,
+    "lat": -25.235,
+    "label": "Viñas Cué"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "How it unfolded"
+    },
+    {
+      "t": "2026-11-16T00:00:40Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-16T00:00:48Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-16T00:00:58Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-16T00:01:06Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "thread",
+      "t": "2026-11-16T00:00:25Z",
+      "until": "2026-11-16T00:00:40Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "9 November",
+          "text": "Paraguayan president Pedro Alliana appoints economist Jorge Schreiner to lead the…",
+          "cites": [
+            "wiki:2026-11-09:5"
+          ]
+        },
+        {
+          "label": "11 November",
+          "text": "The Central Bank of Paraguay reports providing partial refunds to 1,812,348 eligible…",
+          "cites": [
+            "wiki:2026-11-11:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "record",
+      "t": "2026-11-16T00:00:49Z",
+      "until": "2026-11-16T00:00:58Z",
+      "title": "On record: 2026 Paraguay banking crisis",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Began",
+          "text": "3 November 2026",
+          "cites": [
+            "wd:Q142059724:P580"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Paraguay",
+          "cites": [
+            "wd:Q142059724:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-16T00:00:59Z",
+      "until": "2026-11-16T00:01:06Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/americas/paraguay-judge-orders-ex-president-pea-transferred-military-prison-2026-11-16/",
+          "cites": [
+            "wiki:2026-11-16:12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:01:07Z",
+      "until": "2026-11-16T00:01:13Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-16:12"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385819313:3"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Paraguay_banking_crisis:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142059724:P31"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November 9",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_9&oldid=1385079275",
+          "cites": [
+            "wiki:2026-11-09:5"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893",
+          "cites": [
+            "wiki:2026-11-11:8"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.002041
+  }
+}

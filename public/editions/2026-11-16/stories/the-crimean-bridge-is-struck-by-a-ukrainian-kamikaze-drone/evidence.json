@@ -1,0 +1,303 @@
+[
+  {
+    "id": "wiki:2026-11-16:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-16T00:00:00Z",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Conflict: The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close vehicle traffic. The bridge is partially reopened later in the day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+    "quote": "The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close vehicle traffic. The bridge is partially reopened later in the day.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea"
+      },
+      {
+        "name": "BBC",
+        "url": "https://www.bbc.com/news/articles/ckx27v6dpjz0o"
+      }
+    ]
+  },
+  {
+    "id": "news:france24:59995b76c236",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "France 24: 🔴 Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic (06:59 UTC)",
+    "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
+    "quote": "🔴 Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:b9b16089c989",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "BBC News: Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war (14:58 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o",
+    "quote": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q114550059:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Wikidata: \"Crimea attacks\" is an instance of offensive, chain of events, history of a geographic region",
+    "url": "https://www.wikidata.org/wiki/Q114550059",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:3c35d058abb8",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "The Guardian: Ukraine hits Kerch bridge between Russia and occupied Crimea (12:45 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+    "quote": "Ukraine hits Kerch bridge between Russia and occupied Crimea",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386105508:127",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crimea attacks (2022–present)\" (revision of 2026-11-16 23:46 UTC)",
+    "quote": "On 10 November, Ukrainian military intelligence said one Russian Serna-class landing craft and one craft were sunk by drone boats in Vuzka Bay, Crimea.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crimea_attacks_(2022%E2%80%93present)&oldid=1386105508"
+  },
+  {
+    "id": "wiki:rev:1386105508:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crimea attacks (2022–present)\" (revision of 2026-11-16 23:46 UTC)",
+    "quote": "Beginning in July 2022, a series of explosions and fires occurred on the Russian-occupied Crimean Peninsula, from where the Russian Army had launched its offensive on Southern Ukraine during the Russo-Ukrainian war.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crimea_attacks_(2022%E2%80%93present)&oldid=1386105508"
+  },
+  {
+    "id": "views:en:Crimea_attacks:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Crimea attacks\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Crimea_attacks&range=latest-30"
+  },
+  {
+    "id": "wd:Q114550059:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Crimea attacks\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q114550059#P585"
+  },
+  {
+    "id": "wd:Q114550059:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Crimea attacks\": began 31 July 2022",
+    "url": "https://www.wikidata.org/wiki/Q114550059#P580"
+  },
+  {
+    "id": "wd:Q114550059:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Crimea attacks\": location Crimea",
+    "url": "https://www.wikidata.org/wiki/Q114550059#P276"
+  },
+  {
+    "id": "wd:Q114550059:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Crimea attacks\": country Ukraine",
+    "url": "https://www.wikidata.org/wiki/Q114550059#P17"
+  },
+  {
+    "id": "wiki:box:1386105508:casualties-side-2-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crimea attacks (2022–present)\" (revision of 2026-11-16 23:46 UTC): Casualties (side 2): Russian claim:; 3 rockets shot down; 70+ aerial drones shot down; 15+ maritime drones destroyed",
+    "quote": "Russian claim:; 3 rockets shot down; 70+ aerial drones shot down; 15+ maritime drones destroyed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crimea_attacks_(2022%E2%80%93present)&oldid=1386105508"
+  },
+  {
+    "id": "wiki:box:1386105508:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crimea attacks (2022–present)\" (revision of 2026-11-16 23:46 UTC): Casualties: 9 civilians killed; 126 injured",
+    "quote": "9 civilians killed; 126 injured",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crimea_attacks_(2022%E2%80%93present)&oldid=1386105508"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-03",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-03 at 90% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.904,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-04",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-04 at 88% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.881,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-05",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-05 at 93% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.933,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-06",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-06 at 93% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.929,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-07",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-07 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.944,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-08",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-08 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.942,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-09",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-09 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.944,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-10",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-10 at 94% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.94,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-11",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-11 at 97% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.969,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-12",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-12 at 97% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.971,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-13",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-13 at 99% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.989,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-14",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-14 at 102% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 1.021,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-15",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-15 at 100% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 1.005,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  },
+  {
+    "id": "ioda:UA:ping:day:2026-11-16",
+    "kind": "sensor",
+    "source": "ioda",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "IODA, Ukraine: responsive address blocks on 2026-11-16 at 98% of the usual level (median of the day; usual = same time, same weekday, previous 4 weeks)",
+    "value": 0.982,
+    "unit": "ratio",
+    "url": "https://ioda.inetintel.cc.gatech.edu/country/UA"
+  }
+]

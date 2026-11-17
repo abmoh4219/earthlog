@@ -1,0 +1,523 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-british-actor-robert-pattinson-named-as-new-james-bond",
+  "title": "Robert Pattinson",
+  "subtitle": "People · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:01:29Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -12.120000000000001,
+    "south": 46.4,
+    "east": 7.88,
+    "north": 62.4
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 35.879999999999995,
+      "lat": 31.365,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "lon": -0.1275,
+      "lat": 50.607222222222,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "lon": -0.1275,
+      "lat": 50.607222222222,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": -0.1275,
+      "lat": 50.607222222222,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": -0.19235614073342738,
+      "lat": 51.18965423197019,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:38Z",
+      "lon": -0.19235614073342738,
+      "lat": 51.18965423197019,
+      "range": 1358307.7707206125,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:41Z",
+      "lon": -0.19235614073342738,
+      "lat": 51.18965423197019,
+      "range": 1230000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "lon": -0.19235614073342738,
+      "lat": 51.18965423197019,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:48Z",
+      "lon": -0.19235614073342738,
+      "lat": 51.18965423197019,
+      "range": 1358307.7707206125,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:51Z",
+      "lon": -0.19235614073342738,
+      "lat": 51.18965423197019,
+      "range": 1230000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:54Z",
+      "lon": -1.0904211025911528,
+      "lat": 52.65777139825598,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:57Z",
+      "lon": -1.0904211025911528,
+      "lat": 52.65777139825598,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:00Z",
+      "lon": -1.0904211025911528,
+      "lat": 52.65777139825598,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:03Z",
+      "lon": -1.0904211025911528,
+      "lat": 52.65777139825598,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:12Z",
+      "lon": -1.0904211025911528,
+      "lat": 52.65777139825598,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:21Z",
+      "lon": -1.0904211025911528,
+      "lat": 52.65777139825598,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:24Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:25Z",
+      "lon": -2.12,
+      "lat": 52.275,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:29Z",
+      "lon": -27.120000000000005,
+      "lat": 52.275,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "British actor Robert Pattinson has been named as the new James Bond, according to Al Jazeera.",
+      "cites": [
+        "news:aljazeera:cc5bdfab36e8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "In November 2026 he was announced as the next actor to play Bond, succeeding Daniel Craig, whose final appearance in the role was in the 2021 film No Time to Die.",
+      "cites": [
+        "wiki:rev:1386156147:172"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "Robert Douglas Thomas Pattinson, born 13 May 1986, is an English actor and producer.",
+      "cites": [
+        "wiki:rev:1386156147:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "text": "Robert Pattinson was born on 13 May 1986 in London.",
+      "cites": [
+        "wd:Q36767:P569",
+        "wd:Q36767:P19"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "text": "He was educated at The Harrodian School and Tower House School.",
+      "cites": [
+        "wd:Q36767:P69:Q7738938",
+        "wd:Q36767:P69:Q7829703"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:43Z",
+      "text": "9 awards are on record, among them the MTV Movie Award for Best Male Performance (2011) and the MTV Movie Award for Best Kiss (2012).",
+      "cites": [
+        "wd:Q36767:P166:Q257235",
+        "wd:Q36767:P166:Q4220901"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:02Z",
+      "text": "DW headlined its report, \"British actor Robert Pattinson confirmed as new James Bond.\"",
+      "cites": [
+        "news:dw:55e18f26535e"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:08Z",
+      "text": "France 24 headlined its report, \"Robert Pattinson named as new James Bond.\"",
+      "cites": [
+        "news:france24:2aad54206da2"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:14Z",
+      "text": "BBC News headlined its piece, \"When will we see Robert Pattinson as Bond in cinemas?\"",
+      "cites": [
+        "news:bbc:4b6cc1e3f95b"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:23Z",
+      "text": "The sources are DW, France 24, BBC News and Al Jazeera, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386156147:172",
+        "views:en:Robert_Pattinson:30d",
+        "wd:Q36767:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -2.12,
+    "lat": 54.4,
+    "label": "United Kingdom"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-16T00:00:42Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-16T00:00:52Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-16T00:01:01Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:01:22Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-16T00:00:33Z",
+      "until": "2026-11-16T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1986 born",
+          "text": "London",
+          "cites": [
+            "wd:Q36767:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "The Harrodian School",
+          "cites": [
+            "wd:Q36767:P69:Q7738938"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Tower House School",
+          "cites": [
+            "wd:Q36767:P69:Q7829703"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "London",
+          "cites": [
+            "wd:Q36767:P551:Q84"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-16T00:00:43Z",
+      "until": "2026-11-16T00:00:52Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2009",
+          "text": "MTV Movie Award for Best Kiss",
+          "cites": [
+            "wd:Q36767:P166:Q257235"
+          ]
+        },
+        {
+          "label": "2009",
+          "text": "MTV Movie Award for Best Fight",
+          "cites": [
+            "wd:Q36767:P166:Q734036"
+          ]
+        },
+        {
+          "label": "2010",
+          "text": "MTV Movie Award for Best Kiss",
+          "cites": [
+            "wd:Q36767:P166:Q257235"
+          ]
+        },
+        {
+          "label": "2010",
+          "text": "MTV Award for Global Superstar",
+          "cites": [
+            "wd:Q36767:P166:Q1161101"
+          ]
+        },
+        {
+          "label": "2010",
+          "text": "MTV Movie Award for Best Male Performance",
+          "cites": [
+            "wd:Q36767:P166:Q4220901"
+          ]
+        },
+        {
+          "label": "2011",
+          "text": "MTV Movie Award for Best Fight",
+          "cites": [
+            "wd:Q36767:P166:Q734036"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:01:02Z",
+      "until": "2026-11-16T00:01:22Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/british-actor-robert-pattinson-confirmed-as-new-james-bond/a-79961789",
+          "cites": [
+            "news:dw:55e18f26535e"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/culture/20261116-robert-pattinson-named-as-new-james-bond",
+          "cites": [
+            "news:france24:2aad54206da2"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o",
+          "cites": [
+            "news:bbc:4b6cc1e3f95b"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond",
+          "cites": [
+            "news:aljazeera:cc5bdfab36e8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:01:23Z",
+      "until": "2026-11-16T00:01:29Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386156147:172"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Robert_Pattinson:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q36767:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.003
+  }
+}

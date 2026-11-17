@@ -1,0 +1,60 @@
+[
+  {
+    "id": "news:allafrica:45bce9077541",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "AllAfrica: Cape Verde: Cape Verde Votes for President, With Incumbent Favoured to Win (05:11 UTC)",
+    "url": "https://allafrica.com/stories/202611160046.html",
+    "quote": "Cape Verde: Cape Verde Votes for President, With Incumbent Favoured to Win",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:a6a7bfeca3c6",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "France 24: Cape Verde President Neves wins second term (13:12 UTC)",
+    "url": "https://www.france24.com/en/video/20261116-cape-verde-president-neves-wins-second-term",
+    "quote": "Cape Verde President Neves wins second term",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1384543710:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Cape Verde\" (revision of 2026-11-08 20:00 UTC)",
+    "quote": "Cape Verde, also referred to in English by its Portuguese name Cabo Verde, and known officially as the Republic of Cabo Verde, is an archipelagic country in the eastern Atlantic Ocean, off the coast of West Africa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Cape_Verde&oldid=1384543710"
+  },
+  {
+    "id": "views:en:Cape_Verde:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Cape Verde\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Cape_Verde&range=latest-30"
+  },
+  {
+    "id": "wd:Q1011:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Cape Verde\": founded 5 July 1975",
+    "url": "https://www.wikidata.org/wiki/Q1011#P571"
+  },
+  {
+    "id": "wd:Q1011:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Cape Verde\": country Cape Verde, Portuguese Empire",
+    "url": "https://www.wikidata.org/wiki/Q1011#P17"
+  }
+]

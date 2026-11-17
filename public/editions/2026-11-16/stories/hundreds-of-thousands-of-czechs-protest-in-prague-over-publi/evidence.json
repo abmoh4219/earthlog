@@ -1,0 +1,69 @@
+[
+  {
+    "id": "news:aljazeera:fe73e737d249",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Al Jazeera: Czechs rally against gov’t threat to media independence (00:26 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence",
+    "quote": "Czechs rally against gov’t threat to media independence",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:ea96c7d8c96e",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "France 24: Hundreds of thousands of Czechs protest in Prague over public media funding plan (02:28 UTC)",
+    "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
+    "quote": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1361102256:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Czech Republic First!\" (revision of 2026-06-25 17:06 UTC)",
+    "quote": "Czech Republic First! was a mass public demonstration on 3 September 2022 in Wenceslas Square in Prague, expressing dissatisfaction with the government of Petr Fiala and the government's approach to the ongoing energy crisis, inflation, and the Russian invasion of Ukraine.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Czech_Republic_First!&oldid=1361102256"
+  },
+  {
+    "id": "views:en:Czech_Republic_First!:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Czech Republic First!\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Czech_Republic_First!&range=latest-30"
+  },
+  {
+    "id": "wd:Q113645485:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Czech Republic First!\": date 3 September 2022",
+    "url": "https://www.wikidata.org/wiki/Q113645485#P585"
+  },
+  {
+    "id": "wd:Q113645485:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Czech Republic First!\": location Wenceslas Square",
+    "url": "https://www.wikidata.org/wiki/Q113645485#P276"
+  },
+  {
+    "id": "wd:Q113645485:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Czech Republic First!\": country Czech Republic",
+    "url": "https://www.wikidata.org/wiki/Q113645485#P17"
+  }
+]

@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-cape-verde-president-neves-wins-second-term",
+  "title": "Cape Verde",
+  "subtitle": "News · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:00:58Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -33.519999999999996,
+    "south": 6.92,
+    "east": -13.52,
+    "north": 22.92
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 14.480000000000018,
+      "lat": 8.5395,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:10Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:16Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:19Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:22Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:27Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:37Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 1100000,
+      "heading": 8,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 1055082.9351287982,
+      "heading": 10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:50Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 1012000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:53Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:54Z",
+      "lon": -23.52,
+      "lat": 14.2325,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:58Z",
+      "lon": -48.51999999999998,
+      "lat": 14.2325,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "France 24 reports that Cape Verde's President Neves has won a second term.",
+      "cites": [
+        "news:france24:a6a7bfeca3c6"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:09Z",
+      "text": "Cape Verde, also called Cabo Verde, is an archipelagic country in the eastern Atlantic Ocean, off the coast of West Africa.",
+      "cites": [
+        "wiki:rev:1384543710:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "text": "Wikidata records Cape Verde as founded on 5 July 1975, and lists its country as Cape Verde, Portuguese Empire.",
+      "cites": [
+        "wd:Q1011:P571",
+        "wd:Q1011:P17"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:36Z",
+      "text": "AllAfrica headlined the vote as Cape Verde Votes for President, With Incumbent Favoured to Win.",
+      "cites": [
+        "news:allafrica:45bce9077541"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:43Z",
+      "text": "France 24 headlined its report as Cape Verde President Neves wins second term.",
+      "cites": [
+        "news:france24:a6a7bfeca3c6"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:52Z",
+      "text": "This explainer draws on AllAfrica and France 24 articles, Wikipedia, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1384543710:0",
+        "views:en:Cape_Verde:30d",
+        "wd:Q1011:P571"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CV",
+    "lon": -23.52,
+    "lat": 14.92,
+    "label": "Praia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-16T00:00:35Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:00:51Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-16T00:00:26Z",
+      "until": "2026-11-16T00:00:35Z",
+      "title": "On record: Cape Verde",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "5 July 1975",
+          "cites": [
+            "wd:Q1011:P571"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Cape Verde, Portuguese Empire",
+          "cites": [
+            "wd:Q1011:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:00:36Z",
+      "until": "2026-11-16T00:00:51Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AllAfrica",
+          "text": "Open",
+          "url": "https://allafrica.com/stories/202611160046.html",
+          "cites": [
+            "news:allafrica:45bce9077541"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261116-cape-verde-president-neves-wins-second-term",
+          "cites": [
+            "news:france24:a6a7bfeca3c6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:00:52Z",
+      "until": "2026-11-16T00:00:58Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384543710:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Cape_Verde:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1011:P571"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.001807
+  }
+}

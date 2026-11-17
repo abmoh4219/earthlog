@@ -1,0 +1,807 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-us-to-further-curb-china-s-access-to-nvidia-chips",
+  "title": "Nvidia",
+  "subtitle": "Tech & business · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:01:48Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 96.34,
+    "south": 24.5,
+    "east": 116.34,
+    "north": 40.5
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-16T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-16T00:00:58Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 144.34000000000003,
+      "lat": 18.224999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:27Z",
+      "lon": -121.96666666667,
+      "lat": 36.550000000000004,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "lon": -121.96666666667,
+      "lat": 36.550000000000004,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": -121.96666666667,
+      "lat": 36.550000000000004,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": -121.96666666667,
+      "lat": 35.35,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:38Z",
+      "lon": -121.96666666667,
+      "lat": 35.35,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:41Z",
+      "lon": -121.96666666667,
+      "lat": 35.35,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "lon": -121.96666666667,
+      "lat": 34.35,
+      "range": 4000000,
+      "heading": 8,
+      "pitch": -52,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:51Z",
+      "lon": -121.96666666667,
+      "lat": 34.35,
+      "range": 3622154.0552549665,
+      "heading": -6,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:57Z",
+      "lon": -121.96666666667,
+      "lat": 34.35,
+      "range": 3280000,
+      "heading": -20,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:02Z",
+      "lon": -66.97354264634227,
+      "lat": 62.10908883020917,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:04Z",
+      "lon": -66.97354264634227,
+      "lat": 62.10908883020917,
+      "range": 19921847.303902317,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:06Z",
+      "lon": -66.97354264634227,
+      "lat": 62.10908883020917,
+      "range": 18040000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:11Z",
+      "lon": -121.96666666667,
+      "lat": 33.35,
+      "range": 5500000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:13Z",
+      "lon": -121.96666666667,
+      "lat": 33.35,
+      "range": 4980461.825975579,
+      "heading": -9.7,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:15Z",
+      "lon": -121.96666666667,
+      "lat": 33.35,
+      "range": 4510000,
+      "heading": -19.4,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:20Z",
+      "lon": 168.41393798567995,
+      "lat": 55.17541811530231,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:22Z",
+      "lon": 168.41393798567995,
+      "lat": 55.17541811530231,
+      "range": 19921847.303902317,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:24Z",
+      "lon": 168.41393798567995,
+      "lat": 55.17541811530231,
+      "range": 18040000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:27Z",
+      "lon": 168.41393798567995,
+      "lat": 55.17541811530231,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:34Z",
+      "lon": 168.41393798567995,
+      "lat": 55.17541811530231,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:40Z",
+      "lon": 168.41393798567995,
+      "lat": 55.17541811530231,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:44Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:45Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:48Z",
+      "lon": 81.34000000000003,
+      "lat": 30.375,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "US authorities are moving to further curb China's access to Nvidia chips, according to Sky News.",
+      "cites": [
+        "news:sky:fce31fdfe774"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "Meta expressed intent in October 2026 to further use Nvidia hardware for developing its Muse agent, and to incorporate almost all of Nvidia's planned upcoming enterprise products.",
+      "cites": [
+        "wiki:rev:1386037839:227"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California.",
+      "cites": [
+        "wiki:rev:1386037839:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "text": "Nvidia is headquartered in Santa Clara, United States.",
+      "cites": [
+        "wd:Q182477:P159"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "text": "Nvidia was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem, and is led by Colette Kress.",
+      "cites": [
+        "wd:Q182477:P571",
+        "wd:Q182477:P112",
+        "wd:Q182477:P169"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:43Z",
+      "text": "Recorded revenue rose from $4.1 billion in 2007 to $215.9 billion in 2025.",
+      "cites": [
+        "wd:Q182477:P2139:series"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:50Z",
+      "text": "Staff grew from 11,528 in 2018 to 42,000 in 2026.",
+      "cites": [
+        "wd:Q182477:P1128:series"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:59Z",
+      "text": "On record, the company's subsidiaries include Nvidia Ltd., Icera and 3 others.",
+      "cites": [
+        "wd:Q182477:P355:Q29000344",
+        "wd:Q182477:P355:Q5985959",
+        "wd:Q182477:P355:Q6817432",
+        "wd:Q182477:P355:Q6813052",
+        "wd:Q182477:P1830:Q392357"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:08Z",
+      "text": "Hacker News recorded 230 stories mentioning Nvidia in the two weeks to 16 November 2026.",
+      "cites": [
+        "hn:2026-11-16:Q182477"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:26Z",
+      "text": "Sky News headlined its report “US to further curb China's access to Nvidia chips”.",
+      "cites": [
+        "news:sky:fce31fdfe774"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:33Z",
+      "text": "DW headlined its report “Nvidia scandal: China's chips dilemma, US rivalry shape AI race”.",
+      "cites": [
+        "news:dw:39b6798086ba"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:42Z",
+      "text": "This explainer draws on Sky News and DW reporting, Wikipedia, Wikidata and Hacker News, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386037839:227",
+        "wd:Q182477:P571",
+        "hn:2026-11-16:Q182477"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CN",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "China"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-16T00:00:42Z",
+      "title": "The numbers"
+    },
+    {
+      "t": "2026-11-16T00:00:58Z",
+      "title": "Footprint"
+    },
+    {
+      "t": "2026-11-16T00:01:07Z",
+      "title": "Tech talk"
+    },
+    {
+      "t": "2026-11-16T00:01:16Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-16T00:01:25Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:01:41Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-16T00:00:33Z",
+      "until": "2026-11-16T00:00:42Z",
+      "title": "On record: Nvidia",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "5 April 1993",
+          "cites": [
+            "wd:Q182477:P571"
+          ]
+        },
+        {
+          "label": "Founded by",
+          "text": "Jensen Huang, Chris Malachowsky and Curtis Priem",
+          "cites": [
+            "wd:Q182477:P112"
+          ]
+        },
+        {
+          "label": "Chief executive",
+          "text": "Colette Kress",
+          "cites": [
+            "wd:Q182477:P169"
+          ]
+        },
+        {
+          "label": "Industry",
+          "text": "semiconductor industry",
+          "cites": [
+            "wd:Q182477:P452"
+          ]
+        },
+        {
+          "label": "Owned by",
+          "text": "Jensen Huang",
+          "cites": [
+            "wd:Q182477:P127"
+          ]
+        },
+        {
+          "label": "Listed on",
+          "text": "Nasdaq",
+          "cites": [
+            "wd:Q182477:P414"
+          ]
+        },
+        {
+          "label": "Employees",
+          "text": "42,000 (2026)",
+          "cites": [
+            "wd:Q182477:P1128:latest"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "nvidia.com",
+          "url": "https://www.nvidia.com/",
+          "cites": [
+            "wd:Q182477:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revenue",
+      "t": "2026-11-16T00:00:43Z",
+      "until": "2026-11-16T00:00:58Z",
+      "title": "Revenue (USD)",
+      "note": "As recorded in Wikidata.",
+      "kind": "line",
+      "unit": "per year",
+      "series": [
+        {
+          "label": "Revenue",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "2007",
+              "y": 4097860000
+            },
+            {
+              "x": "2008",
+              "y": 3424859000
+            },
+            {
+              "x": "2009",
+              "y": 3326445000
+            },
+            {
+              "x": "2010",
+              "y": 3543309000
+            },
+            {
+              "x": "2011",
+              "y": 3997930000
+            },
+            {
+              "x": "2012",
+              "y": 4280159000
+            },
+            {
+              "x": "2013",
+              "y": 4130000000
+            },
+            {
+              "x": "2014",
+              "y": 4682000000
+            },
+            {
+              "x": "2015",
+              "y": 5010000000
+            },
+            {
+              "x": "2016",
+              "y": 6910000000
+            },
+            {
+              "x": "2017",
+              "y": 9714000000
+            },
+            {
+              "x": "2018",
+              "y": 11716000000
+            },
+            {
+              "x": "2019",
+              "y": 10918000000
+            },
+            {
+              "x": "2020",
+              "y": 16675000000
+            },
+            {
+              "x": "2021",
+              "y": 26914000000
+            },
+            {
+              "x": "2022",
+              "y": 26974000000
+            },
+            {
+              "x": "2023",
+              "y": 60922000000
+            },
+            {
+              "x": "2024",
+              "y": 130497000000
+            },
+            {
+              "x": "2025",
+              "y": 215938000000
+            }
+          ],
+          "cites": [
+            "wd:Q182477:P2139:series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "staff",
+      "t": "2026-11-16T00:00:43Z",
+      "until": "2026-11-16T00:00:58Z",
+      "title": "Employees",
+      "note": "As recorded in Wikidata.",
+      "kind": "line",
+      "unit": "people",
+      "series": [
+        {
+          "label": "Employees",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2018",
+              "y": 11528
+            },
+            {
+              "x": "2020",
+              "y": 13775
+            },
+            {
+              "x": "2025",
+              "y": 36000
+            },
+            {
+              "x": "2026",
+              "y": 42000
+            }
+          ],
+          "cites": [
+            "wd:Q182477:P1128:series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hn",
+      "t": "2026-11-16T00:01:08Z",
+      "until": "2026-11-16T00:01:16Z",
+      "title": "Hacker News stories a day",
+      "note": "Stories with \"Nvidia\" in the title, over 14 days.",
+      "kind": "line",
+      "unit": "stories",
+      "series": [
+        {
+          "label": "Nvidia",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "11-03",
+              "y": 0
+            },
+            {
+              "x": "11-04",
+              "y": 2
+            },
+            {
+              "x": "11-05",
+              "y": 3
+            },
+            {
+              "x": "11-06",
+              "y": 4
+            },
+            {
+              "x": "11-07",
+              "y": 7
+            },
+            {
+              "x": "11-08",
+              "y": 13
+            },
+            {
+              "x": "11-09",
+              "y": 18
+            },
+            {
+              "x": "11-10",
+              "y": 14
+            },
+            {
+              "x": "11-11",
+              "y": 15
+            },
+            {
+              "x": "11-12",
+              "y": 47
+            },
+            {
+              "x": "11-13",
+              "y": 31
+            },
+            {
+              "x": "11-14",
+              "y": 24
+            },
+            {
+              "x": "11-15",
+              "y": 19
+            },
+            {
+              "x": "11-16",
+              "y": 33
+            }
+          ],
+          "cites": [
+            "hn:2026-11-16:Q182477"
+          ]
+        }
+      ],
+      "mark": 13
+    },
+    {
+      "id": "hn-top",
+      "t": "2026-11-16T00:01:08Z",
+      "until": "2026-11-16T00:01:16Z",
+      "title": "Most discussed",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1226 points",
+          "text": "Nvidia is preparing to oust Jensen Huang",
+          "url": "https://news.ycombinator.com/item?id=50459703",
+          "cites": [
+            "hn:2026-11-16:Q182477"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:01:26Z",
+      "until": "2026-11-16T00:01:41Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/us-to-further-curb-chinas-access-to-ai-chips-from-companies-like-nvidia-13612884",
+          "cites": [
+            "news:sky:fce31fdfe774"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766",
+          "cites": [
+            "news:dw:39b6798086ba"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:01:42Z",
+      "until": "2026-11-16T00:01:48Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386037839:227"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Nvidia:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q182477:P571"
+          ]
+        },
+        {
+          "label": "Hacker News (via the Algolia search API)",
+          "text": "No licence stated: story counts ",
+          "url": "https://news.ycombinator.com/",
+          "cites": [
+            "hn:2026-11-16:Q182477"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.002979
+  }
+}

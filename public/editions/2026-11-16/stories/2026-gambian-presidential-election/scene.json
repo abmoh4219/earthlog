@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-2026-gambian-presidential-election",
+  "title": "2026 Gambian presidential election",
+  "subtitle": "Election · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:00:39Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -25,
+    "south": 5.640000000000001,
+    "east": -5,
+    "north": 21.64
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 23,
+      "lat": 7.7715,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:35Z",
+      "lon": -15,
+      "lat": 12.9525,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:39Z",
+      "lon": -40,
+      "lat": 12.9525,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "The Gambian election commission has approved President Adama Barrow's candidacy for a third term, since the country's constitution does not limit presidential terms.",
+      "cites": [
+        "wiki:2026-11-16:14"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "On 16 November 2026, the Independent Electoral Commission of Gambia approved Barrow's candidacy for a third term.",
+      "cites": [
+        "wiki:rev:1386107602:8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "Presidential elections are scheduled to be held in the Gambia on 5 December 2026.",
+      "cites": [
+        "wiki:rev:1386107602:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "text": "Reuters reported the story.",
+      "cites": [
+        "wiki:2026-11-16:14"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "text": "This explainer draws on Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-16:14",
+        "wiki:rev:1386107602:8",
+        "views:en:2026_Gambian_presidential_election:30d",
+        "wd:Q111594398:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GM",
+    "lon": -15,
+    "lat": 13.64,
+    "label": "The Gambia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-16T00:00:25Z",
+      "until": "2026-11-16T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/africa/gambia-clears-barrow-run-third-presidential-term-approves-eight-other-candidates-2026-11-16/",
+          "cites": [
+            "wiki:2026-11-16:14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:00:33Z",
+      "until": "2026-11-16T00:00:39Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-16:14"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386107602:8"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Gambian_presidential_election:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q111594398:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.000565
+  }
+}

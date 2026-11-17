@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-musk-among-more-than-150-000-calling-for-jensen-huang-s-retu",
+  "title": "Jensen Huang",
+  "subtitle": "People · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:01:24Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-16T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 159.5625,
+      "lat": 14.61,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:14Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:23Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:29Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:36Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:41Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:46Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:48Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:52Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 19921847.303902317,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:56Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 18040000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:58Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:08Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:17Z",
+      "lon": -134.31316902167745,
+      "lat": 49.65393193278503,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:20Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:21Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2589840.149507301,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:22Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:24Z",
+      "lon": 96.5625,
+      "lat": 24.35,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "France 24 reports that Musk is among more than 150,000 people calling for Jensen Huang to return to Nvidia.",
+      "cites": [
+        "news:france24:c7c573833cdd"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:08Z",
+      "text": "U.S. Attorney General Todd Blanche said on November 12 that the Justice Department has not yet reached a conclusion on whether Alice Huang was acting as a spy for Beijing.",
+      "cites": [
+        "wiki:rev:1386110886:94"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:15Z",
+      "text": "Jen-Hsun \"Jensen\" Huang, born February 17, 1963, is a Taiwanese and American electrical engineer and businessman.",
+      "cites": [
+        "wiki:rev:1386110886:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "text": "Jensen Huang was born on 17 February 1963 in Taipei.",
+      "cites": [
+        "wd:Q305177:P569",
+        "wd:Q305177:P19"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:33Z",
+      "text": "Records show he was educated at Stanford University, Aloha High School, Oneida Baptist Institute and 2 more.",
+      "cites": [
+        "wd:Q305177:P69:Q41506",
+        "wd:Q305177:P69:Q4734192",
+        "wd:Q305177:P69:Q7093656",
+        "wd:Q305177:P69:Q7375693",
+        "wd:Q305177:P69:Q861888"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:39Z",
+      "text": "He is recorded as having worked in Los Altos.",
+      "cites": [
+        "wd:Q305177:P937:Q864124"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:47Z",
+      "text": "Wikidata lists 6 awards, among them the Queen Elizabeth Prize for Engineering (2025) and the National Medal of Science (2026).",
+      "cites": [
+        "wd:Q305177:P166:Q4273323",
+        "wd:Q305177:P166:Q737051"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:57Z",
+      "text": "The Guardian headlined it: “Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter”",
+      "cites": [
+        "news:guardian:35e3e8b4f8d8"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:03Z",
+      "text": "France 24 headlined it: “Musk among more than 150,000 calling for Jensen Huang's return to Nvidia”",
+      "cites": [
+        "news:france24:c7c573833cdd"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:09Z",
+      "text": "Al Jazeera headlined it: “Musk, Silicon Valley insiders urge Nvidia to restore Jensen Huang as CEO”",
+      "cites": [
+        "news:aljazeera:4948cc45ea41"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:18Z",
+      "text": "This explainer draws on The Guardian, France 24 and Al Jazeera, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1386110886:94",
+        "views:en:Jensen_Huang:30d",
+        "wd:Q305177:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-16T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-16T00:00:46Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-16T00:00:56Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:01:17Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-16T00:00:33Z",
+      "until": "2026-11-16T00:00:46Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1963 born",
+          "text": "Taipei",
+          "cites": [
+            "wd:Q305177:P19"
+          ]
+        },
+        {
+          "label": "1992",
+          "text": "Stanford University",
+          "cites": [
+            "wd:Q305177:P69:Q41506"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Aloha High School",
+          "cites": [
+            "wd:Q305177:P69:Q4734192"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Oneida Baptist Institute",
+          "cites": [
+            "wd:Q305177:P69:Q7093656"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Ruamrudee International School",
+          "cites": [
+            "wd:Q305177:P69:Q7375693"
+          ]
+        },
+        {
+          "label": "1980–84",
+          "text": "Oregon State University",
+          "cites": [
+            "wd:Q305177:P69:Q861888"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "United States",
+          "cites": [
+            "wd:Q305177:P551:Q30"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Los Altos",
+          "cites": [
+            "wd:Q305177:P937:Q864124"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-16T00:00:47Z",
+      "until": "2026-11-16T00:00:56Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2020",
+          "text": "IEEE Founders Medal",
+          "cites": [
+            "wd:Q305177:P166:Q5970365"
+          ]
+        },
+        {
+          "label": "2021",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q305177:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2024",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q305177:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2025",
+          "text": "Queen Elizabeth Prize for Engineering",
+          "cites": [
+            "wd:Q305177:P166:Q4273323"
+          ]
+        },
+        {
+          "label": "2026",
+          "text": "National Medal of Science",
+          "cites": [
+            "wd:Q305177:P166:Q737051"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Dostyk Order of grade I",
+          "cites": [
+            "wd:Q305177:P166:Q18080682"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:00:57Z",
+      "until": "2026-11-16T00:01:17Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+          "cites": [
+            "news:guardian:35e3e8b4f8d8"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
+          "cites": [
+            "news:france24:c7c573833cdd"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role",
+          "cites": [
+            "news:aljazeera:4948cc45ea41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:01:18Z",
+      "until": "2026-11-16T00:01:24Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386110886:94"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Jensen_Huang:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q305177:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.001956
+  }
+}

@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-17T00:59:47Z",
+  "candidates": 31,
+  "mostRead": false,
+  "stories": [
+    {
+      "slug": "nine-people-are-killed-in-a-mass-shooting-at-a-shack-near-pr",
+      "lens": "conflict",
+      "title": "Nine people are killed in a mass shooting at a shack near Pretoria",
+      "summary": "Nine people are killed in a mass shooting at a shack near Pretoria, South Africa.",
+      "article": {
+        "title": "Crime in South Africa",
+        "url": "https://en.wikipedia.org/wiki/Crime_in_South_Africa",
+        "qid": "Q3697178"
+      },
+      "place": {
+        "name": "Pretoria",
+        "lon": 28.18805556,
+        "lat": -25.74611111,
+        "country": "ZA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-16:4"
+      },
+      "continent": "Africa",
+      "heat": 100,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events",
+        "17 people involved, per the headlines"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "South Africa: 17 killed in separate mass shooting incidents",
+          "url": "https://www.dw.com/en/south-africa-17-killed-in-separate-mass-shooting-incidents/a-79956966",
+          "t": "2026-11-16T10:57:00Z",
+          "evidence": "news:dw:4668c90e6459"
+        },
+        {
+          "outlet": "sky",
+          "title": "At least 17 people killed in two separate shootings in South Africa",
+          "url": "https://news.sky.com/story/at-least-17-people-killed-in-two-separate-shootings-in-south-africa-13612711",
+          "t": "2026-11-16T08:55:00Z",
+          "evidence": "news:sky:18976cf851ad"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Two mass shootings in South Africa leave 17 dead",
+          "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo",
+          "t": "2026-11-16T10:57:48Z",
+          "evidence": "news:bbc:f7febecbed77"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "At least 17 killed in two South Africa mass shootings",
+          "url": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings",
+          "t": "2026-11-16T15:26:39Z",
+          "evidence": "news:aljazeera:84c50a637939"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-16:4",
+        "wiki:2026-11-16:5",
+        "news:dw:4668c90e6459",
+        "wd:Q3697178:P31",
+        "news:sky:18976cf851ad",
+        "news:bbc:f7febecbed77",
+        "news:aljazeera:84c50a637939"
+      ],
+      "headline": "Nine people are killed in a mass shooting at a shack near Pretoria, South Africa."
+    },
+    {
+      "slug": "2026-yemen-offensives",
+      "lens": "conflict",
+      "title": "2026 Yemen offensives",
+      "summary": "Saudi Arabia's King Salman appoints Chairman of the General Staff Fayyadh Al Ruwaili as commander of the Saudi-led coalition in Yemen, following the retreat of Yemeni government forces from areas near the Bab al-Mandeb to Aden.",
+      "article": {
+        "title": "2026 Yemen offensives",
+        "url": "https://en.wikipedia.org/wiki/2026_Yemen_offensives",
+        "qid": "Q141349562"
+      },
+      "place": {
+        "name": "Bab al-Mandeb",
+        "lon": 43.33333333,
+        "lat": 12.58333333,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-16:3"
+      },
+      "continent": "Africa",
+      "heat": 86,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
+          "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis",
+          "t": "2026-11-16T19:19:21Z",
+          "evidence": "news:aljazeera:5de9237e8298"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Yemeni forces retreat to defend port city from Houthis",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo",
+          "t": "2026-11-16T11:09:38Z",
+          "evidence": "news:bbc:e3c6bc678a27"
+        },
+        {
+          "outlet": "france24",
+          "title": "Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance",
+          "url": "https://www.france24.com/en/yemen/20261116-saudi-arabia-dismisses-commander-of-anti-houthi-coalition-as-rebels-advance",
+          "t": "2026-11-16T14:42:44Z",
+          "evidence": "news:france24:f6d733473972"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Saudi Arabia strategy challenged by anti-Houthi forces in Yemen",
+          "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+          "t": "2026-11-16T19:04:07Z",
+          "evidence": "news:guardian:46481e98f2ed"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-16:3",
+        "news:aljazeera:5de9237e8298",
+        "wd:Q141349562:P31",
+        "news:bbc:e3c6bc678a27",
+        "news:france24:f6d733473972",
+        "news:guardian:46481e98f2ed"
+      ],
+      "headline": "Saudi Arabia's King Salman appoints Chairman of the General Staff Fayyadh Al Ruwaili as commander of the Saudi-led coalition in Yemen…"
+    },
+    {
+      "slug": "british-actor-robert-pattinson-named-as-new-james-bond",
+      "lens": "person",
+      "title": "British actor Robert Pattinson named as new James Bond",
+      "summary": "British actor Robert Pattinson named as new James Bond",
+      "about": "Robert Douglas Thomas Pattinson (born 13 May 1986) is an English actor and producer. He is known for starring in both major studio productions and independent films, and for portraying eccentric characters across multiple genres.",
+      "article": {
+        "title": "Robert Pattinson",
+        "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+        "qid": "Q36767"
+      },
+      "place": {
+        "name": "United Kingdom",
+        "lon": -2.12,
+        "lat": 54.4,
+        "country": "GB",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 76,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "4 outlets within 3 hours"
+      ],
+      "topic": "culture",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "British actor Robert Pattinson confirmed as new James Bond",
+          "url": "https://www.dw.com/en/british-actor-robert-pattinson-confirmed-as-new-james-bond/a-79961789",
+          "t": "2026-11-16T15:41:00Z",
+          "evidence": "news:dw:55e18f26535e"
+        },
+        {
+          "outlet": "france24",
+          "title": "Robert Pattinson named as new James Bond",
+          "url": "https://www.france24.com/en/culture/20261116-robert-pattinson-named-as-new-james-bond",
+          "t": "2026-11-16T15:43:18Z",
+          "evidence": "news:france24:2aad54206da2"
+        },
+        {
+          "outlet": "bbc",
+          "title": "When will we see Robert Pattinson as Bond in cinemas?",
+          "url": "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o",
+          "t": "2026-11-16T17:18:54Z",
+          "evidence": "news:bbc:4b6cc1e3f95b"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "British actor Robert Pattinson named as new James Bond",
+          "url": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond",
+          "t": "2026-11-16T18:13:14Z",
+          "evidence": "news:aljazeera:cc5bdfab36e8"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:55e18f26535e",
+        "news:france24:2aad54206da2",
+        "news:bbc:4b6cc1e3f95b",
+        "news:aljazeera:cc5bdfab36e8"
+      ],
+      "headline": "British actor Robert Pattinson named as new James Bond, Al Jazeera reports."
+    },
+    {
+      "slug": "musk-among-more-than-150-000-calling-for-jensen-huang-s-retu",
+      "lens": "person",
+      "title": "Musk among more than 150,000 calling for Jensen Huang's return to Nvidia",
+      "summary": "Musk among more than 150,000 calling for Jensen Huang's return to Nvidia",
+      "about": "Jen-Hsun \"Jensen\" Huang (born February 17, 1963) is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable corporations, and served as its president and CEO from its founding in 1993 until his resignation in 2026.",
+      "article": {
+        "title": "Jensen Huang",
+        "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+        "qid": "Q305177"
+      },
+      "heat": 76,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "165,000 people involved, per the headlines"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+          "t": "2026-11-16T08:18:12Z",
+          "evidence": "news:guardian:35e3e8b4f8d8"
+        },
+        {
+          "outlet": "france24",
+          "title": "Musk among more than 150,000 calling for Jensen Huang's return to Nvidia",
+          "url": "https://www.france24.com/en/video/20261116-musk-among-more-than-150-000-calling-for-jensen-huang-s-return-to-nvidia",
+          "t": "2026-11-16T14:03:14Z",
+          "evidence": "news:france24:c7c573833cdd"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Musk, Silicon Valley insiders urge Nvidia to restore Jensen Huang as CEO",
+          "url": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role",
+          "t": "2026-11-16T17:24:26Z",
+          "evidence": "news:aljazeera:4948cc45ea41"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:35e3e8b4f8d8",
+        "news:france24:c7c573833cdd",
+        "news:aljazeera:4948cc45ea41"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-12",
+            "slug": "jensen-huang",
+            "title": "Jensen Huang"
+          },
+          {
+            "date": "2026-11-10",
+            "slug": "jensen-huang",
+            "title": "Jensen Huang"
+          }
+        ]
+      },
+      "headline": "Musk among more than 150,000 calling for Jensen Huang's return to Nvidia, France 24 reports."
+    },
+    {
+      "slug": "hundreds-of-thousands-of-czechs-protest-in-prague-over-publi",
+      "lens": "general",
+      "title": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+      "summary": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+      "about": "Czech Republic First! (Czech: Česká republika na 1.",
+      "article": {
+        "title": "Czech Republic First!",
+        "url": "https://en.wikipedia.org/wiki/Czech_Republic_First!",
+        "qid": "Q113645485"
+      },
+      "place": {
+        "name": "Prague",
+        "lon": 14.46,
+        "lat": 50.09,
+        "country": "CZ",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 74,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "People involved, per the headlines: hundreds of thousands",
+        "5 headlines over 18 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Czechs rally against gov’t threat to media independence",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence",
+          "t": "2026-11-16T00:26:32Z",
+          "evidence": "news:aljazeera:fe73e737d249"
+        },
+        {
+          "outlet": "france24",
+          "title": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+          "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
+          "t": "2026-11-16T02:28:13Z",
+          "evidence": "news:france24:ea96c7d8c96e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:fe73e737d249",
+        "news:france24:ea96c7d8c96e"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-15",
+            "slug": "hundreds-of-thousands-of-czechs-protest-in-prague-over-publi",
+            "title": "Hundreds of thousands of Czechs protest in Prague over public media funding plan"
+          }
+        ]
+      },
+      "headline": "Hundreds of thousands of Czechs protest in Prague over public media funding plan, France 24 reports."
+    },
+    {
+      "slug": "five-eu-countries-announce-migrant-deportation-centre-in-rwa",
+      "lens": "general",
+      "title": "Five EU countries announce migrant deportation centre in Rwanda",
+      "summary": "Five EU countries announce migrant deportation centre in Rwanda",
+      "place": {
+        "name": "Rwanda",
+        "lon": 30.1,
+        "lat": -1.9,
+        "country": "RW",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 66,
+      "why": [
+        "Reported by 5 outlets from 2 regions"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Five EU nations set to announce migrant deportation centre deal with Rwanda",
+          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "t": "2026-11-16T06:07:22Z",
+          "evidence": "news:france24:23127c00a204"
+        },
+        {
+          "outlet": "dw",
+          "title": "Germany joins 4 other EU states to set up Rwanda deportation hub",
+          "url": "https://www.dw.com/en/germany-joins-4-other-eu-states-to-set-up-rwanda-deportation-hub/a-79959158",
+          "t": "2026-11-16T12:10:00Z",
+          "evidence": "news:dw:227aa9c95b79"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+          "t": "2026-11-16T16:21:40Z",
+          "evidence": "news:guardian:8a89a626759e"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Five EU countries announce migrant deportation centre in Rwanda",
+          "url": "https://www.bbc.co.uk/news/articles/cw987343352go",
+          "t": "2026-11-16T16:27:24Z",
+          "evidence": "news:bbc:fb710be5c7d9"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Five EU countries announce plan to send rejected asylum seekers to Rwanda",
+          "url": "https://www.aljazeera.com/news/2026/11/16/five-eu-countries-announce-plan-to-send-rejected-asylum-seekers-to-rwanda",
+          "t": "2026-11-16T19:26:40Z",
+          "evidence": "news:aljazeera:8e651086d4b9"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:23127c00a204",
+        "news:dw:227aa9c95b79",
+        "news:guardian:8a89a626759e",
+        "news:bbc:fb710be5c7d9",
+        "news:aljazeera:8e651086d4b9"
+      ],
+      "headline": "Five EU countries announce migrant deportation centre in Rwanda, BBC News reports."
+    },
+    {
+      "slug": "the-crimean-bridge-is-struck-by-a-ukrainian-kamikaze-drone",
+      "lens": "conflict",
+      "title": "The Crimean Bridge is struck by a Ukrainian kamikaze drone",
+      "summary": "The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close vehicle traffic. The bridge is partially reopened later in the day.",
+      "article": {
+        "title": "Crimea attacks",
+        "url": "https://en.wikipedia.org/wiki/Crimea_attacks",
+        "qid": "Q114550059"
+      },
+      "place": {
+        "name": "Ukraine",
+        "lon": 32.14,
+        "lat": 49.72,
+        "country": "UA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-16:1"
+      },
+      "continent": "Europe",
+      "heat": 65,
+      "why": [
+        "Reported by 3 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "🔴 Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
+          "url": "https://www.france24.com/en/europe/20261116-live-600-ukrainian-drones-target-moscow-strike-crimea-bridge-halts-traffic",
+          "t": "2026-11-16T06:59:55Z",
+          "evidence": "news:france24:59995b76c236"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o",
+          "t": "2026-11-16T14:58:12Z",
+          "evidence": "news:bbc:b9b16089c989"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Ukraine hits Kerch bridge between Russia and occupied Crimea",
+          "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+          "t": "2026-11-16T12:45:09Z",
+          "evidence": "news:guardian:3c35d058abb8"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-16:1",
+        "news:france24:59995b76c236",
+        "news:bbc:b9b16089c989",
+        "wd:Q114550059:P31",
+        "news:guardian:3c35d058abb8"
+      ],
+      "headline": "The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close vehicle traffic. The bridge is partially reopened later in the day."
+    },
+    {
+      "slug": "france-s-philippe-diallo-to-challenge-infantino-for-fifa-pre",
+      "lens": "person",
+      "title": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+      "summary": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+      "about": "Giovanni Vincenzo \"Gianni\" Infantino (born 23 March 1970) is a Swiss football administrator who has served as the president of FIFA since 2016. He was previously Secretary General of UEFA from 2009 to 2016, where he formalised the body's financial regulations and oversaw tournament expansion, such as the UEFA…",
+      "article": {
+        "title": "Gianni Infantino",
+        "url": "https://en.wikipedia.org/wiki/Gianni_Infantino",
+        "qid": "Q124138"
+      },
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 54,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "sports",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "FIFA president Gianni Infantino faces challenge from French football chief",
+          "url": "https://news.sky.com/story/head-of-french-football-to-stand-against-infantino-in-fifa-presidential-election-13612894",
+          "t": "2026-11-16T15:25:00Z",
+          "evidence": "news:sky:77df0b0c2405"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "UEFA backs France’s Philippe Diallo to challenge Infantino in FIFA election",
+          "url": "https://www.aljazeera.com/sports/2026/11/16/uefa-backs-frances-philippe-diallo-to-challenge-infantino-in-fifa-election",
+          "t": "2026-11-16T16:46:05Z",
+          "evidence": "news:aljazeera:3ea308e836a0"
+        },
+        {
+          "outlet": "dw",
+          "title": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+          "url": "https://www.dw.com/en/france-s-philippe-diallo-to-challenge-infantino-for-fifa-presidency/a-79962843",
+          "t": "2026-11-16T20:24:00Z",
+          "evidence": "news:dw:6fe08ae5c0bf"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:sky:77df0b0c2405",
+        "news:aljazeera:3ea308e836a0",
+        "news:dw:6fe08ae5c0bf"
+      ],
+      "headline": "France's Philippe Diallo to challenge Infantino for FIFA presidency, DW reports."
+    },
+    {
+      "slug": "cape-verde-president-neves-wins-second-term",
+      "lens": "general",
+      "title": "Cape Verde President Neves wins second term",
+      "summary": "Cape Verde President Neves wins second term",
+      "about": "Cape Verde, also referred to in English by its Portuguese name Cabo Verde, and known officially as the Republic of Cabo Verde, is an archipelagic country in the eastern Atlantic Ocean, off the coast of West Africa. It consists of ten volcanic islands with a combined land area of about 4,033 square kilometres (1,557…",
+      "article": {
+        "title": "Cape Verde",
+        "url": "https://en.wikipedia.org/wiki/Cape_Verde",
+        "qid": "Q1011"
+      },
+      "place": {
+        "name": "Praia",
+        "lon": -23.52,
+        "lat": 14.92,
+        "country": "CV",
+        "role": "Named in the headlines"
+      },
+      "heat": 49,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "allafrica",
+          "title": "Cape Verde: Cape Verde Votes for President, With Incumbent Favoured to Win",
+          "url": "https://allafrica.com/stories/202611160046.html",
+          "t": "2026-11-16T05:11:32Z",
+          "evidence": "news:allafrica:45bce9077541"
+        },
+        {
+          "outlet": "france24",
+          "title": "Cape Verde President Neves wins second term",
+          "url": "https://www.france24.com/en/video/20261116-cape-verde-president-neves-wins-second-term",
+          "t": "2026-11-16T13:12:22Z",
+          "evidence": "news:france24:a6a7bfeca3c6"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:allafrica:45bce9077541",
+        "news:france24:a6a7bfeca3c6"
+      ],
+      "headline": "Cape Verde President Neves wins second term, France 24 reports."
+    },
+    {
+      "slug": "suspected-china-spy-linked-to-nvidia-s-ex-boss-left-in-2025",
+      "lens": "organization",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "summary": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "about": "Nvidia Corporation ( en-VID-ee-ə) is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial…",
+      "article": {
+        "title": "Nvidia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "qid": "Q182477"
+      },
+      "place": {
+        "name": "China",
+        "lon": 106.34,
+        "lat": 32.5,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 48,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang",
+          "t": "2026-11-16T01:17:04Z",
+          "evidence": "news:guardian:e8223816b55a"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo",
+          "t": "2026-11-16T01:47:57Z",
+          "evidence": "news:bbc:5ec261feee59"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+          "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025",
+          "t": "2026-11-16T04:46:49Z",
+          "evidence": "news:aljazeera:92de303be865"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:e8223816b55a",
+        "news:bbc:5ec261feee59",
+        "news:aljazeera:92de303be865"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-13",
+            "slug": "what-s-next-for-the-us-tech-company",
+            "title": "What’s next for the US tech company?"
+          }
+        ]
+      },
+      "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says, BBC News reports."
+    },
+    {
+      "slug": "eleven-people-are-killed-and-16-others-are-injured-in-a-fire",
+      "lens": "accident",
+      "title": "Eleven people are killed and 16 others are injured in a fire at a four-story…",
+      "summary": "Eleven people are killed and 16 others are injured in a fire at a four-story building in Patong, Phuket province, Thailand.",
+      "article": {
+        "title": "2026 Patong fire",
+        "url": "https://en.wikipedia.org/wiki/2026_Patong_fire",
+        "qid": "Q142179721"
+      },
+      "place": {
+        "name": "Patong",
+        "lon": 98.29833333,
+        "lat": 7.89305556,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-16:9"
+      },
+      "continent": "Asia",
+      "heat": 46,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events",
+        "11 people involved, per the headlines"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Shophouse fire kills at least 11 in Phuket",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket",
+          "t": "2026-11-16T03:51:43Z",
+          "evidence": "news:aljazeera:8151d7c43cef"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-16:9",
+        "news:aljazeera:8151d7c43cef",
+        "wd:Q142179721:P31"
+      ],
+      "headline": "Eleven people are killed and 16 others are injured in a fire at a four-story building in Patong, Phuket province, Thailand."
+    },
+    {
+      "slug": "australian-mp-who-lost-her-legs-in-alleged-attack-speaks-on",
+      "lens": "general",
+      "title": "Australian MP who lost her legs in alleged attack speaks on leaving hospital",
+      "summary": "Australian MP who lost her legs in alleged attack speaks on leaving hospital",
+      "place": {
+        "name": "Australia",
+        "lon": 134.05,
+        "lat": -24.13,
+        "country": "AU",
+        "role": "Named in the headlines"
+      },
+      "continent": "Oceania",
+      "heat": 32,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "health",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+          "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o",
+          "t": "2026-11-16T03:09:49Z",
+          "evidence": "news:bbc:98f8478c07b7"
+        },
+        {
+          "outlet": "sky",
+          "title": "Australian MP who lost her legs in alleged attack speaks on leaving hospital",
+          "url": "https://news.sky.com/story/australian-mp-helen-haines-first-words-since-leaving-hospital-13612681",
+          "t": "2026-11-16T06:49:00Z",
+          "evidence": "news:sky:dd1701c3a94a"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:98f8478c07b7",
+        "news:sky:dd1701c3a94a"
+      ],
+      "headline": "Australian MP who lost her legs in alleged attack speaks on leaving hospital, Sky News reports."
+    },
+    {
+      "slug": "raye-rosalia-and-dolly-parton-recognised-in-grammy-nominatio",
+      "lens": "culture",
+      "title": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
+      "summary": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
+      "about": "The Grammy Awards, stylized as GRAMMY, and often referred to as the Grammys, are awards presented by the Recording Academy of the United States to recognize outstanding achievements in music. The trophy depicts a gilded gramophone, and the original idea was to call them the \"Gramophone Awards\".",
+      "article": {
+        "title": "Grammy Awards",
+        "url": "https://en.wikipedia.org/wiki/Grammy_Awards",
+        "qid": "Q41254"
+      },
+      "heat": 32,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "culture",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
+          "url": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o",
+          "t": "2026-11-16T14:48:55Z",
+          "evidence": "news:bbc:ff72e800a1d8"
+        },
+        {
+          "outlet": "dw",
+          "title": "Grammy Awards: Raye and Rosalia lead nominations",
+          "url": "https://www.dw.com/en/grammy-awards-raye-and-rosalia-lead-nominations/a-79961198",
+          "t": "2026-11-16T18:14:00Z",
+          "evidence": "news:dw:04fc79c7dd7d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:ff72e800a1d8",
+        "news:dw:04fc79c7dd7d"
+      ],
+      "headline": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations, BBC News reports."
+    },
+    {
+      "slug": "us-to-further-curb-china-s-access-to-nvidia-chips",
+      "lens": "organization",
+      "title": "US to further curb China's access to Nvidia chips",
+      "summary": "US to further curb China's access to Nvidia chips",
+      "about": "Nvidia Corporation ( en-VID-ee-ə) is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial…",
+      "article": {
+        "title": "Nvidia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "qid": "Q182477"
+      },
+      "place": {
+        "name": "China",
+        "lon": 106.34,
+        "lat": 32.5,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 30,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "US to further curb China's access to Nvidia chips",
+          "url": "https://news.sky.com/story/us-to-further-curb-chinas-access-to-ai-chips-from-companies-like-nvidia-13612884",
+          "t": "2026-11-16T14:59:00Z",
+          "evidence": "news:sky:fce31fdfe774"
+        },
+        {
+          "outlet": "dw",
+          "title": "Nvidia scandal: China's chips dilemma, US rivalry shape AI race",
+          "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766",
+          "t": "2026-11-16T16:32:00Z",
+          "evidence": "news:dw:39b6798086ba"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:sky:fce31fdfe774",
+        "news:dw:39b6798086ba"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-13",
+            "slug": "what-s-next-for-the-us-tech-company",
+            "title": "What’s next for the US tech company?"
+          }
+        ]
+      },
+      "headline": "US to further curb China's access to Nvidia chips, Sky News reports."
+    },
+    {
+      "slug": "the-european-commission-ec-and-the-united-states-federal-res",
+      "lens": "economy",
+      "title": "The European Commission (EC) and the United States Federal Reserve approve…",
+      "summary": "The European Commission (EC) and the United States Federal Reserve approve Italian bank UniCredit's proposed €45 billion (US$49 billion) acquisition of Germany's Commerzbank, following the European Central Bank's approval in October. The EC grants unconditional antitrust clearance.",
+      "place": {
+        "name": "United States",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-16:8"
+      },
+      "continent": "North America",
+      "heat": 20,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-16:8"
+      ],
+      "headline": "The European Commission (EC) and the United States Federal Reserve approve Italian bank UniCredit's proposed €45 billion (US$49 billion) acquisition of Germany's Commerzbank…"
+    },
+    {
+      "slug": "a-paraguayan-judge-orders-impeached-former-president-santiag",
+      "lens": "general",
+      "title": "A Paraguayan judge orders impeached former president Santiago Peña transferred…",
+      "summary": "A Paraguayan judge orders impeached former president Santiago Peña transferred to the Viñas Cué military prison pending trial on charges of criminal association, breach of trust, and misuse of public office linked to Ueno Bank's collapse.",
+      "article": {
+        "title": "2026 Paraguay banking crisis",
+        "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+        "qid": "Q142059724"
+      },
+      "place": {
+        "name": "Viñas Cué",
+        "lon": -57.5796,
+        "lat": -25.235,
+        "country": "PY",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-16:12"
+      },
+      "continent": "South America",
+      "heat": 20,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-16:12",
+        "wd:Q142059724:P31"
+      ],
+      "update": {
+        "day": 8,
+        "previous": [
+          {
+            "date": "2026-11-11",
+            "slug": "the-central-bank-of-paraguay-reports-providing-partial-refun",
+            "title": "The Central Bank of Paraguay reports providing partial refunds to 1"
+          },
+          {
+            "date": "2026-11-09",
+            "slug": "paraguayan-president-pedro-alliana-appoints-economist-jorge",
+            "title": "Paraguayan president Pedro Alliana appoints economist Jorge Schreiner to lead…"
+          }
+        ]
+      },
+      "headline": "A Paraguayan judge orders impeached former president Santiago Peña transferred to the Viñas Cué military prison pending trial on charges of criminal association, breach of trust,…"
+    },
+    {
+      "slug": "2026-gambian-presidential-election",
+      "lens": "election",
+      "title": "2026 Gambian presidential election",
+      "summary": "The Gambian election commission approves President Adama Barrow's candidacy for a third term in the December 5 presidential election as the country's constitution does not limit presidential terms.",
+      "article": {
+        "title": "2026 Gambian presidential election",
+        "url": "https://en.wikipedia.org/wiki/2026_Gambian_presidential_election",
+        "qid": "Q111594398"
+      },
+      "place": {
+        "name": "The Gambia",
+        "lon": -15,
+        "lat": 13.64,
+        "country": "GM",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-16:14"
+      },
+      "continent": "Africa",
+      "heat": 20,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-16:14",
+        "wd:Q111594398:P31"
+      ],
+      "headline": "The Gambian election commission approves President Adama Barrow's candidacy for a third term in the December 5 presidential election as the country's constitution does not limit presidential terms."
+    }
+  ]
+}

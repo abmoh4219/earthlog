@@ -1,0 +1,98 @@
+[
+  {
+    "id": "news:bbc:ff72e800a1d8",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "BBC News: Raye, Rosalía and Dolly Parton recognised in Grammy nominations (14:48 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o",
+    "quote": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:04fc79c7dd7d",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "DW: Grammy Awards: Raye and Rosalia lead nominations (18:14 UTC)",
+    "url": "https://www.dw.com/en/grammy-awards-raye-and-rosalia-lead-nominations/a-79961198",
+    "quote": "Grammy Awards: Raye and Rosalia lead nominations",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383488200:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grammy Awards\" (revision of 2026-11-02 23:35 UTC)",
+    "quote": "The Grammy Awards, stylized as GRAMMY, and often referred to as the Grammys, are awards presented by the Recording Academy of the United States to recognize outstanding achievements in music.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grammy_Awards&oldid=1383488200"
+  },
+  {
+    "id": "views:en:Grammy_Awards:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Grammy Awards\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Grammy_Awards&range=latest-30"
+  },
+  {
+    "id": "wd:Q41254:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Grammy Awards\": location Los Angeles, The Beverly Hilton",
+    "url": "https://www.wikidata.org/wiki/Q41254#P276"
+  },
+  {
+    "id": "wd:Q41254:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Grammy Awards\": founded 1958",
+    "url": "https://www.wikidata.org/wiki/Q41254#P571"
+  },
+  {
+    "id": "wd:Q41254:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Grammy Awards\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q41254#P17"
+  },
+  {
+    "id": "wiki:box:1383488200:hosts",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grammy Awards\" (revision of 2026-11-02 23:35 UTC): Hosts: The Recording Academy",
+    "quote": "Hosts: The Recording Academy",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grammy_Awards&oldid=1383488200"
+  },
+  {
+    "id": "wiki:box:1383488200:network",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grammy Awards\" (revision of 2026-11-02 23:35 UTC): Network: NBC (1959–1970), ABC (1971–1972; 2027), CBS (1973–2026)",
+    "quote": "Network: NBC (1959–1970), ABC (1971–1972; 2027), CBS (1973–2026)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grammy_Awards&oldid=1383488200"
+  },
+  {
+    "id": "wd:Q13974:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"NBC\": headquarters 30 Rockefeller Plaza",
+    "url": "https://www.wikidata.org/wiki/Q13974#P159"
+  }
+]

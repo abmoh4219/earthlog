@@ -1,0 +1,537 @@
+{
+  "version": 1,
+  "id": "story-2026-11-16-france-s-philippe-diallo-to-challenge-infantino-for-fifa-pre",
+  "title": "Gianni Infantino",
+  "subtitle": "People · 16 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-16T00:00:00Z",
+    "end": "2026-11-16T00:01:22Z"
+  },
+  "focus": "2026-11-16T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -7.45,
+    "south": 38.7,
+    "east": 12.55,
+    "north": 54.7
+  },
+  "imagery": {
+    "day": "2026-11-16",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-16T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-16T00:00:25Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "lon": 40.549999999999955,
+      "lat": 26.745,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-16T00:00:04Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:10Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:16Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:20Z",
+      "lon": 7.9876194444444,
+      "lat": 45.415916666667,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:00:22Z",
+      "lon": 7.9876194444444,
+      "lat": 45.415916666667,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:24Z",
+      "lon": 7.9876194444444,
+      "lat": 45.415916666667,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:27Z",
+      "lon": 7.368764774399145,
+      "lat": 46.47732951877927,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:31Z",
+      "lon": 7.368764774399145,
+      "lat": 46.47732951877927,
+      "range": 1358307.7707206125,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:34Z",
+      "lon": 7.368764774399145,
+      "lat": 46.47732951877927,
+      "range": 1230000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:37Z",
+      "lon": 7.368764774399145,
+      "lat": 46.47732951877927,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:41Z",
+      "lon": 7.368764774399145,
+      "lat": 46.47732951877927,
+      "range": 1358307.7707206125,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:44Z",
+      "lon": 7.368764774399145,
+      "lat": 46.47732951877927,
+      "range": 1230000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:47Z",
+      "lon": 5.278422529296548,
+      "lat": 46.24017775472826,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:50Z",
+      "lon": 5.278422529296548,
+      "lat": 46.24017775472826,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:53Z",
+      "lon": 5.278422529296548,
+      "lat": 46.24017775472826,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:00:56Z",
+      "lon": 5.278422529296548,
+      "lat": 46.24017775472826,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:05Z",
+      "lon": 5.278422529296548,
+      "lat": 46.24017775472826,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:14Z",
+      "lon": 5.278422529296548,
+      "lat": 46.24017775472826,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:17Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-16T00:01:18Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:19Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-16T00:01:22Z",
+      "lon": -22.450000000000045,
+      "lat": 44.575,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-16T00:00:01Z",
+      "text": "France's Philippe Diallo is set to challenge Infantino for the FIFA presidency, according to DW.",
+      "cites": [
+        "news:dw:6fe08ae5c0bf"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:09Z",
+      "text": "Giovanni Vincenzo \"Gianni\" Infantino, born 23 March 1970, is a Swiss football administrator who has served as president of FIFA since 2016.",
+      "cites": [
+        "wiki:rev:1384695862:0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:18Z",
+      "text": "Gianni Infantino was born on 23 March 1970 in Brig-Glis.",
+      "cites": [
+        "wd:Q124138:P569",
+        "wd:Q124138:P19"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:26Z",
+      "text": "He was educated at the University of Fribourg and the University of Neuchâtel.",
+      "cites": [
+        "wd:Q124138:P69:Q36188",
+        "wd:Q124138:P69:Q541548"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:30Z",
+      "text": "He worked for the Union of European Football Associations and later for FIFA.",
+      "cites": [
+        "wd:Q124138:P108:Q35572",
+        "wd:Q124138:P108:Q253414"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:36Z",
+      "text": "Wikidata records 11 awards, among them the Presidential Medal of Merit (2025) and the Medal of Friendship (2026).",
+      "cites": [
+        "wd:Q124138:P166:Q25342379",
+        "wd:Q124138:P166:Q3885162"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:00:55Z",
+      "text": "Sky News headlined it: “FIFA president Gianni Infantino faces challenge from French football chief”.",
+      "cites": [
+        "news:sky:77df0b0c2405"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:01Z",
+      "text": "Al Jazeera headlined it: “UEFA backs France’s Philippe Diallo to challenge Infantino in FIFA election”.",
+      "cites": [
+        "news:aljazeera:3ea308e836a0"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:07Z",
+      "text": "DW headlined it: “France's Philippe Diallo to challenge Infantino for FIFA presidency”.",
+      "cites": [
+        "news:dw:6fe08ae5c0bf"
+      ]
+    },
+    {
+      "t": "2026-11-16T00:01:16Z",
+      "text": "The sources are Sky News, Al Jazeera and DW, Wikipedia articles, Wikimedia pageviews and Wikidata.",
+      "cites": [
+        "wiki:rev:1384695862:0",
+        "views:en:Gianni_Infantino:30d",
+        "wd:Q124138:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "FR",
+    "lon": 2.55,
+    "lat": 46.7,
+    "label": "France"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-16T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-16T00:00:17Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-16T00:00:25Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-16T00:00:35Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-16T00:00:45Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-16T00:00:54Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-16T00:01:15Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-16T00:00:26Z",
+      "until": "2026-11-16T00:00:35Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1970 born",
+          "text": "Brig-Glis",
+          "cites": [
+            "wd:Q124138:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "University of Fribourg",
+          "cites": [
+            "wd:Q124138:P69:Q36188"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "University of Neuchâtel",
+          "cites": [
+            "wd:Q124138:P69:Q541548"
+          ]
+        },
+        {
+          "label": "2000–16",
+          "text": "Union of European Football Associations",
+          "cites": [
+            "wd:Q124138:P108:Q35572"
+          ]
+        },
+        {
+          "label": "2016–",
+          "text": "FIFA",
+          "cites": [
+            "wd:Q124138:P108:Q253414"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-16T00:00:36Z",
+      "until": "2026-11-16T00:00:45Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2016",
+          "text": "Grand Cross of the Order of the Condor of the Andes",
+          "cites": [
+            "wd:Q124138:P166:Q25342379"
+          ]
+        },
+        {
+          "label": "2017",
+          "text": "Order of Merit of Niger",
+          "cites": [
+            "wd:Q124138:P166:Q3885162"
+          ]
+        },
+        {
+          "label": "2017",
+          "text": "Gold Collar for Sports Merit",
+          "cites": [
+            "wd:Q124138:P166:Q3682699"
+          ]
+        },
+        {
+          "label": "2019",
+          "text": "Order of Friendship",
+          "cites": [
+            "wd:Q124138:P166:Q791135"
+          ]
+        },
+        {
+          "label": "2019",
+          "text": "Order of the Nigeria",
+          "cites": [
+            "wd:Q124138:P166:Q2612174"
+          ]
+        },
+        {
+          "label": "2022",
+          "text": "Order of Boyacá",
+          "cites": [
+            "wd:Q124138:P166:Q2758023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-16T00:00:55Z",
+      "until": "2026-11-16T00:01:15Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/head-of-french-football-to-stand-against-infantino-in-fifa-presidential-election-13612894",
+          "cites": [
+            "news:sky:77df0b0c2405"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/sports/2026/11/16/uefa-backs-frances-philippe-diallo-to-challenge-infantino-in-fifa-election",
+          "cites": [
+            "news:aljazeera:3ea308e836a0"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/france-s-philippe-diallo-to-challenge-infantino-for-fifa-presidency/a-79962843",
+          "cites": [
+            "news:dw:6fe08ae5c0bf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-16T00:01:16Z",
+      "until": "2026-11-16T00:01:22Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384695862:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Gianni_Infantino:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q124138:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-17T01:00:26Z",
+    "costUsd": 0.002689
+  }
+}

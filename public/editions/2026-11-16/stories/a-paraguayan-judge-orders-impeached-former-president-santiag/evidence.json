@@ -1,0 +1,97 @@
+[
+  {
+    "id": "wiki:2026-11-16:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-16T00:00:00Z",
+    "lon": -57.5796,
+    "lat": -25.235,
+    "label": "Law & crime: A Paraguayan judge orders impeached former president Santiago Peña transferred to the Viñas Cué military prison pending trial on charges of criminal association, breach of trust, and misuse of public office linked to Ueno Bank's collapse.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+    "quote": "A Paraguayan judge orders impeached former president Santiago Peña transferred to the Viñas Cué military prison pending trial on charges of criminal association, breach of trust, and misuse of public office linked to Ueno Bank's collapse.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/americas/paraguay-judge-orders-ex-president-pea-transferred-military-prison-2026-11-16/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q142059724:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Wikidata: \"2026 Paraguay banking crisis\" is an instance of banking crisis, political crisis",
+    "url": "https://www.wikidata.org/wiki/Q142059724",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385819313:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Paraguay banking crisis\" (revision of 2026-11-15 10:13 UTC)",
+    "quote": "On 6 November 2026, the Senate removed President Santiago Peña from office and revoked his constitutional immunity, while Vice President Pedro Alliana assumed the presidency.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Paraguay_banking_crisis&oldid=1385819313"
+  },
+  {
+    "id": "wiki:rev:1385819313:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Paraguay banking crisis\" (revision of 2026-11-15 10:13 UTC)",
+    "quote": "The 2026 Paraguay banking crisis is an ongoing financial and political crisis in Paraguay, triggered by the regulatory intervention and shutdown of Ueno Bank, the country's largest digital financial institution.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Paraguay_banking_crisis&oldid=1385819313"
+  },
+  {
+    "id": "wiki:2026-11-09:5",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-09",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-09: Paraguayan president Pedro Alliana appoints economist Jorge Schreiner to lead the central bank following Ueno Bank's collapse. The Senate approves Schreiner's appointment.",
+    "quote": "Paraguayan president Pedro Alliana appoints economist Jorge Schreiner to lead the central bank following Ueno Bank's collapse.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_9&oldid=1385079275"
+  },
+  {
+    "id": "wiki:2026-11-11:8",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-11",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-11: The Central Bank of Paraguay reports providing partial refunds to 1,812,348 eligible Ueno Bank depositors following the bank's collapse.",
+    "quote": "The Central Bank of Paraguay reports providing partial refunds to 1,812,348 eligible Ueno Bank depositors following the bank's collapse.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_11&oldid=1385726893"
+  },
+  {
+    "id": "views:en:2026_Paraguay_banking_crisis:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Paraguay banking crisis\", 5 November 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Paraguay_banking_crisis&range=latest-30"
+  },
+  {
+    "id": "wd:Q142059724:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Paraguay banking crisis\": began 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142059724#P580"
+  },
+  {
+    "id": "wd:Q142059724:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Paraguay banking crisis\": country Paraguay",
+    "url": "https://www.wikidata.org/wiki/Q142059724#P17"
+  }
+]

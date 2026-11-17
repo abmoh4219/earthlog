@@ -1,0 +1,126 @@
+[
+  {
+    "id": "wiki:2026-11-16:4",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-16T00:00:00Z",
+    "lon": 28.18805556,
+    "lat": -25.74611111,
+    "label": "Conflict: Nine people are killed in a mass shooting at a shack near Pretoria, South Africa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+    "quote": "Nine people are killed in a mass shooting at a shack near Pretoria, South Africa.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/africa/least-17-people-killed-2-mass-shootings-day-south-africa-rcna609688"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-16:5",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-16T00:00:00Z",
+    "lon": 28.18805556,
+    "lat": -25.74611111,
+    "label": "Conflict: Eight people are found shot and killed inside a vehicle in Sweetwaters, South Africa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+    "quote": "Eight people are found shot and killed inside a vehicle in Sweetwaters, South Africa.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/south-africa-shootings-pretoria-1d8c73c660ebe7feda8d4c3848f6ac4f"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:4668c90e6459",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "DW: South Africa: 17 killed in separate mass shooting incidents (10:57 UTC)",
+    "url": "https://www.dw.com/en/south-africa-17-killed-in-separate-mass-shooting-incidents/a-79956966",
+    "quote": "South Africa: 17 killed in separate mass shooting incidents",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q3697178:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Wikidata: \"crime in South Africa\" is an instance of aspect in a geographic region",
+    "url": "https://www.wikidata.org/wiki/Q3697178",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:18976cf851ad",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Sky News: At least 17 people killed in two separate shootings in South Africa (08:55 UTC)",
+    "url": "https://news.sky.com/story/at-least-17-people-killed-in-two-separate-shootings-in-south-africa-13612711",
+    "quote": "At least 17 people killed in two separate shootings in South Africa",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:f7febecbed77",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "BBC News: Two mass shootings in South Africa leave 17 dead (10:57 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo",
+    "quote": "Two mass shootings in South Africa leave 17 dead",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:84c50a637939",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-16T00:00:00Z",
+    "label": "Al Jazeera: At least 17 killed in two South Africa mass shootings (15:26 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings",
+    "quote": "At least 17 killed in two South Africa mass shootings",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385950565:142",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crime in South Africa\" (revision of 2026-11-16 02:32 UTC)",
+    "quote": "In 2003, Thabo Mbeki informed parliament that the rural government militias (Commando System) would be disbanded, despite warnings that it would leave the rural areas vulnerable to a surge in crime.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crime_in_South_Africa&oldid=1385950565"
+  },
+  {
+    "id": "wiki:rev:1385950565:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crime in South Africa\" (revision of 2026-11-16 02:32 UTC)",
+    "quote": "It then decreased until bottoming out at 30 per 100,000 in 2011, but steadily increased again to 44 per 100,000 in 2023 after a brief drop in 2020.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crime_in_South_Africa&oldid=1385950565"
+  },
+  {
+    "id": "views:en:Crime_in_South_Africa:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Crime in South Africa\", 18 October 2026 to 16 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Crime_in_South_Africa&range=latest-30"
+  },
+  {
+    "id": "wd:Q3697178:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-16T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"crime in South Africa\": country South Africa",
+    "url": "https://www.wikidata.org/wiki/Q3697178#P17"
+  }
+]
