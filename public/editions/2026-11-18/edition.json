@@ -1,0 +1,880 @@
+{
+  "version": 1,
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-19T07:58:47Z",
+  "candidates": 46,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "gaza-war",
+      "lens": "conflict",
+      "title": "Gaza war",
+      "summary": "The Israeli army launches its first operation in central Gaza Strip amid the displacement of families from the area, for the first time since the ceasefire agreement signed in October 2025 came into effect.",
+      "article": {
+        "title": "Gaza war",
+        "url": "https://en.wikipedia.org/wiki/Gaza_war",
+        "qid": "Q122962941"
+      },
+      "place": {
+        "name": "Gaza Strip",
+        "lon": 34.45,
+        "lat": 31.5,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-18:6"
+      },
+      "continent": "Asia",
+      "heat": 100,
+      "why": [
+        "Reported by 6 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events",
+        "10 headlines over 7 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Israeli forces launch new military operation in central Gaza",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza",
+          "t": "2026-11-18T18:12:42Z",
+          "evidence": "news:aljazeera:bd982f0d6d88"
+        },
+        {
+          "outlet": "dw",
+          "title": "Israel launches new ground operation in Gaza",
+          "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958",
+          "t": "2026-11-18T18:29:00Z",
+          "evidence": "news:dw:35417a49cd93"
+        },
+        {
+          "outlet": "france24",
+          "title": "Israeli army launches ground operation in Hamas-controlled area of Gaza",
+          "url": "https://www.france24.com/en/israeli-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
+          "t": "2026-11-18T19:55:15Z",
+          "evidence": "news:france24:842ad9ad2dc7"
+        },
+        {
+          "outlet": "sky",
+          "title": "Israeli troops launch ground operation in central Gaza",
+          "url": "https://news.sky.com/story/israeli-troops-launch-ground-operation-in-central-gaza-13613724",
+          "t": "2026-11-18T20:29:00Z",
+          "evidence": "news:sky:118cb35472e6"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+          "t": "2026-11-18T22:34:56Z",
+          "evidence": "news:bbc:116efff4a5dd"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+          "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+          "t": "2026-11-18T23:25:25Z",
+          "evidence": "news:guardian:de9b828e4390"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-18:6",
+        "news:aljazeera:bd982f0d6d88",
+        "news:dw:35417a49cd93",
+        "news:france24:842ad9ad2dc7",
+        "news:sky:118cb35472e6",
+        "wd:Q122962941:P31",
+        "news:bbc:116efff4a5dd",
+        "news:guardian:de9b828e4390"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-15",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          }
+        ]
+      },
+      "headline": "The Israeli army launches its first operation in central Gaza Strip amid the displacement of families from the area, for the first time since the ceasefire agreement signed in October 2025 came into effect."
+    },
+    {
+      "slug": "us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-ra",
+      "lens": "person",
+      "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+      "summary": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+      "about": "Mary Sattler Peltola (born August 31, 1973) is a Native American (Orutsararmiut Native Council) politician and former judge who is a United States senator-elect from Alaska. A member of the Democratic Party, she previously served as the U.S. representative for Alaska's at-large congressional district from 2022 to 2025.",
+      "article": {
+        "title": "Mary Peltola",
+        "url": "https://en.wikipedia.org/wiki/Mary_Peltola",
+        "qid": "Q13562231"
+      },
+      "place": {
+        "name": "Alaska",
+        "lon": -152,
+        "lat": 64,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 96,
+      "why": [
+        "Reported by 7 outlets from 3 regions",
+        "4 outlets within 3 hours",
+        "11 headlines over 11 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo",
+          "t": "2026-11-18T01:18:18Z",
+          "evidence": "news:bbc:df1977ca966d"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+          "url": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+          "t": "2026-11-18T03:25:14Z",
+          "evidence": "news:guardian:fdb7dc7af3b8"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Mary Peltola flips Alaska Senate seat in another Democratic win",
+          "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win",
+          "t": "2026-11-18T03:28:41Z",
+          "evidence": "news:aljazeera:714102cb4aaf"
+        },
+        {
+          "outlet": "france24",
+          "title": "Peltola defeats Sullivan in Alaska Senate race, expanding Democratic majority",
+          "url": "https://www.france24.com/en/americas/20261118-peltola-defeats-sullivan-in-alaska-senate-race-expanding-democratic-majority",
+          "t": "2026-11-18T03:49:55Z",
+          "evidence": "news:france24:a4d690c354ea"
+        },
+        {
+          "outlet": "dw",
+          "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+          "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628",
+          "t": "2026-11-18T06:27:00Z",
+          "evidence": "news:dw:01b72bede9ae"
+        },
+        {
+          "outlet": "sky",
+          "title": "Democrat defeats Republican in Alaska in final midterms Senate race",
+          "url": "https://news.sky.com/story/democrat-defeats-republican-in-alaska-in-final-midterms-senate-race-13613459",
+          "t": "2026-11-18T06:46:00Z",
+          "evidence": "news:sky:d2ae4f5dcdb1"
+        },
+        {
+          "outlet": "npr",
+          "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+          "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+          "t": "2026-11-18T12:14:28Z",
+          "evidence": "news:npr:5daa65e9f5f6"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:df1977ca966d",
+        "news:guardian:fdb7dc7af3b8",
+        "news:aljazeera:714102cb4aaf",
+        "news:france24:a4d690c354ea",
+        "news:dw:01b72bede9ae",
+        "news:sky:d2ae4f5dcdb1",
+        "news:npr:5daa65e9f5f6"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-17",
+            "slug": "us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-ra",
+            "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race"
+          }
+        ]
+      },
+      "headline": "US Democrats flip Alaska Senate seat as Mary Peltola wins race, DW reports."
+    },
+    {
+      "slug": "2026-crimean-bridge-explosions",
+      "lens": "conflict",
+      "title": "2026 Crimean Bridge explosions",
+      "summary": "The Crimean Bridge is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic.",
+      "article": {
+        "title": "2026 Crimean Bridge explosions",
+        "url": "https://en.wikipedia.org/wiki/2026_Crimean_Bridge_explosions",
+        "qid": "Q142193498"
+      },
+      "place": {
+        "name": "Ukraine",
+        "lon": 32.14,
+        "lat": 49.72,
+        "country": "UA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-18:1"
+      },
+      "continent": "Europe",
+      "heat": 87,
+      "why": [
+        "Reported by 5 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "npr",
+          "title": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
+          "t": "2026-11-18T09:43:28Z",
+          "evidence": "news:npr:e47dadc6bc04"
+        },
+        {
+          "outlet": "dw",
+          "title": "What the Crimean bridge attack means for Russia",
+          "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991",
+          "t": "2026-11-18T20:30:00Z",
+          "evidence": "news:dw:1ee630640446"
+        },
+        {
+          "outlet": "bbc",
+          "title": "New video shows explosions moments before part of Crimea Bridge collapses",
+          "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o",
+          "t": "2026-11-18T17:09:43Z",
+          "evidence": "news:bbc:e12a3e473d31"
+        },
+        {
+          "outlet": "france24",
+          "title": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
+          "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
+          "t": "2026-11-18T18:17:34Z",
+          "evidence": "news:france24:968a1a06351e"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+          "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+          "t": "2026-11-18T23:27:37Z",
+          "evidence": "news:guardian:e881df0785eb"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-18:1",
+        "news:npr:e47dadc6bc04",
+        "news:dw:1ee630640446",
+        "wd:Q142193498:P31",
+        "news:bbc:e12a3e473d31",
+        "news:france24:968a1a06351e",
+        "news:guardian:e881df0785eb"
+      ],
+      "headline": "The Crimean Bridge is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic."
+    },
+    {
+      "slug": "grand-theft-auto-vi",
+      "lens": "culture",
+      "title": "Grand Theft Auto VI",
+      "summary": "PlayStation reports a major outage ahead of the release of Grand Theft Auto VI.",
+      "about": "Grand Theft Auto VI is an action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follows the criminal duo of Jason Duval and Lucia Caminos. Players are able to freely roam Leonida's open world.",
+      "article": {
+        "title": "Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+        "qid": "Q23648408"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country of origin",
+        "evidence": "wd:Q23648408:P495"
+      },
+      "continent": "North America",
+      "heat": 70,
+      "why": [
+        "Reported by 2 outlets",
+        "Listed on Wikipedia's Current events",
+        "Read by 858,000 on Wikipedia that day"
+      ],
+      "readers": 858239,
+      "spike": 33.6,
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "What makes 'Grand Theft Auto VI' more than just a game?",
+          "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822",
+          "t": "2026-11-18T17:13:00Z",
+          "evidence": "news:dw:24b2767125c4"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Grand Theft Auto 6 is a masterpiece, say critics",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po",
+          "t": "2026-11-18T17:34:25Z",
+          "evidence": "news:bbc:cdc6a802f0fa"
+        }
+      ],
+      "related": [
+        "Grand Theft Auto",
+        "Grand Theft Auto V",
+        "Rockstar Games",
+        "Manni L. Perez"
+      ],
+      "evidence": [
+        "wiki:2026-11-18:13",
+        "views:en:Grand_Theft_Auto_VI:2026-11-18",
+        "views:en:Grand_Theft_Auto_VI:prior",
+        "views:en:Grand_Theft_Auto:2026-11-18",
+        "views:en:Grand_Theft_Auto:prior",
+        "views:en:Grand_Theft_Auto_V:2026-11-18",
+        "views:en:Grand_Theft_Auto_V:prior",
+        "views:en:Rockstar_Games:2026-11-18",
+        "views:en:Rockstar_Games:prior",
+        "views:en:Manni_L._Perez:2026-11-18",
+        "views:en:Manni_L._Perez:prior",
+        "news:dw:24b2767125c4",
+        "news:bbc:cdc6a802f0fa",
+        "wd:Q23648408:P31"
+      ],
+      "headline": "PlayStation reports a major outage ahead of the release of Grand Theft Auto VI."
+    },
+    {
+      "slug": "trump-arrives-in-china-ahead-of-trilateral-summit-with-putin",
+      "lens": "economy",
+      "title": "Trump arrives in China ahead of trilateral summit with Putin and Xi",
+      "summary": "Trump arrives in China ahead of trilateral summit with Putin and Xi",
+      "about": "The APEC China 2026 is a year-long hosting of the Asia-Pacific Economic Cooperation (APEC) meetings, which will conclude with the APEC Economic Leaders' Meeting in November 2026. It will be the third time China hosted the summit, having previously hosted in 2001 and 2014.",
+      "article": {
+        "title": "APEC China 2026",
+        "url": "https://en.wikipedia.org/wiki/APEC_China_2026",
+        "qid": "Q136689033"
+      },
+      "place": {
+        "name": "Shenzhen",
+        "lon": 114.12,
+        "lat": 22.55,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 64,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "11 headlines over 16 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Why China’s Shenzhen was chosen for APEC summit",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/why-chinas-shenzhen-was-chosen-for-apec-summit",
+          "t": "2026-11-18T00:16:26Z",
+          "evidence": "news:aljazeera:412c87609aaa"
+        },
+        {
+          "outlet": "dw",
+          "title": "APEC summit: What Trump, Xi and Putin want",
+          "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462",
+          "t": "2026-11-18T05:39:00Z",
+          "evidence": "news:dw:5ebb76396afb"
+        },
+        {
+          "outlet": "france24",
+          "title": "🔴Trump arrives in China ahead of historic three-way summit with Putin, Xi",
+          "url": "https://www.france24.com/en/asia-pacific/20261118-xi-putin-meet-ahead-of-historic-trump-trilateral-summit",
+          "t": "2026-11-18T08:49:07Z",
+          "evidence": "news:france24:5673e42f38dc"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:412c87609aaa",
+        "news:dw:5ebb76396afb",
+        "news:france24:5673e42f38dc"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-17",
+            "slug": "canada-and-china-agree-to-further-tariff-reductions-followin",
+            "title": "Canada and China agree to further tariff reductions following talks between…"
+          }
+        ]
+      },
+      "headline": "Why China’s Shenzhen was chosen for APEC summit, Al Jazeera reports."
+    },
+    {
+      "slug": "muslims-projected-to-outnumber-christians-worldwide-by-2035",
+      "lens": "general",
+      "title": "Muslims projected to outnumber Christians worldwide by 2035",
+      "summary": "Muslims projected to outnumber Christians worldwide by 2035",
+      "about": "A Christian is a person who follows or adheres to Christianity, a monotheistic Abrahamic religion based on the life and teachings of Jesus Christ. Christians form the largest religious community in the world.",
+      "article": {
+        "title": "Christians",
+        "url": "https://en.wikipedia.org/wiki/Christians",
+        "qid": "Q106039"
+      },
+      "heat": 55,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Muslims to outnumber Christians by 2035, research shows",
+          "url": "https://www.dw.com/en/muslims-to-outnumber-christians-by-2035-research-shows/a-79984307",
+          "t": "2026-11-18T17:52:00Z",
+          "evidence": "news:dw:31fefd620e5a"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Muslims projected to overtake Christians as world’s largest religious group",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/muslims-projected-to-overtake-christians-as-worlds-largest-religious-group",
+          "t": "2026-11-18T20:21:34Z",
+          "evidence": "news:aljazeera:3a2289d2088f"
+        },
+        {
+          "outlet": "sky",
+          "title": "Muslims projected to outnumber Christians worldwide by 2035",
+          "url": "https://news.sky.com/story/muslims-projected-to-outnumber-christians-by-2035-with-majority-in-uk-non-religious-by-2070-13613731",
+          "t": "2026-11-18T20:42:00Z",
+          "evidence": "news:sky:19bf9ca2f991"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:31fefd620e5a",
+        "news:aljazeera:3a2289d2088f",
+        "news:sky:19bf9ca2f991"
+      ],
+      "headline": "Muslims projected to outnumber Christians worldwide by 2035, Sky News reports."
+    },
+    {
+      "slug": "kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qesh",
+      "lens": "conflict",
+      "title": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+      "summary": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+      "about": "Bahrain, officially the Kingdom of Bahrain, is an island country in the eastern part of Arabian Peninsula in West Asia. Situated near the western shore of the Persian Gulf, the country comprises a small archipelago of 33 natural islands and an additional 50 artificial islands, centred on Bahrain Island, which makes…",
+      "article": {
+        "title": "Bahrain",
+        "url": "https://en.wikipedia.org/wiki/Bahrain",
+        "qid": "Q398"
+      },
+      "place": {
+        "name": "Kuwait",
+        "lon": 47.31,
+        "lat": 29.41,
+        "country": "KW",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 54,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Middle East live: Kuwait, Bahrain report drone and missile attacks",
+          "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+          "t": "2026-11-18T02:06:39Z",
+          "evidence": "news:france24:e3338d2d36dc"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o",
+          "t": "2026-11-18T13:04:48Z",
+          "evidence": "news:bbc:eff63436dd25"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+          "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island",
+          "t": "2026-11-18T16:47:26Z",
+          "evidence": "news:aljazeera:38333810d177"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:e3338d2d36dc",
+        "news:bbc:eff63436dd25",
+        "news:aljazeera:38333810d177"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-15",
+            "slug": "iran-targets-us-military-base-in-bahrain-with-drone-attack",
+            "title": "Iran targets US military base in Bahrain with drone attack"
+          }
+        ]
+      },
+      "headline": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island, Al Jazeera reports."
+    },
+    {
+      "slug": "us-pentagon-chief-hegseth-signs-military-deal-in-venezuela",
+      "lens": "person",
+      "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
+      "summary": "US Pentagon chief Hegseth signs military deal in Venezuela",
+      "about": "Peter Brian Hegseth (born June 6, 1980) is an American politician, U.S. Army veteran, and former television personality who has been serving as the 29th United States secretary of defense since 2025. Hegseth studied politics at Princeton University, where he was the publisher of The Princeton Tory, a conservative…",
+      "article": {
+        "title": "Pete Hegseth",
+        "url": "https://en.wikipedia.org/wiki/Pete_Hegseth",
+        "qid": "Q7172014"
+      },
+      "place": {
+        "name": "Venezuela",
+        "lon": -64.6,
+        "lat": 7.18,
+        "country": "VE",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 54,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Hegseth makes surprise trip to Venezuela, renews military cooperation",
+          "url": "https://www.france24.com/en/americas/20261118-hegseth-makes-surprise-trip-to-venezuela-renews-military-cooperation",
+          "t": "2026-11-18T18:59:20Z",
+          "evidence": "news:france24:c69718d51c80"
+        },
+        {
+          "outlet": "dw",
+          "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
+          "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607",
+          "t": "2026-11-18T20:19:00Z",
+          "evidence": "news:dw:34c2cd46bf99"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "US Defence Secretary Hegseth reveals military partnership on Venezuela trip",
+          "url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela",
+          "t": "2026-11-18T21:01:05Z",
+          "evidence": "news:aljazeera:8fa0b66c7b90"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:c69718d51c80",
+        "news:dw:34c2cd46bf99",
+        "news:aljazeera:8fa0b66c7b90"
+      ],
+      "headline": "US Pentagon chief Hegseth signs military deal in Venezuela, DW reports."
+    },
+    {
+      "slug": "us-loses-measles-free-status-as-cases-soar",
+      "lens": "general",
+      "title": "US loses measles-free status as cases soar",
+      "summary": "US loses measles-free status as cases soar",
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 53,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "health",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "US loses measles-free status amid worst outbreak in 35 years",
+          "url": "https://news.sky.com/story/us-loses-measles-free-status-amid-worst-outbreak-in-35-years-13613526",
+          "t": "2026-11-18T10:42:00Z",
+          "evidence": "news:sky:eb3cdf8f161d"
+        },
+        {
+          "outlet": "france24",
+          "title": "US loses measles-free status as cases soar",
+          "url": "https://www.france24.com/en/video/20261118-us-loses-measles-free-status-as-cases-soar",
+          "t": "2026-11-18T10:50:41Z",
+          "evidence": "news:france24:7b9292736fa3"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "US loses measles-free status after 26 years in historic setback",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_us-loses-measles-free-status-after-26-years-181126",
+          "t": "2026-11-18T20:18:25Z",
+          "evidence": "news:aljazeera:812ea3e34b12"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:sky:eb3cdf8f161d",
+        "news:france24:7b9292736fa3",
+        "news:aljazeera:812ea3e34b12"
+      ],
+      "headline": "US loses measles-free status as cases soar, France 24 reports."
+    },
+    {
+      "slug": "israeli-parliament-elects-eisenkot-ally-matan-kahana-as-new",
+      "lens": "person",
+      "title": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker",
+      "summary": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker",
+      "about": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as prime minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.",
+      "article": {
+        "title": "Benjamin Netanyahu",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+        "qid": "Q43723"
+      },
+      "place": {
+        "name": "Jerusalem",
+        "lon": 35.21,
+        "lat": 31.78,
+        "country": "IL",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 48,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Eisenkot ally elected Knesset speaker with Arab bloc’s backing",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/eisenkot-ally-elected-knesset-speaker-with-arab-blocs-backing",
+          "t": "2026-11-18T00:47:02Z",
+          "evidence": "news:aljazeera:3f09e69b3a19"
+        },
+        {
+          "outlet": "france24",
+          "title": "Israeli parliament elects speaker backed by Netanyahu opponents",
+          "url": "https://www.france24.com/en/video/20261118-israeli-parliament-elects-speaker-backed-by-netanyahu-opponents",
+          "t": "2026-11-18T11:33:01Z",
+          "evidence": "news:france24:09b6db0d2eac"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:3f09e69b3a19",
+        "news:france24:09b6db0d2eac"
+      ],
+      "update": {
+        "day": 5,
+        "previous": [
+          {
+            "date": "2026-11-17",
+            "slug": "israeli-parliament-elects-eisenkot-ally-matan-kahana-as-new",
+            "title": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker"
+          },
+          {
+            "date": "2026-11-14",
+            "slug": "netanyahu-sends-plea-to-eisenkot-for-unity-government",
+            "title": "Netanyahu sends plea to Eisenkot for unity government"
+          }
+        ]
+      },
+      "headline": "Eisenkot ally elected Knesset speaker with Arab bloc’s backing, Al Jazeera reports."
+    },
+    {
+      "slug": "ghana-s-new-60m-presidential-jet-sparks-public-outrage",
+      "lens": "economy",
+      "title": "Ghana's new $60m presidential jet sparks public outrage",
+      "summary": "Ghana's new $60m presidential jet sparks public outrage",
+      "about": "The president of the Republic of Ghana is the elected head of state and head of government of Ghana, as well as commander-in-chief of the Ghana Armed Forces. The current president of Ghana is John Mahama, who won the 2024 presidential election against then vice president, Mahamudu Bawumia, by a margin of 14.94%.",
+      "article": {
+        "title": "President of Ghana",
+        "url": "https://en.wikipedia.org/wiki/President_of_Ghana",
+        "qid": "Q2672728"
+      },
+      "place": {
+        "name": "Ghana",
+        "lon": -1.04,
+        "lat": 7.72,
+        "country": "GH",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 45,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "business",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Ghana's new $60m presidential jet sparks public outrage",
+          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o",
+          "t": "2026-11-18T09:27:51Z",
+          "evidence": "news:bbc:37933f5fe4c2"
+        },
+        {
+          "outlet": "allafrica",
+          "title": "Ghana: Why Can't Ghana Buy a $60m Presidential Jet After Spending $97m On National Cathedral? - Richard Sumah",
+          "url": "https://allafrica.com/stories/202611180669.html",
+          "t": "2026-11-18T18:09:23Z",
+          "evidence": "news:allafrica:028bf17b0b19"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:37933f5fe4c2",
+        "news:allafrica:028bf17b0b19"
+      ],
+      "headline": "Ghana's new $60m presidential jet sparks public outrage, BBC News reports."
+    },
+    {
+      "slug": "nasa-s-space-probe-voyager-1-reaches-the-distance-of-one-lig",
+      "lens": "science",
+      "title": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth",
+      "summary": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
+      "place": {
+        "name": "NASA",
+        "lon": -77.01638889,
+        "lat": 38.88305556,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-18:12"
+      },
+      "continent": "North America",
+      "heat": 42,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Voyager 1 reaches one light-day from Earth after 49 years in space",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/voyager-1-reaches-one-light-day-from-earth-after-49-years-in-space",
+          "t": "2026-11-18T19:30:51Z",
+          "evidence": "news:aljazeera:3b4c1ac22922"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-18:12",
+        "news:aljazeera:3b4c1ac22922"
+      ],
+      "headline": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977."
+    },
+    {
+      "slug": "waymo-pulls-driverless-taxis-from-all-us-freeways",
+      "lens": "organization",
+      "title": "Waymo pulls driverless taxis from all US freeways",
+      "summary": "Waymo pulls driverless taxis from all US freeways",
+      "about": "Waymo LLC ( WAY-moh) is an American autonomous driving technology company headquartered in Mountain View, California. It is a subsidiary of Alphabet Inc., Google's parent company.",
+      "article": {
+        "title": "Waymo",
+        "url": "https://en.wikipedia.org/wiki/Waymo",
+        "qid": "Q15330"
+      },
+      "place": {
+        "name": "California",
+        "lon": -120,
+        "lat": 37,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 39,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Waymo pulls driverless taxis from all US freeways",
+          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo",
+          "t": "2026-11-18T03:07:22Z",
+          "evidence": "news:bbc:2dfd1d8d61a7"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Waymo pulls driverless taxis from freeways across the US after California ban",
+          "url": "https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways",
+          "t": "2026-11-18T22:05:49Z",
+          "evidence": "news:guardian:10e302fb34c3"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:2dfd1d8d61a7",
+        "news:guardian:10e302fb34c3"
+      ],
+      "headline": "Waymo pulls driverless taxis from all US freeways, BBC News reports."
+    },
+    {
+      "slug": "uk-sanctions-firms-over-israeli-west-bank-settlements",
+      "lens": "economy",
+      "title": "UK sanctions firms over Israeli West Bank settlements",
+      "summary": "UK sanctions firms over Israeli West Bank settlements",
+      "place": {
+        "name": "West Bank",
+        "lon": 35.35,
+        "lat": 32,
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 38,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "business",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Israel delays building contracts for West Bank settlement after UK sanctions",
+          "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+          "t": "2026-11-18T14:05:38Z",
+          "evidence": "news:guardian:c909e9e5ddfb"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Israeli settler kills Palestinian grandmother in occupied West Bank",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-settler-kills-palestinian-grandmother-in-occupied-west-bank",
+          "t": "2026-11-18T19:27:42Z",
+          "evidence": "news:aljazeera:a863809b118e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:c909e9e5ddfb",
+        "news:aljazeera:a863809b118e"
+      ],
+      "headline": "Israel delays building contracts for West Bank settlement after UK sanctions, The Guardian reports."
+    }
+  ]
+}

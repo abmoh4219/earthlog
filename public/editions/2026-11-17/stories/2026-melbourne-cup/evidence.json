@@ -1,0 +1,180 @@
+[
+  {
+    "id": "wiki:2026-11-17:22",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-17T00:00:00Z",
+    "lon": 151.21,
+    "lat": -33.86777778,
+    "label": "Sports: Racing NSW launches an investigation after the body of losing horse So You Are is found in a skip bin in Sydney, Australia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+    "quote": "Racing NSW launches an investigation after the body of losing horse So You Are is found in a skip bin in Sydney, Australia.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "CNN",
+        "url": "https://edition.cnn.com/2026/11/17/sport/melbourne-cup-horse-so-you-are-dead-waste-facility"
+      },
+      {
+        "name": "The Guardian Australia",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb"
+      }
+    ]
+  },
+  {
+    "id": "news:guardian:35f3abf59700",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "The Guardian: ‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin (06:39 UTC)",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb",
+    "quote": "‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:897b0115ae99",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "BBC News: Body of Melbourne Cup horse found dumped in Sydney skip (07:01 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo",
+    "quote": "Body of Melbourne Cup horse found dumped in Sydney skip",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q141736900:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Wikidata: \"2026 Melbourne Cup\" is an instance of horse race, recurring sporting event edition",
+    "url": "https://www.wikidata.org/wiki/Q141736900",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:8d39205f7be3",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Sky News: Three Melbourne Cup trophies worth £500k each stolen (04:00 UTC)",
+    "url": "https://news.sky.com/story/police-searching-for-three-stolen-melbourne-cup-trophies-worth-500k-each-13613066",
+    "quote": "Three Melbourne Cup trophies worth £500k each stolen",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1383838055:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" (revision of 2026-11-05 02:43 UTC)",
+    "quote": "The 2026 Melbourne Cup, known commercially as the 2026 Lexus Melbourne Cup, was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  },
+  {
+    "id": "views:en:2026_Melbourne_Cup:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Melbourne Cup\", 19 October 2026 to 17 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Melbourne_Cup&range=latest-30"
+  },
+  {
+    "id": "wd:Q141736900:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Melbourne Cup\": date 3 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q141736900#P585"
+  },
+  {
+    "id": "wd:Q141736900:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Melbourne Cup\": sport horse racing",
+    "url": "https://www.wikidata.org/wiki/Q141736900#P641"
+  },
+  {
+    "id": "wd:Q141736900:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Melbourne Cup\": country Australia",
+    "url": "https://www.wikidata.org/wiki/Q141736900#P17"
+  },
+  {
+    "id": "wiki:box:1383838055:winner",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-05 02:43 UTC): winner: Point Of Law",
+    "quote": "winner: Point Of Law",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  },
+  {
+    "id": "wiki:box:1383838055:jockey",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-05 02:43 UTC): jockey: Ethan Brown",
+    "quote": "jockey: Ethan Brown",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  },
+  {
+    "id": "wiki:box:1383838055:trainer",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-05 02:43 UTC): trainer: Ciaron Maher",
+    "quote": "trainer: Ciaron Maher",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  },
+  {
+    "id": "wiki:box:1383838055:attendance",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-05 02:43 UTC): attendance: 97,112",
+    "quote": "attendance: 97,112",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  },
+  {
+    "id": "wiki:box:1383838055:distance",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-05 02:43 UTC): distance: 3,200 metres",
+    "quote": "distance: 3,200 metres",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  },
+  {
+    "id": "wiki:box:1383838055:dates",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-05 02:43 UTC): dates: 3 November 2026",
+    "quote": "dates: 3 November 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  },
+  {
+    "id": "wiki:box:1383838055:venue",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Melbourne Cup\" infobox (revision of 2026-11-05 02:43 UTC): venue: Flemington Racecourse, Melbourne, Australia",
+    "quote": "venue: Flemington Racecourse, Melbourne, Australia",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Melbourne_Cup&oldid=1383838055"
+  }
+]

@@ -1,0 +1,484 @@
+{
+  "version": 1,
+  "id": "story-2026-11-17-2026-melbourne-cup",
+  "title": "2026 Melbourne Cup",
+  "subtitle": "Sports · 17 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-17T00:01:18Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 141.21,
+    "south": -41.86777778,
+    "east": 161.21,
+    "north": -25.867777779999997
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-17T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": -170.78999999999996,
+      "lat": -20.733166668,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:00:04Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:10Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:16Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:20Z",
+      "lon": 144.9125,
+      "lat": -38.29027778,
+      "range": 550000,
+      "heading": 20,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:22Z",
+      "lon": 144.9125,
+      "lat": -38.29027778,
+      "range": 498046.1825975579,
+      "heading": 11.1,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:24Z",
+      "lon": 144.9125,
+      "lat": -38.29027778,
+      "range": 451000,
+      "heading": 2.1999999999999993,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:27Z",
+      "lon": 144.9125,
+      "lat": -38.99027778,
+      "range": 1300000,
+      "heading": -14,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:34Z",
+      "lon": 144.9125,
+      "lat": -38.99027778,
+      "range": 1177200.0679578641,
+      "heading": 0,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:41Z",
+      "lon": 144.9125,
+      "lat": -38.99027778,
+      "range": 1066000,
+      "heading": 14,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:45Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:47Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:49Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:52Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:01Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:10Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:13Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:14Z",
+      "lon": 151.21,
+      "lat": -34.55527778,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:18Z",
+      "lon": 126.21000000000004,
+      "lat": -34.55527778,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:01Z",
+      "text": "Racing NSW has launched an investigation after the body of losing horse So You Are was found in a skip bin in Sydney, Australia.",
+      "cites": [
+        "wiki:2026-11-17:22"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:09Z",
+      "text": "The 2026 Melbourne Cup, known commercially as the 2026 Lexus Melbourne Cup, was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race.",
+      "cites": [
+        "wiki:rev:1383838055:0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:18Z",
+      "text": "The 2026 Melbourne Cup was held at Flemington Racecourse in Melbourne, Australia.",
+      "cites": [
+        "wiki:box:1383838055:venue"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:26Z",
+      "text": "Point Of Law won the race, ridden by Ethan Brown and trained by Ciaron Maher.",
+      "cites": [
+        "wiki:box:1383838055:winner",
+        "wiki:box:1383838055:jockey",
+        "wiki:box:1383838055:trainer"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:34Z",
+      "text": "The attendance was 97,112 people.",
+      "cites": [
+        "wiki:box:1383838055:attendance"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:43Z",
+      "text": "The story was reported by CNN and The Guardian Australia.",
+      "cites": [
+        "wiki:2026-11-17:22"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:51Z",
+      "text": "The Guardian headlined its story, “‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin.”",
+      "cites": [
+        "news:guardian:35f3abf59700"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:57Z",
+      "text": "BBC News headlined its story, “Body of Melbourne Cup horse found dumped in Sydney skip.”",
+      "cites": [
+        "news:bbc:897b0115ae99"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:03Z",
+      "text": "Sky News headlined its story, “Three Melbourne Cup trophies worth £500k each stolen.”",
+      "cites": [
+        "news:sky:8d39205f7be3"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:12Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-17:22",
+        "wiki:rev:1383838055:0",
+        "views:en:2026_Melbourne_Cup:30d",
+        "wd:Q141736900:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "AU",
+    "lon": 151.21,
+    "lat": -33.86777778,
+    "label": "Sydney"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-17T00:00:17Z",
+      "title": "The venue"
+    },
+    {
+      "t": "2026-11-17T00:00:25Z",
+      "title": "The result"
+    },
+    {
+      "t": "2026-11-17T00:00:42Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-17T00:00:50Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-17T00:01:11Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "result",
+      "t": "2026-11-17T00:00:26Z",
+      "until": "2026-11-17T00:00:42Z",
+      "title": "The result",
+      "note": "From the event's Wikipedia infobox (revision of 2026-11-05).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Winner",
+          "text": "Point Of Law",
+          "cites": [
+            "wiki:box:1383838055:winner"
+          ]
+        },
+        {
+          "label": "Jockey",
+          "text": "Ethan Brown",
+          "cites": [
+            "wiki:box:1383838055:jockey"
+          ]
+        },
+        {
+          "label": "Trainer",
+          "text": "Ciaron Maher",
+          "cites": [
+            "wiki:box:1383838055:trainer"
+          ]
+        },
+        {
+          "label": "Attendance",
+          "text": "97,112",
+          "cites": [
+            "wiki:box:1383838055:attendance"
+          ]
+        },
+        {
+          "label": "Distance",
+          "text": "3,200 metres",
+          "cites": [
+            "wiki:box:1383838055:distance"
+          ]
+        },
+        {
+          "label": "Dates",
+          "text": "3 November 2026",
+          "cites": [
+            "wiki:box:1383838055:dates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-17T00:00:43Z",
+      "until": "2026-11-17T00:00:50Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "CNN",
+          "text": "Open",
+          "url": "https://edition.cnn.com/2026/11/17/sport/melbourne-cup-horse-so-you-are-dead-waste-facility",
+          "cites": [
+            "wiki:2026-11-17:22"
+          ]
+        },
+        {
+          "label": "The Guardian Australia",
+          "text": "Open",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb",
+          "cites": [
+            "wiki:2026-11-17:22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-17T00:00:51Z",
+      "until": "2026-11-17T00:01:11Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb",
+          "cites": [
+            "news:guardian:35f3abf59700"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo",
+          "cites": [
+            "news:bbc:897b0115ae99"
+          ]
+        },
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/police-searching-for-three-stolen-melbourne-cup-trophies-worth-500k-each-13613066",
+          "cites": [
+            "news:sky:8d39205f7be3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-17T00:01:12Z",
+      "until": "2026-11-17T00:01:18Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-17:22"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1383838055:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Melbourne_Cup:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141736900:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:54:58Z",
+    "costUsd": 0.001878
+  }
+}

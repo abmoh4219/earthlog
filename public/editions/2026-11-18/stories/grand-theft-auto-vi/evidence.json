@@ -1,0 +1,384 @@
+[
+  {
+    "id": "wiki:2026-11-18:13",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Science & tech: PlayStation reports a major outage ahead of the release of Grand Theft Auto VI.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "quote": "PlayStation reports a major outage ahead of the release of Grand Theft Auto VI.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "English Wikipedia: 519,632 readers of \"Grand Theft Auto VI\" on 18 Nov 2026",
+    "value": 519632,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_VI:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "\"Grand Theft Auto VI\": normally a median of 15,460 readers a day (8 to 60 days before)",
+    "value": 15460,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "English Wikipedia: 110,668 readers of \"Grand Theft Auto\" on 18 Nov 2026",
+    "value": 110668,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "\"Grand Theft Auto\": normally a median of 4,948 readers a day (8 to 60 days before)",
+    "value": 4948,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_V:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "English Wikipedia: 81,349 readers of \"Grand Theft Auto V\" on 18 Nov 2026",
+    "value": 81349,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_V:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "\"Grand Theft Auto V\": normally a median of 7,673 readers a day (8 to 60 days before)",
+    "value": 7673,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Rockstar_Games:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "English Wikipedia: 79,323 readers of \"Rockstar Games\" on 18 Nov 2026",
+    "value": 79323,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Rockstar_Games:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "\"Rockstar Games\": normally a median of 3,776 readers a day (8 to 60 days before)",
+    "value": 3776,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Manni_L._Perez:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "English Wikipedia: 67,267 readers of \"Manni L. Perez\" on 18 Nov 2026",
+    "value": 67267,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Manni_L._Perez",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Manni_L._Perez:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "\"Manni L. Perez\": normally a median of 3 readers a day (8 to 60 days before)",
+    "value": 3,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Manni_L._Perez",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:24b2767125c4",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "DW: What makes 'Grand Theft Auto VI' more than just a game? (17:13 UTC)",
+    "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822",
+    "quote": "What makes 'Grand Theft Auto VI' more than just a game?",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:cdc6a802f0fa",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "BBC News: Grand Theft Auto 6 is a masterpiece, say critics (17:34 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po",
+    "quote": "Grand Theft Auto 6 is a masterpiece, say critics",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q23648408:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Wikidata: \"Grand Theft Auto VI\" is an instance of video game",
+    "url": "https://www.wikidata.org/wiki/Q23648408",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386583362:144",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grand Theft Auto VI\" (revision of 2026-11-19 07:59 UTC)",
+    "quote": "Rockstar later collaborated with NBA team Miami Heat for A Night in Vice City, a one night event during the concurrent NBA season where the Heat played as \"Vice City\" against the Milwaukee Bucks on 18 November, a day before the game's release.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grand_Theft_Auto_VI&oldid=1386583362"
+  },
+  {
+    "id": "wiki:rev:1386583362:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grand Theft Auto VI\" (revision of 2026-11-19 07:59 UTC)",
+    "quote": "Grand Theft Auto VI is an action-adventure game developed and published by Rockstar Games.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grand_Theft_Auto_VI&oldid=1386583362"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_VI:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Grand Theft Auto VI\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Grand_Theft_Auto_VI&range=latest-30"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Grand Theft Auto\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Grand_Theft_Auto&range=latest-30"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_V:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Grand Theft Auto V\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Grand_Theft_Auto_V&range=latest-30"
+  },
+  {
+    "id": "views:ru:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 55,025 readers of \"Grand Theft Auto VI\" on 18 November 2026",
+    "value": 55025,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:de:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 41,375 readers of \"Grand Theft Auto VI\" on 18 November 2026",
+    "value": 41375,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:fr:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 25,516 readers of \"Grand Theft Auto VI\" on 18 November 2026",
+    "value": 25516,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:es:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 21,699 readers of \"Grand Theft Auto VI\" on 18 November 2026",
+    "value": 21699,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:it:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 19,578 readers of \"Grand Theft Auto VI\" on 18 November 2026",
+    "value": 19578,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:zh:俠盜獵車手VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 18,570 readers of \"俠盜獵車手VI\" on 18 November 2026",
+    "value": 18570,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E4%BF%A0%E7%9B%9C%E7%8D%B5%E8%BB%8A%E6%89%8BVI"
+  },
+  {
+    "id": "views:ja:グランド・セフト・オートVI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 9,348 readers of \"グランド・セフト・オートVI\" on 18 November 2026",
+    "value": 9348,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%BB%E3%83%95%E3%83%88%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%88VI"
+  },
+  {
+    "id": "views:pt:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 7,977 readers of \"Grand Theft Auto VI\" on 18 November 2026",
+    "value": 7977,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:pl:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 7,231 readers of \"Grand Theft Auto VI\" on 18 November 2026",
+    "value": 7231,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:ar:جراند_ثفت_أوتو_6:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 5,688 readers of \"جراند ثفت أوتو 6\" on 18 November 2026",
+    "value": 5688,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AC%D8%B1%D8%A7%D9%86%D8%AF_%D8%AB%D9%81%D8%AA_%D8%A3%D9%88%D8%AA%D9%88_6"
+  },
+  {
+    "id": "wd:Q23648408:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Grand Theft Auto VI\": released 2025",
+    "url": "https://www.wikidata.org/wiki/Q23648408#P577"
+  },
+  {
+    "id": "wd:Q23648408:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Grand Theft Auto VI\": genre action-adventure game, third-person shooter",
+    "url": "https://www.wikidata.org/wiki/Q23648408#P136"
+  },
+  {
+    "id": "wd:Q23648408:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Grand Theft Auto VI\": country of origin United States",
+    "url": "https://www.wikidata.org/wiki/Q23648408#P495"
+  },
+  {
+    "id": "wiki:box:1386583362:artist",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grand Theft Auto VI\" (revision of 2026-11-19 07:59 UTC): Artist: Aaron Garbut",
+    "quote": "Artist: Aaron Garbut",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grand_Theft_Auto_VI&oldid=1386583362"
+  },
+  {
+    "id": "wiki:box:1386583362:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grand Theft Auto VI\" (revision of 2026-11-19 07:59 UTC): Music: Justice",
+    "quote": "Music: Justice",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grand_Theft_Auto_VI&oldid=1386583362"
+  },
+  {
+    "id": "wiki:box:1386583362:publisher",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grand Theft Auto VI\" (revision of 2026-11-19 07:59 UTC): Publisher: Rockstar Games",
+    "quote": "Publisher: Rockstar Games",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grand_Theft_Auto_VI&oldid=1386583362"
+  },
+  {
+    "id": "wiki:box:1386583362:released",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Grand Theft Auto VI\" (revision of 2026-11-19 07:59 UTC): Released: 19 November 2026",
+    "quote": "Released: 19 November 2026",
+    "url": "https://en.wikipedia.org/w/index.php?title=Grand_Theft_Auto_VI&oldid=1386583362"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "news:france24:8b27383e93ef",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "France 24: UEFA backs bid by France's Diallo to take on Infantino as FIFA chief (11:04 UTC)",
+    "url": "https://www.france24.com/en/video/20261117-uefa-backs-bid-by-france-s-diallo-to-take-on-infantino-as-fifa-chief",
+    "quote": "UEFA backs bid by France's Diallo to take on Infantino as FIFA chief",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:3ed0c66833db",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Al Jazeera: Infantino’s FIFA challenger Diallo claims to have support beyond Europe (13:09 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/17/infantinos-fifa-challenger-diallo-claims-to-have-support-beyond-europe",
+    "quote": "Infantino’s FIFA challenger Diallo claims to have support beyond Europe",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386236169:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"France\" (revision of 2026-11-17 11:45 UTC)",
+    "quote": "France, officially the French Republic, is a country primarily located in Western Europe.",
+    "url": "https://en.wikipedia.org/w/index.php?title=France&oldid=1386236169"
+  },
+  {
+    "id": "wiki:2026-11-12:4",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-12",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-12: Guatemala receives the remains of 1967 Nobel Prize in Literature recipient Miguel Ángel Asturias from France, 52 years after his death. President Bernardo Arévalo attends a ceremony ahead of the writer's burial in Guatemala City.",
+    "quote": "Guatemala receives the remains of 1967 Nobel Prize in Literature recipient Miguel Ángel Asturias from France, 52 years after his death.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_12&oldid=1385702080"
+  },
+  {
+    "id": "wiki:2026-11-14:12",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-14",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-14: Student protesters, unions, and the yellow vests hold another nationwide protest in France, with over 100,000 participants.",
+    "quote": "Student protesters, unions, and the yellow vests hold another nationwide protest in France, with over 100,000 participants.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929"
+  },
+  {
+    "id": "views:en:France:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"France\", 19 October 2026 to 17 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=France&range=latest-30"
+  },
+  {
+    "id": "wd:Q142:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"France\": founded 4 October 1958",
+    "url": "https://www.wikidata.org/wiki/Q142#P571"
+  },
+  {
+    "id": "wd:Q142:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"France\": country France",
+    "url": "https://www.wikidata.org/wiki/Q142#P17"
+  }
+]

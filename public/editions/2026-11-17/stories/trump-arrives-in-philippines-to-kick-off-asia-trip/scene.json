@@ -1,0 +1,758 @@
+{
+  "version": 1,
+  "id": "story-2026-11-17-trump-arrives-in-philippines-to-kick-off-asia-trip",
+  "title": "Trump arrives in Philippines to kick off Asia trip",
+  "subtitle": "Politics · 17 November 2026 · headline from NPR",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-17T00:01:28Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 112.47,
+    "south": 3.1999999999999993,
+    "east": 132.47,
+    "north": 19.2
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-17T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-17T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": 160.47000000000003,
+      "lat": 5.444999999999999,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:00:04Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:10Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:16Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:20Z",
+      "lon": 122.47,
+      "lat": 3.1999999999999993,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:27Z",
+      "lon": 122.47,
+      "lat": 3.1999999999999993,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:34Z",
+      "lon": 122.47,
+      "lat": 3.1999999999999993,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:38Z",
+      "lon": 122.47,
+      "lat": 9.715,
+      "range": 3500000,
+      "heading": 180,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:43Z",
+      "lon": 122.47,
+      "lat": 9.715,
+      "range": 3169384.7983480957,
+      "heading": 193.7,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:48Z",
+      "lon": 122.47,
+      "lat": 9.715,
+      "range": 2870000,
+      "heading": 207.4,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:51Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:55Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 9236492.840900164,
+      "heading": -1.3000000000000007,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:59Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 8363999.999999999,
+      "heading": -12.600000000000001,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:02Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:11Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:20Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:23Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:24Z",
+      "lon": 122.47,
+      "lat": 9.075,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:28Z",
+      "lon": 97.47000000000003,
+      "lat": 9.075,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:01Z",
+      "text": "Trump has arrived in the Philippines to kick off an Asia trip, NPR reports.",
+      "cites": [
+        "news:npr:0a5288e228d8"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:09Z",
+      "text": "France 24, DW and BBC News also covered the trip, which is set to include talks with Xi and Putin.",
+      "cites": [
+        "news:france24:eacedd0e2220",
+        "news:dw:bda6332dd0f0",
+        "news:bbc:26c8ffc003ab"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:18Z",
+      "text": "Inflation in the Philippines fell to 1.7% in 2025, down from 6.0% in 2023.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:PH"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:26Z",
+      "text": "The economy grew 4.4% in 2025, and unemployment stood at 2.2%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:PH",
+        "wb:SL.UEM.TOTL.ZS:PH"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:36Z",
+      "text": "Across East Asia and Pacific, the Philippines' 1.7% compares with a median of 2.1%, while the highest is Mongolia at 8.6%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:50Z",
+      "text": "The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia.",
+      "cites": [
+        "wiki:rev:1385713286:0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:01Z",
+      "text": "France 24 headlined its report: Trump kicks off Asia trip that will see nuclear talks with Xi, Putin.",
+      "cites": [
+        "news:france24:eacedd0e2220"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:07Z",
+      "text": "DW's headline read: Trump kicks off Asia tour ahead of major talks with Putin, Xi in China.",
+      "cites": [
+        "news:dw:bda6332dd0f0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:13Z",
+      "text": "NPR's headline was: Trump arrives in Philippines to kick off Asia trip.",
+      "cites": [
+        "news:npr:0a5288e228d8"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:22Z",
+      "text": "Sources include France 24, DW, NPR and BBC News, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385713286:0",
+        "views:en:Philippines:30d",
+        "wd:Q928:P571",
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PH",
+    "lon": 122.47,
+    "lat": 11.2,
+    "label": "Philippines"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-17T00:00:17Z",
+      "title": "Philippines in numbers"
+    },
+    {
+      "t": "2026-11-17T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-17T00:00:49Z",
+      "title": "About Philippines"
+    },
+    {
+      "t": "2026-11-17T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-17T00:01:21Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "Inflation, consumer prices, Philippines",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Philippines",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.7898363479759
+            },
+            {
+              "x": "2011",
+              "y": 4.7184170471842
+            },
+            {
+              "x": "2012",
+              "y": 3.02696391124796
+            },
+            {
+              "x": "2013",
+              "y": 2.58268766141794
+            },
+            {
+              "x": "2014",
+              "y": 3.59782343864211
+            },
+            {
+              "x": "2015",
+              "y": 0.674192536845408
+            },
+            {
+              "x": "2016",
+              "y": 1.25369880080981
+            },
+            {
+              "x": "2017",
+              "y": 2.85318772590947
+            },
+            {
+              "x": "2018",
+              "y": 5.30934661627706
+            },
+            {
+              "x": "2019",
+              "y": 2.39206534422404
+            },
+            {
+              "x": "2020",
+              "y": 2.3931623931624
+            },
+            {
+              "x": "2021",
+              "y": 3.92718022100332
+            },
+            {
+              "x": "2022",
+              "y": 5.82115811213954
+            },
+            {
+              "x": "2023",
+              "y": 5.97802515541409
+            },
+            {
+              "x": "2024",
+              "y": 3.21260487006347
+            },
+            {
+              "x": "2025",
+              "y": 1.6587364525509
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PH"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "GDP growth, Philippines",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Philippines",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 7.33449996034538
+            },
+            {
+              "x": "2011",
+              "y": 3.85823282795663
+            },
+            {
+              "x": "2012",
+              "y": 6.89695171050985
+            },
+            {
+              "x": "2013",
+              "y": 6.75053130142255
+            },
+            {
+              "x": "2014",
+              "y": 6.34798748260867
+            },
+            {
+              "x": "2015",
+              "y": 6.34830971672761
+            },
+            {
+              "x": "2016",
+              "y": 7.14945675000752
+            },
+            {
+              "x": "2017",
+              "y": 6.9309883258402
+            },
+            {
+              "x": "2018",
+              "y": 6.34148557153473
+            },
+            {
+              "x": "2019",
+              "y": 6.11852566221303
+            },
+            {
+              "x": "2020",
+              "y": -9.51829474045297
+            },
+            {
+              "x": "2021",
+              "y": 5.71473313185116
+            },
+            {
+              "x": "2022",
+              "y": 7.58098212785563
+            },
+            {
+              "x": "2023",
+              "y": 5.51894967856043
+            },
+            {
+              "x": "2024",
+              "y": 5.71474526128652
+            },
+            {
+              "x": "2025",
+              "y": 4.40240158710621
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:PH"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "Unemployment, Philippines",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Philippines",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.605
+            },
+            {
+              "x": "2011",
+              "y": 3.592
+            },
+            {
+              "x": "2012",
+              "y": 3.504
+            },
+            {
+              "x": "2013",
+              "y": 3.497
+            },
+            {
+              "x": "2014",
+              "y": 3.6
+            },
+            {
+              "x": "2015",
+              "y": 3.068
+            },
+            {
+              "x": "2016",
+              "y": 2.695
+            },
+            {
+              "x": "2017",
+              "y": 2.552
+            },
+            {
+              "x": "2018",
+              "y": 2.338
+            },
+            {
+              "x": "2019",
+              "y": 2.237
+            },
+            {
+              "x": "2020",
+              "y": 2.522
+            },
+            {
+              "x": "2021",
+              "y": 3.398
+            },
+            {
+              "x": "2022",
+              "y": 2.598
+            },
+            {
+              "x": "2023",
+              "y": 2.2
+            },
+            {
+              "x": "2024",
+              "y": 2.202
+            },
+            {
+              "x": "2025",
+              "y": 2.235
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:PH"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-17T00:00:36Z",
+      "until": "2026-11-17T00:00:49Z",
+      "title": "Inflation, East Asia & Pacific",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Mongolia",
+          "text": "8.6%",
+          "value": 8.60536487369694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MN"
+          ]
+        },
+        {
+          "label": "Laos",
+          "text": "7.7%",
+          "value": 7.74226936553694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LA"
+          ]
+        },
+        {
+          "label": "Papua New Guinea",
+          "text": "4.4%",
+          "value": 4.42141364166485,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PG"
+          ]
+        },
+        {
+          "label": "Solomon Islands",
+          "text": "3.4%",
+          "value": 3.36462189317824,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SB"
+          ]
+        },
+        {
+          "label": "Vietnam",
+          "text": "3.3%",
+          "value": 3.30999314219739,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:VN"
+          ]
+        },
+        {
+          "label": "Japan",
+          "text": "3.2%",
+          "value": 3.17253034260247,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:JP"
+          ]
+        },
+        {
+          "label": "Australia",
+          "text": "2.9%",
+          "value": 2.87403791660173,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AU"
+          ]
+        },
+        {
+          "label": "New Zealand",
+          "text": "2.8%",
+          "value": 2.8397963180572,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NZ"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.12309421458659,
+        "label": "median 2.1%"
+      }
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-17T00:01:01Z",
+      "until": "2026-11-17T00:01:21Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/asia-pacific/20261117-trump-asia-nuclear-talks-china-russia",
+          "cites": [
+            "news:france24:eacedd0e2220"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/trump-kicks-off-asia-tour-ahead-of-major-talks-with-putin-xi-in-china/live-79964719",
+          "cites": [
+            "news:dw:bda6332dd0f0"
+          ]
+        },
+        {
+          "label": "NPR",
+          "text": "Open",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
+          "cites": [
+            "news:npr:0a5288e228d8"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no",
+          "cites": [
+            "news:bbc:26c8ffc003ab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-17T00:01:22Z",
+      "until": "2026-11-17T00:01:28Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385713286:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Philippines:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q928:P571"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:54:58Z",
+    "costUsd": 0.001154
+  }
+}

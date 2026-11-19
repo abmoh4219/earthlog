@@ -1,0 +1,942 @@
+{
+  "version": 1,
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-19T07:54:05Z",
+  "candidates": 55,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "crimean-bridge",
+      "lens": "conflict",
+      "title": "Crimean Bridge",
+      "summary": "The Crimean Bridge is struck by Ukrainian drones for the second day in a row, killing two people and prompting Russian authorities to close vehicle traffic again. Open-source intelligence report that a section of the road bridge damaged yesterday has collapsed into the Kerch Strait.",
+      "about": "The Crimean Bridge, also called Kerch Strait Bridge or Kerch Bridge, is a double road and rail bridge spanning the Kerch Strait between the Taman Peninsula of Krasnodar Krai in Russia and the Kerch Peninsula of Crimea. It consists of a four-lane road bridge, whose main span was destroyed in 2026 by a Ukrainian attack, and a double-track railway bridge. Built by Russia after its 2014 annexation of Crimea, the bridge cost ₽227.92 billion (€3.23 billion) and has a length of 19 km (12 mi), making it the longest bridge in Europe and the longest bridge constructed by Russia.",
+      "article": {
+        "title": "Crimean Bridge",
+        "url": "https://en.wikipedia.org/wiki/Crimean_Bridge",
+        "qid": "Q2652980"
+      },
+      "place": {
+        "name": "Kerch Strait",
+        "lon": 36.5,
+        "lat": 45.25,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:5"
+      },
+      "continent": "Europe",
+      "heat": 100,
+      "why": [
+        "Reported by 5 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "13 headlines over 17 hours",
+        "Read by 64,000 on Wikipedia that day"
+      ],
+      "readers": 63755,
+      "spike": 452.2,
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "🔴 Live: Kerch Bridge to occupied Crimea closed after Ukrainian strikes collapse road section",
+          "url": "https://www.france24.com/en/europe/20261117-live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water-ukraine",
+          "t": "2026-11-17T11:11:20Z",
+          "evidence": "news:france24:ed14a50b56b5"
+        },
+        {
+          "outlet": "guardian",
+          "title": "How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
+          "url": "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule",
+          "t": "2026-11-17T17:30:40Z",
+          "evidence": "news:guardian:b3d40d0737d8"
+        },
+        {
+          "outlet": "dw",
+          "title": "Ukraine: Russian strikes hit bridges in Kyiv, mayor says",
+          "url": "https://www.dw.com/en/ukraine-russian-strikes-hit-bridges-in-kyiv-mayor-says/live-79964446",
+          "t": "2026-11-17T02:28:00Z",
+          "evidence": "news:dw:b69d99a29317"
+        },
+        {
+          "outlet": "npr",
+          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+          "t": "2026-11-17T09:50:45Z",
+          "evidence": "news:npr:b0b00be7208d"
+        },
+        {
+          "outlet": "bbc",
+          "title": "BBC reports from Kyiv bridge hit by Russian attack",
+          "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo",
+          "t": "2026-11-17T15:54:15Z",
+          "evidence": "news:bbc:5cea82209ab9"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:5",
+        "views:en:Crimean_Bridge:2026-11-17",
+        "views:en:Crimean_Bridge:prior",
+        "news:france24:ed14a50b56b5",
+        "news:guardian:b3d40d0737d8",
+        "wd:Q2652980:P31",
+        "news:dw:b69d99a29317",
+        "news:npr:b0b00be7208d",
+        "news:bbc:5cea82209ab9"
+      ],
+      "headline": "The Crimean Bridge is struck by Ukrainian drones for the second day in a row, killing two people and prompting Russian authorities to close vehicle traffic again."
+    },
+    {
+      "slug": "canada-and-china-agree-to-further-tariff-reductions-followin",
+      "lens": "economy",
+      "title": "Canada and China agree to further tariff reductions following talks between…",
+      "summary": "Canada and China agree to further tariff reductions following talks between Canadian prime minister Mark Carney and Chinese leader Xi Jinping before the APEC summit in Shenzhen. China reduces tariffs on C$400 million (¥1.8 billion) in Canadian exports, while Canada extends relief for Chinese steel and aluminium.",
+      "article": {
+        "title": "Canada–China relations",
+        "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93China_relations",
+        "qid": "Q5029555"
+      },
+      "place": {
+        "name": "Shenzhen",
+        "lon": 114.05444444,
+        "lat": 22.54666667,
+        "country": "CN",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:9"
+      },
+      "continent": "Asia",
+      "heat": 95,
+      "why": [
+        "Reported by 5 outlets from 3 regions",
+        "Listed on Wikipedia's Current events",
+        "11 headlines over 20 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "China, Canada agree to further reduce tariffs at APEC summit in Shenzhen",
+          "url": "https://www.france24.com/en/tv-shows/business/20261117-china-canada-agree-to-further-reduce-tariffs-at-apec-summit-in-shenzhen",
+          "t": "2026-11-17T09:45:26Z",
+          "evidence": "news:france24:0b512dc4301c"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "China, Canada expand tariff relief after Carney-Xi meeting",
+          "url": "https://www.aljazeera.com/economy/2026/11/17/china-canada-expand-tariff-relief-after-carney-xi-meeting",
+          "t": "2026-11-17T20:11:41Z",
+          "evidence": "news:aljazeera:b9e196c3311f"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go",
+          "t": "2026-11-17T02:37:53Z",
+          "evidence": "news:bbc:6b3f9293b8b2"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Hi-tech Shenzhen takes centre stage as Xi sends ‘Chinamaxxing’ message at Apec summit",
+          "url": "https://www.theguardian.com/world/2026/nov/17/hi-tech-shenzhen-chinamaxxing-xi-apec-summit",
+          "t": "2026-11-17T11:18:26Z",
+          "evidence": "news:guardian:bf1b52248997"
+        },
+        {
+          "outlet": "npr",
+          "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+          "t": "2026-11-17T12:20:57Z",
+          "evidence": "news:npr:a9af97284a04"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:9",
+        "news:france24:0b512dc4301c",
+        "news:aljazeera:b9e196c3311f",
+        "wd:Q5029555:P31",
+        "news:bbc:6b3f9293b8b2",
+        "news:guardian:bf1b52248997",
+        "news:npr:a9af97284a04"
+      ],
+      "headline": "Canada and China agree to further tariff reductions following talks between Canadian prime minister Mark Carney and Chinese leader Xi Jinping before the APEC summit in Shenzhen."
+    },
+    {
+      "slug": "a-72-year-old-palestinian-woman-is-killed-and-ten-others-are",
+      "lens": "conflict",
+      "title": "A 72-year-old Palestinian woman is killed and ten others are injured in an…",
+      "summary": "A 72-year-old Palestinian woman is killed and ten others are injured in an attack by Israeli settlers on Palestinian homes in the village of Ein ad-Duyuk at-Tahta west of Jericho in the occupied West Bank.",
+      "article": {
+        "title": "Israeli incursions in the West Bank during the Gaza war, Israeli settler violence",
+        "url": "https://en.wikipedia.org/wiki/Israeli_incursions_in_the_West_Bank_during_the_Gaza_war%2C_Israeli_settler_violence"
+      },
+      "place": {
+        "name": "Ein ad-Duyuk at-Tahta",
+        "lon": 35.43833333,
+        "lat": 31.86361111,
+        "country": "PS",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:2"
+      },
+      "continent": "Asia",
+      "heat": 93,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "72 people involved, per the headlines",
+        "8 headlines over 15 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Israeli settler pogrom kills Palestinian woman, wounds 10 people",
+          "url": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people",
+          "t": "2026-11-17T18:43:46Z",
+          "evidence": "news:aljazeera:3ef7f1dcfd6e"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Palestinian woman shot dead by Israeli settlers near Jericho, witnesses say",
+          "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say",
+          "t": "2026-11-17T20:21:48Z",
+          "evidence": "news:guardian:489fc4dc7729"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+          "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo",
+          "t": "2026-11-17T20:30:20Z",
+          "evidence": "news:bbc:7036da4c8754"
+        },
+        {
+          "outlet": "sky",
+          "title": "UK sanctions eight firms building Israeli settlements in the West Bank",
+          "url": "https://news.sky.com/story/uk-sanctions-eight-firms-building-israeli-settlements-in-the-west-bank-13612666",
+          "t": "2026-11-17T06:12:00Z",
+          "evidence": "news:sky:4782dfd39bc5"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:2",
+        "news:aljazeera:3ef7f1dcfd6e",
+        "news:guardian:489fc4dc7729",
+        "news:bbc:7036da4c8754",
+        "news:sky:4782dfd39bc5"
+      ],
+      "headline": "A 72-year-old Palestinian woman is killed and ten others are injured in an attack by Israeli settlers on Palestinian homes in the village of Ein ad-Duyuk at-Tahta west of Jericho in the occupied West Bank."
+    },
+    {
+      "slug": "five-eu-countries-announce-migrant-deportation-centre-in-rwa",
+      "lens": "general",
+      "title": "Five EU countries announce migrant deportation centre in Rwanda",
+      "summary": "Five EU countries announce migrant deportation centre in Rwanda",
+      "place": {
+        "name": "Rwanda",
+        "lon": 30.1,
+        "lat": -1.9,
+        "country": "RW",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 71,
+      "why": [
+        "Reported by 5 outlets from 3 regions"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+          "t": "2026-11-17T01:10:59Z",
+          "evidence": "news:guardian:8a89a626759e"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "EU countries announce migrant deportation centre in Rwanda",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda",
+          "t": "2026-11-17T01:12:28Z",
+          "evidence": "news:aljazeera:79d73ca14561"
+        },
+        {
+          "outlet": "allafrica",
+          "title": "Rwanda: What to Know About Migrant Partnership Between Rwanda and Five EU Countries",
+          "url": "https://allafrica.com/stories/202611170105.html",
+          "t": "2026-11-17T05:01:01Z",
+          "evidence": "news:allafrica:592a5d60f12d"
+        },
+        {
+          "outlet": "dw",
+          "title": "Germany news: Plans for Rwanda migrant hub come under fire",
+          "url": "https://www.dw.com/en/germany-news-plans-for-rwanda-migrant-hub-come-under-fire/live-79965639",
+          "t": "2026-11-17T10:15:00Z",
+          "evidence": "news:dw:9c6685ac3d74"
+        },
+        {
+          "outlet": "france24",
+          "title": "5 European countries aim to send rejected asylum seekers to Rwanda",
+          "url": "https://www.france24.com/en/video/20261117-5-european-countries-aim-to-send-rejected-asylum-seekers-to-rwanda",
+          "t": "2026-11-17T10:41:53Z",
+          "evidence": "news:france24:70eea9f76cd8"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:8a89a626759e",
+        "news:aljazeera:79d73ca14561",
+        "news:allafrica:592a5d60f12d",
+        "news:dw:9c6685ac3d74",
+        "news:france24:70eea9f76cd8"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-16",
+            "slug": "five-eu-countries-announce-migrant-deportation-centre-in-rwa",
+            "title": "Five EU countries announce migrant deportation centre in Rwanda"
+          }
+        ]
+      },
+      "headline": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda, The Guardian reports."
+    },
+    {
+      "slug": "a-russian-air-force-antonov-an-12-crashes-near-kemerovo",
+      "lens": "accident",
+      "title": "A Russian Air Force Antonov An-12 crashes near Kemerovo",
+      "summary": "A Russian Air Force Antonov An-12 crashes near Kemerovo, Russia, killing all 19 people on board.",
+      "article": {
+        "title": "2026 Russian Air Force Antonov An-12 crash",
+        "url": "https://en.wikipedia.org/wiki/2026_Russian_Air_Force_Antonov_An-12_crash",
+        "qid": "Q142197994"
+      },
+      "place": {
+        "name": "Kemerovo",
+        "lon": 86.06666667,
+        "lat": 55.36666667,
+        "country": "RU",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:10"
+      },
+      "continent": "Europe",
+      "heat": 66,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "19 people involved, per the headlines"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Russian military plane crashes, killing all 19 on board",
+          "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo",
+          "t": "2026-11-17T21:06:11Z",
+          "evidence": "news:bbc:0936839706b7"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Moment Russian military plane crashes in Siberia, killing 19",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19",
+          "t": "2026-11-17T21:25:43Z",
+          "evidence": "news:aljazeera:c67b59e038c2"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:10",
+        "news:bbc:0936839706b7",
+        "news:aljazeera:c67b59e038c2"
+      ],
+      "headline": "A Russian Air Force Antonov An-12 crashes near Kemerovo, Russia, killing all 19 people on board."
+    },
+    {
+      "slug": "2026-melbourne-cup",
+      "lens": "sports",
+      "title": "2026 Melbourne Cup",
+      "summary": "Racing NSW launches an investigation after the body of losing horse So You Are is found in a skip bin in Sydney, Australia.",
+      "article": {
+        "title": "2026 Melbourne Cup",
+        "url": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
+        "qid": "Q141736900"
+      },
+      "place": {
+        "name": "Sydney",
+        "lon": 151.21,
+        "lat": -33.86777778,
+        "country": "AU",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:22"
+      },
+      "continent": "Oceania",
+      "heat": 64,
+      "why": [
+        "Reported by 3 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "‘Disgusted by it’: body of Melbourne Cup race horse found dumped in Sydney skip bin",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/17/disgusted-by-it-body-of-melbourne-cup-horse-found-dumped-in-sydney-skip-bin-ntwnfb",
+          "t": "2026-11-17T06:39:24Z",
+          "evidence": "news:guardian:35f3abf59700"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Body of Melbourne Cup horse found dumped in Sydney skip",
+          "url": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo",
+          "t": "2026-11-17T07:01:00Z",
+          "evidence": "news:bbc:897b0115ae99"
+        },
+        {
+          "outlet": "sky",
+          "title": "Three Melbourne Cup trophies worth £500k each stolen",
+          "url": "https://news.sky.com/story/police-searching-for-three-stolen-melbourne-cup-trophies-worth-500k-each-13613066",
+          "t": "2026-11-17T04:00:00Z",
+          "evidence": "news:sky:8d39205f7be3"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:22",
+        "news:guardian:35f3abf59700",
+        "news:bbc:897b0115ae99",
+        "wd:Q141736900:P31",
+        "news:sky:8d39205f7be3"
+      ],
+      "headline": "Racing NSW launches an investigation after the body of losing horse So You Are is found in a skip bin in Sydney, Australia."
+    },
+    {
+      "slug": "investigative-journalist-camilo-rodriguez-is-shot-dead-in-hi",
+      "lens": "general",
+      "title": "Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo…",
+      "summary": "Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo Domingo, Heredia, Costa Rica, in the first journalist death in the country in at least 25 years.",
+      "article": {
+        "title": "Crime in Costa Rica",
+        "url": "https://en.wikipedia.org/wiki/Crime_in_Costa_Rica",
+        "qid": "Q60743570"
+      },
+      "place": {
+        "name": "Santo Domingo, Costa Rica",
+        "lon": -84.0685928,
+        "lat": 9.9880112,
+        "country": "CR",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:15"
+      },
+      "continent": "North America",
+      "heat": 63,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Costa Rican journalist shot dead in first such killing in 25 years",
+          "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead",
+          "t": "2026-11-17T17:19:12Z",
+          "evidence": "news:guardian:c83fbb08e25b"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Journalist who exposed alleged drug links shot dead in Costa Rica",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/journalist-who-exposed-alleged-drug-links-shot-dead-in-costa-rica",
+          "t": "2026-11-17T09:18:37Z",
+          "evidence": "news:aljazeera:44055b89138d"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Gunmen kill Costa Rican journalist who reported on drugs trade",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo",
+          "t": "2026-11-17T11:58:16Z",
+          "evidence": "news:bbc:3cd7da8937d5"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:15",
+        "news:guardian:c83fbb08e25b",
+        "wd:Q60743570:P31",
+        "news:aljazeera:44055b89138d",
+        "news:bbc:3cd7da8937d5"
+      ],
+      "headline": "Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo Domingo, Heredia, Costa Rica, in the first journalist death in the country in at least 25 years."
+    },
+    {
+      "slug": "trump-arrives-in-philippines-to-kick-off-asia-trip",
+      "lens": "general",
+      "title": "Trump arrives in Philippines to kick off Asia trip",
+      "summary": "Trump arrives in Philippines to kick off Asia trip",
+      "place": {
+        "name": "Philippines",
+        "lon": 122.47,
+        "lat": 11.2,
+        "country": "PH",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 58,
+      "why": [
+        "Reported by 4 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Trump kicks off Asia trip that will see nuclear talks with Xi, Putin",
+          "url": "https://www.france24.com/en/asia-pacific/20261117-trump-asia-nuclear-talks-china-russia",
+          "t": "2026-11-17T03:07:59Z",
+          "evidence": "news:france24:eacedd0e2220"
+        },
+        {
+          "outlet": "dw",
+          "title": "Trump kicks off Asia tour ahead of major talks with Putin, Xi in China",
+          "url": "https://www.dw.com/en/trump-kicks-off-asia-tour-ahead-of-major-talks-with-putin-xi-in-china/live-79964719",
+          "t": "2026-11-17T07:34:00Z",
+          "evidence": "news:dw:bda6332dd0f0"
+        },
+        {
+          "outlet": "npr",
+          "title": "Trump arrives in Philippines to kick off Asia trip",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
+          "t": "2026-11-17T10:43:55Z",
+          "evidence": "news:npr:0a5288e228d8"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
+          "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no",
+          "t": "2026-11-17T20:25:46Z",
+          "evidence": "news:bbc:26c8ffc003ab"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:eacedd0e2220",
+        "news:dw:bda6332dd0f0",
+        "news:npr:0a5288e228d8",
+        "news:bbc:26c8ffc003ab"
+      ],
+      "headline": "Trump arrives in Philippines to kick off Asia trip, NPR reports."
+    },
+    {
+      "slug": "the-pan-american-health-organization-revokes-the-measles-eli",
+      "lens": "general",
+      "title": "The Pan American Health Organization revokes the measles elimination statuses…",
+      "summary": "The Pan American Health Organization revokes the measles elimination statuses of Bolivia, Mexico, and the United States. For the U.S., the organization cited continuous domestic transmission for over 12 months amid more than 5,700 reported infections and multiple deaths in 2026.",
+      "article": {
+        "title": "Measles resurgence in the Americas",
+        "url": "https://en.wikipedia.org/wiki/Measles_resurgence_in_the_Americas",
+        "qid": "Q137035337"
+      },
+      "place": {
+        "name": "Bolivia",
+        "lon": -64.59,
+        "lat": -16.67,
+        "country": "BO",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:12"
+      },
+      "continent": "South America",
+      "heat": 55,
+      "why": [
+        "Reported by 3 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "US and Mexico lose measles-free status",
+          "url": "https://www.dw.com/en/us-and-mexico-lose-measles-free-status/a-79973966",
+          "t": "2026-11-17T16:40:00Z",
+          "evidence": "news:dw:f59bc5b58da7"
+        },
+        {
+          "outlet": "france24",
+          "title": "US, Mexico and Bolivia lose measles-free status as deaths mount",
+          "url": "https://www.france24.com/en/americas/20261117-us-mexico-and-bolivia-lose-measles-free-status-as-deaths-mount",
+          "t": "2026-11-17T21:30:23Z",
+          "evidence": "news:france24:3ecebbb665bd"
+        },
+        {
+          "outlet": "bbc",
+          "title": "US loses measles elimination status after 26 years amid record case numbers",
+          "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo",
+          "t": "2026-11-17T21:04:00Z",
+          "evidence": "news:bbc:7e169f37829a"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:12",
+        "news:dw:f59bc5b58da7",
+        "news:france24:3ecebbb665bd",
+        "news:bbc:7e169f37829a"
+      ],
+      "headline": "The Pan American Health Organization revokes the measles elimination statuses of Bolivia, Mexico, and the United States. For the U.S.…"
+    },
+    {
+      "slug": "israeli-parliament-elects-eisenkot-ally-matan-kahana-as-new",
+      "lens": "person",
+      "title": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker",
+      "summary": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker",
+      "about": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as prime minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.",
+      "article": {
+        "title": "Benjamin Netanyahu",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+        "qid": "Q43723"
+      },
+      "place": {
+        "name": "Jerusalem",
+        "lon": 35.21,
+        "lat": 31.78,
+        "country": "IL",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 52,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker",
+          "url": "https://www.france24.com/en/middle-east/20261117-%F0%9F%94%B4-israeli-parliament-elects-eisenkot-ally-matan-kahana-as-speaker",
+          "t": "2026-11-17T21:26:27Z",
+          "evidence": "news:france24:0f0856a90608"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Israeli parliament elects new speaker backed by Netanyahu’s opponents",
+          "url": "https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents",
+          "t": "2026-11-17T22:30:17Z",
+          "evidence": "news:guardian:e57fb579949b"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Israel parliament elects Gadi Eisenkot ally Matan Kahana as new speaker",
+          "url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker",
+          "t": "2026-11-17T23:28:54Z",
+          "evidence": "news:aljazeera:de6379a9aa7c"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:0f0856a90608",
+        "news:guardian:e57fb579949b",
+        "news:aljazeera:de6379a9aa7c"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-14",
+            "slug": "netanyahu-sends-plea-to-eisenkot-for-unity-government",
+            "title": "Netanyahu sends plea to Eisenkot for unity government"
+          }
+        ]
+      },
+      "headline": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker, France 24 reports."
+    },
+    {
+      "slug": "forty-six-people-are-injured-after-a-collision-between-two-t",
+      "lens": "accident",
+      "title": "Forty-six people are injured after a collision between two trains in Prague",
+      "summary": "Forty-six people are injured after a collision between two trains in Prague, Czech Republic.",
+      "place": {
+        "name": "Prague",
+        "lon": 14.42138889,
+        "lat": 50.0875,
+        "country": "CZ",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:11"
+      },
+      "continent": "Europe",
+      "heat": 44,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events",
+        "46 people involved, per the headlines"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "Prague train crash leaves 46 people injured",
+          "url": "https://news.sky.com/story/prague-train-crash-leaves-46-people-injured-13613217",
+          "t": "2026-11-17T12:46:00Z",
+          "evidence": "news:sky:c8df7b2d1d8e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:11",
+        "news:sky:c8df7b2d1d8e"
+      ],
+      "headline": "Forty-six people are injured after a collision between two trains in Prague, Czech Republic."
+    },
+    {
+      "slug": "us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-ra",
+      "lens": "person",
+      "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+      "summary": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+      "about": "Mary Sattler Peltola (born August 31, 1973) is a Native American (Orutsararmiut Native Council) politician and former judge who is a United States senator-elect from Alaska. A member of the Democratic Party, she previously served as the U.S. representative for Alaska's at-large congressional district from 2022 to 2025.",
+      "article": {
+        "title": "Mary Peltola",
+        "url": "https://en.wikipedia.org/wiki/Mary_Peltola",
+        "qid": "Q13562231"
+      },
+      "place": {
+        "name": "Alaska",
+        "lon": -152,
+        "lat": 64,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 40,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
+          "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo",
+          "t": "2026-11-17T02:38:08Z",
+          "evidence": "news:bbc:befee6be6c45"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "How is US Senate majority leader chosen?",
+          "url": "https://www.aljazeera.com/news/2026/11/17/how-is-us-senate-majority-leader-chosen",
+          "t": "2026-11-17T12:38:39Z",
+          "evidence": "news:aljazeera:0deadfe02371"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:befee6be6c45",
+        "news:aljazeera:0deadfe02371"
+      ],
+      "headline": "BBC News asks: “Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?”"
+    },
+    {
+      "slug": "bangladeshi-police-and-42-platoons-of-the-border-guard-bangl",
+      "lens": "economy",
+      "title": "Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear…",
+      "summary": "Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear gas, stun grenades, batons, and surveillance drones against garment workers across Dhaka, Savar, Ashulia, Gazipur, and Narayanganj protesting for a minimum wage hike from ৳12,500 (US$100) to ৳30,000 ($240). Protesters block the N3, N4, and N5 highways and shutter 37 factories after a Minimum Wage Board meeting is delayed to November 23.",
+      "article": {
+        "title": "2026 Bangladesh garment workers protests",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+        "qid": "Q142084937"
+      },
+      "place": {
+        "name": "Dhaka",
+        "lon": 90.38888889,
+        "lat": 23.76444444,
+        "country": "BD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-17:8"
+      },
+      "continent": "Asia",
+      "heat": 35,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Bangladesh police clash with garment workers amid protests over wages",
+          "url": "https://www.aljazeera.com/news/2026/11/17/bangladesh-garment-workers-clash-with-police-in-fresh-protests-over-wages",
+          "t": "2026-11-17T11:06:12Z",
+          "evidence": "news:aljazeera:e4dfd40a3424"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:8",
+        "news:aljazeera:e4dfd40a3424",
+        "wd:Q142084937:P31"
+      ],
+      "update": {
+        "day": 6,
+        "previous": [
+          {
+            "date": "2026-11-15",
+            "slug": "amid-minimum-wage-protests-by-garment-workers",
+            "title": "Amid minimum wage protests by garment workers"
+          },
+          {
+            "date": "2026-11-14",
+            "slug": "the-bangladesh-garment-manufacturers-and-exporters-associati",
+            "title": "The Bangladesh Garment Manufacturers and Exporters Association threatens to…"
+          },
+          {
+            "date": "2026-11-12",
+            "slug": "over-200-garment-factories-shut-down-as-workers-block-the-dh",
+            "title": "Over 200 garment factories shut down as workers block the Dhaka–Tangail…"
+          }
+        ]
+      },
+      "headline": "Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear gas, stun grenades, batons, and surveillance drones against garment workers across Dhaka, Savar, Ashulia, Gazipur,…"
+    },
+    {
+      "slug": "uefa-backs-france-s-philippe-diallo-to-challenge-infantino-i",
+      "lens": "sports",
+      "title": "UEFA backs France’s Philippe Diallo to challenge Infantino in FIFA election",
+      "summary": "UEFA backs France’s Philippe Diallo to challenge Infantino in FIFA election",
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 35,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "sports",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "UEFA backs bid by France's Diallo to take on Infantino as FIFA chief",
+          "url": "https://www.france24.com/en/video/20261117-uefa-backs-bid-by-france-s-diallo-to-take-on-infantino-as-fifa-chief",
+          "t": "2026-11-17T11:04:26Z",
+          "evidence": "news:france24:8b27383e93ef"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Infantino’s FIFA challenger Diallo claims to have support beyond Europe",
+          "url": "https://www.aljazeera.com/sports/2026/11/17/infantinos-fifa-challenger-diallo-claims-to-have-support-beyond-europe",
+          "t": "2026-11-17T13:09:31Z",
+          "evidence": "news:aljazeera:3ed0c66833db"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:8b27383e93ef",
+        "news:aljazeera:3ed0c66833db"
+      ],
+      "headline": "UEFA backs bid by France's Diallo to take on Infantino as FIFA chief, France 24 reports."
+    },
+    {
+      "slug": "american-soldier-held-in-uk-suspected-of-spying-for-russia-t",
+      "lens": "conflict",
+      "title": "American soldier held in UK suspected of spying for Russia taken into US military custody",
+      "summary": "American soldier held in UK suspected of spying for Russia taken into US military custody",
+      "place": {
+        "name": "Russia",
+        "lon": 44.69,
+        "lat": 58.25,
+        "country": "RU",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 34,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "UK hands NATO-assigned US soldier accused of Russia spying to US military",
+          "url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military",
+          "t": "2026-11-17T21:35:24Z",
+          "evidence": "news:aljazeera:63199757c5cf"
+        },
+        {
+          "outlet": "bbc",
+          "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+          "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo",
+          "t": "2026-11-17T22:46:30Z",
+          "evidence": "news:bbc:519aa89e59eb"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:63199757c5cf",
+        "news:bbc:519aa89e59eb"
+      ],
+      "headline": "UK hands NATO-assigned US soldier accused of Russia spying to US military, Al Jazeera reports."
+    },
+    {
+      "slug": "american-technology-company-apple-experiences-an-outage-with",
+      "lens": "science",
+      "title": "American technology company Apple experiences an outage with several of its…",
+      "summary": "American technology company Apple experiences an outage with several of its services, including Apple Pay, iCloud, the App Store, and AppleCare. The company's spokesperson attributed the problems to an internal update and rules out a cyberattack.",
+      "heat": 18,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-17:21"
+      ],
+      "headline": "American technology company Apple experiences an outage with several of its services, including Apple Pay, iCloud, the App Store, and AppleCare."
+    },
+    {
+      "slug": "ramayana-part-1",
+      "lens": "culture",
+      "title": "Ramayana: Part 1",
+      "summary": "2026 Indian film by Nitesh Tiwari",
+      "about": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana, which chronicle the life of Prince Rama from childhood up to his adventurous 14-year exile. The first part features an ensemble cast that includes Ranbir Kapoor, Yash, Sai Pallavi, Ravi Dubey, Anupam Kher, Kajal Aggarwal, Rakul Preet Singh, Vivek Oberoi, Kunal Kapoor, Adinath Kothare, Arun Govil, Indira Krishnan, and Lara Dutta.",
+      "article": {
+        "title": "Ramayana: Part 1",
+        "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+        "qid": "Q135196186"
+      },
+      "place": {
+        "name": "India",
+        "lon": 79.36,
+        "lat": 22.69,
+        "country": "IN",
+        "role": "Country of origin",
+        "evidence": "wd:Q135196186:P495"
+      },
+      "continent": "Asia",
+      "heat": 14,
+      "why": [
+        "Read by 452,000 on Wikipedia that day"
+      ],
+      "readers": 452299,
+      "spike": 34.5,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Ramayana:_Part_1:2026-11-17",
+        "views:en:Ramayana:_Part_1:prior",
+        "wd:Q135196186:P31"
+      ],
+      "headline": "In November 2026, Namit Malhotra confirmed the postponement, explaining that the filmmakers required additional time to complete the film given its scale."
+    }
+  ]
+}

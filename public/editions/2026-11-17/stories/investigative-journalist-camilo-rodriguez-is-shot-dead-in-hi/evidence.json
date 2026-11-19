@@ -1,0 +1,88 @@
+[
+  {
+    "id": "wiki:2026-11-17:15",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-17T00:00:00Z",
+    "lon": -84.0685928,
+    "lat": 9.9880112,
+    "label": "Law & crime: Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo Domingo, Heredia, Costa Rica, in the first journalist death in the country in at least 25 years.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+    "quote": "Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo Domingo, Heredia, Costa Rica, in the first journalist death in the country in at least 25 years.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/costa-rican-journalist-gunned-down-near-capital"
+      }
+    ]
+  },
+  {
+    "id": "news:guardian:c83fbb08e25b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "The Guardian: Costa Rican journalist shot dead in first such killing in 25 years (17:19 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead",
+    "quote": "Costa Rican journalist shot dead in first such killing in 25 years",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q60743570:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Wikidata: \"crime in Costa Rica\" is an instance of aspect in a geographic region",
+    "url": "https://www.wikidata.org/wiki/Q60743570",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:44055b89138d",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Al Jazeera: Journalist who exposed alleged drug links shot dead in Costa Rica (09:18 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/journalist-who-exposed-alleged-drug-links-shot-dead-in-costa-rica",
+    "quote": "Journalist who exposed alleged drug links shot dead in Costa Rica",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:3cd7da8937d5",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "BBC News: Gunmen kill Costa Rican journalist who reported on drugs trade (11:58 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo",
+    "quote": "Gunmen kill Costa Rican journalist who reported on drugs trade",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1370239430:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crime in Costa Rica\" (revision of 2026-08-19 23:52 UTC)",
+    "quote": "Costa Rica is a Central American nation that boasts of a noteworthy safety record on crime as compared to its neighbors in the region.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crime_in_Costa_Rica&oldid=1370239430"
+  },
+  {
+    "id": "views:en:Crime_in_Costa_Rica:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Crime in Costa Rica\", 19 October 2026 to 17 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Crime_in_Costa_Rica&range=latest-30"
+  },
+  {
+    "id": "wd:Q60743570:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"crime in Costa Rica\": country Costa Rica",
+    "url": "https://www.wikidata.org/wiki/Q60743570#P17"
+  }
+]

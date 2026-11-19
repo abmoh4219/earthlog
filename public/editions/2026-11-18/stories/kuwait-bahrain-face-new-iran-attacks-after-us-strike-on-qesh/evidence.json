@@ -1,0 +1,120 @@
+[
+  {
+    "id": "news:france24:e3338d2d36dc",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "France 24: Middle East live: Kuwait, Bahrain report drone and missile attacks (02:06 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+    "quote": "Middle East live: Kuwait, Bahrain report drone and missile attacks",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:eff63436dd25",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "BBC News: Kuwait says it repelled first Iranian attack in two months after US strikes island (13:04 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o",
+    "quote": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:38333810d177",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Al Jazeera: Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island (16:47 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island",
+    "quote": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386535988:485",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain\" (revision of 2026-11-19 02:02 UTC)",
+    "quote": "Houda Nonoo, former Bahraini ambassador to America, is Jewish.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain&oldid=1386535988"
+  },
+  {
+    "id": "wiki:rev:1386535988:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Bahrain\" (revision of 2026-11-19 02:02 UTC)",
+    "quote": "Bahrain, officially the Kingdom of Bahrain, is an island country in the eastern part of Arabian Peninsula in West Asia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bahrain&oldid=1386535988"
+  },
+  {
+    "id": "wiki:2026-11-13:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-13",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-13: Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik.",
+    "quote": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806"
+  },
+  {
+    "id": "wiki:2026-11-14:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-14",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-14: The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months.",
+    "quote": "The Iranian military attacks, with drones and missiles, an American military facility in Bahrain, in one of the largest attacks on the country in months.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929"
+  },
+  {
+    "id": "wiki:2026-11-16:13",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-16",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-16: Bahrain sentences 64 Shia Muslims, mostly clerics, to life in prison for establishing a terrorist group linked to Iran's Islamic Revolutionary Guard Corps.",
+    "quote": "Bahrain sentences 64 Shia Muslims, mostly clerics, to life in prison for establishing a terrorist group linked to Iran's Islamic Revolutionary Guard Corps.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573"
+  },
+  {
+    "id": "wiki:2026-11-17:3",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-17",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-17: Bahrain's military intercepts a number of drones fired by Iran's Islamic Revolutionary Guard Corps (IRGC) at Sheikh Isa Air Base.",
+    "quote": "Bahrain's military intercepts a number of drones fired by Iran's Islamic Revolutionary Guard Corps (IRGC) at Sheikh Isa Air Base.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867"
+  },
+  {
+    "id": "views:en:Bahrain:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Bahrain\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Bahrain&range=latest-30"
+  },
+  {
+    "id": "wd:Q398:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Bahrain\": founded 14 August 1971",
+    "url": "https://www.wikidata.org/wiki/Q398#P571"
+  },
+  {
+    "id": "wd:Q398:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Bahrain\": country Bahrain",
+    "url": "https://www.wikidata.org/wiki/Q398#P17"
+  }
+]

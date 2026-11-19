@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "id": "story-2026-11-17-a-72-year-old-palestinian-woman-is-killed-and-ten-others-are",
+  "title": "A 72-year-old Palestinian woman is killed and ten others are injured in an…",
+  "subtitle": "Conflict · 17 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-17T00:00:54Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 25.43833333,
+    "south": 23.86361111,
+    "east": 45.43833333,
+    "north": 39.86361111
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-17T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-17T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": 73.43833332999998,
+      "lat": 18.705666666,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:00:04Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:07Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:09Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:12Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:15Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:17Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:20Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:23Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:25Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:28Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:37Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:46Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:49Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:50Z",
+      "lon": 35.43833333,
+      "lat": 31.17611111,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:54Z",
+      "lon": 10.438333329999978,
+      "lat": 31.17611111,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:01Z",
+      "text": "According to the report, a 72-year-old Palestinian woman was killed and ten others were injured in an attack by Israeli settlers on homes in Ein ad-Duyuk at-Tahta, a village west of Jericho.",
+      "cites": [
+        "wiki:2026-11-17:2"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:11Z",
+      "text": "The village of Ein ad-Duyuk at-Tahta lies west of Jericho, in the occupied West Bank, Palestine, as the reports place it.",
+      "cites": [
+        "wiki:2026-11-17:2"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:19Z",
+      "text": "The account was reported by Al Jazeera.",
+      "cites": [
+        "wiki:2026-11-17:2"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:27Z",
+      "text": "Al Jazeera headlined the story, “Israeli settler pogrom kills Palestinian woman, wounds 10 people.”",
+      "cites": [
+        "news:aljazeera:3ef7f1dcfd6e"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:33Z",
+      "text": "The Guardian headlined it, “Palestinian woman shot dead by Israeli settlers near Jericho, witnesses say.”",
+      "cites": [
+        "news:guardian:489fc4dc7729"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:39Z",
+      "text": "BBC News headlined it, “Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says.”",
+      "cites": [
+        "news:bbc:7036da4c8754"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:48Z",
+      "text": "The sources are Wikipedia's current events page, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-17:2"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PS",
+    "lon": 35.43833333,
+    "lat": 31.86361111,
+    "label": "Ein ad-Duyuk at-Tahta"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-17T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-17T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-17T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-17T00:00:47Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-17T00:00:19Z",
+      "until": "2026-11-17T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people",
+          "cites": [
+            "wiki:2026-11-17:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-17T00:00:27Z",
+      "until": "2026-11-17T00:00:47Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people",
+          "cites": [
+            "news:aljazeera:3ef7f1dcfd6e"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say",
+          "cites": [
+            "news:guardian:489fc4dc7729"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo",
+          "cites": [
+            "news:bbc:7036da4c8754"
+          ]
+        },
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/uk-sanctions-eight-firms-building-israeli-settlements-in-the-west-bank-13612666",
+          "cites": [
+            "news:sky:4782dfd39bc5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-17T00:00:48Z",
+      "until": "2026-11-17T00:00:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-17:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:54:58Z",
+    "costUsd": 0.001106
+  }
+}

@@ -1,0 +1,733 @@
+{
+  "version": 1,
+  "id": "story-2026-11-17-american-soldier-held-in-uk-suspected-of-spying-for-russia-t",
+  "title": "American soldier held in UK suspected of spying for Russia taken into US military custody",
+  "subtitle": "War and conflict · 17 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-17T00:01:23Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 34.69,
+    "south": 50.25,
+    "east": 54.69,
+    "north": 66.25
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-17T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-17T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": 82.69000000000005,
+      "lat": 33.675,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:00:04Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:10Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:16Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:20Z",
+      "lon": 44.69,
+      "lat": 50.25,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:27Z",
+      "lon": 44.69,
+      "lat": 50.25,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:34Z",
+      "lon": 44.69,
+      "lat": 50.25,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:38Z",
+      "lon": 39.282399999999996,
+      "lat": 55.7948,
+      "range": 3895357.0513856616,
+      "heading": -130.7882671494058,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:43Z",
+      "lon": 39.282399999999996,
+      "lat": 55.7948,
+      "range": 3527395.835085651,
+      "heading": -117.08826714940581,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:48Z",
+      "lon": 39.282399999999996,
+      "lat": 55.7948,
+      "range": 3194192.7821362424,
+      "heading": -103.3882671494058,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:51Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:55Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 9236492.840900164,
+      "heading": -1.3000000000000007,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:59Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 8363999.999999999,
+      "heading": -12.600000000000001,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:02Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:09Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:15Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:18Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:19Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:23Z",
+      "lon": 19.690000000000055,
+      "lat": 56.125,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:01Z",
+      "text": "Al Jazeera reports that the UK has handed a NATO-assigned US soldier, accused of spying for Russia, over to US military authorities.",
+      "cites": [
+        "news:aljazeera:63199757c5cf"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:09Z",
+      "text": "BBC News also reports that the American soldier, arrested by UK police on suspicion of spying, has been taken into US military custody.",
+      "cites": [
+        "news:bbc:519aa89e59eb"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:18Z",
+      "text": "Inflation in Russia was 8.7% in 2025, down from 13.7% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:RU"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:26Z",
+      "text": "In 2025 the economy grew 1.0%, and unemployment stood at 2.1%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:RU",
+        "wb:SL.UEM.TOTL.ZS:RU"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:36Z",
+      "text": "Across Europe and Central Asia, Russia's 8.7% compares with a median of 3.8%, while the highest is Turkey at 34.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:50Z",
+      "text": "Russia, or the Russian Federation, is a country in Eastern Europe and North Asia.",
+      "cites": [
+        "wiki:rev:1385581049:0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:01Z",
+      "text": "Al Jazeera headlined the story: UK hands NATO-assigned US soldier accused of Russia spying to US military.",
+      "cites": [
+        "news:aljazeera:63199757c5cf"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:08Z",
+      "text": "BBC News headlined its version: American soldier arrested by UK police on suspicion of spying taken into US military custody.",
+      "cites": [
+        "news:bbc:519aa89e59eb"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:17Z",
+      "text": "The film draws on Al Jazeera and BBC News, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data, and each caption cites the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1385581049:0",
+        "views:en:Russia:30d",
+        "wd:Q159:P571",
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "RU",
+    "lon": 44.69,
+    "lat": 58.25,
+    "label": "Russia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-17T00:00:17Z",
+      "title": "Russia in numbers"
+    },
+    {
+      "t": "2026-11-17T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-17T00:00:49Z",
+      "title": "About Russia"
+    },
+    {
+      "t": "2026-11-17T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-17T00:01:16Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "Inflation, consumer prices, Russia",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Russia",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 6.84939230255024
+            },
+            {
+              "x": "2011",
+              "y": 8.4404648593257
+            },
+            {
+              "x": "2012",
+              "y": 5.07474300799149
+            },
+            {
+              "x": "2013",
+              "y": 6.75466833903486
+            },
+            {
+              "x": "2014",
+              "y": 7.82016970013844
+            },
+            {
+              "x": "2015",
+              "y": 15.5343959935701
+            },
+            {
+              "x": "2016",
+              "y": 7.04243725413707
+            },
+            {
+              "x": "2017",
+              "y": 3.68333072334495
+            },
+            {
+              "x": "2018",
+              "y": 2.8783138261498
+            },
+            {
+              "x": "2019",
+              "y": 4.47202631837903
+            },
+            {
+              "x": "2020",
+              "y": 3.38219796948067
+            },
+            {
+              "x": "2021",
+              "y": 6.69445891957612
+            },
+            {
+              "x": "2022",
+              "y": 13.7436797398231
+            },
+            {
+              "x": "2023",
+              "y": 5.86571931748967
+            },
+            {
+              "x": "2024",
+              "y": 8.43486410496723
+            },
+            {
+              "x": "2025",
+              "y": 8.71986939402666
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RU"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "GDP growth, Russia",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Russia",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.49999999920672
+            },
+            {
+              "x": "2011",
+              "y": 4.30002918604238
+            },
+            {
+              "x": "2012",
+              "y": 4.0240861571798
+            },
+            {
+              "x": "2013",
+              "y": 1.75542214916291
+            },
+            {
+              "x": "2014",
+              "y": 0.736267221403651
+            },
+            {
+              "x": "2015",
+              "y": -1.9727192264298
+            },
+            {
+              "x": "2016",
+              "y": 0.193671130698817
+            },
+            {
+              "x": "2017",
+              "y": 1.82670527549192
+            },
+            {
+              "x": "2018",
+              "y": 2.80634082046656
+            },
+            {
+              "x": "2019",
+              "y": 2.19807571381982
+            },
+            {
+              "x": "2020",
+              "y": -2.65365449695453
+            },
+            {
+              "x": "2021",
+              "y": 5.866491772979
+            },
+            {
+              "x": "2022",
+              "y": -1.43537063467896
+            },
+            {
+              "x": "2023",
+              "y": 4.06661395813023
+            },
+            {
+              "x": "2024",
+              "y": 4.92167966203073
+            },
+            {
+              "x": "2025",
+              "y": 1.00117656925738
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:RU"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "Unemployment, Russia",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Russia",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 7.407
+            },
+            {
+              "x": "2011",
+              "y": 6.571
+            },
+            {
+              "x": "2012",
+              "y": 5.484
+            },
+            {
+              "x": "2013",
+              "y": 5.513
+            },
+            {
+              "x": "2014",
+              "y": 5.212
+            },
+            {
+              "x": "2015",
+              "y": 5.615
+            },
+            {
+              "x": "2016",
+              "y": 5.591
+            },
+            {
+              "x": "2017",
+              "y": 5.238
+            },
+            {
+              "x": "2018",
+              "y": 4.871
+            },
+            {
+              "x": "2019",
+              "y": 4.513
+            },
+            {
+              "x": "2020",
+              "y": 5.62
+            },
+            {
+              "x": "2021",
+              "y": 4.749
+            },
+            {
+              "x": "2022",
+              "y": 3.867
+            },
+            {
+              "x": "2023",
+              "y": 3.076
+            },
+            {
+              "x": "2024",
+              "y": 2.43
+            },
+            {
+              "x": "2025",
+              "y": 2.133
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:RU"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-17T00:00:36Z",
+      "until": "2026-11-17T00:00:49Z",
+      "title": "Inflation, Europe & Central Asia",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Turkey",
+          "text": "34.9%",
+          "value": 34.8811700293777,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:TR"
+          ]
+        },
+        {
+          "label": "Ukraine",
+          "text": "12.7%",
+          "value": 12.7303341026902,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        },
+        {
+          "label": "Kazakhstan",
+          "text": "11.4%",
+          "value": 11.3789456104214,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KZ"
+          ]
+        },
+        {
+          "label": "Uzbekistan",
+          "text": "8.8%",
+          "value": 8.79630890491107,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UZ"
+          ]
+        },
+        {
+          "label": "Russia",
+          "text": "8.7%",
+          "value": 8.71986939402666,
+          "color": "#e3b341",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RU"
+          ]
+        },
+        {
+          "label": "Kyrgyzstan",
+          "text": "8.2%",
+          "value": 8.21496013406325,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KG"
+          ]
+        },
+        {
+          "label": "Moldova",
+          "text": "7.8%",
+          "value": 7.75904124001158,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MD"
+          ]
+        },
+        {
+          "label": "Romania",
+          "text": "7.2%",
+          "value": 7.18903362292063,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RO"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.768548461408595,
+        "label": "median 3.8%"
+      }
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-17T00:01:01Z",
+      "until": "2026-11-17T00:01:16Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military",
+          "cites": [
+            "news:aljazeera:63199757c5cf"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo",
+          "cites": [
+            "news:bbc:519aa89e59eb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-17T00:01:17Z",
+      "until": "2026-11-17T00:01:23Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1385581049:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Russia:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q159:P571"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:54:58Z",
+    "costUsd": 0.001628
+  }
+}

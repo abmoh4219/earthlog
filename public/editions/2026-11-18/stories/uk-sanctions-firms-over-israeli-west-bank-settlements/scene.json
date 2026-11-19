@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "id": "story-2026-11-18-uk-sanctions-firms-over-israeli-west-bank-settlements",
+  "title": "UK sanctions firms over Israeli West Bank settlements",
+  "subtitle": "Business · 18 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-18T00:00:00Z",
+    "end": "2026-11-18T00:01:18Z"
+  },
+  "focus": "2026-11-18T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 25.35,
+    "south": 24,
+    "east": 45.35,
+    "north": 40
+  },
+  "imagery": {
+    "day": "2026-11-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-18T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-18T00:00:46Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "lon": 73.35000000000002,
+      "lat": 18.787499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T00:00:04Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:10Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:16Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:19Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:22Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:24Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:27Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 3300000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:31Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 2988277.095585347,
+      "heading": 21.3,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:35Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 2706000,
+      "heading": 32.6,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:38Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:41Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 996092.3651951158,
+      "heading": 9.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:45Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 902000,
+      "heading": -1,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:48Z",
+      "lon": 35.17406412658432,
+      "lat": 31.20011905923069,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:51Z",
+      "lon": 35.17406412658432,
+      "lat": 31.20011905923069,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:54Z",
+      "lon": 35.17406412658432,
+      "lat": 31.20011905923069,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:57Z",
+      "lon": 35.17406412658432,
+      "lat": 31.20011905923069,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:04Z",
+      "lon": 35.17406412658432,
+      "lat": 31.20011905923069,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:10Z",
+      "lon": 35.17406412658432,
+      "lat": 31.20011905923069,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:13Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:14Z",
+      "lon": 35.35,
+      "lat": 31.3125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:18Z",
+      "lon": 10.350000000000023,
+      "lat": 31.3125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-18T00:00:01Z",
+      "text": "Israel is reported to be delaying building contracts for West Bank settlements after UK sanctions, according to The Guardian.",
+      "cites": [
+        "news:guardian:c909e9e5ddfb"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:09Z",
+      "text": "Al Jazeera also reported on the story.",
+      "cites": [
+        "news:aljazeera:a863809b118e"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:26Z",
+      "text": "The West Bank is the larger of the two Palestinian territories that make up Palestine, the other being the Gaza Strip.",
+      "cites": [
+        "wiki:rev:1386040821:0"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:37Z",
+      "text": "Records list the West Bank in the Southern Levant, and founded in 1949.",
+      "cites": [
+        "wd:Q36678:P276",
+        "wd:Q36678:P571"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:56Z",
+      "text": "The Guardian headlined its report, “Israel delays building contracts for West Bank settlement after UK sanctions.”",
+      "cites": [
+        "news:guardian:c909e9e5ddfb"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:03Z",
+      "text": "Al Jazeera headlined its report, “Israeli settler kills Palestinian grandmother in occupied West Bank.”",
+      "cites": [
+        "news:aljazeera:a863809b118e"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:12Z",
+      "text": "This explainer draws on The Guardian and Al Jazeera, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1386040821:0",
+        "views:en:West_Bank:30d",
+        "wd:Q36678:P276"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 35.35,
+    "lat": 32,
+    "label": "West Bank"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-18T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-18T00:00:25Z",
+      "title": "About West Bank"
+    },
+    {
+      "t": "2026-11-18T00:00:36Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-18T00:00:46Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-18T00:00:55Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-18T00:01:11Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-18T00:00:37Z",
+      "until": "2026-11-18T00:00:46Z",
+      "title": "On record: West Bank",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Location",
+          "text": "Southern Levant",
+          "cites": [
+            "wd:Q36678:P276"
+          ]
+        },
+        {
+          "label": "Founded",
+          "text": "1949",
+          "cites": [
+            "wd:Q36678:P571"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Palestine, Israel",
+          "cites": [
+            "wd:Q36678:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-18T00:00:56Z",
+      "until": "2026-11-18T00:01:11Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+          "cites": [
+            "news:guardian:c909e9e5ddfb"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-settler-kills-palestinian-grandmother-in-occupied-west-bank",
+          "cites": [
+            "news:aljazeera:a863809b118e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-18T00:01:12Z",
+      "until": "2026-11-18T00:01:18Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386040821:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:West_Bank:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q36678:P276"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:59:29Z",
+    "costUsd": 0.002051
+  }
+}

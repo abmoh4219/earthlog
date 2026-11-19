@@ -1,0 +1,354 @@
+{
+  "version": 1,
+  "id": "story-2026-11-18-ghana-s-new-60m-presidential-jet-sparks-public-outrage",
+  "title": "President of Ghana",
+  "subtitle": "News · 18 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-18T00:00:00Z",
+    "end": "2026-11-18T00:00:58Z"
+  },
+  "focus": "2026-11-18T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -11.04,
+    "south": -0.28000000000000025,
+    "east": 8.96,
+    "north": 15.719999999999999
+  },
+  "imagery": {
+    "day": "2026-11-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-18T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-18T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "lon": 36.960000000000036,
+      "lat": 3.3569999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T00:00:04Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:10Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:16Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:19Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:22Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:24Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:27Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 3400000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:31Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 3078830.9469667217,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:34Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 2788000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:37Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 3400000,
+      "heading": 8,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:44Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 3261165.435852649,
+      "heading": 10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:50Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 3128000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:53Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:54Z",
+      "lon": -1.04,
+      "lat": 5.595,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:58Z",
+      "lon": -26.039999999999964,
+      "lat": 5.595,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-18T00:00:01Z",
+      "text": "BBC News reports that Ghana's new $60m presidential jet has sparked public outrage.",
+      "cites": [
+        "news:bbc:37933f5fe4c2"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:09Z",
+      "text": "The president of Ghana is the elected head of state and head of government, and also commander-in-chief of the Ghana Armed Forces.",
+      "cites": [
+        "wiki:rev:1373759271:0"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:26Z",
+      "text": "The office was founded on 1 July 1960, and Wikidata lists its country as Ghana.",
+      "cites": [
+        "wd:Q2672728:P571",
+        "wd:Q2672728:P17"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:36Z",
+      "text": "BBC News headlined the story “Ghana's new $60m presidential jet sparks public outrage”.",
+      "cites": [
+        "news:bbc:37933f5fe4c2"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:43Z",
+      "text": "AllAfrica ran a piece headlined “Ghana: Why Can't Ghana Buy a $60m Presidential Jet After Spending $97m On National Cathedral? - Richard Sumah”.",
+      "cites": [
+        "news:allafrica:028bf17b0b19"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:52Z",
+      "text": "The sources for this explainer are BBC News, AllAfrica, Wikipedia, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1373759271:0",
+        "views:en:President_of_Ghana:30d",
+        "wd:Q2672728:P571"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GH",
+    "lon": -1.04,
+    "lat": 7.72,
+    "label": "Ghana"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-18T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-18T00:00:25Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-18T00:00:35Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-18T00:00:51Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-18T00:00:26Z",
+      "until": "2026-11-18T00:00:35Z",
+      "title": "On record: President of Ghana",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "1 July 1960",
+          "cites": [
+            "wd:Q2672728:P571"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Ghana",
+          "cites": [
+            "wd:Q2672728:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-18T00:00:36Z",
+      "until": "2026-11-18T00:00:51Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o",
+          "cites": [
+            "news:bbc:37933f5fe4c2"
+          ]
+        },
+        {
+          "label": "AllAfrica",
+          "text": "Open",
+          "url": "https://allafrica.com/stories/202611180669.html",
+          "cites": [
+            "news:allafrica:028bf17b0b19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-18T00:00:52Z",
+      "until": "2026-11-18T00:00:58Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1373759271:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:President_of_Ghana:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q2672728:P571"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:59:29Z",
+    "costUsd": 0.00231
+  }
+}

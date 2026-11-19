@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "id": "story-2026-11-18-kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qesh",
+  "title": "Bahrain",
+  "subtitle": "Conflict · 18 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-18T00:00:00Z",
+    "end": "2026-11-18T00:01:28Z"
+  },
+  "focus": "2026-11-18T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 37.31,
+    "south": 21.41,
+    "east": 57.31,
+    "north": 37.41
+  },
+  "imagery": {
+    "day": "2026-11-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-18T00:00:52Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-18T00:00:52Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-18T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-18T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "lon": 85.30999999999995,
+      "lat": 16.371,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T00:00:04Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:14Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:23Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:27Z",
+      "lon": 55.68089454662847,
+      "lat": 29.86659801620059,
+      "range": 2117999.609624232,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:39Z",
+      "lon": 55.68089454662847,
+      "lat": 29.86659801620059,
+      "range": 1917930.2187572122,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:51Z",
+      "lon": 55.68089454662847,
+      "lat": 29.86659801620059,
+      "range": 1736759.6798918704,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:55Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:57Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 3078830.9469667217,
+      "heading": 20.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:59Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 2788000,
+      "heading": 29.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:02Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 3400000,
+      "heading": 0,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:11Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 3261165.435852649,
+      "heading": 2,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:20Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 3128000,
+      "heading": 4,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:23Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:01:24Z",
+      "lon": 47.31,
+      "lat": 27.285,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:28Z",
+      "lon": 22.309999999999945,
+      "lat": 27.285,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-18T00:00:01Z",
+      "text": "Al Jazeera reports that Kuwait and Bahrain face new Iran attacks after a US strike on Qeshm Island.",
+      "cites": [
+        "news:aljazeera:38333810d177"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:12Z",
+      "text": "Bahrain is an island country in the eastern part of the Arabian Peninsula in West Asia, officially known as the Kingdom of Bahrain.",
+      "cites": [
+        "wiki:rev:1386535988:0"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:25Z",
+      "text": "On 13 November Iran said it destroyed a Bahraini early-warning radar in retaliation for a US strike on Sirik, and on 14 November it attacked an American base there with drones and missiles.",
+      "cites": [
+        "wiki:2026-11-13:1",
+        "wiki:2026-11-14:2"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:34Z",
+      "text": "On 16 November, Bahrain sentenced 64 Shia Muslims, mostly clerics, to life in prison for establishing a terrorist group linked to Iran's Islamic Revolutionary Guard Corps.",
+      "cites": [
+        "wiki:2026-11-16:13"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:43Z",
+      "text": "On 17 November, Bahrain's military intercepted a number of drones fired by Iran's Islamic Revolutionary Guard Corps at Sheikh Isa Air Base.",
+      "cites": [
+        "wiki:2026-11-17:3"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:01Z",
+      "text": "France 24 headlined its coverage \"Middle East live: Kuwait, Bahrain report drone and missile attacks.\"",
+      "cites": [
+        "news:france24:e3338d2d36dc"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:07Z",
+      "text": "BBC News headlined its report \"Kuwait says it repelled first Iranian attack in two months after US strikes island.\"",
+      "cites": [
+        "news:bbc:eff63436dd25"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:13Z",
+      "text": "Al Jazeera headlined its report \"Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island.\"",
+      "cites": [
+        "news:aljazeera:38333810d177"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:22Z",
+      "text": "Sources include 3 outlets, Wikipedia articles, Wikimedia pageviews, Wikidata, and Wikipedia's 2026 current events pages for 13 and 14 November.",
+      "cites": [
+        "wiki:rev:1386535988:485",
+        "views:en:Bahrain:30d",
+        "wd:Q398:P571",
+        "wiki:2026-11-13:1",
+        "wiki:2026-11-14:2"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "KW",
+    "lon": 47.31,
+    "lat": 29.41,
+    "label": "Kuwait"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-18T00:00:24Z",
+      "title": "How it unfolded"
+    },
+    {
+      "t": "2026-11-18T00:00:52Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-18T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-18T00:01:21Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "thread",
+      "t": "2026-11-18T00:00:25Z",
+      "until": "2026-11-18T00:00:52Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "13 November",
+          "text": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a…",
+          "cites": [
+            "wiki:2026-11-13:1"
+          ]
+        },
+        {
+          "label": "14 November",
+          "text": "The Iranian military attacks, with drones and missiles…",
+          "cites": [
+            "wiki:2026-11-14:2"
+          ]
+        },
+        {
+          "label": "16 November",
+          "text": "Bahrain sentences 64 Shia Muslims, mostly clerics, to life in prison for establishing a…",
+          "cites": [
+            "wiki:2026-11-16:13"
+          ]
+        },
+        {
+          "label": "17 November",
+          "text": "Bahrain's military intercepts a number of drones fired by Iran's Islamic Revolutionary…",
+          "cites": [
+            "wiki:2026-11-17:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-18T00:01:01Z",
+      "until": "2026-11-18T00:01:21Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+          "cites": [
+            "news:france24:e3338d2d36dc"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o",
+          "cites": [
+            "news:bbc:eff63436dd25"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island",
+          "cites": [
+            "news:aljazeera:38333810d177"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-18T00:01:22Z",
+      "until": "2026-11-18T00:01:28Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386535988:485"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Bahrain:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q398:P571"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806",
+          "cites": [
+            "wiki:2026-11-13:1"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_14&oldid=1385949929",
+          "cites": [
+            "wiki:2026-11-14:2"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+          "cites": [
+            "wiki:2026-11-16:13"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+          "cites": [
+            "wiki:2026-11-17:3"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:59:29Z",
+    "costUsd": 0.003233
+  }
+}

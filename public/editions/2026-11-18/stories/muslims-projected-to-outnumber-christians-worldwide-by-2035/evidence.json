@@ -1,0 +1,52 @@
+[
+  {
+    "id": "news:dw:31fefd620e5a",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "DW: Muslims to outnumber Christians by 2035, research shows (17:52 UTC)",
+    "url": "https://www.dw.com/en/muslims-to-outnumber-christians-by-2035-research-shows/a-79984307",
+    "quote": "Muslims to outnumber Christians by 2035, research shows",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:3a2289d2088f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Al Jazeera: Muslims projected to overtake Christians as world’s largest religious group (20:21 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/muslims-projected-to-overtake-christians-as-worlds-largest-religious-group",
+    "quote": "Muslims projected to overtake Christians as world’s largest religious group",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:19bf9ca2f991",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Sky News: Muslims projected to outnumber Christians worldwide by 2035 (20:42 UTC)",
+    "url": "https://news.sky.com/story/muslims-projected-to-outnumber-christians-by-2035-with-majority-in-uk-non-religious-by-2070-13613731",
+    "quote": "Muslims projected to outnumber Christians worldwide by 2035",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385453105:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Christians\" (revision of 2026-11-13 10:00 UTC)",
+    "quote": "A Christian is a person who follows or adheres to Christianity, a monotheistic Abrahamic religion based on the life and teachings of Jesus Christ.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Christians&oldid=1385453105"
+  },
+  {
+    "id": "views:en:Christians:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Christians\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Christians&range=latest-30"
+  }
+]

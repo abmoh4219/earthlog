@@ -1,0 +1,201 @@
+[
+  {
+    "id": "news:bbc:df1977ca966d",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "BBC News: Nvidia says it won't reinstate Huang as it reports soaring sales (01:18 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo",
+    "quote": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:fdb7dc7af3b8",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "The Guardian: Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats (03:25 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+    "quote": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:714102cb4aaf",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Al Jazeera: Mary Peltola flips Alaska Senate seat in another Democratic win (03:28 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win",
+    "quote": "Mary Peltola flips Alaska Senate seat in another Democratic win",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:a4d690c354ea",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "France 24: Peltola defeats Sullivan in Alaska Senate race, expanding Democratic majority (03:49 UTC)",
+    "url": "https://www.france24.com/en/americas/20261118-peltola-defeats-sullivan-in-alaska-senate-race-expanding-democratic-majority",
+    "quote": "Peltola defeats Sullivan in Alaska Senate race, expanding Democratic majority",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:01b72bede9ae",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "DW: US Democrats flip Alaska Senate seat as Mary Peltola wins race (06:27 UTC)",
+    "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628",
+    "quote": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:d2ae4f5dcdb1",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Sky News: Democrat defeats Republican in Alaska in final midterms Senate race (06:46 UTC)",
+    "url": "https://news.sky.com/story/democrat-defeats-republican-in-alaska-in-final-midterms-senate-race-13613459",
+    "quote": "Democrat defeats Republican in Alaska in final midterms Senate race",
+    "precision": "day"
+  },
+  {
+    "id": "news:npr:5daa65e9f5f6",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "NPR: Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang (12:14 UTC)",
+    "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+    "quote": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386577377:108",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mary Peltola\" (revision of 2026-11-19 06:28 UTC)",
+    "quote": "On November 18, 2026, the Associated Press called the Senate race for Peltola.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mary_Peltola&oldid=1386577377"
+  },
+  {
+    "id": "wiki:rev:1386577377:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mary Peltola\" (revision of 2026-11-19 06:28 UTC)",
+    "quote": "Mary Sattler Peltola (born August 31, 1973) is a Native American (Orutsararmiut Native Council) politician and former judge who is a United States senator-elect from Alaska.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mary_Peltola&oldid=1386577377"
+  },
+  {
+    "id": "views:en:Mary_Peltola:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Mary Peltola\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Mary_Peltola&range=latest-30"
+  },
+  {
+    "id": "wd:Q13562231:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": born 31 August 1973",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P569"
+  },
+  {
+    "id": "wd:Q13562231:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": birthplace Anchorage",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P19"
+  },
+  {
+    "id": "wd:Q13562231:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": occupation politician, judge",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P106"
+  },
+  {
+    "id": "wd:Q13562231:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P27"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q1783608",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Northern Colorado (1991–93)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q1285262",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Alaska Fairbanks (1994–95)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q94279",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Alaska Southeast (1995–97)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q1285252",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Alaska Anchorage (1997–98)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q7235467",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at Poudre High School",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P551:Q80022",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": lived in Bethel",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P551"
+  },
+  {
+    "id": "wd:Q13562231:P937:Q61",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": worked in Washington, D.C.",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P937"
+  }
+]

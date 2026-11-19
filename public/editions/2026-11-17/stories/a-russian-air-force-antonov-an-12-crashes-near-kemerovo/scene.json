@@ -1,0 +1,608 @@
+{
+  "version": 1,
+  "id": "story-2026-11-17-a-russian-air-force-antonov-an-12-crashes-near-kemerovo",
+  "title": "A Russian Air Force Antonov An-12 crashes near Kemerovo",
+  "subtitle": "Accident · 17 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-17T00:01:45Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 76.06666667,
+    "south": 47.36666667,
+    "east": 96.06666667,
+    "north": 63.36666667
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-17T00:00:24Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-route.json",
+      "name": "route",
+      "from": "2026-11-17T00:00:24Z",
+      "until": "2026-11-17T00:00:29Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-route.json",
+      "name": "route",
+      "from": "2026-11-17T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": 124.06666667000002,
+      "lat": 32.807500002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:00:04Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:14Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:23Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:26Z",
+      "lon": 88.05759872410137,
+      "lat": 55.1662041024398,
+      "range": 2287784.35406269,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:27Z",
+      "lon": 88.05759872410137,
+      "lat": 55.1662041024398,
+      "range": 2071676.8439042591,
+      "heading": -6.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:28Z",
+      "lon": 88.05759872410137,
+      "lat": 55.1662041024398,
+      "range": 1875983.1703314057,
+      "heading": -13,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:31Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:34Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 126775.39193392382,
+      "heading": 33.7,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:37Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 114800,
+      "heading": 43.4,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:40Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 240000,
+      "heading": -30,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:43Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 217329.243315298,
+      "heading": -39.7,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:46Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 196800,
+      "heading": -49.4,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:49Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:50Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 81498.46624323675,
+      "heading": 76.5,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:51Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 73800,
+      "heading": 83,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:54Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 350000,
+      "heading": 140,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:01:03Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 316938.47983480955,
+      "heading": 126,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:13Z",
+      "lon": 86.06666667,
+      "lat": 55.36666667,
+      "range": 287000,
+      "heading": 112,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:16Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:01:19Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:21Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:24Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:31Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:37Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:40Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:41Z",
+      "lon": 86.06666667,
+      "lat": 54.67916667,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:45Z",
+      "lon": 61.06666667000002,
+      "lat": 54.67916667,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:01Z",
+      "text": "A Russian Air Force Antonov An-12 crashed near Kemerovo, Russia, killing all 19 people on board.",
+      "cites": [
+        "wiki:2026-11-17:10"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:08Z",
+      "text": "The aircraft went down near the village of Yagunovo in Kemerovo Oblast while attempting an emergency landing after an in-flight fire broke out.",
+      "cites": [
+        "wiki:rev:1386574419:0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:15Z",
+      "text": "As of 19 November 2026, the final cause of the crash had not been publicly established.",
+      "cites": [
+        "wiki:rev:1386574419:17"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:30Z",
+      "text": "The plane crashed during an emergency landing, possibly due to an in-flight fire, and the crash is under investigation.",
+      "cites": [
+        "wiki:box:1386574419:summary"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:39Z",
+      "text": "The aircraft was an Antonov An-12BK, operated by the Russian Air Force.",
+      "cites": [
+        "wiki:box:1386574419:aircraft",
+        "wiki:box:1386574419:operator"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:48Z",
+      "text": "There were 19 occupants, and according to the record, all 19 died while there were no survivors.",
+      "cites": [
+        "wiki:box:1386574419:occupants",
+        "wiki:box:1386574419:fatalities",
+        "wiki:box:1386574419:survivors"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:53Z",
+      "text": "The Russian Ministry of Defence stated that a technical malfunction was the preliminary suspected cause of the crash.",
+      "cites": [
+        "wiki:investigation:1386574419:0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:00Z",
+      "text": "A commission from the Russian Aerospace Forces was sent to the crash site to investigate the circumstances of the accident.",
+      "cites": [
+        "wiki:investigation:1386574419:1"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:07Z",
+      "text": "The Investigative Committee of Russia opened a criminal investigation into possible violations of flight safety regulations.",
+      "cites": [
+        "wiki:investigation:1386574419:2"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:15Z",
+      "text": "The crash was reported by AP and The Independent.",
+      "cites": [
+        "wiki:2026-11-17:10"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:23Z",
+      "text": "BBC News headlined it: “Russian military plane crashes, killing all 19 on board”.",
+      "cites": [
+        "news:bbc:0936839706b7"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:30Z",
+      "text": "Al Jazeera headlined it: “Moment Russian military plane crashes in Siberia, killing 19”.",
+      "cites": [
+        "news:aljazeera:c67b59e038c2"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:39Z",
+      "text": "This explainer draws on Wikipedia and its current events pages, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-17:10",
+        "wiki:rev:1386574419:17"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "RU",
+    "lon": 86.06666667,
+    "lat": 55.36666667,
+    "label": "Kemerovo"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-17T00:00:24Z",
+      "title": "The journey"
+    },
+    {
+      "t": "2026-11-17T00:00:29Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-17T00:00:38Z",
+      "title": "The aircraft"
+    },
+    {
+      "t": "2026-11-17T00:00:47Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-17T00:00:52Z",
+      "title": "The investigation"
+    },
+    {
+      "t": "2026-11-17T00:01:14Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-17T00:01:22Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-17T00:01:38Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "vehicle",
+      "t": "2026-11-17T00:00:39Z",
+      "until": "2026-11-17T00:00:47Z",
+      "title": "The aircraft",
+      "note": "From the article's infobox (revision of 2026-11-19) and Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Aircraft",
+          "text": "Antonov An-12BK",
+          "cites": [
+            "wiki:box:1386574419:aircraft"
+          ]
+        },
+        {
+          "label": "Operator",
+          "text": "Russian Air Force",
+          "cites": [
+            "wiki:box:1386574419:operator"
+          ]
+        },
+        {
+          "label": "Registration",
+          "text": "Unknown",
+          "cites": [
+            "wiki:box:1386574419:registration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "on-board",
+      "t": "2026-11-17T00:00:48Z",
+      "until": "2026-11-17T00:00:52Z",
+      "title": "People",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "Occupants",
+          "text": "19",
+          "value": 19,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1386574419:occupants"
+          ]
+        },
+        {
+          "label": "Fatalities",
+          "text": "19",
+          "value": 19,
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1386574419:fatalities"
+          ]
+        },
+        {
+          "label": "Survivors",
+          "text": "0",
+          "value": 0,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1386574419:survivors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-17T00:01:15Z",
+      "until": "2026-11-17T00:01:22Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/russia-military-air-crash-siberia-an12-bb68e35e985a5e72786d813cf0ce598d",
+          "cites": [
+            "wiki:2026-11-17:10"
+          ]
+        },
+        {
+          "label": "The Independent",
+          "text": "Open",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-plane-crash-siberia-kemerovo-b3086529.html",
+          "cites": [
+            "wiki:2026-11-17:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-17T00:01:23Z",
+      "until": "2026-11-17T00:01:38Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo",
+          "cites": [
+            "news:bbc:0936839706b7"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19",
+          "cites": [
+            "news:aljazeera:c67b59e038c2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-17T00:01:39Z",
+      "until": "2026-11-17T00:01:45Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-17:10"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386574419:17"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:54:58Z",
+    "costUsd": 0.002952
+  }
+}

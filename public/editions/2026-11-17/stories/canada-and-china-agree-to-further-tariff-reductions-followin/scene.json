@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "id": "story-2026-11-17-canada-and-china-agree-to-further-tariff-reductions-followin",
+  "title": "Canada and China agree to further tariff reductions following talks between…",
+  "subtitle": "Economy · 17 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-17T00:01:25Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 104.05444444,
+    "south": 14.54666667,
+    "east": 124.05444444,
+    "north": 30.54666667
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-17T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-17T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": 152.05444444,
+      "lat": 13.115500002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:00:04Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:10Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:16Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:20Z",
+      "lon": 106.34,
+      "lat": 24.5,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:27Z",
+      "lon": 106.34,
+      "lat": 24.5,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:34Z",
+      "lon": 106.34,
+      "lat": 24.5,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:38Z",
+      "lon": 109.8886,
+      "lat": 26.329,
+      "range": 4669123.909975618,
+      "heading": 154.12718690485124,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:43Z",
+      "lon": 109.8886,
+      "lat": 26.329,
+      "range": 4228071.5262515275,
+      "heading": 167.82718690485123,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:48Z",
+      "lon": 109.8886,
+      "lat": 26.329,
+      "range": 3828681.6061800066,
+      "heading": 181.52718690485125,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:52Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:54Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:56Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:59Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:08Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:17Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:20Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:21Z",
+      "lon": 114.05444444,
+      "lat": 21.85916667,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:25Z",
+      "lon": 89.05444444,
+      "lat": 21.85916667,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:01Z",
+      "text": "Canada and China have agreed to further tariff reductions, following talks between prime minister Mark Carney and Chinese leader Xi Jinping before the APEC summit in Shenzhen.",
+      "cites": [
+        "wiki:2026-11-17:9"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:06Z",
+      "text": "China is reducing tariffs on C$400 million (¥1.8 billion) in Canadian exports, while Canada extends relief for Chinese steel and aluminium.",
+      "cites": [
+        "wiki:2026-11-17:9"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:11Z",
+      "text": "Diplomatic relations between the two countries officially date back to January 9, 1909, when Canada first established a foreign ministry, while Canada was still part of the British Empire.",
+      "cites": [
+        "wiki:rev:1384934955:0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:18Z",
+      "text": "Inflation in China fell to 0.1% in 2025, down from 2.4% in 2020.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:CN"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:26Z",
+      "text": "Economic growth was 5.0% in 2025, and unemployment stood at 4.6%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:CN",
+        "wb:SL.UEM.TOTL.ZS:CN"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:36Z",
+      "text": "Across East Asia & Pacific, China's 0.1% inflation compares with a median of 2.1%, while Mongolia has the highest rate at 8.6%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:50Z",
+      "text": "This report was filed by AFP.",
+      "cites": [
+        "wiki:2026-11-17:9"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:58Z",
+      "text": "France 24 headlined the story: “China, Canada agree to further reduce tariffs at APEC summit in Shenzhen.”",
+      "cites": [
+        "news:france24:0b512dc4301c"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:04Z",
+      "text": "Al Jazeera's headline read: “China, Canada expand tariff relief after Carney-Xi meeting.”",
+      "cites": [
+        "news:aljazeera:b9e196c3311f"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:10Z",
+      "text": "BBC News separately headlined: “Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO.”",
+      "cites": [
+        "news:bbc:6b3f9293b8b2"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:19Z",
+      "text": "Sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data (World Development Indicators).",
+      "cites": [
+        "wiki:2026-11-17:9",
+        "wiki:rev:1384934955:0",
+        "views:en:Canada–China_relations:30d",
+        "wd:Q5029555:P31",
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:20Z",
+      "text": "Each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-17:9"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CN",
+    "lon": 114.05444444,
+    "lat": 22.54666667,
+    "label": "Shenzhen"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-17T00:00:17Z",
+      "title": "China in numbers"
+    },
+    {
+      "t": "2026-11-17T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-17T00:00:49Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-17T00:00:57Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-17T00:01:18Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "Inflation, consumer prices, China",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "China",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.17532475269199
+            },
+            {
+              "x": "2011",
+              "y": 5.55389892257493
+            },
+            {
+              "x": "2012",
+              "y": 2.6195243264554
+            },
+            {
+              "x": "2013",
+              "y": 2.62105001748114
+            },
+            {
+              "x": "2014",
+              "y": 1.9216416278852
+            },
+            {
+              "x": "2015",
+              "y": 1.43702380935654
+            },
+            {
+              "x": "2016",
+              "y": 2.00000182191943
+            },
+            {
+              "x": "2017",
+              "y": 1.59313600071435
+            },
+            {
+              "x": "2018",
+              "y": 2.07479039965576
+            },
+            {
+              "x": "2019",
+              "y": 2.89923416358226
+            },
+            {
+              "x": "2020",
+              "y": 2.41942189457782
+            },
+            {
+              "x": "2021",
+              "y": 0.981015135544881
+            },
+            {
+              "x": "2022",
+              "y": 1.9735755573905
+            },
+            {
+              "x": "2023",
+              "y": 0.23483682889305
+            },
+            {
+              "x": "2024",
+              "y": 0.218128938439177
+            },
+            {
+              "x": "2025",
+              "y": 0.0595646916565402
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:CN"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "GDP growth, China",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "China",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 10.5916903885704
+            },
+            {
+              "x": "2011",
+              "y": 9.46205248298186
+            },
+            {
+              "x": "2012",
+              "y": 7.8578201481217
+            },
+            {
+              "x": "2013",
+              "y": 7.77842954757257
+            },
+            {
+              "x": "2014",
+              "y": 7.46100735778161
+            },
+            {
+              "x": "2015",
+              "y": 6.98162255562367
+            },
+            {
+              "x": "2016",
+              "y": 6.7736886867727
+            },
+            {
+              "x": "2017",
+              "y": 6.89123916636191
+            },
+            {
+              "x": "2018",
+              "y": 6.757806142324
+            },
+            {
+              "x": "2019",
+              "y": 6.06737806333672
+            },
+            {
+              "x": "2020",
+              "y": 2.33950385203023
+            },
+            {
+              "x": "2021",
+              "y": 8.57038414981781
+            },
+            {
+              "x": "2022",
+              "y": 3.13385438394069
+            },
+            {
+              "x": "2023",
+              "y": 5.41600334492955
+            },
+            {
+              "x": "2024",
+              "y": 4.95830378788091
+            },
+            {
+              "x": "2025",
+              "y": 4.95994886240992
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:CN"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-17T00:00:18Z",
+      "until": "2026-11-17T00:00:35Z",
+      "title": "Unemployment, China",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "China",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.53
+            },
+            {
+              "x": "2011",
+              "y": 4.55
+            },
+            {
+              "x": "2012",
+              "y": 4.58
+            },
+            {
+              "x": "2013",
+              "y": 4.6
+            },
+            {
+              "x": "2014",
+              "y": 4.63
+            },
+            {
+              "x": "2015",
+              "y": 4.65
+            },
+            {
+              "x": "2016",
+              "y": 4.56
+            },
+            {
+              "x": "2017",
+              "y": 4.47
+            },
+            {
+              "x": "2018",
+              "y": 4.31
+            },
+            {
+              "x": "2019",
+              "y": 4.56
+            },
+            {
+              "x": "2020",
+              "y": 5
+            },
+            {
+              "x": "2021",
+              "y": 4.55
+            },
+            {
+              "x": "2022",
+              "y": 4.98
+            },
+            {
+              "x": "2023",
+              "y": 4.67
+            },
+            {
+              "x": "2024",
+              "y": 4.59
+            },
+            {
+              "x": "2025",
+              "y": 4.615
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:CN"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-17T00:00:36Z",
+      "until": "2026-11-17T00:00:49Z",
+      "title": "Inflation, East Asia & Pacific",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Mongolia",
+          "text": "8.6%",
+          "value": 8.60536487369694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MN"
+          ]
+        },
+        {
+          "label": "Laos",
+          "text": "7.7%",
+          "value": 7.74226936553694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LA"
+          ]
+        },
+        {
+          "label": "Papua New Guinea",
+          "text": "4.4%",
+          "value": 4.42141364166485,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PG"
+          ]
+        },
+        {
+          "label": "Solomon Islands",
+          "text": "3.4%",
+          "value": 3.36462189317824,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SB"
+          ]
+        },
+        {
+          "label": "Vietnam",
+          "text": "3.3%",
+          "value": 3.30999314219739,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:VN"
+          ]
+        },
+        {
+          "label": "Japan",
+          "text": "3.2%",
+          "value": 3.17253034260247,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:JP"
+          ]
+        },
+        {
+          "label": "Australia",
+          "text": "2.9%",
+          "value": 2.87403791660173,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AU"
+          ]
+        },
+        {
+          "label": "New Zealand",
+          "text": "2.8%",
+          "value": 2.8397963180572,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NZ"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.12309421458659,
+        "label": "median 2.1%"
+      }
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-17T00:00:50Z",
+      "until": "2026-11-17T00:00:57Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/canada-china-agree-further-tariff-cuts-leaders-meet",
+          "cites": [
+            "wiki:2026-11-17:9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-17T00:00:58Z",
+      "until": "2026-11-17T00:01:18Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/business/20261117-china-canada-agree-to-further-reduce-tariffs-at-apec-summit-in-shenzhen",
+          "cites": [
+            "news:france24:0b512dc4301c"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/economy/2026/11/17/china-canada-expand-tariff-relief-after-carney-xi-meeting",
+          "cites": [
+            "news:aljazeera:b9e196c3311f"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go",
+          "cites": [
+            "news:bbc:6b3f9293b8b2"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/17/hi-tech-shenzhen-chinamaxxing-xi-apec-summit",
+          "cites": [
+            "news:guardian:bf1b52248997"
+          ]
+        },
+        {
+          "label": "NPR",
+          "text": "Open",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+          "cites": [
+            "news:npr:a9af97284a04"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-17T00:01:19Z",
+      "until": "2026-11-17T00:01:25Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-17:9"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1384934955:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Canada–China_relations:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q5029555:P31"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:54:58Z",
+    "costUsd": 0.002046
+  }
+}

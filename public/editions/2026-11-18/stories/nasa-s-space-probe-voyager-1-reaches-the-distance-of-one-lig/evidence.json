@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wiki:2026-11-18:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "lon": -77.01638889,
+    "lat": 38.88305556,
+    "label": "Science & tech: NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "quote": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "CNN",
+        "url": "https://edition.cnn.com/2026/11/18/science/voyager-1-light-day"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:3b4c1ac22922",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Al Jazeera: Voyager 1 reaches one light-day from Earth after 49 years in space (19:30 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/voyager-1-reaches-one-light-day-from-earth-after-49-years-in-space",
+    "quote": "Voyager 1 reaches one light-day from Earth after 49 years in space",
+    "precision": "day"
+  }
+]

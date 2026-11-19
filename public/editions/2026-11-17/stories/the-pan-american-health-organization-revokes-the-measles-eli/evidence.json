@@ -1,0 +1,84 @@
+[
+  {
+    "id": "wiki:2026-11-17:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-17T00:00:00Z",
+    "lon": -64.59,
+    "lat": -16.67,
+    "label": "Health & environment: The Pan American Health Organization revokes the measles elimination statuses of Bolivia, Mexico, and the United States. For the U.S., the organization cited continuous domestic transmission for over 12 months amid more than 5,700 reported infections and multiple deaths in 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+    "quote": "The Pan American Health Organization revokes the measles elimination statuses of Bolivia, Mexico, and the United States. For the U.S., the organization cited continuous domestic transmission for over 12 months amid more than 5,700 reported infections and multiple deaths in 2026.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261117-us-loses-measles-free-status-as-cases-deaths-mount"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:f59bc5b58da7",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "DW: US and Mexico lose measles-free status (16:40 UTC)",
+    "url": "https://www.dw.com/en/us-and-mexico-lose-measles-free-status/a-79973966",
+    "quote": "US and Mexico lose measles-free status",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:3ecebbb665bd",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "France 24: US, Mexico and Bolivia lose measles-free status as deaths mount (21:30 UTC)",
+    "url": "https://www.france24.com/en/americas/20261117-us-mexico-and-bolivia-lose-measles-free-status-as-deaths-mount",
+    "quote": "US, Mexico and Bolivia lose measles-free status as deaths mount",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:7e169f37829a",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "BBC News: US loses measles elimination status after 26 years amid record case numbers (21:04 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo",
+    "quote": "US loses measles elimination status after 26 years amid record case numbers",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386425034:9",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Measles resurgence in the Americas\" (revision of 2026-11-18 13:21 UTC)",
+    "quote": "By the end of the outbreak in October 2026, over 6,400 cases had been recorded across Canada.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Measles_resurgence_in_the_Americas&oldid=1386425034"
+  },
+  {
+    "id": "wiki:rev:1386425034:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Measles resurgence in the Americas\" (revision of 2026-11-18 13:21 UTC)",
+    "quote": "In November 2025, Canada lost its Measles Elimination Status after the virus had circulated for at least 12 months.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Measles_resurgence_in_the_Americas&oldid=1386425034"
+  },
+  {
+    "id": "views:en:Measles_resurgence_in_the_Americas:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Measles resurgence in the Americas\", 19 October 2026 to 17 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Measles_resurgence_in_the_Americas&range=latest-30"
+  }
+]

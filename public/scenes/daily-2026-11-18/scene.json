@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-18",
+  "title": "The world on 18 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-18T00:00:00Z",
+    "end": "2026-11-19T00:00:00Z"
+  },
+  "focus": "2026-11-18T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "lon": -163.9,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T00:46:56Z",
+      "lon": -163.9,
+      "lat": -11.1,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T01:25:20Z",
+      "lon": 86.9,
+      "lat": 11.8,
+      "range": 3000000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T02:12:16Z",
+      "lon": 86.9,
+      "lat": 11.8,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T02:50:40Z",
+      "lon": 32.14,
+      "lat": 48.44,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T03:37:36Z",
+      "lon": 32.14,
+      "lat": 48.44,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T04:16:00Z",
+      "lon": 28.04555556,
+      "lat": -26.84444444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T05:13:12Z",
+      "lon": 28.04555556,
+      "lat": -26.84444444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T06:00:00Z",
+      "lon": -77.01638889,
+      "lat": 38.24305556,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T07:19:12Z",
+      "lon": -77.01638889,
+      "lat": 38.24305556,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T08:24:00Z",
+      "lon": 90.375,
+      "lat": 23.348888889999998,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T09:43:12Z",
+      "lon": 90.375,
+      "lat": 23.348888889999998,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T10:48:00Z",
+      "lon": -0.14361111,
+      "lat": 50.87194444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T12:06:06Z",
+      "lon": -0.14361111,
+      "lat": 50.87194444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T13:10:00Z",
+      "lon": -0.14361111,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T14:35:20Z",
+      "lon": 91.825,
+      "lat": 21.72666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T15:22:16Z",
+      "lon": 91.825,
+      "lat": 21.72666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T16:00:40Z",
+      "lon": 91.825,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T17:26:00Z",
+      "lon": -72.27305556,
+      "lat": 18.00611111,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T18:12:56Z",
+      "lon": -72.27305556,
+      "lat": 18.00611111,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T18:51:20Z",
+      "lon": -72.27305556,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T20:16:40Z",
+      "lon": -72.27305556,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T21:42:00Z",
+      "lon": -146.746,
+      "lat": -58.6314,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T22:28:56Z",
+      "lon": -146.746,
+      "lat": -58.6314,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T23:07:20Z",
+      "lon": 90.39146,
+      "lat": 23.14956,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-18T23:36:18Z",
+      "lon": 90.39146,
+      "lat": 23.14956,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": 90.39146,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "speed": 640
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "text": "00:00 UTC. Tropical Cyclone Xavier at 9.9°S, 163.9°W, sustained winds of 125 knots.",
+      "cites": [
+        "eonet:EONET_26463:2026-11-18T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-18T01:25:20Z",
+      "text": "00:00 UTC. Tropical Cyclone Akvan at 13.0°N, 86.9°E, sustained winds of 45 knots.",
+      "cites": [
+        "eonet:EONET_26494:2026-11-18T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-18T02:50:40Z",
+      "text": "Conflict: The Crimean Bridge is struck by Ukrainian forces for the third time in four days…",
+      "cites": [
+        "wiki:2026-11-18:1"
+      ]
+    },
+    {
+      "t": "2026-11-18T04:16:00Z",
+      "text": "Sports: In Test cricket, Bangladeshi wicketkeeper Litton Das sets a world record for the most dismissals in a single Test innings…",
+      "cites": [
+        "wiki:2026-11-18:14"
+      ]
+    },
+    {
+      "t": "2026-11-18T06:00:00Z",
+      "text": "Science & tech: NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance…",
+      "cites": [
+        "wiki:2026-11-18:12"
+      ]
+    },
+    {
+      "t": "2026-11-18T08:24:00Z",
+      "text": "Business: In Gazipur, Savar, and Ashulia, Bangladesh, thousands of garment workers demanding a monthly minimum wage increase from ৳12,500 (US$100) to…",
+      "cites": [
+        "wiki:2026-11-18:9"
+      ]
+    },
+    {
+      "t": "2026-11-18T10:48:00Z",
+      "text": "Culture: Vincent van Gogh's 1890 painting Blossoming Chestnut Trees sells for US$190.4 million at Sotheby's in New York City, United States…",
+      "cites": [
+        "wiki:2026-11-18:8"
+      ]
+    },
+    {
+      "t": "2026-11-18T13:10:00Z",
+      "text": "13:10 UTC. Internet outage signal in Turkmenistan: responsive address blocks down to 22% of normal.",
+      "cites": [
+        "ioda:TM:ping:2026-11-18T13:10Z",
+        "ioda:TM:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-18T14:35:20Z",
+      "text": "Law & crime: Arsonists set fire to the ancestral home of former chief adviser Muhammad Yunus in Panchlaish, Chattogram, Bangladesh.",
+      "cites": [
+        "wiki:2026-11-18:11"
+      ]
+    },
+    {
+      "t": "2026-11-18T16:00:40Z",
+      "text": "14:40 UTC. Internet outage signal in Mayotte: responsive address blocks down to 65% of normal.",
+      "cites": [
+        "ioda:YT:ping:2026-11-18T14:40Z",
+        "ioda:YT:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-18T17:26:00Z",
+      "text": "Conflict: Salvadoran forces destroy a house belonging to Jeff Larose, the leader of the Taliban gang that operates in Canaan…",
+      "cites": [
+        "wiki:2026-11-18:2"
+      ]
+    },
+    {
+      "t": "2026-11-18T18:51:20Z",
+      "text": "Science & tech: PlayStation reports a major outage ahead of the release of Grand Theft Auto VI.",
+      "cites": [
+        "wiki:2026-11-18:13"
+      ]
+    },
+    {
+      "t": "2026-11-18T20:16:40Z",
+      "text": "19:10 UTC. Internet outage signal in Us Virgin Islands: responsive address blocks down to 70% of normal.",
+      "cites": [
+        "ioda:VI:ping:2026-11-18T19:10Z",
+        "ioda:VI:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-18T21:42:00Z",
+      "text": "19:14 UTC. The day's strongest earthquake: magnitude 6.1, 10 km deep, Pacific-Antarctic Ridge.",
+      "cites": [
+        "usgs:us7000tz37"
+      ]
+    },
+    {
+      "t": "2026-11-18T23:07:20Z",
+      "text": "Business: In Kafrul, Dhaka, police fire around ten stun grenades against demonstrating garment workers following clashes with Bangladesh Nationalist…",
+      "cites": [
+        "wiki:2026-11-18:10"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-19T08:02:53Z"
+  }
+}

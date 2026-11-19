@@ -1,0 +1,151 @@
+[
+  {
+    "id": "news:bbc:befee6be6c45",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "BBC News: Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show? (02:38 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo",
+    "quote": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:0deadfe02371",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Al Jazeera: How is US Senate majority leader chosen? (12:38 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/17/how-is-us-senate-majority-leader-chosen",
+    "quote": "How is US Senate majority leader chosen?",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386577377:108",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mary Peltola\" (revision of 2026-11-19 06:28 UTC)",
+    "quote": "On November 18, 2026, the Associated Press called the Senate race for Peltola.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mary_Peltola&oldid=1386577377"
+  },
+  {
+    "id": "wiki:rev:1386577377:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Mary Peltola\" (revision of 2026-11-19 06:28 UTC)",
+    "quote": "Mary Sattler Peltola (born August 31, 1973) is a Native American (Orutsararmiut Native Council) politician and former judge who is a United States senator-elect from Alaska.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mary_Peltola&oldid=1386577377"
+  },
+  {
+    "id": "views:en:Mary_Peltola:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Mary Peltola\", 19 October 2026 to 17 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Mary_Peltola&range=latest-30"
+  },
+  {
+    "id": "wd:Q13562231:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": born 31 August 1973",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P569"
+  },
+  {
+    "id": "wd:Q13562231:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": birthplace Anchorage",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P19"
+  },
+  {
+    "id": "wd:Q13562231:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": occupation politician, judge",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P106"
+  },
+  {
+    "id": "wd:Q13562231:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P27"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q1783608",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Northern Colorado (1991–93)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q1285262",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Alaska Fairbanks (1994–95)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q94279",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Alaska Southeast (1995–97)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q1285252",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at University of Alaska Anchorage (1997–98)",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P69:Q7235467",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": educated at Poudre High School",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P69"
+  },
+  {
+    "id": "wd:Q13562231:P551:Q80022",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": lived in Bethel",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P551"
+  },
+  {
+    "id": "wd:Q13562231:P937:Q61",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Mary Peltola\": worked in Washington, D.C.",
+    "url": "https://www.wikidata.org/wiki/Q13562231#P937"
+  }
+]

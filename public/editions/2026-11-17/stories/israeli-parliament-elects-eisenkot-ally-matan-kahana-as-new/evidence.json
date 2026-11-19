@@ -1,0 +1,242 @@
+[
+  {
+    "id": "news:france24:0f0856a90608",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "France 24: 🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker (21:26 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261117-%F0%9F%94%B4-israeli-parliament-elects-eisenkot-ally-matan-kahana-as-speaker",
+    "quote": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:e57fb579949b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "The Guardian: Israeli parliament elects new speaker backed by Netanyahu’s opponents (22:30 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents",
+    "quote": "Israeli parliament elects new speaker backed by Netanyahu’s opponents",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:de6379a9aa7c",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Al Jazeera: Israel parliament elects Gadi Eisenkot ally Matan Kahana as new speaker (23:28 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker",
+    "quote": "Israel parliament elects Gadi Eisenkot ally Matan Kahana as new speaker",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386180672:106",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Benjamin Netanyahu\" (revision of 2026-11-17 03:49 UTC)",
+    "quote": "In an October 2026 interview with Haaretz, Lauder said that he had spent approximately 10 to 15 months traveling between Israel, Syria and Lebanon, working with Assad and Lebanese Prime Minister Rafic Hariri to develop a ten-point framework for a peace agreement.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Benjamin_Netanyahu&oldid=1386180672"
+  },
+  {
+    "id": "wiki:rev:1386180672:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Benjamin Netanyahu\" (revision of 2026-11-17 03:49 UTC)",
+    "quote": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as prime minister of Israel since 2022.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Benjamin_Netanyahu&oldid=1386180672"
+  },
+  {
+    "id": "views:en:Benjamin_Netanyahu:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Benjamin Netanyahu\", 19 October 2026 to 17 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Benjamin_Netanyahu&range=latest-30"
+  },
+  {
+    "id": "wd:Q43723:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": born 21 October 1949",
+    "url": "https://www.wikidata.org/wiki/Q43723#P569"
+  },
+  {
+    "id": "wd:Q43723:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": birthplace Tel Aviv",
+    "url": "https://www.wikidata.org/wiki/Q43723#P19"
+  },
+  {
+    "id": "wd:Q43723:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": occupation politician, diplomat",
+    "url": "https://www.wikidata.org/wiki/Q43723#P106"
+  },
+  {
+    "id": "wd:Q43723:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": citizenship Israel",
+    "url": "https://www.wikidata.org/wiki/Q43723#P27"
+  },
+  {
+    "id": "wd:Q43723:P69:Q5090207",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": educated at Cheltenham High School (1967)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P69"
+  },
+  {
+    "id": "wd:Q43723:P69:Q49108",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": educated at Massachusetts Institute of Technology (1972–75)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P69"
+  },
+  {
+    "id": "wd:Q43723:P69:Q142740",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": educated at MIT Sloan School of Management (1977)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P69"
+  },
+  {
+    "id": "wd:Q43723:P108:Q135635",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": worked for Boston Consulting Group (1976–78)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P108"
+  },
+  {
+    "id": "wd:Q43723:P551:Q2894040",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": lived in Beit Aghion",
+    "url": "https://www.wikidata.org/wiki/Q43723#P551"
+  },
+  {
+    "id": "wd:Q43723:P551:Q1615560",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": lived in Caesarea",
+    "url": "https://www.wikidata.org/wiki/Q43723#P551"
+  },
+  {
+    "id": "wd:Q43723:P551:Q1218",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": lived in Jerusalem",
+    "url": "https://www.wikidata.org/wiki/Q43723#P551"
+  },
+  {
+    "id": "wd:Q43723:P937:Q1218",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": worked in Jerusalem",
+    "url": "https://www.wikidata.org/wiki/Q43723#P937"
+  },
+  {
+    "id": "wd:Q43723:P166:Q12409316",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Jabotinsky Medal (1980)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q7018839",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Tzeltner Prize (1987)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q42293686",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: honorary doctor of the Bar-Ilan University (1988)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q6074664",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Irving Kristol Award (2015)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P166:Q22058319",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": award received: Grand Cross of the Order of the Southern Cross (2019)",
+    "url": "https://www.wikidata.org/wiki/Q43723#P166"
+  },
+  {
+    "id": "wd:Q43723:P800:Q16133305",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": notable work: A Place Among the Nations",
+    "url": "https://www.wikidata.org/wiki/Q43723#P800"
+  },
+  {
+    "id": "wd:Q43723:P800:Q20502069",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": notable work: Fighting Terrorism",
+    "url": "https://www.wikidata.org/wiki/Q43723#P800"
+  },
+  {
+    "id": "wd:Q43723:P800:Q114244190",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-17T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Benjamin Netanyahu\": notable work: Bibi: My Story",
+    "url": "https://www.wikidata.org/wiki/Q43723#P800"
+  }
+]

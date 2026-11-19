@@ -1,0 +1,178 @@
+[
+  {
+    "id": "wiki:2026-11-18:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Conflict: The Crimean Bridge is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "quote": "The Crimean Bridge is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/russia-ukraine-war-bridge-crimea-drones-missiles-df4b867cf8f70e88843d8fefea5d643c"
+      },
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine"
+      }
+    ]
+  },
+  {
+    "id": "news:npr:e47dadc6bc04",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "NPR: Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge (09:43 UTC)",
+    "url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
+    "quote": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:1ee630640446",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "DW: What the Crimean bridge attack means for Russia (20:30 UTC)",
+    "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991",
+    "quote": "What the Crimean bridge attack means for Russia",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142193498:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Wikidata: \"November 2026 Crimean Bridge explosions\" is an instance of explosion, drone warfare, military operation",
+    "url": "https://www.wikidata.org/wiki/Q142193498",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:e12a3e473d31",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "BBC News: New video shows explosions moments before part of Crimea Bridge collapses (17:09 UTC)",
+    "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o",
+    "quote": "New video shows explosions moments before part of Crimea Bridge collapses",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:968a1a06351e",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "France 24: Why Ukraine keeps trying to bring down Russia's bridge to Crimea (18:17 UTC)",
+    "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
+    "quote": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:e881df0785eb",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "The Guardian: Crimea bridge has been attacked again, says Russian-installed governor (23:27 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+    "quote": "Crimea bridge has been attacked again, says Russian-installed governor",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386578878:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Crimean Bridge explosions\" (revision of 2026-11-19 06:52 UTC)",
+    "quote": "The first attack, on 16 November 2026, caused one of the road bridge's structural arches to shift by about 15 degrees according to Russian media, forcing the partial closure of road traffic over the bridge.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Crimean_Bridge_explosions&oldid=1386578878"
+  },
+  {
+    "id": "wiki:rev:1386578878:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Crimean Bridge explosions\" (revision of 2026-11-19 06:52 UTC)",
+    "quote": "Beginning on 16 November 2026, as part of the Russo-Ukrainian war, Ukrainian forces have repeatedly targeted the Crimean Bridge with missiles and drones, causing severe damage to the bridge and the destruction of the main span of its road bridge, as well as repeatedly stopping traffic across the bridge.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Crimean_Bridge_explosions&oldid=1386578878"
+  },
+  {
+    "id": "views:en:2026_Crimean_Bridge_explosions:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Crimean Bridge explosions\", 17 November 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Crimean_Bridge_explosions&range=latest-30"
+  },
+  {
+    "id": "wd:Q142193498:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"November 2026 Crimean Bridge explosions\": date 2026-11-00",
+    "url": "https://www.wikidata.org/wiki/Q142193498#P585"
+  },
+  {
+    "id": "wd:Q142193498:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"November 2026 Crimean Bridge explosions\": began 16 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142193498#P580"
+  },
+  {
+    "id": "wd:Q142193498:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"November 2026 Crimean Bridge explosions\": ended 17 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142193498#P582"
+  },
+  {
+    "id": "wd:Q142193498:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"November 2026 Crimean Bridge explosions\": location Crimean Bridge, Strait of Kerch",
+    "url": "https://www.wikidata.org/wiki/Q142193498#P276"
+  },
+  {
+    "id": "wd:Q142193498:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"November 2026 Crimean Bridge explosions\": country Russia, Ukraine",
+    "url": "https://www.wikidata.org/wiki/Q142193498#P17"
+  },
+  {
+    "id": "wiki:week:1386578878:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Crimean Bridge explosions\" (revision of 2026-11-19 06:52 UTC): dated sentence",
+    "quote": "The first attack, on 16 November 2026, caused one of the road bridge's structural arches to shift by about 15 degrees according to Russian media, forcing the partial closure of road traffic over the bridge.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Crimean_Bridge_explosions&oldid=1386578878"
+  },
+  {
+    "id": "wiki:week:1386578878:7",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Crimean Bridge explosions\" (revision of 2026-11-19 06:52 UTC): dated sentence",
+    "quote": "Around 2:00 a.m. Moscow Time on 16 November 2026, Ukrainian drones struck the Crimean Bridge, causing Russian officials to temporarily shut the bridge down to both train and vehicle traffic.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Crimean_Bridge_explosions&oldid=1386578878"
+  }
+]

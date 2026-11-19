@@ -1,0 +1,609 @@
+[
+  {
+    "id": "wiki:2026-11-18:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Conflict: The Crimean Bridge is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic.",
+    "quote": "The Crimean Bridge is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "links": [
+      {
+        "url": "https://apnews.com/article/russia-ukraine-war-bridge-crimea-drones-missiles-df4b867cf8f70e88843d8fefea5d643c",
+        "name": "AP"
+      },
+      {
+        "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+        "name": "The Guardian"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-18:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Conflict: The Israeli army launches its first operation in central Gaza Strip amid the displacement of families from the area, for the first time since the ceasefire agreement signed in October 2025 came into effect.",
+    "quote": "The Israeli army launches its first operation in central Gaza Strip amid the displacement of families from the area, for the first time since the ceasefire agreement signed in October 2025 came into effect.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "links": [
+      {
+        "url": "https://www.bbc.com/news/articles/cw8r7510degno",
+        "name": "BBC News"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-18:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "lon": -77.01638889,
+    "lat": 38.88305556,
+    "label": "Science & tech: NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
+    "quote": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "links": [
+      {
+        "url": "https://edition.cnn.com/2026/11/18/science/voyager-1-light-day",
+        "name": "CNN"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-18:13",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Science & tech: PlayStation reports a major outage ahead of the release of Grand Theft Auto VI.",
+    "quote": "PlayStation reports a major outage ahead of the release of Grand Theft Auto VI.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "links": [
+      {
+        "url": "https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers",
+        "name": "Axios"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_VI:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 519,632 readers of \"Grand Theft Auto VI\" on 18 Nov 2026",
+    "value": 519632,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_VI:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "\"Grand Theft Auto VI\": normally a median of 15,460 readers a day (8 to 60 days before)",
+    "value": 15460,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 110,668 readers of \"Grand Theft Auto\" on 18 Nov 2026",
+    "value": 110668,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "\"Grand Theft Auto\": normally a median of 4,948 readers a day (8 to 60 days before)",
+    "value": 4948,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_V:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 81,349 readers of \"Grand Theft Auto V\" on 18 Nov 2026",
+    "value": 81349,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V"
+  },
+  {
+    "id": "views:en:Grand_Theft_Auto_V:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "\"Grand Theft Auto V\": normally a median of 7,673 readers a day (8 to 60 days before)",
+    "value": 7673,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V"
+  },
+  {
+    "id": "views:en:Rockstar_Games:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 79,323 readers of \"Rockstar Games\" on 18 Nov 2026",
+    "value": 79323,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Rockstar_Games"
+  },
+  {
+    "id": "views:en:Rockstar_Games:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "\"Rockstar Games\": normally a median of 3,776 readers a day (8 to 60 days before)",
+    "value": 3776,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Rockstar_Games"
+  },
+  {
+    "id": "views:en:Manni_L._Perez:2026-11-18",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 67,267 readers of \"Manni L. Perez\" on 18 Nov 2026",
+    "value": 67267,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Manni_L._Perez"
+  },
+  {
+    "id": "views:en:Manni_L._Perez:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "\"Manni L. Perez\": normally a median of 3 readers a day (8 to 60 days before)",
+    "value": 3,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Manni_L._Perez"
+  },
+  {
+    "id": "news:dw:24b2767125c4",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T17:13:00Z",
+    "label": "DW: What makes 'Grand Theft Auto VI' more than just a game?",
+    "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822",
+    "quote": "What makes 'Grand Theft Auto VI' more than just a game?"
+  },
+  {
+    "id": "news:bbc:cdc6a802f0fa",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T17:34:25Z",
+    "label": "BBC News: Grand Theft Auto 6 is a masterpiece, say critics",
+    "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po",
+    "quote": "Grand Theft Auto 6 is a masterpiece, say critics"
+  },
+  {
+    "id": "wd:Q23648408:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Grand Theft Auto VI\" is an instance of video game",
+    "url": "https://www.wikidata.org/wiki/Q23648408"
+  },
+  {
+    "id": "news:npr:e47dadc6bc04",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-18T09:43:28Z",
+    "label": "NPR: Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
+    "url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
+    "quote": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge"
+  },
+  {
+    "id": "news:dw:1ee630640446",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T20:30:00Z",
+    "label": "DW: What the Crimean bridge attack means for Russia",
+    "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991",
+    "quote": "What the Crimean bridge attack means for Russia"
+  },
+  {
+    "id": "wd:Q142193498:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"November 2026 Crimean Bridge explosions\" is an instance of explosion, drone warfare, military operation",
+    "url": "https://www.wikidata.org/wiki/Q142193498"
+  },
+  {
+    "id": "news:aljazeera:bd982f0d6d88",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T18:12:42Z",
+    "label": "Al Jazeera: Israeli forces launch new military operation in central Gaza",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza",
+    "quote": "Israeli forces launch new military operation in central Gaza"
+  },
+  {
+    "id": "news:dw:35417a49cd93",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T18:29:00Z",
+    "label": "DW: Israel launches new ground operation in Gaza",
+    "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958",
+    "quote": "Israel launches new ground operation in Gaza"
+  },
+  {
+    "id": "news:france24:842ad9ad2dc7",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T19:55:15Z",
+    "label": "France 24: Israeli army launches ground operation in Hamas-controlled area of Gaza",
+    "url": "https://www.france24.com/en/israeli-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
+    "quote": "Israeli army launches ground operation in Hamas-controlled area of Gaza"
+  },
+  {
+    "id": "news:sky:118cb35472e6",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T20:29:00Z",
+    "label": "Sky News: Israeli troops launch ground operation in central Gaza",
+    "url": "https://news.sky.com/story/israeli-troops-launch-ground-operation-in-central-gaza-13613724",
+    "quote": "Israeli troops launch ground operation in central Gaza"
+  },
+  {
+    "id": "wd:Q122962941:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Gaza War\" is an instance of war",
+    "url": "https://www.wikidata.org/wiki/Q122962941"
+  },
+  {
+    "id": "news:aljazeera:3b4c1ac22922",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T19:30:51Z",
+    "label": "Al Jazeera: Voyager 1 reaches one light-day from Earth after 49 years in space",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/voyager-1-reaches-one-light-day-from-earth-after-49-years-in-space",
+    "quote": "Voyager 1 reaches one light-day from Earth after 49 years in space"
+  },
+  {
+    "id": "news:aljazeera:412c87609aaa",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:16:26Z",
+    "label": "Al Jazeera: Why China’s Shenzhen was chosen for APEC summit",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/why-chinas-shenzhen-was-chosen-for-apec-summit",
+    "quote": "Why China’s Shenzhen was chosen for APEC summit"
+  },
+  {
+    "id": "news:dw:5ebb76396afb",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T05:39:00Z",
+    "label": "DW: APEC summit: What Trump, Xi and Putin want",
+    "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462",
+    "quote": "APEC summit: What Trump, Xi and Putin want"
+  },
+  {
+    "id": "news:france24:5673e42f38dc",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T08:49:07Z",
+    "label": "France 24: 🔴Trump arrives in China ahead of historic three-way summit with Putin, Xi",
+    "url": "https://www.france24.com/en/asia-pacific/20261118-xi-putin-meet-ahead-of-historic-trump-trilateral-summit",
+    "quote": "🔴Trump arrives in China ahead of historic three-way summit with Putin, Xi"
+  },
+  {
+    "id": "news:france24:c69718d51c80",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T18:59:20Z",
+    "label": "France 24: Hegseth makes surprise trip to Venezuela, renews military cooperation",
+    "url": "https://www.france24.com/en/americas/20261118-hegseth-makes-surprise-trip-to-venezuela-renews-military-cooperation",
+    "quote": "Hegseth makes surprise trip to Venezuela, renews military cooperation"
+  },
+  {
+    "id": "news:dw:34c2cd46bf99",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T20:19:00Z",
+    "label": "DW: US Pentagon chief Hegseth signs military deal in Venezuela",
+    "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607",
+    "quote": "US Pentagon chief Hegseth signs military deal in Venezuela"
+  },
+  {
+    "id": "news:aljazeera:8fa0b66c7b90",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T21:01:05Z",
+    "label": "Al Jazeera: US Defence Secretary Hegseth reveals military partnership on Venezuela trip",
+    "url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela",
+    "quote": "US Defence Secretary Hegseth reveals military partnership on Venezuela trip"
+  },
+  {
+    "id": "news:bbc:116efff4a5dd",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T22:34:56Z",
+    "label": "BBC News: Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+    "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+    "quote": "Israeli military launches rare ground operation in Gaza beyond Yellow Line"
+  },
+  {
+    "id": "news:guardian:de9b828e4390",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T23:25:25Z",
+    "label": "The Guardian: Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+    "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+    "quote": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza"
+  },
+  {
+    "id": "news:bbc:e12a3e473d31",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T17:09:43Z",
+    "label": "BBC News: New video shows explosions moments before part of Crimea Bridge collapses",
+    "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o",
+    "quote": "New video shows explosions moments before part of Crimea Bridge collapses"
+  },
+  {
+    "id": "news:france24:968a1a06351e",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T18:17:34Z",
+    "label": "France 24: Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
+    "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
+    "quote": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea"
+  },
+  {
+    "id": "news:guardian:e881df0785eb",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T23:27:37Z",
+    "label": "The Guardian: Crimea bridge has been attacked again, says Russian-installed governor",
+    "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+    "quote": "Crimea bridge has been attacked again, says Russian-installed governor"
+  },
+  {
+    "id": "news:guardian:c909e9e5ddfb",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T14:05:38Z",
+    "label": "The Guardian: Israel delays building contracts for West Bank settlement after UK sanctions",
+    "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+    "quote": "Israel delays building contracts for West Bank settlement after UK sanctions"
+  },
+  {
+    "id": "news:aljazeera:a863809b118e",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T19:27:42Z",
+    "label": "Al Jazeera: Israeli settler kills Palestinian grandmother in occupied West Bank",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-settler-kills-palestinian-grandmother-in-occupied-west-bank",
+    "quote": "Israeli settler kills Palestinian grandmother in occupied West Bank"
+  },
+  {
+    "id": "news:sky:eb3cdf8f161d",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T10:42:00Z",
+    "label": "Sky News: US loses measles-free status amid worst outbreak in 35 years",
+    "url": "https://news.sky.com/story/us-loses-measles-free-status-amid-worst-outbreak-in-35-years-13613526",
+    "quote": "US loses measles-free status amid worst outbreak in 35 years"
+  },
+  {
+    "id": "news:france24:7b9292736fa3",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T10:50:41Z",
+    "label": "France 24: US loses measles-free status as cases soar",
+    "url": "https://www.france24.com/en/video/20261118-us-loses-measles-free-status-as-cases-soar",
+    "quote": "US loses measles-free status as cases soar"
+  },
+  {
+    "id": "news:aljazeera:812ea3e34b12",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T20:18:25Z",
+    "label": "Al Jazeera: US loses measles-free status after 26 years in historic setback",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_us-loses-measles-free-status-after-26-years-181126",
+    "quote": "US loses measles-free status after 26 years in historic setback"
+  },
+  {
+    "id": "news:bbc:2dfd1d8d61a7",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T03:07:22Z",
+    "label": "BBC News: Waymo pulls driverless taxis from all US freeways",
+    "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo",
+    "quote": "Waymo pulls driverless taxis from all US freeways"
+  },
+  {
+    "id": "news:guardian:10e302fb34c3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T22:05:49Z",
+    "label": "The Guardian: Waymo pulls driverless taxis from freeways across the US after California ban",
+    "url": "https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways",
+    "quote": "Waymo pulls driverless taxis from freeways across the US after California ban"
+  },
+  {
+    "id": "news:dw:31fefd620e5a",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T17:52:00Z",
+    "label": "DW: Muslims to outnumber Christians by 2035, research shows",
+    "url": "https://www.dw.com/en/muslims-to-outnumber-christians-by-2035-research-shows/a-79984307",
+    "quote": "Muslims to outnumber Christians by 2035, research shows"
+  },
+  {
+    "id": "news:aljazeera:3a2289d2088f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T20:21:34Z",
+    "label": "Al Jazeera: Muslims projected to overtake Christians as world’s largest religious group",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/muslims-projected-to-overtake-christians-as-worlds-largest-religious-group",
+    "quote": "Muslims projected to overtake Christians as world’s largest religious group"
+  },
+  {
+    "id": "news:sky:19bf9ca2f991",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T20:42:00Z",
+    "label": "Sky News: Muslims projected to outnumber Christians worldwide by 2035",
+    "url": "https://news.sky.com/story/muslims-projected-to-outnumber-christians-by-2035-with-majority-in-uk-non-religious-by-2070-13613731",
+    "quote": "Muslims projected to outnumber Christians worldwide by 2035"
+  },
+  {
+    "id": "news:france24:e3338d2d36dc",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T02:06:39Z",
+    "label": "France 24: Middle East live: Kuwait, Bahrain report drone and missile attacks",
+    "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+    "quote": "Middle East live: Kuwait, Bahrain report drone and missile attacks"
+  },
+  {
+    "id": "news:bbc:eff63436dd25",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T13:04:48Z",
+    "label": "BBC News: Kuwait says it repelled first Iranian attack in two months after US strikes island",
+    "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o",
+    "quote": "Kuwait says it repelled first Iranian attack in two months after US strikes island"
+  },
+  {
+    "id": "news:aljazeera:38333810d177",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T16:47:26Z",
+    "label": "Al Jazeera: Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+    "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island",
+    "quote": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island"
+  },
+  {
+    "id": "news:aljazeera:3f09e69b3a19",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:47:02Z",
+    "label": "Al Jazeera: Eisenkot ally elected Knesset speaker with Arab bloc’s backing",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/eisenkot-ally-elected-knesset-speaker-with-arab-blocs-backing",
+    "quote": "Eisenkot ally elected Knesset speaker with Arab bloc’s backing"
+  },
+  {
+    "id": "news:france24:09b6db0d2eac",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T11:33:01Z",
+    "label": "France 24: Israeli parliament elects speaker backed by Netanyahu opponents",
+    "url": "https://www.france24.com/en/video/20261118-israeli-parliament-elects-speaker-backed-by-netanyahu-opponents",
+    "quote": "Israeli parliament elects speaker backed by Netanyahu opponents"
+  },
+  {
+    "id": "news:bbc:df1977ca966d",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T01:18:18Z",
+    "label": "BBC News: Nvidia says it won't reinstate Huang as it reports soaring sales",
+    "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo",
+    "quote": "Nvidia says it won't reinstate Huang as it reports soaring sales"
+  },
+  {
+    "id": "news:guardian:fdb7dc7af3b8",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T03:25:14Z",
+    "label": "The Guardian: Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+    "url": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+    "quote": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats"
+  },
+  {
+    "id": "news:aljazeera:714102cb4aaf",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T03:28:41Z",
+    "label": "Al Jazeera: Mary Peltola flips Alaska Senate seat in another Democratic win",
+    "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win",
+    "quote": "Mary Peltola flips Alaska Senate seat in another Democratic win"
+  },
+  {
+    "id": "news:france24:a4d690c354ea",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T03:49:55Z",
+    "label": "France 24: Peltola defeats Sullivan in Alaska Senate race, expanding Democratic majority",
+    "url": "https://www.france24.com/en/americas/20261118-peltola-defeats-sullivan-in-alaska-senate-race-expanding-democratic-majority",
+    "quote": "Peltola defeats Sullivan in Alaska Senate race, expanding Democratic majority"
+  },
+  {
+    "id": "news:dw:01b72bede9ae",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T06:27:00Z",
+    "label": "DW: US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+    "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628",
+    "quote": "US Democrats flip Alaska Senate seat as Mary Peltola wins race"
+  },
+  {
+    "id": "news:sky:d2ae4f5dcdb1",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T06:46:00Z",
+    "label": "Sky News: Democrat defeats Republican in Alaska in final midterms Senate race",
+    "url": "https://news.sky.com/story/democrat-defeats-republican-in-alaska-in-final-midterms-senate-race-13613459",
+    "quote": "Democrat defeats Republican in Alaska in final midterms Senate race"
+  },
+  {
+    "id": "news:npr:5daa65e9f5f6",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-18T12:14:28Z",
+    "label": "NPR: Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+    "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+    "quote": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang"
+  },
+  {
+    "id": "news:bbc:37933f5fe4c2",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T09:27:51Z",
+    "label": "BBC News: Ghana's new $60m presidential jet sparks public outrage",
+    "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o",
+    "quote": "Ghana's new $60m presidential jet sparks public outrage"
+  },
+  {
+    "id": "news:allafrica:028bf17b0b19",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-18T18:09:23Z",
+    "label": "AllAfrica: Ghana: Why Can't Ghana Buy a $60m Presidential Jet After Spending $97m On National Cathedral? - Richard Sumah",
+    "url": "https://allafrica.com/stories/202611180669.html",
+    "quote": "Ghana: Why Can't Ghana Buy a $60m Presidential Jet After Spending $97m On National Cathedral? - Richard Sumah"
+  }
+]

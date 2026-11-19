@@ -1,0 +1,584 @@
+{
+  "version": 1,
+  "id": "story-2026-11-18-waymo-pulls-driverless-taxis-from-all-us-freeways",
+  "title": "Waymo",
+  "subtitle": "Tech & business · 18 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-18T00:00:00Z",
+    "end": "2026-11-18T00:01:23Z"
+  },
+  "focus": "2026-11-18T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -130,
+    "south": 29,
+    "east": -110,
+    "north": 45
+  },
+  "imagery": {
+    "day": "2026-11-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-18T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-18T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "lon": -82,
+      "lat": 21.787499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T00:00:04Z",
+      "lon": -120,
+      "lat": 36.3125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:14Z",
+      "lon": -120,
+      "lat": 36.3125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:23Z",
+      "lon": -120,
+      "lat": 36.3125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:26Z",
+      "lon": -122.04194444444,
+      "lat": 36.592777777778004,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:29Z",
+      "lon": -122.04194444444,
+      "lat": 36.592777777778004,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:31Z",
+      "lon": -122.04194444444,
+      "lat": 36.592777777778004,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:34Z",
+      "lon": -122.04194444444,
+      "lat": 35.392777777778,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:38Z",
+      "lon": -122.04194444444,
+      "lat": 35.392777777778,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:41Z",
+      "lon": -122.04194444444,
+      "lat": 35.392777777778,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:44Z",
+      "lon": -122.04194444444,
+      "lat": 33.392777777778,
+      "range": 5500000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:47Z",
+      "lon": -122.04194444444,
+      "lat": 33.392777777778,
+      "range": 4980461.825975579,
+      "heading": -9.7,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:50Z",
+      "lon": -122.04194444444,
+      "lat": 33.392777777778,
+      "range": 4510000,
+      "heading": -19.4,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:54Z",
+      "lon": -121.01831599970359,
+      "lat": 36.90076974365155,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:56Z",
+      "lon": -121.01831599970359,
+      "lat": 36.90076974365155,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:59Z",
+      "lon": -121.01831599970359,
+      "lat": 36.90076974365155,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:02Z",
+      "lon": -121.01831599970359,
+      "lat": 36.90076974365155,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:09Z",
+      "lon": -121.01831599970359,
+      "lat": 36.90076974365155,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:15Z",
+      "lon": -121.01831599970359,
+      "lat": 36.90076974365155,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:18Z",
+      "lon": -120,
+      "lat": 36.3125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:19Z",
+      "lon": -120,
+      "lat": 36.3125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:01:23Z",
+      "lon": -145,
+      "lat": 36.3125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-18T00:00:01Z",
+      "text": "According to BBC News, Waymo is pulling its driverless taxis from all US freeways.",
+      "cites": [
+        "news:bbc:2dfd1d8d61a7"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:08Z",
+      "text": "In October 2026, Waymo expanded its service area in San Diego to include La Jolla.",
+      "cites": [
+        "wiki:rev:1386509662:108"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:15Z",
+      "text": "Waymo LLC is an American autonomous driving technology company headquartered in Mountain View, California.",
+      "cites": [
+        "wiki:rev:1386509662:0"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:25Z",
+      "text": "Waymo is headquartered in Mountain View, United States.",
+      "cites": [
+        "wd:Q15330:P159"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:33Z",
+      "text": "Waymo was founded in 2016 by Sebastian Thrun and Anthony Levandowski, and is led by Tekedra Mawakana.",
+      "cites": [
+        "wd:Q15330:P571",
+        "wd:Q15330:P112",
+        "wd:Q15330:P169"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:43Z",
+      "text": "Hacker News recorded 10 stories with Waymo in the title in the two weeks to 18 November 2026.",
+      "cites": [
+        "hn:2026-11-18:Q15330"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:01Z",
+      "text": "BBC News headlined the story: “Waymo pulls driverless taxis from all US freeways”.",
+      "cites": [
+        "news:bbc:2dfd1d8d61a7"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:08Z",
+      "text": "The Guardian headlined it: “Waymo pulls driverless taxis from freeways across the US after California ban”.",
+      "cites": [
+        "news:guardian:10e302fb34c3"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:01:17Z",
+      "text": "This explainer draws on BBC News and The Guardian, Wikipedia articles, Wikimedia pageviews, Wikidata and Hacker News, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1386509662:108",
+        "views:en:Waymo:30d",
+        "wd:Q15330:P571",
+        "hn:2026-11-18:Q15330"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -120,
+    "lat": 37,
+    "label": "California"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-18T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-18T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-18T00:00:42Z",
+      "title": "Tech talk"
+    },
+    {
+      "t": "2026-11-18T00:00:51Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-18T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-18T00:01:16Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-18T00:00:33Z",
+      "until": "2026-11-18T00:00:42Z",
+      "title": "On record: Waymo",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "13 December 2016",
+          "cites": [
+            "wd:Q15330:P571"
+          ]
+        },
+        {
+          "label": "Founded by",
+          "text": "Sebastian Thrun and Anthony Levandowski",
+          "cites": [
+            "wd:Q15330:P112"
+          ]
+        },
+        {
+          "label": "Chief executive",
+          "text": "Tekedra Mawakana",
+          "cites": [
+            "wd:Q15330:P169"
+          ]
+        },
+        {
+          "label": "Industry",
+          "text": "taxi service",
+          "cites": [
+            "wd:Q15330:P452"
+          ]
+        },
+        {
+          "label": "Parent",
+          "text": "Google",
+          "cites": [
+            "wd:Q15330:P749"
+          ]
+        },
+        {
+          "label": "Owned by",
+          "text": "Waymo Holding",
+          "cites": [
+            "wd:Q15330:P127"
+          ]
+        },
+        {
+          "label": "Employees",
+          "text": "2,500 (2023)",
+          "cites": [
+            "wd:Q15330:P1128:latest"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "waymo.com",
+          "url": "https://waymo.com/",
+          "cites": [
+            "wd:Q15330:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hn",
+      "t": "2026-11-18T00:00:43Z",
+      "until": "2026-11-18T00:00:51Z",
+      "title": "Hacker News stories a day",
+      "note": "Stories with \"Waymo\" in the title, over 14 days.",
+      "kind": "line",
+      "unit": "stories",
+      "series": [
+        {
+          "label": "Waymo",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "11-05",
+              "y": 0
+            },
+            {
+              "x": "11-06",
+              "y": 0
+            },
+            {
+              "x": "11-07",
+              "y": 0
+            },
+            {
+              "x": "11-08",
+              "y": 0
+            },
+            {
+              "x": "11-09",
+              "y": 0
+            },
+            {
+              "x": "11-10",
+              "y": 1
+            },
+            {
+              "x": "11-11",
+              "y": 0
+            },
+            {
+              "x": "11-12",
+              "y": 1
+            },
+            {
+              "x": "11-13",
+              "y": 1
+            },
+            {
+              "x": "11-14",
+              "y": 0
+            },
+            {
+              "x": "11-15",
+              "y": 0
+            },
+            {
+              "x": "11-16",
+              "y": 0
+            },
+            {
+              "x": "11-17",
+              "y": 2
+            },
+            {
+              "x": "11-18",
+              "y": 5
+            }
+          ],
+          "cites": [
+            "hn:2026-11-18:Q15330"
+          ]
+        }
+      ],
+      "mark": 13
+    },
+    {
+      "id": "hn-top",
+      "t": "2026-11-18T00:00:43Z",
+      "until": "2026-11-18T00:00:51Z",
+      "title": "Most discussed",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "66 points",
+          "text": "California bans Waymo autonomous vehicles from state freeways",
+          "url": "https://news.ycombinator.com/item?id=50538841",
+          "cites": [
+            "hn:2026-11-18:Q15330"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-18T00:01:01Z",
+      "until": "2026-11-18T00:01:16Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo",
+          "cites": [
+            "news:bbc:2dfd1d8d61a7"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways",
+          "cites": [
+            "news:guardian:10e302fb34c3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-18T00:01:17Z",
+      "until": "2026-11-18T00:01:23Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386509662:108"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Waymo:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q15330:P571"
+          ]
+        },
+        {
+          "label": "Hacker News (via the Algolia search API)",
+          "text": "No licence stated: story counts ",
+          "url": "https://news.ycombinator.com/",
+          "cites": [
+            "hn:2026-11-18:Q15330"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:59:29Z",
+    "costUsd": 0.002299
+  }
+}

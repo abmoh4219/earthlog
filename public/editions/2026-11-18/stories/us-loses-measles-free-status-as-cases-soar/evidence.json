@@ -1,0 +1,117 @@
+[
+  {
+    "id": "news:sky:eb3cdf8f161d",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Sky News: US loses measles-free status amid worst outbreak in 35 years (10:42 UTC)",
+    "url": "https://news.sky.com/story/us-loses-measles-free-status-amid-worst-outbreak-in-35-years-13613526",
+    "quote": "US loses measles-free status amid worst outbreak in 35 years",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:7b9292736fa3",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "France 24: US loses measles-free status as cases soar (10:50 UTC)",
+    "url": "https://www.france24.com/en/video/20261118-us-loses-measles-free-status-as-cases-soar",
+    "quote": "US loses measles-free status as cases soar",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:812ea3e34b12",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Al Jazeera: US loses measles-free status after 26 years in historic setback (20:18 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_us-loses-measles-free-status-after-26-years-181126",
+    "quote": "US loses measles-free status after 26 years in historic setback",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386297933:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"United States\" (revision of 2026-11-17 20:14 UTC)",
+    "quote": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America.",
+    "url": "https://en.wikipedia.org/w/index.php?title=United_States&oldid=1386297933"
+  },
+  {
+    "id": "wiki:2026-11-13:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-13",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-13: Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik.",
+    "quote": "Iran says it has destroyed an early-warning radar in Bahrain as a retaliation for a United States strike on telecommunication infrastructure on Sirik.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_13&oldid=1385865806"
+  },
+  {
+    "id": "wiki:2026-11-17:4",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-17",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-17: The United States Air Force conducts a series of at least six strikes on Qeshm Island. The IRGC says it shot down a General Atomics MQ-9 Reaper drone south of the island.",
+    "quote": "The United States Air Force conducts a series of at least six strikes on Qeshm Island.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867"
+  },
+  {
+    "id": "views:en:United_States:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"United States\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=United_States&range=latest-30"
+  },
+  {
+    "id": "wd:Q30:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United States\": founded 4 July 1776",
+    "url": "https://www.wikidata.org/wiki/Q30#P571"
+  },
+  {
+    "id": "wd:Q30:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United States\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q30#P17"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:US",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, United States: 2019 1.8%; 2020 1.2%; 2021 4.7%; 2022 8.0%; 2023 4.1%; 2024 2.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=US"
+  },
+  {
+    "id": "wb:NY.GDP.MKTP.KD.ZG:US",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, GDP growth, United States: 2020 -2.1%; 2021 6.2%; 2022 2.5%; 2023 2.9%; 2024 2.8%; 2025 2.2%",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=US"
+  },
+  {
+    "id": "wb:SL.UEM.TOTL.ZS:US",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Unemployment, United States: 2020 8.1%; 2021 5.3%; 2022 3.6%; 2023 3.6%; 2024 4.0%; 2025 4.2%",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=US"
+  }
+]

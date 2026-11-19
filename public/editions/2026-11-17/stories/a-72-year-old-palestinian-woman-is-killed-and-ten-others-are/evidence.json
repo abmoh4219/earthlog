@@ -1,0 +1,60 @@
+[
+  {
+    "id": "wiki:2026-11-17:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-17T00:00:00Z",
+    "lon": 35.43833333,
+    "lat": 31.86361111,
+    "label": "Conflict: A 72-year-old Palestinian woman is killed and ten others are injured in an attack by Israeli settlers on Palestinian homes in the village of Ein ad-Duyuk at-Tahta west of Jericho in the occupied West Bank.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+    "quote": "A 72-year-old Palestinian woman is killed and ten others are injured in an attack by Israeli settlers on Palestinian homes in the village of Ein ad-Duyuk at-Tahta west of Jericho in the occupied West Bank.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:3ef7f1dcfd6e",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Al Jazeera: Israeli settler pogrom kills Palestinian woman, wounds 10 people (18:43 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people",
+    "quote": "Israeli settler pogrom kills Palestinian woman, wounds 10 people",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:489fc4dc7729",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "The Guardian: Palestinian woman shot dead by Israeli settlers near Jericho, witnesses say (20:21 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say",
+    "quote": "Palestinian woman shot dead by Israeli settlers near Jericho, witnesses say",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:7036da4c8754",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "BBC News: Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says (20:30 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo",
+    "quote": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:4782dfd39bc5",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Sky News: UK sanctions eight firms building Israeli settlements in the West Bank (06:12 UTC)",
+    "url": "https://news.sky.com/story/uk-sanctions-eight-firms-building-israeli-settlements-in-the-west-bank-13612666",
+    "quote": "UK sanctions eight firms building Israeli settlements in the West Bank",
+    "precision": "day"
+  }
+]

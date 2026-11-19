@@ -1,0 +1,69 @@
+[
+  {
+    "id": "news:guardian:c909e9e5ddfb",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "The Guardian: Israel delays building contracts for West Bank settlement after UK sanctions (14:05 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+    "quote": "Israel delays building contracts for West Bank settlement after UK sanctions",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:a863809b118e",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Al Jazeera: Israeli settler kills Palestinian grandmother in occupied West Bank (19:27 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-settler-kills-palestinian-grandmother-in-occupied-west-bank",
+    "quote": "Israeli settler kills Palestinian grandmother in occupied West Bank",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386040821:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"West Bank\" (revision of 2026-11-16 15:32 UTC)",
+    "quote": "The West Bank is the larger of the two Palestinian territories (the other being the Gaza Strip) that make up Palestine.",
+    "url": "https://en.wikipedia.org/w/index.php?title=West_Bank&oldid=1386040821"
+  },
+  {
+    "id": "views:en:West_Bank:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"West Bank\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=West_Bank&range=latest-30"
+  },
+  {
+    "id": "wd:Q36678:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"West Bank\": location Southern Levant",
+    "url": "https://www.wikidata.org/wiki/Q36678#P276"
+  },
+  {
+    "id": "wd:Q36678:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"West Bank\": founded 1949",
+    "url": "https://www.wikidata.org/wiki/Q36678#P571"
+  },
+  {
+    "id": "wd:Q36678:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"West Bank\": country Palestine, Israel",
+    "url": "https://www.wikidata.org/wiki/Q36678#P17"
+  }
+]

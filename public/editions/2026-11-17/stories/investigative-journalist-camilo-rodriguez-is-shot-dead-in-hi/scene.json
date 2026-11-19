@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "id": "story-2026-11-17-investigative-journalist-camilo-rodriguez-is-shot-dead-in-hi",
+  "title": "Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo…",
+  "subtitle": "News · 17 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-17T00:01:10Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -94.0685928,
+    "south": 1.9880112000000008,
+    "east": -74.0685928,
+    "north": 17.988011200000003
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-17T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-17T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-17T00:00:25Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": -46.06859280000003,
+      "lat": 5.58030672,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:00:04Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-17T00:00:10Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:16Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:19Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:22Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:24Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:27Z",
+      "lon": -84.03431948914138,
+      "lat": 9.902340724378442,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:30Z",
+      "lon": -84.03431948914138,
+      "lat": 9.902340724378442,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:33Z",
+      "lon": -84.03431948914138,
+      "lat": 9.902340724378442,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:36Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:39Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:41Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:44Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:00:53Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:02Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:05Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:06Z",
+      "lon": -84.0685928,
+      "lat": 9.3005112,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-17T00:01:10Z",
+      "lon": -109.06859280000003,
+      "lat": 9.3005112,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:01Z",
+      "text": "Investigative journalist Camilo Rodríguez was shot dead in his vehicle in Santo Domingo, Heredia, Costa Rica.",
+      "cites": [
+        "wiki:2026-11-17:15"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:06Z",
+      "text": "The killing is the first journalist death in the country in at least 25 years.",
+      "cites": [
+        "wiki:2026-11-17:15"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:11Z",
+      "text": "Costa Rica is a Central American nation that boasts of a noteworthy safety record on crime compared with its neighbors in the region.",
+      "cites": [
+        "wiki:rev:1370239430:0"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:18Z",
+      "text": "The reports place the killing in Santo Domingo, Costa Rica, on the map shown here.",
+      "cites": [
+        "wiki:2026-11-17:15"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:26Z",
+      "text": "The reports also name Heredia Province.",
+      "cites": [
+        "wiki:2026-11-17:15"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:35Z",
+      "text": "The story was reported by AFP.",
+      "cites": [
+        "wiki:2026-11-17:15"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:43Z",
+      "text": "The Guardian headlined it: “Costa Rican journalist shot dead in first such killing in 25 years.”",
+      "cites": [
+        "news:guardian:c83fbb08e25b"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:49Z",
+      "text": "Al Jazeera headlined it: “Journalist who exposed alleged drug links shot dead in Costa Rica.”",
+      "cites": [
+        "news:aljazeera:44055b89138d"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:00:55Z",
+      "text": "BBC News headlined it: “Gunmen kill Costa Rican journalist who reported on drugs trade.”",
+      "cites": [
+        "news:bbc:3cd7da8937d5"
+      ]
+    },
+    {
+      "t": "2026-11-17T00:01:04Z",
+      "text": "Sources for this film are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-17:15",
+        "wiki:rev:1370239430:0",
+        "views:en:Crime_in_Costa_Rica:30d",
+        "wd:Q60743570:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CR",
+    "lon": -84.0685928,
+    "lat": 9.9880112,
+    "label": "Santo Domingo, Costa Rica"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-17T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-17T00:00:25Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-17T00:00:34Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-17T00:00:42Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-17T00:01:03Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-17T00:00:35Z",
+      "until": "2026-11-17T00:00:42Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/costa-rican-journalist-gunned-down-near-capital",
+          "cites": [
+            "wiki:2026-11-17:15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-17T00:00:43Z",
+      "until": "2026-11-17T00:01:03Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead",
+          "cites": [
+            "news:guardian:c83fbb08e25b"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/journalist-who-exposed-alleged-drug-links-shot-dead-in-costa-rica",
+          "cites": [
+            "news:aljazeera:44055b89138d"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo",
+          "cites": [
+            "news:bbc:3cd7da8937d5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-17T00:01:04Z",
+      "until": "2026-11-17T00:01:10Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-17:15"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1370239430:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Crime_in_Costa_Rica:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q60743570:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:54:58Z",
+    "costUsd": 0.000828
+  }
+}

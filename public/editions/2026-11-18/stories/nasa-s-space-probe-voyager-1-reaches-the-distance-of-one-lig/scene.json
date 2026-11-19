@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "id": "story-2026-11-18-nasa-s-space-probe-voyager-1-reaches-the-distance-of-one-lig",
+  "title": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth",
+  "subtitle": "Science & space · 18 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-18T00:00:00Z",
+    "end": "2026-11-18T00:00:44Z"
+  },
+  "focus": "2026-11-18T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -87.01638889,
+    "south": 30.883055560000003,
+    "east": -67.01638889,
+    "north": 46.88305556
+  },
+  "imagery": {
+    "day": "2026-11-18",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-18T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-18T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "lon": -39.01638889000003,
+      "lat": 22.917333336000002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-18T00:00:04Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-18T00:00:07Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:09Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:12Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:15Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:17Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:20Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:23Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:25Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:28Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:32Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:36Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:39Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:40Z",
+      "lon": -77.01638889,
+      "lat": 38.19555556,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-18T00:00:44Z",
+      "lon": -102.01638889000003,
+      "lat": 38.19555556,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-18T00:00:01Z",
+      "text": "NASA's space probe Voyager 1 has reached the distance of one light-day from Earth, the first man-made object to do so since it launched in 1977.",
+      "cites": [
+        "wiki:2026-11-18:12"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:11Z",
+      "text": "The reports place this milestone with NASA in the United States.",
+      "cites": [
+        "wiki:2026-11-18:12"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:19Z",
+      "text": "CNN reported the story.",
+      "cites": [
+        "wiki:2026-11-18:12"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:27Z",
+      "text": "Al Jazeera's headline read: “Voyager 1 reaches one light-day from Earth after 49 years in space”.",
+      "cites": [
+        "news:aljazeera:3b4c1ac22922"
+      ]
+    },
+    {
+      "t": "2026-11-18T00:00:38Z",
+      "text": "This explainer draws on Wikipedia's current events page, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-18:12"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -77.01638889,
+    "lat": 38.88305556,
+    "label": "NASA"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-18T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-18T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-18T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-18T00:00:37Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-18T00:00:19Z",
+      "until": "2026-11-18T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "CNN",
+          "text": "Open",
+          "url": "https://edition.cnn.com/2026/11/18/science/voyager-1-light-day",
+          "cites": [
+            "wiki:2026-11-18:12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-18T00:00:27Z",
+      "until": "2026-11-18T00:00:37Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/voyager-1-reaches-one-light-day-from-earth-after-49-years-in-space",
+          "cites": [
+            "news:aljazeera:3b4c1ac22922"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-18T00:00:38Z",
+      "until": "2026-11-18T00:00:44Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-18:12"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-19T07:59:29Z",
+    "costUsd": 0.000499
+  }
+}

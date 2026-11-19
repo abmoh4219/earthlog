@@ -1,0 +1,60 @@
+[
+  {
+    "id": "news:bbc:37933f5fe4c2",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "BBC News: Ghana's new $60m presidential jet sparks public outrage (09:27 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o",
+    "quote": "Ghana's new $60m presidential jet sparks public outrage",
+    "precision": "day"
+  },
+  {
+    "id": "news:allafrica:028bf17b0b19",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "AllAfrica: Ghana: Why Can't Ghana Buy a $60m Presidential Jet After Spending $97m On National Cathedral? - Richard Sumah (18:09 UTC)",
+    "url": "https://allafrica.com/stories/202611180669.html",
+    "quote": "Ghana: Why Can't Ghana Buy a $60m Presidential Jet After Spending $97m On National Cathedral? - Richard Sumah",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1373759271:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"President of Ghana\" (revision of 2026-09-07 19:39 UTC)",
+    "quote": "The president of the Republic of Ghana is the elected head of state and head of government of Ghana, as well as commander-in-chief of the Ghana Armed Forces.",
+    "url": "https://en.wikipedia.org/w/index.php?title=President_of_Ghana&oldid=1373759271"
+  },
+  {
+    "id": "views:en:President_of_Ghana:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"President of Ghana\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=President_of_Ghana&range=latest-30"
+  },
+  {
+    "id": "wd:Q2672728:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"President of Ghana\": founded 1 July 1960",
+    "url": "https://www.wikidata.org/wiki/Q2672728#P571"
+  },
+  {
+    "id": "wd:Q2672728:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"President of Ghana\": country Ghana",
+    "url": "https://www.wikidata.org/wiki/Q2672728#P17"
+  }
+]

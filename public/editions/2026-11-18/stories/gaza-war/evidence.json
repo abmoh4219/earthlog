@@ -1,0 +1,155 @@
+[
+  {
+    "id": "wiki:2026-11-18:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-18T00:00:00Z",
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Conflict: The Israeli army launches its first operation in central Gaza Strip amid the displacement of families from the area, for the first time since the ceasefire agreement signed in October 2025 came into effect.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+    "quote": "The Israeli army launches its first operation in central Gaza Strip amid the displacement of families from the area, for the first time since the ceasefire agreement signed in October 2025 came into effect.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cw8r7510degno"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:bd982f0d6d88",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Al Jazeera: Israeli forces launch new military operation in central Gaza (18:12 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza",
+    "quote": "Israeli forces launch new military operation in central Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:35417a49cd93",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "DW: Israel launches new ground operation in Gaza (18:29 UTC)",
+    "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958",
+    "quote": "Israel launches new ground operation in Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:842ad9ad2dc7",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "France 24: Israeli army launches ground operation in Hamas-controlled area of Gaza (19:55 UTC)",
+    "url": "https://www.france24.com/en/israeli-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
+    "quote": "Israeli army launches ground operation in Hamas-controlled area of Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:118cb35472e6",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Sky News: Israeli troops launch ground operation in central Gaza (20:29 UTC)",
+    "url": "https://news.sky.com/story/israeli-troops-launch-ground-operation-in-central-gaza-13613724",
+    "quote": "Israeli troops launch ground operation in central Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q122962941:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "Wikidata: \"Gaza War\" is an instance of war",
+    "url": "https://www.wikidata.org/wiki/Q122962941",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:116efff4a5dd",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "BBC News: Israeli military launches rare ground operation in Gaza beyond Yellow Line (22:34 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+    "quote": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:de9b828e4390",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "The Guardian: Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza (23:25 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+    "quote": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386582023:281",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-19 07:37 UTC)",
+    "quote": "On 18 November, to target what it described as a tunnel posing a threat to troops, the IDF initiated a ground operation west of the Yellow Line in the central Gaza Strip, advancing tanks onto Salah al-Din Road close to the Nuseirat and Bureij refugee camps.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1386582023"
+  },
+  {
+    "id": "wiki:rev:1386582023:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-19 07:37 UTC)",
+    "quote": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1386582023"
+  },
+  {
+    "id": "views:en:Gaza_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gaza war\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q122962941:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P585"
+  },
+  {
+    "id": "wd:Q122962941:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": began 7 October 2023",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P580"
+  },
+  {
+    "id": "wd:Q122962941:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": location Levant, Yemen",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P276"
+  },
+  {
+    "id": "wd:Q122962941:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": country Israel, Palestine",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P17"
+  }
+]

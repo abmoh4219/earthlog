@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wiki:2026-11-17:11",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-17T00:00:00Z",
+    "lon": 14.42138889,
+    "lat": 50.0875,
+    "label": "Disaster: Forty-six people are injured after a collision between two trains in Prague, Czech Republic.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+    "quote": "Forty-six people are injured after a collision between two trains in Prague, Czech Republic.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/c6reg7r589nro"
+      }
+    ]
+  },
+  {
+    "id": "news:sky:c8df7b2d1d8e",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-17T00:00:00Z",
+    "label": "Sky News: Prague train crash leaves 46 people injured (12:46 UTC)",
+    "url": "https://news.sky.com/story/prague-train-crash-leaves-46-people-injured-13613217",
+    "quote": "Prague train crash leaves 46 people injured",
+    "precision": "day"
+  }
+]

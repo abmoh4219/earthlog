@@ -1,0 +1,171 @@
+[
+  {
+    "id": "news:bbc:2dfd1d8d61a7",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "BBC News: Waymo pulls driverless taxis from all US freeways (03:07 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo",
+    "quote": "Waymo pulls driverless taxis from all US freeways",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:10e302fb34c3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-18T00:00:00Z",
+    "label": "The Guardian: Waymo pulls driverless taxis from freeways across the US after California ban (22:05 UTC)",
+    "url": "https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways",
+    "quote": "Waymo pulls driverless taxis from freeways across the US after California ban",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386509662:108",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Waymo\" (revision of 2026-11-18 23:09 UTC)",
+    "quote": "In October 2026, Waymo expanded their service area in San Diego to include La Jolla.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Waymo&oldid=1386509662"
+  },
+  {
+    "id": "wiki:rev:1386509662:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Waymo\" (revision of 2026-11-18 23:09 UTC)",
+    "quote": "Waymo LLC is an American autonomous driving technology company headquartered in Mountain View, California.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Waymo&oldid=1386509662"
+  },
+  {
+    "id": "views:en:Waymo:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Waymo\", 20 October 2026 to 18 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Waymo&range=latest-30"
+  },
+  {
+    "id": "wd:Q15330:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q15330\": founded 13 December 2016",
+    "url": "https://www.wikidata.org/wiki/Q15330#P571"
+  },
+  {
+    "id": "wd:Q15330:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q15330\": headquarters Mountain View",
+    "url": "https://www.wikidata.org/wiki/Q15330#P159"
+  },
+  {
+    "id": "wd:Q15330:P452",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q15330\": industry taxi service",
+    "url": "https://www.wikidata.org/wiki/Q15330#P452"
+  },
+  {
+    "id": "wd:Q15330:P1128",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q15330\": employees 2,500",
+    "url": "https://www.wikidata.org/wiki/Q15330#P1128"
+  },
+  {
+    "id": "wd:Q15330:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q15330\": country of origin United States",
+    "url": "https://www.wikidata.org/wiki/Q15330#P495"
+  },
+  {
+    "id": "wd:Q15330:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q15330\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q15330#P17"
+  },
+  {
+    "id": "hn:2026-11-18:Q15330",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 10 stories with \"Waymo\" in the title in the 14 days to 18 November 2026",
+    "value": 10,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=Waymo&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q15330:P112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Waymo\": founded by: Sebastian Thrun and Anthony Levandowski",
+    "url": "https://www.wikidata.org/wiki/Q15330#P112"
+  },
+  {
+    "id": "wd:Q15330:P169",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Waymo\": chief executive: Tekedra Mawakana",
+    "url": "https://www.wikidata.org/wiki/Q15330#P169"
+  },
+  {
+    "id": "wd:Q15330:P749",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Waymo\": parent: Google",
+    "url": "https://www.wikidata.org/wiki/Q15330#P749"
+  },
+  {
+    "id": "wd:Q15330:P127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Waymo\": owned by: Waymo Holding",
+    "url": "https://www.wikidata.org/wiki/Q15330#P127"
+  },
+  {
+    "id": "wd:Q15330:P1128:latest",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Waymo\": employees: 2,500 (2023)",
+    "url": "https://www.wikidata.org/wiki/Q15330#P1128"
+  },
+  {
+    "id": "wd:Q15330:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-18T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Waymo\": official website https://waymo.com/",
+    "url": "https://www.wikidata.org/wiki/Q15330#P856"
+  }
+]

@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-17",
+  "title": "The world on 17 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-17T00:00:00Z",
+    "end": "2026-11-18T00:00:00Z"
+  },
+  "focus": "2026-11-17T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-17",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "lon": -163.2,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T00:41:26Z",
+      "lon": -163.2,
+      "lat": -10.2,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T01:15:20Z",
+      "lon": 87.2,
+      "lat": 10.5,
+      "range": 3000000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T01:56:46Z",
+      "lon": 87.2,
+      "lat": 10.5,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T02:30:40Z",
+      "lon": 106.91527778,
+      "lat": 47.28194444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T03:12:06Z",
+      "lon": 106.91527778,
+      "lat": 47.28194444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T03:46:00Z",
+      "lon": 34.45,
+      "lat": 30.86,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T04:27:26Z",
+      "lon": 34.45,
+      "lat": 30.86,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T05:01:20Z",
+      "lon": 34.45,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T06:16:40Z",
+      "lon": 34.45,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T07:32:00Z",
+      "lon": 34.45,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T08:47:20Z",
+      "lon": 86.06666667,
+      "lat": 54.72666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T09:28:46Z",
+      "lon": 86.06666667,
+      "lat": 54.72666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T10:02:40Z",
+      "lon": 151.21,
+      "lat": -34.50777778,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T10:44:06Z",
+      "lon": 151.21,
+      "lat": -34.50777778,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T11:18:00Z",
+      "lon": 151.21,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T13:12:00Z",
+      "lon": 90.38888889,
+      "lat": 23.124444439999998,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T13:53:26Z",
+      "lon": 90.38888889,
+      "lat": 23.124444439999998,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T14:27:20Z",
+      "lon": 179.8423,
+      "lat": -33.185700000000004,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T15:08:46Z",
+      "lon": 179.8423,
+      "lat": -33.185700000000004,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T15:42:40Z",
+      "lon": 2.55,
+      "lat": 45.42,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T16:58:12Z",
+      "lon": 2.55,
+      "lat": 45.42,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T18:00:00Z",
+      "lon": -64.59,
+      "lat": -17.950000000000003,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T18:41:26Z",
+      "lon": -64.59,
+      "lat": -17.950000000000003,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T19:15:20Z",
+      "lon": -64.59,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-17T20:30:40Z",
+      "lon": -84.0685928,
+      "lat": 9.3480112,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T21:46:12Z",
+      "lon": -84.0685928,
+      "lat": 9.3480112,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-17T22:48:00Z",
+      "lon": -72.22,
+      "lat": 17.98,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-17T23:27:36Z",
+      "lon": -72.22,
+      "lat": 17.98,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-18T00:00:00Z",
+      "lon": -72.22,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "speed": 565
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-17T00:00:00Z",
+      "text": "00:00 UTC. Tropical Cyclone Xavier at 9.0°S, 163.2°W, sustained winds of 105 knots.",
+      "cites": [
+        "eonet:EONET_26463:2026-11-17T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-17T01:15:20Z",
+      "text": "00:00 UTC. Tropical Cyclone Akvan at 11.7°N, 87.2°E, sustained winds of 35 knots.",
+      "cites": [
+        "eonet:EONET_26494:2026-11-17T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-17T02:30:40Z",
+      "text": "Politics: Mongolian president Ukhnaagiin Khürelsükh announces his resignation from office…",
+      "cites": [
+        "wiki:2026-11-17:19"
+      ]
+    },
+    {
+      "t": "2026-11-17T03:46:00Z",
+      "text": "Conflict: Five Palestinians are killed, including a child, and others are injured in a series of Israeli airstrikes on various areas of the Gaza…",
+      "cites": [
+        "wiki:2026-11-17:1"
+      ]
+    },
+    {
+      "t": "2026-11-17T05:01:20Z",
+      "text": "04:30 UTC. Internet outage signal in China: responsive address blocks down to 81% of normal.",
+      "cites": [
+        "ioda:CN:ping:2026-11-17T04:30Z",
+        "ioda:CN:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-17T06:16:40Z",
+      "text": "04:30 UTC. Internet outage signal in Burkina Faso: responsive address blocks down to 75% of normal.",
+      "cites": [
+        "ioda:BF:ping:2026-11-17T04:30Z",
+        "ioda:BF:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-17T07:32:00Z",
+      "text": "05:10 UTC. Internet outage signal in Central African Rep.: responsive address blocks down to 80% of normal.",
+      "cites": [
+        "ioda:CF:ping:2026-11-17T05:10Z",
+        "ioda:CF:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-17T08:47:20Z",
+      "text": "Disaster: A Russian Air Force Antonov An-12 crashes near Kemerovo, Russia, killing all 19 people on board.",
+      "cites": [
+        "wiki:2026-11-17:10"
+      ]
+    },
+    {
+      "t": "2026-11-17T10:02:40Z",
+      "text": "Sports: Racing NSW launches an investigation after the body of losing horse So You Are is found in a skip bin in Sydney, Australia.",
+      "cites": [
+        "wiki:2026-11-17:22"
+      ]
+    },
+    {
+      "t": "2026-11-17T11:18:00Z",
+      "text": "Science & tech: American technology company Apple experiences an outage with several of its services, including Apple Pay, iCloud, the App Store…",
+      "cites": [
+        "wiki:2026-11-17:21"
+      ]
+    },
+    {
+      "t": "2026-11-17T13:12:00Z",
+      "text": "Business: Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear gas, stun grenades, batons…",
+      "cites": [
+        "wiki:2026-11-17:8"
+      ]
+    },
+    {
+      "t": "2026-11-17T14:27:20Z",
+      "text": "14:20 UTC. The day's strongest earthquake: magnitude 5.2, 337 km deep, south of the Kermadec Islands.",
+      "cites": [
+        "usgs:us7000tysq"
+      ]
+    },
+    {
+      "t": "2026-11-17T15:42:40Z",
+      "text": "World: France and Malaysia establish a strategic partnership, signing agreements on defence, energy…",
+      "cites": [
+        "wiki:2026-11-17:13"
+      ]
+    },
+    {
+      "t": "2026-11-17T18:00:00Z",
+      "text": "Health & environment: The Pan American Health Organization revokes the measles elimination statuses of Bolivia, Mexico, and the United States. For the U.S.…",
+      "cites": [
+        "wiki:2026-11-17:12"
+      ]
+    },
+    {
+      "t": "2026-11-17T19:15:20Z",
+      "text": "18:20 UTC. Internet outage signal in Chad: responsive address blocks down to 68% of normal.",
+      "cites": [
+        "ioda:TD:ping:2026-11-17T18:20Z",
+        "ioda:TD:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-17T20:30:40Z",
+      "text": "Law & crime: Investigative journalist Camilo Rodríguez is shot dead in his vehicle in Santo Domingo, Heredia, Costa Rica…",
+      "cites": [
+        "wiki:2026-11-17:15"
+      ]
+    },
+    {
+      "t": "2026-11-17T22:48:00Z",
+      "text": "Politics: Hundreds of Haitians march in cities across Haiti to show support for the deployment of Salvadoran troops to combat gang violence.",
+      "cites": [
+        "wiki:2026-11-17:20"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-19T07:58:42Z"
+  }
+}
