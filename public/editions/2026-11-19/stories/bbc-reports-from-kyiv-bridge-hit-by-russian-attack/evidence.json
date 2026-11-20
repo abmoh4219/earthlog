@@ -1,0 +1,51 @@
+[
+  {
+    "id": "news:guardian:e881df0785eb",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "The Guardian: Crimea bridge has been attacked again, says Russian-installed governor (10:03 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+    "quote": "Crimea bridge has been attacked again, says Russian-installed governor",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:b11b79f67545",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies (21:25 UTC)",
+    "url": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies",
+    "quote": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1379490720:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Crimea\" (revision of 2026-10-10 08:29 UTC)",
+    "quote": "Crimea is a peninsula in Eastern Europe, on the northern coast of the Black Sea, almost entirely surrounded by the Black Sea and the smaller Sea of Azov.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Crimea&oldid=1379490720"
+  },
+  {
+    "id": "views:en:Crimea:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Crimea\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Crimea&range=latest-30"
+  },
+  {
+    "id": "wd:Q7835:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Crimea\": country Ukraine, Russia",
+    "url": "https://www.wikidata.org/wiki/Q7835#P17"
+  }
+]

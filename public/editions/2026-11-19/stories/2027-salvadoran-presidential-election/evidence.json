@@ -1,0 +1,75 @@
+[
+  {
+    "id": "wiki:2026-11-19:19",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Politics: Incumbent president of El Salvador Nayib Bukele presents his presidential candidacy to the Supreme Electoral Court seeking registration ahead of the 2027 elections. He is running for a third presidential term that will last six years.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379",
+    "quote": "Incumbent president of El Salvador Nayib Bukele presents his presidential candidacy to the Supreme Electoral Court seeking registration ahead of the 2027 elections. He is running for a third presidential term that will last six years.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/el-salvador-president-nayib-bukele-reelection-gangs-fbbf0ec3bba7966fa1a5d71d04e04e29"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q135551595:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Wikidata: \"2027 Salvadoran presidential election\" is an instance of public election",
+    "url": "https://www.wikidata.org/wiki/Q135551595",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386718244:74",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2027 Salvadoran presidential election\" (revision of 2026-11-20 04:01 UTC)",
+    "quote": "Bukele presented his candidacy to the TSE on 19 November.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2027_Salvadoran_presidential_election&oldid=1386718244"
+  },
+  {
+    "id": "wiki:rev:1386718244:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2027 Salvadoran presidential election\" (revision of 2026-11-20 04:01 UTC)",
+    "quote": "Presidential elections are scheduled to be held in El Salvador on 28 February 2027, three years after the 2024 presidential election.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2027_Salvadoran_presidential_election&oldid=1386718244"
+  },
+  {
+    "id": "views:en:2027_Salvadoran_presidential_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2027 Salvadoran presidential election\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2027_Salvadoran_presidential_election&range=latest-30"
+  },
+  {
+    "id": "wd:Q135551595:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2027 Salvadoran presidential election\": date 2027",
+    "url": "https://www.wikidata.org/wiki/Q135551595#P585"
+  },
+  {
+    "id": "wd:Q135551595:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2027 Salvadoran presidential election\": country El Salvador",
+    "url": "https://www.wikidata.org/wiki/Q135551595#P17"
+  }
+]

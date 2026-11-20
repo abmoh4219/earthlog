@@ -1,0 +1,945 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-grand-theft-auto-vi",
+  "title": "Grand Theft Auto VI",
+  "subtitle": "Culture · 19 November 2026 · Update, day 2",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:01:30Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-19T00:00:38Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-19T00:00:38Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "lon": -97.48,
+      "lat": 37.339999999999996,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:27Z",
+      "lon": -97.48,
+      "lat": 37.339999999999996,
+      "range": 1629969.324864735,
+      "heading": 9.5,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:28Z",
+      "lon": -97.48,
+      "lat": 37.339999999999996,
+      "range": 1476000,
+      "heading": 3,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:31Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6800000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:34Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6157661.893933443,
+      "heading": 21.7,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:37Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 5576000,
+      "heading": 31.4,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:42Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:52Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:01Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:04Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:13Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:22Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:26Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:01:27Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:30Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "Following two delays, further leaks, and an extensive marketing campaign, the game was released on 19 November 2026 for PlayStation 5 and Xbox Series X and S, to universal critical acclaim.",
+      "cites": [
+        "wiki:rev:1386740634:12"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:08Z",
+      "text": "As of October 2026, no Windows release was scheduled.",
+      "cites": [
+        "wiki:rev:1386740634:161"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:15Z",
+      "text": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games.",
+      "cites": [
+        "wiki:rev:1386740634:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "text": "Aaron Garbut is credited as artist, and Justice is credited for music.",
+      "cites": [
+        "wiki:box:1386740634:artist",
+        "wiki:box:1386740634:music"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:27Z",
+      "text": "Rockstar Games is listed as publisher, and the game's release date is given as 19 November 2026.",
+      "cites": [
+        "wiki:box:1386740634:publisher",
+        "wiki:box:1386740634:released"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:30Z",
+      "text": "Readers also turned to Grand Theft Auto with 171,292 readers, Rockstar Games with 112,864, and Grand Theft Auto V with 108,371.",
+      "cites": [
+        "views:en:Grand_Theft_Auto:2026-11-19",
+        "views:en:Rockstar_Games:2026-11-19",
+        "views:en:Grand_Theft_Auto_V:2026-11-19"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:39Z",
+      "text": "On 19 November 2026, 750,227 people read about the game, about 45 times the usual number.",
+      "cites": [
+        "views:en:Grand_Theft_Auto_VI:2026-11-19",
+        "views:en:Grand_Theft_Auto_VI:prior"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:46Z",
+      "text": "The article was read in 11 languages, and after English, German was the most read, with 73,626 readers.",
+      "cites": [
+        "views:en:Grand_Theft_Auto_VI:2026-11-19",
+        "views:de:Grand_Theft_Auto_VI:2026-11-19"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:53Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:de:Grand_Theft_Auto_VI:2026-11-19",
+        "views:ru:Grand_Theft_Auto_VI:2026-11-19",
+        "views:fr:Grand_Theft_Auto_VI:2026-11-19",
+        "views:es:Grand_Theft_Auto_VI:2026-11-19",
+        "views:it:Grand_Theft_Auto_VI:2026-11-19",
+        "views:zh:俠盜獵車手VI:2026-11-19"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:03Z",
+      "text": "DW asked in its headline what makes Grand Theft Auto VI more than just a game.",
+      "cites": [
+        "news:dw:24b2767125c4"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:09Z",
+      "text": "France 24 called it a masterpiece 13 years in the making.",
+      "cites": [
+        "news:france24:22a76eb8d6c6"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:15Z",
+      "text": "The Guardian reported that fans skip work and pull all-nighters to play the new instalment.",
+      "cites": [
+        "news:guardian:fc139917d31c"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:24Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386740634:12",
+        "views:en:Grand_Theft_Auto_VI:2026-11-19",
+        "wd:Q23648408:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:24Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-19T00:00:29Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-19T00:00:38Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-19T00:01:02Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:01:23Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-19T00:00:25Z",
+      "until": "2026-11-19T00:00:29Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-20).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Artist",
+          "text": "Aaron Garbut",
+          "cites": [
+            "wiki:box:1386740634:artist"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Justice",
+          "cites": [
+            "wiki:box:1386740634:music"
+          ]
+        },
+        {
+          "label": "Publisher",
+          "text": "Rockstar Games",
+          "cites": [
+            "wiki:box:1386740634:publisher"
+          ]
+        },
+        {
+          "label": "Released",
+          "text": "19 November 2026",
+          "cites": [
+            "wiki:box:1386740634:released"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-19T00:00:39Z",
+      "until": "2026-11-19T00:01:02Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Grand Theft Auto VI",
+          "color": "#e8838f",
+          "points": [
+            {
+              "x": "10-21",
+              "y": 18509
+            },
+            {
+              "x": "10-22",
+              "y": 18334
+            },
+            {
+              "x": "10-23",
+              "y": 16532
+            },
+            {
+              "x": "10-24",
+              "y": 15460
+            },
+            {
+              "x": "10-25",
+              "y": 16864
+            },
+            {
+              "x": "10-26",
+              "y": 17068
+            },
+            {
+              "x": "10-27",
+              "y": 18261
+            },
+            {
+              "x": "10-28",
+              "y": 17894
+            },
+            {
+              "x": "10-29",
+              "y": 21871
+            },
+            {
+              "x": "10-30",
+              "y": 19387
+            },
+            {
+              "x": "10-31",
+              "y": 17007
+            },
+            {
+              "x": "11-01",
+              "y": 21786
+            },
+            {
+              "x": "11-02",
+              "y": 25348
+            },
+            {
+              "x": "11-03",
+              "y": 26490
+            },
+            {
+              "x": "11-04",
+              "y": 25664
+            },
+            {
+              "x": "11-05",
+              "y": 28655
+            },
+            {
+              "x": "11-06",
+              "y": 29530
+            },
+            {
+              "x": "11-07",
+              "y": 28079
+            },
+            {
+              "x": "11-08",
+              "y": 31048
+            },
+            {
+              "x": "11-09",
+              "y": 43270
+            },
+            {
+              "x": "11-10",
+              "y": 64375
+            },
+            {
+              "x": "11-11",
+              "y": 62961
+            },
+            {
+              "x": "11-12",
+              "y": 73739
+            },
+            {
+              "x": "11-13",
+              "y": 74974
+            },
+            {
+              "x": "11-14",
+              "y": 72813
+            },
+            {
+              "x": "11-15",
+              "y": 82149
+            },
+            {
+              "x": "11-16",
+              "y": 106689
+            },
+            {
+              "x": "11-17",
+              "y": 153037
+            },
+            {
+              "x": "11-18",
+              "y": 519632
+            },
+            {
+              "x": "11-19",
+              "y": 750227
+            }
+          ],
+          "cites": [
+            "views:en:Grand_Theft_Auto_VI:30d"
+          ]
+        },
+        {
+          "label": "Grand Theft Auto",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-21",
+              "y": 6040
+            },
+            {
+              "x": "10-22",
+              "y": 6388
+            },
+            {
+              "x": "10-23",
+              "y": 5451
+            },
+            {
+              "x": "10-24",
+              "y": 5497
+            },
+            {
+              "x": "10-25",
+              "y": 5755
+            },
+            {
+              "x": "10-26",
+              "y": 5250
+            },
+            {
+              "x": "10-27",
+              "y": 5263
+            },
+            {
+              "x": "10-28",
+              "y": 5307
+            },
+            {
+              "x": "10-29",
+              "y": 6198
+            },
+            {
+              "x": "10-30",
+              "y": 5306
+            },
+            {
+              "x": "10-31",
+              "y": 4948
+            },
+            {
+              "x": "11-01",
+              "y": 5580
+            },
+            {
+              "x": "11-02",
+              "y": 5965
+            },
+            {
+              "x": "11-03",
+              "y": 6761
+            },
+            {
+              "x": "11-04",
+              "y": 6311
+            },
+            {
+              "x": "11-05",
+              "y": 7652
+            },
+            {
+              "x": "11-06",
+              "y": 8910
+            },
+            {
+              "x": "11-07",
+              "y": 8136
+            },
+            {
+              "x": "11-08",
+              "y": 9180
+            },
+            {
+              "x": "11-09",
+              "y": 10440
+            },
+            {
+              "x": "11-10",
+              "y": 13243
+            },
+            {
+              "x": "11-11",
+              "y": 14681
+            },
+            {
+              "x": "11-12",
+              "y": 18464
+            },
+            {
+              "x": "11-13",
+              "y": 20235
+            },
+            {
+              "x": "11-14",
+              "y": 22605
+            },
+            {
+              "x": "11-15",
+              "y": 27244
+            },
+            {
+              "x": "11-16",
+              "y": 33200
+            },
+            {
+              "x": "11-17",
+              "y": 40881
+            },
+            {
+              "x": "11-18",
+              "y": 110668
+            },
+            {
+              "x": "11-19",
+              "y": 171292
+            }
+          ],
+          "cites": [
+            "views:en:Grand_Theft_Auto:30d"
+          ]
+        },
+        {
+          "label": "Rockstar Games",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-21",
+              "y": 4494
+            },
+            {
+              "x": "10-22",
+              "y": 4413
+            },
+            {
+              "x": "10-23",
+              "y": 3921
+            },
+            {
+              "x": "10-24",
+              "y": 3937
+            },
+            {
+              "x": "10-25",
+              "y": 3921
+            },
+            {
+              "x": "10-26",
+              "y": 4512
+            },
+            {
+              "x": "10-27",
+              "y": 3980
+            },
+            {
+              "x": "10-28",
+              "y": 3802
+            },
+            {
+              "x": "10-29",
+              "y": 4595
+            },
+            {
+              "x": "10-30",
+              "y": 3868
+            },
+            {
+              "x": "10-31",
+              "y": 3538
+            },
+            {
+              "x": "11-01",
+              "y": 3978
+            },
+            {
+              "x": "11-02",
+              "y": 4516
+            },
+            {
+              "x": "11-03",
+              "y": 5291
+            },
+            {
+              "x": "11-04",
+              "y": 4729
+            },
+            {
+              "x": "11-05",
+              "y": 7706
+            },
+            {
+              "x": "11-06",
+              "y": 8005
+            },
+            {
+              "x": "11-07",
+              "y": 6192
+            },
+            {
+              "x": "11-08",
+              "y": 6036
+            },
+            {
+              "x": "11-09",
+              "y": 7582
+            },
+            {
+              "x": "11-10",
+              "y": 10386
+            },
+            {
+              "x": "11-11",
+              "y": 11039
+            },
+            {
+              "x": "11-12",
+              "y": 13766
+            },
+            {
+              "x": "11-13",
+              "y": 14335
+            },
+            {
+              "x": "11-14",
+              "y": 15767
+            },
+            {
+              "x": "11-15",
+              "y": 18590
+            },
+            {
+              "x": "11-16",
+              "y": 23946
+            },
+            {
+              "x": "11-17",
+              "y": 29538
+            },
+            {
+              "x": "11-18",
+              "y": 79323
+            },
+            {
+              "x": "11-19",
+              "y": 112864
+            }
+          ],
+          "cites": [
+            "views:en:Rockstar_Games:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-19T00:00:39Z",
+      "until": "2026-11-19T00:01:02Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "750,227",
+          "value": 750227,
+          "color": "#e8838f",
+          "cites": [
+            "views:en:Grand_Theft_Auto_VI:2026-11-19"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "73,626",
+          "value": 73626,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Grand_Theft_Auto_VI:2026-11-19"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "62,699",
+          "value": 62699,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Grand_Theft_Auto_VI:2026-11-19"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "39,675",
+          "value": 39675,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Grand_Theft_Auto_VI:2026-11-19"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "34,240",
+          "value": 34240,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Grand_Theft_Auto_VI:2026-11-19"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "33,209",
+          "value": 33209,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Grand_Theft_Auto_VI:2026-11-19"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "29,565",
+          "value": 29565,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:俠盜獵車手VI:2026-11-19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:01:03Z",
+      "until": "2026-11-19T00:01:23Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822",
+          "cites": [
+            "news:dw:24b2767125c4"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261119-grand-theft-auto-vi-a-masterpiece-13-years-in-the-making",
+          "cites": [
+            "news:france24:22a76eb8d6c6"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
+          "cites": [
+            "news:guardian:fc139917d31c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:01:24Z",
+      "until": "2026-11-19T00:01:30Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386740634:12"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Grand_Theft_Auto_VI:2026-11-19"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q23648408:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.002266
+  }
+}

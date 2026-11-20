@@ -1,0 +1,853 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-haiti-police-say-at-least-34-suspected-gang-members-killed-i",
+  "title": "Haiti police say at least 34 suspected gang members killed in raid",
+  "subtitle": "Law and crime · 19 November 2026 · headline from Al Jazeera",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:01:45Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -82.22,
+    "south": 11.260000000000002,
+    "east": -62.22,
+    "north": 27.26
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-19T00:00:49Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-19T00:00:49Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-19T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-19T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": -34.22000000000003,
+      "lat": 10.281,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:10Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:16Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:20Z",
+      "lon": -72.22,
+      "lat": 11.260000000000002,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:27Z",
+      "lon": -72.22,
+      "lat": 11.260000000000002,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:34Z",
+      "lon": -72.22,
+      "lat": 11.260000000000002,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:38Z",
+      "lon": -72.3696,
+      "lat": 17.238200000000003,
+      "range": 3500000,
+      "heading": -176.00425616995653,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:43Z",
+      "lon": -72.3696,
+      "lat": 17.238200000000003,
+      "range": 3169384.7983480957,
+      "heading": -162.30425616995655,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:48Z",
+      "lon": -72.3696,
+      "lat": 17.238200000000003,
+      "range": 2870000,
+      "heading": -148.60425616995653,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:51Z",
+      "lon": -72.27860402291036,
+      "lat": 18.514079716686144,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:01Z",
+      "lon": -72.27860402291036,
+      "lat": 18.514079716686144,
+      "range": 1358307.7707206125,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:10Z",
+      "lon": -72.27860402291036,
+      "lat": 18.514079716686144,
+      "range": 1230000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:13Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:01:17Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 9236492.840900164,
+      "heading": 21.3,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:21Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 8363999.999999999,
+      "heading": 32.6,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:24Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:31Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:37Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:40Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:41Z",
+      "lon": -72.22,
+      "lat": 17.135,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:45Z",
+      "lon": -97.22000000000003,
+      "lat": 17.135,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "Haiti police say at least 34 suspected gang members were killed in a raid, according to Al Jazeera.",
+      "cites": [
+        "news:aljazeera:d93b1fe41da9"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:09Z",
+      "text": "France 24 also reported the story, describing it as a major anti-gang offensive.",
+      "cites": [
+        "news:france24:26a4355e6e18"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:18Z",
+      "text": "Inflation in Haiti fell to 28.6% in 2025, from 36.8% in 2023.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:HT"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "text": "The economy shrank by 2.7% in 2025, and unemployment stood at 14.9%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:HT",
+        "wb:SL.UEM.TOTL.ZS:HT"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:36Z",
+      "text": "Across Latin America and the Caribbean, Haiti's 28.6% compares with a median of 3.8%, while Argentina is highest at 219.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:latin-america-caribbean"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:50Z",
+      "text": "On 12 November, Haitian and Salvadoran soldiers took control of the Stade Sylvio Cator in Port-au-Prince after two years of gang control.",
+      "cites": [
+        "wiki:2026-11-12:1"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:57Z",
+      "text": "On 17 November, hundreds of Haitians marched in cities across Haiti to show support for the deployment of Salvadoran troops against gang violence.",
+      "cites": [
+        "wiki:2026-11-17:20"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:04Z",
+      "text": "On 18 November, Salvadoran forces destroyed a house belonging to Jeff Larose, leader of the Taliban gang that operates in Canaan. The Gang Suppression Force says it was not involved.",
+      "cites": [
+        "wiki:2026-11-18:2"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:12Z",
+      "text": "Haiti, officially the Republic of Haiti, is a Caribbean country on the island of Hispaniola, east of Cuba and Jamaica and south of The Bahamas.",
+      "cites": [
+        "wiki:rev:1386270195:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:23Z",
+      "text": "Al Jazeera headlined the story: Haiti police say at least 34 suspected gang members killed in raid.",
+      "cites": [
+        "news:aljazeera:d93b1fe41da9"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:30Z",
+      "text": "France 24 headlined its version: Major anti-gang offensive in Haiti kills 34 suspected gang members.",
+      "cites": [
+        "news:france24:26a4355e6e18"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:39Z",
+      "text": "This explainer draws on two news outlets, Wikipedia articles from 12 and 17 November 2026 and the 2 related pages, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386270195:0",
+        "views:en:Haiti:30d",
+        "wd:Q790:P571",
+        "wiki:2026-11-12:1",
+        "wiki:2026-11-17:20"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "HT",
+    "lon": -72.22,
+    "lat": 19.26,
+    "label": "Haiti"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:17Z",
+      "title": "Haiti in numbers"
+    },
+    {
+      "t": "2026-11-19T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-19T00:00:49Z",
+      "title": "The week in Haiti"
+    },
+    {
+      "t": "2026-11-19T00:01:11Z",
+      "title": "About Haiti"
+    },
+    {
+      "t": "2026-11-19T00:01:22Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:01:38Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-19T00:00:18Z",
+      "until": "2026-11-19T00:00:35Z",
+      "title": "Inflation, consumer prices, Haiti",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Haiti",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.82734190074672
+            },
+            {
+              "x": "2011",
+              "y": 6.33279483849042
+            },
+            {
+              "x": "2012",
+              "y": 5.01804155429246
+            },
+            {
+              "x": "2013",
+              "y": 4.76502404779141
+            },
+            {
+              "x": "2014",
+              "y": 3.438166599586
+            },
+            {
+              "x": "2015",
+              "y": 6.73184069658997
+            },
+            {
+              "x": "2016",
+              "y": 11.5029073942666
+            },
+            {
+              "x": "2017",
+              "y": 10.6800887242584
+            },
+            {
+              "x": "2018",
+              "y": 12.4814111170435
+            },
+            {
+              "x": "2019",
+              "y": 18.7037825672506
+            },
+            {
+              "x": "2020",
+              "y": 22.7963113642527
+            },
+            {
+              "x": "2021",
+              "y": 16.8415240198784
+            },
+            {
+              "x": "2022",
+              "y": 33.98393194707
+            },
+            {
+              "x": "2023",
+              "y": 36.8135162780853
+            },
+            {
+              "x": "2024",
+              "y": 26.9490564091987
+            },
+            {
+              "x": "2025",
+              "y": 28.6427976686095
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:HT"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-19T00:00:18Z",
+      "until": "2026-11-19T00:00:35Z",
+      "title": "GDP growth, Haiti",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Haiti",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": -5.65151153448299
+            },
+            {
+              "x": "2011",
+              "y": 5.09821354410036
+            },
+            {
+              "x": "2012",
+              "y": 0.502424403581585
+            },
+            {
+              "x": "2013",
+              "y": 4.32478411472874
+            },
+            {
+              "x": "2014",
+              "y": 2.88877250863379
+            },
+            {
+              "x": "2015",
+              "y": 1.40000000859727
+            },
+            {
+              "x": "2016",
+              "y": 1.81246807847532
+            },
+            {
+              "x": "2017",
+              "y": 2.51027134544685
+            },
+            {
+              "x": "2018",
+              "y": 1.66781095484656
+            },
+            {
+              "x": "2019",
+              "y": -1.72309699839232
+            },
+            {
+              "x": "2020",
+              "y": -3.30550546965893
+            },
+            {
+              "x": "2021",
+              "y": -1.79823988931486
+            },
+            {
+              "x": "2022",
+              "y": -1.68198396897978
+            },
+            {
+              "x": "2023",
+              "y": -1.86388420254838
+            },
+            {
+              "x": "2024",
+              "y": -4.18495104762965
+            },
+            {
+              "x": "2025",
+              "y": -2.71291075761471
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:HT"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-19T00:00:18Z",
+      "until": "2026-11-19T00:00:35Z",
+      "title": "Unemployment, Haiti",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Haiti",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 15.244
+            },
+            {
+              "x": "2011",
+              "y": 14.506
+            },
+            {
+              "x": "2012",
+              "y": 14.1
+            },
+            {
+              "x": "2013",
+              "y": 13.704
+            },
+            {
+              "x": "2014",
+              "y": 13.808
+            },
+            {
+              "x": "2015",
+              "y": 13.785
+            },
+            {
+              "x": "2016",
+              "y": 13.902
+            },
+            {
+              "x": "2017",
+              "y": 13.932
+            },
+            {
+              "x": "2018",
+              "y": 13.934
+            },
+            {
+              "x": "2019",
+              "y": 14.095
+            },
+            {
+              "x": "2020",
+              "y": 15.573
+            },
+            {
+              "x": "2021",
+              "y": 15.296
+            },
+            {
+              "x": "2022",
+              "y": 14.54
+            },
+            {
+              "x": "2023",
+              "y": 14.459
+            },
+            {
+              "x": "2024",
+              "y": 14.609
+            },
+            {
+              "x": "2025",
+              "y": 14.944
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:HT"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-19T00:00:36Z",
+      "until": "2026-11-19T00:00:49Z",
+      "title": "Inflation, Latin America & Caribbean",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Argentina",
+          "text": "219.9%",
+          "value": 219.883929014578,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AR"
+          ]
+        },
+        {
+          "label": "Haiti",
+          "text": "28.6%",
+          "value": 28.6427976686095,
+          "color": "#e3b341",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:HT"
+          ]
+        },
+        {
+          "label": "Bolivia",
+          "text": "19.5%",
+          "value": 19.5171208047329,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BO"
+          ]
+        },
+        {
+          "label": "Suriname",
+          "text": "9.2%",
+          "value": 9.2054681878919,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SR"
+          ]
+        },
+        {
+          "label": "Colombia",
+          "text": "5.1%",
+          "value": 5.14222911946201,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:CO"
+          ]
+        },
+        {
+          "label": "Brazil",
+          "text": "5.0%",
+          "value": 5.01675279604836,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BR"
+          ]
+        },
+        {
+          "label": "Uruguay",
+          "text": "4.7%",
+          "value": 4.65032720433323,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UY"
+          ]
+        },
+        {
+          "label": "Honduras",
+          "text": "4.6%",
+          "value": 4.59657982325258,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:HN"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.84134859042761,
+        "label": "median 3.8%"
+      }
+    },
+    {
+      "id": "thread",
+      "t": "2026-11-19T00:00:50Z",
+      "until": "2026-11-19T00:01:11Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "12 November",
+          "text": "Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in…",
+          "cites": [
+            "wiki:2026-11-12:1"
+          ]
+        },
+        {
+          "label": "17 November",
+          "text": "Hundreds of Haitians march in cities across Haiti to show support for the deployment of…",
+          "cites": [
+            "wiki:2026-11-17:20"
+          ]
+        },
+        {
+          "label": "18 November",
+          "text": "Salvadoran forces destroy a house belonging to Jeff Larose…",
+          "cites": [
+            "wiki:2026-11-18:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:01:23Z",
+      "until": "2026-11-19T00:01:38Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid",
+          "cites": [
+            "news:aljazeera:d93b1fe41da9"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members",
+          "cites": [
+            "news:france24:26a4355e6e18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:01:39Z",
+      "until": "2026-11-19T00:01:45Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386270195:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Haiti:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q790:P571"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_12&oldid=1385702080",
+          "cites": [
+            "wiki:2026-11-12:1"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+          "cites": [
+            "wiki:2026-11-17:20"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+          "cites": [
+            "wiki:2026-11-18:2"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:latin-america-caribbean"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.002131
+  }
+}

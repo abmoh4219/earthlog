@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-kenya-s-marathon-champion-peres-jepchirchir-gets-three-year",
+  "title": "Peres Jepchirchir",
+  "subtitle": "People · 19 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:01:09Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 27.909999999999997,
+    "south": -7.45,
+    "east": 47.91,
+    "north": 8.55
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-19T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": 75.90999999999997,
+      "lat": -0.945,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": 37.91,
+      "lat": -1.575,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:14Z",
+      "lon": 37.91,
+      "lat": -1.575,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:23Z",
+      "lon": 37.91,
+      "lat": -1.575,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "lon": 35.05,
+      "lat": -0.25,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:29Z",
+      "lon": 35.05,
+      "lat": -0.25,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:31Z",
+      "lon": 35.05,
+      "lat": -0.25,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:34Z",
+      "lon": 36.480013071282535,
+      "lat": 0.3001869084916103,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:37Z",
+      "lon": 36.480013071282535,
+      "lat": 0.3001869084916103,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:40Z",
+      "lon": 36.480013071282535,
+      "lat": 0.3001869084916103,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:43Z",
+      "lon": 36.480013071282535,
+      "lat": 0.3001869084916103,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:52Z",
+      "lon": 36.480013071282535,
+      "lat": 0.3001869084916103,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:01Z",
+      "lon": 36.480013071282535,
+      "lat": 0.3001869084916103,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:04Z",
+      "lon": 37.91,
+      "lat": -1.575,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:01:05Z",
+      "lon": 37.91,
+      "lat": -1.575,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:06Z",
+      "lon": 37.91,
+      "lat": -1.575,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:09Z",
+      "lon": 12.909999999999968,
+      "lat": -1.575,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "Al Jazeera reports that Kenya's marathon champion Peres Jepchirchir has received a three-year ban for doping.",
+      "cites": [
+        "news:aljazeera:ed3542fc14c3"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:08Z",
+      "text": "The ban was handed down on 19 November, and it was reduced from four years after she admitted to the offence.",
+      "cites": [
+        "wiki:rev:1386668575:8"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:15Z",
+      "text": "Jepchirchir, born 27 September 1993, is a Kenyan professional long-distance runner who competes mainly in road running competitions.",
+      "cites": [
+        "wiki:rev:1386668575:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "text": "Jepchirchir was born on 27 September 1993 in Turbo.",
+      "cites": [
+        "wd:Q23597143:P569",
+        "wd:Q23597143:P19"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:42Z",
+      "text": "Al Jazeera headlined the story: “Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping.”",
+      "cites": [
+        "news:aljazeera:ed3542fc14c3"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:48Z",
+      "text": "AllAfrica headlined its report: “Kenya: Cheptai Elevated to Sydney Marathon Champion After Jepchirchir Stripped of Title.”",
+      "cites": [
+        "news:allafrica:e86ef8e927d4"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:54Z",
+      "text": "France 24 headlined its coverage: “Kenyan marathon champion banned for doping.”",
+      "cites": [
+        "news:france24:086370835999"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:03Z",
+      "text": "The sources for this story are Al Jazeera, AllAfrica and France 24, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386668575:8",
+        "views:en:Peres_Jepchirchir:30d",
+        "wd:Q23597143:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "KE",
+    "lon": 37.91,
+    "lat": 0.55,
+    "label": "Kenya"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-19T00:00:32Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-19T00:00:41Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:01:02Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:00:42Z",
+      "until": "2026-11-19T00:01:02Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/sports/2026/11/19/kenyas-marathon-champion-peres-jepchirchir-gets-three-year-ban-for-doping",
+          "cites": [
+            "news:aljazeera:ed3542fc14c3"
+          ]
+        },
+        {
+          "label": "AllAfrica",
+          "text": "Open",
+          "url": "https://allafrica.com/stories/202611190165.html",
+          "cites": [
+            "news:allafrica:e86ef8e927d4"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261119-kenyan-marathon-champion-banned-for-doping",
+          "cites": [
+            "news:france24:086370835999"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:01:03Z",
+      "until": "2026-11-19T00:01:09Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386668575:8"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Peres_Jepchirchir:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q23597143:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.002198
+  }
+}

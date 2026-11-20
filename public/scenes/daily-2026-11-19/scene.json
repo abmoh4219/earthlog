@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-19",
+  "title": "The world on 19 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-20T00:00:00Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": -163.5,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T02:12:00Z",
+      "lon": -163.5,
+      "lat": -11.6,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-19T04:00:00Z",
+      "lon": 86.2,
+      "lat": 13.4,
+      "range": 3000000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-19T06:28:30Z",
+      "lon": 86.2,
+      "lat": 13.4,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-19T08:30:00Z",
+      "lon": 86.2,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T20:07:49Z",
+      "lon": -33.5069,
+      "lat": -55.883500000000005,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-19T22:15:31Z",
+      "lon": -33.5069,
+      "lat": -55.883500000000005,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "lon": -33.5069,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1800
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "text": "00:00 UTC. Tropical Cyclone Xavier at 10.4°S, 163.5°W, sustained winds of 100 knots.",
+      "cites": [
+        "eonet:EONET_26463:2026-11-19T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-19T04:00:00Z",
+      "text": "00:00 UTC. Tropical Cyclone Akvan at 14.6°N, 86.2°E, sustained winds of 35 knots.",
+      "cites": [
+        "eonet:EONET_26494:2026-11-19T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-19T08:30:00Z",
+      "text": "08:30 UTC. Internet outage signal in Northern Mariana Islands: responsive address blocks down to 75% of normal.",
+      "cites": [
+        "ioda:MP:ping:2026-11-19T08:30Z",
+        "ioda:MP:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-19T20:07:49Z",
+      "text": "20:07 UTC. The day's strongest earthquake: magnitude 5.3, 10 km deep, South Georgia Island region.",
+      "cites": [
+        "usgs:us6000uc2q"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-20T07:46:58Z"
+  }
+}

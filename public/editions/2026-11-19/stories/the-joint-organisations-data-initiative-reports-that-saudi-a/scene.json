@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-the-joint-organisations-data-initiative-reports-that-saudi-a",
+  "title": "The Joint Organisations Data Initiative reports that Saudi Arabia's oil…",
+  "subtitle": "Economy · 19 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:01:00Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -10,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:29Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 18835201.087325826,
+      "heading": -18.9,
+      "pitch": -82.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:31Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 17056000,
+      "heading": -27.8,
+      "pitch": -80,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:34Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -22,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:43Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 19950659.136980914,
+      "heading": -20,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:52Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 19136000,
+      "heading": -18,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:55Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:56Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:00Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "According to the Joint Organisations Data Initiative, Saudi Arabia's oil exports rose in September to their highest level since the war began in February, despite Houthi attacks on Red Sea ports and infrastructure.",
+      "cites": [
+        "wiki:2026-11-19:10"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:08Z",
+      "text": "The insurer Allianz Trade announced on 11 November 2026 that the US-Israeli war on Iran would cost Gulf countries more than $200 billion in total, and up to $790 billion by 2030.",
+      "cites": [
+        "wiki:rev:1386680509:186"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:15Z",
+      "text": "The International Energy Agency has characterized the 2026 Iran war, including the closure of the Strait of Hormuz, as the largest supply disruption in the history of the global oil market.",
+      "cites": [
+        "wiki:rev:1386680509:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "text": "The report was published by Al Jazeera.",
+      "cites": [
+        "wiki:2026-11-19:10"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:33Z",
+      "text": "Al Jazeera's headline read: “Iran war live: Houthis escalate attacks on Saudi capital.”",
+      "cites": [
+        "news:aljazeera:560937a18abe"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:39Z",
+      "text": "France 24's headline read: “Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks.”",
+      "cites": [
+        "news:france24:e54170cb555f"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:45Z",
+      "text": "NPR's headline read: “Iran's attacks on ships in the Strait of Hormuz escalate.”",
+      "cites": [
+        "news:npr:5b3c36d0af3c"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:54Z",
+      "text": "The sources are Wikipedia's current events and articles, along with Wikimedia pageview counts, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-19:10",
+        "wiki:rev:1386680509:186",
+        "views:en:Economic_impact_of_the_2026_Iran_war:30d"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-19T00:00:32Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:00:53Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-19T00:00:25Z",
+      "until": "2026-11-19T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://aje.news/r003u9?update=5168385",
+          "cites": [
+            "wiki:2026-11-19:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:00:33Z",
+      "until": "2026-11-19T00:00:53Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital",
+          "cites": [
+            "news:aljazeera:560937a18abe"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+          "cites": [
+            "news:france24:e54170cb555f"
+          ]
+        },
+        {
+          "label": "NPR",
+          "text": "Open",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
+          "cites": [
+            "news:npr:5b3c36d0af3c"
+          ]
+        },
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/saudis-tallest-skyscraper-damaged-in-houthi-attack-13614147",
+          "cites": [
+            "news:sky:bde81e7934d7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:00:54Z",
+      "until": "2026-11-19T00:01:00Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-19:10"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386680509:186"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Economic_impact_of_the_2026_Iran_war:30d"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.000804
+  }
+}

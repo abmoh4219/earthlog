@@ -1,0 +1,566 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-us-pentagon-chief-hegseth-signs-military-deal-in-venezuela",
+  "title": "Pete Hegseth",
+  "subtitle": "People · 19 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:01:29Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -74.6,
+    "south": -0.8200000000000003,
+    "east": -54.599999999999994,
+    "north": 15.18
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-19T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-19T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": -26.600000000000023,
+      "lat": 3.033,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": -64.6,
+      "lat": 5.055,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:14Z",
+      "lon": -64.6,
+      "lat": 5.055,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:23Z",
+      "lon": -64.6,
+      "lat": 5.055,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:27Z",
+      "lon": -93.26916666666666,
+      "lat": 44.081944444444446,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:29Z",
+      "lon": -93.26916666666666,
+      "lat": 44.081944444444446,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:31Z",
+      "lon": -93.26916666666666,
+      "lat": 44.081944444444446,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:35Z",
+      "lon": -79.39912449438482,
+      "lat": 41.04805114119984,
+      "range": 5553578.452897652,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:39Z",
+      "lon": -79.39912449438482,
+      "lat": 41.04805114119984,
+      "range": 5028979.178584958,
+      "heading": 11.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:43Z",
+      "lon": -79.39912449438482,
+      "lat": 41.04805114119984,
+      "range": 4553934.331376075,
+      "heading": 23.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:45Z",
+      "lon": -79.39912449438482,
+      "lat": 41.04805114119984,
+      "range": 5553578.452897652,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:51Z",
+      "lon": -79.39912449438482,
+      "lat": 41.04805114119984,
+      "range": 5028979.178584958,
+      "heading": -13.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:57Z",
+      "lon": -79.39912449438482,
+      "lat": 41.04805114119984,
+      "range": 4553934.331376075,
+      "heading": -27.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:01Z",
+      "lon": -76.48223845877257,
+      "lat": 24.371782261592497,
+      "range": 12052793.915640956,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:01:03Z",
+      "lon": -76.48223845877257,
+      "lat": 24.371782261592497,
+      "range": 10914269.089672819,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:06Z",
+      "lon": -76.48223845877257,
+      "lat": 24.371782261592497,
+      "range": 9883291.010825584,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:08Z",
+      "lon": -76.48223845877257,
+      "lat": 24.371782261592497,
+      "range": 12052793.915640956,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:15Z",
+      "lon": -76.48223845877257,
+      "lat": 24.371782261592497,
+      "range": 11560633.800924528,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:22Z",
+      "lon": -76.48223845877257,
+      "lat": 24.371782261592497,
+      "range": 11088570.40238968,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:25Z",
+      "lon": -64.6,
+      "lat": 5.055,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:01:26Z",
+      "lon": -64.6,
+      "lat": 5.055,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:27Z",
+      "lon": -64.6,
+      "lat": 5.055,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:29Z",
+      "lon": -89.60000000000002,
+      "lat": 5.055,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "Venezuela has signed a military deal with the US less than a year after Maduro's removal, according to BBC News.",
+      "cites": [
+        "news:bbc:d65a0674ce40"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:08Z",
+      "text": "On Veterans' Day, November 11, 2026, Hegseth and a group accompanying him posed for photographs in front of the Tomb of the Unknown Soldier, audibly chatting and laughing.",
+      "cites": [
+        "wiki:rev:1386539170:203"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:15Z",
+      "text": "Peter Brian Hegseth, born June 6, 1980, is an American politician, U.S. Army veteran, and former television personality who has served as the 29th United States secretary of defense since 2025.",
+      "cites": [
+        "wiki:rev:1386539170:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "text": "Pete Hegseth was born on 6 June 1980 in Minneapolis.",
+      "cites": [
+        "wd:Q7172014:P569",
+        "wd:Q7172014:P19"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:33Z",
+      "text": "He was educated at Forest Lake Area High School, Princeton University and the John F. Kennedy School of Government.",
+      "cites": [
+        "wd:Q7172014:P69:Q5469002",
+        "wd:Q7172014:P69:Q21578",
+        "wd:Q7172014:P69:Q49127"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:38Z",
+      "text": "He later worked for Fox News, in Arlington County.",
+      "cites": [
+        "wd:Q7172014:P108:Q186068",
+        "wd:Q7172014:P937:Q107126"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:44Z",
+      "text": "Records list 14 awards, among them the Bronze Star Medal and the Joint Service Commendation Medal.",
+      "cites": [
+        "wd:Q7172014:P166:Q928314",
+        "wd:Q7172014:P166:Q15821622"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:50Z",
+      "text": "He is known for the books American Crusade and The War on Warriors.",
+      "cites": [
+        "wd:Q7172014:P800:Q131459708",
+        "wd:Q7172014:P800:Q131926991"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:07Z",
+      "text": "Al Jazeera headlined its report, “Why is Pete Hegseth strengthening US military ties with Venezuela?”",
+      "cites": [
+        "news:aljazeera:12fd432b51bf"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:14Z",
+      "text": "BBC News headlined its report, “Venezuela signs military deal with US less than a year after Maduro's removal”.",
+      "cites": [
+        "news:bbc:d65a0674ce40"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:23Z",
+      "text": "The sources are Al Jazeera and BBC News, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386539170:203",
+        "views:en:Pete_Hegseth:30d",
+        "wd:Q7172014:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "VE",
+    "lon": -64.6,
+    "lat": 7.18,
+    "label": "Venezuela"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-19T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-19T00:00:43Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-19T00:00:57Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-19T00:01:06Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:01:22Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-19T00:00:33Z",
+      "until": "2026-11-19T00:00:43Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1980 born",
+          "text": "Minneapolis",
+          "cites": [
+            "wd:Q7172014:P19"
+          ]
+        },
+        {
+          "label": "1999",
+          "text": "Forest Lake Area High School",
+          "cites": [
+            "wd:Q7172014:P69:Q5469002"
+          ]
+        },
+        {
+          "label": "2003",
+          "text": "Princeton University",
+          "cites": [
+            "wd:Q7172014:P69:Q21578"
+          ]
+        },
+        {
+          "label": "2000–03",
+          "text": "Princeton Tigers men's basketball",
+          "cites": [
+            "wd:Q7172014:P54:Q7245013"
+          ]
+        },
+        {
+          "label": "2009–13",
+          "text": "John F. Kennedy School of Government",
+          "cites": [
+            "wd:Q7172014:P69:Q49127"
+          ]
+        },
+        {
+          "label": "2014–24",
+          "text": "Fox News",
+          "cites": [
+            "wd:Q7172014:P108:Q186068"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Arlington County",
+          "cites": [
+            "wd:Q7172014:P937:Q107126"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-19T00:00:44Z",
+      "until": "2026-11-19T00:00:57Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Award",
+          "text": "Bronze Star Medal",
+          "cites": [
+            "wd:Q7172014:P166:Q928314"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Joint Service Commendation Medal",
+          "cites": [
+            "wd:Q7172014:P166:Q15821622"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Expert Infantryman Badge",
+          "cites": [
+            "wd:Q7172014:P166:Q5421199"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Combat Infantryman Badge",
+          "cites": [
+            "wd:Q7172014:P166:Q4192947"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Army Commendation Medal",
+          "cites": [
+            "wd:Q7172014:P166:Q15783990"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "National Defense Service Medal",
+          "cites": [
+            "wd:Q7172014:P166:Q2611552"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "American Crusade",
+          "cites": [
+            "wd:Q7172014:P800:Q131459708"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "The War on Warriors",
+          "cites": [
+            "wd:Q7172014:P800:Q131926991"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:01:07Z",
+      "until": "2026-11-19T00:01:22Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela",
+          "cites": [
+            "news:aljazeera:12fd432b51bf"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo",
+          "cites": [
+            "news:bbc:d65a0674ce40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:01:23Z",
+      "until": "2026-11-19T00:01:29Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386539170:203"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Pete_Hegseth:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q7172014:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.002845
+  }
+}

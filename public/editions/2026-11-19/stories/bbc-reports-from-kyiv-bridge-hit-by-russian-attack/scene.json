@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-bbc-reports-from-kyiv-bridge-hit-by-russian-attack",
+  "title": "BBC reports from Kyiv bridge hit by Russian attack",
+  "subtitle": "War and conflict · 19 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:00:59Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 24.4,
+    "south": 37.3,
+    "east": 44.4,
+    "north": 53.3
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-19T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": 72.39999999999998,
+      "lat": 26.7675,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:10Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:16Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:19Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:22Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:24Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:27Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 3300000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:31Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 2988277.095585347,
+      "heading": 21.3,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:35Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 2706000,
+      "heading": 32.6,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:38Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 3300000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:45Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 3165248.805386395,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:51Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 3036000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:54Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:55Z",
+      "lon": 34.4,
+      "lat": 44.6125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:59Z",
+      "lon": 9.399999999999977,
+      "lat": 44.6125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "The Guardian reports that the Crimea bridge has been attacked again, according to the Russian-installed governor.",
+      "cites": [
+        "news:guardian:e881df0785eb"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:09Z",
+      "text": "France 24 also reported the story, covering Russian strikes on Kyiv that killed one person and damaged the Dutch and Austrian embassies.",
+      "cites": [
+        "news:france24:b11b79f67545"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "text": "Crimea is a peninsula in Eastern Europe, on the northern coast of the Black Sea, almost entirely surrounded by the Black Sea and the smaller Sea of Azov.",
+      "cites": [
+        "wiki:rev:1379490720:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:37Z",
+      "text": "The Guardian's headline reads: “Crimea bridge has been attacked again, says Russian-installed governor”.",
+      "cites": [
+        "news:guardian:e881df0785eb"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:44Z",
+      "text": "France 24's headline reads: “Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies”.",
+      "cites": [
+        "news:france24:b11b79f67545"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:53Z",
+      "text": "This explainer draws on The Guardian and France 24 reporting, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1379490720:0",
+        "views:en:Crimea:30d",
+        "wd:Q7835:P17"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 34.4,
+    "lat": 45.3,
+    "label": "Crimea"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "title": "About Crimea"
+    },
+    {
+      "t": "2026-11-19T00:00:36Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:00:52Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:00:37Z",
+      "until": "2026-11-19T00:00:52Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+          "cites": [
+            "news:guardian:e881df0785eb"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies",
+          "cites": [
+            "news:france24:b11b79f67545"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:00:53Z",
+      "until": "2026-11-19T00:00:59Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1379490720:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Crimea:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q7835:P17"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.00183
+  }
+}

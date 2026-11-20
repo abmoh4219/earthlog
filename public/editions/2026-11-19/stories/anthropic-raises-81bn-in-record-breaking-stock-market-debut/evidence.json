@@ -1,0 +1,162 @@
+[
+  {
+    "id": "news:bbc:cae7150e35ad",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "BBC News: Anthropic raises $81bn in record-breaking stock market debut (10:48 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+    "quote": "Anthropic raises $81bn in record-breaking stock market debut",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:d7818ee6ffea",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: AI lab Anthropic sets stock market record with $81 billion IPO (11:02 UTC)",
+    "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+    "quote": "AI lab Anthropic sets stock market record with $81 billion IPO",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386699549:74",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Anthropic\" (revision of 2026-11-20 01:31 UTC)",
+    "quote": "Anthropic offered 980 million Class A shares at $83 a share in the offering, priced on November 18, 2026, with trading due to begin on November 19 on the Nasdaq Global Select Market under the ticker ANT.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Anthropic&oldid=1386699549"
+  },
+  {
+    "id": "wiki:rev:1386699549:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Anthropic\" (revision of 2026-11-20 01:31 UTC)",
+    "quote": "Anthropic, PBC (stylized as ANTHROP\\C and A\\) is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Anthropic&oldid=1386699549"
+  },
+  {
+    "id": "views:en:Anthropic:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Anthropic\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Anthropic&range=latest-30"
+  },
+  {
+    "id": "wd:Q116758847:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": founded 26 January 2021",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P571"
+  },
+  {
+    "id": "wd:Q116758847:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": headquarters San Francisco",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P159"
+  },
+  {
+    "id": "wd:Q116758847:P452",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": industry artificial intelligence",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P452"
+  },
+  {
+    "id": "wd:Q116758847:P1128",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": employees 2,500",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P1128"
+  },
+  {
+    "id": "wd:Q116758847:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P17"
+  },
+  {
+    "id": "hn:2026-11-19:Q116758847",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 365 stories with \"Anthropic\" in the title in the 14 days to 19 November 2026",
+    "value": 365,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=Anthropic&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q116758847:P112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": founded by: Dario Amodei, Daniela Amodei and 4 others",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P112"
+  },
+  {
+    "id": "wd:Q116758847:P169",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": chief executive: Dario Amodei",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P169"
+  },
+  {
+    "id": "wd:Q116758847:P488",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": chair: Daniela Amodei",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P488"
+  },
+  {
+    "id": "wd:Q116758847:P414",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": listed on: Nasdaq",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P414"
+  },
+  {
+    "id": "wd:Q116758847:P1128:latest",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": employees: 5,300 (2026)",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P1128"
+  },
+  {
+    "id": "wd:Q116758847:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Anthropic\": official website https://www.anthropic.com/",
+    "url": "https://www.wikidata.org/wiki/Q116758847#P856"
+  }
+]

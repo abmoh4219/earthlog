@@ -1,0 +1,88 @@
+[
+  {
+    "id": "wiki:2026-11-19:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Business: The Joint Organisations Data Initiative reports that Saudi Arabia's oil exports rose in September to their highest level since the outbreak of the war in February, despite the Houthi attacks on Red Sea ports and infrastructure.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379",
+    "quote": "The Joint Organisations Data Initiative reports that Saudi Arabia's oil exports rose in September to their highest level since the outbreak of the war in February, despite the Houthi attacks on Red Sea ports and infrastructure.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://aje.news/r003u9?update=5168385"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:560937a18abe",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: Iran war live: Houthis escalate attacks on Saudi capital (23:58 UTC)",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital",
+    "quote": "Iran war live: Houthis escalate attacks on Saudi capital",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:e54170cb555f",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks (07:58 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+    "quote": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks",
+    "precision": "day"
+  },
+  {
+    "id": "news:npr:5b3c36d0af3c",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "NPR: Iran's attacks on ships in the Strait of Hormuz escalate (09:46 UTC)",
+    "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
+    "quote": "Iran's attacks on ships in the Strait of Hormuz escalate",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:bde81e7934d7",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Sky News: Saudi's tallest skyscraper damaged in Houthi attack (22:00 UTC)",
+    "url": "https://news.sky.com/story/saudis-tallest-skyscraper-damaged-in-houthi-attack-13614147",
+    "quote": "Saudi's tallest skyscraper damaged in Houthi attack",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386680509:186",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Economic impact of the 2026 Iran war\" (revision of 2026-11-19 23:11 UTC)",
+    "quote": "The insurer Allianz Trade announced on 11 November 2026 that the US-Israeli war on Iran would cost Gulf countries more than $200 billion in total and up to $790 billion by 2030.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Economic_impact_of_the_2026_Iran_war&oldid=1386680509"
+  },
+  {
+    "id": "wiki:rev:1386680509:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Economic impact of the 2026 Iran war\" (revision of 2026-11-19 23:11 UTC)",
+    "quote": "The 2026 Iran war, including the closure of the Strait of Hormuz, has led to what the International Energy Agency has characterized as the \"largest supply disruption in the history of the global oil market\".",
+    "url": "https://en.wikipedia.org/w/index.php?title=Economic_impact_of_the_2026_Iran_war&oldid=1386680509"
+  },
+  {
+    "id": "views:en:Economic_impact_of_the_2026_Iran_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Economic impact of the 2026 Iran war\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Economic_impact_of_the_2026_Iran_war&range=latest-30"
+  }
+]

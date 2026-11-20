@@ -1,0 +1,80 @@
+[
+  {
+    "id": "news:france24:274d8e9dcbf1",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: Denmark ratifies Greenland security deal after months of pressure by Trump (10:08 UTC)",
+    "url": "https://www.france24.com/en/europe/20261119-denmark-ratifies-greenland-security-deal-after-months-of-pressure-by-trump",
+    "quote": "Denmark ratifies Greenland security deal after months of pressure by Trump",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:97c7c7d282a7",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "DW: Denmark ratifies security deal with US and Greenland (10:56 UTC)",
+    "url": "https://www.dw.com/en/denmark-ratifies-security-deal-with-us-and-greenland/a-79988989",
+    "quote": "Denmark ratifies security deal with US and Greenland",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:7cedea4ee0b7",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: Denmark parliament approves security deal with Greenland and US (11:09 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us",
+    "quote": "Denmark parliament approves security deal with Greenland and US",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:f9c1853256b3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "The Guardian: Danish MPs approve Greenland security pact with US (12:33 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
+    "quote": "Danish MPs approve Greenland security pact with US",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386489605:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Greenland\" (revision of 2026-11-18 21:07 UTC)",
+    "quote": "Greenland is an autonomous territory of the Kingdom of Denmark and is the largest of the kingdom's three constituent parts by land area, the others being Denmark proper and the Faroe Islands.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Greenland&oldid=1386489605"
+  },
+  {
+    "id": "views:en:Greenland:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Greenland\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Greenland&range=latest-30"
+  },
+  {
+    "id": "wd:Q223:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Greenland\": country Kingdom of Denmark",
+    "url": "https://www.wikidata.org/wiki/Q223#P17"
+  },
+  {
+    "id": "wb:NY.GDP.MKTP.KD.ZG:GL",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, GDP growth, Greenland: 2018 0.6%; 2019 2.8%; 2020 0.3%; 2021 1.6%; 2022 2.0%; 2023 0.9%",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=GL"
+  }
+]

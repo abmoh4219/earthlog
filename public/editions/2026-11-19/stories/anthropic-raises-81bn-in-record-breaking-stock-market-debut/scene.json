@@ -1,0 +1,547 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-anthropic-raises-81bn-in-record-breaking-stock-market-debut",
+  "title": "Anthropic",
+  "subtitle": "Tech & business · 19 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:01:14Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-19T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-19T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": -84.41944444444448,
+      "lat": 22.252499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": -122.41944444444445,
+      "lat": 37.0875,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:14Z",
+      "lon": -122.41944444444445,
+      "lat": 37.0875,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:23Z",
+      "lon": -122.41944444444445,
+      "lat": 37.0875,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "lon": -122.41944444444445,
+      "lat": 36.975,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:29Z",
+      "lon": -122.41944444444445,
+      "lat": 36.975,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:31Z",
+      "lon": -122.41944444444445,
+      "lat": 36.975,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:34Z",
+      "lon": -122.41944444444445,
+      "lat": 35.775,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:38Z",
+      "lon": -122.41944444444445,
+      "lat": 35.775,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:41Z",
+      "lon": -122.41944444444445,
+      "lat": 35.775,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:44Z",
+      "lon": -122.41944444444445,
+      "lat": 33.775,
+      "range": 5500000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:47Z",
+      "lon": -122.41944444444445,
+      "lat": 33.775,
+      "range": 4980461.825975579,
+      "heading": -9.7,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:50Z",
+      "lon": -122.41944444444445,
+      "lat": 33.775,
+      "range": 4510000,
+      "heading": -19.4,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:53Z",
+      "lon": -122.41944444444445,
+      "lat": 33.775,
+      "range": 5500000,
+      "heading": -12,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:00Z",
+      "lon": -122.41944444444445,
+      "lat": 33.775,
+      "range": 5275414.675643992,
+      "heading": -10,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:06Z",
+      "lon": -122.41944444444445,
+      "lat": 33.775,
+      "range": 5060000,
+      "heading": -8,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:10Z",
+      "lon": -122.41944444444445,
+      "lat": 37.0875,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:01:11Z",
+      "lon": -122.41944444444445,
+      "lat": 37.0875,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:14Z",
+      "lon": -147.41944444444448,
+      "lat": 37.0875,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "BBC News reports that Anthropic raised $81bn in a record-breaking stock market debut.",
+      "cites": [
+        "news:bbc:cae7150e35ad"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:08Z",
+      "text": "According to Wikipedia, Anthropic offered 980 million Class A shares at $83 a share, priced on November 18, 2026, with trading due to begin on November 19 on the Nasdaq Global Select Market under the ticker ANT.",
+      "cites": [
+        "wiki:rev:1386699549:74"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:15Z",
+      "text": "Anthropic, PBC is an American artificial intelligence public benefit corporation headquartered in San Francisco, California.",
+      "cites": [
+        "wiki:rev:1386699549:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "text": "Anthropic is headquartered in San Francisco, United States.",
+      "cites": [
+        "wd:Q116758847:P159"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:33Z",
+      "text": "Anthropic was founded in 2021 by Dario Amodei, Daniela Amodei and 4 others, and Dario Amodei leads it as chief executive.",
+      "cites": [
+        "wd:Q116758847:P571",
+        "wd:Q116758847:P112",
+        "wd:Q116758847:P169"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:43Z",
+      "text": "In the two weeks to 19 November 2026, 365 Hacker News stories mentioned Anthropic.",
+      "cites": [
+        "hn:2026-11-19:Q116758847"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:52Z",
+      "text": "BBC News headlined its report, “Anthropic raises $81bn in record-breaking stock market debut”.",
+      "cites": [
+        "news:bbc:cae7150e35ad"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:59Z",
+      "text": "France 24 took a similar angle, headlining “AI lab Anthropic sets stock market record with $81 billion IPO”.",
+      "cites": [
+        "news:france24:d7818ee6ffea"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:08Z",
+      "text": "This explainer draws on BBC News and France 24, Wikipedia articles, Wikimedia pageviews, Wikidata and Hacker News, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386699549:74",
+        "views:en:Anthropic:30d",
+        "wd:Q116758847:P571",
+        "hn:2026-11-19:Q116758847"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-19T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-19T00:00:42Z",
+      "title": "Tech talk"
+    },
+    {
+      "t": "2026-11-19T00:00:51Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:01:07Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-19T00:00:33Z",
+      "until": "2026-11-19T00:00:42Z",
+      "title": "On record: Anthropic",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "26 January 2021",
+          "cites": [
+            "wd:Q116758847:P571"
+          ]
+        },
+        {
+          "label": "Founded by",
+          "text": "Dario Amodei, Daniela Amodei and 4 others",
+          "cites": [
+            "wd:Q116758847:P112"
+          ]
+        },
+        {
+          "label": "Chief executive",
+          "text": "Dario Amodei",
+          "cites": [
+            "wd:Q116758847:P169"
+          ]
+        },
+        {
+          "label": "Chair",
+          "text": "Daniela Amodei",
+          "cites": [
+            "wd:Q116758847:P488"
+          ]
+        },
+        {
+          "label": "Industry",
+          "text": "artificial intelligence",
+          "cites": [
+            "wd:Q116758847:P452"
+          ]
+        },
+        {
+          "label": "Listed on",
+          "text": "Nasdaq",
+          "cites": [
+            "wd:Q116758847:P414"
+          ]
+        },
+        {
+          "label": "Employees",
+          "text": "5,300 (2026)",
+          "cites": [
+            "wd:Q116758847:P1128:latest"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "anthropic.com",
+          "url": "https://www.anthropic.com/",
+          "cites": [
+            "wd:Q116758847:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hn",
+      "t": "2026-11-19T00:00:43Z",
+      "until": "2026-11-19T00:00:51Z",
+      "title": "Hacker News stories a day",
+      "note": "Stories with \"Anthropic\" in the title, over 14 days.",
+      "kind": "line",
+      "unit": "stories",
+      "series": [
+        {
+          "label": "Anthropic",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "11-06",
+              "y": 14
+            },
+            {
+              "x": "11-07",
+              "y": 2
+            },
+            {
+              "x": "11-08",
+              "y": 5
+            },
+            {
+              "x": "11-09",
+              "y": 10
+            },
+            {
+              "x": "11-10",
+              "y": 34
+            },
+            {
+              "x": "11-11",
+              "y": 10
+            },
+            {
+              "x": "11-12",
+              "y": 6
+            },
+            {
+              "x": "11-13",
+              "y": 9
+            },
+            {
+              "x": "11-14",
+              "y": 4
+            },
+            {
+              "x": "11-15",
+              "y": 5
+            },
+            {
+              "x": "11-16",
+              "y": 7
+            },
+            {
+              "x": "11-17",
+              "y": 10
+            },
+            {
+              "x": "11-18",
+              "y": 56
+            },
+            {
+              "x": "11-19",
+              "y": 193
+            }
+          ],
+          "cites": [
+            "hn:2026-11-19:Q116758847"
+          ]
+        }
+      ],
+      "mark": 13
+    },
+    {
+      "id": "hn-top",
+      "t": "2026-11-19T00:00:43Z",
+      "until": "2026-11-19T00:00:51Z",
+      "title": "Most discussed",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1052 points",
+          "text": "Anthropic’s Nasdaq debut",
+          "url": "https://news.ycombinator.com/item?id=50562754",
+          "cites": [
+            "hn:2026-11-19:Q116758847"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:00:52Z",
+      "until": "2026-11-19T00:01:07Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+          "cites": [
+            "news:bbc:cae7150e35ad"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+          "cites": [
+            "news:france24:d7818ee6ffea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:01:08Z",
+      "until": "2026-11-19T00:01:14Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386699549:74"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Anthropic:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q116758847:P571"
+          ]
+        },
+        {
+          "label": "Hacker News (via the Algolia search API)",
+          "text": "No licence stated: story counts ",
+          "url": "https://news.ycombinator.com/",
+          "cites": [
+            "hn:2026-11-19:Q116758847"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.000909
+  }
+}

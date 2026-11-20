@@ -1,0 +1,859 @@
+{
+  "version": 1,
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-20T07:43:32Z",
+  "candidates": 49,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "the-international-court-of-justice-rules-that-myanmar-has-co",
+      "lens": "general",
+      "title": "The International Court of Justice rules that Myanmar has committed genocide…",
+      "summary": "The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people.",
+      "article": {
+        "title": "Rohingya genocide case",
+        "url": "https://en.wikipedia.org/wiki/Rohingya_genocide_case",
+        "qid": "Q77952791"
+      },
+      "place": {
+        "name": "International Court of Justice",
+        "lon": 4.29555556,
+        "lat": 52.08666667,
+        "country": "NL",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-19:18"
+      },
+      "continent": "Europe",
+      "heat": 100,
+      "why": [
+        "Reported by 6 outlets from 3 regions",
+        "Listed on Wikipedia's Current events",
+        "16 headlines over 19 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "ICJ to rule on Rohingya genocide case against Myanmar",
+          "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar",
+          "t": "2026-11-19T02:10:43Z",
+          "evidence": "news:aljazeera:f19b9dd52ab6"
+        },
+        {
+          "outlet": "france24",
+          "title": "Myanmar's Rohingya case: how does the ICJ define genocide?",
+          "url": "https://www.france24.com/en/myanmar-s-rohingya-case-how-does-the-icj-define-genocide",
+          "t": "2026-11-19T11:22:31Z",
+          "evidence": "news:france24:783277d01e65"
+        },
+        {
+          "outlet": "dw",
+          "title": "Myanmar committed genocide against Rohingya, top UN court rules",
+          "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898",
+          "t": "2026-11-19T11:39:00Z",
+          "evidence": "news:dw:1622af9cbda3"
+        },
+        {
+          "outlet": "npr",
+          "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+          "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "t": "2026-11-19T12:29:41Z",
+          "evidence": "news:npr:666ba17e2953"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+          "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+          "t": "2026-11-19T13:52:10Z",
+          "evidence": "news:guardian:494a84273146"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo",
+          "t": "2026-11-19T20:07:02Z",
+          "evidence": "news:bbc:5d000ade1e62"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-19:18",
+        "news:aljazeera:f19b9dd52ab6",
+        "news:france24:783277d01e65",
+        "news:dw:1622af9cbda3",
+        "news:npr:666ba17e2953",
+        "news:guardian:494a84273146",
+        "news:bbc:5d000ade1e62",
+        "wd:Q77952791:P31"
+      ],
+      "headline": "The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people."
+    },
+    {
+      "slug": "chinese-leader-xi-jinping",
+      "lens": "conflict",
+      "title": "Chinese leader Xi Jinping",
+      "summary": "Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint declaration addressing nuclear war, petroleum production, and United Nations reform.",
+      "article": {
+        "title": "China–Russia relations, China–United States relations, Russia–United States relations",
+        "url": "https://en.wikipedia.org/wiki/China%E2%80%93Russia_relations%2C_China%E2%80%93United_States_relations%2C_Russia%E2%80%93United_States_relations"
+      },
+      "place": {
+        "name": "Russia",
+        "lon": 44.69,
+        "lat": 58.25,
+        "country": "RU",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-19:14"
+      },
+      "continent": "Europe",
+      "heat": 90,
+      "why": [
+        "Reported by 5 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "15 headlines over 18 hours"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+          "t": "2026-11-19T02:57:19Z",
+          "evidence": "news:aljazeera:366daa9915b9"
+        },
+        {
+          "outlet": "france24",
+          "title": "Nuclear arms at the center of the Shenzhen trilateral meeting",
+          "url": "https://www.france24.com/en/nuclear-arms-at-the-center-of-the-schenzhen-trilateral-meeting",
+          "t": "2026-11-19T08:36:29Z",
+          "evidence": "news:france24:cd3b3ca72551"
+        },
+        {
+          "outlet": "guardian",
+          "title": "First Thing: Trump, Xi and Putin hold historic trilateral meeting in China",
+          "url": "https://www.theguardian.com/us-news/2026/nov/19/first-thing-trump-xi-and-putin-hold-historic-trilateral-meeting-in-china",
+          "t": "2026-11-19T12:31:41Z",
+          "evidence": "news:guardian:923082a68b01"
+        },
+        {
+          "outlet": "dw",
+          "title": "APEC summit: Trump, Xi, Putin talks end with 'peace declaration'",
+          "url": "https://www.dw.com/en/apec-summit-trump-xi-putin-talks-end-with-peace-declaration/live-79964719",
+          "t": "2026-11-19T13:05:00Z",
+          "evidence": "news:dw:35792a5d6dfa"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o",
+          "t": "2026-11-19T17:38:22Z",
+          "evidence": "news:bbc:5282d21d8c78"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-19:14",
+        "news:aljazeera:366daa9915b9",
+        "news:france24:cd3b3ca72551",
+        "news:guardian:923082a68b01",
+        "news:dw:35792a5d6dfa",
+        "wd:Q201424:P31",
+        "news:bbc:5282d21d8c78"
+      ],
+      "headline": "Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump hold their first trilateral meeting in Shenzhen during the APEC summit…"
+    },
+    {
+      "slug": "the-joint-organisations-data-initiative-reports-that-saudi-a",
+      "lens": "economy",
+      "title": "The Joint Organisations Data Initiative reports that Saudi Arabia's oil…",
+      "summary": "The Joint Organisations Data Initiative reports that Saudi Arabia's oil exports rose in September to their highest level since the outbreak of the war in February, despite the Houthi attacks on Red Sea ports and infrastructure.",
+      "article": {
+        "title": "Economic impact of the 2026 Iran war",
+        "url": "https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war",
+        "qid": "Q138550576"
+      },
+      "heat": 84,
+      "why": [
+        "Reported by 4 outlets from 3 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital",
+          "t": "2026-11-19T23:58:40Z",
+          "evidence": "news:aljazeera:560937a18abe"
+        },
+        {
+          "outlet": "france24",
+          "title": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks",
+          "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+          "t": "2026-11-19T07:58:16Z",
+          "evidence": "news:france24:e54170cb555f"
+        },
+        {
+          "outlet": "npr",
+          "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
+          "t": "2026-11-19T09:46:24Z",
+          "evidence": "news:npr:5b3c36d0af3c"
+        },
+        {
+          "outlet": "sky",
+          "title": "Saudi's tallest skyscraper damaged in Houthi attack",
+          "url": "https://news.sky.com/story/saudis-tallest-skyscraper-damaged-in-houthi-attack-13614147",
+          "t": "2026-11-19T22:00:00Z",
+          "evidence": "news:sky:bde81e7934d7"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-19:10",
+        "news:aljazeera:560937a18abe",
+        "news:france24:e54170cb555f",
+        "news:npr:5b3c36d0af3c",
+        "news:sky:bde81e7934d7"
+      ],
+      "headline": "The Joint Organisations Data Initiative reports that Saudi Arabia's oil exports rose in September to their highest level since the outbreak of the war in February, despite the Houthi attacks on Red Sea ports…"
+    },
+    {
+      "slug": "gaza-war",
+      "lens": "conflict",
+      "title": "Gaza war",
+      "summary": "Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+      "article": {
+        "title": "Gaza war",
+        "url": "https://en.wikipedia.org/wiki/Gaza_war",
+        "qid": "Q122962941"
+      },
+      "place": {
+        "name": "Gaza Strip",
+        "lon": 34.45,
+        "lat": 31.5,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-19:7"
+      },
+      "continent": "Asia",
+      "heat": 76,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "8 headlines over 13 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims",
+          "url": "https://www.aljazeera.com/features/2026/11/19/gaza-syndrome-why-israeli-soldiers-trauma-erases-palestinian-victims",
+          "t": "2026-11-19T07:51:03Z",
+          "evidence": "news:aljazeera:08c4ee3f1046"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+          "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+          "t": "2026-11-19T12:40:46Z",
+          "evidence": "news:guardian:de9b828e4390"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+          "t": "2026-11-19T17:03:23Z",
+          "evidence": "news:bbc:116efff4a5dd"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-19:7",
+        "wd:Q122962941:P31",
+        "news:aljazeera:08c4ee3f1046",
+        "news:guardian:de9b828e4390",
+        "news:bbc:116efff4a5dd"
+      ],
+      "update": {
+        "day": 5,
+        "previous": [
+          {
+            "date": "2026-11-18",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          },
+          {
+            "date": "2026-11-15",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          }
+        ]
+      },
+      "headline": "Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day."
+    },
+    {
+      "slug": "denmark-ratifies-security-deal-with-us-and-greenland",
+      "lens": "general",
+      "title": "Denmark ratifies security deal with US and Greenland",
+      "summary": "Denmark ratifies security deal with US and Greenland",
+      "place": {
+        "name": "Greenland",
+        "lon": -40,
+        "lat": 72,
+        "country": "GL",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 57,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "4 outlets within 3 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Denmark ratifies Greenland security deal after months of pressure by Trump",
+          "url": "https://www.france24.com/en/europe/20261119-denmark-ratifies-greenland-security-deal-after-months-of-pressure-by-trump",
+          "t": "2026-11-19T10:08:04Z",
+          "evidence": "news:france24:274d8e9dcbf1"
+        },
+        {
+          "outlet": "dw",
+          "title": "Denmark ratifies security deal with US and Greenland",
+          "url": "https://www.dw.com/en/denmark-ratifies-security-deal-with-us-and-greenland/a-79988989",
+          "t": "2026-11-19T10:56:00Z",
+          "evidence": "news:dw:97c7c7d282a7"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Denmark parliament approves security deal with Greenland and US",
+          "url": "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us",
+          "t": "2026-11-19T11:09:00Z",
+          "evidence": "news:aljazeera:7cedea4ee0b7"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Danish MPs approve Greenland security pact with US",
+          "url": "https://www.theguardian.com/world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
+          "t": "2026-11-19T12:33:52Z",
+          "evidence": "news:guardian:f9c1853256b3"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:274d8e9dcbf1",
+        "news:dw:97c7c7d282a7",
+        "news:aljazeera:7cedea4ee0b7",
+        "news:guardian:f9c1853256b3"
+      ],
+      "headline": "Denmark ratifies security deal with US and Greenland, DW reports."
+    },
+    {
+      "slug": "grand-theft-auto-vi",
+      "lens": "culture",
+      "title": "Grand Theft Auto VI",
+      "summary": "2026 video game",
+      "about": "Grand Theft Auto VI is a 2026 action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follows the criminal duo of Jason Duval and Lucia Caminos as they lead a life of crime to escape from corrupted police officers. Players are able to freely roam Leonida's open world.",
+      "article": {
+        "title": "Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+        "qid": "Q23648408"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Country of origin",
+        "evidence": "wd:Q23648408:P495"
+      },
+      "continent": "North America",
+      "heat": 55,
+      "why": [
+        "Reported by 3 outlets",
+        "Read by 1.4 million on Wikipedia that day"
+      ],
+      "readers": 1379371,
+      "spike": 45.4,
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "What makes 'Grand Theft Auto VI' more than just a game?",
+          "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822",
+          "t": "2026-11-19T07:21:00Z",
+          "evidence": "news:dw:24b2767125c4"
+        },
+        {
+          "outlet": "france24",
+          "title": "'Grand Theft Auto VI', a 'masterpiece' 13 years in the making",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261119-grand-theft-auto-vi-a-masterpiece-13-years-in-the-making",
+          "t": "2026-11-19T12:22:53Z",
+          "evidence": "news:france24:22a76eb8d6c6"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Grand Theft Auto fans skip work and pull all-nighters to play new instalment",
+          "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
+          "t": "2026-11-19T20:07:23Z",
+          "evidence": "news:guardian:fc139917d31c"
+        }
+      ],
+      "related": [
+        "Grand Theft Auto",
+        "Rockstar Games",
+        "Grand Theft Auto V",
+        "Manni L. Perez",
+        "Lucia Caminos",
+        "Grand Theft Auto (video game)",
+        "Grand Theft Auto IV"
+      ],
+      "evidence": [
+        "views:en:Grand_Theft_Auto_VI:2026-11-19",
+        "views:en:Grand_Theft_Auto_VI:prior",
+        "views:en:Grand_Theft_Auto:2026-11-19",
+        "views:en:Grand_Theft_Auto:prior",
+        "views:en:Rockstar_Games:2026-11-19",
+        "views:en:Rockstar_Games:prior",
+        "views:en:Grand_Theft_Auto_V:2026-11-19",
+        "views:en:Grand_Theft_Auto_V:prior",
+        "views:en:Manni_L._Perez:2026-11-19",
+        "views:en:Manni_L._Perez:prior",
+        "views:en:Lucia_Caminos:2026-11-19",
+        "views:en:Lucia_Caminos:prior",
+        "views:en:Grand_Theft_Auto_(video_game):2026-11-19",
+        "views:en:Grand_Theft_Auto_(video_game):prior",
+        "views:en:Grand_Theft_Auto_IV:2026-11-19",
+        "views:en:Grand_Theft_Auto_IV:prior",
+        "news:dw:24b2767125c4",
+        "wd:Q23648408:P31",
+        "news:france24:22a76eb8d6c6",
+        "news:guardian:fc139917d31c"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-18",
+            "slug": "grand-theft-auto-vi",
+            "title": "Grand Theft Auto VI"
+          }
+        ]
+      },
+      "headline": "Following two delays, further leaks, and an extensive marketing campaign, it was released on 19 November 2026 for the PlayStation 5 and Xbox Series X/S to universal critical acclaim."
+    },
+    {
+      "slug": "kenya-s-marathon-champion-peres-jepchirchir-gets-three-year",
+      "lens": "person",
+      "title": "Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping",
+      "summary": "Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping",
+      "about": "Peres Jepchirchir (born 27 September 1993) is a Kenyan professional long-distance runner who competes mainly in road running competitions. She won the gold medal in the women's marathon at the 2020 Tokyo Olympics.",
+      "article": {
+        "title": "Peres Jepchirchir",
+        "url": "https://en.wikipedia.org/wiki/Peres_Jepchirchir",
+        "qid": "Q23597143"
+      },
+      "place": {
+        "name": "Kenya",
+        "lon": 37.91,
+        "lat": 0.55,
+        "country": "KE",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 55,
+      "why": [
+        "Reported by 3 outlets from 3 regions"
+      ],
+      "topic": "sports",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping",
+          "url": "https://www.aljazeera.com/sports/2026/11/19/kenyas-marathon-champion-peres-jepchirchir-gets-three-year-ban-for-doping",
+          "t": "2026-11-19T09:06:36Z",
+          "evidence": "news:aljazeera:ed3542fc14c3"
+        },
+        {
+          "outlet": "allafrica",
+          "title": "Kenya: Cheptai Elevated to Sydney Marathon Champion After Jepchirchir Stripped of Title",
+          "url": "https://allafrica.com/stories/202611190165.html",
+          "t": "2026-11-19T09:18:25Z",
+          "evidence": "news:allafrica:e86ef8e927d4"
+        },
+        {
+          "outlet": "france24",
+          "title": "Kenyan marathon champion banned for doping",
+          "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261119-kenyan-marathon-champion-banned-for-doping",
+          "t": "2026-11-19T21:38:55Z",
+          "evidence": "news:france24:086370835999"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:ed3542fc14c3",
+        "news:allafrica:e86ef8e927d4",
+        "news:france24:086370835999"
+      ],
+      "headline": "Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping, Al Jazeera reports."
+    },
+    {
+      "slug": "haiti-police-say-at-least-34-suspected-gang-members-killed-i",
+      "lens": "general",
+      "title": "Haiti police say at least 34 suspected gang members killed in raid",
+      "summary": "Haiti police say at least 34 suspected gang members killed in raid",
+      "place": {
+        "name": "Haiti",
+        "lon": -72.22,
+        "lat": 19.26,
+        "country": "HT",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 43,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "34 people involved, per the headlines"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Haiti police say at least 34 suspected gang members killed in raid",
+          "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid",
+          "t": "2026-11-19T21:39:39Z",
+          "evidence": "news:aljazeera:d93b1fe41da9"
+        },
+        {
+          "outlet": "france24",
+          "title": "Major anti-gang offensive in Haiti kills 34 suspected gang members",
+          "url": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members",
+          "t": "2026-11-19T22:31:25Z",
+          "evidence": "news:france24:26a4355e6e18"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:d93b1fe41da9",
+        "news:france24:26a4355e6e18"
+      ],
+      "headline": "Haiti police say at least 34 suspected gang members killed in raid, Al Jazeera reports."
+    },
+    {
+      "slug": "anthropic-raises-81bn-in-record-breaking-stock-market-debut",
+      "lens": "organization",
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "summary": "Anthropic raises $81bn in record-breaking stock market debut",
+      "about": "Anthropic, PBC (stylized as ANTHROP\\C and A\\) is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California. Its flagship product is Claude, a series of proprietary large language models (LLMs).",
+      "article": {
+        "title": "Anthropic",
+        "url": "https://en.wikipedia.org/wiki/Anthropic",
+        "qid": "Q116758847"
+      },
+      "heat": 40,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "business",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Anthropic raises $81bn in record-breaking stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+          "t": "2026-11-19T10:48:04Z",
+          "evidence": "news:bbc:cae7150e35ad"
+        },
+        {
+          "outlet": "france24",
+          "title": "AI lab Anthropic sets stock market record with $81 billion IPO",
+          "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+          "t": "2026-11-19T11:02:54Z",
+          "evidence": "news:france24:d7818ee6ffea"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:cae7150e35ad",
+        "news:france24:d7818ee6ffea"
+      ],
+      "headline": "Anthropic raises $81bn in record-breaking stock market debut, BBC News reports."
+    },
+    {
+      "slug": "us-pentagon-chief-hegseth-signs-military-deal-in-venezuela",
+      "lens": "person",
+      "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
+      "summary": "US Pentagon chief Hegseth signs military deal in Venezuela",
+      "about": "Peter Brian Hegseth (born June 6, 1980) is an American politician, U.S. Army veteran, and former television personality who has been serving as the 29th United States secretary of defense since 2025. Hegseth studied politics at Princeton University, where he was the publisher of The Princeton Tory, a conservative…",
+      "article": {
+        "title": "Pete Hegseth",
+        "url": "https://en.wikipedia.org/wiki/Pete_Hegseth",
+        "qid": "Q7172014"
+      },
+      "place": {
+        "name": "Venezuela",
+        "lon": -64.6,
+        "lat": 7.18,
+        "country": "VE",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 37,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela",
+          "t": "2026-11-19T07:52:30Z",
+          "evidence": "news:aljazeera:12fd432b51bf"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo",
+          "t": "2026-11-19T13:31:23Z",
+          "evidence": "news:bbc:d65a0674ce40"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:12fd432b51bf",
+        "news:bbc:d65a0674ce40"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-18",
+            "slug": "us-pentagon-chief-hegseth-signs-military-deal-in-venezuela",
+            "title": "US Pentagon chief Hegseth signs military deal in Venezuela"
+          }
+        ]
+      },
+      "headline": "Venezuela signs military deal with US less than a year after Maduro's removal, BBC News reports."
+    },
+    {
+      "slug": "bbc-reports-from-kyiv-bridge-hit-by-russian-attack",
+      "lens": "conflict",
+      "title": "BBC reports from Kyiv bridge hit by Russian attack",
+      "summary": "BBC reports from Kyiv bridge hit by Russian attack",
+      "place": {
+        "name": "Crimea",
+        "lon": 34.4,
+        "lat": 45.3,
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 34,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+          "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+          "t": "2026-11-19T10:03:42Z",
+          "evidence": "news:guardian:e881df0785eb"
+        },
+        {
+          "outlet": "france24",
+          "title": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
+          "url": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies",
+          "t": "2026-11-19T21:25:27Z",
+          "evidence": "news:france24:b11b79f67545"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:e881df0785eb",
+        "news:france24:b11b79f67545"
+      ],
+      "headline": "Crimea bridge has been attacked again, says Russian-installed governor, The Guardian reports."
+    },
+    {
+      "slug": "trump-greets-my-friend-putin-as-pair-shake-hands",
+      "lens": "person",
+      "title": "Trump greets 'my friend' Putin as pair shake hands",
+      "summary": "Trump greets 'my friend' Putin as pair shake hands",
+      "about": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, having previously served from 1999 to 2008. Putin also served as Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012.",
+      "article": {
+        "title": "Vladimir Putin",
+        "url": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+        "qid": "Q7747"
+      },
+      "place": {
+        "name": "China",
+        "lon": 106.34,
+        "lat": 32.5,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 34,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "‘It’s my friend’: Moment Trump greets Putin at China summit",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/its-my-friend-moment-trump-greets-putin-at-china-summit",
+          "t": "2026-11-19T06:44:59Z",
+          "evidence": "news:aljazeera:9ef30dea51b7"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Trump greets 'my friend' Putin as pair shake hands",
+          "url": "https://www.bbc.co.uk/news/videos/c6j9m19llmv3o",
+          "t": "2026-11-19T08:31:09Z",
+          "evidence": "news:bbc:05a593c347cf"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:9ef30dea51b7",
+        "news:bbc:05a593c347cf"
+      ],
+      "headline": "Trump greets 'my friend' Putin as pair shake hands, BBC News reports."
+    },
+    {
+      "slug": "across-bangladesh",
+      "lens": "economy",
+      "title": "Across Bangladesh",
+      "summary": "Across Bangladesh, 341 garment factories remain closed amid ongoing minimum wage protests, as police fire tear gas and stun grenades to disperse demonstrators in Ashulia and clear blockades on the Dhaka–Mymensingh Highway in Gazipur, while Bangladesh Nationalist Party members take up positions along highway areas in Sreepur and authorities tighten security at Kashimpur Central Jail.",
+      "article": {
+        "title": "2026 Bangladesh garment workers protests",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+        "qid": "Q142084937"
+      },
+      "place": {
+        "name": "Ashulia",
+        "lon": 90.33077,
+        "lat": 23.897313,
+        "country": "BD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-19:11"
+      },
+      "continent": "Asia",
+      "heat": 21,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 3,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-19:11",
+        "wd:Q142084937:P31"
+      ],
+      "update": {
+        "day": 8,
+        "previous": [
+          {
+            "date": "2026-11-17",
+            "slug": "bangladeshi-police-and-42-platoons-of-the-border-guard-bangl",
+            "title": "Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear…"
+          },
+          {
+            "date": "2026-11-15",
+            "slug": "amid-minimum-wage-protests-by-garment-workers",
+            "title": "Amid minimum wage protests by garment workers"
+          },
+          {
+            "date": "2026-11-14",
+            "slug": "the-bangladesh-garment-manufacturers-and-exporters-associati",
+            "title": "The Bangladesh Garment Manufacturers and Exporters Association threatens to…"
+          },
+          {
+            "date": "2026-11-12",
+            "slug": "over-200-garment-factories-shut-down-as-workers-block-the-dh",
+            "title": "Over 200 garment factories shut down as workers block the Dhaka–Tangail…"
+          }
+        ]
+      },
+      "headline": "Across Bangladesh, 341 garment factories remain closed amid ongoing minimum wage protests, as police fire tear gas and stun grenades to disperse demonstrators in Ashulia…"
+    },
+    {
+      "slug": "senegalese-president-bassirou-diomaye-faye-enacts-the-revise",
+      "lens": "economy",
+      "title": "Senegalese president Bassirou Diomaye Faye enacts the revised 2026 budget by…",
+      "summary": "Senegalese president Bassirou Diomaye Faye enacts the revised 2026 budget by decree after parliament rejected it, seeking to advance a proposed US$2.2 billion International Monetary Fund loan programme aimed at addressing the country's debt.",
+      "article": {
+        "title": "Economy of Senegal",
+        "url": "https://en.wikipedia.org/wiki/Economy_of_Senegal",
+        "qid": "Q749199"
+      },
+      "place": {
+        "name": "National Assembly",
+        "lon": -17.43833333,
+        "lat": 14.6625,
+        "country": "SN",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-19:12"
+      },
+      "continent": "Africa",
+      "heat": 17,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-19:12",
+        "wd:Q749199:P31"
+      ],
+      "headline": "Senegalese president Bassirou Diomaye Faye enacts the revised 2026 budget by decree after parliament rejected it, seeking to advance a proposed US$2.2 billion International Monetary Fund loan programme aimed at…"
+    },
+    {
+      "slug": "2027-salvadoran-presidential-election",
+      "lens": "election",
+      "title": "2027 Salvadoran presidential election",
+      "summary": "Incumbent president of El Salvador Nayib Bukele presents his presidential candidacy to the Supreme Electoral Court seeking registration ahead of the 2027 elections. He is running for a third presidential term that will last six years.",
+      "article": {
+        "title": "2027 Salvadoran presidential election",
+        "url": "https://en.wikipedia.org/wiki/2027_Salvadoran_presidential_election",
+        "qid": "Q135551595"
+      },
+      "place": {
+        "name": "El Salvador",
+        "lon": -88.89,
+        "lat": 13.69,
+        "country": "SV",
+        "role": "Country",
+        "evidence": "wd:Q135551595:P17"
+      },
+      "continent": "North America",
+      "heat": 17,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-19:19",
+        "wd:Q135551595:P31"
+      ],
+      "headline": "Incumbent president of El Salvador Nayib Bukele presents his presidential candidacy to the Supreme Electoral Court seeking registration ahead of the 2027 elections."
+    }
+  ]
+}

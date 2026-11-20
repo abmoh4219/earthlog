@@ -1,0 +1,333 @@
+[
+  {
+    "id": "news:aljazeera:d93b1fe41da9",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: Haiti police say at least 34 suspected gang members killed in raid (21:39 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid",
+    "quote": "Haiti police say at least 34 suspected gang members killed in raid",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:26a4355e6e18",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: Major anti-gang offensive in Haiti kills 34 suspected gang members (22:31 UTC)",
+    "url": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members",
+    "quote": "Major anti-gang offensive in Haiti kills 34 suspected gang members",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386270195:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Haiti\" (revision of 2026-11-17 16:49 UTC)",
+    "quote": "Haiti, officially the Republic of Haiti, is a country in the Caribbean on the island of Hispaniola in the Caribbean Sea, east of Cuba and Jamaica and south of The Bahamas.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Haiti&oldid=1386270195"
+  },
+  {
+    "id": "wiki:2026-11-12:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-12",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-12: Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in Port-au-Prince after two years of gang control.",
+    "quote": "Haitian and Salvadoran soldiers take control of the Stade Sylvio Cator in Port-au-Prince after two years of gang control.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_12&oldid=1385702080"
+  },
+  {
+    "id": "wiki:2026-11-17:20",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-17",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-17: Hundreds of Haitians march in cities across Haiti to show support for the deployment of Salvadoran troops to combat gang violence.",
+    "quote": "Hundreds of Haitians march in cities across Haiti to show support for the deployment of Salvadoran troops to combat gang violence.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867"
+  },
+  {
+    "id": "wiki:2026-11-18:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-18",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-18: Salvadoran forces destroy a house belonging to Jeff Larose, the leader of the Taliban gang that operates in Canaan, Haiti. The Gang Suppression Force says it was not involved.",
+    "quote": "Salvadoran forces destroy a house belonging to Jeff Larose, the leader of the Taliban gang that operates in Canaan, Haiti.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397"
+  },
+  {
+    "id": "views:en:Haiti:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Haiti\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Haiti&range=latest-30"
+  },
+  {
+    "id": "wd:Q790:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haiti\": founded 1 January 1804",
+    "url": "https://www.wikidata.org/wiki/Q790#P571"
+  },
+  {
+    "id": "wd:Q790:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Haiti\": country Haiti",
+    "url": "https://www.wikidata.org/wiki/Q790#P17"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:region:latin-america-caribbean",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, inflation, latest year, Latin America & Caribbean: Argentina 219.9% (2024); Haiti 28.6% (2025); Bolivia 19.5% (2025); Suriname 9.2% (2025); Colombia 5.1% (2025); Brazil 5.0% (2025); Uruguay 4.7% (2025); Honduras 4.6% (2025); Chile 4.2% (2025); Paraguay 4.0% (2025); Jamaica 4.0% (2025); Dominican Republic 3.9% (2025); Mexico 3.8% (2025); Guyana 3.3% (2025); Nicaragua 2.1% (2025); Peru 1.5% (2025); Guatemala 1.5% (2025); Bahamas 1.1% (2025); Belize 1.1% (2025); Trinidad and Tobago 1.0% (2025); Ecuador 0.7% (2025); El Salvador 0.3% (2025); Costa Rica -0.1% (2025); Panama -0.2% (2025)",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:HT",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Haiti: 2020 22.8%; 2021 16.8%; 2022 34.0%; 2023 36.8%; 2024 26.9%; 2025 28.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HT"
+  },
+  {
+    "id": "wb:NY.GDP.MKTP.KD.ZG:HT",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, GDP growth, Haiti: 2020 -3.3%; 2021 -1.8%; 2022 -1.7%; 2023 -1.9%; 2024 -4.2%; 2025 -2.7%",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=HT"
+  },
+  {
+    "id": "wb:SL.UEM.TOTL.ZS:HT",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Unemployment, Haiti: 2020 15.6%; 2021 15.3%; 2022 14.5%; 2023 14.5%; 2024 14.6%; 2025 14.9%",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=HT"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:AR",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Argentina: 2019 53.5%; 2020 42.0%; 2021 48.4%; 2022 72.4%; 2023 133.5%; 2024 219.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AR"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BS",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Bahamas: 2020 0.0%; 2021 2.9%; 2022 5.6%; 2023 3.1%; 2024 0.4%; 2025 1.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BS"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BZ",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Belize: 2020 0.1%; 2021 3.2%; 2022 6.3%; 2023 4.4%; 2024 3.3%; 2025 1.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BZ"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BO",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Bolivia: 2020 0.9%; 2021 0.7%; 2022 1.7%; 2023 2.6%; 2024 5.1%; 2025 19.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BO"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BR",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Brazil: 2020 3.2%; 2021 8.3%; 2022 9.3%; 2023 4.6%; 2024 4.4%; 2025 5.0%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BR"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CL",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Chile: 2020 3.0%; 2021 4.5%; 2022 11.6%; 2023 7.6%; 2024 4.3%; 2025 4.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CL"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CO",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Colombia: 2020 2.5%; 2021 3.5%; 2022 10.2%; 2023 11.7%; 2024 6.6%; 2025 5.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CO"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CR",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Costa Rica: 2020 0.7%; 2021 1.7%; 2022 8.3%; 2023 0.5%; 2024 -0.4%; 2025 -0.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CR"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:DO",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Dominican Republic: 2020 3.8%; 2021 8.2%; 2022 8.8%; 2023 4.8%; 2024 3.3%; 2025 3.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DO"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:EC",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Ecuador: 2020 -0.3%; 2021 0.1%; 2022 3.5%; 2023 2.2%; 2024 1.5%; 2025 0.7%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=EC"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GT",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Guatemala: 2020 3.2%; 2021 4.3%; 2022 6.9%; 2023 6.2%; 2024 2.9%; 2025 1.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GT"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:GY",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Guyana: 2020 0.7%; 2021 4.5%; 2022 6.9%; 2023 2.8%; 2024 2.9%; 2025 3.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GY"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:HN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Honduras: 2020 3.5%; 2021 4.5%; 2022 9.1%; 2023 6.7%; 2024 4.6%; 2025 4.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:JM",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Jamaica: 2020 5.2%; 2021 5.9%; 2022 10.3%; 2023 6.5%; 2024 5.4%; 2025 4.0%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=JM"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:MX",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Mexico: 2020 3.4%; 2021 5.7%; 2022 7.9%; 2023 5.5%; 2024 4.7%; 2025 3.8%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MX"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:NI",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Nicaragua: 2020 3.7%; 2021 4.9%; 2022 10.5%; 2023 8.4%; 2024 4.6%; 2025 2.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NI"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:PA",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Panama: 2020 -1.6%; 2021 1.6%; 2022 2.9%; 2023 1.5%; 2024 0.7%; 2025 -0.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PA"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:PE",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Peru: 2020 2.0%; 2021 4.3%; 2022 8.3%; 2023 6.5%; 2024 2.0%; 2025 1.5%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PE"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:PY",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Paraguay: 2020 1.8%; 2021 4.8%; 2022 9.8%; 2023 4.6%; 2024 3.8%; 2025 4.0%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PY"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:SV",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, El Salvador: 2020 -0.4%; 2021 3.5%; 2022 7.2%; 2023 4.0%; 2024 0.9%; 2025 0.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SV"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:SR",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Suriname: 2020 34.9%; 2021 59.1%; 2022 52.4%; 2023 51.6%; 2024 16.2%; 2025 9.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SR"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:TT",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Trinidad and Tobago: 2020 0.6%; 2021 2.1%; 2022 5.8%; 2023 4.6%; 2024 0.5%; 2025 1.0%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TT"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:UY",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Uruguay: 2020 9.8%; 2021 7.7%; 2022 9.1%; 2023 5.9%; 2024 4.8%; 2025 4.7%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UY"
+  }
+]

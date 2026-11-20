@@ -1,0 +1,83 @@
+[
+  {
+    "id": "wiki:2026-11-19:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-19T00:00:00Z",
+    "lon": 44.69,
+    "lat": 58.25,
+    "label": "World: Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint declaration addressing nuclear war, petroleum production, and United Nations reform.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379",
+    "quote": "Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump hold their first trilateral meeting in Shenzhen during the APEC summit and issue a joint declaration addressing nuclear war, petroleum production, and United Nations reform.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/china-us-russia-issue-declaration-toward-peace-after-first-summit"
+      },
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/c623j4ln97x7o"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:366daa9915b9",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: What do Trump, Putin and Xi want from their Shenzhen meeting? (02:57 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+    "quote": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:cd3b3ca72551",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: Nuclear arms at the center of the Shenzhen trilateral meeting (08:36 UTC)",
+    "url": "https://www.france24.com/en/nuclear-arms-at-the-center-of-the-schenzhen-trilateral-meeting",
+    "quote": "Nuclear arms at the center of the Shenzhen trilateral meeting",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:923082a68b01",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "The Guardian: First Thing: Trump, Xi and Putin hold historic trilateral meeting in China (12:31 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/19/first-thing-trump-xi-and-putin-hold-historic-trilateral-meeting-in-china",
+    "quote": "First Thing: Trump, Xi and Putin hold historic trilateral meeting in China",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:35792a5d6dfa",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "DW: APEC summit: Trump, Xi, Putin talks end with 'peace declaration' (13:05 UTC)",
+    "url": "https://www.dw.com/en/apec-summit-trump-xi-putin-talks-end-with-peace-declaration/live-79964719",
+    "quote": "APEC summit: Trump, Xi, Putin talks end with 'peace declaration'",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q201424:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Wikidata: \"nuclear warfare\" is an instance of hypothetical war",
+    "url": "https://www.wikidata.org/wiki/Q201424",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:5282d21d8c78",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "BBC News: Trump, Putin and Xi release 'peace declaration' after historic meeting (17:38 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o",
+    "quote": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+    "precision": "day"
+  }
+]

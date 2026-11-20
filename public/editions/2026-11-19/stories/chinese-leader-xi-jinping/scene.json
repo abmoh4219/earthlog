@@ -1,0 +1,384 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-chinese-leader-xi-jinping",
+  "title": "Chinese leader Xi Jinping",
+  "subtitle": "Conflict · 19 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:00:54Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 34.69,
+    "south": 50.25,
+    "east": 54.69,
+    "north": 66.25
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-19T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-19T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": 82.69000000000005,
+      "lat": 33.675,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:07Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:09Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:12Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:15Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:17Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:20Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:23Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:28Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:37Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:46Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:49Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:50Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:54Z",
+      "lon": 19.690000000000055,
+      "lat": 56.125,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "Chinese leader Xi Jinping, Russian president Vladimir Putin, and United States president Donald Trump held their first trilateral meeting in Shenzhen during the APEC summit.",
+      "cites": [
+        "wiki:2026-11-19:14"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:05Z",
+      "text": "The three leaders issued a joint declaration addressing nuclear war, petroleum production, and United Nations reform.",
+      "cites": [
+        "wiki:2026-11-19:14"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:11Z",
+      "text": "The map shows Russia, the place the reports place this story.",
+      "cites": [
+        "wiki:2026-11-19:14"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:19Z",
+      "text": "The account is reported by AFP and BBC News.",
+      "cites": [
+        "wiki:2026-11-19:14"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:27Z",
+      "text": "Al Jazeera asked, “What do Trump, Putin and Xi want from their Shenzhen meeting?”",
+      "cites": [
+        "news:aljazeera:366daa9915b9"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:33Z",
+      "text": "France 24 placed nuclear arms at the center of the Shenzhen trilateral meeting.",
+      "cites": [
+        "news:france24:cd3b3ca72551"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:39Z",
+      "text": "The Guardian called the meeting a historic trilateral meeting in China between Trump, Xi and Putin.",
+      "cites": [
+        "news:guardian:923082a68b01"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:48Z",
+      "text": "The sources are Wikipedia, Current events and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-19:14",
+        "wd:Q201424:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "RU",
+    "lon": 44.69,
+    "lat": 58.25,
+    "label": "Russia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-19T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:00:47Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-19T00:00:19Z",
+      "until": "2026-11-19T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/china-us-russia-issue-declaration-toward-peace-after-first-summit",
+          "cites": [
+            "wiki:2026-11-19:14"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/c623j4ln97x7o",
+          "cites": [
+            "wiki:2026-11-19:14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:00:27Z",
+      "until": "2026-11-19T00:00:47Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+          "cites": [
+            "news:aljazeera:366daa9915b9"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/nuclear-arms-at-the-center-of-the-schenzhen-trilateral-meeting",
+          "cites": [
+            "news:france24:cd3b3ca72551"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/19/first-thing-trump-xi-and-putin-hold-historic-trilateral-meeting-in-china",
+          "cites": [
+            "news:guardian:923082a68b01"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/apec-summit-trump-xi-putin-talks-end-with-peace-declaration/live-79964719",
+          "cites": [
+            "news:dw:35792a5d6dfa"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o",
+          "cites": [
+            "news:bbc:5282d21d8c78"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:00:48Z",
+      "until": "2026-11-19T00:00:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-19:14"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q201424:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.001045
+  }
+}

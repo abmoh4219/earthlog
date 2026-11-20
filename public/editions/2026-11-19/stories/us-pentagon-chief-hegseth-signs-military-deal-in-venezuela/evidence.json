@@ -1,0 +1,223 @@
+[
+  {
+    "id": "news:aljazeera:12fd432b51bf",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: Why is Pete Hegseth strengthening US military ties with Venezuela? (07:52 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela",
+    "quote": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:d65a0674ce40",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "BBC News: Venezuela signs military deal with US less than a year after Maduro's removal (13:31 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo",
+    "quote": "Venezuela signs military deal with US less than a year after Maduro's removal",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386539170:203",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pete Hegseth\" (revision of 2026-11-19 02:21 UTC)",
+    "quote": "On Veterans' Day, November 11, 2026, Hegseth and a group accompanying him posed for photographs in front of the Tomb of the Unknown Soldier, audibly chatting and laughing.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pete_Hegseth&oldid=1386539170"
+  },
+  {
+    "id": "wiki:rev:1386539170:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pete Hegseth\" (revision of 2026-11-19 02:21 UTC)",
+    "quote": "Peter Brian Hegseth (born June 6, 1980) is an American politician, U.S. Army veteran, and former television personality who has been serving as the 29th United States secretary of defense since 2025.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pete_Hegseth&oldid=1386539170"
+  },
+  {
+    "id": "views:en:Pete_Hegseth:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Pete Hegseth\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Pete_Hegseth&range=latest-30"
+  },
+  {
+    "id": "wd:Q7172014:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": born 6 June 1980",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P569"
+  },
+  {
+    "id": "wd:Q7172014:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": birthplace Minneapolis",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P19"
+  },
+  {
+    "id": "wd:Q7172014:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": occupation politician, television presenter",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P106"
+  },
+  {
+    "id": "wd:Q7172014:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P27"
+  },
+  {
+    "id": "wd:Q7172014:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": sport basketball",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P641"
+  },
+  {
+    "id": "wd:Q7172014:P69:Q5469002",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": educated at Forest Lake Area High School (1999)",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P69"
+  },
+  {
+    "id": "wd:Q7172014:P69:Q21578",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": educated at Princeton University (2003)",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P69"
+  },
+  {
+    "id": "wd:Q7172014:P69:Q49127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": educated at John F. Kennedy School of Government (2009–13)",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P69"
+  },
+  {
+    "id": "wd:Q7172014:P54:Q7245013",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": played for Princeton Tigers men's basketball (2000–03)",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P54"
+  },
+  {
+    "id": "wd:Q7172014:P108:Q186068",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": worked for Fox News (2014–24)",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P108"
+  },
+  {
+    "id": "wd:Q7172014:P937:Q107126",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": worked in Arlington County",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P937"
+  },
+  {
+    "id": "wd:Q7172014:P166:Q928314",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": award received: Bronze Star Medal",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P166"
+  },
+  {
+    "id": "wd:Q7172014:P166:Q15821622",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": award received: Joint Service Commendation Medal",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P166"
+  },
+  {
+    "id": "wd:Q7172014:P166:Q5421199",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": award received: Expert Infantryman Badge",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P166"
+  },
+  {
+    "id": "wd:Q7172014:P166:Q4192947",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": award received: Combat Infantryman Badge",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P166"
+  },
+  {
+    "id": "wd:Q7172014:P166:Q15783990",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": award received: Army Commendation Medal",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P166"
+  },
+  {
+    "id": "wd:Q7172014:P166:Q2611552",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": award received: National Defense Service Medal",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P166"
+  },
+  {
+    "id": "wd:Q7172014:P800:Q131459708",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": notable work: American Crusade",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P800"
+  },
+  {
+    "id": "wd:Q7172014:P800:Q131926991",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Hegseth\": notable work: The War on Warriors",
+    "url": "https://www.wikidata.org/wiki/Q7172014#P800"
+  }
+]

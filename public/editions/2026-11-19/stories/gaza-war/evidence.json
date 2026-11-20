@@ -1,0 +1,125 @@
+[
+  {
+    "id": "wiki:2026-11-19:7",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-19T00:00:00Z",
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Conflict: Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379",
+    "quote": "Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://aje.news/r003u9?update=5168071"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q122962941:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Wikidata: \"Gaza War\" is an instance of war",
+    "url": "https://www.wikidata.org/wiki/Q122962941",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:08c4ee3f1046",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims (07:51 UTC)",
+    "url": "https://www.aljazeera.com/features/2026/11/19/gaza-syndrome-why-israeli-soldiers-trauma-erases-palestinian-victims",
+    "quote": "Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:de9b828e4390",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "The Guardian: Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza (12:40 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+    "quote": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:116efff4a5dd",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "BBC News: Israeli military completes ground operation in Gaza beyond Yellow Line (17:03 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+    "quote": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386596237:403",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-19 10:38 UTC)",
+    "quote": "A UN report from November 2026 accused Israel of committing war crimes and crimes against humanity in the occupied West Bank, including extermination, torture, and sexual assault.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1386596237"
+  },
+  {
+    "id": "wiki:rev:1386596237:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-19 10:38 UTC)",
+    "quote": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1386596237"
+  },
+  {
+    "id": "views:en:Gaza_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gaza war\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q122962941:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P585"
+  },
+  {
+    "id": "wd:Q122962941:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": began 7 October 2023",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P580"
+  },
+  {
+    "id": "wd:Q122962941:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": location Levant, Yemen",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P276"
+  },
+  {
+    "id": "wd:Q122962941:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": country Israel, Palestine",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P17"
+  }
+]

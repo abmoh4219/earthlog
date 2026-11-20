@@ -1,0 +1,119 @@
+[
+  {
+    "id": "wiki:2026-11-19:18",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-19T00:00:00Z",
+    "lon": 4.29555556,
+    "lat": 52.08666667,
+    "label": "Law & crime: The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379",
+    "quote": "The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/myanmar-guilty-genocide-against-rohingya-says-top-un-court"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:f19b9dd52ab6",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: ICJ to rule on Rohingya genocide case against Myanmar (02:10 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar",
+    "quote": "ICJ to rule on Rohingya genocide case against Myanmar",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:783277d01e65",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: Myanmar's Rohingya case: how does the ICJ define genocide? (11:22 UTC)",
+    "url": "https://www.france24.com/en/myanmar-s-rohingya-case-how-does-the-icj-define-genocide",
+    "quote": "Myanmar's Rohingya case: how does the ICJ define genocide?",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:1622af9cbda3",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "DW: Myanmar committed genocide against Rohingya, top UN court rules (11:39 UTC)",
+    "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898",
+    "quote": "Myanmar committed genocide against Rohingya, top UN court rules",
+    "precision": "day"
+  },
+  {
+    "id": "news:npr:666ba17e2953",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "NPR: The U.N.'s top court rules Myanmar committed genocide against the Rohingya (12:29 UTC)",
+    "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+    "quote": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:494a84273146",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "The Guardian: Myanmar committed genocide against Rohingya minority, world’s top court rules (13:52 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+    "quote": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:5d000ade1e62",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "BBC News: Myanmar committed genocide against Rohingya minority, top UN court rules (20:07 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo",
+    "quote": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q77952791:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Wikidata: \"Rohingya genocide case\" is an instance of legal case",
+    "url": "https://www.wikidata.org/wiki/Q77952791",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386740487:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rohingya genocide case\" (revision of 2026-11-20 07:38 UTC)",
+    "quote": "On 19 November 2026, the ICJ found \"that Myanmar committed acts falling under … the genocide convention with an intent to destroy a substantial part of the Rohingya population in Myanmar\".",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rohingya_genocide_case&oldid=1386740487"
+  },
+  {
+    "id": "wiki:rev:1386740487:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rohingya genocide case\" (revision of 2026-11-20 07:38 UTC)",
+    "quote": "The Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rohingya_genocide_case&oldid=1386740487"
+  },
+  {
+    "id": "views:en:Rohingya_genocide_case:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Rohingya genocide case\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Rohingya_genocide_case&range=latest-30"
+  }
+]

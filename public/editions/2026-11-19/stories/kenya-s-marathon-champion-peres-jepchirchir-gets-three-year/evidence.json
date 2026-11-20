@@ -1,0 +1,107 @@
+[
+  {
+    "id": "news:aljazeera:ed3542fc14c3",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "Al Jazeera: Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping (09:06 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/19/kenyas-marathon-champion-peres-jepchirchir-gets-three-year-ban-for-doping",
+    "quote": "Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping",
+    "precision": "day"
+  },
+  {
+    "id": "news:allafrica:e86ef8e927d4",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "AllAfrica: Kenya: Cheptai Elevated to Sydney Marathon Champion After Jepchirchir Stripped of Title (09:18 UTC)",
+    "url": "https://allafrica.com/stories/202611190165.html",
+    "quote": "Kenya: Cheptai Elevated to Sydney Marathon Champion After Jepchirchir Stripped of Title",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:086370835999",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-19T00:00:00Z",
+    "label": "France 24: Kenyan marathon champion banned for doping (21:38 UTC)",
+    "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261119-kenyan-marathon-champion-banned-for-doping",
+    "quote": "Kenyan marathon champion banned for doping",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386668575:8",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Peres Jepchirchir\" (revision of 2026-11-19 21:20 UTC)",
+    "quote": "She was given a three-year ban on 19 November, reduced from four years after admitting to the offence.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Peres_Jepchirchir&oldid=1386668575"
+  },
+  {
+    "id": "wiki:rev:1386668575:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Peres Jepchirchir\" (revision of 2026-11-19 21:20 UTC)",
+    "quote": "Peres Jepchirchir (born 27 September 1993) is a Kenyan professional long-distance runner who competes mainly in road running competitions.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Peres_Jepchirchir&oldid=1386668575"
+  },
+  {
+    "id": "views:en:Peres_Jepchirchir:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Peres Jepchirchir\", 21 October 2026 to 19 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Peres_Jepchirchir&range=latest-30"
+  },
+  {
+    "id": "wd:Q23597143:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Peres Jepchirchir\": born 27 September 1993",
+    "url": "https://www.wikidata.org/wiki/Q23597143#P569"
+  },
+  {
+    "id": "wd:Q23597143:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Peres Jepchirchir\": birthplace Turbo",
+    "url": "https://www.wikidata.org/wiki/Q23597143#P19"
+  },
+  {
+    "id": "wd:Q23597143:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Peres Jepchirchir\": occupation long-distance runner, marathon runner",
+    "url": "https://www.wikidata.org/wiki/Q23597143#P106"
+  },
+  {
+    "id": "wd:Q23597143:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Peres Jepchirchir\": citizenship Kenya",
+    "url": "https://www.wikidata.org/wiki/Q23597143#P27"
+  },
+  {
+    "id": "wd:Q23597143:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-19T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Peres Jepchirchir\": sport road running, athletics",
+    "url": "https://www.wikidata.org/wiki/Q23597143#P641"
+  }
+]

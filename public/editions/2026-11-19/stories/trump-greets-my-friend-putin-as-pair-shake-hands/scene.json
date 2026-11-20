@@ -1,0 +1,550 @@
+{
+  "version": 1,
+  "id": "story-2026-11-19-trump-greets-my-friend-putin-as-pair-shake-hands",
+  "title": "Vladimir Putin",
+  "subtitle": "People · 19 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-19T00:00:00Z",
+    "end": "2026-11-19T00:01:18Z"
+  },
+  "focus": "2026-11-19T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 96.34,
+    "south": 24.5,
+    "east": 116.34,
+    "north": 40.5
+  },
+  "imagery": {
+    "day": "2026-11-19",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-19T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-19T00:00:25Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "lon": 144.34000000000003,
+      "lat": 18.224999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-19T00:00:04Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:10Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:16Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:20Z",
+      "lon": 30.316666666667,
+      "lat": 59.050000000000004,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:22Z",
+      "lon": 30.316666666667,
+      "lat": 59.050000000000004,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:24Z",
+      "lon": 30.316666666667,
+      "lat": 59.050000000000004,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:27Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 6556050.345254906,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:00:34Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 5936756.086130195,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:40Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 5375961.283109023,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:43Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 6556050.345254906,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:49Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 5936756.086130195,
+      "heading": -13.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:54Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 5375961.283109023,
+      "heading": -27.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:00:57Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 6556050.345254906,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:04Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 6288342.582839744,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:10Z",
+      "lon": 31.69753218481725,
+      "lat": 56.30899990434093,
+      "range": 6031566.3176345145,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:14Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-19T00:01:15Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-19T00:01:18Z",
+      "lon": 81.34000000000003,
+      "lat": 30.375,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-19T00:00:01Z",
+      "text": "BBC News reports that Trump greeted 'my friend' Putin as the pair shook hands.",
+      "cites": [
+        "news:bbc:05a593c347cf"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:09Z",
+      "text": "Vladimir Vladimirovich Putin, born 7 October 1952, is a Russian politician and former intelligence officer who has served as President of Russia since 2012, having previously served from 1999 to 2008.",
+      "cites": [
+        "wiki:rev:1386716440:0"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:18Z",
+      "text": "Putin was born on 7 October 1952 at the V.F. Snegiryov Maternity Hospital No.6 in Saint Petersburg.",
+      "cites": [
+        "wd:Q7747:P569",
+        "wd:Q7747:P19"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:26Z",
+      "text": "Wikidata records that he was educated at the Academy of the Federal Security Service of the Russian Federation, the Academy of Foreign Intelligence, Saint Petersburg Mining University and 5 more institutions.",
+      "cites": [
+        "wd:Q7747:P69:Q2387574",
+        "wd:Q7747:P69:Q1978570",
+        "wd:Q7747:P69:Q2495829",
+        "wd:Q7747:P69:Q27621",
+        "wd:Q7747:P69:Q103920735",
+        "wd:Q7747:P69:Q27430017",
+        "wd:Q7747:P69:Q4525174",
+        "wd:Q7747:P69:Q4534839"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:33Z",
+      "text": "His recorded work includes the KGB, the First Chief Directorate, the Presidential Administration of Russia and the Administrative Directorate of the President, in Moscow, Saint Petersburg and Dresden.",
+      "cites": [
+        "wd:Q7747:P108:Q80919",
+        "wd:Q7747:P108:Q2031025",
+        "wd:Q7747:P108:Q4476368",
+        "wd:Q7747:P108:Q2060629",
+        "wd:Q7747:P937:Q649",
+        "wd:Q7747:P937:Q656",
+        "wd:Q7747:P937:Q1731"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:42Z",
+      "text": "Wikidata lists 76 awards on record, among them Time 100 (2022) and Order of Kim Il Sung (2024).",
+      "cites": [
+        "wd:Q7747:P166:Q512656"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:48Z",
+      "text": "Known works listed include A Plea for Caution From Russia, Russia at the Turn of the Millennium and Russia Muscles Up — the Challenges We Must Rise to Face.",
+      "cites": [
+        "wd:Q7747:P800:Q27497617",
+        "wd:Q7747:P800:Q27874540",
+        "wd:Q7747:P800:Q27875715"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:00:56Z",
+      "text": "Al Jazeera headlined its report “‘It’s my friend’: Moment Trump greets Putin at China summit”.",
+      "cites": [
+        "news:aljazeera:9ef30dea51b7"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:03Z",
+      "text": "BBC News headlined its report “Trump greets 'my friend' Putin as pair shake hands”.",
+      "cites": [
+        "news:bbc:05a593c347cf"
+      ]
+    },
+    {
+      "t": "2026-11-19T00:01:12Z",
+      "text": "This story draws on Al Jazeera and BBC News, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386716440:0",
+        "views:en:Vladimir_Putin:30d",
+        "wd:Q7747:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CN",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "China"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-19T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-19T00:00:17Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-19T00:00:25Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-19T00:00:41Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-19T00:00:55Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-19T00:01:11Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-19T00:00:26Z",
+      "until": "2026-11-19T00:00:41Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1952 born",
+          "text": "V.F. Snegiryov Maternity Hospital No.6",
+          "cites": [
+            "wd:Q7747:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Academy of the Federal Security Service of the Russian Federation",
+          "cites": [
+            "wd:Q7747:P69:Q2387574"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Academy of Foreign Intelligence",
+          "cites": [
+            "wd:Q7747:P69:Q1978570"
+          ]
+        },
+        {
+          "label": "1997",
+          "text": "Saint Petersburg Mining University",
+          "cites": [
+            "wd:Q7747:P69:Q2495829"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Saint Petersburg State University",
+          "cites": [
+            "wd:Q7747:P69:Q27621"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "St. Petersburg Institute of the FSB of Russia",
+          "cites": [
+            "wd:Q7747:P69:Q103920735"
+          ]
+        },
+        {
+          "label": "1952–80",
+          "text": "Baskov Lane 12, Mansion of Louise von Taube",
+          "cites": [
+            "wd:Q7747:P551:Q124616207"
+          ]
+        },
+        {
+          "label": "1960–68",
+          "text": "School 193",
+          "cites": [
+            "wd:Q7747:P69:Q27430017"
+          ]
+        },
+        {
+          "label": "1968–70",
+          "text": "School 281",
+          "cites": [
+            "wd:Q7747:P69:Q4525174"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-19T00:00:42Z",
+      "until": "2026-11-19T00:00:55Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1988",
+          "text": "Medal of Merit of the National People's Army",
+          "cites": [
+            "wd:Q7747:P166:Q512656"
+          ]
+        },
+        {
+          "label": "1996",
+          "text": "Order of Honour",
+          "cites": [
+            "wd:Q7747:P166:Q2268261"
+          ]
+        },
+        {
+          "label": "1998",
+          "text": "Merited Coach of Russia",
+          "cites": [
+            "wd:Q7747:P166:Q29023922"
+          ]
+        },
+        {
+          "label": "2000",
+          "text": "Medal \"Participant of the March-Shot Bosnia-Kosovo 12 June 1999\"",
+          "cites": [
+            "wd:Q7747:P166:Q4287131"
+          ]
+        },
+        {
+          "label": "2001",
+          "text": "Order of Hồ Chí Minh",
+          "cites": [
+            "wd:Q7747:P166:Q2390786"
+          ]
+        },
+        {
+          "label": "2001",
+          "text": "Commemorative medal of A. M. Gorchakov",
+          "cites": [
+            "wd:Q7747:P166:Q4342969"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "A Plea for Caution From Russia",
+          "cites": [
+            "wd:Q7747:P800:Q27497617"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "Russia at the Turn of the Millennium",
+          "cites": [
+            "wd:Q7747:P800:Q27874540"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "Russia Muscles Up — the Challenges We Must Rise to Face",
+          "cites": [
+            "wd:Q7747:P800:Q27875715"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-19T00:00:56Z",
+      "until": "2026-11-19T00:01:11Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/its-my-friend-moment-trump-greets-putin-at-china-summit",
+          "cites": [
+            "news:aljazeera:9ef30dea51b7"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/videos/c6j9m19llmv3o",
+          "cites": [
+            "news:bbc:05a593c347cf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-19T00:01:12Z",
+      "until": "2026-11-19T00:01:18Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386716440:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Vladimir_Putin:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q7747:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-20T07:44:17Z",
+    "costUsd": 0.002141
+  }
+}
