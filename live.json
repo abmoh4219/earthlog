@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-21T17:33:36Z",
+  "quakes": [
+    {
+      "id": "us6000ucij",
+      "t": "2026-11-21T09:42:09Z",
+      "mag": 6.8,
+      "place": "105 km NE of Lospalos, Timor Leste",
+      "lon": 127.5407,
+      "lat": -7.7324,
+      "depthKm": 132.055,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij"
+    },
+    {
+      "id": "us6000ucfm",
+      "t": "2026-11-21T00:09:19Z",
+      "mag": 6.7,
+      "place": "9 km NE of Carhuamayo, Peru",
+      "lon": -75.9779,
+      "lat": -10.8548,
+      "depthKm": 107.991,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm"
+    },
+    {
+      "id": "us7000tymu",
+      "t": "2026-11-16T21:11:20Z",
+      "mag": 6.6,
+      "place": "149 km WSW of Tual, Indonesia",
+      "lon": 131.4593,
+      "lat": -6.0208,
+      "depthKm": 68,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu"
+    },
+    {
+      "id": "us6000ucly",
+      "t": "2026-11-21T10:45:33Z",
+      "mag": 5.9,
+      "place": "238 km SW of Yanglong, China",
+      "lon": 96.6398,
+      "lat": 37.1958,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly"
+    },
+    {
+      "id": "us7000tyw8",
+      "t": "2026-11-18T00:48:56Z",
+      "mag": 5.3,
+      "place": "17 km ESE of Comandău, Romania",
+      "lon": 26.4521,
+      "lat": 45.6816,
+      "depthKm": 132.362,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8"
+    },
+    {
+      "id": "us6000ucky",
+      "t": "2026-11-21T10:09:05Z",
+      "mag": 5.2,
+      "place": "112 km SSE of Tateyama, Japan",
+      "lon": 140.2109,
+      "lat": 34.0109,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucky"
+    },
+    {
+      "id": "us6000ucd6",
+      "t": "2026-11-20T17:53:15Z",
+      "mag": 5.1,
+      "place": "32 km NE of Port-Olry, Vanuatu",
+      "lon": 167.29,
+      "lat": -14.835,
+      "depthKm": 94.53,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucd6"
+    },
+    {
+      "id": "us6000uchd",
+      "t": "2026-11-21T05:12:04Z",
+      "mag": 5,
+      "place": "0 km NE of Carhuamayo, Peru",
+      "lon": -76.0308,
+      "lat": -10.913,
+      "depthKm": 110.928,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uchd"
+    },
+    {
+      "id": "nc75468702",
+      "t": "2026-11-20T06:49:16Z",
+      "mag": 4.98,
+      "place": "10 km NW of Pinnacles, CA",
+      "lon": -121.208333333333,
+      "lat": 36.6071666666667,
+      "depthKm": 6.44,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702"
+    },
+    {
+      "id": "us6000uci2",
+      "t": "2026-11-21T07:20:44Z",
+      "mag": 4.9,
+      "place": "65 km NNW of Port-Vila, Vanuatu",
+      "lon": 168.0998,
+      "lat": -17.1789,
+      "depthKm": 43.228,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uci2"
+    },
+    {
+      "id": "us6000ucgj",
+      "t": "2026-11-21T02:24:37Z",
+      "mag": 4.9,
+      "place": "Reykjanes Ridge",
+      "lon": -31.857,
+      "lat": 58.5457,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucgj"
+    },
+    {
+      "id": "us6000ucga",
+      "t": "2026-11-21T01:26:19Z",
+      "mag": 4.9,
+      "place": "Reykjanes Ridge",
+      "lon": -31.7606,
+      "lat": 58.3017,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucga"
+    },
+    {
+      "id": "us6000ucf0",
+      "t": "2026-11-20T22:34:39Z",
+      "mag": 4.9,
+      "place": "113 km ESE of Pangai, Tonga",
+      "lon": -173.4099,
+      "lat": -20.3204,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucf0"
+    },
+    {
+      "id": "us6000ucg8",
+      "t": "2026-11-21T01:24:09Z",
+      "mag": 4.7,
+      "place": "38 km NE of Calama, Chile",
+      "lon": -68.6409,
+      "lat": -22.2307,
+      "depthKm": 120.01,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucg8"
+    },
+    {
+      "id": "pr2026325000",
+      "t": "2026-11-21T15:00:13Z",
+      "mag": 4.6,
+      "place": "18 km ESE of La Romana, Dominican Republic",
+      "lon": -68.8265,
+      "lat": 18.3416,
+      "depthKm": 104,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026325000"
+    },
+    {
+      "id": "ci41364111",
+      "t": "2026-11-20T11:25:35Z",
+      "mag": 3.94,
+      "place": "1 km NW of Commerce, CA",
+      "lon": -118.1665,
+      "lat": 34.00633,
+      "depthKm": 15.45,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41364111"
+    }
+  ],
+  "events": [
+    {
+      "id": "EONET_26568",
+      "kind": "wildfire",
+      "title": "Wildfire Greene - Caney Creek Lane, Greene, Tennessee",
+      "t": "2026-11-18T14:11:00Z",
+      "lon": -82.7985,
+      "lat": 36.36301667,
+      "size": "500 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26568"
+    },
+    {
+      "id": "EONET_26569",
+      "kind": "wildfire",
+      "title": "Prescribed Fire 2027 TXTMR HFR RX, Matagorda, Texas",
+      "t": "2026-11-18T09:44:00Z",
+      "lon": -95.80795,
+      "lat": 28.762433,
+      "size": "1,016 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26569"
+    },
+    {
+      "id": "EONET_26571",
+      "kind": "wildfire",
+      "title": "Prescribed Fire OAK Compartment 29 RX, Bibb, Alabama",
+      "t": "2026-11-18T09:18:00Z",
+      "lon": -87.347136,
+      "lat": 32.945935,
+      "size": "713 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26571"
+    },
+    {
+      "id": "EONET_26572",
+      "kind": "wildfire",
+      "title": "Prescribed Fire rx-Lapham Good Oak 2026, Waukesha, Wisconsin",
+      "t": "2026-11-18T08:47:00Z",
+      "lon": -88.3992015,
+      "lat": 43.0403647,
+      "size": "638 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26572"
+    },
+    {
+      "id": "EONET_26494",
+      "kind": "storm",
+      "title": "Tropical Cyclone Akvan",
+      "t": "2026-11-19T18:00:00Z",
+      "lon": 84.7,
+      "lat": 17.2,
+      "size": "30 kts",
+      "agency": "JTWC",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26494"
+    },
+    {
+      "id": "EONET_26573",
+      "kind": "wildfire",
+      "title": "Prescribed Fire STEELY MILL RX, El Dorado, California",
+      "t": "2026-11-16T11:32:00Z",
+      "lon": -120.50025,
+      "lat": 38.619383,
+      "size": "1,406 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26573"
+    },
+    {
+      "id": "EONET_26575",
+      "kind": "wildfire",
+      "title": "Prescribed Fire Elk/Clark Piles RX, Coconino, Arizona",
+      "t": "2026-11-16T09:06:00Z",
+      "lon": -111.578139,
+      "lat": 35.050444,
+      "size": "979 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26575"
+    },
+    {
+      "id": "EONET_26463",
+      "kind": "storm",
+      "title": "Tropical Cyclone Xavier",
+      "t": "2026-11-21T06:00:00Z",
+      "lon": -164.7,
+      "lat": -11.6,
+      "size": "40 kts",
+      "agency": "JTWC",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26463"
+    },
+    {
+      "id": "EONET_26465",
+      "kind": "wildfire",
+      "title": "Wildfire Range 47, Forrest, Mississippi",
+      "t": "2026-11-13T15:18:00Z",
+      "lon": -89.159329,
+      "lat": 31.099822,
+      "size": "2,378.77 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26465"
+    },
+    {
+      "id": "EONET_26464",
+      "kind": "wildfire",
+      "title": "Wildfire 201W, Perry, Mississippi",
+      "t": "2026-11-13T13:31:00Z",
+      "lon": -89.079783,
+      "lat": 31.119783,
+      "size": "2,700 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26464"
+    },
+    {
+      "id": "EONET_26469",
+      "kind": "wildfire",
+      "title": "Prescribed Fire rx-Northern Scuppernong, Waukesha, Wisconsin",
+      "t": "2026-11-13T10:30:00Z",
+      "lon": -88.4829256,
+      "lat": 42.9241779,
+      "size": "1,401.8 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26469"
+    },
+    {
+      "id": "EONET_26467",
+      "kind": "wildfire",
+      "title": "Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington",
+      "t": "2026-11-12T11:59:00Z",
+      "lon": -117.533129,
+      "lat": 48.402056,
+      "size": "500 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26467"
+    },
+    {
+      "id": "EONET_26468",
+      "kind": "wildfire",
+      "title": "Prescribed Fire Holly Springs 119-1 &amp; 84-2 RX, Lafayette, Mississippi",
+      "t": "2026-11-12T09:20:00Z",
+      "lon": -89.421184,
+      "lat": 34.49329,
+      "size": "729 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26468"
+    },
+    {
+      "id": "EONET_26331",
+      "kind": "wildfire",
+      "title": "Wildfire Red Hill, Perry, Mississippi",
+      "t": "2026-11-12T00:22:00Z",
+      "lon": -89.063853,
+      "lat": 31.130069,
+      "size": "519 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331"
+    },
+    {
+      "id": "EONET_26332",
+      "kind": "wildfire",
+      "title": "Prescribed Fire Bienville CPT 29 Sub 2 RX, Scott, Mississippi",
+      "t": "2026-11-11T09:57:00Z",
+      "lon": -89.5974,
+      "lat": 32.425,
+      "size": "660 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26332"
+    }
+  ],
+  "sources": [
+    {
+      "id": "usgs",
+      "name": "USGS Earthquake Hazards Program",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/",
+      "license": "Public domain (U.S. Government work)",
+      "ok": true
+    },
+    {
+      "id": "eonet",
+      "name": "NASA EONET",
+      "url": "https://eonet.gsfc.nasa.gov/",
+      "license": "NASA data, no copyright restrictions; credited with the reporting agency",
+      "ok": true
+    }
+  ]
+}
