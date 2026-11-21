@@ -1,0 +1,51 @@
+[
+  {
+    "id": "news:guardian:86b740478c70",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "The Guardian: Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper (18:16 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+    "quote": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:3a2a08725f01",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "BBC News: Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper (21:57 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno",
+    "quote": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386667126:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Ukrainians in Russia\" (revision of 2026-11-19 21:07 UTC)",
+    "quote": "The Russian census identified that there were more than 5,864,000 Ukrainians and Ukrainian citizens living in Russia in 2015, representing over 4.01% of the total population of the Russian Federation and comprising the eighth-largest ethnic group.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ukrainians_in_Russia&oldid=1386667126"
+  },
+  {
+    "id": "views:en:Ukrainians_in_Russia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Ukrainians in Russia\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Ukrainians_in_Russia&range=latest-30"
+  },
+  {
+    "id": "wd:Q1977290:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Ukrainians in Russia\": country Russia",
+    "url": "https://www.wikidata.org/wiki/Q1977290#P17"
+  }
+]

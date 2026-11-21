@@ -1,0 +1,213 @@
+[
+  {
+    "id": "views:en:Larry_Poindexter:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "English Wikipedia: 51,192 readers of \"Larry Poindexter\" on 20 Nov 2026",
+    "value": 51192,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Larry_Poindexter",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Larry_Poindexter:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "\"Larry Poindexter\": normally a median of 54 readers a day (8 to 60 days before)",
+    "value": 54,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Larry_Poindexter",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q1806102:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Wikidata: \"Larry Poindexter\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q1806102",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386808035:19",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Larry Poindexter\" (revision of 2026-11-20 18:55 UTC)",
+    "quote": "Poindexter was hit by a car on November 14, 2026, while crossing a street outside his Studio City apartment.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Larry_Poindexter&oldid=1386808035"
+  },
+  {
+    "id": "wiki:rev:1386808035:20",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Larry Poindexter\" (revision of 2026-11-20 18:55 UTC)",
+    "quote": "He was hospitalized, and was due to undergo surgery for his injuries when he died suddenly on November 18.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Larry_Poindexter&oldid=1386808035"
+  },
+  {
+    "id": "wiki:rev:1386808035:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Larry Poindexter\" (revision of 2026-11-20 18:55 UTC)",
+    "quote": "Larry Poindexter (December 16, 1959 – November 18, 2026) was an American actor and singer.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Larry_Poindexter&oldid=1386808035"
+  },
+  {
+    "id": "views:en:Larry_Poindexter:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Larry Poindexter\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Larry_Poindexter&range=latest-30"
+  },
+  {
+    "id": "views:de:Larry_Poindexter:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 17,819 readers of \"Larry Poindexter\" on 20 November 2026",
+    "value": 17819,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Larry_Poindexter"
+  },
+  {
+    "id": "views:ru:Пойндекстер,_Ларри:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 1,787 readers of \"Пойндекстер, Ларри\" on 20 November 2026",
+    "value": 1787,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B9%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D1%82%D0%B5%D1%80%2C_%D0%9B%D0%B0%D1%80%D1%80%D0%B8"
+  },
+  {
+    "id": "views:it:Larry_Poindexter:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 798 readers of \"Larry Poindexter\" on 20 November 2026",
+    "value": 798,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Larry_Poindexter"
+  },
+  {
+    "id": "views:nl:Larry_Poindexter:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 794 readers of \"Larry Poindexter\" on 20 November 2026",
+    "value": 794,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Larry_Poindexter"
+  },
+  {
+    "id": "views:sv:Larry_Poindexter:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Swedish Wikipedia: 164 readers of \"Larry Poindexter\" on 20 November 2026",
+    "value": 164,
+    "unit": "readers",
+    "url": "https://sv.wikipedia.org/wiki/Larry_Poindexter"
+  },
+  {
+    "id": "views:ar:لاري_بوينديكستر:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 69 readers of \"لاري بوينديكستر\" on 20 November 2026",
+    "value": 69,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D9%84%D8%A7%D8%B1%D9%8A_%D8%A8%D9%88%D9%8A%D9%86%D8%AF%D9%8A%D9%83%D8%B3%D8%AA%D8%B1"
+  },
+  {
+    "id": "views:ko:래리_포인덱스터:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Korean Wikipedia: 2 readers of \"래리 포인덱스터\" on 20 November 2026",
+    "value": 2,
+    "unit": "readers",
+    "url": "https://ko.wikipedia.org/wiki/%EB%9E%98%EB%A6%AC_%ED%8F%AC%EC%9D%B8%EB%8D%B1%EC%8A%A4%ED%84%B0"
+  },
+  {
+    "id": "wd:Q1806102:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Larry Poindexter\": born 16 December 1959",
+    "url": "https://www.wikidata.org/wiki/Q1806102#P569"
+  },
+  {
+    "id": "wd:Q1806102:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Larry Poindexter\": birthplace Dallas",
+    "url": "https://www.wikidata.org/wiki/Q1806102#P19"
+  },
+  {
+    "id": "wd:Q1806102:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Larry Poindexter\": died 18 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q1806102#P570"
+  },
+  {
+    "id": "wd:Q1806102:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Larry Poindexter\": place of death Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q1806102#P20"
+  },
+  {
+    "id": "wd:Q1806102:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Larry Poindexter\": occupation actor, film actor",
+    "url": "https://www.wikidata.org/wiki/Q1806102#P106"
+  },
+  {
+    "id": "wd:Q1806102:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Larry Poindexter\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q1806102#P27"
+  },
+  {
+    "id": "wd:Q1806102:P69:Q4828640",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Larry Poindexter\": educated at Aviation High School",
+    "url": "https://www.wikidata.org/wiki/Q1806102#P69"
+  }
+]

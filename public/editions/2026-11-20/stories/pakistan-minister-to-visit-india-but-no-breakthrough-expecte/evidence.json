@@ -1,0 +1,119 @@
+[
+  {
+    "id": "news:dw:d096d9f0fd84",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "DW: India: Pakistani minister visits Delhi for SCO forum amid frozen ties (08:20 UTC)",
+    "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264",
+    "quote": "India: Pakistani minister visits Delhi for SCO forum amid frozen ties",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:4367cfbc6a78",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: Pakistan minister visits India for first time since 2025 war (09:11 UTC)",
+    "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war",
+    "quote": "Pakistan minister visits India for first time since 2025 war",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1350540334:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Índia\" (revision of 2026-04-22 14:20 UTC)",
+    "quote": "Índia is the fourth studio album by Brazilian singer Gal Costa, released on 1973 by Philips Records.",
+    "url": "https://en.wikipedia.org/w/index.php?title=%C3%8Dndia&oldid=1350540334"
+  },
+  {
+    "id": "views:en:Índia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Índia\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=%C3%8Dndia&range=latest-30"
+  },
+  {
+    "id": "wd:Q10396403:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Índia\": released 1973",
+    "url": "https://www.wikidata.org/wiki/Q10396403#P577"
+  },
+  {
+    "id": "wd:Q10396403:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Índia\": genre música popular brasileira",
+    "url": "https://www.wikidata.org/wiki/Q10396403#P136"
+  },
+  {
+    "id": "wiki:box:1350540334:artist",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Índia\" (revision of 2026-04-22 14:20 UTC): Artist: Gal Costa",
+    "quote": "Artist: Gal Costa",
+    "url": "https://en.wikipedia.org/w/index.php?title=%C3%8Dndia&oldid=1350540334"
+  },
+  {
+    "id": "wiki:box:1350540334:studio",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Índia\" (revision of 2026-04-22 14:20 UTC): Studio: Phonogram, Rio de Janeiro, Eldorado, São Paulo",
+    "quote": "Studio: Phonogram, Rio de Janeiro, Eldorado, São Paulo",
+    "url": "https://en.wikipedia.org/w/index.php?title=%C3%8Dndia&oldid=1350540334"
+  },
+  {
+    "id": "wiki:box:1350540334:label",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Índia\" (revision of 2026-04-22 14:20 UTC): Label: Philips",
+    "quote": "Label: Philips",
+    "url": "https://en.wikipedia.org/w/index.php?title=%C3%8Dndia&oldid=1350540334"
+  },
+  {
+    "id": "wiki:box:1350540334:released",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Índia\" (revision of 2026-04-22 14:20 UTC): Released: 1973",
+    "quote": "Released: 1973",
+    "url": "https://en.wikipedia.org/w/index.php?title=%C3%8Dndia&oldid=1350540334"
+  },
+  {
+    "id": "wiki:box:1350540334:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Índia\" (revision of 2026-04-22 14:20 UTC): Runtime: 38:34",
+    "quote": "Runtime: 38:34",
+    "url": "https://en.wikipedia.org/w/index.php?title=%C3%8Dndia&oldid=1350540334"
+  },
+  {
+    "id": "wd:Q236361:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gal Costa\": place of birth Salvador",
+    "url": "https://www.wikidata.org/wiki/Q236361#P19"
+  }
+]

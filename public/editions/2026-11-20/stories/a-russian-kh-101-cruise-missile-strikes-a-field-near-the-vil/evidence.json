@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wiki:2026-11-20:4",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-20T00:00:00Z",
+    "lon": 22.81666667,
+    "lat": 50.43333333,
+    "label": "Conflict: A Russian Kh-101 cruise missile strikes a field near the village of Nowy Lipowiec in Lublin Voivodeship, Poland, around 60 miles from a Coalition of the Willing training excercise. Air raid alerts are issued in Lublin and Podkarpackie Voivodeship.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_20&oldid=1386872432",
+    "quote": "A Russian Kh-101 cruise missile strikes a field near the village of Nowy Lipowiec in Lublin Voivodeship, Poland, around 60 miles from a Coalition of the Willing training excercise. Air raid alerts are issued in Lublin and Podkarpackie Voivodeship.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AOL",
+        "url": "https://www.aol.co.uk/articles/suspected-russian-projectile-lands-poland-095529000.html"
+      }
+    ]
+  },
+  {
+    "id": "news:bbc:a8ca822f64d0",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "BBC News: What we know about the latest Russian missile strikes on Ukraine (15:14 UTC)",
+    "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o",
+    "quote": "What we know about the latest Russian missile strikes on Ukraine",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:5721f8700f62",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: Poland condemns Russian ‘provocation’ after airspace violations (15:18 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations",
+    "quote": "Poland condemns Russian ‘provocation’ after airspace violations",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q125217421:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Wikidata: \"violations of non-combatant airspace during the Russo-Ukrainian war\" is an instance of chain of events",
+    "url": "https://www.wikidata.org/wiki/Q125217421",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:388c1dca5fe6",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "France 24: 🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says (06:50 UTC)",
+    "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+    "quote": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:293d8a782752",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "DW: Ukraine updates: Kyiv targeted by missile strikes, bridges hit (09:58 UTC)",
+    "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822",
+    "quote": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386835291:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Violations of non-combatant airspace during the Russo-Ukrainian war (2022–present)\" (revision of 2026-11-20 22:25 UTC)",
+    "quote": "Violations of non-combatant airspace during the Russo-Ukrainian war (2022–present) drone found near Ceadîr-Lunga, Moldova on February 13, 2025.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war_(2022%E2%80%93present)&oldid=1386835291"
+  },
+  {
+    "id": "views:en:Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Violations of non-combatant airspace during the Russo-Ukrainian war\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q125217421:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"violations of non-combatant airspace during the Russo-Ukrainian war\": began 24 February 2022",
+    "url": "https://www.wikidata.org/wiki/Q125217421#P580"
+  }
+]

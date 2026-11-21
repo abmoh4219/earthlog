@@ -1,0 +1,338 @@
+{
+  "version": 1,
+  "id": "story-2026-11-20-30-people-are-killed-and-around-300-are-missing-after-a-ship",
+  "title": "30 people are killed and around 300 are missing after a ship carrying funeral…",
+  "subtitle": "Accident · 20 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-20T00:00:00Z",
+    "end": "2026-11-20T00:00:48Z"
+  },
+  "focus": "2026-11-20T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -3.9166666699999997,
+    "south": -3.25,
+    "east": 16.083333330000002,
+    "north": 12.75
+  },
+  "imagery": {
+    "day": "2026-11-20",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-20T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "lon": 44.08333332999996,
+      "lat": 2.4375,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-20T00:00:04Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:10Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:16Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:19Z",
+      "lon": 6.172361111111111,
+      "lat": 4.871611111111112,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:20Z",
+      "lon": 6.172361111111111,
+      "lat": 4.871611111111112,
+      "range": 126775.39193392382,
+      "heading": 17.5,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:21Z",
+      "lon": 6.172361111111111,
+      "lat": 4.871611111111112,
+      "range": 114800,
+      "heading": 11,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:24Z",
+      "lon": 6.172361111111111,
+      "lat": 4.871611111111112,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:28Z",
+      "lon": 6.172361111111111,
+      "lat": 4.871611111111112,
+      "range": 81498.46624323675,
+      "heading": 81.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:32Z",
+      "lon": 6.172361111111111,
+      "lat": 4.871611111111112,
+      "range": 73800,
+      "heading": 92.6,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:35Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:38Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:40Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:43Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:44Z",
+      "lon": 6.08333333,
+      "lat": 4.0625,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:48Z",
+      "lon": -18.91666667000004,
+      "lat": 4.0625,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-20T00:00:01Z",
+      "text": "30 people are killed and around 300 are missing after a ship carrying funeral-goers capsized in Bayelsa State, Nigeria.",
+      "cites": [
+        "wiki:2026-11-20:7"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:09Z",
+      "text": "On 20 November, 2026, a barge carrying a large group of funeral-goers capsized in the Nun River near the Oweikorogha Community of Bayelsa State.",
+      "cites": [
+        "wiki:rev:1386867065:0"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:23Z",
+      "text": "According to the article, 30 people died in the disaster.",
+      "cites": [
+        "wiki:box:1386867065:fatalities"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:34Z",
+      "text": "The report comes from Daily Trust.",
+      "cites": [
+        "wiki:2026-11-20:7"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:42Z",
+      "text": "The sources are Wikipedia, Current events and Wikipedia articles, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-20:7",
+        "wiki:rev:1386867065:0"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "NG",
+    "lon": 6.08333333,
+    "lat": 4.75,
+    "label": "Bayelsa State"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-20T00:00:17Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-20T00:00:22Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-20T00:00:33Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-20T00:00:41Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "on-board",
+      "t": "2026-11-20T00:00:23Z",
+      "until": "2026-11-20T00:00:33Z",
+      "title": "People",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "Fatalities",
+          "text": "30",
+          "value": 30,
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1386867065:fatalities"
+          ]
+        },
+        {
+          "label": "Injuries",
+          "text": "24",
+          "value": 24,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1386867065:injuries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-20T00:00:34Z",
+      "until": "2026-11-20T00:00:41Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Daily Trust",
+          "text": "Open",
+          "url": "https://dailytrust.com/30-feared-dead-as-mourners-boat-capsizes-in-bayelsa/#google_vignette",
+          "cites": [
+            "wiki:2026-11-20:7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-20T00:00:42Z",
+      "until": "2026-11-20T00:00:48Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-20:7"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386867065:0"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-21T07:41:37Z",
+    "costUsd": 0.00168
+  }
+}

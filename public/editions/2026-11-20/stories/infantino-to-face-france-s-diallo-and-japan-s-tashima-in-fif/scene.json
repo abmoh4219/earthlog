@@ -1,0 +1,465 @@
+{
+  "version": 1,
+  "id": "story-2026-11-20-infantino-to-face-france-s-diallo-and-japan-s-tashima-in-fif",
+  "title": "FIFA",
+  "subtitle": "Sports · 20 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-20T00:00:00Z",
+    "end": "2026-11-20T00:01:07Z"
+  },
+  "focus": "2026-11-20T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -7.45,
+    "south": 38.7,
+    "east": 12.55,
+    "north": 54.7
+  },
+  "imagery": {
+    "day": "2026-11-20",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-20T00:00:17Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-20T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "lon": 40.549999999999955,
+      "lat": 26.745,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-20T00:00:04Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:10Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:16Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:19Z",
+      "lon": 2.55,
+      "lat": 46.2,
+      "range": 550000,
+      "heading": 20,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:22Z",
+      "lon": 2.55,
+      "lat": 46.2,
+      "range": 498046.1825975579,
+      "heading": 11.1,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:24Z",
+      "lon": 2.55,
+      "lat": 46.2,
+      "range": 451000,
+      "heading": 2.1999999999999993,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:28Z",
+      "lon": 2.55,
+      "lat": 38.7,
+      "range": 9000000,
+      "heading": 0,
+      "pitch": -50,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:31Z",
+      "lon": 2.55,
+      "lat": 38.7,
+      "range": 8149846.6243236745,
+      "heading": 10.5,
+      "pitch": -47.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:34Z",
+      "lon": 2.55,
+      "lat": 38.7,
+      "range": 7380000,
+      "heading": 21,
+      "pitch": -45,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:38Z",
+      "lon": 5.526606755822451,
+      "lat": 46.77629123597812,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:41Z",
+      "lon": 5.526606755822451,
+      "lat": 46.77629123597812,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:43Z",
+      "lon": 5.526606755822451,
+      "lat": 46.77629123597812,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:46Z",
+      "lon": 5.526606755822451,
+      "lat": 46.77629123597812,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:53Z",
+      "lon": 5.526606755822451,
+      "lat": 46.77629123597812,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:59Z",
+      "lon": 5.526606755822451,
+      "lat": 46.77629123597812,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:02Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:01:03Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 8004960.462113476,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:04Z",
+      "lon": 2.55,
+      "lat": 44.575,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:07Z",
+      "lon": -22.450000000000045,
+      "lat": 44.575,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-20T00:00:01Z",
+      "text": "France 24 reports that Infantino, Tashima and Diallo have officially entered the FIFA presidential race.",
+      "cites": [
+        "news:france24:b1f13ff46576"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:09Z",
+      "text": "FIFA, the Fédération Internationale de Football Association, is an international self-regulatory governing body of association football, beach soccer, and futsal.",
+      "cites": [
+        "wiki:rev:1386732101:0"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:18Z",
+      "text": "The article's infobox lists France as the venue for FIFA.",
+      "cites": [
+        "wiki:box:1386732101:venue"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:26Z",
+      "text": "That day the article was read in 11 languages, most in English with 1,915 readers, then Japanese with 460 and Spanish with 353.",
+      "cites": [
+        "views:en:FIFA:2026-11-20",
+        "views:ja:国際サッカー連盟:2026-11-20",
+        "views:es:FIFA:2026-11-20"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:45Z",
+      "text": "France 24 ran the headline “Infantino, Tashima and Diallo officially enter FIFA presidential race.”",
+      "cites": [
+        "news:france24:b1f13ff46576"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:52Z",
+      "text": "DW ran the headline “FIFA presidential election 2027: Infantino facing Diallo and Tashima — could an alliance change everything?”",
+      "cites": [
+        "news:dw:01040a665cff"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:01Z",
+      "text": "The sources are France 24 and DW, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386732101:0",
+        "views:en:FIFA:30d",
+        "wd:Q253414:P27"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "FR",
+    "lon": 2.55,
+    "lat": 46.7,
+    "label": "France"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-20T00:00:17Z",
+      "title": "The venue"
+    },
+    {
+      "t": "2026-11-20T00:00:25Z",
+      "title": "Followed around the world"
+    },
+    {
+      "t": "2026-11-20T00:00:35Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-20T00:00:44Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-20T00:01:00Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "languages",
+      "t": "2026-11-20T00:00:26Z",
+      "until": "2026-11-20T00:00:35Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions on the day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "1,915",
+          "value": 1915,
+          "color": "#4cc38a",
+          "cites": [
+            "views:en:FIFA:2026-11-20"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "460",
+          "value": 460,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:国際サッカー連盟:2026-11-20"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "353",
+          "value": 353,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:FIFA:2026-11-20"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "184",
+          "value": 184,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Fédération_internationale_de_football_association:2026-11-20"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "181",
+          "value": 181,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:ФИФА:2026-11-20"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "162",
+          "value": 162,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:FIFA:2026-11-20"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "116",
+          "value": 116,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Federação_Internacional_de_Futebol:2026-11-20"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "105",
+          "value": 105,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:الاتحاد_الدولي_لكرة_القدم:2026-11-20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-20T00:00:45Z",
+      "until": "2026-11-20T00:01:00Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/sports/20261120-fifa-infantino-tashima-and-diallo-enter-presidential-race",
+          "cites": [
+            "news:france24:b1f13ff46576"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/fifa-presidential-election-2027-infantino-facing-diallo-and-tashima-could-an-alliance-change-everything/a-80002882",
+          "cites": [
+            "news:dw:01040a665cff"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-20T00:01:01Z",
+      "until": "2026-11-20T00:01:07Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386732101:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:FIFA:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q253414:P27"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-21T07:41:37Z",
+    "costUsd": 0.002144
+  }
+}

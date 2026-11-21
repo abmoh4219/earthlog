@@ -1,0 +1,119 @@
+[
+  {
+    "id": "news:aljazeera:ef3aca7486e9",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: Tears of joy, prayers for return home: Rohingya react to genocide ruling (05:36 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/20/tears-of-joy-prayers-for-return-home-rohingya-react-to-genocide-ruling",
+    "quote": "Tears of joy, prayers for return home: Rohingya react to genocide ruling",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:04c26659bad3",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Sky News: Myanmar rejects UN court's genocide ruling as 'unfair' (09:15 UTC)",
+    "url": "https://news.sky.com/story/myanmar-rejects-un-courts-rohingya-genocide-guilty-verdict-as-unfair-13614272",
+    "quote": "Myanmar rejects UN court's genocide ruling as 'unfair'",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:644ba74b9c8e",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "The Guardian: US reacts cautiously to Myanmar genocide ruling as EU praises ‘critical’ role of UN’s top court (11:57 UTC)",
+    "url": "https://www.theguardian.com/law/2026/nov/20/us-eu-reaction-myanmar-rohingya-genocide-icj-ruling-trump-international-law",
+    "quote": "US reacts cautiously to Myanmar genocide ruling as EU praises ‘critical’ role of UN’s top court",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:347a55d37759",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "DW: Myanmar genocide ruling: Rohingya say struggle for justice not over (13:38 UTC)",
+    "url": "https://www.dw.com/en/myanmar-genocide-ruling-rohingya-say-struggle-for-justice-not-over/a-80003365",
+    "quote": "Myanmar genocide ruling: Rohingya say struggle for justice not over",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386895569:35",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rohingya genocide\" (revision of 2026-11-21 07:19 UTC)",
+    "quote": "An ICJ ruling on 19 November 2026 found that genocide had been committed against the Rohingya.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rohingya_genocide&oldid=1386895569"
+  },
+  {
+    "id": "wiki:rev:1386895569:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rohingya genocide\" (revision of 2026-11-21 07:19 UTC)",
+    "quote": "The Rohingya genocide is an ongoing series of killings and persecutions of the Muslim Rohingya people by the Tatmadaw armed forces of Myanmar.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rohingya_genocide&oldid=1386895569"
+  },
+  {
+    "id": "views:en:Rohingya_genocide:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Rohingya genocide\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Rohingya_genocide&range=latest-30"
+  },
+  {
+    "id": "wd:Q28136551:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Rohingya genocide\": began 9 October 2016",
+    "url": "https://www.wikidata.org/wiki/Q28136551#P580"
+  },
+  {
+    "id": "wd:Q28136551:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Rohingya genocide\": location Rakhine State",
+    "url": "https://www.wikidata.org/wiki/Q28136551#P276"
+  },
+  {
+    "id": "wd:Q28136551:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Rohingya genocide\": country Myanmar",
+    "url": "https://www.wikidata.org/wiki/Q28136551#P17"
+  },
+  {
+    "id": "wiki:week:1386895569:36",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rohingya genocide\" (revision of 2026-11-21 07:19 UTC): dated sentence",
+    "quote": "An ICJ ruling on 19 November 2026 found that genocide had been committed against the Rohingya.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rohingya_genocide&oldid=1386895569"
+  },
+  {
+    "id": "wiki:week:1386895569:319",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rohingya genocide\" (revision of 2026-11-21 07:19 UTC): dated sentence",
+    "quote": "On 19 November 2026, the ICJ found that Myanmar had committed genocide against the Rohingya.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rohingya_genocide&oldid=1386895569"
+  }
+]

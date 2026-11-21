@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "id": "story-2026-11-20-el-salvador-s-bukele-seeks-third-term-after-constitution-cha",
+  "title": "Nayib Bukele",
+  "subtitle": "People · 20 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-20T00:00:00Z",
+    "end": "2026-11-20T00:01:24Z"
+  },
+  "focus": "2026-11-20T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -98.89,
+    "south": 5.6899999999999995,
+    "east": -78.89,
+    "north": 21.689999999999998
+  },
+  "imagery": {
+    "day": "2026-11-20",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-20T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "lon": -50.889999999999986,
+      "lat": 6.938999999999999,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-20T00:00:04Z",
+      "lon": -88.89,
+      "lat": 11.565,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:14Z",
+      "lon": -88.89,
+      "lat": 11.565,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:23Z",
+      "lon": -88.89,
+      "lat": 11.565,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:26Z",
+      "lon": -89.19115555555555,
+      "lat": 12.797597222222223,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:29Z",
+      "lon": -89.19115555555555,
+      "lat": 12.797597222222223,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:31Z",
+      "lon": -89.19115555555555,
+      "lat": 12.797597222222223,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:34Z",
+      "lon": -89.20615722170604,
+      "lat": 13.391791643995047,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:38Z",
+      "lon": -89.20615722170604,
+      "lat": 13.391791643995047,
+      "range": 1358307.7707206125,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:41Z",
+      "lon": -89.20615722170604,
+      "lat": 13.391791643995047,
+      "range": 1230000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:44Z",
+      "lon": -89.20615722170604,
+      "lat": 13.391791643995047,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:48Z",
+      "lon": -89.20615722170604,
+      "lat": 13.391791643995047,
+      "range": 1358307.7707206125,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:51Z",
+      "lon": -89.20615722170604,
+      "lat": 13.391791643995047,
+      "range": 1230000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:54Z",
+      "lon": -89.04057534531249,
+      "lat": 13.393844120950806,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:57Z",
+      "lon": -89.04057534531249,
+      "lat": 13.393844120950806,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:00Z",
+      "lon": -89.04057534531249,
+      "lat": 13.393844120950806,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:03Z",
+      "lon": -89.04057534531249,
+      "lat": 13.393844120950806,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:10Z",
+      "lon": -89.04057534531249,
+      "lat": 13.393844120950806,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:16Z",
+      "lon": -89.04057534531249,
+      "lat": 13.393844120950806,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:19Z",
+      "lon": -88.89,
+      "lat": 11.565,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:01:20Z",
+      "lon": -88.89,
+      "lat": 11.565,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:21Z",
+      "lon": -88.89,
+      "lat": 11.565,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:24Z",
+      "lon": -113.88999999999999,
+      "lat": 11.565,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-20T00:00:01Z",
+      "text": "Al Jazeera reports that El Salvador's Bukele is expected to formalise a bid for a third presidential term.",
+      "cites": [
+        "news:aljazeera:eb2419a6de7c"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:08Z",
+      "text": "Wikipedia describes Bukele as a Salvadoran politician, born 24 July 1981, who has served as the 43rd president of El Salvador since 2019.",
+      "cites": [
+        "wiki:rev:1386788384:0"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:15Z",
+      "text": "In September 2016, he visited Washington, D.C., and met with Mayor Muriel Bowser to discuss urban-development projects.",
+      "cites": [
+        "wiki:rev:1386788384:72"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:25Z",
+      "text": "Nayib Bukele was born on 24 July 1981 in San Salvador.",
+      "cites": [
+        "wd:Q17712353:P569",
+        "wd:Q17712353:P19"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:33Z",
+      "text": "He was educated at Central American University in San Salvador.",
+      "cites": [
+        "wd:Q17712353:P69:Q1814702"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:37Z",
+      "text": "He has worked in San Salvador.",
+      "cites": [
+        "wd:Q17712353:P937:Q3110"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:43Z",
+      "text": "Wikidata lists 3 awards on record, among them Time 100 (2021) and Order of Juan Mora Fernández (2024).",
+      "cites": [
+        "wd:Q17712353:P166:Q604370",
+        "wd:Q17712353:P166:Q93900"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:02Z",
+      "text": "Al Jazeera headlined the story: “El Salvador’s Bukele expected to formalise bid for third presidential term”.",
+      "cites": [
+        "news:aljazeera:eb2419a6de7c"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:09Z",
+      "text": "France 24 headlined its story: “El Salvador: Nayib Bukele, self-proclaimed “coolest dictator on earth”, is seeking a third term”.",
+      "cites": [
+        "news:france24:1aebd0b55990"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:18Z",
+      "text": "This explainer draws on Al Jazeera and France 24, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1386788384:72",
+        "views:en:Nayib_Bukele:30d",
+        "wd:Q17712353:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "SV",
+    "lon": -88.89,
+    "lat": 13.69,
+    "label": "El Salvador"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-20T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-20T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-20T00:00:42Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-20T00:00:52Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-20T00:01:01Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-20T00:01:17Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-20T00:00:33Z",
+      "until": "2026-11-20T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1981 born",
+          "text": "San Salvador",
+          "cites": [
+            "wd:Q17712353:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Central American University, San Salvador",
+          "cites": [
+            "wd:Q17712353:P69:Q1814702"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "San Salvador",
+          "cites": [
+            "wd:Q17712353:P937:Q3110"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-20T00:00:43Z",
+      "until": "2026-11-20T00:00:52Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2019",
+          "text": "honorary degree",
+          "cites": [
+            "wd:Q17712353:P166:Q209896"
+          ]
+        },
+        {
+          "label": "2021",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q17712353:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2024",
+          "text": "Order of Juan Mora Fernández",
+          "cites": [
+            "wd:Q17712353:P166:Q93900"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-20T00:01:02Z",
+      "until": "2026-11-20T00:01:17Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-expected-to-formalise-bid-for-third-presidential-term",
+          "cites": [
+            "news:aljazeera:eb2419a6de7c"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/el-salvador-nayib-bukele-self-proclaimed-coolest-dictator-on-earth-is-seeking-a-third-term",
+          "cites": [
+            "news:france24:1aebd0b55990"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-20T00:01:18Z",
+      "until": "2026-11-20T00:01:24Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386788384:72"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Nayib_Bukele:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q17712353:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-21T07:41:37Z",
+    "costUsd": 0.002737
+  }
+}

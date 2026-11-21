@@ -1,0 +1,70 @@
+[
+  {
+    "id": "news:france24:38d65333a954",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "France 24: EU and UK set to sign deals on trade, energy, youth mobility at Brussels summit (02:00 UTC)",
+    "url": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit",
+    "quote": "EU and UK set to sign deals on trade, energy, youth mobility at Brussels summit",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:e75dec5a5373",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: EU and UK seal reset deal (11:20 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal",
+    "quote": "EU and UK seal reset deal",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:dc34d93d0790",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "The Guardian: EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live (17:59 UTC)",
+    "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+    "quote": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386108922:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Brexit\" (revision of 2026-11-17 00:06 UTC)",
+    "quote": "Brexit (; a portmanteau of \"Britain\" and \"exit\") was the withdrawal of the United Kingdom (UK) from the European Union (EU).",
+    "url": "https://en.wikipedia.org/w/index.php?title=Brexit&oldid=1386108922"
+  },
+  {
+    "id": "views:en:Brexit:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Brexit\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Brexit&range=latest-30"
+  },
+  {
+    "id": "wd:Q7888194:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Brexit\": date 31 January 2020",
+    "url": "https://www.wikidata.org/wiki/Q7888194#P585"
+  },
+  {
+    "id": "wd:Q7888194:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Brexit\": country United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q7888194#P17"
+  }
+]

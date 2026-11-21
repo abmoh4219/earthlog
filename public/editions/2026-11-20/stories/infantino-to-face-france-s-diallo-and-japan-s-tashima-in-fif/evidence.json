@@ -1,0 +1,218 @@
+[
+  {
+    "id": "news:france24:b1f13ff46576",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "France 24: Infantino, Tashima and Diallo officially enter FIFA presidential race (06:14 UTC)",
+    "url": "https://www.france24.com/en/tv-shows/sports/20261120-fifa-infantino-tashima-and-diallo-enter-presidential-race",
+    "quote": "Infantino, Tashima and Diallo officially enter FIFA presidential race",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:01040a665cff",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "DW: FIFA presidential election 2027: Infantino facing Diallo and Tashima — could an alliance change everything? (12:58 UTC)",
+    "url": "https://www.dw.com/en/fifa-presidential-election-2027-infantino-facing-diallo-and-tashima-could-an-alliance-change-everything/a-80002882",
+    "quote": "FIFA presidential election 2027: Infantino facing Diallo and Tashima — could an alliance change everything?",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386732101:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"FIFA\" (revision of 2026-11-20 06:27 UTC)",
+    "quote": "The Fédération Internationale de Football Association (FIFA) (French for 'Federation international football association') is an international self-regulatory governing body of association football, beach soccer, and futsal.",
+    "url": "https://en.wikipedia.org/w/index.php?title=FIFA&oldid=1386732101"
+  },
+  {
+    "id": "views:en:FIFA:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"FIFA\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=FIFA&range=latest-30"
+  },
+  {
+    "id": "wd:Q253414:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"FIFA\": citizenship Germany",
+    "url": "https://www.wikidata.org/wiki/Q253414#P27"
+  },
+  {
+    "id": "wd:Q253414:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"FIFA\": founded 21 May 1904",
+    "url": "https://www.wikidata.org/wiki/Q253414#P571"
+  },
+  {
+    "id": "wd:Q253414:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"FIFA\": headquarters Zurich",
+    "url": "https://www.wikidata.org/wiki/Q253414#P159"
+  },
+  {
+    "id": "wd:Q253414:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"FIFA\": sport association football, futsal",
+    "url": "https://www.wikidata.org/wiki/Q253414#P641"
+  },
+  {
+    "id": "wd:Q253414:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"FIFA\": country Switzerland",
+    "url": "https://www.wikidata.org/wiki/Q253414#P17"
+  },
+  {
+    "id": "views:en:FIFA:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 1,915 readers of \"FIFA\" on 2026-11-20",
+    "value": 1915,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/FIFA"
+  },
+  {
+    "id": "views:ja:国際サッカー連盟:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 460 readers of \"国際サッカー連盟\" on 2026-11-20",
+    "value": 460,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%9A%9B%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E9%80%A3%E7%9B%9F"
+  },
+  {
+    "id": "views:es:FIFA:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 353 readers of \"FIFA\" on 2026-11-20",
+    "value": 353,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/FIFA"
+  },
+  {
+    "id": "views:fr:Fédération_internationale_de_football_association:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 184 readers of \"Fédération internationale de football association\" on 2026-11-20",
+    "value": 184,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_internationale_de_football_association"
+  },
+  {
+    "id": "views:ru:ФИФА:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 181 readers of \"ФИФА\" on 2026-11-20",
+    "value": 181,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%98%D0%A4%D0%90"
+  },
+  {
+    "id": "views:de:FIFA:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 162 readers of \"FIFA\" on 2026-11-20",
+    "value": 162,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/FIFA"
+  },
+  {
+    "id": "views:pt:Federação_Internacional_de_Futebol:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 116 readers of \"Federação Internacional de Futebol\" on 2026-11-20",
+    "value": 116,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Internacional_de_Futebol"
+  },
+  {
+    "id": "views:ar:الاتحاد_الدولي_لكرة_القدم:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 105 readers of \"الاتحاد الدولي لكرة القدم\" on 2026-11-20",
+    "value": 105,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A_%D9%84%D9%83%D8%B1%D8%A9_%D8%A7%D9%84%D9%82%D8%AF%D9%85"
+  },
+  {
+    "id": "views:it:FIFA:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 60 readers of \"FIFA\" on 2026-11-20",
+    "value": 60,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/FIFA"
+  },
+  {
+    "id": "views:pl:FIFA:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 49 readers of \"FIFA\" on 2026-11-20",
+    "value": 49,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/FIFA"
+  },
+  {
+    "id": "views:zh:国际足球联合会:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 43 readers of \"国际足球联合会\" on 2026-11-20",
+    "value": 43,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E8%B6%B3%E7%90%83%E8%81%94%E5%90%88%E4%BC%9A"
+  },
+  {
+    "id": "wiki:box:1386732101:venue",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"FIFA\" infobox (revision of 2026-11-20 06:27 UTC): venue: France",
+    "quote": "venue: France",
+    "url": "https://en.wikipedia.org/w/index.php?title=FIFA&oldid=1386732101"
+  }
+]

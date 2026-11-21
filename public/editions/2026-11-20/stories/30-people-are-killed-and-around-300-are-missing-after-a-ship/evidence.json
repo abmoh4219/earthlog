@@ -1,0 +1,70 @@
+[
+  {
+    "id": "wiki:2026-11-20:7",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-20T00:00:00Z",
+    "lon": 6.08333333,
+    "lat": 4.75,
+    "label": "Disaster: 30 people are killed and around 300 are missing after a ship carrying funeral goers capsizes in Bayelsa State, Nigeria.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_20&oldid=1386872432",
+    "quote": "30 people are killed and around 300 are missing after a ship carrying funeral goers capsizes in Bayelsa State, Nigeria.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Daily Trust",
+        "url": "https://dailytrust.com/30-feared-dead-as-mourners-boat-capsizes-in-bayelsa/#google_vignette"
+      }
+    ]
+  },
+  {
+    "id": "wiki:rev:1386867065:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Bayelsa boat disaster\" (revision of 2026-11-21 03:02 UTC)",
+    "quote": "On 20 November, 2026, a barge carrying a large group of funeral-goers capsized in the Nun River near the Oweikorogha Community of Bayelsa State, Nigeria.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Bayelsa_boat_disaster&oldid=1386867065"
+  },
+  {
+    "id": "wiki:box:1386867065:fatalities",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Bayelsa boat disaster\" (revision of 2026-11-21 03:02 UTC): fatalities: 30",
+    "quote": "fatalities: 30",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Bayelsa_boat_disaster&oldid=1386867065"
+  },
+  {
+    "id": "wiki:box:1386867065:injuries",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Bayelsa boat disaster\" (revision of 2026-11-21 03:02 UTC): injuries: 24",
+    "quote": "injuries: 24",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Bayelsa_boat_disaster&oldid=1386867065"
+  },
+  {
+    "id": "wiki:box:1386867065:summary",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Bayelsa boat disaster\" (revision of 2026-11-21 03:02 UTC): summary: Capsizing",
+    "quote": "summary: Capsizing",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Bayelsa_boat_disaster&oldid=1386867065"
+  },
+  {
+    "id": "wiki:box:1386867065:coordinates",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Bayelsa boat disaster\" (revision of 2026-11-21 03:02 UTC): site coordinates 4.8716, 6.1724 (Nun River near the Oweikorogha Community, Bayelsa State, Nigeria)",
+    "quote": "4.8716, 6.1724",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Bayelsa_boat_disaster&oldid=1386867065"
+  }
+]

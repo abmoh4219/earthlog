@@ -1,0 +1,89 @@
+[
+  {
+    "id": "news:france24:e5d5af4d4476",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "France 24: White House fires national cyber director over widespread outages (01:28 UTC)",
+    "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
+    "quote": "White House fires national cyber director over widespread outages",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:9eac64988758",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "DW: White House replaces cyber security chief after tech outages (04:21 UTC)",
+    "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531",
+    "quote": "White House replaces cyber security chief after tech outages",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:16e64eac61a6",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: Trump bows to pressure, replaces US cyber security director (05:48 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-bows-to-pressure-replaces-us-cyber-security-director",
+    "quote": "Trump bows to pressure, replaces US cyber security director",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:ff725159f4b9",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "BBC News: White House removes cyber-security chief after series of tech outages (19:03 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo",
+    "quote": "White House removes cyber-security chief after series of tech outages",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386242577:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"White House\" (revision of 2026-11-17 13:04 UTC)",
+    "quote": "The White House is the official residence and workplace of the president of the United States.",
+    "url": "https://en.wikipedia.org/w/index.php?title=White_House&oldid=1386242577"
+  },
+  {
+    "id": "views:en:White_House:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"White House\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=White_House&range=latest-30"
+  },
+  {
+    "id": "wd:Q35525:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"White House\": location Northwest",
+    "url": "https://www.wikidata.org/wiki/Q35525#P276"
+  },
+  {
+    "id": "wd:Q35525:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"White House\": founded 1800",
+    "url": "https://www.wikidata.org/wiki/Q35525#P571"
+  },
+  {
+    "id": "wd:Q35525:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"White House\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q35525#P17"
+  }
+]

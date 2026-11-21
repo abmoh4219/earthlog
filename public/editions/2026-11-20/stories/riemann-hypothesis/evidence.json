@@ -1,0 +1,253 @@
+[
+  {
+    "id": "wiki:2026-11-20:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Science & tech: Anthropic employee and mathematician Levent Alpöge releases a claimed proof of the Riemann hypothesis. The proof was created with assistance from Claude.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_20&oldid=1386872432",
+    "quote": "Anthropic employee and mathematician Levent Alpöge releases a claimed proof of the Riemann hypothesis. The proof was created with assistance from Claude.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "BBC",
+        "url": "https://www.bbc.com/news/articles/c6pqr2g7w059o"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Riemann_hypothesis:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "English Wikipedia: 295,157 readers of \"Riemann hypothesis\" on 20 Nov 2026",
+    "value": 295157,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Riemann_hypothesis:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "\"Riemann hypothesis\": normally a median of 1,582 readers a day (8 to 60 days before)",
+    "value": 1582,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Levent_Alpöge:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "English Wikipedia: 124,632 readers of \"Levent Alpöge\" on 20 Nov 2026",
+    "value": 124632,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Levent_Alp%C3%B6ge",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Levent_Alpöge:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "\"Levent Alpöge\": normally a median of 562 readers a day (8 to 60 days before)",
+    "value": 562,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Levent_Alp%C3%B6ge",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Anthropic:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "English Wikipedia: 89,567 readers of \"Anthropic\" on 20 Nov 2026",
+    "value": 89567,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Anthropic",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Anthropic:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "\"Anthropic\": normally a median of 7,583 readers a day (8 to 60 days before)",
+    "value": 7583,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Anthropic",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q205966:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Wikidata: \"Riemann hypothesis\" is an instance of conjecture, mathematical problem",
+    "url": "https://www.wikidata.org/wiki/Q205966",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386894649:189",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Riemann hypothesis\" (revision of 2026-11-21 07:08 UTC)",
+    "quote": "On November 20, 2026, two proofs were posted online.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Riemann_hypothesis&oldid=1386894649"
+  },
+  {
+    "id": "wiki:rev:1386894649:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Riemann hypothesis\" (revision of 2026-11-21 07:08 UTC)",
+    "quote": "In mathematics, the Riemann hypothesis is the statement that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part \\textstyle\\frac{1}{2}.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Riemann_hypothesis&oldid=1386894649"
+  },
+  {
+    "id": "views:en:Riemann_hypothesis:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Riemann hypothesis\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Riemann_hypothesis&range=latest-30"
+  },
+  {
+    "id": "views:en:Levent_Alpöge:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Levent Alpöge\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Levent_Alp%C3%B6ge&range=latest-30"
+  },
+  {
+    "id": "views:en:Anthropic:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Anthropic\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Anthropic&range=latest-30"
+  },
+  {
+    "id": "views:fr:Hypothèse_de_Riemann:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 35,396 readers of \"Hypothèse de Riemann\" on 20 November 2026",
+    "value": 35396,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_de_Riemann"
+  },
+  {
+    "id": "views:de:Riemannsche_Vermutung:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 30,852 readers of \"Riemannsche Vermutung\" on 20 November 2026",
+    "value": 30852,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Riemannsche_Vermutung"
+  },
+  {
+    "id": "views:pl:Hipoteza_Riemanna:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 15,157 readers of \"Hipoteza Riemanna\" on 20 November 2026",
+    "value": 15157,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Hipoteza_Riemanna"
+  },
+  {
+    "id": "views:ja:リーマン予想:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Japanese Wikipedia: 10,755 readers of \"リーマン予想\" on 20 November 2026",
+    "value": 10755,
+    "unit": "readers",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%B3%E4%BA%88%E6%83%B3"
+  },
+  {
+    "id": "views:zh:黎曼猜想:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Chinese Wikipedia: 9,620 readers of \"黎曼猜想\" on 20 November 2026",
+    "value": 9620,
+    "unit": "readers",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3"
+  },
+  {
+    "id": "views:ru:Гипотеза_Римана:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 9,583 readers of \"Гипотеза Римана\" on 20 November 2026",
+    "value": 9583,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0_%D0%A0%D0%B8%D0%BC%D0%B0%D0%BD%D0%B0"
+  },
+  {
+    "id": "views:it:Ipotesi_di_Riemann:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 8,743 readers of \"Ipotesi di Riemann\" on 20 November 2026",
+    "value": 8743,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Ipotesi_di_Riemann"
+  },
+  {
+    "id": "views:es:Hipótesis_de_Riemann:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 7,808 readers of \"Hipótesis de Riemann\" on 20 November 2026",
+    "value": 7808,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Hip%C3%B3tesis_de_Riemann"
+  },
+  {
+    "id": "views:pt:Hipótese_de_Riemann:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 1,592 readers of \"Hipótese de Riemann\" on 20 November 2026",
+    "value": 1592,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Hip%C3%B3tese_de_Riemann"
+  },
+  {
+    "id": "views:ar:فرضية_ريمان:2026-11-20",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 295 readers of \"فرضية ريمان\" on 20 November 2026",
+    "value": 295,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D9%81%D8%B1%D8%B6%D9%8A%D8%A9_%D8%B1%D9%8A%D9%85%D8%A7%D9%86"
+  }
+]

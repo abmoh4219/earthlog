@@ -1,0 +1,661 @@
+{
+  "version": 1,
+  "id": "story-2026-11-20-larry-poindexter",
+  "title": "Larry Poindexter",
+  "subtitle": "People · 20 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-20T00:00:00Z",
+    "end": "2026-11-20T00:01:30Z"
+  },
+  "focus": "2026-11-20T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -128.24367999999998,
+    "south": 26.05223,
+    "east": -108.24368,
+    "north": 42.05223
+  },
+  "imagery": {
+    "day": "2026-11-20",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-20T00:00:59Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-20T00:00:59Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-20T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-20T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "lon": -80.24367999999998,
+      "lat": 20.018838,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-20T00:00:04Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:14Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:23Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:27Z",
+      "lon": -96.808888888889,
+      "lat": 31.879166666667004,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:29Z",
+      "lon": -96.808888888889,
+      "lat": 31.879166666667004,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:31Z",
+      "lon": -96.808888888889,
+      "lat": 31.879166666667004,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:35Z",
+      "lon": -111.11564011878689,
+      "lat": 32.71242354094384,
+      "range": 6392223.433666289,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:38Z",
+      "lon": -111.11564011878689,
+      "lat": 32.71242354094384,
+      "range": 5788404.508087544,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:41Z",
+      "lon": -111.11564011878689,
+      "lat": 32.71242354094384,
+      "range": 5241623.215606357,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:45Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:47Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 814984.6624323674,
+      "heading": -26.9,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:49Z",
+      "lon": -118.24368,
+      "lat": 33.15223,
+      "range": 738000,
+      "heading": -35.8,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:53Z",
+      "lon": -107.44679584040666,
+      "lat": 32.926805871476525,
+      "range": 4769648.297612756,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:56Z",
+      "lon": -107.44679584040666,
+      "lat": 32.926805871476525,
+      "range": 4319100.230834497,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:58Z",
+      "lon": -107.44679584040666,
+      "lat": 32.926805871476525,
+      "range": 3911111.6040424593,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:03Z",
+      "lon": 36.258218564333916,
+      "lat": 50.62470603297847,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:01:13Z",
+      "lon": 36.258218564333916,
+      "lat": 50.62470603297847,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:22Z",
+      "lon": 36.258218564333916,
+      "lat": 50.62470603297847,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:26Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:01:27Z",
+      "lon": -118.24368,
+      "lat": 33.36473,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:30Z",
+      "lon": -143.24367999999998,
+      "lat": 33.36473,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-20T00:00:01Z",
+      "text": "Larry Poindexter was hit by a car on November 14, 2026, while crossing a street outside his Studio City apartment.",
+      "cites": [
+        "wiki:rev:1386808035:19"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:08Z",
+      "text": "He was hospitalized and was due to undergo surgery for his injuries when he died suddenly on November 18.",
+      "cites": [
+        "wiki:rev:1386808035:20"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:15Z",
+      "text": "Poindexter (December 16, 1959 – November 18, 2026) was an American actor and singer.",
+      "cites": [
+        "wiki:rev:1386808035:0"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:25Z",
+      "text": "He was born on 16 December 1959 in Dallas.",
+      "cites": [
+        "wd:Q1806102:P569",
+        "wd:Q1806102:P19"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:33Z",
+      "text": "He was educated at Aviation High School.",
+      "cites": [
+        "wd:Q1806102:P69:Q4828640"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:43Z",
+      "text": "He died on 18 November 2026 in Los Angeles, aged 66.",
+      "cites": [
+        "wd:Q1806102:P570",
+        "wd:Q1806102:P20",
+        "wd:Q1806102:P569"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:00Z",
+      "text": "On 20 November 2026, 51,192 people read the English article, about 948 times the usual daily count.",
+      "cites": [
+        "views:en:Larry_Poindexter:2026-11-20",
+        "views:en:Larry_Poindexter:prior"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:07Z",
+      "text": "The article was read in 8 languages, and after English, German was the most read with 17,819 readers.",
+      "cites": [
+        "views:en:Larry_Poindexter:2026-11-20",
+        "views:de:Larry_Poindexter:2026-11-20"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:14Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:de:Larry_Poindexter:2026-11-20",
+        "views:ru:Пойндекстер,_Ларри:2026-11-20",
+        "views:it:Larry_Poindexter:2026-11-20",
+        "views:nl:Larry_Poindexter:2026-11-20",
+        "views:sv:Larry_Poindexter:2026-11-20",
+        "views:ar:لاري_بوينديكستر:2026-11-20"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:24Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386808035:19",
+        "views:en:Larry_Poindexter:2026-11-20",
+        "wd:Q1806102:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -118.24368,
+    "lat": 34.05223,
+    "label": "Los Angeles"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-20T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-20T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-20T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-20T00:00:50Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-20T00:00:59Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-20T00:01:23Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-20T00:00:33Z",
+      "until": "2026-11-20T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1959 born",
+          "text": "Dallas",
+          "cites": [
+            "wd:Q1806102:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Aviation High School",
+          "cites": [
+            "wd:Q1806102:P69:Q4828640"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Los Angeles",
+          "cites": [
+            "wd:Q1806102:P20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-20T00:01:00Z",
+      "until": "2026-11-20T00:01:23Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Larry Poindexter",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-22",
+              "y": 55
+            },
+            {
+              "x": "10-23",
+              "y": 53
+            },
+            {
+              "x": "10-24",
+              "y": 55
+            },
+            {
+              "x": "10-25",
+              "y": 54
+            },
+            {
+              "x": "10-26",
+              "y": 51
+            },
+            {
+              "x": "10-27",
+              "y": 52
+            },
+            {
+              "x": "10-28",
+              "y": 41
+            },
+            {
+              "x": "10-29",
+              "y": 52
+            },
+            {
+              "x": "10-30",
+              "y": 41
+            },
+            {
+              "x": "10-31",
+              "y": 47
+            },
+            {
+              "x": "11-01",
+              "y": 71
+            },
+            {
+              "x": "11-02",
+              "y": 39
+            },
+            {
+              "x": "11-03",
+              "y": 46
+            },
+            {
+              "x": "11-04",
+              "y": 43
+            },
+            {
+              "x": "11-05",
+              "y": 48
+            },
+            {
+              "x": "11-06",
+              "y": 29
+            },
+            {
+              "x": "11-07",
+              "y": 51
+            },
+            {
+              "x": "11-08",
+              "y": 40
+            },
+            {
+              "x": "11-09",
+              "y": 54
+            },
+            {
+              "x": "11-10",
+              "y": 52
+            },
+            {
+              "x": "11-11",
+              "y": 53
+            },
+            {
+              "x": "11-12",
+              "y": 38
+            },
+            {
+              "x": "11-13",
+              "y": 49
+            },
+            {
+              "x": "11-14",
+              "y": 58
+            },
+            {
+              "x": "11-15",
+              "y": 60
+            },
+            {
+              "x": "11-16",
+              "y": 58
+            },
+            {
+              "x": "11-17",
+              "y": 52
+            },
+            {
+              "x": "11-18",
+              "y": 178
+            },
+            {
+              "x": "11-19",
+              "y": 124373
+            },
+            {
+              "x": "11-20",
+              "y": 51192
+            }
+          ],
+          "cites": [
+            "views:en:Larry_Poindexter:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-20T00:01:00Z",
+      "until": "2026-11-20T00:01:23Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "51,192",
+          "value": 51192,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Larry_Poindexter:2026-11-20"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "17,819",
+          "value": 17819,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Larry_Poindexter:2026-11-20"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "1,787",
+          "value": 1787,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Пойндекстер,_Ларри:2026-11-20"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "798",
+          "value": 798,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Larry_Poindexter:2026-11-20"
+          ]
+        },
+        {
+          "label": "Dutch",
+          "text": "794",
+          "value": 794,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:nl:Larry_Poindexter:2026-11-20"
+          ]
+        },
+        {
+          "label": "Swedish",
+          "text": "164",
+          "value": 164,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:sv:Larry_Poindexter:2026-11-20"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "69",
+          "value": 69,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:لاري_بوينديكستر:2026-11-20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-20T00:01:24Z",
+      "until": "2026-11-20T00:01:30Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386808035:19"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Larry_Poindexter:2026-11-20"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1806102:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-21T07:41:37Z",
+    "costUsd": 0.002797
+  }
+}

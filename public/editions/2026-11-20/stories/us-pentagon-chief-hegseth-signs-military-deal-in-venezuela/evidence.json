@@ -1,0 +1,70 @@
+[
+  {
+    "id": "news:npr:3e03a94e8a13",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "NPR: The U.K. and EU hold a rare summit to strengthen ties (09:14 UTC)",
+    "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+    "quote": "The U.K. and EU hold a rare summit to strengthen ties",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:f051330b8f6b",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "DW: EU and UK hold a rare summit in bid to 'rebuild ties' (11:30 UTC)",
+    "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076",
+    "quote": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:fb622c5a1ee8",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "France 24: UK and EU strike ‘landmark’ deal to rebuild ties after Brexit (17:06 UTC)",
+    "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
+    "quote": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386108922:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Brexit\" (revision of 2026-11-17 00:06 UTC)",
+    "quote": "Brexit (; a portmanteau of \"Britain\" and \"exit\") was the withdrawal of the United Kingdom (UK) from the European Union (EU).",
+    "url": "https://en.wikipedia.org/w/index.php?title=Brexit&oldid=1386108922"
+  },
+  {
+    "id": "views:en:Brexit:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Brexit\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Brexit&range=latest-30"
+  },
+  {
+    "id": "wd:Q7888194:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Brexit\": date 31 January 2020",
+    "url": "https://www.wikidata.org/wiki/Q7888194#P585"
+  },
+  {
+    "id": "wd:Q7888194:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Brexit\": country United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q7888194#P17"
+  }
+]

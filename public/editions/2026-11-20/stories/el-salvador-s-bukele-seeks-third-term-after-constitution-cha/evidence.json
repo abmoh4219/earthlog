@@ -1,0 +1,133 @@
+[
+  {
+    "id": "news:aljazeera:eb2419a6de7c",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: El Salvador’s Bukele expected to formalise bid for third presidential term (00:22 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-expected-to-formalise-bid-for-third-presidential-term",
+    "quote": "El Salvador’s Bukele expected to formalise bid for third presidential term",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:1aebd0b55990",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "France 24: El Salvador: Nayib Bukele, self-proclaimed “coolest dictator on earth”, is seeking a third term (12:07 UTC)",
+    "url": "https://www.france24.com/en/el-salvador-nayib-bukele-self-proclaimed-coolest-dictator-on-earth-is-seeking-a-third-term",
+    "quote": "El Salvador: Nayib Bukele, self-proclaimed “coolest dictator on earth”, is seeking a third term",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386788384:72",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Nayib Bukele\" (revision of 2026-11-20 16:14 UTC)",
+    "quote": "In September 2016, Bukele visited Washington, D.C., and met with Mayor Muriel Bowser to discuss the implementation of urban-development projects.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nayib_Bukele&oldid=1386788384"
+  },
+  {
+    "id": "wiki:rev:1386788384:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Nayib Bukele\" (revision of 2026-11-20 16:14 UTC)",
+    "quote": "Nayib Armando Bukele Ortez (born 24 July 1981) is a Salvadoran politician who has served as the 43rd president of El Salvador since 2019.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nayib_Bukele&oldid=1386788384"
+  },
+  {
+    "id": "views:en:Nayib_Bukele:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Nayib Bukele\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Nayib_Bukele&range=latest-30"
+  },
+  {
+    "id": "wd:Q17712353:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": born 24 July 1981",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P569"
+  },
+  {
+    "id": "wd:Q17712353:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": birthplace San Salvador",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P19"
+  },
+  {
+    "id": "wd:Q17712353:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": occupation politician, businessperson",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P106"
+  },
+  {
+    "id": "wd:Q17712353:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": citizenship El Salvador",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P27"
+  },
+  {
+    "id": "wd:Q17712353:P69:Q1814702",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": educated at Central American University, San Salvador",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P69"
+  },
+  {
+    "id": "wd:Q17712353:P937:Q3110",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": worked in San Salvador",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P937"
+  },
+  {
+    "id": "wd:Q17712353:P166:Q209896",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": award received: honorary degree (2019)",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P166"
+  },
+  {
+    "id": "wd:Q17712353:P166:Q604370",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": award received: Time 100 (2021)",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P166"
+  },
+  {
+    "id": "wd:Q17712353:P166:Q93900",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nayib Bukele\": award received: Order of Juan Mora Fernández (2024)",
+    "url": "https://www.wikidata.org/wiki/Q17712353#P166"
+  }
+]

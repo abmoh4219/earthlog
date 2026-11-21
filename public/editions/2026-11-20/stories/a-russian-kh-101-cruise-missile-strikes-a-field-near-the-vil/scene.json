@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "id": "story-2026-11-20-a-russian-kh-101-cruise-missile-strikes-a-field-near-the-vil",
+  "title": "A Russian Kh-101 cruise missile strikes a field near the village of Nowy…",
+  "subtitle": "Conflict · 20 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-20T00:00:00Z",
+    "end": "2026-11-20T00:01:10Z"
+  },
+  "focus": "2026-11-20T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 12.81666667,
+    "south": 42.43333333,
+    "east": 32.816666670000004,
+    "north": 58.43333333
+  },
+  "imagery": {
+    "day": "2026-11-20",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-20T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-20T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-20T00:00:25Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "lon": 60.81666667000002,
+      "lat": 29.847499998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-20T00:00:04Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:10Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:16Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:19Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:22Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:24Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:27Z",
+      "lon": 22.627682719439047,
+      "lat": 50.23804703534524,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:30Z",
+      "lon": 22.627682719439047,
+      "lat": 50.23804703534524,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:33Z",
+      "lon": 22.627682719439047,
+      "lat": 50.23804703534524,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:36Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:39Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:41Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:44Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:53Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:02Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:05Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:06Z",
+      "lon": 22.81666667,
+      "lat": 49.74583333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:10Z",
+      "lon": -2.183333329999982,
+      "lat": 49.74583333,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-20T00:00:01Z",
+      "text": "A Russian Kh-101 cruise missile struck a field near the village of Nowy Lipowiec in Lublin Voivodeship, Poland, around 60 miles from a Coalition of the Willing training exercise.",
+      "cites": [
+        "wiki:2026-11-20:4"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:09Z",
+      "text": "The case also belongs to a wider record of airspace violations during the Russo-Ukrainian war (2022–present), including a drone found near Ceadîr-Lunga, Moldova, on February 13, 2025.",
+      "cites": [
+        "wiki:rev:1386835291:0"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:18Z",
+      "text": "The reports place the strike near Nowy Lipowiec in Poland.",
+      "cites": [
+        "wiki:2026-11-20:4"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:26Z",
+      "text": "The reports also name Lublin Voivodeship and Podkarpackie Voivodeship, where air raid alerts were issued.",
+      "cites": [
+        "wiki:2026-11-20:4"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:35Z",
+      "text": "The story was reported by AOL.",
+      "cites": [
+        "wiki:2026-11-20:4"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:43Z",
+      "text": "BBC News headlined its report “What we know about the latest Russian missile strikes on Ukraine.”",
+      "cites": [
+        "news:bbc:a8ca822f64d0"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:49Z",
+      "text": "Al Jazeera headlined its report “Poland condemns Russian ‘provocation’ after airspace violations.”",
+      "cites": [
+        "news:aljazeera:5721f8700f62"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:55Z",
+      "text": "France 24 headlined its live coverage “🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says.”",
+      "cites": [
+        "news:france24:388c1dca5fe6"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:04Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-20:4",
+        "wiki:rev:1386835291:0",
+        "views:en:Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war:30d",
+        "wd:Q125217421:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PL",
+    "lon": 22.81666667,
+    "lat": 50.43333333,
+    "label": "Nowy Lipowiec"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-20T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-20T00:00:25Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-20T00:00:34Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-20T00:00:42Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-20T00:01:03Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-20T00:00:35Z",
+      "until": "2026-11-20T00:00:42Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AOL",
+          "text": "Open",
+          "url": "https://www.aol.co.uk/articles/suspected-russian-projectile-lands-poland-095529000.html",
+          "cites": [
+            "wiki:2026-11-20:4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-20T00:00:43Z",
+      "until": "2026-11-20T00:01:03Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o",
+          "cites": [
+            "news:bbc:a8ca822f64d0"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations",
+          "cites": [
+            "news:aljazeera:5721f8700f62"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+          "cites": [
+            "news:france24:388c1dca5fe6"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822",
+          "cites": [
+            "news:dw:293d8a782752"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-20T00:01:04Z",
+      "until": "2026-11-20T00:01:10Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-20:4"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386835291:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q125217421:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-21T07:41:37Z",
+    "costUsd": 0.002088
+  }
+}

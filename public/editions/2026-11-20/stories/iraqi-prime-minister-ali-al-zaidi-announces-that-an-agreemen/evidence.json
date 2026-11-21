@@ -1,0 +1,92 @@
+[
+  {
+    "id": "wiki:2026-11-20:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-20T00:00:00Z",
+    "lon": 44.21388889,
+    "lat": 32.86666667,
+    "label": "Politics: Iraqi prime minister Ali al-Zaidi announces that an agreement has been reached with Kata'ib Hezbollah to establish a joint operations center and jointly station troops in Jurf al-Sakhar, south of Baghdad, after having threatened to send Iraqi security forces into the group's stronghold.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_20&oldid=1386872432",
+    "quote": "Iraqi prime minister Ali al-Zaidi announces that an agreement has been reached with Kata'ib Hezbollah to establish a joint operations center and jointly station troops in Jurf al-Sakhar, south of Baghdad, after having threatened to send Iraqi security forces into the group's stronghold.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/19/iraq-reaches-compromise-with-kataib-hezbollah-over-armed-group-stronghold"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://aje.news/yk6rbj?update=5171924"
+      }
+    ]
+  },
+  {
+    "id": "news:france24:1654847de472",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "France 24: Iraqi security forces deploy in Hezbollah stronghold under compromise deal (08:37 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261120-iraqi-security-forces-to-deploy-in-hezbollah-stronghold-under-compromise-deal",
+    "quote": "Iraqi security forces deploy in Hezbollah stronghold under compromise deal",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q1154038:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Wikidata: \"Politics of Iraq\" is an instance of political system, politics by country",
+    "url": "https://www.wikidata.org/wiki/Q1154038",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:4dd2dad723dc",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: Kataib Hezbollah faces deadline to leave Iraqi stronghold (11:10 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kataib-hezbollah-faces-deadline-to-leave-iraqi-stronghold",
+    "quote": "Kataib Hezbollah faces deadline to leave Iraqi stronghold",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1380999327:82",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Politics of Iraq\" (revision of 2026-10-19 10:20 UTC)",
+    "quote": "After months of fraught negotiations, an agreement was reached on the formation of a new government on November 11.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Politics_of_Iraq&oldid=1380999327"
+  },
+  {
+    "id": "wiki:rev:1380999327:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Politics of Iraq\" (revision of 2026-10-19 10:20 UTC)",
+    "quote": "According to the constitution adopted in 2005, the Republic of Iraq is defined as a federal democratic parliamentary republic.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Politics_of_Iraq&oldid=1380999327"
+  },
+  {
+    "id": "views:en:Politics_of_Iraq:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Politics of Iraq\", 22 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Politics_of_Iraq&range=latest-30"
+  },
+  {
+    "id": "wd:Q1154038:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Politics of Iraq\": country Iraq",
+    "url": "https://www.wikidata.org/wiki/Q1154038#P17"
+  }
+]

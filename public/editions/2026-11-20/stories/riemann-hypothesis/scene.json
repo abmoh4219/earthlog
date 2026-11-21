@@ -1,0 +1,828 @@
+{
+  "version": 1,
+  "id": "story-2026-11-20-riemann-hypothesis",
+  "title": "Riemann hypothesis",
+  "subtitle": "Science & space · 20 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-20T00:00:00Z",
+    "end": "2026-11-20T00:01:12Z"
+  },
+  "focus": "2026-11-20T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-20",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-20T00:00:33Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-20T00:00:33Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "lon": 38,
+      "lat": 12,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-20T00:00:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 35200000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:14Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 31874955.686243705,
+      "heading": 14,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:23Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28864000,
+      "heading": 28,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:26Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 32000000,
+      "heading": 0,
+      "pitch": -85,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:29Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 28977232.442039732,
+      "heading": -9.7,
+      "pitch": -82.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:32Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 26240000,
+      "heading": -19.4,
+      "pitch": -80,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:37Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:00:47Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:00:56Z",
+      "lon": 26.173057887419542,
+      "lat": 46.99474461608802,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:00Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 20800000,
+      "heading": -10,
+      "pitch": -85,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-20T00:01:02Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 18835201.087325826,
+      "heading": -18.9,
+      "pitch": -82.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:04Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 17056000,
+      "heading": -27.8,
+      "pitch": -80,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:07Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 41600000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:08Z",
+      "lon": 0,
+      "lat": 20,
+      "range": 34112000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-20T00:01:12Z",
+      "lon": -25,
+      "lat": 20,
+      "range": 102336000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-20T00:00:01Z",
+      "text": "According to the news item, Anthropic employee and mathematician Levent Alpöge has released a claimed proof of the Riemann hypothesis, created with assistance from Claude.",
+      "cites": [
+        "wiki:2026-11-20:10"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:08Z",
+      "text": "On November 20, 2026, two proofs were posted online.",
+      "cites": [
+        "wiki:rev:1386894649:189"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:15Z",
+      "text": "The Riemann hypothesis is the statement that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers whose real part is \\textstyle\\frac{1}{2}.",
+      "cites": [
+        "wiki:rev:1386894649:0"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:25Z",
+      "text": "Readers also turned to the pages for Levent Alpöge, with 124,632 readers, and for Anthropic, with 89,567.",
+      "cites": [
+        "views:en:Levent_Alpöge:2026-11-20",
+        "views:en:Anthropic:2026-11-20"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:34Z",
+      "text": "On 20 November 2026, 295,157 people read the English article, about 187 times the usual daily count.",
+      "cites": [
+        "views:en:Riemann_hypothesis:2026-11-20",
+        "views:en:Riemann_hypothesis:prior"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:41Z",
+      "text": "The article was read in 11 languages, and after English the most readers were in French, with 35,396.",
+      "cites": [
+        "views:en:Riemann_hypothesis:2026-11-20",
+        "views:fr:Hypothèse_de_Riemann:2026-11-20"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:48Z",
+      "text": "On the globe, each language glows where it is mainly spoken, brighter for more readers, though a language is not the same as a country.",
+      "cites": [
+        "views:fr:Hypothèse_de_Riemann:2026-11-20",
+        "views:de:Riemannsche_Vermutung:2026-11-20",
+        "views:pl:Hipoteza_Riemanna:2026-11-20",
+        "views:ja:リーマン予想:2026-11-20",
+        "views:zh:黎曼猜想:2026-11-20",
+        "views:ru:Гипотеза_Римана:2026-11-20"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:00:58Z",
+      "text": "The story is reported by the BBC.",
+      "cites": [
+        "wiki:2026-11-20:10"
+      ]
+    },
+    {
+      "t": "2026-11-20T00:01:06Z",
+      "text": "The sources are Wikipedia, current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-20:10",
+        "wiki:rev:1386894649:189",
+        "views:en:Riemann_hypothesis:2026-11-20",
+        "wd:Q205966:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-20T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-20T00:00:24Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-20T00:00:33Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-20T00:00:57Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-20T00:01:05Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-20T00:00:34Z",
+      "until": "2026-11-20T00:00:57Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Riemann hypothesis",
+          "color": "#5fc9b8",
+          "points": [
+            {
+              "x": "10-22",
+              "y": 2258
+            },
+            {
+              "x": "10-23",
+              "y": 1954
+            },
+            {
+              "x": "10-24",
+              "y": 1579
+            },
+            {
+              "x": "10-25",
+              "y": 1432
+            },
+            {
+              "x": "10-26",
+              "y": 1592
+            },
+            {
+              "x": "10-27",
+              "y": 2419
+            },
+            {
+              "x": "10-28",
+              "y": 2435
+            },
+            {
+              "x": "10-29",
+              "y": 2001
+            },
+            {
+              "x": "10-30",
+              "y": 1563
+            },
+            {
+              "x": "10-31",
+              "y": 1320
+            },
+            {
+              "x": "11-01",
+              "y": 1162
+            },
+            {
+              "x": "11-02",
+              "y": 1349
+            },
+            {
+              "x": "11-03",
+              "y": 1229
+            },
+            {
+              "x": "11-04",
+              "y": 1061
+            },
+            {
+              "x": "11-05",
+              "y": 1406
+            },
+            {
+              "x": "11-06",
+              "y": 1141
+            },
+            {
+              "x": "11-07",
+              "y": 1101
+            },
+            {
+              "x": "11-08",
+              "y": 1061
+            },
+            {
+              "x": "11-09",
+              "y": 1113
+            },
+            {
+              "x": "11-10",
+              "y": 1176
+            },
+            {
+              "x": "11-11",
+              "y": 1111
+            },
+            {
+              "x": "11-12",
+              "y": 1082
+            },
+            {
+              "x": "11-13",
+              "y": 1059
+            },
+            {
+              "x": "11-14",
+              "y": 1265
+            },
+            {
+              "x": "11-15",
+              "y": 1168
+            },
+            {
+              "x": "11-16",
+              "y": 1517
+            },
+            {
+              "x": "11-17",
+              "y": 1173
+            },
+            {
+              "x": "11-18",
+              "y": 1054
+            },
+            {
+              "x": "11-19",
+              "y": 964
+            },
+            {
+              "x": "11-20",
+              "y": 295157
+            }
+          ],
+          "cites": [
+            "views:en:Riemann_hypothesis:30d"
+          ]
+        },
+        {
+          "label": "Levent Alpöge",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-22",
+              "y": 385
+            },
+            {
+              "x": "10-23",
+              "y": 325
+            },
+            {
+              "x": "10-24",
+              "y": 260
+            },
+            {
+              "x": "10-25",
+              "y": 260
+            },
+            {
+              "x": "10-26",
+              "y": 435
+            },
+            {
+              "x": "10-27",
+              "y": 815
+            },
+            {
+              "x": "10-28",
+              "y": 732
+            },
+            {
+              "x": "10-29",
+              "y": 710
+            },
+            {
+              "x": "10-30",
+              "y": 637
+            },
+            {
+              "x": "10-31",
+              "y": 350
+            },
+            {
+              "x": "11-01",
+              "y": 341
+            },
+            {
+              "x": "11-02",
+              "y": 370
+            },
+            {
+              "x": "11-03",
+              "y": 367
+            },
+            {
+              "x": "11-04",
+              "y": 241
+            },
+            {
+              "x": "11-05",
+              "y": 260
+            },
+            {
+              "x": "11-06",
+              "y": 279
+            },
+            {
+              "x": "11-07",
+              "y": 254
+            },
+            {
+              "x": "11-08",
+              "y": 284
+            },
+            {
+              "x": "11-09",
+              "y": 317
+            },
+            {
+              "x": "11-10",
+              "y": 378
+            },
+            {
+              "x": "11-11",
+              "y": 428
+            },
+            {
+              "x": "11-12",
+              "y": 357
+            },
+            {
+              "x": "11-13",
+              "y": 274
+            },
+            {
+              "x": "11-14",
+              "y": 219
+            },
+            {
+              "x": "11-15",
+              "y": 317
+            },
+            {
+              "x": "11-16",
+              "y": 318
+            },
+            {
+              "x": "11-17",
+              "y": 345
+            },
+            {
+              "x": "11-18",
+              "y": 378
+            },
+            {
+              "x": "11-19",
+              "y": 969
+            },
+            {
+              "x": "11-20",
+              "y": 124632
+            }
+          ],
+          "cites": [
+            "views:en:Levent_Alpöge:30d"
+          ]
+        },
+        {
+          "label": "Anthropic",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "10-22",
+              "y": 7553
+            },
+            {
+              "x": "10-23",
+              "y": 6267
+            },
+            {
+              "x": "10-24",
+              "y": 5226
+            },
+            {
+              "x": "10-25",
+              "y": 5080
+            },
+            {
+              "x": "10-26",
+              "y": 19228
+            },
+            {
+              "x": "10-27",
+              "y": 20329
+            },
+            {
+              "x": "10-28",
+              "y": 12319
+            },
+            {
+              "x": "10-29",
+              "y": 10278
+            },
+            {
+              "x": "10-30",
+              "y": 9360
+            },
+            {
+              "x": "10-31",
+              "y": 7776
+            },
+            {
+              "x": "11-01",
+              "y": 6587
+            },
+            {
+              "x": "11-02",
+              "y": 8845
+            },
+            {
+              "x": "11-03",
+              "y": 8931
+            },
+            {
+              "x": "11-04",
+              "y": 7188
+            },
+            {
+              "x": "11-05",
+              "y": 6818
+            },
+            {
+              "x": "11-06",
+              "y": 6690
+            },
+            {
+              "x": "11-07",
+              "y": 5029
+            },
+            {
+              "x": "11-08",
+              "y": 4759
+            },
+            {
+              "x": "11-09",
+              "y": 6523
+            },
+            {
+              "x": "11-10",
+              "y": 13867
+            },
+            {
+              "x": "11-11",
+              "y": 13634
+            },
+            {
+              "x": "11-12",
+              "y": 12690
+            },
+            {
+              "x": "11-13",
+              "y": 12116
+            },
+            {
+              "x": "11-14",
+              "y": 8867
+            },
+            {
+              "x": "11-15",
+              "y": 10312
+            },
+            {
+              "x": "11-16",
+              "y": 13018
+            },
+            {
+              "x": "11-17",
+              "y": 14484
+            },
+            {
+              "x": "11-18",
+              "y": 23680
+            },
+            {
+              "x": "11-19",
+              "y": 112202
+            },
+            {
+              "x": "11-20",
+              "y": 89567
+            }
+          ],
+          "cites": [
+            "views:en:Anthropic:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-20T00:00:34Z",
+      "until": "2026-11-20T00:00:57Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "295,157",
+          "value": 295157,
+          "color": "#5fc9b8",
+          "cites": [
+            "views:en:Riemann_hypothesis:2026-11-20"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "35,396",
+          "value": 35396,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Hypothèse_de_Riemann:2026-11-20"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "30,852",
+          "value": 30852,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Riemannsche_Vermutung:2026-11-20"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "15,157",
+          "value": 15157,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Hipoteza_Riemanna:2026-11-20"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "10,755",
+          "value": 10755,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:リーマン予想:2026-11-20"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "9,620",
+          "value": 9620,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:黎曼猜想:2026-11-20"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "9,583",
+          "value": 9583,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Гипотеза_Римана:2026-11-20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-20T00:00:58Z",
+      "until": "2026-11-20T00:01:05Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/c6pqr2g7w059o",
+          "cites": [
+            "wiki:2026-11-20:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-20T00:01:06Z",
+      "until": "2026-11-20T00:01:12Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-20:10"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386894649:189"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Riemann_hypothesis:2026-11-20"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q205966:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-21T07:41:37Z",
+    "costUsd": 0.001801
+  }
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "wiki:2026-11-20:5",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-20T00:00:00Z",
+    "lon": -88.89,
+    "lat": 13.69,
+    "label": "Conflict: Three Salvadoran soldiers are killed and another is injured when explosives they are handling detonate.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_20&oldid=1386872432",
+    "quote": "Three Salvadoran soldiers are killed and another is injured when explosives they are handling detonate.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "La Prensa Gráfica",
+        "url": "https://www.laprensagrafica.com/elsalvador/dos-soldados-salvadorenos-muertos-en-haiti-tras-explosion-en-campamento-20261120-0033.html"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-20:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-20T00:00:00Z",
+    "lon": -72.22,
+    "lat": 19.26,
+    "label": "Conflict: The governments of Haiti and El Salvador agree to build three new prisons to incarcerate Haitian gang members.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_20&oldid=1386872432",
+    "quote": "The governments of Haiti and El Salvador agree to build three new prisons to incarcerate Haitian gang members.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/el-salvador-haiti-troops-killed-injured-bukele-c3192c1276fd235b727666a05062db00"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:efddfae4739d",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Al Jazeera: Haiti police say 34 gang members killed in capital raid (00:31 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid",
+    "quote": "Haiti police say 34 gang members killed in capital raid",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q141921562:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "label": "Wikidata: \"Salvadoran military intervention in Haiti\" is an instance of search and rescue, combat search and rescue, military intervention",
+    "url": "https://www.wikidata.org/wiki/Q141921562",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386870897:84",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC)",
+    "quote": "On 20 November, three Salvadoran soldiers were killed and another was injured when explosives they were handling detonated.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:rev:1386870897:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC)",
+    "quote": "Since 21 October 2026, El Salvador has been conducting a military intervention in Haiti following a gang ambush on 18 October that resulted in four Salvadoran aviation technicians of the Gang Suppression Force (GSF) being kidnapped.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "views:en:Salvadoran_military_intervention_in_Haiti:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Salvadoran military intervention in Haiti\", 29 October 2026 to 20 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Salvadoran_military_intervention_in_Haiti&range=latest-30"
+  },
+  {
+    "id": "wd:Q141921562:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Salvadoran military intervention in Haiti\": began 21 October 2026",
+    "url": "https://www.wikidata.org/wiki/Q141921562#P580"
+  },
+  {
+    "id": "wd:Q141921562:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Salvadoran military intervention in Haiti\": location Ouest",
+    "url": "https://www.wikidata.org/wiki/Q141921562#P276"
+  },
+  {
+    "id": "wd:Q141921562:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Salvadoran military intervention in Haiti\": country Haiti, El Salvador",
+    "url": "https://www.wikidata.org/wiki/Q141921562#P17"
+  },
+  {
+    "id": "wiki:week:1386870897:84",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): dated sentence",
+    "quote": "On 20 November, three Salvadoran soldiers were killed and another was injured when explosives they were handling detonated.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:week:1386870897:93",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): dated sentence",
+    "quote": "On 20 November, Pélissier announced that it and El Salvador will build three new prisons to incarcerate gang members.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:week:1386870897:75",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): dated sentence",
+    "quote": "On 18 November, Salvadoran helicopters destroyed a house in Canaan belonging to Jeff Larose, the leader of the Taliban gang, but it is unknown if Larose was killed.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:week:1386870897:123",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): dated sentence",
+    "quote": "demonstrating in support of the intervention, 17 November]]",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:week:1386870897:54",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): dated sentence",
+    "quote": "On 16 November, Salvadoran justice minister Gustavo Villatoro reiterated that all Salvadoran troops would withdraw from Haiti once the technicians were recovered.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:box:1386870897:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): side 1: Gang Suppression Force, Task Force mercenaries, Logistical support:",
+    "quote": "Gang Suppression Force, Task Force mercenaries, Logistical support:",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:box:1386870897:side-2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): side 2: Haitian gangs, 400 Mawozo, Chèn Méchan",
+    "quote": "Haitian gangs, 400 Mawozo, Chèn Méchan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:box:1386870897:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): Status: Ongoing",
+    "quote": "Ongoing",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:box:1386870897:casualties-side-1-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): Casualties (side 1): 3 Salvadorans killed; 1 Salvadoran injured",
+    "quote": "3 Salvadorans killed; 1 Salvadoran injured",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:box:1386870897:casualties-side-2-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): Casualties (side 2): ~74 killed",
+    "quote": "~74 killed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  },
+  {
+    "id": "wiki:box:1386870897:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-20T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Salvadoran military intervention in Haiti\" (revision of 2026-11-21 03:42 UTC): Casualties: 26+ civilians killed, 30 civilians wounded",
+    "quote": "26+ civilians killed, 30 civilians wounded",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salvadoran_military_intervention_in_Haiti&oldid=1386870897"
+  }
+]

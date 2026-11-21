@@ -1,0 +1,794 @@
+{
+  "version": 1,
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-21T07:40:59Z",
+  "candidates": 47,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "a-russian-kh-101-cruise-missile-strikes-a-field-near-the-vil",
+      "lens": "conflict",
+      "title": "A Russian Kh-101 cruise missile strikes a field near the village of Nowy…",
+      "summary": "A Russian Kh-101 cruise missile strikes a field near the village of Nowy Lipowiec in Lublin Voivodeship, Poland, around 60 miles from a Coalition of the Willing training excercise. Air raid alerts are issued in Lublin and Podkarpackie Voivodeship.",
+      "article": {
+        "title": "Violations of non-combatant airspace during the Russo-Ukrainian war",
+        "url": "https://en.wikipedia.org/wiki/Violations_of_non-combatant_airspace_during_the_Russo-Ukrainian_war",
+        "qid": "Q125217421"
+      },
+      "place": {
+        "name": "Nowy Lipowiec",
+        "lon": 22.81666667,
+        "lat": 50.43333333,
+        "country": "PL",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-20:4"
+      },
+      "continent": "Europe",
+      "heat": 100,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "9 headlines over 8 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "What we know about the latest Russian missile strikes on Ukraine",
+          "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o",
+          "t": "2026-11-20T15:14:01Z",
+          "evidence": "news:bbc:a8ca822f64d0"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Poland condemns Russian ‘provocation’ after airspace violations",
+          "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations",
+          "t": "2026-11-20T15:18:26Z",
+          "evidence": "news:aljazeera:5721f8700f62"
+        },
+        {
+          "outlet": "france24",
+          "title": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
+          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+          "t": "2026-11-20T06:50:49Z",
+          "evidence": "news:france24:388c1dca5fe6"
+        },
+        {
+          "outlet": "dw",
+          "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+          "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822",
+          "t": "2026-11-20T09:58:00Z",
+          "evidence": "news:dw:293d8a782752"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-20:4",
+        "news:bbc:a8ca822f64d0",
+        "news:aljazeera:5721f8700f62",
+        "wd:Q125217421:P31",
+        "news:france24:388c1dca5fe6",
+        "news:dw:293d8a782752"
+      ],
+      "headline": "A Russian Kh-101 cruise missile strikes a field near the village of Nowy Lipowiec in Lublin Voivodeship, Poland, around 60 miles from a Coalition of the Willing training excercise."
+    },
+    {
+      "slug": "iraqi-prime-minister-ali-al-zaidi-announces-that-an-agreemen",
+      "lens": "general",
+      "title": "Iraqi prime minister Ali al-Zaidi announces that an agreement has been reached…",
+      "summary": "Iraqi prime minister Ali al-Zaidi announces that an agreement has been reached with Kata'ib Hezbollah to establish a joint operations center and jointly station troops in Jurf al-Sakhar, south of Baghdad, after having threatened to send Iraqi security forces into the group's stronghold.",
+      "article": {
+        "title": "Politics of Iraq",
+        "url": "https://en.wikipedia.org/wiki/Politics_of_Iraq",
+        "qid": "Q1154038"
+      },
+      "place": {
+        "name": "Jurf al-Sakhar",
+        "lon": 44.21388889,
+        "lat": 32.86666667,
+        "country": "IQ",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-20:9"
+      },
+      "continent": "Asia",
+      "heat": 85,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Iraqi security forces deploy in Hezbollah stronghold under compromise deal",
+          "url": "https://www.france24.com/en/middle-east/20261120-iraqi-security-forces-to-deploy-in-hezbollah-stronghold-under-compromise-deal",
+          "t": "2026-11-20T08:37:27Z",
+          "evidence": "news:france24:1654847de472"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Kataib Hezbollah faces deadline to leave Iraqi stronghold",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kataib-hezbollah-faces-deadline-to-leave-iraqi-stronghold",
+          "t": "2026-11-20T11:10:06Z",
+          "evidence": "news:aljazeera:4dd2dad723dc"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-20:9",
+        "news:france24:1654847de472",
+        "wd:Q1154038:P31",
+        "news:aljazeera:4dd2dad723dc"
+      ],
+      "headline": "Iraqi prime minister Ali al-Zaidi announces that an agreement has been reached with Kata'ib Hezbollah to establish a joint operations center and jointly station troops in Jurf al-Sakhar, south of Baghdad…"
+    },
+    {
+      "slug": "the-u-n-s-top-court-rules-myanmar-committed-genocide-against",
+      "lens": "conflict",
+      "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+      "summary": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+      "about": "The Rohingya genocide is an ongoing series of killings and persecutions of the Muslim Rohingya people by the Tatmadaw armed forces of Myanmar. The genocide has consisted of two phases: an initial military crackdown from October 2016 to January 2017, and a renewed persecution from August 2017.",
+      "article": {
+        "title": "Rohingya genocide",
+        "url": "https://en.wikipedia.org/wiki/Rohingya_genocide",
+        "qid": "Q28136551"
+      },
+      "place": {
+        "name": "Myanmar",
+        "lon": 95.8,
+        "lat": 21.57,
+        "country": "MM",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 78,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "7 headlines over 14 hours"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Tears of joy, prayers for return home: Rohingya react to genocide ruling",
+          "url": "https://www.aljazeera.com/news/2026/11/20/tears-of-joy-prayers-for-return-home-rohingya-react-to-genocide-ruling",
+          "t": "2026-11-20T05:36:21Z",
+          "evidence": "news:aljazeera:ef3aca7486e9"
+        },
+        {
+          "outlet": "sky",
+          "title": "Myanmar rejects UN court's genocide ruling as 'unfair'",
+          "url": "https://news.sky.com/story/myanmar-rejects-un-courts-rohingya-genocide-guilty-verdict-as-unfair-13614272",
+          "t": "2026-11-20T09:15:00Z",
+          "evidence": "news:sky:04c26659bad3"
+        },
+        {
+          "outlet": "guardian",
+          "title": "US reacts cautiously to Myanmar genocide ruling as EU praises ‘critical’ role of UN’s top court",
+          "url": "https://www.theguardian.com/law/2026/nov/20/us-eu-reaction-myanmar-rohingya-genocide-icj-ruling-trump-international-law",
+          "t": "2026-11-20T11:57:43Z",
+          "evidence": "news:guardian:644ba74b9c8e"
+        },
+        {
+          "outlet": "dw",
+          "title": "Myanmar genocide ruling: Rohingya say struggle for justice not over",
+          "url": "https://www.dw.com/en/myanmar-genocide-ruling-rohingya-say-struggle-for-justice-not-over/a-80003365",
+          "t": "2026-11-20T13:38:00Z",
+          "evidence": "news:dw:347a55d37759"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:ef3aca7486e9",
+        "news:sky:04c26659bad3",
+        "news:guardian:644ba74b9c8e",
+        "news:dw:347a55d37759"
+      ],
+      "headline": "Tears of joy, prayers for return home: Rohingya react to genocide ruling, Al Jazeera reports."
+    },
+    {
+      "slug": "white-house-replaces-cyber-security-chief-after-tech-outages",
+      "lens": "general",
+      "title": "White House replaces cyber security chief after tech outages",
+      "summary": "White House replaces cyber security chief after tech outages",
+      "about": "The White House is the official residence and workplace of the president of the United States. Located at 1600 Pennsylvania Avenue NW in Washington, D.C., it has served as the residence of every U.S. president since John Adams in 1800 when the national capital was moved from Philadelphia.",
+      "article": {
+        "title": "White House",
+        "url": "https://en.wikipedia.org/wiki/White_House",
+        "qid": "Q35525"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 72,
+      "why": [
+        "Reported by 4 outlets from 2 regions"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "White House fires national cyber director over widespread outages",
+          "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
+          "t": "2026-11-20T01:28:47Z",
+          "evidence": "news:france24:e5d5af4d4476"
+        },
+        {
+          "outlet": "dw",
+          "title": "White House replaces cyber security chief after tech outages",
+          "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531",
+          "t": "2026-11-20T04:21:00Z",
+          "evidence": "news:dw:9eac64988758"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Trump bows to pressure, replaces US cyber security director",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-bows-to-pressure-replaces-us-cyber-security-director",
+          "t": "2026-11-20T05:48:35Z",
+          "evidence": "news:aljazeera:16e64eac61a6"
+        },
+        {
+          "outlet": "bbc",
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo",
+          "t": "2026-11-20T19:03:56Z",
+          "evidence": "news:bbc:ff725159f4b9"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:e5d5af4d4476",
+        "news:dw:9eac64988758",
+        "news:aljazeera:16e64eac61a6",
+        "news:bbc:ff725159f4b9"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-14",
+            "slug": "trump-putin-and-xi-plan-historic-joint-meeting-in-china-next",
+            "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says"
+          }
+        ]
+      },
+      "headline": "White House replaces cyber security chief after tech outages, DW reports."
+    },
+    {
+      "slug": "three-salvadoran-soldiers-are-killed-and-another-is-injured",
+      "lens": "conflict",
+      "title": "Three Salvadoran soldiers are killed and another is injured when explosives…",
+      "summary": "Three Salvadoran soldiers are killed and another is injured when explosives they are handling detonate.",
+      "article": {
+        "title": "Salvadoran military intervention in Haiti",
+        "url": "https://en.wikipedia.org/wiki/Salvadoran_military_intervention_in_Haiti",
+        "qid": "Q141921562"
+      },
+      "place": {
+        "name": "El Salvador",
+        "lon": -88.89,
+        "lat": 13.69,
+        "country": "SV",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-20:5"
+      },
+      "continent": "North America",
+      "heat": 72,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events",
+        "34 people involved, per the headlines"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Haiti police say 34 gang members killed in capital raid",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid",
+          "t": "2026-11-20T00:31:02Z",
+          "evidence": "news:aljazeera:efddfae4739d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-20:5",
+        "wiki:2026-11-20:6",
+        "news:aljazeera:efddfae4739d",
+        "wd:Q141921562:P31"
+      ],
+      "headline": "Three Salvadoran soldiers are killed and another is injured when explosives they are handling detonate."
+    },
+    {
+      "slug": "brussels-london-eye-reset-deal-at-burnham-s-eu-summit",
+      "lens": "general",
+      "title": "Brussels, London eye 'reset' deal at Burnham's EU summit",
+      "summary": "Brussels, London eye 'reset' deal at Burnham's EU summit",
+      "about": "Brexit (; a portmanteau of \"Britain\" and \"exit\") was the withdrawal of the United Kingdom (UK) from the European Union (EU). Brexit took place at 23:00 GMT on 31 January 2020.",
+      "article": {
+        "title": "Brexit",
+        "url": "https://en.wikipedia.org/wiki/Brexit",
+        "qid": "Q7888194"
+      },
+      "place": {
+        "name": "Brussels",
+        "lon": 4.33,
+        "lat": 50.84,
+        "country": "BE",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 66,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "EU and UK set to sign deals on trade, energy, youth mobility at Brussels summit",
+          "url": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit",
+          "t": "2026-11-20T02:00:15Z",
+          "evidence": "news:france24:38d65333a954"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "EU and UK seal reset deal",
+          "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal",
+          "t": "2026-11-20T11:20:19Z",
+          "evidence": "news:aljazeera:e75dec5a5373"
+        },
+        {
+          "outlet": "guardian",
+          "title": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+          "t": "2026-11-20T17:59:55Z",
+          "evidence": "news:guardian:dc34d93d0790"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:38d65333a954",
+        "news:aljazeera:e75dec5a5373",
+        "news:guardian:dc34d93d0790"
+      ],
+      "headline": "EU and UK set to sign deals on trade, energy, youth mobility at Brussels summit, France 24 reports."
+    },
+    {
+      "slug": "trump-threatens-tax-on-us-tech-firms-building-ai-data-centre",
+      "lens": "person",
+      "title": "Trump threatens tax on US tech firms building AI data centres abroad",
+      "summary": "Trump threatens tax on US tech firms building AI data centres abroad",
+      "about": "Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.",
+      "article": {
+        "title": "Donald Trump",
+        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "qid": "Q22686"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 65,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Trump threatens ban on US firms building AI data centres overseas",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko",
+          "t": "2026-11-20T20:54:12Z",
+          "evidence": "news:bbc:1d859d9b959d"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Trump threatens tax on US tech firms building AI data centres abroad",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126",
+          "t": "2026-11-20T21:10:53Z",
+          "evidence": "news:aljazeera:5c469b0a40bd"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+          "t": "2026-11-20T21:47:41Z",
+          "evidence": "news:guardian:9a3814295544"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:1d859d9b959d",
+        "news:aljazeera:5c469b0a40bd",
+        "news:guardian:9a3814295544"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-15",
+            "slug": "faa-lifts-nationwide-ground-stop-on-all-us-flights",
+            "title": "FAA lifts nationwide ground stop on all US flights"
+          },
+          {
+            "date": "2026-11-14",
+            "slug": "faa-lifts-nationwide-ground-stop-on-all-us-flights",
+            "title": "FAA lifts nationwide ground stop on all US flights"
+          }
+        ]
+      },
+      "headline": "Trump threatens tax on US tech firms building AI data centres abroad, Al Jazeera reports."
+    },
+    {
+      "slug": "us-pentagon-chief-hegseth-signs-military-deal-in-venezuela",
+      "lens": "conflict",
+      "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
+      "summary": "US Pentagon chief Hegseth signs military deal in Venezuela",
+      "about": "Brexit (; a portmanteau of \"Britain\" and \"exit\") was the withdrawal of the United Kingdom (UK) from the European Union (EU). Brexit took place at 23:00 GMT on 31 January 2020.",
+      "article": {
+        "title": "Brexit",
+        "url": "https://en.wikipedia.org/wiki/Brexit",
+        "qid": "Q7888194"
+      },
+      "place": {
+        "name": "Venezuela",
+        "lon": -64.6,
+        "lat": 7.18,
+        "country": "VE",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 62,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "npr",
+          "title": "The U.K. and EU hold a rare summit to strengthen ties",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+          "t": "2026-11-20T09:14:41Z",
+          "evidence": "news:npr:3e03a94e8a13"
+        },
+        {
+          "outlet": "dw",
+          "title": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+          "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076",
+          "t": "2026-11-20T11:30:00Z",
+          "evidence": "news:dw:f051330b8f6b"
+        },
+        {
+          "outlet": "france24",
+          "title": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
+          "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
+          "t": "2026-11-20T17:06:59Z",
+          "evidence": "news:france24:fb622c5a1ee8"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:npr:3e03a94e8a13",
+        "news:dw:f051330b8f6b",
+        "news:france24:fb622c5a1ee8"
+      ],
+      "headline": "The U.K. and EU hold a rare summit to strengthen ties, NPR reports."
+    },
+    {
+      "slug": "el-salvador-s-bukele-seeks-third-term-after-constitution-cha",
+      "lens": "person",
+      "title": "El Salvador’s Bukele seeks third term after constitution change",
+      "summary": "El Salvador’s Bukele seeks third term after constitution change",
+      "about": "Nayib Armando Bukele Ortez (born 24 July 1981) is a Salvadoran politician who has served as the 43rd president of El Salvador since 2019. In 1999, Bukele established an advertising company and worked at another owned by his father, Armando Bukele Kattán.",
+      "article": {
+        "title": "Nayib Bukele",
+        "url": "https://en.wikipedia.org/wiki/Nayib_Bukele",
+        "qid": "Q17712353"
+      },
+      "place": {
+        "name": "El Salvador",
+        "lon": -88.89,
+        "lat": 13.69,
+        "country": "SV",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 57,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "El Salvador’s Bukele expected to formalise bid for third presidential term",
+          "url": "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-expected-to-formalise-bid-for-third-presidential-term",
+          "t": "2026-11-20T00:22:02Z",
+          "evidence": "news:aljazeera:eb2419a6de7c"
+        },
+        {
+          "outlet": "france24",
+          "title": "El Salvador: Nayib Bukele, self-proclaimed “coolest dictator on earth”, is seeking a third term",
+          "url": "https://www.france24.com/en/el-salvador-nayib-bukele-self-proclaimed-coolest-dictator-on-earth-is-seeking-a-third-term",
+          "t": "2026-11-20T12:07:14Z",
+          "evidence": "news:france24:1aebd0b55990"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:eb2419a6de7c",
+        "news:france24:1aebd0b55990"
+      ],
+      "headline": "El Salvador’s Bukele expected to formalise bid for third presidential term, Al Jazeera reports."
+    },
+    {
+      "slug": "pakistan-minister-to-visit-india-but-no-breakthrough-expecte",
+      "lens": "culture",
+      "title": "Pakistan minister to visit India, but no breakthrough expected",
+      "summary": "Pakistan minister to visit India, but no breakthrough expected",
+      "about": "Índia is the fourth studio album by Brazilian singer Gal Costa, released on 1973 by Philips Records. Its major hits were \"Índia\", \"Volta\" and \"Desafinado\".",
+      "article": {
+        "title": "Índia",
+        "url": "https://en.wikipedia.org/wiki/%C3%8Dndia",
+        "qid": "Q10396403"
+      },
+      "place": {
+        "name": "Delhi",
+        "lon": 77.23,
+        "lat": 28.67,
+        "country": "IN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 43,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "India: Pakistani minister visits Delhi for SCO forum amid frozen ties",
+          "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264",
+          "t": "2026-11-20T08:20:00Z",
+          "evidence": "news:dw:d096d9f0fd84"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Pakistan minister visits India for first time since 2025 war",
+          "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war",
+          "t": "2026-11-20T09:11:57Z",
+          "evidence": "news:aljazeera:4367cfbc6a78"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:d096d9f0fd84",
+        "news:aljazeera:4367cfbc6a78"
+      ],
+      "headline": "Pakistani minister visits Delhi for SCO forum amid frozen ties, DW reports."
+    },
+    {
+      "slug": "riemann-hypothesis",
+      "lens": "science",
+      "title": "Riemann hypothesis",
+      "summary": "Anthropic employee and mathematician Levent Alpöge releases a claimed proof of the Riemann hypothesis. The proof was created with assistance from Claude.",
+      "about": "\nIn mathematics, the Riemann hypothesis is the statement that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. Historically, it has had the status of being one of the most important unsolved problems in pure mathematics. It is of great interest in number theory because it implies results about the distribution of prime numbers. It is named after Bernhard Riemann, who proposed it in 1859.",
+      "article": {
+        "title": "Riemann hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+        "qid": "Q205966"
+      },
+      "heat": 40,
+      "why": [
+        "Listed on Wikipedia's Current events",
+        "Read by 509,000 on Wikipedia that day"
+      ],
+      "readers": 509356,
+      "spike": 186.6,
+      "sources": 1,
+      "related": [
+        "Levent Alpöge",
+        "Anthropic"
+      ],
+      "evidence": [
+        "wiki:2026-11-20:10",
+        "views:en:Riemann_hypothesis:2026-11-20",
+        "views:en:Riemann_hypothesis:prior",
+        "views:en:Levent_Alpöge:2026-11-20",
+        "views:en:Levent_Alpöge:prior",
+        "views:en:Anthropic:2026-11-20",
+        "views:en:Anthropic:prior",
+        "wd:Q205966:P31"
+      ],
+      "headline": "Anthropic employee and mathematician Levent Alpöge releases a claimed proof of the Riemann hypothesis. The proof was created with assistance from Claude."
+    },
+    {
+      "slug": "infantino-to-face-france-s-diallo-and-japan-s-tashima-in-fif",
+      "lens": "sports",
+      "title": "Infantino to face France's Diallo and Japan's Tashima in FIFA presidential election",
+      "summary": "Infantino to face France's Diallo and Japan's Tashima in FIFA presidential election",
+      "about": "The Fédération Internationale de Football Association (FIFA) (French for 'Federation international football association') is an international self-regulatory governing body of association football, beach soccer, and futsal. It was founded on 21 May 1904 to oversee international competition among the national…",
+      "article": {
+        "title": "FIFA",
+        "url": "https://en.wikipedia.org/wiki/FIFA",
+        "qid": "Q253414"
+      },
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 38,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "sports",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Infantino, Tashima and Diallo officially enter FIFA presidential race",
+          "url": "https://www.france24.com/en/tv-shows/sports/20261120-fifa-infantino-tashima-and-diallo-enter-presidential-race",
+          "t": "2026-11-20T06:14:03Z",
+          "evidence": "news:france24:b1f13ff46576"
+        },
+        {
+          "outlet": "dw",
+          "title": "FIFA presidential election 2027: Infantino facing Diallo and Tashima — could an alliance change everything?",
+          "url": "https://www.dw.com/en/fifa-presidential-election-2027-infantino-facing-diallo-and-tashima-could-an-alliance-change-everything/a-80002882",
+          "t": "2026-11-20T12:58:00Z",
+          "evidence": "news:dw:01040a665cff"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:b1f13ff46576",
+        "news:dw:01040a665cff"
+      ],
+      "headline": "Infantino, Tashima and Diallo officially enter FIFA presidential race, France 24 reports."
+    },
+    {
+      "slug": "denmark-expels-russian-diplomat-over-alleged-plot-to-kill-uk",
+      "lens": "culture",
+      "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+      "summary": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+      "about": "The Russian census identified that there were more than 5,864,000 Ukrainians and Ukrainian citizens living in Russia in 2015, representing over 4.01% of the total population of the Russian Federation and comprising the eighth-largest ethnic group. In February 2022 there were roughly 3 million Ukrainians who fled to…",
+      "article": {
+        "title": "Ukrainians in Russia",
+        "url": "https://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+        "qid": "Q1977290"
+      },
+      "place": {
+        "name": "Denmark",
+        "lon": 9.02,
+        "lat": 55.97,
+        "country": "DK",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 35,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "culture",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
+          "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+          "t": "2026-11-20T18:16:12Z",
+          "evidence": "news:guardian:86b740478c70"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno",
+          "t": "2026-11-20T21:57:07Z",
+          "evidence": "news:bbc:3a2a08725f01"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:86b740478c70",
+        "news:bbc:3a2a08725f01"
+      ],
+      "headline": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper, The Guardian reports."
+    },
+    {
+      "slug": "larry-poindexter",
+      "lens": "person",
+      "title": "Larry Poindexter",
+      "summary": "American actor (1959–2026)",
+      "about": "Larry Poindexter was an American actor and singer.",
+      "article": {
+        "title": "Larry Poindexter",
+        "url": "https://en.wikipedia.org/wiki/Larry_Poindexter",
+        "qid": "Q1806102"
+      },
+      "place": {
+        "name": "Los Angeles",
+        "lon": -118.24368,
+        "lat": 34.05223,
+        "country": "US",
+        "role": "Place of death",
+        "evidence": "wd:Q1806102:P20"
+      },
+      "continent": "North America",
+      "heat": 25,
+      "why": [
+        "Died this week",
+        "Read by 51,000 on Wikipedia that day"
+      ],
+      "readers": 51192,
+      "spike": 948,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Larry_Poindexter:2026-11-20",
+        "views:en:Larry_Poindexter:prior",
+        "wd:Q1806102:P31"
+      ],
+      "headline": "Poindexter was hit by a car on November 14, 2026, while crossing a street outside his Studio City apartment."
+    },
+    {
+      "slug": "30-people-are-killed-and-around-300-are-missing-after-a-ship",
+      "lens": "accident",
+      "title": "30 people are killed and around 300 are missing after a ship carrying funeral…",
+      "summary": "30 people are killed and around 300 are missing after a ship carrying funeral goers capsizes in Bayelsa State, Nigeria.",
+      "article": {
+        "title": "2026 Bayelsa boat disaster",
+        "url": "https://en.wikipedia.org/wiki/2026_Bayelsa_boat_disaster"
+      },
+      "place": {
+        "name": "Bayelsa State",
+        "lon": 6.08333333,
+        "lat": 4.75,
+        "country": "NG",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-20:7"
+      },
+      "continent": "Africa",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-20:7"
+      ],
+      "headline": "30 people are killed and around 300 are missing after a ship carrying funeral goers capsizes in Bayelsa State, Nigeria."
+    }
+  ]
+}
