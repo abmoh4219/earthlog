@@ -1,0 +1,869 @@
+{
+  "version": 1,
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-22T07:26:12Z",
+  "candidates": 45,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "alleged-mexican-drug-cartel-boss-el-chapo-isidro-arrested-in",
+      "lens": "general",
+      "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "summary": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "place": {
+        "name": "Mexico",
+        "lon": -102.29,
+        "lat": 23.92,
+        "country": "MX",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 100,
+      "why": [
+        "Reported by 6 outlets from 3 regions",
+        "11 people involved, per the headlines"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Mexico captures FBI-wanted cartel boss in military raid",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid",
+          "t": "2026-11-21T11:53:56Z",
+          "evidence": "news:aljazeera:1b6e22f84ea9"
+        },
+        {
+          "outlet": "sky",
+          "title": "At least 11 dead after suspected cartel leader 'El Chapo Isidro' captured in Mexico",
+          "url": "https://news.sky.com/story/suspected-cartel-leader-el-chapo-isidro-from-fbi-most-wanted-list-captured-in-mexico-13614689",
+          "t": "2026-11-21T13:34:00Z",
+          "evidence": "news:sky:b0b444264324"
+        },
+        {
+          "outlet": "france24",
+          "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
+          "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
+          "t": "2026-11-21T15:00:15Z",
+          "evidence": "news:france24:4de2de04ed1f"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "t": "2026-11-21T17:46:55Z",
+          "evidence": "news:guardian:2681b8486e62"
+        },
+        {
+          "outlet": "npr",
+          "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+          "t": "2026-11-21T18:08:55Z",
+          "evidence": "news:npr:5b76dfe3de30"
+        },
+        {
+          "outlet": "dw",
+          "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
+          "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745",
+          "t": "2026-11-21T18:30:00Z",
+          "evidence": "news:dw:0adb20796144"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:1b6e22f84ea9",
+        "news:sky:b0b444264324",
+        "news:france24:4de2de04ed1f",
+        "news:guardian:2681b8486e62",
+        "news:npr:5b76dfe3de30",
+        "news:dw:0adb20796144"
+      ],
+      "headline": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid, The Guardian reports."
+    },
+    {
+      "slug": "the-finnish-defence-ministry-imposes-temporary-airspace-and",
+      "lens": "conflict",
+      "title": "The Finnish defence ministry imposes temporary airspace and maritime…",
+      "summary": "The Finnish defence ministry imposes temporary airspace and maritime restrictions after a drone struck a Russian cargo vessel in international waters of the Gulf of Finland, causing a fire.",
+      "article": {
+        "title": "2026 drone incursions into the Baltic states and Finland",
+        "url": "https://en.wikipedia.org/wiki/2026_drone_incursions_into_the_Baltic_states_and_Finland",
+        "qid": "Q139816187"
+      },
+      "place": {
+        "name": "Gulf of Finland",
+        "lon": 26,
+        "lat": 59.83333333,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-21:3"
+      },
+      "continent": "Europe",
+      "heat": 93,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+          "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+          "t": "2026-11-21T12:35:54Z",
+          "evidence": "news:france24:c7c9c4110e34"
+        },
+        {
+          "outlet": "dw",
+          "title": "Russian helicopter suspected of violating Finnish airspace",
+          "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133",
+          "t": "2026-11-21T17:08:00Z",
+          "evidence": "news:dw:74b233a91706"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Russian crew evacuating ship hit by drones off coast of Finland",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
+          "t": "2026-11-21T12:45:24Z",
+          "evidence": "news:aljazeera:2a872eedd794"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Russia-bound ship attacked in Gulf of Finland",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko",
+          "t": "2026-11-21T19:20:22Z",
+          "evidence": "news:bbc:0afef7db4686"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-21:3",
+        "news:france24:c7c9c4110e34",
+        "news:dw:74b233a91706",
+        "wd:Q139816187:P31",
+        "news:aljazeera:2a872eedd794",
+        "news:bbc:0afef7db4686"
+      ],
+      "headline": "The Finnish defence ministry imposes temporary airspace and maritime restrictions after a drone struck a Russian cargo vessel in international waters of the Gulf of Finland, causing a fire."
+    },
+    {
+      "slug": "saudi-arabia-intercepts-three-missiles-fired-at-riyadh-by-th",
+      "lens": "conflict",
+      "title": "Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.",
+      "summary": "Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.",
+      "article": {
+        "title": "Houthi–Saudi conflict",
+        "url": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict",
+        "qid": "Q20896823"
+      },
+      "place": {
+        "name": "Riyadh",
+        "lon": 46.715,
+        "lat": 24.6383,
+        "country": "SA",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-21:2"
+      },
+      "continent": "Asia",
+      "heat": 88,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "5 headlines over 15 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+          "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+          "t": "2026-11-21T04:32:07Z",
+          "evidence": "news:aljazeera:cb465bd8566b"
+        },
+        {
+          "outlet": "france24",
+          "title": "Houthis launch strikes on Saudi Arabia",
+          "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
+          "t": "2026-11-21T09:49:44Z",
+          "evidence": "news:france24:258e24a13d6a"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-21:2",
+        "news:aljazeera:cb465bd8566b",
+        "wd:Q20896823:P31",
+        "news:france24:258e24a13d6a"
+      ],
+      "headline": "Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis."
+    },
+    {
+      "slug": "denmark-to-expel-russian-diplomat-over-alleged-plot-to-kill",
+      "lens": "culture",
+      "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+      "summary": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+      "about": "The Russian census identified that there were more than 5,864,000 Ukrainians and Ukrainian citizens living in Russia in 2015, representing over 4.01% of the total population of the Russian Federation and comprising the eighth-largest ethnic group. In February 2022 there were roughly 3 million Ukrainians who fled to…",
+      "article": {
+        "title": "Ukrainians in Russia",
+        "url": "https://en.wikipedia.org/wiki/Ukrainians_in_Russia",
+        "qid": "Q1977290"
+      },
+      "place": {
+        "name": "Denmark",
+        "lon": 9.02,
+        "lat": 55.97,
+        "country": "DK",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 81,
+      "why": [
+        "Reported by 5 outlets from 2 regions"
+      ],
+      "topic": "culture",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+          "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper",
+          "t": "2026-11-21T01:12:48Z",
+          "evidence": "news:aljazeera:9581a70467cc"
+        },
+        {
+          "outlet": "sky",
+          "title": "Denmark says it thwarted 'Russian plot' to kill US-Ukrainian rapper",
+          "url": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604",
+          "t": "2026-11-21T05:15:00Z",
+          "evidence": "news:sky:5320fe867b5f"
+        },
+        {
+          "outlet": "france24",
+          "title": "Denmark accuses Russia of assassination plot, expels diplomat",
+          "url": "https://www.france24.com/en/denmark-accuses-russia-of-assassination-plot-expels-diplomat",
+          "t": "2026-11-21T09:51:01Z",
+          "evidence": "news:france24:a5fea2e1ca7c"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno",
+          "t": "2026-11-21T10:26:36Z",
+          "evidence": "news:bbc:3a2a08725f01"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+          "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+          "t": "2026-11-21T14:03:50Z",
+          "evidence": "news:guardian:86b740478c70"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:9581a70467cc",
+        "news:sky:5320fe867b5f",
+        "news:france24:a5fea2e1ca7c",
+        "news:bbc:3a2a08725f01",
+        "news:guardian:86b740478c70"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-20",
+            "slug": "denmark-expels-russian-diplomat-over-alleged-plot-to-kill-uk",
+            "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper"
+          }
+        ]
+      },
+      "headline": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper, The Guardian reports."
+    },
+    {
+      "slug": "cost-of-living-protests-sweep-across-europe",
+      "lens": "conflict",
+      "title": "Cost of living protests sweep across Europe",
+      "summary": "Cost of living protests sweep across Europe",
+      "about": "The Gen Z protests are a series of ongoing political demonstrations, uprisings, and revolutions predominantly led by Generation Z, those born from the mid-to-late 1990s to the early 2010s. While Gen Z has been politically active since the early 2010s, the current wave of protests emerged in the early 2020s.",
+      "article": {
+        "title": "Gen Z protests",
+        "url": "https://en.wikipedia.org/wiki/Gen_Z_protests",
+        "qid": "Q136430456"
+      },
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 76,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "People involved, per the headlines: thousands"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate",
+          "t": "2026-11-21T02:49:16Z",
+          "evidence": "news:aljazeera:efbac095f86f"
+        },
+        {
+          "outlet": "france24",
+          "title": "New day of protests across France",
+          "url": "https://www.france24.com/en/new-day-of-protests-across-france",
+          "t": "2026-11-21T15:50:52Z",
+          "evidence": "news:france24:ebc936830291"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:efbac095f86f",
+        "news:france24:ebc936830291"
+      ],
+      "headline": "Gen Z protests sweep Europe over wars, rising costs and climate, Al Jazeera reports."
+    },
+    {
+      "slug": "indian-man-jailed-over-plot-to-kill-sikh-separatist-in-us",
+      "lens": "general",
+      "title": "Indian man jailed over plot to kill Sikh separatist in US",
+      "summary": "Indian man jailed over plot to kill Sikh separatist in US",
+      "about": "Rikers Island is a 413-acre (167.14-hectare) prison island in the East River in the Bronx, New York City, United States, that contains New York City's largest jail. It is named after Abraham Rycken, who took possession of the island in 1664.",
+      "article": {
+        "title": "Rikers Island",
+        "url": "https://en.wikipedia.org/wiki/Rikers_Island",
+        "qid": "Q120119"
+      },
+      "place": {
+        "name": "New York",
+        "lon": -76,
+        "lat": 43,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 75,
+      "why": [
+        "Reported by 4 outlets from 2 regions"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+          "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo",
+          "t": "2026-11-21T00:01:39Z",
+          "evidence": "news:bbc:3df0760b00a4"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Funeral held for New York teen shot while walking to school",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/funeral-held-for-new-york-teen-shot-while-walking-to-school",
+          "t": "2026-11-21T05:16:15Z",
+          "evidence": "news:aljazeera:faf35688f4e8"
+        },
+        {
+          "outlet": "dw",
+          "title": "US judge jails Indian national in foiled Sikh separatist murder plot",
+          "url": "https://www.dw.com/en/us-judge-jails-indian-national-in-foiled-sikh-separatist-murder-plot/live-80008104",
+          "t": "2026-11-21T07:53:00Z",
+          "evidence": "news:dw:d5e0d47b100e"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Federal judge denies request to release man shot by immigration agents in New York",
+          "url": "https://www.theguardian.com/us-news/2026/nov/21/new-york-judge-ice-shooting-immigration",
+          "t": "2026-11-21T14:52:30Z",
+          "evidence": "news:guardian:880b9b278347"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:3df0760b00a4",
+        "news:aljazeera:faf35688f4e8",
+        "news:dw:d5e0d47b100e",
+        "news:guardian:880b9b278347"
+      ],
+      "headline": "Mamdani announces plan to close New York's Rikers Island jail by 2032, BBC News reports."
+    },
+    {
+      "slug": "french-police-officers-found-guilty-of-racist-assault-on-bla",
+      "lens": "general",
+      "title": "French police officers found guilty of racist assault on black music producer",
+      "summary": "French police officers found guilty of racist assault on black music producer",
+      "about": "French of France is the predominant variety of the French language in France, Andorra and Monaco, in its formal and informal registers. It has, for a long time, been associated with Standard French.",
+      "article": {
+        "title": "French of France",
+        "url": "https://en.wikipedia.org/wiki/French_of_France",
+        "qid": "Q3083196"
+      },
+      "place": {
+        "name": "Paris",
+        "lon": 2.33,
+        "lat": 48.87,
+        "country": "FR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 63,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Three French police officers sentenced over racist assault on Black man",
+          "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man",
+          "t": "2026-11-21T03:01:24Z",
+          "evidence": "news:aljazeera:86c76404e238"
+        },
+        {
+          "outlet": "france24",
+          "title": "French police officers convicted of racist assault",
+          "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
+          "t": "2026-11-21T16:41:49Z",
+          "evidence": "news:france24:b9bb6428f5d5"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:86c76404e238",
+        "news:france24:b9bb6428f5d5"
+      ],
+      "headline": "Three French police officers sentenced over racist assault on Black man, Al Jazeera reports."
+    },
+    {
+      "slug": "trump-meets-putin-and-xi-for-trilateral-us-russia-china-talk",
+      "lens": "economy",
+      "title": "Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC",
+      "summary": "Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC",
+      "about": "The APEC China 2026 was a year-long hosting of the Asia-Pacific Economic Cooperation (APEC) meetings, which concluded with the APEC Economic Leaders' Meeting in November 2026. It will be the third time China hosted the summit, having previously hosted in 2001 and 2014.",
+      "article": {
+        "title": "APEC China 2026",
+        "url": "https://en.wikipedia.org/wiki/APEC_China_2026",
+        "qid": "Q136689033"
+      },
+      "place": {
+        "name": "Shenzhen",
+        "lon": 114.12,
+        "lat": 22.55,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 63,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Trump turns White House press conference into a 2028 succession audition",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio",
+          "t": "2026-11-21T00:16:26Z",
+          "evidence": "news:guardian:f2b965acf306"
+        },
+        {
+          "outlet": "france24",
+          "title": "Was Vladimir Putin 'snubbed' by Xi Jinping? Viral handshake video is AI fake",
+          "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261121-was-vladimir-putin-snubbed-by-xi-jinping-viral-handshake-video-is-ai-fake",
+          "t": "2026-11-21T10:16:44Z",
+          "evidence": "news:france24:e3603b32fc23"
+        },
+        {
+          "outlet": "npr",
+          "title": "What did Xi Jinping get from the bear hug with Trump at the Shenzhen summit?",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6048741/what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the-shenzhen-summit",
+          "t": "2026-11-21T22:01:42Z",
+          "evidence": "news:npr:503ccb2268f6"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:f2b965acf306",
+        "news:france24:e3603b32fc23",
+        "news:npr:503ccb2268f6"
+      ],
+      "update": {
+        "day": 4,
+        "previous": [
+          {
+            "date": "2026-11-18",
+            "slug": "trump-arrives-in-china-ahead-of-trilateral-summit-with-putin",
+            "title": "Trump arrives in China ahead of trilateral summit with Putin and Xi"
+          }
+        ]
+      },
+      "headline": "Trump turns White House press conference into a 2028 succession audition, The Guardian reports."
+    },
+    {
+      "slug": "russia-strikes-zelenskyy-s-hometown-killing-2",
+      "lens": "person",
+      "title": "Russia strikes Zelenskyy's hometown, killing 2",
+      "summary": "Russia strikes Zelenskyy's hometown, killing 2",
+      "about": "Volodymyr Oleksandrovych Zelenskyy (born 25 January 1978) is a Ukrainian politician and former entertainer who has served as the sixth president of Ukraine since 2019. He took office five years after the start of the Russo-Ukrainian war with Russia's annexation of Crimea and invasion of the Donbas, and has continued…",
+      "article": {
+        "title": "Volodymyr Zelenskyy",
+        "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+        "qid": "Q3874799"
+      },
+      "place": {
+        "name": "Russia",
+        "lon": 44.69,
+        "lat": 58.25,
+        "country": "RU",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 61,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "60 people involved, per the headlines"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Russia strikes Zelenskyy's hometown, killing 2",
+          "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458",
+          "t": "2026-11-21T14:44:00Z",
+          "evidence": "news:dw:1c5b88d83c35"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown",
+          "t": "2026-11-21T17:20:03Z",
+          "evidence": "news:aljazeera:2dcbb3efd375"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:1c5b88d83c35",
+        "news:aljazeera:2dcbb3efd375"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-15",
+            "slug": "zelenskyy-urges-removal-of-starshield-limits-on-ukraine",
+            "title": "Zelenskyy urges removal of Starshield limits on Ukraine"
+          }
+        ]
+      },
+      "headline": "Russia strikes Zelenskyy's hometown, killing 2, DW reports."
+    },
+    {
+      "slug": "man-convicted-of-starting-palisades-fire-in-los-angeles",
+      "lens": "disaster",
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "summary": "Man convicted of starting Palisades fire in Los Angeles",
+      "about": "The Palisades Fire was a highly destructive wildfire that began in the Santa Monica Mountains of Los Angeles County on January 7, 2025, and grew to destroy large areas of Pacific Palisades, Topanga, and Malibu before it was fully contained on January 31. One of a series of wildfires in Southern California driven by…",
+      "article": {
+        "title": "Palisades Fire",
+        "url": "https://en.wikipedia.org/wiki/Palisades_Fire",
+        "qid": "Q131700096"
+      },
+      "place": {
+        "name": "Man",
+        "lon": -7.55,
+        "lat": 7.4,
+        "country": "CI",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 59,
+      "why": [
+        "Reported by 4 outlets"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Man accused of sparking deadly Los Angeles wildfire found guilty",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
+          "t": "2026-11-21T01:43:15Z",
+          "evidence": "news:guardian:e9b7d97728f3"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Man convicted of starting Palisades fire in Los Angeles",
+          "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o",
+          "t": "2026-11-21T04:34:00Z",
+          "evidence": "news:bbc:272d3b21cae5"
+        },
+        {
+          "outlet": "dw",
+          "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+          "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933",
+          "t": "2026-11-21T07:10:00Z",
+          "evidence": "news:dw:9f183d2c9cc1"
+        },
+        {
+          "outlet": "france24",
+          "title": "Man convicted of starting palisades fire",
+          "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
+          "t": "2026-11-21T17:21:55Z",
+          "evidence": "news:france24:96bd39830bc4"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:e9b7d97728f3",
+        "news:bbc:272d3b21cae5",
+        "news:dw:9f183d2c9cc1",
+        "news:france24:96bd39830bc4"
+      ],
+      "headline": "Man convicted of starting Palisades fire in Los Angeles, BBC News reports."
+    },
+    {
+      "slug": "at-least-four-people-are-killed-and-35-others-are-injured-in",
+      "lens": "accident",
+      "title": "At least four people are killed and 35 others are injured in a fire at a power…",
+      "summary": "At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq.",
+      "place": {
+        "name": "Basra",
+        "lon": 47.81,
+        "lat": 30.515,
+        "country": "IQ",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-21:9"
+      },
+      "continent": "Asia",
+      "heat": 57,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events",
+        "35 people involved, per the headlines"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "At least four killed, 35 injured in fire at power station in Iraq’s Basra",
+          "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq",
+          "t": "2026-11-21T07:25:29Z",
+          "evidence": "news:aljazeera:fdd7c6d47daa"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-21:9",
+        "news:aljazeera:fdd7c6d47daa"
+      ],
+      "headline": "At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq."
+    },
+    {
+      "slug": "brazil-s-jair-bolsonaro-in-intensive-care-with-bowel-obstruc",
+      "lens": "person",
+      "title": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction",
+      "summary": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction",
+      "about": "Jair Messias Bolsonaro is a Brazilian politician and former military officer who served as the 38th president of Brazil from 2019 to 2023. He previously served as a member of the Chamber of Deputies from 1991 to 2019.",
+      "article": {
+        "title": "Jair Bolsonaro",
+        "url": "https://en.wikipedia.org/wiki/Jair_Bolsonaro",
+        "qid": "Q10304982"
+      },
+      "place": {
+        "name": "Brazil",
+        "lon": -49.56,
+        "lat": -12.1,
+        "country": "BR",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 54,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "health",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
+          "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648",
+          "t": "2026-11-21T03:16:00Z",
+          "evidence": "news:dw:e735cc923d74"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction",
+          "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction",
+          "t": "2026-11-21T21:02:18Z",
+          "evidence": "news:aljazeera:a1e3a5a13b65"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:e735cc923d74",
+        "news:aljazeera:a1e3a5a13b65"
+      ],
+      "headline": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction, Al Jazeera reports."
+    },
+    {
+      "slug": "at-least-24-dead-after-boat-taking-passengers-to-funeral-cap",
+      "lens": "disaster",
+      "title": "At least 24 dead after boat taking passengers to funeral capsizes in Nigeria",
+      "summary": "At least 24 dead after boat taking passengers to funeral capsizes in Nigeria",
+      "place": {
+        "name": "Nigeria",
+        "lon": 7.5,
+        "lat": 9.44,
+        "country": "NG",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 47,
+      "why": [
+        "Reported by 2 outlets",
+        "24 people involved, per the headlines"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "At least 24 dead after boat taking passengers to funeral capsizes in Nigeria",
+          "url": "https://news.sky.com/story/at-least-24-dead-after-boat-taking-passengers-to-funeral-capsizes-in-nigeria-13615057",
+          "t": "2026-11-21T21:32:00Z",
+          "evidence": "news:sky:46338f879cf9"
+        },
+        {
+          "outlet": "dw",
+          "title": "Nigeria: At least 24 dead after boat capsizes",
+          "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248",
+          "t": "2026-11-21T23:52:00Z",
+          "evidence": "news:dw:a7e001c6016b"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:sky:46338f879cf9",
+        "news:dw:a7e001c6016b"
+      ],
+      "headline": "At least 24 dead after boat taking passengers to funeral capsizes in Nigeria, Sky News reports."
+    },
+    {
+      "slug": "trump-says-he-wants-permanent-deal-to-stop-iran-getting-nucl",
+      "lens": "person",
+      "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+      "summary": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+      "about": "Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.",
+      "article": {
+        "title": "Donald Trump",
+        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "qid": "Q22686"
+      },
+      "place": {
+        "name": "Iran",
+        "lon": 54.93,
+        "lat": 32.17,
+        "country": "IR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 44,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
+          "url": "https://www.theguardian.com/us-news/2026/nov/21/vance-trump-iran-nuclear-weapon",
+          "t": "2026-11-21T17:24:51Z",
+          "evidence": "news:guardian:6fdfbbbcf087"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal",
+          "t": "2026-11-21T18:05:51Z",
+          "evidence": "news:aljazeera:bfc2c9534dd9"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:6fdfbbbcf087",
+        "news:aljazeera:bfc2c9534dd9"
+      ],
+      "update": {
+        "day": 8,
+        "previous": [
+          {
+            "date": "2026-11-20",
+            "slug": "trump-threatens-tax-on-us-tech-firms-building-ai-data-centre",
+            "title": "Trump threatens tax on US tech firms building AI data centres abroad"
+          },
+          {
+            "date": "2026-11-15",
+            "slug": "faa-lifts-nationwide-ground-stop-on-all-us-flights",
+            "title": "FAA lifts nationwide ground stop on all US flights"
+          },
+          {
+            "date": "2026-11-14",
+            "slug": "faa-lifts-nationwide-ground-stop-on-all-us-flights",
+            "title": "FAA lifts nationwide ground stop on all US flights"
+          }
+        ]
+      },
+      "headline": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons, Al Jazeera reports."
+    },
+    {
+      "slug": "the-european-space-agency-announces-that-the-bepicolombo-spa",
+      "lens": "science",
+      "title": "The European Space Agency announces that the BepiColombo spacecraft inserted…",
+      "summary": "The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
+      "article": {
+        "title": "Exploration of Mercury",
+        "url": "https://en.wikipedia.org/wiki/Exploration_of_Mercury",
+        "qid": "Q1188264"
+      },
+      "place": {
+        "name": "European Space Agency",
+        "lon": 2.30416667,
+        "lat": 48.84833333,
+        "country": "FR",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-21:11"
+      },
+      "continent": "Europe",
+      "heat": 23,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-21:11"
+      ],
+      "headline": "The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury."
+    }
+  ]
+}

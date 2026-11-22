@@ -1,0 +1,526 @@
+{
+  "version": 1,
+  "id": "story-2026-11-21-brazil-s-jair-bolsonaro-in-intensive-care-with-bowel-obstruc",
+  "title": "Jair Bolsonaro",
+  "subtitle": "People · 21 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-21T00:00:00Z",
+    "end": "2026-11-21T00:01:25Z"
+  },
+  "focus": "2026-11-21T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -59.56,
+    "south": -20.1,
+    "east": -39.56,
+    "north": -4.1
+  },
+  "imagery": {
+    "day": "2026-11-21",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-21T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-21T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "lon": -11.559999999999945,
+      "lat": -8.535,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-21T00:00:04Z",
+      "lon": -49.56,
+      "lat": -14.225,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:14Z",
+      "lon": -49.56,
+      "lat": -14.225,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:23Z",
+      "lon": -49.56,
+      "lat": -14.225,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:27Z",
+      "lon": -50.205833333333,
+      "lat": -22.276111111111,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:29Z",
+      "lon": -50.205833333333,
+      "lat": -22.276111111111,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:31Z",
+      "lon": -50.205833333333,
+      "lat": -22.276111111111,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:35Z",
+      "lon": -51.199808326100765,
+      "lat": -18.504368181337718,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:39Z",
+      "lon": -51.199808326100765,
+      "lat": -18.504368181337718,
+      "range": 19921847.303902317,
+      "heading": 11.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:43Z",
+      "lon": -51.199808326100765,
+      "lat": -18.504368181337718,
+      "range": 18040000,
+      "heading": 23.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:45Z",
+      "lon": -51.199808326100765,
+      "lat": -18.504368181337718,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:49Z",
+      "lon": -51.199808326100765,
+      "lat": -18.504368181337718,
+      "range": 19921847.303902317,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:53Z",
+      "lon": -51.199808326100765,
+      "lat": -18.504368181337718,
+      "range": 18040000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:56Z",
+      "lon": -49.87503809540778,
+      "lat": -17.23363182433001,
+      "range": 2476627.2481763754,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:59Z",
+      "lon": -49.87503809540778,
+      "lat": -17.23363182433001,
+      "range": 2242681.3575842516,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:02Z",
+      "lon": -49.87503809540778,
+      "lat": -17.23363182433001,
+      "range": 2030834.3435046277,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:04Z",
+      "lon": -49.87503809540778,
+      "lat": -17.23363182433001,
+      "range": 2476627.2481763754,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:11Z",
+      "lon": -49.87503809540778,
+      "lat": -17.23363182433001,
+      "range": 2375497.405659899,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:18Z",
+      "lon": -49.87503809540778,
+      "lat": -17.23363182433001,
+      "range": 2278497.0683222655,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:21Z",
+      "lon": -49.56,
+      "lat": -14.225,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:01:22Z",
+      "lon": -49.56,
+      "lat": -14.225,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:25Z",
+      "lon": -74.56,
+      "lat": -14.225,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-21T00:00:01Z",
+      "text": "Al Jazeera reports that Brazil's Jair Bolsonaro is in intensive care with a bowel obstruction.",
+      "cites": [
+        "news:aljazeera:a1e3a5a13b65"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:08Z",
+      "text": "On November 24, the Supreme Federal Court unanimously voted to keep Bolsonaro in police custody.",
+      "cites": [
+        "wiki:rev:1386713962:259"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:15Z",
+      "text": "Jair Messias Bolsonaro, born 21 March 1955, is a Brazilian politician and former military officer who served as the 38th president of Brazil from 2019 to 2023.",
+      "cites": [
+        "wiki:rev:1386713962:0"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:25Z",
+      "text": "Jair Bolsonaro was born on 21 March 1955 in Glicério.",
+      "cites": [
+        "wd:Q10304982:P569",
+        "wd:Q10304982:P19"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:33Z",
+      "text": "He was educated at Academia Militar das Agulhas Negras.",
+      "cites": [
+        "wd:Q10304982:P69:Q2865871"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:38Z",
+      "text": "He has worked in Brasília and Rio de Janeiro.",
+      "cites": [
+        "wd:Q10304982:P937:Q2844",
+        "wd:Q10304982:P937:Q8678"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:44Z",
+      "text": "6 awards on record, among them the Ig Nobel Prize (2020) and Person of the Year in Organized Crime and Corruption (Ironic denominación, not a real award) (2020).",
+      "cites": [
+        "wd:Q10304982:P166:Q184253",
+        "wd:Q10304982:P166:Q104595803"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:01:03Z",
+      "text": "DW headlined the story: “Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain”.",
+      "cites": [
+        "news:dw:e735cc923d74"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:01:10Z",
+      "text": "Al Jazeera headlined it: “Brazil’s Jair Bolsonaro in intensive care with bowel obstruction”.",
+      "cites": [
+        "news:aljazeera:a1e3a5a13b65"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:01:19Z",
+      "text": "The sources are DW and Al Jazeera, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386713962:259",
+        "views:en:Jair_Bolsonaro:30d",
+        "wd:Q10304982:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BR",
+    "lon": -49.56,
+    "lat": -12.1,
+    "label": "Brazil"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-21T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-21T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-21T00:00:43Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-21T00:00:53Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-21T00:01:02Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-21T00:01:18Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-21T00:00:33Z",
+      "until": "2026-11-21T00:00:43Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1955 born",
+          "text": "Glicério",
+          "cites": [
+            "wd:Q10304982:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Academia Militar das Agulhas Negras",
+          "cites": [
+            "wd:Q10304982:P69:Q2865871"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Miami",
+          "cites": [
+            "wd:Q10304982:P551:Q8652"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Rio de Janeiro",
+          "cites": [
+            "wd:Q10304982:P551:Q8678"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Brasília",
+          "cites": [
+            "wd:Q10304982:P937:Q2844"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Rio de Janeiro",
+          "cites": [
+            "wd:Q10304982:P937:Q8678"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-21T00:00:44Z",
+      "until": "2026-11-21T00:00:53Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2019",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q10304982:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2020",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q10304982:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2020",
+          "text": "Ig Nobel Prize",
+          "cites": [
+            "wd:Q10304982:P166:Q184253"
+          ]
+        },
+        {
+          "label": "2020",
+          "text": "Person of the Year in Organized Crime and Corruption (Ironic denominación, not a real award)",
+          "cites": [
+            "wd:Q10304982:P166:Q104595803"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Medalha do Pacificador",
+          "cites": [
+            "wd:Q10304982:P166:Q10328109"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Presidential Medal of Distinction",
+          "cites": [
+            "wd:Q10304982:P166:Q7241175"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-21T00:01:03Z",
+      "until": "2026-11-21T00:01:18Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648",
+          "cites": [
+            "news:dw:e735cc923d74"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction",
+          "cites": [
+            "news:aljazeera:a1e3a5a13b65"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-21T00:01:19Z",
+      "until": "2026-11-21T00:01:25Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386713962:259"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Jair_Bolsonaro:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q10304982:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-22T07:26:56Z",
+    "costUsd": 0.002707
+  }
+}

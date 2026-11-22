@@ -1,0 +1,147 @@
+[
+  {
+    "id": "wiki:2026-11-21:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-21T00:00:00Z",
+    "lon": 46.715,
+    "lat": 24.6383,
+    "label": "Conflict: Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+    "quote": "Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:cb465bd8566b",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "Al Jazeera: Saudi-led coalition intercepts three Houthi missiles headed for Riyadh (04:32 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+    "quote": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q20896823:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "Wikidata: \"Houthi–Saudi Arabian conflict\" is an instance of border conflict",
+    "url": "https://www.wikidata.org/wiki/Q20896823",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:258e24a13d6a",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "France 24: Houthis launch strikes on Saudi Arabia (09:49 UTC)",
+    "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
+    "quote": "Houthis launch strikes on Saudi Arabia",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385850085:225",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-15 15:23 UTC)",
+    "quote": "In October 2026, the United Arab Emirates (UAE) has decided to rejoin the Yemen conflict by starting to pay some government forces battling the Houthi group, aligned with Iran.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1385850085"
+  },
+  {
+    "id": "wiki:rev:1385850085:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-15 15:23 UTC)",
+    "quote": "The Houthi–Saudi conflict is an ongoing armed conflict involving the Armed Forces of Saudi Arabia and Houthi forces in Yemen and along the Saudi–Yemeni border, including parts of Asir, Jazan, and Najran in Saudi Arabia and Saada, Al-Jawf, and Hajjah in Yemen.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1385850085"
+  },
+  {
+    "id": "wiki:2026-11-19:4",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-19",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-19: The Houthis fire missiles at King Abdullah Financial District in Riyadh, Saudi Arabia, which damage the Public Investment Fund Tower and other buildings but cause no injuries.",
+    "quote": "The Houthis fire missiles at King Abdullah Financial District in Riyadh, Saudi Arabia, which damage the Public Investment Fund Tower and other buildings but cause no injuries.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379"
+  },
+  {
+    "id": "wiki:2026-11-20:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-20",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-20: The Saudi-led coalition launches airstrikes on Hodeidah, Yemen, targeting weapons smuggling used by the Houthis, and on targets in the Sanaa, Saada, and Taiz governorates.",
+    "quote": "The Saudi-led coalition launches airstrikes on Hodeidah, Yemen, targeting weapons smuggling used by the Houthis, and on targets in the Sanaa, Saada, and Taiz governorates.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_20&oldid=1386872432"
+  },
+  {
+    "id": "views:en:Houthi–Saudi_conflict:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Houthi–Saudi conflict\", 23 October 2026 to 21 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Houthi%E2%80%93Saudi_conflict&range=latest-30"
+  },
+  {
+    "id": "wd:Q20896823:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthi–Saudi Arabian conflict\": date 2 April 2015",
+    "url": "https://www.wikidata.org/wiki/Q20896823#P585"
+  },
+  {
+    "id": "wd:Q20896823:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Houthi–Saudi Arabian conflict\": location Najran Province",
+    "url": "https://www.wikidata.org/wiki/Q20896823#P276"
+  },
+  {
+    "id": "wiki:box:1385850085:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-15 15:23 UTC): side 1: Supreme Political Council (SPC)",
+    "quote": "Supreme Political Council (SPC)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1385850085"
+  },
+  {
+    "id": "wiki:box:1385850085:status",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-15 15:23 UTC): Status: Ongoing; Ceasefire declared on March 30, 2022; Escalation during the 2026 Iran War",
+    "quote": "Ongoing; Ceasefire declared on March 30, 2022; Escalation during the 2026 Iran War",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1385850085"
+  },
+  {
+    "id": "wiki:box:1385850085:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Houthi–Saudi conflict\" (revision of 2026-11-15 15:23 UTC): Casualties: Thousands of Yemeni civilians killed and wounded, 500+ Saudi civilians killed",
+    "quote": "Thousands of Yemeni civilians killed and wounded, 500+ Saudi civilians killed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Houthi%E2%80%93Saudi_conflict&oldid=1385850085"
+  }
+]

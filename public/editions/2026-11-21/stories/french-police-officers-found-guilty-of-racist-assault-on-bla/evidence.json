@@ -1,0 +1,60 @@
+[
+  {
+    "id": "news:aljazeera:86c76404e238",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "Al Jazeera: Three French police officers sentenced over racist assault on Black man (03:01 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man",
+    "quote": "Three French police officers sentenced over racist assault on Black man",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:b9bb6428f5d5",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "France 24: French police officers convicted of racist assault (16:41 UTC)",
+    "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
+    "quote": "French police officers convicted of racist assault",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386275464:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"French of France\" (revision of 2026-11-17 17:28 UTC)",
+    "quote": "French of France is the predominant variety of the French language in France, Andorra and Monaco, in its formal and informal registers.",
+    "url": "https://en.wikipedia.org/w/index.php?title=French_of_France&oldid=1386275464"
+  },
+  {
+    "id": "views:en:French_of_France:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"French of France\", 23 October 2026 to 21 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=French_of_France&range=latest-30"
+  },
+  {
+    "id": "wd:Q3083196:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"French of France\": location metropolitan France",
+    "url": "https://www.wikidata.org/wiki/Q3083196#P276"
+  },
+  {
+    "id": "wd:Q3083196:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"French of France\": country France",
+    "url": "https://www.wikidata.org/wiki/Q3083196#P17"
+  }
+]

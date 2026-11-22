@@ -1,0 +1,461 @@
+[
+  {
+    "id": "wiki:2026-11-21:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "lon": 46.715,
+    "lat": 24.6383,
+    "label": "Conflict: Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.",
+    "quote": "Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+    "links": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+        "name": "Al Jazeera"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-21:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "lon": 26,
+    "lat": 59.83333333,
+    "label": "Conflict: The Finnish defence ministry imposes temporary airspace and maritime restrictions after a drone struck a Russian cargo vessel in international waters of the Gulf of Finland, causing a fire.",
+    "quote": "The Finnish defence ministry imposes temporary airspace and maritime restrictions after a drone struck a Russian cargo vessel in international waters of the Gulf of Finland, causing a fire.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+    "links": [
+      {
+        "url": "https://www.afp.com/en/russian-cargo-ship-hit-drone-baltic-finland-says",
+        "name": "AFP"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-21:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "lon": 47.81,
+    "lat": 30.515,
+    "label": "Disaster: At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq.",
+    "quote": "At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+    "links": [
+      {
+        "url": "https://www.reuters.com/business/energy/iraq-fire-basra-power-station-kills-least-four-injures-30-2026-11-21/",
+        "name": "Reuters"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-21:11",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "lon": 2.30416667,
+    "lat": 48.84833333,
+    "label": "Science & tech: The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
+    "quote": "The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+    "links": [
+      {
+        "url": "https://apnews.com/article/mercury-bepicolombo-space-planet-esa-0c80bbf2039ed4f6ee4a34426b3594a0",
+        "name": "AP"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:cb465bd8566b",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T04:32:07Z",
+    "label": "Al Jazeera: Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+    "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+    "quote": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh"
+  },
+  {
+    "id": "wd:Q20896823:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Houthi–Saudi Arabian conflict\" is an instance of border conflict",
+    "url": "https://www.wikidata.org/wiki/Q20896823"
+  },
+  {
+    "id": "news:france24:c7c9c4110e34",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T12:35:54Z",
+    "label": "France 24: Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+    "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+    "quote": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland"
+  },
+  {
+    "id": "news:dw:74b233a91706",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T17:08:00Z",
+    "label": "DW: Russian helicopter suspected of violating Finnish airspace",
+    "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133",
+    "quote": "Russian helicopter suspected of violating Finnish airspace"
+  },
+  {
+    "id": "wd:Q139816187:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"2026 drone incursions into the Baltic states and Finland\" is an instance of airspace intrusion",
+    "url": "https://www.wikidata.org/wiki/Q139816187"
+  },
+  {
+    "id": "news:aljazeera:fdd7c6d47daa",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T07:25:29Z",
+    "label": "Al Jazeera: At least four killed, 35 injured in fire at power station in Iraq’s Basra",
+    "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq",
+    "quote": "At least four killed, 35 injured in fire at power station in Iraq’s Basra"
+  },
+  {
+    "id": "news:aljazeera:1b6e22f84ea9",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T11:53:56Z",
+    "label": "Al Jazeera: Mexico captures FBI-wanted cartel boss in military raid",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid",
+    "quote": "Mexico captures FBI-wanted cartel boss in military raid"
+  },
+  {
+    "id": "news:sky:b0b444264324",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-21T13:34:00Z",
+    "label": "Sky News: At least 11 dead after suspected cartel leader 'El Chapo Isidro' captured in Mexico",
+    "url": "https://news.sky.com/story/suspected-cartel-leader-el-chapo-isidro-from-fbi-most-wanted-list-captured-in-mexico-13614689",
+    "quote": "At least 11 dead after suspected cartel leader 'El Chapo Isidro' captured in Mexico"
+  },
+  {
+    "id": "news:france24:4de2de04ed1f",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T15:00:15Z",
+    "label": "France 24: Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
+    "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
+    "quote": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight"
+  },
+  {
+    "id": "news:guardian:2681b8486e62",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T17:46:55Z",
+    "label": "The Guardian: Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+    "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+    "quote": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid"
+  },
+  {
+    "id": "news:npr:5b76dfe3de30",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-21T18:08:55Z",
+    "label": "NPR: Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+    "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+    "quote": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead"
+  },
+  {
+    "id": "news:dw:0adb20796144",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T18:30:00Z",
+    "label": "DW: Mexican special forces arrest drug kingpin 'Chapo Isidro'",
+    "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745",
+    "quote": "Mexican special forces arrest drug kingpin 'Chapo Isidro'"
+  },
+  {
+    "id": "news:aljazeera:efbac095f86f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T02:49:16Z",
+    "label": "Al Jazeera: Gen Z protests sweep Europe over wars, rising costs and climate",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate",
+    "quote": "Gen Z protests sweep Europe over wars, rising costs and climate"
+  },
+  {
+    "id": "news:france24:ebc936830291",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T15:50:52Z",
+    "label": "France 24: New day of protests across France",
+    "url": "https://www.france24.com/en/new-day-of-protests-across-france",
+    "quote": "New day of protests across France"
+  },
+  {
+    "id": "news:guardian:f2b965acf306",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T00:16:26Z",
+    "label": "The Guardian: Trump turns White House press conference into a 2028 succession audition",
+    "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio",
+    "quote": "Trump turns White House press conference into a 2028 succession audition"
+  },
+  {
+    "id": "news:france24:e3603b32fc23",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T10:16:44Z",
+    "label": "France 24: Was Vladimir Putin 'snubbed' by Xi Jinping? Viral handshake video is AI fake",
+    "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261121-was-vladimir-putin-snubbed-by-xi-jinping-viral-handshake-video-is-ai-fake",
+    "quote": "Was Vladimir Putin 'snubbed' by Xi Jinping? Viral handshake video is AI fake"
+  },
+  {
+    "id": "news:npr:503ccb2268f6",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-21T22:01:42Z",
+    "label": "NPR: What did Xi Jinping get from the bear hug with Trump at the Shenzhen summit?",
+    "url": "https://www.npr.org/2026/11/21/nx-s1-6048741/what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the-shenzhen-summit",
+    "quote": "What did Xi Jinping get from the bear hug with Trump at the Shenzhen summit?"
+  },
+  {
+    "id": "news:guardian:e9b7d97728f3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T01:43:15Z",
+    "label": "The Guardian: Man accused of sparking deadly Los Angeles wildfire found guilty",
+    "url": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
+    "quote": "Man accused of sparking deadly Los Angeles wildfire found guilty"
+  },
+  {
+    "id": "news:bbc:272d3b21cae5",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-21T04:34:00Z",
+    "label": "BBC News: Man convicted of starting Palisades fire in Los Angeles",
+    "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o",
+    "quote": "Man convicted of starting Palisades fire in Los Angeles"
+  },
+  {
+    "id": "news:dw:9f183d2c9cc1",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T07:10:00Z",
+    "label": "DW: Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+    "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933",
+    "quote": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles"
+  },
+  {
+    "id": "news:france24:96bd39830bc4",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T17:21:55Z",
+    "label": "France 24: Man convicted of starting palisades fire",
+    "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
+    "quote": "Man convicted of starting palisades fire"
+  },
+  {
+    "id": "news:sky:46338f879cf9",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-21T21:32:00Z",
+    "label": "Sky News: At least 24 dead after boat taking passengers to funeral capsizes in Nigeria",
+    "url": "https://news.sky.com/story/at-least-24-dead-after-boat-taking-passengers-to-funeral-capsizes-in-nigeria-13615057",
+    "quote": "At least 24 dead after boat taking passengers to funeral capsizes in Nigeria"
+  },
+  {
+    "id": "news:dw:a7e001c6016b",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T23:52:00Z",
+    "label": "DW: Nigeria: At least 24 dead after boat capsizes",
+    "url": "https://www.dw.com/en/nigeria-at-least-24-dead-after-boat-capsizes/a-80011248",
+    "quote": "Nigeria: At least 24 dead after boat capsizes"
+  },
+  {
+    "id": "news:bbc:3df0760b00a4",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-21T00:01:39Z",
+    "label": "BBC News: Mamdani announces plan to close New York's Rikers Island jail by 2032",
+    "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo",
+    "quote": "Mamdani announces plan to close New York's Rikers Island jail by 2032"
+  },
+  {
+    "id": "news:aljazeera:faf35688f4e8",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T05:16:15Z",
+    "label": "Al Jazeera: Funeral held for New York teen shot while walking to school",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/funeral-held-for-new-york-teen-shot-while-walking-to-school",
+    "quote": "Funeral held for New York teen shot while walking to school"
+  },
+  {
+    "id": "news:dw:d5e0d47b100e",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T07:53:00Z",
+    "label": "DW: US judge jails Indian national in foiled Sikh separatist murder plot",
+    "url": "https://www.dw.com/en/us-judge-jails-indian-national-in-foiled-sikh-separatist-murder-plot/live-80008104",
+    "quote": "US judge jails Indian national in foiled Sikh separatist murder plot"
+  },
+  {
+    "id": "news:guardian:880b9b278347",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T14:52:30Z",
+    "label": "The Guardian: Federal judge denies request to release man shot by immigration agents in New York",
+    "url": "https://www.theguardian.com/us-news/2026/nov/21/new-york-judge-ice-shooting-immigration",
+    "quote": "Federal judge denies request to release man shot by immigration agents in New York"
+  },
+  {
+    "id": "news:france24:258e24a13d6a",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T09:49:44Z",
+    "label": "France 24: Houthis launch strikes on Saudi Arabia",
+    "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
+    "quote": "Houthis launch strikes on Saudi Arabia"
+  },
+  {
+    "id": "news:aljazeera:86c76404e238",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T03:01:24Z",
+    "label": "Al Jazeera: Three French police officers sentenced over racist assault on Black man",
+    "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man",
+    "quote": "Three French police officers sentenced over racist assault on Black man"
+  },
+  {
+    "id": "news:france24:b9bb6428f5d5",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T16:41:49Z",
+    "label": "France 24: French police officers convicted of racist assault",
+    "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
+    "quote": "French police officers convicted of racist assault"
+  },
+  {
+    "id": "news:dw:e735cc923d74",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T03:16:00Z",
+    "label": "DW: Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
+    "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648",
+    "quote": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain"
+  },
+  {
+    "id": "news:aljazeera:a1e3a5a13b65",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T21:02:18Z",
+    "label": "Al Jazeera: Brazil’s Jair Bolsonaro in intensive care with bowel obstruction",
+    "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction",
+    "quote": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction"
+  },
+  {
+    "id": "news:aljazeera:2a872eedd794",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T12:45:24Z",
+    "label": "Al Jazeera: Russian crew evacuating ship hit by drones off coast of Finland",
+    "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
+    "quote": "Russian crew evacuating ship hit by drones off coast of Finland"
+  },
+  {
+    "id": "news:bbc:0afef7db4686",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-21T19:20:22Z",
+    "label": "BBC News: Russia-bound ship attacked in Gulf of Finland",
+    "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko",
+    "quote": "Russia-bound ship attacked in Gulf of Finland"
+  },
+  {
+    "id": "news:dw:1c5b88d83c35",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T14:44:00Z",
+    "label": "DW: Russia strikes Zelenskyy's hometown, killing 2",
+    "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458",
+    "quote": "Russia strikes Zelenskyy's hometown, killing 2"
+  },
+  {
+    "id": "news:aljazeera:2dcbb3efd375",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T17:20:03Z",
+    "label": "Al Jazeera: Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+    "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown",
+    "quote": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown"
+  },
+  {
+    "id": "news:aljazeera:9581a70467cc",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T01:12:48Z",
+    "label": "Al Jazeera: Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+    "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper",
+    "quote": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper"
+  },
+  {
+    "id": "news:sky:5320fe867b5f",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-21T05:15:00Z",
+    "label": "Sky News: Denmark says it thwarted 'Russian plot' to kill US-Ukrainian rapper",
+    "url": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604",
+    "quote": "Denmark says it thwarted 'Russian plot' to kill US-Ukrainian rapper"
+  },
+  {
+    "id": "news:france24:a5fea2e1ca7c",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T09:51:01Z",
+    "label": "France 24: Denmark accuses Russia of assassination plot, expels diplomat",
+    "url": "https://www.france24.com/en/denmark-accuses-russia-of-assassination-plot-expels-diplomat",
+    "quote": "Denmark accuses Russia of assassination plot, expels diplomat"
+  },
+  {
+    "id": "news:bbc:3a2a08725f01",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-21T10:26:36Z",
+    "label": "BBC News: Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+    "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno",
+    "quote": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper"
+  },
+  {
+    "id": "news:guardian:86b740478c70",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T14:03:50Z",
+    "label": "The Guardian: Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+    "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+    "quote": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper"
+  },
+  {
+    "id": "news:guardian:6fdfbbbcf087",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T17:24:51Z",
+    "label": "The Guardian: Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
+    "url": "https://www.theguardian.com/us-news/2026/nov/21/vance-trump-iran-nuclear-weapon",
+    "quote": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon"
+  },
+  {
+    "id": "news:aljazeera:bfc2c9534dd9",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T18:05:51Z",
+    "label": "Al Jazeera: Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal",
+    "quote": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons"
+  }
+]

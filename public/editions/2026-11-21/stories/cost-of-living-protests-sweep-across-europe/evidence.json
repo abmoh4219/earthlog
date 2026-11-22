@@ -1,0 +1,69 @@
+[
+  {
+    "id": "news:aljazeera:efbac095f86f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "Al Jazeera: Gen Z protests sweep Europe over wars, rising costs and climate (02:49 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate",
+    "quote": "Gen Z protests sweep Europe over wars, rising costs and climate",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:ebc936830291",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "France 24: New day of protests across France (15:50 UTC)",
+    "url": "https://www.france24.com/en/new-day-of-protests-across-france",
+    "quote": "New day of protests across France",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386988337:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gen Z protests\" (revision of 2026-11-21 21:41 UTC)",
+    "quote": "The Gen Z protests are a series of ongoing political demonstrations, uprisings, and revolutions predominantly led by Generation Z, those born from the mid-to-late 1990s to the early 2010s.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gen_Z_protests&oldid=1386988337"
+  },
+  {
+    "id": "views:en:Gen_Z_protests:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gen Z protests\", 23 October 2026 to 21 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gen_Z_protests&range=latest-30"
+  },
+  {
+    "id": "wd:Q136430456:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gen Z protests\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q136430456#P585"
+  },
+  {
+    "id": "wd:Q136430456:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gen Z protests\": began 2020",
+    "url": "https://www.wikidata.org/wiki/Q136430456#P580"
+  },
+  {
+    "id": "wd:Q136430456:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gen Z protests\": location world, Sri Lanka",
+    "url": "https://www.wikidata.org/wiki/Q136430456#P276"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "news:dw:e735cc923d74",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "DW: Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain (03:16 UTC)",
+    "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648",
+    "quote": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:a1e3a5a13b65",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "Al Jazeera: Brazil’s Jair Bolsonaro in intensive care with bowel obstruction (21:02 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction",
+    "quote": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386713962:259",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jair Bolsonaro\" (revision of 2026-11-20 03:13 UTC)",
+    "quote": "On November 24 the Supreme Federal Court unanimously voted to keep Bolsonaro in police custody.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jair_Bolsonaro&oldid=1386713962"
+  },
+  {
+    "id": "wiki:rev:1386713962:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Jair Bolsonaro\" (revision of 2026-11-20 03:13 UTC)",
+    "quote": "Jair Messias Bolsonaro (; born 21 March 1955) is a Brazilian politician and former military officer who served as the 38th president of Brazil from 2019 to 2023.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jair_Bolsonaro&oldid=1386713962"
+  },
+  {
+    "id": "views:en:Jair_Bolsonaro:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Jair Bolsonaro\", 23 October 2026 to 21 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Jair_Bolsonaro&range=latest-30"
+  },
+  {
+    "id": "wd:Q10304982:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": born 21 March 1955",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P569"
+  },
+  {
+    "id": "wd:Q10304982:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": birthplace Glicério",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P19"
+  },
+  {
+    "id": "wd:Q10304982:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": occupation politician",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P106"
+  },
+  {
+    "id": "wd:Q10304982:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": citizenship Brazil",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P27"
+  },
+  {
+    "id": "wd:Q10304982:P69:Q2865871",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": educated at Academia Militar das Agulhas Negras",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P69"
+  },
+  {
+    "id": "wd:Q10304982:P551:Q8652",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": lived in Miami",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P551"
+  },
+  {
+    "id": "wd:Q10304982:P551:Q8678",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": lived in Rio de Janeiro",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P551"
+  },
+  {
+    "id": "wd:Q10304982:P937:Q2844",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": worked in Brasília",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P937"
+  },
+  {
+    "id": "wd:Q10304982:P937:Q8678",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": worked in Rio de Janeiro",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P937"
+  },
+  {
+    "id": "wd:Q10304982:P166:Q604370",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": award received: Time 100 (2019)",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P166"
+  },
+  {
+    "id": "wd:Q10304982:P166:Q184253",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": award received: Ig Nobel Prize (2020)",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P166"
+  },
+  {
+    "id": "wd:Q10304982:P166:Q104595803",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": award received: Person of the Year in Organized Crime and Corruption (Ironic denominación, not a real award) (2020)",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P166"
+  },
+  {
+    "id": "wd:Q10304982:P166:Q10328109",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": award received: Medalha do Pacificador",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P166"
+  },
+  {
+    "id": "wd:Q10304982:P166:Q7241175",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Jair Bolsonaro\": award received: Presidential Medal of Distinction",
+    "url": "https://www.wikidata.org/wiki/Q10304982#P166"
+  }
+]

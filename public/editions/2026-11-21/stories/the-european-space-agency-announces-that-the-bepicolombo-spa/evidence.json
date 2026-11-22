@@ -1,0 +1,59 @@
+[
+  {
+    "id": "wiki:2026-11-21:11",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-21T00:00:00Z",
+    "lon": 2.30416667,
+    "lat": 48.84833333,
+    "label": "Science & tech: The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+    "quote": "The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/mercury-bepicolombo-space-planet-esa-0c80bbf2039ed4f6ee4a34426b3594a0"
+      }
+    ]
+  },
+  {
+    "id": "wiki:rev:1386453192:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Exploration of Mercury\" (revision of 2026-11-18 17:05 UTC)",
+    "quote": "It began with the Mariner 10 flybys in 1974 and 1975, continued with the MESSENGER orbiter from 2011 to 2015, and is set to advance with the BepiColombo mission, which is scheduled to enter orbit in November 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Exploration_of_Mercury&oldid=1386453192"
+  },
+  {
+    "id": "wiki:rev:1386453192:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Exploration of Mercury\" (revision of 2026-11-18 17:05 UTC)",
+    "quote": "The exploration of Mercury has been limited, making it the least explored of the inner planets.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Exploration_of_Mercury&oldid=1386453192"
+  },
+  {
+    "id": "views:en:Exploration_of_Mercury:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Exploration of Mercury\", 23 October 2026 to 21 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Exploration_of_Mercury&range=latest-30"
+  },
+  {
+    "id": "wd:Q1188264:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"exploration of Mercury\": location Mercury",
+    "url": "https://www.wikidata.org/wiki/Q1188264#P276"
+  }
+]

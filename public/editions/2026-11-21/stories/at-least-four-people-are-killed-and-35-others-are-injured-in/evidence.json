@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wiki:2026-11-21:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-21T00:00:00Z",
+    "lon": 47.81,
+    "lat": 30.515,
+    "label": "Disaster: At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+    "quote": "At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/iraq-fire-basra-power-station-kills-least-four-injures-30-2026-11-21/"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:fdd7c6d47daa",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "Al Jazeera: At least four killed, 35 injured in fire at power station in Iraq’s Basra (07:25 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq",
+    "quote": "At least four killed, 35 injured in fire at power station in Iraq’s Basra",
+    "precision": "day"
+  }
+]

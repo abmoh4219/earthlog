@@ -1,0 +1,99 @@
+[
+  {
+    "id": "news:guardian:e9b7d97728f3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "The Guardian: Man accused of sparking deadly Los Angeles wildfire found guilty (01:43 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
+    "quote": "Man accused of sparking deadly Los Angeles wildfire found guilty",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:272d3b21cae5",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "BBC News: Man convicted of starting Palisades fire in Los Angeles (04:34 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o",
+    "quote": "Man convicted of starting Palisades fire in Los Angeles",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:9f183d2c9cc1",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "DW: Man convicted of arson over deadly 2025 Palisades fire in Los Angeles (07:10 UTC)",
+    "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933",
+    "quote": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:96bd39830bc4",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "France 24: Man convicted of starting palisades fire (17:21 UTC)",
+    "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
+    "quote": "Man convicted of starting palisades fire",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387046358:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Palisades Fire\" (revision of 2026-11-22 04:34 UTC)",
+    "quote": "A retrial was pursued, and on November 20 Rinderknecht was found guilty on two counts of arson.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Palisades_Fire&oldid=1387046358"
+  },
+  {
+    "id": "wiki:rev:1387046358:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Palisades Fire\" (revision of 2026-11-22 04:34 UTC)",
+    "quote": "The Palisades Fire was a highly destructive wildfire that began in the Santa Monica Mountains of Los Angeles County on January 7, 2025, and grew to destroy large areas of Pacific Palisades, Topanga, and Malibu before it was fully contained on January 31.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Palisades_Fire&oldid=1387046358"
+  },
+  {
+    "id": "views:en:Palisades_Fire:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Palisades Fire\", 23 October 2026 to 21 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Palisades_Fire&range=latest-30"
+  },
+  {
+    "id": "wd:Q131700096:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Palisades Fire\": began 7 January 2025",
+    "url": "https://www.wikidata.org/wiki/Q131700096#P580"
+  },
+  {
+    "id": "wd:Q131700096:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Palisades Fire\": location Pacific Palisades",
+    "url": "https://www.wikidata.org/wiki/Q131700096#P276"
+  },
+  {
+    "id": "wd:Q131700096:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Palisades Fire\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q131700096#P17"
+  }
+]

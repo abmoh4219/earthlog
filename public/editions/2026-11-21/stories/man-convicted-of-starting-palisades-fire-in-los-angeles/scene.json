@@ -1,0 +1,431 @@
+{
+  "version": 1,
+  "id": "story-2026-11-21-man-convicted-of-starting-palisades-fire-in-los-angeles",
+  "title": "Palisades Fire",
+  "subtitle": "Disaster · 21 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-21T00:00:00Z",
+    "end": "2026-11-21T00:01:19Z"
+  },
+  "focus": "2026-11-21T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -17.55,
+    "south": -0.5999999999999996,
+    "east": 2.45,
+    "north": 15.4
+  },
+  "imagery": {
+    "day": "2026-11-21",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-21T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-21T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-21T00:00:42Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "lon": 30.450000000000045,
+      "lat": 4.0275,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-21T00:00:04Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:14Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:23Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:26Z",
+      "lon": -7.55,
+      "lat": 7.4,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:29Z",
+      "lon": -7.55,
+      "lat": 7.4,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:31Z",
+      "lon": -7.55,
+      "lat": 7.4,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:34Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:38Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:41Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:46Z",
+      "lon": -55.61352103055766,
+      "lat": 29.111919417731855,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:48Z",
+      "lon": -55.61352103055766,
+      "lat": 29.111919417731855,
+      "range": 19921847.303902317,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:50Z",
+      "lon": -55.61352103055766,
+      "lat": 29.111919417731855,
+      "range": 18040000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:53Z",
+      "lon": -55.61352103055766,
+      "lat": 29.111919417731855,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:02Z",
+      "lon": -55.61352103055766,
+      "lat": 29.111919417731855,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:11Z",
+      "lon": -55.61352103055766,
+      "lat": 29.111919417731855,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:15Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:01:16Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:19Z",
+      "lon": -32.55000000000001,
+      "lat": 6.7125,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-21T00:00:01Z",
+      "text": "BBC News reports that a man has been convicted of starting the Palisades fire in Los Angeles.",
+      "cites": [
+        "news:bbc:272d3b21cae5"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:08Z",
+      "text": "On November 20, Rinderknecht was found guilty on two counts of arson after a retrial.",
+      "cites": [
+        "wiki:rev:1387046358:3"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:15Z",
+      "text": "The highly destructive Palisades Fire began on January 7, 2025, and destroyed large areas of Pacific Palisades, Topanga, and Malibu before it was fully contained on January 31.",
+      "cites": [
+        "wiki:rev:1387046358:0"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:33Z",
+      "text": "The fire began on 7 January 2025, in Pacific Palisades.",
+      "cites": [
+        "wd:Q131700096:P580",
+        "wd:Q131700096:P276"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:52Z",
+      "text": "The Guardian headlined its report “Man accused of sparking deadly Los Angeles wildfire found guilty”.",
+      "cites": [
+        "news:guardian:e9b7d97728f3"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:58Z",
+      "text": "BBC News headlined its report “Man convicted of starting Palisades fire in Los Angeles”.",
+      "cites": [
+        "news:bbc:272d3b21cae5"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:01:04Z",
+      "text": "DW headlined its report “Man convicted of arson over deadly 2025 Palisades fire in Los Angeles”.",
+      "cites": [
+        "news:dw:9f183d2c9cc1"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:01:13Z",
+      "text": "This explainer draws on The Guardian, BBC News, DW and France 24, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1387046358:3",
+        "views:en:Palisades_Fire:30d",
+        "wd:Q131700096:P580"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CI",
+    "lon": -7.55,
+    "lat": 7.4,
+    "label": "Man"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-21T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-21T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-21T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-21T00:00:51Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-21T00:01:12Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-21T00:00:33Z",
+      "until": "2026-11-21T00:00:42Z",
+      "title": "On record: Palisades Fire",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Began",
+          "text": "7 January 2025",
+          "cites": [
+            "wd:Q131700096:P580"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "Pacific Palisades",
+          "cites": [
+            "wd:Q131700096:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "United States",
+          "cites": [
+            "wd:Q131700096:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-21T00:00:52Z",
+      "until": "2026-11-21T00:01:12Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
+          "cites": [
+            "news:guardian:e9b7d97728f3"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o",
+          "cites": [
+            "news:bbc:272d3b21cae5"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933",
+          "cites": [
+            "news:dw:9f183d2c9cc1"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
+          "cites": [
+            "news:france24:96bd39830bc4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-21T00:01:13Z",
+      "until": "2026-11-21T00:01:19Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387046358:3"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Palisades_Fire:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q131700096:P580"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-22T07:26:56Z",
+    "costUsd": 0.002424
+  }
+}

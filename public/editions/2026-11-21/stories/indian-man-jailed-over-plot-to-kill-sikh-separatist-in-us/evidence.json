@@ -1,0 +1,90 @@
+[
+  {
+    "id": "news:bbc:3df0760b00a4",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "BBC News: Mamdani announces plan to close New York's Rikers Island jail by 2032 (00:01 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo",
+    "quote": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:faf35688f4e8",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "Al Jazeera: Funeral held for New York teen shot while walking to school (05:16 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/funeral-held-for-new-york-teen-shot-while-walking-to-school",
+    "quote": "Funeral held for New York teen shot while walking to school",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:d5e0d47b100e",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "DW: US judge jails Indian national in foiled Sikh separatist murder plot (07:53 UTC)",
+    "url": "https://www.dw.com/en/us-judge-jails-indian-national-in-foiled-sikh-separatist-murder-plot/live-80008104",
+    "quote": "US judge jails Indian national in foiled Sikh separatist murder plot",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:880b9b278347",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-21T00:00:00Z",
+    "label": "The Guardian: Federal judge denies request to release man shot by immigration agents in New York (14:52 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/21/new-york-judge-ice-shooting-immigration",
+    "quote": "Federal judge denies request to release man shot by immigration agents in New York",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387042473:17",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rikers Island\" (revision of 2026-11-22 03:58 UTC)",
+    "quote": "In November 2026, New York City Mayor Zohran Mamdani announced a plan that pushed back the closing of the facility to 2032, replacing it with four smaller borough prisons in the Bronx, Queens, Brooklyn and Manhattan as well as medical facilities for certain inmates.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rikers_Island&oldid=1387042473"
+  },
+  {
+    "id": "wiki:rev:1387042473:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Rikers Island\" (revision of 2026-11-22 03:58 UTC)",
+    "quote": "Rikers Island is a 413 acre prison island in the East River in the Bronx, New York City, United States, that contains New York City's largest jail.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rikers_Island&oldid=1387042473"
+  },
+  {
+    "id": "views:en:Rikers_Island:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Rikers Island\", 23 October 2026 to 21 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Rikers_Island&range=latest-30"
+  },
+  {
+    "id": "wd:Q120119:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Rikers Island\": location The Bronx, Bronx County",
+    "url": "https://www.wikidata.org/wiki/Q120119#P276"
+  },
+  {
+    "id": "wd:Q120119:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-21T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Rikers Island\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q120119#P17"
+  }
+]

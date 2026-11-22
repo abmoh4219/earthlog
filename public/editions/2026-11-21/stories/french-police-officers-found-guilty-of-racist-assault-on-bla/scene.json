@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "id": "story-2026-11-21-french-police-officers-found-guilty-of-racist-assault-on-bla",
+  "title": "French of France",
+  "subtitle": "News · 21 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-21T00:00:00Z",
+    "end": "2026-11-21T00:01:07Z"
+  },
+  "focus": "2026-11-21T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -7.67,
+    "south": 40.87,
+    "east": 12.33,
+    "north": 56.87
+  },
+  "imagery": {
+    "day": "2026-11-21",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-21T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-21T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-21T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "lon": 40.32999999999993,
+      "lat": 28.909499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-21T00:00:04Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-21T00:00:10Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:16Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:19Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:22Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:24Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:27Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:31Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:34Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:37Z",
+      "lon": 2.1604994693680326,
+      "lat": 47.13511827470493,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:40Z",
+      "lon": 2.1604994693680326,
+      "lat": 47.13511827470493,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:43Z",
+      "lon": 2.1604994693680326,
+      "lat": 47.13511827470493,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:46Z",
+      "lon": 2.1604994693680326,
+      "lat": 47.13511827470493,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:53Z",
+      "lon": 2.1604994693680326,
+      "lat": 47.13511827470493,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:00:59Z",
+      "lon": 2.1604994693680326,
+      "lat": 47.13511827470493,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:02Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:03Z",
+      "lon": 2.33,
+      "lat": 48.1825,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-21T00:01:07Z",
+      "lon": -22.670000000000073,
+      "lat": 48.1825,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-21T00:00:01Z",
+      "text": "Three French police officers were sentenced over a racist assault on a Black man, according to Al Jazeera.",
+      "cites": [
+        "news:aljazeera:86c76404e238"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:09Z",
+      "text": "French of France is the predominant variety of the French language in France, Andorra and Monaco, in both formal and informal registers.",
+      "cites": [
+        "wiki:rev:1386275464:0"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:26Z",
+      "text": "The variety is located in metropolitan France, and its country is France.",
+      "cites": [
+        "wd:Q3083196:P276",
+        "wd:Q3083196:P17"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:45Z",
+      "text": "Al Jazeera headlined the story: “Three French police officers sentenced over racist assault on Black man”.",
+      "cites": [
+        "news:aljazeera:86c76404e238"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:00:52Z",
+      "text": "France 24 headlined its report: “French police officers convicted of racist assault”.",
+      "cites": [
+        "news:france24:b9bb6428f5d5"
+      ]
+    },
+    {
+      "t": "2026-11-21T00:01:01Z",
+      "text": "Sources include Al Jazeera and France 24, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386275464:0",
+        "views:en:French_of_France:30d",
+        "wd:Q3083196:P276"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "FR",
+    "lon": 2.33,
+    "lat": 48.87,
+    "label": "Paris"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-21T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-21T00:00:25Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-21T00:00:35Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-21T00:00:44Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-21T00:01:00Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-21T00:00:26Z",
+      "until": "2026-11-21T00:00:35Z",
+      "title": "On record: French of France",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Location",
+          "text": "metropolitan France",
+          "cites": [
+            "wd:Q3083196:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "France",
+          "cites": [
+            "wd:Q3083196:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-21T00:00:45Z",
+      "until": "2026-11-21T00:01:00Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man",
+          "cites": [
+            "news:aljazeera:86c76404e238"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
+          "cites": [
+            "news:france24:b9bb6428f5d5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-21T00:01:01Z",
+      "until": "2026-11-21T00:01:07Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386275464:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:French_of_France:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q3083196:P276"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-22T07:26:56Z",
+    "costUsd": 0.001732
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-21",
+  "title": "The world on 21 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-21T00:00:00Z",
+    "end": "2026-11-22T00:00:00Z"
+  },
+  "focus": "2026-11-21T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-21",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "lon": -164.2,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-21T00:54:07Z",
+      "lon": -164.2,
+      "lat": -12.7,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T01:38:24Z",
+      "lon": 34.45,
+      "lat": 30.86,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T02:32:31Z",
+      "lon": 34.45,
+      "lat": 30.86,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T03:16:48Z",
+      "lon": 34.45,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-21T04:55:12Z",
+      "lon": 47.81,
+      "lat": 29.875,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T05:49:19Z",
+      "lon": 47.81,
+      "lat": 29.875,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T06:33:36Z",
+      "lon": 2.30416667,
+      "lat": 48.20833333,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T07:34:19Z",
+      "lon": 2.30416667,
+      "lat": 48.20833333,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T08:24:00Z",
+      "lon": 90.2667,
+      "lat": 23.2183,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T09:18:07Z",
+      "lon": 90.2667,
+      "lat": 23.2183,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T10:02:24Z",
+      "lon": 127.5407,
+      "lat": -8.612400000000001,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T10:56:31Z",
+      "lon": 127.5407,
+      "lat": -8.612400000000001,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T11:40:48Z",
+      "lon": 101.89,
+      "lat": -2.23,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T12:34:55Z",
+      "lon": 101.89,
+      "lat": -2.23,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T13:19:12Z",
+      "lon": 46.715,
+      "lat": 23.9983,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T14:34:26Z",
+      "lon": 46.715,
+      "lat": 23.9983,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T15:36:00Z",
+      "lon": 90.51666667,
+      "lat": 23.15333333,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T16:55:12Z",
+      "lon": 90.51666667,
+      "lat": 23.15333333,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T18:00:00Z",
+      "lon": 26,
+      "lat": 59.19333333,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T19:19:12Z",
+      "lon": 26,
+      "lat": 59.19333333,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T20:24:00Z",
+      "lon": 90.2667,
+      "lat": 23.2183,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T21:43:12Z",
+      "lon": 90.2667,
+      "lat": 23.2183,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-21T22:48:00Z",
+      "lon": 89.625,
+      "lat": 23.42666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-21T23:27:36Z",
+      "lon": 89.625,
+      "lat": 23.42666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 89.625,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "speed": 738
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-21T00:00:00Z",
+      "text": "00:00 UTC. Tropical Cyclone Xavier at 11.5°S, 164.2°W, sustained winds of 45 knots.",
+      "cites": [
+        "eonet:EONET_26463:2026-11-21T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-21T01:38:24Z",
+      "text": "Conflict: Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in…",
+      "cites": [
+        "wiki:2026-11-21:1"
+      ]
+    },
+    {
+      "t": "2026-11-21T03:16:48Z",
+      "text": "02:00 UTC. Internet outage signal in French Guiana: responsive address blocks down to 61% of normal.",
+      "cites": [
+        "ioda:GF:ping:2026-11-21T02:00Z",
+        "ioda:GF:ping:baseline"
+      ]
+    },
+    {
+      "t": "2026-11-21T04:55:12Z",
+      "text": "Disaster: At least four people are killed and 35 others are injured in a fire at a power station in Basra, Iraq.",
+      "cites": [
+        "wiki:2026-11-21:9"
+      ]
+    },
+    {
+      "t": "2026-11-21T06:33:36Z",
+      "text": "Science & tech: The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
+      "cites": [
+        "wiki:2026-11-21:11"
+      ]
+    },
+    {
+      "t": "2026-11-21T08:24:00Z",
+      "text": "Business: At least 80 garment factories in Savar and Ashulia, Bangladesh, declare general holidays after workers stage sit-ins and work stoppages…",
+      "cites": [
+        "wiki:2026-11-21:5"
+      ]
+    },
+    {
+      "t": "2026-11-21T10:02:24Z",
+      "text": "09:42 UTC. The day's strongest earthquake: magnitude 6.8, 132 km deep, 105 km NE of Lospalos, Timor Leste.",
+      "cites": [
+        "usgs:us6000ucij"
+      ]
+    },
+    {
+      "t": "2026-11-21T11:40:48Z",
+      "text": "World: Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods.",
+      "cites": [
+        "wiki:2026-11-21:10"
+      ]
+    },
+    {
+      "t": "2026-11-21T13:19:12Z",
+      "text": "Conflict: Saudi Arabia intercepts three missiles fired at Riyadh by the Houthis.",
+      "cites": [
+        "wiki:2026-11-21:2"
+      ]
+    },
+    {
+      "t": "2026-11-21T15:36:00Z",
+      "text": "Business: Laid-off garment workers in Rupganj, Narayanganj District, block roads by felling trees and burning tires over unpaid wages.",
+      "cites": [
+        "wiki:2026-11-21:6"
+      ]
+    },
+    {
+      "t": "2026-11-21T18:00:00Z",
+      "text": "Conflict: The Finnish defence ministry imposes temporary airspace and maritime restrictions after a drone struck a Russian cargo vessel in…",
+      "cites": [
+        "wiki:2026-11-21:3"
+      ]
+    },
+    {
+      "t": "2026-11-21T20:24:00Z",
+      "text": "Business: Border Guard Bangladesh deploys 90 platoons across seven districts, with four more on standby…",
+      "cites": [
+        "wiki:2026-11-21:7"
+      ]
+    },
+    {
+      "t": "2026-11-21T22:48:00Z",
+      "text": "Conflict: Clashes between Bangladesh Nationalist Party supporters and banned Awami League activists in Bera Upazila, Pabna District…",
+      "cites": [
+        "wiki:2026-11-21:4"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-22T07:30:42Z"
+  }
+}
