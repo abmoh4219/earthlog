@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wiki:2026-11-22:3",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-22T00:00:00Z",
+    "lon": 14.51666667,
+    "lat": 35.9,
+    "label": "Conflict: A Maltese-flagged ship is also struck by naval drones off the coast of Benghazi.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+    "quote": "A Maltese-flagged ship is also struck by naval drones off the coast of Benghazi.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:a60ea6375dca",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "DW: Libya: Suspected drone attack hits Russian ship in Benghazi (16:50 UTC)",
+    "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545",
+    "quote": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:0a72272c8d43",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "The Guardian: Russian warship sinks in Benghazi after suspected Ukrainian drone attack (21:33 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+    "quote": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:c4ba5ba817ce",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "France 24: Russian ship attacked near Benghazi in suspected drone attack (22:37 UTC)",
+    "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
+    "quote": "Russian ship attacked near Benghazi in suspected drone attack",
+    "precision": "day"
+  }
+]

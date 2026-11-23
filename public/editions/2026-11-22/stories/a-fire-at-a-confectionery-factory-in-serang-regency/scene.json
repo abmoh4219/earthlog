@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-a-fire-at-a-confectionery-factory-in-serang-regency",
+  "title": "A fire at a confectionery factory in Serang Regency",
+  "subtitle": "Accident · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:03Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 96,
+    "south": -14.15,
+    "east": 116,
+    "north": 1.8499999999999996
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-22T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-22T00:00:18Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 144,
+      "lat": -4.1025,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:07Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:09Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:12Z",
+      "lon": 106,
+      "lat": -6.15,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "lon": 106,
+      "lat": -6.15,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:17Z",
+      "lon": 106,
+      "lat": -6.15,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:20Z",
+      "lon": 106.1249576810812,
+      "lat": -6.62501493041971,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": 106.1249576810812,
+      "lat": -6.62501493041971,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "lon": 106.1249576810812,
+      "lat": -6.62501493041971,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:34Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:37Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:46Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:55Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:58Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:59Z",
+      "lon": 106,
+      "lat": -6.8375,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:03Z",
+      "lon": 81,
+      "lat": -6.8375,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "According to the report, a fire at a confectionery factory in Serang Regency, Banten, Indonesia, has killed at least three people, left 36 others missing, and injured four.",
+      "cites": [
+        "wiki:2026-11-22:9"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:11Z",
+      "text": "The fire took place in Serang Regency, Indonesia, the location the reports give.",
+      "cites": [
+        "wiki:2026-11-22:9"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:19Z",
+      "text": "Banten is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-22:9"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:28Z",
+      "text": "The story was reported by AFP via France 24.",
+      "cites": [
+        "wiki:2026-11-22:9"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:36Z",
+      "text": "The Guardian headlined the story: “Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing.”",
+      "cites": [
+        "news:guardian:b1fdd3d9246a"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:42Z",
+      "text": "Al Jazeera's headline read: “Indonesia factory fire kills three, 36 missing.”",
+      "cites": [
+        "news:aljazeera:dc7fef4413d1"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:48Z",
+      "text": "France 24 headlined it: “Indonesia factory hit by deadly blaze: Three killed and 36 missing.”",
+      "cites": [
+        "news:france24:ac78e10c1ede"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:57Z",
+      "text": "The sources are Wikipedia and its Current events page, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:9"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "ID",
+    "lon": 106,
+    "lat": -6.15,
+    "label": "Serang Regency"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:18Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-22T00:00:27Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:00:35Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:00:56Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:28Z",
+      "until": "2026-11-22T00:00:35Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/live-news/20261122-three-dead-36-missing-after-indonesia-factory-fire",
+          "cites": [
+            "wiki:2026-11-22:9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:00:36Z",
+      "until": "2026-11-22T00:00:56Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "cites": [
+            "news:guardian:b1fdd3d9246a"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing",
+          "cites": [
+            "news:aljazeera:dc7fef4413d1"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
+          "cites": [
+            "news:france24:ac78e10c1ede"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo",
+          "cites": [
+            "news:bbc:79db65a62a99"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342",
+          "cites": [
+            "news:dw:07c7cd5dbdea"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:00:57Z",
+      "until": "2026-11-22T00:01:03Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:9"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.000671
+  }
+}

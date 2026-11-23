@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-bahrain-says-iranian-attack-hits-industrial-facility",
+  "title": "2026 Iran war",
+  "subtitle": "Conflict · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:38Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 46.5,
+    "south": 18.6,
+    "east": 66.5,
+    "north": 34.6
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-22T00:01:01Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-week.json",
+      "name": "week",
+      "from": "2026-11-22T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 94.5,
+      "lat": 15.5475,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:31Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:35Z",
+      "lon": 50.57916667,
+      "lat": 24.60833333,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -45,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:48Z",
+      "lon": 50.57916667,
+      "lat": 24.60833333,
+      "range": 1358307.7707206125,
+      "heading": 14,
+      "pitch": -42.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:00Z",
+      "lon": 50.57916667,
+      "lat": 24.60833333,
+      "range": 1230000,
+      "heading": 28,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:04Z",
+      "lon": 54.0676679533636,
+      "lat": 30.632443153194753,
+      "range": 2685884.119799404,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:01:07Z",
+      "lon": 54.0676679533636,
+      "lat": 30.632443153194753,
+      "range": 2432171.5141190817,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:09Z",
+      "lon": 54.0676679533636,
+      "lat": 30.632443153194753,
+      "range": 2202424.978235511,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:12Z",
+      "lon": 54.0676679533636,
+      "lat": 30.632443153194753,
+      "range": 2685884.119799404,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:21Z",
+      "lon": 54.0676679533636,
+      "lat": 30.632443153194753,
+      "range": 2576209.5459398036,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:30Z",
+      "lon": 54.0676679533636,
+      "lat": 30.632443153194753,
+      "range": 2471013.390215452,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:34Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:01:35Z",
+      "lon": 56.5,
+      "lat": 25.9125,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:38Z",
+      "lon": 31.5,
+      "lat": 25.9125,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "France 24 reports that Bahrain accuses Iran of striking an industrial site, as tankers were hit in the Strait of Hormuz.",
+      "cites": [
+        "news:france24:f69cfc8e9d39"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:08Z",
+      "text": "Bahrain reported that an Iranian strike caused a fire at a civilian industrial facility on 21 November, with no casualties.",
+      "cites": [
+        "wiki:rev:1387094305:438"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "text": "The United States and Israel have been at war with Iran and its regional allies since 28 February 2026, following the Twelve-Day War in June 2025.",
+      "cites": [
+        "wiki:rev:1387094305:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "On 16 November, the Panamanian-flagged liquefied petroleum gas tanker MT Tara Gas was hit and set on fire in the Strait of Hormuz off Khasab, Oman.",
+      "cites": [
+        "wiki:week:1387094305:436"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:42Z",
+      "text": "On 17 November, the IRGC conducted a third drone attack on a US radar in Bahrain, retaliating for alleged US airspace violations and ending a two-month lull in strikes on Persian Gulf targets.",
+      "cites": [
+        "wiki:week:1387094305:438"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:51Z",
+      "text": "On 18 November, Kuwaiti air defenses intercepted drones, while Hung Cao told a Senate hearing on November 18, 2026 that the US had used expired Tomahawk missiles amid an ammunition shortage.",
+      "cites": [
+        "wiki:week:1387094305:441",
+        "wiki:week:1387094305:506"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:11Z",
+      "text": "France 24 headlined it: “Bahrain accuses Iran of striking industrial site as tankers hit in Hormuz”",
+      "cites": [
+        "news:france24:f69cfc8e9d39"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:17Z",
+      "text": "The Guardian headlined it: “Briton swims length of strait of Hormuz to highlight environmental cost of war”",
+      "cites": [
+        "news:guardian:d72b3ea8eace"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:23Z",
+      "text": "Al Jazeera headlined it: “Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat”",
+      "cites": [
+        "news:aljazeera:e7410a0ba3d6"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:32Z",
+      "text": "Sources include France 24, The Guardian and Al Jazeera, Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1387094305:438",
+        "views:en:2026_Iran_war:30d",
+        "wd:Q138503695:P585"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 56.5,
+    "lat": 26.6,
+    "label": "Strait of Hormuz"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "title": "Day by day"
+    },
+    {
+      "t": "2026-11-22T00:01:01Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-22T00:01:10Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:01:31Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "week",
+      "t": "2026-11-22T00:00:33Z",
+      "until": "2026-11-22T00:01:01Z",
+      "title": "Places in the week's reports",
+      "note": "Places the article's dated sentences of the past seven days link to. Red: the latest; amber: a week ago.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Riffa Air Base",
+          "text": "7 days before",
+          "cites": [
+            "wiki:week:1387094305:433"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:01:11Z",
+      "until": "2026-11-22T00:01:31Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261122-bahrain-accuses-iran-of-striking-industrial-site-as-tankers-hit-in-hormuz",
+          "cites": [
+            "news:france24:f69cfc8e9d39"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
+          "cites": [
+            "news:guardian:d72b3ea8eace"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat",
+          "cites": [
+            "news:aljazeera:e7410a0ba3d6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:01:32Z",
+      "until": "2026-11-22T00:01:38Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387094305:438"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Iran_war:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138503695:P585"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.004411
+  }
+}

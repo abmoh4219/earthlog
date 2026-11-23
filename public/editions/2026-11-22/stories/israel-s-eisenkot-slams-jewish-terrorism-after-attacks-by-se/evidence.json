@@ -1,0 +1,119 @@
+[
+  {
+    "id": "news:aljazeera:1a3cd6eb8d9b",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Al Jazeera: Displaced Palestinians protest as Israeli air strikes continue in Gaza (02:14 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza",
+    "quote": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:f4c08d0b63d1",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "DW: Israel's Eisenkot condemns 'Jewish terrorism' in West Bank (15:09 UTC)",
+    "url": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861",
+    "quote": "Israel's Eisenkot condemns 'Jewish terrorism' in West Bank",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:043841536d7c",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "The Guardian: Netanyahu rival condemns ‘Jewish terrorism’ after settler attacks on Palestinian villages (15:22 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+    "quote": "Netanyahu rival condemns ‘Jewish terrorism’ after settler attacks on Palestinian villages",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:0689dfc975ab",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "France 24: West Bank attacks: Opposition leader Eisenkot decries \"Jewish terrorism\" (16:25 UTC)",
+    "url": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism",
+    "quote": "West Bank attacks: Opposition leader Eisenkot decries \"Jewish terrorism\"",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387149368:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza Strip\" (revision of 2026-11-22 20:04 UTC)",
+    "quote": "The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories (the other being the West Bank) that make up the State of Palestine in the Southern Levant region of West Asia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_Strip&oldid=1387149368"
+  },
+  {
+    "id": "wiki:2026-11-17:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-17",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-17: Five Palestinians are killed, including a child, and others are injured in a series of Israeli airstrikes on various areas of the Gaza Strip, Palestine.",
+    "quote": "Five Palestinians are killed, including a child, and others are injured in a series of Israeli airstrikes on various areas of the Gaza Strip, Palestine.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867"
+  },
+  {
+    "id": "wiki:2026-11-19:7",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-19",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-19: Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "quote": "Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379"
+  },
+  {
+    "id": "wiki:2026-11-21:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-21",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-21: Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia. Israel says it targeted operatives.",
+    "quote": "Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293"
+  },
+  {
+    "id": "views:en:Gaza_Strip:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gaza Strip\", 24 October 2026 to 22 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_Strip&range=latest-30"
+  },
+  {
+    "id": "wd:Q39760:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": location Southern Levant",
+    "url": "https://www.wikidata.org/wiki/Q39760#P276"
+  },
+  {
+    "id": "wd:Q39760:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": founded 1949",
+    "url": "https://www.wikidata.org/wiki/Q39760#P571"
+  },
+  {
+    "id": "wd:Q39760:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": country Palestine, United Arab Republic",
+    "url": "https://www.wikidata.org/wiki/Q39760#P17"
+  }
+]

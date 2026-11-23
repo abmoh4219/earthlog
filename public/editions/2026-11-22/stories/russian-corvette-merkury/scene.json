@@ -1,0 +1,666 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-russian-corvette-merkury",
+  "title": "Russian corvette Merkury",
+  "subtitle": "Conflict · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:32Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 10.06666667,
+    "south": 24.11666667,
+    "east": 30.06666667,
+    "north": 40.11666667
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-22T00:00:24Z",
+      "until": "2026-11-22T00:00:32Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-22T00:00:32Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-22T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 58.06666667000002,
+      "lat": 18.857500002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:31Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:35Z",
+      "lon": 27.99407015009981,
+      "lat": 52.61108431737746,
+      "range": 14000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:45Z",
+      "lon": 27.99407015009981,
+      "lat": 52.61108431737746,
+      "range": 12677539.193392383,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:55Z",
+      "lon": 27.99407015009981,
+      "lat": 52.61108431737746,
+      "range": 11480000,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:59Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:01:01Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:03Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:06Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:15Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:24Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:27Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:28Z",
+      "lon": 20.06666667,
+      "lat": 31.42916667,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:32Z",
+      "lon": -4.933333329999982,
+      "lat": 31.42916667,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "According to the report, several people were killed and at least 10 were injured when a Ukrainian naval drone struck the Russian corvette Merkury while it was docked at the port of Benghazi, Libya.",
+      "cites": [
+        "wiki:2026-11-22:2"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:08Z",
+      "text": "The ship was left mostly submerged after an explosion and fire while anchored in Benghazi on 22 November 2026.",
+      "cites": [
+        "wiki:rev:1387285107:1"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "text": "Before 2021, the corvette was known as Retivy (Ретивый).",
+      "cites": [
+        "wiki:rev:1387285107:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "text": "Benghazi, Libya, is where the reports place the ship.",
+      "cites": [
+        "wiki:2026-11-22:2"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "On 22 November 2026, 61,753 people read the English Wikipedia article, while normally only a median of 17 read it per day.",
+      "cites": [
+        "views:en:Russian_corvette_Merkury:2026-11-22",
+        "views:en:Russian_corvette_Merkury:prior"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:40Z",
+      "text": "The article was read in 4 languages, and after English, Russian was the most read with 43,758 readers.",
+      "cites": [
+        "views:en:Russian_corvette_Merkury:2026-11-22",
+        "views:ru:Меркурий_(корвет):2026-11-22"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:47Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:ru:Меркурий_(корвет):2026-11-22",
+        "views:de:Merkuri:2026-11-22",
+        "views:uk:Меркурій_(корвет):2026-11-22"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:57Z",
+      "text": "Al-Jazeera and Reuters reported the story.",
+      "cites": [
+        "wiki:2026-11-22:2"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:05Z",
+      "text": "France 24 headlined its story “Russian strike kills 2 in Kyiv.”",
+      "cites": [
+        "news:france24:c902d721aaa7"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:11Z",
+      "text": "DW headlined its story “Libya: Suspected drone attack hits Russian ship in Benghazi.”",
+      "cites": [
+        "news:dw:a60ea6375dca"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:17Z",
+      "text": "Al Jazeera headlined its story “Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port.”",
+      "cites": [
+        "news:aljazeera:c3072a6f4c52"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:26Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:2",
+        "wiki:rev:1387285107:1",
+        "views:en:Russian_corvette_Merkury:2026-11-22",
+        "wd:Q97189333:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "LY",
+    "lon": 20.06666667,
+    "lat": 32.11666667,
+    "label": "Benghazi"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-22T00:00:56Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:01:04Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:01:25Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "readers",
+      "t": "2026-11-22T00:00:33Z",
+      "until": "2026-11-22T00:00:56Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Russian corvette Merkury",
+          "color": "#ec5a52",
+          "points": [
+            {
+              "x": "10-24",
+              "y": 31
+            },
+            {
+              "x": "10-25",
+              "y": 14
+            },
+            {
+              "x": "10-26",
+              "y": 18
+            },
+            {
+              "x": "10-27",
+              "y": 33
+            },
+            {
+              "x": "10-28",
+              "y": 17
+            },
+            {
+              "x": "10-29",
+              "y": 29
+            },
+            {
+              "x": "10-30",
+              "y": 22
+            },
+            {
+              "x": "10-31",
+              "y": 22
+            },
+            {
+              "x": "11-01",
+              "y": 20
+            },
+            {
+              "x": "11-02",
+              "y": 34
+            },
+            {
+              "x": "11-03",
+              "y": 28
+            },
+            {
+              "x": "11-04",
+              "y": 24
+            },
+            {
+              "x": "11-05",
+              "y": 32
+            },
+            {
+              "x": "11-06",
+              "y": 18
+            },
+            {
+              "x": "11-07",
+              "y": 17
+            },
+            {
+              "x": "11-08",
+              "y": 18
+            },
+            {
+              "x": "11-09",
+              "y": 23
+            },
+            {
+              "x": "11-10",
+              "y": 12
+            },
+            {
+              "x": "11-11",
+              "y": 16
+            },
+            {
+              "x": "11-12",
+              "y": 29
+            },
+            {
+              "x": "11-13",
+              "y": 25
+            },
+            {
+              "x": "11-14",
+              "y": 14
+            },
+            {
+              "x": "11-15",
+              "y": 22
+            },
+            {
+              "x": "11-16",
+              "y": 23
+            },
+            {
+              "x": "11-17",
+              "y": 24
+            },
+            {
+              "x": "11-18",
+              "y": 24
+            },
+            {
+              "x": "11-19",
+              "y": 14
+            },
+            {
+              "x": "11-20",
+              "y": 22
+            },
+            {
+              "x": "11-21",
+              "y": 16
+            },
+            {
+              "x": "11-22",
+              "y": 61753
+            }
+          ],
+          "cites": [
+            "views:en:Russian_corvette_Merkury:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-22T00:00:33Z",
+      "until": "2026-11-22T00:00:56Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "61,753",
+          "value": 61753,
+          "color": "#ec5a52",
+          "cites": [
+            "views:en:Russian_corvette_Merkury:2026-11-22"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "43,758",
+          "value": 43758,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Меркурий_(корвет):2026-11-22"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "10,575",
+          "value": 10575,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Merkuri:2026-11-22"
+          ]
+        },
+        {
+          "label": "Ukrainian",
+          "text": "4,252",
+          "value": 4252,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:uk:Меркурій_(корвет):2026-11-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:57Z",
+      "until": "2026-11-22T00:01:04Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al-Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+          "cites": [
+            "wiki:2026-11-22:2"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
+          "cites": [
+            "wiki:2026-11-22:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:01:05Z",
+      "until": "2026-11-22T00:01:25Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
+          "cites": [
+            "news:france24:c902d721aaa7"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545",
+          "cites": [
+            "news:dw:a60ea6375dca"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+          "cites": [
+            "news:aljazeera:c3072a6f4c52"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+          "cites": [
+            "news:guardian:0a72272c8d43"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko",
+          "cites": [
+            "news:bbc:0afef7db4686"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:01:26Z",
+      "until": "2026-11-22T00:01:32Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387285107:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Russian_corvette_Merkury:2026-11-22"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q97189333:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.001096
+  }
+}

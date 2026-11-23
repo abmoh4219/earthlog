@@ -1,0 +1,178 @@
+[
+  {
+    "id": "wiki:2026-11-22:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-22T00:00:00Z",
+    "lon": 20.06666667,
+    "lat": 32.11666667,
+    "label": "Conflict: Several people are killed and at least 10 people are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack while docked at the port of Benghazi, Libya. The Merkury reportedly capsizes and sinks.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+    "quote": "Several people are killed and at least 10 people are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack while docked at the port of Benghazi, Libya. The Merkury reportedly capsizes and sinks.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al-Jazeera",
+        "url": "https://www.aljazeera.com/amp/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Russian_corvette_Merkury:2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "English Wikipedia: 61,753 readers of \"Russian corvette Merkury\" on 22 Nov 2026",
+    "value": 61753,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Russian_corvette_Merkury",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Russian_corvette_Merkury:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "\"Russian corvette Merkury\": normally a median of 17 readers a day (8 to 60 days before)",
+    "value": 17,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Russian_corvette_Merkury",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:c902d721aaa7",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "France 24: Russian strike kills 2 in Kyiv (16:23 UTC)",
+    "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
+    "quote": "Russian strike kills 2 in Kyiv",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:a60ea6375dca",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "DW: Libya: Suspected drone attack hits Russian ship in Benghazi (16:50 UTC)",
+    "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545",
+    "quote": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:c3072a6f4c52",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Al Jazeera: Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port (17:12 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+    "quote": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:0a72272c8d43",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "The Guardian: Russian warship sinks in Benghazi after suspected Ukrainian drone attack (21:33 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+    "quote": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q97189333:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Wikidata: \"Russian corvette Merkuriy\" is an instance of corvette",
+    "url": "https://www.wikidata.org/wiki/Q97189333",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:0afef7db4686",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "BBC News: Russia-bound ship towed away after it was attacked in Gulf of Finland (17:18 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko",
+    "quote": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387285107:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Russian corvette Merkury\" (revision of 2026-11-23 08:05 UTC)",
+    "quote": "The ship was left mostly submerged following an explosion and fire while anchored in the port of Benghazi, Libya, on 22 November 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Russian_corvette_Merkury&oldid=1387285107"
+  },
+  {
+    "id": "wiki:rev:1387285107:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Russian corvette Merkury\" (revision of 2026-11-23 08:05 UTC)",
+    "quote": "The original name for the corvette was Retivy (Ретивый) prior to 2021.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Russian_corvette_Merkury&oldid=1387285107"
+  },
+  {
+    "id": "views:en:Russian_corvette_Merkury:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Russian corvette Merkury\", 24 October 2026 to 22 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Russian_corvette_Merkury&range=latest-30"
+  },
+  {
+    "id": "views:ru:Меркурий_(корвет):2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 43,758 readers of \"Меркурий (корвет)\" on 22 November 2026",
+    "value": 43758,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D0%B8%D0%B9_(%D0%BA%D0%BE%D1%80%D0%B2%D0%B5%D1%82)"
+  },
+  {
+    "id": "views:de:Merkuri:2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 10,575 readers of \"Merkuri\" on 22 November 2026",
+    "value": 10575,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Merkuri"
+  },
+  {
+    "id": "views:uk:Меркурій_(корвет):2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Ukrainian Wikipedia: 4,252 readers of \"Меркурій (корвет)\" on 22 November 2026",
+    "value": 4252,
+    "unit": "readers",
+    "url": "https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D1%96%D0%B9_(%D0%BA%D0%BE%D1%80%D0%B2%D0%B5%D1%82)"
+  },
+  {
+    "id": "wiki:week:1387285107:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Russian corvette Merkury\" (revision of 2026-11-23 08:05 UTC): dated sentence",
+    "quote": "The ship was left mostly submerged following an explosion and fire while anchored in the port of Benghazi, Libya, on 22 November 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Russian_corvette_Merkury&oldid=1387285107"
+  }
+]

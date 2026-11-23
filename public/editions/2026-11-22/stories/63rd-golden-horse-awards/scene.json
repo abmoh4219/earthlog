@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-63rd-golden-horse-awards",
+  "title": "63rd Golden Horse Awards",
+  "subtitle": "Culture · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:00:39Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 111.5625,
+    "south": 17.0375,
+    "east": 131.5625,
+    "north": 33.0375
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 159.5625,
+      "lat": 14.61,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:31Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:34Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:35Z",
+      "lon": 121.5625,
+      "lat": 24.35,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:39Z",
+      "lon": 96.5625,
+      "lat": 24.35,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "The 63rd Golden Horse Awards take place in Taipei, Taiwan, with the Hong Kong film We Are Born Good winning Best Narrative Feature.",
+      "cites": [
+        "wiki:2026-11-22:4"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:08Z",
+      "text": "Organized by the Taipei Golden Horse Film Festival Executive Committee, the ceremony honors outstanding achievements in Chinese-language cinema from 2025 and 2026.",
+      "cites": [
+        "wiki:rev:1387204839:1"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "text": "The ceremony took place on November 22, 2026, at the Taipei Music Center in Taipei, Taiwan.",
+      "cites": [
+        "wiki:rev:1387204839:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "text": "The report comes from AFP.",
+      "cites": [
+        "wiki:2026-11-22:4"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "This explainer draws on Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:4",
+        "wiki:rev:1387204839:1",
+        "views:en:63rd_Golden_Horse_Awards:30d",
+        "wd:Q141758926:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "TW",
+    "lon": 121.5625,
+    "lat": 25.0375,
+    "label": "Taipei"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:25Z",
+      "until": "2026-11-22T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/hong-kong-cinema-takes-spotlight-taiwan-top-film-award",
+          "cites": [
+            "wiki:2026-11-22:4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:00:33Z",
+      "until": "2026-11-22T00:00:39Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:4"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387204839:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:63rd_Golden_Horse_Awards:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q141758926:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.000595
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-a-severe-thunderstorm-kills-five-people-and-injures-more-tha",
+  "title": "A severe thunderstorm kills five people and injures more than 250 others in…",
+  "subtitle": "Accident · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:00:39Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -63.83583333,
+    "south": -37.08055556,
+    "east": -43.83583333,
+    "north": -21.08055556
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-22T00:00:10Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-22T00:00:15Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": -15.835833330000014,
+      "lat": -17.860833336,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:07Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:09Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:12Z",
+      "lon": -53.83583333,
+      "lat": -29.08055556,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:13Z",
+      "lon": -53.83583333,
+      "lat": -29.08055556,
+      "range": 99609.23651951159,
+      "heading": 17.5,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": -53.83583333,
+      "lat": -29.08055556,
+      "range": 90200,
+      "heading": 11,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:17Z",
+      "lon": -53.41981701532099,
+      "lat": -29.840931552263633,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:20Z",
+      "lon": -53.41981701532099,
+      "lat": -29.840931552263633,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": -53.41981701532099,
+      "lat": -29.840931552263633,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:31Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:34Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:35Z",
+      "lon": -53.83583333,
+      "lat": -29.76805556,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:39Z",
+      "lon": -78.83583333000001,
+      "lat": -29.76805556,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "According to the report, a severe thunderstorm killed five people and injured more than 250 others in Tupanciretã, Rio Grande do Sul, Brazil.",
+      "cites": [
+        "wiki:2026-11-22:8"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:16Z",
+      "text": "The reports also name Rio Grande do Sul, the Brazilian state where the town lies.",
+      "cites": [
+        "wiki:2026-11-22:8"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "text": "The event is reported by AFP.",
+      "cites": [
+        "wiki:2026-11-22:8"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "This explainer draws on Wikipedia's current events listing, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:8"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BR",
+    "lon": -53.83583333,
+    "lat": -29.08055556,
+    "label": "Tupanciretã"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:25Z",
+      "until": "2026-11-22T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/brazil-storm-death-toll-rises-5",
+          "cites": [
+            "wiki:2026-11-22:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:00:33Z",
+      "until": "2026-11-22T00:00:39Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:8"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.001361
+  }
+}

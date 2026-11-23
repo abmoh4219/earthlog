@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-several-garment-factories-in-gazipur",
+  "title": "Several garment factories in Gazipur",
+  "subtitle": "Economy · 22 November 2026 · Update, day 8",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:27Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 80.375,
+    "south": 15.988888889999998,
+    "east": 100.375,
+    "north": 31.98888889
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-22T00:00:42Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-22T00:00:42Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 128.375,
+      "lat": 13.980833333999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:27Z",
+      "lon": 89.68,
+      "lat": 16.21,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:34Z",
+      "lon": 89.68,
+      "lat": 16.21,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:41Z",
+      "lon": 89.68,
+      "lat": 16.21,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:45Z",
+      "lon": 88.3512,
+      "lat": 24.21,
+      "range": 3500000,
+      "heading": -90,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:50Z",
+      "lon": 88.3512,
+      "lat": 24.21,
+      "range": 3169384.7983480957,
+      "heading": -76.3,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:55Z",
+      "lon": 88.3512,
+      "lat": 24.21,
+      "range": 2870000,
+      "heading": -62.599999999999994,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:58Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:01Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:03Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:06Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:13Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:19Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:22Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:23Z",
+      "lon": 90.375,
+      "lat": 23.30138889,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:27Z",
+      "lon": 65.375,
+      "lat": 23.30138889,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "Several garment factories in Gazipur, Bangladesh have declared holidays as minimum wage protests continue, and clashes have erupted between workers and police along the Dhaka–Mymensingh Highway.",
+      "cites": [
+        "wiki:2026-11-22:5"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:08Z",
+      "text": "On 15 November, protests continued despite warnings from the BGMEA and the BKMEA to enforce \"no work, no pay\" closures under Section 13 (1) of the Bangladesh Labour Act, 2006.",
+      "cites": [
+        "wiki:rev:1387085398:72"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "text": "The workers are demanding that the sector's minimum monthly wage rise from ৳12,500 (US$100) to ৳30,000 (US$240).",
+      "cites": [
+        "wiki:rev:1387085398:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "text": "Inflation in Bangladesh was 8.8% in 2025, down from 10.5% in 2024.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:BD"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "The economy grew 3.5% in 2025, and unemployment stood at 3.8%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:BD",
+        "wb:SL.UEM.TOTL.ZS:BD"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:43Z",
+      "text": "Across South Asia, Bangladesh's 8.8% inflation compares with a median of 2.7%, and Bangladesh has the highest figure in the region.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:south-asia"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:57Z",
+      "text": "The Business Standard and The Daily Star reported on the story.",
+      "cites": [
+        "wiki:2026-11-22:5",
+        "wiki:2026-11-22:6"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:05Z",
+      "text": "Al Jazeera headlined it: “Clashes erupt across France in another night of protest”",
+      "cites": [
+        "news:aljazeera:3a8c8b4e1fd2"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:12Z",
+      "text": "France 24 headlined it: “Europe sees new protests over rising costs, inequality and public services”",
+      "cites": [
+        "news:france24:a1d144e53fad"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:21Z",
+      "text": "Sources include Wikipedia, Wikimedia pageviews, Wikidata and World Bank Open Data, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:5",
+        "wiki:rev:1387085398:72",
+        "views:en:2026_Bangladesh_garment_workers_protests:30d",
+        "wd:Q142084937:P31",
+        "wb:FP.CPI.TOTL.ZG:region:south-asia"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BD",
+    "lon": 90.375,
+    "lat": 23.98888889,
+    "label": "Gazipur"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "title": "Bangladesh in numbers"
+    },
+    {
+      "t": "2026-11-22T00:00:42Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-22T00:00:56Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:01:04Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:01:20Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-22T00:00:25Z",
+      "until": "2026-11-22T00:00:42Z",
+      "title": "Inflation, consumer prices, Bangladesh",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Bangladesh",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 8.12667639169917
+            },
+            {
+              "x": "2011",
+              "y": 11.3951651552399
+            },
+            {
+              "x": "2012",
+              "y": 6.21750422069283
+            },
+            {
+              "x": "2013",
+              "y": 7.53040640913172
+            },
+            {
+              "x": "2014",
+              "y": 6.99163889220848
+            },
+            {
+              "x": "2015",
+              "y": 6.19428022984983
+            },
+            {
+              "x": "2016",
+              "y": 5.51352572692995
+            },
+            {
+              "x": "2017",
+              "y": 5.70207015717238
+            },
+            {
+              "x": "2018",
+              "y": 5.54362139486476
+            },
+            {
+              "x": "2019",
+              "y": 5.59199639930629
+            },
+            {
+              "x": "2020",
+              "y": 5.69107474746211
+            },
+            {
+              "x": "2021",
+              "y": 5.54565430773473
+            },
+            {
+              "x": "2022",
+              "y": 7.69695437176898
+            },
+            {
+              "x": "2023",
+              "y": 9.8835030377921
+            },
+            {
+              "x": "2024",
+              "y": 10.4657482763412
+            },
+            {
+              "x": "2025",
+              "y": 8.7687628116114
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BD"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-22T00:00:25Z",
+      "until": "2026-11-22T00:00:42Z",
+      "title": "GDP growth, Bangladesh",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Bangladesh",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 5.57178818533122
+            },
+            {
+              "x": "2011",
+              "y": 6.46437912497728
+            },
+            {
+              "x": "2012",
+              "y": 6.52145877906443
+            },
+            {
+              "x": "2013",
+              "y": 6.01360565834344
+            },
+            {
+              "x": "2014",
+              "y": 6.0610593588495
+            },
+            {
+              "x": "2015",
+              "y": 6.55263987816197
+            },
+            {
+              "x": "2016",
+              "y": 7.11347821270093
+            },
+            {
+              "x": "2017",
+              "y": 6.59024999794057
+            },
+            {
+              "x": "2018",
+              "y": 7.31941263014136
+            },
+            {
+              "x": "2019",
+              "y": 7.88191515117722
+            },
+            {
+              "x": "2020",
+              "y": 3.44801755122445
+            },
+            {
+              "x": "2021",
+              "y": 6.93867912442445
+            },
+            {
+              "x": "2022",
+              "y": 7.09982877575158
+            },
+            {
+              "x": "2023",
+              "y": 5.77511237007889
+            },
+            {
+              "x": "2024",
+              "y": 4.22325911250161
+            },
+            {
+              "x": "2025",
+              "y": 3.48990671836833
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:BD"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-22T00:00:25Z",
+      "until": "2026-11-22T00:00:42Z",
+      "title": "Unemployment, Bangladesh",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Bangladesh",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.379
+            },
+            {
+              "x": "2011",
+              "y": 3.737
+            },
+            {
+              "x": "2012",
+              "y": 4.07
+            },
+            {
+              "x": "2013",
+              "y": 4.426
+            },
+            {
+              "x": "2014",
+              "y": 4.417
+            },
+            {
+              "x": "2015",
+              "y": 4.397
+            },
+            {
+              "x": "2016",
+              "y": 4.35
+            },
+            {
+              "x": "2017",
+              "y": 4.372
+            },
+            {
+              "x": "2018",
+              "y": 4.439
+            },
+            {
+              "x": "2019",
+              "y": 4.504
+            },
+            {
+              "x": "2020",
+              "y": 5.539
+            },
+            {
+              "x": "2021",
+              "y": 5.457
+            },
+            {
+              "x": "2022",
+              "y": 4.593
+            },
+            {
+              "x": "2023",
+              "y": 3.352
+            },
+            {
+              "x": "2024",
+              "y": 3.635
+            },
+            {
+              "x": "2025",
+              "y": 3.778
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:BD"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-22T00:00:43Z",
+      "until": "2026-11-22T00:00:56Z",
+      "title": "Inflation, South Asia",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Bangladesh",
+          "text": "8.8%",
+          "value": 8.7687628116114,
+          "color": "#e3b341",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BD"
+          ]
+        },
+        {
+          "label": "Bhutan",
+          "text": "3.6%",
+          "value": 3.55513663074987,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BT"
+          ]
+        },
+        {
+          "label": "Nepal",
+          "text": "2.7%",
+          "value": 2.65334269811436,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NP"
+          ]
+        },
+        {
+          "label": "India",
+          "text": "2.4%",
+          "value": 2.39884954182294,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:IN"
+          ]
+        },
+        {
+          "label": "Sri Lanka",
+          "text": "-4.8%",
+          "value": 0,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LK"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.65334269811436,
+        "label": "median 2.7%"
+      }
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:57Z",
+      "until": "2026-11-22T00:01:04Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Business Standard",
+          "text": "Open",
+          "url": "https://www.tbsnews.net/bangladesh/garment-workers-stage-fresh-protest-gazipur-attempt-block-dhaka-mymensingh-highway",
+          "cites": [
+            "wiki:2026-11-22:5"
+          ]
+        },
+        {
+          "label": "The Daily Star",
+          "text": "Open",
+          "url": "https://www.thedailystar.net/news/crime-justice/news/bgb-deploys-95-platoons-across-seven-districts-maintain-law-and-order-4330136",
+          "cites": [
+            "wiki:2026-11-22:6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:01:05Z",
+      "until": "2026-11-22T00:01:20Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/clashes-erupt-across-france-in-another-night-of-protest",
+          "cites": [
+            "news:aljazeera:3a8c8b4e1fd2"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/europe-sees-new-protests-over-rising-costs-inequality-and-public-services",
+          "cites": [
+            "news:france24:a1d144e53fad"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:01:21Z",
+      "until": "2026-11-22T00:01:27Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:5"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387085398:72"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Bangladesh_garment_workers_protests:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142084937:P31"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:south-asia"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.001148
+  }
+}

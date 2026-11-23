@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-se",
+  "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
+  "subtitle": "Business · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:45Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 24.450000000000003,
+    "south": 23.5,
+    "east": 44.45,
+    "north": 39.5
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:39Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-22T00:01:08Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-22T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 72.45000000000005,
+      "lat": 18.4875,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:10Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:16Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:19Z",
+      "lon": 34.45000000000001,
+      "lat": 31.2,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": 34.45000000000001,
+      "lat": 31.2,
+      "range": 1358307.7707206125,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:38Z",
+      "lon": 34.45000000000001,
+      "lat": 31.2,
+      "range": 1230000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:41Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:44Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 996092.3651951158,
+      "heading": 20.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:46Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 902000,
+      "heading": 29.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:49Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 3300000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:53Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2988277.095585347,
+      "heading": -1.3000000000000007,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:57Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2706000,
+      "heading": -12.600000000000001,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:00Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:01:03Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:07Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:10Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:13Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:16Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:19Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:28Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:37Z",
+      "lon": 34.72572813581711,
+      "lat": 30.950292692413335,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:40Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:41Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:45Z",
+      "lon": 9.450000000000045,
+      "lat": 30.8125,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "Israel's opposition leader Eisenkot condemned 'Jewish terrorism' after settler attacks on Palestinian villages in the West Bank.",
+      "cites": [
+        "news:dw:f4c08d0b63d1",
+        "news:guardian:043841536d7c",
+        "news:france24:0689dfc975ab"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:06Z",
+      "text": "Al Jazeera reports that displaced Palestinians are protesting as Israeli air strikes continue in Gaza.",
+      "cites": [
+        "news:aljazeera:1a3cd6eb8d9b"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:11Z",
+      "text": "DW, The Guardian and France 24 also reported the story.",
+      "cites": [
+        "news:dw:f4c08d0b63d1",
+        "news:guardian:043841536d7c",
+        "news:france24:0689dfc975ab"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:18Z",
+      "text": "On 17 November, five Palestinians were killed, including a child, in a series of Israeli airstrikes on various areas of the Gaza Strip.",
+      "cites": [
+        "wiki:2026-11-17:1"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "text": "On 19 November, according to Gaza's health ministry, two people were killed by recent Israeli attacks and two others died from their wounds over the past day.",
+      "cites": [
+        "wiki:2026-11-19:7"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "text": "On 21 November, Gaza's civil defence agency reported four people killed by Israeli fire, three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia.",
+      "cites": [
+        "wiki:2026-11-21:1"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:48Z",
+      "text": "The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories, the other being the West Bank.",
+      "cites": [
+        "wiki:rev:1387149368:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:53Z",
+      "text": "Together the two territories make up the State of Palestine in the Southern Levant region of West Asia.",
+      "cites": [
+        "wiki:rev:1387149368:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:59Z",
+      "text": "The Gaza Strip is located in the Southern Levant, and it was founded in 1949.",
+      "cites": [
+        "wd:Q39760:P276",
+        "wd:Q39760:P571"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:18Z",
+      "text": "Al Jazeera headlined its report 'Displaced Palestinians protest as Israeli air strikes continue in Gaza.'",
+      "cites": [
+        "news:aljazeera:1a3cd6eb8d9b"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:24Z",
+      "text": "DW headlined its report 'Israel's Eisenkot condemns Jewish terrorism in West Bank.'",
+      "cites": [
+        "news:dw:f4c08d0b63d1"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:30Z",
+      "text": "The Guardian headlined its report 'Netanyahu rival condemns Jewish terrorism after settler attacks on Palestinian villages.'",
+      "cites": [
+        "news:guardian:043841536d7c"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:39Z",
+      "text": "This explainer draws on 4 outlets, Wikipedia articles, Wikimedia pageviews and Wikidata, including Wikipedia's current events portal for 17 November 2026 and 19 November 2026.",
+      "cites": [
+        "wiki:rev:1387149368:0",
+        "views:en:Gaza_Strip:30d",
+        "wd:Q39760:P276",
+        "wiki:2026-11-17:1",
+        "wiki:2026-11-19:7"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Gaza Strip"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:17Z",
+      "title": "The week in Gaza Strip"
+    },
+    {
+      "t": "2026-11-22T00:00:39Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:47Z",
+      "title": "About Gaza Strip"
+    },
+    {
+      "t": "2026-11-22T00:00:58Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-22T00:01:08Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-22T00:01:17Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:01:38Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "thread",
+      "t": "2026-11-22T00:00:18Z",
+      "until": "2026-11-22T00:00:39Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "17 November",
+          "text": "Five Palestinians are killed, including a child, and others are injured in a series of…",
+          "cites": [
+            "wiki:2026-11-17:1"
+          ]
+        },
+        {
+          "label": "19 November",
+          "text": "Gaza's health ministry reports that two people have been killed by recent Israeli…",
+          "cites": [
+            "wiki:2026-11-19:7"
+          ]
+        },
+        {
+          "label": "21 November",
+          "text": "Gaza's civil defence agency reports four people killed by Israeli fire…",
+          "cites": [
+            "wiki:2026-11-21:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "record",
+      "t": "2026-11-22T00:00:59Z",
+      "until": "2026-11-22T00:01:08Z",
+      "title": "On record: Gaza Strip",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Location",
+          "text": "Southern Levant",
+          "cites": [
+            "wd:Q39760:P276"
+          ]
+        },
+        {
+          "label": "Founded",
+          "text": "1949",
+          "cites": [
+            "wd:Q39760:P571"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Palestine, United Arab Republic",
+          "cites": [
+            "wd:Q39760:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:01:18Z",
+      "until": "2026-11-22T00:01:38Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza",
+          "cites": [
+            "news:aljazeera:1a3cd6eb8d9b"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861",
+          "cites": [
+            "news:dw:f4c08d0b63d1"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+          "cites": [
+            "news:guardian:043841536d7c"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism",
+          "cites": [
+            "news:france24:0689dfc975ab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:01:39Z",
+      "until": "2026-11-22T00:01:45Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387149368:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Gaza_Strip:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q39760:P276"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+          "cites": [
+            "wiki:2026-11-17:1"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379",
+          "cites": [
+            "wiki:2026-11-19:7"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+          "cites": [
+            "wiki:2026-11-21:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.004213
+  }
+}

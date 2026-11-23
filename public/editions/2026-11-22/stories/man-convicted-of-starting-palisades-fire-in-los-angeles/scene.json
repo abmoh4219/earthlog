@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-man-convicted-of-starting-palisades-fire-in-los-angeles",
+  "title": "Premier League",
+  "subtitle": "Sports · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:16Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -17.55,
+    "south": -0.5999999999999996,
+    "east": 2.45,
+    "north": 15.4
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 30.450000000000045,
+      "lat": 4.0275,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "lon": -7.55,
+      "lat": 6.9,
+      "range": 550000,
+      "heading": 20,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": -7.55,
+      "lat": 6.9,
+      "range": 498046.1825975579,
+      "heading": 11.1,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:31Z",
+      "lon": -7.55,
+      "lat": 6.9,
+      "range": 451000,
+      "heading": 2.1999999999999993,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:34Z",
+      "lon": -7.55,
+      "lat": 6.2,
+      "range": 1300000,
+      "heading": -14,
+      "pitch": -40,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:38Z",
+      "lon": -7.55,
+      "lat": 6.2,
+      "range": 1177200.0679578641,
+      "heading": -2.6999999999999993,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:42Z",
+      "lon": -7.55,
+      "lat": 6.2,
+      "range": 1066000,
+      "heading": 8.600000000000001,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:46Z",
+      "lon": -7.55,
+      "lat": -0.5999999999999996,
+      "range": 9000000,
+      "heading": 0,
+      "pitch": -50,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:49Z",
+      "lon": -7.55,
+      "lat": -0.5999999999999996,
+      "range": 8149846.6243236745,
+      "heading": -10.5,
+      "pitch": -47.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:52Z",
+      "lon": -7.55,
+      "lat": -0.5999999999999996,
+      "range": 7380000,
+      "heading": -21,
+      "pitch": -45,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:55Z",
+      "lon": -7.55,
+      "lat": -0.5999999999999996,
+      "range": 9000000,
+      "heading": -12,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:02Z",
+      "lon": -7.55,
+      "lat": -0.5999999999999996,
+      "range": 8632496.741962895,
+      "heading": -10,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:08Z",
+      "lon": -7.55,
+      "lat": -0.5999999999999996,
+      "range": 8280000,
+      "heading": -8,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:12Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:01:13Z",
+      "lon": -7.55,
+      "lat": 6.7125,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:16Z",
+      "lon": -32.55000000000001,
+      "lat": 6.7125,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "According to police, a man found dead on Flinders Island is believed to have been shot by an officer, as The Guardian reports.",
+      "cites": [
+        "news:guardian:66c4004d37ce"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:08Z",
+      "text": "On 13 November, amid the reintroduction of UK measures, the Premier League said non-televised matches would go to its main broadcast partners and additional BBC and Amazon Prime matches.",
+      "cites": [
+        "wiki:rev:1386079528:268"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "text": "The Premier League is a professional association football league in England and the highest level of the English football league system.",
+      "cites": [
+        "wiki:rev:1386079528:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "text": "The infobox lists the venue as Man.",
+      "cites": [
+        "wiki:box:1386079528:venue"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "Arsenal won the title, its 4th.",
+      "cites": [
+        "wiki:box:1386079528:winner"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:38Z",
+      "text": "The league has 20 teams, a format used since 1995–96, and it is hosted in England.",
+      "cites": [
+        "wiki:box:1386079528:teams",
+        "wiki:box:1386079528:host-country"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:44Z",
+      "text": "On 22 November, the article was read in 11 languages, most in English with 8,540 readers, followed by Spanish with 1,096 and Japanese with 1,096.",
+      "cites": [
+        "views:en:Premier_League:2026-11-22",
+        "views:es:Premier_League:2026-11-22",
+        "views:ja:プレミアリーグ:2026-11-22"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:54Z",
+      "text": "The Guardian headlined its story: “Man found dead on Flinders Island believed to have been shot by officer, police say”.",
+      "cites": [
+        "news:guardian:66c4004d37ce"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:01Z",
+      "text": "Al Jazeera took a different angle, headlining its report: “Liverpool thrash 10-man Man United in nightmare start for Pochettino”.",
+      "cites": [
+        "news:aljazeera:a653a9fddc3d"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:10Z",
+      "text": "This film draws on The Guardian and Al Jazeera, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption cites the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386079528:268",
+        "views:en:Premier_League:30d",
+        "wd:Q9448:P571"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CI",
+    "lon": -7.55,
+    "lat": 7.4,
+    "label": "Man"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "title": "The venue"
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "title": "The result"
+    },
+    {
+      "t": "2026-11-22T00:00:43Z",
+      "title": "Followed around the world"
+    },
+    {
+      "t": "2026-11-22T00:00:53Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:01:09Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "result",
+      "t": "2026-11-22T00:00:33Z",
+      "until": "2026-11-22T00:00:43Z",
+      "title": "The result",
+      "note": "From the event's Wikipedia infobox (revision of 2026-11-16).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Winner",
+          "text": "Arsenal (4th title)",
+          "cites": [
+            "wiki:box:1386079528:winner"
+          ]
+        },
+        {
+          "label": "Teams",
+          "text": "20 (since 1995–96)",
+          "cites": [
+            "wiki:box:1386079528:teams"
+          ]
+        },
+        {
+          "label": "Host country",
+          "text": "England",
+          "cites": [
+            "wiki:box:1386079528:host-country"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-22T00:00:44Z",
+      "until": "2026-11-22T00:00:53Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions on the day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "8,540",
+          "value": 8540,
+          "color": "#4cc38a",
+          "cites": [
+            "views:en:Premier_League:2026-11-22"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "1,096",
+          "value": 1096,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Premier_League:2026-11-22"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "text": "1,096",
+          "value": 1096,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ja:プレミアリーグ:2026-11-22"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "679",
+          "value": 679,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Premier_League:2026-11-22"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "631",
+          "value": 631,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Championnat_d'Angleterre_de_football:2026-11-22"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "477",
+          "value": 477,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Английская_Премьер-лига:2026-11-22"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "378",
+          "value": 378,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Premier_League:2026-11-22"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "332",
+          "value": 332,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Premier_League:2026-11-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:00:54Z",
+      "until": "2026-11-22T00:01:09Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
+          "cites": [
+            "news:guardian:66c4004d37ce"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/sports/2026/11/22/liverpool-thrash-10-man-man-united-in-nightmare-start-for-pochettino",
+          "cites": [
+            "news:aljazeera:a653a9fddc3d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:01:10Z",
+      "until": "2026-11-22T00:01:16Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386079528:268"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Premier_League:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q9448:P571"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.002425
+  }
+}

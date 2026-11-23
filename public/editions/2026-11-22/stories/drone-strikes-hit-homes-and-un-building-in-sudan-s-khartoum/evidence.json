@@ -1,0 +1,162 @@
+[
+  {
+    "id": "news:aljazeera:2109a953017e",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Al Jazeera: Drone attacks kill four near Sudan’s capital, damage UN building (15:03 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum",
+    "quote": "Drone attacks kill four near Sudan’s capital, damage UN building",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:8d694ed4036b",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "France 24: Drone strikes hit homes and UN building in Sudan's Khartoum (16:38 UTC)",
+    "url": "https://www.france24.com/en/africa/20261122-drone-strikes-hit-homes-and-un-building-in-sudan-s-khartoum",
+    "quote": "Drone strikes hit homes and UN building in Sudan's Khartoum",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:86bdbc88b2b0",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "DW: Sudan: Drones hit UN building, residential area in Khartoum (19:25 UTC)",
+    "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122",
+    "quote": "Sudan: Drones hit UN building, residential area in Khartoum",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386398882:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"United Nations\" (revision of 2026-11-18 08:36 UTC)",
+    "quote": "With 193 member states, the UN is the largest international organization in the world.",
+    "url": "https://en.wikipedia.org/w/index.php?title=United_Nations&oldid=1386398882"
+  },
+  {
+    "id": "views:en:United_Nations:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"United Nations\", 24 October 2026 to 22 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=United_Nations&range=latest-30"
+  },
+  {
+    "id": "wd:Q1065:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": founded 1945",
+    "url": "https://www.wikidata.org/wiki/Q1065#P571"
+  },
+  {
+    "id": "wd:Q1065:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": headquarters New York City",
+    "url": "https://www.wikidata.org/wiki/Q1065#P159"
+  },
+  {
+    "id": "wd:Q1065:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q1065#P17"
+  },
+  {
+    "id": "hn:2026-11-22:Q1065",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 5 stories with \"United Nations\" in the title in the 14 days to 22 November 2026",
+    "value": 5,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=United%20Nations&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q1065:P112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": founded by: Soviet Union, United States and 4 others",
+    "url": "https://www.wikidata.org/wiki/Q1065#P112"
+  },
+  {
+    "id": "wd:Q1065:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": official website https://www.un.org/",
+    "url": "https://www.wikidata.org/wiki/Q1065#P856"
+  },
+  {
+    "id": "wd:Q1065:P355:Q37470",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": subsidiary United Nations Security Council",
+    "url": "https://www.wikidata.org/wiki/Q1065#P355"
+  },
+  {
+    "id": "wd:Q1065:P355:Q177773",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": subsidiary World Intellectual Property Organization",
+    "url": "https://www.wikidata.org/wiki/Q1065#P355"
+  },
+  {
+    "id": "wd:Q1065:P355:Q962612",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": subsidiary United Nations Research Institute For Social Development",
+    "url": "https://www.wikidata.org/wiki/Q1065#P355"
+  },
+  {
+    "id": "wd:Q1065:P355:Q47423",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": subsidiary United Nations General Assembly",
+    "url": "https://www.wikidata.org/wiki/Q1065#P355"
+  },
+  {
+    "id": "wd:Q1065:P355:Q7804",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": subsidiary International Monetary Fund",
+    "url": "https://www.wikidata.org/wiki/Q1065#P355"
+  },
+  {
+    "id": "wd:Q1065:P355:Q170075",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"United Nations\": subsidiary United Nations Economic and Social Council",
+    "url": "https://www.wikidata.org/wiki/Q1065#P355"
+  }
+]

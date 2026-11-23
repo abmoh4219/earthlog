@@ -1,0 +1,338 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-a-maltese-flagged-ship-is-also-struck-by-naval-drones-off-th",
+  "title": "A Maltese-flagged ship is also struck by naval drones off the coast of Benghazi.",
+  "subtitle": "Conflict · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:00:54Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 4.516666669999999,
+    "south": 27.9,
+    "east": 24.51666667,
+    "north": 43.9
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 52.51666666999995,
+      "lat": 21.127499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:07Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:09Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:12Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:17Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:20Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:28Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:37Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:46Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:49Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:50Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:54Z",
+      "lon": -10.48333333000005,
+      "lat": 35.2125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "A Maltese-flagged ship is also struck by naval drones off the coast of Benghazi.",
+      "cites": [
+        "wiki:2026-11-22:3"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:11Z",
+      "text": "On the map, the reports place the incident in Malta.",
+      "cites": [
+        "wiki:2026-11-22:3"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:19Z",
+      "text": "Reuters is the outlet reporting this story.",
+      "cites": [
+        "wiki:2026-11-22:3"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:27Z",
+      "text": "DW headlined it: “Libya: Suspected drone attack hits Russian ship in Benghazi”.",
+      "cites": [
+        "news:dw:a60ea6375dca"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "The Guardian headlined it: “Russian warship sinks in Benghazi after suspected Ukrainian drone attack”.",
+      "cites": [
+        "news:guardian:0a72272c8d43"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:39Z",
+      "text": "France 24 headlined it: “Russian ship attacked near Benghazi in suspected drone attack”.",
+      "cites": [
+        "news:france24:c4ba5ba817ce"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:48Z",
+      "text": "The sources are Wikipedia and Current events, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:3"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 14.51666667,
+    "lat": 35.9,
+    "label": "Malta"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:00:47Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:19Z",
+      "until": "2026-11-22T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
+          "cites": [
+            "wiki:2026-11-22:3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:00:27Z",
+      "until": "2026-11-22T00:00:47Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545",
+          "cites": [
+            "news:dw:a60ea6375dca"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+          "cites": [
+            "news:guardian:0a72272c8d43"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
+          "cites": [
+            "news:france24:c4ba5ba817ce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:00:48Z",
+      "until": "2026-11-22T00:00:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:3"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.000571
+  }
+}

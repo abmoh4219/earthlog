@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-drone-strikes-hit-homes-and-un-building-in-sudan-s-khartoum",
+  "title": "United Nations",
+  "subtitle": "Tech & business · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:30Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 22.53,
+    "south": 7.59,
+    "east": 42.53,
+    "north": 23.59
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-22T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-22T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 70.52999999999997,
+      "lat": 8.9415,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 32.53,
+      "lat": 14.9025,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:10Z",
+      "lon": 32.53,
+      "lat": 14.9025,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:16Z",
+      "lon": 32.53,
+      "lat": 14.9025,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:20Z",
+      "lon": -74.00611111111111,
+      "lat": 39.912777777777784,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:22Z",
+      "lon": -74.00611111111111,
+      "lat": 39.912777777777784,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "lon": -74.00611111111111,
+      "lat": 39.912777777777784,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:27Z",
+      "lon": -74.00611111111111,
+      "lat": 38.71277777777778,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:31Z",
+      "lon": -74.00611111111111,
+      "lat": 38.71277777777778,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:34Z",
+      "lon": -74.00611111111111,
+      "lat": 38.71277777777778,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:38Z",
+      "lon": -55.897268485929175,
+      "lat": 43.33030101714549,
+      "range": 21957602.600473065,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:41Z",
+      "lon": -55.897268485929175,
+      "lat": 43.33030101714549,
+      "range": 19883454.825745128,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:43Z",
+      "lon": -55.897268485929175,
+      "lat": 43.33030101714549,
+      "range": 18005234.132387914,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:47Z",
+      "lon": -74.00611111111111,
+      "lat": 36.71277777777778,
+      "range": 5500000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:50Z",
+      "lon": -74.00611111111111,
+      "lat": 36.71277777777778,
+      "range": 4980461.825975579,
+      "heading": 9.7,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:52Z",
+      "lon": -74.00611111111111,
+      "lat": 36.71277777777778,
+      "range": 4510000,
+      "heading": 19.4,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:57Z",
+      "lon": -11.660350015567559,
+      "lat": 37.06085211189802,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:59Z",
+      "lon": -11.660350015567559,
+      "lat": 37.06085211189802,
+      "range": 19921847.303902317,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:01Z",
+      "lon": -11.660350015567559,
+      "lat": 37.06085211189802,
+      "range": 18040000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:04Z",
+      "lon": -11.660350015567559,
+      "lat": 37.06085211189802,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:13Z",
+      "lon": -11.660350015567559,
+      "lat": 37.06085211189802,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:22Z",
+      "lon": -11.660350015567559,
+      "lat": 37.06085211189802,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:26Z",
+      "lon": 32.53,
+      "lat": 14.9025,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:01:27Z",
+      "lon": 32.53,
+      "lat": 14.9025,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:30Z",
+      "lon": 7.529999999999973,
+      "lat": 14.9025,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "According to France 24, drone strikes hit homes and a UN building in Sudan's Khartoum.",
+      "cites": [
+        "news:france24:8d694ed4036b"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:09Z",
+      "text": "With 193 member states, the UN is the largest international organization in the world.",
+      "cites": [
+        "wiki:rev:1386398882:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:18Z",
+      "text": "The United Nations is headquartered in New York City, United States.",
+      "cites": [
+        "wd:Q1065:P159"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "text": "The UN was founded in 1945 by the Soviet Union, the United States and 4 others.",
+      "cites": [
+        "wd:Q1065:P571",
+        "wd:Q1065:P112"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:36Z",
+      "text": "Companies it owns on record include the United Nations Security Council, the World Intellectual Property Organization and 4 others.",
+      "cites": [
+        "wd:Q1065:P355:Q37470",
+        "wd:Q1065:P355:Q177773",
+        "wd:Q1065:P355:Q962612",
+        "wd:Q1065:P355:Q47423",
+        "wd:Q1065:P355:Q7804",
+        "wd:Q1065:P355:Q170075"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:45Z",
+      "text": "5 Hacker News stories mentioned the United Nations in the two weeks to 22 November 2026.",
+      "cites": [
+        "hn:2026-11-22:Q1065"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:03Z",
+      "text": "Al Jazeera headlined the story: “Drone attacks kill four near Sudan’s capital, damage UN building”.",
+      "cites": [
+        "news:aljazeera:2109a953017e"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:09Z",
+      "text": "France 24 headlined it: “Drone strikes hit homes and UN building in Sudan's Khartoum”.",
+      "cites": [
+        "news:france24:8d694ed4036b"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:15Z",
+      "text": "DW headlined it: “Sudan: Drones hit UN building, residential area in Khartoum”.",
+      "cites": [
+        "news:dw:86bdbc88b2b0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:24Z",
+      "text": "This explainer draws on Al Jazeera, France 24 and DW, Wikipedia, Wikimedia pageviews, Wikidata and Hacker News, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1386398882:0",
+        "views:en:United_Nations:30d",
+        "wd:Q1065:P571",
+        "hn:2026-11-22:Q1065"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "SD",
+    "lon": 32.53,
+    "lat": 15.59,
+    "label": "Khartoum"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:17Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-22T00:00:35Z",
+      "title": "Footprint"
+    },
+    {
+      "t": "2026-11-22T00:00:44Z",
+      "title": "Tech talk"
+    },
+    {
+      "t": "2026-11-22T00:00:53Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-22T00:01:02Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:01:23Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-22T00:00:26Z",
+      "until": "2026-11-22T00:00:35Z",
+      "title": "On record: United Nations",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "1945",
+          "cites": [
+            "wd:Q1065:P571"
+          ]
+        },
+        {
+          "label": "Founded by",
+          "text": "Soviet Union, United States and 4 others",
+          "cites": [
+            "wd:Q1065:P112"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "un.org",
+          "url": "https://www.un.org/",
+          "cites": [
+            "wd:Q1065:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hn",
+      "t": "2026-11-22T00:00:45Z",
+      "until": "2026-11-22T00:00:53Z",
+      "title": "Hacker News stories a day",
+      "note": "Stories with \"United Nations\" in the title, over 14 days.",
+      "kind": "line",
+      "unit": "stories",
+      "series": [
+        {
+          "label": "United Nations",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "11-09",
+              "y": 0
+            },
+            {
+              "x": "11-10",
+              "y": 0
+            },
+            {
+              "x": "11-11",
+              "y": 0
+            },
+            {
+              "x": "11-12",
+              "y": 0
+            },
+            {
+              "x": "11-13",
+              "y": 0
+            },
+            {
+              "x": "11-14",
+              "y": 0
+            },
+            {
+              "x": "11-15",
+              "y": 0
+            },
+            {
+              "x": "11-16",
+              "y": 0
+            },
+            {
+              "x": "11-17",
+              "y": 0
+            },
+            {
+              "x": "11-18",
+              "y": 1
+            },
+            {
+              "x": "11-19",
+              "y": 1
+            },
+            {
+              "x": "11-20",
+              "y": 2
+            },
+            {
+              "x": "11-21",
+              "y": 1
+            },
+            {
+              "x": "11-22",
+              "y": 0
+            }
+          ],
+          "cites": [
+            "hn:2026-11-22:Q1065"
+          ]
+        }
+      ],
+      "mark": 13
+    },
+    {
+      "id": "hn-top",
+      "t": "2026-11-22T00:00:45Z",
+      "until": "2026-11-22T00:00:53Z",
+      "title": "Most discussed",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "48 points",
+          "text": "International UN talks on controlling use of autonomous weapons collapse",
+          "url": "https://news.ycombinator.com/item?id=50594564",
+          "cites": [
+            "hn:2026-11-22:Q1065"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:01:03Z",
+      "until": "2026-11-22T00:01:23Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum",
+          "cites": [
+            "news:aljazeera:2109a953017e"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/africa/20261122-drone-strikes-hit-homes-and-un-building-in-sudan-s-khartoum",
+          "cites": [
+            "news:france24:8d694ed4036b"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122",
+          "cites": [
+            "news:dw:86bdbc88b2b0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:01:24Z",
+      "until": "2026-11-22T00:01:30Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386398882:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:United_Nations:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1065:P571"
+          ]
+        },
+        {
+          "label": "Hacker News (via the Algolia search API)",
+          "text": "No licence stated: story counts ",
+          "url": "https://news.ycombinator.com/",
+          "cites": [
+            "hn:2026-11-22:Q1065"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.002674
+  }
+}

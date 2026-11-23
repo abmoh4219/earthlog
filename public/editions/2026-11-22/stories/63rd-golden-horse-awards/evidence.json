@@ -1,0 +1,87 @@
+[
+  {
+    "id": "wiki:2026-11-22:4",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-22T00:00:00Z",
+    "lon": 121.5625,
+    "lat": 25.0375,
+    "label": "Culture: The 63rd Golden Horse Awards take place in Taipei, Taiwan, with the Hong Kong film We Are Born Good winning Best Narrative Feature.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+    "quote": "The 63rd Golden Horse Awards take place in Taipei, Taiwan, with the Hong Kong film We Are Born Good winning Best Narrative Feature.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/hong-kong-cinema-takes-spotlight-taiwan-top-film-award"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q141758926:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Wikidata: \"63rd Golden Horse Awards\" is an instance of award ceremony edition",
+    "url": "https://www.wikidata.org/wiki/Q141758926",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387204839:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"63rd Golden Horse Awards\" (revision of 2026-11-23 01:00 UTC)",
+    "quote": "Organized by the Taipei Golden Horse Film Festival Executive Committee, the ceremony honored outstanding achievements in Chinese-language cinema from 2025 and 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=63rd_Golden_Horse_Awards&oldid=1387204839"
+  },
+  {
+    "id": "wiki:rev:1387204839:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"63rd Golden Horse Awards\" (revision of 2026-11-23 01:00 UTC)",
+    "quote": "The 63rd Golden Horse Awards took place on November 22, 2026, at the Taipei Music Center in Taipei, Taiwan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=63rd_Golden_Horse_Awards&oldid=1387204839"
+  },
+  {
+    "id": "views:en:63rd_Golden_Horse_Awards:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"63rd Golden Horse Awards\", 24 October 2026 to 22 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=63rd_Golden_Horse_Awards&range=latest-30"
+  },
+  {
+    "id": "wd:Q141758926:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"63rd Golden Horse Awards\": date 22 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q141758926#P585"
+  },
+  {
+    "id": "wd:Q141758926:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"63rd Golden Horse Awards\": country Taiwan",
+    "url": "https://www.wikidata.org/wiki/Q141758926#P17"
+  },
+  {
+    "id": "wiki:box:1387204839:hosts",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"63rd Golden Horse Awards\" (revision of 2026-11-23 01:00 UTC): Hosts: Will Or",
+    "quote": "Hosts: Will Or",
+    "url": "https://en.wikipedia.org/w/index.php?title=63rd_Golden_Horse_Awards&oldid=1387204839"
+  }
+]

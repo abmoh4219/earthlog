@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-south-korean-education-minister-choi-kyo-jin-resigns-followi",
+  "title": "South Korean education minister Choi Kyo-jin resigns following criticism of…",
+  "subtitle": "News · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:00:54Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 118.13,
+    "south": 28.380000000000003,
+    "east": 138.13,
+    "north": 44.38
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-22T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 166.13,
+      "lat": 20.553,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:07Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:09Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:12Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:17Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:20Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:28Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:37Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:46Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:49Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:50Z",
+      "lon": 128.13,
+      "lat": 34.255,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:54Z",
+      "lon": 103.13,
+      "lat": 34.255,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "South Korean education minister Choi Kyo-jin resigned after criticism of the government's response to concerns about artificial intelligence-assisted cheating in the College Scholastic Ability Test.",
+      "cites": [
+        "wiki:2026-11-22:12"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:05Z",
+      "text": "President Lee Jae Myung accepted Choi's resignation.",
+      "cites": [
+        "wiki:2026-11-22:12"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:11Z",
+      "text": "The story centers on South Korea, the country the reports place it in.",
+      "cites": [
+        "wiki:2026-11-22:12"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:19Z",
+      "text": "The report comes from AFP.",
+      "cites": [
+        "wiki:2026-11-22:12"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:27Z",
+      "text": "France 24 headlined the story: “South Korean education minister resigns over AI-driven exam cheating scandal.”",
+      "cites": [
+        "news:france24:30e8a887fc53"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "BBC News headlined it: “South Korea education minister resigns over exam cheating scandal.”",
+      "cites": [
+        "news:bbc:26411d095209"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:39Z",
+      "text": "The Guardian headlined it: “South Korean minister quits after AI cheating scandal engulfs university exams.”",
+      "cites": [
+        "news:guardian:520e56a219a4"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:48Z",
+      "text": "Sources for this film are Wikipedia and Current events, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:12"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "KR",
+    "lon": 128.13,
+    "lat": 36.38,
+    "label": "South Korea"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-22T00:00:47Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:19Z",
+      "until": "2026-11-22T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/south-korea-education-chief-resigns-amid-ai-cheating-scandal",
+          "cites": [
+            "wiki:2026-11-22:12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-22T00:00:27Z",
+      "until": "2026-11-22T00:00:47Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/asia-pacific/20261122-south-korea-education-chief-resigns-amid-ai-cheating-scandal",
+          "cites": [
+            "news:france24:30e8a887fc53"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no",
+          "cites": [
+            "news:bbc:26411d095209"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+          "cites": [
+            "news:guardian:520e56a219a4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:00:48Z",
+      "until": "2026-11-22T00:00:54Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:12"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.000629
+  }
+}

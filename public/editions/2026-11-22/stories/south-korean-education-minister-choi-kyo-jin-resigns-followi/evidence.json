@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wiki:2026-11-22:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-22T00:00:00Z",
+    "lon": 128.13,
+    "lat": 36.38,
+    "label": "Politics: South Korean education minister Choi Kyo-jin resigns following criticism of the government's response to artificial intelligence-assisted cheating concerns surrounding the College Scholastic Ability Test. President Lee Jae Myung accepts Choi's resignation.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+    "quote": "South Korean education minister Choi Kyo-jin resigns following criticism of the government's response to artificial intelligence-assisted cheating concerns surrounding the College Scholastic Ability Test. President Lee Jae Myung accepts Choi's resignation.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/south-korea-education-chief-resigns-amid-ai-cheating-scandal"
+      }
+    ]
+  },
+  {
+    "id": "news:france24:30e8a887fc53",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "France 24: South Korean education minister resigns over AI-driven exam cheating scandal (03:46 UTC)",
+    "url": "https://www.france24.com/en/asia-pacific/20261122-south-korea-education-chief-resigns-amid-ai-cheating-scandal",
+    "quote": "South Korean education minister resigns over AI-driven exam cheating scandal",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:26411d095209",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "BBC News: South Korea education minister resigns over exam cheating scandal (09:20 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no",
+    "quote": "South Korea education minister resigns over exam cheating scandal",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:520e56a219a4",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "The Guardian: South Korean minister quits after AI cheating scandal engulfs university exams (12:12 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+    "quote": "South Korean minister quits after AI cheating scandal engulfs university exams",
+    "precision": "day"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "wiki:2026-11-22:9",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-22T00:00:00Z",
+    "lon": 106,
+    "lat": -6.15,
+    "label": "Disaster: A fire at a confectionery factory in Serang Regency, Banten, Indonesia, kills at least three people, leaves 36 others missing, and injures four.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+    "quote": "A fire at a confectionery factory in Serang Regency, Banten, Indonesia, kills at least three people, leaves 36 others missing, and injures four.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261122-three-dead-36-missing-after-indonesia-factory-fire"
+      }
+    ]
+  },
+  {
+    "id": "news:guardian:b1fdd3d9246a",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "The Guardian: Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing (07:11 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+    "quote": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:dc7fef4413d1",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Al Jazeera: Indonesia factory fire kills three, 36 missing (07:46 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing",
+    "quote": "Indonesia factory fire kills three, 36 missing",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:ac78e10c1ede",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "France 24: Indonesia factory hit by deadly blaze: Three killed and 36 missing (12:11 UTC)",
+    "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
+    "quote": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:79db65a62a99",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "BBC News: Three killed and dozens missing after fire at Indonesian factory (14:05 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo",
+    "quote": "Three killed and dozens missing after fire at Indonesian factory",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:07c7cd5dbdea",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "DW: Dozens missing as deadly fire hits Indonesian candy factory (06:14 UTC)",
+    "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342",
+    "quote": "Dozens missing as deadly fire hits Indonesian candy factory",
+    "precision": "day"
+  }
+]

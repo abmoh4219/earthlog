@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-three-people-are-killed-in-a-house-fire-in-trzcianka",
+  "title": "Three people are killed in a house fire in Trzcianka",
+  "subtitle": "Accident · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:00:30Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 6.466666669999999,
+    "south": 45.05,
+    "east": 26.46666667,
+    "north": 61.05
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-22T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": 54.466666669999995,
+      "lat": 31.417499999999997,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:07Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:09Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:12Z",
+      "lon": 16.46666667,
+      "lat": 53.05,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:13Z",
+      "lon": 16.46666667,
+      "lat": 53.05,
+      "range": 99609.23651951159,
+      "heading": 17.5,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": 16.46666667,
+      "lat": 53.05,
+      "range": 90200,
+      "heading": 11,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:17Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:20Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:22Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:26Z",
+      "lon": 16.46666667,
+      "lat": 52.3625,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:30Z",
+      "lon": -8.533333330000005,
+      "lat": 52.3625,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "Three people have been killed in a house fire in Trzcianka, Poland.",
+      "cites": [
+        "wiki:2026-11-22:10"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:16Z",
+      "text": "The report comes from Xinhua.",
+      "cites": [
+        "wiki:2026-11-22:10"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "text": "The sources for this story are Wikipedia and its Current events page, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-22:10"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "PL",
+    "lon": 16.46666667,
+    "lat": 53.05,
+    "label": "Trzcianka"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-22T00:00:16Z",
+      "until": "2026-11-22T00:00:23Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Xinhua",
+          "text": "Open",
+          "url": "https://english.news.cn/20261122/bcadd59be9824a18b96cdca9f67305e5/c.html",
+          "cites": [
+            "wiki:2026-11-22:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:00:24Z",
+      "until": "2026-11-22T00:00:30Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-22:10"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.001068
+  }
+}

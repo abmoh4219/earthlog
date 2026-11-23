@@ -1,0 +1,199 @@
+[
+  {
+    "id": "views:en:Tom_Jackson_(American_football,_born_1951):2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "English Wikipedia: 263,973 readers of \"Tom Jackson (American football, born 1951)\" on 22 Nov 2026",
+    "value": 263973,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Tom_Jackson_(American_football%2C_born_1951)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Tom_Jackson_(American_football,_born_1951):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "\"Tom Jackson (American football, born 1951)\": normally a median of 149 readers a day (8 to 60 days before)",
+    "value": 149,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Tom_Jackson_(American_football%2C_born_1951)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:John_Madden:2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "English Wikipedia: 76,290 readers of \"John Madden\" on 22 Nov 2026",
+    "value": 76290,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/John_Madden",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:John_Madden:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "\"John Madden\": normally a median of 2,262 readers a day (8 to 60 days before)",
+    "value": 2262,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/John_Madden",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q7816304:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Wikidata: \"Tom Jackson\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q7816304",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387268415:45",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Tom Jackson (American football, born 1951)\" (revision of 2026-11-23 06:11 UTC)",
+    "quote": "Jackson died in Cincinnati on November 20, 2026, at the age of 75.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tom_Jackson_(American_football%2C_born_1951)&oldid=1387268415"
+  },
+  {
+    "id": "wiki:rev:1387268415:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Tom Jackson (American football, born 1951)\" (revision of 2026-11-23 06:11 UTC)",
+    "quote": "He played his entire National Football League (NFL) career as a linebacker for the Denver Broncos from 1973 to 1986.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tom_Jackson_(American_football%2C_born_1951)&oldid=1387268415"
+  },
+  {
+    "id": "wiki:rev:1387268415:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Tom Jackson (American football, born 1951)\" (revision of 2026-11-23 06:11 UTC)",
+    "quote": "Thomas Louie Jackson, also referred to as \"TJ\" or \"Tommy\", (April 4, 1951 – November 20, 2026) was an American football player and sports broadcaster and analyst.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tom_Jackson_(American_football%2C_born_1951)&oldid=1387268415"
+  },
+  {
+    "id": "views:en:Tom_Jackson_(American_football,_born_1951):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Tom Jackson (American football, born 1951)\", 24 October 2026 to 22 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Tom_Jackson_(American_football%2C_born_1951)&range=latest-30"
+  },
+  {
+    "id": "views:en:John_Madden:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"John Madden\", 24 October 2026 to 22 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=John_Madden&range=latest-30"
+  },
+  {
+    "id": "views:it:Tom_Jackson:2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 157 readers of \"Tom Jackson\" on 22 November 2026",
+    "value": 157,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Tom_Jackson"
+  },
+  {
+    "id": "views:ar:توم_جاكسون:2026-11-22",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 2 readers of \"توم جاكسون\" on 22 November 2026",
+    "value": 2,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D9%85_%D8%AC%D8%A7%D9%83%D8%B3%D9%88%D9%86"
+  },
+  {
+    "id": "wd:Q7816304:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": born 4 April 1951",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P569"
+  },
+  {
+    "id": "wd:Q7816304:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": birthplace Cleveland",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P19"
+  },
+  {
+    "id": "wd:Q7816304:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": died 20 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P570"
+  },
+  {
+    "id": "wd:Q7816304:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": occupation American football player, sports commentator",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P106"
+  },
+  {
+    "id": "wd:Q7816304:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P27"
+  },
+  {
+    "id": "wd:Q7816304:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": sport American football",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P641"
+  },
+  {
+    "id": "wd:Q7816304:P69:Q6218206",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": educated at John Adams High School",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P69"
+  },
+  {
+    "id": "wd:Q7816304:P54:Q223507",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Tom Jackson\": played for Denver Broncos",
+    "url": "https://www.wikidata.org/wiki/Q7816304#P54"
+  }
+]

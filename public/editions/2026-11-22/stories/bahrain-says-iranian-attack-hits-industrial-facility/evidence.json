@@ -1,0 +1,158 @@
+[
+  {
+    "id": "news:france24:f69cfc8e9d39",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "France 24: Bahrain accuses Iran of striking industrial site as tankers hit in Hormuz (03:24 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261122-bahrain-accuses-iran-of-striking-industrial-site-as-tankers-hit-in-hormuz",
+    "quote": "Bahrain accuses Iran of striking industrial site as tankers hit in Hormuz",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:d72b3ea8eace",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "The Guardian: Briton swims length of strait of Hormuz to highlight environmental cost of war (13:36 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
+    "quote": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:e7410a0ba3d6",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-22T00:00:00Z",
+    "label": "Al Jazeera: Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat (23:59 UTC)",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat",
+    "quote": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387094305:438",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC)",
+    "quote": "On 21 November, Bahrain reported that an Iranian strike caused a fire at a civilian industrial facility without casualties.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  },
+  {
+    "id": "wiki:rev:1387094305:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC)",
+    "quote": "Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies, following the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war, which began in 2023.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  },
+  {
+    "id": "views:en:2026_Iran_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Iran war\", 24 October 2026 to 22 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Iran_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q138503695:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": date 2026",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P585"
+  },
+  {
+    "id": "wd:Q138503695:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": began 28 February 2026",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P580"
+  },
+  {
+    "id": "wd:Q138503695:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": location Tehran, Qom",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P276"
+  },
+  {
+    "id": "wd:Q138503695:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iran War\": country Iran",
+    "url": "https://www.wikidata.org/wiki/Q138503695#P17"
+  },
+  {
+    "id": "wiki:week:1387094305:444",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC): dated sentence",
+    "quote": "On 21 November, Bahrain reported that an Iranian strike caused a fire at a civilian industrial facility without casualties.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  },
+  {
+    "id": "wiki:week:1387094305:441",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC): dated sentence",
+    "quote": "On 18 November, Kuwaiti air defenses engaged and intercepted drone attacks in national airspace, alerting locals to interception blasts.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  },
+  {
+    "id": "wiki:week:1387094305:506",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC): dated sentence",
+    "quote": "Acting US Navy Secretary Hung Cao said during his Senate confirmation hearing on November 18, 2026, that the United States had used expired Tomahawk missiles in the Middle East due to a shortage of ammunition.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  },
+  {
+    "id": "wiki:week:1387094305:438",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC): dated sentence",
+    "quote": "On 17 November, the IRGC conducted a third drone attack on a US radar installation in Bahrain in retaliation for alleged US airspace violations, ending a two-month lull in strikes against Persian Gulf targets.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  },
+  {
+    "id": "wiki:week:1387094305:436",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC): dated sentence",
+    "quote": "In the Strait of Hormuz off Khasab, Oman, on 16 November, the Panamanian-flagged liquefied petroleum gas tanker MT Tara Gas was hit and set on fire.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  },
+  {
+    "id": "wiki:week:1387094305:433",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-22T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Iran war\" (revision of 2026-11-22 13:37 UTC): dated sentence",
+    "quote": "On 15 November, the IRGC reported a six-drone strike on a US air defense radar at Riffa Air Base.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Iran_war&oldid=1387094305"
+  }
+]

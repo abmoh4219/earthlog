@@ -1,0 +1,701 @@
+{
+  "version": 1,
+  "id": "story-2026-11-22-tom-jackson-american-football-born-1951",
+  "title": "Tom Jackson (American football, born 1951)",
+  "subtitle": "People · 22 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-22T00:01:10Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-22T00:00:51Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-22T00:00:51Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-22T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-22T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:27Z",
+      "lon": -81.69472222222223,
+      "lat": 40.59916666666667,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:29Z",
+      "lon": -81.69472222222223,
+      "lat": 40.59916666666667,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:31Z",
+      "lon": -81.69472222222223,
+      "lat": 40.59916666666667,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:35Z",
+      "lon": -89.5266863884408,
+      "lat": 40.166361461532276,
+      "range": 6324210.401158261,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:38Z",
+      "lon": -89.5266863884408,
+      "lat": 40.166361461532276,
+      "range": 5726816.087710259,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:41Z",
+      "lon": -89.5266863884408,
+      "lat": 40.166361461532276,
+      "range": 5185852.528949774,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:44Z",
+      "lon": -89.70343684189673,
+      "lat": 40.14219868495504,
+      "range": 3234330.399659106,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:47Z",
+      "lon": -89.70343684189673,
+      "lat": 40.14219868495504,
+      "range": 2928810.7432899117,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:50Z",
+      "lon": -89.70343684189673,
+      "lat": 40.14219868495504,
+      "range": 2652150.9277204666,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:00:55Z",
+      "lon": 30.066415043377145,
+      "lat": 33.592330340746315,
+      "range": 14000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:00:59Z",
+      "lon": 30.066415043377145,
+      "lat": 33.592330340746315,
+      "range": 12677539.193392383,
+      "heading": 12.100000000000001,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:02Z",
+      "lon": 30.066415043377145,
+      "lat": 33.592330340746315,
+      "range": 11480000,
+      "heading": 24.200000000000003,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:06Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-22T00:01:07Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-22T00:01:10Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:01Z",
+      "text": "Jackson died in Cincinnati on November 20, 2026, at the age of 75.",
+      "cites": [
+        "wiki:rev:1387268415:45"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:08Z",
+      "text": "He spent his entire National Football League (NFL) career as a linebacker for the Denver Broncos, from 1973 to 1986.",
+      "cites": [
+        "wiki:rev:1387268415:1"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:15Z",
+      "text": "Thomas Louie Jackson, also known as \"TJ\" or \"Tommy\", was born on April 4, 1951, and worked as an American football player and sports broadcaster and analyst.",
+      "cites": [
+        "wiki:rev:1387268415:0"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:25Z",
+      "text": "Jackson was born on 4 April 1951 in Cleveland.",
+      "cites": [
+        "wd:Q7816304:P569",
+        "wd:Q7816304:P19"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:33Z",
+      "text": "He was educated at John Adams High School.",
+      "cites": [
+        "wd:Q7816304:P69:Q6218206"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:43Z",
+      "text": "Readers also turned to the article on John Madden, which drew 76,290 readers.",
+      "cites": [
+        "views:en:John_Madden:2026-11-22"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:00:52Z",
+      "text": "On 22 November 2026, 263,973 people read the article, about 1,772× the usual.",
+      "cites": [
+        "views:en:Tom_Jackson_(American_football,_born_1951):2026-11-22",
+        "views:en:Tom_Jackson_(American_football,_born_1951):prior"
+      ]
+    },
+    {
+      "t": "2026-11-22T00:01:04Z",
+      "text": "The figures come from Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1387268415:45",
+        "views:en:Tom_Jackson_(American_football,_born_1951):2026-11-22",
+        "wd:Q7816304:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-22T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-22T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-22T00:00:42Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-22T00:00:51Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-22T00:01:03Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-22T00:00:33Z",
+      "until": "2026-11-22T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1951 born",
+          "text": "Cleveland",
+          "cites": [
+            "wd:Q7816304:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "John Adams High School",
+          "cites": [
+            "wd:Q7816304:P69:Q6218206"
+          ]
+        },
+        {
+          "label": "played for",
+          "text": "Denver Broncos",
+          "cites": [
+            "wd:Q7816304:P54:Q223507"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-22T00:00:52Z",
+      "until": "2026-11-22T00:01:03Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Tom Jackson (American football, born 1951)",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-24",
+              "y": 87
+            },
+            {
+              "x": "10-25",
+              "y": 142
+            },
+            {
+              "x": "10-26",
+              "y": 194
+            },
+            {
+              "x": "10-27",
+              "y": 205
+            },
+            {
+              "x": "10-28",
+              "y": 86
+            },
+            {
+              "x": "10-29",
+              "y": 91
+            },
+            {
+              "x": "10-30",
+              "y": 97
+            },
+            {
+              "x": "10-31",
+              "y": 107
+            },
+            {
+              "x": "11-01",
+              "y": 149
+            },
+            {
+              "x": "11-02",
+              "y": 173
+            },
+            {
+              "x": "11-03",
+              "y": 882
+            },
+            {
+              "x": "11-04",
+              "y": 88
+            },
+            {
+              "x": "11-05",
+              "y": 81
+            },
+            {
+              "x": "11-06",
+              "y": 92
+            },
+            {
+              "x": "11-07",
+              "y": 95
+            },
+            {
+              "x": "11-08",
+              "y": 143
+            },
+            {
+              "x": "11-09",
+              "y": 159
+            },
+            {
+              "x": "11-10",
+              "y": 648
+            },
+            {
+              "x": "11-11",
+              "y": 87
+            },
+            {
+              "x": "11-12",
+              "y": 159
+            },
+            {
+              "x": "11-13",
+              "y": 152
+            },
+            {
+              "x": "11-14",
+              "y": 182
+            },
+            {
+              "x": "11-15",
+              "y": 178
+            },
+            {
+              "x": "11-16",
+              "y": 153
+            },
+            {
+              "x": "11-17",
+              "y": 577
+            },
+            {
+              "x": "11-18",
+              "y": 124
+            },
+            {
+              "x": "11-19",
+              "y": 138
+            },
+            {
+              "x": "11-20",
+              "y": 117
+            },
+            {
+              "x": "11-21",
+              "y": 356
+            },
+            {
+              "x": "11-22",
+              "y": 263973
+            }
+          ],
+          "cites": [
+            "views:en:Tom_Jackson_(American_football,_born_1951):30d"
+          ]
+        },
+        {
+          "label": "John Madden",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-24",
+              "y": 1334
+            },
+            {
+              "x": "10-25",
+              "y": 1886
+            },
+            {
+              "x": "10-26",
+              "y": 1903
+            },
+            {
+              "x": "10-27",
+              "y": 3518
+            },
+            {
+              "x": "10-28",
+              "y": 4485
+            },
+            {
+              "x": "10-29",
+              "y": 2517
+            },
+            {
+              "x": "10-30",
+              "y": 2001
+            },
+            {
+              "x": "10-31",
+              "y": 1449
+            },
+            {
+              "x": "11-01",
+              "y": 2648
+            },
+            {
+              "x": "11-02",
+              "y": 1773
+            },
+            {
+              "x": "11-03",
+              "y": 1929
+            },
+            {
+              "x": "11-04",
+              "y": 1417
+            },
+            {
+              "x": "11-05",
+              "y": 2529
+            },
+            {
+              "x": "11-06",
+              "y": 3665
+            },
+            {
+              "x": "11-07",
+              "y": 3109
+            },
+            {
+              "x": "11-08",
+              "y": 2193
+            },
+            {
+              "x": "11-09",
+              "y": 2993
+            },
+            {
+              "x": "11-10",
+              "y": 2991
+            },
+            {
+              "x": "11-11",
+              "y": 4189
+            },
+            {
+              "x": "11-12",
+              "y": 3020
+            },
+            {
+              "x": "11-13",
+              "y": 4771
+            },
+            {
+              "x": "11-14",
+              "y": 2927
+            },
+            {
+              "x": "11-15",
+              "y": 7052
+            },
+            {
+              "x": "11-16",
+              "y": 4038
+            },
+            {
+              "x": "11-17",
+              "y": 5392
+            },
+            {
+              "x": "11-18",
+              "y": 46817
+            },
+            {
+              "x": "11-19",
+              "y": 102039
+            },
+            {
+              "x": "11-20",
+              "y": 76841
+            },
+            {
+              "x": "11-21",
+              "y": 74612
+            },
+            {
+              "x": "11-22",
+              "y": 76290
+            }
+          ],
+          "cites": [
+            "views:en:John_Madden:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-22T00:00:52Z",
+      "until": "2026-11-22T00:01:03Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "263,973",
+          "value": 263973,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Tom_Jackson_(American_football,_born_1951):2026-11-22"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "157",
+          "value": 157,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Tom_Jackson:2026-11-22"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "2",
+          "value": 2,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:توم_جاكسون:2026-11-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-22T00:01:04Z",
+      "until": "2026-11-22T00:01:10Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387268415:45"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Tom_Jackson_(American_football,_born_1951):2026-11-22"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q7816304:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-23T08:11:43Z",
+    "costUsd": 0.001774
+  }
+}

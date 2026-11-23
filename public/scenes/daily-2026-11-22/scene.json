@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-22",
+  "title": "The world on 22 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-22T00:00:00Z",
+    "end": "2026-11-23T00:00:00Z"
+  },
+  "focus": "2026-11-22T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-22",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "storms",
+      "file": "data/storms.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "lon": -166.8,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T00:58:40Z",
+      "lon": -166.8,
+      "lat": -13.1,
+      "range": 3240000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T01:46:40Z",
+      "lon": 128.13,
+      "lat": 35.1,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T02:46:48Z",
+      "lon": 128.13,
+      "lat": 35.1,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T03:36:00Z",
+      "lon": 128.13,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T06:00:00Z",
+      "lon": 73.8,
+      "lat": 25.96,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T07:03:04Z",
+      "lon": 73.8,
+      "lat": 25.96,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T07:54:40Z",
+      "lon": 126.3861,
+      "lat": 2.1514,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T08:53:20Z",
+      "lon": 126.3861,
+      "lat": 2.1514,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T09:41:20Z",
+      "lon": 126.3861,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-22T11:28:00Z",
+      "lon": 90.375,
+      "lat": 23.348888889999998,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T12:26:40Z",
+      "lon": 90.375,
+      "lat": 23.348888889999998,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T13:14:40Z",
+      "lon": 30.70333333,
+      "lat": 36.24694444,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T14:32:24Z",
+      "lon": 30.70333333,
+      "lat": 36.24694444,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T15:36:00Z",
+      "lon": 121.5625,
+      "lat": 24.3975,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T16:55:12Z",
+      "lon": 121.5625,
+      "lat": 24.3975,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T18:00:00Z",
+      "lon": 20.06666667,
+      "lat": 31.47666667,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T19:19:12Z",
+      "lon": 20.06666667,
+      "lat": 31.47666667,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T20:24:00Z",
+      "lon": -53.83583333,
+      "lat": -29.72055556,
+      "range": 1600000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T21:43:12Z",
+      "lon": -53.83583333,
+      "lat": -29.72055556,
+      "range": 1728000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-22T22:48:00Z",
+      "lon": -3.46,
+      "lat": 38.81,
+      "range": 3200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-22T23:27:36Z",
+      "lon": -3.46,
+      "lat": 38.81,
+      "range": 3456000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": -3.46,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "speed": 800
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-22T00:00:00Z",
+      "text": "00:00 UTC. Tropical Cyclone Xavier at 11.9°S, 166.8°W, sustained winds of 45 knots.",
+      "cites": [
+        "eonet:EONET_26463:2026-11-22T00Z"
+      ]
+    },
+    {
+      "t": "2026-11-22T01:46:40Z",
+      "text": "Politics: South Korean education minister Choi Kyo-jin resigns following criticism of the government's response to artificial intelligence-assisted…",
+      "cites": [
+        "wiki:2026-11-22:12"
+      ]
+    },
+    {
+      "t": "2026-11-22T03:36:00Z",
+      "text": "Conflict: Bahrain announces that two people were injured by Iranian strikes the previous day.",
+      "cites": [
+        "wiki:2026-11-22:1"
+      ]
+    },
+    {
+      "t": "2026-11-22T06:00:00Z",
+      "text": "Disaster: At least twelve people are killed and 23 others are injured in two separate road accidents in Rajasthan, India.",
+      "cites": [
+        "wiki:2026-11-22:7"
+      ]
+    },
+    {
+      "t": "2026-11-22T07:54:40Z",
+      "text": "07:54 UTC. The day's strongest earthquake: magnitude 5.4, 44 km deep, 224 km NE of Bitung, Indonesia.",
+      "cites": [
+        "usgs:us6000ucrb"
+      ]
+    },
+    {
+      "t": "2026-11-22T09:41:20Z",
+      "text": "Sports: In tennis, Carlos Alcaraz defeats Alexander Zverev in the final, 6–2, 7–6(9–7) to win his first singles title at the 2026 ATP Finals.",
+      "cites": [
+        "wiki:2026-11-22:13"
+      ]
+    },
+    {
+      "t": "2026-11-22T11:28:00Z",
+      "text": "Business: Several garment factories in Gazipur, Bangladesh declare holidays amid ongoing minimum wage protests…",
+      "cites": [
+        "wiki:2026-11-22:5"
+      ]
+    },
+    {
+      "t": "2026-11-22T13:14:40Z",
+      "text": "Health & environment: The 2026 United Nations Climate Change Conference (COP31) in Antalya, Turkey…",
+      "cites": [
+        "wiki:2026-11-22:11"
+      ]
+    },
+    {
+      "t": "2026-11-22T15:36:00Z",
+      "text": "Culture: The 63rd Golden Horse Awards take place in Taipei, Taiwan, with the Hong Kong film We Are Born Good winning Best Narrative Feature.",
+      "cites": [
+        "wiki:2026-11-22:4"
+      ]
+    },
+    {
+      "t": "2026-11-22T18:00:00Z",
+      "text": "Conflict: Several people are killed and at least 10 people are injured after the Russian corvette Merkury is struck by a Ukrainian naval drone attack…",
+      "cites": [
+        "wiki:2026-11-22:2"
+      ]
+    },
+    {
+      "t": "2026-11-22T20:24:00Z",
+      "text": "Disaster: A severe thunderstorm kills five people and injures more than 250 others in Tupanciretã, Rio Grande do Sul, Brazil.",
+      "cites": [
+        "wiki:2026-11-22:8"
+      ]
+    },
+    {
+      "t": "2026-11-22T22:48:00Z",
+      "text": "Sports: In motorcycle racing, Spanish rider Marc Márquez of Ducati Corse secures his eighth MotoGP World Championship after finishing eighth at the…",
+      "cites": [
+        "wiki:2026-11-22:14"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-23T08:15:10Z"
+  }
+}
