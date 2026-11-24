@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-finland-summons-russian-ambassador-after-suspected-airspace",
+  "title": "NATO Parliamentary Assembly",
+  "subtitle": "Conflict · 23 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:04Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 34.69,
+    "south": 50.25,
+    "east": 54.69,
+    "north": 66.25
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-23T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-23T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-23T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 82.69000000000005,
+      "lat": 33.675,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:14Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:23Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:29Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:31Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:35Z",
+      "lon": 22.609265424037925,
+      "lat": 54.942817461861594,
+      "range": 6426512.435576229,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": 22.609265424037925,
+      "lat": 54.942817461861594,
+      "range": 5819454.519917227,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:40Z",
+      "lon": 22.609265424037925,
+      "lat": 54.942817461861594,
+      "range": 5269740.197172508,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:43Z",
+      "lon": 22.609265424037925,
+      "lat": 54.942817461861594,
+      "range": 6426512.435576229,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:50Z",
+      "lon": 22.609265424037925,
+      "lat": 54.942817461861594,
+      "range": 6164094.184699537,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:56Z",
+      "lon": 22.609265424037925,
+      "lat": 54.942817461861594,
+      "range": 5912391.440730131,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:00Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:01Z",
+      "lon": 44.69,
+      "lat": 56.125,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:04Z",
+      "lon": 19.690000000000055,
+      "lat": 56.125,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "Finland has summoned the Russian ambassador after a suspected airspace violation, France 24 reports.",
+      "cites": [
+        "news:france24:777165c768bd"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:12Z",
+      "text": "The NATO Parliamentary Assembly is the consultative interparliamentary organisation for the North Atlantic Treaty Organization (NATO).",
+      "cites": [
+        "wiki:rev:1387457373:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:42Z",
+      "text": "DW headlined its report “NATO Parliamentary Assembly convenes amid Russian airspace violations”.",
+      "cites": [
+        "news:dw:9a53102043ed"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:49Z",
+      "text": "France 24 took a different angle, headlining its report “Finland summons Russian ambassador after suspected airspace violation”.",
+      "cites": [
+        "news:france24:777165c768bd"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:58Z",
+      "text": "This explainer draws on Wikipedia, Wikimedia pageviews and Wikidata, alongside news reporting from DW and France 24 shown in the In the news chapter.",
+      "cites": [
+        "wiki:rev:1387457373:2",
+        "views:en:NATO_Parliamentary_Assembly:30d",
+        "wd:Q1756350:P571"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "RU",
+    "lon": 44.69,
+    "lat": 58.25,
+    "label": "Russia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-23T00:00:32Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-23T00:00:41Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:00:57Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:00:42Z",
+      "until": "2026-11-23T00:00:57Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/nato-parliamentary-assembly-convenes-amid-russian-airspace-violations/live-80016415",
+          "cites": [
+            "news:dw:9a53102043ed"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+          "cites": [
+            "news:france24:777165c768bd"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:00:58Z",
+      "until": "2026-11-23T00:01:04Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387457373:2"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:NATO_Parliamentary_Assembly:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q1756350:P571"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.002167
+  }
+}

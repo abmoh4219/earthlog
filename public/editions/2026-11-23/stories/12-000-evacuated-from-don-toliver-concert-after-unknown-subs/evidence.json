@@ -1,0 +1,107 @@
+[
+  {
+    "id": "news:aljazeera:a85a718a327e",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "Al Jazeera: Don Toliver concert chaos after ‘substance’ let off in crowd (03:25 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/don-toliver-concert-chaos-after-substance-let-off-in-crowd",
+    "quote": "Don Toliver concert chaos after ‘substance’ let off in crowd",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:3360c149e118",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "The Guardian: Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd (07:48 UTC)",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+    "quote": "Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:c4a2bcadc8d2",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "France 24: 12,000 evacuated from Don Toliver concert after unknown substance sickens fans (15:46 UTC)",
+    "url": "https://www.france24.com/en/video/20261123-12-000-evacuated-from-don-toliver-concert-after-unknown-substance-sickens-fans",
+    "quote": "12,000 evacuated from Don Toliver concert after unknown substance sickens fans",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387447842:76",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Don Toliver\" (revision of 2026-11-24 00:10 UTC)",
+    "quote": "On November 22, 2026, his concert at Co-op Live in Manchester, England, was subject to a suspected tear gas incident which injured over 50 people and forced an evacuation of over 12,000 people.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Don_Toliver&oldid=1387447842"
+  },
+  {
+    "id": "wiki:rev:1387447842:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Don Toliver\" (revision of 2026-11-24 00:10 UTC)",
+    "quote": "Caleb Zackery \"Don\" Toliver (; born June 12, 1994) is an American rapper, singer and songwriter.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Don_Toliver&oldid=1387447842"
+  },
+  {
+    "id": "views:en:Don_Toliver:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Don Toliver\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Don_Toliver&range=latest-30"
+  },
+  {
+    "id": "wd:Q56513383:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q56513383\": born 12 June 1994",
+    "url": "https://www.wikidata.org/wiki/Q56513383#P569"
+  },
+  {
+    "id": "wd:Q56513383:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q56513383\": birthplace Houston",
+    "url": "https://www.wikidata.org/wiki/Q56513383#P19"
+  },
+  {
+    "id": "wd:Q56513383:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q56513383\": occupation singer, rapper",
+    "url": "https://www.wikidata.org/wiki/Q56513383#P106"
+  },
+  {
+    "id": "wd:Q56513383:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q56513383\": citizenship United States",
+    "url": "https://www.wikidata.org/wiki/Q56513383#P27"
+  },
+  {
+    "id": "wd:Q56513383:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q56513383\": genre hip-hop, trap music",
+    "url": "https://www.wikidata.org/wiki/Q56513383#P136"
+  }
+]

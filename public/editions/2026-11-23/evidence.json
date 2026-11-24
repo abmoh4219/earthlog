@@ -1,0 +1,505 @@
+[
+  {
+    "id": "wiki:2026-11-23:5",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "Business: Nvidia reinstates Jensen Huang as president and chief executive officer less than two weeks after he resigned following revelations of an affair with Alice Huang, who is suspected by U.S. intelligence of spying for China.",
+    "quote": "Nvidia reinstates Jensen Huang as president and chief executive officer less than two weeks after he resigned following revelations of an affair with Alice Huang, who is suspected by U.S. intelligence of spying for China.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+    "links": [
+      {
+        "url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/",
+        "name": "CBS"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-23:6",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "lon": 72,
+    "lat": 31,
+    "label": "Disaster: Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in Punjab, Pakistan.",
+    "quote": "Seven people are killed and two others are injured after a truck loaded with stones overturns onto a minitruck in Punjab, Pakistan.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+    "links": [
+      {
+        "url": "https://english.news.cn/20261123/00ed81bb7e0043e5a18f3db0c2170696/c.html",
+        "name": "Xinhua"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-23:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "lon": 54.93,
+    "lat": 32.17,
+    "label": "Law & crime: Iranian singer Parastoo Ahmadi receives 74 lashes for performing at a music concert without a hijab.",
+    "quote": "Iranian singer Parastoo Ahmadi receives 74 lashes for performing at a music concert without a hijab.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+    "links": [
+      {
+        "url": "https://www.bbc.com/news/articles/cq1j6585l5g6o",
+        "name": "BBC News"
+      }
+    ]
+  },
+  {
+    "id": "wiki:2026-11-23:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "lon": 8.57444444,
+    "lat": 47.38138889,
+    "label": "Sports: In association football, FIFA confirms Costa Rica, Jamaica, Mexico, and the United States as joint hosts of the 2031 Women's World Cup, while England, Northern Ireland, Scotland, and Wales will jointly host the 2035 tournament.",
+    "quote": "In association football, FIFA confirms Costa Rica, Jamaica, Mexico, and the United States as joint hosts of the 2031 Women's World Cup, while England, Northern Ireland, Scotland, and Wales will jointly host the 2035 tournament.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+    "links": [
+      {
+        "url": "https://www.afp.com/en/usa-joint-bid-host-2031-womens-world-cup-uk-host-2035",
+        "name": "AFP"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Jensen_Huang:2026-11-23",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 234,343 readers of \"Jensen Huang\" on 23 Nov 2026",
+    "value": 234343,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
+  },
+  {
+    "id": "views:en:Jensen_Huang:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "\"Jensen Huang\": normally a median of 7,826 readers a day (8 to 60 days before)",
+    "value": 7826,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang"
+  },
+  {
+    "id": "news:aljazeera:e57ea6981e19",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T15:23:05Z",
+    "label": "Al Jazeera: Jensen Huang returns as NVIDIA CEO after intelligence scandal",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-returns-as-nvidia-ceo-after-intelligence-scandal",
+    "quote": "Jensen Huang returns as NVIDIA CEO after intelligence scandal"
+  },
+  {
+    "id": "news:france24:4ac1fe94ae48",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T15:29:07Z",
+    "label": "France 24: Nvidia reinstates Jensen Huang as CEO",
+    "url": "https://www.france24.com/en/video/20261123-nvidia-reinstates-jensen-huang-as-ceo",
+    "quote": "Nvidia reinstates Jensen Huang as CEO"
+  },
+  {
+    "id": "wd:Q305177:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Jensen Huang\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q305177"
+  },
+  {
+    "id": "views:en:Molly_Meldrum:2026-11-23",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia: 112,186 readers of \"Molly Meldrum\" on 23 Nov 2026",
+    "value": 112186,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Molly_Meldrum"
+  },
+  {
+    "id": "views:en:Molly_Meldrum:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "\"Molly Meldrum\": normally a median of 134 readers a day (8 to 60 days before)",
+    "value": 134,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Molly_Meldrum"
+  },
+  {
+    "id": "wd:Q6896637:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata: \"Molly Meldrum\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q6896637"
+  },
+  {
+    "id": "news:bbc:0b696fb1de3a",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T18:04:20Z",
+    "label": "BBC News: Iranian authorities flog singer who performed without hijab, lawyers say",
+    "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o",
+    "quote": "Iranian authorities flog singer who performed without hijab, lawyers say"
+  },
+  {
+    "id": "news:aljazeera:2b24c4908c66",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T20:41:56Z",
+    "label": "Al Jazeera: Iran flogs singer Parastoo Ahmadi for performing without headscarf",
+    "url": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf",
+    "quote": "Iran flogs singer Parastoo Ahmadi for performing without headscarf"
+  },
+  {
+    "id": "news:guardian:496dfdefe1da",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T20:56:17Z",
+    "label": "The Guardian: Iranian singer and four others receive lashes after performance without hijab",
+    "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab",
+    "quote": "Iranian singer and four others receive lashes after performance without hijab"
+  },
+  {
+    "id": "news:dw:81630f151694",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-23T16:19:00Z",
+    "label": "DW: US and UK to host Women's World Cups in 2031 and 2035",
+    "url": "https://www.dw.com/en/us-and-uk-to-host-women-s-world-cups-in-2031-and-2035/a-80023786",
+    "quote": "US and UK to host Women's World Cups in 2031 and 2035"
+  },
+  {
+    "id": "news:france24:3314f31f0d59",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T06:10:26Z",
+    "label": "France 24: Live: Zelensky confirms Ukraine’s military struck Russian ships in Libyan waters",
+    "url": "https://www.france24.com/en/europe/20261123-live-russian-strikes-kill-at-least-15-people-in-kyiv-region-ukraine-says",
+    "quote": "Live: Zelensky confirms Ukraine’s military struck Russian ships in Libyan waters"
+  },
+  {
+    "id": "news:allafrica:6c417e832b50",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-23T06:36:12Z",
+    "label": "AllAfrica: Libya: Suspected Drone Attack Hits Russian Warship in Benghazi",
+    "url": "https://allafrica.com/stories/202611230149.html",
+    "quote": "Libya: Suspected Drone Attack Hits Russian Warship in Benghazi"
+  },
+  {
+    "id": "news:aljazeera:6c375e03b3e6",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T07:37:09Z",
+    "label": "Al Jazeera: Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+    "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya",
+    "quote": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya"
+  },
+  {
+    "id": "news:dw:bfcd59f235fe",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-23T07:42:00Z",
+    "label": "DW: Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
+    "url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sank-russian-ship-off-libya/live-80015859",
+    "quote": "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya"
+  },
+  {
+    "id": "news:npr:af520c61c8b0",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-23T10:16:33Z",
+    "label": "NPR: Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+    "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+    "quote": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya"
+  },
+  {
+    "id": "news:bbc:abd87581214c",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T11:34:10Z",
+    "label": "BBC News: Ukraine shares video of strikes on Russian ships off Libya",
+    "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo",
+    "quote": "Ukraine shares video of strikes on Russian ships off Libya"
+  },
+  {
+    "id": "news:guardian:4b7fad258a93",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T11:42:51Z",
+    "label": "The Guardian: Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+    "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+    "quote": "Ukraine confirms it used naval drones to strike two Russian ships off Libya"
+  },
+  {
+    "id": "news:dw:88659c21678b",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-23T14:18:00Z",
+    "label": "DW: Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
+    "url": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926",
+    "quote": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal"
+  },
+  {
+    "id": "news:bbc:faaac939e2af",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T15:49:52Z",
+    "label": "BBC News: The rise and fall and rise again of Jensen Huang",
+    "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo",
+    "quote": "The rise and fall and rise again of Jensen Huang"
+  },
+  {
+    "id": "news:guardian:baf5bff4c4d4",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T21:09:10Z",
+    "label": "The Guardian: Republican senators criticize Nvidia’s decision to reinstate Jensen Huang",
+    "url": "https://www.theguardian.com/technology/2026/nov/23/trump-jensen-huang-nvidia-reinstated",
+    "quote": "Republican senators criticize Nvidia’s decision to reinstate Jensen Huang"
+  },
+  {
+    "id": "news:aljazeera:e78cea294107",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T20:01:41Z",
+    "label": "Al Jazeera: Trump delays explosive detonation in US state of Iowa amid legal battles",
+    "url": "https://www.aljazeera.com/news/2026/11/23/trump-delays-explosive-detonation-in-us-state-of-iowa-amid-legal-battles",
+    "quote": "Trump delays explosive detonation in US state of Iowa amid legal battles"
+  },
+  {
+    "id": "news:guardian:f317b57513b3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T22:22:12Z",
+    "label": "The Guardian: Trump defers to appeals court over army plan to detonate bomb-making material in Iowa",
+    "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
+    "quote": "Trump defers to appeals court over army plan to detonate bomb-making material in Iowa"
+  },
+  {
+    "id": "news:france24:1075c80c2e70",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T00:44:47Z",
+    "label": "France 24: COP31 climate talks in Turkey collapse",
+    "url": "https://www.france24.com/en/video/20261123-cop31-climate-talks-collapse",
+    "quote": "COP31 climate talks in Turkey collapse"
+  },
+  {
+    "id": "news:bbc:fcb85812f82b",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T05:34:39Z",
+    "label": "BBC News: What's next after no deal at COP31 climate talks?",
+    "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo",
+    "quote": "What's next after no deal at COP31 climate talks?"
+  },
+  {
+    "id": "news:aljazeera:b030418a4c24",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T16:38:30Z",
+    "label": "Al Jazeera: Why did COP31 climate talks collapse without a deal?",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/why-did-cop31-climate-talks-collapse-without-a-deal",
+    "quote": "Why did COP31 climate talks collapse without a deal?"
+  },
+  {
+    "id": "news:guardian:6ef9292eb04b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T17:19:55Z",
+    "label": "The Guardian: Cop31 collapses: why did climate talks fall apart? - The Latest",
+    "url": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest",
+    "quote": "Cop31 collapses: why did climate talks fall apart? - The Latest"
+  },
+  {
+    "id": "news:aljazeera:a85a718a327e",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T03:25:25Z",
+    "label": "Al Jazeera: Don Toliver concert chaos after ‘substance’ let off in crowd",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/don-toliver-concert-chaos-after-substance-let-off-in-crowd",
+    "quote": "Don Toliver concert chaos after ‘substance’ let off in crowd"
+  },
+  {
+    "id": "news:guardian:3360c149e118",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T07:48:31Z",
+    "label": "The Guardian: Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+    "quote": "Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd"
+  },
+  {
+    "id": "news:france24:c4a2bcadc8d2",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T15:46:48Z",
+    "label": "France 24: 12,000 evacuated from Don Toliver concert after unknown substance sickens fans",
+    "url": "https://www.france24.com/en/video/20261123-12-000-evacuated-from-don-toliver-concert-after-unknown-substance-sickens-fans",
+    "quote": "12,000 evacuated from Don Toliver concert after unknown substance sickens fans"
+  },
+  {
+    "id": "news:guardian:99440db22079",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T04:00:45Z",
+    "label": "The Guardian: Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+    "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+    "quote": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find"
+  },
+  {
+    "id": "news:aljazeera:6d64e36e3dd7",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T05:38:01Z",
+    "label": "Al Jazeera: Israeli attacks on medics in occupied West Bank surge by 350%: Rights group",
+    "url": "https://www.aljazeera.com/news/2026/11/23/israeli-attacks-on-medics-in-occupied-west-bank-surge-by-350-rights-group",
+    "quote": "Israeli attacks on medics in occupied West Bank surge by 350%: Rights group"
+  },
+  {
+    "id": "news:bbc:e0337e186122",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T17:07:25Z",
+    "label": "BBC News: Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+    "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
+    "quote": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says"
+  },
+  {
+    "id": "news:bbc:b470b186840a",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T13:39:30Z",
+    "label": "BBC News: India pledges $1.6bn to Nepal in reset of ties",
+    "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko",
+    "quote": "India pledges $1.6bn to Nepal in reset of ties"
+  },
+  {
+    "id": "news:aljazeera:fa8cf4f0fb5a",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T18:12:55Z",
+    "label": "Al Jazeera: India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi",
+    "url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal",
+    "quote": "India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi"
+  },
+  {
+    "id": "news:aljazeera:d404bacc5dcd",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T02:35:42Z",
+    "label": "Al Jazeera: Indonesia confirms 24 killed in candy factory fire as search continues",
+    "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site",
+    "quote": "Indonesia confirms 24 killed in candy factory fire as search continues"
+  },
+  {
+    "id": "news:guardian:b1fdd3d9246a",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T05:45:12Z",
+    "label": "The Guardian: At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+    "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+    "quote": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia"
+  },
+  {
+    "id": "news:sky:3290979445b3",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-23T10:52:00Z",
+    "label": "Sky News: Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
+    "url": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577",
+    "quote": "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing"
+  },
+  {
+    "id": "news:aljazeera:53eb861453d7",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T03:15:55Z",
+    "label": "Al Jazeera: Belgium’s airports set to shut down due to anti-austerity strike",
+    "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike",
+    "quote": "Belgium’s airports set to shut down due to anti-austerity strike"
+  },
+  {
+    "id": "news:france24:3ab99c226df7",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T15:19:44Z",
+    "label": "France 24: Tens of thousands take to streets in Belgium in anti-austerity protests",
+    "url": "https://www.france24.com/en/video/20261123-tens-of-thousands-take-to-streets-in-belgium-in-anti-austerity-protests",
+    "quote": "Tens of thousands take to streets in Belgium in anti-austerity protests"
+  },
+  {
+    "id": "news:dw:9a53102043ed",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-23T09:01:00Z",
+    "label": "DW: NATO Parliamentary Assembly convenes amid Russian airspace violations",
+    "url": "https://www.dw.com/en/nato-parliamentary-assembly-convenes-amid-russian-airspace-violations/live-80016415",
+    "quote": "NATO Parliamentary Assembly convenes amid Russian airspace violations"
+  },
+  {
+    "id": "news:france24:777165c768bd",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T16:50:41Z",
+    "label": "France 24: Finland summons Russian ambassador after suspected airspace violation",
+    "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+    "quote": "Finland summons Russian ambassador after suspected airspace violation"
+  },
+  {
+    "id": "news:france24:95cd2eb6d7ed",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T17:52:50Z",
+    "label": "France 24: 'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign",
+    "url": "https://www.france24.com/en/france/20261123-deeply-shocked-gis%C3%A8le-pelicot-sue-publisher-nude-photos-used-book-campaign",
+    "quote": "'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign"
+  },
+  {
+    "id": "news:guardian:85aef055fc8b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T18:12:48Z",
+    "label": "The Guardian: Gisèle Pelicot ‘deeply shocked’ after nude images used to promote book",
+    "url": "https://www.theguardian.com/world/2026/nov/23/gisele-pelicot-deeply-shocked-nude-images-book-france",
+    "quote": "Gisèle Pelicot ‘deeply shocked’ after nude images used to promote book"
+  },
+  {
+    "id": "news:france24:829e941392ce",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T00:43:36Z",
+    "label": "France 24: Drone strikes hit homes, United Nations building in Sudan's capital",
+    "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
+    "quote": "Drone strikes hit homes, United Nations building in Sudan's capital"
+  },
+  {
+    "id": "news:allafrica:2661e5034c55",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-23T06:32:07Z",
+    "label": "AllAfrica: Sudan: Drones Strikes Hit UN Building in Residential Area of Khartoum",
+    "url": "https://allafrica.com/stories/202611230147.html",
+    "quote": "Sudan: Drones Strikes Hit UN Building in Residential Area of Khartoum"
+  }
+]

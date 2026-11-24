@@ -1,0 +1,442 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-gisele-pelicot-deeply-shocked-after-nude-images-used-to-prom",
+  "title": "Gisèle Pelicot",
+  "subtitle": "People · 23 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:08Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-23T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-23T00:00:25Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 46.45988999999997,
+      "lat": 28.423301999999996,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 8.45989,
+      "lat": 47.37217,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:10Z",
+      "lon": 8.45989,
+      "lat": 47.37217,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:16Z",
+      "lon": 8.45989,
+      "lat": 47.37217,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:19Z",
+      "lon": 8.45989,
+      "lat": 47.15967,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:22Z",
+      "lon": 8.45989,
+      "lat": 47.15967,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:24Z",
+      "lon": 8.45989,
+      "lat": 47.15967,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:27Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:31Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1358307.7707206125,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:34Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1230000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:37Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:41Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1358307.7707206125,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:44Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1230000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:47Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1500000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:54Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1438749.456993816,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:00Z",
+      "lon": 6.566221331523466,
+      "lat": 45.718658845674284,
+      "range": 1380000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:03Z",
+      "lon": 8.45989,
+      "lat": 47.37217,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:04Z",
+      "lon": 8.45989,
+      "lat": 47.37217,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:08Z",
+      "lon": -16.540110000000027,
+      "lat": 47.37217,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "The Guardian reports that Gisèle Pelicot was 'deeply shocked' after nude images were used to promote a book.",
+      "cites": [
+        "news:guardian:85aef055fc8b"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:09Z",
+      "text": "Born Guillou on 7 December 1952, Gisèle Pelicot is a French woman who became a feminist icon in 2024, when she waived her right to anonymity as the victim in a multiple rape case.",
+      "cites": [
+        "wiki:rev:1386589798:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:18Z",
+      "text": "She was born on 7 December 1952 in Villingen.",
+      "cites": [
+        "wd:Q130240908:P569",
+        "wd:Q130240908:P19"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "text": "She worked in Avignon.",
+      "cites": [
+        "wd:Q130240908:P937:Q6397"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "text": "She has 5 awards on record, among them Time 100 (2025) and Knight of the Legion of Honour (2025).",
+      "cites": [
+        "wd:Q130240908:P166:Q604370",
+        "wd:Q130240908:P166:Q10855271",
+        "wd:Q130240908:P166:Q16153104",
+        "wd:Q130240908:P166:Q131520478",
+        "wd:Q130240908:P166:Q104585680"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:46Z",
+      "text": "France 24 headlined its report “'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign”.",
+      "cites": [
+        "news:france24:95cd2eb6d7ed"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:53Z",
+      "text": "The Guardian headlined its report “Gisèle Pelicot ‘deeply shocked’ after nude images used to promote book”.",
+      "cites": [
+        "news:guardian:85aef055fc8b"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:02Z",
+      "text": "This explainer draws on France 24 and The Guardian, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386589798:0",
+        "views:en:Gisèle_Pelicot:30d",
+        "wd:Q130240908:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:17Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-23T00:00:25Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-23T00:00:35Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-23T00:00:45Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:01Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-23T00:00:26Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1952 born",
+          "text": "Villingen",
+          "cites": [
+            "wd:Q130240908:P19"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Avignon",
+          "cites": [
+            "wd:Q130240908:P937:Q6397"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-23T00:00:36Z",
+      "until": "2026-11-23T00:00:45Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2024",
+          "text": "BBC 100 Women",
+          "cites": [
+            "wd:Q130240908:P166:Q16153104"
+          ]
+        },
+        {
+          "label": "2024",
+          "text": "Financial Times 25 Most Influential Women of 2024",
+          "cites": [
+            "wd:Q130240908:P166:Q131520478"
+          ]
+        },
+        {
+          "label": "2025",
+          "text": "Prix Liberté",
+          "cites": [
+            "wd:Q130240908:P166:Q104585680"
+          ]
+        },
+        {
+          "label": "2025",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q130240908:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2025",
+          "text": "Knight of the Legion of Honour",
+          "cites": [
+            "wd:Q130240908:P166:Q10855271"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:00:46Z",
+      "until": "2026-11-23T00:01:01Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/france/20261123-deeply-shocked-gis%C3%A8le-pelicot-sue-publisher-nude-photos-used-book-campaign",
+          "cites": [
+            "news:france24:95cd2eb6d7ed"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/23/gisele-pelicot-deeply-shocked-nude-images-book-france",
+          "cites": [
+            "news:guardian:85aef055fc8b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:02Z",
+      "until": "2026-11-23T00:01:08Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386589798:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Gisèle_Pelicot:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q130240908:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.001906
+  }
+}

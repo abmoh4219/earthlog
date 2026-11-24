@@ -1,0 +1,69 @@
+[
+  {
+    "id": "wiki:2026-11-23:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-23T00:00:00Z",
+    "lon": 8.57444444,
+    "lat": 47.38138889,
+    "label": "Sports: In association football, FIFA confirms Costa Rica, Jamaica, Mexico, and the United States as joint hosts of the 2031 Women's World Cup, while England, Northern Ireland, Scotland, and Wales will jointly host the 2035 tournament.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+    "quote": "In association football, FIFA confirms Costa Rica, Jamaica, Mexico, and the United States as joint hosts of the 2031 Women's World Cup, while England, Northern Ireland, Scotland, and Wales will jointly host the 2035 tournament.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/usa-joint-bid-host-2031-womens-world-cup-uk-host-2035"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:81630f151694",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "DW: US and UK to host Women's World Cups in 2031 and 2035 (16:19 UTC)",
+    "url": "https://www.dw.com/en/us-and-uk-to-host-women-s-world-cups-in-2031-and-2035/a-80023786",
+    "quote": "US and UK to host Women's World Cups in 2031 and 2035",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387353461:15",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2031 and 2035 FIFA Women's World Cup bids\" (revision of 2026-11-23 15:39 UTC)",
+    "quote": "On November 23, 2026 in Zurich during the tenth extraordinary FIFA Congress, FIFA announced Costa Rica, Jamaica, Mexico, and the United States as hosts for the 2031 FIFA Women's World Cup.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2031_and_2035_FIFA_Women's_World_Cup_bids&oldid=1387353461"
+  },
+  {
+    "id": "wiki:rev:1387353461:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2031 and 2035 FIFA Women's World Cup bids\" (revision of 2026-11-23 15:39 UTC)",
+    "quote": "The 2031 and 2035 FIFA Women's World Cup bidding process is the process used by FIFA to select the host for the 2031 FIFA Women's World Cup and 2035 FIFA Women's World Cup.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2031_and_2035_FIFA_Women's_World_Cup_bids&oldid=1387353461"
+  },
+  {
+    "id": "views:en:2031_and_2035_FIFA_Women's_World_Cup_bids:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2031 and 2035 FIFA Women's World Cup bids\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2031_and_2035_FIFA_Women's_World_Cup_bids&range=latest-30"
+  },
+  {
+    "id": "wd:Q133286539:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2031 and 2035 FIFA Women's World Cup bids\": sport association football",
+    "url": "https://www.wikidata.org/wiki/Q133286539#P641"
+  }
+]

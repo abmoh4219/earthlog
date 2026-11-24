@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-12-000-evacuated-from-don-toliver-concert-after-unknown-subs",
+  "title": "Don Toliver",
+  "subtitle": "People · 23 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:09Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -12.25,
+    "south": 45.5,
+    "east": 7.75,
+    "north": 61.5
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-23T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 35.75,
+      "lat": 31.6875,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": -2.25,
+      "lat": 52.8125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:14Z",
+      "lon": -2.25,
+      "lat": 52.8125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:23Z",
+      "lon": -2.25,
+      "lat": 52.8125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:27Z",
+      "lon": -95.383055555556,
+      "lat": 28.862777777778,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:29Z",
+      "lon": -95.383055555556,
+      "lat": 28.862777777778,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:31Z",
+      "lon": -95.383055555556,
+      "lat": 28.862777777778,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "lon": -59.97762419957804,
+      "lat": 48.11152382667784,
+      "range": 18177465.9880407,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": -59.97762419957804,
+      "lat": 48.11152382667784,
+      "range": 16460395.535710212,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:40Z",
+      "lon": -59.97762419957804,
+      "lat": 48.11152382667784,
+      "range": 14905522.110193374,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:43Z",
+      "lon": -59.97762419957804,
+      "lat": 48.11152382667784,
+      "range": 18177465.9880407,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:52Z",
+      "lon": -59.97762419957804,
+      "lat": 48.11152382667784,
+      "range": 17435212.879878078,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:01Z",
+      "lon": -59.97762419957804,
+      "lat": 48.11152382667784,
+      "range": 16723268.708997445,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:05Z",
+      "lon": -2.25,
+      "lat": 52.8125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:06Z",
+      "lon": -2.25,
+      "lat": 52.8125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:09Z",
+      "lon": -27.25,
+      "lat": 52.8125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "According to France 24, about 12,000 people were evacuated from a Don Toliver concert after an unknown substance sickened fans.",
+      "cites": [
+        "news:france24:c4a2bcadc8d2"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:08Z",
+      "text": "The concert took place on November 22, 2026, at Co-op Live in Manchester, England, where a suspected tear gas incident injured over 50 people and forced an evacuation of over 12,000 people.",
+      "cites": [
+        "wiki:rev:1387447842:76"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:15Z",
+      "text": "Caleb Zackery \"Don\" Toliver, born June 12, 1994, is an American rapper, singer and songwriter.",
+      "cites": [
+        "wiki:rev:1387447842:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:25Z",
+      "text": "Don Toliver was born on 12 June 1994 in Houston.",
+      "cites": [
+        "wd:Q56513383:P569",
+        "wd:Q56513383:P19"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:42Z",
+      "text": "Al Jazeera headlined the story: “Don Toliver concert chaos after ‘substance’ let off in crowd”.",
+      "cites": [
+        "news:aljazeera:a85a718a327e"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:48Z",
+      "text": "The Guardian headlined it: “Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd”.",
+      "cites": [
+        "news:guardian:3360c149e118"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:54Z",
+      "text": "France 24 headlined it: “12,000 evacuated from Don Toliver concert after unknown substance sickens fans”.",
+      "cites": [
+        "news:france24:c4a2bcadc8d2"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:03Z",
+      "text": "This explainer draws on Al Jazeera, The Guardian and France 24, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1387447842:76",
+        "views:en:Don_Toliver:30d",
+        "wd:Q56513383:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GB",
+    "lon": -2.25,
+    "lat": 53.5,
+    "label": "Manchester"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-23T00:00:32Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-23T00:00:41Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:02Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:00:42Z",
+      "until": "2026-11-23T00:01:02Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/don-toliver-concert-chaos-after-substance-let-off-in-crowd",
+          "cites": [
+            "news:aljazeera:a85a718a327e"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+          "cites": [
+            "news:guardian:3360c149e118"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261123-12-000-evacuated-from-don-toliver-concert-after-unknown-substance-sickens-fans",
+          "cites": [
+            "news:france24:c4a2bcadc8d2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:03Z",
+      "until": "2026-11-23T00:01:09Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387447842:76"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Don_Toliver:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q56513383:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.002141
+  }
+}

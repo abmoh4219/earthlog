@@ -1,0 +1,109 @@
+[
+  {
+    "id": "news:guardian:99440db22079",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "The Guardian: Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find (04:00 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+    "quote": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:6d64e36e3dd7",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "Al Jazeera: Israeli attacks on medics in occupied West Bank surge by 350%: Rights group (05:38 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/23/israeli-attacks-on-medics-in-occupied-west-bank-surge-by-350-rights-group",
+    "quote": "Israeli attacks on medics in occupied West Bank surge by 350%: Rights group",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:e0337e186122",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "BBC News: Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says (17:07 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
+    "quote": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387399994:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza Strip\" (revision of 2026-11-23 20:06 UTC)",
+    "quote": "The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories (the other being the West Bank) that make up the State of Palestine in the Southern Levant region of West Asia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_Strip&oldid=1387399994"
+  },
+  {
+    "id": "wiki:2026-11-17:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-17",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-17: Five Palestinians are killed, including a child, and others are injured in a series of Israeli airstrikes on various areas of the Gaza Strip, Palestine.",
+    "quote": "Five Palestinians are killed, including a child, and others are injured in a series of Israeli airstrikes on various areas of the Gaza Strip, Palestine.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867"
+  },
+  {
+    "id": "wiki:2026-11-19:7",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-19",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-19: Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "quote": "Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379"
+  },
+  {
+    "id": "wiki:2026-11-21:1",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-21",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-21: Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia. Israel says it targeted operatives.",
+    "quote": "Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293"
+  },
+  {
+    "id": "views:en:Gaza_Strip:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gaza Strip\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_Strip&range=latest-30"
+  },
+  {
+    "id": "wd:Q39760:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": location Southern Levant",
+    "url": "https://www.wikidata.org/wiki/Q39760#P276"
+  },
+  {
+    "id": "wd:Q39760:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": founded 1949",
+    "url": "https://www.wikidata.org/wiki/Q39760#P571"
+  },
+  {
+    "id": "wd:Q39760:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza Strip\": country Palestine, United Arab Republic",
+    "url": "https://www.wikidata.org/wiki/Q39760#P17"
+  }
+]

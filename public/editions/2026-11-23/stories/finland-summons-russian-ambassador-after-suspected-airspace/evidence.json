@@ -1,0 +1,79 @@
+[
+  {
+    "id": "news:dw:9a53102043ed",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "DW: NATO Parliamentary Assembly convenes amid Russian airspace violations (09:01 UTC)",
+    "url": "https://www.dw.com/en/nato-parliamentary-assembly-convenes-amid-russian-airspace-violations/live-80016415",
+    "quote": "NATO Parliamentary Assembly convenes amid Russian airspace violations",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:777165c768bd",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "France 24: Finland summons Russian ambassador after suspected airspace violation (16:50 UTC)",
+    "url": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
+    "quote": "Finland summons Russian ambassador after suspected airspace violation",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387457373:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"NATO Parliamentary Assembly\" (revision of 2026-11-24 01:03 UTC)",
+    "quote": "Its current president is Brendan Boyle from United States.",
+    "url": "https://en.wikipedia.org/w/index.php?title=NATO_Parliamentary_Assembly&oldid=1387457373"
+  },
+  {
+    "id": "wiki:rev:1387457373:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"NATO Parliamentary Assembly\" (revision of 2026-11-24 01:03 UTC)",
+    "quote": "The NATO Parliamentary Assembly serves as the consultative interparliamentary organisation for the North Atlantic Treaty Organization (NATO).",
+    "url": "https://en.wikipedia.org/w/index.php?title=NATO_Parliamentary_Assembly&oldid=1387457373"
+  },
+  {
+    "id": "views:en:NATO_Parliamentary_Assembly:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"NATO Parliamentary Assembly\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=NATO_Parliamentary_Assembly&range=latest-30"
+  },
+  {
+    "id": "wd:Q1756350:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"NATO Parliamentary Assembly\": founded 1955",
+    "url": "https://www.wikidata.org/wiki/Q1756350#P571"
+  },
+  {
+    "id": "wd:Q1756350:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"NATO Parliamentary Assembly\": headquarters Brussels",
+    "url": "https://www.wikidata.org/wiki/Q1756350#P159"
+  },
+  {
+    "id": "wd:Q1756350:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"NATO Parliamentary Assembly\": country Belgium",
+    "url": "https://www.wikidata.org/wiki/Q1756350#P17"
+  }
+]

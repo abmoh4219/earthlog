@@ -1,0 +1,172 @@
+[
+  {
+    "id": "views:en:Molly_Meldrum:2026-11-23",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "English Wikipedia: 112,186 readers of \"Molly Meldrum\" on 23 Nov 2026",
+    "value": 112186,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Molly_Meldrum",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Molly_Meldrum:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "\"Molly Meldrum\": normally a median of 134 readers a day (8 to 60 days before)",
+    "value": 134,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Molly_Meldrum",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q6896637:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "Wikidata: \"Molly Meldrum\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q6896637",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387464009:223",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Molly Meldrum\" (revision of 2026-11-24 01:43 UTC)",
+    "quote": "Meldrum died at the Epworth Hospital in Richmond, on the morning of 23 November 2026, at the age of 83.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Molly_Meldrum&oldid=1387464009"
+  },
+  {
+    "id": "wiki:rev:1387464009:2",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Molly Meldrum\" (revision of 2026-11-24 01:43 UTC)",
+    "quote": "He became widely recognised for his Stetson hats, which he had regularly worn in public from the 1980s (they were commonly mistaken as Akubra hats).",
+    "url": "https://en.wikipedia.org/w/index.php?title=Molly_Meldrum&oldid=1387464009"
+  },
+  {
+    "id": "wiki:rev:1387464009:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Molly Meldrum\" (revision of 2026-11-24 01:43 UTC)",
+    "quote": "Ian Alexander \"Molly\" Meldrum (29 January 1943 – 23 November 2026) was an Australian television presenter, music critic, journalist, record producer and musical businessman.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Molly_Meldrum&oldid=1387464009"
+  },
+  {
+    "id": "views:en:Molly_Meldrum:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Molly Meldrum\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Molly_Meldrum&range=latest-30"
+  },
+  {
+    "id": "wd:Q6896637:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": born 29 January 1943",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P569"
+  },
+  {
+    "id": "wd:Q6896637:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": birthplace Orbost",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P19"
+  },
+  {
+    "id": "wd:Q6896637:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": died 23 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P570"
+  },
+  {
+    "id": "wd:Q6896637:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": place of death Richmond",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P20"
+  },
+  {
+    "id": "wd:Q6896637:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": occupation music critic, record producer",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P106"
+  },
+  {
+    "id": "wd:Q6896637:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": citizenship Australia",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P27"
+  },
+  {
+    "id": "wd:Q6896637:P108:Q908659",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": worked for Seven Network",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P108"
+  },
+  {
+    "id": "wd:Q6896637:P108:Q781365",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": worked for Australian Broadcasting Corporation",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P108"
+  },
+  {
+    "id": "wd:Q6896637:P108:Q1432195",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": worked for Nine Network",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P108"
+  },
+  {
+    "id": "wd:Q6896637:P551:Q3141",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": lived in Melbourne",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P551"
+  },
+  {
+    "id": "wd:Q6896637:P166:Q9678710",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Molly Meldrum\": award received: Member of the Order of Australia (1986)",
+    "url": "https://www.wikidata.org/wiki/Q6896637#P166"
+  }
+]

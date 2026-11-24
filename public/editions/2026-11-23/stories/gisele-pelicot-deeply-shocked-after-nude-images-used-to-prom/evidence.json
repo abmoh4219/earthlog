@@ -1,0 +1,132 @@
+[
+  {
+    "id": "news:france24:95cd2eb6d7ed",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "France 24: 'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign (17:52 UTC)",
+    "url": "https://www.france24.com/en/france/20261123-deeply-shocked-gis%C3%A8le-pelicot-sue-publisher-nude-photos-used-book-campaign",
+    "quote": "'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:85aef055fc8b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "The Guardian: Gisèle Pelicot ‘deeply shocked’ after nude images used to promote book (18:12 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/23/gisele-pelicot-deeply-shocked-nude-images-book-france",
+    "quote": "Gisèle Pelicot ‘deeply shocked’ after nude images used to promote book",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386589798:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gisèle Pelicot\" (revision of 2026-11-19 09:26 UTC)",
+    "quote": "Gisèle Pelicot (; née Guillou, born 7 December 1952) is a French woman who became a feminist icon in 2024, when she waived her right to anonymity as the victim in a multiple rape case.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gis%C3%A8le_Pelicot&oldid=1386589798"
+  },
+  {
+    "id": "views:en:Gisèle_Pelicot:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gisèle Pelicot\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gis%C3%A8le_Pelicot&range=latest-30"
+  },
+  {
+    "id": "wd:Q130240908:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q130240908\": born 7 December 1952",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P569"
+  },
+  {
+    "id": "wd:Q130240908:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q130240908\": birthplace Villingen, Villingen-Schwenningen",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P19"
+  },
+  {
+    "id": "wd:Q130240908:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q130240908\": occupation cadre, writer",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P106"
+  },
+  {
+    "id": "wd:Q130240908:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q130240908\": citizenship France",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P27"
+  },
+  {
+    "id": "wd:Q130240908:P937:Q6397",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gisèle Pelicot\": worked in Avignon",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P937"
+  },
+  {
+    "id": "wd:Q130240908:P166:Q16153104",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gisèle Pelicot\": award received: BBC 100 Women (2024)",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P166"
+  },
+  {
+    "id": "wd:Q130240908:P166:Q131520478",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gisèle Pelicot\": award received: Financial Times 25 Most Influential Women of 2024 (2024)",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P166"
+  },
+  {
+    "id": "wd:Q130240908:P166:Q104585680",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gisèle Pelicot\": award received: Prix Liberté (2025)",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P166"
+  },
+  {
+    "id": "wd:Q130240908:P166:Q604370",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gisèle Pelicot\": award received: Time 100 (2025)",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P166"
+  },
+  {
+    "id": "wd:Q130240908:P166:Q10855271",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gisèle Pelicot\": award received: Knight of the Legion of Honour (2025)",
+    "url": "https://www.wikidata.org/wiki/Q130240908#P166"
+  }
+]

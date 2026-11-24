@@ -1,0 +1,398 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-fifa-confirms-costa-rica",
+  "title": "FIFA confirms Costa Rica",
+  "subtitle": "Sports · 23 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:07Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -1.4255555599999994,
+    "south": 39.38138889,
+    "east": 18.57444444,
+    "north": 55.38138889
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-23T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-23T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-23T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 46.57444443999998,
+      "lat": 28.016333334,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:14Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:23Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:29Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:31Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "lon": -70.7366656264194,
+      "lat": 41.74423460813784,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": -70.7366656264194,
+      "lat": 41.74423460813784,
+      "range": 19921847.303902317,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:40Z",
+      "lon": -70.7366656264194,
+      "lat": 41.74423460813784,
+      "range": 18040000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:44Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:46Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:48Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:51Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:55Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:59Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:02Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:03Z",
+      "lon": 8.57444444,
+      "lat": 46.69388889,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:07Z",
+      "lon": -16.42555556000002,
+      "lat": 46.69388889,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "FIFA confirmed Costa Rica, Jamaica, Mexico, and the United States as joint hosts of the 2031 Women's World Cup, while England, Northern Ireland, Scotland, and Wales will jointly host the 2035 tournament.",
+      "cites": [
+        "wiki:2026-11-23:14"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:08Z",
+      "text": "The announcement came on November 23, 2026, in Zurich, during the tenth extraordinary FIFA Congress.",
+      "cites": [
+        "wiki:rev:1387353461:15"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:15Z",
+      "text": "The bidding process is the procedure FIFA uses to select the hosts for the 2031 and 2035 Women's World Cups.",
+      "cites": [
+        "wiki:rev:1387353461:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:25Z",
+      "text": "The reports place the announcement at FIFA in Switzerland.",
+      "cites": [
+        "wiki:2026-11-23:14"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:33Z",
+      "text": "The Mexican Football Federation and the United States Soccer Federation are also named in the reports.",
+      "cites": [
+        "wiki:2026-11-23:14"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:42Z",
+      "text": "The story was reported by AFP.",
+      "cites": [
+        "wiki:2026-11-23:14"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:50Z",
+      "text": "DW headlined the story: “US and UK to host Women's World Cups in 2031 and 2035”.",
+      "cites": [
+        "news:dw:81630f151694"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:01Z",
+      "text": "This explainer draws on Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews, and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-23:14",
+        "wiki:rev:1387353461:15",
+        "views:en:2031_and_2035_FIFA_Women's_World_Cup_bids:30d",
+        "wd:Q133286539:P641"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CH",
+    "lon": 8.57444444,
+    "lat": 47.38138889,
+    "label": "FIFA"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-23T00:00:32Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-23T00:00:41Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-23T00:00:49Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:00Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-23T00:00:42Z",
+      "until": "2026-11-23T00:00:49Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/usa-joint-bid-host-2031-womens-world-cup-uk-host-2035",
+          "cites": [
+            "wiki:2026-11-23:14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:00:50Z",
+      "until": "2026-11-23T00:01:00Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/us-and-uk-to-host-women-s-world-cups-in-2031-and-2035/a-80023786",
+          "cites": [
+            "news:dw:81630f151694"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:01Z",
+      "until": "2026-11-23T00:01:07Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-23:14"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387353461:15"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2031_and_2035_FIFA_Women's_World_Cup_bids:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q133286539:P641"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.000822
+  }
+}

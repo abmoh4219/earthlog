@@ -1,0 +1,442 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-us-army-to-detonate-tonnes-of-unstable-explosives-in-iowa-de",
+  "title": "IOWA",
+  "subtitle": "Culture · 23 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:16Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -104,
+    "south": 34,
+    "east": -84,
+    "north": 50
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-people.json",
+      "name": "people",
+      "from": "2026-11-23T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": -56,
+      "lat": 24.787499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": -94,
+      "lat": 41.3125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:10Z",
+      "lon": -94,
+      "lat": 41.3125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:16Z",
+      "lon": -94,
+      "lat": 41.3125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:20Z",
+      "lon": -74.00611111111111,
+      "lat": 38.51277777777778,
+      "range": 1800000,
+      "heading": 16,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:27Z",
+      "lon": -74.00611111111111,
+      "lat": 38.51277777777778,
+      "range": 1629969.324864735,
+      "heading": 2,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:34Z",
+      "lon": -74.00611111111111,
+      "lat": 38.51277777777778,
+      "range": 1476000,
+      "heading": -12,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": -50.20471367256304,
+      "lat": 47.18893940663938,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:45Z",
+      "lon": -50.20471367256304,
+      "lat": 47.18893940663938,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:52Z",
+      "lon": -50.20471367256304,
+      "lat": 47.18893940663938,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:55Z",
+      "lon": -50.20471367256304,
+      "lat": 47.18893940663938,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:02Z",
+      "lon": -50.20471367256304,
+      "lat": 47.18893940663938,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:08Z",
+      "lon": -50.20471367256304,
+      "lat": 47.18893940663938,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:12Z",
+      "lon": -94,
+      "lat": 41.3125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:13Z",
+      "lon": -94,
+      "lat": 41.3125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:16Z",
+      "lon": -119,
+      "lat": 41.3125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "Al Jazeera reports that Trump has delayed an explosive detonation in the US state of Iowa amid legal battles.",
+      "cites": [
+        "news:aljazeera:e78cea294107"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:09Z",
+      "text": "IOWA is a 2005 American independent neo-noir film directed by, written by, and starring Matt Farnsworth.",
+      "cites": [
+        "wiki:rev:1387220461:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:18Z",
+      "text": "The film stars Matt Farnsworth, Diane Foster, Rosanna Arquette and John Savage, with music by Elia Cmiral.",
+      "cites": [
+        "wiki:box:1387220461:starring",
+        "wiki:box:1387220461:music"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "text": "It was released on 22 April 2005 at the Tribeca Film Festival.",
+      "cites": [
+        "wiki:box:1387220461:released"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "text": "Birthplaces are on record for 3 of the credited people, and 2 of them were born in the United States.",
+      "cites": [
+        "wd:Q109232:P19",
+        "wd:Q1328897:P19",
+        "wd:Q249865:P19"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:44Z",
+      "text": "Elia Cmíral was born further afield, in Zlín, Czechia.",
+      "cites": [
+        "wd:Q1328897:P19"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:54Z",
+      "text": "Al Jazeera headlined its story, “Trump delays explosive detonation in US state of Iowa amid legal battles”.",
+      "cites": [
+        "news:aljazeera:e78cea294107"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:01Z",
+      "text": "The Guardian headlined its story, “Trump defers to appeals court over army plan to detonate bomb-making material in Iowa”.",
+      "cites": [
+        "news:guardian:f317b57513b3"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:10Z",
+      "text": "The sources for this story are Al Jazeera and The Guardian, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1387220461:0",
+        "views:en:IOWA:30d",
+        "wd:Q16849664:P577"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -94,
+    "lat": 42,
+    "label": "Iowa"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:17Z",
+      "title": "The credits"
+    },
+    {
+      "t": "2026-11-23T00:00:35Z",
+      "title": "The people"
+    },
+    {
+      "t": "2026-11-23T00:00:53Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:09Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "credits",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "The credits",
+      "note": "From the Wikipedia infobox (revision of 2026-11-23).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Directed by",
+          "text": "Matt Farnsworth",
+          "cites": [
+            "wiki:box:1387220461:directed-by"
+          ]
+        },
+        {
+          "label": "Starring",
+          "text": "Matt Farnsworth, Diane Foster, Rosanna Arquette, John Savage",
+          "cites": [
+            "wiki:box:1387220461:starring"
+          ]
+        },
+        {
+          "label": "Music",
+          "text": "Elia Cmiral",
+          "cites": [
+            "wiki:box:1387220461:music"
+          ]
+        },
+        {
+          "label": "Studio",
+          "text": "Full Fathom 5",
+          "cites": [
+            "wiki:box:1387220461:studio"
+          ]
+        },
+        {
+          "label": "Released",
+          "text": "22 April 2005 (Tribeca Film Festival)",
+          "cites": [
+            "wiki:box:1387220461:released"
+          ]
+        },
+        {
+          "label": "Runtime",
+          "text": "104 minutes",
+          "cites": [
+            "wiki:box:1387220461:runtime"
+          ]
+        },
+        {
+          "label": "Language",
+          "text": "English",
+          "cites": [
+            "wiki:box:1387220461:language"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "born-in",
+      "t": "2026-11-23T00:00:36Z",
+      "until": "2026-11-23T00:00:53Z",
+      "title": "Born in",
+      "note": "Birthplaces of the people credited, from Wikidata.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "United States",
+          "text": "2",
+          "value": 2,
+          "color": "#e8838f",
+          "cites": [
+            "wd:Q109232:P19",
+            "wd:Q249865:P19"
+          ]
+        },
+        {
+          "label": "Czechia",
+          "text": "1",
+          "value": 1,
+          "color": "#ffd38a",
+          "cites": [
+            "wd:Q1328897:P19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:00:54Z",
+      "until": "2026-11-23T00:01:09Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/23/trump-delays-explosive-detonation-in-us-state-of-iowa-amid-legal-battles",
+          "cites": [
+            "news:aljazeera:e78cea294107"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
+          "cites": [
+            "news:guardian:f317b57513b3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:10Z",
+      "until": "2026-11-23T00:01:16Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387220461:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:IOWA:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q16849664:P577"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.000854
+  }
+}

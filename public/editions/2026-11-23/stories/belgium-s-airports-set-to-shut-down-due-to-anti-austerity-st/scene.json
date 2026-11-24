@@ -1,0 +1,733 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-belgium-s-airports-set-to-shut-down-due-to-anti-austerity-st",
+  "title": "Belgium’s airports set to shut down due to anti-austerity strike",
+  "subtitle": "Politics · 23 November 2026 · headline from Al Jazeera",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:23Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -5.2,
+    "south": 42.79,
+    "east": 14.8,
+    "north": 58.79
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-23T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-23T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 42.799999999999955,
+      "lat": 29.198999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:10Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:16Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:20Z",
+      "lon": 4.8,
+      "lat": 42.79,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:27Z",
+      "lon": 4.8,
+      "lat": 42.79,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:34Z",
+      "lon": 4.8,
+      "lat": 42.79,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": 8.168199999999999,
+      "lat": 49.976,
+      "range": 3500000,
+      "heading": 110.9215076316467,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:43Z",
+      "lon": 8.168199999999999,
+      "lat": 49.976,
+      "range": 3169384.7983480957,
+      "heading": 124.62150763164671,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:48Z",
+      "lon": 8.168199999999999,
+      "lat": 49.976,
+      "range": 2870000,
+      "heading": 138.3215076316467,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:51Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:55Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 9236492.840900164,
+      "heading": -1.3000000000000007,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:59Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 8363999.999999999,
+      "heading": -12.600000000000001,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:02Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:09Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:15Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:18Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:19Z",
+      "lon": 4.8,
+      "lat": 48.665,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:23Z",
+      "lon": -20.200000000000045,
+      "lat": 48.665,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "Al Jazeera reports that Belgium's airports are set to shut down due to an anti-austerity strike.",
+      "cites": [
+        "news:aljazeera:53eb861453d7"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:09Z",
+      "text": "France 24 also reports on the story, describing tens of thousands of people taking to the streets in anti-austerity protests.",
+      "cites": [
+        "news:france24:3ab99c226df7"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:18Z",
+      "text": "Inflation in Belgium fell to 2.5% in 2025, down from 9.6% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:BE"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "text": "The economy grew 1.0% in 2025, and unemployment stood at 5.9%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:BE",
+        "wb:SL.UEM.TOTL.ZS:BE"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "text": "Across Europe and Central Asia, Belgium's 2.5% compares with a median of 3.8%, while the highest is Turkey at 34.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:50Z",
+      "text": "Belgium, officially the Kingdom of Belgium, is a country in Northwestern Europe.",
+      "cites": [
+        "wiki:rev:1386655855:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:01Z",
+      "text": "Al Jazeera's headline reads: “Belgium’s airports set to shut down due to anti-austerity strike”.",
+      "cites": [
+        "news:aljazeera:53eb861453d7"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:08Z",
+      "text": "France 24's headline reads: “Tens of thousands take to streets in Belgium in anti-austerity protests”.",
+      "cites": [
+        "news:france24:3ab99c226df7"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:17Z",
+      "text": "Sources include Al Jazeera and France 24, Wikipedia articles, Wikimedia pageviews, Wikidata and World Bank Open Data (World Development Indicators). Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386655855:0",
+        "views:en:Belgium:30d",
+        "wd:Q31:P571",
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "BE",
+    "lon": 4.8,
+    "lat": 50.79,
+    "label": "Belgium"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:17Z",
+      "title": "Belgium in numbers"
+    },
+    {
+      "t": "2026-11-23T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-23T00:00:49Z",
+      "title": "About Belgium"
+    },
+    {
+      "t": "2026-11-23T00:01:00Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:16Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "Inflation, consumer prices, Belgium",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Belgium",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.18950032253256
+            },
+            {
+              "x": "2011",
+              "y": 3.5325394224116
+            },
+            {
+              "x": "2012",
+              "y": 2.83865067360794
+            },
+            {
+              "x": "2013",
+              "y": 1.11278332649242
+            },
+            {
+              "x": "2014",
+              "y": 0.349555725948367
+            },
+            {
+              "x": "2015",
+              "y": 0.561835629368236
+            },
+            {
+              "x": "2016",
+              "y": 1.97443404027092
+            },
+            {
+              "x": "2017",
+              "y": 2.1246753815978
+            },
+            {
+              "x": "2018",
+              "y": 2.05257510729613
+            },
+            {
+              "x": "2019",
+              "y": 1.43828919285485
+            },
+            {
+              "x": "2020",
+              "y": 0.736932660316535
+            },
+            {
+              "x": "2021",
+              "y": 2.4425878673141
+            },
+            {
+              "x": "2022",
+              "y": 9.59765381756827
+            },
+            {
+              "x": "2023",
+              "y": 4.04867945968735
+            },
+            {
+              "x": "2024",
+              "y": 3.14426633785448
+            },
+            {
+              "x": "2025",
+              "y": 2.46605755272817
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:BE"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "GDP growth, Belgium",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Belgium",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 2.71031150254662
+            },
+            {
+              "x": "2011",
+              "y": 1.93115502411325
+            },
+            {
+              "x": "2012",
+              "y": 0.215803612089744
+            },
+            {
+              "x": "2013",
+              "y": 0.305494549070232
+            },
+            {
+              "x": "2014",
+              "y": 1.76554038149924
+            },
+            {
+              "x": "2015",
+              "y": 1.47416433731927
+            },
+            {
+              "x": "2016",
+              "y": 1.19350273007754
+            },
+            {
+              "x": "2017",
+              "y": 1.47446761556785
+            },
+            {
+              "x": "2018",
+              "y": 1.87796847383565
+            },
+            {
+              "x": "2019",
+              "y": 2.4428900448156
+            },
+            {
+              "x": "2020",
+              "y": -4.7929839083518
+            },
+            {
+              "x": "2021",
+              "y": 6.25445686466593
+            },
+            {
+              "x": "2022",
+              "y": 4.02460852835887
+            },
+            {
+              "x": "2023",
+              "y": 1.56125539542029
+            },
+            {
+              "x": "2024",
+              "y": 1.09775383828703
+            },
+            {
+              "x": "2025",
+              "y": 0.983117967125935
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:BE"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "Unemployment, Belgium",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Belgium",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 8.293
+            },
+            {
+              "x": "2011",
+              "y": 7.14
+            },
+            {
+              "x": "2012",
+              "y": 7.542
+            },
+            {
+              "x": "2013",
+              "y": 8.425
+            },
+            {
+              "x": "2014",
+              "y": 8.523
+            },
+            {
+              "x": "2015",
+              "y": 8.482
+            },
+            {
+              "x": "2016",
+              "y": 7.83
+            },
+            {
+              "x": "2017",
+              "y": 7.09
+            },
+            {
+              "x": "2018",
+              "y": 5.941
+            },
+            {
+              "x": "2019",
+              "y": 5.364
+            },
+            {
+              "x": "2020",
+              "y": 5.545
+            },
+            {
+              "x": "2021",
+              "y": 6.248
+            },
+            {
+              "x": "2022",
+              "y": 5.57
+            },
+            {
+              "x": "2023",
+              "y": 5.547
+            },
+            {
+              "x": "2024",
+              "y": 5.7
+            },
+            {
+              "x": "2025",
+              "y": 5.906
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:BE"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-23T00:00:36Z",
+      "until": "2026-11-23T00:00:49Z",
+      "title": "Inflation, Europe & Central Asia",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Turkey",
+          "text": "34.9%",
+          "value": 34.8811700293777,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:TR"
+          ]
+        },
+        {
+          "label": "Ukraine",
+          "text": "12.7%",
+          "value": 12.7303341026902,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        },
+        {
+          "label": "Kazakhstan",
+          "text": "11.4%",
+          "value": 11.3789456104214,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KZ"
+          ]
+        },
+        {
+          "label": "Uzbekistan",
+          "text": "8.8%",
+          "value": 8.79630890491107,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UZ"
+          ]
+        },
+        {
+          "label": "Russia",
+          "text": "8.7%",
+          "value": 8.71986939402666,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RU"
+          ]
+        },
+        {
+          "label": "Kyrgyzstan",
+          "text": "8.2%",
+          "value": 8.21496013406325,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KG"
+          ]
+        },
+        {
+          "label": "Moldova",
+          "text": "7.8%",
+          "value": 7.75904124001158,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MD"
+          ]
+        },
+        {
+          "label": "Romania",
+          "text": "7.2%",
+          "value": 7.18903362292063,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RO"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.768548461408595,
+        "label": "median 3.8%"
+      }
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:01:01Z",
+      "until": "2026-11-23T00:01:16Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike",
+          "cites": [
+            "news:aljazeera:53eb861453d7"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261123-tens-of-thousands-take-to-streets-in-belgium-in-anti-austerity-protests",
+          "cites": [
+            "news:france24:3ab99c226df7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:17Z",
+      "until": "2026-11-23T00:01:23Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386655855:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Belgium:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q31:P571"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.001075
+  }
+}

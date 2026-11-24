@@ -1,0 +1,874 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships",
+  "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+  "subtitle": "Disasters · 23 November 2026 · headline from Al Jazeera",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:50Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 20.51,
+    "south": 42.44,
+    "east": 40.510000000000005,
+    "north": 58.44
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-23T00:00:49Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-23T00:00:49Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-23T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-23T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 68.50999999999999,
+      "lat": 29.851499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:10Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:16Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:20Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:27Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:34Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 3500000,
+      "heading": -108.68282202997253,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:43Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 3169384.7983480957,
+      "heading": -94.98282202997252,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:48Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 2870000,
+      "heading": -81.28282202997252,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:52Z",
+      "lon": 27.366131180203098,
+      "lat": 42.61758470203388,
+      "range": 7037767.151379196,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:01Z",
+      "lon": 27.366131180203098,
+      "lat": 42.61758470203388,
+      "range": 6372969.206827087,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:10Z",
+      "lon": 27.366131180203098,
+      "lat": 42.61758470203388,
+      "range": 5770969.0641309405,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:14Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 3300000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:18Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 2988277.095585347,
+      "heading": 21.3,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:21Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 2706000,
+      "heading": 32.6,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:24Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 3300000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:33Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 3165248.805386395,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:42Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 3036000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:45Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:46Z",
+      "lon": 30.51,
+      "lat": 49.7525,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:50Z",
+      "lon": 5.509999999999991,
+      "lat": 49.7525,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "According to Al Jazeera, Zelenskyy says Ukraine was behind drone attacks on Russian ships near Libya.",
+      "cites": [
+        "news:aljazeera:6c375e03b3e6"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:09Z",
+      "text": "France 24, AllAfrica, DW, NPR, BBC News and The Guardian also reported the story, with The Guardian stating that Ukraine confirms it used naval drones to strike two Russian ships off Libya.",
+      "cites": [
+        "news:france24:3314f31f0d59",
+        "news:allafrica:6c417e832b50",
+        "news:dw:bfcd59f235fe",
+        "news:npr:af520c61c8b0",
+        "news:bbc:abd87581214c",
+        "news:guardian:4b7fad258a93"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:18Z",
+      "text": "Inflation in Ukraine was 12.7% in 2025, down from 20.2% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:UA"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "text": "The economy grew 1.8% in 2025, and unemployment stood at 9.8%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:UA",
+        "wb:SL.UEM.TOTL.ZS:UA"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "text": "Across Europe and Central Asia, Ukraine's 12.7% compares with a median of 3.8%, and Turkey has the highest rate at 34.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:50Z",
+      "text": "On 16 November, the Crimean Bridge was struck by a Ukrainian kamikaze drone, damaging the structure and prompting Russian authorities to close vehicle traffic.",
+      "cites": [
+        "wiki:2026-11-16:1"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:00Z",
+      "text": "On 22 November, according to Wikipedia's current events log, several people were killed and at least 10 injured when a Ukrainian naval drone struck the Russian corvette Merkury at Benghazi, Libya.",
+      "cites": [
+        "wiki:2026-11-22:2"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:12Z",
+      "text": "Ukraine is the second-largest country in Europe after Russia, which borders it to the east and northeast.",
+      "cites": [
+        "wiki:rev:1386666930:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:23Z",
+      "text": "France 24 headlined its report, 'Live: Zelensky confirms Ukraine's military struck Russian ships in Libyan waters.'",
+      "cites": [
+        "news:france24:3314f31f0d59"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:29Z",
+      "text": "AllAfrica's headline read, 'Libya: Suspected Drone Attack Hits Russian Warship in Benghazi.'",
+      "cites": [
+        "news:allafrica:6c417e832b50"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:35Z",
+      "text": "Al Jazeera's headline was, 'Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya.'",
+      "cites": [
+        "news:aljazeera:6c375e03b3e6"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:44Z",
+      "text": "This explainer draws on 7 outlets, Wikipedia articles, Wikimedia pageviews and Wikidata, including the Portal:Current events pages for 16 and 18 November 2026.",
+      "cites": [
+        "wiki:rev:1386666930:0",
+        "views:en:Ukraine:30d",
+        "wd:Q212:P571",
+        "wiki:2026-11-16:1",
+        "wiki:2026-11-18:1"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "UA",
+    "lon": 30.51,
+    "lat": 50.44,
+    "label": "Kyiv"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:17Z",
+      "title": "Ukraine in numbers"
+    },
+    {
+      "t": "2026-11-23T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-23T00:00:49Z",
+      "title": "The week in Ukraine"
+    },
+    {
+      "t": "2026-11-23T00:01:11Z",
+      "title": "About Ukraine"
+    },
+    {
+      "t": "2026-11-23T00:01:22Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:43Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "Inflation, consumer prices, Ukraine",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 9.37293105078978
+            },
+            {
+              "x": "2011",
+              "y": 7.95572466274652
+            },
+            {
+              "x": "2012",
+              "y": 0.568727971803862
+            },
+            {
+              "x": "2013",
+              "y": -0.238948626045406
+            },
+            {
+              "x": "2014",
+              "y": 12.0718562874251
+            },
+            {
+              "x": "2015",
+              "y": 48.6998646434423
+            },
+            {
+              "x": "2016",
+              "y": 13.9127101997796
+            },
+            {
+              "x": "2017",
+              "y": 14.4383227488749
+            },
+            {
+              "x": "2018",
+              "y": 10.9518559353178
+            },
+            {
+              "x": "2019",
+              "y": 7.88671745611133
+            },
+            {
+              "x": "2020",
+              "y": 2.73249209419427
+            },
+            {
+              "x": "2021",
+              "y": 9.36313917695223
+            },
+            {
+              "x": "2022",
+              "y": 20.1836366617478
+            },
+            {
+              "x": "2023",
+              "y": 12.8490222828558
+            },
+            {
+              "x": "2024",
+              "y": 6.50198464669254
+            },
+            {
+              "x": "2025",
+              "y": 12.7303341026902
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "GDP growth, Ukraine",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.09200436668087
+            },
+            {
+              "x": "2011",
+              "y": 5.44528081048476
+            },
+            {
+              "x": "2012",
+              "y": 0.152314967200653
+            },
+            {
+              "x": "2013",
+              "y": 0.045439094492707
+            },
+            {
+              "x": "2014",
+              "y": -10.0788949840953
+            },
+            {
+              "x": "2015",
+              "y": -9.7729872128676
+            },
+            {
+              "x": "2016",
+              "y": 2.44098194492067
+            },
+            {
+              "x": "2017",
+              "y": 2.35997228099491
+            },
+            {
+              "x": "2018",
+              "y": 3.48836234022659
+            },
+            {
+              "x": "2019",
+              "y": 3.19950386354134
+            },
+            {
+              "x": "2020",
+              "y": -3.75281793983162
+            },
+            {
+              "x": "2021",
+              "y": 3.44562065945944
+            },
+            {
+              "x": "2022",
+              "y": -28.7585842155085
+            },
+            {
+              "x": "2023",
+              "y": 5.53473354963334
+            },
+            {
+              "x": "2024",
+              "y": 3.24811808426423
+            },
+            {
+              "x": "2025",
+              "y": 1.82152376756284
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:UA"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "Unemployment, Ukraine",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 8.1
+            },
+            {
+              "x": "2011",
+              "y": 7.851
+            },
+            {
+              "x": "2012",
+              "y": 7.529
+            },
+            {
+              "x": "2013",
+              "y": 7.17
+            },
+            {
+              "x": "2014",
+              "y": 9.27
+            },
+            {
+              "x": "2015",
+              "y": 9.14
+            },
+            {
+              "x": "2016",
+              "y": 9.35
+            },
+            {
+              "x": "2017",
+              "y": 9.5
+            },
+            {
+              "x": "2018",
+              "y": 8.799
+            },
+            {
+              "x": "2019",
+              "y": 8.194
+            },
+            {
+              "x": "2020",
+              "y": 9.475
+            },
+            {
+              "x": "2021",
+              "y": 9.834
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:UA"
+          ]
+        }
+      ],
+      "mark": 11
+    },
+    {
+      "id": "region",
+      "t": "2026-11-23T00:00:36Z",
+      "until": "2026-11-23T00:00:49Z",
+      "title": "Inflation, Europe & Central Asia",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Turkey",
+          "text": "34.9%",
+          "value": 34.8811700293777,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:TR"
+          ]
+        },
+        {
+          "label": "Ukraine",
+          "text": "12.7%",
+          "value": 12.7303341026902,
+          "color": "#e3b341",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        },
+        {
+          "label": "Kazakhstan",
+          "text": "11.4%",
+          "value": 11.3789456104214,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KZ"
+          ]
+        },
+        {
+          "label": "Uzbekistan",
+          "text": "8.8%",
+          "value": 8.79630890491107,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UZ"
+          ]
+        },
+        {
+          "label": "Russia",
+          "text": "8.7%",
+          "value": 8.71986939402666,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RU"
+          ]
+        },
+        {
+          "label": "Kyrgyzstan",
+          "text": "8.2%",
+          "value": 8.21496013406325,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KG"
+          ]
+        },
+        {
+          "label": "Moldova",
+          "text": "7.8%",
+          "value": 7.75904124001158,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MD"
+          ]
+        },
+        {
+          "label": "Romania",
+          "text": "7.2%",
+          "value": 7.18903362292063,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RO"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.768548461408595,
+        "label": "median 3.8%"
+      }
+    },
+    {
+      "id": "thread",
+      "t": "2026-11-23T00:00:50Z",
+      "until": "2026-11-23T00:01:11Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "16 November",
+          "text": "The Crimean Bridge is struck by a Ukrainian kamikaze drone, damaging the structure…",
+          "cites": [
+            "wiki:2026-11-16:1"
+          ]
+        },
+        {
+          "label": "18 November",
+          "text": "The Crimean Bridge is struck by Ukrainian forces for the third time in four days…",
+          "cites": [
+            "wiki:2026-11-18:1"
+          ]
+        },
+        {
+          "label": "22 November",
+          "text": "Several people are killed and at least 10 people are injured after the Russian corvette…",
+          "cites": [
+            "wiki:2026-11-22:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:01:23Z",
+      "until": "2026-11-23T00:01:43Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/europe/20261123-live-russian-strikes-kill-at-least-15-people-in-kyiv-region-ukraine-says",
+          "cites": [
+            "news:france24:3314f31f0d59"
+          ]
+        },
+        {
+          "label": "AllAfrica",
+          "text": "Open",
+          "url": "https://allafrica.com/stories/202611230149.html",
+          "cites": [
+            "news:allafrica:6c417e832b50"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya",
+          "cites": [
+            "news:aljazeera:6c375e03b3e6"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sank-russian-ship-off-libya/live-80015859",
+          "cites": [
+            "news:dw:bfcd59f235fe"
+          ]
+        },
+        {
+          "label": "NPR",
+          "text": "Open",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+          "cites": [
+            "news:npr:af520c61c8b0"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo",
+          "cites": [
+            "news:bbc:abd87581214c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:44Z",
+      "until": "2026-11-23T00:01:50Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386666930:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Ukraine:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q212:P571"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_16&oldid=1386114573",
+          "cites": [
+            "wiki:2026-11-16:1"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_18&oldid=1386577397",
+          "cites": [
+            "wiki:2026-11-18:1"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+          "cites": [
+            "wiki:2026-11-22:2"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.003475
+  }
+}

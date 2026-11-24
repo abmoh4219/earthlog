@@ -1,0 +1,942 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-jensen-huang",
+  "title": "Jensen Huang",
+  "subtitle": "People · 23 November 2026 · Update, day 8",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:02:05Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 96.34,
+    "south": 24.5,
+    "east": 116.34,
+    "north": 40.5
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-23T00:01:05Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-23T00:01:05Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-23T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-23T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 144.34000000000003,
+      "lat": 18.224999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:14Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:23Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:27Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:29Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:31Z",
+      "lon": 121.5625,
+      "lat": 24.137500000000003,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "lon": -134.31164580391925,
+      "lat": 49.653676996547766,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:41Z",
+      "lon": -134.31164580391925,
+      "lat": 49.653676996547766,
+      "range": 19921847.303902317,
+      "heading": 14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:46Z",
+      "lon": -134.31164580391925,
+      "lat": 49.653676996547766,
+      "range": 18040000,
+      "heading": 28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:48Z",
+      "lon": -134.31164580391925,
+      "lat": 49.653676996547766,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:52Z",
+      "lon": -134.31164580391925,
+      "lat": 49.653676996547766,
+      "range": 19921847.303902317,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:56Z",
+      "lon": -134.31164580391925,
+      "lat": 49.653676996547766,
+      "range": 18040000,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:00Z",
+      "lon": 114.22538960407556,
+      "lat": 28.169572325636583,
+      "range": 4066557.6387102017,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:02Z",
+      "lon": 114.22538960407556,
+      "lat": 28.169572325636583,
+      "range": 3682424.5604955545,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:05Z",
+      "lon": 114.22538960407556,
+      "lat": 28.169572325636583,
+      "range": 3334577.2637423654,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:09Z",
+      "lon": 40.21506967164311,
+      "lat": 44.69669754818396,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:19Z",
+      "lon": 40.21506967164311,
+      "lat": 44.69669754818396,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:29Z",
+      "lon": 40.21506967164311,
+      "lat": 44.69669754818396,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:33Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:35Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 4002480.231056738,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:37Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 3624400,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:39Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:49Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:58Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:02:00Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:02:01Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 8004960.462113476,
+      "heading": 8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:02:02Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:02:05Z",
+      "lon": 81.34000000000003,
+      "lat": 30.375,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "Nvidia reinstated Jensen Huang as president and chief executive officer less than two weeks after he resigned following revelations of an affair with Alice Huang.",
+      "cites": [
+        "wiki:2026-11-23:5"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:08Z",
+      "text": "On November 23, 2026, Huang was reinstated as president and CEO of Nvidia, and U.S. intelligence suspects Alice Huang of spying for China.",
+      "cites": [
+        "wiki:rev:1387427318:99",
+        "wiki:2026-11-23:5"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:15Z",
+      "text": "Huang is a Taiwanese and American electrical engineer and business executive, born February 17, 1963, and the co-founder, president, and CEO of Nvidia.",
+      "cites": [
+        "wiki:rev:1387427318:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:25Z",
+      "text": "Huang was born on 17 February 1963 in Taipei.",
+      "cites": [
+        "wd:Q305177:P569",
+        "wd:Q305177:P19"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:33Z",
+      "text": "Huang was educated at Stanford University, Aloha High School, Oneida Baptist Institute and 2 more.",
+      "cites": [
+        "wd:Q305177:P69:Q41506",
+        "wd:Q305177:P69:Q4734192",
+        "wd:Q305177:P69:Q7093656",
+        "wd:Q305177:P69:Q7375693",
+        "wd:Q305177:P69:Q861888"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:39Z",
+      "text": "Records also show that he worked in Los Altos.",
+      "cites": [
+        "wd:Q305177:P937:Q864124"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:47Z",
+      "text": "6 awards are on record, among them the Queen Elizabeth Prize for Engineering (2025) and the National Medal of Science (2026).",
+      "cites": [
+        "wd:Q305177:P166:Q4273323",
+        "wd:Q305177:P166:Q737051"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:57Z",
+      "text": "Taipei is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-23:5"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:06Z",
+      "text": "English Wikipedia recorded 234,343 readers of the article on 23 November 2026, about 30 times the usual daily figure.",
+      "cites": [
+        "views:en:Jensen_Huang:2026-11-23",
+        "views:en:Jensen_Huang:prior"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:13Z",
+      "text": "The article was read in 7 languages, and after English, the most readers were in Chinese, with 34,567.",
+      "cites": [
+        "views:en:Jensen_Huang:2026-11-23",
+        "views:zh:黃仁勳:2026-11-23"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:20Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:zh:黃仁勳:2026-11-23",
+        "views:de:Jensen_Huang:2026-11-23",
+        "views:ru:Хуанг,_Дженсен:2026-11-23",
+        "views:it:Jen-Hsun_Huang:2026-11-23",
+        "views:pl:Jen-Hsun_Huang:2026-11-23",
+        "views:ar:جنسن_هوانغ:2026-11-23"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:30Z",
+      "text": "CBS reported the story.",
+      "cites": [
+        "wiki:2026-11-23:5"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:38Z",
+      "text": "Al Jazeera headlined it: “Jensen Huang returns as NVIDIA CEO after intelligence scandal”.",
+      "cites": [
+        "news:aljazeera:e57ea6981e19"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:44Z",
+      "text": "France 24 headlined it: “Nvidia reinstates Jensen Huang as CEO”.",
+      "cites": [
+        "news:france24:4ac1fe94ae48"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:50Z",
+      "text": "DW headlined it: “Nvidia reinstates former CEO Jensen Huang despite China espionage scandal”.",
+      "cites": [
+        "news:dw:88659c21678b"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:59Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-23:5",
+        "wiki:rev:1387427318:99",
+        "views:en:Jensen_Huang:2026-11-23",
+        "wd:Q305177:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CN",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "China"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-23T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-23T00:00:46Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-23T00:00:56Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-23T00:01:05Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-23T00:01:29Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-23T00:01:37Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:58Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-23T00:00:33Z",
+      "until": "2026-11-23T00:00:46Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1963 born",
+          "text": "Taipei",
+          "cites": [
+            "wd:Q305177:P19"
+          ]
+        },
+        {
+          "label": "1992",
+          "text": "Stanford University",
+          "cites": [
+            "wd:Q305177:P69:Q41506"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Aloha High School",
+          "cites": [
+            "wd:Q305177:P69:Q4734192"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Oneida Baptist Institute",
+          "cites": [
+            "wd:Q305177:P69:Q7093656"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Ruamrudee International School",
+          "cites": [
+            "wd:Q305177:P69:Q7375693"
+          ]
+        },
+        {
+          "label": "1980–84",
+          "text": "Oregon State University",
+          "cites": [
+            "wd:Q305177:P69:Q861888"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "United States",
+          "cites": [
+            "wd:Q305177:P551:Q30"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Los Altos",
+          "cites": [
+            "wd:Q305177:P937:Q864124"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-23T00:00:47Z",
+      "until": "2026-11-23T00:00:56Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2020",
+          "text": "IEEE Founders Medal",
+          "cites": [
+            "wd:Q305177:P166:Q5970365"
+          ]
+        },
+        {
+          "label": "2021",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q305177:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2024",
+          "text": "Time 100",
+          "cites": [
+            "wd:Q305177:P166:Q604370"
+          ]
+        },
+        {
+          "label": "2025",
+          "text": "Queen Elizabeth Prize for Engineering",
+          "cites": [
+            "wd:Q305177:P166:Q4273323"
+          ]
+        },
+        {
+          "label": "2026",
+          "text": "National Medal of Science",
+          "cites": [
+            "wd:Q305177:P166:Q737051"
+          ]
+        },
+        {
+          "label": "Award",
+          "text": "Dostyk Order of grade I",
+          "cites": [
+            "wd:Q305177:P166:Q18080682"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-23T00:01:06Z",
+      "until": "2026-11-23T00:01:29Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Jensen Huang",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-25",
+              "y": 6672
+            },
+            {
+              "x": "10-26",
+              "y": 6402
+            },
+            {
+              "x": "10-27",
+              "y": 5572
+            },
+            {
+              "x": "10-28",
+              "y": 5183
+            },
+            {
+              "x": "10-29",
+              "y": 13876
+            },
+            {
+              "x": "10-30",
+              "y": 12234
+            },
+            {
+              "x": "10-31",
+              "y": 7094
+            },
+            {
+              "x": "11-01",
+              "y": 5539
+            },
+            {
+              "x": "11-02",
+              "y": 5265
+            },
+            {
+              "x": "11-03",
+              "y": 6492
+            },
+            {
+              "x": "11-04",
+              "y": 4768
+            },
+            {
+              "x": "11-05",
+              "y": 4819
+            },
+            {
+              "x": "11-06",
+              "y": 6023
+            },
+            {
+              "x": "11-07",
+              "y": 33238
+            },
+            {
+              "x": "11-08",
+              "y": 122360
+            },
+            {
+              "x": "11-09",
+              "y": 733363
+            },
+            {
+              "x": "11-10",
+              "y": 542553
+            },
+            {
+              "x": "11-11",
+              "y": 341625
+            },
+            {
+              "x": "11-12",
+              "y": 1072168
+            },
+            {
+              "x": "11-13",
+              "y": 727529
+            },
+            {
+              "x": "11-14",
+              "y": 304348
+            },
+            {
+              "x": "11-15",
+              "y": 194070
+            },
+            {
+              "x": "11-16",
+              "y": 162987
+            },
+            {
+              "x": "11-17",
+              "y": 144823
+            },
+            {
+              "x": "11-18",
+              "y": 109002
+            },
+            {
+              "x": "11-19",
+              "y": 59651
+            },
+            {
+              "x": "11-20",
+              "y": 44726
+            },
+            {
+              "x": "11-21",
+              "y": 36370
+            },
+            {
+              "x": "11-22",
+              "y": 27993
+            },
+            {
+              "x": "11-23",
+              "y": 234343
+            }
+          ],
+          "cites": [
+            "views:en:Jensen_Huang:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-23T00:01:06Z",
+      "until": "2026-11-23T00:01:29Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "234,343",
+          "value": 234343,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Jensen_Huang:2026-11-23"
+          ]
+        },
+        {
+          "label": "Chinese",
+          "text": "34,567",
+          "value": 34567,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:zh:黃仁勳:2026-11-23"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "22,750",
+          "value": 22750,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Jensen_Huang:2026-11-23"
+          ]
+        },
+        {
+          "label": "Russian",
+          "text": "14,448",
+          "value": 14448,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ru:Хуанг,_Дженсен:2026-11-23"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "6,172",
+          "value": 6172,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Jen-Hsun_Huang:2026-11-23"
+          ]
+        },
+        {
+          "label": "Polish",
+          "text": "4,117",
+          "value": 4117,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pl:Jen-Hsun_Huang:2026-11-23"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "2,057",
+          "value": 2057,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:جنسن_هوانغ:2026-11-23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-23T00:01:30Z",
+      "until": "2026-11-23T00:01:37Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "CBS",
+          "text": "Open",
+          "url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/",
+          "cites": [
+            "wiki:2026-11-23:5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:01:38Z",
+      "until": "2026-11-23T00:01:58Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-returns-as-nvidia-ceo-after-intelligence-scandal",
+          "cites": [
+            "news:aljazeera:e57ea6981e19"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261123-nvidia-reinstates-jensen-huang-as-ceo",
+          "cites": [
+            "news:france24:4ac1fe94ae48"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926",
+          "cites": [
+            "news:dw:88659c21678b"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo",
+          "cites": [
+            "news:bbc:faaac939e2af"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/technology/2026/nov/23/trump-jensen-huang-nvidia-reinstated",
+          "cites": [
+            "news:guardian:baf5bff4c4d4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:59Z",
+      "until": "2026-11-23T00:02:05Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-23:5"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387427318:99"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Jensen_Huang:2026-11-23"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q305177:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.004134
+  }
+}

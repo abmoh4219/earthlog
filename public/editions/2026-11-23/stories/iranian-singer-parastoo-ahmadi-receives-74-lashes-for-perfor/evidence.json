@@ -1,0 +1,79 @@
+[
+  {
+    "id": "wiki:2026-11-23:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-23T00:00:00Z",
+    "lon": 54.93,
+    "lat": 32.17,
+    "label": "Law & crime: Iranian singer Parastoo Ahmadi receives 74 lashes for performing at a music concert without a hijab.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+    "quote": "Iranian singer Parastoo Ahmadi receives 74 lashes for performing at a music concert without a hijab.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cq1j6585l5g6o"
+      }
+    ]
+  },
+  {
+    "id": "news:bbc:0b696fb1de3a",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "BBC News: Iranian authorities flog singer who performed without hijab, lawyers say (18:04 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o",
+    "quote": "Iranian authorities flog singer who performed without hijab, lawyers say",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:2b24c4908c66",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "Al Jazeera: Iran flogs singer Parastoo Ahmadi for performing without headscarf (20:41 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf",
+    "quote": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:496dfdefe1da",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "The Guardian: Iranian singer and four others receive lashes after performance without hijab (20:56 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab",
+    "quote": "Iranian singer and four others receive lashes after performance without hijab",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385459931:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Hijab in Iran\" (revision of 2026-11-13 10:54 UTC)",
+    "quote": "Following the 1979 Iranian Revolution, the hijab became the mandatory dress code for all Iranian women by the order of Ayatollah Khomeini, the supreme leader of the new Islamic Republic.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Hijab_in_Iran&oldid=1385459931"
+  },
+  {
+    "id": "views:en:Hijab_in_Iran:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Hijab in Iran\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Hijab_in_Iran&range=latest-30"
+  },
+  {
+    "id": "wd:Q117472135:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"hijab in Iran\": country Iran",
+    "url": "https://www.wikidata.org/wiki/Q117472135#P17"
+  }
+]

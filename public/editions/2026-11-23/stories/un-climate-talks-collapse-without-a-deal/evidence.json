@@ -1,0 +1,108 @@
+[
+  {
+    "id": "news:france24:1075c80c2e70",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "France 24: COP31 climate talks in Turkey collapse (00:44 UTC)",
+    "url": "https://www.france24.com/en/video/20261123-cop31-climate-talks-collapse",
+    "quote": "COP31 climate talks in Turkey collapse",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:fcb85812f82b",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "BBC News: What's next after no deal at COP31 climate talks? (05:34 UTC)",
+    "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo",
+    "quote": "What's next after no deal at COP31 climate talks?",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:b030418a4c24",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "Al Jazeera: Why did COP31 climate talks collapse without a deal? (16:38 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/why-did-cop31-climate-talks-collapse-without-a-deal",
+    "quote": "Why did COP31 climate talks collapse without a deal?",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:6ef9292eb04b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-23T00:00:00Z",
+    "label": "The Guardian: Cop31 collapses: why did climate talks fall apart? - The Latest (17:19 UTC)",
+    "url": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest",
+    "quote": "Cop31 collapses: why did climate talks fall apart? - The Latest",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387407495:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United Nations Climate Change Conference\" (revision of 2026-11-23 20:44 UTC)",
+    "quote": "On 22 November 2026, the United Nations said that the conference \"collapsed\" after two days of \"overtime\" negotiations.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_Nations_Climate_Change_Conference&oldid=1387407495"
+  },
+  {
+    "id": "wiki:rev:1387407495:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United Nations Climate Change Conference\" (revision of 2026-11-23 20:44 UTC)",
+    "quote": "The 2026 United Nations Climate Change Conference or Conference of the Parties to the UNFCCC, more commonly known as COP31, was held at the Expo Center in Antalya, Turkey.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_Nations_Climate_Change_Conference&oldid=1387407495"
+  },
+  {
+    "id": "views:en:2026_United_Nations_Climate_Change_Conference:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 United Nations Climate Change Conference\", 25 October 2026 to 23 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_United_Nations_Climate_Change_Conference&range=latest-30"
+  },
+  {
+    "id": "wd:Q115379423:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United Nations Climate Change Conference\": date 2026",
+    "url": "https://www.wikidata.org/wiki/Q115379423#P585"
+  },
+  {
+    "id": "wd:Q115379423:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United Nations Climate Change Conference\": began 9 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q115379423#P580"
+  },
+  {
+    "id": "wd:Q115379423:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United Nations Climate Change Conference\": location Antalya, Antalya Expo Center",
+    "url": "https://www.wikidata.org/wiki/Q115379423#P276"
+  },
+  {
+    "id": "wd:Q115379423:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-23T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United Nations Climate Change Conference\": country Turkey",
+    "url": "https://www.wikidata.org/wiki/Q115379423#P17"
+  }
+]

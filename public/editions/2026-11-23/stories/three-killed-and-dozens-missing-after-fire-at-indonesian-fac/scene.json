@@ -1,0 +1,847 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-three-killed-and-dozens-missing-after-fire-at-indonesian-fac",
+  "title": "Three killed and dozens missing after fire at Indonesian factory",
+  "subtitle": "Disasters · 23 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:44Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 91.89,
+    "south": -8.95,
+    "east": 111.89,
+    "north": 7.05
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-23T00:00:49Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-23T00:00:49Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-23T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-23T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": 139.89,
+      "lat": -1.845,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:10Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:16Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:20Z",
+      "lon": 101.89,
+      "lat": -8.95,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:27Z",
+      "lon": 101.89,
+      "lat": -8.95,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:34Z",
+      "lon": 101.89,
+      "lat": -8.95,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": 106.4176,
+      "lat": 0.2380000000000002,
+      "range": 3500000,
+      "heading": 75.29562293544721,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:43Z",
+      "lon": 106.4176,
+      "lat": 0.2380000000000002,
+      "range": 3169384.7983480957,
+      "heading": 88.99562293544722,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:48Z",
+      "lon": 106.4176,
+      "lat": 0.2380000000000002,
+      "range": 2870000,
+      "heading": 102.69562293544722,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:52Z",
+      "lon": 103.93920826036171,
+      "lat": -3.905117947181646,
+      "range": 1764196.0822627954,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:58Z",
+      "lon": 103.93920826036171,
+      "lat": -3.905117947181646,
+      "range": 1597547.4984082773,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:04Z",
+      "lon": 103.93920826036171,
+      "lat": -3.905117947181646,
+      "range": 1446640.7874554922,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:07Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:01:11Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 9236492.840900164,
+      "heading": 21.3,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:15Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 8363999.999999999,
+      "heading": 32.6,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:18Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:27Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:36Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:39Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:40Z",
+      "lon": 101.89,
+      "lat": -3.075,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:44Z",
+      "lon": 76.88999999999999,
+      "lat": -3.075,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "According to Al Jazeera, Indonesia confirmed 24 killed in a candy factory fire as the search continued.",
+      "cites": [
+        "news:aljazeera:d404bacc5dcd"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:09Z",
+      "text": "The Guardian and Sky News also reported the fire, with dozens still missing.",
+      "cites": [
+        "news:guardian:b1fdd3d9246a",
+        "news:sky:3290979445b3"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:18Z",
+      "text": "Inflation in Indonesia fell to 1.9% in 2025, from 4.2% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:ID"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "text": "The economy grew 5.1% in 2025, and unemployment stood at 3.2%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:ID",
+        "wb:SL.UEM.TOTL.ZS:ID"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:36Z",
+      "text": "In East Asia and Pacific, Indonesia's 1.9% inflation compares with a median of 2.1%, while Mongolia has the highest rate at 8.6%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:50Z",
+      "text": "On 21 November, Indonesia and the European Union signed trade and investment agreements that will lift 98.5% of tariffs on EU goods.",
+      "cites": [
+        "wiki:2026-11-21:10"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:57Z",
+      "text": "On 22 November, according to Wikipedia's current events log, a fire at a confectionery factory in Serang Regency, Banten, killed at least three people, left 36 others missing, and injured four.",
+      "cites": [
+        "wiki:2026-11-22:9"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:06Z",
+      "text": "Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania, lying between the Indian and Pacific oceans.",
+      "cites": [
+        "wiki:rev:1387335545:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:17Z",
+      "text": "Al Jazeera headlined its report “Indonesia confirms 24 killed in candy factory fire as search continues”.",
+      "cites": [
+        "news:aljazeera:d404bacc5dcd"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:23Z",
+      "text": "The Guardian's headline read “At least 24 killed and dozens missing in confectionery factory fire in Indonesia”.",
+      "cites": [
+        "news:guardian:b1fdd3d9246a"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:29Z",
+      "text": "Sky News ran the headline “Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing”.",
+      "cites": [
+        "news:sky:3290979445b3"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:38Z",
+      "text": "This story draws on 3 outlets, Wikipedia articles, Wikimedia pageviews, Wikidata, and Wikipedia current events pages for 21 and 22 November 2026.",
+      "cites": [
+        "wiki:rev:1387335545:0",
+        "views:en:Indonesia:30d",
+        "wd:Q252:P571",
+        "wiki:2026-11-21:10",
+        "wiki:2026-11-22:9"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "ID",
+    "lon": 101.89,
+    "lat": -0.95,
+    "label": "Indonesia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:17Z",
+      "title": "Indonesia in numbers"
+    },
+    {
+      "t": "2026-11-23T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-23T00:00:49Z",
+      "title": "The week in Indonesia"
+    },
+    {
+      "t": "2026-11-23T00:01:05Z",
+      "title": "About Indonesia"
+    },
+    {
+      "t": "2026-11-23T00:01:16Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-23T00:01:37Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "Inflation, consumer prices, Indonesia",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Indonesia",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 5.13420639015885
+            },
+            {
+              "x": "2011",
+              "y": 5.35604849112582
+            },
+            {
+              "x": "2012",
+              "y": 4.2795142691943
+            },
+            {
+              "x": "2013",
+              "y": 6.41249457900391
+            },
+            {
+              "x": "2014",
+              "y": 6.39492882396559
+            },
+            {
+              "x": "2015",
+              "y": 6.36312061196646
+            },
+            {
+              "x": "2016",
+              "y": 3.52580452815451
+            },
+            {
+              "x": "2017",
+              "y": 3.80879857691948
+            },
+            {
+              "x": "2018",
+              "y": 3.19834755924996
+            },
+            {
+              "x": "2019",
+              "y": 3.0305846094166
+            },
+            {
+              "x": "2020",
+              "y": 1.91983527270792
+            },
+            {
+              "x": "2021",
+              "y": 1.56007882983334
+            },
+            {
+              "x": "2022",
+              "y": 4.20946463714784
+            },
+            {
+              "x": "2023",
+              "y": 3.66938654859761
+            },
+            {
+              "x": "2024",
+              "y": 2.18151273615188
+            },
+            {
+              "x": "2025",
+              "y": 1.91333443295079
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:ID"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "GDP growth, Indonesia",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Indonesia",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 6.22385418062366
+            },
+            {
+              "x": "2011",
+              "y": 6.16978420771008
+            },
+            {
+              "x": "2012",
+              "y": 6.03005065305615
+            },
+            {
+              "x": "2013",
+              "y": 5.5572636889101
+            },
+            {
+              "x": "2014",
+              "y": 5.006668425755
+            },
+            {
+              "x": "2015",
+              "y": 4.87632230022123
+            },
+            {
+              "x": "2016",
+              "y": 5.03306918280177
+            },
+            {
+              "x": "2017",
+              "y": 5.06978590134916
+            },
+            {
+              "x": "2018",
+              "y": 5.17429153955024
+            },
+            {
+              "x": "2019",
+              "y": 5.01928768046282
+            },
+            {
+              "x": "2020",
+              "y": -2.06551182934165
+            },
+            {
+              "x": "2021",
+              "y": 3.70288562827751
+            },
+            {
+              "x": "2022",
+              "y": 5.30719722664799
+            },
+            {
+              "x": "2023",
+              "y": 5.04883117855516
+            },
+            {
+              "x": "2024",
+              "y": 5.03257477088519
+            },
+            {
+              "x": "2025",
+              "y": 5.10808904438025
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:ID"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-23T00:00:18Z",
+      "until": "2026-11-23T00:00:35Z",
+      "title": "Unemployment, Indonesia",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Indonesia",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 5.614
+            },
+            {
+              "x": "2011",
+              "y": 5.153
+            },
+            {
+              "x": "2012",
+              "y": 4.468
+            },
+            {
+              "x": "2013",
+              "y": 4.336
+            },
+            {
+              "x": "2014",
+              "y": 4.049
+            },
+            {
+              "x": "2015",
+              "y": 4.514
+            },
+            {
+              "x": "2016",
+              "y": 4.301
+            },
+            {
+              "x": "2017",
+              "y": 3.783
+            },
+            {
+              "x": "2018",
+              "y": 4.387
+            },
+            {
+              "x": "2019",
+              "y": 3.59
+            },
+            {
+              "x": "2020",
+              "y": 4.255
+            },
+            {
+              "x": "2021",
+              "y": 3.827
+            },
+            {
+              "x": "2022",
+              "y": 3.462
+            },
+            {
+              "x": "2023",
+              "y": 3.308
+            },
+            {
+              "x": "2024",
+              "y": 3.301
+            },
+            {
+              "x": "2025",
+              "y": 3.237
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:ID"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-23T00:00:36Z",
+      "until": "2026-11-23T00:00:49Z",
+      "title": "Inflation, East Asia & Pacific",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Mongolia",
+          "text": "8.6%",
+          "value": 8.60536487369694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MN"
+          ]
+        },
+        {
+          "label": "Laos",
+          "text": "7.7%",
+          "value": 7.74226936553694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LA"
+          ]
+        },
+        {
+          "label": "Papua New Guinea",
+          "text": "4.4%",
+          "value": 4.42141364166485,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PG"
+          ]
+        },
+        {
+          "label": "Solomon Islands",
+          "text": "3.4%",
+          "value": 3.36462189317824,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SB"
+          ]
+        },
+        {
+          "label": "Vietnam",
+          "text": "3.3%",
+          "value": 3.30999314219739,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:VN"
+          ]
+        },
+        {
+          "label": "Japan",
+          "text": "3.2%",
+          "value": 3.17253034260247,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:JP"
+          ]
+        },
+        {
+          "label": "Australia",
+          "text": "2.9%",
+          "value": 2.87403791660173,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AU"
+          ]
+        },
+        {
+          "label": "New Zealand",
+          "text": "2.8%",
+          "value": 2.8397963180572,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NZ"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.12309421458659,
+        "label": "median 2.1%"
+      }
+    },
+    {
+      "id": "thread",
+      "t": "2026-11-23T00:00:50Z",
+      "until": "2026-11-23T00:01:05Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "21 November",
+          "text": "Indonesia and the European Union sign trade and investment agreements that will lift…",
+          "cites": [
+            "wiki:2026-11-21:10"
+          ]
+        },
+        {
+          "label": "22 November",
+          "text": "A fire at a confectionery factory in Serang Regency, Banten, Indonesia…",
+          "cites": [
+            "wiki:2026-11-22:9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-23T00:01:17Z",
+      "until": "2026-11-23T00:01:37Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site",
+          "cites": [
+            "news:aljazeera:d404bacc5dcd"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "cites": [
+            "news:guardian:b1fdd3d9246a"
+          ]
+        },
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577",
+          "cites": [
+            "news:sky:3290979445b3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:38Z",
+      "until": "2026-11-23T00:01:44Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387335545:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Indonesia:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q252:P571"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_21&oldid=1387061293",
+          "cites": [
+            "wiki:2026-11-21:10"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+          "cites": [
+            "wiki:2026-11-22:9"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.002997
+  }
+}

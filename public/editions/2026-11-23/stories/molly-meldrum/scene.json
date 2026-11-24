@@ -1,0 +1,620 @@
+{
+  "version": 1,
+  "id": "story-2026-11-23-molly-meldrum",
+  "title": "Molly Meldrum",
+  "subtitle": "People · 23 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-23T00:00:00Z",
+    "end": "2026-11-23T00:01:25Z"
+  },
+  "focus": "2026-11-23T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 134.998,
+    "south": -45.823,
+    "east": 154.998,
+    "north": -29.823
+  },
+  "imagery": {
+    "day": "2026-11-23",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-23T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-23T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "lon": -177.002,
+      "lat": -23.1063,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-23T00:00:04Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:14Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:23Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:26Z",
+      "lon": 148.45,
+      "lat": -38.6,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:29Z",
+      "lon": 148.45,
+      "lat": -38.6,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:31Z",
+      "lon": 148.45,
+      "lat": -38.6,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:34Z",
+      "lon": 147.68944513741818,
+      "lat": -36.926717566348806,
+      "range": 2099452.389782213,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:38Z",
+      "lon": 147.68944513741818,
+      "lat": -36.926717566348806,
+      "range": 1901134.9968660935,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:41Z",
+      "lon": 147.68944513741818,
+      "lat": -36.926717566348806,
+      "range": 1721550.9596214148,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:44Z",
+      "lon": 147.68944513741818,
+      "lat": -36.926717566348806,
+      "range": 2099452.389782213,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:48Z",
+      "lon": 147.68944513741818,
+      "lat": -36.926717566348806,
+      "range": 1901134.9968660935,
+      "heading": -10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:51Z",
+      "lon": 147.68944513741818,
+      "lat": -36.926717566348806,
+      "range": 1721550.9596214148,
+      "heading": -21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:54Z",
+      "lon": 144.998,
+      "lat": -38.723,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-23T00:00:55Z",
+      "lon": 144.998,
+      "lat": -38.723,
+      "range": 814984.6624323674,
+      "heading": -11.5,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:56Z",
+      "lon": 144.998,
+      "lat": -38.723,
+      "range": 738000,
+      "heading": -5,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:00:59Z",
+      "lon": 146.72543550422492,
+      "lat": -38.074088547322475,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:02Z",
+      "lon": 146.72543550422492,
+      "lat": -38.074088547322475,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:05Z",
+      "lon": 146.72543550422492,
+      "lat": -38.074088547322475,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:08Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 1760000,
+      "heading": -15,
+      "pitch": -52,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:13Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 1593747.7843121854,
+      "heading": -2.8999999999999986,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:17Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 1443200,
+      "heading": 9.200000000000003,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:20Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:21Z",
+      "lon": 144.998,
+      "lat": -38.5105,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-23T00:01:25Z",
+      "lon": 119.99800000000005,
+      "lat": -38.5105,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-23T00:00:01Z",
+      "text": "Molly Meldrum died at the Epworth Hospital in Richmond on the morning of 23 November 2026, at the age of 83.",
+      "cites": [
+        "wiki:rev:1387464009:223"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:08Z",
+      "text": "He became widely recognised for his Stetson hats, which he regularly wore in public from the 1980s, and which were commonly mistaken for Akubra hats.",
+      "cites": [
+        "wiki:rev:1387464009:2"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:15Z",
+      "text": "Ian Alexander \"Molly\" Meldrum, born 29 January 1943, was an Australian television presenter, music critic, journalist, record producer and musical businessman.",
+      "cites": [
+        "wiki:rev:1387464009:0"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:25Z",
+      "text": "Meldrum was born on 29 January 1943 in Orbost.",
+      "cites": [
+        "wd:Q6896637:P569",
+        "wd:Q6896637:P19"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:33Z",
+      "text": "He worked for the Seven Network, the Australian Broadcasting Corporation and the Nine Network.",
+      "cites": [
+        "wd:Q6896637:P108:Q908659",
+        "wd:Q6896637:P108:Q781365",
+        "wd:Q6896637:P108:Q1432195"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:00:43Z",
+      "text": "His one award on record is Member of the Order of Australia, received in 1986.",
+      "cites": [
+        "wd:Q6896637:P166:Q9678710"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:07Z",
+      "text": "112,186 people read his Wikipedia article on 23 November 2026, about 837 times the usual daily count.",
+      "cites": [
+        "views:en:Molly_Meldrum:2026-11-23",
+        "views:en:Molly_Meldrum:prior"
+      ]
+    },
+    {
+      "t": "2026-11-23T00:01:19Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1387464009:223",
+        "views:en:Molly_Meldrum:2026-11-23",
+        "wd:Q6896637:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "AU",
+    "lon": 144.998,
+    "lat": -37.823,
+    "label": "Richmond"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-23T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-23T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-23T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-23T00:00:42Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-23T00:00:52Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-23T00:00:57Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-23T00:01:06Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-23T00:01:18Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-23T00:00:33Z",
+      "until": "2026-11-23T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1943 born",
+          "text": "Orbost",
+          "cites": [
+            "wd:Q6896637:P19"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "Seven Network",
+          "cites": [
+            "wd:Q6896637:P108:Q908659"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "Australian Broadcasting Corporation",
+          "cites": [
+            "wd:Q6896637:P108:Q781365"
+          ]
+        },
+        {
+          "label": "worked for",
+          "text": "Nine Network",
+          "cites": [
+            "wd:Q6896637:P108:Q1432195"
+          ]
+        },
+        {
+          "label": "lived in",
+          "text": "Melbourne",
+          "cites": [
+            "wd:Q6896637:P551:Q3141"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Richmond",
+          "cites": [
+            "wd:Q6896637:P20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-23T00:00:43Z",
+      "until": "2026-11-23T00:00:52Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1986",
+          "text": "Member of the Order of Australia",
+          "cites": [
+            "wd:Q6896637:P166:Q9678710"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-23T00:01:07Z",
+      "until": "2026-11-23T00:01:18Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Molly Meldrum",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-25",
+              "y": 141
+            },
+            {
+              "x": "10-26",
+              "y": 120
+            },
+            {
+              "x": "10-27",
+              "y": 90
+            },
+            {
+              "x": "10-28",
+              "y": 92
+            },
+            {
+              "x": "10-29",
+              "y": 122
+            },
+            {
+              "x": "10-30",
+              "y": 101
+            },
+            {
+              "x": "10-31",
+              "y": 107
+            },
+            {
+              "x": "11-01",
+              "y": 146
+            },
+            {
+              "x": "11-02",
+              "y": 101
+            },
+            {
+              "x": "11-03",
+              "y": 124
+            },
+            {
+              "x": "11-04",
+              "y": 125
+            },
+            {
+              "x": "11-05",
+              "y": 96
+            },
+            {
+              "x": "11-06",
+              "y": 115
+            },
+            {
+              "x": "11-07",
+              "y": 124
+            },
+            {
+              "x": "11-08",
+              "y": 135
+            },
+            {
+              "x": "11-09",
+              "y": 117
+            },
+            {
+              "x": "11-10",
+              "y": 121
+            },
+            {
+              "x": "11-11",
+              "y": 118
+            },
+            {
+              "x": "11-12",
+              "y": 150
+            },
+            {
+              "x": "11-13",
+              "y": 127
+            },
+            {
+              "x": "11-14",
+              "y": 179
+            },
+            {
+              "x": "11-15",
+              "y": 153
+            },
+            {
+              "x": "11-16",
+              "y": 107
+            },
+            {
+              "x": "11-17",
+              "y": 102
+            },
+            {
+              "x": "11-18",
+              "y": 165
+            },
+            {
+              "x": "11-19",
+              "y": 130
+            },
+            {
+              "x": "11-20",
+              "y": 113
+            },
+            {
+              "x": "11-21",
+              "y": 107
+            },
+            {
+              "x": "11-22",
+              "y": 37182
+            }
+          ],
+          "cites": [
+            "views:en:Molly_Meldrum:30d"
+          ]
+        }
+      ],
+      "mark": 28
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-23T00:01:19Z",
+      "until": "2026-11-23T00:01:25Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387464009:223"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Molly_Meldrum:2026-11-23"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q6896637:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-24T03:27:10Z",
+    "costUsd": 0.002501
+  }
+}
