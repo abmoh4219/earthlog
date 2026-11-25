@@ -1,0 +1,278 @@
+[
+  {
+    "id": "news:dw:7d148967ab4c",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "DW: EU imposes import quotas for hybrid vehicles from China (10:42 UTC)",
+    "url": "https://www.dw.com/en/eu-imposes-import-quotas-for-hybrid-vehicles-from-china/a-80029981",
+    "quote": "EU imposes import quotas for hybrid vehicles from China",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:780443208f48",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "The Guardian: EU to impose cap on Chinese hybrid EV imports next month (10:59 UTC)",
+    "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
+    "quote": "EU to impose cap on Chinese hybrid EV imports next month",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386921412:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"China\" (revision of 2026-11-21 12:43 UTC)",
+    "quote": "China, officially the People's Republic of China (PRC), is a country in East Asia.",
+    "url": "https://en.wikipedia.org/w/index.php?title=China&oldid=1386921412"
+  },
+  {
+    "id": "wiki:2026-11-17:9",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-17",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-17: Canada and China agree to further tariff reductions following talks between Canadian prime minister Mark Carney and Chinese leader Xi Jinping before the APEC summit in Shenzhen. China reduces tariffs on C$400 million (¥1.8 billion) in Canadian exports, while Canada extends relief for Chinese steel and aluminium.",
+    "quote": "Canada and China agree to further tariff reductions following talks between Canadian prime minister Mark Carney and Chinese leader Xi Jinping before the APEC summit in Shenzhen.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867"
+  },
+  {
+    "id": "wiki:2026-11-23:5",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-23",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-23: Nvidia reinstates Jensen Huang as president and chief executive officer less than two weeks after he resigned following revelations of an affair with Alice Huang, who is suspected by U.S. intelligence of spying for China.",
+    "quote": "Nvidia reinstates Jensen Huang as president and chief executive officer less than two weeks after he resigned following revelations of an affair with Alice Huang, who is suspected by U.S.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955"
+  },
+  {
+    "id": "views:en:China:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"China\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=China&range=latest-30"
+  },
+  {
+    "id": "wd:Q148:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"People's Republic of China\": founded 1 October 1949",
+    "url": "https://www.wikidata.org/wiki/Q148#P571"
+  },
+  {
+    "id": "wd:Q148:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"People's Republic of China\": country People's Republic of China",
+    "url": "https://www.wikidata.org/wiki/Q148#P17"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, inflation, latest year, East Asia & Pacific: Mongolia 8.6% (2025); Laos 7.7% (2025); Papua New Guinea 4.4% (2025); Solomon Islands 3.4% (2025); Vietnam 3.3% (2025); Japan 3.2% (2025); Australia 2.9% (2025); New Zealand 2.8% (2025); Cambodia 2.4% (2025); South Korea 2.1% (2025); Indonesia 1.9% (2025); Philippines 1.7% (2025); Malaysia 1.4% (2025); Vanuatu 0.7% (2025); East Timor 0.4% (2025); China 0.1% (2025); Thailand -0.1% (2025); Brunei -0.3% (2025); Fiji -1.4% (2025)",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:CN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, China: 2020 2.4%; 2021 1.0%; 2022 2.0%; 2023 0.2%; 2024 0.2%; 2025 0.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CN"
+  },
+  {
+    "id": "wb:NY.GDP.MKTP.KD.ZG:CN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, GDP growth, China: 2020 2.3%; 2021 8.6%; 2022 3.1%; 2023 5.4%; 2024 5.0%; 2025 5.0%",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=CN"
+  },
+  {
+    "id": "wb:SL.UEM.TOTL.ZS:CN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Unemployment, China: 2020 5.0%; 2021 4.5%; 2022 5.0%; 2023 4.7%; 2024 4.6%; 2025 4.6%",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:AU",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Australia: 2020 0.8%; 2021 2.9%; 2022 6.6%; 2023 5.6%; 2024 3.2%; 2025 2.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AU"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:BN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Brunei: 2020 1.9%; 2021 1.7%; 2022 3.7%; 2023 0.4%; 2024 -0.4%; 2025 -0.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:FJ",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Fiji: 2020 -1.7%; 2021 1.5%; 2022 6.1%; 2023 3.0%; 2024 3.9%; 2025 -1.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=FJ"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:ID",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Indonesia: 2020 1.9%; 2021 1.6%; 2022 4.2%; 2023 3.7%; 2024 2.2%; 2025 1.9%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ID"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:JP",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Japan: 2020 -0.0%; 2021 -0.2%; 2022 2.5%; 2023 3.3%; 2024 2.7%; 2025 3.2%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=JP"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:KH",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Cambodia: 2020 2.9%; 2021 2.9%; 2022 5.3%; 2023 2.1%; 2024 0.8%; 2025 2.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KH"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:KR",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, South Korea: 2020 0.5%; 2021 2.5%; 2022 5.1%; 2023 3.6%; 2024 2.3%; 2025 2.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KR"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:LA",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Laos: 2020 5.1%; 2021 3.8%; 2022 23.0%; 2023 31.2%; 2024 23.1%; 2025 7.7%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LA"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:MN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Mongolia: 2020 3.7%; 2021 7.4%; 2022 15.2%; 2023 10.3%; 2024 6.2%; 2025 8.6%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:MY",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Malaysia: 2020 -1.1%; 2021 2.5%; 2022 3.4%; 2023 2.5%; 2024 1.8%; 2025 1.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MY"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:NZ",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, New Zealand: 2020 1.7%; 2021 3.9%; 2022 7.2%; 2023 5.7%; 2024 2.9%; 2025 2.8%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NZ"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:PH",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Philippines: 2020 2.4%; 2021 3.9%; 2022 5.8%; 2023 6.0%; 2024 3.2%; 2025 1.7%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PH"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:PG",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Papua New Guinea: 2020 4.9%; 2021 4.5%; 2022 5.3%; 2023 2.3%; 2024 0.6%; 2025 4.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PG"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:SB",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Solomon Islands: 2020 3.0%; 2021 -0.1%; 2022 5.5%; 2023 5.9%; 2024 4.3%; 2025 3.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SB"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:TH",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Thailand: 2020 -0.8%; 2021 1.2%; 2022 6.1%; 2023 1.2%; 2024 0.4%; 2025 -0.1%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TH"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:TL",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, East Timor: 2020 0.5%; 2021 3.7%; 2022 7.0%; 2023 8.4%; 2024 2.1%; 2025 0.4%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TL"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:VN",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Vietnam: 2020 3.2%; 2021 1.8%; 2022 3.2%; 2023 3.3%; 2024 3.6%; 2025 3.3%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=VN"
+  },
+  {
+    "id": "wb:FP.CPI.TOTL.ZG:VU",
+    "kind": "sensor",
+    "source": "worldbank",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "World Bank, Inflation, consumer prices, Vanuatu: 2020 5.3%; 2021 2.3%; 2022 6.7%; 2023 11.2%; 2024 1.1%; 2025 0.7%",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=VU"
+  }
+]

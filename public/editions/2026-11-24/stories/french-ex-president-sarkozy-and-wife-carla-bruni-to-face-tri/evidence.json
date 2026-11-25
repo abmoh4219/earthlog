@@ -1,0 +1,177 @@
+[
+  {
+    "id": "news:france24:4f80118e1b6b",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "France 24: France's ex-president Nicolas Sarkozy, wife Carla Bruni to stand trial for alleged witness tampering (16:33 UTC)",
+    "url": "https://www.france24.com/en/france/20261124-france-ex-president-nicolas-sarkozy-wife-carla-stand-trial-over-alleged-witness-tampering",
+    "quote": "France's ex-president Nicolas Sarkozy, wife Carla Bruni to stand trial for alleged witness tampering",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:ce9a1668bd40",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "BBC News: French ex-President Sarkozy and wife Carla Bruni to face trial (16:49 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o",
+    "quote": "French ex-President Sarkozy and wife Carla Bruni to face trial",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1385089107:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Carla Bruni\" (revision of 2026-11-11 20:45 UTC)",
+    "quote": "Carla Bruni-Sarközy de Nagy-Bocsa (born Carla Gilberta Bruni Tedeschi,, 23 December 1967) is an Italian and French singer, songwriter and fashion model who served as the first lady of France from 2008—when she married then president Nicolas Sarkozy—to 2012.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Carla_Bruni&oldid=1385089107"
+  },
+  {
+    "id": "views:en:Carla_Bruni:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Carla Bruni\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Carla_Bruni&range=latest-30"
+  },
+  {
+    "id": "wd:Q143945:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": born 23 December 1967",
+    "url": "https://www.wikidata.org/wiki/Q143945#P569"
+  },
+  {
+    "id": "wd:Q143945:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": birthplace Turin",
+    "url": "https://www.wikidata.org/wiki/Q143945#P19"
+  },
+  {
+    "id": "wd:Q143945:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": occupation model, actor",
+    "url": "https://www.wikidata.org/wiki/Q143945#P106"
+  },
+  {
+    "id": "wd:Q143945:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": citizenship Italy, France",
+    "url": "https://www.wikidata.org/wiki/Q143945#P27"
+  },
+  {
+    "id": "wd:Q143945:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": genre French pop",
+    "url": "https://www.wikidata.org/wiki/Q143945#P136"
+  },
+  {
+    "id": "wd:Q143945:P69:Q1431541",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": educated at Lycée Janson-de-Sailly",
+    "url": "https://www.wikidata.org/wiki/Q143945#P69"
+  },
+  {
+    "id": "wd:Q143945:P69:Q999763",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": educated at University of Paris 1 Pantheon-Sorbonne",
+    "url": "https://www.wikidata.org/wiki/Q143945#P69"
+  },
+  {
+    "id": "wd:Q143945:P69:Q3577715",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": educated at École Jeannine Manuel",
+    "url": "https://www.wikidata.org/wiki/Q143945#P69"
+  },
+  {
+    "id": "wd:Q143945:P937:Q90",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": worked in Paris",
+    "url": "https://www.wikidata.org/wiki/Q143945#P937"
+  },
+  {
+    "id": "wd:Q143945:P166:Q16682527",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": award received: Victoires de la Musique – Female artist of the year (2004)",
+    "url": "https://www.wikidata.org/wiki/Q143945#P166"
+  },
+  {
+    "id": "wd:Q143945:P166:Q20866626",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": award received: Collar of the Order of Charles III (2009)",
+    "url": "https://www.wikidata.org/wiki/Q143945#P166"
+  },
+  {
+    "id": "wd:Q143945:P166:Q94440635",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": award received: Grand Cross of the National Order of Benin (2010)",
+    "url": "https://www.wikidata.org/wiki/Q143945#P166"
+  },
+  {
+    "id": "wd:Q143945:P166:Q13452524",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": award received: Officer of Arts and Letters (2020)",
+    "url": "https://www.wikidata.org/wiki/Q143945#P166"
+  },
+  {
+    "id": "wd:Q143945:P166:Q3405187",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": award received: Prix Raoul-Breton",
+    "url": "https://www.wikidata.org/wiki/Q143945#P166"
+  },
+  {
+    "id": "wd:Q143945:P166:Q13452528",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Carla Bruni\": award received: Chevalier des Arts et des Lettres",
+    "url": "https://www.wikidata.org/wiki/Q143945#P166"
+  }
+]

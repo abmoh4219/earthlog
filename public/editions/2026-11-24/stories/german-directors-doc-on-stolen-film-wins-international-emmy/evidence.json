@@ -1,0 +1,70 @@
+[
+  {
+    "id": "news:sky:434c7ec8695a",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Sky News: Sky News documentary wins International Emmy (02:06 UTC)",
+    "url": "https://news.sky.com/story/24-hours-in-the-kill-zone-sky-news-documentary-wins-international-emmy-13615753",
+    "quote": "Sky News documentary wins International Emmy",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:80792ca0c998",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "DW: German directors' doc on stolen film wins International Emmy Award (09:41 UTC)",
+    "url": "https://www.dw.com/en/german-directors-doc-on-stolen-film-wins-international-emmy-award/a-76103455",
+    "quote": "German directors' doc on stolen film wins International Emmy Award",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1386193384:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"International Emmy Awards\" (revision of 2026-11-17 05:24 UTC)",
+    "quote": "The International Emmy Awards, or International Emmys, are part of the extensive range of Emmy Awards for artistic and technical merit for the television industry.",
+    "url": "https://en.wikipedia.org/w/index.php?title=International_Emmy_Awards&oldid=1386193384"
+  },
+  {
+    "id": "views:en:International_Emmy_Awards:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"International Emmy Awards\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=International_Emmy_Awards&range=latest-30"
+  },
+  {
+    "id": "wd:Q10354837:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"International Emmy Award\": began 1973",
+    "url": "https://www.wikidata.org/wiki/Q10354837#P580"
+  },
+  {
+    "id": "wd:Q10354837:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"International Emmy Award\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q10354837#P17"
+  },
+  {
+    "id": "wiki:box:1386193384:hosts",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"International Emmy Awards\" (revision of 2026-11-17 05:24 UTC): Hosts: International Academy of Television Arts & Sciences",
+    "quote": "Hosts: International Academy of Television Arts & Sciences",
+    "url": "https://en.wikipedia.org/w/index.php?title=International_Emmy_Awards&oldid=1386193384"
+  }
+]

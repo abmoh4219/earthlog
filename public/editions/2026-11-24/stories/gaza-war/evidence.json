@@ -1,0 +1,125 @@
+[
+  {
+    "id": "wiki:2026-11-24:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-24T00:00:00Z",
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Conflict: Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401",
+    "quote": "Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "The Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q122962941:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Wikidata: \"Gaza War\" is an instance of war",
+    "url": "https://www.wikidata.org/wiki/Q122962941",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:d1ad5b170216",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "France 24: Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say (13:07 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+    "quote": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:0c077b0fb734",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Al Jazeera: The photos from Gaza resonating with the people of Sarajevo (14:50 UTC)",
+    "url": "https://www.aljazeera.com/features/2026/11/24/the-photographs-from-gaza-that-sarajevo-took-home",
+    "quote": "The photos from Gaza resonating with the people of Sarajevo",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:5b1c5c7e0cff",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "BBC News: Israeli air strike kills Hamas internal security chief in Gaza (15:35 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o",
+    "quote": "Israeli air strike kills Hamas internal security chief in Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387464354:332",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-24 01:44 UTC)",
+    "quote": "The flow of commercial goods into Gaza stopped in October 2026, greatly affecting supplies for the Gazan population.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1387464354"
+  },
+  {
+    "id": "wiki:rev:1387464354:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-24 01:44 UTC)",
+    "quote": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1387464354"
+  },
+  {
+    "id": "views:en:Gaza_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gaza war\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q122962941:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P585"
+  },
+  {
+    "id": "wd:Q122962941:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": began 7 October 2023",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P580"
+  },
+  {
+    "id": "wd:Q122962941:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": location Levant, Yemen",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P276"
+  },
+  {
+    "id": "wd:Q122962941:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": country Israel, Palestine",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P17"
+  }
+]

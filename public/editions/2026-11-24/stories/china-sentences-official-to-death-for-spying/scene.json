@@ -1,0 +1,854 @@
+{
+  "version": 1,
+  "id": "story-2026-11-24-china-sentences-official-to-death-for-spying",
+  "title": "China 'sentences official to death for spying'",
+  "subtitle": "World · 24 November 2026 · headline from Sky News",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-24T00:01:44Z"
+  },
+  "focus": "2026-11-24T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 96.34,
+    "south": 24.5,
+    "east": 116.34,
+    "north": 40.5
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-24T00:00:49Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-24T00:00:49Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-24T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-24T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": 144.34000000000003,
+      "lat": 18.224999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T00:00:04Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:10Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:16Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:20Z",
+      "lon": 106.34,
+      "lat": 24.5,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:27Z",
+      "lon": 106.34,
+      "lat": 24.5,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:34Z",
+      "lon": 106.34,
+      "lat": 24.5,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:38Z",
+      "lon": 109.8886,
+      "lat": 26.329,
+      "range": 4669123.909975618,
+      "heading": 154.12718690485124,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:43Z",
+      "lon": 109.8886,
+      "lat": 26.329,
+      "range": 4228071.5262515275,
+      "heading": 167.82718690485123,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:48Z",
+      "lon": 109.8886,
+      "lat": 26.329,
+      "range": 3828681.6061800066,
+      "heading": 181.52718690485125,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:51Z",
+      "lon": 110.37250873160832,
+      "lat": 26.933507543644314,
+      "range": 3214993.981297489,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:58Z",
+      "lon": 110.37250873160832,
+      "lat": 26.933507543644314,
+      "range": 2911300.8717442523,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:04Z",
+      "lon": 110.37250873160832,
+      "lat": 26.933507543644314,
+      "range": 2636295.0646639406,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:08Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:01:12Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 9236492.840900164,
+      "heading": 21.3,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:15Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 8363999.999999999,
+      "heading": 32.6,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:18Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:27Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:36Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:39Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:40Z",
+      "lon": 106.34,
+      "lat": 30.375,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:44Z",
+      "lon": 81.34000000000003,
+      "lat": 30.375,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T00:00:01Z",
+      "text": "Sky News reports that China has sentenced an official to death for spying.",
+      "cites": [
+        "news:sky:1fededbc1c5f"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:09Z",
+      "text": "The story is also reported by The Guardian and DW.",
+      "cites": [
+        "news:guardian:fd3c944f0667",
+        "news:dw:388878bff1dd"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:18Z",
+      "text": "Inflation in China was 0.1% in 2025, down from 2.4% in 2020.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:CN"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:26Z",
+      "text": "The economy grew 5.0% in 2025, and unemployment stood at 4.6%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:CN",
+        "wb:SL.UEM.TOTL.ZS:CN"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:36Z",
+      "text": "Across East Asia & Pacific, China's 0.1% inflation compares with a median of 2.1%, while Mongolia has the highest at 8.6%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:50Z",
+      "text": "On 17 November, Canada and China agreed to further tariff reductions after talks between Canadian prime minister Mark Carney and Chinese leader Xi Jinping before the APEC summit in Shenzhen.",
+      "cites": [
+        "wiki:2026-11-17:9"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:55Z",
+      "text": "On 23 November, Nvidia reinstated Jensen Huang as president and chief executive officer.",
+      "cites": [
+        "wiki:2026-11-23:5"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:00Z",
+      "text": "He had resigned less than two weeks earlier, following revelations of an affair with Alice Huang, who is suspected by U.S. intelligence of spying for China.",
+      "cites": [
+        "wiki:2026-11-23:5"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:06Z",
+      "text": "China, officially the People's Republic of China (PRC), is a country in East Asia.",
+      "cites": [
+        "wiki:rev:1386921412:0"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:17Z",
+      "text": "The Guardian headlined it: “China sentences official to death for spying for foreign country”.",
+      "cites": [
+        "news:guardian:fd3c944f0667"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:23Z",
+      "text": "DW headlined it: “Chinese official gets death sentence in spy case, report says”.",
+      "cites": [
+        "news:dw:388878bff1dd"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:29Z",
+      "text": "Sky News headlined it: “China 'sentences official to death for spying'”.",
+      "cites": [
+        "news:sky:1fededbc1c5f"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:38Z",
+      "text": "Sources: 3 outlets, Wikipedia articles, Wikimedia pageviews, Wikidata, and Wikipedia current events for 2026 November 17 and 2026 November 23; each caption links to its evidence.",
+      "cites": [
+        "wiki:rev:1386921412:0",
+        "views:en:China:30d",
+        "wd:Q148:P571",
+        "wiki:2026-11-17:9",
+        "wiki:2026-11-23:5"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CN",
+    "lon": 106.34,
+    "lat": 32.5,
+    "label": "China"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-24T00:00:17Z",
+      "title": "China in numbers"
+    },
+    {
+      "t": "2026-11-24T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-24T00:00:49Z",
+      "title": "The week in China"
+    },
+    {
+      "t": "2026-11-24T00:01:05Z",
+      "title": "About China"
+    },
+    {
+      "t": "2026-11-24T00:01:16Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-24T00:01:37Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-24T00:00:18Z",
+      "until": "2026-11-24T00:00:35Z",
+      "title": "Inflation, consumer prices, China",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "China",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 3.17532475269199
+            },
+            {
+              "x": "2011",
+              "y": 5.55389892257493
+            },
+            {
+              "x": "2012",
+              "y": 2.6195243264554
+            },
+            {
+              "x": "2013",
+              "y": 2.62105001748114
+            },
+            {
+              "x": "2014",
+              "y": 1.9216416278852
+            },
+            {
+              "x": "2015",
+              "y": 1.43702380935654
+            },
+            {
+              "x": "2016",
+              "y": 2.00000182191943
+            },
+            {
+              "x": "2017",
+              "y": 1.59313600071435
+            },
+            {
+              "x": "2018",
+              "y": 2.07479039965576
+            },
+            {
+              "x": "2019",
+              "y": 2.89923416358226
+            },
+            {
+              "x": "2020",
+              "y": 2.41942189457782
+            },
+            {
+              "x": "2021",
+              "y": 0.981015135544881
+            },
+            {
+              "x": "2022",
+              "y": 1.9735755573905
+            },
+            {
+              "x": "2023",
+              "y": 0.23483682889305
+            },
+            {
+              "x": "2024",
+              "y": 0.218128938439177
+            },
+            {
+              "x": "2025",
+              "y": 0.0595646916565402
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:CN"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-24T00:00:18Z",
+      "until": "2026-11-24T00:00:35Z",
+      "title": "GDP growth, China",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "China",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 10.5916903885704
+            },
+            {
+              "x": "2011",
+              "y": 9.46205248298186
+            },
+            {
+              "x": "2012",
+              "y": 7.8578201481217
+            },
+            {
+              "x": "2013",
+              "y": 7.77842954757257
+            },
+            {
+              "x": "2014",
+              "y": 7.46100735778161
+            },
+            {
+              "x": "2015",
+              "y": 6.98162255562367
+            },
+            {
+              "x": "2016",
+              "y": 6.7736886867727
+            },
+            {
+              "x": "2017",
+              "y": 6.89123916636191
+            },
+            {
+              "x": "2018",
+              "y": 6.757806142324
+            },
+            {
+              "x": "2019",
+              "y": 6.06737806333672
+            },
+            {
+              "x": "2020",
+              "y": 2.33950385203023
+            },
+            {
+              "x": "2021",
+              "y": 8.57038414981781
+            },
+            {
+              "x": "2022",
+              "y": 3.13385438394069
+            },
+            {
+              "x": "2023",
+              "y": 5.41600334492955
+            },
+            {
+              "x": "2024",
+              "y": 4.95830378788091
+            },
+            {
+              "x": "2025",
+              "y": 4.95994886240992
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:CN"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-24T00:00:18Z",
+      "until": "2026-11-24T00:00:35Z",
+      "title": "Unemployment, China",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "China",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.53
+            },
+            {
+              "x": "2011",
+              "y": 4.55
+            },
+            {
+              "x": "2012",
+              "y": 4.58
+            },
+            {
+              "x": "2013",
+              "y": 4.6
+            },
+            {
+              "x": "2014",
+              "y": 4.63
+            },
+            {
+              "x": "2015",
+              "y": 4.65
+            },
+            {
+              "x": "2016",
+              "y": 4.56
+            },
+            {
+              "x": "2017",
+              "y": 4.47
+            },
+            {
+              "x": "2018",
+              "y": 4.31
+            },
+            {
+              "x": "2019",
+              "y": 4.56
+            },
+            {
+              "x": "2020",
+              "y": 5
+            },
+            {
+              "x": "2021",
+              "y": 4.55
+            },
+            {
+              "x": "2022",
+              "y": 4.98
+            },
+            {
+              "x": "2023",
+              "y": 4.67
+            },
+            {
+              "x": "2024",
+              "y": 4.59
+            },
+            {
+              "x": "2025",
+              "y": 4.615
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:CN"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "region",
+      "t": "2026-11-24T00:00:36Z",
+      "until": "2026-11-24T00:00:49Z",
+      "title": "Inflation, East Asia & Pacific",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Mongolia",
+          "text": "8.6%",
+          "value": 8.60536487369694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MN"
+          ]
+        },
+        {
+          "label": "Laos",
+          "text": "7.7%",
+          "value": 7.74226936553694,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:LA"
+          ]
+        },
+        {
+          "label": "Papua New Guinea",
+          "text": "4.4%",
+          "value": 4.42141364166485,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:PG"
+          ]
+        },
+        {
+          "label": "Solomon Islands",
+          "text": "3.4%",
+          "value": 3.36462189317824,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:SB"
+          ]
+        },
+        {
+          "label": "Vietnam",
+          "text": "3.3%",
+          "value": 3.30999314219739,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:VN"
+          ]
+        },
+        {
+          "label": "Japan",
+          "text": "3.2%",
+          "value": 3.17253034260247,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:JP"
+          ]
+        },
+        {
+          "label": "Australia",
+          "text": "2.9%",
+          "value": 2.87403791660173,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:AU"
+          ]
+        },
+        {
+          "label": "New Zealand",
+          "text": "2.8%",
+          "value": 2.8397963180572,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:NZ"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 2.12309421458659,
+        "label": "median 2.1%"
+      }
+    },
+    {
+      "id": "thread",
+      "t": "2026-11-24T00:00:50Z",
+      "until": "2026-11-24T00:01:05Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "17 November",
+          "text": "Canada and China agree to further tariff reductions following talks between Canadian…",
+          "cites": [
+            "wiki:2026-11-17:9"
+          ]
+        },
+        {
+          "label": "23 November",
+          "text": "Nvidia reinstates Jensen Huang as president and chief executive officer less than two…",
+          "cites": [
+            "wiki:2026-11-23:5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-24T00:01:17Z",
+      "until": "2026-11-24T00:01:37Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/24/china-official-ma-death-sentence-spying-leaking-national-secrets",
+          "cites": [
+            "news:guardian:fd3c944f0667"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/chinese-official-gets-death-sentence-in-spy-case-report-says/a-80028393",
+          "cites": [
+            "news:dw:388878bff1dd"
+          ]
+        },
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/china-reportedly-sentences-official-to-death-for-leaking-state-secrets-13615962",
+          "cites": [
+            "news:sky:1fededbc1c5f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-24T00:01:38Z",
+      "until": "2026-11-24T00:01:44Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386921412:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:China:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q148:P571"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_17&oldid=1386555867",
+          "cites": [
+            "wiki:2026-11-17:9"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+          "cites": [
+            "wiki:2026-11-23:5"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:east-asia-pacific"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-25T01:31:26Z",
+    "costUsd": 0.002502
+  }
+}

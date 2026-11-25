@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "id": "story-2026-11-24-five-women-killed-every-hour-globally-by-partner-relative-la",
+  "title": "Five women killed every hour globally by partner, relative last year: UN",
+  "subtitle": "World · 24 November 2026 · headline from Al Jazeera",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-24T00:00:39Z"
+  },
+  "focus": "2026-11-24T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": 48,
+      "lat": 15,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T00:00:04Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:10Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 27890586.225463238,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:15Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 25255999.999999996,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:18Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 30799999.999999996,
+      "heading": -12,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:25Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 29542322.18360635,
+      "heading": -10,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:31Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 28335999.999999996,
+      "heading": -8,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:34Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 52800000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:35Z",
+      "lon": 10,
+      "lat": 25,
+      "range": 43296000,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:39Z",
+      "lon": -15,
+      "lat": 25,
+      "range": 129888000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T00:00:01Z",
+      "text": "Al Jazeera reports that five women were killed every hour globally by a partner or relative last year, according to the UN.",
+      "cites": [
+        "news:aljazeera:e563aada2edd"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:08Z",
+      "text": "DW also covered the story.",
+      "cites": [
+        "news:dw:891b4a94f505"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:17Z",
+      "text": "DW's headline read: “Five women killed every hour by family members or partners — UN report”.",
+      "cites": [
+        "news:dw:891b4a94f505"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:24Z",
+      "text": "Al Jazeera's headline read: “Five women killed every hour globally by partner, relative last year: UN”.",
+      "cites": [
+        "news:aljazeera:e563aada2edd"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:33Z",
+      "text": "The sources for this story are DW and Al Jazeera, and each caption links to the evidence it rests on.",
+      "cites": [
+        "news:dw:891b4a94f505",
+        "news:aljazeera:e563aada2edd"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-24T00:00:16Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-24T00:00:32Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-24T00:00:17Z",
+      "until": "2026-11-24T00:00:32Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/five-women-killed-every-hour-by-family-members-or-partners-un-report/a-80030010",
+          "cites": [
+            "news:dw:891b4a94f505"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/24/five-women-killed-every-hour-globally-by-partner-relative-in-2025-un",
+          "cites": [
+            "news:aljazeera:e563aada2edd"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-25T01:31:26Z",
+    "costUsd": 0.000478
+  }
+}

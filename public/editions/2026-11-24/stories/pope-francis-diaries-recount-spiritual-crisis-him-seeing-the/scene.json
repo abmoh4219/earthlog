@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "id": "story-2026-11-24-pope-francis-diaries-recount-spiritual-crisis-him-seeing-the",
+  "title": "Pope Francis",
+  "subtitle": "People · 24 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-24T00:01:34Z"
+  },
+  "focus": "2026-11-24T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-24T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-24T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": -20.466666666667038,
+      "lat": -21.1924999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T00:00:04Z",
+      "lon": -58.466666666667,
+      "lat": -35.320833333333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:14Z",
+      "lon": -58.466666666667,
+      "lat": -35.320833333333,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:23Z",
+      "lon": -58.466666666667,
+      "lat": -35.320833333333,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:26Z",
+      "lon": -58.466666666667,
+      "lat": -35.533333333333,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:29Z",
+      "lon": -58.466666666667,
+      "lat": -35.533333333333,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:31Z",
+      "lon": -58.466666666667,
+      "lat": -35.533333333333,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:36Z",
+      "lon": -33.97375072852982,
+      "lat": -9.982058999507359,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:39Z",
+      "lon": -33.97375072852982,
+      "lat": -9.982058999507359,
+      "range": 19921847.303902317,
+      "heading": 11.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:43Z",
+      "lon": -33.97375072852982,
+      "lat": -9.982058999507359,
+      "range": 18040000,
+      "heading": 23.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:45Z",
+      "lon": -33.97375072852982,
+      "lat": -9.982058999507359,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:51Z",
+      "lon": -33.97375072852982,
+      "lat": -9.982058999507359,
+      "range": 19921847.303902317,
+      "heading": -13.700000000000001,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:57Z",
+      "lon": -33.97375072852982,
+      "lat": -9.982058999507359,
+      "range": 18040000,
+      "heading": -27.400000000000002,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:59Z",
+      "lon": 12.453,
+      "lat": 41.004000000000005,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:01:01Z",
+      "lon": 12.453,
+      "lat": 41.004000000000005,
+      "range": 814984.6624323674,
+      "heading": -11.5,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:02Z",
+      "lon": 12.453,
+      "lat": 41.004000000000005,
+      "range": 738000,
+      "heading": -5,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:06Z",
+      "lon": -25.051251092368172,
+      "lat": 0.057287523268644946,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:01:08Z",
+      "lon": -25.051251092368172,
+      "lat": 0.057287523268644946,
+      "range": 19921847.303902317,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:11Z",
+      "lon": -25.051251092368172,
+      "lat": 0.057287523268644946,
+      "range": 18040000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:13Z",
+      "lon": -25.051251092368172,
+      "lat": 0.057287523268644946,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:20Z",
+      "lon": -25.051251092368172,
+      "lat": 0.057287523268644946,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:27Z",
+      "lon": -25.051251092368172,
+      "lat": 0.057287523268644946,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:30Z",
+      "lon": -58.466666666667,
+      "lat": -35.320833333333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:01:31Z",
+      "lon": -58.466666666667,
+      "lat": -35.320833333333,
+      "range": 2589840.149507301,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:32Z",
+      "lon": -58.466666666667,
+      "lat": -35.320833333333,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:34Z",
+      "lon": -83.46666666666704,
+      "lat": -35.320833333333,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T00:00:01Z",
+      "text": "Pope Francis's diaries reveal a spiritual crisis, including accounts of seeing the 'Devil', DW reports.",
+      "cites": [
+        "news:dw:d366e3ee18f0"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:08Z",
+      "text": "He set himself apart from other popes in upholding the Church's departure from the Tridentine Mass, which had been only loosely enforced by both predecessors whose reigns came after the Second Vatican Council reforms.",
+      "cites": [
+        "wiki:rev:1387631397:521"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:15Z",
+      "text": "Pope Francis, born Jorge Mario Bergoglio on 17 December 1936, was head of the Catholic Church and sovereign of Vatican City from his election in 2013 until his death on 21 April 2025.",
+      "cites": [
+        "wiki:rev:1387631397:0"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:25Z",
+      "text": "Pope Francis was born on 17 December 1936 in Flores, Buenos Aires.",
+      "cites": [
+        "wd:Q450675:P569",
+        "wd:Q450675:P19"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:33Z",
+      "text": "He was educated at several institutions, including the Facultades de Filosofía y Teología de San Miguel, the University of Buenos Aires, the Inmaculada Concepción Seminary and 2 more.",
+      "cites": [
+        "wd:Q450675:P69:Q16935366",
+        "wd:Q450675:P69:Q194223",
+        "wd:Q450675:P69:Q16911644",
+        "wd:Q450675:P69:Q16827357",
+        "wd:Q450675:P69:Q895645"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:38Z",
+      "text": "He worked in Buenos Aires, Rome and Vatican City.",
+      "cites": [
+        "wd:Q450675:P937:Q1486",
+        "wd:Q450675:P937:Q220",
+        "wd:Q450675:P937:Q237"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:44Z",
+      "text": "Wikidata lists 16 awards, among them Sexist Man Alive (2021) and Presidential Medal of Freedom (2025).",
+      "cites": [
+        "wd:Q450675:P166:Q207826",
+        "wd:Q450675:P166:Q15279719"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:50Z",
+      "text": "Wikidata also lists Ad charisma tuendum as a notable work.",
+      "cites": [
+        "wd:Q450675:P800:Q113374942"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:12Z",
+      "text": "BBC News headlined its report, \"Pope Francis' diary reveals claims he saw the devil three times.\"",
+      "cites": [
+        "news:bbc:65d520904cb1"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:19Z",
+      "text": "DW headlined its report, \"Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'.\"",
+      "cites": [
+        "news:dw:d366e3ee18f0"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:28Z",
+      "text": "This explainer draws on BBC News and DW reporting, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1387631397:521",
+        "views:en:Pope_Francis:30d",
+        "wd:Q450675:P569"
+      ]
+    }
+  ],
+  "time": "story",
+  "chapters": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-24T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-24T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-24T00:00:43Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-24T00:00:57Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-24T00:01:02Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-24T00:01:11Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-24T00:01:27Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-24T00:00:33Z",
+      "until": "2026-11-24T00:00:43Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1936 born",
+          "text": "Flores",
+          "cites": [
+            "wd:Q450675:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Facultades de Filosofía y Teología de San Miguel",
+          "cites": [
+            "wd:Q450675:P69:Q16935366"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "University of Buenos Aires",
+          "cites": [
+            "wd:Q450675:P69:Q194223"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Inmaculada Concepción Seminary",
+          "cites": [
+            "wd:Q450675:P69:Q16911644"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Colegio Máximo de San José",
+          "cites": [
+            "wd:Q450675:P69:Q16827357"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Sankt Georgen Graduate School of Philosophy and Theology",
+          "cites": [
+            "wd:Q450675:P69:Q895645"
+          ]
+        },
+        {
+          "label": "2013",
+          "text": "Buenos Aires",
+          "cites": [
+            "wd:Q450675:P937:Q1486"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Rome",
+          "cites": [
+            "wd:Q450675:P937:Q220"
+          ]
+        },
+        {
+          "label": "worked in",
+          "text": "Vatican City",
+          "cites": [
+            "wd:Q450675:P937:Q237"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "t": "2026-11-24T00:00:44Z",
+      "until": "2026-11-24T00:00:57Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "2013",
+          "text": "Time Person of the Year",
+          "cites": [
+            "wd:Q450675:P166:Q207826"
+          ]
+        },
+        {
+          "label": "2013",
+          "text": "Gold Olympic Order",
+          "cites": [
+            "wd:Q450675:P166:Q15279719"
+          ]
+        },
+        {
+          "label": "2015",
+          "text": "Grand Collar of the Order of the Andes' Condor",
+          "cites": [
+            "wd:Q450675:P166:Q25708325"
+          ]
+        },
+        {
+          "label": "2016",
+          "text": "Charlemagne Prize",
+          "cites": [
+            "wd:Q450675:P166:Q152337"
+          ]
+        },
+        {
+          "label": "2016",
+          "text": "Bambi Award",
+          "cites": [
+            "wd:Q450675:P166:Q630018"
+          ]
+        },
+        {
+          "label": "2019",
+          "text": "Zayed Award for Human Fraternity",
+          "cites": [
+            "wd:Q450675:P166:Q140165573"
+          ]
+        },
+        {
+          "label": "Known for",
+          "text": "Ad charisma tuendum",
+          "cites": [
+            "wd:Q450675:P800:Q113374942"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-24T00:01:12Z",
+      "until": "2026-11-24T00:01:27Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no",
+          "cites": [
+            "news:bbc:65d520904cb1"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/pope-francis-diaries-recount-spiritual-crisis-him-seeing-the-devil/a-80033224",
+          "cites": [
+            "news:dw:d366e3ee18f0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-24T00:01:28Z",
+      "until": "2026-11-24T00:01:34Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387631397:521"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Pope_Francis:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q450675:P569"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-25T01:31:26Z",
+    "costUsd": 0.003385
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "id": "story-2026-11-24-german-directors-doc-on-stolen-film-wins-international-emmy",
+  "title": "International Emmy Awards",
+  "subtitle": "Culture · 24 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-24T00:00:40Z"
+  },
+  "focus": "2026-11-24T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -0.3200000000000003,
+    "south": 42.96,
+    "east": 19.68,
+    "north": 58.96
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": 47.680000000000064,
+      "lat": 29.301,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T00:00:04Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:10Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:16Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:19Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 7480000.000000001,
+      "heading": 0,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:26Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 7174563.958875829,
+      "heading": 2,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:32Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 6881600.000000001,
+      "heading": 4,
+      "pitch": -56,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:35Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:36Z",
+      "lon": 9.68,
+      "lat": 48.835,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:40Z",
+      "lon": -15.319999999999936,
+      "lat": 48.835,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T00:00:01Z",
+      "text": "A German directors' documentary about stolen film has won an International Emmy Award, according to DW.",
+      "cites": [
+        "news:dw:80792ca0c998"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:09Z",
+      "text": "The International Emmy Awards, or International Emmys, are part of the wide range of Emmy Awards that recognize artistic and technical merit in television.",
+      "cites": [
+        "wiki:rev:1386193384:0"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:18Z",
+      "text": "Sky News ran the headline \"Sky News documentary wins International Emmy\".",
+      "cites": [
+        "news:sky:434c7ec8695a"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:25Z",
+      "text": "DW ran its own headline, \"German directors' doc on stolen film wins International Emmy Award\".",
+      "cites": [
+        "news:dw:80792ca0c998"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:34Z",
+      "text": "This explainer draws on reporting from Sky News and DW, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386193384:0",
+        "views:en:International_Emmy_Awards:30d",
+        "wd:Q10354837:P580"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "DE",
+    "lon": 9.68,
+    "lat": 50.96,
+    "label": "Germany"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-24T00:00:17Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-24T00:00:33Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-24T00:00:18Z",
+      "until": "2026-11-24T00:00:33Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/24-hours-in-the-kill-zone-sky-news-documentary-wins-international-emmy-13615753",
+          "cites": [
+            "news:sky:434c7ec8695a"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/german-directors-doc-on-stolen-film-wins-international-emmy-award/a-76103455",
+          "cites": [
+            "news:dw:80792ca0c998"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-24T00:00:34Z",
+      "until": "2026-11-24T00:00:40Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386193384:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:International_Emmy_Awards:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q10354837:P580"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-25T01:31:26Z",
+    "costUsd": 0.000529
+  }
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "news:guardian:f317b57513b3",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "The Guardian: Federal court clears way for army to detonate bomb-making chemicals in Iowa (02:25 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
+    "quote": "Federal court clears way for army to detonate bomb-making chemicals in Iowa",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:4ee62055c33a",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Al Jazeera: Five tonnes of explosives set to blow up in Iowa (17:33 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/five-tonnes-of-explosives-set-to-blow-up-in-iowa",
+    "quote": "Five tonnes of explosives set to blow up in Iowa",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387220461:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC)",
+    "quote": "IOWA is a 2005 American independent neo-noir film directed by, written by, and starring Matt Farnsworth.",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "views:en:IOWA:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"IOWA\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=IOWA&range=latest-30"
+  },
+  {
+    "id": "wd:Q16849664:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"IOWA\": released 2005",
+    "url": "https://www.wikidata.org/wiki/Q16849664#P577"
+  },
+  {
+    "id": "wd:Q16849664:P57",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"IOWA\": director Matt Farnsworth",
+    "url": "https://www.wikidata.org/wiki/Q16849664#P57"
+  },
+  {
+    "id": "wd:Q16849664:P136",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"IOWA\": genre independent film",
+    "url": "https://www.wikidata.org/wiki/Q16849664#P136"
+  },
+  {
+    "id": "wd:Q16849664:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"IOWA\": country of origin United States",
+    "url": "https://www.wikidata.org/wiki/Q16849664#P495"
+  },
+  {
+    "id": "wiki:box:1387220461:directed-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC): Directed by: Matt Farnsworth",
+    "quote": "Directed by: Matt Farnsworth",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "wiki:box:1387220461:starring",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC): Starring: Matt Farnsworth, Diane Foster, Rosanna Arquette, John Savage",
+    "quote": "Starring: Matt Farnsworth, Diane Foster, Rosanna Arquette, John Savage",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "wiki:box:1387220461:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC): Music: Elia Cmiral",
+    "quote": "Music: Elia Cmiral",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "wiki:box:1387220461:studio",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC): Studio: Full Fathom 5",
+    "quote": "Studio: Full Fathom 5",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "wiki:box:1387220461:released",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC): Released: 22 April 2005 (Tribeca Film Festival)",
+    "quote": "Released: 22 April 2005 (Tribeca Film Festival)",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "wiki:box:1387220461:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC): Runtime: 104 minutes",
+    "quote": "Runtime: 104 minutes",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "wiki:box:1387220461:language",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"IOWA\" (revision of 2026-11-23 02:00 UTC): Language: English",
+    "quote": "Language: English",
+    "url": "https://en.wikipedia.org/w/index.php?title=IOWA&oldid=1387220461"
+  },
+  {
+    "id": "wd:Q109232:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Rosanna Arquette\": place of birth New York City",
+    "url": "https://www.wikidata.org/wiki/Q109232#P19"
+  },
+  {
+    "id": "wd:Q1328897:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Elia Cmíral\": place of birth Zlín",
+    "url": "https://www.wikidata.org/wiki/Q1328897#P19"
+  },
+  {
+    "id": "wd:Q249865:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"John Savage\": place of birth Old Bethpage",
+    "url": "https://www.wikidata.org/wiki/Q249865#P19"
+  }
+]

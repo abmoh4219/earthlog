@@ -1,0 +1,812 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-25T01:30:47Z",
+  "candidates": 23,
+  "mostRead": false,
+  "stories": [
+    {
+      "slug": "ceo-jensen-huang-returns-to-nvidia-s-office",
+      "lens": "organization",
+      "title": "CEO Jensen Huang returns to Nvidia’s office",
+      "summary": "CEO Jensen Huang returns to Nvidia’s office",
+      "about": "Nvidia Corporation ( en-VID-ee-ə) is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial…",
+      "article": {
+        "title": "Nvidia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "qid": "Q182477"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 100,
+      "why": [
+        "Reported by 5 outlets from 2 regions",
+        "4 outlets within 3 hours",
+        "12 headlines over 16 hours"
+      ],
+      "topic": "tech",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "US adds Megaspeed to trade blacklist as Nvidia’s Huang returns as CEO",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list",
+          "t": "2026-11-24T00:52:47Z",
+          "evidence": "news:aljazeera:e4cdea36ea5e"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
+          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo",
+          "t": "2026-11-24T01:21:41Z",
+          "evidence": "news:bbc:b0b4c3a9109d"
+        },
+        {
+          "outlet": "guardian",
+          "title": "US adds Megaspeed, AI firm at center of Nvidia scandal, to trade blacklist",
+          "url": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia",
+          "t": "2026-11-24T01:47:15Z",
+          "evidence": "news:guardian:2ef56a355d6b"
+        },
+        {
+          "outlet": "france24",
+          "title": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington",
+          "url": "https://www.france24.com/en/video/20261124-jensen-huang-s-surprise-return-to-nvidia-sparks-mixed-reactions-in-washington",
+          "t": "2026-11-24T03:16:47Z",
+          "evidence": "news:france24:cf97921169e8"
+        },
+        {
+          "outlet": "dw",
+          "title": "Germany's Wadephul 'shocked' by Trump's Nvidia intervention",
+          "url": "https://www.dw.com/en/germany-s-wadephul-shocked-by-trump-s-nvidia-intervention/a-80033954",
+          "t": "2026-11-24T13:37:00Z",
+          "evidence": "news:dw:71b26658a53e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:e4cdea36ea5e",
+        "news:bbc:b0b4c3a9109d",
+        "news:guardian:2ef56a355d6b",
+        "news:france24:cf97921169e8",
+        "news:dw:71b26658a53e"
+      ],
+      "headline": "US adds Megaspeed to trade blacklist as Nvidia’s Huang returns as CEO, Al Jazeera reports."
+    },
+    {
+      "slug": "gaza-war",
+      "lens": "conflict",
+      "title": "Gaza war",
+      "summary": "Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip.",
+      "article": {
+        "title": "Gaza war",
+        "url": "https://en.wikipedia.org/wiki/Gaza_war",
+        "qid": "Q122962941"
+      },
+      "place": {
+        "name": "Gaza Strip",
+        "lon": 34.45,
+        "lat": 31.5,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-24:2"
+      },
+      "continent": "Asia",
+      "heat": 98,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events",
+        "People involved, per the headlines: six"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+          "t": "2026-11-24T13:07:03Z",
+          "evidence": "news:france24:d1ad5b170216"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "The photos from Gaza resonating with the people of Sarajevo",
+          "url": "https://www.aljazeera.com/features/2026/11/24/the-photographs-from-gaza-that-sarajevo-took-home",
+          "t": "2026-11-24T14:50:02Z",
+          "evidence": "news:aljazeera:0c077b0fb734"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o",
+          "t": "2026-11-24T15:35:53Z",
+          "evidence": "news:bbc:5b1c5c7e0cff"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-24:2",
+        "wd:Q122962941:P31",
+        "news:france24:d1ad5b170216",
+        "news:aljazeera:0c077b0fb734",
+        "news:bbc:5b1c5c7e0cff"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-19",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          },
+          {
+            "date": "2026-11-18",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          }
+        ]
+      },
+      "headline": "Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip."
+    },
+    {
+      "slug": "2025-africa-cup-of-nations",
+      "lens": "culture",
+      "title": "2025 Africa Cup of Nations",
+      "summary": "In association football, the Court of Arbitration for Sport rules in favor of Senegal against Morocco and reverses the Confederation of African Football's controversial decision to overturn Senegal's 1–0 victory in the 2025 Africa Cup of Nations final.",
+      "article": {
+        "title": "2025 Africa Cup of Nations",
+        "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+        "qid": "Q60515006"
+      },
+      "place": {
+        "name": "Confederation of African Football",
+        "lon": 30.96333333,
+        "lat": 29.99416667,
+        "country": "EG",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-24:11"
+      },
+      "continent": "Africa",
+      "heat": 86,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "Morocco 'astonished' at decision to restore Senegal as Africa Cup of Nations champions",
+          "url": "https://news.sky.com/story/senegal-awarded-africa-cup-of-nations-after-winning-appeal-over-title-being-stripped-13615900",
+          "t": "2026-11-24T08:06:00Z",
+          "evidence": "news:sky:cffcdf4bfb25"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco",
+          "url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco",
+          "t": "2026-11-24T14:35:56Z",
+          "evidence": "news:aljazeera:12816d6f81aa"
+        },
+        {
+          "outlet": "france24",
+          "title": "Senegal reinstated as 2025 Africa Cup of Nations winners",
+          "url": "https://www.france24.com/en/video/20261124-senegal-reinstated-as-2025-africa-cup-of-nations-winners",
+          "t": "2026-11-24T16:16:03Z",
+          "evidence": "news:france24:c447fcadc019"
+        },
+        {
+          "outlet": "dw",
+          "title": "CAS reinstates Senegal as 2025 AFCON champions",
+          "url": "https://www.dw.com/en/cas-reinstates-senegal-as-2025-afcon-champions/a-80021027",
+          "t": "2026-11-24T14:42:00Z",
+          "evidence": "news:dw:561a21777065"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-24:11",
+        "news:sky:cffcdf4bfb25",
+        "news:aljazeera:12816d6f81aa",
+        "news:france24:c447fcadc019",
+        "wd:Q60515006:P31",
+        "news:dw:561a21777065"
+      ],
+      "headline": "In association football, the Court of Arbitration for Sport rules in favor of Senegal against Morocco and reverses the Confederation of African Football's controversial decision to overturn Senegal's 1–0 victory in…"
+    },
+    {
+      "slug": "car-bomb-strikes-governor-s-office-in-meta-colombia",
+      "lens": "general",
+      "title": "Car bomb strikes governor’s office in Meta, Colombia",
+      "summary": "Car bomb strikes governor’s office in Meta, Colombia",
+      "about": "Meta most commonly refers to:",
+      "article": {
+        "title": "Meta",
+        "url": "https://en.wikipedia.org/wiki/Meta",
+        "qid": "Q225827"
+      },
+      "place": {
+        "name": "Colombia",
+        "lon": -73.17,
+        "lat": 3.37,
+        "country": "CO",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 57,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Car bomb strikes governor’s office in Meta, Colombia",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia",
+          "t": "2026-11-24T04:49:31Z",
+          "evidence": "news:aljazeera:e483b0308cf8"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Car bomb tears through Colombian city wounding more than 20",
+          "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do",
+          "t": "2026-11-24T11:45:52Z",
+          "evidence": "news:bbc:39dd47a9a8ec"
+        },
+        {
+          "outlet": "dw",
+          "title": "Colombia: Car bomb attack injures at least 23",
+          "url": "https://www.dw.com/en/colombia-car-bomb-attack-injures-at-least-23/a-80033956",
+          "t": "2026-11-24T14:20:00Z",
+          "evidence": "news:dw:057490e4a70f"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:e483b0308cf8",
+        "news:bbc:39dd47a9a8ec",
+        "news:dw:057490e4a70f"
+      ],
+      "headline": "Car bomb strikes governor’s office in Meta, Colombia, Al Jazeera reports."
+    },
+    {
+      "slug": "five-women-killed-every-hour-globally-by-partner-relative-la",
+      "lens": "general",
+      "title": "Five women killed every hour globally by partner, relative last year: UN",
+      "summary": "Five women killed every hour globally by partner, relative last year: UN",
+      "heat": 51,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "People involved, per the headlines: five"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Five women killed every hour by family members or partners — UN report",
+          "url": "https://www.dw.com/en/five-women-killed-every-hour-by-family-members-or-partners-un-report/a-80030010",
+          "t": "2026-11-24T11:03:00Z",
+          "evidence": "news:dw:891b4a94f505"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Five women killed every hour globally by partner, relative last year: UN",
+          "url": "https://www.aljazeera.com/news/2026/11/24/five-women-killed-every-hour-globally-by-partner-relative-in-2025-un",
+          "t": "2026-11-24T15:55:36Z",
+          "evidence": "news:aljazeera:e563aada2edd"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:891b4a94f505",
+        "news:aljazeera:e563aada2edd"
+      ],
+      "headline": "Five women killed every hour globally by partner, relative last year: UN, Al Jazeera reports."
+    },
+    {
+      "slug": "us-army-to-detonate-tonnes-of-unstable-explosives-in-iowa-de",
+      "lens": "culture",
+      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+      "summary": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+      "about": "IOWA is a 2005 American independent neo-noir film directed by, written by, and starring Matt Farnsworth. The film follows two young Iowan lovers who decide to cook their own methamphetamine.",
+      "article": {
+        "title": "IOWA",
+        "url": "https://en.wikipedia.org/wiki/IOWA",
+        "qid": "Q16849664"
+      },
+      "place": {
+        "name": "Iowa",
+        "lon": -94,
+        "lat": 42,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 51,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Federal court clears way for army to detonate bomb-making chemicals in Iowa",
+          "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
+          "t": "2026-11-24T02:25:49Z",
+          "evidence": "news:guardian:f317b57513b3"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Five tonnes of explosives set to blow up in Iowa",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/five-tonnes-of-explosives-set-to-blow-up-in-iowa",
+          "t": "2026-11-24T17:33:41Z",
+          "evidence": "news:aljazeera:4ee62055c33a"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:f317b57513b3",
+        "news:aljazeera:4ee62055c33a"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-23",
+            "slug": "us-army-to-detonate-tonnes-of-unstable-explosives-in-iowa-de",
+            "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order"
+          }
+        ]
+      },
+      "headline": "Federal court clears way for army to detonate bomb-making chemicals in Iowa, The Guardian reports."
+    },
+    {
+      "slug": "zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships",
+      "lens": "conflict",
+      "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+      "summary": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+      "place": {
+        "name": "Kyiv",
+        "lon": 30.51,
+        "lat": 50.44,
+        "country": "UA",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 51,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
+          "url": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters",
+          "t": "2026-11-24T05:50:16Z",
+          "evidence": "news:france24:e55baa58ddf4"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "After Libya, where will Ukraine strike Russia next?",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/after-libya-where-will-ukraine-strike-russia-next",
+          "t": "2026-11-24T17:05:45Z",
+          "evidence": "news:aljazeera:410f24ca4d1e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:e55baa58ddf4",
+        "news:aljazeera:410f24ca4d1e"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-23",
+            "slug": "zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships",
+            "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya"
+          }
+        ]
+      },
+      "headline": "Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters, France 24 reports."
+    },
+    {
+      "slug": "china-sentences-official-to-death-for-spying",
+      "lens": "general",
+      "title": "China 'sentences official to death for spying'",
+      "summary": "China 'sentences official to death for spying'",
+      "place": {
+        "name": "China",
+        "lon": 106.34,
+        "lat": 32.5,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 48,
+      "why": [
+        "Reported by 3 outlets"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "China sentences official to death for spying for foreign country",
+          "url": "https://www.theguardian.com/world/2026/nov/24/china-official-ma-death-sentence-spying-leaking-national-secrets",
+          "t": "2026-11-24T02:37:36Z",
+          "evidence": "news:guardian:fd3c944f0667"
+        },
+        {
+          "outlet": "dw",
+          "title": "Chinese official gets death sentence in spy case, report says",
+          "url": "https://www.dw.com/en/chinese-official-gets-death-sentence-in-spy-case-report-says/a-80028393",
+          "t": "2026-11-24T08:41:00Z",
+          "evidence": "news:dw:388878bff1dd"
+        },
+        {
+          "outlet": "sky",
+          "title": "China 'sentences official to death for spying'",
+          "url": "https://news.sky.com/story/china-reportedly-sentences-official-to-death-for-leaking-state-secrets-13615962",
+          "t": "2026-11-24T12:22:00Z",
+          "evidence": "news:sky:1fededbc1c5f"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:fd3c944f0667",
+        "news:dw:388878bff1dd",
+        "news:sky:1fededbc1c5f"
+      ],
+      "headline": "China 'sentences official to death for spying', Sky News reports."
+    },
+    {
+      "slug": "german-directors-doc-on-stolen-film-wins-international-emmy",
+      "lens": "culture",
+      "title": "German directors' doc on stolen film wins International Emmy Award",
+      "summary": "German directors' doc on stolen film wins International Emmy Award",
+      "about": "The International Emmy Awards, or International Emmys, are part of the extensive range of Emmy Awards for artistic and technical merit for the television industry. Bestowed by the New York–based International Academy of Television Arts and Sciences (IATAS), the International Emmys are presented in recognition to the…",
+      "article": {
+        "title": "International Emmy Awards",
+        "url": "https://en.wikipedia.org/wiki/International_Emmy_Awards",
+        "qid": "Q10354837"
+      },
+      "place": {
+        "name": "Germany",
+        "lon": 9.68,
+        "lat": 50.96,
+        "country": "DE",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 38,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "culture",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "Sky News documentary wins International Emmy",
+          "url": "https://news.sky.com/story/24-hours-in-the-kill-zone-sky-news-documentary-wins-international-emmy-13615753",
+          "t": "2026-11-24T02:06:00Z",
+          "evidence": "news:sky:434c7ec8695a"
+        },
+        {
+          "outlet": "dw",
+          "title": "German directors' doc on stolen film wins International Emmy Award",
+          "url": "https://www.dw.com/en/german-directors-doc-on-stolen-film-wins-international-emmy-award/a-76103455",
+          "t": "2026-11-24T09:41:00Z",
+          "evidence": "news:dw:80792ca0c998"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:sky:434c7ec8695a",
+        "news:dw:80792ca0c998"
+      ],
+      "headline": "German directors' doc on stolen film wins International Emmy Award, DW reports."
+    },
+    {
+      "slug": "mexican-soldiers-attacked-in-wake-of-drug-lord-s-arrest",
+      "lens": "conflict",
+      "title": "Mexican soldiers attacked in wake of drug lord's arrest",
+      "summary": "Mexican soldiers attacked in wake of drug lord's arrest",
+      "place": {
+        "name": "Mexico",
+        "lon": -102.29,
+        "lat": 23.92,
+        "country": "MX",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 37,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "US flew surveillance drone over Mexico to help capture top drug lord",
+          "url": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord",
+          "t": "2026-11-24T02:09:11Z",
+          "evidence": "news:france24:342d551a758c"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Watch: Moment troops raid home and capture Mexican drug lord",
+          "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo",
+          "t": "2026-11-24T09:09:41Z",
+          "evidence": "news:bbc:92cb9bb228d5"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:342d551a758c",
+        "news:bbc:92cb9bb228d5"
+      ],
+      "headline": "US flew surveillance drone over Mexico to help capture top drug lord, France 24 reports."
+    },
+    {
+      "slug": "pope-francis-diaries-recount-spiritual-crisis-him-seeing-the",
+      "lens": "person",
+      "title": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
+      "summary": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
+      "about": "Pope Francis (born Jorge Mario Bergoglio; 17 December 1936 – 21 April 2025) was the head of the Catholic Church and sovereign of Vatican City from his election in 2013 until his death in 2025. He was the first Jesuit pope, the first Latin American, and the first pope born or raised outside Europe since the…",
+      "article": {
+        "title": "Pope Francis",
+        "url": "https://en.wikipedia.org/wiki/Pope_Francis",
+        "qid": "Q450675"
+      },
+      "heat": 35,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "world",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Pope Francis' diary reveals claims he saw the devil three times",
+          "url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no",
+          "t": "2026-11-24T11:10:57Z",
+          "evidence": "news:bbc:65d520904cb1"
+        },
+        {
+          "outlet": "dw",
+          "title": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
+          "url": "https://www.dw.com/en/pope-francis-diaries-recount-spiritual-crisis-him-seeing-the-devil/a-80033224",
+          "t": "2026-11-24T15:21:00Z",
+          "evidence": "news:dw:d366e3ee18f0"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:65d520904cb1",
+        "news:dw:d366e3ee18f0"
+      ],
+      "headline": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil', DW reports."
+    },
+    {
+      "slug": "eu-to-impose-cap-on-chinese-hybrid-ev-imports-next-month",
+      "lens": "economy",
+      "title": "EU to impose cap on Chinese hybrid EV imports next month",
+      "summary": "EU to impose cap on Chinese hybrid EV imports next month",
+      "place": {
+        "name": "China",
+        "lon": 106.34,
+        "lat": 32.5,
+        "country": "CN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 32,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "business",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "EU imposes import quotas for hybrid vehicles from China",
+          "url": "https://www.dw.com/en/eu-imposes-import-quotas-for-hybrid-vehicles-from-china/a-80029981",
+          "t": "2026-11-24T10:42:00Z",
+          "evidence": "news:dw:7d148967ab4c"
+        },
+        {
+          "outlet": "guardian",
+          "title": "EU to impose cap on Chinese hybrid EV imports next month",
+          "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
+          "t": "2026-11-24T10:59:40Z",
+          "evidence": "news:guardian:780443208f48"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:7d148967ab4c",
+        "news:guardian:780443208f48"
+      ],
+      "headline": "EU to impose cap on Chinese hybrid EV imports next month, The Guardian reports."
+    },
+    {
+      "slug": "french-ex-president-sarkozy-and-wife-carla-bruni-to-face-tri",
+      "lens": "person",
+      "title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
+      "summary": "French ex-President Sarkozy and wife Carla Bruni to face trial",
+      "about": "Carla Bruni-Sarközy de Nagy-Bocsa is an Italian and French singer, songwriter and fashion model who served as the first lady of France from 2008—when she married then president Nicolas Sarkozy—to 2012. She was born in Italy and moved to France at the age of seven.",
+      "article": {
+        "title": "Carla Bruni",
+        "url": "https://en.wikipedia.org/wiki/Carla_Bruni",
+        "qid": "Q143945"
+      },
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 32,
+      "why": [
+        "Reported by 2 outlets"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "France's ex-president Nicolas Sarkozy, wife Carla Bruni to stand trial for alleged witness tampering",
+          "url": "https://www.france24.com/en/france/20261124-france-ex-president-nicolas-sarkozy-wife-carla-stand-trial-over-alleged-witness-tampering",
+          "t": "2026-11-24T16:33:12Z",
+          "evidence": "news:france24:4f80118e1b6b"
+        },
+        {
+          "outlet": "bbc",
+          "title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
+          "url": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o",
+          "t": "2026-11-24T16:49:07Z",
+          "evidence": "news:bbc:ce9a1668bd40"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:4f80118e1b6b",
+        "news:bbc:ce9a1668bd40"
+      ],
+      "headline": "French ex-President Sarkozy and wife Carla Bruni to face trial, BBC News reports."
+    },
+    {
+      "slug": "police-fire-tear-gas-and-stun-grenades-to-disperse-protestin",
+      "lens": "economy",
+      "title": "Police fire tear gas and stun grenades to disperse protesting garment workers…",
+      "summary": "Police fire tear gas and stun grenades to disperse protesting garment workers across Gazipur, Savar, and Ashulia, Bangladesh, as production halts at 481 factories amid minimum wage disputes.",
+      "article": {
+        "title": "2026 Bangladesh garment workers protests",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+        "qid": "Q142084937"
+      },
+      "place": {
+        "name": "Gazipur District",
+        "lon": 90.43,
+        "lat": 24,
+        "country": "BD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-24:3"
+      },
+      "continent": "Asia",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-24:3",
+        "wd:Q142084937:P31"
+      ],
+      "update": {
+        "day": 8,
+        "previous": [
+          {
+            "date": "2026-11-22",
+            "slug": "several-garment-factories-in-gazipur",
+            "title": "Several garment factories in Gazipur"
+          },
+          {
+            "date": "2026-11-19",
+            "slug": "across-bangladesh",
+            "title": "Across Bangladesh"
+          },
+          {
+            "date": "2026-11-17",
+            "slug": "bangladeshi-police-and-42-platoons-of-the-border-guard-bangl",
+            "title": "Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear…"
+          }
+        ]
+      },
+      "headline": "Police fire tear gas and stun grenades to disperse protesting garment workers across Gazipur, Savar, and Ashulia, Bangladesh, as production halts at 481 factories amid minimum wage disputes."
+    },
+    {
+      "slug": "thirteen-people-are-killed-and-fourteen-others-are-injured-w",
+      "lens": "accident",
+      "title": "Thirteen people are killed and fourteen others are injured when a bus collides…",
+      "summary": "Thirteen people are killed and fourteen others are injured when a bus collides with a stationary truck in Ras Al Khaimah, United Arab Emirates.",
+      "place": {
+        "name": "Ras Al Khaimah",
+        "lon": 55.94305556,
+        "lat": 25.78861111,
+        "country": "AE",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-24:4"
+      },
+      "continent": "Asia",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-24:4"
+      ],
+      "headline": "Thirteen people are killed and fourteen others are injured when a bus collides with a stationary truck in Ras Al Khaimah, United Arab Emirates."
+    },
+    {
+      "slug": "2026-united-kingdom-heatwaves",
+      "lens": "disaster",
+      "title": "2026 United Kingdom heatwaves",
+      "summary": "The UK Health Security Agency says it recorded the highest number of heat-related deaths in the United Kingdom on record in 2026 at 5,258, surpassing the previous record in 2022.",
+      "article": {
+        "title": "2026 United Kingdom heatwaves",
+        "url": "https://en.wikipedia.org/wiki/2026_United_Kingdom_heatwaves",
+        "qid": "Q140157671"
+      },
+      "place": {
+        "name": "United Kingdom",
+        "lon": -2.12,
+        "lat": 54.4,
+        "country": "GB",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-24:7"
+      },
+      "continent": "Europe",
+      "heat": 22,
+      "why": [
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-24:7",
+        "wd:Q140157671:P31"
+      ],
+      "headline": "The UK Health Security Agency says it recorded the highest number of heat-related deaths in the United Kingdom on record in 2026 at 5,258, surpassing the previous record in 2022."
+    }
+  ]
+}

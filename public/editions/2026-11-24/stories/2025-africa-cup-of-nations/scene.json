@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "id": "story-2026-11-24-2025-africa-cup-of-nations",
+  "title": "2025 Africa Cup of Nations",
+  "subtitle": "Culture · 24 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-24T00:01:00Z"
+  },
+  "focus": "2026-11-24T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 20.96333333,
+    "south": 21.99416667,
+    "east": 40.96333333,
+    "north": 37.99416667
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": 68.96333333000007,
+      "lat": 17.584000002,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T00:00:04Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:14Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:23Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:26Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:29Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:31Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:34Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:43Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:52Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:55Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:56Z",
+      "lon": 30.96333333,
+      "lat": 29.30666667,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:00Z",
+      "lon": 5.963333330000069,
+      "lat": 29.30666667,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T00:00:01Z",
+      "text": "According to the Court of Arbitration for Sport, Senegal's 1–0 victory in the 2025 Africa Cup of Nations final was restored, reversing the Confederation of African Football's decision to overturn it.",
+      "cites": [
+        "wiki:2026-11-24:11"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:08Z",
+      "text": "On 24 November 2026, the Court of Arbitration for Sport ruled in favour of Senegal after their appeal, reinstating them as the winners of the tournament.",
+      "cites": [
+        "wiki:rev:1387635276:6"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:15Z",
+      "text": "The 2025 Africa Cup of Nations was the 35th edition of the tournament, a biennial football competition between the men's national teams of the Confederation of African Football.",
+      "cites": [
+        "wiki:rev:1387635276:0"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:25Z",
+      "text": "The story was reported by AP and The Guardian.",
+      "cites": [
+        "wiki:2026-11-24:11"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:33Z",
+      "text": "Sky News headlined the story, “Morocco 'astonished' at decision to restore Senegal as Africa Cup of Nations champions.”",
+      "cites": [
+        "news:sky:cffcdf4bfb25"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:39Z",
+      "text": "Al Jazeera headlined it, “Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco.”",
+      "cites": [
+        "news:aljazeera:12816d6f81aa"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:45Z",
+      "text": "France 24 headlined it more briefly, “Senegal reinstated as 2025 Africa Cup of Nations winners.”",
+      "cites": [
+        "news:france24:c447fcadc019"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:54Z",
+      "text": "The sources for this explainer are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-24:11",
+        "wiki:rev:1387635276:6",
+        "views:en:2025_Africa_Cup_of_Nations:30d",
+        "wd:Q60515006:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "EG",
+    "lon": 30.96333333,
+    "lat": 29.99416667,
+    "label": "Confederation of African Football"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-24T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-24T00:00:32Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-24T00:00:53Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-24T00:00:25Z",
+      "until": "2026-11-24T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/africa-cup-final-afcon-senegal-morocco-cas-d3804e3923ec1b7e5ca846806e8d6040",
+          "cites": [
+            "wiki:2026-11-24:11"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/football/2026/nov/24/afcon-verdict-senegal-morocco-africa-cup-of-nations-champions-court-ruling-cas",
+          "cites": [
+            "wiki:2026-11-24:11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-24T00:00:33Z",
+      "until": "2026-11-24T00:00:53Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/senegal-awarded-africa-cup-of-nations-after-winning-appeal-over-title-being-stripped-13615900",
+          "cites": [
+            "news:sky:cffcdf4bfb25"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco",
+          "cites": [
+            "news:aljazeera:12816d6f81aa"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261124-senegal-reinstated-as-2025-africa-cup-of-nations-winners",
+          "cites": [
+            "news:france24:c447fcadc019"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/cas-reinstates-senegal-as-2025-afcon-champions/a-80021027",
+          "cites": [
+            "news:dw:561a21777065"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-24T00:00:54Z",
+      "until": "2026-11-24T00:01:00Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-24:11"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387635276:6"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2025_Africa_Cup_of_Nations:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q60515006:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-25T01:31:26Z",
+    "costUsd": 0.000825
+  }
+}

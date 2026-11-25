@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "daily-2026-11-24",
+  "title": "The world on 24 November 2026",
+  "subtitle": "One day on Earth: the news, the quakes, the storms and the outages",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-25T00:00:00Z"
+  },
+  "focus": "2026-11-24T11:06:14Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -180,
+    "south": -60,
+    "east": 180,
+    "north": 75
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "news",
+      "file": "data/news.json"
+    },
+    {
+      "kind": "quakes",
+      "file": "data/quakes.json"
+    },
+    {
+      "kind": "outages",
+      "file": "data/outages.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": 65.6995,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T11:06:14Z",
+      "lon": 65.6995,
+      "lat": -18.584899999999998,
+      "range": 2200000,
+      "pitch": -58,
+      "heading": 0
+    },
+    {
+      "t": "2026-11-24T18:11:48Z",
+      "lon": 65.6995,
+      "lat": -18.584899999999998,
+      "range": 2376000,
+      "pitch": -58,
+      "heading": 8
+    },
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": 65.6995,
+      "lat": 15,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -90
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1800
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T11:06:14Z",
+      "text": "11:06 UTC. The day's strongest earthquake: magnitude 6.4, 10 km deep, Mauritius - Reunion region.",
+      "cites": [
+        "usgs:us6000ud6h"
+      ]
+    }
+  ],
+  "time": "real",
+  "chapters": [],
+  "panels": [],
+  "generatedBy": {
+    "method": "template",
+    "at": "2026-11-25T01:34:47Z"
+  }
+}

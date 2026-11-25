@@ -1,0 +1,255 @@
+[
+  {
+    "id": "news:aljazeera:e4cdea36ea5e",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Al Jazeera: US adds Megaspeed to trade blacklist as Nvidia’s Huang returns as CEO (00:52 UTC)",
+    "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list",
+    "quote": "US adds Megaspeed to trade blacklist as Nvidia’s Huang returns as CEO",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:b0b4c3a9109d",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "BBC News: Cheers and applause as Jensen Huang returns to Nvidia office (01:21 UTC)",
+    "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo",
+    "quote": "Cheers and applause as Jensen Huang returns to Nvidia office",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:2ef56a355d6b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "The Guardian: US adds Megaspeed, AI firm at center of Nvidia scandal, to trade blacklist (01:47 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia",
+    "quote": "US adds Megaspeed, AI firm at center of Nvidia scandal, to trade blacklist",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:cf97921169e8",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "France 24: Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington (03:16 UTC)",
+    "url": "https://www.france24.com/en/video/20261124-jensen-huang-s-surprise-return-to-nvidia-sparks-mixed-reactions-in-washington",
+    "quote": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:71b26658a53e",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "DW: Germany's Wadephul 'shocked' by Trump's Nvidia intervention (13:37 UTC)",
+    "url": "https://www.dw.com/en/germany-s-wadephul-shocked-by-trump-s-nvidia-intervention/a-80033954",
+    "quote": "Germany's Wadephul 'shocked' by Trump's Nvidia intervention",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387598735:94",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Nvidia\" (revision of 2026-11-24 19:18 UTC)",
+    "quote": "Huang was reinstated by the Board of Directors as CEO and president on November 23, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nvidia&oldid=1387598735"
+  },
+  {
+    "id": "wiki:rev:1387598735:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Nvidia\" (revision of 2026-11-24 19:18 UTC)",
+    "quote": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nvidia&oldid=1387598735"
+  },
+  {
+    "id": "views:en:Nvidia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Nvidia\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Nvidia&range=latest-30"
+  },
+  {
+    "id": "wd:Q182477:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": founded 5 April 1993",
+    "url": "https://www.wikidata.org/wiki/Q182477#P571"
+  },
+  {
+    "id": "wd:Q182477:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": headquarters Santa Clara",
+    "url": "https://www.wikidata.org/wiki/Q182477#P159"
+  },
+  {
+    "id": "wd:Q182477:P452",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": industry semiconductor industry",
+    "url": "https://www.wikidata.org/wiki/Q182477#P452"
+  },
+  {
+    "id": "wd:Q182477:P1128",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": employees 11,528",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1128"
+  },
+  {
+    "id": "wd:Q182477:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q182477#P17"
+  },
+  {
+    "id": "hn:2026-11-24:Q182477",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 220 stories with \"Nvidia\" in the title in the 14 days to 24 November 2026",
+    "value": 220,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=Nvidia&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q182477:P112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": founded by: Jensen Huang, Chris Malachowsky and Curtis Priem",
+    "url": "https://www.wikidata.org/wiki/Q182477#P112"
+  },
+  {
+    "id": "wd:Q182477:P169",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": chief executive: Jensen Huang",
+    "url": "https://www.wikidata.org/wiki/Q182477#P169"
+  },
+  {
+    "id": "wd:Q182477:P127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": owned by: Jensen Huang",
+    "url": "https://www.wikidata.org/wiki/Q182477#P127"
+  },
+  {
+    "id": "wd:Q182477:P414",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": listed on: Nasdaq",
+    "url": "https://www.wikidata.org/wiki/Q182477#P414"
+  },
+  {
+    "id": "wd:Q182477:P1128:latest",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": employees: 42,000 (2026)",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1128"
+  },
+  {
+    "id": "wd:Q182477:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": official website https://www.nvidia.com/",
+    "url": "https://www.wikidata.org/wiki/Q182477#P856"
+  },
+  {
+    "id": "wd:Q182477:P2139:series",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": revenue 2007: $4.1 billion; 2008: $3.4 billion; 2009: $3.3 billion; 2010: $3.5 billion; 2011: $4 billion; 2012: $4.3 billion; 2013: $4.1 billion; 2014: $4.7 billion; 2015: $5 billion; 2016: $6.9 billion; 2017: $9.7 billion; 2018: $11.7 billion; 2019: $10.9 billion; 2020: $16.7 billion; 2021: $26.9 billion; 2022: $27 billion; 2023: $60.9 billion; 2024: $130.5 billion; 2025: $215.9 billion",
+    "url": "https://www.wikidata.org/wiki/Q182477#P2139"
+  },
+  {
+    "id": "wd:Q182477:P1128:series",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": employees 2018: 11,528; 2020: 13,775; 2025: 36,000; 2026: 42,000",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1128"
+  },
+  {
+    "id": "wd:Q182477:P355:Q29000344",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Nvidia Ltd.",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P355:Q5985959",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Icera",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P355:Q6817432",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Mental Images",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P355:Q6813052",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": subsidiary Mellanox Technologies",
+    "url": "https://www.wikidata.org/wiki/Q182477#P355"
+  },
+  {
+    "id": "wd:Q182477:P1830:Q392357",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Nvidia\": owns Ageia",
+    "url": "https://www.wikidata.org/wiki/Q182477#P1830"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "news:aljazeera:e483b0308cf8",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Al Jazeera: Car bomb strikes governor’s office in Meta, Colombia (04:49 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia",
+    "quote": "Car bomb strikes governor’s office in Meta, Colombia",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:39dd47a9a8ec",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "BBC News: Car bomb tears through Colombian city wounding more than 20 (11:45 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do",
+    "quote": "Car bomb tears through Colombian city wounding more than 20",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:057490e4a70f",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "DW: Colombia: Car bomb attack injures at least 23 (14:20 UTC)",
+    "url": "https://www.dw.com/en/colombia-car-bomb-attack-injures-at-least-23/a-80033956",
+    "quote": "Colombia: Car bomb attack injures at least 23",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Meta:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Meta\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Meta&range=latest-30"
+  }
+]

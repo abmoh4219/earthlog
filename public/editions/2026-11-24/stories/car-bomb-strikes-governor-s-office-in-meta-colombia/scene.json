@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "id": "story-2026-11-24-car-bomb-strikes-governor-s-office-in-meta-colombia",
+  "title": "Meta",
+  "subtitle": "News · 24 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-24T00:00:46Z"
+  },
+  "focus": "2026-11-24T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -83.17,
+    "south": -4.63,
+    "east": -63.17,
+    "north": 11.370000000000001
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-24T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-24T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": -35.170000000000016,
+      "lat": 0.747,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T00:00:04Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:07Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 6773428.083326788,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:09Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 6133600,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:12Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:15Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:17Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:20Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 3400000,
+      "heading": 0,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:29Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 3261165.435852649,
+      "heading": 2,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:38Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 3128000,
+      "heading": 4,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:41Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:42Z",
+      "lon": -73.17,
+      "lat": 1.245,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:46Z",
+      "lon": -98.17000000000002,
+      "lat": 1.245,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T00:00:01Z",
+      "text": "A car bomb struck the governor's office in Meta, Colombia, according to Al Jazeera.",
+      "cites": [
+        "news:aljazeera:e483b0308cf8"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:19Z",
+      "text": "Al Jazeera's headline read: “Car bomb strikes governor’s office in Meta, Colombia.”",
+      "cites": [
+        "news:aljazeera:e483b0308cf8"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:25Z",
+      "text": "BBC News headlined the story: “Car bomb tears through Colombian city wounding more than 20.”",
+      "cites": [
+        "news:bbc:39dd47a9a8ec"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:31Z",
+      "text": "DW's headline put it this way: “Colombia: Car bomb attack injures at least 23.”",
+      "cites": [
+        "news:dw:057490e4a70f"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:40Z",
+      "text": "This explainer draws on Al Jazeera, BBC News and DW, along with Wikimedia pageview data. Each caption links to the evidence it rests on.",
+      "cites": [
+        "views:en:Meta:30d"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "CO",
+    "lon": -73.17,
+    "lat": 3.37,
+    "label": "Colombia"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-24T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-24T00:00:18Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-24T00:00:39Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-24T00:00:19Z",
+      "until": "2026-11-24T00:00:39Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia",
+          "cites": [
+            "news:aljazeera:e483b0308cf8"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do",
+          "cites": [
+            "news:bbc:39dd47a9a8ec"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/colombia-car-bomb-attack-injures-at-least-23/a-80033956",
+          "cites": [
+            "news:dw:057490e4a70f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-24T00:00:40Z",
+      "until": "2026-11-24T00:00:46Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Meta:30d"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-25T01:31:26Z",
+    "costUsd": 0.001438
+  }
+}

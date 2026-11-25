@@ -1,0 +1,76 @@
+[
+  {
+    "id": "wiki:2026-11-24:7",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-24T00:00:00Z",
+    "lon": -2.12,
+    "lat": 54.4,
+    "label": "Health & environment: The UK Health Security Agency says it recorded the highest number of heat-related deaths in the United Kingdom on record in 2026 at 5,258, surpassing the previous record in 2022.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401",
+    "quote": "The UK Health Security Agency says it recorded the highest number of heat-related deaths in the United Kingdom on record in 2026 at 5,258, surpassing the previous record in 2022.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/environment/uk-records-highest-number-heat-related-deaths-2026-2026-11-24/"
+      }
+    ]
+  },
+  {
+    "id": "wd:Q140157671:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Wikidata: \"2026 United Kingdom heatwaves\" is an instance of heat wave",
+    "url": "https://www.wikidata.org/wiki/Q140157671",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387581085:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 United Kingdom heatwaves\" (revision of 2026-11-24 17:25 UTC)",
+    "quote": "During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_United_Kingdom_heatwaves&oldid=1387581085"
+  },
+  {
+    "id": "views:en:2026_United_Kingdom_heatwaves:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 United Kingdom heatwaves\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_United_Kingdom_heatwaves&range=latest-30"
+  },
+  {
+    "id": "wd:Q140157671:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United Kingdom heatwaves\": date 2026",
+    "url": "https://www.wikidata.org/wiki/Q140157671#P585"
+  },
+  {
+    "id": "wd:Q140157671:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United Kingdom heatwaves\": began 22 May 2026",
+    "url": "https://www.wikidata.org/wiki/Q140157671#P580"
+  },
+  {
+    "id": "wd:Q140157671:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 United Kingdom heatwaves\": country United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q140157671#P17"
+  }
+]

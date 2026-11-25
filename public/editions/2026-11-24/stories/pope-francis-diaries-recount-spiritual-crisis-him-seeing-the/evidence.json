@@ -1,0 +1,241 @@
+[
+  {
+    "id": "news:bbc:65d520904cb1",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "BBC News: Pope Francis' diary reveals claims he saw the devil three times (11:10 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no",
+    "quote": "Pope Francis' diary reveals claims he saw the devil three times",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:d366e3ee18f0",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "DW: Pope Francis diaries recount spiritual crisis, him seeing the 'Devil' (15:21 UTC)",
+    "url": "https://www.dw.com/en/pope-francis-diaries-recount-spiritual-crisis-him-seeing-the-devil/a-80033224",
+    "quote": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387631397:521",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pope Francis\" (revision of 2026-11-24 22:28 UTC)",
+    "quote": "He set himself apart from other popes in upholding the Church's departure from the Tridentine Mass, which had only been loosely enforced by both predecessors whose reign occurred after the institution of the reforms of the Second Vatican Council.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pope_Francis&oldid=1387631397"
+  },
+  {
+    "id": "wiki:rev:1387631397:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pope Francis\" (revision of 2026-11-24 22:28 UTC)",
+    "quote": "Pope Francis (born Jorge Mario Bergoglio; 17 December 1936 – 21 April 2025) was the head of the Catholic Church and sovereign of Vatican City from his election in 2013 until his death in 2025.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pope_Francis&oldid=1387631397"
+  },
+  {
+    "id": "views:en:Pope_Francis:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Pope Francis\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Pope_Francis&range=latest-30"
+  },
+  {
+    "id": "wd:Q450675:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": born 17 December 1936",
+    "url": "https://www.wikidata.org/wiki/Q450675#P569"
+  },
+  {
+    "id": "wd:Q450675:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": birthplace Flores, Buenos Aires",
+    "url": "https://www.wikidata.org/wiki/Q450675#P19"
+  },
+  {
+    "id": "wd:Q450675:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": died 21 April 2025",
+    "url": "https://www.wikidata.org/wiki/Q450675#P570"
+  },
+  {
+    "id": "wd:Q450675:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": place of death Vatican City, Domus Sanctae Marthae",
+    "url": "https://www.wikidata.org/wiki/Q450675#P20"
+  },
+  {
+    "id": "wd:Q450675:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": occupation Latin Catholic priest, writer",
+    "url": "https://www.wikidata.org/wiki/Q450675#P106"
+  },
+  {
+    "id": "wd:Q450675:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": citizenship Vatican City, Argentina",
+    "url": "https://www.wikidata.org/wiki/Q450675#P27"
+  },
+  {
+    "id": "wd:Q450675:P69:Q16935366",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": educated at Facultades de Filosofía y Teología de San Miguel",
+    "url": "https://www.wikidata.org/wiki/Q450675#P69"
+  },
+  {
+    "id": "wd:Q450675:P69:Q194223",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": educated at University of Buenos Aires",
+    "url": "https://www.wikidata.org/wiki/Q450675#P69"
+  },
+  {
+    "id": "wd:Q450675:P69:Q16911644",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": educated at Inmaculada Concepción Seminary",
+    "url": "https://www.wikidata.org/wiki/Q450675#P69"
+  },
+  {
+    "id": "wd:Q450675:P69:Q16827357",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": educated at Colegio Máximo de San José",
+    "url": "https://www.wikidata.org/wiki/Q450675#P69"
+  },
+  {
+    "id": "wd:Q450675:P69:Q895645",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": educated at Sankt Georgen Graduate School of Philosophy and Theology",
+    "url": "https://www.wikidata.org/wiki/Q450675#P69"
+  },
+  {
+    "id": "wd:Q450675:P937:Q1486",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": worked in Buenos Aires (2013)",
+    "url": "https://www.wikidata.org/wiki/Q450675#P937"
+  },
+  {
+    "id": "wd:Q450675:P937:Q220",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": worked in Rome",
+    "url": "https://www.wikidata.org/wiki/Q450675#P937"
+  },
+  {
+    "id": "wd:Q450675:P937:Q237",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": worked in Vatican City",
+    "url": "https://www.wikidata.org/wiki/Q450675#P937"
+  },
+  {
+    "id": "wd:Q450675:P166:Q207826",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": award received: Time Person of the Year (2013)",
+    "url": "https://www.wikidata.org/wiki/Q450675#P166"
+  },
+  {
+    "id": "wd:Q450675:P166:Q15279719",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": award received: Gold Olympic Order (2013)",
+    "url": "https://www.wikidata.org/wiki/Q450675#P166"
+  },
+  {
+    "id": "wd:Q450675:P166:Q25708325",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": award received: Grand Collar of the Order of the Andes' Condor (2015)",
+    "url": "https://www.wikidata.org/wiki/Q450675#P166"
+  },
+  {
+    "id": "wd:Q450675:P166:Q152337",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": award received: Charlemagne Prize (2016)",
+    "url": "https://www.wikidata.org/wiki/Q450675#P166"
+  },
+  {
+    "id": "wd:Q450675:P166:Q630018",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": award received: Bambi Award (2016)",
+    "url": "https://www.wikidata.org/wiki/Q450675#P166"
+  },
+  {
+    "id": "wd:Q450675:P166:Q140165573",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": award received: Zayed Award for Human Fraternity (2019)",
+    "url": "https://www.wikidata.org/wiki/Q450675#P166"
+  },
+  {
+    "id": "wd:Q450675:P800:Q113374942",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pope Francis\": notable work: Ad charisma tuendum",
+    "url": "https://www.wikidata.org/wiki/Q450675#P800"
+  }
+]

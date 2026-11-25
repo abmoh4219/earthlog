@@ -1,0 +1,148 @@
+[
+  {
+    "id": "wiki:2026-11-24:11",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-24T00:00:00Z",
+    "lon": 30.96333333,
+    "lat": 29.99416667,
+    "label": "Sports: In association football, the Court of Arbitration for Sport rules in favor of Senegal against Morocco and reverses the Confederation of African Football's controversial decision to overturn Senegal's 1–0 victory in the 2025 Africa Cup of Nations final.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401",
+    "quote": "In association football, the Court of Arbitration for Sport rules in favor of Senegal against Morocco and reverses the Confederation of African Football's controversial decision to overturn Senegal's 1–0 victory in the 2025 Africa Cup of Nations final.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/africa-cup-final-afcon-senegal-morocco-cas-d3804e3923ec1b7e5ca846806e8d6040"
+      },
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/football/2026/nov/24/afcon-verdict-senegal-morocco-africa-cup-of-nations-champions-court-ruling-cas"
+      }
+    ]
+  },
+  {
+    "id": "news:sky:cffcdf4bfb25",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Sky News: Morocco 'astonished' at decision to restore Senegal as Africa Cup of Nations champions (08:06 UTC)",
+    "url": "https://news.sky.com/story/senegal-awarded-africa-cup-of-nations-after-winning-appeal-over-title-being-stripped-13615900",
+    "quote": "Morocco 'astonished' at decision to restore Senegal as Africa Cup of Nations champions",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:12816d6f81aa",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Al Jazeera: Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco (14:35 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco",
+    "quote": "Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:c447fcadc019",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "France 24: Senegal reinstated as 2025 Africa Cup of Nations winners (16:16 UTC)",
+    "url": "https://www.france24.com/en/video/20261124-senegal-reinstated-as-2025-africa-cup-of-nations-winners",
+    "quote": "Senegal reinstated as 2025 Africa Cup of Nations winners",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q60515006:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "Wikidata: \"2025 Africa Cup of Nations\" is an instance of sports season",
+    "url": "https://www.wikidata.org/wiki/Q60515006",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:561a21777065",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-24T00:00:00Z",
+    "label": "DW: CAS reinstates Senegal as 2025 AFCON champions (14:42 UTC)",
+    "url": "https://www.dw.com/en/cas-reinstates-senegal-as-2025-afcon-champions/a-80021027",
+    "quote": "CAS reinstates Senegal as 2025 AFCON champions",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387635276:6",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2025 Africa Cup of Nations\" (revision of 2026-11-24 22:49 UTC)",
+    "quote": "Senegal subsequently appealed that decision, and on 24 November 2026, the Court of Arbitration for Sport ruled in favour of Senegal, reinstating them as the winners of the tournament.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2025_Africa_Cup_of_Nations&oldid=1387635276"
+  },
+  {
+    "id": "wiki:rev:1387635276:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2025 Africa Cup of Nations\" (revision of 2026-11-24 22:49 UTC)",
+    "quote": "The 2025 Africa Cup of Nations was the 35th edition of the Africa Cup of Nations, a biennial football tournament contested by the men's national teams of the Confederation of African Football (CAF).",
+    "url": "https://en.wikipedia.org/w/index.php?title=2025_Africa_Cup_of_Nations&oldid=1387635276"
+  },
+  {
+    "id": "views:en:2025_Africa_Cup_of_Nations:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2025 Africa Cup of Nations\", 26 October 2026 to 24 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2025_Africa_Cup_of_Nations&range=latest-30"
+  },
+  {
+    "id": "wd:Q60515006:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2025 Africa Cup of Nations\": date 2025",
+    "url": "https://www.wikidata.org/wiki/Q60515006#P585"
+  },
+  {
+    "id": "wd:Q60515006:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2025 Africa Cup of Nations\": began 21 December 2025",
+    "url": "https://www.wikidata.org/wiki/Q60515006#P580"
+  },
+  {
+    "id": "wd:Q60515006:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2025 Africa Cup of Nations\": ended 18 January 2026",
+    "url": "https://www.wikidata.org/wiki/Q60515006#P582"
+  },
+  {
+    "id": "wd:Q60515006:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2025 Africa Cup of Nations\": sport association football",
+    "url": "https://www.wikidata.org/wiki/Q60515006#P641"
+  },
+  {
+    "id": "wd:Q60515006:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-24T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2025 Africa Cup of Nations\": country Morocco",
+    "url": "https://www.wikidata.org/wiki/Q60515006#P17"
+  }
+]

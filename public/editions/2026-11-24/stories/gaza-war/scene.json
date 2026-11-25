@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "id": "story-2026-11-24-gaza-war",
+  "title": "Gaza war",
+  "subtitle": "Conflict · 24 November 2026 · Update, day 7",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-24T00:00:00Z",
+    "end": "2026-11-24T00:01:17Z"
+  },
+  "focus": "2026-11-24T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 24.450000000000003,
+    "south": 23.5,
+    "east": 44.45,
+    "north": 39.5
+  },
+  "imagery": {
+    "day": "2026-11-24",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-24T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-24T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "lon": 72.45000000000005,
+      "lat": 18.4875,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-24T00:00:04Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-24T00:00:14Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:23Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:26Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:29Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:31Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:34Z",
+      "lon": 35.21412209891445,
+      "lat": 32.45238440269202,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:37Z",
+      "lon": 35.21412209891445,
+      "lat": 32.45238440269202,
+      "range": 1358307.7707206125,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:40Z",
+      "lon": 35.21412209891445,
+      "lat": 32.45238440269202,
+      "range": 1230000,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:43Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:46Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:48Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:00:51Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:00Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:09Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:12Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:13Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-24T00:01:17Z",
+      "lon": 9.450000000000045,
+      "lat": 30.8125,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-24T00:00:01Z",
+      "text": "Israel claims it killed Hamas security official Naeem Abu Nahel in an airstrike in the Gaza Strip.",
+      "cites": [
+        "wiki:2026-11-24:2"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:08Z",
+      "text": "As the Wikipedia article records, the flow of commercial goods into Gaza stopped in October 2026, greatly affecting supplies for the Gazan population.",
+      "cites": [
+        "wiki:rev:1387464354:332"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:15Z",
+      "text": "The Gaza war is an armed conflict in the Gaza Strip and Israel, part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts.",
+      "cites": [
+        "wiki:rev:1387464354:0"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:25Z",
+      "text": "The reports place the events in the Gaza Strip.",
+      "cites": [
+        "wiki:2026-11-24:2"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:33Z",
+      "text": "The reports also name the Levant.",
+      "cites": [
+        "wiki:2026-11-24:2"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:42Z",
+      "text": "The Washington Post is credited as the outlet reporting this story.",
+      "cites": [
+        "wiki:2026-11-24:2"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:50Z",
+      "text": "France 24 headlined its report that Israeli strikes on Gaza killed a senior Hamas security official and six other people, according to medics.",
+      "cites": [
+        "news:france24:d1ad5b170216"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:00:56Z",
+      "text": "Al Jazeera headlined a piece titled The photos from Gaza resonating with the people of Sarajevo.",
+      "cites": [
+        "news:aljazeera:0c077b0fb734"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:02Z",
+      "text": "BBC News headlined its report that an Israeli air strike killed the Hamas internal security chief in Gaza.",
+      "cites": [
+        "news:bbc:5b1c5c7e0cff"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:11Z",
+      "text": "The sources are Wikipedia, its Current events and articles, Wikimedia pageviews and Wikidata.",
+      "cites": [
+        "wiki:2026-11-24:2",
+        "views:en:Gaza_war:30d",
+        "wd:Q122962941:P31"
+      ]
+    },
+    {
+      "t": "2026-11-24T00:01:12Z",
+      "text": "Each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1387464354:332"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Gaza Strip"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-24T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-24T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-24T00:00:32Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-24T00:00:41Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-24T00:00:49Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-24T00:01:10Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-24T00:00:42Z",
+      "until": "2026-11-24T00:00:49Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Washington Post",
+          "text": "Open",
+          "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/",
+          "cites": [
+            "wiki:2026-11-24:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-24T00:00:50Z",
+      "until": "2026-11-24T00:01:10Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+          "cites": [
+            "news:france24:d1ad5b170216"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/features/2026/11/24/the-photographs-from-gaza-that-sarajevo-took-home",
+          "cites": [
+            "news:aljazeera:0c077b0fb734"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o",
+          "cites": [
+            "news:bbc:5b1c5c7e0cff"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-24T00:01:11Z",
+      "until": "2026-11-24T00:01:17Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-24:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387464354:332"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Gaza_war:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q122962941:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-25T01:31:26Z",
+    "costUsd": 0.001444
+  }
+}
