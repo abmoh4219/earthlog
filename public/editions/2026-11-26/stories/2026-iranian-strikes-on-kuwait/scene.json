@@ -1,0 +1,456 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-2026-iranian-strikes-on-kuwait",
+  "title": "2026 Iranian strikes on Kuwait",
+  "subtitle": "Conflict · 26 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:01:19Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 1.08,
+    "south": 36.73,
+    "east": 21.08,
+    "north": 52.73
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-26T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-26T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 49.07999999999993,
+      "lat": 25.563,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:14Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:23Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 3400000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:29Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 3078830.9469667217,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:31Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 2788000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "lon": 11.08,
+      "lat": 42.73,
+      "range": 1200000,
+      "heading": -16,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:38Z",
+      "lon": 11.08,
+      "lat": 42.73,
+      "range": 1086646.2165764899,
+      "heading": -4.699999999999999,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:42Z",
+      "lon": 11.08,
+      "lat": 42.73,
+      "range": 983999.9999999999,
+      "heading": 6.600000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:45Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 4420000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:48Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 4002480.231056738,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:50Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 3624400,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:53Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 4420000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:02Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 4239515.066608444,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:11Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 4066400,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:14Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:15Z",
+      "lon": 11.08,
+      "lat": 42.605,
+      "range": 7248800,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:19Z",
+      "lon": -13.919999999999959,
+      "lat": 42.605,
+      "range": 21746400,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "Two Italian technicians working for Rheinmetall were killed, and two other people were injured, in a drone strike against a location in Kuwait.",
+      "cites": [
+        "wiki:2026-11-26:1"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:08Z",
+      "text": "Iran has been blamed for the attack, but it denies responsibility.",
+      "cites": [
+        "wiki:2026-11-26:1"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:15Z",
+      "text": "On 28 February 2026, during the wider 2026 Iran war, Iran began launching a series of retaliatory strikes on American and Kuwaiti targets within Kuwait, although Kuwait had maintained formal neutrality at the outset.",
+      "cites": [
+        "wiki:rev:1388164524:0",
+        "wiki:rev:1388164524:1"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "text": "The map shows Italy, the home country the reports place the two killed technicians in.",
+      "cites": [
+        "wiki:2026-11-26:1"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:33Z",
+      "text": "As Wikipedia records them from its sources, side one lost 4 IRGC soldiers, who were captured, while on the other side 8 civilians were killed and 108 injured.",
+      "cites": [
+        "wiki:box:1388164524:casualties-side-1-",
+        "wiki:box:1388164524:casualties"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:44Z",
+      "text": "The account is reported by BBC News.",
+      "cites": [
+        "wiki:2026-11-26:1"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:52Z",
+      "text": "DW headlined the story, “Iranian drone attack kills 2 Italians in Kuwait.”",
+      "cites": [
+        "news:dw:bbfa2913cfd0"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:58Z",
+      "text": "Al Jazeera headlined it, “Two Italians killed by ‘drone strike debris’ in Kuwait.”",
+      "cites": [
+        "news:aljazeera:56909d1daf57"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:04Z",
+      "text": "BBC News headlined it, “Two Italians killed in strike in Kuwait, as Iran denies responsibility.”",
+      "cites": [
+        "news:bbc:9cf58e9b5260"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:13Z",
+      "text": "The explainer draws on Wikipedia, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-26:1",
+        "wiki:rev:1388164524:1",
+        "views:en:2026_Iranian_strikes_on_Kuwait:30d",
+        "wd:Q138529441:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IT",
+    "lon": 11.08,
+    "lat": 44.73,
+    "label": "Italy"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-26T00:00:32Z",
+      "title": "Sides and figures"
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-26T00:00:51Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:01:12Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sides",
+      "t": "2026-11-26T00:00:33Z",
+      "until": "2026-11-26T00:00:43Z",
+      "title": "As the article records them",
+      "note": "From the article's infobox; contested figures are attributed there to their sources.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Side 1",
+          "text": "Defensive/precautionary:",
+          "cites": [
+            "wiki:box:1388164524:side-1"
+          ]
+        },
+        {
+          "label": "Casualties (side 1)",
+          "text": "Several missiles and drones intercepted; 4 IRGC soldiers captured",
+          "cites": [
+            "wiki:box:1388164524:casualties-side-1-"
+          ]
+        },
+        {
+          "label": "Casualties",
+          "text": "8 civilians killed, 108 injured",
+          "cites": [
+            "wiki:box:1388164524:casualties"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-26T00:00:44Z",
+      "until": "2026-11-26T00:00:51Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.com/news/articles/c39w9y5dx4k5o",
+          "cites": [
+            "wiki:2026-11-26:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:52Z",
+      "until": "2026-11-26T00:01:12Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974",
+          "cites": [
+            "news:dw:bbfa2913cfd0"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+          "cites": [
+            "news:aljazeera:56909d1daf57"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+          "cites": [
+            "news:bbc:9cf58e9b5260"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:01:13Z",
+      "until": "2026-11-26T00:01:19Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-26:1"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388164524:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:2026_Iranian_strikes_on_Kuwait:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138529441:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.001583
+  }
+}

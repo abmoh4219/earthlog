@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-at-least-nine-people-are-injured",
+  "title": "At least nine people are injured",
+  "subtitle": "Accident · 26 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:00:49Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 90.49416667,
+    "south": 5.7524999999999995,
+    "east": 110.49416667,
+    "north": 21.752499999999998
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-26T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-26T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 138.49416667000003,
+      "lat": 7.8389999999999995,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:07Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:09Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:12Z",
+      "lon": 100.49416667,
+      "lat": 13.7525,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:15Z",
+      "lon": 100.49416667,
+      "lat": 13.7525,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:17Z",
+      "lon": 100.49416667,
+      "lat": 13.7525,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:20Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:23Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:28Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:35Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:41Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:44Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:45Z",
+      "lon": 100.49416667,
+      "lat": 13.065,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:49Z",
+      "lon": 75.49416667000003,
+      "lat": 13.065,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "At least nine people are injured, including three critically, after an explosion and fire at a Bangchak Corporation oil facility in Bangkok, Thailand.",
+      "cites": [
+        "wiki:2026-11-26:8"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:11Z",
+      "text": "The facility is in Bangkok, Thailand, where the reports place it.",
+      "cites": [
+        "wiki:2026-11-26:8"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:19Z",
+      "text": "The account is reported by AP.",
+      "cites": [
+        "wiki:2026-11-26:8"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:27Z",
+      "text": "Al Jazeera headlined the story: “Explosion rocks Bangkok oil depot.”",
+      "cites": [
+        "news:aljazeera:945ae9eca94f"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "text": "BBC News headlined it: “Nine injured, three critically, after Bangkok oil refinery explosion.”",
+      "cites": [
+        "news:bbc:736700ee3456"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "text": "Sources for this film are Wikipedia and Current events, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-26:8"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "TH",
+    "lon": 100.49416667,
+    "lat": 13.7525,
+    "label": "Bangkok"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-26T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:00:42Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-26T00:00:19Z",
+      "until": "2026-11-26T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/thailand-bangkok-explosion-oil-facility-e8098146bfb994dffc14448b1027c5d1",
+          "cites": [
+            "wiki:2026-11-26:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:27Z",
+      "until": "2026-11-26T00:00:42Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot",
+          "cites": [
+            "news:aljazeera:945ae9eca94f"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo",
+          "cites": [
+            "news:bbc:736700ee3456"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:00:43Z",
+      "until": "2026-11-26T00:00:49Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-26:8"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.000535
+  }
+}

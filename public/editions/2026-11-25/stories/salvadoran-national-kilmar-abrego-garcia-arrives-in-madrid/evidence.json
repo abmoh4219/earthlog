@@ -1,0 +1,102 @@
+[
+  {
+    "id": "wiki:2026-11-25:15",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-25T00:00:00Z",
+    "lon": -3.7033,
+    "lat": 40.4169,
+    "label": "Law & crime: Salvadoran national Kilmar Abrego Garcia arrives in Madrid, Spain, after voluntarily leaving the United States following a legal dispute over his wrongful deportation to El Salvador in March 2025.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074",
+    "quote": "Salvadoran national Kilmar Abrego Garcia arrives in Madrid, Spain, after voluntarily leaving the United States following a legal dispute over his wrongful deportation to El Salvador in March 2025.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/international-news/20261125-wrongly-deported-salvadoran-man-arrives-in-spain-from-us"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/americas/salvadoran-migrant-kilmar-abrego-garcia-lands-spain-after-us-departure-deal-2026-11-25/"
+      }
+    ]
+  },
+  {
+    "id": "news:bbc:6b93b27b01b3",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "BBC News: Kilmar Ábrego García arrives in Spain, ending Trump deportation battle (12:42 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
+    "quote": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q133798584:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"deportation of Kilmar Abrego Garcia\" is an instance of illegal deportation, legal case",
+    "url": "https://www.wikidata.org/wiki/Q133798584",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:dbd05e9113fe",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Al Jazeera: Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle (02:40 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
+    "quote": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:0ef9df2957b1",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "The Guardian: Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’ (19:36 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+    "quote": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388143927:14",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Deportation of Kilmar Abrego Garcia\" (revision of 2026-11-26 20:05 UTC)",
+    "quote": "Following an order from a federal judge to depart the US by November 24, 2026, Ábrego Garcia self-deported to Spain by the judge's deadline to avoid being deported to Africa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Deportation_of_Kilmar_Abrego_Garcia&oldid=1388143927"
+  },
+  {
+    "id": "wiki:rev:1388143927:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Deportation of Kilmar Abrego Garcia\" (revision of 2026-11-26 20:05 UTC)",
+    "quote": "Kilmar Armando Ábrego García, a Salvadoran man living in the United States, was illegally deported to El Salvador on March 15, 2025, by the U.S. government under the Trump administration, which called it \"an administrative error\".",
+    "url": "https://en.wikipedia.org/w/index.php?title=Deportation_of_Kilmar_Abrego_Garcia&oldid=1388143927"
+  },
+  {
+    "id": "views:en:Deportation_of_Kilmar_Abrego_Garcia:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Deportation of Kilmar Abrego Garcia\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Deportation_of_Kilmar_Abrego_Garcia&range=latest-30"
+  },
+  {
+    "id": "wd:Q133798584:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"deportation of Kilmar Abrego Garcia\": country El Salvador",
+    "url": "https://www.wikidata.org/wiki/Q133798584#P17"
+  }
+]

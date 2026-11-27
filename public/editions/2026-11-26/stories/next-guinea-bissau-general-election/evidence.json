@@ -1,0 +1,107 @@
+[
+  {
+    "id": "wiki:2026-11-26:14",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-26T00:00:00Z",
+    "lon": -15.5908,
+    "lat": 11.8584,
+    "label": "Politics: The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its transition to civilian rule following the November 2025 coup.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_26&oldid=1388194221",
+    "quote": "The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its transition to civilian rule following the November 2025 coup.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/africa/guinea-bissau-delays-elections-extending-military-led-transition-year-after-coup-2026-11-26/"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:86d26563c1ab",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: Guinea-Bissau military leaders delay presidential election until 2028 (18:07 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years",
+    "quote": "Guinea-Bissau military leaders delay presidential election until 2028",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q138027225:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Wikidata: \"2026 Guinea-Bissau general election\" is an instance of public election",
+    "url": "https://www.wikidata.org/wiki/Q138027225",
+    "precision": "day"
+  },
+  {
+    "id": "news:allafrica:5cbff078ef04",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "AllAfrica: Mozambique: EU Military Assistance to Mozambique Extended Until 2028 (05:08 UTC)",
+    "url": "https://allafrica.com/stories/202611260073.html",
+    "quote": "Mozambique: EU Military Assistance to Mozambique Extended Until 2028",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:e34f489a3b6d",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "DW: Guinea-Bissau junta delays presidential vote for 2 years (20:09 UTC)",
+    "url": "https://www.dw.com/en/guinea-bissau-junta-delays-presidential-vote-for-2-years/a-80068910",
+    "quote": "Guinea-Bissau junta delays presidential vote for 2 years",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388161797:6",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2028 Guinea-Bissau general election\" (revision of 2026-11-26 21:28 UTC)",
+    "quote": "On 26 November 2026, the junta issued a decree postponing the election until November 2028, stating the country lacks the technical, material, and financial requirements to organize a credible vote.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2028_Guinea-Bissau_general_election&oldid=1388161797"
+  },
+  {
+    "id": "wiki:rev:1388161797:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2028 Guinea-Bissau general election\" (revision of 2026-11-26 21:28 UTC)",
+    "quote": "General elections will be held in Guinea-Bissau in November 2028 to elect the president and members of the National People's Assembly.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2028_Guinea-Bissau_general_election&oldid=1388161797"
+  },
+  {
+    "id": "views:en:Next_Guinea-Bissau_general_election:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Next Guinea-Bissau general election\", 28 October 2026 to 26 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Next_Guinea-Bissau_general_election&range=latest-30"
+  },
+  {
+    "id": "wd:Q138027225:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Guinea-Bissau general election\": date 6 December 2026",
+    "url": "https://www.wikidata.org/wiki/Q138027225#P585"
+  },
+  {
+    "id": "wd:Q138027225:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Guinea-Bissau general election\": country Guinea-Bissau",
+    "url": "https://www.wikidata.org/wiki/Q138027225#P17"
+  }
+]

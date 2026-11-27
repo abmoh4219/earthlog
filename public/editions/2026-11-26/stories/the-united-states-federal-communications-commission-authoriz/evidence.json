@@ -1,0 +1,40 @@
+[
+  {
+    "id": "wiki:2026-11-26:15",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-26T00:00:00Z",
+    "lon": -77.00722222,
+    "lat": 38.90333333,
+    "label": "Science & tech: The United States Federal Communications Commission authorizes SpaceX to deploy up to one million satellites for its Starmind space-based data center network, despite concerns about space debris and interference with astronomical objects.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_26&oldid=1388194221",
+    "quote": "The United States Federal Communications Commission authorizes SpaceX to deploy up to one million satellites for its Starmind space-based data center network, despite concerns about space debris and interference with astronomical objects.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/us-clears-spacex-launch-1-mn-orbital-data-center-satellites"
+      }
+    ]
+  },
+  {
+    "id": "news:france24:8ad0359762be",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "France 24: US authorizes SpaceX to launch up to one million satellites for orbital data centers (03:02 UTC)",
+    "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers",
+    "quote": "US authorizes SpaceX to launch up to one million satellites for orbital data centers",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:3e9db239b14e",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Musk's plan to send a million SpaceX data satellites into space approved (09:27 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+    "quote": "Musk's plan to send a million SpaceX data satellites into space approved",
+    "precision": "day"
+  }
+]

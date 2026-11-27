@@ -1,0 +1,200 @@
+[
+  {
+    "id": "views:en:Pete_Edochie:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "English Wikipedia: 61,123 readers of \"Pete Edochie\" on 25 Nov 2026",
+    "value": 61123,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Pete_Edochie",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Pete_Edochie:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "\"Pete Edochie\": normally a median of 110 readers a day (8 to 60 days before)",
+    "value": 110,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Pete_Edochie",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:9e2b35daeee3",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "BBC News: Veteran Nigerian Nollywood actor Pete Edochie dies aged 79 (12:24 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo",
+    "quote": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q7171945:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"Pete Edochie\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q7171945",
+    "precision": "day"
+  },
+  {
+    "id": "news:allafrica:4e025025a04e",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "AllAfrica: Nigeria: Nollywood Legend Pete Edochie Dies (06:34 UTC)",
+    "url": "https://allafrica.com/stories/202611250188.html",
+    "quote": "Nigeria: Nollywood Legend Pete Edochie Dies",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388035997:18",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pete Edochie\" (revision of 2026-11-26 11:18 UTC)",
+    "quote": "Edochie died from prostate cancer on 25 November 2026, at the age of 79.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pete_Edochie&oldid=1388035997"
+  },
+  {
+    "id": "wiki:rev:1388035997:14",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pete Edochie\" (revision of 2026-11-26 11:18 UTC)",
+    "quote": "Edochie was married to Josephine Edochie.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pete_Edochie&oldid=1388035997"
+  },
+  {
+    "id": "wiki:rev:1388035997:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Pete Edochie\" (revision of 2026-11-26 11:18 UTC)",
+    "quote": "Chief Peter Uwadiegwu Ogugua Edochie MON (7 March 1947 – 25 November 2026), popularly known as Pete Edochie, was a Nigerian actor.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pete_Edochie&oldid=1388035997"
+  },
+  {
+    "id": "views:en:Pete_Edochie:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Pete Edochie\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Pete_Edochie&range=latest-30"
+  },
+  {
+    "id": "views:fr:Pete_Edochie:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 6,227 readers of \"Pete Edochie\" on 25 November 2026",
+    "value": 6227,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Pete_Edochie"
+  },
+  {
+    "id": "views:es:Pete_Edochie:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 299 readers of \"Pete Edochie\" on 25 November 2026",
+    "value": 299,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Pete_Edochie"
+  },
+  {
+    "id": "views:de:Pete_Edochie:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 230 readers of \"Pete Edochie\" on 25 November 2026",
+    "value": 230,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Pete_Edochie"
+  },
+  {
+    "id": "views:ar:بيت_إدوتشي:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Arabic Wikipedia: 97 readers of \"بيت إدوتشي\" on 25 November 2026",
+    "value": 97,
+    "unit": "readers",
+    "url": "https://ar.wikipedia.org/wiki/%D8%A8%D9%8A%D8%AA_%D8%A5%D8%AF%D9%88%D8%AA%D8%B4%D9%8A"
+  },
+  {
+    "id": "wd:Q7171945:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Edochie\": born 7 March 1947",
+    "url": "https://www.wikidata.org/wiki/Q7171945#P569"
+  },
+  {
+    "id": "wd:Q7171945:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Edochie\": birthplace Enugu",
+    "url": "https://www.wikidata.org/wiki/Q7171945#P19"
+  },
+  {
+    "id": "wd:Q7171945:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Edochie\": died 25 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q7171945#P570"
+  },
+  {
+    "id": "wd:Q7171945:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Edochie\": place of death Enugu",
+    "url": "https://www.wikidata.org/wiki/Q7171945#P20"
+  },
+  {
+    "id": "wd:Q7171945:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Edochie\": occupation actor, film actor",
+    "url": "https://www.wikidata.org/wiki/Q7171945#P106"
+  },
+  {
+    "id": "wd:Q7171945:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Edochie\": citizenship Nigeria",
+    "url": "https://www.wikidata.org/wiki/Q7171945#P27"
+  },
+  {
+    "id": "wd:Q7171945:P166:Q16825873",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Pete Edochie\": award received: Africa Magic Viewers' Choice Awards",
+    "url": "https://www.wikidata.org/wiki/Q7171945#P166"
+  }
+]

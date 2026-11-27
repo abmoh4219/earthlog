@@ -1,0 +1,171 @@
+[
+  {
+    "id": "news:france24:9fff05e939e0",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "France 24: 🔴 French actor Gérard Depardieu to face trial for alleged rape of actress Charlotte Arnould (13:46 UTC)",
+    "url": "https://www.france24.com/en/france/20261126-french-actor-g%C3%A9rard-depardieu-to-face-trial-for-rape-his-lawyer-says",
+    "quote": "🔴 French actor Gérard Depardieu to face trial for alleged rape of actress Charlotte Arnould",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:72a1a2ada54b",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules (14:44 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o",
+    "quote": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:afe8a6b43d0b",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: French actor Gerard Depardieu to stand trial for alleged 2018 rape (17:18 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/26/paris-court-orders-gerard-depardieu-to-stand-trial-for-rape-sexual-assault",
+    "quote": "French actor Gerard Depardieu to stand trial for alleged 2018 rape",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:de01e99588bd",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "DW: Gerard Depardieu to stand trial in France for rape and sexual assault (20:41 UTC)",
+    "url": "https://www.dw.com/en/gerard-depardieu-to-stand-trial-in-france-for-rape-and-sexual-assault/a-80069424",
+    "quote": "Gerard Depardieu to stand trial in France for rape and sexual assault",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388183896:420",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gérard Depardieu\" (revision of 2026-11-26 23:25 UTC)",
+    "quote": "On 26 November 2026, the Court of Appeal of Paris partially rejected Depardieu's challenge to his trial referral in the Charlotte Arnould case, confirming that the actor would stand trial over the alleged 7 August 2018 assault while dismissing charges from the second incident.",
+    "url": "https://en.wikipedia.org/w/index.php?title=G%C3%A9rard_Depardieu&oldid=1388183896"
+  },
+  {
+    "id": "wiki:rev:1388183896:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gérard Depardieu\" (revision of 2026-11-26 23:25 UTC)",
+    "quote": "Gérard Xavier Marcel Depardieu (,,; born 27 December 1948) is a French actor.",
+    "url": "https://en.wikipedia.org/w/index.php?title=G%C3%A9rard_Depardieu&oldid=1388183896"
+  },
+  {
+    "id": "views:en:Gérard_Depardieu:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gérard Depardieu\", 28 October 2026 to 26 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=G%C3%A9rard_Depardieu&range=latest-30"
+  },
+  {
+    "id": "wd:Q106508:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": born 27 December 1948",
+    "url": "https://www.wikidata.org/wiki/Q106508#P569"
+  },
+  {
+    "id": "wd:Q106508:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": birthplace Châteauroux",
+    "url": "https://www.wikidata.org/wiki/Q106508#P19"
+  },
+  {
+    "id": "wd:Q106508:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": occupation film actor, stage actor",
+    "url": "https://www.wikidata.org/wiki/Q106508#P106"
+  },
+  {
+    "id": "wd:Q106508:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": citizenship Russia, France",
+    "url": "https://www.wikidata.org/wiki/Q106508#P27"
+  },
+  {
+    "id": "wd:Q106508:P641",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": sport association football",
+    "url": "https://www.wikidata.org/wiki/Q106508#P641"
+  },
+  {
+    "id": "wd:Q106508:P166:Q900494",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": award received: César Award for Best Actor (1981)",
+    "url": "https://www.wikidata.org/wiki/Q106508#P166"
+  },
+  {
+    "id": "wd:Q106508:P166:Q1967731",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": award received: National Society of Film Critics Award for Best Actor (1983)",
+    "url": "https://www.wikidata.org/wiki/Q106508#P166"
+  },
+  {
+    "id": "wd:Q106508:P166:Q13422138",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": award received: Knight of the National Order of Merit (1985)",
+    "url": "https://www.wikidata.org/wiki/Q106508#P166"
+  },
+  {
+    "id": "wd:Q106508:P166:Q2089923",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": award received: Volpi Cup for Best Actor (1985)",
+    "url": "https://www.wikidata.org/wiki/Q106508#P166"
+  },
+  {
+    "id": "wd:Q106508:P166:Q181883",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": award received: Golden Globe Award for Best Actor – Motion Picture Musical or Comedy (1990)",
+    "url": "https://www.wikidata.org/wiki/Q106508#P166"
+  },
+  {
+    "id": "wd:Q106508:P166:Q586140",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gérard Depardieu\": award received: Cannes Film Festival Award for Best Actor (1990)",
+    "url": "https://www.wikidata.org/wiki/Q106508#P166"
+  }
+]

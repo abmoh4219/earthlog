@@ -1,0 +1,653 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-pete-edochie",
+  "title": "Pete Edochie",
+  "subtitle": "People · 25 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:34Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -2.5058333333332996,
+    "south": -1.5597222222221996,
+    "east": 17.4941666666667,
+    "north": 14.440277777777801
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-25T00:00:47Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-25T00:00:47Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-25T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": 45.49416666666673,
+      "lat": 3.45166666666668,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": 7.4941666666667,
+      "lat": 5.7527777777778,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:14Z",
+      "lon": 7.4941666666667,
+      "lat": 5.7527777777778,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:23Z",
+      "lon": 7.4941666666667,
+      "lat": 5.7527777777778,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:26Z",
+      "lon": 7.4941666666667,
+      "lat": 5.5402777777778,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:29Z",
+      "lon": 7.4941666666667,
+      "lat": 5.5402777777778,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:31Z",
+      "lon": 7.4941666666667,
+      "lat": 5.5402777777778,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:34Z",
+      "lon": 7.4941666666667,
+      "lat": 6.140277777777801,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:38Z",
+      "lon": 7.4941666666667,
+      "lat": 6.140277777777801,
+      "range": 1358307.7707206125,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:41Z",
+      "lon": 7.4941666666667,
+      "lat": 6.140277777777801,
+      "range": 1230000,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:44Z",
+      "lon": 7.4941666666667,
+      "lat": 5.5402777777778,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:45Z",
+      "lon": 7.4941666666667,
+      "lat": 5.5402777777778,
+      "range": 814984.6624323674,
+      "heading": -24.5,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:46Z",
+      "lon": 7.4941666666667,
+      "lat": 5.5402777777778,
+      "range": 738000,
+      "heading": -31,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:51Z",
+      "lon": 15.097497990416388,
+      "lat": 38.91132016369788,
+      "range": 16313848.37388067,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:01Z",
+      "lon": 15.097497990416388,
+      "lat": 38.91132016369788,
+      "range": 14772818.011066627,
+      "heading": 14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:10Z",
+      "lon": 15.097497990416388,
+      "lat": 38.91132016369788,
+      "range": 13377355.666582149,
+      "heading": 28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:13Z",
+      "lon": 15.097497990416388,
+      "lat": 38.91132016369788,
+      "range": 16313848.37388067,
+      "heading": -12,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:20Z",
+      "lon": 15.097497990416388,
+      "lat": 38.91132016369788,
+      "range": 15647693.659600174,
+      "heading": -10,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:26Z",
+      "lon": 15.097497990416388,
+      "lat": 38.91132016369788,
+      "range": 15008740.503970217,
+      "heading": -8,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:30Z",
+      "lon": 7.4941666666667,
+      "lat": 5.7527777777778,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:31Z",
+      "lon": 7.4941666666667,
+      "lat": 5.7527777777778,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:34Z",
+      "lon": -17.50583333333327,
+      "lat": 5.7527777777778,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "Pete Edochie died of prostate cancer on 25 November 2026, at the age of 79.",
+      "cites": [
+        "wiki:rev:1388035997:18"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:08Z",
+      "text": "He was married to Josephine Edochie.",
+      "cites": [
+        "wiki:rev:1388035997:14"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:15Z",
+      "text": "Chief Peter Uwadiegwu Ogugua Edochie MON, born 7 March 1947, was known as Pete Edochie and was a Nigerian actor.",
+      "cites": [
+        "wiki:rev:1388035997:0"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:25Z",
+      "text": "Pete Edochie was born on 7 March 1947 in Enugu.",
+      "cites": [
+        "wd:Q7171945:P569",
+        "wd:Q7171945:P19"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:33Z",
+      "text": "His record lists one award: the Africa Magic Viewers’ Choice Awards.",
+      "cites": [
+        "wd:Q7171945:P166:Q16825873"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:48Z",
+      "text": "On 25 November 2026, 61,123 people read his English Wikipedia article, about 556 times the usual.",
+      "cites": [
+        "views:en:Pete_Edochie:2026-11-25",
+        "views:en:Pete_Edochie:prior"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:55Z",
+      "text": "The article is read in 5 languages, and after English, the most readers were in French, with 6,227.",
+      "cites": [
+        "views:en:Pete_Edochie:2026-11-25",
+        "views:fr:Pete_Edochie:2026-11-25"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:02Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:fr:Pete_Edochie:2026-11-25",
+        "views:es:Pete_Edochie:2026-11-25",
+        "views:de:Pete_Edochie:2026-11-25",
+        "views:ar:بيت_إدوتشي:2026-11-25"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:12Z",
+      "text": "The BBC News headline read: “Veteran Nigerian Nollywood actor Pete Edochie dies aged 79”.",
+      "cites": [
+        "news:bbc:9e2b35daeee3"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:19Z",
+      "text": "AllAfrica’s headline read: “Nigeria: Nollywood Legend Pete Edochie Dies”.",
+      "cites": [
+        "news:allafrica:4e025025a04e"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:28Z",
+      "text": "The figures come from Wikipedia articles, Wikimedia pageviews and Wikidata.",
+      "cites": [
+        "wiki:rev:1388035997:18",
+        "views:en:Pete_Edochie:2026-11-25",
+        "wd:Q7171945:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "NG",
+    "lon": 7.4941666666667,
+    "lat": 6.4402777777778,
+    "label": "Enugu"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-25T00:00:32Z",
+      "title": "Recognition"
+    },
+    {
+      "t": "2026-11-25T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-25T00:00:47Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-25T00:01:11Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:27Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "recognition",
+      "t": "2026-11-25T00:00:33Z",
+      "until": "2026-11-25T00:00:42Z",
+      "title": "Recognition",
+      "note": "As recorded in Wikidata.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Award",
+          "text": "Africa Magic Viewers' Choice Awards",
+          "cites": [
+            "wd:Q7171945:P166:Q16825873"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-25T00:00:48Z",
+      "until": "2026-11-25T00:01:11Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Pete Edochie",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-27",
+              "y": 91
+            },
+            {
+              "x": "10-28",
+              "y": 72
+            },
+            {
+              "x": "10-29",
+              "y": 76
+            },
+            {
+              "x": "10-30",
+              "y": 138
+            },
+            {
+              "x": "10-31",
+              "y": 83
+            },
+            {
+              "x": "11-01",
+              "y": 87
+            },
+            {
+              "x": "11-02",
+              "y": 61
+            },
+            {
+              "x": "11-03",
+              "y": 62
+            },
+            {
+              "x": "11-04",
+              "y": 67
+            },
+            {
+              "x": "11-05",
+              "y": 66
+            },
+            {
+              "x": "11-06",
+              "y": 64
+            },
+            {
+              "x": "11-07",
+              "y": 76
+            },
+            {
+              "x": "11-08",
+              "y": 83
+            },
+            {
+              "x": "11-09",
+              "y": 82
+            },
+            {
+              "x": "11-10",
+              "y": 84
+            },
+            {
+              "x": "11-11",
+              "y": 67
+            },
+            {
+              "x": "11-12",
+              "y": 75
+            },
+            {
+              "x": "11-13",
+              "y": 65
+            },
+            {
+              "x": "11-14",
+              "y": 82
+            },
+            {
+              "x": "11-15",
+              "y": 95
+            },
+            {
+              "x": "11-16",
+              "y": 106
+            },
+            {
+              "x": "11-17",
+              "y": 101
+            },
+            {
+              "x": "11-18",
+              "y": 97
+            },
+            {
+              "x": "11-19",
+              "y": 90
+            },
+            {
+              "x": "11-20",
+              "y": 67
+            },
+            {
+              "x": "11-21",
+              "y": 80
+            },
+            {
+              "x": "11-22",
+              "y": 84
+            },
+            {
+              "x": "11-23",
+              "y": 172
+            },
+            {
+              "x": "11-24",
+              "y": 163
+            },
+            {
+              "x": "11-25",
+              "y": 61123
+            }
+          ],
+          "cites": [
+            "views:en:Pete_Edochie:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-25T00:00:48Z",
+      "until": "2026-11-25T00:01:11Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "61,123",
+          "value": 61123,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Pete_Edochie:2026-11-25"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "6,227",
+          "value": 6227,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Pete_Edochie:2026-11-25"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "299",
+          "value": 299,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Pete_Edochie:2026-11-25"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "230",
+          "value": 230,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Pete_Edochie:2026-11-25"
+          ]
+        },
+        {
+          "label": "Arabic",
+          "text": "97",
+          "value": 97,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:ar:بيت_إدوتشي:2026-11-25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:01:12Z",
+      "until": "2026-11-25T00:01:27Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo",
+          "cites": [
+            "news:bbc:9e2b35daeee3"
+          ]
+        },
+        {
+          "label": "AllAfrica",
+          "text": "Open",
+          "url": "https://allafrica.com/stories/202611250188.html",
+          "cites": [
+            "news:allafrica:4e025025a04e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:28Z",
+      "until": "2026-11-25T00:01:34Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388035997:18"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Pete_Edochie:2026-11-25"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q7171945:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.003312
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-eu-leaders-struggle-to-agree-on-long-term-budget-49bn-ukrain",
+  "title": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
+  "subtitle": "Business · 26 November 2026 · headline from Al Jazeera",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:01:45Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 22.14,
+    "south": 41.72,
+    "east": 42.14,
+    "north": 57.72
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-26T00:00:49Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-26T00:00:49Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-26T00:00:35Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-inflation.json",
+      "name": "inflation",
+      "from": "2026-11-26T00:00:35Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 70.13999999999999,
+      "lat": 28.557,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:10Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:16Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:20Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 4800000,
+      "heading": -12,
+      "pitch": -40,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:27Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 4346584.866305959,
+      "heading": -26,
+      "pitch": -37.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "lon": 32.14,
+      "lat": 41.72,
+      "range": 3935999.9999999995,
+      "heading": -40,
+      "pitch": -35,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:38Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 3500000,
+      "heading": -108.68282202997253,
+      "pitch": -38,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 3169384.7983480957,
+      "heading": -94.98282202997252,
+      "pitch": -35.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:48Z",
+      "lon": 29.4934,
+      "lat": 49.1414,
+      "range": 2870000,
+      "heading": -81.28282202997252,
+      "pitch": -33,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:52Z",
+      "lon": 30.370106976053766,
+      "lat": 43.693251887775745,
+      "range": 8228757.293614188,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:01:01Z",
+      "lon": 30.370106976053766,
+      "lat": 43.693251887775745,
+      "range": 7451456.650193378,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:10Z",
+      "lon": 30.370106976053766,
+      "lat": 43.693251887775745,
+      "range": 6747580.980763634,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:14Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 10200000,
+      "heading": 10,
+      "pitch": -62,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:01:18Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 9236492.840900164,
+      "heading": 21.3,
+      "pitch": -59.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:21Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 8363999.999999999,
+      "heading": 32.6,
+      "pitch": -57,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:24Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 10200000,
+      "heading": -2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:31Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 9783496.307557948,
+      "heading": 0,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:37Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 9384000,
+      "heading": 2,
+      "pitch": -62,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:40Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:41Z",
+      "lon": 32.14,
+      "lat": 47.595,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:45Z",
+      "lon": 7.139999999999986,
+      "lat": 47.595,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "Al Jazeera reports that EU leaders are struggling to agree on a long-term budget and a $49bn loan for Ukraine.",
+      "cites": [
+        "news:aljazeera:9a0aabb9ad78"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:09Z",
+      "text": "DW also reports on the story, describing EU leaders seeking agreement on the long-term budget and Ukraine at a summit.",
+      "cites": [
+        "news:dw:9370b6a43809"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:18Z",
+      "text": "Inflation in Ukraine was 12.7% in 2025, down from 20.2% in 2022.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:UA"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "text": "The economy grew 1.8% in 2025, and unemployment stood at 9.8%.",
+      "cites": [
+        "wb:NY.GDP.MKTP.KD.ZG:UA",
+        "wb:SL.UEM.TOTL.ZS:UA"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:36Z",
+      "text": "Among countries in Europe and Central Asia, Ukraine's 12.7% compares with a median of 3.8%, while Turkey has the highest rate at 34.9%.",
+      "cites": [
+        "wb:FP.CPI.TOTL.ZG:region:europe-central-asia",
+        "wb:FP.CPI.TOTL.ZG:UA",
+        "wb:FP.CPI.TOTL.ZG:TR"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:50Z",
+      "text": "On 22 November, according to Wikipedia's current events, several people were killed and at least 10 injured when the Russian corvette Merkury was struck by a Ukrainian naval drone attack in Benghazi, Libya.",
+      "cites": [
+        "wiki:2026-11-22:2"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:57Z",
+      "text": "On 23 November, Ukraine launched a large-scale drone attack across western Russia, striking the Perm refinery in Perm Krai and the Novoshakhtinsk refinery in Rostov Oblast.",
+      "cites": [
+        "wiki:2026-11-23:1"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:04Z",
+      "text": "On 24 November, according to Wikipedia, a Russian airstrike hit a five-story apartment building in Zaporizhzhia, killing two people and wounding 44 others.",
+      "cites": [
+        "wiki:2026-11-24:1"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:12Z",
+      "text": "Ukraine is Europe's second-largest country, after Russia, which borders it to the east and northeast.",
+      "cites": [
+        "wiki:rev:1386666930:0"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:23Z",
+      "text": "DW's headline reads “EU leaders seek agreement on long-term budget and Ukraine at summit.”",
+      "cites": [
+        "news:dw:9370b6a43809"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:30Z",
+      "text": "Al Jazeera's headline reads “EU leaders struggle to agree on long-term budget, $49bn Ukraine loan.”",
+      "cites": [
+        "news:aljazeera:9a0aabb9ad78"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:39Z",
+      "text": "Sources include 2 outlets, Wikipedia articles, Wikimedia pageviews and Wikidata, plus Wikipedia current events for 2026 November 22 and 2026 November 23.",
+      "cites": [
+        "wiki:2026-11-22:2",
+        "wiki:2026-11-23:1",
+        "views:en:Ukraine:30d",
+        "wd:Q212:P571",
+        "wiki:rev:1386666930:0"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:40Z",
+      "text": "Every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1386666930:0"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "UA",
+    "lon": 32.14,
+    "lat": 49.72,
+    "label": "Ukraine"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:17Z",
+      "title": "Ukraine in numbers"
+    },
+    {
+      "t": "2026-11-26T00:00:35Z",
+      "title": "The neighbourhood"
+    },
+    {
+      "t": "2026-11-26T00:00:49Z",
+      "title": "The week in Ukraine"
+    },
+    {
+      "t": "2026-11-26T00:01:11Z",
+      "title": "About Ukraine"
+    },
+    {
+      "t": "2026-11-26T00:01:22Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:01:38Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "inflation",
+      "t": "2026-11-26T00:00:18Z",
+      "until": "2026-11-26T00:00:35Z",
+      "title": "Inflation, consumer prices, Ukraine",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#e3b341",
+          "points": [
+            {
+              "x": "2010",
+              "y": 9.37293105078978
+            },
+            {
+              "x": "2011",
+              "y": 7.95572466274652
+            },
+            {
+              "x": "2012",
+              "y": 0.568727971803862
+            },
+            {
+              "x": "2013",
+              "y": -0.238948626045406
+            },
+            {
+              "x": "2014",
+              "y": 12.0718562874251
+            },
+            {
+              "x": "2015",
+              "y": 48.6998646434423
+            },
+            {
+              "x": "2016",
+              "y": 13.9127101997796
+            },
+            {
+              "x": "2017",
+              "y": 14.4383227488749
+            },
+            {
+              "x": "2018",
+              "y": 10.9518559353178
+            },
+            {
+              "x": "2019",
+              "y": 7.88671745611133
+            },
+            {
+              "x": "2020",
+              "y": 2.73249209419427
+            },
+            {
+              "x": "2021",
+              "y": 9.36313917695223
+            },
+            {
+              "x": "2022",
+              "y": 20.1836366617478
+            },
+            {
+              "x": "2023",
+              "y": 12.8490222828558
+            },
+            {
+              "x": "2024",
+              "y": 6.50198464669254
+            },
+            {
+              "x": "2025",
+              "y": 12.7303341026902
+            }
+          ],
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "growth",
+      "t": "2026-11-26T00:00:18Z",
+      "until": "2026-11-26T00:00:35Z",
+      "title": "GDP growth, Ukraine",
+      "kind": "line",
+      "unit": "% a year",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 4.09200436668087
+            },
+            {
+              "x": "2011",
+              "y": 5.44528081048476
+            },
+            {
+              "x": "2012",
+              "y": 0.152314967200653
+            },
+            {
+              "x": "2013",
+              "y": 0.045439094492707
+            },
+            {
+              "x": "2014",
+              "y": -10.0788949840953
+            },
+            {
+              "x": "2015",
+              "y": -9.7729872128676
+            },
+            {
+              "x": "2016",
+              "y": 2.44098194492067
+            },
+            {
+              "x": "2017",
+              "y": 2.35997228099491
+            },
+            {
+              "x": "2018",
+              "y": 3.48836234022659
+            },
+            {
+              "x": "2019",
+              "y": 3.19950386354134
+            },
+            {
+              "x": "2020",
+              "y": -3.75281793983162
+            },
+            {
+              "x": "2021",
+              "y": 3.44562065945944
+            },
+            {
+              "x": "2022",
+              "y": -28.7585842155085
+            },
+            {
+              "x": "2023",
+              "y": 5.53473354963334
+            },
+            {
+              "x": "2024",
+              "y": 3.24811808426423
+            },
+            {
+              "x": "2025",
+              "y": 1.82152376756284
+            }
+          ],
+          "cites": [
+            "wb:NY.GDP.MKTP.KD.ZG:UA"
+          ]
+        }
+      ],
+      "mark": 15
+    },
+    {
+      "id": "unemployment",
+      "t": "2026-11-26T00:00:18Z",
+      "until": "2026-11-26T00:00:35Z",
+      "title": "Unemployment, Ukraine",
+      "note": "World Bank, World Development Indicators, updated 2026-10-08. Annual figures.",
+      "kind": "line",
+      "unit": "% of the labour force",
+      "series": [
+        {
+          "label": "Ukraine",
+          "color": "#e8f6ff",
+          "points": [
+            {
+              "x": "2010",
+              "y": 8.1
+            },
+            {
+              "x": "2011",
+              "y": 7.851
+            },
+            {
+              "x": "2012",
+              "y": 7.529
+            },
+            {
+              "x": "2013",
+              "y": 7.17
+            },
+            {
+              "x": "2014",
+              "y": 9.27
+            },
+            {
+              "x": "2015",
+              "y": 9.14
+            },
+            {
+              "x": "2016",
+              "y": 9.35
+            },
+            {
+              "x": "2017",
+              "y": 9.5
+            },
+            {
+              "x": "2018",
+              "y": 8.799
+            },
+            {
+              "x": "2019",
+              "y": 8.194
+            },
+            {
+              "x": "2020",
+              "y": 9.475
+            },
+            {
+              "x": "2021",
+              "y": 9.834
+            }
+          ],
+          "cites": [
+            "wb:SL.UEM.TOTL.ZS:UA"
+          ]
+        }
+      ],
+      "mark": 11
+    },
+    {
+      "id": "region",
+      "t": "2026-11-26T00:00:36Z",
+      "until": "2026-11-26T00:00:49Z",
+      "title": "Inflation, Europe & Central Asia",
+      "note": "Latest year on record per country (World Bank). Columns on the globe show the same values.",
+      "kind": "bars",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Turkey",
+          "text": "34.9%",
+          "value": 34.8811700293777,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:TR"
+          ]
+        },
+        {
+          "label": "Ukraine",
+          "text": "12.7%",
+          "value": 12.7303341026902,
+          "color": "#e3b341",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UA"
+          ]
+        },
+        {
+          "label": "Kazakhstan",
+          "text": "11.4%",
+          "value": 11.3789456104214,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KZ"
+          ]
+        },
+        {
+          "label": "Uzbekistan",
+          "text": "8.8%",
+          "value": 8.79630890491107,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:UZ"
+          ]
+        },
+        {
+          "label": "Russia",
+          "text": "8.7%",
+          "value": 8.71986939402666,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RU"
+          ]
+        },
+        {
+          "label": "Kyrgyzstan",
+          "text": "8.2%",
+          "value": 8.21496013406325,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:KG"
+          ]
+        },
+        {
+          "label": "Moldova",
+          "text": "7.8%",
+          "value": 7.75904124001158,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:MD"
+          ]
+        },
+        {
+          "label": "Romania",
+          "text": "7.2%",
+          "value": 7.18903362292063,
+          "color": "#9ad9ff",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:RO"
+          ]
+        }
+      ],
+      "marker": {
+        "value": 3.768548461408595,
+        "label": "median 3.8%"
+      }
+    },
+    {
+      "id": "thread",
+      "t": "2026-11-26T00:00:50Z",
+      "until": "2026-11-26T00:01:11Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "22 November",
+          "text": "Several people are killed and at least 10 people are injured after the Russian corvette…",
+          "cites": [
+            "wiki:2026-11-22:2"
+          ]
+        },
+        {
+          "label": "23 November",
+          "text": "Ukraine launches a large-scale drone attack across western Russia…",
+          "cites": [
+            "wiki:2026-11-23:1"
+          ]
+        },
+        {
+          "label": "24 November",
+          "text": "A Russian airstrike hits a five-story apartment building in Zaporizhzhia, Ukraine…",
+          "cites": [
+            "wiki:2026-11-24:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:01:23Z",
+      "until": "2026-11-26T00:01:38Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/eu-leaders-seek-agreement-on-long-term-budget-and-ukraine-at-summit/live-80056415",
+          "cites": [
+            "news:dw:9370b6a43809"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine",
+          "cites": [
+            "news:aljazeera:9a0aabb9ad78"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:01:39Z",
+      "until": "2026-11-26T00:01:45Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1386666930:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Ukraine:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q212:P571"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_22&oldid=1387270181",
+          "cites": [
+            "wiki:2026-11-22:2"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_23&oldid=1387472955",
+          "cites": [
+            "wiki:2026-11-23:1"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401",
+          "cites": [
+            "wiki:2026-11-24:1"
+          ]
+        },
+        {
+          "label": "World Bank Open Data (World Development Indica…",
+          "text": "CC BY 4.0",
+          "url": "https://data.worldbank.org/",
+          "cites": [
+            "wb:FP.CPI.TOTL.ZG:region:europe-central-asia"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.003562
+  }
+}

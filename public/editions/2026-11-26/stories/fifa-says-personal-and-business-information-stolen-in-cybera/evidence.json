@@ -1,0 +1,32 @@
+[
+  {
+    "id": "news:aljazeera:33e92f764e36",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: FIFA says personal and business information stolen in cyberattack (12:31 UTC)",
+    "url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack",
+    "quote": "FIFA says personal and business information stolen in cyberattack",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:002158da7f55",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "DW: FIFA says a cyberattack against it targeted a 'limited set of personal and business information' (14:45 UTC)",
+    "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660",
+    "quote": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:495075d69b6b",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "The Guardian: Fifa confirms cyber-attack exposed ‘personal and business information’ (18:45 UTC)",
+    "url": "https://www.theguardian.com/football/2026/nov/26/fifa-cyberattack-hack-personal-information",
+    "quote": "Fifa confirms cyber-attack exposed ‘personal and business information’",
+    "precision": "day"
+  }
+]

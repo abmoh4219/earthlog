@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-thirty-one-people-are-killed-and-21-more-injured-after-the-o",
+  "title": "Thirty-one people are killed and 21 more injured after the overturn and…",
+  "subtitle": "Accident · 25 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:13Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 21.23583333,
+    "south": 22.04444444,
+    "east": 41.23583333,
+    "north": 38.04444444
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions.json"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-site.json",
+      "name": "site",
+      "from": "2026-11-25T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": 69.23583332999999,
+      "lat": 17.614166664,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:10Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:16Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:19Z",
+      "lon": 31.203055555555554,
+      "lat": 30.106944444444444,
+      "range": 140000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:22Z",
+      "lon": 31.203055555555554,
+      "lat": 30.106944444444444,
+      "range": 126775.39193392382,
+      "heading": 14.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:25Z",
+      "lon": 31.203055555555554,
+      "lat": 30.106944444444444,
+      "range": 114800,
+      "heading": 4.600000000000001,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:28Z",
+      "lon": 31.203055555555554,
+      "lat": 30.106944444444444,
+      "range": 90000,
+      "heading": 70,
+      "pitch": -24,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:32Z",
+      "lon": 31.203055555555554,
+      "lat": 30.106944444444444,
+      "range": 81498.46624323675,
+      "heading": 81.3,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:36Z",
+      "lon": 31.203055555555554,
+      "lat": 30.106944444444444,
+      "range": 73800,
+      "heading": 92.6,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:39Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:42Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:44Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:47Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:56Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:05Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:08Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:09Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:13Z",
+      "lon": 6.235833329999991,
+      "lat": 29.35694444,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "Thirty-one people are killed and 21 more injured after a fuel tanker overturned and exploded on Ring Road in Cairo, Egypt.",
+      "cites": [
+        "wiki:2026-11-25:8"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:09Z",
+      "text": "On 25 November 2026, the tanker, carrying petroleum products and gas cylinders, overturned on Ring Road in the El Warraq district of Giza Governorate.",
+      "cites": [
+        "wiki:rev:1388165699:0"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:18Z",
+      "text": "The Ring Road site is listed as under investigation.",
+      "cites": [
+        "wiki:box:1388165699:summary",
+        "wiki:box:1388165699:coordinates"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:27Z",
+      "text": "The article records 180 deaths.",
+      "cites": [
+        "wiki:box:1388165699:fatalities"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:38Z",
+      "text": "The account comes from AP.",
+      "cites": [
+        "wiki:2026-11-25:8"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:46Z",
+      "text": "BBC News headlined it: “Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway”.",
+      "cites": [
+        "news:bbc:8ac00ea2108a"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:52Z",
+      "text": "Al Jazeera headlined it: “At least 30 killed in Egypt vehicle fire, health ministry says”.",
+      "cites": [
+        "news:aljazeera:3bad40b887ec"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:58Z",
+      "text": "DW headlined it: “Egypt: At least 31 dead after fuel truck overturns on highway”.",
+      "cites": [
+        "news:dw:08e39bb25efc"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:07Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-25:8",
+        "wiki:rev:1388165699:0",
+        "wd:Q142293991:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "EG",
+    "lon": 31.23583333,
+    "lat": 30.04444444,
+    "label": "Cairo"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:17Z",
+      "title": "The site"
+    },
+    {
+      "t": "2026-11-25T00:00:26Z",
+      "title": "On board"
+    },
+    {
+      "t": "2026-11-25T00:00:37Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-25T00:00:45Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:06Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "on-board",
+      "t": "2026-11-25T00:00:27Z",
+      "until": "2026-11-25T00:00:37Z",
+      "title": "People",
+      "note": "As the article's infobox records them; figures may change as the investigation goes on.",
+      "kind": "bars",
+      "unit": "people",
+      "items": [
+        {
+          "label": "Fatalities",
+          "text": "180",
+          "value": 180,
+          "color": "#ff5a5f",
+          "cites": [
+            "wiki:box:1388165699:fatalities"
+          ]
+        },
+        {
+          "label": "Injuries",
+          "text": "26",
+          "value": 26,
+          "color": "#9ad9ff",
+          "cites": [
+            "wiki:box:1388165699:injuries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-25T00:00:38Z",
+      "until": "2026-11-25T00:00:45Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AP",
+          "text": "Open",
+          "url": "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e",
+          "cites": [
+            "wiki:2026-11-25:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:00:46Z",
+      "until": "2026-11-25T00:01:06Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
+          "cites": [
+            "news:bbc:8ac00ea2108a"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says",
+          "cites": [
+            "news:aljazeera:3bad40b887ec"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175",
+          "cites": [
+            "news:dw:08e39bb25efc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:07Z",
+      "until": "2026-11-25T00:01:13Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-25:8"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388165699:0"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142293991:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.000803
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "wiki:2026-11-26:1",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-26T00:00:00Z",
+    "lon": 11.08,
+    "lat": 44.73,
+    "label": "Conflict: Two Italian technicians working for Rheinmetall are killed and two other people are injured in a drone strike against a location in Kuwait. Iran has been blamed for the attack but denies responsibility.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_26&oldid=1388194221",
+    "quote": "Two Italian technicians working for Rheinmetall are killed and two other people are injured in a drone strike against a location in Kuwait. Iran has been blamed for the attack but denies responsibility.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/articles/c39w9y5dx4k5o"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:bbfa2913cfd0",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "DW: Iranian drone attack kills 2 Italians in Kuwait (15:11 UTC)",
+    "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974",
+    "quote": "Iranian drone attack kills 2 Italians in Kuwait",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:56909d1daf57",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: Two Italians killed by ‘drone strike debris’ in Kuwait (16:32 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+    "quote": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:9cf58e9b5260",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Two Italians killed in strike in Kuwait, as Iran denies responsibility (21:17 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+    "quote": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q138529441:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Wikidata: \"2026 Iranian strikes on American bases in Kuwait\" is an instance of drone warfare, airstrike, missile strike",
+    "url": "https://www.wikidata.org/wiki/Q138529441",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388164524:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kuwait in the 2026 Iran war\" (revision of 2026-11-26 21:42 UTC)",
+    "quote": "Kuwait maintained a position of formal neutrality at the outset of the wider 2026 Iran war.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kuwait_in_the_2026_Iran_war&oldid=1388164524"
+  },
+  {
+    "id": "wiki:rev:1388164524:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kuwait in the 2026 Iran war\" (revision of 2026-11-26 21:42 UTC)",
+    "quote": "On 28 February 2026, during the 2026 Iran war, Iran began launching a series of retaliatory strikes on American and Kuwaiti targets within Kuwait.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kuwait_in_the_2026_Iran_war&oldid=1388164524"
+  },
+  {
+    "id": "views:en:2026_Iranian_strikes_on_Kuwait:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"2026 Iranian strikes on Kuwait\", 28 October 2026 to 26 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=2026_Iranian_strikes_on_Kuwait&range=latest-30"
+  },
+  {
+    "id": "wd:Q138529441:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iranian strikes on American bases in Kuwait\": began 28 February 2026",
+    "url": "https://www.wikidata.org/wiki/Q138529441#P580"
+  },
+  {
+    "id": "wd:Q138529441:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Iranian strikes on American bases in Kuwait\": country Kuwait",
+    "url": "https://www.wikidata.org/wiki/Q138529441#P17"
+  },
+  {
+    "id": "wiki:box:1388164524:side-1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kuwait in the 2026 Iran war\" (revision of 2026-11-26 21:42 UTC): side 1: Defensive/precautionary:",
+    "quote": "Defensive/precautionary:",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kuwait_in_the_2026_Iran_war&oldid=1388164524"
+  },
+  {
+    "id": "wiki:box:1388164524:casualties-side-1-",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kuwait in the 2026 Iran war\" (revision of 2026-11-26 21:42 UTC): Casualties (side 1): Several missiles and drones intercepted; 4 IRGC soldiers captured",
+    "quote": "Several missiles and drones intercepted; 4 IRGC soldiers captured",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kuwait_in_the_2026_Iran_war&oldid=1388164524"
+  },
+  {
+    "id": "wiki:box:1388164524:casualties",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Kuwait in the 2026 Iran war\" (revision of 2026-11-26 21:42 UTC): Casualties: 8 civilians killed, 108 injured",
+    "quote": "8 civilians killed, 108 injured",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kuwait_in_the_2026_Iran_war&oldid=1388164524"
+  }
+]

@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-next-guinea-bissau-general-election",
+  "title": "Next Guinea-Bissau general election",
+  "subtitle": "Election · 26 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:01:00Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -25.5908,
+    "south": 3.8583999999999996,
+    "east": -5.5908,
+    "north": 19.8584
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 22.409200000000055,
+      "lat": 6.70254,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:14Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:23Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:29Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:31Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:52Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:55Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:56Z",
+      "lon": -15.5908,
+      "lat": 11.1709,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:00Z",
+      "lon": -40.5908,
+      "lat": 11.1709,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "The military government in Guinea-Bissau has postponed presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations.",
+      "cites": [
+        "wiki:2026-11-26:14"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:08Z",
+      "text": "On 26 November 2026, the junta issued a decree stating that the country lacks the technical, material, and financial requirements to organize a credible vote.",
+      "cites": [
+        "wiki:rev:1388161797:6"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:15Z",
+      "text": "The vote is now set for November 2028, when voters will elect the president and members of the National People's Assembly.",
+      "cites": [
+        "wiki:rev:1388161797:0"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "text": "The report is attributed to Reuters.",
+      "cites": [
+        "wiki:2026-11-26:14"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:33Z",
+      "text": "Al Jazeera headlined the story: 'Guinea-Bissau military leaders delay presidential election until 2028.'",
+      "cites": [
+        "news:aljazeera:86d26563c1ab"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:39Z",
+      "text": "AllAfrica ran a different story, headlined 'Mozambique: EU Military Assistance to Mozambique Extended Until 2028.'",
+      "cites": [
+        "news:allafrica:5cbff078ef04"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:45Z",
+      "text": "DW headlined its coverage: 'Guinea-Bissau junta delays presidential vote for 2 years.'",
+      "cites": [
+        "news:dw:e34f489a3b6d"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:54Z",
+      "text": "Sources for this story include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata.",
+      "cites": [
+        "wiki:2026-11-26:14",
+        "views:en:Next_Guinea-Bissau_general_election:30d",
+        "wd:Q138027225:P31"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:55Z",
+      "text": "Each caption is linked to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1388161797:6"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "GW",
+    "lon": -15.5908,
+    "lat": 11.8584,
+    "label": "National People's Assembly"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:24Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-26T00:00:32Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:00:53Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-26T00:00:25Z",
+      "until": "2026-11-26T00:00:32Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/africa/guinea-bissau-delays-elections-extending-military-led-transition-year-after-coup-2026-11-26/",
+          "cites": [
+            "wiki:2026-11-26:14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:33Z",
+      "until": "2026-11-26T00:00:53Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years",
+          "cites": [
+            "news:aljazeera:86d26563c1ab"
+          ]
+        },
+        {
+          "label": "AllAfrica",
+          "text": "Open",
+          "url": "https://allafrica.com/stories/202611260073.html",
+          "cites": [
+            "news:allafrica:5cbff078ef04"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/guinea-bissau-junta-delays-presidential-vote-for-2-years/a-80068910",
+          "cites": [
+            "news:dw:e34f489a3b6d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:00:54Z",
+      "until": "2026-11-26T00:01:00Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-26:14"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388161797:6"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Next_Guinea-Bissau_general_election:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q138027225:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.001231
+  }
+}

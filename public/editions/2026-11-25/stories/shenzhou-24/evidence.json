@@ -1,0 +1,212 @@
+[
+  {
+    "id": "wiki:2026-11-25:20",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-25T00:00:00Z",
+    "lon": 68.55,
+    "lat": 29.33,
+    "label": "Science & tech: Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station, arriving aboard the Shenzhou-24 spacecraft alongside two Chinese astronauts to conduct scientific experiments during a five-day mission.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074",
+    "quote": "Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station, arriving aboard the Shenzhou-24 spacecraft alongside two Chinese astronauts to conduct scientific experiments during a five-day mission.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/china-space-station-receives-pakistani-astronaut-historic-mission"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-first-foreign-2026-11-25/"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:ef94c4539b50",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Al Jazeera: Pakistani astronaut launches into space aboard Chinese rocket (02:44 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/pakistani-astronaut-launches-into-space-aboard-chinese-rocket",
+    "quote": "Pakistani astronaut launches into space aboard Chinese rocket",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:a0d093ca339a",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "DW: China launches Shenzhou-24 to Tiangong station (02:56 UTC)",
+    "url": "https://www.dw.com/en/china-launches-shenzhou-24-to-tiangong-station/a-80042281",
+    "quote": "China launches Shenzhou-24 to Tiangong station",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:cac104bb5984",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "BBC News: Moment Chinese space mission lifts off with first Pakistan astronaut aboard (03:28 UTC)",
+    "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo",
+    "quote": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q138081643:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"Shenzhou 24\" is an instance of spaceflight",
+    "url": "https://www.wikidata.org/wiki/Q138081643",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388129318:4",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" (revision of 2026-11-26 18:55 UTC)",
+    "quote": "Shenzhou 24 launched aboard a Long March 2F/G rocket from the Jiuquan Satellite Launch Center on 25 November 2026, at 00:18:52 UTC (08:18:52 CST, local time at the launch site).",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:rev:1388129318:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" (revision of 2026-11-26 18:55 UTC)",
+    "quote": "Shenzhou 24 is an in-progress Chinese spaceflight to the Tiangong space station.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "views:en:Shenzhou_24:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Shenzhou 24\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Shenzhou_24&range=latest-30"
+  },
+  {
+    "id": "wd:Q138081643:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Shenzhou 24\": country People's Republic of China",
+    "url": "https://www.wikidata.org/wiki/Q138081643#P17"
+  },
+  {
+    "id": "wiki:box:1388129318:mission",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): mission: Tiangong space station crew transport",
+    "quote": "Tiangong space station crew transport",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:operator",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): operator: China Manned Space Agency",
+    "quote": "China Manned Space Agency",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:rocket",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): rocket: Long March 2F/G (Y24)",
+    "quote": "Long March 2F/G (Y24)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:launch-site",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): launch site: Jiuquan, LA-4/SLS-1",
+    "quote": "Jiuquan, LA-4/SLS-1",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:launched",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): launched: 25 November 2026, 00:18:52 UTC (08:18:52 CST)",
+    "quote": "25 November 2026, 00:18:52 UTC (08:18:52 CST)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:spacecraft",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): spacecraft: Shenzhou",
+    "quote": "Shenzhou",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:built-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): built by: China Aerospace Science and Technology Corporation",
+    "quote": "China Aerospace Science and Technology Corporation",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:crew",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): crew: Tang Hongbo, Wu Yi",
+    "quote": "Tang Hongbo, Wu Yi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:duration",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): duration: (in progress), 180 days (planned)",
+    "quote": "(in progress), 180 days (planned)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:landing-site",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): landing site: Inner Mongolia, China",
+    "quote": "Inner Mongolia, China",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  },
+  {
+    "id": "wiki:box:1388129318:landed",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Shenzhou 24\" infobox (revision of 2026-11-26 18:55 UTC): landed: May 2027 (planned)",
+    "quote": "May 2027 (planned)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Shenzhou_24&oldid=1388129318"
+  }
+]

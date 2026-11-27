@@ -1,0 +1,815 @@
+{
+  "version": 1,
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-27T01:18:49Z",
+  "candidates": 31,
+  "mostRead": false,
+  "stories": [
+    {
+      "slug": "egyptian-prosecutors-arrest-a-driver-whose-speeding-car-alle",
+      "lens": "general",
+      "title": "Egyptian prosecutors arrest a driver whose speeding car allegedly collided…",
+      "summary": "Egyptian prosecutors arrest a driver whose speeding car allegedly collided with a tank truck on Cairo's Ring Road yesterday, causing a fire that killed 31 people and injured 21 others.",
+      "article": {
+        "title": "2026 Giza fuel tanker explosion",
+        "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion",
+        "qid": "Q142293991"
+      },
+      "place": {
+        "name": "Cairo",
+        "lon": 31.23583333,
+        "lat": 30.04444444,
+        "country": "EG",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-26:10"
+      },
+      "continent": "Africa",
+      "heat": 100,
+      "why": [
+        "Reported by 6 outlets from 3 regions",
+        "Listed on Wikipedia's Current events",
+        "31 people involved, per the headlines",
+        "10 headlines over 20 hours"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "allafrica",
+          "title": "Egypt: Over 30 Dead After Fuel Truck Overturns Near Cairo",
+          "url": "https://allafrica.com/stories/202611260153.html",
+          "t": "2026-11-26T06:27:26Z",
+          "evidence": "news:allafrica:b352ab465009"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Highway explosion in Giza: How deadly are Egypt’s roads and railways?",
+          "url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways",
+          "t": "2026-11-26T11:22:59Z",
+          "evidence": "news:aljazeera:13da337995cf"
+        },
+        {
+          "outlet": "france24",
+          "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
+          "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns",
+          "t": "2026-11-26T11:28:29Z",
+          "evidence": "news:france24:1e2ab1d04def"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+          "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o",
+          "t": "2026-11-26T12:16:06Z",
+          "evidence": "news:bbc:846ac1e1edb6"
+        },
+        {
+          "outlet": "sky",
+          "title": "Driver suspected of causing tanker crash in Egypt that killed 31 detained",
+          "url": "https://news.sky.com/story/driver-of-car-suspected-of-causing-fuel-tanker-to-overturn-in-egypt-detained-13616933",
+          "t": "2026-11-26T17:49:00Z",
+          "evidence": "news:sky:1dd49a8bbe1b"
+        },
+        {
+          "outlet": "guardian",
+          "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+          "t": "2026-11-26T00:39:10Z",
+          "evidence": "news:guardian:7583f52321a2"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-26:10",
+        "news:allafrica:b352ab465009",
+        "news:aljazeera:13da337995cf",
+        "news:france24:1e2ab1d04def",
+        "news:bbc:846ac1e1edb6",
+        "news:sky:1dd49a8bbe1b",
+        "wd:Q142293991:P31",
+        "news:guardian:7583f52321a2"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-25",
+            "slug": "thirty-one-people-are-killed-and-21-more-injured-after-the-o",
+            "title": "Thirty-one people are killed and 21 more injured after the overturn and…"
+          }
+        ]
+      },
+      "headline": "Egyptian prosecutors arrest a driver whose speeding car allegedly collided with a tank truck on Cairo's Ring Road yesterday, causing a fire that killed 31 people and injured 21 others."
+    },
+    {
+      "slug": "spanish-economist-pablo-hernandez-de-cos-is-elected-as-the-n",
+      "lens": "economy",
+      "title": "Spanish economist Pablo Hernández de Cos is elected as the new president of…",
+      "summary": "Spanish economist Pablo Hernández de Cos is elected as the new president of the European Central Bank, succeeding French lawyer Christine Lagarde after her resignation.",
+      "place": {
+        "name": "Spain",
+        "lon": -3.46,
+        "lat": 40.09,
+        "country": "ES",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-26:5"
+      },
+      "continent": "Europe",
+      "heat": 72,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
+          "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb",
+          "t": "2026-11-26T15:55:45Z",
+          "evidence": "news:france24:8f2ca94f4b4a"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Spanish economist to become new European Central Bank chief",
+          "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief",
+          "t": "2026-11-26T16:20:54Z",
+          "evidence": "news:aljazeera:867be56d20a5"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+          "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+          "t": "2026-11-26T17:50:54Z",
+          "evidence": "news:guardian:005248df97fe"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-26:5",
+        "news:france24:8f2ca94f4b4a",
+        "news:aljazeera:867be56d20a5",
+        "news:guardian:005248df97fe"
+      ],
+      "headline": "Spanish economist Pablo Hernández de Cos is elected as the new president of the European Central Bank, succeeding French lawyer Christine Lagarde after her resignation."
+    },
+    {
+      "slug": "next-guinea-bissau-general-election",
+      "lens": "election",
+      "title": "Next Guinea-Bissau general election",
+      "summary": "The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations, extending its transition to civilian rule following the November 2025 coup.",
+      "article": {
+        "title": "Next Guinea-Bissau general election",
+        "url": "https://en.wikipedia.org/wiki/Next_Guinea-Bissau_general_election",
+        "qid": "Q138027225"
+      },
+      "place": {
+        "name": "National People's Assembly",
+        "lon": -15.5908,
+        "lat": 11.8584,
+        "country": "GW",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-26:14"
+      },
+      "continent": "Africa",
+      "heat": 69,
+      "why": [
+        "Reported by 3 outlets from 3 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Guinea-Bissau military leaders delay presidential election until 2028",
+          "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years",
+          "t": "2026-11-26T18:07:18Z",
+          "evidence": "news:aljazeera:86d26563c1ab"
+        },
+        {
+          "outlet": "allafrica",
+          "title": "Mozambique: EU Military Assistance to Mozambique Extended Until 2028",
+          "url": "https://allafrica.com/stories/202611260073.html",
+          "t": "2026-11-26T05:08:39Z",
+          "evidence": "news:allafrica:5cbff078ef04"
+        },
+        {
+          "outlet": "dw",
+          "title": "Guinea-Bissau junta delays presidential vote for 2 years",
+          "url": "https://www.dw.com/en/guinea-bissau-junta-delays-presidential-vote-for-2-years/a-80068910",
+          "t": "2026-11-26T20:09:00Z",
+          "evidence": "news:dw:e34f489a3b6d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-26:14",
+        "news:aljazeera:86d26563c1ab",
+        "wd:Q138027225:P31",
+        "news:allafrica:5cbff078ef04",
+        "news:dw:e34f489a3b6d"
+      ],
+      "headline": "The Bissau-Guinean military government postpones presidential and legislative elections from December 2026 to November 2028, citing inadequate resources and logistical preparations…"
+    },
+    {
+      "slug": "2026-iranian-strikes-on-kuwait",
+      "lens": "conflict",
+      "title": "2026 Iranian strikes on Kuwait",
+      "summary": "Two Italian technicians working for Rheinmetall are killed and two other people are injured in a drone strike against a location in Kuwait. Iran has been blamed for the attack but denies responsibility.",
+      "article": {
+        "title": "2026 Iranian strikes on Kuwait",
+        "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Kuwait",
+        "qid": "Q138529441"
+      },
+      "place": {
+        "name": "Italy",
+        "lon": 11.08,
+        "lat": 44.73,
+        "country": "IT",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-26:1"
+      },
+      "continent": "Europe",
+      "heat": 65,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Iranian drone attack kills 2 Italians in Kuwait",
+          "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974",
+          "t": "2026-11-26T15:11:00Z",
+          "evidence": "news:dw:bbfa2913cfd0"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+          "t": "2026-11-26T16:32:31Z",
+          "evidence": "news:aljazeera:56909d1daf57"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+          "t": "2026-11-26T21:17:53Z",
+          "evidence": "news:bbc:9cf58e9b5260"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-26:1",
+        "news:dw:bbfa2913cfd0",
+        "news:aljazeera:56909d1daf57",
+        "news:bbc:9cf58e9b5260",
+        "wd:Q138529441:P31"
+      ],
+      "headline": "Two Italian technicians working for Rheinmetall are killed and two other people are injured in a drone strike against a location in Kuwait. Iran has been blamed for the attack but denies responsibility."
+    },
+    {
+      "slug": "senior-hamas-security-official-killed-in-israeli-drone-strik",
+      "lens": "conflict",
+      "title": "Senior Hamas security official killed in Israeli drone strikes",
+      "summary": "Senior Hamas security official killed in Israeli drone strikes",
+      "about": "The Islamic Resistance Movement, abbreviated Hamas, is a Sunni Islamist Palestinian nationalist political organisation with a military wing known as the al-Qassam Brigades. It has governed the Israeli-occupied Gaza Strip since 2007.",
+      "article": {
+        "title": "Hamas",
+        "url": "https://en.wikipedia.org/wiki/Hamas",
+        "qid": "Q38799"
+      },
+      "place": {
+        "name": "Gaza Strip",
+        "lon": 34.45,
+        "lat": 31.5,
+        "role": "Named in the headlines"
+      },
+      "heat": 61,
+      "why": [
+        "Reported by 4 outlets from 2 regions",
+        "16 people involved, per the headlines"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo",
+          "t": "2026-11-26T10:14:08Z",
+          "evidence": "news:bbc:dea278de7192"
+        },
+        {
+          "outlet": "france24",
+          "title": "Israel threatens to displace one million Palestinians in Gaza unless Hamas disarms",
+          "url": "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+          "t": "2026-11-26T12:28:31Z",
+          "evidence": "news:france24:138d136f4246"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Why are winter rains forcing Palestinians in Gaza to flee again?",
+          "url": "https://www.aljazeera.com/news/2026/11/26/why-are-winter-rains-forcing-palestinians-in-gaza-to-flee-again",
+          "t": "2026-11-26T19:19:12Z",
+          "evidence": "news:aljazeera:087d11253c57"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
+          "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
+          "t": "2026-11-26T20:33:07Z",
+          "evidence": "news:guardian:bb1d47b33428"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:dea278de7192",
+        "news:france24:138d136f4246",
+        "news:aljazeera:087d11253c57",
+        "news:guardian:bb1d47b33428"
+      ],
+      "update": {
+        "day": 8,
+        "previous": [
+          {
+            "date": "2026-11-24",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          },
+          {
+            "date": "2026-11-23",
+            "slug": "israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-se",
+            "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank"
+          },
+          {
+            "date": "2026-11-22",
+            "slug": "israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-se",
+            "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank"
+          },
+          {
+            "date": "2026-11-19",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          }
+        ]
+      },
+      "headline": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza, BBC News reports."
+    },
+    {
+      "slug": "at-least-nine-people-are-injured",
+      "lens": "accident",
+      "title": "At least nine people are injured",
+      "summary": "At least nine people are injured, including three critically, in an explosion and fire at an Bangchak Corporation oil facility in Bangkok, Thailand.",
+      "place": {
+        "name": "Bangkok",
+        "lon": 100.49416667,
+        "lat": 13.7525,
+        "country": "TH",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-26:8"
+      },
+      "continent": "Asia",
+      "heat": 58,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "People involved, per the headlines: nine"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Explosion rocks Bangkok oil depot",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot",
+          "t": "2026-11-26T09:30:24Z",
+          "evidence": "news:aljazeera:945ae9eca94f"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+          "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo",
+          "t": "2026-11-26T16:21:19Z",
+          "evidence": "news:bbc:736700ee3456"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-26:8",
+        "news:aljazeera:945ae9eca94f",
+        "news:bbc:736700ee3456"
+      ],
+      "headline": "At least nine people are injured, including three critically, in an explosion and fire at an Bangchak Corporation oil facility in Bangkok, Thailand."
+    },
+    {
+      "slug": "king-tides-and-big-waves-batter-coastal-california",
+      "lens": "disaster",
+      "title": "King tides and big waves batter coastal California",
+      "summary": "King tides and big waves batter coastal California",
+      "place": {
+        "name": "California",
+        "lon": -120,
+        "lat": 37,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 49,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "California warns of flooding as King Tides peak over Thanksgiving",
+          "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po",
+          "t": "2026-11-26T01:22:55Z",
+          "evidence": "news:bbc:737f291db3ae"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Photos: Storms and an El Nino-charged king tide batter California’s coast",
+          "url": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast",
+          "t": "2026-11-26T01:40:13Z",
+          "evidence": "news:aljazeera:e7507e647250"
+        },
+        {
+          "outlet": "france24",
+          "title": "'King tide' waves batter California coast, soaking San Francisco",
+          "url": "https://www.france24.com/en/video/20261126-king-tide-waves-batter-california-coast-soaking-san-francisco",
+          "t": "2026-11-26T11:19:13Z",
+          "evidence": "news:france24:12556dfbd45c"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:bbc:737f291db3ae",
+        "news:aljazeera:e7507e647250",
+        "news:france24:12556dfbd45c"
+      ],
+      "update": {
+        "day": 2,
+        "previous": [
+          {
+            "date": "2026-11-25",
+            "slug": "king-tides-and-big-waves-batter-coastal-california",
+            "title": "King tides and big waves batter coastal California"
+          }
+        ]
+      },
+      "headline": "California warns of flooding as King Tides peak over Thanksgiving, BBC News reports."
+    },
+    {
+      "slug": "french-actor-gerard-depardieu-to-stand-trial-for-alleged-201",
+      "lens": "person",
+      "title": "French actor Gerard Depardieu to stand trial for alleged 2018 rape",
+      "summary": "French actor Gerard Depardieu to stand trial for alleged 2018 rape",
+      "about": "Gérard Xavier Marcel Depardieu is a French actor. Considered an icon of French cinema in the same way as Jean Gabin and Alain Delon, he has appeared in over 200 films since 1967, mostly in leading roles.",
+      "article": {
+        "title": "Gérard Depardieu",
+        "url": "https://en.wikipedia.org/wiki/G%C3%A9rard_Depardieu",
+        "qid": "Q106508"
+      },
+      "place": {
+        "name": "France",
+        "lon": 2.55,
+        "lat": 46.7,
+        "country": "FR",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 47,
+      "why": [
+        "Reported by 4 outlets from 2 regions"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "🔴 French actor Gérard Depardieu to face trial for alleged rape of actress Charlotte Arnould",
+          "url": "https://www.france24.com/en/france/20261126-french-actor-g%C3%A9rard-depardieu-to-face-trial-for-rape-his-lawyer-says",
+          "t": "2026-11-26T13:46:41Z",
+          "evidence": "news:france24:9fff05e939e0"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o",
+          "t": "2026-11-26T14:44:26Z",
+          "evidence": "news:bbc:72a1a2ada54b"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "French actor Gerard Depardieu to stand trial for alleged 2018 rape",
+          "url": "https://www.aljazeera.com/news/2026/11/26/paris-court-orders-gerard-depardieu-to-stand-trial-for-rape-sexual-assault",
+          "t": "2026-11-26T17:18:24Z",
+          "evidence": "news:aljazeera:afe8a6b43d0b"
+        },
+        {
+          "outlet": "dw",
+          "title": "Gerard Depardieu to stand trial in France for rape and sexual assault",
+          "url": "https://www.dw.com/en/gerard-depardieu-to-stand-trial-in-france-for-rape-and-sexual-assault/a-80069424",
+          "t": "2026-11-26T20:41:00Z",
+          "evidence": "news:dw:de01e99588bd"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:9fff05e939e0",
+        "news:bbc:72a1a2ada54b",
+        "news:aljazeera:afe8a6b43d0b",
+        "news:dw:de01e99588bd"
+      ],
+      "headline": "French actor Gerard Depardieu to stand trial for alleged 2018 rape, Al Jazeera reports."
+    },
+    {
+      "slug": "one-crew-member-is-killed-and-16-more-are-rescued-after-the",
+      "lens": "accident",
+      "title": "One crew member is killed and 16 more are rescued after the sinking of a…",
+      "summary": "One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker off the coast of Ibiza, Spain.",
+      "place": {
+        "name": "Malta",
+        "lon": 14.51666667,
+        "lat": 35.9,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-26:7"
+      },
+      "continent": "Africa",
+      "heat": 47,
+      "why": [
+        "Reported by 2 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Crew member dies after diesel tanker sinks off Ibiza coast",
+          "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054",
+          "t": "2026-11-26T11:58:00Z",
+          "evidence": "news:dw:ee7eaa5aee4e"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+          "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do",
+          "t": "2026-11-26T22:01:22Z",
+          "evidence": "news:bbc:9dafd6803806"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-26:7",
+        "news:dw:ee7eaa5aee4e",
+        "news:bbc:9dafd6803806"
+      ],
+      "headline": "One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker off the coast of Ibiza, Spain."
+    },
+    {
+      "slug": "the-united-states-federal-communications-commission-authoriz",
+      "lens": "science",
+      "title": "The United States Federal Communications Commission authorizes SpaceX to…",
+      "summary": "The United States Federal Communications Commission authorizes SpaceX to deploy up to one million satellites for its Starmind space-based data center network, despite concerns about space debris and interference with astronomical objects.",
+      "article": {
+        "title": "AI boom, Space policy of the United States",
+        "url": "https://en.wikipedia.org/wiki/AI_boom%2C_Space_policy_of_the_United_States"
+      },
+      "place": {
+        "name": "Federal Communications Commission",
+        "lon": -77.00722222,
+        "lat": 38.90333333,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-26:15"
+      },
+      "continent": "North America",
+      "heat": 45,
+      "why": [
+        "Reported by 2 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "US authorizes SpaceX to launch up to one million satellites for orbital data centers",
+          "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers",
+          "t": "2026-11-26T03:02:37Z",
+          "evidence": "news:france24:8ad0359762be"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+          "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+          "t": "2026-11-26T09:27:44Z",
+          "evidence": "news:bbc:3e9db239b14e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-26:15",
+        "news:france24:8ad0359762be",
+        "news:bbc:3e9db239b14e"
+      ],
+      "headline": "The United States Federal Communications Commission authorizes SpaceX to deploy up to one million satellites for its Starmind space-based data center network, despite concerns about space debris…"
+    },
+    {
+      "slug": "fifa-says-personal-and-business-information-stolen-in-cybera",
+      "lens": "sports",
+      "title": "FIFA says personal and business information stolen in cyberattack",
+      "summary": "FIFA says personal and business information stolen in cyberattack",
+      "heat": 42,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "sports",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "FIFA says personal and business information stolen in cyberattack",
+          "url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack",
+          "t": "2026-11-26T12:31:46Z",
+          "evidence": "news:aljazeera:33e92f764e36"
+        },
+        {
+          "outlet": "dw",
+          "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+          "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660",
+          "t": "2026-11-26T14:45:00Z",
+          "evidence": "news:dw:002158da7f55"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Fifa confirms cyber-attack exposed ‘personal and business information’",
+          "url": "https://www.theguardian.com/football/2026/nov/26/fifa-cyberattack-hack-personal-information",
+          "t": "2026-11-26T18:45:44Z",
+          "evidence": "news:guardian:495075d69b6b"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:33e92f764e36",
+        "news:dw:002158da7f55",
+        "news:guardian:495075d69b6b"
+      ],
+      "headline": "FIFA says personal and business information stolen in cyberattack, Al Jazeera reports."
+    },
+    {
+      "slug": "new-york-city-s-macy-s-thanksgiving-day-parade-postponed-due",
+      "lens": "culture",
+      "title": "New York City’s Macy’s Thanksgiving Day parade postponed due to weather",
+      "summary": "New York City’s Macy’s Thanksgiving Day parade postponed due to weather",
+      "about": "The Macy's Thanksgiving Day Parade is an annual parade in New York City usually held on Thanksgiving Day. It is organized and funded by the American department store chain Macy's and is the world's largest parade.",
+      "article": {
+        "title": "Macy's Thanksgiving Day Parade",
+        "url": "https://en.wikipedia.org/wiki/Macy's_Thanksgiving_Day_Parade",
+        "qid": "Q79407"
+      },
+      "place": {
+        "name": "New York",
+        "lon": -76,
+        "lat": 43,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 40,
+      "why": [
+        "Reported by 3 outlets from 2 regions"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
+          "url": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday",
+          "t": "2026-11-26T00:52:56Z",
+          "evidence": "news:aljazeera:b414d140eab3"
+        },
+        {
+          "outlet": "france24",
+          "title": "Powerful US storm forces historic postponement of New York's Thanksgiving Day Parade",
+          "url": "https://www.france24.com/en/americas/20261126-powerful-us-storm-forces-historic-postponement-of-thanksgiving-day-parade-in-new-york",
+          "t": "2026-11-26T01:11:05Z",
+          "evidence": "news:france24:c61a463d7d7e"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Macy's postpones Thanksgiving parade due to severe weather",
+          "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo",
+          "t": "2026-11-26T04:04:14Z",
+          "evidence": "news:bbc:baf26c4be0d1"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:b414d140eab3",
+        "news:france24:c61a463d7d7e",
+        "news:bbc:baf26c4be0d1"
+      ],
+      "headline": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday, Al Jazeera reports."
+    },
+    {
+      "slug": "protests-in-iraqi-kurdistan-at-plans-for-government-in-baghd",
+      "lens": "general",
+      "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+      "summary": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+      "about": "Iraqi Kurdistan or Southern Kurdistan refers to the Kurdish-populated part of northern Iraq. It is considered one of the four parts of Greater Kurdistan in West Asia, which also includes parts of southeastern Turkey (Northern Kurdistan), northern Syria (Western Kurdistan), and northwestern Iran (Eastern Kurdistan).",
+      "article": {
+        "title": "Iraqi Kurdistan",
+        "url": "https://en.wikipedia.org/wiki/Iraqi_Kurdistan",
+        "qid": "Q66711956"
+      },
+      "place": {
+        "name": "Baghdad",
+        "lon": 44.39,
+        "lat": 33.34,
+        "country": "IQ",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 39,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "politics",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Iraq denies reports of troop movements towards Kurdish region",
+          "url": "https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region",
+          "t": "2026-11-26T11:23:29Z",
+          "evidence": "news:aljazeera:8639545f92ba"
+        },
+        {
+          "outlet": "dw",
+          "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+          "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994",
+          "t": "2026-11-26T16:13:00Z",
+          "evidence": "news:dw:71d95a7c949d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:8639545f92ba",
+        "news:dw:71d95a7c949d"
+      ],
+      "headline": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings, DW reports."
+    },
+    {
+      "slug": "eu-leaders-struggle-to-agree-on-long-term-budget-49bn-ukrain",
+      "lens": "economy",
+      "title": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
+      "summary": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
+      "place": {
+        "name": "Ukraine",
+        "lon": 32.14,
+        "lat": 49.72,
+        "country": "UA",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 38,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "business",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "EU leaders seek agreement on long-term budget and Ukraine at summit",
+          "url": "https://www.dw.com/en/eu-leaders-seek-agreement-on-long-term-budget-and-ukraine-at-summit/live-80056415",
+          "t": "2026-11-26T07:31:00Z",
+          "evidence": "news:dw:9370b6a43809"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine",
+          "t": "2026-11-26T17:53:44Z",
+          "evidence": "news:aljazeera:9a0aabb9ad78"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:dw:9370b6a43809",
+        "news:aljazeera:9a0aabb9ad78"
+      ],
+      "headline": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan, Al Jazeera reports."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "outlet:aljazeera",
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "Al Jazeera",
+    "retrievedAt": "2026-11-27T01:19:30Z"
+  },
+  {
+    "id": "outlet:dw",
+    "name": "DW",
+    "url": "https://www.dw.com/en",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "DW",
+    "retrievedAt": "2026-11-27T01:19:30Z"
+  },
+  {
+    "id": "outlet:guardian",
+    "name": "The Guardian",
+    "url": "https://www.theguardian.com/world",
+    "license": "Headline and link only, quoted with attribution; © the outlet",
+    "attribution": "The Guardian",
+    "retrievedAt": "2026-11-27T01:19:30Z"
+  }
+]

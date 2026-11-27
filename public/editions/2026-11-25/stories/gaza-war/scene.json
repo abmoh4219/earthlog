@@ -1,0 +1,522 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-gaza-war",
+  "title": "Gaza war",
+  "subtitle": "Conflict · 25 November 2026 · Update, day 8",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:33Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 24.44539444,
+    "south": 23.53219722,
+    "east": 44.44539444,
+    "north": 39.53219722
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-25T00:00:40Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-25T00:00:48Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-25T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": 72.44539443999997,
+      "lat": 18.506818331999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:14Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:23Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:26Z",
+      "lon": 34.45000000000001,
+      "lat": 31.2,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:33Z",
+      "lon": 34.45000000000001,
+      "lat": 31.2,
+      "range": 1358307.7707206125,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:39Z",
+      "lon": 34.45000000000001,
+      "lat": 31.2,
+      "range": 1230000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:42Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:45Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 996092.3651951158,
+      "heading": 20.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:47Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 902000,
+      "heading": 29.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:50Z",
+      "lon": 35.211920896432,
+      "lat": 32.46849782950321,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:53Z",
+      "lon": 35.211920896432,
+      "lat": 32.46849782950321,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:56Z",
+      "lon": 35.211920896432,
+      "lat": 32.46849782950321,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:59Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:02Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:04Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:07Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:16Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:25Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:28Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:29Z",
+      "lon": 34.44539444,
+      "lat": 30.84469722,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:33Z",
+      "lon": 9.445394439999973,
+      "lat": 30.84469722,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "According to reports, a Hamas security official, his wife, and two daughters were killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City.",
+      "cites": [
+        "wiki:2026-11-25:2"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:08Z",
+      "text": "A UN report from November 2026 accused Israel of war crimes and crimes against humanity in the occupied West Bank, including extermination, torture, and sexual assault.",
+      "cites": [
+        "wiki:rev:1388101458:405"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:15Z",
+      "text": "The Gaza war is an armed conflict in the Gaza Strip and Israel, part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts.",
+      "cites": [
+        "wiki:rev:1388101458:0"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:25Z",
+      "text": "On 19 November, Gaza's health ministry reported that two people were killed by recent Israeli attacks, and two others died of their wounds over the past day.",
+      "cites": [
+        "wiki:2026-11-19:7"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:32Z",
+      "text": "On 24 November, Israel claimed to have killed Hamas security official Naeem Abu Nahel in an airstrike in the Gaza Strip.",
+      "cites": [
+        "wiki:2026-11-24:2"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:41Z",
+      "text": "On the map, the reports place the Al-Shati refugee camp near Gaza City.",
+      "cites": [
+        "wiki:2026-11-25:2"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:49Z",
+      "text": "Levant is also named in the reports.",
+      "cites": [
+        "wiki:2026-11-25:2"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:58Z",
+      "text": "Al Jazeera and Al Jazeera 2 reported the story.",
+      "cites": [
+        "wiki:2026-11-25:2"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:06Z",
+      "text": "Al Jazeera headlined it: “Israeli strike kills Hamas official, his wife and children”.",
+      "cites": [
+        "news:aljazeera:fb1846ef00ab"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:12Z",
+      "text": "BBC News headlined it: “Israeli strike kills senior Hamas security official and family in Gaza City”.",
+      "cites": [
+        "news:bbc:c49453b02b83"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:18Z",
+      "text": "The Guardian headlined it: “Palestinian journalist killed by Israel in Gaza wins Rory Peck prize”.",
+      "cites": [
+        "news:guardian:2eb146ad21c1"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:27Z",
+      "text": "Sources include Wikipedia Current events, Wikipedia articles, Wikimedia pageviews, Wikidata, and Portal:Current events/2026 November 19, and each caption links to its evidence.",
+      "cites": [
+        "wiki:2026-11-25:2",
+        "wiki:rev:1388101458:405",
+        "views:en:Gaza_war:30d",
+        "wd:Q122962941:P31",
+        "wiki:2026-11-19:7"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 34.44539444,
+    "lat": 31.53219722,
+    "label": "Al-Shati refugee camp"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:24Z",
+      "title": "How it unfolded"
+    },
+    {
+      "t": "2026-11-25T00:00:40Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-25T00:00:48Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-25T00:00:57Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-25T00:01:05Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:26Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "thread",
+      "t": "2026-11-25T00:00:25Z",
+      "until": "2026-11-25T00:00:40Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "19 November",
+          "text": "Gaza's health ministry reports that two people have been killed by recent Israeli…",
+          "cites": [
+            "wiki:2026-11-19:7"
+          ]
+        },
+        {
+          "label": "24 November",
+          "text": "Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in…",
+          "cites": [
+            "wiki:2026-11-24:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-25T00:00:58Z",
+      "until": "2026-11-25T00:01:05Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
+          "cites": [
+            "wiki:2026-11-25:2"
+          ]
+        },
+        {
+          "label": "Al Jazeera 2",
+          "text": "Open",
+          "url": "https://aje.news/0x4p9q?update=5187000",
+          "cites": [
+            "wiki:2026-11-25:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:01:06Z",
+      "until": "2026-11-25T00:01:26Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
+          "cites": [
+            "news:aljazeera:fb1846ef00ab"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo",
+          "cites": [
+            "news:bbc:c49453b02b83"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
+          "cites": [
+            "news:guardian:2eb146ad21c1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:27Z",
+      "until": "2026-11-25T00:01:33Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-25:2"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388101458:405"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Gaza_war:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q122962941:P31"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379",
+          "cites": [
+            "wiki:2026-11-19:7"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401",
+          "cites": [
+            "wiki:2026-11-24:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.001646
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "news:aljazeera:8639545f92ba",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: Iraq denies reports of troop movements towards Kurdish region (11:23 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region",
+    "quote": "Iraq denies reports of troop movements towards Kurdish region",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:71d95a7c949d",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "DW: Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings (16:13 UTC)",
+    "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994",
+    "quote": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387531219:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Iraqi Kurdistan\" (revision of 2026-11-24 11:11 UTC)",
+    "quote": "Iraqi Kurdistan or Southern Kurdistan refers to the Kurdish-populated part of northern Iraq.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Iraqi_Kurdistan&oldid=1387531219"
+  },
+  {
+    "id": "views:en:Iraqi_Kurdistan:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Iraqi Kurdistan\", 28 October 2026 to 26 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Iraqi_Kurdistan&range=latest-30"
+  },
+  {
+    "id": "wd:Q66711956:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Iraqi Kurdistan\": country Iraq",
+    "url": "https://www.wikidata.org/wiki/Q66711956#P17"
+  }
+]

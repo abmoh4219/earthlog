@@ -1,0 +1,336 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-the-united-states-federal-communications-commission-authoriz",
+  "title": "The United States Federal Communications Commission authorizes SpaceX to…",
+  "subtitle": "Science & space · 26 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:00:49Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -87.00722222,
+    "south": 30.903333330000002,
+    "east": -67.00722222,
+    "north": 46.90333333
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-26T00:00:10Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-26T00:00:10Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": -39.00722222000002,
+      "lat": 22.929499998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:07Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:09Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:12Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:15Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:17Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:20Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:23Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:28Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:35Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:41Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:44Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:45Z",
+      "lon": -77.00722222,
+      "lat": 38.21583333,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:49Z",
+      "lon": -102.00722222000002,
+      "lat": 38.21583333,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "The United States Federal Communications Commission has authorized SpaceX to deploy up to one million satellites for its Starmind space-based data center network.",
+      "cites": [
+        "wiki:2026-11-26:15"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:05Z",
+      "text": "The approval comes despite concerns about space debris and interference with astronomical objects.",
+      "cites": [
+        "wiki:2026-11-26:15"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:11Z",
+      "text": "The story is centered on the Federal Communications Commission in the United States, the body that granted the authorization.",
+      "cites": [
+        "wiki:2026-11-26:15"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:19Z",
+      "text": "The report comes from AFP.",
+      "cites": [
+        "wiki:2026-11-26:15"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:27Z",
+      "text": "France 24 headlined the story: “US authorizes SpaceX to launch up to one million satellites for orbital data centers”.",
+      "cites": [
+        "news:france24:8ad0359762be"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "text": "BBC News headlined it: “Musk's plan to send a million SpaceX data satellites into space approved”.",
+      "cites": [
+        "news:bbc:3e9db239b14e"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "text": "Sources are Wikipedia and Current events, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-26:15"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -77.00722222,
+    "lat": 38.90333333,
+    "label": "Federal Communications Commission"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-26T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:00:42Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-26T00:00:19Z",
+      "until": "2026-11-26T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/us-clears-spacex-launch-1-mn-orbital-data-center-satellites",
+          "cites": [
+            "wiki:2026-11-26:15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:27Z",
+      "until": "2026-11-26T00:00:42Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers",
+          "cites": [
+            "news:france24:8ad0359762be"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+          "cites": [
+            "news:bbc:3e9db239b14e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:00:43Z",
+      "until": "2026-11-26T00:00:49Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-26:15"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.000577
+  }
+}

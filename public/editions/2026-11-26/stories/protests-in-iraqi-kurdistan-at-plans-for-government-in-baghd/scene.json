@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-protests-in-iraqi-kurdistan-at-plans-for-government-in-baghd",
+  "title": "Iraqi Kurdistan",
+  "subtitle": "News · 26 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:00:48Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 34.39,
+    "south": 25.340000000000003,
+    "east": 54.39,
+    "north": 41.34
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-26T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-26T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 82.38999999999999,
+      "lat": 19.5915,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:10Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:16Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:19Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:22Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:24Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:27Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 1100000,
+      "heading": 0,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 1055082.9351287982,
+      "heading": 2,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:40Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 1012000,
+      "heading": 4,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:44Z",
+      "lon": 44.39,
+      "lat": 32.6525,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:48Z",
+      "lon": 19.389999999999986,
+      "lat": 32.6525,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "Protests have broken out in Iraqi Kurdistan over plans by the government in Baghdad to take over oil and border crossings, DW reports.",
+      "cites": [
+        "news:dw:71d95a7c949d"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:09Z",
+      "text": "Iraqi Kurdistan, also called Southern Kurdistan, is the Kurdish-populated part of northern Iraq.",
+      "cites": [
+        "wiki:rev:1387531219:0"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "text": "Al Jazeera's headline read: “Iraq denies reports of troop movements towards Kurdish region”.",
+      "cites": [
+        "news:aljazeera:8639545f92ba"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:33Z",
+      "text": "DW's headline read: “Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings”.",
+      "cites": [
+        "news:dw:71d95a7c949d"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:42Z",
+      "text": "This explainer draws on Al Jazeera and DW reporting, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1387531219:0",
+        "views:en:Iraqi_Kurdistan:30d",
+        "wd:Q66711956:P17"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "IQ",
+    "lon": 44.39,
+    "lat": 33.34,
+    "label": "Baghdad"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:00:41Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:26Z",
+      "until": "2026-11-26T00:00:41Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region",
+          "cites": [
+            "news:aljazeera:8639545f92ba"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994",
+          "cites": [
+            "news:dw:71d95a7c949d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:00:42Z",
+      "until": "2026-11-26T00:00:48Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387531219:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Iraqi_Kurdistan:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q66711956:P17"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.001639
+  }
+}

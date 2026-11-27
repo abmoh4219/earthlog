@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-senior-hamas-security-official-killed-in-israeli-drone-strik",
+  "title": "Hamas",
+  "subtitle": "Conflict · 26 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:01:09Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 24.450000000000003,
+    "south": 23.5,
+    "east": 44.45,
+    "north": 39.5
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-26T00:00:33Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places-thread.json",
+      "name": "thread",
+      "from": "2026-11-26T00:00:17Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs-thread.json",
+      "name": "thread",
+      "from": "2026-11-26T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 72.45000000000005,
+      "lat": 18.4875,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:10Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:16Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:19Z",
+      "lon": 34.44769761674494,
+      "lat": 31.21609863062184,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "lon": 34.44769761674494,
+      "lat": 31.21609863062184,
+      "range": 1358307.7707206125,
+      "heading": -14,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:32Z",
+      "lon": 34.44769761674494,
+      "lat": 31.21609863062184,
+      "range": 1230000,
+      "heading": -28,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:35Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:38Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 996092.3651951158,
+      "heading": 20.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:40Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 902000,
+      "heading": 29.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1100000,
+      "heading": 0,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:52Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1055082.9351287982,
+      "heading": 2,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:01Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 1012000,
+      "heading": 4,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:04Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:01:05Z",
+      "lon": 34.45,
+      "lat": 30.8125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:09Z",
+      "lon": 9.450000000000045,
+      "lat": 30.8125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "Hamas political official and wife are among eight Palestinians killed in Israeli strikes on Gaza, BBC News reports.",
+      "cites": [
+        "news:bbc:dea278de7192"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:09Z",
+      "text": "Hamas, abbreviated from the Islamic Resistance Movement, is a Sunni Islamist Palestinian nationalist political organisation with a military wing known as the al-Qassam Brigades.",
+      "cites": [
+        "wiki:rev:1388147776:0"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:18Z",
+      "text": "On 24 November, Israel claimed to have killed Hamas security official Naeem Abu Nahel in an airstrike in the Gaza Strip.",
+      "cites": [
+        "wiki:2026-11-24:2"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "text": "On 25 November, a Hamas security official, his wife, and two daughters were killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City.",
+      "cites": [
+        "wiki:2026-11-25:2"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:42Z",
+      "text": "BBC News headlined it: “Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza”.",
+      "cites": [
+        "news:bbc:dea278de7192"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:48Z",
+      "text": "France 24 headlined it: “Israel threatens to displace one million Palestinians in Gaza unless Hamas disarms”.",
+      "cites": [
+        "news:france24:138d136f4246"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:54Z",
+      "text": "Al Jazeera headlined it: “Why are winter rains forcing Palestinians in Gaza to flee again?”",
+      "cites": [
+        "news:aljazeera:087d11253c57"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:03Z",
+      "text": "This explainer draws on 4 outlets, Wikipedia articles, Wikimedia pageviews, and Wikidata, including Wikipedia current events for 2026 November 24 and 25.",
+      "cites": [
+        "wiki:rev:1388147776:0",
+        "views:en:Hamas:30d",
+        "wd:Q38799:P571",
+        "wiki:2026-11-24:2",
+        "wiki:2026-11-25:2"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 34.45,
+    "lat": 31.5,
+    "label": "Gaza Strip"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:17Z",
+      "title": "How it unfolded"
+    },
+    {
+      "t": "2026-11-26T00:00:33Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-26T00:00:41Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:01:02Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "thread",
+      "t": "2026-11-26T00:00:18Z",
+      "until": "2026-11-26T00:00:33Z",
+      "title": "The days before",
+      "note": "Earlier items under the same topic on Wikipedia's Current events.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "24 November",
+          "text": "Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in…",
+          "cites": [
+            "wiki:2026-11-24:2"
+          ]
+        },
+        {
+          "label": "25 November",
+          "text": "A Hamas security official, his wife, and two daughters…",
+          "cites": [
+            "wiki:2026-11-25:2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:42Z",
+      "until": "2026-11-26T00:01:02Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo",
+          "cites": [
+            "news:bbc:dea278de7192"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+          "cites": [
+            "news:france24:138d136f4246"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/26/why-are-winter-rains-forcing-palestinians-in-gaza-to-flee-again",
+          "cites": [
+            "news:aljazeera:087d11253c57"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
+          "cites": [
+            "news:guardian:bb1d47b33428"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:01:03Z",
+      "until": "2026-11-26T00:01:09Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388147776:0"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Hamas:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q38799:P571"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401",
+          "cites": [
+            "wiki:2026-11-24:2"
+          ]
+        },
+        {
+          "label": "Wikipedia, Portal:Current events/2026 November…",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074",
+          "cites": [
+            "wiki:2026-11-25:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.00257
+  }
+}

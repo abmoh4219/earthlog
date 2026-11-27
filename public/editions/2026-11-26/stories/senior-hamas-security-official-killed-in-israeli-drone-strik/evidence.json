@@ -1,0 +1,127 @@
+[
+  {
+    "id": "news:bbc:dea278de7192",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza (10:14 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo",
+    "quote": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:138d136f4246",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "France 24: Israel threatens to displace one million Palestinians in Gaza unless Hamas disarms (12:28 UTC)",
+    "url": "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+    "quote": "Israel threatens to displace one million Palestinians in Gaza unless Hamas disarms",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:087d11253c57",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: Why are winter rains forcing Palestinians in Gaza to flee again? (19:19 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/26/why-are-winter-rains-forcing-palestinians-in-gaza-to-flee-again",
+    "quote": "Why are winter rains forcing Palestinians in Gaza to flee again?",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:bb1d47b33428",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "The Guardian: Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says (20:33 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
+    "quote": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388147776:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Hamas\" (revision of 2026-11-26 20:23 UTC)",
+    "quote": "The Islamic Resistance Movement, abbreviated Hamas (an acronym from the ), is a Sunni Islamist Palestinian nationalist political organisation with a military wing known as the al-Qassam Brigades.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Hamas&oldid=1388147776"
+  },
+  {
+    "id": "wiki:2026-11-24:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-24",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-24: Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip.",
+    "quote": "Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401"
+  },
+  {
+    "id": "wiki:2026-11-25:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-25",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-25: A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City. Seven more Palestinians are also killed and several injured in more Israeli airstrikes.",
+    "quote": "A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074"
+  },
+  {
+    "id": "views:en:Hamas:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Hamas\", 28 October 2026 to 26 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Hamas&range=latest-30"
+  },
+  {
+    "id": "wd:Q38799:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Hamas\": founded 10 December 1987",
+    "url": "https://www.wikidata.org/wiki/Q38799#P571"
+  },
+  {
+    "id": "wd:Q38799:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Hamas\": headquarters Gaza City",
+    "url": "https://www.wikidata.org/wiki/Q38799#P159"
+  },
+  {
+    "id": "wd:Q38799:P452",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Hamas\": industry religious congregations and associations",
+    "url": "https://www.wikidata.org/wiki/Q38799#P452"
+  },
+  {
+    "id": "wd:Q38799:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Hamas\": country of origin Palestine",
+    "url": "https://www.wikidata.org/wiki/Q38799#P495"
+  },
+  {
+    "id": "wd:Q38799:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Hamas\": country Palestine",
+    "url": "https://www.wikidata.org/wiki/Q38799#P17"
+  }
+]

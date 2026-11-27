@@ -1,0 +1,770 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-musk-s-plan-to-send-a-million-spacex-data-satellites-into-sp",
+  "title": "SpaceX",
+  "subtitle": "Tech & business · 25 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:48Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -107.48,
+    "south": 31.54,
+    "east": -87.48,
+    "north": 47.54
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-25T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-25T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-25T00:00:58Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": -59.48000000000002,
+      "lat": 22.448999999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7480000.000000001,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:14Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6773428.083326788,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:23Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 6133600,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:27Z",
+      "lon": -118.348607,
+      "lat": 33.117214000000004,
+      "range": 800000,
+      "heading": 18,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:29Z",
+      "lon": -118.348607,
+      "lat": 33.117214000000004,
+      "range": 724430.8110509933,
+      "heading": 9.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:31Z",
+      "lon": -118.348607,
+      "lat": 33.117214000000004,
+      "range": 656000,
+      "heading": 0.1999999999999993,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:34Z",
+      "lon": -118.348607,
+      "lat": 31.917214,
+      "range": 2600000,
+      "heading": -10,
+      "pitch": -46,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:38Z",
+      "lon": -118.348607,
+      "lat": 31.917214,
+      "range": 2354400.1359157283,
+      "heading": 0.5,
+      "pitch": -43.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:41Z",
+      "lon": -118.348607,
+      "lat": 31.917214,
+      "range": 2132000,
+      "heading": 11,
+      "pitch": -41,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:44Z",
+      "lon": -118.348607,
+      "lat": 30.917214,
+      "range": 4000000,
+      "heading": 8,
+      "pitch": -52,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:51Z",
+      "lon": -118.348607,
+      "lat": 30.917214,
+      "range": 3622154.0552549665,
+      "heading": -6,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:57Z",
+      "lon": -118.348607,
+      "lat": 30.917214,
+      "range": 3280000,
+      "heading": -20,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:01Z",
+      "lon": -108.27889302143436,
+      "lat": 31.13996181543591,
+      "range": 6751754.034471094,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:04Z",
+      "lon": -108.27889302143436,
+      "lat": 31.13996181543591,
+      "range": 6113973.314010888,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:06Z",
+      "lon": -108.27889302143436,
+      "lat": 31.13996181543591,
+      "range": 5536438.308266296,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:10Z",
+      "lon": -118.348607,
+      "lat": 29.917214,
+      "range": 5500000,
+      "heading": 0,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:13Z",
+      "lon": -118.348607,
+      "lat": 29.917214,
+      "range": 4980461.825975579,
+      "heading": -9.7,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:15Z",
+      "lon": -118.348607,
+      "lat": 29.917214,
+      "range": 4510000,
+      "heading": -19.4,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:19Z",
+      "lon": -108.3009122352933,
+      "lat": 36.24941651453915,
+      "range": 4687814.812543683,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:22Z",
+      "lon": -108.3009122352933,
+      "lat": 36.24941651453915,
+      "range": 4244996.85838485,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:24Z",
+      "lon": -108.3009122352933,
+      "lat": 36.24941651453915,
+      "range": 3844008.14628582,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:27Z",
+      "lon": -108.3009122352933,
+      "lat": 36.24941651453915,
+      "range": 4687814.812543683,
+      "heading": -12,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:34Z",
+      "lon": -108.3009122352933,
+      "lat": 36.24941651453915,
+      "range": 4496394.01068986,
+      "heading": -10,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:40Z",
+      "lon": -108.3009122352933,
+      "lat": 36.24941651453915,
+      "range": 4312789.627540188,
+      "heading": -8,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:44Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 8840000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:45Z",
+      "lon": -97.48,
+      "lat": 37.415,
+      "range": 7248800,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:48Z",
+      "lon": -122.48000000000002,
+      "lat": 37.415,
+      "range": 21746400,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "According to Sky News, the US has authorised SpaceX to deploy one million satellites.",
+      "cites": [
+        "news:sky:b394be56452d"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:08Z",
+      "text": "On November 25, 2026, the Federal Communications Commission granted SpaceX's application in part to launch and operate Starmind as a constellation of up to one million satellites.",
+      "cites": [
+        "wiki:rev:1388160214:211"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:15Z",
+      "text": "Space Exploration Technologies Corp., known as SpaceX, is an American conglomerate working in aerospace manufacturing, space transportation, telecommunications, infrastructure and artificial intelligence services.",
+      "cites": [
+        "wiki:rev:1388160214:0"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:25Z",
+      "text": "Wikidata records SpaceX as headquartered in Hawthorne, United States.",
+      "cites": [
+        "wd:Q193701:P159"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:33Z",
+      "text": "SpaceX was founded in 2002 by Elon Musk, who is also its chief executive.",
+      "cites": [
+        "wd:Q193701:P571",
+        "wd:Q193701:P112",
+        "wd:Q193701:P169"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:43Z",
+      "text": "Recorded revenue reached $10.4 billion in 2023 and $18.7 billion in 2025.",
+      "cites": [
+        "wd:Q193701:P2139:series"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:50Z",
+      "text": "Staff grew from 160 in 2005 to 22,000 in 2026.",
+      "cites": [
+        "wd:Q193701:P1128:series"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:59Z",
+      "text": "Wikidata lists X Corp., SpaceX Super Intelligence and Starbase among the companies it owns or has as subsidiaries.",
+      "cites": [
+        "wd:Q193701:P355:Q117617480",
+        "wd:Q193701:P355:Q120599684",
+        "wd:Q193701:P1830:Q16950811"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:08Z",
+      "text": "Hacker News carried 232 stories with SpaceX in the title in the 14 days to 25 November 2026.",
+      "cites": [
+        "hn:2026-11-25:Q193701"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:26Z",
+      "text": "Sky News headlined its report, US authorises SpaceX to deploy one million satellites to space.",
+      "cites": [
+        "news:sky:b394be56452d"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:33Z",
+      "text": "Al Jazeera headlined its report, US grants SpaceX approval for 1 million space data centres.",
+      "cites": [
+        "news:aljazeera:94b8395d382f"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:42Z",
+      "text": "The sources are Sky News, Al Jazeera, Wikipedia, Wikidata, Wikimedia pageviews and Hacker News, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1388160214:211",
+        "views:en:SpaceX:30d",
+        "wd:Q193701:P571",
+        "hn:2026-11-25:Q193701"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -97.48,
+    "lat": 39.54,
+    "label": "United States of America"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:24Z",
+      "title": "Headquarters"
+    },
+    {
+      "t": "2026-11-25T00:00:32Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-25T00:00:42Z",
+      "title": "The numbers"
+    },
+    {
+      "t": "2026-11-25T00:00:58Z",
+      "title": "Footprint"
+    },
+    {
+      "t": "2026-11-25T00:01:07Z",
+      "title": "Tech talk"
+    },
+    {
+      "t": "2026-11-25T00:01:16Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-25T00:01:25Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:41Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-25T00:00:33Z",
+      "until": "2026-11-25T00:00:42Z",
+      "title": "On record: SpaceX",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Founded",
+          "text": "14 March 2002",
+          "cites": [
+            "wd:Q193701:P571"
+          ]
+        },
+        {
+          "label": "Founded by",
+          "text": "Elon Musk",
+          "cites": [
+            "wd:Q193701:P112"
+          ]
+        },
+        {
+          "label": "Chief executive",
+          "text": "Elon Musk",
+          "cites": [
+            "wd:Q193701:P169"
+          ]
+        },
+        {
+          "label": "Industry",
+          "text": "space industry",
+          "cites": [
+            "wd:Q193701:P452"
+          ]
+        },
+        {
+          "label": "Owned by",
+          "text": "Alphabet Inc.",
+          "cites": [
+            "wd:Q193701:P127"
+          ]
+        },
+        {
+          "label": "Listed on",
+          "text": "Nasdaq",
+          "cites": [
+            "wd:Q193701:P414"
+          ]
+        },
+        {
+          "label": "Employees",
+          "text": "22,000 (2026)",
+          "cites": [
+            "wd:Q193701:P1128:latest"
+          ]
+        },
+        {
+          "label": "Website",
+          "text": "spacex.com",
+          "url": "https://spacex.com",
+          "cites": [
+            "wd:Q193701:P856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revenue",
+      "t": "2026-11-25T00:00:43Z",
+      "until": "2026-11-25T00:00:58Z",
+      "title": "Revenue (USD)",
+      "note": "As recorded in Wikidata.",
+      "kind": "line",
+      "unit": "per year",
+      "series": [
+        {
+          "label": "Revenue",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "2023",
+              "y": 10387000000
+            },
+            {
+              "x": "2024",
+              "y": 14015000000
+            },
+            {
+              "x": "2025",
+              "y": 18674000000
+            }
+          ],
+          "cites": [
+            "wd:Q193701:P2139:series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "staff",
+      "t": "2026-11-25T00:00:43Z",
+      "until": "2026-11-25T00:00:58Z",
+      "title": "Employees",
+      "note": "As recorded in Wikidata.",
+      "kind": "line",
+      "unit": "people",
+      "series": [
+        {
+          "label": "Employees",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "2005",
+              "y": 160
+            },
+            {
+              "x": "2008",
+              "y": 500
+            },
+            {
+              "x": "2010",
+              "y": 1100
+            },
+            {
+              "x": "2012",
+              "y": 1800
+            },
+            {
+              "x": "2013",
+              "y": 3800
+            },
+            {
+              "x": "2015",
+              "y": 3500
+            },
+            {
+              "x": "2016",
+              "y": 5000
+            },
+            {
+              "x": "2017",
+              "y": 7000
+            },
+            {
+              "x": "2020",
+              "y": 7000
+            },
+            {
+              "x": "2022",
+              "y": 12000
+            },
+            {
+              "x": "2026",
+              "y": 22000
+            }
+          ],
+          "cites": [
+            "wd:Q193701:P1128:series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hn",
+      "t": "2026-11-25T00:01:08Z",
+      "until": "2026-11-25T00:01:16Z",
+      "title": "Hacker News stories a day",
+      "note": "Stories with \"SpaceX\" in the title, over 14 days.",
+      "kind": "line",
+      "unit": "stories",
+      "series": [
+        {
+          "label": "SpaceX",
+          "color": "#4cc9e8",
+          "points": [
+            {
+              "x": "11-12",
+              "y": 4
+            },
+            {
+              "x": "11-13",
+              "y": 1
+            },
+            {
+              "x": "11-14",
+              "y": 4
+            },
+            {
+              "x": "11-15",
+              "y": 2
+            },
+            {
+              "x": "11-16",
+              "y": 3
+            },
+            {
+              "x": "11-17",
+              "y": 2
+            },
+            {
+              "x": "11-18",
+              "y": 1
+            },
+            {
+              "x": "11-19",
+              "y": 0
+            },
+            {
+              "x": "11-20",
+              "y": 2
+            },
+            {
+              "x": "11-21",
+              "y": 3
+            },
+            {
+              "x": "11-22",
+              "y": 2
+            },
+            {
+              "x": "11-23",
+              "y": 6
+            },
+            {
+              "x": "11-24",
+              "y": 58
+            },
+            {
+              "x": "11-25",
+              "y": 144
+            }
+          ],
+          "cites": [
+            "hn:2026-11-25:Q193701"
+          ]
+        }
+      ],
+      "mark": 13
+    },
+    {
+      "id": "hn-top",
+      "t": "2026-11-25T00:01:08Z",
+      "until": "2026-11-25T00:01:16Z",
+      "title": "Most discussed",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1767 points",
+          "text": "SpaceX catches the Starship to end Flight 15",
+          "url": "https://news.ycombinator.com/item?id=50500963",
+          "cites": [
+            "hn:2026-11-25:Q193701"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:01:26Z",
+      "until": "2026-11-25T00:01:41Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493",
+          "cites": [
+            "news:sky:b394be56452d"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres",
+          "cites": [
+            "news:aljazeera:94b8395d382f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:42Z",
+      "until": "2026-11-25T00:01:48Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388160214:211"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:SpaceX:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q193701:P571"
+          ]
+        },
+        {
+          "label": "Hacker News (via the Algolia search API)",
+          "text": "No licence stated: story counts ",
+          "url": "https://news.ycombinator.com/",
+          "cites": [
+            "hn:2026-11-25:Q193701"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.003699
+  }
+}

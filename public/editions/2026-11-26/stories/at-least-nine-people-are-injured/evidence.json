@@ -1,0 +1,40 @@
+[
+  {
+    "id": "wiki:2026-11-26:8",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-26T00:00:00Z",
+    "lon": 100.49416667,
+    "lat": 13.7525,
+    "label": "Disaster: At least nine people are injured, including three critically, in an explosion and fire at an Bangchak Corporation oil facility in Bangkok, Thailand.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_26&oldid=1388194221",
+    "quote": "At least nine people are injured, including three critically, in an explosion and fire at an Bangchak Corporation oil facility in Bangkok, Thailand.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/thailand-bangkok-explosion-oil-facility-e8098146bfb994dffc14448b1027c5d1"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:945ae9eca94f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: Explosion rocks Bangkok oil depot (09:30 UTC)",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot",
+    "quote": "Explosion rocks Bangkok oil depot",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:736700ee3456",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Nine injured, three critically, after Bangkok oil refinery explosion (16:21 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo",
+    "quote": "Nine injured, three critically, after Bangkok oil refinery explosion",
+    "precision": "day"
+  }
+]

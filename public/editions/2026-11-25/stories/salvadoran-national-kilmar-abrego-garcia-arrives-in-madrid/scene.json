@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-salvadoran-national-kilmar-abrego-garcia-arrives-in-madrid",
+  "title": "Salvadoran national Kilmar Abrego Garcia arrives in Madrid",
+  "subtitle": "News · 25 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:08Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -13.7033,
+    "south": 32.4169,
+    "east": 6.2966999999999995,
+    "north": 48.4169
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-25T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-25T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": 34.29669999999999,
+      "lat": 23.837639999999997,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:14Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:23Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:26Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:29Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:31Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:34Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:37Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:39Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:42Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:51Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:00Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:03Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:04Z",
+      "lon": -3.7033,
+      "lat": 39.7294,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:08Z",
+      "lon": -28.703300000000013,
+      "lat": 39.7294,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "Salvadoran national Kilmar Abrego Garcia has arrived in Madrid, Spain, after voluntarily leaving the United States, following a legal dispute over his deportation to El Salvador in March 2025.",
+      "cites": [
+        "wiki:2026-11-25:15"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:08Z",
+      "text": "A federal judge ordered him to leave the US by November 24, 2026, and he self-deported to Spain by that deadline, avoiding deportation to Africa.",
+      "cites": [
+        "wiki:rev:1388143927:14"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:15Z",
+      "text": "According to the Wikipedia article, Kilmar Armando Ábrego García was illegally deported to El Salvador on March 15, 2025, by the U.S. government, which called it \"an administrative error\".",
+      "cites": [
+        "wiki:rev:1388143927:0"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:25Z",
+      "text": "The map shows Madrid, Spain, the location where reports place him.",
+      "cites": [
+        "wiki:2026-11-25:15"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:33Z",
+      "text": "The story is reported by AFP via RFI and Reuters.",
+      "cites": [
+        "wiki:2026-11-25:15"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:41Z",
+      "text": "BBC News headlined the story: \"Kilmar Ábrego García arrives in Spain, ending Trump deportation battle\".",
+      "cites": [
+        "news:bbc:6b93b27b01b3"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:47Z",
+      "text": "Al Jazeera headlined it: \"Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle\".",
+      "cites": [
+        "news:aljazeera:dbd05e9113fe"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:53Z",
+      "text": "The Guardian headlined it: \"Kilmar Ábrego García, target of Trump's immigration crackdown, lands in Spain after 'leaving happy'\".",
+      "cites": [
+        "news:guardian:0ef9df2957b1"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:02Z",
+      "text": "Sources include Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-25:15",
+        "wiki:rev:1388143927:14",
+        "views:en:Deportation_of_Kilmar_Abrego_Garcia:30d",
+        "wd:Q133798584:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "ES",
+    "lon": -3.7033,
+    "lat": 40.4169,
+    "label": "Madrid"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-25T00:00:32Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-25T00:00:40Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:01Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-25T00:00:33Z",
+      "until": "2026-11-25T00:00:40Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP via RFI",
+          "text": "Open",
+          "url": "https://www.rfi.fr/en/international-news/20261125-wrongly-deported-salvadoran-man-arrives-in-spain-from-us",
+          "cites": [
+            "wiki:2026-11-25:15"
+          ]
+        },
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/world/americas/salvadoran-migrant-kilmar-abrego-garcia-lands-spain-after-us-departure-deal-2026-11-25/",
+          "cites": [
+            "wiki:2026-11-25:15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:00:41Z",
+      "until": "2026-11-25T00:01:01Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
+          "cites": [
+            "news:bbc:6b93b27b01b3"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
+          "cites": [
+            "news:aljazeera:dbd05e9113fe"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+          "cites": [
+            "news:guardian:0ef9df2957b1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:02Z",
+      "until": "2026-11-25T00:01:08Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-25:15"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388143927:14"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Deportation_of_Kilmar_Abrego_Garcia:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q133798584:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.002012
+  }
+}

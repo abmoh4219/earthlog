@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-one-crew-member-is-killed-and-16-more-are-rescued-after-the",
+  "title": "One crew member is killed and 16 more are rescued after the sinking of a…",
+  "subtitle": "Accident · 26 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:00:49Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 4.516666669999999,
+    "south": 27.9,
+    "east": 24.51666667,
+    "north": 43.9
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-26T00:00:10Z"
+    },
+    {
+      "kind": "terrain",
+      "file": "data/terrain.json"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 52.51666666999995,
+      "lat": 21.127499999999998,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:07Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2191403.2034292547,
+      "heading": 22.5,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:09Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1984399.9999999998,
+      "heading": 33,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:12Z",
+      "lon": 14.51666667,
+      "lat": 35.9,
+      "range": 110000,
+      "heading": 24,
+      "pitch": -24,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:15Z",
+      "lon": 14.51666667,
+      "lat": 35.9,
+      "range": 99609.23651951159,
+      "heading": 15.1,
+      "pitch": -21.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:17Z",
+      "lon": 14.51666667,
+      "lat": 35.9,
+      "range": 90200,
+      "heading": 6.199999999999999,
+      "pitch": -19,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:20Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:23Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:28Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:35Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:41Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:44Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:45Z",
+      "lon": 14.51666667,
+      "lat": 35.2125,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:49Z",
+      "lon": -10.48333333000005,
+      "lat": 35.2125,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "One crew member is killed and 16 more are rescued after a Malta-flagged tanker sinks off the coast of Ibiza, Spain.",
+      "cites": [
+        "wiki:2026-11-26:7"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:11Z",
+      "text": "The tanker was Malta-flagged, and the sinking took place off the coast of Ibiza, Spain.",
+      "cites": [
+        "wiki:2026-11-26:7"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:19Z",
+      "text": "Reuters reported the event.",
+      "cites": [
+        "wiki:2026-11-26:7"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:27Z",
+      "text": "DW headlined the story: “Crew member dies after diesel tanker sinks off Ibiza coast.”",
+      "cites": [
+        "news:dw:ee7eaa5aee4e"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "text": "BBC News headlined it: “Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one.”",
+      "cites": [
+        "news:bbc:9dafd6803806"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "text": "The sources for this story are Wikipedia and Current events, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-26:7"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "lon": 14.51666667,
+    "lat": 35.9,
+    "label": "Malta"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:10Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-26T00:00:18Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:00:42Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-26T00:00:19Z",
+      "until": "2026-11-26T00:00:26Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Reuters",
+          "text": "Open",
+          "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/",
+          "cites": [
+            "wiki:2026-11-26:7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:27Z",
+      "until": "2026-11-26T00:00:42Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054",
+          "cites": [
+            "news:dw:ee7eaa5aee4e"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do",
+          "cites": [
+            "news:bbc:9dafd6803806"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:00:43Z",
+      "until": "2026-11-26T00:00:49Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-26:7"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.000547
+  }
+}

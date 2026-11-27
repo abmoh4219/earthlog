@@ -1,0 +1,70 @@
+[
+  {
+    "id": "news:allafrica:58a4c6c27088",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "AllAfrica: Senegal/Morocco: Senegal Reclaim Africa Cup of Nations Title After 11-Month Legal Fight (04:52 UTC)",
+    "url": "https://allafrica.com/stories/202611250054.html",
+    "quote": "Senegal/Morocco: Senegal Reclaim Africa Cup of Nations Title After 11-Month Legal Fight",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:b8d22887fdd6",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "France 24: AFCON 2025: CAS gives title back to Senegal as Morocco vows to challenge verdict (06:20 UTC)",
+    "url": "https://www.france24.com/en/tv-shows/sports/20261125-2025-afcon-cas-gives-title-to-senegal-as-morocco-vows-to-challenge-verdict",
+    "quote": "AFCON 2025: CAS gives title back to Senegal as Morocco vows to challenge verdict",
+    "precision": "day"
+  },
+  {
+    "id": "news:npr:503d36725e02",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "NPR: Africa Cup title given back to Senegal after sports court rules against Morocco (06:43 UTC)",
+    "url": "https://www.npr.org/2026/11/25/nx-s1-6053783/africa-cup-senegal-morocco",
+    "quote": "Africa Cup title given back to Senegal after sports court rules against Morocco",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388025365:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Senegal\" (revision of 2026-11-26 10:31 UTC)",
+    "quote": "Senegal, officially the Republic of Senegal, is the westernmost country of mainland West Africa, situated along the Atlantic Ocean coast.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Senegal&oldid=1388025365"
+  },
+  {
+    "id": "views:en:Senegal:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Senegal\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Senegal&range=latest-30"
+  },
+  {
+    "id": "wd:Q1041:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Senegal\": founded 1960",
+    "url": "https://www.wikidata.org/wiki/Q1041#P571"
+  },
+  {
+    "id": "wd:Q1041:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Senegal\": country Senegal",
+    "url": "https://www.wikidata.org/wiki/Q1041#P17"
+  }
+]

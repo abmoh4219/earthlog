@@ -1,0 +1,162 @@
+[
+  {
+    "id": "wiki:2026-11-25:11",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-25T00:00:00Z",
+    "lon": -91.24472222,
+    "lat": 40.79055556,
+    "label": "Health & environment: The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa, citing spontaneous explosion risks.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074",
+    "quote": "The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa, citing spontaneous explosion risks.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/us-army-detonates-toxic-explosives-iowa-despite-contamination-fears"
+      },
+      {
+        "name": "CNN",
+        "url": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation"
+      }
+    ]
+  },
+  {
+    "id": "views:en:Iowa_lead_azide_detonation:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "English Wikipedia: 78,852 readers of \"Iowa lead azide detonation\" on 25 Nov 2026",
+    "value": 78852,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Iowa_lead_azide_detonation:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "\"Iowa lead azide detonation\": no readers 8 to 60 days before (a new article)",
+    "value": 0,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation",
+    "precision": "day"
+  },
+  {
+    "id": "news:npr:7c35b68fa871",
+    "kind": "report",
+    "source": "outlet:npr",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "NPR: Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S. (12:18 UTC)",
+    "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
+    "quote": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:1c639daeb6d8",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Al Jazeera: US Army declares Iowa lead azide detonation ‘tremendously successful’ (19:41 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful",
+    "quote": "US Army declares Iowa lead azide detonation ‘tremendously successful’",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142278417:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"Iowa lead azide detonation\" is an instance of detonation",
+    "url": "https://www.wikidata.org/wiki/Q142278417",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:47ff290bf9f5",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "The Guardian: US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving (00:33 UTC)",
+    "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
+    "quote": "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:f6ef8ccc10cd",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "DW: US Army to detonate unstable lead-based explosives in Iowa (11:33 UTC)",
+    "url": "https://www.dw.com/en/us-army-to-detonate-unstable-lead-based-explosives-in-iowa/a-80043319",
+    "quote": "US Army to detonate unstable lead-based explosives in Iowa",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:881956a58273",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "France 24: US Army detonates lead explosives in Iowa despite contamination fears (16:08 UTC)",
+    "url": "https://www.france24.com/en/americas/20261125-us-army-detonates-lead-explosives-iowa-despite-community-backlash",
+    "quote": "US Army detonates lead explosives in Iowa despite contamination fears",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388177974:97",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Iowa lead azide detonation\" (revision of 2026-11-26 22:45 UTC)",
+    "quote": "The Army rescheduled the detonation to Wednesday, November 25, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Iowa_lead_azide_detonation&oldid=1388177974"
+  },
+  {
+    "id": "wiki:rev:1388177974:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Iowa lead azide detonation\" (revision of 2026-11-26 22:45 UTC)",
+    "quote": "At exactly 9:00 am CST (15:00 UTC) on November 25, 2026, the United States Army detonated approximately 9500 lb of lead azide stored at the Iowa Army Ammunition Plant near Middletown, Iowa.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Iowa_lead_azide_detonation&oldid=1388177974"
+  },
+  {
+    "id": "views:en:Iowa_lead_azide_detonation:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Iowa lead azide detonation\", 24 November 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Iowa_lead_azide_detonation&range=latest-30"
+  },
+  {
+    "id": "wd:Q142278417:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Iowa lead azide detonation\": date 25 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142278417#P585"
+  },
+  {
+    "id": "wd:Q142278417:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Iowa lead azide detonation\": location Iowa",
+    "url": "https://www.wikidata.org/wiki/Q142278417#P276"
+  },
+  {
+    "id": "wd:Q142278417:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Iowa lead azide detonation\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q142278417#P17"
+  }
+]

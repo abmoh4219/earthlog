@@ -1,0 +1,286 @@
+[
+  {
+    "id": "views:en:Andy_Taylor_(guitarist):2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "English Wikipedia: 135,665 readers of \"Andy Taylor (guitarist)\" on 25 Nov 2026",
+    "value": 135665,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Andy_Taylor_(guitarist)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Andy_Taylor_(guitarist):prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "\"Andy Taylor (guitarist)\": normally a median of 603 readers a day (8 to 60 days before)",
+    "value": 603,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Andy_Taylor_(guitarist)",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Duran_Duran:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "English Wikipedia: 63,746 readers of \"Duran Duran\" on 25 Nov 2026",
+    "value": 63746,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Duran_Duran",
+    "precision": "day"
+  },
+  {
+    "id": "views:en:Duran_Duran:prior",
+    "kind": "baseline",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "\"Duran Duran\": normally a median of 2,865 readers a day (8 to 60 days before)",
+    "value": 2865,
+    "unit": "readers",
+    "url": "https://en.wikipedia.org/wiki/Duran_Duran",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:e1b7f742aed7",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "DW: Duran Duran guitarist Andy Taylor dies at 65 (22:53 UTC)",
+    "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654",
+    "quote": "Duran Duran guitarist Andy Taylor dies at 65",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q527834:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"Andy Taylor\" is an instance of human",
+    "url": "https://www.wikidata.org/wiki/Q527834",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:779cda796145",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "The Guardian: Andy Taylor, guitarist in Duran Duran, dies aged 65 (21:41 UTC)",
+    "url": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
+    "quote": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:01e95180931c",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "France 24: Duran Duran guitarist Andy Taylor dies aged 65 (23:37 UTC)",
+    "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
+    "quote": "Duran Duran guitarist Andy Taylor dies aged 65",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388187764:1",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Andy Taylor (guitarist)\" (revision of 2026-11-26 23:54 UTC)",
+    "quote": "He also recorded and performed as a solo artist, and served as a guitarist, songwriter, and record producer for artists including Robert Palmer, Rod Stewart, the Almighty, Love and Money, Mark Shaw, Then Jerico and Belinda Carlisle.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Andy_Taylor_(guitarist)&oldid=1388187764"
+  },
+  {
+    "id": "wiki:rev:1388187764:3",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Andy Taylor (guitarist)\" (revision of 2026-11-26 23:54 UTC)",
+    "quote": "His mother abandoned his family at age 11, which affected him deeply, but he found refuge in the music of hard rock bands such as AC/DC and Van Halen.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Andy_Taylor_(guitarist)&oldid=1388187764"
+  },
+  {
+    "id": "wiki:rev:1388187764:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Andy Taylor (guitarist)\" (revision of 2026-11-26 23:54 UTC)",
+    "quote": "Andrew James Taylor (16 February 1961 – 23 November 2026) was an English guitarist, best known as a member of Duran Duran and the Power Station.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Andy_Taylor_(guitarist)&oldid=1388187764"
+  },
+  {
+    "id": "views:en:Andy_Taylor_(guitarist):30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Andy Taylor (guitarist)\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Andy_Taylor_(guitarist)&range=latest-30"
+  },
+  {
+    "id": "views:en:Duran_Duran:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Duran Duran\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Duran_Duran&range=latest-30"
+  },
+  {
+    "id": "views:it:Andy_Taylor:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Italian Wikipedia: 15,275 readers of \"Andy Taylor\" on 25 November 2026",
+    "value": 15275,
+    "unit": "readers",
+    "url": "https://it.wikipedia.org/wiki/Andy_Taylor"
+  },
+  {
+    "id": "views:es:Andy_Taylor:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Spanish Wikipedia: 6,549 readers of \"Andy Taylor\" on 25 November 2026",
+    "value": 6549,
+    "unit": "readers",
+    "url": "https://es.wikipedia.org/wiki/Andy_Taylor"
+  },
+  {
+    "id": "views:de:Andy_Taylor_(Musiker):2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "German Wikipedia: 4,882 readers of \"Andy Taylor (Musiker)\" on 25 November 2026",
+    "value": 4882,
+    "unit": "readers",
+    "url": "https://de.wikipedia.org/wiki/Andy_Taylor_(Musiker)"
+  },
+  {
+    "id": "views:fr:Andy_Taylor:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "French Wikipedia: 2,913 readers of \"Andy Taylor\" on 25 November 2026",
+    "value": 2913,
+    "unit": "readers",
+    "url": "https://fr.wikipedia.org/wiki/Andy_Taylor"
+  },
+  {
+    "id": "views:pt:Andy_Taylor:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Portuguese Wikipedia: 2,848 readers of \"Andy Taylor\" on 25 November 2026",
+    "value": 2848,
+    "unit": "readers",
+    "url": "https://pt.wikipedia.org/wiki/Andy_Taylor"
+  },
+  {
+    "id": "views:nl:Andy_Taylor_(gitarist):2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Dutch Wikipedia: 2,061 readers of \"Andy Taylor (gitarist)\" on 25 November 2026",
+    "value": 2061,
+    "unit": "readers",
+    "url": "https://nl.wikipedia.org/wiki/Andy_Taylor_(gitarist)"
+  },
+  {
+    "id": "views:pl:Andy_Taylor:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Polish Wikipedia: 599 readers of \"Andy Taylor\" on 25 November 2026",
+    "value": 599,
+    "unit": "readers",
+    "url": "https://pl.wikipedia.org/wiki/Andy_Taylor"
+  },
+  {
+    "id": "views:ru:Тейлор,_Энди:2026-11-25",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Russian Wikipedia: 371 readers of \"Тейлор, Энди\" on 25 November 2026",
+    "value": 371,
+    "unit": "readers",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%B9%D0%BB%D0%BE%D1%80%2C_%D0%AD%D0%BD%D0%B4%D0%B8"
+  },
+  {
+    "id": "wd:Q527834:P569",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Andy Taylor\": born 16 February 1961",
+    "url": "https://www.wikidata.org/wiki/Q527834#P569"
+  },
+  {
+    "id": "wd:Q527834:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Andy Taylor\": birthplace Tynemouth",
+    "url": "https://www.wikidata.org/wiki/Q527834#P19"
+  },
+  {
+    "id": "wd:Q527834:P570",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Andy Taylor\": died 23 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q527834#P570"
+  },
+  {
+    "id": "wd:Q527834:P20",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Andy Taylor\": place of death Ibiza",
+    "url": "https://www.wikidata.org/wiki/Q527834#P20"
+  },
+  {
+    "id": "wd:Q527834:P106",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Andy Taylor\": occupation guitarist, songwriter",
+    "url": "https://www.wikidata.org/wiki/Q527834#P106"
+  },
+  {
+    "id": "wd:Q527834:P27",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Andy Taylor\": citizenship United Kingdom",
+    "url": "https://www.wikidata.org/wiki/Q527834#P27"
+  },
+  {
+    "id": "wd:Q527834:P69:Q6758635",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Andy Taylor\": educated at Marden High School",
+    "url": "https://www.wikidata.org/wiki/Q527834#P69"
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "news:sky:b394be56452d",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Sky News: US authorises SpaceX to deploy one million satellites to space (18:03 UTC)",
+    "url": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493",
+    "quote": "US authorises SpaceX to deploy one million satellites to space",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:94b8395d382f",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Al Jazeera: US grants SpaceX approval for 1 million space data centres (19:13 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres",
+    "quote": "US grants SpaceX approval for 1 million space data centres",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388160214:211",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"SpaceX\" (revision of 2026-11-26 21:20 UTC)",
+    "quote": "On November 25, 2026, the Federal Communications Commission granted in part SpaceX's application to launch and operate Starmind as a constellation of up to one million satellites.",
+    "url": "https://en.wikipedia.org/w/index.php?title=SpaceX&oldid=1388160214"
+  },
+  {
+    "id": "wiki:rev:1388160214:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"SpaceX\" (revision of 2026-11-26 21:20 UTC)",
+    "quote": "Space Exploration Technologies Corp., doing business as SpaceX, is an American conglomerate which is a aerospace manufacturer and provider of space transportation, telecommunications, infrastructure, and artificial intelligence (AI) services, headquartered at the Starbase development site in Starbase, Texas.",
+    "url": "https://en.wikipedia.org/w/index.php?title=SpaceX&oldid=1388160214"
+  },
+  {
+    "id": "views:en:SpaceX:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"SpaceX\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=SpaceX&range=latest-30"
+  },
+  {
+    "id": "wd:Q193701:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": founded 14 March 2002",
+    "url": "https://www.wikidata.org/wiki/Q193701#P571"
+  },
+  {
+    "id": "wd:Q193701:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": headquarters Hawthorne, Brownsville",
+    "url": "https://www.wikidata.org/wiki/Q193701#P159"
+  },
+  {
+    "id": "wd:Q193701:P452",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": industry space industry",
+    "url": "https://www.wikidata.org/wiki/Q193701#P452"
+  },
+  {
+    "id": "wd:Q193701:P1128",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": employees 160",
+    "url": "https://www.wikidata.org/wiki/Q193701#P1128"
+  },
+  {
+    "id": "wd:Q193701:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": country United States",
+    "url": "https://www.wikidata.org/wiki/Q193701#P17"
+  },
+  {
+    "id": "hn:2026-11-25:Q193701",
+    "kind": "sensor",
+    "source": "hackernews",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Hacker News: 232 stories with \"SpaceX\" in the title in the 14 days to 25 November 2026",
+    "value": 232,
+    "unit": "stories",
+    "url": "https://hn.algolia.com/?q=SpaceX&type=story&dateRange=pastMonth"
+  },
+  {
+    "id": "wd:Q193701:P112",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": founded by: Elon Musk",
+    "url": "https://www.wikidata.org/wiki/Q193701#P112"
+  },
+  {
+    "id": "wd:Q193701:P169",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": chief executive: Elon Musk",
+    "url": "https://www.wikidata.org/wiki/Q193701#P169"
+  },
+  {
+    "id": "wd:Q193701:P127",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": owned by: Alphabet Inc.",
+    "url": "https://www.wikidata.org/wiki/Q193701#P127"
+  },
+  {
+    "id": "wd:Q193701:P414",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": listed on: Nasdaq",
+    "url": "https://www.wikidata.org/wiki/Q193701#P414"
+  },
+  {
+    "id": "wd:Q193701:P1128:latest",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": employees: 22,000 (2026)",
+    "url": "https://www.wikidata.org/wiki/Q193701#P1128"
+  },
+  {
+    "id": "wd:Q193701:P856",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": official website https://spacex.com",
+    "url": "https://www.wikidata.org/wiki/Q193701#P856"
+  },
+  {
+    "id": "wd:Q193701:P2139:series",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": revenue 2023: $10.4 billion; 2024: $14 billion; 2025: $18.7 billion",
+    "url": "https://www.wikidata.org/wiki/Q193701#P2139"
+  },
+  {
+    "id": "wd:Q193701:P1128:series",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": employees 2005: 160; 2008: 500; 2010: 1,100; 2012: 1,800; 2013: 3,800; 2015: 3,500; 2016: 5,000; 2017: 7,000; 2020: 7,000; 2022: 12,000; 2026: 22,000",
+    "url": "https://www.wikidata.org/wiki/Q193701#P1128"
+  },
+  {
+    "id": "wd:Q193701:P355:Q117617480",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": subsidiary X Corp.",
+    "url": "https://www.wikidata.org/wiki/Q193701#P355"
+  },
+  {
+    "id": "wd:Q193701:P355:Q120599684",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": subsidiary SpaceX Super Intelligence",
+    "url": "https://www.wikidata.org/wiki/Q193701#P355"
+  },
+  {
+    "id": "wd:Q193701:P1830:Q16950811",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"SpaceX\": owns Starbase",
+    "url": "https://www.wikidata.org/wiki/Q193701#P1830"
+  }
+]

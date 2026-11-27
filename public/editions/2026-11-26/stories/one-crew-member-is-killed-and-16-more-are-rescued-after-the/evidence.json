@@ -1,0 +1,40 @@
+[
+  {
+    "id": "wiki:2026-11-26:7",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-26T00:00:00Z",
+    "lon": 14.51666667,
+    "lat": 35.9,
+    "label": "Disaster: One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker off the coast of Ibiza, Spain.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_26&oldid=1388194221",
+    "quote": "One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker off the coast of Ibiza, Spain.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/"
+      }
+    ]
+  },
+  {
+    "id": "news:dw:ee7eaa5aee4e",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "DW: Crew member dies after diesel tanker sinks off Ibiza coast (11:58 UTC)",
+    "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054",
+    "quote": "Crew member dies after diesel tanker sinks off Ibiza coast",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:9dafd6803806",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one (22:01 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do",
+    "quote": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+    "precision": "day"
+  }
+]

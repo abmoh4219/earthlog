@@ -1,0 +1,231 @@
+[
+  {
+    "id": "news:aljazeera:b414d140eab3",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday (00:52 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday",
+    "quote": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:c61a463d7d7e",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "France 24: Powerful US storm forces historic postponement of New York's Thanksgiving Day Parade (01:11 UTC)",
+    "url": "https://www.france24.com/en/americas/20261126-powerful-us-storm-forces-historic-postponement-of-thanksgiving-day-parade-in-new-york",
+    "quote": "Powerful US storm forces historic postponement of New York's Thanksgiving Day Parade",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:baf26c4be0d1",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Macy's postpones Thanksgiving parade due to severe weather (04:04 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo",
+    "quote": "Macy's postpones Thanksgiving parade due to severe weather",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388191775:67",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC)",
+    "quote": "As a result, Macy's postponed the parade for the first time in its history, moving it from Thanksgiving Day, November 26, to the following Saturday morning, November 28, 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wiki:rev:1388191775:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC)",
+    "quote": "The Macy's Thanksgiving Day Parade is an annual parade in New York City usually held on Thanksgiving Day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "views:en:Macy's_Thanksgiving_Day_Parade:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Macy's Thanksgiving Day Parade\", 28 October 2026 to 26 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Macy's_Thanksgiving_Day_Parade&range=latest-30"
+  },
+  {
+    "id": "wd:Q79407:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q79407\": began 24 November 1924",
+    "url": "https://www.wikidata.org/wiki/Q79407#P580"
+  },
+  {
+    "id": "wd:Q79407:P582",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q79407\": ended 22 November 1951",
+    "url": "https://www.wikidata.org/wiki/Q79407#P582"
+  },
+  {
+    "id": "wd:Q79407:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q79407\": location Manhattan, Toys \"R\" Us",
+    "url": "https://www.wikidata.org/wiki/Q79407#P276"
+  },
+  {
+    "id": "wd:Q79407:P571",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q79407\": founded 1924",
+    "url": "https://www.wikidata.org/wiki/Q79407#P571"
+  },
+  {
+    "id": "wd:Q79407:P577",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q79407\": released 25 November 1948",
+    "url": "https://www.wikidata.org/wiki/Q79407#P577"
+  },
+  {
+    "id": "wd:Q79407:P495",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Q79407\": country of origin United States",
+    "url": "https://www.wikidata.org/wiki/Q79407#P495"
+  },
+  {
+    "id": "wiki:box:1388191775:directed-by",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC): Directed by: Dick Schneider (1972–1993), Gary Halvorson (1994; 1996–2014) and 4 more",
+    "quote": "Directed by: Dick Schneider (1972–1993), Gary Halvorson (1994; 1996–2014) and 4 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wiki:box:1388191775:hosts",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC): Hosts: Savannah Guthrie, Hoda Kotb, Al Roker and 1 more",
+    "quote": "Hosts: Savannah Guthrie, Hoda Kotb, Al Roker and 1 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wiki:box:1388191775:music",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC): Music: Sammy Fidler (1958–1965), Milton DeLugg (1966–2013) and 1 more",
+    "quote": "Music: Sammy Fidler (1958–1965), Milton DeLugg (1966–2013) and 1 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wiki:box:1388191775:network",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC): Network: NBC",
+    "quote": "Network: NBC",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wiki:box:1388191775:first-aired",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC): First aired: 24 November 1932",
+    "quote": "First aired: 24 November 1932",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wiki:box:1388191775:runtime",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC): Runtime: 1968–2022: 3 hours (with commercials) and 1 more",
+    "quote": "Runtime: 1968–2022: 3 hours (with commercials) and 1 more",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wiki:box:1388191775:language",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Macy's Thanksgiving Day Parade\" (revision of 2026-11-27 00:18 UTC): Language: English",
+    "quote": "Language: English",
+    "url": "https://en.wikipedia.org/w/index.php?title=Macy's_Thanksgiving_Day_Parade&oldid=1388191775"
+  },
+  {
+    "id": "wd:Q13974:P159",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"NBC\": headquarters 30 Rockefeller Plaza",
+    "url": "https://www.wikidata.org/wiki/Q13974#P159"
+  },
+  {
+    "id": "wd:Q2227969:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Savannah Guthrie\": place of birth Melbourne",
+    "url": "https://www.wikidata.org/wiki/Q2227969#P19"
+  },
+  {
+    "id": "wd:Q3240869:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Al Roker\": place of birth Queens",
+    "url": "https://www.wikidata.org/wiki/Q3240869#P19"
+  },
+  {
+    "id": "wd:Q336605:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Milton Delugg\": place of birth Los Angeles",
+    "url": "https://www.wikidata.org/wiki/Q336605#P19"
+  },
+  {
+    "id": "wd:Q5875916:P19",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Hoda Kotb\": place of birth Norman",
+    "url": "https://www.wikidata.org/wiki/Q5875916#P19"
+  }
+]

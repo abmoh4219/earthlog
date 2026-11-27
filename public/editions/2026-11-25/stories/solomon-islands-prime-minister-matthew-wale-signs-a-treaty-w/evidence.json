@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wiki:2026-11-25:12",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-25T00:00:00Z",
+    "lon": 159.17,
+    "lat": -8.03,
+    "label": "World: Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese to designate Australia as the \"primary security partner\" after ending the 2022 security pact with China.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074",
+    "quote": "Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese to designate Australia as the \"primary security partner\" after ending the 2022 security pact with China.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/world/asia/solomon-islands-signs-treaty-australia-checks-chinas-influence-pacific-rcna611254"
+      }
+    ]
+  },
+  {
+    "id": "news:guardian:d6d3387d2942",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "The Guardian: Australia’s security pact with Solomon Islands a blow to China’s influence in the Pacific (01:51 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/25/australia-solomon-islands-treaty-blow-to-china-pacific-influence",
+    "quote": "Australia’s security pact with Solomon Islands a blow to China’s influence in the Pacific",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:e7d9d6730e0a",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "BBC News: Solomon Islands ends controversial security pact with China for Australian treaty (03:15 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno",
+    "quote": "Solomon Islands ends controversial security pact with China for Australian treaty",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:0c4f82f58208",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "DW: Australia, Solomon Islands sign sweeping pact seen as countering China (10:51 UTC)",
+    "url": "https://www.dw.com/en/australia-solomon-islands-sign-sweeping-pact-seen-as-countering-china/a-80043646",
+    "quote": "Australia, Solomon Islands sign sweeping pact seen as countering China",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q15949076:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"Australia–Solomon Islands relations\" is an instance of bilateral relation",
+    "url": "https://www.wikidata.org/wiki/Q15949076",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1387926936:24",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Australia–Solomon Islands relations\" (revision of 2026-11-26 01:36 UTC)",
+    "quote": "Following the Solomon Islands' decision not to renew their security pact with China, Solomons Prime Minister Matthew Wale and Australian Prime Minister Anthony Albanese signed a new security pact on 25 November 2026.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Australia%E2%80%93Solomon_Islands_relations&oldid=1387926936"
+  },
+  {
+    "id": "wiki:rev:1387926936:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Australia–Solomon Islands relations\" (revision of 2026-11-26 01:36 UTC)",
+    "quote": "Foreign relations exist between Australia and Solomon Islands.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Australia%E2%80%93Solomon_Islands_relations&oldid=1387926936"
+  },
+  {
+    "id": "views:en:Australia–Solomon_Islands_relations:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Australia–Solomon Islands relations\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Australia%E2%80%93Solomon_Islands_relations&range=latest-30"
+  },
+  {
+    "id": "wd:Q15949076:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Australia–Solomon Islands relations\": country Australia, Solomon Islands",
+    "url": "https://www.wikidata.org/wiki/Q15949076#P17"
+  }
+]

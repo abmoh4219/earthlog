@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-solomon-islands-prime-minister-matthew-wale-signs-a-treaty-w",
+  "title": "Solomon Islands prime minister Matthew Wale signs a treaty with Australian…",
+  "subtitle": "News · 25 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:08Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 149.17,
+    "south": -16.03,
+    "east": 169.17,
+    "north": -0.02999999999999936
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-25T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-25T00:00:24Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": -162.83000000000004,
+      "lat": -5.230499999999999,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:14Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:23Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:26Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:29Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:31Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:34Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:37Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1294920.0747536505,
+      "heading": -1.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:39Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1172600,
+      "heading": 7.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:42Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:51Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:00Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:03Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:04Z",
+      "lon": 159.17,
+      "lat": -8.7175,
+      "range": 2345200,
+      "heading": 16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:08Z",
+      "lon": 134.16999999999996,
+      "lat": -8.7175,
+      "range": 14000000,
+      "heading": 16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "Solomon Islands prime minister Matthew Wale has signed a treaty with Australian prime minister Anthony Albanese naming Australia the \"primary security partner\".",
+      "cites": [
+        "wiki:2026-11-25:12"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:08Z",
+      "text": "The treaty follows the ending of the 2022 security pact with China and the Solomon Islands' decision not to renew it.",
+      "cites": [
+        "wiki:2026-11-25:12",
+        "wiki:rev:1387926936:24"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:15Z",
+      "text": "Foreign relations exist between Australia and Solomon Islands, and the two leaders signed the new security pact on 25 November 2026.",
+      "cites": [
+        "wiki:rev:1387926936:0",
+        "wiki:rev:1387926936:24"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:25Z",
+      "text": "On the map, Solomon Islands is where the reports place it.",
+      "cites": [
+        "wiki:2026-11-25:12"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:33Z",
+      "text": "The story was reported by NBC News.",
+      "cites": [
+        "wiki:2026-11-25:12"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:41Z",
+      "text": "The Guardian headlined it: “Australia’s security pact with Solomon Islands a blow to China’s influence in the Pacific”.",
+      "cites": [
+        "news:guardian:d6d3387d2942"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:47Z",
+      "text": "BBC News headlined it: “Solomon Islands ends controversial security pact with China for Australian treaty”.",
+      "cites": [
+        "news:bbc:e7d9d6730e0a"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:53Z",
+      "text": "DW headlined it: “Australia, Solomon Islands sign sweeping pact seen as countering China”.",
+      "cites": [
+        "news:dw:0c4f82f58208"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:02Z",
+      "text": "The sources for this story are Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-25:12",
+        "wiki:rev:1387926936:24",
+        "views:en:Australia–Solomon_Islands_relations:30d",
+        "wd:Q15949076:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "SB",
+    "lon": 159.17,
+    "lat": -8.03,
+    "label": "Solomon Islands"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-25T00:00:32Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-25T00:00:40Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:01Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "sources",
+      "t": "2026-11-25T00:00:33Z",
+      "until": "2026-11-25T00:00:40Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "NBC News",
+          "text": "Open",
+          "url": "https://www.nbcnews.com/world/asia/solomon-islands-signs-treaty-australia-checks-chinas-influence-pacific-rcna611254",
+          "cites": [
+            "wiki:2026-11-25:12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:00:41Z",
+      "until": "2026-11-25T00:01:01Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/25/australia-solomon-islands-treaty-blow-to-china-pacific-influence",
+          "cites": [
+            "news:guardian:d6d3387d2942"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno",
+          "cites": [
+            "news:bbc:e7d9d6730e0a"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/australia-solomon-islands-sign-sweeping-pact-seen-as-countering-china/a-80043646",
+          "cites": [
+            "news:dw:0c4f82f58208"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:02Z",
+      "until": "2026-11-25T00:01:08Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-25:12"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1387926936:24"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Australia–Solomon_Islands_relations:30d"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q15949076:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.002131
+  }
+}

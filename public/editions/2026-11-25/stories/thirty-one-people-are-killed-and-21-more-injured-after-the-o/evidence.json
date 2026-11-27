@@ -1,0 +1,136 @@
+[
+  {
+    "id": "wiki:2026-11-25:8",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-25T00:00:00Z",
+    "lon": 31.23583333,
+    "lat": 30.04444444,
+    "label": "Disaster: Thirty-one people are killed and 21 more injured after the overturn and explosion of a fuel tanker on Ring Road in Cairo, Egypt.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074",
+    "quote": "Thirty-one people are killed and 21 more injured after the overturn and explosion of a fuel tanker on Ring Road in Cairo, Egypt.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AP",
+        "url": "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e"
+      }
+    ]
+  },
+  {
+    "id": "news:bbc:8ac00ea2108a",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "BBC News: Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway (22:18 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
+    "quote": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142293991:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"2026 Giza fuel tanker explosion\" is an instance of incident",
+    "url": "https://www.wikidata.org/wiki/Q142293991",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:3bad40b887ec",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Al Jazeera: At least 30 killed in Egypt vehicle fire, health ministry says (18:55 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says",
+    "quote": "At least 30 killed in Egypt vehicle fire, health ministry says",
+    "precision": "day"
+  },
+  {
+    "id": "news:dw:08e39bb25efc",
+    "kind": "report",
+    "source": "outlet:dw",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "DW: Egypt: At least 31 dead after fuel truck overturns on highway (21:37 UTC)",
+    "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175",
+    "quote": "Egypt: At least 31 dead after fuel truck overturns on highway",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388165699:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Giza fuel tanker explosion\" (revision of 2026-11-26 21:47 UTC)",
+    "quote": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Giza_fuel_tanker_explosion&oldid=1388165699"
+  },
+  {
+    "id": "wd:Q142293991:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Giza fuel tanker explosion\": date 25 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142293991#P585"
+  },
+  {
+    "id": "wd:Q142293991:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Giza fuel tanker explosion\": location El Warraq",
+    "url": "https://www.wikidata.org/wiki/Q142293991#P276"
+  },
+  {
+    "id": "wd:Q142293991:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Giza fuel tanker explosion\": country Egypt",
+    "url": "https://www.wikidata.org/wiki/Q142293991#P17"
+  },
+  {
+    "id": "wiki:box:1388165699:fatalities",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Giza fuel tanker explosion\" (revision of 2026-11-26 21:47 UTC): fatalities: 180+",
+    "quote": "fatalities: 180+",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Giza_fuel_tanker_explosion&oldid=1388165699"
+  },
+  {
+    "id": "wiki:box:1388165699:injuries",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Giza fuel tanker explosion\" (revision of 2026-11-26 21:47 UTC): injuries: 26",
+    "quote": "injuries: 26",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Giza_fuel_tanker_explosion&oldid=1388165699"
+  },
+  {
+    "id": "wiki:box:1388165699:summary",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Giza fuel tanker explosion\" (revision of 2026-11-26 21:47 UTC): summary: Under investigation",
+    "quote": "summary: Under investigation",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Giza_fuel_tanker_explosion&oldid=1388165699"
+  },
+  {
+    "id": "wiki:box:1388165699:coordinates",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Giza fuel tanker explosion\" (revision of 2026-11-26 21:47 UTC): site coordinates 30.1069, 31.2031 (Ring Road, El Warraq, Giza Governorate, Egypt)",
+    "quote": "30.1069, 31.2031",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Giza_fuel_tanker_explosion&oldid=1388165699"
+  }
+]

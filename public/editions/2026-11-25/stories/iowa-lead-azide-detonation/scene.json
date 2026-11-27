@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-iowa-lead-azide-detonation",
+  "title": "Iowa lead azide detonation",
+  "subtitle": "News · 25 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:29Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -101.24472222,
+    "south": 32.79055556,
+    "east": -81.24472222,
+    "north": 48.79055556
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-25T00:00:24Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-25T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-25T00:00:39Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": -53.24472221999997,
+      "lat": 24.061833336,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:14Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:23Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:26Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:27Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 996092.3651951158,
+      "heading": 5.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:28Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 902000,
+      "heading": -1,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:31Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:35Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:38Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:41Z",
+      "lon": -92.73890928287845,
+      "lat": 41.3025035852489,
+      "range": 1500000,
+      "heading": 0,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:44Z",
+      "lon": -92.73890928287845,
+      "lat": 41.3025035852489,
+      "range": 1358307.7707206125,
+      "heading": -9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:47Z",
+      "lon": -92.73890928287845,
+      "lat": 41.3025035852489,
+      "range": 1230000,
+      "heading": -19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:50Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1760000,
+      "heading": -15,
+      "pitch": -52,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:51Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1593747.7843121854,
+      "heading": -8.5,
+      "pitch": -49.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:52Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1443200,
+      "heading": -2,
+      "pitch": -47,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:55Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:58Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:00Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:03Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:12Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:21Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:24Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:25Z",
+      "lon": -91.24472222,
+      "lat": 40.10305556,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:29Z",
+      "lon": -116.24472221999997,
+      "lat": 40.10305556,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "The United States Army planned to detonate nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant near Middletown, Iowa, citing the risk of spontaneous explosion.",
+      "cites": [
+        "wiki:2026-11-25:11"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:08Z",
+      "text": "The detonation was rescheduled to Wednesday, November 25, 2026.",
+      "cites": [
+        "wiki:rev:1388177974:97"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:15Z",
+      "text": "At 9:00 am CST (15:00 UTC) on November 25, 2026, the Army detonated approximately 9500 lb of lead azide stored at the plant near Middletown.",
+      "cites": [
+        "wiki:rev:1388177974:0"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:30Z",
+      "text": "The event is dated 25 November 2026 and is located in Iowa.",
+      "cites": [
+        "wd:Q142278417:P585",
+        "wd:Q142278417:P276"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:40Z",
+      "text": "Iowa is also named in the reports on the story.",
+      "cites": [
+        "wiki:2026-11-25:11"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:49Z",
+      "text": "The English Wikipedia article was tracked for daily readers over the period from 24 November 2026 to 25 November 2026.",
+      "cites": [
+        "views:en:Iowa_lead_azide_detonation:30d"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:54Z",
+      "text": "AFP and CNN reported the story.",
+      "cites": [
+        "wiki:2026-11-25:11"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:02Z",
+      "text": "NPR's headline read: “Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.”",
+      "cites": [
+        "news:npr:7c35b68fa871"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:08Z",
+      "text": "Al Jazeera headlined the Army's claim: “US Army declares Iowa lead azide detonation ‘tremendously successful’”",
+      "cites": [
+        "news:aljazeera:1c639daeb6d8"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:14Z",
+      "text": "The Guardian headlined the story: “US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving”",
+      "cites": [
+        "news:guardian:47ff290bf9f5"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:23Z",
+      "text": "Sources: Wikipedia, Current events, Wikipedia articles, Wikimedia pageviews and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-25:11",
+        "wiki:rev:1388177974:97",
+        "views:en:Iowa_lead_azide_detonation:2026-11-25",
+        "wd:Q142278417:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "US",
+    "lon": -91.24472222,
+    "lat": 40.79055556,
+    "label": "Iowa Army Ammunition Plant"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:24Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-25T00:00:29Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-25T00:00:39Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-25T00:00:48Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-25T00:00:53Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-25T00:01:01Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:22Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-25T00:00:30Z",
+      "until": "2026-11-25T00:00:39Z",
+      "title": "On record: Iowa lead azide detonation",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Date",
+          "text": "25 November 2026",
+          "cites": [
+            "wd:Q142278417:P585"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "Iowa",
+          "cites": [
+            "wd:Q142278417:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "United States",
+          "cites": [
+            "wd:Q142278417:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-25T00:00:49Z",
+      "until": "2026-11-25T00:00:53Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Iowa lead azide detonation",
+          "color": "#9ab8cc",
+          "points": [
+            {
+              "x": "11-24",
+              "y": 1457
+            },
+            {
+              "x": "11-25",
+              "y": 78852
+            }
+          ],
+          "cites": [
+            "views:en:Iowa_lead_azide_detonation:30d"
+          ]
+        }
+      ],
+      "mark": 1
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-25T00:00:54Z",
+      "until": "2026-11-25T00:01:01Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/us-army-detonates-toxic-explosives-iowa-despite-contamination-fears",
+          "cites": [
+            "wiki:2026-11-25:11"
+          ]
+        },
+        {
+          "label": "CNN",
+          "text": "Open",
+          "url": "https://edition.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation",
+          "cites": [
+            "wiki:2026-11-25:11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:01:02Z",
+      "until": "2026-11-25T00:01:22Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "NPR",
+          "text": "Open",
+          "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
+          "cites": [
+            "news:npr:7c35b68fa871"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful",
+          "cites": [
+            "news:aljazeera:1c639daeb6d8"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
+          "cites": [
+            "news:guardian:47ff290bf9f5"
+          ]
+        },
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/us-army-to-detonate-unstable-lead-based-explosives-in-iowa/a-80043319",
+          "cites": [
+            "news:dw:f6ef8ccc10cd"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/americas/20261125-us-army-detonates-lead-explosives-iowa-despite-community-backlash",
+          "cites": [
+            "news:france24:881956a58273"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:23Z",
+      "until": "2026-11-25T00:01:29Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-25:11"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388177974:97"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Iowa_lead_azide_detonation:2026-11-25"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142278417:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.003504
+  }
+}

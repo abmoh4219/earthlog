@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "id": "story-2026-11-26-egyptian-prosecutors-arrest-a-driver-whose-speeding-car-alle",
+  "title": "Egyptian prosecutors arrest a driver whose speeding car allegedly collided…",
+  "subtitle": "News · 26 November 2026 · Update, day 2",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-26T00:00:00Z",
+    "end": "2026-11-26T00:01:11Z"
+  },
+  "focus": "2026-11-26T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": 21.23583333,
+    "south": 22.04444444,
+    "east": 41.23583333,
+    "north": 38.04444444
+  },
+  "imagery": {
+    "day": "2026-11-26",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-26T00:00:17Z"
+    },
+    {
+      "kind": "regions",
+      "file": "data/regions.json",
+      "from": "2026-11-26T00:00:17Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "lon": 69.23583332999999,
+      "lat": 17.614166664,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-26T00:00:04Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-26T00:00:10Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:16Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:19Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1100000,
+      "heading": 12,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:22Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 996092.3651951158,
+      "heading": 3.0999999999999996,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:24Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 902000,
+      "heading": -5.800000000000001,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:27Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1100000,
+      "heading": 20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:31Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 996092.3651951158,
+      "heading": 30.5,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:34Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 902000,
+      "heading": 41,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:37Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1430000,
+      "heading": -10,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:40Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1294920.0747536505,
+      "heading": -18.9,
+      "pitch": -39.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:42Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1172600,
+      "heading": -27.8,
+      "pitch": -37,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:45Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1430000,
+      "heading": -22,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:00:54Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1371607.8156674379,
+      "heading": -20,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:03Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 1315600,
+      "heading": -18,
+      "pitch": -42,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:06Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:07Z",
+      "lon": 31.23583333,
+      "lat": 29.35694444,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-26T00:01:11Z",
+      "lon": 6.235833329999991,
+      "lat": 29.35694444,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-26T00:00:01Z",
+      "text": "According to the reports, Egyptian prosecutors have arrested a driver whose speeding car allegedly collided with a tank truck on Cairo's Ring Road, causing a fire that killed 31 people and injured 21 others.",
+      "cites": [
+        "wiki:2026-11-26:10"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:09Z",
+      "text": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in El Warraq, Giza Governorate, Egypt.",
+      "cites": [
+        "wiki:rev:1388165699:0"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:18Z",
+      "text": "The reports place the incident in Cairo, Egypt.",
+      "cites": [
+        "wiki:2026-11-26:10"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:26Z",
+      "text": "The incident is dated 25 November 2026 and is located in El Warraq.",
+      "cites": [
+        "wd:Q142293991:P585",
+        "wd:Q142293991:P276"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:36Z",
+      "text": "The report was filed by AFP.",
+      "cites": [
+        "wiki:2026-11-26:10"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:44Z",
+      "text": "AllAfrica headlined the story “Egypt: Over 30 Dead After Fuel Truck Overturns Near Cairo”.",
+      "cites": [
+        "news:allafrica:b352ab465009"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:50Z",
+      "text": "Al Jazeera headlined the story “Highway explosion in Giza: How deadly are Egypt’s roads and railways?”.",
+      "cites": [
+        "news:aljazeera:13da337995cf"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:00:56Z",
+      "text": "France 24 headlined the story “Egypt: 31 people killed in Cairo after fuel truck overturns”.",
+      "cites": [
+        "news:france24:1e2ab1d04def"
+      ]
+    },
+    {
+      "t": "2026-11-26T00:01:05Z",
+      "text": "The sources are Wikipedia, Current events, Wikipedia articles and Wikidata, and each caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:2026-11-26:10",
+        "wiki:rev:1388165699:0",
+        "wd:Q142293991:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "EG",
+    "lon": 31.23583333,
+    "lat": 30.04444444,
+    "label": "Cairo"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-26T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-26T00:00:17Z",
+      "title": "Where"
+    },
+    {
+      "t": "2026-11-26T00:00:25Z",
+      "title": "On record"
+    },
+    {
+      "t": "2026-11-26T00:00:35Z",
+      "title": "Reported by"
+    },
+    {
+      "t": "2026-11-26T00:00:43Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-26T00:01:04Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "record",
+      "t": "2026-11-26T00:00:26Z",
+      "until": "2026-11-26T00:00:35Z",
+      "title": "On record: 2026 Giza fuel tanker explosion",
+      "note": "As recorded in Wikidata (CC0).",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Date",
+          "text": "25 November 2026",
+          "cites": [
+            "wd:Q142293991:P585"
+          ]
+        },
+        {
+          "label": "Location",
+          "text": "El Warraq",
+          "cites": [
+            "wd:Q142293991:P276"
+          ]
+        },
+        {
+          "label": "Country",
+          "text": "Egypt",
+          "cites": [
+            "wd:Q142293991:P17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "t": "2026-11-26T00:00:36Z",
+      "until": "2026-11-26T00:00:43Z",
+      "title": "Sources",
+      "note": "Via Wikipedia's Current events, which cites each outlet.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AFP",
+          "text": "Open",
+          "url": "https://www.afp.com/en/egypt-prosecutors-announce-arrest-man-over-deadly-truck-disaster",
+          "cites": [
+            "wiki:2026-11-26:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-26T00:00:44Z",
+      "until": "2026-11-26T00:01:04Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "AllAfrica",
+          "text": "Open",
+          "url": "https://allafrica.com/stories/202611260153.html",
+          "cites": [
+            "news:allafrica:b352ab465009"
+          ]
+        },
+        {
+          "label": "Al Jazeera",
+          "text": "Open",
+          "url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways",
+          "cites": [
+            "news:aljazeera:13da337995cf"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns",
+          "cites": [
+            "news:france24:1e2ab1d04def"
+          ]
+        },
+        {
+          "label": "BBC News",
+          "text": "Open",
+          "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o",
+          "cites": [
+            "news:bbc:846ac1e1edb6"
+          ]
+        },
+        {
+          "label": "Sky News",
+          "text": "Open",
+          "url": "https://news.sky.com/story/driver-of-car-suspected-of-causing-fuel-tanker-to-overturn-in-egypt-detained-13616933",
+          "cites": [
+            "news:sky:1dd49a8bbe1b"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+          "cites": [
+            "news:guardian:7583f52321a2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-26T00:01:05Z",
+      "until": "2026-11-26T00:01:11Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia, Current events",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "cites": [
+            "wiki:2026-11-26:10"
+          ]
+        },
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388165699:0"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q142293991:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:19:30Z",
+    "costUsd": 0.001179
+  }
+}

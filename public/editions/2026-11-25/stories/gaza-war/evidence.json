@@ -1,0 +1,149 @@
+[
+  {
+    "id": "wiki:2026-11-25:2",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-25T00:00:00Z",
+    "lon": 34.44539444,
+    "lat": 31.53219722,
+    "label": "Conflict: A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City. Seven more Palestinians are also killed and several injured in more Israeli airstrikes.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_25&oldid=1388156074",
+    "quote": "A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City. Seven more Palestinians are also killed and several injured in more Israeli airstrikes.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children"
+      },
+      {
+        "name": "Al Jazeera 2",
+        "url": "https://aje.news/0x4p9q?update=5187000"
+      }
+    ]
+  },
+  {
+    "id": "news:aljazeera:fb1846ef00ab",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Al Jazeera: Israeli strike kills Hamas official, his wife and children (11:24 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
+    "quote": "Israeli strike kills Hamas official, his wife and children",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:c49453b02b83",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "BBC News: Israeli strike kills senior Hamas security official and family in Gaza City (14:06 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo",
+    "quote": "Israeli strike kills senior Hamas security official and family in Gaza City",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q122962941:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "Wikidata: \"Gaza War\" is an instance of war",
+    "url": "https://www.wikidata.org/wiki/Q122962941",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:2eb146ad21c1",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-25T00:00:00Z",
+    "label": "The Guardian: Palestinian journalist killed by Israel in Gaza wins Rory Peck prize (23:06 UTC)",
+    "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
+    "quote": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388101458:405",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-26 16:21 UTC)",
+    "quote": "A UN report from November 2026 accused Israel of committing war crimes and crimes against humanity in the occupied West Bank, including extermination, torture, and sexual assault.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1388101458"
+  },
+  {
+    "id": "wiki:rev:1388101458:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"Gaza war\" (revision of 2026-11-26 16:21 UTC)",
+    "quote": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gaza_war&oldid=1388101458"
+  },
+  {
+    "id": "wiki:2026-11-19:7",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-19",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-19: Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "quote": "Gaza's health ministry reports that two people have been killed by recent Israeli attacks and two others died from their wounds over the past day.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_19&oldid=1386731379"
+  },
+  {
+    "id": "wiki:2026-11-24:2",
+    "kind": "report",
+    "source": "wikipedia-ce-2026-11-24",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, Current events, 2026-11-24: Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip.",
+    "quote": "Israel claims to have killed Hamas security official Naeem Abu Nahel in a airstrike in the Gaza Strip.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_24&oldid=1387666401"
+  },
+  {
+    "id": "views:en:Gaza_war:30d",
+    "kind": "sensor",
+    "source": "wikimedia",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "English Wikipedia daily readers of \"Gaza war\", 27 October 2026 to 25 November 2026",
+    "unit": "readers",
+    "url": "https://pageviews.wmcloud.org/?project=en.wikipedia.org&pages=Gaza_war&range=latest-30"
+  },
+  {
+    "id": "wd:Q122962941:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": date 2020",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P585"
+  },
+  {
+    "id": "wd:Q122962941:P580",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": began 7 October 2023",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P580"
+  },
+  {
+    "id": "wd:Q122962941:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": location Levant, Yemen",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P276"
+  },
+  {
+    "id": "wd:Q122962941:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-25T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"Gaza War\": country Israel, Palestine",
+    "url": "https://www.wikidata.org/wiki/Q122962941#P17"
+  }
+]

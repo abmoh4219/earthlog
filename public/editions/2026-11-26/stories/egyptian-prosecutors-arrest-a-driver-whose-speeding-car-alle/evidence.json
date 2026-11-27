@@ -1,0 +1,126 @@
+[
+  {
+    "id": "wiki:2026-11-26:10",
+    "kind": "report",
+    "source": "wikipedia",
+    "t": "2026-11-26T00:00:00Z",
+    "lon": 31.23583333,
+    "lat": 30.04444444,
+    "label": "Law & crime: Egyptian prosecutors arrest a driver whose speeding car allegedly collided with a tank truck on Cairo's Ring Road yesterday, causing a fire that killed 31 people and injured 21 others.",
+    "url": "https://en.wikipedia.org/w/index.php?title=Portal%3ACurrent_events%2F2026_November_26&oldid=1388194221",
+    "quote": "Egyptian prosecutors arrest a driver whose speeding car allegedly collided with a tank truck on Cairo's Ring Road yesterday, causing a fire that killed 31 people and injured 21 others.",
+    "precision": "day",
+    "links": [
+      {
+        "name": "AFP",
+        "url": "https://www.afp.com/en/egypt-prosecutors-announce-arrest-man-over-deadly-truck-disaster"
+      }
+    ]
+  },
+  {
+    "id": "news:allafrica:b352ab465009",
+    "kind": "report",
+    "source": "outlet:allafrica",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "AllAfrica: Egypt: Over 30 Dead After Fuel Truck Overturns Near Cairo (06:27 UTC)",
+    "url": "https://allafrica.com/stories/202611260153.html",
+    "quote": "Egypt: Over 30 Dead After Fuel Truck Overturns Near Cairo",
+    "precision": "day"
+  },
+  {
+    "id": "news:aljazeera:13da337995cf",
+    "kind": "report",
+    "source": "outlet:aljazeera",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Al Jazeera: Highway explosion in Giza: How deadly are Egypt’s roads and railways? (11:22 UTC)",
+    "url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways",
+    "quote": "Highway explosion in Giza: How deadly are Egypt’s roads and railways?",
+    "precision": "day"
+  },
+  {
+    "id": "news:france24:1e2ab1d04def",
+    "kind": "report",
+    "source": "outlet:france24",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "France 24: Egypt: 31 people killed in Cairo after fuel truck overturns (11:28 UTC)",
+    "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns",
+    "quote": "Egypt: 31 people killed in Cairo after fuel truck overturns",
+    "precision": "day"
+  },
+  {
+    "id": "news:bbc:846ac1e1edb6",
+    "kind": "report",
+    "source": "outlet:bbc",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "BBC News: Egyptian authorities arrest motorist over tanker crash that killed 31 (12:16 UTC)",
+    "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o",
+    "quote": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+    "precision": "day"
+  },
+  {
+    "id": "news:sky:1dd49a8bbe1b",
+    "kind": "report",
+    "source": "outlet:sky",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Sky News: Driver suspected of causing tanker crash in Egypt that killed 31 detained (17:49 UTC)",
+    "url": "https://news.sky.com/story/driver-of-car-suspected-of-causing-fuel-tanker-to-overturn-in-egypt-detained-13616933",
+    "quote": "Driver suspected of causing tanker crash in Egypt that killed 31 detained",
+    "precision": "day"
+  },
+  {
+    "id": "wd:Q142293991:P31",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "Wikidata: \"2026 Giza fuel tanker explosion\" is an instance of incident",
+    "url": "https://www.wikidata.org/wiki/Q142293991",
+    "precision": "day"
+  },
+  {
+    "id": "news:guardian:7583f52321a2",
+    "kind": "report",
+    "source": "outlet:guardian",
+    "t": "2026-11-26T00:00:00Z",
+    "label": "The Guardian: At least 31 killed as fuel tanker crash ignites large fire on Cairo highway (00:39 UTC)",
+    "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+    "quote": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+    "precision": "day"
+  },
+  {
+    "id": "wiki:rev:1388165699:0",
+    "kind": "report",
+    "source": "wikipedia-article",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikipedia, \"2026 Giza fuel tanker explosion\" (revision of 2026-11-26 21:47 UTC)",
+    "quote": "On 25 November 2026, a fuel tanker carrying petroleum products and gas cylinders overturned on Ring Road in the El Warraq district of Giza Governorate, Egypt.",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Giza_fuel_tanker_explosion&oldid=1388165699"
+  },
+  {
+    "id": "wd:Q142293991:P585",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Giza fuel tanker explosion\": date 25 November 2026",
+    "url": "https://www.wikidata.org/wiki/Q142293991#P585"
+  },
+  {
+    "id": "wd:Q142293991:P276",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Giza fuel tanker explosion\": location El Warraq",
+    "url": "https://www.wikidata.org/wiki/Q142293991#P276"
+  },
+  {
+    "id": "wd:Q142293991:P17",
+    "kind": "sensor",
+    "source": "wikidata",
+    "t": "2026-11-26T00:00:00Z",
+    "precision": "day",
+    "label": "Wikidata, \"2026 Giza fuel tanker explosion\": country Egypt",
+    "url": "https://www.wikidata.org/wiki/Q142293991#P17"
+  }
+]

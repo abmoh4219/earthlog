@@ -1,0 +1,892 @@
+{
+  "version": 1,
+  "id": "story-2026-11-25-andy-taylor-guitarist",
+  "title": "Andy Taylor (guitarist)",
+  "subtitle": "People · 25 November 2026",
+  "category": "daily",
+  "window": {
+    "start": "2026-11-25T00:00:00Z",
+    "end": "2026-11-25T00:01:51Z"
+  },
+  "focus": "2026-11-25T00:00:00Z",
+  "timezone": "UTC",
+  "region": {
+    "west": -8.57,
+    "south": 30.979999999999997,
+    "east": 11.43,
+    "north": 46.98
+  },
+  "imagery": {
+    "day": "2026-11-25",
+    "nights": []
+  },
+  "layers": [
+    {
+      "kind": "regions",
+      "file": "data/regions-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-25T00:00:59Z"
+    },
+    {
+      "kind": "columns",
+      "file": "data/columns-curiosity.json",
+      "name": "curiosity",
+      "from": "2026-11-25T00:00:59Z"
+    },
+    {
+      "kind": "places",
+      "file": "data/places.json",
+      "from": "2026-11-25T00:00:24Z"
+    },
+    {
+      "kind": "arcs",
+      "file": "data/arcs.json",
+      "from": "2026-11-25T00:00:32Z"
+    }
+  ],
+  "camera": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "lon": 39.430000000000064,
+      "lat": 22.975499999999997,
+      "range": 25299999.999999996,
+      "heading": 0,
+      "pitch": -90
+    },
+    {
+      "t": "2026-11-25T00:00:04Z",
+      "lon": 1.43,
+      "lat": 38.2925,
+      "range": 2420000,
+      "heading": 12,
+      "pitch": -56,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:14Z",
+      "lon": 1.43,
+      "lat": 38.2925,
+      "range": 2191403.2034292547,
+      "heading": 26,
+      "pitch": -53.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:23Z",
+      "lon": 1.43,
+      "lat": 38.2925,
+      "range": 1984399.9999999998,
+      "heading": 40,
+      "pitch": -51,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:27Z",
+      "lon": -1.423,
+      "lat": 54.117000000000004,
+      "range": 900000,
+      "heading": 14,
+      "pitch": -36,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:29Z",
+      "lon": -1.423,
+      "lat": 54.117000000000004,
+      "range": 814984.6624323674,
+      "heading": 5.1,
+      "pitch": -33.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:31Z",
+      "lon": -1.423,
+      "lat": 54.117000000000004,
+      "range": 738000,
+      "heading": -3.8000000000000007,
+      "pitch": -31,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:35Z",
+      "lon": -0.275756711677005,
+      "lat": 48.549362068313286,
+      "range": 5747460.328931072,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:38Z",
+      "lon": -0.275756711677005,
+      "lat": 48.549362068313286,
+      "range": 5204546.684463682,
+      "heading": 10.5,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:41Z",
+      "lon": -0.275756711677005,
+      "lat": 48.549362068313286,
+      "range": 4712917.469723479,
+      "heading": 21,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:45Z",
+      "lon": 1.43,
+      "lat": 38.08,
+      "range": 900000,
+      "heading": -18,
+      "pitch": -34,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:47Z",
+      "lon": 1.43,
+      "lat": 38.08,
+      "range": 814984.6624323674,
+      "heading": -26.9,
+      "pitch": -31.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:49Z",
+      "lon": 1.43,
+      "lat": 38.08,
+      "range": 738000,
+      "heading": -35.8,
+      "pitch": -29,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:53Z",
+      "lon": 0.21902600415917,
+      "lat": 46.1466212962097,
+      "range": 4302673.385553878,
+      "heading": 0,
+      "pitch": -55,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:00:56Z",
+      "lon": 0.21902600415917,
+      "lat": 46.1466212962097,
+      "range": 3896236.4629803984,
+      "heading": 9.7,
+      "pitch": -52.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:00:58Z",
+      "lon": 0.21902600415917,
+      "lat": 46.1466212962097,
+      "range": 3528192.1761541795,
+      "heading": 19.4,
+      "pitch": -50,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:02Z",
+      "lon": 1.3592105263759118,
+      "lat": 41.2239865423316,
+      "range": 22000000,
+      "heading": 0,
+      "pitch": -60,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:12Z",
+      "lon": 1.3592105263759118,
+      "lat": 41.2239865423316,
+      "range": 19921847.303902317,
+      "heading": -14,
+      "pitch": -57.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:22Z",
+      "lon": 1.3592105263759118,
+      "lat": 41.2239865423316,
+      "range": 18040000,
+      "heading": -28,
+      "pitch": -55,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:25Z",
+      "lon": 1.3592105263759118,
+      "lat": 41.2239865423316,
+      "range": 22000000,
+      "heading": -12,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:34Z",
+      "lon": 1.3592105263759118,
+      "lat": 41.2239865423316,
+      "range": 21101658.702575967,
+      "heading": -10,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:43Z",
+      "lon": 1.3592105263759118,
+      "lat": 41.2239865423316,
+      "range": 20240000,
+      "heading": -8,
+      "pitch": -60,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:46Z",
+      "lon": 1.43,
+      "lat": 38.2925,
+      "range": 2860000,
+      "heading": 0,
+      "pitch": -70,
+      "move": "flight"
+    },
+    {
+      "t": "2026-11-25T00:01:47Z",
+      "lon": 1.43,
+      "lat": 38.2925,
+      "range": 2589840.149507301,
+      "heading": -8.100000000000001,
+      "pitch": -67.5,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:48Z",
+      "lon": 1.43,
+      "lat": 38.2925,
+      "range": 2345200,
+      "heading": -16.200000000000003,
+      "pitch": -65,
+      "move": "glide"
+    },
+    {
+      "t": "2026-11-25T00:01:51Z",
+      "lon": -23.569999999999936,
+      "lat": 38.2925,
+      "range": 14000000,
+      "heading": -16.200000000000003,
+      "pitch": -88,
+      "move": "flight"
+    }
+  ],
+  "pacing": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "speed": 1
+    }
+  ],
+  "beats": [
+    {
+      "t": "2026-11-25T00:00:01Z",
+      "text": "Andrew James Taylor (16 February 1961 – 23 November 2026) was an English guitarist, best known as a member of Duran Duran and the Power Station.",
+      "cites": [
+        "wiki:rev:1388187764:0"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:08Z",
+      "text": "Taylor also recorded and performed as a solo artist.",
+      "cites": [
+        "wiki:rev:1388187764:1"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:15Z",
+      "text": "He worked as a guitarist, songwriter and record producer for artists including Robert Palmer, Rod Stewart, the Almighty, Love and Money, Mark Shaw, Then Jerico and Belinda Carlisle.",
+      "cites": [
+        "wiki:rev:1388187764:1"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:25Z",
+      "text": "Taylor was born on 16 February 1961 in Tynemouth.",
+      "cites": [
+        "wd:Q527834:P569",
+        "wd:Q527834:P19"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:33Z",
+      "text": "He was educated at Marden High School.",
+      "cites": [
+        "wd:Q527834:P69:Q6758635"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:43Z",
+      "text": "Taylor died on 23 November 2026 in Ibiza, aged 65.",
+      "cites": [
+        "wd:Q527834:P570",
+        "wd:Q527834:P20",
+        "wd:Q527834:P569"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:00:51Z",
+      "text": "Readers also turned to Duran Duran, with 63,746 readers that day.",
+      "cites": [
+        "views:en:Duran_Duran:2026-11-25"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:00Z",
+      "text": "135,665 people read the English article on 25 November 2026, about 225 times the usual level.",
+      "cites": [
+        "views:en:Andy_Taylor_(guitarist):2026-11-25",
+        "views:en:Andy_Taylor_(guitarist):prior"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:07Z",
+      "text": "The article was read in 9 languages, and after English, Italian had the most readers with 15,275.",
+      "cites": [
+        "views:en:Andy_Taylor_(guitarist):2026-11-25",
+        "views:it:Andy_Taylor:2026-11-25"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:14Z",
+      "text": "Each language glows where it is mainly spoken, brighter for more readers, and a language is not a country.",
+      "cites": [
+        "views:it:Andy_Taylor:2026-11-25",
+        "views:es:Andy_Taylor:2026-11-25",
+        "views:de:Andy_Taylor_(Musiker):2026-11-25",
+        "views:fr:Andy_Taylor:2026-11-25",
+        "views:pt:Andy_Taylor:2026-11-25",
+        "views:nl:Andy_Taylor_(gitarist):2026-11-25"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:24Z",
+      "text": "DW ran the headline “Duran Duran guitarist Andy Taylor dies at 65”.",
+      "cites": [
+        "news:dw:e1b7f742aed7"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:30Z",
+      "text": "The Guardian ran the headline “Andy Taylor, guitarist in Duran Duran, dies aged 65”.",
+      "cites": [
+        "news:guardian:779cda796145"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:36Z",
+      "text": "France 24 ran the headline “Duran Duran guitarist Andy Taylor dies aged 65”.",
+      "cites": [
+        "news:france24:01e95180931c"
+      ]
+    },
+    {
+      "t": "2026-11-25T00:01:45Z",
+      "text": "The sources are Wikipedia articles, Wikimedia pageviews and Wikidata, and every caption links to the evidence it rests on.",
+      "cites": [
+        "wiki:rev:1388187764:1",
+        "views:en:Andy_Taylor_(guitarist):2026-11-25",
+        "wd:Q527834:P31"
+      ]
+    }
+  ],
+  "time": "story",
+  "spotlight": {
+    "country": "ES",
+    "lon": 1.43,
+    "lat": 38.98,
+    "label": "Ibiza"
+  },
+  "chapters": [
+    {
+      "t": "2026-11-25T00:00:00Z",
+      "title": "What happened"
+    },
+    {
+      "t": "2026-11-25T00:00:24Z",
+      "title": "Born"
+    },
+    {
+      "t": "2026-11-25T00:00:32Z",
+      "title": "A life across the globe"
+    },
+    {
+      "t": "2026-11-25T00:00:42Z",
+      "title": "In memory"
+    },
+    {
+      "t": "2026-11-25T00:00:50Z",
+      "title": "Connected"
+    },
+    {
+      "t": "2026-11-25T00:00:59Z",
+      "title": "Readers"
+    },
+    {
+      "t": "2026-11-25T00:01:23Z",
+      "title": "In the news"
+    },
+    {
+      "t": "2026-11-25T00:01:44Z",
+      "title": "Sources"
+    }
+  ],
+  "panels": [
+    {
+      "id": "life",
+      "t": "2026-11-25T00:00:33Z",
+      "until": "2026-11-25T00:00:42Z",
+      "title": "A life on record",
+      "note": "As recorded in Wikidata (CC0). Organisations are placed at their home ground or headquarters.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "1961 born",
+          "text": "Tynemouth",
+          "cites": [
+            "wd:Q527834:P19"
+          ]
+        },
+        {
+          "label": "educated at",
+          "text": "Marden High School",
+          "cites": [
+            "wd:Q527834:P69:Q6758635"
+          ]
+        },
+        {
+          "label": "2026 died",
+          "text": "Ibiza",
+          "cites": [
+            "wd:Q527834:P20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "t": "2026-11-25T00:01:00Z",
+      "until": "2026-11-25T00:01:23Z",
+      "title": "Readers on English Wikipedia",
+      "note": "Daily page views by people (bots excluded). Readers are curiosity, not support.",
+      "kind": "line",
+      "unit": "readers a day",
+      "series": [
+        {
+          "label": "Andy Taylor (guitarist)",
+          "color": "#e6b98f",
+          "points": [
+            {
+              "x": "10-27",
+              "y": 642
+            },
+            {
+              "x": "10-28",
+              "y": 679
+            },
+            {
+              "x": "10-29",
+              "y": 563
+            },
+            {
+              "x": "10-30",
+              "y": 671
+            },
+            {
+              "x": "10-31",
+              "y": 799
+            },
+            {
+              "x": "11-01",
+              "y": 831
+            },
+            {
+              "x": "11-02",
+              "y": 601
+            },
+            {
+              "x": "11-03",
+              "y": 805
+            },
+            {
+              "x": "11-04",
+              "y": 595
+            },
+            {
+              "x": "11-05",
+              "y": 496
+            },
+            {
+              "x": "11-06",
+              "y": 559
+            },
+            {
+              "x": "11-07",
+              "y": 534
+            },
+            {
+              "x": "11-08",
+              "y": 558
+            },
+            {
+              "x": "11-09",
+              "y": 549
+            },
+            {
+              "x": "11-10",
+              "y": 545
+            },
+            {
+              "x": "11-11",
+              "y": 460
+            },
+            {
+              "x": "11-12",
+              "y": 5364
+            },
+            {
+              "x": "11-13",
+              "y": 4602
+            },
+            {
+              "x": "11-14",
+              "y": 1948
+            },
+            {
+              "x": "11-15",
+              "y": 1082
+            },
+            {
+              "x": "11-16",
+              "y": 784
+            },
+            {
+              "x": "11-17",
+              "y": 513
+            },
+            {
+              "x": "11-18",
+              "y": 502
+            },
+            {
+              "x": "11-19",
+              "y": 571
+            },
+            {
+              "x": "11-20",
+              "y": 592
+            },
+            {
+              "x": "11-21",
+              "y": 623
+            },
+            {
+              "x": "11-22",
+              "y": 487
+            },
+            {
+              "x": "11-23",
+              "y": 456
+            },
+            {
+              "x": "11-24",
+              "y": 486
+            },
+            {
+              "x": "11-25",
+              "y": 135665
+            }
+          ],
+          "cites": [
+            "views:en:Andy_Taylor_(guitarist):30d"
+          ]
+        },
+        {
+          "label": "Duran Duran",
+          "color": "#9ad9ff",
+          "points": [
+            {
+              "x": "10-27",
+              "y": 3207
+            },
+            {
+              "x": "10-28",
+              "y": 3065
+            },
+            {
+              "x": "10-29",
+              "y": 2976
+            },
+            {
+              "x": "10-30",
+              "y": 2884
+            },
+            {
+              "x": "10-31",
+              "y": 3821
+            },
+            {
+              "x": "11-01",
+              "y": 3671
+            },
+            {
+              "x": "11-02",
+              "y": 2683
+            },
+            {
+              "x": "11-03",
+              "y": 3139
+            },
+            {
+              "x": "11-04",
+              "y": 2925
+            },
+            {
+              "x": "11-05",
+              "y": 2454
+            },
+            {
+              "x": "11-06",
+              "y": 2763
+            },
+            {
+              "x": "11-07",
+              "y": 2652
+            },
+            {
+              "x": "11-08",
+              "y": 2577
+            },
+            {
+              "x": "11-09",
+              "y": 2422
+            },
+            {
+              "x": "11-10",
+              "y": 2330
+            },
+            {
+              "x": "11-11",
+              "y": 2078
+            },
+            {
+              "x": "11-12",
+              "y": 13095
+            },
+            {
+              "x": "11-13",
+              "y": 11808
+            },
+            {
+              "x": "11-14",
+              "y": 6160
+            },
+            {
+              "x": "11-15",
+              "y": 4073
+            },
+            {
+              "x": "11-16",
+              "y": 2906
+            },
+            {
+              "x": "11-17",
+              "y": 2576
+            },
+            {
+              "x": "11-18",
+              "y": 2764
+            },
+            {
+              "x": "11-19",
+              "y": 2733
+            },
+            {
+              "x": "11-20",
+              "y": 2510
+            },
+            {
+              "x": "11-21",
+              "y": 2830
+            },
+            {
+              "x": "11-22",
+              "y": 2355
+            },
+            {
+              "x": "11-23",
+              "y": 2061
+            },
+            {
+              "x": "11-24",
+              "y": 2166
+            },
+            {
+              "x": "11-25",
+              "y": 63746
+            }
+          ],
+          "cites": [
+            "views:en:Duran_Duran:30d"
+          ]
+        }
+      ],
+      "mark": 29
+    },
+    {
+      "id": "languages",
+      "t": "2026-11-25T00:01:00Z",
+      "until": "2026-11-25T00:01:23Z",
+      "title": "Readers by language",
+      "note": "Wikipedia language editions that day. A language is not a country.",
+      "kind": "bars",
+      "unit": "readers",
+      "items": [
+        {
+          "label": "English",
+          "text": "135,665",
+          "value": 135665,
+          "color": "#e6b98f",
+          "cites": [
+            "views:en:Andy_Taylor_(guitarist):2026-11-25"
+          ]
+        },
+        {
+          "label": "Italian",
+          "text": "15,275",
+          "value": 15275,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:it:Andy_Taylor:2026-11-25"
+          ]
+        },
+        {
+          "label": "Spanish",
+          "text": "6,549",
+          "value": 6549,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:es:Andy_Taylor:2026-11-25"
+          ]
+        },
+        {
+          "label": "German",
+          "text": "4,882",
+          "value": 4882,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:de:Andy_Taylor_(Musiker):2026-11-25"
+          ]
+        },
+        {
+          "label": "French",
+          "text": "2,913",
+          "value": 2913,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:fr:Andy_Taylor:2026-11-25"
+          ]
+        },
+        {
+          "label": "Portuguese",
+          "text": "2,848",
+          "value": 2848,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:pt:Andy_Taylor:2026-11-25"
+          ]
+        },
+        {
+          "label": "Dutch",
+          "text": "2,061",
+          "value": 2061,
+          "color": "#9ad9ff",
+          "cites": [
+            "views:nl:Andy_Taylor_(gitarist):2026-11-25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "t": "2026-11-25T00:01:24Z",
+      "until": "2026-11-25T00:01:44Z",
+      "title": "In the news that day",
+      "note": "Each outlet's headline links to its own article.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "DW",
+          "text": "Open",
+          "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654",
+          "cites": [
+            "news:dw:e1b7f742aed7"
+          ]
+        },
+        {
+          "label": "The Guardian",
+          "text": "Open",
+          "url": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
+          "cites": [
+            "news:guardian:779cda796145"
+          ]
+        },
+        {
+          "label": "France 24",
+          "text": "Open",
+          "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
+          "cites": [
+            "news:france24:01e95180931c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "film-sources",
+      "t": "2026-11-25T00:01:45Z",
+      "until": "2026-11-25T00:01:51Z",
+      "title": "Sources",
+      "note": "Licences per source. Map shapes and terrain are credited at the foot of the screen.",
+      "kind": "facts",
+      "items": [
+        {
+          "label": "Wikipedia articles",
+          "text": "CC BY-SA 4.0",
+          "url": "https://en.wikipedia.org/",
+          "cites": [
+            "wiki:rev:1388187764:1"
+          ]
+        },
+        {
+          "label": "Wikimedia pageviews",
+          "text": "CC0",
+          "url": "https://wikimedia.org/api/rest_v1/",
+          "cites": [
+            "views:en:Andy_Taylor_(guitarist):2026-11-25"
+          ]
+        },
+        {
+          "label": "Wikidata",
+          "text": "CC0 1.0",
+          "url": "https://www.wikidata.org/",
+          "cites": [
+            "wd:Q527834:P31"
+          ]
+        }
+      ]
+    }
+  ],
+  "generatedBy": {
+    "method": "claude",
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:07:51Z",
+    "costUsd": 0.002237
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "version": 1,
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-27T01:07:02Z",
+  "candidates": 65,
+  "mostRead": true,
+  "stories": [
+    {
+      "slug": "iowa-lead-azide-detonation",
+      "lens": "general",
+      "title": "Iowa lead azide detonation",
+      "summary": "The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa, citing spontaneous explosion risks.",
+      "about": "At exactly 9:00 am CST on November 25, 2026, the United States Army detonated approximately 9,500 pounds (4,300 kg) of lead azide stored at the Iowa Army Ammunition Plant near Middletown, Iowa. The material detonated consisted of 68 drums of lead azide, a primary explosive used to initiate munitions. The explosion sent smoke hundreds of feet into the air and the sound of two explosions could be heard miles away. The plume drifted to the south. A lead-dust plume from the explosion is predicted to travel as far as 100 miles (160 km) from the detonation site and potentially into the Mississippi River.",
+      "article": {
+        "title": "Iowa lead azide detonation",
+        "url": "https://en.wikipedia.org/wiki/Iowa_lead_azide_detonation",
+        "qid": "Q142278417"
+      },
+      "place": {
+        "name": "Iowa Army Ammunition Plant",
+        "lon": -91.24472222,
+        "lat": 40.79055556,
+        "country": "US",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-25:11"
+      },
+      "continent": "North America",
+      "heat": 100,
+      "why": [
+        "Reported by 5 outlets from 3 regions",
+        "Listed on Wikipedia's Current events",
+        "8 headlines over 19 hours",
+        "Read by 79,000 on Wikipedia that day"
+      ],
+      "readers": 78852,
+      "spike": 78852,
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "npr",
+          "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+          "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
+          "t": "2026-11-25T12:18:09Z",
+          "evidence": "news:npr:7c35b68fa871"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "US Army declares Iowa lead azide detonation ‘tremendously successful’",
+          "url": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful",
+          "t": "2026-11-25T19:41:49Z",
+          "evidence": "news:aljazeera:1c639daeb6d8"
+        },
+        {
+          "outlet": "guardian",
+          "title": "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
+          "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
+          "t": "2026-11-25T00:33:16Z",
+          "evidence": "news:guardian:47ff290bf9f5"
+        },
+        {
+          "outlet": "dw",
+          "title": "US Army to detonate unstable lead-based explosives in Iowa",
+          "url": "https://www.dw.com/en/us-army-to-detonate-unstable-lead-based-explosives-in-iowa/a-80043319",
+          "t": "2026-11-25T11:33:00Z",
+          "evidence": "news:dw:f6ef8ccc10cd"
+        },
+        {
+          "outlet": "france24",
+          "title": "US Army detonates lead explosives in Iowa despite contamination fears",
+          "url": "https://www.france24.com/en/americas/20261125-us-army-detonates-lead-explosives-iowa-despite-community-backlash",
+          "t": "2026-11-25T16:08:10Z",
+          "evidence": "news:france24:881956a58273"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-25:11",
+        "views:en:Iowa_lead_azide_detonation:2026-11-25",
+        "views:en:Iowa_lead_azide_detonation:prior",
+        "news:npr:7c35b68fa871",
+        "news:aljazeera:1c639daeb6d8",
+        "wd:Q142278417:P31",
+        "news:guardian:47ff290bf9f5",
+        "news:dw:f6ef8ccc10cd",
+        "news:france24:881956a58273"
+      ],
+      "headline": "The United States Army detonates nearly 5 tons of degrading lead azide at the Iowa Army Ammunition Plant in Middletown, Iowa, citing spontaneous explosion risks."
+    },
+    {
+      "slug": "thirty-one-people-are-killed-and-21-more-injured-after-the-o",
+      "lens": "accident",
+      "title": "Thirty-one people are killed and 21 more injured after the overturn and…",
+      "summary": "Thirty-one people are killed and 21 more injured after the overturn and explosion of a fuel tanker on Ring Road in Cairo, Egypt.",
+      "article": {
+        "title": "2026 Giza fuel tanker explosion",
+        "url": "https://en.wikipedia.org/wiki/2026_Giza_fuel_tanker_explosion",
+        "qid": "Q142293991"
+      },
+      "place": {
+        "name": "Cairo",
+        "lon": 31.23583333,
+        "lat": 30.04444444,
+        "country": "EG",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-25:8"
+      },
+      "continent": "Africa",
+      "heat": 71,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "Listed on Wikipedia's Current events",
+        "31 people involved, per the headlines"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
+          "t": "2026-11-25T22:18:06Z",
+          "evidence": "news:bbc:8ac00ea2108a"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "At least 30 killed in Egypt vehicle fire, health ministry says",
+          "url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says",
+          "t": "2026-11-25T18:55:23Z",
+          "evidence": "news:aljazeera:3bad40b887ec"
+        },
+        {
+          "outlet": "dw",
+          "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
+          "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175",
+          "t": "2026-11-25T21:37:00Z",
+          "evidence": "news:dw:08e39bb25efc"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-25:8",
+        "news:bbc:8ac00ea2108a",
+        "wd:Q142293991:P31",
+        "news:aljazeera:3bad40b887ec",
+        "news:dw:08e39bb25efc"
+      ],
+      "headline": "Thirty-one people are killed and 21 more injured after the overturn and explosion of a fuel tanker on Ring Road in Cairo, Egypt."
+    },
+    {
+      "slug": "gaza-war",
+      "lens": "conflict",
+      "title": "Gaza war",
+      "summary": "A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City. Seven more Palestinians are also killed and several injured in more Israeli airstrikes.",
+      "article": {
+        "title": "Gaza war",
+        "url": "https://en.wikipedia.org/wiki/Gaza_war",
+        "qid": "Q122962941"
+      },
+      "place": {
+        "name": "Al-Shati refugee camp",
+        "lon": 34.44539444,
+        "lat": 31.53219722,
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-25:2"
+      },
+      "continent": "Asia",
+      "heat": 69,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Israeli strike kills Hamas official, his wife and children",
+          "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
+          "t": "2026-11-25T11:24:37Z",
+          "evidence": "news:aljazeera:fb1846ef00ab"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+          "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo",
+          "t": "2026-11-25T14:06:13Z",
+          "evidence": "news:bbc:c49453b02b83"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
+          "t": "2026-11-25T23:06:06Z",
+          "evidence": "news:guardian:2eb146ad21c1"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-25:2",
+        "news:aljazeera:fb1846ef00ab",
+        "news:bbc:c49453b02b83",
+        "wd:Q122962941:P31",
+        "news:guardian:2eb146ad21c1"
+      ],
+      "update": {
+        "day": 8,
+        "previous": [
+          {
+            "date": "2026-11-24",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          },
+          {
+            "date": "2026-11-19",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          },
+          {
+            "date": "2026-11-18",
+            "slug": "gaza-war",
+            "title": "Gaza war"
+          }
+        ]
+      },
+      "headline": "A Hamas security official, his wife, and two daughters, are killed in an Israeli airstrike on the Al-Shati refugee camp near Gaza City."
+    },
+    {
+      "slug": "shenzhou-24",
+      "lens": "science",
+      "title": "Shenzhou 24",
+      "summary": "Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station, arriving aboard the Shenzhou-24 spacecraft alongside two Chinese astronauts to conduct scientific experiments during a five-day mission.",
+      "article": {
+        "title": "Shenzhou 24",
+        "url": "https://en.wikipedia.org/wiki/Shenzhou_24",
+        "qid": "Q138081643"
+      },
+      "place": {
+        "name": "Pakistan",
+        "lon": 68.55,
+        "lat": 29.33,
+        "country": "PK",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-25:20"
+      },
+      "continent": "Asia",
+      "heat": 68,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Pakistani astronaut launches into space aboard Chinese rocket",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/pakistani-astronaut-launches-into-space-aboard-chinese-rocket",
+          "t": "2026-11-25T02:44:45Z",
+          "evidence": "news:aljazeera:ef94c4539b50"
+        },
+        {
+          "outlet": "dw",
+          "title": "China launches Shenzhou-24 to Tiangong station",
+          "url": "https://www.dw.com/en/china-launches-shenzhou-24-to-tiangong-station/a-80042281",
+          "t": "2026-11-25T02:56:00Z",
+          "evidence": "news:dw:a0d093ca339a"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+          "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo",
+          "t": "2026-11-25T03:28:37Z",
+          "evidence": "news:bbc:cac104bb5984"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-25:20",
+        "news:aljazeera:ef94c4539b50",
+        "news:dw:a0d093ca339a",
+        "news:bbc:cac104bb5984",
+        "wd:Q138081643:P31"
+      ],
+      "headline": "Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station…"
+    },
+    {
+      "slug": "colombian-forces-rescue-all-hostages-after-supermarket-siege",
+      "lens": "conflict",
+      "title": "Colombian forces rescue all hostages after supermarket siege",
+      "summary": "Colombian forces rescue all hostages after supermarket siege",
+      "place": {
+        "name": "Colombia",
+        "lon": -73.17,
+        "lat": 3.37,
+        "country": "CO",
+        "role": "Named in the headlines"
+      },
+      "continent": "South America",
+      "heat": 66,
+      "why": [
+        "Reported by 5 outlets from 2 regions",
+        "8 headlines over 20 hours"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Gunmen hold dozens hostage in Colombia supermarket",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket",
+          "t": "2026-11-25T00:49:35Z",
+          "evidence": "news:aljazeera:80e92d438b13"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+          "t": "2026-11-25T03:57:11Z",
+          "evidence": "news:guardian:75a3a86ed42c"
+        },
+        {
+          "outlet": "france24",
+          "title": "🔴 Colombia president says all hostages freed, one assailant killed after supermarket hostage siege",
+          "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+          "t": "2026-11-25T07:20:50Z",
+          "evidence": "news:france24:23f238675216"
+        },
+        {
+          "outlet": "dw",
+          "title": "Colombian security forces storm supermarket, free hostages",
+          "url": "https://www.dw.com/en/colombian-security-forces-storm-supermarket-free-hostages/a-80043016",
+          "t": "2026-11-25T08:27:00Z",
+          "evidence": "news:dw:b961b0ea4c67"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo",
+          "t": "2026-11-25T18:41:33Z",
+          "evidence": "news:bbc:f3370d38161d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:aljazeera:80e92d438b13",
+        "news:guardian:75a3a86ed42c",
+        "news:france24:23f238675216",
+        "news:dw:b961b0ea4c67",
+        "news:bbc:f3370d38161d"
+      ],
+      "headline": "Gunmen hold dozens hostage in Colombia supermarket, Al Jazeera reports."
+    },
+    {
+      "slug": "salvadoran-national-kilmar-abrego-garcia-arrives-in-madrid",
+      "lens": "general",
+      "title": "Salvadoran national Kilmar Abrego Garcia arrives in Madrid",
+      "summary": "Salvadoran national Kilmar Abrego Garcia arrives in Madrid, Spain, after voluntarily leaving the United States following a legal dispute over his wrongful deportation to El Salvador in March 2025.",
+      "article": {
+        "title": "Deportation of Kilmar Abrego Garcia",
+        "url": "https://en.wikipedia.org/wiki/Deportation_of_Kilmar_Abrego_Garcia",
+        "qid": "Q133798584"
+      },
+      "place": {
+        "name": "Madrid",
+        "lon": -3.7033,
+        "lat": 40.4169,
+        "country": "ES",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-25:15"
+      },
+      "continent": "Europe",
+      "heat": 65,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 2,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
+          "t": "2026-11-25T12:42:11Z",
+          "evidence": "news:bbc:6b93b27b01b3"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+          "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
+          "t": "2026-11-25T02:40:59Z",
+          "evidence": "news:aljazeera:dbd05e9113fe"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+          "url": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+          "t": "2026-11-25T19:36:24Z",
+          "evidence": "news:guardian:0ef9df2957b1"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-25:15",
+        "news:bbc:6b93b27b01b3",
+        "wd:Q133798584:P31",
+        "news:aljazeera:dbd05e9113fe",
+        "news:guardian:0ef9df2957b1"
+      ],
+      "headline": "Salvadoran national Kilmar Abrego Garcia arrives in Madrid, Spain, after voluntarily leaving the United States following a legal dispute over his wrongful deportation to El Salvador in March 2025."
+    },
+    {
+      "slug": "andy-taylor-guitarist",
+      "lens": "person",
+      "title": "Andy Taylor (guitarist)",
+      "summary": "English guitarist (1961–2026)",
+      "about": "Andrew James Taylor was an English guitarist, best known as a member of Duran Duran and the Power Station. He also recorded and performed as a solo artist, and served as a guitarist, songwriter, and record producer for artists including Robert Palmer, Rod Stewart, the Almighty, Love and Money, Mark Shaw, Then Jerico and Belinda Carlisle.",
+      "article": {
+        "title": "Andy Taylor (guitarist)",
+        "url": "https://en.wikipedia.org/wiki/Andy_Taylor_(guitarist)",
+        "qid": "Q527834"
+      },
+      "place": {
+        "name": "Ibiza",
+        "lon": 1.43,
+        "lat": 38.98,
+        "country": "ES",
+        "role": "Place of death",
+        "evidence": "wd:Q527834:P20"
+      },
+      "continent": "Europe",
+      "heat": 65,
+      "why": [
+        "Reported by 3 outlets",
+        "3 outlets within 3 hours",
+        "Died this week",
+        "Read by 199,000 on Wikipedia that day"
+      ],
+      "readers": 199411,
+      "spike": 225,
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "dw",
+          "title": "Duran Duran guitarist Andy Taylor dies at 65",
+          "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654",
+          "t": "2026-11-25T22:53:00Z",
+          "evidence": "news:dw:e1b7f742aed7"
+        },
+        {
+          "outlet": "guardian",
+          "title": "Andy Taylor, guitarist in Duran Duran, dies aged 65",
+          "url": "https://www.theguardian.com/music/2026/nov/25/andy-taylor-duran-duran-guitarist-dead",
+          "t": "2026-11-25T21:41:34Z",
+          "evidence": "news:guardian:779cda796145"
+        },
+        {
+          "outlet": "france24",
+          "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+          "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
+          "t": "2026-11-25T23:37:18Z",
+          "evidence": "news:france24:01e95180931c"
+        }
+      ],
+      "related": [
+        "Duran Duran"
+      ],
+      "evidence": [
+        "views:en:Andy_Taylor_(guitarist):2026-11-25",
+        "views:en:Andy_Taylor_(guitarist):prior",
+        "views:en:Duran_Duran:2026-11-25",
+        "views:en:Duran_Duran:prior",
+        "news:dw:e1b7f742aed7",
+        "wd:Q527834:P31",
+        "news:guardian:779cda796145",
+        "news:france24:01e95180931c"
+      ],
+      "headline": "Andy Taylor also recorded and performed as a solo artist, and served as a guitarist, songwriter, and record producer for artists including Robert Palmer, Rod Stewart, the Almighty, Love and Money, Mark Shaw, Then Jerico…"
+    },
+    {
+      "slug": "senegal-reinstated-as-2025-africa-cup-of-nations-winners-ove",
+      "lens": "sports",
+      "title": "Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco",
+      "summary": "Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco",
+      "place": {
+        "name": "Senegal",
+        "lon": -14.78,
+        "lat": 15.14,
+        "country": "SN",
+        "role": "Named in the headlines"
+      },
+      "continent": "Africa",
+      "heat": 62,
+      "why": [
+        "Reported by 3 outlets from 3 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "sports",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "allafrica",
+          "title": "Senegal/Morocco: Senegal Reclaim Africa Cup of Nations Title After 11-Month Legal Fight",
+          "url": "https://allafrica.com/stories/202611250054.html",
+          "t": "2026-11-25T04:52:14Z",
+          "evidence": "news:allafrica:58a4c6c27088"
+        },
+        {
+          "outlet": "france24",
+          "title": "AFCON 2025: CAS gives title back to Senegal as Morocco vows to challenge verdict",
+          "url": "https://www.france24.com/en/tv-shows/sports/20261125-2025-afcon-cas-gives-title-to-senegal-as-morocco-vows-to-challenge-verdict",
+          "t": "2026-11-25T06:20:48Z",
+          "evidence": "news:france24:b8d22887fdd6"
+        },
+        {
+          "outlet": "npr",
+          "title": "Africa Cup title given back to Senegal after sports court rules against Morocco",
+          "url": "https://www.npr.org/2026/11/25/nx-s1-6053783/africa-cup-senegal-morocco",
+          "t": "2026-11-25T06:43:23Z",
+          "evidence": "news:npr:503d36725e02"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:allafrica:58a4c6c27088",
+        "news:france24:b8d22887fdd6",
+        "news:npr:503d36725e02"
+      ],
+      "headline": "Senegal Reclaim Africa Cup of Nations Title After 11-Month Legal Fight, AllAfrica reports."
+    },
+    {
+      "slug": "russian-casualties-in-ukraine-war-new-reports-suggest-death",
+      "lens": "conflict",
+      "title": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
+      "summary": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
+      "place": {
+        "name": "Ukraine",
+        "lon": 32.14,
+        "lat": 49.72,
+        "country": "UA",
+        "role": "Named in the headlines"
+      },
+      "continent": "Europe",
+      "heat": 61,
+      "why": [
+        "Reported by 2 outlets",
+        "700,000 people involved, per the headlines"
+      ],
+      "topic": "conflict",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "The Russian army’s secret death toll – podcast",
+          "url": "https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast",
+          "t": "2026-11-25T03:00:03Z",
+          "evidence": "news:guardian:f7be36771056"
+        },
+        {
+          "outlet": "france24",
+          "title": "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war",
+          "url": "https://www.france24.com/en/europe/20261125-kremlin-declines-comment-reports-700-000-russian-soldiers-killed-ukraine-war",
+          "t": "2026-11-25T15:14:07Z",
+          "evidence": "news:france24:97c7af478f38"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:f7be36771056",
+        "news:france24:97c7af478f38"
+      ],
+      "headline": "The Russian army’s secret death toll – podcast, The Guardian reports."
+    },
+    {
+      "slug": "pete-edochie",
+      "lens": "person",
+      "title": "Pete Edochie",
+      "summary": "Nigerian actor (1947–2026)",
+      "about": "Chief Peter Uwadiegwu Ogugua Edochie MON, popularly known as Pete Edochie, was a Nigerian actor. He rose to prominence in the 1980s with his portrayal of Okonkwo in a Nigerian Television Authority adaptation of Chinua Achebe's novel Things Fall Apart. He began his career as an administrator and broadcaster and later became a leading actor and has received several honours, including the Industry Merit Award from Africa Magic, a Lifetime Achievement Award from the Africa Film Academy, and the national honour of Member of the Order of the Niger conferred on him in 2003 by President Olusegun Obasanjo.",
+      "article": {
+        "title": "Pete Edochie",
+        "url": "https://en.wikipedia.org/wiki/Pete_Edochie",
+        "qid": "Q7171945"
+      },
+      "place": {
+        "name": "Enugu",
+        "lon": 7.4941666666667,
+        "lat": 6.4402777777778,
+        "country": "NG",
+        "role": "Place of death",
+        "evidence": "wd:Q7171945:P20"
+      },
+      "continent": "Africa",
+      "heat": 56,
+      "why": [
+        "Reported by 2 outlets from 2 regions",
+        "Died this week",
+        "Read by 61,000 on Wikipedia that day"
+      ],
+      "readers": 61123,
+      "spike": 555.7,
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "bbc",
+          "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo",
+          "t": "2026-11-25T12:24:12Z",
+          "evidence": "news:bbc:9e2b35daeee3"
+        },
+        {
+          "outlet": "allafrica",
+          "title": "Nigeria: Nollywood Legend Pete Edochie Dies",
+          "url": "https://allafrica.com/stories/202611250188.html",
+          "t": "2026-11-25T06:34:41Z",
+          "evidence": "news:allafrica:4e025025a04e"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "views:en:Pete_Edochie:2026-11-25",
+        "views:en:Pete_Edochie:prior",
+        "news:bbc:9e2b35daeee3",
+        "wd:Q7171945:P31",
+        "news:allafrica:4e025025a04e"
+      ],
+      "headline": "Edochie died from prostate cancer on 25 November 2026, at the age of 79."
+    },
+    {
+      "slug": "solomon-islands-prime-minister-matthew-wale-signs-a-treaty-w",
+      "lens": "general",
+      "title": "Solomon Islands prime minister Matthew Wale signs a treaty with Australian…",
+      "summary": "Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese to designate Australia as the \"primary security partner\" after ending the 2022 security pact with China.",
+      "article": {
+        "title": "Australia–Solomon Islands relations",
+        "url": "https://en.wikipedia.org/wiki/Australia%E2%80%93Solomon_Islands_relations",
+        "qid": "Q15949076"
+      },
+      "place": {
+        "name": "Solomon Islands",
+        "lon": 159.17,
+        "lat": -8.03,
+        "country": "SB",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-25:12"
+      },
+      "continent": "Oceania",
+      "heat": 54,
+      "why": [
+        "Reported by 3 outlets",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 1,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Australia’s security pact with Solomon Islands a blow to China’s influence in the Pacific",
+          "url": "https://www.theguardian.com/world/2026/nov/25/australia-solomon-islands-treaty-blow-to-china-pacific-influence",
+          "t": "2026-11-25T01:51:02Z",
+          "evidence": "news:guardian:d6d3387d2942"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Solomon Islands ends controversial security pact with China for Australian treaty",
+          "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno",
+          "t": "2026-11-25T03:15:12Z",
+          "evidence": "news:bbc:e7d9d6730e0a"
+        },
+        {
+          "outlet": "dw",
+          "title": "Australia, Solomon Islands sign sweeping pact seen as countering China",
+          "url": "https://www.dw.com/en/australia-solomon-islands-sign-sweeping-pact-seen-as-countering-china/a-80043646",
+          "t": "2026-11-25T10:51:00Z",
+          "evidence": "news:dw:0c4f82f58208"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-25:12",
+        "news:guardian:d6d3387d2942",
+        "news:bbc:e7d9d6730e0a",
+        "news:dw:0c4f82f58208",
+        "wd:Q15949076:P31"
+      ],
+      "headline": "Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese to designate Australia as the \"primary security partner\" after ending the 2022 security pact with China."
+    },
+    {
+      "slug": "judges-recommend-prosecutors-end-corruption-case-against-net",
+      "lens": "person",
+      "title": "Judges recommend prosecutors end corruption case against Netanyahu",
+      "summary": "Judges recommend prosecutors end corruption case against Netanyahu",
+      "about": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as prime minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.",
+      "article": {
+        "title": "Benjamin Netanyahu",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+        "qid": "Q43723"
+      },
+      "place": {
+        "name": "Israel",
+        "lon": 34.85,
+        "lat": 30.91,
+        "country": "IL",
+        "role": "Named in the headlines"
+      },
+      "continent": "Asia",
+      "heat": 50,
+      "why": [
+        "Reported by 3 outlets from 2 regions",
+        "3 outlets within 3 hours"
+      ],
+      "topic": "crime",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "france24",
+          "title": "In boost for Netanyahu, judges question corruption trial charges",
+          "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges",
+          "t": "2026-11-25T19:28:13Z",
+          "evidence": "news:france24:4b586e8b77b8"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+          "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o",
+          "t": "2026-11-25T19:47:39Z",
+          "evidence": "news:bbc:03d526814c54"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "Netanyahu says corruption trial ‘must end’ as court suggests dropping case",
+          "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case",
+          "t": "2026-11-25T20:29:22Z",
+          "evidence": "news:aljazeera:f651d66fc7f1"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:france24:4b586e8b77b8",
+        "news:bbc:03d526814c54",
+        "news:aljazeera:f651d66fc7f1"
+      ],
+      "update": {
+        "day": 8,
+        "previous": [
+          {
+            "date": "2026-11-18",
+            "slug": "israeli-parliament-elects-eisenkot-ally-matan-kahana-as-new",
+            "title": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker"
+          }
+        ]
+      },
+      "headline": "In boost for Netanyahu, judges question corruption trial charges, France 24 reports."
+    },
+    {
+      "slug": "two-children-among-six-dead-after-plane-crash-off-mississipp",
+      "lens": "disaster",
+      "title": "Two children among six dead after plane crash off Mississippi coast",
+      "summary": "Two children among six dead after plane crash off Mississippi coast",
+      "place": {
+        "name": "Mississippi",
+        "lon": -90,
+        "lat": 33,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 44,
+      "why": [
+        "Reported by 3 outlets",
+        "People involved, per the headlines: six"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Rescue crews search for six people after plane crash off Mississippi coast",
+          "url": "https://www.theguardian.com/us-news/2026/nov/24/mississippi-plane-crash",
+          "t": "2026-11-25T02:17:25Z",
+          "evidence": "news:guardian:d87a98d3662a"
+        },
+        {
+          "outlet": "sky",
+          "title": "Two children among six dead in plane crash",
+          "url": "https://news.sky.com/story/divers-find-bodies-of-six-people-including-two-children-after-us-plane-crash-13616273",
+          "t": "2026-11-25T06:38:00Z",
+          "evidence": "news:sky:d02106b79a33"
+        },
+        {
+          "outlet": "bbc",
+          "title": "Two children among six dead after plane crash off Mississippi coast",
+          "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo",
+          "t": "2026-11-25T19:26:44Z",
+          "evidence": "news:bbc:0552a842817d"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:d87a98d3662a",
+        "news:sky:d02106b79a33",
+        "news:bbc:0552a842817d"
+      ],
+      "headline": "Two children among six dead after plane crash off Mississippi coast, BBC News reports."
+    },
+    {
+      "slug": "king-tides-and-big-waves-batter-coastal-california",
+      "lens": "disaster",
+      "title": "King tides and big waves batter coastal California",
+      "summary": "King tides and big waves batter coastal California",
+      "place": {
+        "name": "California",
+        "lon": -120,
+        "lat": 37,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 39,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "disaster",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "guardian",
+          "title": "Judge orders transfer of Thomas Markle to face formal charges in California",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/25/thomas-markle-transfer-charges-california",
+          "t": "2026-11-25T20:06:57Z",
+          "evidence": "news:guardian:796aafd5f4dc"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "King tides and big waves batter coastal California",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/king-tides-and-big-waves-batter-coastal-california",
+          "t": "2026-11-25T23:20:03Z",
+          "evidence": "news:aljazeera:8039bab5800c"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:guardian:796aafd5f4dc",
+        "news:aljazeera:8039bab5800c"
+      ],
+      "headline": "King tides and big waves batter coastal California, Al Jazeera reports."
+    },
+    {
+      "slug": "bangladesh-s-minimum-wage-board-raises-the-monthly-minimum-w",
+      "lens": "economy",
+      "title": "Bangladesh's Minimum Wage Board raises the monthly minimum wage for garment…",
+      "summary": "Bangladesh's Minimum Wage Board raises the monthly minimum wage for garment workers from ৳12,500 to ৳17,000 following a 4–2 vote, a decision rejected by labour unions demanding at least ৳18,000 amid nearly a month of labour unrest and hundreds of factory closures.",
+      "article": {
+        "title": "2026 Bangladesh garment workers protests",
+        "url": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+        "qid": "Q142084937"
+      },
+      "place": {
+        "name": "Bangladesh",
+        "lon": 89.68,
+        "lat": 24.21,
+        "country": "BD",
+        "role": "Where it was reported",
+        "evidence": "wiki:2026-11-25:4"
+      },
+      "continent": "Asia",
+      "heat": 37,
+      "why": [
+        "Reported by 1 outlet",
+        "Listed on Wikipedia's Current events"
+      ],
+      "sources": 4,
+      "coverage": [
+        {
+          "outlet": "aljazeera",
+          "title": "Bangladesh garment workers protest over new wages",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/bangladesh-garment-workers-protest-over-new-wages",
+          "t": "2026-11-25T12:23:41Z",
+          "evidence": "news:aljazeera:7dc0ec7bcbf5"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "wiki:2026-11-25:4",
+        "wiki:2026-11-25:5",
+        "news:aljazeera:7dc0ec7bcbf5",
+        "wd:Q142084937:P31"
+      ],
+      "update": {
+        "day": 7,
+        "previous": [
+          {
+            "date": "2026-11-24",
+            "slug": "police-fire-tear-gas-and-stun-grenades-to-disperse-protestin",
+            "title": "Police fire tear gas and stun grenades to disperse protesting garment workers…"
+          },
+          {
+            "date": "2026-11-22",
+            "slug": "several-garment-factories-in-gazipur",
+            "title": "Several garment factories in Gazipur"
+          },
+          {
+            "date": "2026-11-19",
+            "slug": "across-bangladesh",
+            "title": "Across Bangladesh"
+          }
+        ]
+      },
+      "headline": "Bangladesh's Minimum Wage Board raises the monthly minimum wage for garment workers from ৳12,500 to ৳17,000 following a 4–2 vote…"
+    },
+    {
+      "slug": "musk-s-plan-to-send-a-million-spacex-data-satellites-into-sp",
+      "lens": "organization",
+      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "summary": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "about": "Space Exploration Technologies Corp., doing business as SpaceX, is an American conglomerate which is a aerospace manufacturer and provider of space transportation, telecommunications, infrastructure, and artificial intelligence (AI) services, headquartered at the Starbase development site in Starbase, Texas. The…",
+      "article": {
+        "title": "SpaceX",
+        "url": "https://en.wikipedia.org/wiki/SpaceX",
+        "qid": "Q193701"
+      },
+      "place": {
+        "name": "United States of America",
+        "lon": -97.48,
+        "lat": 39.54,
+        "country": "US",
+        "role": "Named in the headlines"
+      },
+      "continent": "North America",
+      "heat": 33,
+      "why": [
+        "Reported by 2 outlets from 2 regions"
+      ],
+      "topic": "science",
+      "foundBy": "outlets",
+      "sources": 0,
+      "coverage": [
+        {
+          "outlet": "sky",
+          "title": "US authorises SpaceX to deploy one million satellites to space",
+          "url": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493",
+          "t": "2026-11-25T18:03:00Z",
+          "evidence": "news:sky:b394be56452d"
+        },
+        {
+          "outlet": "aljazeera",
+          "title": "US grants SpaceX approval for 1 million space data centres",
+          "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres",
+          "t": "2026-11-25T19:13:02Z",
+          "evidence": "news:aljazeera:94b8395d382f"
+        }
+      ],
+      "related": [],
+      "evidence": [
+        "news:sky:b394be56452d",
+        "news:aljazeera:94b8395d382f"
+      ],
+      "headline": "US authorises SpaceX to deploy one million satellites to space, Sky News reports."
+    },
+    {
+      "slug": "ramayana-part-1",
+      "lens": "culture",
+      "title": "Ramayana: Part 1",
+      "summary": "2026 Indian film by Nitesh Tiwari",
+      "about": "Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana, which chronicle the life of Prince Rama from childhood up to his adventurous 14-year exile. The first part features an ensemble cast that includes Ranbir Kapoor, Yash, Sai Pallavi, Ravi Dubey, Anupam Kher, Lara Dutta, Shobana, Kajal Aggarwal, Rakul Preet Singh, Vivek Oberoi, Kunal Kapoor, Arun Govil, Adinath Kothare.",
+      "article": {
+        "title": "Ramayana: Part 1",
+        "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+        "qid": "Q135196186"
+      },
+      "place": {
+        "name": "India",
+        "lon": 79.36,
+        "lat": 22.69,
+        "country": "IN",
+        "role": "Country of origin",
+        "evidence": "wd:Q135196186:P495"
+      },
+      "continent": "Asia",
+      "heat": 13,
+      "why": [
+        "Read by 268,000 on Wikipedia that day"
+      ],
+      "readers": 268083,
+      "spike": 8,
+      "sources": 0,
+      "related": [],
+      "evidence": [
+        "views:en:Ramayana:_Part_1:2026-11-25",
+        "views:en:Ramayana:_Part_1:prior",
+        "wd:Q135196186:P31"
+      ],
+      "headline": "In November 2026, Namit Malhotra confirmed the postponement, explaining that the filmmakers required additional time to complete the film given its scale."
+    }
+  ]
+}
