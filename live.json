@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-28T10:38:23Z",
+  "quakes": [
+    {
+      "id": "us6000ucvm",
+      "t": "2026-11-23T02:40:58Z",
+      "mag": 6.5,
+      "place": "Vanuatu region",
+      "lon": 172.2672,
+      "lat": -13.5846,
+      "depthKm": 598,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvm"
+    },
+    {
+      "id": "us6000ud6h",
+      "t": "2026-11-24T11:06:14Z",
+      "mag": 6.4,
+      "place": "Mauritius - Reunion region",
+      "lon": 65.6995,
+      "lat": -17.7049,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud6h"
+    },
+    {
+      "id": "us6000ucly",
+      "t": "2026-11-21T10:45:33Z",
+      "mag": 5.9,
+      "place": "238 km SW of Yanglong, China",
+      "lon": 96.6398,
+      "lat": 37.1958,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly"
+    },
+    {
+      "id": "us6000ue1h",
+      "t": "2026-11-28T02:25:05Z",
+      "mag": 5.2,
+      "place": "93 km W of San Antonio de los Cobres, Argentina",
+      "lon": -67.2363,
+      "lat": -24.299,
+      "depthKm": 174.617,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1h"
+    },
+    {
+      "id": "us6000ue1b",
+      "t": "2026-11-28T01:17:42Z",
+      "mag": 5.1,
+      "place": "73 km NNW of Phôngsali, Laos",
+      "lon": 101.7463,
+      "lat": 22.2546,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1b"
+    },
+    {
+      "id": "us6000ue1a",
+      "t": "2026-11-28T01:08:45Z",
+      "mag": 4.8,
+      "place": "167 km N of Hicks Bay, New Zealand",
+      "lon": 178.3785,
+      "lat": -36.0927,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1a"
+    },
+    {
+      "id": "us6000udw4",
+      "t": "2026-11-27T11:02:25Z",
+      "mag": 4.8,
+      "place": "183 km SSE of Vilyuchinsk, Russia",
+      "lon": 159.3662,
+      "lat": 51.3928,
+      "depthKm": 35.488,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udw4"
+    },
+    {
+      "id": "us6000ue1d",
+      "t": "2026-11-28T01:36:46Z",
+      "mag": 4.7,
+      "place": "130 km NE of Bitung, Indonesia",
+      "lon": 125.9667,
+      "lat": 2.2665,
+      "depthKm": 55.237,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1d"
+    },
+    {
+      "id": "us6000ue32",
+      "t": "2026-11-28T09:16:40Z",
+      "mag": 4.6,
+      "place": "132 km E of Neiafu, Tonga",
+      "lon": -172.7339,
+      "lat": -18.5231,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue32"
+    },
+    {
+      "id": "us6000ue1k",
+      "t": "2026-11-28T02:55:35Z",
+      "mag": 4.6,
+      "place": "26 km NNW of Cuya, Chile",
+      "lon": -70.2869,
+      "lat": -18.945,
+      "depthKm": 78.805,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1k"
+    },
+    {
+      "id": "us6000ue2z",
+      "t": "2026-11-28T08:30:38Z",
+      "mag": 4.5,
+      "place": "154 km WSW of Banda Aceh, Indonesia",
+      "lon": 94.1555,
+      "lat": 4.7979,
+      "depthKm": 33.891,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue2z"
+    },
+    {
+      "id": "us6000ue0a",
+      "t": "2026-11-27T21:47:28Z",
+      "mag": 4.5,
+      "place": "Izu Islands, Japan region",
+      "lon": 140.3307,
+      "lat": 31.1518,
+      "depthKm": 10,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue0a"
+    },
+    {
+      "id": "us6000udwh",
+      "t": "2026-11-27T12:48:16Z",
+      "mag": 4.5,
+      "place": "131 km WNW of Neiafu, Tonga",
+      "lon": -175.1805,
+      "lat": -18.3294,
+      "depthKm": 271.603,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udwh"
+    },
+    {
+      "id": "aka2026xhgksb",
+      "t": "2026-11-24T16:37:31Z",
+      "mag": 4.2,
+      "place": "10 km WSW of Point MacKenzie, Alaska",
+      "lon": -150.154,
+      "lat": 61.32,
+      "depthKm": 44.6,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xhgksb"
+    },
+    {
+      "id": "aka2026xnvqjt",
+      "t": "2026-11-28T06:11:42Z",
+      "mag": 4,
+      "place": "10 km WSW of Point MacKenzie, Alaska",
+      "lon": -150.163,
+      "lat": 61.333,
+      "depthKm": 39.5,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xnvqjt"
+    }
+  ],
+  "events": [
+    {
+      "id": "EONET_26661",
+      "kind": "wildfire",
+      "title": "Wildfire Little Ridge, Highland, Virginia",
+      "t": "2026-11-21T23:15:00Z",
+      "lon": -79.791367,
+      "lat": 38.313617,
+      "size": "900 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26661"
+    },
+    {
+      "id": "EONET_26662",
+      "kind": "wildfire",
+      "title": "Wildfire White Oak Flat, Alleghany, Virginia",
+      "t": "2026-11-20T13:16:00Z",
+      "lon": -79.862117,
+      "lat": 37.8422,
+      "size": "2,237 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26662"
+    },
+    {
+      "id": "EONET_26568",
+      "kind": "wildfire",
+      "title": "Wildfire Greene - Caney Creek Lane, Greene, Tennessee",
+      "t": "2026-11-18T14:11:00Z",
+      "lon": -82.7985,
+      "lat": 36.36301667,
+      "size": "500 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26568"
+    },
+    {
+      "id": "EONET_26569",
+      "kind": "wildfire",
+      "title": "Prescribed Fire 2027 TXTMR HFR RX, Matagorda, Texas",
+      "t": "2026-11-18T09:44:00Z",
+      "lon": -95.80795,
+      "lat": 28.762433,
+      "size": "1,016 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26569"
+    },
+    {
+      "id": "EONET_26571",
+      "kind": "wildfire",
+      "title": "Prescribed Fire OAK Compartment 29 RX, Bibb, Alabama",
+      "t": "2026-11-18T09:18:00Z",
+      "lon": -87.347136,
+      "lat": 32.945935,
+      "size": "713 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26571"
+    },
+    {
+      "id": "EONET_26572",
+      "kind": "wildfire",
+      "title": "Prescribed Fire rx-Lapham Good Oak 2026, Waukesha, Wisconsin",
+      "t": "2026-11-18T08:47:00Z",
+      "lon": -88.3992015,
+      "lat": 43.0403647,
+      "size": "638 acres",
+      "agency": "IRWIN",
+      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26572"
+    }
+  ],
+  "sources": [
+    {
+      "id": "usgs",
+      "name": "USGS Earthquake Hazards Program",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/",
+      "license": "Public domain (U.S. Government work)",
+      "ok": true
+    },
+    {
+      "id": "eonet",
+      "name": "NASA EONET",
+      "url": "https://eonet.gsfc.nasa.gov/",
+      "license": "NASA data, no copyright restrictions; credited with the reporting agency",
+      "ok": true
+    }
+  ]
+}
